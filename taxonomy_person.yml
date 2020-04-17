@@ -1,5 +1,5 @@
 # This migration shows importing from a single XML file.
-id: tax_person_1
+id: fart444
 label: Pages content
 migration_group: default
 source:
@@ -32,6 +32,14 @@ source:
       name: id
       label: 'Unique Id'
       selector: 'person[@role="interviewee"]/persName[1]/forename'
+    -
+      name: gender
+      label: 'Gender'
+      selector: 'person[@role="interviewee"]/sex'
+    -
+      name: birth
+      label 'Date of Birth'
+      selector: 'person[@role="interviewee"]/birth/@when'
  
 
   # Under 'ids', we identify source fields populated above which will uniquely
@@ -47,7 +55,9 @@ process:
   name: surname
   'field_person_preferred_name/family': surname 
   'field_person_preferred_name/given': id
-  field_test_plain_text: surname
+  field_test_plain_text: birth
+  field_PLACEHOLDER: gender
+  field_cat_date_begin: birth
 
   
 destination:

@@ -7,7 +7,7 @@ source:
   # This is one or more fully-qualified URLs or file paths.
   urls: 
     - "http://digital.library.iit.edu/sites/default/files/feeds/voices/matznerJ.xml"
-	- "http://digital.library.iit.edu/sites/default/files/feeds/voices/nehrichW.xml"
+    - "http://digital.library.iit.edu/sites/default/files/feeds/voices/nehrichW.xml"
   data_fetcher_plugin: http
   data_parser_plugin: xml
   #namespaces:

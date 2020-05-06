@@ -8,7 +8,6 @@ source:
   header_row_count: 1
   keys:
     - uid
-    
   column_names:
     -
         uid: UID
@@ -33,15 +32,19 @@ process:
     plugin: default_value
     default_value: geo_location
     
-  name: name  
+  name: name
+  'path/alias': auth_alias
   field_unique_identifier: uid
-  field_authority_link: uri
+  'field_authority_link/uri': uri
+  'field_authority_link/title': uri
   'field_geo_geolocation/lng': long
   'field_geo_geolocation/lat': lat
   'description/value': desc
   'description/format':
     plugin: default_value
     default_value: basic_html
+
+
 
 destination:
   plugin: entity:taxonomy_term

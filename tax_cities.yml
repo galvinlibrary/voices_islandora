@@ -1,0 +1,25 @@
+# This is a migration configuration for city data in a csv file extracted from the voices.iit.edu website
+id: migrate_cities_csv1
+label: 'Migrate cities from csv file'
+migration_group: default
+source:
+  plugin: csv
+  path:  '/var/www/html/drupal/web/sites/default/files/CitiesINGEST.csv'
+  header_row_count: 1
+  keys: uid
+  column_names:
+    -
+        uid: uid
+    -
+        name: name
+process:
+  vid:
+    plugin: default_value
+    default_value: geo_location
+    
+  name: name  
+  field_unique_identifier: uid
+
+
+destination:
+  plugin: entity:taxonomy_term

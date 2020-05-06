@@ -1,0 +1,47 @@
+# This is a migration configuration for country data in a csv file extracted from the voices.iit.edu website
+id: some_id
+label: 'Migrate countries from csv file'
+migration_group: default
+source:
+  plugin: csv
+  path:  '/var/www/html/drupal/web/sites/default/files/tax_countries.csv'
+  header_row_count: 1
+  keys:
+    - uid
+    
+  column_names:
+    -
+        uid: UID
+    -
+        name: Name
+    -
+        auth_alias: URL_alias
+    -
+        source: Source
+    -   
+        uri: URL
+    -
+        alt_uri: Alt_text
+    -
+        lat: Latitude
+    -
+        long: Longitude
+    -
+        desc: Description
+process:
+  vid:
+    plugin: default_value
+    default_value: geo_location
+    
+  name: name  
+  field_unique_identifier: uid
+  field_authority_link: uri
+  'field_geo_geolocation/lng': long
+  'field_geo_geolocation/lat': lat
+  'description/value': desc
+  'description/format':
+    plugin: default_value
+    default_value: basic_html
+
+destination:
+  plugin: entity:taxonomy_term

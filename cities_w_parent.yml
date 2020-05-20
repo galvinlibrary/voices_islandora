@@ -54,7 +54,7 @@
         plugin: entity_lookup
         entity_type: taxonomy_term
         value_key: name
-        source: relationship-parent-term
+        source: city_parent
 
 
     destination:

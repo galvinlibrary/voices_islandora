@@ -1,0 +1,71 @@
+# This is a migration configuration for camps data in a csv file extracted from the voices.iit.edu website
+id: camps
+label: 'Migrate camps from csv file'
+migration_group: camps
+source:
+  plugin: csv
+  path:  '/var/www/html/drupal/web/sites/default/files/camps.csv'
+  header_row_count: 1
+  keys:
+    - uid
+  column_names:
+    -
+        uid: uid
+    -
+        name: Name
+    -
+        alias: URL
+    -
+        source: Source
+    -
+        uri: auth
+    -
+        uri_alt: auth_alt
+    -
+        source2: Source2
+    -
+        uri2: auth2
+    -
+        uri2_alt: auth2_alt
+    -
+        found_date: founding
+    -
+        dis_date: disolve
+    -
+        alt_name: alt_name
+    -
+        desc: Description
+    -
+        location: Location
+    -
+        liberated: liberated
+    -
+        lat: Latitude
+    -
+        long: Longitude
+        
+process:
+  vid:
+    plugin: default_value
+    default_value: camps_ghettos
+    
+  name: name
+  field_unique_identifier: uid
+  'path/alias': alias
+  'field_authority_link/0/uri': uri
+  'field_authority_link/0/title': uri
+  'field_authority_link/0/source': source
+  'field_authority_link/1/uri': uri2
+  'field_authority_link/1/title': uri2
+  'field_authority_link/1/source': source2
+  'field_geo_geolocation/lng': long
+  'field_geo_geolocation/lat': lat
+  'description/value': desc
+  'description/format':
+    plugin: default_value
+    default_value: basic_html
+        
+        
+destination:
+  plugin: entity:taxonomy_term
+        

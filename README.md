@@ -10,3 +10,4 @@ Migration Routine:
     * `drush migrate-import new_cities`
   * Import camps:
     * `drush migrate-import camp`
+    * Add 'liberated by' manually

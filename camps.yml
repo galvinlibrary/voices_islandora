@@ -1,7 +1,7 @@
 # This is a migration configuration for camps data in a csv file extracted from the voices.iit.edu website
-id: camps
+id: camp
 label: 'Migrate camps from csv file'
-migration_group: camps
+migration_group: camp
 source:
   plugin: csv
   path:  '/var/www/html/drupal/web/sites/default/files/camps.csv'
@@ -58,13 +58,24 @@ process:
   'field_authority_link/1/uri': uri2
   'field_authority_link/1/title': uri2
   'field_authority_link/1/source': source2
-  'field_geo_geolocation/lng': long
+  'field_geo_geolocation/lng': long     
   'field_geo_geolocation/lat': lat
   'description/value': desc
   'description/format':
     plugin: default_value
     default_value: basic_html
-        
+  field_cat_date_end: dis_date
+  field_cat_date_begin: found_date
+  field_corp_alt_name:
+    plugin: explode
+    delimiter: ';'
+    source: alt_name
+ 
+  field_geolocation:
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    value_key: name
+    source: location
         
 destination:
   plugin: entity:taxonomy_term

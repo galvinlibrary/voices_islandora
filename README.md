@@ -11,3 +11,6 @@ Migration Routine:
   * Import camps:
     * `drush migrate-import camp`
     * Add 'liberated by' manually
+  * Import sub-camps:
+    * `drush migrate-import subcamp`
+   

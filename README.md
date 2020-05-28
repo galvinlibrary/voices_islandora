@@ -8,3 +8,5 @@ Migration Routine:
     * `drush migrate-import some_id`
   * Import cities:
     * `drush migrate-import new_cities`
+  * Import camps:
+    * `drush migrate-import camp`

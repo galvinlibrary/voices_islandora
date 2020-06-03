@@ -1,6 +1,7 @@
+
 #!/usr/bin/python3
 
-loc_dict = {  
+loc_dict = {
   "vothL336": "Algiers",
   "vothL517": "Ghardaïa",
   "vothL319": "Buenos Aires",
@@ -728,5 +729,48 @@ loc_dict = {
   "vothL32": "Lohengrinstrasse",
   "vothL37": "Feldafing displaced persons camp",
   "vothL118": "Community home for displaced Jewish refugees",
-  "vothL119": "ORT School" 
+  "vothL119": "ORT School"
+  "vothL968": "Austria"
+  "vothL969": "Belarus"
+  "vothL970": "Chile"
+  "vothL226": "Czechoslovakia"
+  "vothL235": "Estonia"
+  "vothL124": "France"
+  "vothL125": "Germany"
+  "vothL222": "Poland"
+  "vothL219": "Greece"
+  "vothL225": "Hungary"
+  "vothL971": "Italy"
+  "vothL972": "Lithuania"
+  "vothL973": "Romania"
+  "vothL223": "Russia"
+  "vothL974": "Slovakia"
+  "vothL975": "Switzerland"
+  "vothL229": "Ukraine"
+  "vothL233": "Latvia"
+  "vothL976": "Palestine"
+  "vothL977": "Belgium"
+  "vothL978": "Georgia"
+  "vothL979": "Spain"
+  "vothL232": "Albania"
+  "vothL980": "United States"
+  "vothL981": "United Kingdom"
+  "vothL982": "Morocco"
+  "vothL983": "Argentina"
+  "vothL984": "Algeria"
+  "vothL985": "Hungray"
+  "vothL986": "Turkmenistan"
+  "vothL987": "Turkey"
+  "vothL988": "China"
+  "vothL989": "Azerbaijan"
+  "vothL990": "Uzbekistan"
+  "vothL991": "Brazil"
+  "vothL992": "Czech Republic"
+  "vothL993": "South Africa"
+  "vothL994": "Mexico"
+  "vothL995": "Serbia"
+  "vothL996": "Egypt"
+  "vothL997": "Kazakhstan"
+  "vothL998": "Portugal"
+  "vothL999": "Tajikistan"  
 }

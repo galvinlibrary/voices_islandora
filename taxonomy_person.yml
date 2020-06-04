@@ -3,6 +3,8 @@ id: tax_pers_xxx
 label: Person Taxonomy
 migration_group: default
 source:
+  constants:
+    pathalias: '/person/'
   plugin: url
   # This is one or more fully-qualified URLs or file paths.
   urls: 
@@ -12,7 +14,7 @@ source:
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/rosetR.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/ostlandI.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/breslauerA.xml"
-    - "http://digital.library.iit.edu/sites/default/files/voices_fix/franzH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/franzH.xml"    
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/gutmanE.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/kimmelmannA.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/moellerE.xml"
@@ -77,7 +79,6 @@ source:
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/kestenbergJ.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/marsonM.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/wolfI.xml"
-    - "http://digital.library.iit.edu/sites/default/files/voices_fix/voth_glossary_tei.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/gurmanovaR.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/moskovitzM.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/freilichE.xml"
@@ -92,7 +93,6 @@ source:
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/kuechlerL.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/bassfreundJ.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/schlaefrigF.xml"
-    - "http://digital.library.iit.edu/sites/default/files/voices_fix/voth_locations_tei.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/stumachinL.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/aIlmar.xml"
     - "http://digital.library.iit.edu/sites/default/files/voices_fix/rudo.xml"
@@ -156,6 +156,10 @@ source:
       label: 'Gender'
       selector: 'person[@role="interviewee"][1]/sex[1]'
     -
+      name: age
+      label: 'Age at time of interview'
+      selector: 'person[@role="interviewee"][1]/age[1]'
+    -
       name: birth
       label: 'Date of Birth'
       selector: 'person[@role="interviewee"][1]/birth[1]/@when'
@@ -172,10 +176,37 @@ source:
       label: 'Role During Holocaust'
       selector: 'person[@role="interviewee"][1]/trait[@type="role_during_holocaust"]/desc[1]'
     -
+      name: tattoo
+      label: 'Role During Holocaust'
+      selector: 'person[@role="interviewee"][1]/trait[@type="tattoo"]/desc[1]'
+    -
       name: legacy_uid
       label: 'UID from old voices site'
       selector: 'person[@role="interviewee"][1]/@id[1]'
-    
+    -
+      name: birthplace
+      label: 'Place of birth'
+      selector: 'person[@role="interviewee"][1]/birth[1]/@ref'
+    -
+      name: internment
+      lablel: 'Place of internment'
+      selector: 'person[@role="interviewee"][1]/event[@type="internment"]/@ref'
+    -
+      name: liberation
+      lablel: 'location at time of liberation'
+      selector: 'person[@role="interviewee"][1]/event[@type="liberation"]/@ref'
+    -
+      name: invasion
+      lablel: 'location at time of invasion'
+      selector: 'person[@role="interviewee"][1]/event[@type="invasion"]/@ref'
+    -
+      name: liberation_date
+      lablel: 'date at time of liberation'
+      selector: 'person[@role="interviewee"][1]/event[@type="liberation"]/@when'
+    -
+      name: alias
+      label: 'Person Alias'
+      selector: 'person[@role="interviewee"][1]/persName[@type="alias"]/name'
 
   # Under 'ids', we identify source fields populated above which will uniquely
   # identify each imported item.
@@ -187,18 +218,58 @@ process:
   vid:
     plugin: default_value
     default_value: person
-  name: surname
+  name: 
+    plugin: concat
+    source:
+      - firstname
+      - surname
+    delimiter: ' '
   'field_person_preferred_name/family': surname 
   'field_person_preferred_name/given': firstname
-  #field_test_plain_text: birth
-  field_PLACEHOLDER_gender: gender
+  #field_test_plain_text: internment
+  field_gender: gender
+  'path/alias':
+    plugin: concat
+    source:
+      - constants/pathalias
+      - surname
   field_cat_date_begin: birth
-  field_PLACEHOLDER_faith: faith
-  field_PLACEHOLDER_marital_status: marital_status
-  field_PLACEHOLDER_holocaust_role: holocaust_role
-  field_PLACEHOLDER_tattoo: tattoo
+  #field_cat_date_end: death
+  field_marital_status: marital_status
+  field_role_during_the_holocaust: holocaust_role
+  field_tattoo: tattoo
   field_PLACEHOLDER_legacy_uid: legacy_uid
-  
+  field_faith: faith
+  field_age: age
+  field_liberationlocation:
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: geo_location
+    value_key: name
+    ignore_case: true
+    source: liberation
+  field_date_of_liberation: liberation_date
+  field_internmentlocation:
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: camps_ghettos
+    value_key: name
+    ignore_case: true
+    source: internment
+  'field_birthplace/rel_type':
+    plugin: default_value
+    default_value: schema:birthPlace
+  'field_birthplace/target_id':
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: geo_location
+    value_key: name
+    ignore_case: true
+    source: birthplace  
+    
 destination:
   plugin: entity:taxonomy_term
 migration_dependencies: {}

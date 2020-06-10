@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Julius Klüver; September 19, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT29M10.741S" id="kluverJ_9-132">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-132</note>
+                                <placeName ref="Funkkaserne displaced-person's camp"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-19</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="kluverJ_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="kluverJ_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="kluverJ" role="interviewee">
+                        <persName>
+                            <forename>Julius</forename>
+                            <surname>Klüver</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>43</age>
+                        <birth ref="Dniprovs'ke"/>
+                        <faith>Mennonite</faith>
+                        <nationality key="Ukraine"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                        <event type="invasion" ref="Zaporizhia">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="München" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#kluverJ_de">
+                <!-- begin spool 9-132 -->
+                <div lang="en">
+                    <u who="#boderD" start="1.417" end="x">[In English] September 19, 1946 in a large refugee center in the Funkkasernen we are interviewing Mr. Julius Klüver, a leader of the Mennonite Group, which moved gradually from [Name der Stadt unverständlich] Russia up to the American Zone in Germany.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="24.086" end="x">Also sagen Sie uns wieder, Herr Klüver, wie heißen Sie, wie alt sind Sie, wo sind Sie geboren?</u>
+                    <u who="#kluverJ" start="31.353" end="x">Ich heiße Julius Klüver, bin 43 Jahre alt. Bin geboren in [unverständlich] Ekaterinslav Dneprovsk in der Ukraine auf dem Gut meines Vaters [Name des Gutes unverständlich ].</u>
+                    <u who="#boderD" start="49.257" end="x">Also gut, Herr Klüver, wo waren Sie und was hat Ihnen passiert wenn der Krieg angefangen hat?</u>
+                    <u who="#kluverJ" start="58.094" end="x">Als der Krieg anfing war ich in der Ukraine in der Stadt [unverständlich]. Ich arbeitete in einer Fabrik als Buchhalter.</u>
+                    <u who="#boderD" start="77.347" end="x">Also was hat Ihnen passiert als der Krieg angefangen hat?</u>
+                    <u who="#kluverJ" start="92.722" end="x">Als der Krieg anfing arbeitete ich weiter in der Fabrik bis die Deutschen kamen. Es war das Bestreben der Mennoniten, sowie mein Bestreben so schnell wie möglich nach dem Westen zu gehen, und am besten zu unseren Mennoniten nach Kanada, den USA oder Paraguay zu gehen. Das war unser altes Ziel—noch von 1920—und dem Ziel wollten wir nachgehen.</u>
+                    <u who="#boderD" start="130.767" end="x">Sagen Sie mir mal, wie viele Mennoniten waren in Ihrer Gemeinde?</u>
+                    <u who="#kluverJ" start="136.201" end="x">Im Jahre 1930 waren es ungefähr achtzig tausend [80.000] Mennoniten.</u>
+                    <u who="#boderD" start="147.207" end="x">Wo haben die alle gelebt?</u>
+                    <u who="#kluverJ" start="149.237" end="x">Gelebt haben die Meisten in Süd-Russland.</u>
+                    <u who="#boderD" start="152.972" end="x">Sagen Sie, waren die meisten Mennoniten Deutsche?</u>
+                    <u who="#kluverJ" start="156.677" end="x">Die Mennoniten sind Holländer, holländischer Abstammung. Sie kamen von Holland nach Süd Russland auf den Ruf der Kaiserin Katharina, der Zweiten, und später, sowie mein Vater, der kam auch später, kamen, hm, kamen nach Russland und die sind da, um die Ukraine zu kolonisieren. Sie, hm, sie gingen von Holland und von der Süd—von der Westküste zu der Nordküste und gingen sie weg wegen ihrem Religionsbekenntnis und wegen der Wehrbekenntnis. In Russland wurde uns versprochen, dass wir die Wehrbekenntnis können halten</u>
+                    <u who="#boderD" start="200.512" end="x">Und was soll das heißen?</u>
+                    <u who="#kluverJ" start="201.898" end="x">. . . also nicht als Soldaten eingezogen werden gegen unser Religionsbekenntnis.</u>
+                    <u who="#boderD" start="208.055" end="x">Und nun und das haben die Russen gehalten?</u>
+                    <u who="#kluverJ" start="211.260" end="x">Das haben die Russen gehalten bis 1920.</u>
+                    <u who="#boderD" start="216.272" end="x">Hat der Zar niemals die Mennoniten einberufen?</u>
+                    <u who="#kluverJ" start="219.567" end="x">In der Zaren Zeit brauchten wir das Gewehr nicht zu nehmen, wir mussten Arbeitsdienst für die Försterei leiten.</u>
+                    <u who="#boderD" start="228.935" end="x">Und dann—wann wurden die Mennoniten zum ersten Mal einberufen?</u>
+                    <u who="#kluverJ" start="234.037" end="x">Als die, die Sowjet Republik—zur Zeit der Gründung der Sowjet Republik.</u>
+                    <u who="#boderD" start="237.543" end="x">Dann fingen sie an die Mennoniten einzuberufen? Was haben die Mennoniten dann getan?</u>
+                    <u who="#kluverJ" start="246.260" end="x">Die Mennoniten haben sich abgesagt und wurden dafür—kamen dafür vors Gericht. So wurde auch ich 1923 vor das Gericht gerufen und es dauerte sehr lange bis ich wegen meiner religiösen Bekenntnis vom Wehrdienst freigesprochen wurde. Und 1923 . . .</u>
+                    <u who="#boderD" start="269.352" end="x">Und wie wurden Sie frei?</u>
+                    <u who="#kluverJ" start="271.081" end="x">Man konnte freigesprochen werden nur auf weil das Gericht—das sowjetische Gericht uns davon freisprach.</u>
+                    <u who="#boderD" start="280.009" end="x">Hat das Sowjet Gericht jeden Einzelnen vor Gericht gezogen?</u>
+                    <u who="#kluverJ" start="285.081" end="x">Es sind viele von unseren jungen Männern in der Zeit vors Gericht gegangen, viele wurden vors Gericht gegeben. Viele sind freigesprochen worden, viele nicht.</u>
+                    <u who="#boderD" start="294.250" end="x">Und was hat man mit denen getan, die nicht freigesprochen wurden?</u>
+                    <u who="#kluverJ" start="297.545" end="x">Man hat Einige einberufen, aber die meisten mussten Arbeitsdienst in Sibirien leisten.</u>
+                    <u who="#boderD" start="303.780" end="x">Nun, also, was hat passiert, wie die Deutschen nach Russland kamen?</u>
+                    <u who="#kluverJ" start="309.623" end="x">Als jetzt die Deutschen nach Russland kamen, so ist ein Teil von Mennoniten sofort nach dem Westen gegangen.</u>
+                    <u who="#boderD" start="316.554" end="x">Das heißt—den Deutschen begegnet?</u>
+                    <u who="#kluverJ" start="319.668" end="x">Nein, also die haben sich zurück nach dem Westen gezogen. Uns wäre es einerlei gewesen, wer gekommen wäre, wäre es ein französische Armee gewesen oder eine holländische Armee oder eine türkische Armee gewesen—wir wollten nur weg aus dem Osten.</u>
+                    <u who="#boderD" start="336.325" end="x">Warum?</u>
+                    <u who="#kluverJ" start="337.831" end="x">Weil unsere Eltern, unsere Geschwister, unsere Männer fast alle waren im Exil in Sibirien. Uns wurde all das Hab und Gut abgenommen.</u>
+                    <u who="#boderD" start="348.412" end="x">Und wann ist das passiert?</u>
+                    <u who="#kluverJ" start="350.069" end="x">Das ist passiert vom Jahre 1920 bis 1935. So, zum Beispiel, bei mir; mein Vater war reich und hatte ein Gut. Mein Vater wurde 1920 erschossen, weil er ein reicher Mann war. Ich war ein junger Mann von 17 Jahren und ich habe mich jahrelang versteckt gehalten, um nicht erschossen zu werden. Also mein Ziel war nur weg zu unseren Brüdern nach Kanada. In Kanada habe ich drei [3] Schwestern. Keine Geschwister hab ich mehr hier. Meine Frau hat vier [4] Schwestern in Kanada, wir wollten nur zurück zu unseren Mennoniten. So, zum Beispiel, von meinen zehn [10] Onkeln, die ich da hatte, sind neun [9] sind neun [9] Onkel weg. Fünf [5] sind in Sibirien gestorben, vier [4] sind im Gefängnis gestorben und verhaftet wurden sie nur deshalb, weil sie reiche Leute waren.</u>
+                    <u who="#boderD" start="413.014" end="x">Nun, also, wie—wann fingen Sie an nach dem Westen zu gehen? Wann sind die Deutschen—haben Sie in Saratov damals gelebt, wie die Deutschen kamen?</u>
+                    <u who="#kluverJ" start="420.767" end="x">Nein.</u>
+                    <u who="#boderD" start="421.378" end="x">Ja?</u>
+                    <u who="#kluverJ" start="421.921" end="x">Ich, ich lebte in Zaporoje. Als die Deutschen im Winter 41 herein kamen, im Jahre 42 ging ein Teil von uns schon nach Polen. Ich ging im Anfang des Jahres 43 nach Polen.</u>
+                    <u who="#boderD" start="439.785" end="x">Haben die Deutschen das erlaubt?</u>
+                    <u who="#kluverJ" start="441.532" end="x">Ja, die haben es erlaubt. Wir konnten, wir konnten nach . . . nach dem Westen gehen. Ich ging nach Polen und war in Polen beinah zwei [2] Jahre. Als aber die Front näher kam nach Polen, ging ich von Polen weiter nach Deutschland. Da kam ich bis Chemnitz. In Chemnitz war ich nur 2 Wochen, dann kam der große Fliegerangriff. Ich wurde ausgebombt und ich entfloh mit meiner Familie weiter nach dem Westen. So kam ich nach München.</u>
+                    <u who="#boderD" start="472.792" end="x">Wann kamen Sie nach München?</u>
+                    <u who="#kluverJ" start="474.491" end="x">Nach München kam ich im . . . im Januar 1945.</u>
+                    <u who="#boderD" start="480.949" end="x">Haben die Deutschen von den Mennoniten einen Arbeitsdienst verlangt?</u>
+                    <u who="#kluverJ" start="486.292" end="x">Einige . . . einige von Mennoniten mussten arbeiten. Einige wurden sogar einberufen oder sollten einberufen werden. Und . . . und . . . aber Wenige sind gegangen. Die Meisten waren auf ihren religiösen Stand wegen der Wehrlosigkeit und haben gearbeitet—verschiedene Arbeiten und haben sich dem Wehrdienst entzogen.</u>
+                    <u who="#boderD" start="511.636" end="x">Nun und wo . . . wie viele Mennoniten sind jetzt hier in diesem Lager zu diesem Punkt?</u>
+                    <u who="#kluverJ" start="517.491" end="x">In diesem Lager sind wir fünfhundert zweiundfünzig [552] Mennoniten, wo die Meisten nach Paraguay gehen wollen. Und von denen . . . und . . . und Einige wollen nach Kanada gehen zu den Verwandten, von denen die schon Affidavit haben.</u>
+                    <u who="#boderD" start="533.015" end="x">Dann haben die Kanadier den Mennoniten erlaubt nicht in den Wehrdienst einzutreten?</u>
+                    <u who="#kluverJ" start="538.117" end="x">Ja, die Kanadier selbst– so viel wie mir bekannt ist—haben in diesem Krieg auch meistenteils nur Arbeitsdienst geleistet. Nur Einige sind freiwillig in den Wehrmachtsdienst gegangen.</u>
+                    <u who="#boderD" start="550.286" end="x">Was meinen Sie—die Kanadier im Allgemeinen oder die kanadischen Mennoniten?</u>
+                    <u who="#kluverJ" start="553.943" end="x">Die Kanadischen Mennoniten.</u>
+                    <u who="#boderD" start="556.184" end="x">Nun sagen Sie mal, wie haben sich diese 500 Mennoniten versammelt? Mit wie Vielen sind Sie weg gegangen?</u>
+                    <u who="#kluverJ" start="565.804" end="x">Ich bin mit meiner Familie weg gegangen.</u>
+                    <u who="#boderD" start="568.335" end="x">Wie viel Leute waren das?</u>
+                    <u who="#kluverJ" start="569.672" end="x">Vier Personen. Hier haben wir uns gesammelt aus der ganzen amerikanischen Zone. Einzeln, fast alles Frauen und Kinder.</u>
+                    <u who="#boderD" start="579.672" end="x">Wo sind die Männer?</u>
+                    <u who="#kluverJ" start="580.847" end="x">Die Männer, die Meisten sind in Sibirien. Die wurden verhaftet im Jahre 36 und 37 in Russland, noch vor dem Kriege.</u>
+                    <u who="#boderD" start="591.491" end="x">Und diesen Männer wurde erlaubt in Sibirien Mennoniten zu sein?</u>
+                    <u who="#kluverJ" start="596.834" end="x">Die sind in Haft, im Lager, als, hm, in Arbeit stehend. Wir haben keine Nachricht von Ihnen und die Frauen wissen auch nicht, ob sie noch am Leben sind oder nicht.</u>
+                    <u who="#boderD" start="609.105" end="x">Also von den 500 Personen, die hier versammelt sind, wie viele sind da erwachsene Männer?</u>
+                    <u who="#kluverJ" start="616.587" end="x">Es sind ungefähr ein Drittel Männer.</u>
+                    <u who="#boderD" start="622.593" end="x">Und die Anderen sind Frauen und Kinder?</u>
+                    <u who="#kluverJ" start="624.804" end="x">Frauen und Kinder. Wir haben ungefähr 250 Kinder hier.</u>
+                    <u who="#boderD" start="630.117" end="x">Und denken Sie, dass, dass die Kanadier Sie rein lassen werden?</u>
+                    <u who="#kluverJ" start="634.696" end="x">Ja, das denke ich sicher. Also nach Paraguay haben wir schon die Erlaubnis und in kurzer Zeit soll der erste Transport mit 430 Mennoniten nach Paraguay gehen, wo auch ganze mennonitische Kolonien sind in, in Paraguay. Die gehen zu ihren Verwandten nach Paraguay und zu ihren Bekannten in diesen mennonitischen Kolonien.</u>
+                    <u who="#boderD" start="658.204" end="x">Sagen Sie mir, wieso kommt es, wie viele Generationen von Ihrer Familie haben in Russland gelebt?</u>
+                    <u who="#kluverJ" start="666.168" end="x">Mein Grossvater kam nach Russland als Kleiner, als Kind.</u>
+                    <u who="#boderD" start="673.379" end="x">Also das war ungefähr wie viele Jahre zurück?</u>
+                    <u who="#kluverJ" start="675.740" end="x">Das war ungefähr achtzig [80] oder neunzig [90] Jahre zurück, neunzig [90] Jahre zurück.</u>
+                    <u who="#boderD" start="679.848" end="x">Und sagen Sie mir, wieso kommt es, dass die Mennoniten in Russland die deutsche Sprache behalten haben?</u>
+                    <u who="#kluverJ" start="686.547" end="x">Weil wir hatten, wir sprechen untereinander immer noch holländisch, das friesische Platt. Wir haben nur die Gesangbücher, unsere, unsere Bibel und Schulbücher haben wir in deutscher Sprache. Anfänglich waren wir in holländischer Sprache, aber weil in Süd-Russland viele deutsche Kolonien waren unter den Mennonitischen, und der deutsche Markt mit Büchern, die mehr aus dem Fach waren, hat unsere Schule und die Religion den Jungs die Bücher in deutscher Sprache gegeben. Wir aber sprechen zu Hause—auch jetzt hier—alle unter uns nur die holländische Sprache.</u>
+                    <u who="#boderD" start="733.604" end="x">Nun sagen Sie mal, Herr Klüver, in welcher Hinsicht unterscheiden sich die Mennonitischen Religion von den anderen Protestantischen Religionen mit Ausnahme der [unverständlich] Gewehr tragen?</u>
+                    <u who="#kluverJ" start="748.827" end="x">Erstens die Hauptsache ist, bei uns ist nicht Kleintaufe sondern Großtaufe. Das ist die, die erste Hauptlinie.</u>
+                    <u who="#boderD" start="758.086" end="x">Was ist die Großtaufe?</u>
+                    <u who="#kluverJ" start="759.441" end="x">Also bei uns werden sie getauft, wenn siebzehn [17], achtzehn [18], neunzehn [19] Jahre alt. Nicht als klein, sondern erst wenn man das Alter zwischen siebzehn [17] und neunzehn [19] Jahre erreicht.</u>
+                    <u who="#boderD" start="770.206" end="x">Zweitens?</u>
+                    <u who="#kluverJ" start="771.743" end="x">Zweitens ist die Wehrlosigkeit. Drittens schwören wir nicht.</u>
+                    <u who="#boderD" start="777.201" end="x">Sie schwören nicht?</u>
+                    <u who="#kluverJ" start="779.643" end="x">Nein. Wir sagen ja, ja oder nein, nein, aber ein Gelübde oder einen Schwur legen wir nicht an.</u>
+                    <u who="#boderD" start="786.492" end="x">Nicht einmal zu ihren, hm, Lande, zu Ihrem Vaterland?</u>
+                    <u who="#kluverJ" start="790.209" end="x">Auch nicht.</u>
+                    <u who="#boderD" start="792.631" end="x">Aber was sind die Anderen . . . aber anders sie sind im allgemeinen Protestant?</u>
+                    <u who="#kluverJ" start="799.300" end="x">Protestant, ja protestantisch.</u>
+                    <u who="#boderD" start="802.462" end="x">Nun sagen Sie mal, wo waren Sie dann in der letzten Zeit des Krieges, das letzte Jahr des Krieges, wenn Deutschland schon den Krieg allmählich verloren hat?</u>
+                    <u who="#kluverJ" start="816.480" end="x">Ich war von 43, von anfangs 43 bis Ende 45 in Polen. Ich lebte in Leibenstadt, ich arbeite als Buchhalter in einem Betrieb</u>
+                    <u who="#boderD" start="828.799" end="x">In Polen?</u>
+                    <u who="#kluverJ" start="829.594" end="x">In Polen.</u>
+                    <u who="#boderD" start="830.317" end="x">Und wann sind Sie in die amerikanische Zone gegangen?</u>
+                    <u who="#kluverJ" start="832.950" end="x">Zur amerikanischen Zone kam ich im Januar 1945.</u>
+                    <u who="#boderD" start="836.878" end="x">Und bevor waren sie in Polen?</u>
+                    <u who="#kluverJ" start="838.788" end="x">In Polen.</u>
+                    <u who="#boderD" start="839.613" end="x">Nun da kamen doch . . . wo waren Sie als die Russen nach Polen kamen?</u>
+                    <u who="#kluverJ" start="843.300" end="x">Als die Front näher nach Polen kam, ging ich zurück zu einigen guten Bekannten und westlich nach Deutschland.</u>
+                    <u who="#boderD" start="853.884" end="x">Haben die Deutschen das erlaubt?</u>
+                    <u who="#kluverJ" start="855.180" end="x">Ja, sie haben das erlaubt.</u>
+                    <u who="#boderD" start="857.150" end="x">Nun waren Sie in irgendwelchen Gegenden, die schwer gebombt worden sind?</u>
+                    <u who="#kluverJ" start="861.650" end="x">Ich war . . . von Polen kam ich nach Chemnitz. Da war ich zwei [2] Wochen und wollte mir da Arbeit suchen. Und ich hatte mir auch ein Zimmer gemietet da, aber das Haus wurde in zwei [2] Wochen ganz zerbombt und ich wollte mit nur einem Koffer meiner Familie das Leben retten und bin zu Fuß nach der Stadt Weier und von Weier nach München. In München lebte mein Vetter und ich hab mich dem angeschlossen.</u>
+                    <u who="#boderD" start="891.574" end="x">Lebte er immer in München oder war er auch ein Flüchtling?</u>
+                    <u who="#kluverJ" start="894.176" end="x">Er war auch ein Flüchtling, er kam von Russland 1942.</u>
+                    <u who="#boderD" start="900.381" end="x">Und dann, hm, haben Sie sich hier allmählich versammelt und sind jetzt fertig weiter zu reisen?</u>
+                    <u who="#kluverJ" start="907.291" end="x">Wir waren . . . als wir nach München kamen, wurde ich in der Stadt nicht untergebracht. Ich ging—ich musste gehen zu den Bauern [unverständlich]. Die Familie war auch mit mir beim Bauern. [unverständlich - ganz besonders starkes Rauschen im Hintergrund des Tonbandes]. Ich habe da über ein Jahr als Knecht beim Bauern gearbeitet.</u>
+                    <u who="#boderD" start="923.809" end="x">Und wo war ihre Familie?</u>
+                    <u who="#kluverJ" start="925.297" end="x">Die Familie war auch mit mir beim Bauern.</u>
+                    <u who="#boderD" start="927.627" end="x">Sie haben eine Frau und zwei [2] Kinder?</u>
+                    <u who="#kluverJ" start="929.646" end="x">Eine Frau und zwei [2] Töchter, die haben alle gearbeitet beim Bauern.</u>
+                    <u who="#boderD" start="933.973" end="x">Beim Bauern?</u>
+                    <u who="#kluverJ" start="934.877" end="x">Ja, ohne Bezahlung, wir lebten mit unserer Lebensmittelkarte und bekamen zusätzlich etwas Milch von ihm.</u>
+                    <u who="#boderD" start="943.381" end="x">Was heißt gelebt mit Ihrer Lebensmittelkarte? Hat der Bauer sie nicht gefüttert?</u>
+                    <u who="#kluverJ" start="947.369" end="x">Nein, also es war so. Wir bekamen unsere Lebensmittelkarten und dazu mussten arbeiten. Zusätzlich haben wir etwas Milch von ihm bekommen.</u>
+                    <u who="#boderD" start="957.773" end="x">Und das andere Essen haben Sie bezahlen müssen?</u>
+                    <u who="#kluverJ" start="960.315" end="x">Das habe ich bezahlt.</u>
+                    <u who="#boderD" start="961.731" end="x">Wo von haben Sie das bezahlt?</u>
+                    <u who="#kluverJ" start="963.189" end="x">Ich hatte noch Geld von meinem früheren Verdienst. Es war nicht—da brauchte man nicht viel Geld zu haben, um die Lebensmittel aufzukaufen, die man jetzt bekam auf die Karte.</u>
+                    <u who="#boderD" start="977.418" end="x">Sie sagen, Sie hatten noch etwas mit, was für ein Geld war das?</u>
+                    <u who="#kluverJ" start="984.810" end="x">Das waren Deutsche Mark, Reichsmark.</u>
+                    <u who="#boderD" start="989.250" end="x">Wann haben Sie die umgetauscht von Rubel?</u>
+                    <u who="#kluverJ" start="993.358" end="x">Russische Rubel, das war nicht gespart in Russischen Rubel. Das war das, was ich in Polen verdient habe. Das bekamen wir schon bezahlt in Deutschen Reichsmark. Also von Russischen Rubeln hatte ich kein Geld, also keine Ersparnis.</u>
+                    <u who="#boderD" start="1008.400" end="x">Also wollen wir das klar machen. Sie und Ihre Familie haben bei einem Bauern gearbeitet. Nicht wahr?</u>
+                    <u who="#kluverJ" start="1013.713" end="x">Ja.</u>
+                    <u who="#boderD" start="1015.129" end="x">Und der hat Ihnen das Essen nicht frei gegeben?</u>
+                    <u who="#kluverJ" start="1018.906" end="x">Das war wegen dem Gesetz. Wer Lebensmittelkarten hat, darf nicht beim Bauern essen, wenn er sein eigenes Aus . . . Aushalt hat.</u>
+                    <u who="#boderD" start="1029.659" end="x">Ja, wozu haben Sie die Lebensmittelkarten genommen?</u>
+                    <u who="#kluverJ" start="1033.466" end="x">Das war so, das war so—alle Flüchtlinge haben gelebt und haben Karten bekommen. Weil ich meine Familie mit mir hatte. Wenn ich ledig wäre, hätt ich können . . . die Lebensmittelkarte nicht bekommen und bei ihm essen, beim Bauern. Aber weil ich Familie hatte, deshalb hab ich mit der Familie . . .</u>
+                    <u who="#boderD" start="1050.653" end="x">Aha.</u>
+                    <u who="#kluverJ" start="1051.135" end="x">Die Frau hat selber gekocht.</u>
+                    <u who="#boderD" start="1052.854" end="x">Aha. Und Sie bezahlten ihr Essen mit den Karten, Sie haben ihm die Karten, die Lebensmittelkarten gegeben und er gab Ihnen ab und zu etwas Milch? Und er hat Ihnen nichts gezahlt?</u>
+                    <u who="#kluverJ" start="1062.243" end="x">Nein, Geld hat er mir nicht gezahlt. Er hat gesagt wir arbeiten für die Wohnung und für die, für die paar Sachen, die er mir gegeben hat. Ich hatte einen Tisch und ein paar Stühle und dafür musste ich arbeiten.</u>
+                    <u who="#boderD" start="1073.044" end="x">Was heißt er hat sie gegeben?</u>
+                    <u who="#kluverJ" start="1074.540" end="x">Er hat sie rein gestellt in mein Zimmer.</u>
+                    <u who="#boderD" start="1076.776" end="x">Oh, er hat Sie Ihnen gegeben!</u>
+                    <u who="#kluverJ" start="1077.976" end="x">Ja.</u>
+                    <u who="#boderD" start="1080.267" end="x">Nun war dieser Bauer ein Nazi?</u>
+                    <u who="#kluverJ" start="1083.436" end="x">Er war bis 1936 Nazi. Dann ist er aus der Partei rausgegangen, weil er Angst hatte und würde sein Gut verlieren. Er war ein reicher Bauer, ein [unverständlich] Bauer und deshalb hat er nicht mit den Nazis gestimmt. Er meinte, dass mit der Zeit es wird solche Gesellschaften geben, die darauf aus sind Genossenschaften daraus . . .</u>
+                    <u who="#boderD" start="1108.225" end="x">Wie in Russland die landwirtschaftlichen Genossenschaften?</u>
+                    <u who="#kluverJ" start="1109.020" end="x">Ja, so was auf diese Art, deshalb war . . . wurde er mit der Zeit gegen die Nazis gestimmt. Anfänglich war er mit ihnen und war ein Parteimitglied bis 1936.</u>
+                    <u who="#boderD" start="1121.942" end="x">Und Sie glauben, dass solch ein Bauer nicht durch Bekannte oder Verwandte gewusst hat was in den Konzentrationslagern vorgeht?</u>
+                    <u who="#kluverJ" start="1132.496" end="x">Ich denk, er kann es nicht gewusst haben. Er hat auch wenig Interesse daran. Und Gemeinschaft hatte er auch keine. Hier in Bayern hatten die Bauern sehr kleine Gemeinschaften untereinander.</u>
+                    <u who="#boderD" start="1147.026" end="x">Nun sagen Sie mir, Sie haben doch die Deutschen beobachten können, was hat der Bauer über den Krieg gedacht?</u>
+                    <u who="#kluverJ" start="1157.430" end="x">Viele von ihnen haben geglaubt, dass Deutschland gewinnen wird. Aber Viele haben auch prophezeit, dass Deutschland den Krieg nie gewinnen wird, denn die Übermacht war zu gross.</u>
+                    <u who="#boderD" start="1171.960" end="x">Und wo waren Sie an dem Tage als Deutschland sich ergeben hat?</u>
+                    <u who="#kluverJ" start="1175.725" end="x">Da war ich in diesem Dorf beim Bauern.</u>
+                    <u who="#boderD" start="1178.478" end="x">Nun was haben die Leute dann gesagt?</u>
+                    <u who="#kluverJ" start="1181.623" end="x">Sehr viele von den Deutschen haben sich sehr gefreut, dass der Krieg zu Ende ist und damit ihre Söhne nach Hause kommen. Und dann haben sich dann sind die Bauern wieder ihrer Arbeit gewidmet. Sie haben sich gedacht: ‚Wir werden es jetzt schlecht haben anfänglich—aber mit der Zeit werden wir uns doch wieder vollständig erholen.“ Sie haben Hoffnung gehabt für eine bessere Zukunft.</u>
+                    <u who="#boderD" start="1207.718" end="x">Sagen Sie, haben die Bauern während des Krieges gut gegessen?</u>
+                    <u who="#kluverJ" start="1211.784" end="x">Die Meisten ja. Die haben es verstanden nicht alles abzuliefern und da hatten sie für sich und haben wohl [unverständlich—starkes Rauschen im Tonband], die Meisten.</u>
+                    <u who="#boderD" start="1224.025" end="x">Und nun als Beobachter—was denken Sie von der deutschen Lage jetzt?</u>
+                    <u who="#kluverJ" start="1235.091" end="x">Ja, wie soll ich Ihnen dies erklären? Ich habe so wenig Interesse an der Lage jetzt hier, mein Interesse und meine Gedanken sind nur drüben. So schnell wie möglich von hier weg, dass ich endlich eine Heimat habe. Seit 1920 habe ich keine Ruhe . . . keine ruhige Nacht gehabt und eigentlich möchte ich einmal—eine Nacht - in Ruhe schlafen. Und auch eine kleine, kleine Heimat zu haben. Hier denken viele Deutsche es wird ihnen bald wieder besser gehen. Von Vielen habe ich das gehört, wie ich im Dorf noch war. Das sie immerhin hoffen drei [3] oder vier [4] Jahre werden sie es schwer haben, aber dann werden sie doch ein besseres Leben haben, ein freieres Leben haben als zur Zeit der Nazi gehabt haben.</u>
+                    <u who="#boderD" start="1290.294" end="x">Nun sagen Sie, was war das Verhältnis des Bauern, mit dem Sie gelebt haben, was war deren Verhältnis zu den Juden?</u>
+                    <u who="#kluverJ" start="1306.571" end="x">Das Verhalten zu den Juden war schlecht. Das habe ich gespürt bei den Bauern auch. Das jüdische Volk wurde nicht gemocht.</u>
+                    <u who="#boderD" start="1317.950" end="x">Und wie stand es zwischen den Mennoniten in Russland?</u>
+                    <u who="#kluverJ" start="1321.546" end="x">Die Mennoniten haben keine Nation verachtet. Im Gegenteil—die Mennoniten haben sich auch für so eine religiös verfolgte Nation, wie die Juden, gefühlt. Wir haben uns sehr oft mit den Juden verglichen. Nur, dass wir ein kleines, armes Völkchen sind und die Juden sind sehr reich und in der Mehrzahl mehr und sie haben stärkere Organisationen. Wir sind zu wenig und zu schwach. Aber die Verfolgung, die religiöse Verfolgungen der letzten vier hundert [400] Jahre war so wie bei den Juden. Wir haben keine Heimat, wir haben kein Land, dass wir unseres nennen können. Wir waren in Holland, wir waren bei Danzig im polnischen Korridor, wir waren in Süd-Russland und nirgendwo finden wir eine Heimat.</u>
+                    <u who="#boderD" start="1370.775" end="x">Sagen Sie mir, kann man eine Heimat haben, wenn man diese Heimat nicht mit Gewehr verteidigen will?</u>
+                    <u who="#kluverJ" start="1377.534" end="x">Nach unserer Ansicht—ja. Nach unserem Glauben und religiösen Bekenntnis kann man eine Heimat haben, auch wenn man sie nicht mit dem Gewehr verteidigen kann.</u>
+                    <u who="#boderD" start="1391.389" end="x">In allen anderen Fällen—erkennen die Mennoniten den Staat an? Das heißt, zahlen Sie Steuern?</u>
+                    <u who="#kluverJ" start="1400.773" end="x">Ja, ja, in allen Fällen—die Mennoniten—wir bezahlen Steuern . . .</u>
+                    <u who="#boderD" start="1403.894" end="x">Erkennen Sie den Staat an?</u>
+                    <u who="#kluverJ" start="1405.009" end="x">Wir erkennen den Staat an.</u>
+                    <u who="#boderD" start="1406.478" end="x">Haben Sie je gehört von der Sekte in Amerika—die Jehovas Zeugnisse?</u>
+                    <u who="#kluverJ" start="1411.972" end="x">Nein.</u>
+                    <u who="#boderD" start="1414.878" end="x">Das ist eine andere Sekte, wie, zum Beispiel die Dukhobors, die wollen keine Steuern zahlen.</u>
+                    <u who="#kluverJ" start="1417.888" end="x">Nein, habe ich noch nie gehört.</u>
+                    <u who="#boderD" start="1424.677" end="x">So, die Mennoniten zahlen ihre Steuern?</u>
+                    <u who="#kluverJ" start="1426.755" end="x">Sehr gern. Bitte ich weiß von früher und auch jetzt—wir sind nicht geizig. Wir zahlen, wir wollen arbeiten, wir wollen auch unsere Religion haben und wir wollen unsere Pflichten gegen den Staat erfüllen.</u>
+                    <u who="#boderD" start="1440.622" end="x">Sie sagten, Sie arbeiten als Buchhalter, gibt es viele Mennoniten, die nicht auf dem Lande arbeiten?</u>
+                    <u who="#kluverJ" start="1446.598" end="x">Sehr wenig. Die Meisten sind alle Bauern.</u>
+                    <u who="#boderD" start="1453.146" end="x">Gibt es welche Mennoniten in Mexiko?</u>
+                    <u who="#kluverJ" start="1455.899" end="x">Ja, es gibt Mennoniten in Mexiko.</u>
+                    <u who="#boderD" start="1458.429" end="x">Wo leben diese?</u>
+                    <u who="#kluverJ" start="1460.507" end="x">Das kann ich Ihnen nicht genau sagen, ich weiß nur, dass es in Mexiko auch Mennoniten gibt.</u>
+                    <u who="#boderD" start="1465.056" end="x">Waren diese von Kanada übersiedelt oder sie direkt von Russland gekommen?</u>
+                    <u who="#kluverJ" start="1472.207" end="x">Das kann ich Ihnen genau nicht sagen.</u>
+                    <u who="#boderD" start="1474.267" end="x">Und wieso sind sie nach Paraguay gekommen?</u>
+                    <u who="#kluverJ" start="1477.562" end="x">Die, die haben schon ab April [unverständlich] ein Bestimmung von der Paraguay Regierung, dass alle Mennoniten—ohne jegliche Bedingung—frei nach diesem Land kommen können - ohne Gesundheitskontrolle des Gesundheitszustandes können alle nach Paraguay kommen. Das sind unsere Mennoniten, die haben in dem großen Chaco Gebiet, wo keiner richtig konnte durchkommen, da haben unsere Mennoniten Kolonien gebaut und unsere Kolonien blühen dort.</u>
+                    <u who="#boderD" start="1510.901" end="x">Nun sagen Sie mal—in ihrer Gruppe sind da mehr Frauen, wie Männer?</u>
+                    <u who="#kluverJ" start="1515.642" end="x">Viel mehr Frauen wie Männer.</u>
+                    <u who="#boderD" start="1517.491" end="x">Also was wird aus diesen Frauen werden? Viele von ihnen werden nicht wissen, ob sie Witwen sind oder nicht. Und dann darf sich eine Mennonitin mit einem Nicht-Mennoniten verheiraten?</u>
+                    <u who="#kluverJ" start="1528.919" end="x">Nein. Sie dürfen—nach unseren Gesetzen—nur unsere Mennoniten heiraten.</u>
+                    <u who="#boderD" start="1536.521" end="x">Nun wird es nicht eine schwierige Situation bringen?</u>
+                    <u who="#kluverJ" start="1541.521" end="x">Bis jetzt nicht. [Pause] Nein, ich meine nicht.</u>
+                    <u who="#boderD" start="1549.907" end="x">Ich meine bloß vom Standpunkt, von unserem, dass ist doch eine schwere Situation sein wird, Frauen zu haben, die sich keine Männer finden können</u>
+                    <u who="#kluverJ" start="1563.311" end="x">Ja, das wird vielleicht schwer sein, aber wir haben bis, bisher in unseren Kolonien, haben wir bisher sehr wenige gemischte Ehen gehabt. Jetzt—in letzter Zeit ist es mehr geworden, weil von unseren Männern viele weg sind. Deswegen haben auch Mennonitische Frauen geheiratet mit Anderen als Mennoniten.</u>
+                    <u who="#boderD" start="1589.044" end="x">Sagen Sie, Herr Klüver, tuen die Mennoniten Leute von anderen Religionen bekehren?</u>
+                    <u who="#kluverJ" start="1596.345" end="x">Nein, nein, das ist nur von unserer Gemeinde.</u>
+                    <u who="#boderD" start="1601.375" end="x">Zum Beispiel sagen wir, wenn jemand Mennonite werden will, würden sie ihn aufnehmen?</u>
+                    <u who="#kluverJ" start="1607.942" end="x">Nein, er muss als Mennonite geboren werden. Das ist kein . . . nicht nur Religion . . . wir sehen uns als Volk.</u>
+                    <u who="#boderD" start="1616.328" end="x">Also zum Beispiel, wenn ein Spanier, ein Uruguyaner, hm, sieht, wie Sie leben und ihr Leben ihm gefällt, kann er doch nicht Mennonite werden?</u>
+                    <u who="#kluverJ" start="1629.081" end="x">Nein. Es werden sehr große Ausnahmen ge . . . , es werden Ausnahmen gemacht. Wenn dieser, hm, Spanier oder andere Nationalitäten, wenn der in unserer Kolonie, in unserem Dorf wohnt und unsere Gebräuche und unsere Religion annimmt und unsere Sprache erlernt und unter unseren Leuten wohnt, dann kann eine Ausnahme gemacht werden. Dann muss er sich taufen lassen.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1656.913" end="x">[In English] This concludes Spool 132 - an interview with Mr. Julius Klüver - a so-called Leader of the Germanic Group of the Funkkasernen Camp in, hm, near München. This is the first case that we have interviewed a displaced person, who took—so to say - advantage of the situation in Russia to move west and to get to a country where their reluctance to carry arms because of religious principles should be respected. September 19, 1956 in Munich, Germany at the UNRA Detention Camp, a Illinois Institute of Technology wire recording. The machine is not at—in the best order, one condenser is broken, seems to be broken of, because the machine got a very rough ride. But nevertheless we took the record, because we hope that the transcription will be satisfactory. September 19, 1946—Illinois Institute of Technology wire recording.</u>
+                </div>
+                <!-- end spool 9-132 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#kluverJ_en">
+                <!-- begin spool 9-132 -->
+                <div lang="en">
+                    <p>[This is a translation of Spool 132. The interviewee is Mr. Julius Klver, <placeName ref="München">Munich</placeName>, Germany, September 19, 1946. The interview is taking place in a large center for displaced people at the Funkenkasernen, and proceeds in German. Mr. Julius Klver is the leader of a Mennonite group which moved gradually from the Ukraine, as far as the American zone of Germany.]</p>
+                    <u who="#boderD" start="1.417" end="x">[In English] September 19, 1946 in a large refugee center in the Funkkasernen we are interviewing Mr. Julius Klüver, a leader of the Mennonite Group, which moved gradually from [Name] Russia up to the American Zone in Germany.</u>
+                    <u who="#boderD" start="24.086" end="x">[In German]Now tell me again, Mr. Klver, what is your name, how old are you and where were you born?</u>
+                    <u who="#kluverJ" start="31.353" end="x">My name is Julius Klver. I am 43 years old. I was born in the province of <placeName ref="Dnipro">Ekaterinoslav</placeName> in the district of <placeName ref="Dniprovs'ke">Dniprovs'ke</placeName>, in the Ukraine on the farm of my father, Alexandrovka.</u>
+                    <u who="#boderD" start="49.257" end="x">Now tell me, Mr. Klver, where were you and what happened to you when the war started?</u>
+                    <u who="#kluverJ" start="58.094" end="x">At the beginning of the war I was in the Ukraine in the city of <placeName ref="Zaporizhia">Zaporoje</placeName>. I worked in a factory as a bookkeeper.</u>
+                    <u who="#boderD" start="77.347" end="x">So what happened when the war started?</u>
+                    <u who="#kluverJ" start="92.722" end="x">When the war started I continued working at the plant until the arrival of the Germans. When the Germans arrived it became the goal of the Mennonites as well as my own to get away west as far as possible and from there to join the Mennonites of <term ref="#vothG_canada">Canada</term>, of U.S.A., or of Paraguay. That was our bold aim since 1920, and now we decided to endeavor to reach this goal.</u>
+                    <u who="#boderD" start="130.767" end="x">Now tell me, how many Mennonites were there altogether [In Russia]?</u>
+                    <u who="#kluverJ" start="136.201" end="x">By the year 1930, there were about 80,000 Mennonites.</u>
+                    <u who="#boderD" start="147.207" end="x">Where did they all live?</u>
+                    <u who="#kluverJ" start="149.237" end="x">Most of them lived in southern Russia.</u>
+                    <u who="#boderD" start="152.972" end="x">Tell me, were most of the Mennonites German?</u>
+                    <u who="#kluverJ" start="156.677" end="x">The Mennonites are Dutch. They are of Dutch origin. They migrated from the Low Countries to southern Russia upon an invitation from the Empress Catherine the Second and her successors. They came to Russia to colonize the southern Ukraine. They left the low countries, the shores of the northern sea, on account of their religion and their refusal to bear arms. We were promised in Russia that we should be able to obey by our faith which precludes the bearing of arms.</u>
+                    <u who="#boderD" start="200.512" end="x">And that means what?</u>
+                    <u who="#kluverJ" start="201.898" end="x">Not to be compelled to serve as soldiers, which is against our religious beliefs.</u>
+                    <u who="#boderD" start="208.055" end="x">Did the Russians keep their promise?</u>
+                    <u who="#kluverJ" start="211.260" end="x">The Russians kept their promise up to the year of 1920.</u>
+                    <u who="#boderD" start="216.272" end="x">Did the Tzars never draft the Mennonites?</u>
+                    <u who="#kluverJ" start="219.567" end="x">During the epoch of the Tzars we were not compelled to bear arms but we were drafted for labor service under the department of forestry.</u>
+                    <u who="#boderD" start="228.935" end="x">So when were the Mennonites drafted into the army for the first time?</u>
+                    <u who="#kluverJ" start="234.037" end="x">Since the formation of the Soviet Republic.</u>
+                    <u who="#boderD" start="237.543" end="x">So it was then when it started? What did the Mennonites do about it?</u>
+                    <u who="#kluverJ" start="246.260" end="x">The Mennonites refused, and were taken to the courts. I too was hailed before the courts in 1923 and it took a long time before I was released on the grounds of my religious beliefs.</u>
+                    <u who="#boderD" start="269.352" end="x">How did they happen to release you?</u>
+                    <u who="#kluverJ" start="271.081" end="x">It was possible to be released by order of the Soviet Courts.</u>
+                    <u who="#boderD" start="280.009" end="x">Was everybody taken separately before the courts?</u>
+                    <u who="#kluverJ" start="285.081" end="x">A large number of our young men were tried at that time. Many were released; many were not.</u>
+                    <u who="#boderD" start="294.250" end="x">And what did they do to those who were not released?</u>
+                    <u who="#kluverJ" start="297.545" end="x">A few were drafted, but most of them were sentenced to labor service in Siberia.</u>
+                    <u who="#boderD" start="303.780" end="x">So. Well, what happened when the Germans came into Russia?</u>
+                    <u who="#kluverJ" start="309.623" end="x">As soon as the Germans arrived in Russia part of the Mennonites moved immediately west.</u>
+                    <u who="#boderD" start="316.554" end="x">You mean they went to meet the Germans?</u>
+                    <u who="#kluverJ" start="319.668" end="x">No, but they moved westward. To us it was immaterial. If there would have come a French army, a Dutch army, a Turkish army, we had only one goal. To get away from the East.</u>
+                    <u who="#boderD" start="336.325" end="x">Why?</u>
+                    <u who="#kluverJ" start="337.831" end="x">Because of our parents, our sisters and our brothers. Nearly all were exiled to Siberia. We were deprived of all our belongings.</u>
+                    <u who="#boderD" start="348.412" end="x">When did that happen?</u>
+                    <u who="#kluverJ" start="350.069" end="x">That happened between 1920 and 1935. Take for example, my case. My father was rich. He owned a farm. My father was shot in 1920 because he was a rich man. I, then a youngster of 17, had to go for years in hiding so that I should not be shot. I had one aim, to get away to our brothers in <term ref="#vothG_canada">Canada</term>. I have in <term ref="#vothG_canada">Canada</term> three sisters. I have neither brothers or sisters here. My wife has four sisters in <term ref="#vothG_canada">Canada</term> and all we were longing for was back to our Mennonites. For example, from my ten uncles that I had here, nine of them are gone. Five died in Siberia, four died in prison, and the sole reason for their arrest was that they were rich people.</u>
+                    <u who="#boderD" start="413.014" end="x">Well, so when did that movement westward start? Were you in <placeName ref="Saratov">Saratov</placeName> when the war started.</u>
+                    <u who="#kluverJ" start="420.767" end="x">No, I lived in <placeName ref="Zaporizhia">Zaporoje</placeName>. The Germans arrived in the winter of '41 and part of us went already in 1942 to Poland. I went to Poland at the beginning of 1943.</u>
+                    <u who="#boderD" start="439.785" end="x">Was that with permission of the Germans?</u>
+                    <u who="#kluverJ" start="441.532" end="x">Yes, that was with the permission of the Germans. We were permitted to go west. I went to Poland and stayed in Poland nearly three years. But when the front approached towards Poland I went forward from Poland to Germany and so I arrived in <placeName ref="Chemnitz">Chemnitz</placeName>. I stayed in <placeName ref="Chemnitz">Chemnitz</placeName> only two weeks. Then there came that big air attack. I was bombed out and I fled with my family westward and so I arrived in <placeName ref="München">Munich</placeName>.</u>
+                    <u who="#boderD" start="472.792" end="x">When did you get to <placeName ref="München">Munich</placeName>?</u>
+                    <u who="#kluverJ" start="474.491" end="x">I arrived in <placeName ref="München">Munich</placeName> in January, 1945.</u>
+                    <u who="#boderD" start="480.949" end="x">Didn't the Germans demand from the Mennonites any labor service?</u>
+                    <u who="#kluverJ" start="486.292" end="x">A few of the Mennonites were compelled to work. A few even were drafted or were about to be drafted but not many. Most of them stuck to their religious faith which prohibits bearing arms and were working on various jobs and in this way they escaped service in the armed forces.</u>
+                    <u who="#boderD" start="511.636" end="x">And how many of you Mennonites are now here in this <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#kluverJ" start="517.491" end="x">We are in this <term ref="#vothG_lager">lager</term> 552 Mennonites. Most of them want to go to Paraguay. A certain number want to go to <term ref="#vothG_canada">Canada</term> where their relatives are, who have sent them already the affidavits.</u>
+                    <u who="#boderD" start="533.015" end="x">Tell me, were the Mennonites in <term ref="#vothG_canada">Canada</term> permitted not to join the services?</u>
+                    <u who="#kluverJ" start="538.117" end="x">To the best of my knowledge the Canadians have rendered in this war mostly labor service. Only a few joined the army or navy.</u>
+                    <u who="#boderD" start="550.286" end="x">What do you mean, the Canadians in general or the Canadian Mennonites?</u>
+                    <u who="#kluverJ" start="553.943" end="x">The Canadian Mennonites.</u>
+                    <u who="#boderD" start="556.184" end="x">Tell me, how were these 500 Mennonites gathered together? With how many did you leave Russia.</u>
+                    <u who="#kluverJ" start="565.804" end="x">I left only with my family.</u>
+                    <u who="#boderD" start="568.335" end="x">How many people were you?</u>
+                    <u who="#kluverJ" start="569.672" end="x">We were four people. So we were gathered together from the whole American zone. One by one. Nearly all women and children.</u>
+                    <u who="#boderD" start="579.672" end="x">Where are the men?</u>
+                    <u who="#kluverJ" start="580.847" end="x">Most of the men are in Siberia. They were all rounded up in 1936 and 1937. Before the war in Russia.</u>
+                    <u who="#boderD" start="591.491" end="x">Are they permitted in Siberia to follow their Mennonite faith?</u>
+                    <u who="#kluverJ" start="596.834" end="x">They are prisoners in various camps. In labor service. We have no word from them and we have no word whether they are still alive or not!</u>
+                    <u who="#boderD" start="609.105" end="x">How many grown up men are there among these 500 people?</u>
+                    <u who="#kluverJ" start="616.587" end="x">About one-third are men.</u>
+                    <u who="#boderD" start="622.593" end="x">The others are women and children?</u>
+                    <u who="#kluverJ" start="624.804" end="x">Women and children. We have about 250 children here.</u>
+                    <u who="#boderD" start="630.117" end="x">Do you expect the Canadians to let you in?</u>
+                    <u who="#kluverJ" start="634.696" end="x">We are quite sure of that. We have already the permission to come to Paraguay and we expect that the first transport of 430 Mennonites will depart for Paraguay. There are large Mennonite colonies in that country. And the people from here go to their relatives or to their friends in these Mennonite colonies.</u>
+                    <u who="#boderD" start="658.204" end="x">Now tell me, for how many generations did your family live in Russia?</u>
+                    <u who="#kluverJ" start="666.168" end="x">My grandfather came to Russia as a little child.</u>
+                    <u who="#boderD" start="673.379" end="x">How long ago about was that?</u>
+                    <u who="#kluverJ" start="675.740" end="x">That must have been eighty or ninety years ago, about ninety years ago.</u>
+                    <u who="#boderD" start="679.848" end="x">Now tell me, how did it happen that the Mennonites still preserved in Russia the German language?</u>
+                    <u who="#kluverJ" start="686.547" end="x">You see, we talk among ourselves still Dutch, the Frisian Platt. Only our hymn book, our Bibles, and our school books were in German. Originally we used a Dutch dialect, but since the Mennonite colonies in southern Russia were surrounded by a large number of German colonies and since years ago there was a better supply of German books the language of our schools and of our religion has become German. But up to now, we still talk among ourselves at home the Dutch language.</u>
+                    <u who="#boderD" start="733.604" end="x">Tell me, Mr. Klver, what other differences besides the refusal to bear arms is there between the Mennonite religion and the other Protestant religions?</u>
+                    <u who="#kluverJ" start="748.827" end="x">First of all, we have no infant baptism, but adult baptism.</u>
+                    <u who="#boderD" start="758.086" end="x">What do you mean by adult baptism?</u>
+                    <u who="#kluverJ" start="759.441" end="x">Our people are baptized at the age of 17, 18, 19 years. Not as children, but when they reach the age between 17 and 19. Second, the refusal to bear arms. Third we do not swear. We say yes, yes, or no, no, but we do not make any vows.</u>
+                    <u who="#boderD" start="786.492" end="x">Not even to your country, to your fatherland?</u>
+                    <u who="#kluverJ" start="790.209" end="x">Never.</u>
+                    <u who="#boderD" start="792.631" end="x">But otherwise you are Protestants?</u>
+                    <u who="#kluverJ" start="799.300" end="x">Of Protestant faith.</u>
+                    <u who="#boderD" start="802.462" end="x">Now tell me where were you at the end, during the last year of the war? When Germany was gradually losing the war?</u>
+                    <u who="#kluverJ" start="816.480" end="x">From the beginning of 1943 until the end of 1945 I lived in Poland. I lived near Lesmanstadt as a bookkeeper at a factory.</u>
+                    <u who="#boderD" start="828.799" end="x">In Poland?</u>
+                    <u who="#kluverJ" start="829.594" end="x">In Poland.</u>
+                    <u who="#boderD" start="830.317" end="x">When did you get to the American zone?</u>
+                    <u who="#kluverJ" start="832.950" end="x">I arrived at the American zone in January, 1945.</u>
+                    <u who="#boderD" start="836.878" end="x">And before that you were in Poland?</u>
+                    <u who="#kluverJ" start="838.788" end="x">In Poland.</u>
+                    <u who="#boderD" start="839.613" end="x">So where were you when the Russians came to Poland?</u>
+                    <u who="#kluverJ" start="843.300" end="x">When the front came near Poland I moved towards Germany.</u>
+                    <u who="#boderD" start="853.884" end="x">Farther west? Did the Germans permit it?</u>
+                    <u who="#kluverJ" start="855.180" end="x">Yes. They permitted it.</u>
+                    <u who="#boderD" start="857.150" end="x">Were you in any districts that were severely bombed?</u>
+                    <u who="#kluverJ" start="861.650" end="x">From Poland I came to <placeName ref="Chemnitz">Chemnitz</placeName>. There I stayed two weeks and intended to look for work. I already rented there a room but in two weeks the house was entirely bombed out and to save the life of my family I fled on foot with a single trunk to the city. I escaped to <placeName ref="München">Munich</placeName>. Here lived a cousin of mine and I joined him.</u>
+                    <u who="#boderD" start="891.574" end="x">Did he always live in <placeName ref="München">Munich</placeName>? Or was he too a refugee?</u>
+                    <u who="#kluverJ" start="894.176" end="x">He too was a refugee, and he came here from Russia in 1942.</u>
+                    <u who="#boderD" start="900.381" end="x">And so you all gathered here gradually and you now are ready to travel further?</u>
+                    <u who="#kluverJ" start="907.291" end="x">When we arrived in <placeName ref="München">Munich</placeName> we couldn't find lodging in the city. We went to the peasants and I found a place 40 kilometers from <placeName ref="München">Munich</placeName>. Here I worked for a peasant for more than a year as a hired man [his calendaric dates are apparently confused].</u>
+                    <u who="#boderD" start="923.809" end="x">And where was your family?</u>
+                    <u who="#kluverJ" start="925.297" end="x">My family was with me too, on the farm.</u>
+                    <u who="#boderD" start="927.627" end="x">Who was with you? Your wife and two children?</u>
+                    <u who="#kluverJ" start="929.646" end="x">My wife and two daughters. We all worked for the peasant without pay. We had to live on our ration cards and now and then we got a little bit of milk from him.</u>
+                    <u who="#boderD" start="943.381" end="x">What do you mean you lived on your ration cards. Didn't the peasant feed you?</u>
+                    <u who="#kluverJ" start="947.369" end="x">No. We got our ration cards and we had to work. We just got a supplement of a little bit of milk.</u>
+                    <u who="#boderD" start="957.773" end="x">And for your other food you had to pay?</u>
+                    <u who="#kluverJ" start="960.315" end="x">That I paid for.</u>
+                    <u who="#boderD" start="961.731" end="x">How did you pay?</u>
+                    <u who="#kluverJ" start="963.189" end="x">I still had some money from my previous earnings. One didn't need too much money in order to buy the supplies that one was allowed to get on his card.</u>
+                    <u who="#boderD" start="977.418" end="x">You say you still had some money. What kind of currency was it?</u>
+                    <u who="#kluverJ" start="984.810" end="x">That were Germen marks, reichmarks.</u>
+                    <u who="#boderD" start="989.250" end="x">How could you get them in exchange for Russian rubles?</u>
+                    <u who="#kluverJ" start="993.358" end="x">That wasn't saved in Russian rubles. These were my earnings from Poland. There we were paid already in reichmarks. I had no more currency in Russian rubles.</u>
+                    <u who="#boderD" start="1008.400" end="x">Now let us clear that up. You and your family worked for the peasant. Isn't that so?</u>
+                    <u who="#kluverJ" start="1013.713" end="x">Yes.</u>
+                    <u who="#boderD" start="1015.129" end="x">And he did not give you the food free of charge?</u>
+                    <u who="#kluverJ" start="1018.906" end="x">That was against the law. If one had a ration card he had no right to eat with the peasant, that is, if one kept house for himself.</u>
+                    <u who="#boderD" start="1029.659" end="x">Then why did you take out the ration cards?</u>
+                    <u who="#kluverJ" start="1033.466" end="x">That was the rule that all the refugees had to take out ration cards. That was because I had my family with me. Had I been alone I would not have been given a ration card and I would have to eat with the peasant. But since I had my family I took my meals with my family. My wife did her own cooking.</u>
+                    <u who="#boderD" start="1052.854" end="x">And you paid for the food, and gave him your ration stamps except for some milk now and then? And he did not pay you anything?</u>
+                    <u who="#kluverJ" start="1062.243" end="x">No, he didn't pay me any money. He told me that I am working for our lodging and the few things that he gave me. I had a table and a few chairs and in exchange for that I had to work.</u>
+                    <u who="#boderD" start="1073.044" end="x">What does that mean he had given them?</u>
+                    <u who="#kluverJ" start="1074.540" end="x">He placed them into my room.</u>
+                    <u who="#boderD" start="1076.776" end="x">Oh, he had given them to you!</u>
+                    <u who="#kluverJ" start="1077.976" end="x">Yes.</u>
+                    <u who="#boderD" start="1080.267" end="x">Was this peasant a Nazi?</u>
+                    <u who="#kluverJ" start="1083.436" end="x">He was a Nazi up to 1936. And then he left the party because he was afraid that in time he would lose his farm. He was a rich peasant and that is why he did not agree with the Nazis. He was afraid that in time they will organize some farm cooperative.</u>
+                    <u who="#boderD" start="1108.225" end="x">Something like the Russian collective farms?</u>
+                    <u who="#kluverJ" start="1109.020" end="x">Something of that kind, and that is why in time he became aroused against the Nazis. At the beginning he had joined them and was a member of the party up to 1936.</u>
+                    <u who="#boderD" start="1121.942" end="x">And you believe that such a peasant was uninformed either through relatives or friends about the goings-on in concentration camps?</u>
+                    <u who="#kluverJ" start="1132.496" end="x">I think he might not have known it. Moreover he had very little interest for such things. And he wasn't getting together with the people too much. Here in Bavaria the peasants do not mingle very much.</u>
+                    <u who="#boderD" start="1147.026" end="x">Now tell me, you had to opportunity to observe the Germans. What did such a peasant think about the war?</u>
+                    <u who="#kluverJ" start="1157.430" end="x">Many of them thought that Germany will win. But many also predicted that Germany will never win the war because the superiority of the enemy was too great.</u>
+                    <u who="#boderD" start="1171.960" end="x">And where were you on the date of Germany's surrender?</u>
+                    <u who="#kluverJ" start="1175.725" end="x">In the same village with the peasant.</u>
+                    <u who="#boderD" start="1178.478" end="x">And what did the people say then?</u>
+                    <u who="#kluverJ" start="1181.623" end="x">Many of the Germans were very glad that the war was over and their sons will return home. And the peasants turned to their work. They said, 'It will be bad at the beginning, but in time we will get on our feet again as good peasants.' They all had hope for a better future.</u>
+                    <u who="#boderD" start="1207.718" end="x">Tell me, did the peasants eat well during the war?</u>
+                    <u who="#kluverJ" start="1211.784" end="x">Most of them did. They found ways not to surrender everything and they took good care of themselves and ate very well. Most of them.</u>
+                    <u who="#boderD" start="1224.025" end="x">Now as an observer—what do you think of the present German situation?</u>
+                    <u who="#kluverJ" start="1235.091" end="x">How can I tell you? I have so little interest in the situation right here. My interests, my thoughts are all overseas. To get away from here as soon as possible so that finally I should have a homeland. Since 1920 I had not a single night in peace. And to have a little, little land of my own. As I observe the Germans here, soon times will be better for them. That I heard in the villages. They think it may be bad for three, four, five years, but eventually they will have a better life, a freer life, better than they had under the Nazis.</u>
+                    <u who="#boderD" start="1290.294" end="x">Now tell me, what was the attitude of the peasant with whom you lived and of his kind, what was their attitude toward the Jews?</u>
+                    <u who="#kluverJ" start="1306.571" end="x">Their attitude toward the Jews was bad. One could feel that also among the peasants. They did not love the Jewish people.</u>
+                    <u who="#boderD" start="1317.950" end="x">And what was the attitude of the Mennonites of Russia?</u>
+                    <u who="#kluverJ" start="1321.546" end="x">The Mennonites despise no nation. On the contrary the Mennonites feel that they are persecuted for their religion just as the Jews. We often compared ourselves with the Jews. Only we are a small, poor, little people, while the Jews are richer, larger in number, and have a stronger organization. We are too few and weak, but the religious persecutions of the last four hundred years are the same for us as for the Jews. We have no homeland, we have no country that we may call our own. We were once in Holland, we were near <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName> in the region of the Polish corridor, we were in southern Russia and nowhere did we find a homeland.</u>
+                    <u who="#boderD" start="1370.775" end="x">Now tell me, do you think that one can have a homeland if he is not ready to defend it with arms?</u>
+                    <u who="#kluverJ" start="1377.534" end="x">According to our convictions—yes. In accordance with our faith one can have a homeland even if one does not defend it with arms.</u>
+                    <u who="#boderD" start="1391.389" end="x">In all other respects the Mennonites recognize the authority of the state, I mean do you pay taxes?</u>
+                    <u who="#kluverJ" start="1400.773" end="x">Yes. In all other respects the Mennonites . . . they recognize the state.</u>
+                    <u who="#boderD" start="1406.478" end="x">Did you ever hear of a sect in the United States, the Jehovah's Witnesses?</u>
+                    <u who="#kluverJ" start="1411.972" end="x">That is a different sect. No.</u>
+                    <u who="#boderD" start="1417.888" end="x">Or take the Dukhobors. They refuse to pay taxes.</u>
+                    <u who="#kluverJ" start="1423.159" end="x">No, I never heard of them.</u>
+                    <u who="#boderD" start="1424.677" end="x">So the Mennonites pay their taxes.</u>
+                    <u who="#kluverJ" start="1426.755" end="x">Very readily. To the best of my knowledge it was so before, and it is so now. We are not greedy. We pay, we want to work, we want to keep up our religion and we are ready to fulfill all our duties to any state.</u>
+                    <u who="#boderD" start="1440.622" end="x">You were telling me that you worked as a bookkeeper. Are there many Mennonites who do not work on the land?</u>
+                    <u who="#kluverJ" start="1446.598" end="x">Very few. Most of them are farmers, peasants.</u>
+                    <u who="#boderD" start="1453.146" end="x">Are there any Mennonites in Mexico?</u>
+                    <u who="#kluverJ" start="1455.899" end="x">Yes, there are Mennonites in Mexico.</u>
+                    <u who="#boderD" start="1458.429" end="x">Where do they live there?</u>
+                    <u who="#kluverJ" start="1460.507" end="x">That I can't tell you exactly but I know there are Mennonites in Mexico.</u>
+                    <u who="#boderD" start="1465.056" end="x">Do you know by any chance whether these came from <term ref="#vothG_canada">Canada</term> or did they come directly from Russia?</u>
+                    <u who="#kluverJ" start="1472.207" end="x">This I couldn't tell you either.</u>
+                    <u who="#boderD" start="1474.267" end="x">How did they get to Paraguay?</u>
+                    <u who="#kluverJ" start="1477.562" end="x">There is already an order since April from the government of Paraguay that all Mennonites may come to that country unconditionally. There is even no control of health conditions. Only come to Paraguay. Our Mennonites have built their colonies in that large Chaco region which was formerly impassable and our colonies have flourished there.</u>
+                    <u who="#boderD" start="1510.901" end="x">Now tell me, are there more women than men in your group?</u>
+                    <u who="#kluverJ" start="1515.642" end="x">Many more women than men.</u>
+                    <u who="#boderD" start="1517.491" end="x">Now what will become of these women? Many of them do not know if they are widows or not. May a Mennonite woman marry a non-Mennonite?</u>
+                    <u who="#kluverJ" start="1528.919" end="x">According to our laws a woman may marry only among Mennonites.</u>
+                    <u who="#boderD" start="1536.521" end="x">May that not lead to some difficulties?</u>
+                    <u who="#kluverJ" start="1541.521" end="x">So far it did not. [He apparently has turned away from the microphone on purpose while making an additional remark].</u>
+                    <u who="#boderD" start="1549.907" end="x">Oh no. I do not refer to promiscuity. I simply mean that the situation may become difficult for a large number of women to find suitable men.</u>
+                    <u who="#kluverJ" start="1563.311" end="x">That certainly will be a problem, but so far we had very few mixed marriages in our colony. Lately it has become more frequent because so many of our men are away and that is why some Mennonite women have married non-Mennonites.</u>
+                    <u who="#boderD" start="1589.044" end="x">Tell me, Mr. Klver, do Mennonites convert into their religion people of other faiths?</u>
+                    <u who="#kluverJ" start="1596.345" end="x">No. We remain in our own community.</u>
+                    <u who="#boderD" start="1601.375" end="x">If somebody wants to join the Mennonites would you accept him?</u>
+                    <u who="#kluverJ" start="1607.942" end="x">No. He must be born a Mennonite. We are not only a religion. We consider ourself a people.</u>
+                    <u who="#boderD" start="1616.328" end="x">Now let us suppose a Spaniard, an Uruguayan sees your way of life and likes it. Will he still be unable to become a Mennonite.</u>
+                    <u who="#kluverJ" start="1629.081" end="x">No. There are some very rare exceptions. If such a Spaniard or a person of another nationality happens to live in our colony in our village, and takes on our religion, learns our language and continues to live among our people, an exception can be made. Then he must be baptised.</u>
+                    <u who="#boderD" start="1656.913" end="x">[In English] This concludes Spool 132 - an interview with Mr. Julius Klüver - a so-called Leader of the Germanic Group of the Funkkasernen Camp in, hm, near <placeName ref="München">München</placeName>. This is the first case that we have interviewed a displaced person, who took – so to say - advantage of the situation in Russia to move west and to get to a country where their reluctance to carry arms because of religious principles should be respected. September 19, 1956 in <placeName ref="München">Munich</placeName>, Germany at the UNRA Detention Camp, a Illinois Institute of Technology wire recording. The machine is not at – in the best order, one condenser is broken, seems to be broken of, because the machine got a very rough ride. But nevertheless we took the record, because we hope that the transcription will be satisfactory. September 19, 1946 – Illinois Institute of Technology wire recording. </u>
+                </div>
+                <!-- end spool 9-132 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

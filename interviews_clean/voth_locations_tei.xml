@@ -1,0 +1,4273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Index of Locations</title>
+        <respStmt>
+          <resp>Author</resp>
+          <name>Voices of the Holocaust Project</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name>Eben E. English</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Paul V. Galvin Library</publisher>
+        <pubPlace>
+          <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>35 W. 33rd St</addrLine>
+            <addrLine>Chicago, IL 60616</addrLine>
+          </address>
+        </pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created for the Voices of the Holocaust website.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace id="vothL" type="locations" lang="en">
+        <place id="vothL1" type="location">
+          <placeName type="primary">Wien</placeName>
+          <placeName type="alt" n="1">Vienna</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.216700 16.366700</geo>
+          </location>
+        </place>
+        <place id="vothL2" type="location">
+          <placeName type="primary">Mistelbach</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.583300 16.583300</geo>
+          </location>
+        </place>
+        <place id="vothL3" type="location">
+          <placeName type="primary">Trofaiach</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.416700 15.016700</geo>
+          </location>
+        </place>
+        <place id="vothL4" type="location">
+          <placeName type="primary">Judenburg</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.166700 14.666700</geo>
+          </location>
+        </place>
+        <place id="vothL5" type="location">
+          <placeName type="primary">Linz</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.316700 14.300000</geo>
+          </location>
+        </place>
+        <place id="vothL6" type="location">
+          <placeName type="primary">Pinsk</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>52.133300 26.016700</geo>
+          </location>
+        </place>
+        <place id="vothL7" type="location">
+          <placeName type="primary">Slonim</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>53.083300 25.350000</geo>
+          </location>
+        </place>
+        <place id="vothL8" type="location">
+          <placeName type="primary">Santiago</placeName>
+          <location>
+            <country key="Chile">Chile</country>
+            <geo>-33.450000 -70.666700</geo>
+          </location>
+        </place>
+        <place id="vothL9" type="location">
+          <placeName type="primary">Gabersdorf</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>46.950000 15.320000</geo>
+          </location>
+        </place>
+        <place id="vothL10" type="location">
+          <placeName type="primary">Chynadiyovo</placeName>
+          <placeName type="alt" n="1">Chynadijeve</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.483333 22.833333</geo>
+          </location>
+        </place>
+        <place id="vothL11" type="location">
+          <placeName type="primary">Tartu</placeName>
+          <placeName type="alt" n="1">Dorpat</placeName>
+          <placeName type="alt" n="2">Yuryev</placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>58.366000 26.745000</geo>
+          </location>
+        </place>
+        <place id="vothL12" type="location">
+          <placeName type="primary">Bellevue</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.818350 2.229561</geo>
+          </location>
+          <desc>OPEJ children's home</desc>
+        </place>
+        <place id="vothL13" type="location">
+          <placeName type="primary">Paris</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.866700 2.333300</geo>
+          </location>
+        </place>
+        <place id="vothL14" type="location">
+          <placeName type="primary">Paris</placeName>
+          <location>
+            <country key="France">France</country>
+            <address>
+              <addrLine>9 Rue Guy Patin</addrLine>
+            </address>
+            <geo>48.866700 2.333300</geo>
+          </location>
+          <desc>Jewish Committee home for adult Jewish refugees</desc>
+        </place>
+        <place id="vothL15" type="location">
+          <placeName type="primary">Paris</placeName>
+          <location>
+            <country key="France">France</country>
+            <address>
+              <addrLine>12 Rue de Saules</addrLine>
+            </address>
+            <geo>48.866700 2.333300</geo>
+          </location>
+          <desc>ORT School</desc>
+        </place>
+        <place id="vothL16" type="location">
+          <placeName type="primary">Paris</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.866700 2.333300</geo>
+          </location>
+          <desc>AJDC office</desc>
+        </place>
+        <place id="vothL17" type="location">
+          <placeName type="primary">Paris</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.866700 2.333300</geo>
+          </location>
+          <desc>Grand Hotel</desc>
+        </place>
+        <place id="vothL18" type="location">
+          <placeName type="primary">Hénouville</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.483330 0.966670</geo>
+          </location>
+        </place>
+        <place id="vothL19" type="location">
+          <placeName type="primary">Hénonville</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.200000 2.050000</geo>
+          </location>
+        </place>
+        <place id="vothL20" type="location">
+          <placeName type="primary">Périgueux</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.200000 0.733300</geo>
+          </location>
+        </place>
+        <place id="vothL21" type="location">
+          <placeName type="primary">Limoges</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.833300 1.250000</geo>
+          </location>
+        </place>
+        <place id="vothL22" type="location">
+          <placeName type="primary">Compiègne</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.416700 2.833300</geo>
+          </location>
+        </place>
+        <place id="vothL23" type="location">
+          <placeName type="primary">Drancy</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.933300 2.433300</geo>
+          </location>
+        </place>
+        <place id="vothL24" type="location">
+          <placeName type="primary">Pithiviers</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.166700 2.250000</geo>
+          </location>
+        </place>
+        <place id="vothL25" type="location">
+          <placeName type="primary">Colmar</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.083300 7.350000</geo>
+          </location>
+        </place>
+        <place id="vothL26" type="location">
+          <placeName type="primary">Nice</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.700000 7.266700</geo>
+          </location>
+        </place>
+        <place id="vothL27" type="location">
+          <placeName type="primary">Cannes</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.550000 7.000000</geo>
+          </location>
+        </place>
+        <place id="vothL28" type="location">
+          <placeName type="primary">Fontenay-aux-Roses</placeName>
+          <location>
+            <country key="France">France</country>
+            <address>
+              <addrLine>35 Rue Boucicaut</addrLine>
+            </address>
+            <geo>48.790372 2.289936</geo>
+          </location>
+          <desc>Chateau de Boucicaut; OSE home for adolescents</desc>
+        </place>
+        <place id="vothL29" type="location">
+          <placeName type="primary">München</placeName>
+          <placeName type="alt" n="1">Munich</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.133300 11.583300</geo>
+          </location>
+        </place>
+        <place id="vothL30" type="location">
+          <placeName type="primary">München</placeName>
+          <placeName type="alt" n="1">Munich</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.133300 11.583300</geo>
+          </location>
+          <desc>Funkkaserne displaced-person's camp</desc>
+        </place>
+        <place id="vothL31" type="location">
+          <placeName type="primary">München</placeName>
+          <placeName type="alt" n="1">Munich</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.131008 11.584361</geo>
+          </location>
+          <desc>UNRRA University at the Deutsches Museum</desc>
+        </place>
+        <place id="vothL32" type="location">
+          <placeName type="primary">München</placeName>
+          <placeName type="alt" n="1">Munich</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.133300 11.583300</geo>
+          </location>
+          <desc>Lohengrinstrasse</desc>
+        </place>
+        <place id="vothL33" type="location">
+          <placeName type="primary">Bernkastel-Kues</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.916700 7.066700</geo>
+          </location>
+        </place>
+        <place id="vothL34" type="location">
+          <placeName type="primary">Nürnberg</placeName>
+          <placeName type="alt" n="1">Nuremberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.450000 11.066700</geo>
+          </location>
+        </place>
+        <place id="vothL35" type="location">
+          <placeName type="primary">Wiesbaden</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.083300 8.233300</geo>
+          </location>
+        </place>
+        <place id="vothL36" type="location">
+          <placeName type="primary">Dresden</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.050000 13.750000</geo>
+          </location>
+        </place>
+        <place id="vothL37" type="location">
+          <placeName type="primary">Feldafing</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.933300 11.300000</geo>
+          </location>
+          <desc>Feldafing displaced-person's camp</desc>
+        </place>
+        <place id="vothL38" type="location">
+          <placeName type="primary">Dachau</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.250000 11.433300</geo>
+          </location>
+        </place>
+        <place id="vothL39" type="location">
+          <placeName type="primary">Mühldorf am Inn</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.233300 12.550000</geo>
+          </location>
+        </place>
+        <place id="vothL40" type="location">
+          <placeName type="primary">Bergen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.766700 9.916700</geo>
+          </location>
+        </place>
+        <place id="vothL41" type="location">
+          <placeName type="primary">Burgau</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.416700 10.416700</geo>
+          </location>
+        </place>
+        <place id="vothL42" type="location">
+          <placeName type="primary">Weimar</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.983300 11.316700</geo>
+          </location>
+        </place>
+        <place id="vothL43" type="location">
+          <placeName type="primary">Fürstenberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.733300 9.400000</geo>
+          </location>
+        </place>
+        <place id="vothL44" type="location">
+          <placeName type="primary">Meissen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.166700 13.416700</geo>
+          </location>
+        </place>
+        <place id="vothL45" type="location">
+          <placeName type="primary">Taucha</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.383300 12.500000</geo>
+          </location>
+        </place>
+        <place id="vothL46" type="location">
+          <placeName type="primary">Oschatz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.300000 13.116700</geo>
+          </location>
+        </place>
+        <place id="vothL47" type="location">
+          <placeName type="primary">Flossenbürg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.700000 12.333300</geo>
+          </location>
+        </place>
+        <place id="vothL48" type="location">
+          <placeName type="primary">Aschersleben</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.750000 11.466700</geo>
+          </location>
+        </place>
+        <place id="vothL49" type="location">
+          <placeName type="primary">Oranienburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.766700 13.233300</geo>
+          </location>
+        </place>
+        <place id="vothL50" type="location">
+          <placeName type="primary">Terezín</placeName>
+          <placeName type="alt" n="1">Theresienstadt</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>50.500000 14.150000</geo>
+          </location>
+        </place>
+        <place id="vothL51" type="location">
+          <placeName type="primary">Crawinkel</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.783300 10.783300</geo>
+          </location>
+        </place>
+        <place id="vothL52" type="location">
+          <placeName type="primary">Kędzierzyn-Koźle</placeName>
+          <placeName type="alt" n="1">Kosel</placeName>
+          <placeName type="alt" n="2">Koźle</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.335278 18.145833</geo>
+          </location>
+        </place>
+        <place id="vothL53" type="location">
+          <placeName type="primary">Brzeszcze</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.983300 19.150000</geo>
+          </location>
+        </place>
+        <place id="vothL54" type="location">
+          <placeName type="primary">Braunschweig</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.250000 10.500000</geo>
+          </location>
+        </place>
+        <place id="vothL55" type="location">
+          <placeName type="primary">Ludwigslust</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.333300 11.500000</geo>
+          </location>
+        </place>
+        <place id="vothL56" type="location">
+          <placeName type="primary">Neustadt-Glewe</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.383300 11.583300</geo>
+          </location>
+        </place>
+        <place id="vothL57" type="location">
+          <placeName type="primary">Görlitz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.150000 15.000000</geo>
+          </location>
+        </place>
+        <place id="vothL58" type="location">
+          <placeName type="primary">Fürth</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.466700 10.983300</geo>
+          </location>
+        </place>
+        <place id="vothL59" type="location">
+          <placeName type="primary">Nordhausen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.516700 10.800000</geo>
+          </location>
+        </place>
+        <place id="vothL60" type="location">
+          <placeName type="primary">Kamenz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.283300 14.133300</geo>
+          </location>
+        </place>
+        <place id="vothL61" type="location">
+          <placeName type="primary">Magdeburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.133300 11.616700</geo>
+          </location>
+        </place>
+        <place id="vothL62" type="location">
+          <placeName type="primary">Ellrich</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.583300 10.683300</geo>
+          </location>
+        </place>
+        <place id="vothL63" type="location">
+          <placeName type="primary">Augsburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.350000 10.900000</geo>
+          </location>
+        </place>
+        <place id="vothL64" type="location">
+          <placeName type="primary">Ravensbrück</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.200000 13.166700</geo>
+          </location>
+        </place>
+        <place id="vothL65" type="location">
+          <placeName type="primary">Stuttgart</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.783300 9.200000</geo>
+          </location>
+        </place>
+        <place id="vothL66" type="location">
+          <placeName type="primary">Hillersleben</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.266667 11.483056</geo>
+          </location>
+        </place>
+        <place id="vothL67" type="location">
+          <placeName type="primary">Verl</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.883300 8.516700</geo>
+          </location>
+        </place>
+        <place id="vothL68" type="location">
+          <placeName type="primary">Thessaloníki</placeName>
+          <placeName type="alt" n="1">Salonika</placeName>
+          <placeName type="alt" n="2">Saloniki</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.633300 22.933300</geo>
+          </location>
+        </place>
+        <place id="vothL69" type="location">
+          <placeName type="primary">Szombathely</placeName>
+          <placeName type="alt" n="1">Steinamanger</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.233300 16.633300</geo>
+          </location>
+        </place>
+        <place id="vothL70" type="location">
+          <placeName type="primary">Kisvárda</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>48.216700 22.050000</geo>
+          </location>
+        </place>
+        <place id="vothL71" type="location">
+          <placeName type="primary">Mukachevo</placeName>
+          <placeName type="alt" n="1">Mukacheve</placeName>
+          <placeName type="alt" n="2">Munkács</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.433300 22.750000</geo>
+          </location>
+        </place>
+        <place id="vothL72" type="location">
+          <placeName type="primary">Székesfehérvár</placeName>
+          <placeName type="alt" n="1">Stuhlweissenburg</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.183300 18.366700</geo>
+          </location>
+        </place>
+        <place id="vothL73" type="location">
+          <placeName type="primary">Tradate</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.716700 8.900000</geo>
+          </location>
+        </place>
+        <place id="vothL74" type="location">
+          <placeName type="primary">Vilnius</placeName>
+          <placeName type="alt" n="1">Vilna</placeName>
+          <placeName type="alt" n="2">Vilno</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>54.683300 25.316700</geo>
+          </location>
+        </place>
+        <place id="vothL75" type="location">
+          <placeName type="primary">Labūnava</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.192778 23.908889</geo>
+          </location>
+        </place>
+        <place id="vothL76" type="location">
+          <placeName type="primary">Kaunas</placeName>
+          <placeName type="alt" n="1">Kovno</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>54.866700 23.916700</geo>
+          </location>
+        </place>
+        <place id="vothL77" type="location">
+          <placeName type="primary">Staszów</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.550000 21.116700</geo>
+          </location>
+        </place>
+        <place id="vothL78" type="location">
+          <placeName type="primary">Starachowice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.066700 21.066700</geo>
+          </location>
+        </place>
+        <place id="vothL79" type="location">
+          <placeName type="primary">Warsaw</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.250000 21.000000</geo>
+          </location>
+        </place>
+        <place id="vothL80" type="location">
+          <placeName type="primary">Augustów</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.850000 23.000000</geo>
+          </location>
+        </place>
+        <place id="vothL81" type="location">
+          <placeName type="primary">Katowice</placeName>
+          <placeName type="alt" n="1">Kattowitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.266700 19.016700</geo>
+          </location>
+        </place>
+        <place id="vothL82" type="location">
+          <placeName type="primary">Lódź</placeName>
+          <placeName type="alt" n="1">Lodz</placeName>
+          <placeName type="alt" n="2">Litzmannstadt</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.816700 19.466700</geo>
+          </location>
+        </place>
+        <place id="vothL83" type="location">
+          <placeName type="primary">Dąbrowa Górnicza</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.333300 19.200000</geo>
+          </location>
+        </place>
+        <place id="vothL84" type="location">
+          <placeName type="primary">Kielce</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.850000 20.650000</geo>
+          </location>
+        </place>
+        <place id="vothL85" type="location">
+          <placeName type="primary">Wieliczka</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.000000 20.033300</geo>
+          </location>
+        </place>
+        <place id="vothL86" type="location">
+          <placeName type="primary">Wadowice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.900000 19.483300</geo>
+          </location>
+        </place>
+        <place id="vothL87" type="location">
+          <placeName type="primary">Olkusz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.300000 19.550000</geo>
+          </location>
+        </place>
+        <place id="vothL89" type="location">
+          <placeName type="primary">Kalisz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.300000 15.916700</geo>
+          </location>
+        </place>
+        <place id="vothL90" type="location">
+          <placeName type="primary">Oświęcim</placeName>
+          <placeName type="alt" n="1">Auschwitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.033300 19.233300</geo>
+          </location>
+        </place>
+        <place id="vothL91" type="location">
+          <placeName type="primary">Częstochowa</placeName>
+          <placeName type="alt" n="1">Chenstokhov</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.800000 19.116700</geo>
+          </location>
+        </place>
+        <place id="vothL92" type="location">
+          <placeName type="primary">Lublin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.300000 22.516700</geo>
+          </location>
+        </place>
+        <place id="vothL93" type="location">
+          <placeName type="primary">Plaszow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.030833 19.967500</geo>
+          </location>
+        </place>
+        <place id="vothL94" type="location">
+          <placeName type="primary">Międzyrzec Podlaski</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.000000 22.800000</geo>
+          </location>
+        </place>
+        <place id="vothL95" type="location">
+          <placeName type="primary">Rogoźnica</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.016700 16.300000</geo>
+          </location>
+        </place>
+        <place id="vothL96" type="location">
+          <placeName type="primary">Libiaż</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.116667 19.316667</geo>
+          </location>
+        </place>
+        <place id="vothL97" type="location">
+          <placeName type="primary">Skarżysko-Kamienna</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.116700 20.866700</geo>
+          </location>
+        </place>
+        <place id="vothL98" type="location">
+          <placeName type="primary">Sosnowiec</placeName>
+          <placeName type="alt" n="1">sosnovitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.266700 19.116700</geo>
+          </location>
+        </place>
+        <place id="vothL99" type="location">
+          <placeName type="primary">Jelcz-Laskowice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.033333 17.333333</geo>
+          </location>
+        </place>
+        <place id="vothL100" type="location">
+          <placeName type="primary">Rzeszów</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.066700 22.000000</geo>
+          </location>
+        </place>
+        <place id="vothL101" type="location">
+          <placeName type="primary">Będzin</placeName>
+          <placeName type="alt" n="1">Bendzin</placeName>
+          <placeName type="alt" n="2">Bendin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.333333 19.150000</geo>
+          </location>
+        </place>
+        <place id="vothL102" type="location">
+          <placeName type="primary">Roznów</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.766700 20.700000</geo>
+          </location>
+        </place>
+        <place id="vothL103" type="location">
+          <placeName type="primary">Wejherowo</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>54.600000 18.200000</geo>
+          </location>
+        </place>
+        <place id="vothL105" type="location">
+          <placeName type="primary">Gliwice</placeName>
+          <placeName type="alt" n="1">Gleiwitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.333300 18.666700</geo>
+          </location>
+        </place>
+        <place id="vothL106" type="location">
+          <placeName type="primary">Strzegom</placeName>
+          <placeName type="alt" n="1">Striegau</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.983300 16.333300</geo>
+          </location>
+        </place>
+        <place id="vothL107" type="location">
+          <placeName type="primary">Sztutowo</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>54.333300 19.183300</geo>
+          </location>
+        </place>
+        <place id="vothL108" type="location">
+          <placeName type="primary">Giebułtów</placeName>
+          <placeName type="alt" n="1">Gebhardsdorf‎</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.975000 15.344200</geo>
+          </location>
+        </place>
+        <place id="vothL109" type="location">
+          <placeName type="primary">Mielec</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.300000 21.416700</geo>
+          </location>
+        </place>
+        <place id="vothL110" type="location">
+          <placeName type="primary">Sighetu Marmaţiei</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>47.933300 23.883300</geo>
+          </location>
+        </place>
+        <place id="vothL111" type="location">
+          <placeName type="primary">Maramures Province</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>47.666700 24.000000</geo>
+          </location>
+        </place>
+        <place id="vothL112" type="location">
+          <placeName type="primary">Oradea</placeName>
+          <placeName type="alt" n="1">Grosswardein</placeName>
+          <placeName type="alt" n="2">Nagyvárad</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>47.050000 21.916700</geo>
+          </location>
+        </place>
+        <place id="vothL113" type="location">
+          <placeName type="primary">Saratov</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>51.566700 46.033300</geo>
+          </location>
+        </place>
+        <place id="vothL114" type="location">
+          <placeName type="primary">Kurima</placeName>
+          <location>
+            <country key="Slovakia">Slovakia</country>
+            <geo>49.233333 21.450000</geo>
+          </location>
+        </place>
+        <place id="vothL115" type="location">
+          <placeName type="primary">Bratislava</placeName>
+          <placeName type="alt" n="1">Pozsony</placeName>
+          <placeName type="alt" n="2">Pressburg</placeName>
+          <location>
+            <country key="Slovakia">Slovakia</country>
+            <geo>48.166700 17.166700</geo>
+          </location>
+        </place>
+        <place id="vothL116" type="location">
+          <placeName type="primary">Zurich</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.383300 8.550000</geo>
+          </location>
+        </place>
+        <place id="vothL117" type="location">
+          <placeName type="primary">Genève</placeName>
+          <placeName type="alt" n="1">Geneva</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>46.216700 6.150000</geo>
+          </location>
+        </place>
+        <place id="vothL118" type="location">
+          <placeName type="primary">Genève</placeName>
+          <placeName type="alt" n="1">Geneva</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>46.216700 6.150000</geo>
+          </location>
+          <desc>Community home for displaced Jewish refugees</desc>
+        </place>
+        <place id="vothL119" type="location">
+          <placeName type="primary">Genève</placeName>
+          <placeName type="alt" n="1">Geneva</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>46.216700 6.150000</geo>
+          </location>
+          <desc>ORT School</desc>
+        </place>
+        <place id="vothL120" type="location">
+          <placeName type="primary">Zaporozhye</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>47.833300 35.166700</geo>
+          </location>
+        </place>
+        <place id="vothL121" type="location">
+          <placeName type="primary">Brody</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.083300 25.133300</geo>
+          </location>
+        </place>
+        <place id="vothL122" type="location">
+          <placeName type="primary">Dnepropetrovsk</placeName>
+          <placeName type="alt" n="1">Dnipropetrovsk</placeName>
+          <placeName type="alt" n="2">Ekaterinoslav</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>48.450000 34.983300</geo>
+          </location>
+        </place>
+        <place id="vothL123" type="location">
+          <placeName type="primary">L'viv</placeName>
+          <placeName type="alt" n="1">Lwów</placeName>
+          <placeName type="alt" n="2">Lemberg</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.833300 24.000000</geo>
+          </location>
+        </place>
+        <place id="vothL124" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.000000 2.000000</geo>
+          </location>
+        </place>
+        <place id="vothL125" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.500000 10.500000</geo>
+          </location>
+        </place>
+        <place id="vothL126" type="location">
+          <placeName type="primary">Athínai</placeName>
+          <placeName type="alt" n="1">Athens</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>38.000000 23.733300</geo>
+          </location>
+        </place>
+        <place id="vothL128" type="location">
+          <placeName type="primary">Narva</placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>59.366700 28.283300</geo>
+          </location>
+        </place>
+        <place id="vothL129" type="location">
+          <placeName type="primary">Rīga</placeName>
+          <placeName type="alt" n="1">Riga</placeName>
+          <location>
+            <country key="Latvia">Latvia</country>
+            <geo>56.883300 24.133300</geo>
+          </location>
+        </place>
+        <place id="vothL130" type="location">
+          <placeName type="primary">Hamburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.550000 10.000000</geo>
+          </location>
+        </place>
+        <place id="vothL131" type="location">
+          <placeName type="primary">Heilenbach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.064722 6.465556</geo>
+          </location>
+        </place>
+        <place id="vothL132" type="location">
+          <placeName type="primary">Budapest</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.500000 19.050000</geo>
+          </location>
+        </place>
+        <place id="vothL134" type="location">
+          <placeName type="primary">Berlin</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.533300 13.416700</geo>
+          </location>
+        </place>
+        <place id="vothL135" type="location">
+          <placeName type="primary">Kraków</placeName>
+          <placeName type="alt" n="1">Cracow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.050000 19.916700</geo>
+          </location>
+        </place>
+        <place id="vothL136" type="location">
+          <placeName type="primary">Chernivtsi</placeName>
+          <placeName type="alt" n="1">Chernovtsy</placeName>
+          <placeName type="alt" n="2">Czernowitz</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>48.300000 25.933300</geo>
+          </location>
+        </place>
+        <place id="vothL137" type="location">
+          <placeName type="primary">Rovno</placeName>
+          <placeName type="alt" n="1">Rivne</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.650000 26.166700</geo>
+          </location>
+        </place>
+        <place id="vothL138" type="location">
+          <placeName type="primary">Przemyśl</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.783300 22.783300</geo>
+          </location>
+        </place>
+        <place id="vothL139" type="location">
+          <placeName type="primary">Yerushalayim</placeName>
+          <placeName type="alt" n="1">Jerusalem</placeName>
+          <location>
+            <country key="Palestine">Palestinian Territory</country>
+            <geo>31.766700 35.233300</geo>
+          </location>
+        </place>
+        <place id="vothL140" type="location">
+          <placeName type="primary">Mannheim</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.500000 8.466700</geo>
+          </location>
+        </place>
+        <place id="vothL141" type="location">
+          <placeName type="primary">Le Brugeron</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.716000 3.716700</geo>
+          </location>
+        </place>
+        <place id="vothL142" type="location">
+          <placeName type="primary">Kaunitz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.883300 8.516700</geo>
+          </location>
+        </place>
+        <place id="vothL143" type="location">
+          <placeName type="primary">Brunnau</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.866667 10.350000</geo>
+          </location>
+        </place>
+        <place id="vothL144" type="location">
+          <placeName type="primary">Rūjiena</placeName>
+          <location>
+            <country key="Latvia">Latvia</country>
+            <geo>57.850000 25.316700</geo>
+          </location>
+        </place>
+        <place id="vothL146" type="location">
+          <placeName type="primary">Antwerpen</placeName>
+          <placeName type="alt" n="1">Antwerp</placeName>
+          <location>
+            <country key="be">Belgium</country>
+            <geo>51.216700 4.416700</geo>
+          </location>
+        </place>
+        <place id="vothL147" type="location">
+          <placeName type="primary">Busk</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.966700 24.583300</geo>
+          </location>
+        </place>
+        <place id="vothL148" type="location">
+          <placeName type="primary">Tallinn</placeName>
+          <placeName type="alt" n="1">Revel</placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>59.433000 24.728000</geo>
+          </location>
+        </place>
+        <place id="vothL149" type="location">
+          <placeName type="primary">Kutais</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>44.516700 39.300000</geo>
+          </location>
+        </place>
+        <place id="vothL150" type="location">
+          <placeName type="primary">Falkenberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.850000 12.233300</geo>
+          </location>
+        </place>
+        <place id="vothL151" type="location">
+          <placeName type="primary">Janów Lubelski</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.700000 22.400000</geo>
+          </location>
+        </place>
+        <place id="vothL152" type="location">
+          <placeName type="primary">Corbie</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.916700 2.516700</geo>
+          </location>
+        </place>
+        <place id="vothL153" type="location">
+          <placeName type="primary">Vilkaviškis</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>54.650000 23.033300</geo>
+          </location>
+        </place>
+        <place id="vothL154" type="location">
+          <placeName type="primary">Zemaičių Kalvarija</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>56.110000 22.010000</geo>
+          </location>
+        </place>
+        <place id="vothL155" type="location">
+          <placeName type="primary">Zakopane</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.283300 19.900000</geo>
+          </location>
+        </place>
+        <place id="vothL156" type="location">
+          <placeName type="primary">Nivenskoye</placeName>
+          <placeName type="alt" n="1">Wittenberg</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>54.585908 20.567475</geo>
+          </location>
+        </place>
+        <place id="vothL157" type="location">
+          <placeName type="primary">Niznii Verezky</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>0.000000 0.000000</geo>
+          </location>
+        </place>
+        <place id="vothL158" type="location">
+          <placeName type="primary">Wasów</placeName>
+          <placeName type="alt" n="1">Wasow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.138000 20.200000</geo>
+          </location>
+        </place>
+        <place id="vothL159" type="location">
+          <placeName type="primary">Cantal department</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.116700 2.750000</geo>
+          </location>
+        </place>
+        <place id="vothL160" type="location">
+          <placeName type="primary">Offenburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.483300 7.950000</geo>
+          </location>
+        </place>
+        <place id="vothL161" type="location">
+          <placeName type="primary">Solotvyna</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>47.950000 23.866700</geo>
+          </location>
+        </place>
+        <place id="vothL162" type="location">
+          <placeName type="primary">Andrychów</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.850000 19.300000</geo>
+          </location>
+        </place>
+        <place id="vothL163" type="location">
+          <placeName type="primary">Sakiai</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.000000 23.016700</geo>
+          </location>
+        </place>
+        <place id="vothL164" type="location">
+          <placeName type="primary">Schmalhausen</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.700000 15.200000</geo>
+          </location>
+        </place>
+        <place id="vothL165" type="location">
+          <placeName type="primary">Telšiai</placeName>
+          <placeName type="alt" n="1">Telsche</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.966700 22.266700</geo>
+          </location>
+        </place>
+        <place id="vothL166" type="location">
+          <placeName type="primary">Lorraine region</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.000000 6.000000</geo>
+          </location>
+        </place>
+        <place id="vothL167" type="location">
+          <placeName type="primary">Castelló d Empúries</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>42.258333 3.075000</geo>
+          </location>
+        </place>
+        <place id="vothL168" type="location">
+          <placeName type="primary">Lippstadt</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.666700 8.316700</geo>
+          </location>
+        </place>
+        <place id="vothL169" type="location">
+          <placeName type="primary">Barth</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>54.383300 12.733300</geo>
+          </location>
+        </place>
+        <place id="vothL170" type="location">
+          <placeName type="primary">Malchow</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.483300 12.416700</geo>
+          </location>
+        </place>
+        <place id="vothL171" type="location">
+          <placeName type="primary">Mauthausen</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.250000 14.516700</geo>
+          </location>
+        </place>
+        <place id="vothL172" type="location">
+          <placeName type="primary">Bełżec</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.350000 23.466700</geo>
+          </location>
+        </place>
+        <place id="vothL173" type="location">
+          <placeName type="primary">Mecklenburg region</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>54.133333 12.566667</geo>
+          </location>
+        </place>
+        <place id="vothL175" type="location">
+          <placeName type="primary">Bremen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.083300 8.800000</geo>
+          </location>
+        </place>
+        <place id="vothL176" type="location">
+          <placeName type="primary">Auerbach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.500000 12.400000</geo>
+          </location>
+        </place>
+        <place id="vothL178" type="location">
+          <placeName type="primary">Poznań</placeName>
+          <placeName type="alt" n="1">Poznan</placeName>
+          <placeName type="alt" n="2">Posen</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.416700 16.883300</geo>
+          </location>
+        </place>
+        <place id="vothL179" type="location">
+          <placeName type="primary">Börgermoor</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.016667 7.500000</geo>
+          </location>
+        </place>
+        <place id="vothL180" type="location">
+          <placeName type="primary">Buczacz</placeName>
+          <placeName type="alt" n="1">Buchach</placeName>
+          <placeName type="alt" n="2">Butschatsch</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.083333 25.400000</geo>
+          </location>
+        </place>
+        <place id="vothL181" type="location">
+          <placeName type="primary">Pravieniškės</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>54.916667 24.166667</geo>
+          </location>
+        </place>
+        <place id="vothL182" type="location">
+          <placeName type="primary">Chemnitz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.833300 12.916700</geo>
+          </location>
+        </place>
+        <place id="vothL183" type="location">
+          <placeName type="primary">Pustkow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.150000 21.500000</geo>
+          </location>
+        </place>
+        <place id="vothL185" type="location">
+          <placeName type="primary">Rivesaltes</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>42.766700 2.866700</geo>
+          </location>
+        </place>
+        <place id="vothL186" type="location">
+          <placeName type="primary">Gdańsk</placeName>
+          <placeName type="alt" n="1">Danzig</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>54.366700 18.683300</geo>
+          </location>
+        </place>
+        <place id="vothL187" type="location">
+          <placeName type="primary">Wesoła</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.188000 19.109000</geo>
+          </location>
+        </place>
+        <place id="vothL188" type="location">
+          <placeName type="primary">Gersdorf</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.750000 12.716700</geo>
+          </location>
+        </place>
+        <place id="vothL189" type="location">
+          <placeName type="primary">Hrodna</placeName>
+          <placeName type="alt" n="1">Grodno</placeName>
+          <location>
+            <country key="Germany">Poland</country>
+            <geo>53.681000 23.813000</geo>
+          </location>
+        </place>
+        <place id="vothL190" type="location">
+          <placeName type="primary">Gurs</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.288333 -0.752500</geo>
+          </location>
+        </place>
+        <place id="vothL192" type="location">
+          <placeName type="primary">Jelenia Góra</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.916700 15.750000</geo>
+          </location>
+        </place>
+        <place id="vothL196" type="location">
+          <placeName type="primary">Kutno</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.233300 19.366700</geo>
+          </location>
+        </place>
+        <place id="vothL198" type="location">
+          <placeName type="primary">Sobibór</placeName>
+          <placeName type="alt" n="1">Sobibor</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.483300 23.650000</geo>
+          </location>
+        </place>
+        <place id="vothL199" type="location">
+          <placeName type="primary">Leipzig</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.333300 12.333300</geo>
+          </location>
+        </place>
+        <place id="vothL200" type="location">
+          <placeName type="primary">Montreux</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>46.450000 6.916700</geo>
+          </location>
+        </place>
+        <place id="vothL201" type="location">
+          <placeName type="primary">Les Milles</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.500000 5.383333</geo>
+          </location>
+        </place>
+        <place id="vothL202" type="location">
+          <placeName type="primary">Szebnie</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.766667 21.600000</geo>
+          </location>
+        </place>
+        <place id="vothL203" type="location">
+          <placeName type="primary">Le Vernet</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.483333 3.000000</geo>
+          </location>
+        </place>
+        <place id="vothL204" type="location">
+          <placeName type="primary">Trawniki</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.131944 23.002500</geo>
+          </location>
+        </place>
+        <place id="vothL205" type="location">
+          <placeName type="primary">Treblinka</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.666700 22.033300</geo>
+          </location>
+        </place>
+        <place id="vothL206" type="location">
+          <placeName type="primary">Warta</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.700000 18.633300</geo>
+          </location>
+        </place>
+        <place id="vothL207" type="location">
+          <placeName type="primary">Weidenberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.933300 11.716700</geo>
+          </location>
+        </place>
+        <place id="vothL208" type="location">
+          <placeName type="primary">Wilhelmshaven</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.533300 8.116700</geo>
+          </location>
+        </place>
+        <place id="vothL209" type="location">
+          <placeName type="primary">Noé</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.164440 3.403330</geo>
+          </location>
+        </place>
+        <place id="vothL210" type="location">
+          <placeName type="primary">Prokocim</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.013692 19.998347</geo>
+          </location>
+        </place>
+        <place id="vothL211" type="location">
+          <placeName type="primary">Jawiszowice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.957681 19.137336</geo>
+          </location>
+        </place>
+        <place id="vothL212" type="location">
+          <placeName type="primary">Papenburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.083300 7.416700</geo>
+          </location>
+        </place>
+        <place id="vothL213" type="location">
+          <placeName type="primary">unknown</placeName>
+          <location>
+            <country key="??">unknown</country>
+            <geo>0.000000 0.000000</geo>
+          </location>
+        </place>
+        <place id="vothL214" type="location">
+          <placeName type="primary">Freistaat Sachsen</placeName>
+          <placeName type="alt" n="1">Free State of Saxony</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.833300 10.000000</geo>
+          </location>
+        </place>
+        <place id="vothL215" type="location">
+          <placeName type="primary">Goldberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.600000 12.100000</geo>
+          </location>
+        </place>
+        <place id="vothL216" type="location">
+          <placeName type="primary">Tutzing</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.900000 11.283300</geo>
+          </location>
+        </place>
+        <place id="vothL217" type="location">
+          <placeName type="primary">Tomaszów Mazowiecki</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.550000 20.000000</geo>
+          </location>
+        </place>
+        <place id="vothL218" type="location">
+          <placeName type="primary">Erfurt</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.966700 11.050000</geo>
+          </location>
+        </place>
+        <place id="vothL219" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>39.000000 22.000000</geo>
+          </location>
+        </place>
+        <place id="vothL220" type="location">
+          <placeName type="primary">Retzow</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.633300 12.683300</geo>
+          </location>
+        </place>
+        <place id="vothL221" type="location">
+          <placeName type="primary">Türkheim</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.066700 10.633300</geo>
+          </location>
+        </place>
+        <place id="vothL222" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.000000 20.000000</geo>
+          </location>
+        </place>
+        <place id="vothL223" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>60.000000 47.000000</geo>
+          </location>
+        </place>
+        <place id="vothL224" type="location">
+          <placeName type="primary">Freising</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.400000 11.750000</geo>
+          </location>
+        </place>
+        <place id="vothL225" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.000000 20.000000</geo>
+          </location>
+        </place>
+        <place id="vothL226" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>49.750000 15.000000</geo>
+          </location>
+        </place>
+        <place id="vothL227" type="location">
+          <placeName type="primary">Vyhne</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.500000 18.800000</geo>
+          </location>
+        </place>
+        <place id="vothL228" type="location">
+          <placeName type="primary">Sudety Region</placeName>
+          <placeName type="alt" n="1">Sudetenland</placeName>
+          <placeName type="alt" n="2">Sudetic Mountains</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>50.500000 16.000000</geo>
+          </location>
+        </place>
+        <place id="vothL229" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.000000 32.000000</geo>
+          </location>
+        </place>
+        <place id="vothL230" type="location">
+          <placeName type="primary">Carpathian Mountains Region</placeName>
+          <placeName type="alt" n="1">Carpathians</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>47.000000 25.500000</geo>
+          </location>
+        </place>
+        <place id="vothL231" type="location">
+          <placeName type="primary">Miłoszyce</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.050000 17.316667</geo>
+          </location>
+        </place>
+        <place id="vothL232" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="al">Albania</country>
+            <geo>41.000000 20.000000</geo>
+          </location>
+        </place>
+        <place id="vothL233" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Latvia">Latvia</country>
+            <geo>57.000000 25.000000</geo>
+          </location>
+        </place>
+        <place id="vothL234" type="location">
+          <placeName type="primary">Edineţ</placeName>
+          <placeName type="alt" n="1">Yedintsy</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>48.166667 27.316667</geo>
+          </location>
+        </place>
+        <place id="vothL235" type="location">
+          <placeName type="primary"></placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>59.000000 26.000000</geo>
+          </location>
+        </place>
+        <place id="vothL236" type="location">
+          <placeName type="primary">Marseille</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.300000 5.366700</geo>
+          </location>
+        </place>
+        <place id="vothL237" type="location">
+          <placeName type="primary">Karlsruhe</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.050000 8.400000</geo>
+          </location>
+        </place>
+        <place id="vothL238" type="location">
+          <placeName type="primary">Oberlungwitz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.783300 12.716700</geo>
+          </location>
+        </place>
+        <place id="vothL239" type="location">
+          <placeName type="primary">Gogolin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.500000 18.016667</geo>
+          </location>
+        </place>
+        <place id="vothL240" type="location">
+          <placeName type="primary">Kiyev</placeName>
+          <placeName type="alt" n="1">Kiev</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.433300 30.516700</geo>
+          </location>
+        </place>
+        <place id="vothL241" type="location">
+          <placeName type="primary">Bolków</placeName>
+          <placeName type="alt" n="1">Bolkenhain</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.933333 16.100000</geo>
+          </location>
+        </place>
+        <place id="vothL242" type="location">
+          <placeName type="primary">Natzwiller</placeName>
+          <placeName type="alt" n="1">Natzweiler</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.438611 7.254166</geo>
+          </location>
+        </place>
+        <place id="vothL243" type="location">
+          <placeName type="primary">Landsberg am Lech</placeName>
+          <placeName type="alt" n="1">Landsberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.050000 10.900000</geo>
+          </location>
+        </place>
+        <place id="vothL244" type="location">
+          <placeName type="primary">Komotiní</placeName>
+          <placeName type="alt" n="1">Komotini</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>41.100000 25.416700</geo>
+          </location>
+        </place>
+        <place id="vothL245" type="location">
+          <placeName type="primary">Xánthi</placeName>
+          <placeName type="alt" n="1">Xanthi</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>41.116700 24.933300</geo>
+          </location>
+        </place>
+        <place id="vothL246" type="location">
+          <placeName type="primary">Kavála</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.933300 24.416700</geo>
+          </location>
+        </place>
+        <place id="vothL247" type="location">
+          <placeName type="primary">Dráma</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>41.166700 24.183300</geo>
+          </location>
+        </place>
+        <place id="vothL248" type="location">
+          <placeName type="primary">Véroia</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.516700 22.200000</geo>
+          </location>
+        </place>
+        <place id="vothL249" type="location">
+          <placeName type="primary">Kastoría</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.516700 21.266700</geo>
+          </location>
+        </place>
+        <place id="vothL250" type="location">
+          <placeName type="primary">Didymoteicho</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>41.350000 26.500000</geo>
+          </location>
+        </place>
+        <place id="vothL251" type="location">
+          <placeName type="primary">Orestiada</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>41.500000 26.533333</geo>
+          </location>
+        </place>
+        <place id="vothL252" type="location">
+          <placeName type="primary">Alexandroupoli</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.850000 25.866667</geo>
+          </location>
+        </place>
+        <place id="vothL253" type="location">
+          <placeName type="primary">Flórina</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>40.800000 21.433300</geo>
+          </location>
+        </place>
+        <place id="vothL254" type="location">
+          <placeName type="primary">Thessalía</placeName>
+          <placeName type="alt" n="1">Thessalia</placeName>
+          <placeName type="alt" n="2">Thessaly</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>39.500000 22.250000</geo>
+          </location>
+        </place>
+        <place id="vothL255" type="location">
+          <placeName type="primary">Hartford</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>41.750000 -72.683300</geo>
+          </location>
+        </place>
+        <place id="vothL256" type="location">
+          <placeName type="primary">Chicago</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>41.850000 -87.650000</geo>
+          </location>
+        </place>
+        <place id="vothL257" type="location">
+          <placeName type="primary">New York</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>40.700000 -74.000000</geo>
+          </location>
+        </place>
+        <place id="vothL258" type="location">
+          <placeName type="primary">Gdynia</placeName>
+          <placeName type="alt" n="1">Gotenhafen</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>54.516700 18.500000</geo>
+          </location>
+        </place>
+        <place id="vothL259" type="location">
+          <placeName type="primary">Toila</placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>59.416667 27.516667</geo>
+          </location>
+        </place>
+        <place id="vothL260" type="location">
+          <placeName type="primary">Hadera</placeName>
+          <location>
+            <country key="Palestine">Palestinian Territory</country>
+            <geo>32.433300 34.916700</geo>
+          </location>
+        </place>
+        <place id="vothL261" type="location">
+          <placeName type="primary">Toulouse</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.616700 1.433300</geo>
+          </location>
+        </place>
+        <place id="vothL262" type="location">
+          <placeName type="primary">Versailles</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.800000 2.133300</geo>
+          </location>
+        </place>
+        <place id="vothL263" type="location">
+          <placeName type="primary">Saarland region</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.333300 7.000000</geo>
+          </location>
+        </place>
+        <place id="vothL264" type="location">
+          <placeName type="primary">Namur</placeName>
+          <location>
+            <country key="be">Belgium</country>
+            <geo>50.466700 4.866700</geo>
+          </location>
+        </place>
+        <place id="vothL265" type="location">
+          <placeName type="primary">Orléans</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.900000 1.900000</geo>
+          </location>
+        </place>
+        <place id="vothL266" type="location">
+          <placeName type="primary">Philippeville</placeName>
+          <location>
+            <country key="be">Belgium</country>
+            <geo>50.200000 4.550000</geo>
+          </location>
+        </place>
+        <place id="vothL267" type="location">
+          <placeName type="primary">Lyon</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.766700 4.833300</geo>
+          </location>
+        </place>
+        <place id="vothL268" type="location">
+          <placeName type="primary">Vichy</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.133300 3.416700</geo>
+          </location>
+        </place>
+        <place id="vothL269" type="location">
+          <placeName type="primary">Gibraltar</placeName>
+          <location>
+            <country key="gb">United Kingdom</country>
+            <geo>36.150000 -5.350000</geo>
+          </location>
+        </place>
+        <place id="vothL270" type="location">
+          <placeName type="primary">Grimma</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.233300 12.716700</geo>
+          </location>
+        </place>
+        <place id="vothL271" type="location">
+          <placeName type="primary">Casablanca</placeName>
+          <location>
+            <country key="ma">Morocco</country>
+            <geo>33.650000 -7.583300</geo>
+          </location>
+        </place>
+        <place id="vothL272" type="location">
+          <placeName type="primary">Bordeaux</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>44.833300 -0.566700</geo>
+          </location>
+        </place>
+        <place id="vothL273" type="location">
+          <placeName type="primary">Trier</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.750000 6.650000</geo>
+          </location>
+        </place>
+        <place id="vothL274" type="location">
+          <placeName type="primary">Schrobenhausen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.550000 11.266700</geo>
+          </location>
+        </place>
+        <place id="vothL275" type="location">
+          <placeName type="primary">Mainz</placeName>
+          <placeName type="alt" n="1">Mayence</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.000000 8.266700</geo>
+          </location>
+        </place>
+        <place id="vothL276" type="location">
+          <placeName type="primary">La Rochelle</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.166700 -1.166700</geo>
+          </location>
+        </place>
+        <place id="vothL277" type="location">
+          <placeName type="primary">Bucharest</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>44.433300 26.100000</geo>
+          </location>
+        </place>
+        <place id="vothL278" type="location">
+          <placeName type="primary">Basel</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.550000 7.600000</geo>
+          </location>
+        </place>
+        <place id="vothL279" type="location">
+          <placeName type="primary">Cluj-Napoca</placeName>
+          <placeName type="alt" n="1">Kolozsvár</placeName>
+          <placeName type="alt" n="2">Cluj</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>46.783300 23.616700</geo>
+          </location>
+        </place>
+        <place id="vothL280" type="location">
+          <placeName type="primary">Tel Aviv</placeName>
+          <location>
+            <country key="Palestine">Palestinian Territory</country>
+            <geo>32.083300 34.800000</geo>
+          </location>
+        </place>
+        <place id="vothL281" type="location">
+          <placeName type="primary">Frankfurt am Main</placeName>
+          <placeName type="alt" n="1">Frankfurt</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.100000 8.683300</geo>
+          </location>
+        </place>
+        <place id="vothL282" type="location">
+          <placeName type="primary">Barcelona</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>41.416700 2.166700</geo>
+          </location>
+        </place>
+        <place id="vothL283" type="location">
+          <placeName type="primary">Piraeus</placeName>
+          <location>
+            <country key="Greece">Greece</country>
+            <geo>37.961000 23.643000</geo>
+          </location>
+        </place>
+        <place id="vothL284" type="location">
+          <placeName type="primary">Bochum</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.466700 7.183300</geo>
+          </location>
+        </place>
+        <place id="vothL285" type="location">
+          <placeName type="primary">Essen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.450000 6.950000</geo>
+          </location>
+        </place>
+        <place id="vothL286" type="location">
+          <placeName type="primary">Hannover</placeName>
+          <placeName type="alt" n="1">Hanover</placeName>
+          <placeName type="alt" n="2">Hanovre</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.400000 9.733300</geo>
+          </location>
+        </place>
+        <place id="vothL287" type="location">
+          <placeName type="primary">Celle</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.616700 10.083300</geo>
+          </location>
+        </place>
+        <place id="vothL288" type="location">
+          <placeName type="primary">Weil am Rhein</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.583300 7.633300</geo>
+          </location>
+        </place>
+        <place id="vothL289" type="location">
+          <placeName type="primary">Engelberg</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>46.816700 8.416700</geo>
+          </location>
+        </place>
+        <place id="vothL290" type="location">
+          <placeName type="primary">Luzern</placeName>
+          <placeName type="alt" n="1">Lucerne</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.050000 8.283300</geo>
+          </location>
+        </place>
+        <place id="vothL291" type="location">
+          <placeName type="primary">Como</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.800000 9.083300</geo>
+          </location>
+        </place>
+        <place id="vothL292" type="location">
+          <placeName type="primary">Milano</placeName>
+          <placeName type="alt" n="1">Milan</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.466700 9.200000</geo>
+          </location>
+        </place>
+        <place id="vothL293" type="location">
+          <placeName type="primary">London</placeName>
+          <placeName type="alt" n="1">Londres</placeName>
+          <placeName type="alt" n="2">Londra</placeName>
+          <location>
+            <country key="gb">United Kingdom</country>
+            <geo>51.500000 -0.166700</geo>
+          </location>
+        </place>
+        <place id="vothL294" type="location">
+          <placeName type="primary">Volgograd</placeName>
+          <placeName type="alt" n="1">Stalingrad</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>48.750000 44.500000</geo>
+          </location>
+        </place>
+        <place id="vothL296" type="location">
+          <placeName type="primary">Radzyń Podlaski</placeName>
+          <placeName type="alt" n="1">Radzyn</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.816700 22.633300</geo>
+          </location>
+        </place>
+        <place id="vothL297" type="location">
+          <placeName type="primary">Nowy Targ</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.483300 20.033300</geo>
+          </location>
+        </place>
+        <place id="vothL298" type="location">
+          <placeName type="primary">Praha</placeName>
+          <placeName type="alt" n="1">Prague</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>50.100000 14.433300</geo>
+          </location>
+        </place>
+        <place id="vothL299" type="location">
+          <placeName type="primary">Barbizon</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.433300 2.600000</geo>
+          </location>
+        </place>
+        <place id="vothL300" type="location">
+          <placeName type="primary">Courbevoie</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.900000 2.250000</geo>
+          </location>
+        </place>
+        <place id="vothL301" type="location">
+          <placeName type="primary">Mátészalka</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.966700 22.333300</geo>
+          </location>
+        </place>
+        <place id="vothL302" type="location">
+          <placeName type="primary">Geislingen an der Steige</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.616700 9.833300</geo>
+          </location>
+        </place>
+        <place id="vothL303" type="location">
+          <placeName type="primary">Szczecin</placeName>
+          <placeName type="alt" n="1">Stettin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.416667 14.583333</geo>
+          </location>
+        </place>
+        <place id="vothL304" type="location">
+          <placeName type="primary">Heidelberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.412222 8.710000</geo>
+          </location>
+        </place>
+        <place id="vothL306" type="location">
+          <placeName type="primary">Sacramento</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>38.555605 -121.468920</geo>
+          </location>
+        </place>
+        <place id="vothL307" type="location">
+          <placeName type="primary">Detroit</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>42.331600 -83.047500</geo>
+          </location>
+        </place>
+        <place id="vothL308" type="location">
+          <placeName type="primary">Chorzów</placeName>
+          <placeName type="alt" n="1">Königshütte</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.316700 18.933300</geo>
+          </location>
+        </place>
+        <place id="vothL309" type="location">
+          <placeName type="primary">Debica</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.050000 21.416667</geo>
+          </location>
+        </place>
+        <place id="vothL311" type="location">
+          <placeName type="primary">Odessa</placeName>
+          <location>
+            <country key="uk">Ukraine</country>
+            <geo>46.466667 30.733333</geo>
+          </location>
+        </place>
+        <place id="vothL313" type="location">
+          <placeName type="primary">Wrocław</placeName>
+          <placeName type="alt" n="1">Breslau</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.116667 17.033333</geo>
+          </location>
+        </place>
+        <place id="vothL314" type="location">
+          <placeName type="primary">Brooklyn</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>40.624637 -73.952236</geo>
+          </location>
+        </place>
+        <place id="vothL317" type="location">
+          <placeName type="primary">Stalingrad</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>48.700000 44.516667</geo>
+          </location>
+        </place>
+        <place id="vothL319" type="location">
+          <placeName type="primary">Buenos Aires</placeName>
+          <location>
+            <country key="ar">Argentina</country>
+            <geo>-34.603611 -58.381660</geo>
+          </location>
+        </place>
+        <place id="vothL320" type="location">
+          <placeName type="primary">Annecy</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.900000 6.130278</geo>
+          </location>
+        </place>
+        <place id="vothL321" type="location">
+          <placeName type="primary">Chambéry</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.570000 5.911800</geo>
+          </location>
+        </place>
+        <place id="vothL322" type="location">
+          <placeName type="primary">Turin</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.066700 7.666700</geo>
+          </location>
+        </place>
+        <place id="vothL323" type="location">
+          <placeName type="primary">Dunkerque</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>51.038333 2.377500</geo>
+          </location>
+        </place>
+        <place id="vothL324" type="location">
+          <placeName type="primary">Cravant</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.833000 1.567000</geo>
+          </location>
+        </place>
+        <place id="vothL325" type="location">
+          <placeName type="primary">Olliergues</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.675000 3.637000</geo>
+          </location>
+        </place>
+        <place id="vothL326" type="location">
+          <placeName type="primary">Clermont-Ferrand</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.783088 3.082352</geo>
+          </location>
+        </place>
+        <place id="vothL327" type="location">
+          <placeName type="primary">Brussels</placeName>
+          <location>
+            <country key="be">Belgium</country>
+            <geo>50.833300 4.333300</geo>
+          </location>
+        </place>
+        <place id="vothL328" type="location">
+          <placeName type="primary">Albi</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.928889 2.146389</geo>
+          </location>
+        </place>
+        <place id="vothL329" type="location">
+          <placeName type="primary">Brens</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.890278 1.911111</geo>
+          </location>
+        </place>
+        <place id="vothL330" type="location">
+          <placeName type="primary">Washington</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>47.500000 -120.500000</geo>
+          </location>
+        </place>
+        <place id="vothL331" type="location">
+          <placeName type="primary">Saint-Julien-en-Genevois</placeName>
+          <placeName type="alt" n="1">Saint-Julien</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.133300 6.083300</geo>
+          </location>
+        </place>
+        <place id="vothL332" type="location">
+          <placeName type="primary">Boston</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>42.357778 -71.061667</geo>
+          </location>
+        </place>
+        <place id="vothL333" type="location">
+          <placeName type="primary">Nimes</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.837778 4.360833</geo>
+          </location>
+        </place>
+        <place id="vothL334" type="location">
+          <placeName type="primary">Perpignan</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>42.698610 2.895560</geo>
+          </location>
+        </place>
+        <place id="vothL335" type="location">
+          <placeName type="primary">Osseja</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>42.416667 1.983333</geo>
+          </location>
+        </place>
+        <place id="vothL336" type="location">
+          <placeName type="primary">Alger</placeName>
+          <placeName type="alt" n="1">Algiers</placeName>
+          <location>
+            <country key="dz">Algeria</country>
+            <geo>36.776300 3.058500</geo>
+          </location>
+        </place>
+        <place id="vothL337" type="location">
+          <placeName type="primary">Bełżyce</placeName>
+          <placeName type="alt" n="1">Belzyce</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.183333 22.283333</geo>
+          </location>
+        </place>
+        <place id="vothL338" type="location">
+          <placeName type="primary">Kharkov</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.916667 36.316667</geo>
+          </location>
+        </place>
+        <place id="vothL339" type="location">
+          <placeName type="primary">Grenoble</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.187778 5.726945</geo>
+          </location>
+        </place>
+        <place id="vothL341" type="location">
+          <placeName type="primary">Pyrenees</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>42.666667 1.000000</geo>
+          </location>
+        </place>
+        <place id="vothL342" type="location">
+          <placeName type="primary">Moers</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.459167 6.619722</geo>
+          </location>
+        </place>
+        <place id="vothL343" type="location">
+          <placeName type="primary">Geldern</placeName>
+          <placeName type="alt" n="1">Geldern-Kapellen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.519722 6.332500</geo>
+          </location>
+        </place>
+        <place id="vothL344" type="location">
+          <placeName type="primary">Miskolc</placeName>
+          <location>
+            <country key="Hungary">Hungray</country>
+            <geo>48.104167 20.791667</geo>
+          </location>
+        </place>
+        <place id="vothL345" type="location">
+          <placeName type="primary">Kosice</placeName>
+          <location>
+            <country key="Slovakia">Slovakia</country>
+            <geo>48.716111 21.261389</geo>
+          </location>
+        </place>
+        <place id="vothL347" type="location">
+          <placeName type="primary">Tarnow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.033333 21.000000</geo>
+          </location>
+        </place>
+        <place id="vothL348" type="location">
+          <placeName type="primary">Merano</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>46.666667 11.166667</geo>
+          </location>
+        </place>
+        <place id="vothL349" type="location">
+          <placeName type="primary">Rome</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>41.900000 12.500000</geo>
+          </location>
+        </place>
+        <place id="vothL350" type="location">
+          <placeName type="primary">Bari</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>41.133333 16.866667</geo>
+          </location>
+        </place>
+        <place id="vothL351" type="location">
+          <placeName type="primary">Prabuty</placeName>
+          <placeName type="alt" n="1">Riesenburg</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.766700 19.166700</geo>
+          </location>
+        </place>
+        <place id="vothL352" type="location">
+          <placeName type="primary">Neuschonstau</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>0.000000 0.000000</geo>
+          </location>
+        </place>
+        <place id="vothL353" type="location">
+          <placeName type="primary">Šiauliai</placeName>
+          <placeName type="alt" n="1">Shaulyai</placeName>
+          <placeName type="alt" n="2">Shyaulyay</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.850000 23.333300</geo>
+          </location>
+        </place>
+        <place id="vothL354" type="location">
+          <placeName type="primary">Debice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>0.000000 0.000000</geo>
+          </location>
+        </place>
+        <place id="vothL355" type="location">
+          <placeName type="primary">Herzogenburg</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.300000 15.716700</geo>
+          </location>
+        </place>
+        <place id="vothL356" type="location">
+          <placeName type="primary">Prienbach-am-Inn</placeName>
+          <placeName type="alt" n="1">Prienbach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.285500 13.080000</geo>
+          </location>
+        </place>
+        <place id="vothL357" type="location">
+          <placeName type="primary">Stephanskirchen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.850000 12.166700</geo>
+          </location>
+          <desc>in Rosenheim</desc>
+        </place>
+        <place id="vothL358" type="location">
+          <placeName type="primary">Iffeldorf</placeName>
+          <placeName type="alt" n="1">Staltach-Iffeldorf</placeName>
+          <placeName type="alt" n="2">Staltach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.771000 11.319889</geo>
+          </location>
+        </place>
+        <place id="vothL359" type="location">
+          <placeName type="primary">Radom</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.433300 21.166700</geo>
+          </location>
+        </place>
+        <place id="vothL360" type="location">
+          <placeName type="primary">Kraśnik</placeName>
+          <placeName type="alt" n="1">Krasnik</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.933300 22.233300</geo>
+          </location>
+        </place>
+        <place id="vothL361" type="location">
+          <placeName type="primary">Moskva</placeName>
+          <placeName type="alt" n="1">Moscow</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>55.750000 37.700000</geo>
+          </location>
+        </place>
+        <place id="vothL362" type="location">
+          <placeName type="primary">Kretinga</placeName>
+          <placeName type="alt" n="1">Kretingen</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.866700 21.200000</geo>
+          </location>
+        </place>
+        <place id="vothL363" type="location">
+          <placeName type="primary">Klaipėda</placeName>
+          <placeName type="alt" n="1">Memel</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.716700 21.116700</geo>
+          </location>
+        </place>
+        <place id="vothL364" type="location">
+          <placeName type="primary">Koenigsberg</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>54.716667 20.516667</geo>
+          </location>
+        </place>
+        <place id="vothL366" type="location">
+          <placeName type="primary">Czechowice</placeName>
+          <placeName type="alt" n="1">Ursus</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.192778 20.889722</geo>
+          </location>
+        </place>
+        <place id="vothL367" type="location">
+          <placeName type="primary">Rostov</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>57.200000 39.416667</geo>
+          </location>
+        </place>
+        <place id="vothL368" type="location">
+          <placeName type="primary">Makhachkala</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>42.966667 47.500000</geo>
+          </location>
+        </place>
+        <place id="vothL369" type="location">
+          <placeName type="primary">Krasnovodsk</placeName>
+          <location>
+            <country key="tm">Turkmenistan</country>
+            <geo>40.016667 52.966667</geo>
+          </location>
+        </place>
+        <place id="vothL370" type="location">
+          <placeName type="primary">Poltava</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.589444 34.551389</geo>
+          </location>
+        </place>
+        <place id="vothL371" type="location">
+          <placeName type="primary">İstanbul</placeName>
+          <placeName type="alt" n="1">Istanbul</placeName>
+          <placeName type="alt" n="2">Constantinople</placeName>
+          <location>
+            <country key="tr">Turkey</country>
+            <geo>41.033300 28.950000</geo>
+          </location>
+        </place>
+        <place id="vothL372" type="location">
+          <placeName type="primary">Bytom</placeName>
+          <placeName type="alt" n="1">Beuthen</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.350000 18.966700</geo>
+          </location>
+        </place>
+        <place id="vothL373" type="location">
+          <placeName type="primary">Aschaffenburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.983300 9.150000</geo>
+          </location>
+        </place>
+        <place id="vothL374" type="location">
+          <placeName type="primary">Nièvre department</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.083333 3.500000</geo>
+          </location>
+        </place>
+        <place id="vothL375" type="location">
+          <placeName type="primary">Strasbourg</placeName>
+          <placeName type="alt" n="1">Strassburg</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.583300 7.750000</geo>
+          </location>
+        </place>
+        <place id="vothL376" type="location">
+          <placeName type="primary">Besançon</placeName>
+          <placeName type="alt" n="1">Besancon</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.233300 6.033300</geo>
+          </location>
+        </place>
+        <place id="vothL377" type="location">
+          <placeName type="primary">San Francisco</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>37.779300 -122.419200</geo>
+          </location>
+        </place>
+        <place id="vothL378" type="location">
+          <placeName type="primary">Zlochev</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.808333 24.901111</geo>
+          </location>
+        </place>
+        <place id="vothL379" type="location">
+          <placeName type="primary">Hucisko Oleskie</placeName>
+          <placeName type="alt" n="1">Huta Olejska</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.808333 24.901111</geo>
+          </location>
+        </place>
+        <place id="vothL380" type="location">
+          <placeName type="primary">Oberlangen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.850000 7.283056</geo>
+          </location>
+        </place>
+        <place id="vothL381" type="location">
+          <placeName type="primary">Kempten</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.733333 10.316667</geo>
+          </location>
+        </place>
+        <place id="vothL382" type="location">
+          <placeName type="primary">Farsleben</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.266667 11.650000</geo>
+          </location>
+        </place>
+        <place id="vothL383" type="location">
+          <placeName type="primary">Wurzen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.366667 12.716667</geo>
+          </location>
+        </place>
+        <place id="vothL384" type="location">
+          <placeName type="primary">Temuco</placeName>
+          <location>
+            <country key="Switzerland">Chile</country>
+            <geo>-38.750000 -72.666667</geo>
+          </location>
+        </place>
+        <place id="vothL385" type="location">
+          <placeName type="primary">Łowicz</placeName>
+          <placeName type="alt" n="1">Lowicz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.116667 19.933333</geo>
+          </location>
+        </place>
+        <place id="vothL386" type="location">
+          <placeName type="primary">Shanghai</placeName>
+          <location>
+            <country key="cn">China</country>
+            <geo>31.200000 121.500000</geo>
+          </location>
+        </place>
+        <place id="vothL387" type="location">
+          <placeName type="primary">Regensburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.016667 12.083333</geo>
+          </location>
+        </place>
+        <place id="vothL390" type="location">
+          <placeName type="primary">Baku</placeName>
+          <location>
+            <country key="az">Azerbaijan</country>
+            <geo>40.379571 49.891233</geo>
+          </location>
+        </place>
+        <place id="vothL391" type="location">
+          <placeName type="primary">Walim</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.698056 16.445000</geo>
+          </location>
+        </place>
+        <place id="vothL393" type="location">
+          <placeName type="primary">Gmina Wolin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.841389 14.611389</geo>
+          </location>
+        </place>
+        <place id="vothL394" type="location">
+          <placeName type="primary">Luxembourg</placeName>
+          <placeName type="alt" n="1">Luxemburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.600000 6.116667</geo>
+          </location>
+        </place>
+        <place id="vothL395" type="location">
+          <placeName type="primary">Głuszyca</placeName>
+          <placeName type="alt" n="1">Wüstegiersdorf</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.683333 16.366667</geo>
+          </location>
+        </place>
+        <place id="vothL396" type="location">
+          <placeName type="primary">Schimberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.255833 10.162778</geo>
+          </location>
+        </place>
+        <place id="vothL397" type="location">
+          <placeName type="primary">Sandomierz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.683300 21.750000</geo>
+          </location>
+        </place>
+        <place id="vothL398" type="location">
+          <placeName type="primary">Baranovichi</placeName>
+          <placeName type="alt" n="1">Baranoviči</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>53.150000 26.000000</geo>
+          </location>
+        </place>
+        <place id="vothL399" type="location">
+          <placeName type="primary">Rădăuţi</placeName>
+          <placeName type="alt" n="1">Radovitz</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>47.816700 25.966700</geo>
+          </location>
+        </place>
+        <place id="vothL400" type="location">
+          <placeName type="primary">Vyškov</placeName>
+          <placeName type="alt" n="1">Wischau</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>49.283300 17.016700</geo>
+          </location>
+        </place>
+        <place id="vothL401" type="location">
+          <placeName type="primary">Eisenhüttenstadt</placeName>
+          <placeName type="alt" n="1">Pohlitz</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.145000 14.672778</geo>
+          </location>
+        </place>
+        <place id="vothL402" type="location">
+          <placeName type="primary">Frankfurt an der Oder</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.333300 14.533300</geo>
+          </location>
+        </place>
+        <place id="vothL403" type="location">
+          <placeName type="primary">Bielsko-Biała</placeName>
+          <placeName type="alt" n="1">Bielitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.833300 19.000000</geo>
+          </location>
+        </place>
+        <place id="vothL404" type="location">
+          <placeName type="primary">Wismar</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.900000 11.466700</geo>
+          </location>
+        </place>
+        <place id="vothL405" type="location">
+          <placeName type="primary">Bad Schwartau</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.916700 10.683300</geo>
+          </location>
+        </place>
+        <place id="vothL406" type="location">
+          <placeName type="primary">Jelgava</placeName>
+          <placeName type="alt" n="1">Mitau</placeName>
+          <location>
+            <country key="Latvia">Latvia</country>
+            <geo>56.650000 23.716667</geo>
+          </location>
+        </place>
+        <place id="vothL407" type="location">
+          <placeName type="primary">Buguruslan</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>53.658333 52.435833</geo>
+          </location>
+        </place>
+        <place id="vothL408" type="location">
+          <placeName type="primary">Bukhara</placeName>
+          <location>
+            <country key="uz">Uzbekistan</country>
+            <geo>39.766667 64.433333</geo>
+          </location>
+        </place>
+        <place id="vothL409" type="location">
+          <placeName type="primary">Novosibirsk</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>55.016667 82.933333</geo>
+          </location>
+        </place>
+        <place id="vothL410" type="location">
+          <placeName type="primary">Kevelaer</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.550000 6.250000</geo>
+          </location>
+        </place>
+        <place id="vothL411" type="location">
+          <placeName type="primary">Miami</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>25.766700 -80.183300</geo>
+          </location>
+        </place>
+        <place id="vothL412" type="location">
+          <placeName type="primary">Cleveland</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>41.482222 -81.669722</geo>
+          </location>
+        </place>
+        <place id="vothL413" type="location">
+          <placeName type="primary">Le Creusot</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.800000 4.433000</geo>
+          </location>
+        </place>
+        <place id="vothL414" type="location">
+          <placeName type="primary">Rio de Janeiro</placeName>
+          <location>
+            <country key="br">Brazil</country>
+            <geo>-22.900000 -43.233333</geo>
+          </location>
+        </place>
+        <place id="vothL415" type="location">
+          <placeName type="primary">Cremona</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.133333 10.033333</geo>
+          </location>
+        </place>
+        <place id="vothL416" type="location">
+          <placeName type="primary">Vendôme district</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.793611 1.066389</geo>
+          </location>
+        </place>
+        <place id="vothL417" type="location">
+          <placeName type="primary">Radomyśl Wielki</placeName>
+          <placeName type="alt" n="1">Radomyszl Wielki</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.194444 21.275000</geo>
+          </location>
+        </place>
+        <place id="vothL418" type="location">
+          <placeName type="primary">Doubrava</placeName>
+          <placeName type="alt" n="1">Dombrau</placeName>
+          <location>
+            <country key="Czechoslovakia">Czech Republic</country>
+            <geo>49.859167 18.469722</geo>
+          </location>
+        </place>
+        <place id="vothL419" type="location">
+          <placeName type="primary">Bludenz</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.133333 9.816667</geo>
+          </location>
+        </place>
+        <place id="vothL420" type="location">
+          <placeName type="primary">Wädenswil</placeName>
+          <placeName type="alt" n="1">Waedenswil</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.233333 8.666667</geo>
+          </location>
+        </place>
+        <place id="vothL421" type="location">
+          <placeName type="primary">Mariánské Lázně</placeName>
+          <placeName type="alt" n="1">Marienbad</placeName>
+          <location>
+            <country key="Czechoslovakia">Czech Republic</country>
+            <geo>49.964444 12.701111</geo>
+          </location>
+        </place>
+        <place id="vothL422" type="location">
+          <placeName type="primary">Los Angeles</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>34.050000 -118.250000</geo>
+          </location>
+        </place>
+        <place id="vothL423" type="location">
+          <placeName type="primary">Madrid</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>40.400000 -3.683333</geo>
+          </location>
+        </place>
+        <place id="vothL424" type="location">
+          <placeName type="primary">Amiens</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.892000 2.299000</geo>
+          </location>
+        </place>
+        <place id="vothL425" type="location">
+          <placeName type="primary">Venice</placeName>
+          <location>
+            <country key="it">Italy</country>
+            <geo>45.433333 12.316667</geo>
+          </location>
+        </place>
+        <place id="vothL426" type="location">
+          <placeName type="primary">Salzburg</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.800000 13.033333</geo>
+          </location>
+        </place>
+        <place id="vothL427" type="location">
+          <placeName type="primary">Innsbruck</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.266667 11.383333</geo>
+          </location>
+        </place>
+        <place id="vothL428" type="location">
+          <placeName type="primary">Johannesberg</placeName>
+          <location>
+            <country key="za">South Africa</country>
+            <geo>-26.204444 28.045556</geo>
+          </location>
+        </place>
+        <place id="vothL429" type="location">
+          <placeName type="primary">Milwaukee</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>43.050000 -87.950000</geo>
+          </location>
+        </place>
+        <place id="vothL430" type="location">
+          <placeName type="primary">Bregenz</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.505000 9.749167</geo>
+          </location>
+        </place>
+        <place id="vothL431" type="location">
+          <placeName type="primary">Boguslav</placeName>
+          <placeName type="alt" n="1">Bohuslav</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.550000 30.883333</geo>
+          </location>
+        </place>
+        <place id="vothL432" type="location">
+          <placeName type="primary">Kassel</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.316667 9.500000</geo>
+          </location>
+        </place>
+        <place id="vothL433" type="location">
+          <placeName type="primary">Minsk</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>53.900000 27.566667</geo>
+          </location>
+        </place>
+        <place id="vothL434" type="location">
+          <placeName type="primary">Cherven</placeName>
+          <placeName type="alt" n="1">Chervyn</placeName>
+          <placeName type="alt" n="2">Červień</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>53.707778 28.432222</geo>
+          </location>
+        </place>
+        <place id="vothL435" type="location">
+          <placeName type="primary">Ústí nad Labem</placeName>
+          <placeName type="alt" n="1">Ústí</placeName>
+          <placeName type="alt" n="2">Aussig</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>50.683300 14.000000</geo>
+          </location>
+        </place>
+        <place id="vothL436" type="location">
+          <placeName type="primary">Litomyšl</placeName>
+          <placeName type="alt" n="1">Leitomischl</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>49.900000 16.300000</geo>
+          </location>
+        </place>
+        <place id="vothL437" type="location">
+          <placeName type="primary">Turnow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.916670 15.150000</geo>
+          </location>
+        </place>
+        <place id="vothL438" type="location">
+          <placeName type="primary">Cieszyn</placeName>
+          <placeName type="alt" n="1">Těšin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.750000 18.583300</geo>
+          </location>
+        </place>
+        <place id="vothL439" type="location">
+          <placeName type="primary">Ostrava</placeName>
+          <placeName type="alt" n="1">Moravská Ostrava</placeName>
+          <placeName type="alt" n="2">Ostrau</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>49.833300 18.250000</geo>
+          </location>
+        </place>
+        <place id="vothL440" type="location">
+          <placeName type="primary">Kelm</placeName>
+          <placeName type="alt" n="1">Kelmė</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.633333 22.933333</geo>
+          </location>
+        </place>
+        <place id="vothL441" type="location">
+          <placeName type="primary">Smolensk</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>54.783333 32.050000</geo>
+          </location>
+        </place>
+        <place id="vothL442" type="location">
+          <placeName type="primary">Bayreuth</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.948056 11.578333</geo>
+          </location>
+        </place>
+        <place id="vothL443" type="location">
+          <placeName type="primary">Wodzisław</placeName>
+          <placeName type="alt" n="1">Loslau</placeName>
+          <placeName type="alt" n="2">Wodzisław Śla̜ski</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.000000 18.450000</geo>
+          </location>
+        </place>
+        <place id="vothL444" type="location">
+          <placeName type="primary">Nancy</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.690278 6.183333</geo>
+          </location>
+        </place>
+        <place id="vothL445" type="location">
+          <placeName type="primary">Radomsko</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.066667 19.450000</geo>
+          </location>
+        </place>
+        <place id="vothL447" type="location">
+          <placeName type="primary">Skierniewice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.966700 20.166700</geo>
+          </location>
+        </place>
+        <place id="vothL448" type="location">
+          <placeName type="primary">Banská Bystrica</placeName>
+          <placeName type="alt" n="1">Bystrica</placeName>
+          <placeName type="alt" n="2">Bystrzyca</placeName>
+          <location>
+            <country key="Slovakia">Slovakia</country>
+            <geo>48.732500 19.149167</geo>
+          </location>
+        </place>
+        <place id="vothL449" type="location">
+          <placeName type="primary">Eisenberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.966700 11.900000</geo>
+          </location>
+        </place>
+        <place id="vothL450" type="location">
+          <placeName type="primary">Schwandorf in Bayern</placeName>
+          <placeName type="alt" n="1">Schwandorf</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.333300 12.116700</geo>
+          </location>
+        </place>
+        <place id="vothL451" type="location">
+          <placeName type="primary">Deggendorf</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.833300 12.966700</geo>
+          </location>
+        </place>
+        <place id="vothL452" type="location">
+          <placeName type="primary">Paderborn</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.716700 8.733300</geo>
+          </location>
+        </place>
+        <place id="vothL453" type="location">
+          <placeName type="primary">Sankt-Peterburg</placeName>
+          <placeName type="alt" n="1">Leningrad</placeName>
+          <placeName type="alt" n="2">St. Petersburg</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>59.950000 30.316667</geo>
+          </location>
+        </place>
+        <place id="vothL454" type="location">
+          <placeName type="primary">Bilbao</placeName>
+          <placeName type="alt" n="1">Bilboa</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>43.250000 -2.933300</geo>
+          </location>
+        </place>
+        <place id="vothL455" type="location">
+          <placeName type="primary">Enns</placeName>
+          <placeName type="alt" n="1">Ense</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.216700 14.466700</geo>
+          </location>
+        </place>
+        <place id="vothL456" type="location">
+          <placeName type="primary">Moulins</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.566700 3.333300</geo>
+          </location>
+        </place>
+        <place id="vothL457" type="location">
+          <placeName type="primary">Brive-la-Gaillarde</placeName>
+          <placeName type="alt" n="1">Brive</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.150000 1.533300</geo>
+          </location>
+        </place>
+        <place id="vothL458" type="location">
+          <placeName type="primary">Voiron</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.366700 5.583300</geo>
+          </location>
+        </place>
+        <place id="vothL459" type="location">
+          <placeName type="primary">Zba̜szyń</placeName>
+          <placeName type="alt" n="1">Zbaszyn</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.266700 15.916700</geo>
+          </location>
+        </place>
+        <place id="vothL460" type="location">
+          <placeName type="primary">Wanne</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.537217 7.155331</geo>
+          </location>
+        </place>
+        <place id="vothL461" type="location">
+          <placeName type="primary">Köln</placeName>
+          <placeName type="alt" n="1">Cologne</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.950000 6.966667</geo>
+          </location>
+        </place>
+        <place id="vothL462" type="location">
+          <placeName type="primary">Coburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.266667 10.966667</geo>
+          </location>
+        </place>
+        <place id="vothL463" type="location">
+          <placeName type="primary">Gotha</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.948889 10.718333</geo>
+          </location>
+        </place>
+        <place id="vothL464" type="location">
+          <placeName type="primary">Eisenach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.976111 10.320556</geo>
+          </location>
+        </place>
+        <place id="vothL467" type="location">
+          <placeName type="primary">Siedlce</placeName>
+          <placeName type="alt" n="1">Syedlets</placeName>
+          <placeName type="alt" n="2">Sedlez</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>52.166700 22.300000</geo>
+          </location>
+        </place>
+        <place id="vothL468" type="location">
+          <placeName type="primary">Rosenheim</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.850000 12.133333</geo>
+          </location>
+        </place>
+        <place id="vothL470" type="location">
+          <placeName type="primary">Atlanta</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>33.755000 -84.390000</geo>
+          </location>
+        </place>
+        <place id="vothL471" type="location">
+          <placeName type="primary">Lyntupy</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>55.050000 27.633300</geo>
+          </location>
+        </place>
+        <place id="vothL472" type="location">
+          <placeName type="primary">Shudovtsy</placeName>
+          <placeName type="alt" n="1">Szudowce</placeName>
+          <placeName type="alt" n="2">Shudovtse</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>55.066700 26.333300</geo>
+          </location>
+        </place>
+        <place id="vothL473" type="location">
+          <placeName type="primary">Karviná</placeName>
+          <placeName type="alt" n="1">Karwin</placeName>
+          <location>
+            <country key="Czechoslovakia">Czech Republic</country>
+            <geo>49.854167 18.542778</geo>
+          </location>
+        </place>
+        <place id="vothL474" type="location">
+          <placeName type="primary">Švenčionys</placeName>
+          <placeName type="alt" n="1">Svenchan</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.150000 26.166700</geo>
+          </location>
+        </place>
+        <place id="vothL475" type="location">
+          <placeName type="primary">Klecin</placeName>
+          <placeName type="alt" n="1">Klettendorf</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.898611 16.568889</geo>
+          </location>
+        </place>
+        <place id="vothL476" type="location">
+          <placeName type="primary">Pabradė</placeName>
+          <placeName type="alt" n="1">Podbrodzie</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.016700 25.800000</geo>
+          </location>
+        </place>
+        <place id="vothL477" type="location">
+          <placeName type="primary">Kamienna Góra</placeName>
+          <placeName type="alt" n="1">Landeshut</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.783333 16.033333</geo>
+          </location>
+        </place>
+        <place id="vothL478" type="location">
+          <placeName type="primary">Zharki</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>55.083333 29.916667</geo>
+          </location>
+        </place>
+        <place id="vothL479" type="location">
+          <placeName type="primary">Deutschkreuz</placeName>
+          <placeName type="alt" n="1">Deutschkreutz</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.616700 16.616700</geo>
+          </location>
+        </place>
+        <place id="vothL480" type="location">
+          <placeName type="primary">Świdnica</placeName>
+          <placeName type="alt" n="1">Schweidnitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.850000 16.483333</geo>
+          </location>
+        </place>
+        <place id="vothL481" type="location">
+          <placeName type="primary">Passau</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.583300 13.466700</geo>
+          </location>
+        </place>
+        <place id="vothL482" type="location">
+          <placeName type="primary">Braunau am Inn</placeName>
+          <placeName type="alt" n="1">Braunau</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>48.266700 13.050000</geo>
+          </location>
+        </place>
+        <place id="vothL483" type="location">
+          <placeName type="primary">Simbach am Inn</placeName>
+          <placeName type="alt" n="1">Simbach</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.266700 13.033300</geo>
+          </location>
+        </place>
+        <place id="vothL484" type="location">
+          <placeName type="primary">Podde̜bice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.900000 18.883300</geo>
+          </location>
+        </place>
+        <place id="vothL485" type="location">
+          <placeName type="primary">Aleksandrów Łódzki</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.816700 19.300000</geo>
+          </location>
+        </place>
+        <place id="vothL486" type="location">
+          <placeName type="primary">Białystok</placeName>
+          <placeName type="alt" n="1">Belostok</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.150000 23.166700</geo>
+          </location>
+        </place>
+        <place id="vothL487" type="location">
+          <placeName type="primary">Radoszyce</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.073611 20.255000</geo>
+          </location>
+        </place>
+        <place id="vothL488" type="location">
+          <placeName type="primary">Wetzlar</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.550000 8.500000</geo>
+          </location>
+        </place>
+        <place id="vothL489" type="location">
+          <placeName type="primary">Marburg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.816700 8.766700</geo>
+          </location>
+        </place>
+        <place id="vothL490" type="location">
+          <placeName type="primary">Erie</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>42.116700 -80.083000</geo>
+          </location>
+        </place>
+        <place id="vothL491" type="location">
+          <placeName type="primary">Gary</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>41.583300 -87.333300</geo>
+          </location>
+        </place>
+        <place id="vothL492" type="location">
+          <placeName type="primary">Durango</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>37.266700 -107.866700</geo>
+          </location>
+        </place>
+        <place id="vothL493" type="location">
+          <placeName type="primary">Newark</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>40.733300 -74.166700</geo>
+          </location>
+        </place>
+        <place id="vothL494" type="location">
+          <placeName type="primary">Rajsko</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.000000 19.183333</geo>
+          </location>
+        </place>
+        <place id="vothL495" type="location">
+          <placeName type="primary">Ecouis</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.300000 1.450000</geo>
+          </location>
+        </place>
+        <place id="vothL496" type="location">
+          <placeName type="primary">Lukow</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.933333 22.383333</geo>
+          </location>
+        </place>
+        <place id="vothL497" type="location">
+          <placeName type="primary">Chelm</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.133333 23.483333</geo>
+          </location>
+        </place>
+        <place id="vothL498" type="location">
+          <placeName type="primary">Jasło</placeName>
+          <placeName type="alt" n="1">Jaslo</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.750000 21.466700</geo>
+          </location>
+        </place>
+        <place id="vothL499" type="location">
+          <placeName type="primary">Bochnia</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.983300 20.416700</geo>
+          </location>
+        </place>
+        <place id="vothL500" type="location">
+          <placeName type="primary">Romainville</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.883300 2.433300</geo>
+          </location>
+        </place>
+        <place id="vothL501" type="location">
+          <placeName type="primary">Nováky</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.716700 18.550000</geo>
+          </location>
+        </place>
+        <place id="vothL502" type="location">
+          <placeName type="primary">Zvolen</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.583300 19.166700</geo>
+          </location>
+        </place>
+        <place id="vothL503" type="location">
+          <placeName type="primary">Prešov</placeName>
+          <placeName type="alt" n="1">Preschau</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>49.000000 21.166700</geo>
+          </location>
+        </place>
+        <place id="vothL504" type="location">
+          <placeName type="primary">Brezno</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>48.816700 19.666700</geo>
+          </location>
+        </place>
+        <place id="vothL505" type="location">
+          <placeName type="primary">Ukmergė</placeName>
+          <placeName type="alt" n="1">Vilkomir</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.250000 24.750000</geo>
+          </location>
+        </place>
+        <place id="vothL506" type="location">
+          <placeName type="primary">Speicher</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.416700 9.450000</geo>
+          </location>
+        </place>
+        <place id="vothL507" type="location">
+          <placeName type="primary">Sankt Gallen</placeName>
+          <placeName type="alt" n="1">Saint Gallen</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.416700 9.383300</geo>
+          </location>
+        </place>
+        <place id="vothL508" type="location">
+          <placeName type="primary">Brest</placeName>
+          <placeName type="alt" n="1">Brest-Litovsk</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>52.133300 23.666700</geo>
+          </location>
+        </place>
+        <place id="vothL509" type="location">
+          <placeName type="primary">Poniatowa</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.183300 22.133300</geo>
+          </location>
+        </place>
+        <place id="vothL510" type="location">
+          <placeName type="primary">Brzeziny</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.816700 19.700000</geo>
+          </location>
+        </place>
+        <place id="vothL511" type="location">
+          <placeName type="primary">Ternopol</placeName>
+          <placeName type="alt" n="1">Ternopil</placeName>
+          <placeName type="alt" n="2">Tarnopol</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.583300 25.650000</geo>
+          </location>
+        </place>
+        <place id="vothL512" type="location">
+          <placeName type="primary">Zolotyy Potik</placeName>
+          <placeName type="alt" n="1">Potok Złoty</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>48.900000 25.333300</geo>
+          </location>
+        </place>
+        <place id="vothL513" type="location">
+          <placeName type="primary">Wolin</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.850000 14.633300</geo>
+          </location>
+        </place>
+        <place id="vothL514" type="location">
+          <placeName type="primary">Thiers</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.850000 3.550000</geo>
+          </location>
+        </place>
+        <place id="vothL515" type="location">
+          <placeName type="primary">Czortków</placeName>
+          <placeName type="alt" n="1">Chortkov</placeName>
+          <placeName type="alt" n="2">Chortkiv</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.016700 25.800000</geo>
+          </location>
+        </place>
+        <place id="vothL516" type="location">
+          <placeName type="primary">Sedan</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.700000 4.950000</geo>
+          </location>
+        </place>
+        <place id="vothL517" type="location">
+          <placeName type="primary">Ghardaïa</placeName>
+          <location>
+            <country key="dz">Algeria</country>
+            <geo>32.333300 2.916700</geo>
+          </location>
+        </place>
+        <place id="vothL518" type="location">
+          <placeName type="primary">Aix-en-Provence</placeName>
+          <placeName type="alt" n="1">Aix</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.516700 5.450000</geo>
+          </location>
+        </place>
+        <place id="vothL519" type="location">
+          <placeName type="primary">Gorodenka</placeName>
+          <placeName type="alt" n="1">Horodenka</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>48.683300 25.483300</geo>
+          </location>
+        </place>
+        <place id="vothL520" type="location">
+          <placeName type="primary">Elne</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>42.600000 2.966700</geo>
+          </location>
+        </place>
+        <place id="vothL521" type="location">
+          <placeName type="primary">Septfonds</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>44.179444 1.619167</geo>
+          </location>
+        </place>
+        <place id="vothL522" type="location">
+          <placeName type="primary">Lorient</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.750000 -3.350000</geo>
+          </location>
+        </place>
+        <place id="vothL523" type="location">
+          <placeName type="primary">Metz</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.116700 6.183300</geo>
+          </location>
+        </place>
+        <place id="vothL524" type="location">
+          <placeName type="primary">Saint-Étienne</placeName>
+          <placeName type="alt" n="1">St.-Etienne</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.433300 4.383300</geo>
+          </location>
+        </place>
+        <place id="vothL525" type="location">
+          <placeName type="primary">Hatvan</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.666700 19.683300</geo>
+          </location>
+        </place>
+        <place id="vothL526" type="location">
+          <placeName type="primary">Jászberény</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>47.500000 19.933300</geo>
+          </location>
+        </place>
+        <place id="vothL527" type="location">
+          <placeName type="primary">Novi Sad</placeName>
+          <placeName type="alt" n="1">Újvidék</placeName>
+          <placeName type="alt" n="2">Neusatz</placeName>
+          <location>
+            <country key="Hungary">Hungary</country>
+            <geo>45.250000 19.850000</geo>
+          </location>
+        </place>
+        <place id="vothL528" type="location">
+          <placeName type="primary">Vawkavysk</placeName>
+          <placeName type="alt" n="1">Vaŭkavysk</placeName>
+          <placeName type="alt" n="2">Wolkowysk</placeName>
+          <location>
+            <country key="by">Belarus</country>
+            <geo>53.166667 24.466667</geo>
+          </location>
+        </place>
+        <place id="vothL530" type="location">
+          <placeName type="primary">Krosno</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.683300 21.783300</geo>
+          </location>
+        </place>
+        <place id="vothL531" type="location">
+          <placeName type="primary">Zabrze</placeName>
+          <placeName type="alt" n="1">Hindenburg</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.300000 18.783300</geo>
+          </location>
+        </place>
+        <place id="vothL532" type="location">
+          <placeName type="primary">Lichterfelde</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>52.433300 13.316700</geo>
+          </location>
+        </place>
+        <place id="vothL533" type="location">
+          <placeName type="primary">Dniprovs'ke</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>48.600000 34.430000</geo>
+          </location>
+        </place>
+        <place id="vothL534" type="location">
+          <placeName type="primary">Ciudad de México</placeName>
+          <placeName type="alt" n="1">Mexico City</placeName>
+          <location>
+            <country key="mx">Mexico</country>
+            <geo>19.400000 -99.150000</geo>
+          </location>
+        </place>
+        <place id="vothL535" type="location">
+          <placeName type="primary">Ampfing</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>48.250000 12.433300</geo>
+          </location>
+        </place>
+        <place id="vothL536" type="location">
+          <placeName type="primary">Nowy Sa̜cz</placeName>
+          <placeName type="alt" n="1">Neusandez</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.650000 20.666700</geo>
+          </location>
+        </place>
+        <place id="vothL537" type="location">
+          <placeName type="primary">Newcastle upon Tyne</placeName>
+          <location>
+            <country key="gb">United Kingdom</country>
+            <geo>54.983300 -1.583300</geo>
+          </location>
+        </place>
+        <place id="vothL538" type="location">
+          <placeName type="primary">Pszczyna</placeName>
+          <placeName type="alt" n="1">Pleß</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>49.983300 18.900000</geo>
+          </location>
+        </place>
+        <place id="vothL539" type="location">
+          <placeName type="primary">Podgórze</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.033300 19.966700</geo>
+          </location>
+        </place>
+        <place id="vothL540" type="location">
+          <placeName type="primary">Pfalzheim</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.033333 12.666667</geo>
+          </location>
+        </place>
+        <place id="vothL541" type="location">
+          <placeName type="primary">Brzezinka</placeName>
+          <placeName type="alt" n="1">Birkenau</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.044722 19.181389</geo>
+          </location>
+        </place>
+        <place id="vothL542" type="location">
+          <placeName type="primary">Stargard Szczeciński</placeName>
+          <placeName type="alt" n="1">Stargard</placeName>
+          <placeName type="alt" n="2">Stargard in Pommern</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.350000 15.016700</geo>
+          </location>
+        </place>
+        <place id="vothL543" type="location">
+          <placeName type="primary">Schwerin</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>53.633333 11.416667</geo>
+          </location>
+        </place>
+        <place id="vothL544" type="location">
+          <placeName type="primary">Bydgoszcz</placeName>
+          <placeName type="alt" n="1">Bromberg</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>53.116667 18.000000</geo>
+          </location>
+        </place>
+        <place id="vothL545" type="location">
+          <placeName type="primary">Immendingen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>47.950000 8.733300</geo>
+          </location>
+        </place>
+        <place id="vothL546" type="location">
+          <placeName type="primary">Osorno</placeName>
+          <location>
+            <country key="Chile">Chile</country>
+            <geo>-40.583300 -73.233300</geo>
+          </location>
+        </place>
+        <place id="vothL547" type="location">
+          <placeName type="primary">Samara</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>53.166700 50.166700</geo>
+          </location>
+        </place>
+        <place id="vothL548" type="location">
+          <placeName type="primary">Kamenec-Podol'skij</placeName>
+          <placeName type="alt" n="1">Kamianets-Podilskyi</placeName>
+          <placeName type="alt" n="2">Kamenets-Podolsky</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>48.683333 26.583333</geo>
+          </location>
+        </place>
+        <place id="vothL549" type="location">
+          <placeName type="primary">Zakrzów</placeName>
+          <placeName type="alt" n="1">Sakrau</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.249444 18.155556</geo>
+          </location>
+        </place>
+        <place id="vothL550" type="location">
+          <placeName type="primary">Bart</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>47.492778 6.772222</geo>
+          </location>
+        </place>
+        <place id="vothL551" type="location">
+          <placeName type="primary">Beograd</placeName>
+          <placeName type="alt" n="1">Belgrade</placeName>
+          <location>
+            <country key="rs">Serbia</country>
+            <geo>44.833300 20.500000</geo>
+          </location>
+        </place>
+        <place id="vothL552" type="location">
+          <placeName type="primary">Rosenberg</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>49.018889 10.031389</geo>
+          </location>
+        </place>
+        <place id="vothL553" type="location">
+          <placeName type="primary">Maślice Wielkie</placeName>
+          <placeName type="alt" n="1">Gross Masselwitz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.150000 16.950000</geo>
+          </location>
+        </place>
+        <place id="vothL554" type="location">
+          <placeName type="primary">Tbilisi</placeName>
+          <placeName type="alt" n="1">Tblisi</placeName>
+          <placeName type="alt" n="2">Tiflis</placeName>
+          <location>
+            <country key="ge">Georgia</country>
+            <geo>41.716700 44.816700</geo>
+          </location>
+        </place>
+        <place id="vothL555" type="location">
+          <placeName type="primary">Córdoba</placeName>
+          <placeName type="alt" n="1">Cordova</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>37.883300 -4.766700</geo>
+          </location>
+        </place>
+        <place id="vothL556" type="location">
+          <placeName type="primary">Cairo</placeName>
+          <placeName type="alt" n="1">Al-Qāhirah</placeName>
+          <placeName type="alt" n="2">Le Caire</placeName>
+          <location>
+            <country key="eg">Egypt</country>
+            <geo>30.050000 31.250000</geo>
+          </location>
+        </place>
+        <place id="vothL557" type="location">
+          <placeName type="primary">Kybartai</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>54.466700 22.800000</geo>
+          </location>
+        </place>
+        <place id="vothL558" type="location">
+          <placeName type="primary">Kirov</placeName>
+          <placeName type="alt" n="1">Vyatka</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>58.633300 49.633300</geo>
+          </location>
+        </place>
+        <place id="vothL559" type="location">
+          <placeName type="primary">Almaty</placeName>
+          <placeName type="alt" n="1">Alma-Ata</placeName>
+          <location>
+            <country key="kz">Kazakhstan</country>
+            <geo>43.250000 76.950000</geo>
+          </location>
+        </place>
+        <place id="vothL560" type="location">
+          <placeName type="primary">Halle</placeName>
+          <placeName type="alt" n="1">Halle an der Saale</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>51.483300 11.966700</geo>
+          </location>
+        </place>
+        <place id="vothL561" type="location">
+          <placeName type="primary">Litoměřice</placeName>
+          <placeName type="alt" n="1">Leitmeritz</placeName>
+          <location>
+            <country key="Czechoslovakia">Czechoslovakia</country>
+            <geo>50.550000 14.166700</geo>
+          </location>
+        </place>
+        <place id="vothL562" type="location">
+          <placeName type="primary">Constanţa</placeName>
+          <placeName type="alt" n="1">Constanta</placeName>
+          <location>
+            <country key="Romania">Romania</country>
+            <geo>44.200000 28.666700</geo>
+          </location>
+        </place>
+        <place id="vothL563" type="location">
+          <placeName type="primary">Pantin</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.900000 2.416700</geo>
+          </location>
+        </place>
+        <place id="vothL564" type="location">
+          <placeName type="primary">Radomyśl nad Sanem</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.683333 21.950000</geo>
+          </location>
+        </place>
+        <place id="vothL565" type="location">
+          <placeName type="primary">Appenzell</placeName>
+          <location>
+            <country key="Switzerland">Switzerland</country>
+            <geo>47.333300 9.416700</geo>
+          </location>
+        </place>
+        <place id="vothL566" type="location">
+          <placeName type="primary">Rouen</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.433300 1.083300</geo>
+          </location>
+        </place>
+        <place id="vothL567" type="location">
+          <placeName type="primary">Maintenon</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.583300 1.583300</geo>
+          </location>
+        </place>
+        <place id="vothL568" type="location">
+          <placeName type="primary">Kremenets</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.083300 25.800000</geo>
+          </location>
+        </place>
+        <place id="vothL569" type="location">
+          <placeName type="primary">Dubno</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.466700 25.666700</geo>
+          </location>
+        </place>
+        <place id="vothL570" type="location">
+          <placeName type="primary">San Cugat del Vallés</placeName>
+          <placeName type="alt" n="1">Sant Cugat del Vallès</placeName>
+          <location>
+            <country key="Spain">Spain</country>
+            <geo>41.466700 2.083300</geo>
+          </location>
+        </place>
+        <place id="vothL571" type="location">
+          <placeName type="primary">Cagny</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.861944 2.343889</geo>
+          </location>
+        </place>
+        <place id="vothL572" type="location">
+          <placeName type="primary">Péronne</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.933300 2.950000</geo>
+          </location>
+        </place>
+        <place id="vothL573" type="location">
+          <placeName type="primary">Bougainville</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>49.870833 2.042778</geo>
+          </location>
+        </place>
+        <place id="vothL574" type="location">
+          <placeName type="primary">Pellevoisin</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.983333 1.416667</geo>
+          </location>
+        </place>
+        <place id="vothL575" type="location">
+          <placeName type="primary">Quintal</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>45.833300 6.083300</geo>
+          </location>
+        </place>
+        <place id="vothL576" type="location">
+          <placeName type="primary">Mysłowice</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.233300 19.150000</geo>
+          </location>
+        </place>
+        <place id="vothL577" type="location">
+          <placeName type="primary">Myszków</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.583300 19.350000</geo>
+          </location>
+        </place>
+        <place id="vothL578" type="location">
+          <placeName type="primary">Rainiai</placeName>
+          <location>
+            <country key="Lithuania">Lithuania</country>
+            <geo>55.966667 22.300000</geo>
+          </location>
+        </place>
+        <place id="vothL579" type="location">
+          <placeName type="primary">Sławków</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.316667 19.383333</geo>
+          </location>
+        </place>
+        <place id="vothL580" type="location">
+          <placeName type="primary">Pionki</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.483300 21.450000</geo>
+          </location>
+        </place>
+        <place id="vothL581" type="location">
+          <placeName type="primary">Wolbrom</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.400000 19.733300</geo>
+          </location>
+        </place>
+        <place id="vothL582" type="location">
+          <placeName type="primary">Aachen</placeName>
+          <location>
+            <country key="Germany">Germany</country>
+            <geo>50.766700 6.100000</geo>
+          </location>
+        </place>
+        <place id="vothL583" type="location">
+          <placeName type="primary">Gaillac</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>43.900000 1.916700</geo>
+          </location>
+        </place>
+        <place id="vothL584" type="location">
+          <placeName type="primary">Kaliningrad</placeName>
+          <placeName type="alt" n="1">Karaliaučiaus</placeName>
+          <placeName type="alt" n="2">Königsberg</placeName>
+          <location>
+            <country key="Russia">Russia</country>
+            <geo>54.666700 20.500000</geo>
+          </location>
+        </place>
+        <place id="vothL585" type="location">
+          <placeName type="primary">Glasenbach</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>47.770103 13.088494</geo>
+          </location>
+        </place>
+        <place id="vothL586" type="location">
+          <placeName type="primary">Volochisk</placeName>
+          <placeName type="alt" n="1">Woloczysk</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.543000 26.230000</geo>
+          </location>
+        </place>
+        <place id="vothL587" type="location">
+          <placeName type="primary">Mary</placeName>
+          <location>
+            <country key="tm">Turkmenistan</country>
+            <geo>37.700000 61.900000</geo>
+          </location>
+        </place>
+        <place id="vothL588" type="location">
+          <placeName type="primary">Chelles</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>48.883300 2.583300</geo>
+          </location>
+        </place>
+        <place id="vothL589" type="location">
+          <placeName type="primary">Podvolochisk</placeName>
+          <placeName type="alt" n="1">Podwoloczysk</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.541000 26.158000</geo>
+          </location>
+        </place>
+        <place id="vothL590" type="location">
+          <placeName type="primary">Rave-Russkaya</placeName>
+          <placeName type="alt" n="1">Rava-Rus'ka</placeName>
+          <placeName type="alt" n="2">Rawa-Ruska</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>50.250000 23.600000</geo>
+          </location>
+        </place>
+        <place id="vothL591" type="location">
+          <placeName type="primary">Cherkassy</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.433300 32.066700</geo>
+          </location>
+        </place>
+        <place id="vothL592" type="location">
+          <placeName type="primary">Villach</placeName>
+          <location>
+            <country key="Austria">Austria</country>
+            <geo>46.616700 13.850000</geo>
+          </location>
+        </place>
+        <place id="vothL593" type="location">
+          <placeName type="primary">Barysz</placeName>
+          <placeName type="alt" n="1">Barysh</placeName>
+          <location>
+            <country key="Ukraine">Ukraine</country>
+            <geo>49.033333 25.266667</geo>
+          </location>
+        </place>
+        <place id="vothL594" type="location">
+          <placeName type="primary">Saint-Cyprien</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>44.866700 1.050000</geo>
+          </location>
+        </place>
+        <place id="vothL595" type="location">
+          <placeName type="primary">Lisbon</placeName>
+          <location>
+            <country key="Portugal">Portugal</country>
+            <geo>38.733300 -9.133300</geo>
+          </location>
+        </place>
+        <place id="vothL596" type="location">
+          <placeName type="primary">Liepāja</placeName>
+          <location>
+            <country key="Latvia">Latvia</country>
+            <geo>56.516700 21.016700</geo>
+          </location>
+        </place>
+        <place id="vothL597" type="location">
+          <placeName type="primary">Pärnu</placeName>
+          <placeName type="alt" n="1">Pernau</placeName>
+          <location>
+            <country key="Estonia">Estonia</country>
+            <geo>58.374000 24.508000</geo>
+          </location>
+        </place>
+        <place id="vothL598" type="location">
+          <placeName type="primary">Philadelphia</placeName>
+          <location>
+            <country key="us">United States</country>
+            <geo>39.950000 -75.150000</geo>
+          </location>
+        </place>
+        <place id="vothL599" type="location">
+          <placeName type="primary">Bobrek</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.056389 19.252778</geo>
+          </location>
+        </place>
+        <place id="vothL600" type="location">
+          <placeName type="primary">Mikolów</placeName>
+          <placeName type="alt" n="1">Nikolai</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>50.166700 18.833300</geo>
+          </location>
+        </place>
+        <place id="vothL601" type="location">
+          <placeName type="primary">Annemasse</placeName>
+          <location>
+            <country key="France">France</country>
+            <geo>46.183300 6.233300</geo>
+          </location>
+        </place>
+        <place id="vothL602" type="location">
+          <placeName type="primary">Sieradz</placeName>
+          <location>
+            <country key="Poland">Poland</country>
+            <geo>51.583300 18.683300</geo>
+          </location>
+        </place>
+      </listPlace>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Yanusch Deutsch; August 27, 1946; Genève, Switzerland</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (German)</resp>
+                    <name>Christian Schmidt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (English)</resp>
+                    <name>David Palmer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Christian Schmidt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT41M44.464S" id="deutschY_9-80">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <lang value="secondary" norm="en">English</lang>
+                                <note type="spools" n="1">9-80</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-27</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="deutschY_de_en" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="deutschY_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="deutschY" role="interviewee">
+                        <persName>
+                            <forename>Yanusch</forename>
+                            <surname>Deutsch</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>17</age>
+                        <birth ref="Székesfehérvár"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Hungary"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Székesfehérvár">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Székesfehérvár Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Budapest Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Linz">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Karlsruhe">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English text was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#deutschY_de_en">
+                <!-- begin Spool 9-80 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.481" end="x">[In English] Geneva, August the 27th, 1946, at the ORT School of Mechanics, the interviewee is Yanusch Deutsch, now seventeen and a half. That is a tall, good-looking and neat-looking young man, and we shall interview him on his experiences during the war.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="27.961" end="x">[In German] Also, Herr Deutsch, uh,</u>
+                    <u who="#deutschY" start="29.473" end="x">Ja?</u>
+                    <u who="#boderD" start="30.060" end="x">Sagen Sie mal, wo waren Sie, wenn der Krieg anfangen, anfing, und was ist Ihnen während des Krieges passiert?</u>
+                    <u who="#deutschY" start="39.824" end="x">Als der Krieg ausgebrochen ist, ich war in Ungarn. Ich habe in einem, mit meinen Eltern in einem kleinen Städt—, Stadt gewohnt, nicht weit von Budapest. 60 km von Budapest.</u>
+                    <u who="#boderD" start="53.199" end="x">Wie viele Leute waren in Ihrer Familie?</u>
+                    <u who="#deutschY" start="56.649" end="x">Also meine Eltern, die sind alleine.</u>
+                    <u who="#boderD" start="58.979" end="x">Ja.</u>
+                    <u who="#deutschY" start="59.352" end="x">Also, war ich auch da.</u>
+                    <u who="#boderD" start="60.757" end="x">Ja. Nun, was war Ihren Eltern Beschäftigung?</u>
+                    <u who="#deutschY" start="64.296" end="x">Mein Vater ist Architekt Ingenieur.</u>
+                    <u who="#boderD" start="66.839" end="x">Ja. Wo ist Ihr Vater jetzt?</u>
+                    <u who="#deutschY" start="68.505" end="x">In der Schweiz.</u>
+                    <u who="#boderD" start="69.562" end="x">In der Schweiz.</u>
+                    <u who="#deutschY" start="70.592" end="x">Und er arbeitet als Ingenieur.</u>
+                    <u who="#boderD" start="72.454" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="74.794" end="x">Und, mein Vater hat ein Büro . . .</u>
+                    <u who="#boderD" start="79.070" end="x">Ja.</u>
+                    <u who="#deutschY" start="79.632" end="x">Und wir konnten ruhig leben bis 1944.</u>
+                    <u who="#boderD" start="84.096" end="x">Ja.</u>
+                    <u who="#deutschY" start="85.135" end="x">Die [unverständlich; irgendetwas mit „Architekt-“? ] war nicht so groß in Ungarn, wir konnten dort ruhig leben.</u>
+                    <u who="#boderD" start="90.254" end="x">Ja.</u>
+                    <u who="#deutschY" start="90.918" end="x">Und wir haben die Nachrichten gehört von Deutschland und von die besetzten Zonen, wo die Deutschen waren. Was, was für schreckliche Sachen die mit die Juden gemacht haben. Wir haben nie gedacht, dass die selbe mit uns auch passieren kann.</u>
+                    <u who="#boderD" start="108.378" end="x">Ja.</u>
+                    <u who="#deutschY" start="110.259" end="x">In ´44, 20 März haben die Deutschen Ungarn erobert.</u>
+                    <u who="#boderD" start="116.837" end="x">Ja.</u>
+                    <u who="#deutschY" start="117.885" end="x">Hat überhaupt kein Gegenstand [Anm.: er meint „Widerstand“]</u>
+                    <u who="#boderD" start="120.337" end="x">Aha.</u>
+                    <u who="#deutschY" start="120.955" end="x">Und die Jud—, die Deutschen haben sofort natürlich Maßnahmen gegen die Juden gemacht.</u>
+                    <u who="#boderD" start="127.084" end="x">Ja.</u>
+                    <u who="#deutschY" start="127.430" end="x">Ja, Stern und so [unverständlich]</u>
+                    <u who="#boderD" start="130.396" end="x">[english?]</u>
+                    <u who="#deutschY" start="131.912" end="x">jeder Land ist die selbe. [unverständlich] in Deutschland gemacht hat nur sehr, sehr viel schneller.</u>
+                    <u who="#boderD" start="137.854" end="x">Also zum Beispiel was hat man gemacht? Vergessen wir, dass wir das wissen.</u>
+                    <u who="#deutschY" start="141.363" end="x">Ja, also, [unverständlich]</u>
+                    <u who="#boderD" start="145.359" end="x">Wie hat man das annonciert, dass man die Sterne tragen [er meint: soll]?</u>
+                    <u who="#deutschY" start="150.758" end="x">Zwölf Tage nach die deutschen</u>
+                    <u who="#boderD" start="153.247" end="x">[unverständlich]</u>
+                    <u who="#deutschY" start="153.509" end="x">Ungarn überfallen,</u>
+                    <u who="#boderD" start="156.157" end="x">Ja.</u>
+                    <u who="#deutschY" start="157.411" end="x">sind, äh, in Zeitung Artikel gekommen, dass die Juden, äh, sechs, also Magen David tragen müssen.</u>
+                    <u who="#boderD" start="167.835" end="x">Ja.</u>
+                    <u who="#deutschY" start="169.267" end="x">10 Zentimeter groß aus gelbe, gelbe </u>
+                    <u who="#boderD" start="173.749" end="x">Stoff?</u>
+                    <u who="#deutschY" start="174.329" end="x">Stoff.</u>
+                    <u who="#boderD" start="175.022" end="x">Ja, aus gelbem Stoff.</u>
+                    <u who="#deutschY" start="176.061" end="x">Ja, gelbem Stoff.</u>
+                    <u who="#boderD" start="176.641" end="x">Und wo hat man die bekommen? Hat man die verkauft, oder?</u>
+                    <u who="#deutschY" start="180.038" end="x">Wir mussten selbst machen und jüdische Händler, jüdische also Geschäftsleute haben es verkauft.</u>
+                    <u who="#boderD" start="187.309" end="x">Haben es verkauft?</u>
+                    <u who="#deutschY" start="188.263" end="x">Ja.</u>
+                    <u who="#boderD" start="188.661" end="x">Was haben sie dafür genommen?</u>
+                    <u who="#deutschY" start="190.616" end="x">Also, ich weiß nicht, 20, 30 Drachmen, also . . .</u>
+                    <u who="#boderD" start="193.238" end="x">20, 30 Drachmen. Man hat . . .</u>
+                    <u who="#deutschY" start="194.377" end="x">[unterbricht] Meistens nichts, meistens überhaupt nichts, weil sie haben doch gewusst, dass wir haben nicht mehr lange Geschäft, und warum sollen sie doch verdienen.</u>
+                    <u who="#boderD" start="202.734" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="206.653" end="x">Und dann es ist sehr schnell weitergegangen. Zuerst mussten die Geschäftsleute ihre Geschäfte zusperren.</u>
+                    <u who="#boderD" start="214.555" end="x">Ja.</u>
+                    <u who="#deutschY" start="215.426" end="x">Und dann mussten sie Fotoapparate, Radioapparate, Schreibmaschinen, [unklar; evtl. „Kleinoden“], alles abgeben.</u>
+                    <u who="#boderD" start="225.626" end="x">[unverständlich]</u>
+                    <u who="#deutschY" start="226.543" end="x">[unverständlich]</u>
+                    <u who="#boderD" start="227.525" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="233.158" end="x">Und dann mussten wir sofort alle Gold und, wie sagt man, „jewelry“?</u>
+                    <u who="#boderD" start="239.244" end="x">Schmucksachen.</u>
+                    <u who="#deutschY" start="239.774" end="x">Schmucksachen abgeben. Und Geld, was wir in Bank gehabt haben, wir haben gespart und überhaupt kein von dem haben wir davon bekommen können.</u>
+                    <u who="#boderD" start="250.841" end="x">Parlieren [evtl. „Probieren“] Sie Englisch, die Aussprache macht nichts, gehen Sie weiter.</u>
+                </div>
+                <div lang="en">
+                    <u who="#deutschY" start="255.442" end="x">[In English] . . . I'll try. But it was not only this loss against us but the German <term ref="#vothG_ss">SS</term> soldiers came every day and they asked us . . . Do you know that in every town there was a Judenrat [Jewish Council]—there were Judenräte with Judenalteste. And they came every day and they asked us food . . . [break in tape] . . . jewels, everything they liked.</u>
+                    <u who="#boderD" start="285.681" end="x">Who? The Judenrat?</u>
+                    <u who="#deutschY" start="287.061" end="x">From the Judenrat, the <term ref="#vothG_ss">SS</term> soldiers and the Judenrat—it was the duty of the Judenrat—to get these things.</u>
+                    <u who="#boderD" start="296.464" end="x">Oh. The <term ref="#vothG_ss">SS</term> came to the Judenrat?</u>
+                    <u who="#deutschY" start="299.400" end="x">Yes.</u>
+                    <u who="#boderD" start="299.844" end="x">And the Judenrat had to go to the Jews . . .</u>
+                    <u who="#deutschY" start="302.012" end="x">Yes.</u>
+                    <u who="#boderD" start="302.267" end="x">. . . to get it. Nu. All right. That's very good. Go ahead.</u>
+                    <u who="#deutschY" start="305.814" end="x">Yes. And after two month and a half who had to go to the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="315.802" end="x">Now how was that?</u>
+                    <u who="#deutschY" start="316.888" end="x">Well in all town it was like that. First we had to leave . . . there were only some houses for the Jews and on the door of these houses there was—were a big gold star.</u>
+                    <u who="#boderD" start="333.941" end="x">Ja.</u>
+                    <u who="#deutschY" start="334.411" end="x">A yellow star.</u>
+                    <u who="#boderD" start="336.247" end="x">Yes.</u>
+                    <u who="#deutschY" start="337.772" end="x">And we were living in our flat twenty-four persons. Before [unintelligible] we had four rooms and we lived there twenty-four persons.</u>
+                    <u who="#boderD" start="349.802" end="x">So they left you in your flat . . .</u>
+                    <u who="#deutschY" start="351.299" end="x">Yes.</u>
+                    <u who="#boderD" start="351.859" end="x">But who got you the twenty-four persons? Who told you to take in the twenty-four persons?</u>
+                    <u who="#deutschY" start="358.387" end="x">The <term ref="#vothG_ss">SS</term> soldiers told the Judenrat on Monday that for Friday they did had these houses—I think it was hundred and twenty houses—and they must get there . . . still Friday evening.</u>
+                    <u who="#boderD" start="378.441" end="x">Yes.</u>
+                    <u who="#deutschY" start="380.044" end="x">And it was very difficult business because we hadn't had any car and we had to take the furnitures ourselves.</u>
+                    <u who="#boderD" start="390.538" end="x">So you had to move out from your . . .</u>
+                    <u who="#deutschY" start="392.637" end="x">No. Fortunately we didn't move out—then. We lived that for one week. You can imagine that..</u>
+                    <u who="#boderD" start="400.008" end="x">That you took in other people?</u>
+                    <u who="#deutschY" start="401.518" end="x">Other . . . twenty-one persons. [<emph rend="italics">speaking over each other</emph>] We were twenty-four. Well you can imagine it because . . .</u>
+                    <u who="#boderD" start="408.412" end="x">Well . . .</u>
+                    <u who="#deutschY" start="409.565" end="x">. . . twenty-four people . . . brought with them their furnitures and their things and the flat was crowded and we couldn't move and we had only one kitchen and there were five or six familie—, families.</u>
+                    <u who="#boderD" start="423.593" end="x">Yes. And how many rooms did you have?</u>
+                    <u who="#deutschY" start="427.488" end="x">Four big rooms.</u>
+                    <u who="#boderD" start="428.610" end="x">What?</u>
+                    <u who="#deutschY" start="429.100" end="x">Four.</u>
+                    <u who="#boderD" start="429.623" end="x">Four rooms and a kitchen.</u>
+                    <u who="#deutschY" start="430.729" end="x">Yes.</u>
+                    <u who="#boderD" start="431.164" end="x">Yes. Nu.</u>
+                    <u who="#deutschY" start="433.170" end="x">And, for instance, my mother and I—and me—slept in the kitchen.</u>
+                    <u who="#boderD" start="439.408" end="x">Ja.</u>
+                    <u who="#deutschY" start="440.064" end="x">And they were cooking in the kitchen all day and night. We were cooking from eight o'clock until ten o'clock, other families from ten o'clock until twelve . . .</u>
+                    <u who="#boderD" start="449.425" end="x">Ja.</u>
+                    <u who="#deutschY" start="450.423" end="x">. . . other families in the afternoon. So we lived there for one week. We knew . . . we knew that they would deport us and we had to get some food and we wanted to eat it very quickly.</u>
+                    <u who="#boderD" start="466.638" end="x">All right.</u>
+                    <u who="#deutschY" start="469.561" end="x">And, one morning . . .</u>
+                    <u who="#boderD" start="473.017" end="x">You said you wanted to eat your food as quick as possible because you knew that what?</u>
+                    <u who="#deutschY" start="477.599" end="x">Well, it very good things [?] and we were . . . I can say we were then happy. It was the last happy days of my life.</u>
+                    <u who="#boderD" start="486.959" end="x">Ja.</u>
+                    <u who="#deutschY" start="487.870" end="x">And one morning, suddenly, at four o'clock German soldiers came in our house and they ordered the men in the yard . . . on the yard.</u>
+                    <u who="#boderD" start="500.903" end="x">Ja. Only the men?</u>
+                    <u who="#deutschY" start="501.902" end="x">Only the men. And they told them that they would give us one hour. In one hour we must move out. We can take with us thirty kilos of baggages.</u>
+                    <u who="#boderD" start="516.057" end="x">Each person?</u>
+                    <u who="#deutschY" start="517.521" end="x">Yes.</u>
+                    <u who="#boderD" start="518.155" end="x">Ja. How old were you then?</u>
+                    <u who="#deutschY" start="521.032" end="x">I was then fifteen years old . . . and some months. Well, you can imagine we hadn't had much time. We had to clothe—to dress ourselves—and we take some food and some clothes and everything we knew—everything we knew it would be useful. Then they take us on the yard and they . . . how do you say in English [German phrase]?</u>
+                    <u who="#boderD" start="550.271" end="x">And they searched you?</u>
+                    <u who="#deutschY" start="551.116" end="x">They searched us. They took the good things away from us: the chocolate, the coffee, the sugar . . . confiture [jam], the jam, and we remained with very little baggages.</u>
+                    <u who="#boderD" start="565.026" end="x">Ja.</u>
+                    <u who="#deutschY" start="566.475" end="x">And then we had to remain there from six o'clock in the morning until two o'clock in the night.</u>
+                    <u who="#boderD" start="572.639" end="x">In the yard?</u>
+                    <u who="#deutschY" start="573.653" end="x">Yes. It was [great fun?].</u>
+                    <u who="#boderD" start="575.450" end="x">The men alone or everybody?</u>
+                    <u who="#deutschY" start="577.252" end="x">Everybody—together. And you know the search was very . . . very strong . . . and we had to undress and so everywhere and they give me slaps and they kick me.</u>
+                    <u who="#boderD" start="599.257" end="x">Where did you have to undress?</u>
+                    <u who="#deutschY" start="602.211" end="x">In a room.</u>
+                    <u who="#boderD" start="603.306" end="x">In a separate room?</u>
+                    <u who="#deutschY" start="604.612" end="x">A separate room, the men . . . separate from the women. And at two o'clock they came and they took us to the [brick?] factory.</u>
+                    <u who="#boderD" start="616.322" end="x">Two o'clock at night?</u>
+                    <u who="#deutschY" start="617.340" end="x">In the night.</u>
+                    <u who="#boderD" start="618.155" end="x">In the night.</u>
+                    <u who="#deutschY" start="618.743" end="x">You know, in Hungary I think almost each town they take the Jews in a [brick?] factory.</u>
+                    <u who="#boderD" start="627.427" end="x">Why?</u>
+                    <u who="#deutschY" start="628.722" end="x">I don't know. Because, you how it looks like . . .</u>
+                    <u who="#boderD" start="634.764" end="x">A [brick?] factory?</u>
+                    <u who="#deutschY" start="635.613" end="x">Yes. We were slept on the ground. We didn't have any straw—nothing to sleep on and we hadn't food. We had even less food than in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="651.691" end="x">Yes.</u>
+                    <u who="#deutschY" start="652.817" end="x">And we were there . . .</u>
+                    <u who="#boderD" start="656.370" end="x">Oh! You said you did . . . you had some food with you?</u>
+                    <u who="#deutschY" start="659.262" end="x">They took everything away [they saw?]. Almost everything. They give us food for three days we were there for more than a fortnight.</u>
+                    <u who="#boderD" start="676.241" end="x">They gave you food or they allowed you to have food?</u>
+                    <u who="#deutschY" start="679.241" end="x">Yes. And they took away the food.</u>
+                    <u who="#boderD" start="682.994" end="x">Now let's have that clear. They gave you food—German food, bread and so on or they allowed you to take food . . .</u>
+                    <u who="#deutschY" start="689.788" end="x">They allowed . . . they allowed us to take food with us and then they took away the good things—the sugar, the chocolate, the coffee, although we had bread and I don't know . . .</u>
+                    <u who="#boderD" start="701.847" end="x">Tell me, and the Judenrat was also deported?</u>
+                    <u who="#deutschY" start="705.477" end="x">Everybody. And you know that in Hungary there was some people who fought in the war and who were Jews but they had to go to the <term ref="#vothG_ghetto">ghetto</term>. But they had to go to the [brick?] factory and they were deported too.</u>
+                    <u who="#boderD" start="722.197" end="x">A-ha. Nu?</u>
+                    <u who="#deutschY" start="723.615" end="x">And in the [brick?] factory we had half a liter of soap in a day . . .</u>
+                    <u who="#boderD" start="730.947" end="x">Soup?</u>
+                    <u who="#deutschY" start="731.402" end="x">. . . of soup and hundred-fifty grams of bread.</u>
+                    <u who="#boderD" start="737.044" end="x">Ja.</u>
+                    <u who="#deutschY" start="737.924" end="x">Nothing more. And it was very bad too because we hadn't any . . . any stuff or any fat. You know . . . fat. It was very bad.</u>
+                    <u who="#boderD" start="747.617" end="x">What month was it?</u>
+                    <u who="#deutschY" start="749.281" end="x">It was . . . June.</u>
+                    <u who="#boderD" start="752.726" end="x">June?</u>
+                    <u who="#deutschY" start="753.867" end="x">June.</u>
+                    <u who="#boderD" start="754.098" end="x">And what was the name of your city?</u>
+                    <u who="#deutschY" start="756.898" end="x"><placeName ref="Székesfehérvár">Székesfehérvár</placeName>, <placeName ref="Székesfehérvár">Stuhlweissenburg</placeName></u>
+                    <u who="#boderD" start="759.955" end="x">Yes.</u>
+                    <u who="#deutschY" start="760.278" end="x">. . . in German.</u>
+                    <u who="#boderD" start="761.101" end="x">Nu.</u>
+                    <u who="#deutschY" start="762.150" end="x">And then they took . . . one morning they said that they will take us away from our town and we must get out from the [brick?] factory and we must go to the station, the railway station. Well, the last minute there came a wire saying that twenty-six people are going to <placeName ref="Budapest">Budapest</placeName> are not going to the transport but are going to <placeName ref="Budapest">Budapest</placeName> and we were in this twenty-six people.</u>
+                    <u who="#boderD" start="795.046" end="x">Why?</u>
+                    <u who="#deutschY" start="797.140" end="x">We have these <term ref="#vothG_zionist">Zionists</term>.</u>
+                    <u who="#boderD" start="798.942" end="x"><term ref="#vothG_zionist">Zionists</term>. Yes.</u>
+                    <u who="#deutschY" start="799.838" end="x"><term ref="#vothG_zionist">Zionists</term>. And you know that in every . . . in every country, the German . . .</u>
+                    <u who="#boderD" start="810.165" end="x">The <term ref="#vothG_gestapo">Gestapo</term>?</u>
+                    <u who="#deutschY" start="811.194" end="x">. . . the <term ref="#vothG_gestapo">Gestapo</term> . . . now how do you say it?</u>
+                    <u who="#boderD" start="814.103" end="x">[clarifying in German]</u>
+                    <u who="#deutschY" start="816.578" end="x">[German phrase]</u>
+                    <u who="#boderD" start="818.311" end="x">The Germans have taken . . .</u>
+                    <u who="#deutschY" start="820.246" end="x">. . . they have taken. There was a business with the Germans that they can take us . . . I don't know, some Jews to Palestine. It was an Aliyah [immigration or pilgrimage to Palestine], it was . . . made by the <term ref="#vothG_ajdc">Joint</term>.</u>
+                    <u who="#boderD" start="837.857" end="x">Oh, the Germans had an arrangement that they can take to Palestine . . .</u>
+                    <u who="#deutschY" start="841.687" end="x">Ja.</u>
+                    <u who="#boderD" start="841.880" end="x">. . . some of the Jews. Nu.</u>
+                    <u who="#deutschY" start="843.974" end="x">And they have taken us to <placeName ref="Budapest">Budapest</placeName> in a camp and we were there six hundred people, later on we were nine hundred there.</u>
+                    <u who="#boderD" start="859.143" end="x">And they told you that you would go to Palestine?</u>
+                    <u who="#deutschY" start="861.048" end="x">To Palestine. And then one day they took us and they deported us who were . . . they had taken us to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. We were in a wagon seventy-nine people we couldn't sleep, we couldn't sit, we could only stand. Because there was not any place.</u>
+                    <u who="#boderD" start="885.064" end="x">Did you have a toilet in your car?</u>
+                    <u who="#deutschY" start="887.588" end="x">No.</u>
+                    <u who="#boderD" start="888.238" end="x">What did you do?</u>
+                    <u who="#deutschY" start="889.164" end="x">It was wagon for the cows. You know?</u>
+                    <u who="#boderD" start="891.545" end="x">Ja. So what did you do when you needed to go to the toilet?</u>
+                    <u who="#deutschY" start="895.206" end="x">Well, it was very bad because once a day the train stopped and we had to make it then.</u>
+                    <u who="#boderD" start="903.552" end="x">To go out?</u>
+                    <u who="#deutschY" start="904.156" end="x">To go out.</u>
+                    <u who="#boderD" start="905.267" end="x">And if not . . . otherwise? Otherwise . . . ?</u>
+                    <u who="#deutschY" start="911.954" end="x">Well, otherwise . . . we had jugs there . . . we had with us jugs . . .</u>
+                    <u who="#boderD" start="922.435" end="x">And how would you do it? There were people around?</u>
+                    <u who="#deutschY" start="926.111" end="x">We had to do it.</u>
+                    <u who="#boderD" start="927.928" end="x">Uh-huh And the women?</u>
+                    <u who="#deutschY" start="930.575" end="x">Women too.</u>
+                    <u who="#boderD" start="931.686" end="x">Well the women too.</u>
+                    <u who="#deutschY" start="932.582" end="x">It was daytime was quite dark too because it was . . . the door was shut. You know?</u>
+                    <u who="#boderD" start="940.175" end="x">Ja.</u>
+                    <u who="#deutschY" start="940.687" end="x">We couldn't see.</u>
+                    <u who="#boderD" start="942.059" end="x">Ja, so they could . . . satisfy their needs, eliminate in that way.</u>
+                    <u who="#deutschY" start="948.776" end="x">And then. They have taken us to <placeName ref="Wien">Vienna</placeName> and from <placeName ref="Wien">Vienna</placeName> to <placeName ref="Linz" type="camp">Linz</placeName>.</u>
+                    <u who="#boderD" start="956.830" end="x">Yes.</u>
+                    <u who="#deutschY" start="957.142" end="x">Well, in <placeName ref="Linz" type="camp">Linz</placeName> it was a very strange thing because they take us . . . we arrived at <placeName ref="Linz" type="camp">Linz</placeName> at seven o'clock in the morning.</u>
+                    <u who="#boderD" start="967.070" end="x">Ja, <placeName ref="Linz" type="camp">Linz</placeName> is near the . . . Swiss Border isn't it?</u>
+                    <u who="#deutschY" start="971.284" end="x">Hundred fifty kilometers.</u>
+                    <u who="#boderD" start="972.564" end="x">Ja. Nu?</u>
+                    <u who="#deutschY" start="973.813" end="x">And then they told us they will take us to bathe.</u>
+                    <u who="#boderD" start="978.011" end="x">To where?</u>
+                    <u who="#deutschY" start="978.487" end="x">To bathe.</u>
+                    <u who="#boderD" start="979.367" end="x">Where is that? To Bathe?</u>
+                    <u who="#deutschY" start="980.995" end="x">To bathe . . . baden.</u>
+                    <u who="#boderD" start="983.146" end="x">A-ha. Yes.</u>
+                    <u who="#deutschY" start="984.579" end="x">And they took first the women.</u>
+                    <u who="#boderD" start="987.913" end="x">To Switzerland?</u>
+                    <u who="#deutschY" start="989.177" end="x">No, it was to bathe . . . baden.</u>
+                    <u who="#boderD" start="992.434" end="x">To bathe . . . to take a bath.</u>
+                    <u who="#deutschY" start="995.096" end="x">To take a bath. They took the women first at seven o'clock in the morning and at three o'clock in the afternoon nobody came back. We were afraid: "What did they do with the women?"</u>
+                    <u who="#boderD" start="1007.271" end="x">Why didn't they take you or your father?</u>
+                    <u who="#deutschY" start="1009.933" end="x">First they said they would take the women.</u>
+                    <u who="#boderD" start="1012.191" end="x">Oh, they took the women first?</u>
+                    <u who="#deutschY" start="1013.624" end="x">Yes. Then at three o'clock they came back without the women and they took us [<emph rend="italics">Boder interrupts</emph>] . . . yes . . . with the women.</u>
+                    <u who="#boderD" start="1025.184" end="x">. . . and what happened to them?</u>
+                    <u who="#deutschY" start="1028.507" end="x">We didn't see the women but the soldiers came back [unintelligible]. And I was very afraid that they would take us in a vernichtungslager. I wanted to escape. And I tried . . .</u>
+                    <u who="#boderD" start="1040.685" end="x">A vernichtungslager?</u>
+                    <u who="#deutschY" start="1042.144" end="x">I tried to escape but I couldn't—there were a lot of soldiers.</u>
+                    <u who="#boderD" start="1046.015" end="x">A vernichtungslager is a destruction <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#deutschY" start="1048.739" end="x">Yes.</u>
+                    <u who="#boderD" start="1049.343" end="x">Yes. Nu?</u>
+                    <u who="#deutschY" start="1050.377" end="x">And then they took us in this camp—in this <term ref="#vothG_lager">lager</term> and . . . we saw the women.</u>
+                    <u who="#boderD" start="1059.168" end="x">What?</u>
+                    <u who="#deutschY" start="1059.629" end="x">The women.</u>
+                    <u who="#boderD" start="1060.248" end="x">You saw the women . . .</u>
+                    <u who="#deutschY" start="1061.231" end="x">They had to wait four or five hours because there were other people there. And they had a bath—warm water—and it was very . . . very good—very . . . [unintelligible] . . . we didn't bathe since two month—nu? And then we had a bath and at six o'clock in the afternoon we came back. The women told us that they had to go first to a big room—where there a thousand women there and they saw big boxes—yellow boxes—which was written: [Unintelligible]. Attention: [unintelligible] and that a . . . totenkop.</u>
+                    <u who="#boderD" start="1113.050" end="x">Yes.</u>
+                    <u who="#deutschY" start="1113.853" end="x">I don't know how they say in English.</u>
+                    <u who="#boderD" start="1114.836" end="x">What is [?]?</u>
+                    <u who="#deutschY" start="1116.280" end="x">A totenkop</u>
+                    <u who="#boderD" start="1117.202" end="x">A skull?</u>
+                    <u who="#deutschY" start="1118.313" end="x">A skull right on it.</u>
+                    <u who="#boderD" start="1119.715" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="1121.820" end="x">They didn't know what it is . . . they know that . . . they thought that it's against them. And then the women, they . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="1131.223" end="x">[unverständlich]</u>
+                    <u who="#deutschY" start="1132.789" end="x">[In German] Sie werden vernichten.</u>
+                    <u who="#boderD" start="1134.095" end="x">Ja.</u>
+                    <u who="#deutschY" start="1134.290" end="x">Die Frauen. Aber es waren nur die Kleider, die haben die Kleider desinfiziert.</u>
+                    <u who="#boderD" start="1140.599" end="x">Ja.</u>
+                    <u who="#deutschY" start="1141.109" end="x">Und es ist nichts passiert.</u>
+                    <u who="#boderD" start="1142.823" end="x">Nun?</u>
+                    <u who="#deutschY" start="1143.592" end="x">Später sind wir weiter gegangen und die ganze Reise hat zehn Tage lang gedauert.</u>
+                    <u who="#boderD" start="1148.548" end="x">10 Tage. Immer in demselben Waggon?</u>
+                    <u who="#deutschY" start="1150.846" end="x">Dieselben Wagons.</u>
+                    <u who="#boderD" start="1152.189" end="x">Ja.</u>
+                    <u who="#deutschY" start="1152.634" end="x">Wir sind angekommen nach Bergen-Belsen. Das ist 70 Kilometer von Hannover, ist Celle, ist ein kleines Städtchen und von dort wir mussten zu Fuß 6 Kilometer gehen. Es ist, äh, 800 Meter hoch ungefähr über mehrere schöne Wälder, die Umgebung ist sehr schön.</u>
+                    <u who="#boderD" start="1175.626" end="x">Ja.</u>
+                    <u who="#deutschY" start="1176.265" end="x">Das [unverständlich]-Lager haben sehr viele Leute gesehen, nicht nur Juden, sondern auch Kriegsgefangene aus alle.</u>
+                    <u who="#boderD" start="1182.991" end="x">Ja.</u>
+                    <u who="#deutschY" start="1184.075" end="x">Und dann wir sind im Lager hineingegangen. Wir haben eine Barack bekommen. Die Frauen haben ein Barack bekommen. Und die Männer einen halben Barack.</u>
+                    <u who="#boderD" start="1198.128" end="x">Und wer war im anderen halben Barack?</u>
+                    <u who="#deutschY" start="1200.546" end="x">Das war, war, wir konnten nicht genau [unklar], das waren Polen, von, polnische Juden.</u>
+                    <u who="#boderD" start="1206.669" end="x">Aha.</u>
+                    <u who="#deutschY" start="1207.021" end="x">[unverständlich] waren mit christlichen Papieren.</u>
+                    <u who="#boderD" start="1209.884" end="x">Oh. [überrascht] Polnische Juden mit christlichen Papieren?</u>
+                    <u who="#deutschY" start="1212.357" end="x">Christliche Papiere. Aber die Deutschen glaubten, dass sie Juden sind, [verbessert sich] dass sie Christen sind. Aber die waren Juden, die haben uns gesagt.</u>
+                    <u who="#boderD" start="1219.944" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="1221.223" end="x">Und, in einer Baracke haben tausend Leute gewohnt.</u>
+                    <u who="#boderD" start="1226.290" end="x">Ja.</u>
+                    <u who="#deutschY" start="1228.226" end="x">Es war ungefähr 150 . . .</u>
+                    <u who="#boderD" start="1230.301" end="x">[unterbricht] Wie viel waren dort polnische Juden mit christlichen Papieren?</u>
+                    <u who="#deutschY" start="1233.386" end="x">Also, dort waren ungefähr 200.</u>
+                    <u who="#boderD" start="1236.749" end="x">Und die Deutschen haben nicht gewusst, dass . . .</u>
+                    <u who="#deutschY" start="1238.315" end="x">[unterbricht] Nein.</u>
+                    <u who="#boderD" start="1238.769" end="x">dass sie Juden waren?</u>
+                    <u who="#deutschY" start="1239.204" end="x">Also, ja. Also, ich glaube in Bergen-Belsen waren sehr viele [unverständlich], nur ich weiß es nicht genau.</u>
+                    <u who="#boderD" start="1245.031" end="x">[unverständlich]</u>
+                    <u who="#deutschY" start="1246.467" end="x">sonst, [unverständlich], vielleicht viel besser.</u>
+                    <u who="#boderD" start="1249.385" end="x">Ja.</u>
+                    <u who="#deutschY" start="1251.497" end="x">Und, ein Barack war ungefähr 150 Meter lang. Dort waren sechs sogenannte „Box“. Sechs, sechs Teile geteilt. Und in einem Teil haben ungefähr 180, 150 Leute gewohnt. Und Betten in drei Stöcke.</u>
+                    <u who="#boderD" start="1273.499" end="x">Ja.</u>
+                    <u who="#deutschY" start="1273.814" end="x">Waren über-[überlegt]. In Nacht war sehr kalt. Es war Juli, aber es war sehr, sehr kalt. Das war Nord [Anm.: nicht klar, was er hiermit meint; Nordwind vielleicht?]. Und Tag war es sehr warm. Wir mussten nicht arbeiten. Es war noch vielleicht schlimmer, weil das Essen war viel schlimmer, als die die arbeiten.</u>
+                    <u who="#boderD" start="1294.916" end="x">[unverständlich]</u>
+                    <u who="#deutschY" start="1295.518" end="x">haben. Und wir konnten nichts zu tun den ganzen Tag.</u>
+                    <u who="#boderD" start="1300.196" end="x">Ja. Den ganzen Tag?</u>
+                    <u who="#deutschY" start="1301.104" end="x">Ja. Frühstück haben wir bekommen 7 Uhr morgens. Ein schwarzes Wasser, man hat gesagt, es war Kaffee, aber es war ein schwarzes, [unverständlich] schwarzes, braunes Wasser. Um elf Uhr haben wir Mittagessen bekommen. Es war, ich weiß nicht, es war Gemüse, oder Suppe, es war alles zusammen. War Rüben, [unverständlich], ohne Fett, nur mit Schalen, in Wasser reingeworfen und gekocht.</u>
+                    <u who="#boderD" start="1327.526" end="x">Ja.</u>
+                    <u who="#deutschY" start="1328.462" end="x">Und manchmal haben wir kleine Fleischstücke bekommen.</u>
+                    <u who="#boderD" start="1332.751" end="x">Aha.</u>
+                    <u who="#deutschY" start="1333.400" end="x">Es war sehr gut, diese Fleischstücke. Wir haben nicht gewusst, was für ein Fleisch, äh, Fleisch ist das. Später ich habe in einer englischen Zeitung gelesen, dass die Menschenfleich waren.</u>
+                    <u who="#boderD" start="1344.934" end="x">[entsetzt] Dass es Menschenfleisch?</u>
+                    <u who="#deutschY" start="1345.981" end="x">Menschenfleisch.</u>
+                    <u who="#boderD" start="1347.324" end="x">—fleisch in Belsen?</u>
+                    <u who="#deutschY" start="1348.806" end="x">uhum, ja. In Bergen-Belsen. Also in, in, in London Illustrierte Zeitung . . .</u>
+                    <u who="#boderD" start="1356.570" end="x">Die Londonsche Illustrierte Zeitung hat gesagt . . .</u>
+                    <u who="#deutschY" start="1359.191" end="x">Ja.</u>
+                    <u who="#boderD" start="1359.414" end="x">. . . dass man in Belsen-Belsen [sic!] Menschenfleisch . . .</u>
+                    <u who="#deutschY" start="1360.665" end="x">Ja.</u>
+                    <u who="#boderD" start="1361.073" end="x">. . . gefüttert hat?</u>
+                    <u who="#deutschY" start="1361.601" end="x">Es war so wie Kalbfleisch, so gut, so klein und so . . .</u>
+                    <u who="#boderD" start="1365.001" end="x">Ja.</u>
+                    <u who="#deutschY" start="1366.011" end="x">War sehr gut.</u>
+                    <u who="#boderD" start="1367.225" end="x">Ja.</u>
+                    <u who="#deutschY" start="1368.457" end="x">Und wir haben nicht gewusst, was für ein Fleisch war. In Bergen-Belsen gibt man uns Kalbfleisch. Ja. Und vier Uhr nachmittag haben wir Nachtessen bekommen. Die, haben wir das schwarzes Kaffee wieder bekommen. Und außerdem habe ich täglich 300 Gramm Brot bekommen. Aber diese 300 Gramm Brot war sehr klein. So, so klein wie hier 50 Gramm. Es war schwer, es war sehr schwer, es war nicht aus Weizen gemacht.</u>
+                    <u who="#boderD" start="1395.431" end="x">Aus was war denn?</u>
+                    <u who="#deutschY" start="1396.987" end="x">Ich weiß nicht. Ich glaube, auf Deutsch weiter kann ich nicht sagen.</u>
+                    <u who="#boderD" start="1401.631" end="x">Nun?</u>
+                    <u who="#deutschY" start="1402.659" end="x">Und außerdem manchmal haben wir Konfitüre bekommen. Pro Woche, 20 Gramm Konfitüre pro Woche.</u>
+                    <u who="#boderD" start="1411.525" end="x">Was für eine Konfitüre?</u>
+                    <u who="#deutschY" start="1412.979" end="x">Sehr gute Konfitüre. Konfitüre wie in der Schweiz.</u>
+                    <u who="#boderD" start="1416.259" end="x">Ja.</u>
+                    <u who="#deutschY" start="1416.602" end="x">Gute Konfitüre. Und Margarine haben wir auch bekommen manchmal. 20, 30 Gramm pro Woche, war auch sehr gut. Gute Butter.</u>
+                    <u who="#boderD" start="1425.116" end="x">Aha.</u>
+                    <u who="#deutschY" start="1425.737" end="x">Wir Kinder haben Milch bekommen. Unser Lager hat Milch bekommen und Kakao, das hat man für die Kinder gegeben. Und die Kinder bis sechs Jahren haben halbes Liter Milch pro Tag bekommen.</u>
+                    <u who="#boderD" start="1438.947" end="x">War das wo? Im . . .</u>
+                    <u who="#deutschY" start="1440.855" end="x">Die Deutschen haben es gegeben.</u>
+                    <u who="#boderD" start="1442.894" end="x">Wo, wo waren Kinder? Waren Kinder in Ihrem Block?</u>
+                    <u who="#deutschY" start="1448.128" end="x">Ja. Die waren zusammen. Frauen und separat Kinder, [verbessert sich] separat Männer. Und die Kinder, wenn, wenn sie klein waren, waren Männer, [verbessert sich] wenn sie Mädchen waren, mit den Frauen.</u>
+                    <u who="#boderD" start="1457.753" end="x">Und man hat ihnen die Milch reingebracht?</u>
+                    <u who="#deutschY" start="1459.356" end="x">Ja. Und von sechs, bis sechs Jahre hat man halbes Liter Milch gegeben pro Tag, von sechs bis neun Jahre drei Deziliter, von 9 bis 14 zwei Deziliter Milch.</u>
+                    <u who="#boderD" start="1470.334" end="x">Haben Sie Milch bekommen?</u>
+                    <u who="#deutschY" start="1471.511" end="x">Nein. Ich war mehr als 14 Jahre alt.</u>
+                    <u who="#boderD" start="1473.290" end="x">Nun?</u>
+                    <u who="#deutschY" start="1474.596" end="x">Und, kleine Kinder haben Kakao-Sache bekommen, das war kein natürlicher Kakao, aber war auch sehr gut, einmal habe ich gekostet.</u>
+                    <u who="#boderD" start="1481.433" end="x">Nun?</u>
+                    <u who="#deutschY" start="1485.815" end="x">Um sieben Uhr mussten wir aufstehen, aufstehen. Hygiene war sehr gut und sehr groß in unserem Lager. Also die Deutschen waren immer reiche Leute, [verbessert sich] reine Leute, nicht wahr? Haben Reinlichkeit gerne. Wir haben große Dusch, Duschen gehabt. Wir konnten jeden Tag duschen. Kaltes Wasser..</u>
+                    <u who="#boderD" start="1505.416" end="x">[unterbricht] In Ihrem Block?</u>
+                    <u who="#deutschY" start="1506.555" end="x">Ja, das Wasser natürlich war sehr angenehm. Und Seife haben wir bekommen. Und Latrinen waren auch sehr gut und rein. Und, also um sieben Uhr mussten wir aufstehen. Die Männer um sechs, und die Frauen um sieben Uhr. Um zehn Uhr war Appell. Jeden Tag sind die Soldaten gekommen, uns zu zählen. Ob niemand geflüchtet ist. Und danach haben wir nichts zu tun gehabt bis abends. Von zehn Uhr abends bis sieben Uhr morgens niemand durfte von den Baracken hinaus gehen. Wer hinausgegangen ist, hat man ihm erschossen. Von dem Turm. Rundherum waren, jede zweihundert Meter war ein Turm mit Soldaten mit Gewehr.</u>
+                    <u who="#boderD" start="1552.795" end="x">Ja. Haben Sie die anderen Juden dort gesehen? Haben Sie die polnischen Juden . . .</u>
+                    <u who="#deutschY" start="1557.743" end="x">[fällt ins Wort] Ich habe, wir haben Juden gesehen, aber wir können nicht sprechen mit andere Juden.</u>
+                    <u who="#boderD" start="1562.922" end="x">Ja.</u>
+                    <u who="#deutschY" start="1563.209" end="x">War verboten. Wir haben holländische Juden gesehen, Franzosen,</u>
+                    <u who="#boderD" start="1568.499" end="x">Ja.</u>
+                    <u who="#deutschY" start="1568.916" end="x">Russen, nicht Juden, Kriegsgefangene. Die waren in einem schlechten Zustand, die russischen Kriegsgefangenen.</u>
+                    <u who="#boderD" start="1575.984" end="x">Ja.</u>
+                    <u who="#deutschY" start="1576.707" end="x">Und dann haben wir Franzosen gesehen und Engländer, Amerikaner, Kriegsgefangene.</u>
+                    <u who="#boderD" start="1582.960" end="x">Ja.</u>
+                    <u who="#deutschY" start="1585.647" end="x">Jede Woche einmal wir sind baden gegangen, duschen gegangen, wir haben Bade—, warmes Bad bekommen. Und die andere Teil von diese Badegebäude war die Krematorium. Zweimal haben wir gesehen, dass sie haben Leute gebracht zum Krematorium herein.</u>
+                    <u who="#boderD" start="1608.268" end="x">Lebendige?</u>
+                    <u who="#deutschY" start="1609.139" end="x">Lebendige Leute.</u>
+                    <u who="#boderD" start="1610.371" end="x">Ja.</u>
+                    <u who="#deutschY" start="1610.612" end="x">. . . gebracht. Sie haben geschrien und geweint und alles.</u>
+                    <u who="#boderD" start="1614.086" end="x">Wie war das? Erzählen Sie. Wann war das? Wie, wieso haben Sie [sich] gesehen? Wo sind sie gegangen?</u>
+                    <u who="#deutschY" start="1618.598" end="x">Jede Woche hat man uns, sie haben gesagt, baden gegangen. In dem Augenblick, wo wir zum [unverständlich; laute Geräusche des Aufnahmegeräts].</u>
+                    <u who="#boderD" start="1625.444" end="x">Also, ich wollte wissen, nochmal. Sie sagen, Sie haben die Leute gesehen, die man aufs Krematorium genommen hat?</u>
+                    <u who="#deutschY" start="1632.429" end="x">Ja.</u>
+                    <u who="#boderD" start="1632.642" end="x">Also wollen Sie mir solch eine Begebenheit mit großen Einzelheiten beschreiben? Nun?</u>
+                    <u who="#deutschY" start="1641.007" end="x">Also wir sind im, im Badegebäude gegangen. Waren zwei große Räume. In einem Raum wir mussten die Kleider runternehmen. Und nach, im, im Duschenzimmer reingehen. Und wir, wir waren drin, und wir haben uns oben ausgezogen, als zwei Autos gekommen sind mit Leute, jüdische Leute, ich weiß nicht aus was für Nationalität.</u>
+                    <u who="#boderD" start="1670.600" end="x">Ja.</u>
+                    <u who="#deutschY" start="1671.573" end="x">Also, sie haben ihre Sterne getragen. Ich glaube, sie waren Holländer.</u>
+                    <u who="#boderD" start="1675.640" end="x">Ja.</u>
+                    <u who="#deutschY" start="1675.964" end="x">Waren sehr schlechter Zustand, sie konnten kaum gehen. Waren ältere Leute auch drin.</u>
+                    <u who="#boderD" start="1681.902" end="x">Ja.</u>
+                    <u who="#deutschY" start="1682.273" end="x">Ältere und, und Kinder auch drin. Also, starke Leute habe ich überhaupt keine gesehen.</u>
+                    <u who="#boderD" start="1688.193" end="x">Ja.</u>
+                    <u who="#deutschY" start="1688.452" end="x">Waren nur schwache und kranke Leute. Und dann..</u>
+                    <u who="#boderD" start="1691.726" end="x">Nur in diesem Transport, ja?</u>
+                    <u who="#deutschY" start="1693.331" end="x">Ja. Und dann die Deutschen haben die Juden heruntergeworfen von dem Auto. Und mit Gummistöcke gewor—, äh, geschlagen. Und sie sind reingegangen in dem anderen, andere Gebäude.</u>
+                    <u who="#boderD" start="1709.949" end="x">Ja. Und Sie sagen, die Leute haben geschrien?</u>
+                    <u who="#deutschY" start="1713.407" end="x">Geschrien und geweint und wahrscheinlich sie haben gewusst, was geschieht. Mit dem wahrscheinlich nicht [unklar, was gemeint]. Und wir sind jede Woche einmal in mehrere Transporte baden gegangen, weil sie waren dort 1600 Juden. Und, und im Badezimmer konnten nur auf einmal 200 Leute gehen. Also, wir sind um nachmittag um 3 Uhr gegangen, wir haben erst um halb vier gesehn. Und die anderen sind später gegangen. Bis neun Uhr abends keiner ist von dort zurückgekommen. Also wenn bis neun Uhr niemand kommt zurück, wahrscheinlich waren sie . . .</u>
+                    <u who="#boderD" start="1748.204" end="x">Naja, vielleicht sind sie nach anderen Block gegangen?</u>
+                    <u who="#deutschY" start="1750.736" end="x">War kein, kein Ausgang mehr.</u>
+                    <u who="#boderD" start="1752.745" end="x">Aha.</u>
+                    <u who="#deutschY" start="1753.103" end="x">Ich habe die Leute sehr gut gekannt.</u>
+                    <u who="#boderD" start="1756.175" end="x">Ja.</u>
+                    <u who="#deutschY" start="1756.432" end="x">Wir haben uns gut gekannt. Habe [unverständlich] dort gearbeitet.</u>
+                    <u who="#boderD" start="1760.229" end="x">Ja. Wo haben Sie dort gearbeitet?</u>
+                    <u who="#deutschY" start="1762.595" end="x">Im, im Badegebäude.</u>
+                    <u who="#boderD" start="1764.099" end="x">Aha.</u>
+                    <u who="#deutschY" start="1764.393" end="x">Also, im Garten habe ich gearbeitet, aber nicht für lange. Und was kann ich noch erzählen aus Bergen-Belsen? Waren Soldaten dort, also keine Zeitungen und alles gibt es nicht da hereinbekommen. Waren dort Soldaten, einige waren anständige. Sie haben mit uns gesprochen.</u>
+                    <u who="#boderD" start="1788.990" end="x">SS-Leute?</u>
+                    <u who="#deutschY" start="1789.733" end="x">SS-Leute. Waren Ungarn dort zum Beispiel. Sie waren keine Nazis.</u>
+                    <u who="#boderD" start="1793.888" end="x">Ja.</u>
+                    <u who="#deutschY" start="1794.502" end="x">Sondern die Deutschen haben, haben die weggeschleppt aus Ungarn und als Soldaten gemacht. Und sie wollten nicht kämpfen im Front, also man hat sie in Bergen-Belsen im <term ref="#vothG_kz">Konzentrationslager</term> als Wache, äh, gemacht. Und die waren keine Nazis, sie haben uns geholfen. Und sie haben immer gesagt die politische Lage. Und wir haben immer gefreut [evtl. „gefragt“], dass die, die, im, äh, In, da war die Invasion in Frankreich. Im 6. Juni hat die Invasion in Frankreich begonnen und die selbe Tag hat man uns deportiert aus Ungarn.</u>
+                    <u who="#boderD" start="1834.283" end="x">Aha.</u>
+                    <u who="#deutschY" start="1834.824" end="x">Also, es war in August schon und wir haben gehört, was es gibt im, in Frankreich, in Ungarn. Und man, sie haben uns Zeitungen hereingebracht und Zigaretten. Wir haben Marken [Anm.: gemeint ist die Währung Mark] gehabt, deutsche Marken, Reichsmarken noch aus Ungarn. Wir haben ihnen das Marken gege—</u>
+                    <u who="#boderD" start="1855.013" end="x">[unterbricht] War Ihnen erlaubt zu behalten die Marken?</u>
+                    <u who="#deutschY" start="1857.694" end="x">Man hat uns überhaupt nicht durchgesucht.</u>
+                    <u who="#boderD" start="1860.488" end="x">Wo? Im Lager?</u>
+                    <u who="#deutschY" start="1862.093" end="x">In, von, von, äh, Budapest da hat man uns nicht durchgesucht.</u>
+                    <u who="#boderD" start="1865.074" end="x">Aber Sie haben doch alles abgeben müssen in Budapest?</u>
+                    <u who="#deutschY" start="1867.981" end="x">Nicht in Budapest, in Stuhlweißenburg [Anm.: dt. Name von Székesfehérvár ][Nachsilbe/ein Wort unverständlich].</u>
+                    <u who="#boderD" start="1869.898" end="x">Aber haben Sie doch abgeben müssen? </u>
+                    <u who="#deutschY" start="1871.760" end="x">Ja, aber, aber das haben wir noch in Budapest bekommen in Lager.</u>
+                    <u who="#boderD" start="1876.080" end="x">[Unverständlich]?</u>
+                    <u who="#deutschY" start="1877.391" end="x">Oder war von Bekannten.</u>
+                    <u who="#boderD" start="1878.941" end="x">Aha.</u>
+                    <u who="#deutschY" start="1879.409" end="x">Diese, äh, dieser Lager in Budapest galt sehr gut. Wir konnten sogar hinausgehen von dem Lager.</u>
+                    <u who="#boderD" start="1885.435" end="x">Ja. Also warten Sie. Zuerst waren Sie im Lager in ihrer Stadt?</u>
+                    <u who="#deutschY" start="1889.480" end="x">Ja.</u>
+                    <u who="#boderD" start="1890.021" end="x">Dann waren Sie . . .</u>
+                    <u who="#deutschY" start="1890.553" end="x">Es war sehr schlecht. Es war schlechter als Bergen-Belsen. 3 Wochen lang.</u>
+                    <u who="#boderD" start="1893.992" end="x">Dann waren Sie . . .</u>
+                    <u who="#deutschY" start="1895.193" end="x">In Budapest war ich in einem Lager, das war gut, wir konnten dort hinausgehen mit Wache und, und bewacht, konnten reingehen. Das Essen war genug und viel.</u>
+                    <u who="#boderD" start="1905.722" end="x">Sie konnten herausgehen mit was?</u>
+                    <u who="#deutschY" start="1906.960" end="x">Mit, mit, ja, mit deutsche Soldaten.</u>
+                    <u who="#boderD" start="1909.125" end="x">Aha.</u>
+                    <u who="#deutschY" start="1909.446" end="x">Wir haben 100 Pengös, 100 ungarische Pengös bezahlt, und dann wir durften hinausgehen.</u>
+                    <u who="#boderD" start="1914.554" end="x">Und im Linz?</u>
+                    <u who="#deutschY" start="1917.618" end="x">Im Linz wir waren nur ein Tage lang, haben, wir haben gewartet.</u>
+                    <u who="#boderD" start="1920.672" end="x">Also, wo hat man alles abgeben müssen?</u>
+                    <u who="#deutschY" start="1923.350" end="x">Im, im [unklar; entweder „meinem Stadt“ oder Ungarischer Name].</u>
+                    <u who="#boderD" start="1925.331" end="x">So, wie haben Sie wieder in Budapest das gehabt? Oh. Von Bekannte [unverständlich].</u>
+                    <u who="#deutschY" start="1928.614" end="x">Ja. Verstehen Sie es?</u>
+                    <u who="#boderD" start="1930.421" end="x">Ja.</u>
+                    <u who="#deutschY" start="1930.724" end="x">Ist es klar?</u>
+                    <u who="#boderD" start="1931.595" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="1932.843" end="x">Und die haben mich vergesst gehabt. Ich weiß nicht genau, ich glaub, 500 deutsche Marken gehabt.</u>
+                    <u who="#boderD" start="1938.979" end="x">Ja.</u>
+                    <u who="#deutschY" start="1939.392" end="x">War nicht so groß der Geld, aber wir konnten nichts damit zu machen. Haben 20, 30 Marken für ein Zeitung gegeben und, ich weiß nicht was, Zigaretten.</u>
+                    <u who="#boderD" start="1948.701" end="x">Ja.</u>
+                    <u who="#deutschY" start="1949.682" end="x">Und ist sehr interessant, die jüdische Psychologen, der im Lager.</u>
+                    <u who="#boderD" start="1955.497" end="x">Ja.</u>
+                    <u who="#deutschY" start="1956.607" end="x">[unklar] waren sehr viel Ärzte und Advokaten und Intellektuelle , mehrere, die achtzig Prozent waren Intellektuelle.</u>
+                    <u who="#boderD" start="1965.090" end="x">[fragt zwischen, unverständlich]?</u>
+                    <u who="#deutschY" start="1966.319" end="x">Ja. In diesem, unserem Transport.</u>
+                    <u who="#boderD" start="1969.116" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="1970.033" end="x">Bei 1600 Leuten.</u>
+                    <u who="#boderD" start="1972.170" end="x">Ja.</u>
+                    <u who="#deutschY" start="1972.546" end="x">Und als wir nach Bergen-Belsen angekommen sind, am ersten Tag alle haben angefangen zu stehlen.</u>
+                    <u who="#boderD" start="1982.497" end="x">Zu stehlen?</u>
+                    <u who="#deutschY" start="1983.477" end="x">Ja. Zu stehlen. Ich habe etwas dort gelassen, ein Fleischstück oder ich weiß nicht was, nächsten Minuten es war schon nicht mehr dort.</u>
+                    <u who="#boderD" start="1990.423" end="x">Aha.</u>
+                    <u who="#deutschY" start="1991.086" end="x">Und, alle haben gestohlen. Und war, nicht wahr, gest— und gestritten ganzen Tag. Es war, die Nerven gehen sehr kaputt.</u>
+                    <u who="#boderD" start="2000.302" end="x">Ja.</u>
+                    <u who="#deutschY" start="2001.437" end="x">Und wir haben mit unseren Bekannten und, und, und mit allen da, den Verwandten gestritten und geschimpft, den ganzen Tag. Und als die [unklar], wir waren ein oder zwei Monate lang in Bergen-Belsen.</u>
+                    <u who="#boderD" start="2022.285" end="x">Ja.</u>
+                    <u who="#deutschY" start="2022.911" end="x">Zwei Monate lang.</u>
+                    <u who="#boderD" start="2024.219" end="x">Ja.</u>
+                    <u who="#deutschY" start="2024.537" end="x">Nur, also war es ziemlich nicht viel. Da hat man uns die Beschwerde gebracht, . . .</u>
+                    <u who="#boderD" start="2029.558" end="x">Hat wer?</u>
+                    <u who="#deutschY" start="2032.091" end="x">Ein Morgen die deutschen Soldaten gekommen, wir müssen in einem anderen Lager uns umziehen. [unklar] sind wir in Dachau oder nach Auschwitz eine weitere Lager. Und wir sind wieder in Wagone eingegangen. Wir waren nur ganz, nur 300.</u>
+                    <u who="#boderD" start="2051.185" end="x">Ja? Männer und Frauen?</u>
+                    <u who="#deutschY" start="2053.146" end="x">Männer und Frauen.</u>
+                    <u who="#boderD" start="2054.581" end="x">Waren Ihre [evtl. „Eltern da“]?</u>
+                    <u who="#deutschY" start="2055.711" end="x">Ja. Mit meinen Eltern war. Gott sei Dank war mit meinen Eltern. Und dort 300 sind dort geblieben. Und wir sind dann in Wagonen hineingegangen. Auch acht— oder neunzig in einem Wagon und vier oder fünf Tage lang haben wir da rein, wir haben nicht gewusst, wohin und, und [unverständlich]. In Karlsruhe wir haben eine deutsche Bombardierung erlebt, man hat Karlsruhe bombardiert. Ist eine große Stadt und eine große Bahnhofstation.</u>
+                    <u who="#boderD" start="2087.862" end="x">Welche Stadt?</u>
+                    <u who="#deutschY" start="2088.750" end="x">Karlsruhe.</u>
+                    <u who="#boderD" start="2089.684" end="x">Ja.</u>
+                    <u who="#deutschY" start="2090.677" end="x">Ja, und dann mussten wir ins Wiese gehen und alle könnten gehen, wenn wir wollten. Weil überhaupt keine Wache, wir waren ohne Wachen. Ohne..</u>
+                    <u who="#boderD" start="2100.686" end="x">Ohne Soldaten?</u>
+                    <u who="#deutschY" start="2101.422" end="x">Ohne Soldaten. Ja. Wir könnten wegziehen, wenn wir wollten. Ich weiß nicht, wir wollten schon nicht weg, wir haben nicht gewusst, wohin wir gehen. Für uns war schon egal, wohin wir gehen. Noch in die selbe Abend wir waren in Basel.</u>
+                    <u who="#boderD" start="2118.134" end="x">Ja. In, in der Schweiz?</u>
+                    <u who="#deutschY" start="2120.425" end="x">In der Schweiz.</u>
+                    <u who="#boderD" start="2121.181" end="x">Wie hat man Sie auf der Grenze rübergeführt?</u>
+                    <u who="#deutschY" start="2123.474" end="x">Ja. Die letzte deutsche Station ist Weil [Anm.: am Rhein], das ist, war ein Kilometer von Basel ungefähr vom deutsche.</u>
+                    <u who="#boderD" start="2130.966" end="x">Ja.</u>
+                    <u who="#deutschY" start="2131.363" end="x">noch Deutschland. Dort hat man uns untergesucht. Hat man alle Papiere, was wir gehabt haben, weggenommen.</u>
+                    <u who="#boderD" start="2138.288" end="x">Ja.</u>
+                    <u who="#deutschY" start="2138.626" end="x">Wenn jemand Geld gehabt hat oder so etwas, hat man nicht weggenommen. Zum Beispiel jemand hat ein, ein Fotoapparat mit gehabt. Hat man nicht weggenommen.</u>
+                    <u who="#boderD" start="2147.603" end="x">Ja. Wieso hat man den Fotoapparat nicht weggenommen?</u>
+                    <u who="#deutschY" start="2151.191" end="x">Das hat man nicht genommen. Also Papiere hat man, ja, weil sie auch haben Angst gehabt von die Spionage.</u>
+                    <u who="#boderD" start="2159.718" end="x">Ja. Nun?</u>
+                    <u who="#deutschY" start="2161.327" end="x">Und wir waren dort fünf, fünf Stunden lang. Und dann hat man uns geschwind, sofort ins Wagone. Dann hat man die Wagone abgesperrt. Von [undeutlich,] in drei Minuten wir waren in einem große Stadt. Waren Soldaten gekommen, sind deutsche Soldaten [einige Worte unverständlich] deutsche Soldaten. Große Stadt, viele Leute. Und hat man uns empfangen. Und Soldaten und Rot-Kreuz-Schwestern und . . .</u>
+                    <u who="#boderD" start="2199.281" end="x">[unterbricht] [unverständlich] Schwester?</u>
+                    <u who="#deutschY" start="2201.965" end="x">Sehr nett waren sie. Und hat man uns in einen Wartesaal geführt. Waren dort Stühle. Dort wir haben nach zwei, nach drei oder vier Monaten zum ersten Mal einen Stuhl gesehen. Und einen Lampen. Und ich hab Angst gehabt, in einem Stuhl zu setzen. Ich wollte nur auf den Erde, auf den Boden sitzen.</u>
+                    <u who="#boderD" start="2221.220" end="x">Ja.</u>
+                    <u who="#deutschY" start="2222.784" end="x">Und dann haben wir Essen bekommen. Zuerst Suppe und dann leichtere Sachen, dann später chocolat [einige Worte undeutlich]. Dann haben wir langsam, langsam gewusst, dass wir in der Schweiz gekommen sind und wir sind gerettet.</u>
+                    <u who="#boderD" start="2241.315" end="x">Ihre ganze Familie?</u>
+                    <u who="#deutschY" start="2242.709" end="x">Ja.</u>
+                    <u who="#boderD" start="2243.712" end="x">Und dann, was hat in der Schweiz passiert?</u>
+                    <u who="#deutschY" start="2246.454" end="x">In der Schweiz wir waren in Auffangslager, in Montreux. War nicht sehr gut. In einem anderen Auffangslager auch. Waren zwei Monate, drei Monate lang. Und dann bin ich nach Engelberg gegangen, in einem Heim. Dort ist meine Mutter auch. War in einem englischen Institut, dort war ich ein Jahr lang. In einem englischen Institut.</u>
+                    <u who="#boderD" start="2271.206" end="x">Sie wohnen noch in Engelberg?</u>
+                    <u who="#deutschY" start="2272.502" end="x">Ja.</u>
+                    <u who="#boderD" start="2273.211" end="x">Und Ihr Vater?</u>
+                    <u who="#deutschY" start="2274.150" end="x">Mein Vater ist bei Zürich, arbeitet er als Ingenieur.</u>
+                    <u who="#boderD" start="2277.322" end="x">Ja. So, warum darf Ihre Mutter nicht mit ihm wohnen?</u>
+                    <u who="#deutschY" start="2280.840" end="x">Also, mein, mein Vater verdient nicht so viel, dass meine Mutter auch dort wohnen kann.</u>
+                    <u who="#boderD" start="2286.039" end="x">Aha. Und in Zürich ist er mit, mit wem?</u>
+                    <u who="#deutschY" start="2290.476" end="x">In einer Firma, in einer Privatfirma arbeitet er.</u>
+                    <u who="#boderD" start="2293.961" end="x">Ach ja. Nun?</u>
+                    <u who="#deutschY" start="2295.648" end="x">Er ist ein sehr guter Fachmann.</u>
+                    <u who="#boderD" start="2297.299" end="x">Wie weit ist Engelbrecht [sic!] von hier?</u>
+                    <u who="#deutschY" start="2300.788" end="x">Engelberg ist bei der Vierwaldstättersee.</u>
+                    <u who="#boderD" start="2304.915" end="x">Im . . . ?</u>
+                    <u who="#deutschY" start="2305.167" end="x">Wissen Sie, wo Luzern ist?</u>
+                    <u who="#boderD" start="2307.160" end="x">Wie weit, äh,?</u>
+                    <u who="#deutschY" start="2308.675" end="x">300 Kilometer von hier.</u>
+                    <u who="#boderD" start="2310.629" end="x">Von hier. Kann man da per Bahn gehen?</u>
+                    <u who="#deutschY" start="2313.222" end="x">Ja.</u>
+                    <u who="#boderD" start="2314.402" end="x">Sind dort viele Leute?</u>
+                    <u who="#deutschY" start="2315.815" end="x">Es ist ein Kurort. Nicht wahr, eine der schönsten Kurort der Schweiz. Hat ungefähr 1000 Einwohner. Aber [unverständlich] so nicht; gibt ungefähr fünf-, sechstausend Kurgäste.</u>
+                    <u who="#boderD" start="2328.843" end="x">Ja. Aber wohnen Sie dort in einem Lager, oder?</u>
+                    <u who="#deutschY" start="2331.306" end="x">In einem, in einem Hotel. Das [unverständlich] ist gut, das Essen ist gut, ist zufrieden, bekommt etwas Geld, Taschengeld. Ich glaub, 50 oder 30, 40 Franken im Monat.</u>
+                    <u who="#boderD" start="2343.676" end="x">Ja.</u>
+                    <u who="#deutschY" start="2344.779" end="x">Und sie ist zufrieden dort, die Umgebung ist wunderbar.</u>
+                    <u who="#boderD" start="2347.939" end="x">Aha.</u>
+                    <u who="#deutschY" start="2350.015" end="x">Und ich war im englischen Institut in Montreux. Und nachher bin ich hier gekommen, in Genf, [unverständlich] Schule.</u>
+                    <u who="#boderD" start="2360.160" end="x">Sie studieren jetzt [wahrscheinlich „Mechanik“]?</u>
+                    <u who="#deutschY" start="2361.462" end="x">Ja. Und abend vorbereite ich vor für die Maturité, für die [undeutlich] Maturité.</u>
+                    <u who="#boderD" start="2367.485" end="x">Für welche Maturité?</u>
+                    <u who="#deutschY" start="2368.845" end="x">Ja, also. Erst für [einige Worte unverständlich]. Ich will [evtl. „ein Jahr“] [einige Worte unverständlich] machen.</u>
+                    <u who="#boderD" start="2376.049" end="x">Wo? In England?</u>
+                    <u who="#deutschY" start="2377.119" end="x">Nein, in der Schweiz, in Genf kann man das machen.</u>
+                    <u who="#boderD" start="2379.292" end="x">Und was wollen Sie nachher machen?</u>
+                    <u who="#deutschY" start="2381.415" end="x">Nachher möchte ich auf Universität gehen, wenn es möglich ist.</u>
+                    <u who="#boderD" start="2384.846" end="x">Was wollen Sie denn studieren?</u>
+                    <u who="#deutschY" start="2387.599" end="x">ähm, Maschineningenieur.</u>
+                    <u who="#boderD" start="2389.786" end="x">Maschineningenieur. Nun, da ist es Ihnen doch so sehr gut gegangen, dass es bleibt verschieden, gerade verschieden, wie es den anderen Leuten gegangen ist?</u>
+                    <u who="#deutschY" start="2399.873" end="x">Ja.</u>
+                    <u who="#boderD" start="2400.304" end="x">Wie erklären Sie das? War das, weil Sie Zionisten waren? War das, weil Sie Ungarn waren?</u>
+                    <u who="#deutschY" start="2404.349" end="x">In Ungarn waren, in Ungarn waren wir große Zionisten.</u>
+                    <u who="#boderD" start="2407.818" end="x">Ja.</u>
+                    <u who="#deutschY" start="2409.018" end="x">Und die Deutschen haben die Zionisten gerettet. Also hat man, die Juden haben gesehen, wer können, wer kommen können, in diese Transport. Und natürlich haben sie die Zionisten gewählt, nicht wahr.</u>
+                    <u who="#boderD" start="2422.955" end="x">Aha.</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="2428.862" end="x">Waren da mehrere reiche Leute mit Ihnen oder waren auch arme Leute?</u>
+                    <u who="#deutschY" start="2432.713" end="x">Ganz verschieden. Waren sehr leicht, [korrigiert sich] waren sehr reiche Leute, die auch sehr viel gezahlt haben, dass sie kommen können, dazu [oder: „da zu“] die Zionisten.</u>
+                    <u who="#boderD" start="2442.490" end="x">Ja.</u>
+                    <u who="#deutschY" start="2443.226" end="x">Waren auch sehr, aber die große Teil waren arme Leute, nicht wahr? Wir haben zum Beispiel überhaupt nichts mehr [einige Worte undeutlich], äh, bezahlt, nicht wahr?</u>
+                    <u who="#boderD" start="2453.293" end="x">Ja. Wie haben Sie das bezahlt?</u>
+                    <u who="#deutschY" start="2456.815" end="x">Die jüdische, die Jud—, die Judenrat. Der Judenrat hat es dem, dem Joint weitergegeben und das hat dann, Joint [unverständlich] gemacht.</u>
+                    <u who="#boderD" start="2468.008" end="x">Der Joint hat doch kein Geld mit Ihnen gemacht?</u>
+                    <u who="#deutschY" start="2471.723" end="x">Also, ich weiß nicht, wie es gegangen ist. Ich, die Joint hat Geld bezahlt, aber sie mussten auch vorher etwas zahlen dafür.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2483.396" end="x">[In English] This concludes Spool 80 of Yanusch Deutsch, a Hungarian, a Hungarian Jewish child which was saved . . . eh, by special, by a special form of deportation to Belsen, presumably a Zionist, which has to be verified.</u>
+                </div>
+                <!-- end Spool 9-80 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#deutschY_en">
+                <!-- begin spool 9-80 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.481" end="x"><placeName ref="Genève">Geneva</placeName>, August the 27th 1946, at the <term ref="#vothG_ort">ORT</term> School of Mechanics. The interviewee is Yanusch Deutsch, now seventeen and a half . . . rather a tall, good-looking and neat-looking young man. And we shall interview him on his experiences during the war.</u>
+                    <u who="#boderD" start="27.961" end="x">[In German] So, Mr. Deutsch, eh . . .</u>
+                    <u who="#deutschY" start="29.473" end="x">Yes?</u>
+                    <u who="#boderD" start="30.060" end="x">Tell me, where were you when the war start, started, and what happened to you during the war?</u>
+                    <u who="#deutschY" start="39.824" end="x">When the war broke out I was in Hungary. I lived in a, with my parents in a little to—, town not far from <placeName ref="Budapest">Budapest</placeName>. Sixty kilometers from <placeName ref="Budapest">Budapest</placeName>.</u>
+                    <u who="#boderD" start="53.199" end="x">How many people were there in your family?</u>
+                    <u who="#deutschY" start="56.649" end="x">Well, my parents, they are alone.</u>
+                    <u who="#boderD" start="58.979" end="x">Yes.</u>
+                    <u who="#deutschY" start="59.352" end="x">Well, I was there, too.</u>
+                    <u who="#boderD" start="60.757" end="x">Yes. Now, what was your parents' occupation?</u>
+                    <u who="#deutschY" start="64.296" end="x">My father is architect engineer.</u>
+                    <u who="#boderD" start="66.839" end="x">Yes. Where is your father now?</u>
+                    <u who="#deutschY" start="68.505" end="x">In Switzerland.</u>
+                    <u who="#boderD" start="69.562" end="x">In Switzerland.</u>
+                    <u who="#deutschY" start="70.592" end="x">And he is working as an engineer.</u>
+                    <u who="#boderD" start="72.454" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="74.794" end="x">And my father has an office . . .</u>
+                    <u who="#boderD" start="79.070" end="x">Yes.</u>
+                    <u who="#deutschY" start="79.632" end="x">And we could live calmly until 1944.</u>
+                    <u who="#boderD" start="84.096" end="x">Yes.</u>
+                    <u who="#deutschY" start="85.135" end="x">The [unintelligible; something with "architect"?] was not so big in Hungary, so we could calmly live there.</u>
+                    <u who="#boderD" start="90.254" end="x">Yes.</u>
+                    <u who="#deutschY" start="90.918" end="x">And we heard the news from Germany and the occupied territories where the Germans were. What, what terrible things they did to the Jews. We never thought that the same could happen to us.</u>
+                    <u who="#boderD" start="108.378" end="x">Yes.</u>
+                    <u who="#deutschY" start="110.259" end="x">In '44, 20 March the Germans conquered Hungary.</u>
+                    <u who="#boderD" start="116.837" end="x">Yes.</u>
+                    <u who="#deutschY" start="117.885" end="x">There was no object.<note n="1">Translator's note: He confuses the German words "Gegenstand" and "Widerstand," meaning "object" and "resistance," respectively.</note></u>
+                    <u who="#boderD" start="120.337" end="x">I see.</u>
+                    <u who="#deutschY" start="120.955" end="x">And the Jew—, the Germans, of course, immediately took measures against the Jews.</u>
+                    <u who="#boderD" start="127.084" end="x">Yes.</u>
+                    <u who="#deutschY" start="127.430" end="x">Yes, Star [of David] and [inaudible].</u>
+                    <u who="#boderD" start="130.396" end="x">[unintelligible; possibly something in English?]</u>
+                    <u who="#deutschY" start="131.912" end="x">Every country is the same. [unintelligible] what happened in Germany, only much, much faster.</u>
+                    <u who="#boderD" start="137.854" end="x">So, for example, what did they do? Let's forget that we already know that.</u>
+                    <u who="#deutschY" start="141.363" end="x">Yes, well, [unintelligible].</u>
+                    <u who="#boderD" start="145.359" end="x">How was it announced that one was supposed to wear the Stars?</u>
+                    <u who="#deutschY" start="150.758" end="x">Twelve days after the Germans . . .</u>
+                    <u who="#boderD" start="153.247" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="153.509" end="x">. . . occupied Hungary,</u>
+                    <u who="#boderD" start="156.157" end="x">Yes.</u>
+                    <u who="#deutschY" start="157.411" end="x">. . . in the papers there appeared articles that the Jews, eh, six, I mean have to wear Magen David.</u>
+                    <u who="#boderD" start="167.835" end="x">Yes.</u>
+                    <u who="#deutschY" start="169.267" end="x">Ten centimeters large, made from yellow, yellow . . .</u>
+                    <u who="#boderD" start="173.749" end="x">Cloth?</u>
+                    <u who="#deutschY" start="174.329" end="x">Cloth.</u>
+                    <u who="#boderD" start="175.022" end="x">Yes, out of yellow cloth.</u>
+                    <u who="#deutschY" start="176.061" end="x">Yes, yellow cloth.</u>
+                    <u who="#boderD" start="176.641" end="x">And where did one get these? Were they sold, or what?</u>
+                    <u who="#deutschY" start="180.038" end="x">We had to make them ourselves, and Jewish merchants, Jewish, I mean, salesmen sold it.</u>
+                    <u who="#boderD" start="187.309" end="x">They sold it?</u>
+                    <u who="#deutschY" start="188.263" end="x">Yes.</u>
+                    <u who="#boderD" start="188.661" end="x">How much did they take for it?</u>
+                    <u who="#deutschY" start="190.616" end="x">Well, I don't know, twenty, thirty drachmas, well . . .</u>
+                    <u who="#boderD" start="193.238" end="x">Twenty, thirty drachmas. So they . . .</u>
+                    <u who="#deutschY" start="194.377" end="x">[<emph rend="italics">interrupts</emph>] Most often nothing, most often nothing at all, because they knew, after all, that they not have their businesses much longer, so why should they earn anything.</u>
+                    <u who="#boderD" start="202.734" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="206.653" end="x">And then things proceeded quite rapidly. At first, the businessmen had to lock their businesses.</u>
+                    <u who="#boderD" start="214.555" end="x">Yes.</u>
+                    <u who="#deutschY" start="215.426" end="x">And then they had to hand in cameras, radios, typewriters, [unintelligible; possibly "little treasures"?], everything.</u>
+                    <u who="#boderD" start="225.626" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="226.543" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="227.525" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="233.158" end="x">And then we immediately had to hand in all the gold and, how does one say, "schmucksachen"?</u>
+                    <u who="#boderD" start="239.244" end="x">Jewelry.</u>
+                    <u who="#deutschY" start="239.774" end="x">Jewelry. And money that we had in the bank, that we had saved, and absolutely nothing of it we could receive.</u>
+                    <u who="#boderD" start="250.841" end="x">Speak [possibly: "try"?] English, don't mind the pronunciation, go on.</u>
+                    <u who="#deutschY" start="255.442" end="x">[In English] . . . I'll try. But it was not only this loss against us but the German <term ref="#vothG_ss">SS</term> soldiers came every day and they asked us . . . Do you know that in every town there was a Judenrat [Jewish Council]—there were Judenräte with Judenalteste. And they came every day and they asked us food . . . [break in tape] . . . jewels, everything they liked.</u>
+                    <u who="#boderD" start="285.681" end="x">Who? The Judenrat?</u>
+                    <u who="#deutschY" start="287.061" end="x">From the Judenrat, the <term ref="#vothG_ss">SS</term> soldiers and the Judenrat—it was the duty of the Judenrat—to get these things.</u>
+                    <u who="#boderD" start="296.464" end="x">Oh. The <term ref="#vothG_ss">SS</term> came to the Judenrat?</u>
+                    <u who="#deutschY" start="299.400" end="x">Yes.</u>
+                    <u who="#boderD" start="299.844" end="x">And the Judenrat had to go to the Jews . . .</u>
+                    <u who="#deutschY" start="302.012" end="x">Yes.</u>
+                    <u who="#boderD" start="302.267" end="x">. . . to get it. Nu. All right. That's very good. Go ahead.</u>
+                    <u who="#deutschY" start="305.814" end="x">Yes. And after two month and a half who had to go to the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="315.802" end="x">Now how was that?</u>
+                    <u who="#deutschY" start="316.888" end="x">Well in all town it was like that. First we had to leave . . . there were only some houses for the Jews and on the door of these houses there was—were a big gold star.</u>
+                    <u who="#boderD" start="333.941" end="x">Ja.</u>
+                    <u who="#deutschY" start="334.411" end="x">A yellow star.</u>
+                    <u who="#boderD" start="336.247" end="x">Yes.</u>
+                    <u who="#deutschY" start="337.772" end="x">And we were living in our flat twenty-four persons. Before [unintelligible] we had four rooms and we lived there twenty-four persons.</u>
+                    <u who="#boderD" start="349.802" end="x">So they left you in your flat . . .</u>
+                    <u who="#deutschY" start="351.299" end="x">Yes.</u>
+                    <u who="#boderD" start="351.859" end="x">But who got you the twenty-four persons? Who told you to take in the twenty-four persons?</u>
+                    <u who="#deutschY" start="358.387" end="x">The <term ref="#vothG_ss">SS</term> soldiers told the Judenrat on Monday that for Friday they did had these houses—I think it was hundred and twenty houses—and they must get there . . . still Friday evening.</u>
+                    <u who="#boderD" start="378.441" end="x">Yes.</u>
+                    <u who="#deutschY" start="380.044" end="x">And it was very difficult business because we hadn't had any car and we had to take the furnitures ourselves.</u>
+                    <u who="#boderD" start="390.538" end="x">So you had to move out from your . . .</u>
+                    <u who="#deutschY" start="392.637" end="x">No. Fortunately we didn't move out—then. We lived that for one week. You can imagine that..</u>
+                    <u who="#boderD" start="400.008" end="x">That you took in other people?</u>
+                    <u who="#deutschY" start="401.518" end="x">Other . . . twenty-one persons. [<emph rend="italics">speaking over each other</emph>] We were twenty-four. Well you can imagine it because . . .</u>
+                    <u who="#boderD" start="408.412" end="x">Well . . .</u>
+                    <u who="#deutschY" start="409.565" end="x">. . . twenty-four people . . . brought with them their furnitures and their things and the flat was crowded and we couldn't move and we had only one kitchen and there were five or six familie—, families.</u>
+                    <u who="#boderD" start="423.593" end="x">Yes. And how many rooms did you have?</u>
+                    <u who="#deutschY" start="427.488" end="x">Four big rooms.</u>
+                    <u who="#boderD" start="428.610" end="x">What?</u>
+                    <u who="#deutschY" start="429.100" end="x">Four.</u>
+                    <u who="#boderD" start="429.623" end="x">Four rooms and a kitchen.</u>
+                    <u who="#deutschY" start="430.729" end="x">Yes.</u>
+                    <u who="#boderD" start="431.164" end="x">Yes. Nu.</u>
+                    <u who="#deutschY" start="433.170" end="x">And, for instance, my mother and I—and me—slept in the kitchen.</u>
+                    <u who="#boderD" start="439.408" end="x">Ja.</u>
+                    <u who="#deutschY" start="440.064" end="x">And they were cooking in the kitchen all day and night. We were cooking from eight o'clock until ten o'clock, other families from ten o'clock until twelve . . .</u>
+                    <u who="#boderD" start="449.425" end="x">Ja.</u>
+                    <u who="#deutschY" start="450.423" end="x">. . . other families in the afternoon. So we lived there for one week. We knew . . . we knew that they would deport us and we had to get some food and we wanted to eat it very quickly.</u>
+                    <u who="#boderD" start="466.638" end="x">All right.</u>
+                    <u who="#deutschY" start="469.561" end="x">And, one morning . . .</u>
+                    <u who="#boderD" start="473.017" end="x">You said you wanted to eat your food as quick as possible because you knew that what?</u>
+                    <u who="#deutschY" start="477.599" end="x">Well, it very good things [?] and we were . . . I can say we were then happy. It was the last happy days of my life.</u>
+                    <u who="#boderD" start="486.959" end="x">Ja.</u>
+                    <u who="#deutschY" start="487.870" end="x">And one morning, suddenly, at four o'clock German soldiers came in our house and they ordered the men in the yard . . . on the yard.</u>
+                    <u who="#boderD" start="500.903" end="x">Ja. Only the men?</u>
+                    <u who="#deutschY" start="501.902" end="x">Only the men. And they told them that they would give us one hour. In one hour we must move out. We can take with us thirty kilos of baggages.</u>
+                    <u who="#boderD" start="516.057" end="x">Each person?</u>
+                    <u who="#deutschY" start="517.521" end="x">Yes.</u>
+                    <u who="#boderD" start="518.155" end="x">Ja. How old were you then?</u>
+                    <u who="#deutschY" start="521.032" end="x">I was then fifteen years old . . . and some months. Well, you can imagine we hadn't had much time. We had to clothe—to dress ourselves—and we take some food and some clothes and everything we knew—everything we knew it would be useful. Then they take us on the yard and they . . . how do you say in English [German phrase]?</u>
+                    <u who="#boderD" start="550.271" end="x">And they searched you?</u>
+                    <u who="#deutschY" start="551.116" end="x">They searched us. They took the good things away from us: the chocolate, the coffee, the sugar . . . confiture [jam], the jam, and we remained with very little baggages.</u>
+                    <u who="#boderD" start="565.026" end="x">Ja.</u>
+                    <u who="#deutschY" start="566.475" end="x">And then we had to remain there from six o'clock in the morning until two o'clock in the night.</u>
+                    <u who="#boderD" start="572.639" end="x">In the yard?</u>
+                    <u who="#deutschY" start="573.653" end="x">Yes. It was [great fun?].</u>
+                    <u who="#boderD" start="575.450" end="x">The men alone or everybody?</u>
+                    <u who="#deutschY" start="577.252" end="x">Everybody—together. And you know the search was very . . . very strong . . . and we had to undress and so everywhere and they give me slaps and they kick me.</u>
+                    <u who="#boderD" start="599.257" end="x">Where did you have to undress?</u>
+                    <u who="#deutschY" start="602.211" end="x">In a room.</u>
+                    <u who="#boderD" start="603.306" end="x">In a separate room?</u>
+                    <u who="#deutschY" start="604.612" end="x">A separate room, the men . . . separate from the women. And at two o'clock they came and they took us to the [brick?] factory.</u>
+                    <u who="#boderD" start="616.322" end="x">Two o'clock at night?</u>
+                    <u who="#deutschY" start="617.340" end="x">In the night.</u>
+                    <u who="#boderD" start="618.155" end="x">In the night.</u>
+                    <u who="#deutschY" start="618.743" end="x">You know, in Hungary I think almost each town they take the Jews in a [brick?] factory.</u>
+                    <u who="#boderD" start="627.427" end="x">Why?</u>
+                    <u who="#deutschY" start="628.722" end="x">I don't know. Because, you how it looks like . . .</u>
+                    <u who="#boderD" start="634.764" end="x">A [brick?] factory?</u>
+                    <u who="#deutschY" start="635.613" end="x">Yes. We were slept on the ground. We didn't have any straw—nothing to sleep on and we hadn't food. We had even less food than in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="651.691" end="x">Yes.</u>
+                    <u who="#deutschY" start="652.817" end="x">And we were there . . .</u>
+                    <u who="#boderD" start="656.370" end="x">Oh! You said you did . . . you had some food with you?</u>
+                    <u who="#deutschY" start="659.262" end="x">They took everything away [they saw?]. Almost everything. They give us food for three days we were there for more than a fortnight.</u>
+                    <u who="#boderD" start="676.241" end="x">They gave you food or they allowed you to have food?</u>
+                    <u who="#deutschY" start="679.241" end="x">Yes. And they took away the food.</u>
+                    <u who="#boderD" start="682.994" end="x">Now let's have that clear. They gave you food—German food, bread and so on or they allowed you to take food . . .</u>
+                    <u who="#deutschY" start="689.788" end="x">They allowed . . . they allowed us to take food with us and then they took away the good things—the sugar, the chocolate, the coffee, although we had bread and I don't know . . .</u>
+                    <u who="#boderD" start="701.847" end="x">Tell me, and the Judenrat was also deported?</u>
+                    <u who="#deutschY" start="705.477" end="x">Everybody. And you know that in Hungary there was some people who fought in the war and who were Jews but they had to go to the <term ref="#vothG_ghetto">ghetto</term>. But they had to go to the [brick?] factory and they were deported too.</u>
+                    <u who="#boderD" start="722.197" end="x">A-ha. Nu?</u>
+                    <u who="#deutschY" start="723.615" end="x">And in the [brick?] factory we had half a liter of soap in a day . . .</u>
+                    <u who="#boderD" start="730.947" end="x">Soup?</u>
+                    <u who="#deutschY" start="731.402" end="x">. . . of soup and hundred-fifty grams of bread.</u>
+                    <u who="#boderD" start="737.044" end="x">Ja.</u>
+                    <u who="#deutschY" start="737.924" end="x">Nothing more. And it was very bad too because we hadn't any . . . any stuff or any fat. You know . . . fat. It was very bad.</u>
+                    <u who="#boderD" start="747.617" end="x">What month was it?</u>
+                    <u who="#deutschY" start="749.281" end="x">It was . . . June.</u>
+                    <u who="#boderD" start="752.726" end="x">June?</u>
+                    <u who="#deutschY" start="753.867" end="x">June.</u>
+                    <u who="#boderD" start="754.098" end="x">And what was the name of your city?</u>
+                    <u who="#deutschY" start="756.898" end="x"><placeName ref="Székesfehérvár">Székesfehérvár</placeName>, <placeName ref="Székesfehérvár">Stuhlweissenburg</placeName></u>
+                    <u who="#boderD" start="759.955" end="x">Yes.</u>
+                    <u who="#deutschY" start="760.278" end="x">. . . in German.</u>
+                    <u who="#boderD" start="761.101" end="x">Nu.</u>
+                    <u who="#deutschY" start="762.150" end="x">And then they took . . . one morning they said that they will take us away from our town and we must get out from the [brick?] factory and we must go to the station, the railway station. Well, the last minute there came a wire saying that twenty-six people are going to <placeName ref="Budapest">Budapest</placeName> are not going to the transport but are going to <placeName ref="Budapest">Budapest</placeName> and we were in this twenty-six people.</u>
+                    <u who="#boderD" start="795.046" end="x">Why?</u>
+                    <u who="#deutschY" start="797.140" end="x">We have these <term ref="#vothG_zionist">Zionists</term>.</u>
+                    <u who="#boderD" start="798.942" end="x"><term ref="#vothG_zionist">Zionists</term>. Yes.</u>
+                    <u who="#deutschY" start="799.838" end="x"><term ref="#vothG_zionist">Zionists</term>. And you know that in every . . . in every country, the German . . .</u>
+                    <u who="#boderD" start="810.165" end="x">The <term ref="#vothG_gestapo">Gestapo</term>?</u>
+                    <u who="#deutschY" start="811.194" end="x">. . . the <term ref="#vothG_gestapo">Gestapo</term> . . . now how do you say it?</u>
+                    <u who="#boderD" start="814.103" end="x">[clarifying in German]</u>
+                    <u who="#deutschY" start="816.578" end="x">[German phrase]</u>
+                    <u who="#boderD" start="818.311" end="x">The Germans have taken . . .</u>
+                    <u who="#deutschY" start="820.246" end="x">. . . they have taken. There was a business with the Germans that they can take us . . . I don't know, some Jews to Palestine. It was an Aliyah [immigration or pilgrimage to Palestine], it was . . . made by the <term ref="#vothG_ajdc">Joint</term>.</u>
+                    <u who="#boderD" start="837.857" end="x">Oh, the Germans had an arrangement that they can take to Palestine . . .</u>
+                    <u who="#deutschY" start="841.687" end="x">Ja.</u>
+                    <u who="#boderD" start="841.880" end="x">. . . some of the Jews. Nu.</u>
+                    <u who="#deutschY" start="843.974" end="x">And they have taken us to <placeName ref="Budapest">Budapest</placeName> in a camp and we were there six hundred people, later on we were nine hundred there.</u>
+                    <u who="#boderD" start="859.143" end="x">And they told you that you would go to Palestine?</u>
+                    <u who="#deutschY" start="861.048" end="x">To Palestine. And then one day they took us and they deported us who were . . . they had taken us to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. We were in a wagon seventy-nine people we couldn't sleep, we couldn't sit, we could only stand. Because there was not any place.</u>
+                    <u who="#boderD" start="885.064" end="x">Did you have a toilet in your car?</u>
+                    <u who="#deutschY" start="887.588" end="x">No.</u>
+                    <u who="#boderD" start="888.238" end="x">What did you do?</u>
+                    <u who="#deutschY" start="889.164" end="x">It was wagon for the cows. You know?</u>
+                    <u who="#boderD" start="891.545" end="x">Ja. So what did you do when you needed to go to the toilet?</u>
+                    <u who="#deutschY" start="895.206" end="x">Well, it was very bad because once a day the train stopped and we had to make it then.</u>
+                    <u who="#boderD" start="903.552" end="x">To go out?</u>
+                    <u who="#deutschY" start="904.156" end="x">To go out.</u>
+                    <u who="#boderD" start="905.267" end="x">And if not . . . otherwise? Otherwise . . . ?</u>
+                    <u who="#deutschY" start="911.954" end="x">Well, otherwise . . . we had jugs there . . . we had with us jugs . . .</u>
+                    <u who="#boderD" start="922.435" end="x">And how would you do it? There were people around?</u>
+                    <u who="#deutschY" start="926.111" end="x">We had to do it.</u>
+                    <u who="#boderD" start="927.928" end="x">Uh-huh And the women?</u>
+                    <u who="#deutschY" start="930.575" end="x">Women too.</u>
+                    <u who="#boderD" start="931.686" end="x">Well the women too.</u>
+                    <u who="#deutschY" start="932.582" end="x">It was daytime was quite dark too because it was . . . the door was shut. You know?</u>
+                    <u who="#boderD" start="940.175" end="x">Ja.</u>
+                    <u who="#deutschY" start="940.687" end="x">We couldn't see.</u>
+                    <u who="#boderD" start="942.059" end="x">Ja, so they could . . . satisfy their needs, eliminate in that way.</u>
+                    <u who="#deutschY" start="948.776" end="x">And then. They have taken us to <placeName ref="Wien">Vienna</placeName> and from <placeName ref="Wien">Vienna</placeName> to <placeName ref="Linz" type="camp">Linz</placeName>.</u>
+                    <u who="#boderD" start="956.830" end="x">Yes.</u>
+                    <u who="#deutschY" start="957.142" end="x">Well, in <placeName ref="Linz" type="camp">Linz</placeName> it was a very strange thing because they take us . . . we arrived at <placeName ref="Linz" type="camp">Linz</placeName> at seven o'clock in the morning.</u>
+                    <u who="#boderD" start="967.070" end="x">Ja, <placeName ref="Linz" type="camp">Linz</placeName> is near the . . . Swiss Border isn't it?</u>
+                    <u who="#deutschY" start="971.284" end="x">Hundred fifty kilometers.</u>
+                    <u who="#boderD" start="972.564" end="x">Ja. Nu?</u>
+                    <u who="#deutschY" start="973.813" end="x">And then they told us they will take us to bathe.</u>
+                    <u who="#boderD" start="978.011" end="x">To where?</u>
+                    <u who="#deutschY" start="978.487" end="x">To bathe.</u>
+                    <u who="#boderD" start="979.367" end="x">Where is that? To Bathe?</u>
+                    <u who="#deutschY" start="980.995" end="x">To bathe . . . baden.</u>
+                    <u who="#boderD" start="983.146" end="x">A-ha. Yes.</u>
+                    <u who="#deutschY" start="984.579" end="x">And they took first the women.</u>
+                    <u who="#boderD" start="987.913" end="x">To Switzerland?</u>
+                    <u who="#deutschY" start="989.177" end="x">No, it was to bathe . . . baden.</u>
+                    <u who="#boderD" start="992.434" end="x">To bathe . . . to take a bath.</u>
+                    <u who="#deutschY" start="995.096" end="x">To take a bath. They took the women first at seven o'clock in the morning and at three o'clock in the afternoon nobody came back. We were afraid: "What did they do with the women?"</u>
+                    <u who="#boderD" start="1007.271" end="x">Why didn't they take you or your father?</u>
+                    <u who="#deutschY" start="1009.933" end="x">First they said they would take the women.</u>
+                    <u who="#boderD" start="1012.191" end="x">Oh, they took the women first?</u>
+                    <u who="#deutschY" start="1013.624" end="x">Yes. Then at three o'clock they came back without the women and they took us [<emph rend="italics">Boder interrupts</emph>] . . . yes . . . with the women.</u>
+                    <u who="#boderD" start="1025.184" end="x">. . . and what happened to them?</u>
+                    <u who="#deutschY" start="1028.507" end="x">We didn't see the women but the soldiers came back [unintelligible]. And I was very afraid that they would take us in a vernichtungslager. I wanted to escape. And I tried . . .</u>
+                    <u who="#boderD" start="1040.685" end="x">A vernichtungslager?</u>
+                    <u who="#deutschY" start="1042.144" end="x">I tried to escape but I couldn't—there were a lot of soldiers.</u>
+                    <u who="#boderD" start="1046.015" end="x">A vernichtungslager is a destruction <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#deutschY" start="1048.739" end="x">Yes.</u>
+                    <u who="#boderD" start="1049.343" end="x">Yes. Nu?</u>
+                    <u who="#deutschY" start="1050.377" end="x">And then they took us in this camp—in this <term ref="#vothG_lager">lager</term> and . . . we saw the women.</u>
+                    <u who="#boderD" start="1059.168" end="x">What?</u>
+                    <u who="#deutschY" start="1059.629" end="x">The women.</u>
+                    <u who="#boderD" start="1060.248" end="x">You saw the women . . .</u>
+                    <u who="#deutschY" start="1061.231" end="x">They had to wait four or five hours because there were other people there. And they had a bath—warm water—and it was very . . . very good—very . . . [unintelligible] . . . we didn't bathe since two month—nu? And then we had a bath and at six o'clock in the afternoon we came back. The women told us that they had to go first to a big room—where there a thousand women there and they saw big boxes—yellow boxes—which was written: [Unintelligible]. Attention: [unintelligible] and that a . . . totenkop.</u>
+                    <u who="#boderD" start="1113.050" end="x">Yes.</u>
+                    <u who="#deutschY" start="1113.853" end="x">I don't know how they say in English.</u>
+                    <u who="#boderD" start="1114.836" end="x">What is [?]?</u>
+                    <u who="#deutschY" start="1116.280" end="x">A totenkop</u>
+                    <u who="#boderD" start="1117.202" end="x">A skull?</u>
+                    <u who="#deutschY" start="1118.313" end="x">A skull right on it.</u>
+                    <u who="#boderD" start="1119.715" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="1121.820" end="x">They didn't know what it is . . . they know that . . . they thought that it's against them. And then the women, they . . .</u>
+                    <u who="#boderD" start="1131.223" end="x">[In German] [unintelligible]</u>
+                    <u who="#deutschY" start="1132.789" end="x">They will annihilate.</u>
+                    <u who="#boderD" start="1134.095" end="x">Yes.</u>
+                    <u who="#deutschY" start="1134.290" end="x">The women. But it was only the clothes, they disinfected the clothes.</u>
+                    <u who="#boderD" start="1140.599" end="x">Yes.</u>
+                    <u who="#deutschY" start="1141.109" end="x">And nothing happened.</u>
+                    <u who="#boderD" start="1142.823" end="x">Well?</u>
+                    <u who="#deutschY" start="1143.592" end="x">Later, we went on and the entire journey took us ten days.</u>
+                    <u who="#boderD" start="1148.548" end="x">Ten days. All in the same railway car?</u>
+                    <u who="#deutschY" start="1150.846" end="x">The same cars.</u>
+                    <u who="#boderD" start="1152.189" end="x">Yes.</u>
+                    <u who="#deutschY" start="1152.634" end="x">We arrived in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. That is seventy kilometers from <placeName ref="Hannover">Hannover</placeName>, is <placeName ref="Celle">Celle</placeName>, is a small city, and from there we had to walk six kilometers on foot. It is, eh, about eight hundred meters high above several beautiful forests, the environment is very beautiful.</u>
+                    <u who="#boderD" start="1175.626" end="x">Yes.</u>
+                    <u who="#deutschY" start="1176.265" end="x">A lot of people saw the "[unintelligible]-<term ref="#vothG_lager">Lager</term>", not only Jews, but also prisoners of war from all [nationalities].</u>
+                    <u who="#boderD" start="1182.991" end="x">Yes.</u>
+                    <u who="#deutschY" start="1184.075" end="x">And then we went into the camp. We got a barrack. The women got a barrack. And the men got half a barrack.</u>
+                    <u who="#boderD" start="1198.128" end="x">And who was in the other half of the barrack?</u>
+                    <u who="#deutschY" start="1200.546" end="x">That was, was, we could not exactly [unintelligible]. Those were Poles, of, Polish Jews.</u>
+                    <u who="#boderD" start="1206.669" end="x">I see.</u>
+                    <u who="#deutschY" start="1207.021" end="x">[unintelligible] were with Christian papers.</u>
+                    <u who="#boderD" start="1209.884" end="x">Oh. [<emph rend="italics">somewhat surprised</emph>] Polish Jews with Christian papers.</u>
+                    <u who="#deutschY" start="1212.357" end="x">Christian papers. But the Germans believed that they were Jews, [<emph rend="italics">corrects himself</emph>] that they were Christians. But they were Jews, they told us.</u>
+                    <u who="#boderD" start="1219.944" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="1221.223" end="x">And, in one barrack there lived one thousand people.</u>
+                    <u who="#boderD" start="1226.290" end="x">Yes.</u>
+                    <u who="#deutschY" start="1228.226" end="x">There were about a hundred and fifty . . .</u>
+                    <u who="#boderD" start="1230.301" end="x">[<emph rend="italics">interrupts</emph>] How many Polish Jews with Christian papers were there?</u>
+                    <u who="#deutschY" start="1233.386" end="x">Well, there were about two hundred.</u>
+                    <u who="#boderD" start="1236.749" end="x">And the Germans didn't know that . . .</u>
+                    <u who="#deutschY" start="1238.315" end="x">[<emph rend="italics">interrupts</emph>] No.</u>
+                    <u who="#boderD" start="1238.769" end="x">. . . that they were Jews?</u>
+                    <u who="#deutschY" start="1239.204" end="x">Well, yes. Well, I believe there were many [several words unintelligible] in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>, only I do not know exactly.</u>
+                    <u who="#boderD" start="1245.031" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="1246.467" end="x">[unintelligible], maybe much better.</u>
+                    <u who="#boderD" start="1249.385" end="x">Yes.</u>
+                    <u who="#deutschY" start="1251.497" end="x">And, a barrack was about a hundred and fifty meters long. There were six so-called box. Six, six parts divided. And in each part there lived about a hundred and eighty, a hundred and fifty people. And beds in three stories.</u>
+                    <u who="#boderD" start="1273.499" end="x">Yes.</u>
+                    <u who="#deutschY" start="1273.814" end="x">Were over-about [he probably means "on top of one another"]. At night, it was very cold. It was July, but it was very, very cold. It was North. And days it was very warm. We did not have to work. This was maybe even worse, because the food was much worse than those who were work—</u>
+                    <u who="#boderD" start="1294.916" end="x">[unintelligible]</u>
+                    <u who="#deutschY" start="1295.518" end="x">. . . working. And we had nothing to do all day.</u>
+                    <u who="#boderD" start="1300.196" end="x">Yes. All day?</u>
+                    <u who="#deutschY" start="1301.104" end="x">Yes. We were given breakfast at seven in the morning. A black water, they said it was coffee, but it was a black, [unintelligible] black, brown water. At eleven we were given lunch. It was, I don't know, it was vegetables, or soup, it was all together. Were beets, [unintelligible], no fat/grease, only the peelings, thrown into water and boiled.</u>
+                    <u who="#boderD" start="1327.526" end="x">Yes.</u>
+                    <u who="#deutschY" start="1328.462" end="x">And sometimes we were given little pieces of meat.</u>
+                    <u who="#boderD" start="1332.751" end="x">I see.</u>
+                    <u who="#deutschY" start="1333.400" end="x">It was very good, these pieces of meat. We didn't know what kind of meat, eh, meat this was. Later, I read in an English newspaper that it was human flesh.</u>
+                    <u who="#boderD" start="1344.934" end="x">[<emph rend="italics">appalled</emph>] That it was human flesh?</u>
+                    <u who="#deutschY" start="1345.981" end="x">Human flesh.</u>
+                    <u who="#boderD" start="1347.324" end="x">. . . flesh in Belsen?</u>
+                    <u who="#deutschY" start="1348.806" end="x">Yes. In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. Well, in, in, London Illustrated Paper . . .</u>
+                    <u who="#boderD" start="1356.570" end="x">The London Illustrated Paper wrote that . . .</u>
+                    <u who="#deutschY" start="1359.191" end="x">Yes.</u>
+                    <u who="#boderD" start="1359.414" end="x">. . . that in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen-Belsen</placeName> [sic] human flesh . . .</u>
+                    <u who="#deutschY" start="1360.665" end="x">Yes.</u>
+                    <u who="#boderD" start="1361.073" end="x">. . . was fed?</u>
+                    <u who="#deutschY" start="1361.601" end="x">It was just like veal, so good, so small, and so . . .</u>
+                    <u who="#boderD" start="1365.001" end="x">Yes.</u>
+                    <u who="#deutschY" start="1366.011" end="x">Was very good.</u>
+                    <u who="#boderD" start="1367.225" end="x">Yes.</u>
+                    <u who="#deutschY" start="1368.457" end="x">And we didn't know what kind of meat it was. In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> we are given veal. Yes. At four in the afternoon we got our night meal. The, we were given that black coffee again. And I also received three hundred grams of bread every day. But these three hundred grams of bread were very small. So, as small as fifty grams are here. It was heavy, it was very heavy, it was not made from wheat.</u>
+                    <u who="#boderD" start="1395.431" end="x">From what was it made then?</u>
+                    <u who="#deutschY" start="1396.987" end="x">I don't know. I think in German I cannot say anymore.</u>
+                    <u who="#boderD" start="1401.631" end="x">Well?</u>
+                    <u who="#deutschY" start="1402.659" end="x">And also sometimes they gave us confiture. Per week, twenty grams of confiture per week.</u>
+                    <u who="#boderD" start="1411.525" end="x">What kind of confiture?</u>
+                    <u who="#deutschY" start="1412.979" end="x">Very good confiture. Confiture just as in Switzerland.</u>
+                    <u who="#boderD" start="1416.259" end="x">Yes.</u>
+                    <u who="#deutschY" start="1416.602" end="x">Good confiture. And sometimes we also received margarine. Twenty, thirty grams per week; that was also very good. Good butter.</u>
+                    <u who="#boderD" start="1425.116" end="x">I see.</u>
+                    <u who="#deutschY" start="1425.737" end="x">We children got milk. Our camp received milk and cacao that was given to the children. And the children under the age of six received half a liter of milk per day.</u>
+                    <u who="#boderD" start="1438.947" end="x">Where was that? In . . .</u>
+                    <u who="#deutschY" start="1440.855" end="x">The Germans gave it.</u>
+                    <u who="#boderD" start="1442.894" end="x">Where, where were children? Were there children in your <term ref="#vothG_block">block</term>?</u>
+                    <u who="#deutschY" start="1448.128" end="x">Yes. They were together. Women and, separately, children. [<emph rend="italics">corrects himself</emph>] Separately, men. And the children when, when they were small, were men, [<emph rend="italics">corrects himself</emph>] when they were girls were with the women.</u>
+                    <u who="#boderD" start="1457.753" end="x">And they brought the milk in for you?</u>
+                    <u who="#deutschY" start="1459.356" end="x">Yes. And from six, up to the age of six they gave half a liter per day, between six and nine years three deciliters, from nine to fourteen two deciliters of milk.</u>
+                    <u who="#boderD" start="1470.334" end="x">Did you get any milk?</u>
+                    <u who="#deutschY" start="1471.511" end="x">No, I was more than fourteen years old.</u>
+                    <u who="#boderD" start="1473.290" end="x">Well?</u>
+                    <u who="#deutschY" start="1474.596" end="x">And little children got cacao-thing, that wasn't natural cacao, but was also very good, one time I tried it.</u>
+                    <u who="#boderD" start="1481.433" end="x">Well?</u>
+                    <u who="#deutschY" start="1485.815" end="x">At seven o'clock we had to get up, get up. Hygiene was very good and very big in this camp. Well, the Germans always have been rich people, [<emph rend="italics">corrects himself</emph>] clean people, haven't they? They like cleanliness. We had big show—, showers. We could shower every day. Cold water . . .</u>
+                    <u who="#boderD" start="1505.416" end="x">[<emph rend="italics">interrupts</emph>] In your <term ref="#vothG_block">block</term>?</u>
+                    <u who="#deutschY" start="1506.555" end="x">Yes, the water, of course, was very pleasant. And we got soap. And the latrines also were very good and clean. And, so at seven o'clock we had to get up. The men at six, and the women at seven. At ten, there was roll call. Every day the soldiers came to count us. If nobody had run away. And after that we had nothing to do until night. Between ten at night and seven in the morning nobody was allowed to leave the barracks. Anybody who went outside was shot. From the tower. All around were, every two hundred meters there were towers with soldiers and guns.</u>
+                    <u who="#boderD" start="1552.795" end="x">Yes. Did you see the other Jews there? Did you [no verb] the Polish Jews . . .</u>
+                    <u who="#deutschY" start="1557.743" end="x">[<emph rend="italics">interrupts</emph>] I did, we saw Jews, but we could not speak with other Jews.</u>
+                    <u who="#boderD" start="1563.209" end="x">Yes.</u>
+                    <u who="#deutschY" start="1563.209" end="x">Was prohibited. We saw Dutch Jews, French . . .</u>
+                    <u who="#boderD" start="1568.499" end="x">Yes.</u>
+                    <u who="#deutschY" start="1568.916" end="x">Russians, not Jews, prisoners of war. They were in bad condition, the Russian prisoners of war were.</u>
+                    <u who="#boderD" start="1575.984" end="x">Yes.</u>
+                    <u who="#deutschY" start="1576.707" end="x">And then we saw French men and English, Americans, prisoners of war.</u>
+                    <u who="#boderD" start="1582.960" end="x">Yes.</u>
+                    <u who="#deutschY" start="1585.647" end="x">Once every week we had a bath, a shower, we had bath, eh, a warm bath. And the other part of this bathing facility was the crematory. Twice we saw them bring people into the crematory.</u>
+                    <u who="#boderD" start="1608.268" end="x">Living?</u>
+                    <u who="#deutschY" start="1609.139" end="x">Living people.</u>
+                    <u who="#boderD" start="1610.371" end="x">Yes.</u>
+                    <u who="#deutschY" start="1610.612" end="x">. . . were brought. They were screaming and crying and everything.</u>
+                    <u who="#boderD" start="1614.086" end="x">How was that? Tell. When was that? How, why did you see them? Where did they go?</u>
+                    <u who="#deutschY" start="1618.598" end="x">Every week we were, they told us, we went bathing. The moment at which [the rest is inaudible because of loud noises from the recorder]</u>
+                    <u who="#boderD" start="1625.444" end="x">Well, I wanted to know, again. You say that you saw the people that were brought into the crematory?</u>
+                    <u who="#deutschY" start="1632.429" end="x">Yes.</u>
+                    <u who="#boderD" start="1632.642" end="x">So, will you tell me such an incident in great detail? Well?</u>
+                    <u who="#deutschY" start="1641.007" end="x">Well, we went to, to the bathing house. Was two big rooms. In one room we had to take off our clothes. And go to, to, into the shower room. And we, we were inside, and we undressed on top [he probably means that they were undressing their upper bodies], when two cars arrived with people, Jewish people, I don't know what nationality.</u>
+                    <u who="#boderD" start="1670.600" end="x">Yes.</u>
+                    <u who="#deutschY" start="1671.573" end="x">So, they were wearing their stars. I believe they were Dutch.</u>
+                    <u who="#boderD" start="1675.640" end="x">Yes.</u>
+                    <u who="#deutschY" start="1675.964" end="x">Were very bad condition, they could barely walk. Were older people there as well.</u>
+                    <u who="#boderD" start="1681.902" end="x">Yes.</u>
+                    <u who="#deutschY" start="1682.273" end="x">Older people, and, and children, too. Well, strong people I did not see at all.</u>
+                    <u who="#boderD" start="1688.193" end="x">Yes.</u>
+                    <u who="#deutschY" start="1688.452" end="x">Were only weak and sick people. And then . . .</u>
+                    <u who="#boderD" start="1691.726" end="x">Only in this transport, right?</u>
+                    <u who="#deutschY" start="1693.331" end="x">Yes. And then the Germans threw the Jews down off the car. And beat them with truncheons. And they went into, into the other building.</u>
+                    <u who="#boderD" start="1709.949" end="x">Yes. And you say these people were screaming?</u>
+                    <u who="#deutschY" start="1713.407" end="x">Screaming and crying, and they probably knew what was going to happen. With this probably not. And each week we went bathing in multiple transports because there were sixteen hundred Jews there. And, and in the bathroom only two hundred people could go at a time. Well, we went at three in the afternoon, we only saw at three-thirty. And the others went later. Until nine o'clock at night nobody returned from there. Well, if nobody returns by nine o'clock, they probably are . . .</u>
+                    <u who="#boderD" start="1748.204" end="x">Well, you know, maybe they went to a different <term ref="#vothG_block">block</term>?</u>
+                    <u who="#deutschY" start="1750.736" end="x">There was no, no other exit.</u>
+                    <u who="#boderD" start="1752.745" end="x">I see.</u>
+                    <u who="#deutschY" start="1753.103" end="x">I knew these people very well.</u>
+                    <u who="#boderD" start="1756.175" end="x">Yes.</u>
+                    <u who="#deutschY" start="1756.432" end="x">We knew each other well. I worked there [unintelligible].</u>
+                    <u who="#boderD" start="1760.229" end="x">Yes. Where did you work there?</u>
+                    <u who="#deutschY" start="1762.595" end="x">In, in the bathing house.</u>
+                    <u who="#boderD" start="1764.099" end="x">I see.</u>
+                    <u who="#deutschY" start="1764.393" end="x">Well, I worked in the garden, but not for very long. And what more can I tell from <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>? There were soldiers there, so there were no newspapers and everything to be gotten in there. There were soldiers, some of them were decent. They talked to us.</u>
+                    <u who="#boderD" start="1788.990" end="x"><term ref="#vothG_ss">SS</term>-people?</u>
+                    <u who="#deutschY" start="1789.733" end="x"><term ref="#vothG_ss">SS</term>-people. Were Hungarians there, for example. They weren't Nazis.</u>
+                    <u who="#boderD" start="1793.888" end="x">Yes.</u>
+                    <u who="#deutschY" start="1794.502" end="x">Rather, the Germans depor—, deported them from Hungary and made them soldiers. And they did not want to fight at the front, so they were, eh, made guards at the concentration camp <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. And they were no Nazis, they helped us. And they always told us the political situation. And we were always delighted [possibly: "we were always asking"?] that the, the, eh, in, in, eh, there was the invasion in France. On June 6, the invasion in France started and that same day we were deported from Hungary.</u>
+                    <u who="#boderD" start="1834.283" end="x">I see.</u>
+                    <u who="#deutschY" start="1834.824" end="x">Well, it was already August, and we heard what there was, in, in France, in Hungary. And we, they brought in newspapers and cigarettes for us. We had marks, German marks, Reich marks from Hungary still. We gave them the marks . . .</u>
+                    <u who="#boderD" start="1855.013" end="x">[<emph rend="italics">interrupts</emph>] Were you allowed to keep the marks?</u>
+                    <u who="#deutschY" start="1857.694" end="x">We were not searched at all.</u>
+                    <u who="#boderD" start="1860.488" end="x">Where? In the camp?</u>
+                    <u who="#deutschY" start="1862.093" end="x">In, from, from, eh, <placeName ref="Budapest">Budapest</placeName> there we had not been searched.</u>
+                    <u who="#boderD" start="1865.074" end="x">But didn't you have to hand in everything in <placeName ref="Budapest">Budapest</placeName>?</u>
+                    <u who="#deutschY" start="1867.981" end="x">Not in <placeName ref="Budapest">Budapest</placeName>, in <placeName ref="Székesfehérvár">Stuhlweissenburg</placeName></u>
+                    <u who="#boderD" start="1869.898" end="x">But you had to hand it in, didn't you?</u>
+                    <u who="#deutschY" start="1871.760" end="x">Yes, but, but this we received in <placeName ref="Budapest">Budapest</placeName> in the camp.</u>
+                    <u who="#boderD" start="1876.080" end="x">[unintelligible]?</u>
+                    <u who="#deutschY" start="1877.391" end="x">Or was from acquaintances.</u>
+                    <u who="#boderD" start="1878.941" end="x">I see.</u>
+                    <u who="#deutschY" start="1879.409" end="x">This, eh, this camp in <placeName ref="Budapest">Budapest</placeName> was very good. We could even go out of the camp.</u>
+                    <u who="#boderD" start="1885.435" end="x">Yes. But wait. First, you were in a camp in your city?</u>
+                    <u who="#deutschY" start="1889.480" end="x">Yes.</u>
+                    <u who="#boderD" start="1890.021" end="x">Then you were . . .</u>
+                    <u who="#deutschY" start="1890.553" end="x">It was very bad. It was worse than <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>; for three weeks.</u>
+                    <u who="#boderD" start="1893.992" end="x">Then you were . . .</u>
+                    <u who="#deutschY" start="1895.193" end="x">In <placeName ref="Budapest">Budapest</placeName> I was in a camp that was good. We could go outside with a guard and, and guarded, could go inside. The food was enough and much.</u>
+                    <u who="#boderD" start="1905.722" end="x">Go outside with what?</u>
+                    <u who="#deutschY" start="1906.960" end="x">With, with, eh, German soldier.</u>
+                    <u who="#boderD" start="1909.125" end="x">I see.</u>
+                    <u who="#deutschY" start="1909.446" end="x">We paid one hundred pengös, one hundred Hungarian pengös, and then we could go outside.</u>
+                    <u who="#boderD" start="1914.554" end="x">And in <placeName ref="Linz" type="camp">Linz</placeName>?</u>
+                    <u who="#deutschY" start="1917.618" end="x">In <placeName ref="Linz" type="camp">Linz</placeName> we only were one day, we were waiting.</u>
+                    <u who="#boderD" start="1920.672" end="x">So, where did you have to hand in everything?</u>
+                    <u who="#deutschY" start="1923.350" end="x">In, in [unintelligible; could either be "my city," or a Hungarian place name].</u>
+                    <u who="#boderD" start="1925.331" end="x">So, how did you have it again <placeName ref="Budapest">Budapest</placeName>? Oh. From acquaintances [unintelligible].</u>
+                    <u who="#deutschY" start="1928.614" end="x">Yes. Do you understand it?</u>
+                    <u who="#boderD" start="1930.421" end="x">Yes.</u>
+                    <u who="#deutschY" start="1930.724" end="x">Is it clear?</u>
+                    <u who="#boderD" start="1931.595" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="1932.843" end="x">And they forgot about me. I don't know exactly, I think I had five hundred German marks.</u>
+                    <u who="#boderD" start="1938.979" end="x">Yes.</u>
+                    <u who="#deutschY" start="1939.392" end="x">The money was not big [he may mean, "it was not much money"], but we could not do anything with it. We gave twenty, thirty marks for a newspaper and, I know not what, cigarettes.</u>
+                    <u who="#boderD" start="1948.701" end="x">Yes.</u>
+                    <u who="#deutschY" start="1949.682" end="x">And, is very interesting, the Jewish psychologist who [no verb] in the camp.</u>
+                    <u who="#boderD" start="1955.497" end="x">Yes.</u>
+                    <u who="#deutschY" start="1956.607" end="x">[unintelligible] there were many doctors and advocates and intellectuals, many, eighty percent were intellectuals.</u>
+                    <u who="#boderD" start="1965.090" end="x">[asks back, unintelligible]?</u>
+                    <u who="#deutschY" start="1966.319" end="x">Yes. In this, our transport.</u>
+                    <u who="#boderD" start="1969.116" end="x">Yes. Well?</u>
+                    <u who="#deutschY" start="1970.033" end="x">Out of Sixteen hundred people.</u>
+                    <u who="#boderD" start="1972.170" end="x">Yes.</u>
+                    <u who="#deutschY" start="1972.546" end="x">And when we came to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>, the very first day everybody started stealing.</u>
+                    <u who="#boderD" start="1982.497" end="x"><emph rend="italics">doubtful</emph>] Stealing?</u>
+                    <u who="#deutschY" start="1983.477" end="x">Yes. Stealing. I would leave something there, a piece of meat or I don't know what, and a few minutes later it would not be there anymore.</u>
+                    <u who="#boderD" start="1990.423" end="x">I see.</u>
+                    <u who="#deutschY" start="1991.086" end="x">And, everybody was stealing. And was, they were all arguing all day long. It was, the nerves fall apart.</u>
+                    <u who="#boderD" start="2000.302" end="x">Yes.</u>
+                    <u who="#deutschY" start="2001.437" end="x">And we were arguing with our friends and, and, and with everybody, the relatives, and we were cursing, all day long. And when the [unintelligible], we were one or two months in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="2022.285" end="x">Yes.</u>
+                    <u who="#deutschY" start="2022.911" end="x">Two months.</u>
+                    <u who="#boderD" start="2024.219" end="x">Yes.</u>
+                    <u who="#deutschY" start="2024.537" end="x">Only, well, it was not very much. Then we were given the complaint [meaning unclear] . . .</u>
+                    <u who="#boderD" start="2029.558" end="x">Who brought that?</u>
+                    <u who="#deutschY" start="2032.091" end="x">One morning the German soldiers came. We had to move to a different camp. [unintelligible] we were in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> or to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, another camp. And, again, we went into railway cars. We were only, only three hundred.</u>
+                    <u who="#boderD" start="2051.185" end="x">Yes. Men and women?</u>
+                    <u who="#deutschY" start="2053.146" end="x">Men and women.</u>
+                    <u who="#boderD" start="2054.581" end="x">Were your parents there?</u>
+                    <u who="#deutschY" start="2055.711" end="x">Yes. Was with my parents. Thank God was with my parents. And there three hundred remained there. And then we went into the railway cars. Again eighty or ninety in a car, and four or five days we were in there, and we didn't know where to and, and [unintelligible]. In <placeName ref="Karlsruhe">Karlsruhe</placeName> we experienced a German bombardment, <placeName ref="Karlsruhe">Karlsruhe</placeName> was bombarded. It's a big city and a big train station.</u>
+                    <u who="#boderD" start="2087.862" end="x">What city?</u>
+                    <u who="#deutschY" start="2088.750" end="x"><placeName ref="Karlsruhe">Karlsruhe</placeName>.</u>
+                    <u who="#boderD" start="2089.684" end="x">Yes.</u>
+                    <u who="#deutschY" start="2090.677" end="x">Yes. And then we had to go onto a meadow and everybody could leave if they wanted to. Because no guards whatsoever, we were without guards. Without . . .</u>
+                    <u who="#boderD" start="2100.686" end="x">Without soldiers?</u>
+                    <u who="#deutschY" start="2101.422" end="x">Without soldiers, yes. We could move away, if we wanted to. I don't know, we did not want to go away, we didn't know where to go. For us, it made no difference anymore where we would be going. That same evening we were in <placeName ref="Basel">Basel</placeName>.</u>
+                    <u who="#boderD" start="2118.134" end="x">Yes. In, in Switzerland?</u>
+                    <u who="#deutschY" start="2120.425" end="x">In Switzerland.</u>
+                    <u who="#boderD" start="2121.181" end="x">How were you taken across the border?</u>
+                    <u who="#deutschY" start="2123.474" end="x">Yes. The last German station is <placeName ref="Weil am Rhein">Weil</placeName>. That is, was roughly one kilometer from <placeName ref="Basel">Basel</placeName>, from the German.</u>
+                    <u who="#boderD" start="2130.966" end="x">Yes.</u>
+                    <u who="#deutschY" start="2131.363" end="x">Still Germany. There we were inspected. They took away all papers that we had.</u>
+                    <u who="#boderD" start="2138.288" end="x">Yes.</u>
+                    <u who="#deutschY" start="2138.626" end="x">In case somebody had money or something like that, this was not taken away. For example, someone had a, a camera with him. This was not taken away.</u>
+                    <u who="#boderD" start="2147.603" end="x">Yes. Why did they not take the camera away?</u>
+                    <u who="#deutschY" start="2151.191" end="x">That was not taken. Well, papers were taken away, yes, because they were also afraid of espionage.</u>
+                    <u who="#boderD" start="2159.718" end="x">Yes.</u>
+                    <u who="#deutschY" start="2161.327" end="x">And we were there five, five hours. And then we were quickly, immediately in the railway cars. Then the cars were locked. From [unintelligible] within three minutes we were in a big city. Soldiers had come, German soldiers came [unintelligible], German soldiers. Big city, many people. And we were received. And soldiers and Red Cross Sisters and . . .</u>
+                    <u who="#boderD" start="2199.281" end="x">[<emph rend="italics">interrupts</emph>] [unintelligible] Sister?</u>
+                    <u who="#deutschY" start="2201.965" end="x">Very nice they were. And they led us into a waiting room. There were chairs. There, we saw a chair for the first time after two, after three or four months. And a lamp. And I was afraid to sit in a chair. I just wanted to sit on the earth, on the ground.</u>
+                    <u who="#boderD" start="2221.220" end="x">Yes.</u>
+                    <u who="#deutschY" start="2222.784" end="x">And then we received food. First soup and then lighter things, then later chocolate [several words unintelligible]. Then we slowly, slowly understood that we have come to Switzerland and that we are saved.</u>
+                    <u who="#boderD" start="2241.315" end="x">Your entire family?</u>
+                    <u who="#deutschY" start="2242.709" end="x">Yes.</u>
+                    <u who="#boderD" start="2243.712" end="x">And then, what happened in Switzerland?</u>
+                    <u who="#deutschY" start="2246.454" end="x">In Switzerland we were in an "Auffanglager" [refugee camp] in <placeName ref="Montreux">Montreux</placeName>. Was not very good. In another "Auffanglager" as well. Was for two months, for three months. And then I went to <placeName ref="Engelberg">Engelberg</placeName>, in an asylum. My mother was there, too. Was in an English Institute, was there for one year. In an English Institute.</u>
+                    <u who="#boderD" start="2271.206" end="x">Are you still living in <placeName ref="Engelberg">Engelberg</placeName>?</u>
+                    <u who="#deutschY" start="2272.502" end="x">Yes.</u>
+                    <u who="#boderD" start="2273.211" end="x">And your father?</u>
+                    <u who="#deutschY" start="2274.150" end="x">My father is in the <placeName ref="Zurich">Zürich</placeName> area, working as an engineer.</u>
+                    <u who="#boderD" start="2277.322" end="x">Yes. So, why can your mother not live with him?</u>
+                    <u who="#deutschY" start="2280.840" end="x">Well, my, my father does not earn enough so that my mother can live there, too.</u>
+                    <u who="#boderD" start="2286.039" end="x">I see. And in <placeName ref="Zurich">Zürich</placeName>, he is with, with whom?</u>
+                    <u who="#deutschY" start="2290.476" end="x">In a company, he works in a private company.</u>
+                    <u who="#boderD" start="2293.961" end="x">I see. Well?</u>
+                    <u who="#deutschY" start="2295.648" end="x">He is a very good professional.</u>
+                    <u who="#boderD" start="2297.299" end="x">How far is <placeName ref="Engelberg">Engelbrecht</placeName> [<emph rend="italics">mistaking the name</emph>] from here?</u>
+                    <u who="#deutschY" start="2300.788" end="x"><placeName ref="Engelberg">Engelberg</placeName> is close to the Vierwaldstättersee [Lake Lucerne].</u>
+                    <u who="#boderD" start="2304.915" end="x">In . . . ?</u>
+                    <u who="#deutschY" start="2305.167" end="x">Do you know where <placeName ref="Luzern">Lucerne</placeName> is at?</u>
+                    <u who="#boderD" start="2307.160" end="x">How far, eh, . . . ?</u>
+                    <u who="#deutschY" start="2308.675" end="x">Three hundred kilometers from here.</u>
+                    <u who="#boderD" start="2310.629" end="x">From here. Can one take the train to there?</u>
+                    <u who="#deutschY" start="2313.222" end="x">Yes.</u>
+                    <u who="#boderD" start="2314.402" end="x">Are there many people there?</u>
+                    <u who="#deutschY" start="2315.815" end="x">It is a spa town. You know, one of the most beautiful spa towns in Switzerland. Has approximately one thousand inhabitants. But [unintelligible] not so; there are about five, six thousand spa guests.</u>
+                    <u who="#boderD" start="2328.843" end="x">Yes. But do you live in a camp there, or . . . ?</u>
+                    <u who="#deutschY" start="2331.306" end="x">In a, in a hotel. The [unintelligible] is good, the food is good, is content, gets some money there, pocket money. I believe fifty or thirty, forty francs per month.</u>
+                    <u who="#boderD" start="2343.676" end="x">Yes.</u>
+                    <u who="#deutschY" start="2344.779" end="x">And she is content there, the environment is wonderful.</u>
+                    <u who="#boderD" start="2347.939" end="x">I see.</u>
+                    <u who="#deutschY" start="2350.015" end="x">And I was in the English Institute in <placeName ref="Montreux">Montreux</placeName>. And later I came here to <placeName ref="Genève">Geneva</placeName>, [unintelligible] school.</u>
+                    <u who="#boderD" start="2360.160" end="x">You are studying [mechanics?] now?</u>
+                    <u who="#deutschY" start="2361.462" end="x">Yes, and at night I prepare for the maturité [similar to a high school diploma], for the [unintelligible] maturité.</u>
+                    <u who="#boderD" start="2367.485" end="x">For what maturité?</u>
+                    <u who="#deutschY" start="2368.845" end="x">Yes, well. First, for [unintelligible]. I want to [several words unintelligible; "one year"?].</u>
+                    <u who="#boderD" start="2376.049" end="x">Where? In England?</u>
+                    <u who="#deutschY" start="2377.119" end="x">No, in Switzerland, in <placeName ref="Genève">Geneva</placeName> one can do that.</u>
+                    <u who="#boderD" start="2379.292" end="x">And what do you want to do after that?</u>
+                    <u who="#deutschY" start="2381.415" end="x">Afterwards, I want to go to university, if that is possible.</u>
+                    <u who="#boderD" start="2384.846" end="x">What do you want to study?</u>
+                    <u who="#deutschY" start="2387.599" end="x">Eh, mechanical engineer.</u>
+                    <u who="#boderD" start="2389.786" end="x">Mechanical engineer. Well, then you must have fared quite well, that it remains different, quite different from how the other people have fared?</u>
+                    <u who="#deutschY" start="2399.873" end="x">Yes.</u>
+                    <u who="#boderD" start="2400.304" end="x">How do you explain this? Was that because you were <term ref="#vothG_zionist">Zionists</term>? Was that because you were Hungarians?</u>
+                    <u who="#deutschY" start="2404.349" end="x">In Hungary, in Hungary we were big <term ref="#vothG_zionist">Zionists</term>.</u>
+                    <u who="#boderD" start="2407.818" end="x">Yes.</u>
+                    <u who="#deutschY" start="2409.018" end="x">And the Germans saved the <term ref="#vothG_zionist">Zionists</term>. So one did, the Jews saw who can, who can come, in these transports. And of course they chose the <term ref="#vothG_zionist">Zionists</term>. You know?</u>
+                    <u who="#boderD" start="2422.955" end="x">I see.</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="2428.862" end="x">Were there many rich people with you or were there poor people, too?</u>
+                    <u who="#deutschY" start="2432.713" end="x">That differed widely. There were very easy, [<emph rend="italics">corrects himself</emph>] very rich people who paid a lot so that they could come, in addition there were the <term ref="#vothG_zionist">Zionists</term>.</u>
+                    <u who="#boderD" start="2442.490" end="x">Yes.</u>
+                    <u who="#deutschY" start="2443.226" end="x">Were a lot, but the majority were poor people, you know? We, for example, paid nothing [several words unintelligible] at all, you know?</u>
+                    <u who="#boderD" start="2453.293" end="x">Yes. How did you pay?</u>
+                    <u who="#deutschY" start="2456.815" end="x">The Jewish, the Juden—, the Judenrat. The Judenrat gave it to, to the <term ref="#vothG_ajdc">Joint</term> and that, in turn, [unintelligible] made.</u>
+                    <u who="#boderD" start="2468.008" end="x">The <term ref="#vothG_ajdc">Joint</term> did not make any money out of you, did it?</u>
+                    <u who="#deutschY" start="2471.723" end="x">Well, I don't know how it came about. I, the <term ref="#vothG_ajdc">Joint</term> paid the money but they had to pay something for it beforehand.</u>
+                    <u who="#boderD" start="2483.396" end="x">[In English] This concludes Spool 80 of Yanusch Deutsch, a Hungarian, a Hungarian Jewish child which was saved . . . eh, by special, by a special form of deportation to <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>, presumably a <term ref="#vothG_zionist">Zionist</term>, which has to be verified.</u>
+                </div>
+                <!-- end spool 9-80 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

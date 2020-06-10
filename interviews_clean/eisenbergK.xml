@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Kalman Eisenberg; July 31, 1946; Fontenay-aux-Roses, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <!--
+                    <respStmt>
+                    <resp>Transcription</resp>
+                    <name></name>
+                    </respStmt>
+                -->
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT44M20.389S" id="eisenbergK_9-12B_9-13">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <note type="spools" n="1">9-12B</note>
+                                <note type="spools" n="2">9-13</note>
+                                <placeName ref="Chateau de Boucicaut; OSE home for adolescents" />
+                            </bibl>
+                        </broadcast>
+                        <date>1946-07-31</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="eisenbergK_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="eisenbergK" role="interviewee">
+                        <persName>
+                            <forename>Kalman</forename>
+                            <surname>Eisenberg</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>18</age>
+                        <birth ref="Starachowice" />
+                        <faith>Jewish</faith>
+                        <nationality key="Germany" />
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Starachowice">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Wierzbnik-Starachowice Ghetto">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Starachowice concentration camp">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Monowitz concentration camp">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Mauthausen concentration camp">
+                            <ab></ab>
+                        </event>
+                        <event type="internment" ref="Flossenbürg concentration camp">
+                            <ab></ab>
+                        </event>
+                        <event type="liberation" resp="us">
+                            <ab></ab>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin English translation -->
+            <div corresp="#eisenbergK_en">
+            <!-- begin Spool 9-12B -->
+            <div lang="en">
+                <p>[Note 1: This is part B of Spool 12. The date is probably the same as Spool 12A, the 31st of July, 1946, Chateau de Boucicaut. Parts A and B are separated by two songs. The first song, 'The <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> Song,' is sung by many voices. The second, 'The Partisan Song,' is sung by one person with several people humming at times. —D.P.B.]</p>
+                <p>[Note 2: The style of this interview appears especially full of somewhat artificial pathos. He is definitely a pleader, but of a cause which even then was not too popular. The frequent incorrect use of the participle in his Yiddish narrative has been translated verbatim, viz., 'Walking out of the door, the Ukrainians heard it,' for, 'When the prisoners walked out of the door, the Ukrainians...' etc. —D.P.B.]</p>
+                <u who="#boderD" start="1.974" end="x">This is Spool 9-12B, the second part of Spool 12. Taken in <placeName ref="Paris">Paris</placeName> at Chateau Boucicout, among the <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> children. It starts with a rather unharmonius singing, but the melody can probably be recognized and the words eventually translated, if that hasn't been done. The interviewee is Kalman Eisenberg, who later sings the solo song.</u>
+                <u who="#eisenbergK" start="69.926" end="x">[Singing].</u>
+                <u who="#boderD" start="245.531" end="x">All right. That was very good. What is your name?</u>
+                <u who="#eisenbergK" start="248.300" end="x"> Eisenberg.</u>
+                <u who="#boderD" start="249.245" end="x">And the first name?</u>
+                <u who="#eisenbergK" start="251.691" end="x">[In a tone imitating a radio announcer:] This is Chaver [comrade] Eisenberg from Poland singing, having gone through five years of concentration camps in Germany.</u>
+                <u who="#boderD" start="260.392" end="x">Thank you very much. July 31st, 1946. Still at the Chateau...what is it? Still at the Chateau Boucicout. This is the third subject, a young man, just finished singing a song. His name is Eisenberg. What is your name, your full name?</u>
+                <u who="#eisenbergK" start="289.500" end="x">Eisenberg, Kalman.</u>
+                <u who="#boderD" start="291.231" end="x">Kalman?</u>
+                <u who="#eisenbergK" start="291.936" end="x">Yes.</u>
+                <u who="#boderD" start="292.575" end="x">Kalman...Kalman Eisenberg. Nu, tell me, Eisenberg, where were you born?</u>
+                <u who="#eisenbergK" start="298.938" end="x">I was born in Germany...in a small town, <placeName ref="Starachowice">Starachowice</placeName>.</u>
+                <u who="#boderD" start="302.683" end="x">Then you are German by birth?</u>
+                <u who="#eisenbergK" start="305.963" end="x">Yes. That was in Germany.</u>
+                <u who="#boderD" start="307.841" end="x">Yes. You were a German citizen, correct?</u>
+                <u who="#eisenbergK" start="312.024" end="x"><placeName ref="Starachowice">Starachowice</placeName> is Middle-Poland, in Congress-Poland.</u>
+                <u who="#boderD" start="315.207" end="x">Oh, that was in Middle-Poland.</u>
+                <u who="#eisenbergK" start="316.686" end="x">Congress-Poland [Congress-Poland is the heart of Poland, the area around <placeName ref="Warsaw">Warsaw</placeName>].</u>
+                <u who="#boderD" start="317.848" end="x">Was is Germany or was it Poland?</u>
+                <u who="#eisenbergK" start="320.152" end="x">Poland.</u>
+                <u who="#boderD" start="320.520" end="x">Poland. And how old are you now?</u>
+                <u who="#eisenbergK" start="323.742" end="x">Eighteen.</u>
+                <u who="#boderD" start="325.008" end="x">You are now eighteen years [old]. And tell me, how old were you when the Germans came to your place?</u>
+                <u who="#eisenbergK" start="334.051" end="x">When they came I was fourteen years old.</u>
+                <u who="#boderD" start="336.247" end="x">You were fourteen years old.</u>
+                <u who="#eisenbergK" start="337.204" end="x">Fourteen years.</u>
+                <u who="#boderD" start="337.831" end="x">All right. Tell me, what happened during the first days when the Germans entered. But speak slowly so that it could be well understood. Go ahead. Begin.</u>
+                <u who="#eisenbergK" start="354.003" end="x">And so at first...when the Germans entered...entered...to us...into the town, the parents immediately...</u>
+                <u who="#boderD" start="360.974" end="x">What was the name of the town?</u>
+                <u who="#eisenbergK" start="362.891" end="x"><placeName ref="Starachowice">Starachowice</placeName>.</u>
+                <u who="#boderD" start="363.693" end="x">Un-huh.</u>
+                <u who="#eisenbergK" start="364.204" end="x">That is Middle Poland. That is <placeName ref="Starachowice">Starachowice</placeName>. Skarzysko. Ostrowiec. This was the center of the Polish textile[?] manufacturing region. And this was one of the towns of that center. <placeName ref="Starachowice">Starachowice</placeName>. I was born in <placeName ref="Starachowice">Starachowice</placeName>. As soon as the Germans entered in the year '39, we immediately left the town, left with the whole family to a little town.</u>
+                <u who="#boderD" start="384.327" end="x">Tell me...</u>
+                <u who="#eisenbergK" start="384.579" end="x">[Word not clear, the name of the little town.]</u>
+                <u who="#boderD" start="385.303" end="x">How large...tell me, Mr...eh...</u>
+                <u who="#eisenbergK" start="389.176" end="x">Eisenberg.</u>
+                <u who="#boderD" start="389.900" end="x">...Eisenberg, how large was your family?</u>
+                <u who="#eisenbergK" start="393.645" end="x">Our family consisted of seven people. </u>
+                <u who="#boderD" start="396.635" end="x">Yes? Tell me, a father, a mother, and who else?</u>
+                <u who="#eisenbergK" start="401.464" end="x">No, a father I did not have.</u>
+                <u who="#boderD" start="403.001" end="x">Oh.</u>
+                <u who="#eisenbergK" start="403.319" end="x">I had a mother forty years old and two older brothers, one of whom perished with a tragic death, in my arms, [inflicted]by the Germans.</u>
+                <u who="#boderD" start="413.942" end="x">Nu, and?</u>
+                <u who="#eisenbergK" start="414.786" end="x">And the rest, one sister and the other brother, were taken to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> about whom till this day there is not word.</u>
+                <u who="#boderD" start="423.043" end="x">Wait. I want that in order. So you were at home. Who...who was supporting the family? Who was caring for the family?</u>
+                <u who="#eisenbergK" start="432.937" end="x">And so my older brother took care of the family, and...</u>
+                <u who="#boderD" start="435.278" end="x">Before the Germans entered?</u>
+                <u who="#eisenbergK" start="436.361" end="x">Before the Germans entered...[he] took care...</u>
+                <u who="#boderD" start="438.355" end="x">Yes. What was the occupation of your older brother?</u>
+                <u who="#eisenbergK" start="441.844" end="x">My older brother was a cobbler.</u>
+                <u who="#boderD" start="443.959" end="x">A cobbler.</u>
+                <u who="#eisenbergK" start="443.959" end="x">A cobbler.</u>
+                <u who="#boderD" start="444.779" end="x">Yes. And who else of the family was working?</u>
+                <u who="#eisenbergK" start="450.055" end="x">Only the older brother and the mother were working. No one else.</u>
+                <u who="#boderD" start="452.797" end="x">And what did your mother do?</u>
+                <u who="#eisenbergK" start="454.427" end="x">The mother was helping out the brother. She traded a little in dry goods.</u>
+                <u who="#boderD" start="459.320" end="x">Traded a little in dry goods.</u>
+                <u who="#eisenbergK" start="460.154" end="x">Yes.</u>
+                <u who="#boderD" start="461.114" end="x">And your brothers and sisters were then older or younger?</u>
+                <u who="#eisenbergK" start="465.096" end="x">All younger. Younger. And they were going to school...also in difficult circumstances.</u>
+                <u who="#boderD" start="470.463" end="x">You were the second?</u>
+                <u who="#eisenbergK" start="472.888" end="x">The second.</u>
+                <u who="#boderD" start="473.460" end="x">And so tell me in order what happened when the Germans entered.</u>
+                <u who="#eisenbergK" start="480.242" end="x">As soon as the Germans entered our town we left immediately for another town, a small town in which very few people lived. Since our town was a manufacturing city with large factories, people were very scared. And a week's time, two weeks later when the German was already [there], we could not make a go of it in that small town so that we had to return to the [our] town. Soon during the journey we were stopped by Germans and searched. The little property [belongings] that we had was taken away from us on the road and distributed among the Poles, the Gentiles. And afterwards, when we came back to the town, we did not find anthing in the house any more. Everything had been taken out, and everything had been robbed by other neighbors. And in the town there were very few people. Soon on the next day, it was on 'Yom Kipper,' coming out next morning, the synagogue was already no more. We saw already it is in flames. That old synagogue that had been standing for years and years was lit up in flames. In the middle of the night, in the middle of the night on the second day, the synagogue was still burning. As propaganda, people had to take the rabbi and sign that the synagogue had been set on fire by ourselves. And we had to save [fight the fire] by ourselves. And who...and whoever came out to [try and] save the synagogue, they were beaten with terrible beatings, and also a few people were shot. And later on, when there had already passed a long, quite a long time, they were then...the Jews were then separated from the... from the Poles. The Jews had to live then in special houses on special streets where no Pole was allowed to enter. And soon there began very hard living conditions. And afterwards, after quite a long time, there was...there was...there was...issued an order from the German authorities that all Jews have to wear the bands. And [he] who does not have a band on his arm, he receives 'ten years' punishment, or else be shot [?] on the spot. Many cases happened when a Jew in that crowded <term ref="#vothG_ghetto">ghetto</term>, where he was living and could not sustain himself and his family, was forced to go out on the...on the forbidden streets. And many times it happened that Jews out of luck were shot, and half a year later an order came out that everyone from eighteen to forty-five has to report to the Jewish council...council. The next day at eight o'clock in the morning all the Jews in the town reported and [were] led out to a square, guarded by Germans, and there we stood without eating or drinking a whole day. In the evening, herded like cattle into RR-cars and shipped away. Many people, one may say...report that fifty per cent remained there in the <term ref="#vothG_lager">lager</term>... </u>
+                <u who="#boderD" start="674.762" end="x">Now wait. Were you there with those people?</u>
+                <u who="#eisenbergK" start="677.723" end="x">No. Just my brother.</u>
+                <u who="#boderD" start="679.462" end="x">What?</u>
+                <u who="#eisenbergK" start="680.501" end="x">My brother was with those people.</u>
+                <u who="#boderD" start="682.270" end="x">But you were not there?</u>
+                <u who="#eisenbergK" start="684.611" end="x">I was not. My brother was.</u>
+                <u who="#boderD" start="685.821" end="x">I want that you should tell me your story.</u>
+                <u who="#eisenbergK" start="685.821" end="x">My story.</u>
+                <u who="#boderD" start="690.314" end="x">Yes. Your and your family's [words not clear]. Your brother had been called but you were not taken.</u>
+                <u who="#eisenbergK" start="695.882" end="x">No, I was too young.</u>
+                <u who="#boderD" start="698.460" end="x">Hm.</u>
+                <u who="#eisenbergK" start="699.069" end="x">I was only fifteen years old, and only from eighteen to forty-five were taken. And so the brother was there. By accident, when he saw that death is already near him, he risked his life and ran away. He was shot after with many bullets, but he succeeded in escaping. It was not so strict yet. It was in the beginning of 1940. It still could succeed. During all that time we experienced very hard conditions at home, and altogether...and afterwards, when I ...when I was...when an order had been given that children from twelve years have to go to work for the Germans, every day...</u>
+                <u who="#boderD" start="739.305" end="x">Hm.</u>
+                <u who="#eisenbergK" start="739.943" end="x">Without wages, without pay, and also to get beaten. I go once to a 'chief' whose name was...eh...what was his name? Altoff. A chief Von [?] Altoff. His name was Altoff. He was a 'leader' of the...of a factory, a German. He took us, eight boys, to him...to work for him, to work for him. We would work very diligently. He would stand and watch. All at once he comes over, gives us a Nagan in the hand and says, 'Beat your comrade!' I take [it] and beat him. He says, 'that is not how one beats,' takes that Nagan out of my hand, and gives me such a hard blow that I could not lift my hand any more. He says to me, 'That is how one beats Now will you know? Now beat your comrade.' In such a...in such a way they tried to liquidate us in the quickest manner. And afterwards he took...and said...</u>
+                <u who="#boderD" start="802.907" end="x">What is a 'Nagan'? [Nagan is the make of a revolver. He may confuse it with the term Nagaika, a short, heavy horse whip used by the cossacks].</u>
+                <u who="#eisenbergK" start="804.719" end="x">That is a rubber, a special...a special rubber...a thick one that with one blow...</u>
+                <u who="#boderD" start="811.045" end="x">Yes?</u>
+                <u who="#eisenbergK" start="811.246" end="x">One blow with it, then there shows...there is immediately a mark on that place, a black mark. There is immediately a black welt on that place.</u>
+                <u who="#boderD" start="818.673" end="x">Yes.</u>
+                <u who="#eisenbergK" start="819.256" end="x">That is a terrible thing which the Germans used a lot against the Jews.</u>
+                <u who="#boderD" start="824.240" end="x">Hm.</u>
+                <u who="#eisenbergK" start="827.102" end="x">And afterwards he took...he said for two people to fill up a RR-car with coal, and for two people to lay down on the floor and they should be entirely covered [buried]. After that, after they were covered...</u>
+                <u who="#boderD" start="838.394" end="x">Who said that that should be done?</u>
+                <u who="#eisenbergK" start="839.860" end="x">That...that...that <term ref="#vothG_wehrmacht">Wehrmacht</term> leader of the Germans, that Altoff.</u>
+                <u who="#boderD" start="843.659" end="x">Hm.</u>
+                <u who="#eisenbergK" start="844.024" end="x">He was a big leader of a factory. Altoff.</u>
+                <u who="#boderD" start="848.224" end="x">Hm, to cover them with coal?</u>
+                <u who="#eisenbergK" start="849.416" end="x">To cover them with coal. When they were covered with coal, he was standing [there], and he laughed. He laughed at us. He smiled, and afterwards he ordered us not to dig them up. They should come up by themselves. And if they cannot come up, they can remain there, too.</u>
+                <u who="#boderD" start="864.450" end="x">Hm.</u>
+                <u who="#eisenbergK" start="866.911" end="x">This was going on for a long time. We were terribly tormented, and we endured very bad times. All of a sudden there began arriving in our town...</u>
+                <u who="#boderD" start="876.125" end="x">That was in your town?</u>
+                <u who="#eisenbergK" start="877.572" end="x">In 'your' town.</u>
+                <u who="#boderD" start="878.272" end="x">And...</u>
+                <u who="#eisenbergK" start="878.462" end="x">In <placeName ref="Starachowice">Starachowice</placeName>.</u>
+                <u who="#boderD" start="879.253" end="x">And...</u>
+                <u who="#eisenbergK" start="879.527" end="x"><placeName ref="Starachowice">Starachowice</placeName>.</u>
+                <u who="#boderD" start="880.501" end="x">And at night we went home to sleep?</u>
+                <u who="#eisenbergK" start="882.787" end="x">And at night we went to sleep. When we went home to sleep, the oldest...a father I did not have. The mother, to earn for bread she could not, because she had to stay only on the streets that had been assigned. And on the other streets where the Christians, the Gentiles, were living we could not go out on any more, and so it was very hard, that life. Returning home at night, sometimes I would find a potato without salt, and sometimes there was not even that. And early in the morning, again with the same hunger, return to the same work that a hundred per cent...fifty per cent, one can say, I did not expect to return, because [one was] without strength and getting beaten very much. All of a sudden Jews from all over begin to arrive in our town. There begins a traffic with autos, with trains. From all over Jews begin arriving. And so what is going on? There is a bustle in the town. People are being resettled. People are being resettled from all the towns to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> from where people do not return any more, the death <term ref="#vothG_lager">lager</term> which is known all over the world, <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>. We are thinking about a way out, but there is no way out. Thus it was going on for two weeks. One bright...bright morning a five o'clock, the whole town is guarded, surrounded, and an order was given that in ten minutes not one Jewish child [son or daughter of Israel] is to be found in his home. And many Jews...and many Jews were prepared for it. We slept with the clothes on. [He used the word Ungetuigs for clothes which was not understood by the interviewer.]</u>
+                <u who="#boderD" start="984.915" end="x">How did one sleep?</u>
+                <u who="#eisenbergK" start="985.965" end="x">In the clothes. In the clothes we slept.</u>
+                <u who="#boderD" start="988.272" end="x">What is that?</u>
+                <u who="#eisenbergK" start="988.607" end="x">With the trousers on.</u>
+                <u who="#boderD" start="989.480" end="x">Yes.</u>
+                <u who="#eisenbergK" start="991.198" end="x">We slept with clothes on, in the trousers, the jacket, the shirt, everything ready, and a small bundle at the head. We took that bundle and ran out at once. Coming out of the house, there were already waiting Germans with guns, with grenades in the hands.</u>
+                <u who="#boderD" start="1006.241" end="x">Only children?</u>
+                <u who="#eisenbergK" start="1006.988" end="x">Only...Germans. Everybody!</u>
+                <u who="#boderD" start="1010.121" end="x">Yes.</u>
+                <u who="#eisenbergK" start="1010.266" end="x">The whole family went out. The whole family came out of the house. There were already Germans waiting with grenades, with machine guns in the hands and looked for the moment to kill us. But we had...but we were following the order, and it did not last...did not take ten minutes to come out. Coming out on the street, I once more...I, myself, looked back once again at my house, and I said, 'This house I will not see again.' We went out to the market place. This is a large square in the center of town. All the Jews were assembled there. Walking, we already saw how Jewish blood flows in the streets, and the bullets are flying. When we were already assembled on the square, we see an old couple walking. They have no more strength to drag their feet. So a German takes and leads [them] into a house and with one bullet he shot both of them. Put one next to the other, both heads, and shot both. Going ahead, looking around the town again, we see the children lost from their mothers and mothers lost from their children. They are calling, the mothers to the children and the children to the mothers. But those children whom the Germans had noticed, who had from great fright lost their mothers, died immediately on the spot. Such a panic lasted four, five hours. It was terrible. Also while standing in rows, the Germans came over and took off immediately everything, the better things. I myself was dressed in my best suit, my best clothes. They soon took off my jacket and my boots, and they asked if I do not have any money or anything else.</u>
+                <u who="#boderD" start="1128.676" end="x">How old were you then?</u>
+                <u who="#eisenbergK" start="1130.413" end="x">I was then fifteen years old when all that happened. Also the Germans...</u>
+                <u who="#boderD" start="1137.076" end="x">In which year was it?</u>
+                <u who="#eisenbergK" start="1138.733" end="x">That was in the year '40. [Corrects himself:] In the year '42.</u>
+                <u who="#boderD" start="1141.337" end="x">Yes.</u>
+                <u who="#eisenbergK" start="1142.447" end="x">Thousand, nine hundred and forty-two. The end of 1942. In the tenth... in the tenth month. [NOTE: Spool 12 ends here. The continuatin of the interview took place on the following day. Mr. Eisenberg undoubtedly must have 'prepared' himself for the continuation of the narrative, which may account for the apparent increase in pathos in his style.]</u>
+                <!-- end Spool 12B -->
+                <!-- begin Spool 13 -->
+                <u who="#boderD" start="1154.680" end="x">[In English:] August 1st, 1946 [the following day]. Chateau Boucicout 'under' <placeName ref="Paris">Paris</placeName>. This is Spool 13, a continuation from a short introduction on Spool 12 by Kalman Eisenberg. He will continue right on this spool although we have lost some continuity on account of some recorder trouble. </u>
+                <u who="#boderD" start="1194.088" end="x">[In German:] Say a few words. Say who you are.</u>
+                <u who="#eisenbergK" start="1200.742" end="x">I am Eisenberg, Kalman. My name is Eisenberg, Kalman, born in Poland in the town <placeName ref="Starachowice">Starachowice</placeName>.</u>
+                <u who="#boderD" start="1209.816" end="x">Go ahead. Say whatever you want [words not clear].</u>
+                <u who="#eisenbergK" start="1213.827" end="x">[Whispers:] Where shall I start?</u>
+                <u who="#boderD" start="1216.866" end="x">Wherever you want. It does not matter, yes? Whatever you remember. Where did we stop yesterday?</u>
+                <u who="#eisenbergK" start="1224.413" end="x">And so, standing on that market place where all the Jews were removed to...we were already standing arranged in fours...and [I] heard the last words of my mother, how she said to me, 'No! You are going with us. Whatever will happen to us will happen to you, too.' At a short distance passed an <term ref="#vothG_ss">SS</term> man, and [he] immediately took off my jacket and a pair of boots. I remained barefooted. Luckily I had in my bundle a pair of old shoes that I had taken along. I put [them] on and stood dismayed, mornful, seeing what is happening to Jews. How the blood flows, and the little children taken by the feet and thrown against the wall. And later on when the afternoon came, everybody was tired standing on that square. There suddenly arrived an auto with five <term ref="#vothG_ss">SS</term> men. And they said for all young men from eighteen to twenty-five to fall in, to be taken to work. I was a boy of fourteen years. I did not have the chance to step forward. But suddenly an <term ref="#vothG_ss">SS</term> man was passing, and he took a liking to me. He gave me a sign with his revolver, and I had to step our from the ranks, and with a heavy...with an embittered heart I looked at the mother and left the ranks, [and was] incorporated into the ranks of the workers. Once more I wanted to turn and take a look at my mother. I soon got [it] with a riding crop over the head that to this day I still have a souvenir of that instant. </u>
+                <u who="#boderD" start="1347.265" end="x">What were the last words which you have heard from your mother?</u>
+                <u who="#eisenbergK" start="1351.135" end="x">My mother, when I was leaving, spoke, 'My child, go. Maybe you will remain alive. But we, we know for sure that we are going to death. And you should take revenge for our blood, innocent blood that is being spilled innocently by the barbaric, murderous hands.' And with that, with such an embittered heart, did I go out from the ranks. Arriving in the new <term ref="#vothG_lager">lager</term>, we were spread out in two places. We separately, and the women, very few, separately. When we where standing on that square an order came to hand over whatever we still had. All our things on one side and the rest that we have, to throw away. We went over to the other side. The things we left on the place on which we were formerly...standing before. And later on there arrived a few <term ref="#vothG_ss">SS</term> men and gave an order, 'In the name of our <term ref="#vothG_fuehrer">Fuehrer</term> ten people will be shoot.' And immediately ten people were selected. Anybody might have become that burned offering.</u>
+                <u who="#boderD" start="1435.861" end="x">What did he say? In the name....?</u>
+                <u who="#eisenbergK" start="1437.352" end="x">In the name of our <term ref="#vothG_fuehrer">Fuehrer</term> of the Reich ten people will be shot. And when those ten people were shot we were standing all around [in a circle], and those ten people [were] shot in the center. And they said that the same thing will happen to every Jew, to every woman, to every child who won't hand over his possessions that he has hidden on him.</u>
+                <u who="#boderD" start="1458.302" end="x">How were the ten people selected?</u>
+                <u who="#eisenbergK" start="1460.762" end="x">He passed through. Whoever he pleased, whoever caught...whoever struck his fancy. He made a sign with the revolver in his hand. And he had to step out in spite of knowing that he is going to a certain death.</u>
+                <u who="#boderD" start="1472.833" end="x">Did he pick older people, younger people [words not clear]?</u>
+                <u who="#eisenbergK" start="1476.773" end="x">Whoever...whoever caught his eye. Whoever was standing near him. Whoever struck his fancy he took. There was no difference whether young or old. The burned offering could have been any one, whoever stood there.</u>
+                <u who="#boderD" start="1486.204" end="x">Nu?</u>
+                <u who="#eisenbergK" start="1489.385" end="x">And afterwards when those ten people had been shot...</u>
+                <u who="#boderD" start="1491.348" end="x">Did those people say anything before they were shot?</u>
+                <u who="#eisenbergK" start="1495.091" end="x">Yes. The last words of those people...we heard nothing more but, 'Shema Yisroeil' [Hear, Oh, Israel], nothing else. These were their last words. And a few people going to be shot fainted instantly, and fell on the spot. And afterwards, when that '<term ref="#vothG_action">action</term>' was finished, we were arranged in two rows and led by, past five <term ref="#vothG_ss">SS</term> men. The five <term ref="#vothG_ss">SS</term> men had the job of searching all our belongings. Tore our shirts, tore our shoes. The hair was searched. Wherever there might be a chance. They even looked under [the soles of] the feet if one had not pasted on any valuables with adhesive tape. Arriving in the new <term ref="#vothG_lager">lager</term> we were led into barracks. Those barracks were made entirely of wood, temporary barracks. We entered, a hundred people to a barrack. The barrack looked low. One little electric bulb. Three-tiered beds, without straw, without anything, just wood. [Words not clear. As I have explained...explained, everyone...two people received one little bed. That bed was 1.20 meters long and 60 centimeters wide.</u>
+                <u who="#boderD" start="1579.942" end="x">What kind of little beds were they?</u>
+                <u who="#eisenbergK" start="1581.281" end="x"> Wooden ones. Three-tiered little beds made out of wood.</u>
+                <u who="#boderD" start="1583.956" end="x">Hm.</u>
+                <u who="#eisenbergK" start="1584.926" end="x">Such a bed, 1.20 meters long and 60 centimeters wide, was given to two people. On that we had to sleep. When we entered that <term ref="#vothG_lager">lager</term>, the cries, the wailing of everybody was terrible. It looked like Tishe B'ab [a fast day commemorating the destruction of the Temple], like Chorben Beth Hamigdash [Destruction of the Temple]. So it looked. Everybody was thinking about what had happened to the parents and to the other people who had remained there on that square. In such...in such a mood [?] we sat till the evening. The night fell slowly. It fell gradually, and everybody on the plank beds, bewildered, confused, brooding. There was no question of sleeping. The desire to sleep came to nobody's mind. I, as a young boy, sit and cry and complain. With whon did I remain? And what will I do? And what will the future be? Lost. There is no hope. I myself must summon courage that I should be able to live through that moment and be able to relate to the Jews all over, in every corner or the world, in each of the four corners of the world, what has happened to the...to us. The story, the times we have gone through. In the middle of the night everyone sits exhausted, in thoughts. Suddenly we hear a shot. Indeed [?] a guard, a Ukrainian, got a fancy and shot [burst] into our barrack. And there fell two badly wounded and three dead.</u>
+                <u who="#boderD" start="1705.807" end="x">How can there fall two badly wounded and three dead from one shot?</u>
+                <u who="#eisenbergK" start="1709.617" end="x">From a machine gun. It was a shot from a machine gun. And if all the bullets had found a mark, there would have been many more victims. But, thank God, it only cost three burned offerings and two wounded. And so, tacken aback by the dead and by the wounded, there was no councel or aid. We had no water. To go out was a threat of death. And so gradually with our own efforts we did whatever we could in order to alleviate their suffering, to reduce their plight. Dawn was nearing slowly. We all arose, and we wanted to go to work. We thought that if we remain lying they will take it for sabotage, that we do not want to go to work. So we all arose and went to work. [While the prisoners were] walking out through the door, the Ukrainians heard it. They immediately surrounded our barrack and fell upon us like murderers, with machine guns in the hands, and were beating with rubber truncheons. 'What do you think, you Jew? You band of Jews, what do you think, you have any way out of this <term ref="#vothG_lager">lager</term>? Here you must remain! Here you must croak! And your life you must end in this <term ref="#vothG_lager">lager</term>' And with terrible blows they chased...chased us back into the <term ref="#vothG_lager">lager</term>. By six o'clock in the morning there came in a Jew who was...who had been elected temporarily to take charge of the <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="1805.245" end="x">Who elected him?</u>
+                <u who="#eisenbergK" start="1806.749" end="x">A Jew. His name was [first name not clear] Wilczyk. Born also...born I do not know where, but he had been living for a long time in <placeName ref="Starachowice">Starachowice</placeName>. An elderly Jew around forty years. He was made a temporary overseer of the <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="1821.862" end="x">Who made him? The Germans or the Jews?</u>
+                <u who="#eisenbergK" start="1823.260" end="x">The Germans. [Corrects himself:] The Ukrainians. The guards [authorities] of the <term ref="#vothG_lager">lager</term> made him so temporarily. And he came in...he came into the <term ref="#vothG_block">block</term>, and he told us to get dressed and go to work. In five minutes everybody was ready, because nobody had slept, nobody had undressed. Everybody was depressed, crush-...crushed by his...by his misfortunes, by his pain. [We were] arranged on the square and went to work Going out through the gate we received the bread which we took along among our things. Everyone received a slice of around ten dekas, five dekas. It depended on how much luck one had. And a little bitter, cold, unsweetened coffee. That was the first day of our going out to work. When we arrived at work...[when we were] entering the factory, the Ukrainians received us with bad beatings [?]. We were assigned to sections in Polish, 'Do wydzial' [to work halls] where everyone was to work. We immediately got the worst kind of work. We, Jews children, were taken,of eighteen, or seventeen, of sixteen years, [and] assigned to ovens of two thousand degrees of heat. They made ammunition, cannon...shells for cannon. And who did not complete the 'norm' like one says in Polish, that means the number that he was supposed to make--that was two thousand to three thousand shells--had to stand sixteen hours. And if I did not finish in sixteen hours, he [I?] Had to remain for twenty-four hours. That is how it was going on every day, the day by day work. In a short time very, very many people had fallen who did not have the strength to endure all those things. When the...when the Russians had come closer, [when] they came near the Vistula, the Germans considered it a danger if we should remain in the place, and we have to be sent away to [the interior of] Germany. At night there came an order that not one Jew is to go to work but has to remain in the place, on that spot, in the <term ref="#vothG_lager">lager</term>. A terrible fright gripped the whole lager. Everybody walked around brooding and said, 'Now [these] are our last moments. The Russians are approaching and the Germans knows that he has lost the war. He will finish us all off on the spot just where we are.' Two three...two days this situation [?] lasted.</u>
+                <u who="#boderD" start="2031.409" end="x">Which <term ref="#vothG_lager">lager</term> was that?</u>
+                <u who="#eisenbergK" start="2032.780" end="x">In <placeName ref="Starachowice concentration camp" type="camp">Starachowice</placeName>.</u>
+                <u who="#boderD" start="2034.118" end="x">Yes.</u>
+                <u who="#eisenbergK" start="2034.735" end="x">Two days...</u>
+                <u who="#boderD" start="2034.999" end="x">That is the town or the <term ref="#vothG_lager">lager</term> [?]?</u>
+                <u who="#eisenbergK" start="2036.177" end="x">That is the town and also the <term ref="#vothG_lager">lager</term>. They were together [?].</u>
+                <u who="#boderD" start="2038.508" end="x">Where you were born?</u>
+                <u who="#eisenbergK" start="2039.582" end="x">Yes, where I was born.</u>
+                <u who="#boderD" start="2041.321" end="x">Hm. Have you heard about your mother since then?</u>
+                <u who="#eisenbergK" start="2045.992" end="x">My mother had already been sent away a long time, and we were in that <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="2049.958" end="x">Hm.</u>
+                <u who="#eisenbergK" start="2053.555" end="x">And so next morning comes an order. The section which is working from seven in the morning till three in the afternoon can still go to work. It became a little easier, but still people were still going around with the same fright. [The continuity seems disrupted.] Arriving at work, the Gentiles, the Christians, told us the terrible agony that was experienced by the people who had remained there on the square. Because until now we had had no information, and later on we had some information from people who had returned...who were taken as far as <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> and after that they returned. And part of those people [possibly Christians] were also working there in the factory, who were driving the wagons, the engines from on factory to another. An acquaintance, a Jew, was acquainted with such a machinist, and he told him about the terrible tortures that the Jews, those people had suffered, who had been taken away. First of all, a hundred and fifty people were packed into a small RR-car. Entirely closed, nailed shut, doused with chloride [chlorek]. And the bundles taken away, and the water they needed. And chased inside [the RR-cars], beaten up, grabbed bloody, herded into the RR-cars. That Christian reported the impossible thing that fifty per cent would arrive half alive at that place. He said that he is completely convinced that not a single Jew will [could] arrive at that place alive, not withstanding that the place as such was the death sentence. That means <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>. Returning from work, we heard that the guards had searched the entire plant [to see] whether, God forbid, a Jew did not hide himself there and escape at night into the forest and hide himself. </u>
+                <u who="#boderD" start="2188.085" end="x">That is what that man had related?</u>
+                <u who="#eisenbergK" start="2190.416" end="x">Yes.</u>
+                <u who="#boderD" start="2190.977" end="x">Nu? [Both apparently have lost the thread of the narrative.]</u>
+                <u who="#eisenbergK" start="2191.955" end="x">To that <term ref="#vothG_lager">lager</term> came again an order that the second...the second shift, from three to eleven at night, cannot go to work any more. With a terrible fright all of us went around again. All of a sudden the '<term ref="#vothG_commandant">Commandant</term>' of the <term ref="#vothG_lager">lager</term>...that same Wilczyk who was the overseer had become '<term ref="#vothG_commandant">Commandant</term>' of the <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="2218.194" end="x">A Jew....A Jew?</u>
+                <u who="#eisenbergK" start="2218.987" end="x">A Jew. He had become '<term ref="#vothG_commandant">Commandant</term>' of the <term ref="#vothG_lager">lager</term>. That is '<term ref="#vothG_commandant">Commandant</term>' in our eyes, but he had not much say with the Germans.</u>
+                <u who="#boderD" start="2232.400" end="x">What sort of a man was he?</u>
+                <u who="#eisenbergK" start="2236.093" end="x">He was a quite ordinary man who...an older man of forty years, who could speak a little more. He had a little more experience, but otherwise quite an ordinary man. It just happened that he was made '<term ref="#vothG_commandant">Commandant</term>' of the <term ref="#vothG_lager">lager</term>. There were...[?]</u>
+                <u who="#boderD" start="2254.441" end="x">How did he treat the Jews?</u>
+                <u who="#eisenbergK" start="2256.268" end="x">The Jews he treated quite well. Nothing can be said. He was also tortured the same as we were.</u>
+                <u who="#boderD" start="2261.366" end="x">Hm.</u>
+                <u who="#eisenbergK" start="2261.892" end="x">But the only thing...he carried the name of '<term ref="#vothG_commandant">Commandant</term>' of the <term ref="#vothG_lager">lager</term>, but much...much to say he did not have. Absolutely nothing to say. In the afternoon a decision was made by the Jews that from this <term ref="#vothG_lager">lager</term> we have to get away. Should we remain till next morning there are definite rumors that we will be shot. At night everyone was awake. No one slept. The police [apparently Jewish <term ref="#vothG_trusty">trusties</term>] came into each barrack and said 'Jews, the last moments of our lives are approaching, and so we have one way out, to break out of the <term ref="#vothG_lager">lager</term>. And not far from the <term ref="#vothG_lager">lager</term> there is a forest. It is quite certain that many Jews will fall but this cannot be helped. Who will remain alive...whoever will be able to save his life will remain alive. And if we shall do nothing, the entire <term ref="#vothG_lager">lager</term> will perish. There is no place where we could be taken. There is no place, and the Germans will not let us live. It is an impossible thing that they will let us live.' At night, everything ready, a little bundle in the hand, with hammers, with pliers, with axes, [we] went over to the...eh...went over to the wires. There was no strong guard. And so on all four side Jews were standing and watched for the moment to be able to go over, tear out the fence and escape into the forest. Thus it lasted four, five, ten minutes. After that there came people running from all four sides and breaking the boards and cutting the wires. And a few people running from all four sides and breaking the boards and cutting the wires. And a few people succeeded in escaping. At the same moment fire began falling from all four roofs, from the towers where the guards stood, and many, many were shot and a very small part escaped into the woods. But the majority of Jews were afraid to risk [it] and did not have the possibilities any more of running over to the fence and running away, because death awaited them immediately.</u>
+                <u who="#boderD" start="2438.495" end="x">Where were you?</u>
+                <u who="#eisenbergK" start="2439.685" end="x">We...I myself was lying under a...under the barrack, under the <term ref="#vothG_block">block</term>, not far from the wires and watched for the moment so that I could escape. But I noticed that terrible fire [shooting]. And the...and from that terrible fire I have noticed...and from...and the..and from the thrown grenades a lot of people were shattered and torn to pieces. Not a sign of them remained. Many people...the feet, the hands...and of one it even tore off the head. I noticed at the moment...</u>
+                <u who="#boderD" start="2474.085" end="x">How was his head torn off? From the shooting or from...</u>
+                <u who="#eisenbergK" start="2476.861" end="x">From...from the grenades. From grenades.</u>
+                <u who="#boderD" start="2479.147" end="x">Oh. Who was throwing grenades?</u>
+                <u who="#eisenbergK" start="2480.625" end="x">The...the...the guards. They saw...</u>
+                <u who="#boderD" start="2482.161" end="x">And the guards were Ukrainians or...</u>
+                <u who="#eisenbergK" start="2484.129" end="x">The guards were Ukrainians and Germans.</u>
+                <u who="#boderD" start="2488.095" end="x">Hm.</u>
+                <u who="#eisenbergK" start="2488.874" end="x">In a few seconds the whole <term ref="#vothG_lager">lager</term> was surrounded by many sentries and the Germans. And to escape was out of the question. Everybody [was] chased into the barrack. Everybody was silent, more dead than alive, and awaited the order when the moment is to arrive. Because there was no thought, no hope for us to remain alive. Throughout the night on that square the guards were milling with the grenades, with arms in the hands. Finally we saw the dawn. So we were allowed to go out to wash, and back again into the barrack. An hour later we were all lined up and all our clothes everything that one had on, was taken away.</u>
+                <u who="#boderD" start="2557.709" end="x">What was taken away? </u>
+                <u who="#eisenbergK" start="2558.352" end="x">The Untuigs [clothes], so that the people should not be able to escape.</u>
+                <u who="#boderD" start="2561.567" end="x">What is 'Untuigs'?</u>
+                <u who="#eisenbergK" start="2562.557" end="x">Trouser, jacket, shoes, the...the...</u>
+                <u who="#boderD" start="2565.886" end="x">So what did you remain with?</u>
+                <u who="#eisenbergK" start="2567.603" end="x">We remained just in a shirt and a pair of shorts [underwear].</u>
+                <u who="#boderD" start="2569.921" end="x">Hm.</u>
+                <u who="#eisenbergK" start="2571.306" end="x">But many people had hidden in the straw mattresses, on which they slept...they had hidden spare trousers, spare manarka.</u>
+                <u who="#boderD" start="2582.425" end="x">What is a 'manarka'?</u>
+                <u who="#eisenbergK" start="2583.288" end="x">A coat.</u>
+                <u who="#boderD" start="2584.398" end="x">A coat.</u>
+                <u who="#eisenbergK" start="2584.787" end="x">A coat. And all the clothes on that square that have been taken away [were put] into the storehouse.</u>
+                <u who="#boderD" start="2595.140" end="x">In what language is 'Untuigs'?</u>
+                <u who="#eisenbergK" start="2597.366" end="x">Ungetuigs? That is just [word not clear].</u>
+                <u who="#boderD" start="2599.119" end="x">Polish or Yiddish?</u>
+                <u who="#eisenbergK" start="2599.607" end="x">That is...no...Ubranie is in Polish.</u>
+                <u who="#boderD" start="2601.649" end="x">'Ubranie.'</u>
+                <u who="#eisenbergK" start="2602.158" end="x">But Untuigs is in Yiddish.</u>
+                <u who="#boderD" start="2604.082" end="x">Yes. [Root is German: antun, to put on, 'put-ons,' like pull-over.]</u>
+                <u who="#eisenbergK" start="2604.397" end="x">Untuigs.</u>
+                <u who="#boderD" start="2607.021" end="x">'Untuigs' is in Yiddish. </u>
+                <u who="#eisenbergK" start="2608.287" end="x">In Yiddish.</u>
+                <u who="#boderD" start="2608.875" end="x">Hm.</u>
+                <u who="#eisenbergK" start="2609.162" end="x">And all that was taken away, and it was put into the warehouse. And with that the Germans thought we will not be able to escape. And once in plain daylight we again awaited the monemt when the...there was a very weak guard. And again forty Jews succeeded in escaping. Ten Jews were then shot on the wire who were...who...who had climbed up [?]. And thirty Jews succeeded in escaping into that forest. The forest was soon surrounded by sentries, and [they] fired into it with machine guns and grenades, but [a few words not clear]....[End of Spool 13.] </u>
+                <!-- end Spool 9-13 -->
+                <!-- begin Spool 9-14 -->
+                <!-- missing audio begins here -->
+                <p>Note: The audio for Spool 9-14 is not available. This spool was apparently missing from the collection of spools which was given to the Library of Congress by Dr. Boder.</p>
+                <u who="#boderD" start="x" end="x">[In German:] Now please start with the same day when [words not clear]...[In English:] This is Spool 14 and Kalman...Kalman Eisenberg is continuing. </u>
+                <u who="#eisenbergK" start="x" end="x">[In Yiddish:] On the same day, in the afternoon, [we] were able to find a moment when there was a light guard, and a few people approached the gate, the wires. And like snakes they slithered over the fence in order to get over to the other side, to excape into the forest. Thirty people succeeded in getting across the fence in great haste and to run away. Ten people remained hanging on the fence and were shot on the fence. Afterwards the <term ref="#vothG_lager">lager</term> was surrounded with a stronger guard, and the forest was surrounded, and they were shooting with hand grenades and machine guns, with whatever weapons they had on hand. And...and we in the <term ref="#vothG_lager">lager</term> were chased again into the <term ref="#vothG_block">blocks</term> into the barracks. The ten corpses were soon taken off the fence and laid out in the middle of the square, where they lay twenty-four hours. [Pause.] And they were lying there twenty-four hours. Afterward there remained two more small <term ref="#vothG_lager">lagers</term>, and they installed a cooperative for [the manufacture of] shoes and clothing for the Germans, and a smaller cooperative, a shop for wood [work]. There worked then altogether three hundred people. These three hundred people were also taken over to us, to the larger <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="x" end="x">Where was this <term ref="#vothG_lager">lager</term>?</u>
+                <u who="#eisenbergK" start="x" end="x">This <term ref="#vothG_lager">lager</term>, too, was in <placeName ref="Starachowice">Starachowice</placeName>, but the [<term ref="#vothG_lager">lager</term>] where we were was a large <term ref="#vothG_lager">lager</term> that counted up to two, three thousand people, and there were smaller subdivision where there were only a hundred and fifty people in each. When they brought the three hundred people to us, to the large <term ref="#vothG_lager">lager</term>, a girl looked around herself [and saw] where she is...</u>
+                <u who="#boderD" start="x" end="x">How many women were there?</u>
+                <u who="#eisenbergK" start="x" end="x">Women made up twenty per cent. Twenty per cent, one may say, were women.</u>
+                <u who="#boderD" start="x" end="x">Where, in your <term ref="#vothG_lager">lager</term>?</u>
+                <u who="#eisenbergK" start="x" end="x">In the small <term ref="#vothG_lager">lagers</term>. In our <term ref="#vothG_lager">lager</term> there were forty percent women. A young girl, born in <placeName ref="Lódź">Lodz</placeName>, named [words not clear] looked around at the conditions in which she finds herself. So she said, 'Jew, time now counts in minutes. And perhaps we will be able to become free and to escape. And whoever will fall will fall at least a heroic death. But I believe that many will remain alive.' This girl, not thinking long, threw herself on the chief, on the commander of the Ukrainians, and tore with great power, with great strength, the revolver out of his hand. And she started shooting not at the people, but in the air. In the same moment the guards ran up, Ukranians who stood around the <term ref="#vothG_commandant">commandant</term>, and they fired in the air...they fired...in the air...</u>
+                <u who="#boderD" start="x" end="x">This was not a Jewish <term ref="#vothG_commandant">commandant</term>?</u>
+                <u who="#eisenbergK" start="x" end="x">No. He was a 'German' <term ref="#vothG_commandant">commandant</term> of the Ukrainians. He had the responsibility for the entire guard of the <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="x" end="x">Yes?</u>
+                <u who="#eisenbergK" start="x" end="x">And the guard soon surrounded us completely and began firing on the people. But thank God, there were no wounded, no dead. The girl by accident was only wounded.</u>
+                <u who="#boderD" start="x" end="x">Wounded.</u>
+                <u who="#eisenbergK" start="x" end="x">Wounded, very lightly wounded. And the rest of the people who remained were...</u>
+                <u who="#boderD" start="x" end="x">Did she shoot the <term ref="#vothG_commandant">commandant</term>?</u>
+                <u who="#eisenbergK" start="x" end="x">No. She just tore the revolver out of his hand. And the guards all around were firing, because it was very dark, so that she was only lightly wounded. The rest of the people were standing...were taken to the other end of the square, and we stood there the whole night. In the morning they searched for the girl. In the morning they search for the girl. The girl was hiding in a barrack. She was dragged out of the barrack and was taken to give account.</u>
+                <u who="#boderD" start="x" end="x">What?</u>
+                <u who="#eisenbergK" start="x" end="x">To give account. She had dared to go over to a...a German and throw herself on him and grab his revolver. But the girl defended herself, that when she saw the 'last moments' such an excitement came over her, such a...into her head, and she is not responsible for what she had done. And with great difficulties, with much labor and struggle, we succeeded in saving the girl from death, from...from...from death by German hands.</u>
+                <u who="#boderD" start="x" end="x">Tell me, how did you succeed? Tell it please.</u>
+                <u who="#eisenbergK" start="x" end="x">A great deal...a great deal of work was done on the Germans. It has cost us very much money. The Jews gave up the last possessions.</u>
+                <u who="#boderD" start="x" end="x">Where did they get these possessions?</u>
+                <u who="#eisenbergK" start="x" end="x">The Jews had left it with the Gentiles. And man still brought it...still brought it to the Jews, because they were working in the same factories. They would return it to the Jews. And the money that they had left every Jew handed over in order to save the young girl of eighteen years from death. And by accident it was possible to save the girl.</u>
+                <u who="#boderD" start="x" end="x">How, through the judge, or what?</u>
+                <u who="#eisenbergK" start="x" end="x">There was no court. There on the square. The main chief of the guard was called. The story was told to him, that she threw herself on...on the <term ref="#vothG_commandant">commandant</term> of the <term ref="#vothG_lager">lager</term>, on the German. But the chief was a big glutton for money. He loved money and gold very much. And the Jews were not sorry to hand over the last possessions they had...</u>
+                <u who="#boderD" start="x" end="x">Hm.</u>
+                <u who="#eisenbergK" start="x" end="x">It was handed over, and the girl was saved. This girl is still alive today, to this day, in Germany. Afterwards, [after] all this had happened, an order came that tomorrow morning RR-cars will arrive and all...[an empty stretch of wire]...now you can imagine. We returned to the barracks. No one ate, because no one had a mind to eat. The mouth could not eat. Thus we sat all night thinking. And now I must go back to a few instances...</u>
+                <u who="#boderD" start="x" end="x">I cannot take [words not clear; apparently request is made not to deal with hearsay material]. Now...</u>
+                <u who="#eisenbergK" start="x" end="x">And now I must go back and mention a few instances that happened in the same [other?] <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="x" end="x">No. I don't want about other <term ref="#vothG_lager">lagers</term>. I only want [words not clear].</u>
+                <u who="#eisenbergK" start="x" end="x">[Words not clear.] This passed in the same...yes.</u>
+                <u who="#boderD" start="x" end="x">Yes.</u>
+                <u who="#eisenbergK" start="x" end="x">Now I must go back...</u>
+                <u who="#boderD" start="x" end="x">What happened afterwards? Don't go back. Then you remained there overnight. What happened afterwards?</u>
+                <u who="#eisenbergK" start="x" end="x">During the night...</u>
+                <u who="#boderD" start="x" end="x">Tell me your story. Yes.</u>
+                <u who="#eisenbergK" start="x" end="x">During the night nothing special happened. The next morning early we awaited the RR-cars. [Words not clear.]</u>
+                <u who="#boderD" start="x" end="x">Yes. Tell what you have [to say]. Go ahead. Nu?</u>
+                <u who="#eisenbergK" start="x" end="x">All night long we sat and thought. But I have forgotten to mention a few previous instances which I must mention and which will never leave my head. For example, there was...there were tow girls who worked in a factory. Which two girls...</u>
+                <u who="#boderD" start="x" end="x">Did you know the two girls?</u>
+                <u who="#eisenbergK" start="x" end="x">Yes. The girls come from...one [comes] from Bodziecin and one from <placeName ref="Lódź">Lodz</placeName>. And one girl had a mother, an elderly mother of forty years. The two girls were very beautiful. And a manager, a young German, in the factory had his eye on the girls and wanted...wanted to make use of these girls. But he did [not?] succeed. Therefore, he sent a telegram to the <term ref="#vothG_lager">lager</term> that the two girls committed sabotage. And the two girls were taken out of the <term ref="#vothG_lager">lager</term> -- the <term ref="#vothG_lager">lager</term> was on a hill -- and were thrown down from the hill from a tower [?], and they were shot in the air. The old mother of the young girl...</u>
+                <u who="#boderD" start="x" end="x">Did you see it?</u>
+                <u who="#eisenbergK" start="x" end="x">Yes, I saw it.</u>
+                <u who="#boderD" start="x" end="x">Hm.</u>
+                <u who="#eisenbergK" start="x" end="x">[The mother] hears it, how the...about the misfortune of her daughter. She climbed a tower which was not occupied by...by the sentries, which [the tower] stood in the middle of the square. It was not ocupied by guards. [She] climbed up and leaped down. It was a terrible moment in the <term ref="#vothG_lager">lager</term>. Besides that, there was a Lagerfueher Altoff, by the name of Altoff, whom I mentioned once. He was a murderer. He drove down every day, and he could not eat breakfast if he did not see the blood of ten Jews. And every day there was the same story.</u>
+                <u who="#boderD" start="x" end="x">This happened in your <term ref="#vothG_lager">lager</term>?</u>
+                <u who="#eisenbergK" start="x" end="x">This [happened] in our <term ref="#vothG_lager">lager</term>, in <placeName ref="Starachowice concentration camp" type="camp">Starachowice</placeName>. Afterwards happened when one women, after being in the <term ref="#vothG_lager">lager</term> four months, gave birth to a child...After having been four months in the <term ref="#vothG_lager">lager</term> she gave birth to this child. And an order came that the child is not permitted to live more than two days. If the child will live two days, the mother, too, will be shot. Then there were instances when from lack of cleanliness and from hunger many people became sick with typhus. Finding this out, the <term ref="#vothG_lager">lager</term>...that people are sick with typhus, he came into...into the <term ref="#vothG_block">block</term> where the sick lay and shot these people in their beds. There was a group...the first group [consisted] of twenty people. A month later the sick became more numerous. There were fifty.</u>
+                <u who="#boderD" start="x" end="x">Fifty what?</u>
+                <u who="#eisenbergK" start="x" end="x">Fifty people became sick with the...with typhus.</u>
+                <u who="#boderD" start="x" end="x">During what period?</u>
+                <u who="#eisenbergK" start="x" end="x">This was in...</u>
+                <u who="#boderD" start="x" end="x">I mean in a week or in a month?</u>
+                <u who="#eisenbergK" start="x" end="x">This was a month later, when the twenty people were shot in their beds. A month later fifty people became sick with typhus, from lack of cleanliness, from hunger. In the middle...in the middle of the night the same murderer drove up and took out...</u>
+                <u who="#boderD" start="x" end="x">What was his name?</u>
+                <u who="#eisenbergK" start="x" end="x">His name was Altoff. I have mentioned him already several times.</u>
+                <u who="#boderD" start="x" end="x">Yes, yes. Nu?</u>
+                <u who="#eisenbergK" start="x" end="x">A very....Looking at him a person was overcome by panic, by terror. He was a very terrible...[voices in the background; then empty wire]...The second group of people, fifty in number, were shot in the same manner.</u>
+                <u who="#boderD" start="x" end="x">All right. No more about general [?] stories....[Tell me about] your last days in the <term ref="#vothG_lager">lager</term> [?].</u>
+                <u who="#eisenbergK" start="x" end="x">Afterwards, when we left our <term ref="#vothG_lager">lager</term>, we went to <placeName ref="Częstochowa">Czestochowa</placeName>. In <placeName ref="Częstochowa">Czestochowa</placeName> they did not want to receive us, so we went on to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> we were a week's time. The same night when we arrived, at night, we heard roaring [of trucks]. All the Gypsies were taken out and driven away on trucks. Next morning we found out that the three ovens were filled up, so the Gypsies had been taken, and pits were dug, and in these pits they were burned alive, without gassing.</u>
+                <u who="#boderD" start="x" end="x">The Gypsies?</u>
+                <u who="#eisenbergK" start="x" end="x">The Gypsies.</u>
+                <u who="#boderD" start="x" end="x">What...</u>
+                <u who="#eisenbergK" start="x" end="x">Without gassing. The Gypsies had been there until then, for two years. Suddenly an order came to burn them. After having been there, in the Gypsy <term ref="#vothG_lager">Lager</term>, a week's time, we left for <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>. In <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName> I was a few months. Many cases also happened that many boys because...when there was an air-raid, finding a piece of bread on the building-site, they would take and eat it. Upon returning to the lag-...[a pause, possibly a break in the wire]. </u>
+                <u who="#boderD" start="x" end="x">Tell me, Kalman. You say that the Gypsies were burned without having been gassed. How are people burned without gassing?</u>
+                <u who="#eisenbergK" start="x" end="x">Oh, that happened [thus]: Wide pits were dug. Wood was piled in the pits. And the Gypsies were chased into the pits, doused with gasoline and set on fire with grenades. Grenades were tossed in, exploded, and the wood...the wood which had been !!! u was here !!! doused with gasoline caught fire and [word not clear] alive. The cries could be heard over the whole <term ref="#vothG_lager">lager</term>.</u>
+                <u who="#boderD" start="x" end="x">Did you see it?</u>
+                <u who="#eisenbergK" start="x" end="x">We saw it ourselves. We...we waited for...we thought...supposed that our turn would come, too. But, thank God, we were saved from it, from this evil edict.</u>
+                <u who="#boderD" start="x" end="x">Go on.</u>
+                <u who="#eisenbergK" start="x" end="x">Afterwards from the Gypsy Later we came to be in <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>. In <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName> I was a short time. And there, too, happened very many tragic moments about which there is much to tell. But I want to go on. From <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName> we went...from <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>...the Russians, the English, and the Americans had started the offensive. They had come closer. From <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName> we were driven on. We went on foot all night. We arrived in <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>. Not far from <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName> there was a railroad station where RR-cars were waiting for us, open RR-cars. This was in January in the severest colds, the severest frosts. We were given, along on the journey, only thirty dekas of bread, nothing else.</u>
+                <u who="#boderD" start="x" end="x">Kalman, how do you explain the fact that the Germans dragged you from one <term ref="#vothG_lager">lager</term> to another, and that they did not do away with you as with the Gypsies?</u>
+                <u who="#eisenbergK" start="x" end="x">It was an accident. Perhaps they did not have any more time to do the same to us, or they still had a figured-out moment [idea] that some people must remain, or they had yet another place to employ us. That is why, perhaps, they left us. One cannot know for sure why. Perhaps we were lucky, perhaps by a miracle, by accident. We do not know how, whether by accident, but we were driven on. And when...yes. Near <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>, having boarded the RR-cars, we drove in January in the severest frosts for twelve days. We had nothing to eat, just the thirty dekas of bread that we took along. We drove through Czechoslovakia, Austria. And in Austria there is a famous <term ref="#vothG_lager">lager</term>, <placeName ref="Mauthausen concentration camp" type="camp">Mauthausen</placeName>. We stood there a whole day. They did not want to receive us. It was filled up. We drove back from [through?] Austria, back to Czechoslovakia. And on the road fifty per cent of the people died, frozen from the cold, of hunger, and of thirst. When someone died -- it was very crowed -- he was simply taken and thrown down the hills and valleys, wherever the place of his death happened to be, and covered with snow. And many people 'don't even know' where their bones have come to be [affective distortion of linguistic structure]. En route back from Czechia many Czechs were tossing out bread, and many Czechs suffered from the Germans, because they had tossed out bread [to us]. But we arrived in <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>. Entering <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>, sixty percent of us was missing. The forty per cent arrived more dead than alive. We, the young ones, were taken into a special <term ref="#vothG_block">block</term> for you-...youth, into <term ref="#vothG_block">Block</term> 19. And we were immediately taken to the bath, washed up, and chased into the <term ref="#vothG_block">block</term>. Inside the <term ref="#vothG_block">block</term> the names of the Jews were immediately called out, and we were put to the side. We were given special rows of beds, and wired up with wire so that we should not be able to talk to the other boys. We, as Jews, were all wired up. In <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName> there were very hard moments to live through. There were many days in which we received twenty dekas of moldy bread and a little water -- this was the soup, made out of water and leaves, nothing else. But we succeeded in living through the time. In a short time we were again taken from <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>. But they had no more places to take us to. They thought that they will get rid of us in...in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> there awaited us already a place where we could be exterminated. But they did not succeed in taking us as far as that. We...we dragged along for two weeks. During the night we walked, and during the day we lay in the woods. Four, five days...</u>
+                <u who="#boderD" start="x" end="x">Why did you...why did you lie in the woods?</u>
+                <u who="#eisenbergK" start="x" end="x">Because they had no other place in which to hide us except in the woods. During the night we marched on the highway, and during the day we lay in the woods.</u>
+                <u who="#boderD" start="x" end="x">Why were you hiding in the woods?</u>
+                <u who="#eisenbergK" start="x" end="x">They had no place to hide us. There was no other place. </u>
+                <u who="#boderD" start="x" end="x">How.</u>
+                <u who="#eisenbergK" start="x" end="x">They had occupied...the Russians, Americans, and the English had occupied. So they kept us in the woods. There were no more <term ref="#vothG_lager">lagers</term> for us. While in the woods, we lay [there] for five days during which it rained continuously. It rained for five days, and we received...received no food, nothing. We ate the dried out [bitter?] berries, if we happened to sit close to them. But in case we wanted to go near [them], to go and look for the dried out [bitter?] berries, one was shot. One was not permitted. Fifty boys sat together, separated into groups, parties [?] of fifty. And around every group of fifty there stood twenty <term ref="#vothG_ss">SS</term> men with dogs. And to move two meters away from the group was punishable by death. After three days they brought a few liters of water, called out everybody's name, and measured out a spoonful of water. And this was the food supply...the food...the food supply [Verpflegung], as it is called in German, for three days. And for the other two days we lay in the rain. At night, when one side, when I got up I could not feel the side I lay on, if it is alive or...or dead. I could have been beaten or pricked. I could feel absolutely nothing.</u>
+                <u who="#boderD" start="x" end="x">Nu.</u>
+                <u who="#eisenbergK" start="x" end="x">And then there arrived...and then there arrived comrades from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> who had...whom we had met on the road. And they had also gone through the same hardships. And we walked on. We walked again at night, and again we lay in the woods during the day. But this could not go on for long, because many people fell. Fell. Simply fell. And every meter there were corpses lying on both sides [of the road]. When one did not have the strength to go on, he would sit down. And a minute later he was lying already dead. To get us to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>...they could not bring [us there], because the communications were disrupted. To ride in RR-cars -- the American and Russian airplanes shot up the RR-cars and locomotives the...the train, and we could not travel any farther. And they could not bring us to that certain place where they wanted to exterminate us. But they took each group, took them into a forest and surrounded [them], dug...ordered to dig their own ditches [mass graves], and bury themselves. But we, before...before that...before that...our group simply by accident had before that gone to a small town where we received three potatoes each, half boiled. And we were supposed to go to the place where we were going to be shot, but the road...we got lost on the road and walked in a different direction. And by this miracle we remained alive. And the others, six thousand who had left the lag-...six thousand Jews who had left the <term ref="#vothG_lager">lager</term>, were shot, and no trace [of them] has remained. Our group, the fifty people who kept together, who took the wrong road, succeeded in remaining alive. When the...when the Americans were already very close, the Germans were chasing us faster and faster. But we did not want to walk. There was an air-raid alarm, and they ran into the forest. Then I and another three comrades from my town ran to the other side of the forest and hid ourselves. The German looked for us and could not find us. After having been in the forest two, three hours, we saw a village burning, and nearby there stands a tank with the lettering 'U.S.A.' We knew that U.S,A. stands for American. We also saw the star. But we did not believe that we would live to see the happy moment of liberation. Walking out a little farther, we see oncoming tanks, Americans. The first thing when we went over to the tank, there was a man with gun in hand. And he asked us who we are. He saw at once that we are...</u>
+                <u who="#boderD" start="x" end="x">In what language did he ask?</u>
+                <u who="#eisenbergK" start="x" end="x">He asked in English. And then I say to me comrads,'What is he asking? I do not understand.' Staring at me thus with his eyes, I immediately saw in his eyes that he wants to say something. Says he, 'Aren't you Jews by any chance?' He says, yes, he is also a Jew. 'Where are we [you] from?' 'We are from Poland.' And the American Jew in the tank was a...a man from <placeName ref="Vilnius">Vilna</placeName>, a Jew from <placeName ref="Vilnius">Vilna</placeName>. He gave [us] immediately direction...</u>
+                <u who="#boderD">Do you know his name?</u>
+                <u who="#eisenbergK" start="x" end="x">His name I did not...I did not...I do not know. He gave us immediately directions where...where we should go. And he gave [us] immediately what what we needed. He gave us coffee [possibly cigarettes], chocolate, chewing gum, all such things, and plenty of wine to drink. He told us where his company was located [his speech becomes fast]...</u>
+                <u who="#boderD">Slow down.</u>
+                <u who="#eisenbergK" start="x" end="x">We should...we should stay there, with his company, and there we will have the best of everything. Thus, half weak, after the liberation there were very many comrades who were very, very sick. They died after the liberation, alas. Then...</u>
+                <u who="#boderD" start="x" end="x">How did you get to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                <u who="#eisenbergK" start="x" end="x">To...to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> I came for one week only, to work. The.</u>
+                <u who="#boderD" start="x" end="x">Under the Germans?</u>
+                <u who="#eisenbergK" start="x" end="x">Under the Germans.</u>
+                <u who="#boderD" start="x" end="x">Nu?</u>
+                <u who="#eisenbergK" start="x" end="x">I came to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> for one week to work. I observed no special cases in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. But there are other comrades from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> who went through much and have very much to relate.</u>
+                <u who="#boderD" start="x" end="x">And so how did you get to France?</u>
+                <u who="#eisenbergK" start="x" end="x">To France...to France I came with a special transport which was sent from Germany...</u>
+                <u who="#boderD" start="x" end="x">And what...</u>
+                <u who="#eisenbergK" start="x" end="x">...through...through the <term ref="#vothG_unrra">UNRRA</term>. Which was sent through the <term ref="#vothG_unrra">UNRRA</term>.</u>
+                <u who="#boderD" start="x" end="x">And what do you plan on doing now?</u>
+                <u who="#eisenbergK" start="x" end="x">And so now here in France everyone...everyone...</u>
+                <u who="#boderD" start="x" end="x">What do you plan on doing?</u>
+                <u who="#eisenbergK" start="x" end="x">I am learning [word not clear]. This is work on leather goods. Others are learning to be tailors. Others are learning to be dental technicians.</u>
+                <u who="#boderD" start="x" end="x">And what do you plan on doing when you finish your training?</u>
+                <u who="#eisenbergK" start="x" end="x">When I will have learned by trade I have in America...in America, in <placeName ref="New York">New York</placeName>, in <placeName ref="Brooklyn">Brooklyn</placeName> I have an aunt, S. Hecker, 142 [word not clear] Street, from whom I have already received the 'papers.' And I think of going to America and there to spend my life together with my family. And now, to finish, I will sing a <term ref="#vothG_lager">lager</term> song, which <term ref="#vothG_lager">lager</term> song we were singing [?] and which will never leave my head [be forgotten]. </u>
+                <u who="#eisenbergK" start="x" end="x">[<emph rend="italics">singing</emph>] [I.] Sadness and courage is in our hearts. / Every day brings new sorrows. / Everyday brings fresh sufferings, / And not a word is allowed to utter.</u>
+                <u who="#eisenbergK" start="x" end="x">[Chorus:] Oh and woe to our years / When we went to the <term ref="#vothG_lager">lager</term>. / Rather than eat <term ref="#vothG_lager">lager</term> bread, / It is better to suffer hunger and privation.</u>
+                <u who="#eisenbergK" start="x" end="x">[II.] At four o'clock the people are awakened. / A tumult reigns like on a Beth Olom [cemetery]. / There is a rush for bread and coffee. / 'Fall in!' and, 'March!' is heard in a murderous, chill voice.</u>
+                <u who="#eisenbergK" start="x" end="x">[Chorus:] Oh and woe to our years / When we went to the <term ref="#vothG_lager">lager</term>. / Rather than eat <term ref="#vothG_lager">lager</term> bread, / It is better to suffer hunger and privation.</u>
+                <u who="#eisenbergK" start="x" end="x">[III.] All day long leaning on [holding] the shovel, / Frozen cold, emaciated by hunger / The wind blows through the bones. / For dinner you shall eat disease and stones.</u>
+                <u who="#eisenbergK" start="x" end="x">[Chorus:] Oh and woe to our years / When we went to the <term ref="#vothG_lager">lager</term>. / Rather than eat <term ref="#vothG_lager">lager</term> bread, / It is better to suffer hunger and privation.</u>
+                <u who="#boderD" start="x" end="x">[In English:] This concludes the record of Eisenberg. He could tell us an awful lot more, but we had trouble with the recorder, and I spent with him the whole morning. It took me nearly two hours of recording, and that will conclude his story.</u>
+                <!-- end missing audio -->
+            </div>
+            <!-- end Spool 9-14 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

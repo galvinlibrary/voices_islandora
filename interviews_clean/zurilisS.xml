@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Sophia Zurilis; September 21, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Johannes Barthel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Johannes Barthel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Johannes Barthel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Christian Schmidt</name>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT23M29.700S" id="zurilisS_9-141B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-141B</note>
+                                <placeName ref="Lohengrinstrasse"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-21</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="zurilisS_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="zurilisS_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="zurilisS" role="interviewee">
+                        <persName>
+                            <forename>Sophia</forename>
+                            <surname>Zurilis</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>unknown</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Lithuania"/>
+                        <state type="marital_status">
+                            <desc>widow</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Rīga">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Dachau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Stephanskirchen (BMW) concentration camp">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#zurilisS_de">
+                <!-- begin Spool 9-141B -->
+                <div lang="Germany">
+                    <p>Anmerkung: Die Tonqualität der Aufnahme ist insgesamt sehr schlecht. Gegen Ende ist nahezu kein Wort mehr zu verstehen.</p>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="0.273" end="x">[In English] This is spool 9-141B. Mrs. Sophia, she at the beginning refused to give her name and wanted to go under only under the name Sophia. But it seems that we later got her name as Sophia Zurilis, or Z-U-R-I-L-I-S. November the 7th, 1950. Boder. One should check up, maybe Zurilis is another person. But for the time being, we are packing away the spool.</u>
+                    <u who="#boderD" start="55.477" end="x">Eh, München, September the 21st, 1946, at Camp Lohengrin, a displaced persons' camp for Baltics, Latvian, Lithuanian, and Estonian. I'm interviewing here, a, eh, teacher, eh, whose first name is Sophia. And, eh, that is all of the name that we will have in this report. Eh, eh, we will have the interview in German.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="85.692" end="x">[In German] Also sagen Sie mir, äh, gnädige Frau, äh, wo waren Sie wenn der . . . Äh, was sind Sie für Nationalität?</u>
+                    <u who="#zurilisS" start="96.492" end="x">Lettin.</u>
+                    <u who="#boderD" start="97.132" end="x">Und woher?</u>
+                    <u who="#zurilisS" start="98.163" end="x">Ich bin eine Lettin.</u>
+                    <u who="#boderD" start="99.377" end="x">Sie sind eine Lettin, [unverständlich].</u>
+                    <u who="#zurilisS" start="100.715" end="x">Absolut, ja.</u>
+                    <p>[unverständlich von beiden] </p>
+                    <u who="#zurilisS" start="103.903" end="x">Eine Lettin.</u>
+                    <u who="#boderD" start="104.510" end="x">Sie sind eine Lettin.</u>
+                    <u who="#zurilisS" start="105.666" end="x">Ja.</u>
+                    <u who="#boderD" start="106.306" end="x">Und, äh, sagen Sie, wo haben Sie gelebt, wenn die Russen nach Lettland zurückgekommen sind?</u>
+                    <u who="#zurilisS" start="114.041" end="x">Zurückgekommen sind sie im Jahre '40.</u>
+                    <u who="#boderD" start="115.740" end="x">Ja.</u>
+                    <u who="#zurilisS" start="116.350" end="x">Ich war in Riga.</u>
+                    <u who="#boderD" start="117.930" end="x">Aha.</u>
+                    <u who="#zurilisS" start="118.567" end="x">Ja.</u>
+                    <u who="#boderD" start="118.901" end="x">Und was haben Sie dort getan?</u>
+                    <u who="#zurilisS" start="120.084" end="x">Auf einer Mädelsschule.</u>
+                    <u who="#boderD" start="120.873" end="x">Wann? Also wollen Sie mir jetzt erzählen was da vorgegangen ist, von dem Jahre '40 wie die Russen nach Lettland gekommen sind, und weiter von der russischen Okkupation, der deutschen Okkupation, wie sind Sie hier nach, äh, München hergekommen?</u>
+                    <u who="#zurilisS" start="136.073" end="x">Ja.</u>
+                    <u who="#boderD" start="136.589" end="x">Also gehen Sie ganz langsam, Sie brauchen nicht [unverständlich].</u>
+                    <u who="#zurilisS" start="139.079" end="x">Ja. [unverständlich] 17. Juni kamen die Bolschewiken in das Land. Zuerst kamen sie ganz harmlos und haben uns versprochen, keine Veränderungen in unserem Staatswesen zu veranlassen. Es musst nur die Regierung verändert werden, und dann musste bloß ein anderes Ministerium kommen, und sonst bleibt alles unverändert. Aber nach einer kurzen Zeit, vielleicht ein, zwei Wochen, haben wir doch gesehen, dass sie logen. Es waren schon gleich Veränderungen. Es wurden gleich, äh, Menschen „adoptiert“<note n="1">An dieser Stelle ist wohl deportieren gemeint.</note>, und die, unsere „Eiszwerge“<note n="2">Wen oder was Zurilis mit „Eiszwerge“ meint, ist nicht klar. Evtl. ein ähnlich klingendes lettisches Wort?</note>, das ist eine Organisation von den, ähm, von den, äh, Bauern, und, äh, die, von den Bauern, die, äh, die waren auch mit, die waren bewaffnet und so, und die wurden auch gleich, ähm, zurückgelegt. Wurden alle entwaffnet.</u>
+                    <u who="#boderD" start="195.510" end="x">Warum wurden die Bauern bewaffnet? Waren die Bauern bewaffnet?</u>
+                    <u who="#zurilisS" start="198.119" end="x">Na, das so n', eine, hm, eine Land . . . , äh, eine Lan . . . , eine Land . . . , eine Landwehr . . . </u>
+                    <u who="#boderD" start="204.280" end="x">Ja.</u>
+                    <u who="#zurilisS" start="204.526" end="x"> . . . die wir da haben, so.</u>
+                    <u who="#boderD" start="205.712" end="x">Ja?</u>
+                    <u who="#zurilisS" start="205.955" end="x">Eine, eine Zivilorganisation, wahrscheinlich . . . </u>
+                    <u who="#boderD" start="208.172" end="x">Ja.</u>
+                    <u who="#zurilisS" start="208.324" end="x"> . . . könnte man das sagen.</u>
+                    <u who="#boderD" start="209.446" end="x">Ja. Und was hat mit Ulman passiert, dem Präsidenten?<note n="3">Dies ist eine Referenz auf Karlis Ulmanis.</note></u>
+                    <u who="#zurilisS" start="212.419" end="x">Nu, Ulman wurde gleich, ähm, äh, interniert in seinem Schloss.</u>
+                    <u who="#boderD" start="216.514" end="x">Ja?</u>
+                    <u who="#zurilisS" start="217.212" end="x">Und, äh, und nachdem wurde er nach Moskau, äh, . . . </u>
+                    <u who="#boderD" start="223.312" end="x">Transportiert?</u>
+                    <u who="#zurilisS" start="224.070" end="x"> . . . transportiert, ja, als ein, äh, äh, ein Verhafteter.</u>
+                    <u who="#boderD" start="227.589" end="x">Ja.</u>
+                    <u who="#zurilisS" start="227.953" end="x">Ja.</u>
+                    <u who="#boderD" start="228.196" end="x">Nun?</u>
+                    <u who="#zurilisS" start="228.806" end="x">Nu, und dann, äh, und dann war das eben schon gleich in der Schule merk . . . , äh, merkbar. Wir müssen schon gleich die kommunistische Lehre annehmen und den Kindern überall die kommunistische äh, Ansichten den Kindern alles ver[unverständlich]. Und wir müssen auch, was [unverständlich], wir könnten kein Religion mehr, äh, mehr, ähm, unter . . . , äh, unterrichten und wir müssten, wir müssten bloß, wenn möglich, immer gegen was anzeigen.</u>
+                    <u who="#boderD" start="259.900" end="x">Ja. Wer hat Sie dazu gezwungen?</u>
+                    <u who="#zurilisS" start="262.034" end="x">Nun, das waren die Vorschriften von dem, äh, Ministerium.</u>
+                    <u who="#boderD" start="265.702" end="x">Waren da auch lettische Kommunisten in dem . . . ?</u>
+                    <u who="#zurilisS" start="268.203" end="x">Ja, ja, da waren auch lettische Kommunisten. Lettische Kommunisten und, äh, meistens war‘s alles aus Moskau, die, äh, Vorschriften waren von Moskau.</u>
+                    <u who="#boderD" start="277.341" end="x">Ja?</u>
+                    <u who="#zurilisS" start="277.792" end="x">Und alle lettischen Kommunisten müssten sich unterwerfen, dem. So war‘s. Nur dann, äh, nachdem, äh, ja, wir müssten auch das Programm ganz ändern, es waren ander . . . gleich andere Schulbücher, in der Schule müssten wir ihnen alles zeigen und, äh, [unverständlich] und alle die, die großen Porträts müssen wir aufhängen und, äh, alles mit rot. Und wir dürften nicht, äh, das Fach Lettisch, das Wort Latvia, das Wort und unsere Hymne, das dürften wir nicht, äh, singen. Und überhaupt dürften wir nicht auch von unseren Fahnen sprechen, die Fahne wurd‘ abgenommen und wir dürften nicht, äh, von solchen Sachen nicht, sogar in der Schule nicht reden, auch unter den anderen nicht reden. Ja.</u>
+                    <u who="#boderD" start="322.258" end="x">Und weiter?</u>
+                    <p>[unverständlich / Rauschen] </p>
+                    <u who="#zurilisS" start="327.158" end="x">Nachher hat die [unverständlich] viel gehört, Menschen sollen verhaftet werden und [unverständlich].</u>
+                    <p>[unverständlich / Rauschen]</p>
+                    <u who="#boderD" start="344.266" end="x">Und nun, was ist Ihnen . . . </u>
+                    <u who="#zurilisS" start="345.108" end="x">Nun, mir, mir, ja, ja. Äh, nu, ich muss sagen persönlich hat‘s mir noch nichts passiert. Ich hatte es in der Schule ganz still und, äh, einsam, ich verkehrte auch nicht mit anderen und ich weiß ja nun, zur Zeit der Bolschewiken dürften wir ja nichts besonderes, äh, sprechen, denn überall waren Spione. Und würd man etwas gegen die Bolschewiken sagen, so wird man gleich in der [unverständlich] verhaftet und dann verschwindet man ohne eine Spur. Viele von Bekannten verschwanden schon so, mh, und, äh, äh, nach, die Angehörigen gingen nachfragen, aber bekamen keine Antwort. Nachher hat man nur erfahren, sind nach Moskau verschickt worden und von Moskau immer weiter nach Sibirien. Nu, und, äh, aber man lebte immer unter einem Außendruck. Es war, äh, immer eine schreckliche Angst. In der Nacht hörte man, ähm, die Glocke an der, äh, an der Tür klingeln, so erschrak man schon und man dachte man fährt schon nach [unverständlich] und wird man schon verhaftet. Nu, mein Mann, der war ein, äh, Künstler, mh, er hatte auch hier, bei den Bolschewiken hat er auch keine politische, äh, Sachen zu tun und so hat, war es mit uns nichts passiert.</u>
+                    <u who="#boderD" start="423.967" end="x">War Ihr Mann ein Maler?</u>
+                    <u who="#zurilisS" start="425.296" end="x">Ja, Kunstmaler.</u>
+                    <u who="#boderD" start="426.925" end="x">Ja, nun?</u>
+                    <u who="#zurilisS" start="427.767" end="x">Nu, und, äh, und also den 17. Juni, äh, dann, ähm, erfuhren wir, dass viele Menschen verhaftet, und wir wissen ja nicht aus welchen Gründen, das wurde ja auch nicht gesagt, und viele wurden verhaftet und verschleppt, nach Sibirien. Nun, und ich fuhr mit den Kindern gleich nach den Ferie . . . , es kamen Ferien, mit den Kindern nach, äh, an Strande hin, und äh, dann . . . </u>
+                    <u who="#boderD" start="454.502" end="x">Ich verstehe. Wieviel Kinder hatten Sie?</u>
+                    <u who="#zurilisS" start="456.156" end="x">Ich hatte drei Kinder.</u>
+                    <u who="#boderD" start="457.665" end="x">Und, äh, wo fuhren Sie dann mit Ihren . . . </u>
+                    <u who="#zurilisS" start="460.070" end="x">Nach am Strande zu meiner Villa, ich hatte eine Villa . . . </u>
+                    <p>[unverständlich von beiden]</p>
+                    <u who="#boderD" start="465.577" end="x">Nun?</u>
+                    <u who="#zurilisS" start="466.148" end="x">Nun, dann, äh, dann, ähm, dann hab ich auch gehört, äh, dass, dass kommen bald die Deutschen und die Russen ziehen schon heraus aus Riga. Und den 21. kamen auch die Deutschen . . . </u>
+                    <u who="#boderD" start="479.465" end="x">Einundzwanzigsten was?</u>
+                    <u who="#zurilisS" start="480.283" end="x"> . . . 21. Juli kamen, äh, 21. Juni, Verzeihung, 21. Juni h . . . , hört man schon die Deutschen kommen her. Und am 1. Juli kamen die am Strand entlang schon herein, und wir waren wirklich froh, dass wir von den Russen befreit sind. Nu, und, äh, ein, eine Zeit waren wir ganz, äh, froh, aber nach zwei Monaten haben wir schon verstanden, dass die Deutschen ebenso uns bedrücken wollen wie die Russen. Nu und dann, aber in der Schule haben wir noch keine besondere Spur davon gemerkt . . . </u>
+                    <u who="#boderD" start="517.930" end="x">Ja, wieder alle, die . . . </u>
+                    <u who="#zurilisS" start="519.824" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="520.155" end="x"> . . . die, die Verletzten wurden rausgelassen . . . </u>
+                    <p>[unverständlich von beiden]</p>
+                    <u who="#zurilisS" start="522.536" end="x">[unverständlich . . . ] wir bekamen andere Bücher, wir wussten‘s ja auswendig, was wir hatten zur Zeit Ulmans, aber es wurden ganz neue gedruckt. Aber die waren nicht so, so, so parteiisch wie bei den Kommunisten. [längere Passage unverständlich] haben wir gemerkt auf jeden Schritt und Tritt, dass wir von den Deutschen als ein, ein, ein, äh, als Menschen von zweitem Rang betrachtet werden. Und [einige Worte unverständlich] frei hatten, konnten wir auch nicht [unverständlich]. Und dann, äh, nachher, wurde in die Zeugnisse mal geschrieben, dass die, äh, die, die Letten, dass das ist ein, äh, Volk , welches, äh, hier in Lettland nicht bleiben wird, außer vielleicht, äh, übergesiedelt irgendwo nach Russland [unverständlich]. Also, von Deutschen haben wir auch nichts Besonderes gehabt. Aber die große, [unverständlich] Angst, die hatten wir nicht. Denn, äh, die Verhaftung war ja [unverständlich], das war nicht so groß wie von den Bolschewiken.</u>
+                    <u who="#boderD" start="597.132" end="x">Das waren weniger.</u>
+                    <u who="#zurilisS" start="598.274" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="599.116" end="x">Nun, und wie haben sich die Deutschen gegen die Juden benommen?</u>
+                    <u who="#zurilisS" start="602.162" end="x">Ja, also, mit den Juden, das war so eine Art [unverständlich]. Die Juden waren gleich in, äh, in, in, in, wie heißt das gleich . . . ?</u>
+                    <u who="#boderD" start="610.669" end="x">In Ghettos?</u>
+                    <u who="#zurilisS" start="611.240" end="x">Ja, in Ghetto wurden die Juden gleich ge . . . , ähm, getrieben, und dann hörten wir, nachher hörten wir, sie wurden herausgeführt von Ghetto und erschossen. Gewiss, es wurde ja weniges in den Zeitungen geschrieben, es war ja alles [unverständlich], aber die Russen haben es versprochen, [Rest des Satzes unverständlich]. Ebenso wie die Russen, ähm, [unverständlich] die Letten und Andere geschossen haben, so haben die Deutschen die . . . </u>
+                    <u who="#boderD" start="639.563" end="x">Ja, und was haben die Deutschen mit den russischen Übrigen gemacht, die dort geblieben sind?</u>
+                    <u who="#zurilisS" start="643.802" end="x">Also die russischen, ähm, die russischen, die Kommunisten?</u>
+                    <u who="#boderD" start="647.776" end="x">Ja, oder haben sie die russischen Soldaten getötet?</u>
+                    <u who="#zurilisS" start="649.946" end="x">Ach so. Nein, ähm, Soldaten, das weiß ich nicht. Aber die Kommunisten, die wurden verhaftet. Ja.</u>
+                    <u who="#boderD" start="655.958" end="x">Nun? Und wie ist es dann mit Ihnen gegangen und was hat dann nachher passiert?</u>
+                    <u who="#zurilisS" start="660.588" end="x">Nu, und dann, dann kam die Front immer näher, und dann haben die, die Deutschen gesagt, man wird müssen das Land verlassen, Riga.</u>
+                    <u who="#boderD" start="671.055" end="x">Wer musste verlassen Riga?</u>
+                    <u who="#zurilisS" start="672.113" end="x">Die, das Bevölkerung musste Riga verlassen. Wer von Riga nicht herausgehen will, der verzichtet auf die Lebensmittelpunkte [unverständlich] und auf die [unverständlich] Material, und, ähm, die sonst, äh, kommt her und man muss raus.</u>
+                    <u who="#boderD" start="688.165" end="x">Ja?</u>
+                    <u who="#zurilisS" start="689.247" end="x">Und dann wurden die Menschen schon [unverständlich] mit, äh, mit, äh, mit [unverständlich] . . . </u>
+                    <u who="#boderD" start="695.199" end="x">[unverständlich]</u>
+                    <u who="#zurilisS" start="696.066" end="x">Ach so. Nu, mir [unverständlich] ich musste nicht heraus, ich konnte bleiben. Und ich zögerte nicht, und ich zögerte nicht, weil der Feind, der kam näher und Riga wurde schon bedroht, [unverständlich] und auch von, von der Luft, ähm, kamen die Bomben, und, äh, und so mussten wir doch heraus [einige Worte unverständlich]. Und besonders für meinen [unverständlich], da waren die Bomben nun sehr [unverständlich].</u>
+                    <u who="#boderD" start="726.079" end="x">Wo wohnten Sie da . . . </u>
+                    <u who="#zurilisS" start="727.342" end="x">Wir wohnten in, äh, Bunker über die Nacht.</u>
+                    <u who="#boderD" start="730.264" end="x">[unverständlich]</u>
+                    <u who="#zurilisS" start="730.871" end="x">Ja. [unverständlich] an der ersten [unverständlich]. Und nu [unverständlich] in der Zeitung stand, äh, wieder etwas und, [unverständlich] über den, äh, den Fluss da drüber, und es wurde in der Zeitung [unverständlich] . . . </u>
+                    <p>[Rauschen; einige Sätze unverständlich]</p>
+                    <u who="#zurilisS" start="744.975" end="x"> . . . und [unverständlich] weiter zum Hafen, und von dort im Hafen gleich in den Zug, und vom Zug dann raus in Dachau.</u>
+                    <u who="#boderD" start="765.749" end="x">In Dachau?</u>
+                    <u who="#zurilisS" start="766.386" end="x">Ja, in Dachau.</u>
+                    <u who="#boderD" start="767.078" end="x">[unverständlich]. Was für ein Schiff war das?</u>
+                    <u who="#zurilisS" start="769.339" end="x">Das war ein Schiff Donau.</u>
+                    <u who="#boderD" start="771.329" end="x">Donau?</u>
+                    <u who="#zurilisS" start="772.117" end="x">Donau, ja.</u>
+                    <u who="#boderD" start="773.055" end="x">Okay, war es ein russisches Schiff?</u>
+                    <u who="#zurilisS" start="774.504" end="x">Nein, das war ein deutsches Schiff . . . </u>
+                    <p>[unverständlich durcheinander gesprochen von beiden]</p>
+                    <u who="#zurilisS" start="779.139" end="x"> . . . mit den Booten würden wir gleich alle [einige Worte unverständlich], wir würden alle, äh, nach Dachau gebracht.</u>
+                    <u who="#boderD" start="786.835" end="x">Also, waren Sie [unverständlich]?</u>
+                    <u who="#zurilisS" start="788.735" end="x">Ja.</u>
+                    <u who="#boderD" start="789.222" end="x">Also, Sie persönlich dürften [unverständlich] . . . </u>
+                    <u who="#zurilisS" start="791.843" end="x">Ja.</u>
+                    <u who="#boderD" start="792.647" end="x">. . . erzählen Sie mir die einzelnen Etappen, was haben Sie getan? Haben Sie noch Ihren Mann mitgenommen?</u>
+                    <u who="#zurilisS" start="796.172" end="x">Nein, mein Mann ist [unverständlich] im Jahre ´42.</u>
+                    <u who="#boderD" start="800.026" end="x">Er ist [unverständlich] nicht da unter den Leichen?</u>
+                    <u who="#zurilisS" start="801.836" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="802.684" end="x">Aha. Und Sie haben die drei Kinder mitgenommen?</u>
+                    <u who="#zurilisS" start="804.313" end="x">Nein, ich bin nur die einzige [unverständlich], da rausgekommen ist [unverständlich].</u>
+                    <p>[unverständlich von beiden; Rauschen]</p>
+                    <u who="#boderD" start="816.404" end="x">Und, äh, [unverständlich] Kinder [unverständlich]?</u>
+                    <u who="#zurilisS" start="818.454" end="x">Nur das eine. Das andere ist erst [unverständlich] '44, im Jahre '44 am, äh, ersten August, ja, ersten August '44 [unverständlich].</u>
+                    <u who="#boderD" start="829.546" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="830.779" end="x">Der andere ist nur [unverständlich].</u>
+                    <u who="#boderD" start="836.370" end="x">Sagen Sie mir nun, hat er [unverständlich]?</u>
+                    <u who="#zurilisS" start="840.501" end="x">Nein, [unverständlich] absolut den Deutschen [unverständlich].</u>
+                    <p>[unverständlich durcheinander gesprochen von beiden]</p>
+                    <u who="#zurilisS" start="842.772" end="x"> . . . den, den Deutschen zusammen wurd’ . . . , haben keine Armee, aber es waren [unverständlich] Menschen. So [unverständlich] der Sohn einberufen und, und, äh, alle mussten aufgeschrieben werden, so dass sie nicht [unverständlich] werden.</u>
+                    <u who="#boderD" start="860.738" end="x">Ja. Nun sagen Sie mal, also Sie haben [unverständlich] ein Kind. Ein Junge oder ein Mädchen?</u>
+                    <u who="#zurilisS" start="864.982" end="x">Einen Jungen.</u>
+                    <u who="#boderD" start="865.974" end="x">Ja, und weiter?</u>
+                    <u who="#zurilisS" start="867.117" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="868.295" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="870.941" end="x">Ja.</u>
+                    <u who="#boderD" start="871.729" end="x">Allein, mit Kleinkind?</u>
+                    <u who="#zurilisS" start="872.967" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="874.711" end="x">[unverständlich] man hat Sie abgeholt?</u>
+                    <u who="#zurilisS" start="875.949" end="x">Nein [unverständlich / von beiden durcheinander gesprochen]. [unverständlich] alle müssten evakuiert werden, sonst werden sie kein Lebens [unverständlich].</u>
+                    <u who="#boderD" start="884.186" end="x">Und andere Sachen haben Sie nicht?</u>
+                    <u who="#zurilisS" start="885.869" end="x">Nu, Sachen habe ich nur so etwas Seife mitgenommen. [unverständlich] zu entscheiden was soll ich mitnehmen, und, äh [unverständlich].</u>
+                    <u who="#boderD" start="894.406" end="x">Und Ihre Kinder [unverständlich]?</u>
+                    <u who="#zurilisS" start="895.909" end="x">Alles, alles ist da geblieben. Ich konnte nur die Sachen nehmen, die ich zur [unverständlich] habe. Und [unverständlich], also ich hab verlernt, ich war ganz, äh, ganz zerschmettert, ich war [unverständlich], ich wusste nicht, was ich tun soll, was soll ich tun, [ganzer Satz unverständlich], das hab ich getan.</u>
+                    <u who="#boderD" start="920.695" end="x">Und Sie kamen nach [unverständlich]?</u>
+                    <u who="#zurilisS" start="922.559" end="x">Das [unverständlich] gesagt. Ach so, von Riga aus wurden wir, ja, wir dachten dann so: zuerst wurde besprochen, nach [unverständlich] soll man sich verbergen, und dann, äh, [unverständlich] eine große Front [unverständlich] nach Finnland. Und wir dachten, der Zug wird uns nach Finnland bringen. Aber es geht weiter, es blieb nicht stehen in [unverständlich], wo wir dachten, aber es geht so weiter, und dann bis [unverständlich]Hafen, und dann sahen wir, dass wir da [unverständlich].</u>
+                    <u who="#boderD" start="955.631" end="x">Also, wie viel sind . . . wie viel ist auf dem Schiff gefahren, wie viel Leut sind mit . . . </u>
+                    <u who="#zurilisS" start="959.605" end="x">Nu, wir waren 4000 Men . . . , 4000 Menschen. Da waren [unverständlich] und Menschen, alles zusammen.</u>
+                    <u who="#boderD" start="965.743" end="x">Nun, und wie groß war das Boot?</u>
+                    <u who="#zurilisS" start="967.727" end="x">Oh, ich weiß nicht wie groß, wir waren aber sehr viele, 4000 Menschen.</u>
+                    <u who="#boderD" start="972.146" end="x">Haben Sie Betten zum Schlafen gehabt?</u>
+                    <u who="#zurilisS" start="973.499" end="x">Nein, keine Betten, wir waren alle so in einem Haufen, der halt zusammen war. [unverständlich] wir müssen jetzt alle beide mit meinem Sohn übernachten. [unverständlich] über fünfzig Menschen und [unverständlich].</u>
+                    <u who="#boderD" start="992.328" end="x">Und Ihr Mann hat [unverständlich]?</u>
+                    <u who="#zurilisS" start="993.741" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="997.709" end="x">Nun, und dann [unverständlich]?</u>
+                    <u who="#zurilisS" start="1001.256" end="x">Ja, ja. Und dann . . . </u>
+                    <u who="#boderD" start="1002.098" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1003.487" end="x">Nu, ich weiß nicht, wir waren so zwanzig, vierzig [einige Worte unverständlich].</u>
+                    <u who="#boderD" start="1012.301" end="x">Und?</u>
+                    <u who="#zurilisS" start="1013.269" end="x">Und dann . . . </u>
+                    <u who="#boderD" start="1014.267" end="x">Kamen Sie nach Dachau?</u>
+                    <u who="#zurilisS" start="1015.175" end="x">Ja, das [unverständlich], kamen nach Dachau.</u>
+                    <u who="#boderD" start="1017.977" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="1019.636" end="x">Nun, Dachau, das war ein Durchgangslager. [unverständlich] war ein Durchgangslager, und in dem Durchgangslager waren wir fünf Wochen. Das Essen da, war nun gar nicht schlecht. Gab es eine wenige Butter, und, äh, äh, [unverständlich] und so Paste und, ja Paste, und, äh, äh, Brot. [unverständlich] zum Abendbrot und zum Frühstück.</u>
+                    <u who="#boderD" start="1047.345" end="x">Und wie haben Sie mit dem Wasser [unverständlich]?</u>
+                    <u who="#zurilisS" start="1051.163" end="x">[unverständlich] zuerst werden in Dachau [einige Sätze unverständlich] . . . </u>
+                    <u who="#boderD" start="1065.357" end="x">Ja.</u>
+                    <u who="#zurilisS" start="1065.688" end="x"> . . . [unverständlich].</u>
+                    <u who="#boderD" start="1067.792" end="x">Ja.</u>
+                    <u who="#zurilisS" start="1068.183" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1069.055" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="1070.384" end="x">Und dann wird von [unverständlich].</u>
+                    <u who="#boderD" start="1072.945" end="x">Nur bis [unverständlich]?</u>
+                    <u who="#zurilisS" start="1074.298" end="x">Ja, von . . . </u>
+                    <u who="#boderD" start="1075.416" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1076.679" end="x">[unverständlich]. Nu, dann hatten wir da, äh, die, die Terrassen, und zwischen einer Terrasse werden [unverständlich], und es war auch [unverständlich], und es war alles [unverständlich], und da mussten wir auf einer Pritsche schlafen, auf, äh, zwei Plätzen mussten drei Menschen schlafen.</u>
+                    <u who="#boderD" start="1099.651" end="x">Aha.</u>
+                    <u who="#zurilisS" start="1100.318" end="x">Und [unverständlich]. Nun . . . </u>
+                    <u who="#boderD" start="1102.032" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="1103.631" end="x">Ähm, dann noch nicht, dann noch nicht. Aber man hat uns ver, äh, verkauft.</u>
+                    <u who="#boderD" start="1109.283" end="x">Ja?</u>
+                    <u who="#zurilisS" start="1109.740" end="x">[unverständlich] eine ganz große, ähm, Zeit man sah uns [unverständlich]. [unverständlich] und dann wurden wir mit den [unverständlich] und manchen anderen Kollegen nach Rosenheim geschickt, zu der, ähm, zu dem Arbeitsamt.</u>
+                    <p>[unverständlich von beiden durcheinander gesprochen]</p>
+                    <u who="#boderD" start="1124.475" end="x">[unverständlich] geschlagen?</u>
+                    <u who="#zurilisS" start="1131.660" end="x">Nein, geschlagen nicht. Geschlagen nicht, aber sehr kalt.</u>
+                    <p>[unverständlich von beiden durcheinander gesprochen]</p>
+                    <u who="#zurilisS" start="1144.895" end="x">Ja.</u>
+                    <u who="#boderD" start="1145.363" end="x">Ja. Und von Dachau nach Rosenheim?</u>
+                    <u who="#zurilisS" start="1147.448" end="x">Nach Rosenheim, und von Rosenheim aus wurden wir in dem Arbeitsamt zur Arbeit bestimmt. Und [unverständlich] geschickt, und dann zu dem [unverständlich] arbeiten in der Holzschuhfabrik dort, für, äh, fünf Stunden.</u>
+                    <u who="#boderD" start="1159.809" end="x">Ja. Hat man was bezahlt?</u>
+                    <u who="#zurilisS" start="1161.108" end="x">Wir hatten da 68, äh, Pfennige pro Stunde bekommen.</u>
+                    <u who="#boderD" start="1165.022" end="x">Und haben wie lange . . . </u>
+                    <u who="#zurilisS" start="1166.140" end="x">Und dann hab ich auch gearbeitet, in eine, äh, Bekleidungshaus, in einem, in einer [unverständlich], und da bekam ich auch 68 Pfennige pro Stunde. Und dann [unverständlich], dann hat mir gesagt das ist zuviel, ich kann soviel nicht arbeiten, wenn [unverständlich]. [Satz unverständlich], aber dann brachten sie mir [unverständlich], und, äh, da musst ich dann fünf Stunden arbeiten.</u>
+                    <u who="#boderD" start="1203.789" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1204.216" end="x">Fünf Stunden. Fünf Stunden. [mehrere Sätze unverständlich].</u>
+                    <u who="#boderD" start="1216.667" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1217.425" end="x">Aber, äh, ähm, aber [unverständlich], wenn wir nicht arbeiten würden, bekommen wir keine Karten. Und dann müssten wir [unverständlich] unser Arbeitsamt melden, aber [unverständlich]. [Satz unverständlich].</u>
+                    <u who="#boderD" start="1233.363" end="x">Aha. Und, äh, Sie, Sie waren in der [unverständlich], nicht wahr?</u>
+                    <u who="#zurilisS" start="1238.239" end="x">Ja, [unverständlich].</u>
+                    <u who="#boderD" start="1239.748" end="x">Und wie leben Sie in dem Lager?</u>
+                    <u who="#zurilisS" start="1241.461" end="x">Wohne hier im Lager Lohengrin sehr gut.</u>
+                    <u who="#boderD" start="1244.437" end="x">Äh, wie ist die angelegt, wie, äh, wie viel Leute leben hier [unverständlich]?</u>
+                    <u who="#zurilisS" start="1247.924" end="x">Wir sind in einem Zimmer vier Menschen. Ich mit meinem Sohn, dann noch eine [unverständlich] und eine meiner früheren Schülerinnen. Wir sind vier Menschen.</u>
+                    <u who="#boderD" start="1254.477" end="x">Ja, also ging‘s Ihnen [unverständlich]?</u>
+                    <u who="#zurilisS" start="1255.920" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1257.273" end="x">Ja. Und [unverständlich]?</u>
+                    <u who="#zurilisS" start="1258.989" end="x">[unverständlich] so ein bisschen, ja.</u>
+                    <u who="#boderD" start="1260.510" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1264.439" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1266.543" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1267.626" end="x">Ja.</u>
+                    <u who="#boderD" start="1268.474" end="x">Nun, und, äh, was hatten Sie, wo hatten Sie [unverständlich]?</u>
+                    <u who="#zurilisS" start="1273.199" end="x">Ich weiß nicht. [unverständlich].</u>
+                    <u who="#boderD" start="1278.731" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="1279.549" end="x">Ich weiß nicht, was [unverständlich].</u>
+                    <u who="#boderD" start="1283.433" end="x">Äh, sagen Sie, können Sie [unverständlich]?</u>
+                    <u who="#zurilisS" start="1288.519" end="x">Der Winter, der Winter, nein, der Winter wird [unverständlich].</u>
+                    <u who="#boderD" start="1293.449" end="x">Lettischen Gymnasium?</u>
+                    <u who="#zurilisS" start="1294.110" end="x">Lettischen Gymnasium, ja.</u>
+                    <u who="#boderD" start="1295.132" end="x">Und, äh, hatten das nur [unverständlich]?</u>
+                    <u who="#zurilisS" start="1297.567" end="x">Nun, [einige Sätze unverständlich].</u>
+                    <u who="#boderD" start="1306.946" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1307.656" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1308.528" end="x">[unverständlich].</u>
+                    <u who="#zurilisS" start="1309.701" end="x">Ähm, nach wessen [unverständlich], aber nicht mit der Schule.</u>
+                    <u who="#boderD" start="1313.434" end="x">Und dann, was ist dann, äh, weiter geschehen, was [unverständlich]?</u>
+                    <u who="#zurilisS" start="1317.072" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1317.920" end="x">[unverständlich]?</u>
+                    <u who="#zurilisS" start="1319.339" end="x">[unverständlich].</u>
+                    <u who="#boderD" start="1323.133" end="x">[unverständlich].</u>
+                    <p>[10 Sekunden Stille]</p>
+                    <u who="#boderD" start="1337.538" end="x"> . . . [unverständlich] . . . </u>
+                    <p>[2 Sekunden Stille]</p>
+                    <u who="#zurilisS" start="1366.498" end="x">[unverständlich]. Wir haben dann versucht [unverständlich], aber der Nachbar, ein Ost-[unverständlich], unser Nachbar, [unverständlich], die wollen uns bedrücken, und haben uns immer bedrückt, ähm, über hunderte Jahre, äh, in der Zelle, haben sie uns bedrückt [unverständlich].</u>
+                    <u who="#boderD" start="1395.415" end="x">[einige Sätze unverständlich].</u>
+                </div>
+                <!-- end Spool 9-141B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#zurilisS_en">
+                <!-- begin Spool 9-141B -->
+                <div lang="en">
+                    <p>[Translator's Note: The audio quality of the recording is very poor. Towards the end of the interview, the interview is nearly incomprehensible.]</p>
+                    <u who="#boderD" start="0.273" end="x">[In English] This is spool 9-141B. Mrs. Sophia, she at the beginning refused to give her name and wanted to go under only under the name Sophia. But it seems that we later got her name as Sophia Zurilis, or Z-U-R-I-L-I-S. November the 7th, 1950. Boder. One should check up, maybe Zurilis is another person. But for the time being, we are packing away the spool.</u>
+                    <u who="#boderD" start="55.477" end="x">Eh, <placeName ref="München">München</placeName>, September the 21st, 1946, at Camp Lohengrin, a displaced persons' camp for Baltics, Latvian, Lithuanian, and Estonian. I'm interviewing here, a, eh, teacher, eh, whose first name is Sophia. And, eh, that is all of the name that we will have in this report. Eh, eh, we will have the interview in German.</u>
+                    <u who="#boderD" start="85.692" end="x">[In German] Well, tell me, eh, madam, eh, where were you when the . . . Eh, what nationality are you?</u>
+                    <u who="#zurilisS" start="96.492" end="x">Latvian.</u>
+                    <u who="#boderD" start="97.132" end="x">And from where?</u>
+                    <u who="#zurilisS" start="98.163" end="x">I am Latvian.</u>
+                    <u who="#boderD" start="99.377" end="x">You are Latvian, [unintelligible].</u>
+                    <u who="#zurilisS" start="100.715" end="x">Yes, absolutely.</u>
+                    <p>[unintelligible by both]</p>
+                    <u who="#zurilisS" start="103.903" end="x">Latvian.</u>
+                    <u who="#boderD" start="104.510" end="x">You are Latvian.</u>
+                    <u who="#zurilisS" start="105.666" end="x">Yes.</u>
+                    <u who="#boderD" start="106.306" end="x">And, eh, tell me, where did you live when the Russians came back to Latvia?</u>
+                    <u who="#zurilisS" start="114.041" end="x">They came back in the year 1940.</u>
+                    <u who="#boderD" start="115.740" end="x">Yes.</u>
+                    <u who="#zurilisS" start="116.350" end="x">I was in <placeName ref="Rīga">Riga</placeName>.</u>
+                    <u who="#boderD" start="117.930" end="x">Aha.</u>
+                    <u who="#zurilisS" start="118.567" end="x">Yes.</u>
+                    <u who="#boderD" start="118.901" end="x">And what did you do there?</u>
+                    <u who="#zurilisS" start="120.084" end="x">At a school for girls.</u>
+                    <u who="#boderD" start="120.873" end="x">When? Well, do you want to tell me what happened, from the year 1940 when the Russians came to Latvia and onwards, of the Russian occupation, the German occupation, how you came here to, eh, <placeName ref="München">Munich</placeName>?</u>
+                    <u who="#zurilisS" start="136.073" end="x">Yes.</u>
+                    <u who="#boderD" start="136.589" end="x">Well, proceed slowly; you don't need to [unintelligible].</u>
+                    <u who="#zurilisS" start="139.079" end="x">Yes. [unintelligible] June 17th the Bolsheviks came into the country. At first they appeared very inoffensive and promised us not to bring about any changes to our political system. Only the government had to be changed, and then only a different administration needed to come, and all else remains unchanged. But after a short period, maybe one, two weeks, after all we recognized they were lying. There were changes instantly. People were, eh, instantly "adopted"<note n="1">Zurilis probably means "deported" here.</note> and the, our "Eiszwerge"<note n="2">The word she uses sounds like the German "Eiszwerg," meaning "ice dwarf," the meaning of which is unclear. Possibly, the name of this organization is a similar sounding Latvian name.</note>, which are an organization of the, eh, of the, eh, Farmers and, eh, those of the farmers, they, eh, were, they were armed and all, and they were also instantly disestablished. All were disarmed.</u>
+                    <u who="#boderD" start="195.510" end="x">Why did the farmers get armed? Were the farmers armed?</u>
+                    <u who="#zurilisS" start="198.119" end="x">Well, that's some kind of a, hm, a land . . . , eh, a lan . . . , a land . . . , a "Landwehr" . . . <note n="3">A "Landwehr" roughly equals a militia.</note></u>
+                    <u who="#boderD" start="204.280" end="x">Yes.</u>
+                    <u who="#zurilisS" start="204.526" end="x"> . . . that we have.</u>
+                    <u who="#boderD" start="205.712" end="x">Yes?</u>
+                    <u who="#zurilisS" start="205.955" end="x">A, a civilian organization, probably . . . </u>
+                    <u who="#boderD" start="208.172" end="x">Yes.</u>
+                    <u who="#zurilisS" start="208.324" end="x"> . . . you could say.</u>
+                    <u who="#boderD" start="209.446" end="x">Yes. And what happened to Ulman, the President?<note n="4">Karlis Ulmanis is referenced here.</note></u>
+                    <u who="#zurilisS" start="212.419" end="x">Well, Ulman was instantly interned in his Palace.</u>
+                    <u who="#boderD" start="216.514" end="x">Yes?</u>
+                    <u who="#zurilisS" start="217.212" end="x">And, after that, he was. . .</u>
+                    <u who="#boderD" start="223.312" end="x">Transported?</u>
+                    <u who="#zurilisS" start="224.070" end="x"> . . . yes, transported to <placeName ref="Moskva">Moscow</placeName>, as a, eh, eh, a arrested person.</u>
+                    <u who="#boderD" start="227.589" end="x">Yes.</u>
+                    <u who="#zurilisS" start="227.953" end="x">Yes.</u>
+                    <u who="#boderD" start="228.196" end="x">Well?</u>
+                    <u who="#zurilisS" start="228.806" end="x">Well, and then, eh, and then immediately it was noticeable in school. We had to adopt the communist doctrine and to [unintelligible] all of the communist, eh, views to the children. And also, we have to, which [unintelligible], we could no longer, eh, eh, teach, eh, religion and we should, we should merely, whenever possible, direct against something.</u>
+                    <u who="#boderD" start="259.900" end="x">Yes. Who forced you to do that?</u>
+                    <u who="#zurilisS" start="262.034" end="x">Well, that were the instructions from the, eh, administration.</u>
+                    <u who="#boderD" start="265.702" end="x">Were there any Latvian communists in the. . .?</u>
+                    <u who="#zurilisS" start="268.203" end="x">Yes, yes, there were Latvian communists. Latvian communists and, eh, mostly all came from <placeName ref="Moskva">Moscow</placeName>, the, eh, instructions were from <placeName ref="Moskva">Moscow</placeName>.</u>
+                    <u who="#boderD" start="277.341" end="x">Yes?</u>
+                    <u who="#zurilisS" start="277.792" end="x">And all Latvian communists had to subject to that. That's how it was like. Only then, eh, after, eh, yes, we had to change the syllabus completely, there were differe . . ., different school books immediately, in school we had to show them all and, eh [unintelligible] and we had to hang up all the, the big portraits and, eh, all in red. And we were not allowed, eh, the subject Latvian, the word Latvia and our anthem, we were not allowed to sing that. And generally we were not allowed to speak of our flags, the flag was taken down and we were not allowed, eh, to talk of such things, not even in school, neither amongst the others.</u>
+                    <u who="#boderD" start="322.258" end="x">And then?</u>
+                    <p>[unintelligible / static]</p>
+                    <u who="#zurilisS" start="327.158" end="x">After that the [unintelligible] heard a lot, people were to be arrested and [unintelligible].</u>
+                    <p>[unintelligible / static]</p>
+                    <u who="#boderD" start="344.266" end="x">And well, what is with you?</u>
+                    <u who="#zurilisS" start="345.108" end="x">Well, me, me, yes, yes. Eh, well, I have to say nothing had yet happened to me personally. For me it was very calm at school and, eh, lonely, I also didn't socialize with others and I now know that at the time of the Bolsheviks we were not permitted to speak anything special, because there were spies everywhere. And if you say anything against the Bolsheviks, you are instantly arrested at the [unintelligible] and then disappear without a trace. Many of my friends had disappeared like that, uh, and, eh, eh, after, the relatives went inquiring, but received no answer. Afterwards you only learned that they were sent to <placeName ref="Moskva">Moscow</placeName> and from <placeName ref="Moskva">Moscow</placeName> on and on towards Siberia. Well, and, eh, you constantly lived under pressure from the outside. There was always, eh, a terrible fear. At night you heard, eh, the bell ring at the, eh, door, you got scared and thought you went to [unintelligible name of place] and get arrested. Well, my husband, he was a, eh, artist, uh, he didn't have anything to do politically, eh, with the Bolsheviks and such, so it was that nothing happened to us.</u>
+                    <u who="#boderD" start="423.967" end="x">Was your husband a painter?</u>
+                    <u who="#zurilisS" start="425.296" end="x">Yes, artist.</u>
+                    <u who="#boderD" start="426.925" end="x">Yes, well?</u>
+                    <u who="#zurilisS" start="427.767" end="x">Well, and, eh, and so June 17th then, eh, we learnt that many people got arrested, and we don't know for which reasons, that wasn't told to us, and many got arrested and deported, to Siberia. Well, and I went to, eh, the beach with the children right after the holid . . ., the holidays came, and, eh, then . . .</u>
+                    <u who="#boderD" start="454.502" end="x">I understand. How many children did you have?</u>
+                    <u who="#zurilisS" start="456.156" end="x">I had three children.</u>
+                    <u who="#boderD" start="457.665" end="x">And, eh, where did you go with your . . .</u>
+                    <u who="#zurilisS" start="460.070" end="x">To the beach, to my villa, I had a villa . . .</u>
+                    <p>[unintelligible by both]</p>
+                    <u who="#boderD" start="465.577" end="x">Well?</u>
+                    <u who="#zurilisS" start="466.148" end="x">Well, then, eh, then, eh, then I heard, eh, that, that soon the Germans come and the Russians are already pulling out from <placeName ref="Rīga">Riga</placeName>. And on the 21st, the Germans arrived . . .</u>
+                    <u who="#boderD" start="479.465" end="x">Which 21st?</u>
+                    <u who="#zurilisS" start="480.283" end="x"> . . . July 21st came, eh, June 21st, excuse me, June 21st y— . . ., you hear of the Germans arriving. And on July 1st they came in along the beach and we were really glad to be freed from the Russians. Well, and, eh, for a, for some time we were very, eh, glad, but after two months we understood that the Germans want to suppress us just as the Russians did. Well and then, but in school we did not yet notice any special hint . . .</u>
+                    <u who="#boderD" start="517.930" end="x">Yes, again all, which . . .</u>
+                    <u who="#zurilisS" start="519.824" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="520.155" end="x"> . . . the, the wounded were let go . . .</u>
+                    <p>[unintelligible by both]</p>
+                    <u who="#zurilisS" start="522.536" end="x">[unintelligible] we got different books, we knew by heart what we had during the time of Ulman, but they were completely printed anew. But they were not as, as, as biased as with the communists. [Longer passage unintelligible] we realized on every turn that we were regarded by the Germans as a, a, a, eh, as second rate humans. And [some words unintelligible] were a day off, we also couldn't [unintelligible]. And then, eh, afterwards, it was written down in the testimonies that the, eh, the Latvians, that they are a, eh, people, which, eh, will not remain here in Latvia, except maybe, eh, relocated somewhere to Russia [unintelligible]. So, we did not get anything exceptional from the Germans either. But the massive [unintelligible] fear, we did not have that. Because, eh, the arrest was [unintelligible], that was not as big as that of the Bolsheviks.</u>
+                    <u who="#boderD" start="597.132" end="x">There were fewer . . .</u>
+                    <u who="#zurilisS" start="598.274" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="599.116" end="x">Well, and how did the Germans behave towards the Jews?</u>
+                    <u who="#zurilisS" start="602.162" end="x">Yes, well, with the Jews, that was some kind of [unintelligible]. The Jews were immediately in, eh, in, in, in, how is that called . . .?</u>
+                    <u who="#boderD" start="610.669" end="x">In <term ref="#vothG_ghetto">ghettos</term>?</u>
+                    <u who="#zurilisS" start="611.240" end="x">Yes, the Jews were immediately dr . . ., eh, driven to the <term ref="#vothG_ghetto">ghetto</term>, and then we heard, later we heard they were led out of the <term ref="#vothG_ghetto">ghetto</term>,and shot. Indeed, little was written in the newspapers, it was all [unintelligible], but the Russians had promised it [rest of the sentence unintelligible]. Just like the Russians, eh, [unintelligible] shot the Latvians and others, the Germans did the . . .</u>
+                    <u who="#boderD" start="639.563" end="x">Yes, and what did the Germans do to the remaining Russians, who stayed there?</u>
+                    <u who="#zurilisS" start="643.802" end="x">Well, the Russian, eh, the Russian, the communists?</u>
+                    <u who="#boderD" start="647.776" end="x">Yes, or did they kill the Russian soldiers?</u>
+                    <u who="#zurilisS" start="649.946" end="x">Well. No, eh, soldiers, I don't know that. But the communists, they were arrested. Yes.</u>
+                    <u who="#boderD" start="655.958" end="x">Well, and what did you do, and what happened after that?</u>
+                    <u who="#zurilisS" start="660.588" end="x">Well, and then, then the front steadily closed in and then the, the Germans told us one would have to leave the country, <placeName ref="Rīga">Riga</placeName>.</u>
+                    <u who="#boderD" start="671.055" end="x">Who had to leave <placeName ref="Rīga">Riga</placeName>?</u>
+                    <u who="#zurilisS" start="672.113" end="x">The, the population had to leave <placeName ref="Rīga">Riga</placeName>. Who doesn't want to leave <placeName ref="Rīga">Riga</placeName> goes without food stamps [unintelligible] and without the [unintelligible] material and, eh, the others, eh, comes to you and you must leave.</u>
+                    <u who="#boderD" start="688.165" end="x">Yes?</u>
+                    <u who="#zurilisS" start="689.247" end="x">And then the people were already [unintelligible] with, eh, with, eh, with [unintelligible] . . .</u>
+                    <u who="#boderD" start="695.199" end="x">[unintelligible]</u>
+                    <u who="#zurilisS" start="696.066" end="x">I see. Well, me [unintelligible] I did not have to leave, I could stay. And I did not hesitate, and I did not hesitate, because the enemy, he came closer and <placeName ref="Rīga">Riga</placeName> was already threatened [unintelligible] and also from, from the air, eh, the bombs came and, eh, and so we had to leave after all [some words unintelligible]. And especially for my [unintelligible] the bombs were very [unintelligible].</u>
+                    <u who="#boderD" start="726.079" end="x">Where did you live . . .?</u>
+                    <u who="#zurilisS" start="727.342" end="x">We lived in, eh, bunker overnight.</u>
+                    <u who="#boderD" start="730.264" end="x">[unintelligible]</u>
+                    <u who="#zurilisS" start="730.871" end="x">Yes. [unintelligible] at the first [unintelligible]. And well [unintelligible] there was something in the newspaper again and [unintelligible] across the, eh, the river, and it was [unintelligible] in the newspaper . . .</u>
+                    <p>[static; some sentences unintelligible]</p>
+                    <u who="#zurilisS" start="744.975" end="x"> . . . and [unintelligible] on toward the port, and from the port straight away into the train, and in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> out of the train.</u>
+                    <u who="#boderD" start="765.749" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                    <u who="#zurilisS" start="766.386" end="x">Yes, in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="767.078" end="x">[unintelligible]. What kind of vessel was that?</u>
+                    <u who="#zurilisS" start="769.339" end="x">That was a Danube vessel.</u>
+                    <u who="#boderD" start="771.329" end="x">Danube?</u>
+                    <u who="#zurilisS" start="772.117" end="x">Danube, yes.</u>
+                    <u who="#boderD" start="773.055" end="x">Okay, was it a Russian vessel?</u>
+                    <u who="#zurilisS" start="774.504" end="x">No, that was a German vessel . . .</u>
+                    <p>[unintelligible / both speaking at once]</p>
+                    <u who="#zurilisS" start="779.139" end="x"> . . . with the vessels we would all be [some words unintelligible], we would all, eh, be brought to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="786.835" end="x">So, you were [unintelligible]?</u>
+                    <u who="#zurilisS" start="788.735" end="x">Yes.</u>
+                    <u who="#boderD" start="789.222" end="x">So, you personally might [unintelligible] . . .</u>
+                    <u who="#zurilisS" start="791.843" end="x">Yes.</u>
+                    <u who="#boderD" start="792.647" end="x"> . . . tell me the single stages, what did you do? Did you take your husband along?</u>
+                    <u who="#zurilisS" start="796.172" end="x">No, my husband [unintelligible] in the year 1942.</u>
+                    <u who="#boderD" start="800.026" end="x">He is [unintelligible] not amongst the bodies?</u>
+                    <u who="#zurilisS" start="801.836" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="802.684" end="x">Aha. And you took along the three children?</u>
+                    <u who="#zurilisS" start="804.313" end="x">No, I'm the only one [unintelligible], got out [unintelligible].</u>
+                    <p>[unintelligible by both / static]</p>
+                    <u who="#boderD" start="816.404" end="x">And, eh, [unintelligible] children [unintelligible]?</u>
+                    <u who="#zurilisS" start="818.454" end="x">Only the one. The other [unintelligible] only 1944, in the year 1944 on, eh, August 1st, yes, August 1, 1944 [unintelligible].</u>
+                    <u who="#boderD" start="829.546" end="x">[unintelligible]</u>
+                    <u who="#zurilisS" start="830.779" end="x">The other is only [unintelligible].</u>
+                    <u who="#boderD" start="836.370" end="x">Tell me now, did he [unintelligible]?</u>
+                    <u who="#zurilisS" start="840.501" end="x">No, [unintelligible] absolutely the Germans [unintelligible] . . .</u>
+                    <p>[unintelligible / both speaking at once]</p>
+                    <u who="#zurilisS" start="842.772" end="x"> . . . the, the Germans together were . . ., did not have an army, but they were [unintelligible] people. So [unintelligible] the son drafted and, and, eh, all had to be recorded, so they are not [unintelligible].</u>
+                    <u who="#boderD" start="860.738" end="x">Yes. Now tell me, so you have [unintelligible] a child. A boy or a girl?</u>
+                    <u who="#zurilisS" start="864.982" end="x">A boy.</u>
+                    <u who="#boderD" start="865.974" end="x">Yes, and then?</u>
+                    <u who="#zurilisS" start="867.117" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="868.295" end="x">[unintelligible]?</u>
+                    <u who="#zurilisS" start="870.941" end="x">Yes.</u>
+                    <u who="#boderD" start="871.729" end="x">Alone, with an infant?</u>
+                    <u who="#zurilisS" start="872.967" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="874.711" end="x">[unintelligible] you got picked up?</u>
+                    <u who="#zurilisS" start="875.949" end="x">No [unintelligible / both speaking at once]. [unintelligible] all had to be evacuated, otherwise they would not [unintelligible] life.</u>
+                    <u who="#boderD" start="884.186" end="x">And you don't have any other things?</u>
+                    <u who="#zurilisS" start="885.869" end="x">Well, concerning things, I only took some soap along. [unintelligible] to decide what to take along and, eh, [unintelligible].</u>
+                    <u who="#boderD" start="894.406" end="x">And your children [unintelligible]?</u>
+                    <u who="#zurilisS" start="895.909" end="x">Everything, everything remained there. I could only take the things that I have for [unintelligible]. And [unintelligible], so I forgot, I was absolutely, eh, absolutely shattered, I was [unintelligible], I did not know what to do, what shall I do, [whole sentence unintelligible], that I did.</u>
+                    <u who="#boderD" start="920.695" end="x">And you came to [unintelligible].</u>
+                    <u who="#zurilisS" start="922.559" end="x">That [unintelligible] said. Oh, I see, from <placeName ref="Rīga">Riga</placeName> we were, yes, then we thought like this: at first it was discussed that one should hide to [unintelligible], and then, eh, [unintelligible] a big front [unintelligible] to Finland. And we thought the train will bring us to Finland. But it goes on, it did not halt in [unintelligible], where we thought it would, but it goes on like that, and then to the port in [unintelligible], and then we saw that there we [unintelligible].</u>
+                    <u who="#boderD" start="955.631" end="x">So, how many did . . . how many did take the boat, how many people did . . . </u>
+                    <u who="#zurilisS" start="959.605" end="x">Well, we were 4000 peo . . ., 4000 people. There were [unintelligible] and people, all together.</u>
+                    <u who="#boderD" start="965.743" end="x">Well, how big was the boat?</u>
+                    <u who="#zurilisS" start="967.727" end="x">Oh, I don't know how big, but we were very many, 4000 people.</u>
+                    <u who="#boderD" start="972.146" end="x">Did you have beds to sleep in?</u>
+                    <u who="#zurilisS" start="973.499" end="x">No, no beds, we were all in a bunch that was together. [unintelligible] we must both stay overnight with my son. [unintelligible] more than 50 people and [unintelligible].</u>
+                    <u who="#boderD" start="992.328" end="x">And your husband did [unintelligible]?</u>
+                    <u who="#zurilisS" start="993.741" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="997.709" end="x">Well, and then [unintelligible]?</u>
+                    <u who="#zurilisS" start="1001.256" end="x">Yes, yes. And then . . . </u>
+                    <u who="#boderD" start="1002.098" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1003.487" end="x">Well, I don't know, we were around twenty, forty [some words unintelligible].</u>
+                    <u who="#boderD" start="1012.301" end="x">And?</u>
+                    <u who="#zurilisS" start="1013.269" end="x">And then . . .</u>
+                    <u who="#boderD" start="1014.267" end="x">You came to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                    <u who="#zurilisS" start="1015.175" end="x">Yes, that [unintelligible], came to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="1017.977" end="x">[unintelligible]?</u>
+                    <u who="#zurilisS" start="1019.636" end="x">Well, <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, that was a transit camp. [unintelligible] was a transit camp, and in the transit camp we were for five weeks. The food there was not all that bad. They had a little butter and, eh, eh, [unintelligible] and paste and, yes, paste, and, eh, eh, bread. [unintelligible] for dinner and for breakfast.</u>
+                    <u who="#boderD" start="1047.345" end="x">And how did you [unintelligible] with water?</u>
+                    <u who="#zurilisS" start="1051.163" end="x">[unintelligible] at first in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> [some sentences unintelligible] . . . </u>
+                    <u who="#boderD" start="1065.357" end="x">Yes.</u>
+                    <u who="#zurilisS" start="1065.688" end="x"> . . . [unintelligible].</u>
+                    <u who="#boderD" start="1067.792" end="x">Yes.</u>
+                    <u who="#zurilisS" start="1068.183" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="1069.055" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1070.384" end="x">And then [unintelligible] by [unintelligible].</u>
+                    <u who="#boderD" start="1072.945" end="x">Only until [unintelligible]?</u>
+                    <u who="#zurilisS" start="1074.298" end="x">Yes, from . . .</u>
+                    <u who="#boderD" start="1075.416" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1076.679" end="x">[unintelligible]. Well, then we had the, the terraces there, and in between a terrace [unintelligible], and there was also [unintelligible], and all was [unintelligible], and there we had to sleep on a cot, on, eh, two places three people had to sleep.</u>
+                    <u who="#boderD" start="1099.651" end="x">Aha.</u>
+                    <u who="#zurilisS" start="1100.318" end="x">And [unintelligible]. well . . . </u>
+                    <u who="#boderD" start="1102.032" end="x">[unintelligible]?</u>
+                    <u who="#zurilisS" start="1103.631" end="x">Eh, not yet, not yet. But they betr . . ., eh, betrayed us.</u>
+                    <u who="#boderD" start="1109.283" end="x">Yes?</u>
+                    <u who="#zurilisS" start="1109.740" end="x">[unintelligible] a very big, eh, time they saw us [unintelligible]. [unintelligible] and then we were sent to <placeName ref="Stephanskirchen (BMW) concentration camp" type="camp">Rosenheim</placeName> with the [unintelligible] and some other fellows to the, eh, to the job center.</u>
+                    <p>[unintelligible / both speaking at once]</p>
+                    <u who="#boderD" start="1124.475" end="x">[unintelligible] beaten?</u>
+                    <u who="#zurilisS" start="1131.660" end="x">No, not beaten. Not beaten, but very cold.</u>
+                    <p>[unintelligible; both speaking at once]</p>
+                    <u who="#zurilisS" start="1145.363" end="x">Yes.</u>
+                    <u who="#boderD" start="1145.363" end="x">Yes. And from <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> to <placeName ref="Stephanskirchen (BMW) concentration camp" type="camp">Rosenheim</placeName>?</u>
+                    <u who="#zurilisS" start="1147.448" end="x">To <placeName ref="Stephanskirchen (BMW) concentration camp" type="camp">Rosenheim</placeName>, and from <placeName ref="Stephanskirchen (BMW) concentration camp" type="camp">Rosenheim</placeName> we were assigned to work in the job center. And sent [unintelligible], and then to the [unintelligible] working in the clog factory there for, eh, five hours.</u>
+                    <u who="#boderD" start="1159.809" end="x">Yes. Were you paid?</u>
+                    <u who="#zurilisS" start="1161.108" end="x">We got 68, eh, "pfennig" an hour.<note n="5">Pfennig used to be the smallest unit of German currency.</note></u>
+                    <u who="#boderD" start="1165.02" end="x">And how long . . .?</u>
+                    <u who="#zurilisS" start="1166.140" end="x">And then I also worked in a, eh, clothing store, in a, in a [unintelligible], and there I also got 68 pfennig an hour. And then [unintelligible], then I was told that it's too much, I can not work that much when [unintelligible]. [Phrase unintelligible], and, eh, there I had to work for five hours.</u>
+                    <u who="#boderD" start="1203.789" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1204.216" end="x">Five hours. Five hours. [several sentences unintelligible].</u>
+                    <u who="#boderD" start="1216.667" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1217.425" end="x">But, eh, eh, but [unintelligible], when we wouldn't work we wouldn't receive food stamps. And then we would have to [unintelligible] report our job center, but [unintelligible]. [Full sentence unintelligible].</u>
+                    <u who="#boderD" start="1233.363" end="x">Aha. And, eh, you were in the [unintelligible], right?</u>
+                    <u who="#zurilisS" start="1238.239" end="x">Yes, [unintelligible].</u>
+                    <u who="#boderD" start="1239.748" end="x">And how are you living in this camp?</u>
+                    <u who="#zurilisS" start="1241.461" end="x">Living very well here in <placeName ref="Lohengrinstrasse">Camp Lohengrin</placeName>.</u>
+                    <u who="#boderD" start="1244.437" end="x">Eh, how is it constructed, how, eh, how many people are living here [unintelligible]?</u>
+                    <u who="#zurilisS" start="1247.924" end="x">We are four persons in a room. Me and my son, then another [unintelligible] and one of my former pupils. We are four people.</u>
+                    <u who="#boderD" start="1254.477" end="x">Yes, so you were [unintelligible]?</u>
+                    <u who="#zurilisS" start="1255.920" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="1257.273" end="x">Yes. And [unintelligible]?</u>
+                    <u who="#zurilisS" start="1258.989" end="x">[unintelligible] a bit, yes.</u>
+                    <u who="#boderD" start="1260.510" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1264.439" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="1266.543" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1267.626" end="x">Yes.</u>
+                    <u who="#boderD" start="1268.474" end="x">Well, and, eh, what did you have, where did you have [unintelligible]?</u>
+                    <u who="#zurilisS" start="1273.199" end="x">I don't know. [unintelligible].</u>
+                    <u who="#boderD" start="1278.731" end="x">[unintelligible]?</u>
+                    <u who="#zurilisS" start="1279.549" end="x">I don't know what [unintelligible].</u>
+                    <u who="#boderD" start="1283.433" end="x">Eh, tell me, can you [unintelligible]?</u>
+                    <u who="#zurilisS" start="1288.519" end="x">The winter, the winter, no, the winter will [unintelligible].</u>
+                    <u who="#boderD" start="1293.449" end="x">Latvian Gymnasium?</u>
+                    <u who="#zurilisS" start="1294.110" end="x">Latvian Gymnasium, yes.</u>
+                    <u who="#boderD" start="1295.132" end="x">And, eh, did it have [unintelligible]?</u>
+                    <u who="#zurilisS" start="1297.567" end="x">Well, [some sentences unintelligible].</u>
+                    <u who="#boderD" start="1306.946" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1307.656" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="1308.528" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1309.701" end="x">Eh, whose [unintelligible], but not with the school.</u>
+                    <u who="#boderD" start="1313.434" end="x">And then, what happened, eh, then, what [unintelligible].</u>
+                    <u who="#zurilisS" start="1317.072" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="1317.920" end="x">[unintelligible].</u>
+                    <u who="#zurilisS" start="1319.339" end="x">[unintelligible].</u>
+                    <u who="#boderD" start="1323.133" end="x">[unintelligible] . . .</u>
+                    <p>[10 seconds of silence]</p>
+                    <u who="#boderD" start="1337.538" end="x"> . . . [some sentences unintelligible] . . . </u>
+                    <p>[2 seconds of silence]</p>
+                    <u who="#zurilisS" start="1366.498" end="x">[unintelligible]. We then tried to [unintelligible], but the neighbor, an Eastern [unintelligible], our neighbor, [unintelligible], they want to oppress us, and have always oppressed us, eh, for hundreds of years, eh, in the cell, they oppressed us [unintelligible].</u>
+                    <u who="#boderD" start="1395.415" end="x">[some sentences unintelligible]. [spool stops]</u>
+                </div>
+                <!-- end Spool 9-141B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Jacob Wilf; August 17, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT37M22.246S" id="wilfJ_9-50">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <lang value="secondary" norm="yi">Yiddish</lang>
+                                <lang value="tertiary" norm="Russia">Russian</lang>
+                                <note type="spools" n="1">9-50</note>
+                                <placeName ref="Paris"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-17</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="wilfJ_de_yi_ru" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="wilfJ_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="wilfJ" role="interviewee">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>Jacob</forename>
+                            <surname>Wilf</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>40</age>
+                        <birth>unknown</birth>
+                        <faith>Jewish</faith>
+                        <nationality>unknown</nationality>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                        <event type="invasion" ref="Lviv">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#wilfJ_de_yi_ru">
+                <!-- Begin spool 9-50 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.121" end="x">[In English] This is Spool Number 50. The interviewee is Dr. Jacob Wilf. Paris, August 17, 1946. Dr. Wilf is from Katowice, Poland and is now at the conference of the ORT in Paris.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="17.487" end="x">[In German] Also Herr Doktor, sagen Sie uns noch einmal was ist Ihr Name. Sie sprechen jiddisch, ja?</u>
+                    <u who="#wilfJ" start="21.678" end="x">Ja.</u>
+                    <u who="#boderD" start="22.161" end="x">[In German/Yiddish] Was ist Euer Namen?</u>
+                    <u who="#wilfJ" start="24.528" end="x">Namen: Jacob Wilf.</u>
+                    <u who="#boderD" start="27.317" end="x">Und was für ein Doktor sind Sie?</u>
+                    <u who="#wilfJ" start="29.262" end="x">Jurist.</u>
+                    <u who="#boderD" start="30.272" end="x">Sie sind Doktor Juri. Wie alt sind Sie, Herr Doktor?</u>
+                    <u who="#wilfJ" start="33.619" end="x">Ich bin vierzig Jahre</u>
+                    <u who="#boderD" start="35.021" end="x">Oh, Sie sind bloß vierzig (40) Jahre. Haben Sie als Advokat praktiziert?</u>
+                    <u who="#wilfJ" start="39.845" end="x">Ja, ich bin jetzt Advokat in Katowice.</u>
+                    <u who="#boderD" start="42.348" end="x">Sie sind jetzt ein Advokat in Katowice. Also, Herr Doktor, ich verstehe, dass Sie nach . . . in Russland gewesen sind, nicht wahr?</u>
+                    <u who="#wilfJ" start="52.614" end="x">Ja.</u>
+                    <u who="#boderD" start="53.187" end="x">Wurden Sie nach Russland deportiert?</u>
+                    <u who="#wilfJ" start="55.750" end="x">Nein, ich bin freiwillig heraus gegangen.</u>
+                    <u who="#boderD" start="58.614" end="x">Von Polen sind Sie nach Russland gegangen.</u>
+                    <u who="#wilfJ" start="60.514" end="x">Ja.</u>
+                    <u who="#boderD" start="60.770" end="x">Sprechen Sie ein bisschen lauter. Wohin und wann sind Sie gefahren nach Russland?</u>
+                    <u who="#wilfJ" start="64.810" end="x">Ich bin am Juli neunzehn hundert ein vierzig (1941) bin ich herein gekommen nach Russland.</u>
+                    <u who="#boderD" start="69.816" end="x">Die Deutschen waren noch nicht in Katowice?</u>
+                    <u who="#wilfJ" start="72.002" end="x">Nein, die Deutschen sind schon lang in Katowice gewesen. Ich war in einem anderen Part—in Lemberg.</u>
+                    <u who="#boderD" start="77.776" end="x">Oh, waren die Deutschen in Lemberg?</u>
+                    <u who="#wilfJ" start="80.294" end="x">Nein, sie waren noch nicht in Lemberg, Ich war . . .</u>
+                    <u who="#boderD" start="82.329" end="x">Also sie waren noch nicht in Lemberg?</u>
+                    <u who="#wilfJ" start="83.565" end="x">Noch nicht.</u>
+                    <u who="#boderD" start="84.470" end="x">Die Deutschen waren in Katowice bevor sie waren in Lemberg?</u>
+                    <u who="#wilfJ" start="88.978" end="x">Im neun und dreißiger (39) Jahr sind sie gewesen schon in Katowitz.</u>
+                    <u who="#boderD" start="91.526" end="x">Ja, . . . und in Lemberg waren Sie?</u>
+                    <u who="#wilfJ" start="93.742" end="x">Am dreißigsten (30.) Juni neunzehn hundert ein vierzig (1941).</u>
+                    <u who="#boderD" start="97.179" end="x">Wer hat Lemberg verteidigt?</u>
+                    <u who="#wilfJ" start="99.260" end="x">Die Polen . . . hm, hm, die Russen.</u>
+                    <u who="#boderD" start="101.175" end="x">Die Russen haben Lemberg verteidigt und haben genommen Lemberg später.</u>
+                    <u who="#wilfJ" start="104.296" end="x">Ja.</u>
+                    <u who="#boderD" start="104.688" end="x">Und Sie waren in Lemberg?</u>
+                    <u who="#wilfJ" start="105.863" end="x">Ja.</u>
+                    <u who="#boderD" start="106.587" end="x">So sind Sie von Lemberg weg gegangen nach Russland?</u>
+                    <u who="#wilfJ" start="109.210" end="x">Ja.</u>
+                    <u who="#boderD" start="109.707" end="x">Hm, mit die Russen zusammen oder wie war das?</u>
+                    <u who="#wilfJ" start="111.969" end="x">Mit den Russen zusammen, mit dem Militär.</u>
+                    <u who="#boderD" start="113.763" end="x">Mit dem Militär . . .</u>
+                    <u who="#wilfJ" start="114.743" end="x">. . . komissioniert.</u>
+                    <u who="#boderD" start="115.632" end="x">Sind viele Juden weg gegangen?</u>
+                    <u who="#wilfJ" start="117.110" end="x">Leider sind nur wenig gegangen.</u>
+                    <u who="#boderD" start="118.934" end="x">Leider sind nur wenig Juden weg gegangen. Was hat passiert zu diese, was sind geblieben?</u>
+                    <u who="#wilfJ" start="123.457" end="x">Die, die sind geblieben sind zu acht und neunzig (98) Prozent vernichtet worden in Deutschland.</u>
+                    <u who="#boderD" start="129.683" end="x">Haben Sie zufällig einen Advokaten, einen Doktor Löwenherz von Danzig gekannt?</u>
+                    <u who="#wilfJ" start="134.899" end="x">Nein.</u>
+                    <u who="#boderD" start="135.774" end="x">In Lwow Sie haben ihn nicht gekannt?</u>
+                    <u who="#wilfJ" start="137.243" end="x">Nein.</u>
+                    <u who="#boderD" start="138.110" end="x">Er war von Gnydia, Danzig.</u>
+                    <u who="#wilfJ" start="141.065" end="x">Nein.</u>
+                    <u who="#boderD" start="142.211" end="x">Also erzählen Sie mir was hat passiert, wenn Sie sind weg gegangen mit den Russen.</u>
+                    <u who="#wilfJ" start="147.080" end="x">Am dreißigsten (30.) Juni neunzehn hundert ein und vierzig (1941) bin ich mobilisiert worden in the Rote Armee . . .</u>
+                    <u who="#boderD" start="152.688" end="x">Ja.</u>
+                    <u who="#wilfJ" start="152.960" end="x">. . . und mit der Roten Armee bin ich weg, wir haben zurück gezogen.</u>
+                    <u who="#boderD" start="155.990" end="x">Wie alt waren Sie?</u>
+                    <u who="#wilfJ" start="157.377" end="x">Ich bin damals gewesen . . . vier und dreißig (34).</u>
+                    <u who="#boderD" start="162.352" end="x">Vier und dreißig (34). Was hat man Sie gemacht? Einen gewöhnlichen Soldaten?</u>
+                    <u who="#wilfJ" start="166.377" end="x">Einen gewöhnlichen Soldaten.</u>
+                    <u who="#boderD" start="167.312" end="x">Und Sie sind mitgegangen mit der Roten Armee . . .</u>
+                    <u who="#wilfJ" start="169.407" end="x">. . . ich bin gegangen mit der roten Armee. Und bis zum Kaukasus haben wir uns zurück gezogen.</u>
+                    <u who="#boderD" start="173.448" end="x">Ja, nun?</u>
+                    <u who="#wilfJ" start="174.458" end="x">Danach bin ich demobilisiert geworden, also ich bin abgestammt von Polen . . .</u>
+                    <u who="#boderD" start="178.679" end="x">Ja.</u>
+                    <u who="#wilfJ" start="179.011" end="x">. . . und alle die abgestammt sind von Polen sind damals demobilisiert geworden.</u>
+                    <u who="#boderD" start="182.493" end="x">Warum?</u>
+                    <u who="#wilfJ" start="183.338" end="x">Der Fall war, dass zu der Zeit hat man nicht gehabt das entsprechende Zutrauen zu die polnischen Bürger, dass sie einen aktiven Kampf gegen die Deutschen anfangen.</u>
+                    <u who="#boderD" start="192.368" end="x">Haben Sie gewusst, dass sei sein ein Jüd?</u>
+                    <u who="#wilfJ" start="195.021" end="x">Ja, das haben sie gewusst.</u>
+                    <u who="#boderD" start="196.167" end="x">Aber sie haben Sie demobilisiert.</u>
+                    <u who="#wilfJ" start="197.825" end="x">Ja, als Pole.</u>
+                    <u who="#boderD" start="199.031" end="x">So was haben Sie gemacht nachdem man Sie demobilisierte?</u>
+                    <u who="#wilfJ" start="201.866" end="x">Danach bin ich gezogen tief ins Land. Und ich bin gekommen nach Turkmenien, in die Turkmenische Republik.</u>
+                    <u who="#boderD" start="208.816" end="x">Haben Sie Familie mit sich gehabt?</u>
+                    <u who="#wilfJ" start="211.334" end="x">Die Frau hab ich mit genommen.</u>
+                    <u who="#boderD" start="212.133" end="x">Ihre Frau, sie haben keine Kinder?</u>
+                    <u who="#wilfJ" start="214.108" end="x">Nein.</u>
+                    <u who="#boderD" start="214.605" end="x">Nein. Und die Frau ist mit gegangen mit der Armee?</u>
+                    <u who="#wilfJ" start="216.595" end="x">Sie hat sich angeschlossen der russischen Armee . . .</u>
+                    <u who="#boderD" start="218.706" end="x">Ja.</u>
+                    <u who="#wilfJ" start="218.842" end="x">. . . und im Sommer, im August neunzehn hundert ein und vierzig (1941) sind wir gekommen in Turkmenien.</u>
+                    <u who="#boderD" start="224.224" end="x">Ja.</u>
+                    <u who="#wilfJ" start="224.541" end="x">Dort haben wir sich abgesetzt.</u>
+                    <u who="#boderD" start="226.335" end="x">Ja.</u>
+                    <u who="#wilfJ" start="227.044" end="x">Dort habe ich gearbeitet als Advokat.</u>
+                    <u who="#boderD" start="230.165" end="x">Haben sie gelasst Euch arbeiten als russische Advokat.</u>
+                    <u who="#wilfJ" start="232.080" end="x">Sie haben mich gelassen . . . ich habe gewisse Prüfung mitgemacht und man hat mir erlaubt als Advokat, als russischer Advokat.</u>
+                    <u who="#boderD" start="239.150" end="x">Ihr redet russisch?</u>
+                    <u who="#wilfJ" start="240.115" end="x">Ich red sehr gut russisch.</u>
+                    <u who="#boderD" start="241.623" end="x">Ihr redet gut russisch? Wo haben Sie studiert?</u>
+                    <u who="#wilfJ" start="244.472" end="x">Ich hab studiert in Krakau . . .</u>
+                    <u who="#boderD" start="246.553" end="x">Aha.</u>
+                    <u who="#wilfJ" start="247.563" end="x">. . . an der Universität.</u>
+                    <u who="#boderD" start="248.920" end="x">Aha.</u>
+                    <u who="#wilfJ" start="249.478" end="x">Im neun und zwanziger Jahr.</u>
+                    <u who="#boderD" start="251.121" end="x">Ja.</u>
+                    <u who="#wilfJ" start="251.483" end="x">Im Jahr neunzehn hundert neun und zwanzig (1929) hab ich absolviert.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="252.930" end="x">[In Russian] А где Вы научились по-русски?</u>
+                    <u who="#wilfJ" start="255.161" end="x">По-русски изучил я во время немецкой войны, немецко-польской войны, когда я был во Львове . . .</u>
+                    <u who="#boderD" start="262.036" end="x">Да.</u>
+                    <u who="#wilfJ" start="262.413" end="x">Я изучил русский язык.</u>
+                    <u who="#boderD" start="263.815" end="x">Вы изучали русский язык.</u>
+                    <u who="#wilfJ" start="265.262" end="x">Да, хорошо.</u>
+                    <u who="#boderD" start="266.830" end="x">Ну, так что Вы . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="268.692" end="x">[In German/Yiddish] So, haben praktiziert als Advokat wo?</u>
+                    <u who="#wilfJ" start="271.805" end="x">In Marie . . .</u>
+                    <u who="#boderD" start="273.689" end="x">Ja.</u>
+                    <u who="#wilfJ" start="274.323" end="x">Turkmenische Republik.</u>
+                    <u who="#boderD" start="276.238" end="x">Ja.</u>
+                    <u who="#wilfJ" start="277.188" end="x">Dort hab ich gleichzeitig, nach ein paar Monaten bin ich gewesen, habe ich vorgetragen juristische Disziplinen in der juristischen Schule.</u>
+                    <u who="#boderD" start="286.920" end="x">Ja. Eine russische juristische Schule.</u>
+                    <u who="#wilfJ" start="288.419" end="x">Ja. Und meine Frau hat gearbeitet auf einer grösseren Fabrik . . .</u>
+                    <u who="#boderD" start="294.223" end="x">Ja.</u>
+                    <u who="#wilfJ" start="295.082" end="x">. . . in der Stadt auch. Und sie war da in der Planabteilung.</u>
+                    <u who="#boderD" start="299.303" end="x">Ja.</u>
+                    <u who="#wilfJ" start="299.786" end="x">Und dort sind wir gewesen bis zum fünf und vierziger (45) Jahr und im Zusammenhang mit der Repatriation sind wir wieder zurück gekommen nach Polen.</u>
+                    <u who="#boderD" start="308.605" end="x">Haben die Russen Euch keine Schwierigkeiten gemacht zurück zu gehen?</u>
+                    <u who="#wilfJ" start="311.650" end="x">Nein. Ganz freiwillig, wer gewollt hat, hat die entsprechenden Dokumente, Geldhilfe und Proviant für den Weg . . .</u>
+                    <u who="#boderD" start="317.982" end="x">Geldhilfe und Proviant für den Weg?</u>
+                    <u who="#wilfJ" start="319.233" end="x">. . . und Proviant für den Weg und dann sind wir wieder gekommen nach Polen.</u>
+                    <u who="#boderD" start="322.037" end="x">So seid Ihr zurück gekommen zu wer?</u>
+                    <u who="#wilfJ" start="324.178" end="x">Wir sind zurück gekommen noch im Juli neunzehn hundert fünf und vierzig . . .</u>
+                    <u who="#boderD" start="329.228" end="x">Es war noch bevor . . . [unverständlich].</u>
+                    <u who="#wilfJ" start="331.158" end="x">Ja.</u>
+                    <u who="#boderD" start="332.892" end="x">Haben die Russen Euch mobilisiert?</u>
+                    <u who="#wilfJ" start="335.229" end="x">Nein . . . nein.</u>
+                    <u who="#boderD" start="336.239" end="x">Nein. Also hier ist die Geschichte natürlich sehr interessant was in Russland passiert, aber das ist nicht unsere Frage. Erzählen Sie mir denn, wie haben Sie vorgefunden Polen und was tut sich jetzt in Polen im Allgemeinen mit den Juden. Und erklären Sie mir die ganze Geschichte von Kielce Pogrom. Fangen Sie an mit der allgemeinen Lage. Sind Sie betätigt mit die jüdischen Sachen?</u>
+                    <u who="#wilfJ" start="368.179" end="x">Ja. Ich bin—in dem Moment—bin ich der Vize-Vorsitzende von dem allgemeinen Kommittee von Oberschlesien.</u>
+                    <u who="#boderD" start="375.430" end="x">Das ist was . . . ein allgemeine . . . ?</u>
+                    <u who="#wilfJ" start="377.089" end="x">Ein allgemeines jüdisches Kommittee.</u>
+                    <u who="#boderD" start="378.491" end="x">Oh, ein allgemeines jüdisches . . . [beide sprechen]</u>
+                    <u who="#wilfJ" start="379.908" end="x">Das ist die einzige Repräsentanz der Juden in Polen . . .</u>
+                    <u who="#boderD" start="383.586" end="x">Ja.</u>
+                    <u who="#wilfJ" start="383.948" end="x">In dem Kommittee sind vertreten alle Parteien . . .</u>
+                    <u who="#boderD" start="387.114" end="x">Ja.</u>
+                    <u who="#wilfJ" start="387.446" end="x">. . . die sind tätig am heutigen Tag auf der jüdischen Gasse.</u>
+                    <u who="#boderD" start="390.325" end="x">Also sagen Sie mir, was für eine Repräsentation hat man nötig? Alle seien doch gleiche Bürger in Polen?</u>
+                    <u who="#wilfJ" start="397.260" end="x">Ja, die Juden haben aber spezielle Interessen, die die Kommittees müssen vertreten.</u>
+                    <u who="#boderD" start="402.808" end="x">Zum Beispiel?</u>
+                    <u who="#wilfJ" start="403.697" end="x">Vor allem sind die Kommittees entstanden aus den Hilfskommittees. Es hat sich darum gehandelt, wenn die Juden sind zurück gekommen von die Lager . . .</u>
+                    <u who="#boderD" start="412.532" end="x">Ja.</u>
+                    <u who="#wilfJ" start="412.939" end="x">. . . und dann sind noch die Repatriaten gekommen von Russland.</u>
+                    <u who="#boderD" start="417.612" end="x">Ja.</u>
+                    <u who="#wilfJ" start="418.517" end="x">und sie geben die erste nötige Hilfe. Das ist gewesen die Hauptaufgabe von den jüdischen Kommittees in Polen. Heutzutage behandeln die jüdischen Kommittees spezielle andere Fragen. Die Hauptfrage, die sie gestellt haben an das jüdische Kommittee, ist zu Produktvisieren die jüdischen Massen.</u>
+                    <u who="#boderD" start="435.175" end="x">Und wer macht das?</u>
+                    <u who="#wilfJ" start="435.356" end="x">In erster Reihe, die Juden, die alles durch den Krieg verloren haben, ihr Haus und Vermögen und ihre Arbeitsstätten. Die Kommittees müssen finden und geben Juden die Möglichkeit wieder aufzubauen ihre Arbeitswerkstatt.</u>
+                    <u who="#boderD" start="454.950" end="x">Das ist sehr interessant, Herr Wilf, wollen Sie reden ein bisserl langsamer, denn es ist sehr wichtig, was sie mir sagen. Nun . . .</u>
+                    <u who="#wilfJ" start="463.664" end="x">Also die Kommittees sind die einzigen Organisationen [unverständlich- polnische und jüdische Worte] die jüdischen Massen wieder produktiv arbeiten. Dass sie geben als Kommitäten materielle Hilfe ..</u>
+                    <u who="#boderD" start="495.293" end="x">Ja.</u>
+                    <u who="#wilfJ" start="495.685" end="x">. . . weil anordnen die Juden zur Arbeit.</u>
+                    <u who="#boderD" start="497.507" end="x">Zum Beispiel welche Kommitäten?</u>
+                    <u who="#wilfJ" start="499.196" end="x">Die jüdischen Kommitäten jeder Stadt geben materielle Hilfe den Juden, so dass sie können wieder aufbauen ihre Werkstatt.</u>
+                    <u who="#boderD" start="507.442" end="x">Und von woher kriegen sie die Mittel?</u>
+                    <u who="#wilfJ" start="509.734" end="x">Die Mittel haben sie für lange Zeit—noch zurück mit [Name unverständlich]—die ausschließliche Hilfe haben sie bekommen [etliche Worte unverständlich] von der polnischen Regierung</u>
+                    <u who="#boderD" start="523.166" end="x">Von der polnischen Regierung?</u>
+                    <u who="#wilfJ" start="524.252" end="x">Ausschließlich von der polnischen Regierung.</u>
+                    <u who="#boderD" start="526.136" end="x">Ja.</u>
+                    <u who="#wilfJ" start="526.438" end="x">Im fünf und vierziger (45) Jahr hat der Joint noch nicht gegeben gewisse entsprechende Geldsummen für die Juden in Polen. Die einzige Hilfe in neunzehn hundert fünf und vierzig, die die jüdischen Kommitäten haben gehabt für die [unverständlich; polnisches Wort]—für die Juden, waren Produkte, die man bekommen hat von der polnischen Regierung—in Geldsummen.</u>
+                    <u who="#boderD" start="548.192" end="x">Ja.</u>
+                    <u who="#wilfJ" start="548.689" end="x">Dieses Jahr bekommen wir schon die Geldsummen von dem Joint.</u>
+                    <u who="#boderD" start="552.941" end="x">Hm.</u>
+                    <u who="#wilfJ" start="553.951" end="x">Auch dieses Jahr bekommen wir Produkte, die werden verteilt zwischen der jüdischen Bevölkerung.</u>
+                    <u who="#boderD" start="558.956" end="x">Aha. Nun und was tut die ORT dort?</u>
+                    <u who="#wilfJ" start="563.886" end="x">Ausserdem existiert in Polen die Organisation ORT, die schon geschaffen ist in die größeren Städte, in die Städte, wo eine größere jüdische Belegschaft. Sie schaffen Fachschule, sie geben speziell für die jüdische Jugend, die nicht gehabt haben die Möglichkeit ein Fach wegen der Okkupation zu lernen, sie geben das Fach in die Hand, sie geben entsprechende Bildung. Schon bei uns in [unverständlich; hebräische Worte] haben wir in Oberschlesien, wo ich der Vorsitzende von dem ORT . . .</u>
+                    <u who="#boderD" start="599.154" end="x">Hm.</u>
+                    <u who="#wilfJ" start="599.350" end="x">. . . haben wir eine der besten Weberschulen . . . Weberschule in Bielsk.</u>
+                    <u who="#boderD" start="605.847" end="x">Ja.</u>
+                    <u who="#wilfJ" start="606.360" end="x">Nicht weit von Katowitz.</u>
+                    <u who="#boderD" start="607.746" end="x">Ja.</u>
+                    <u who="#wilfJ" start="608.119" end="x">Dort haben wir heute dreißig Jugendliche.</u>
+                    <u who="#boderD" start="611.734" end="x">Männer oder Frauen?</u>
+                    <u who="#wilfJ" start="613.132" end="x">Hauptsächlich Männer, alle haben dort ein „bursa“. Dort leben sie, bekommen ihren ganzen Aushalt und lernen.</u>
+                    <u who="#boderD" start="621.518" end="x">Was nennt man ein „bursa“?</u>
+                    <u who="#wilfJ" start="623.307" end="x">Das ist ein Haus, wo sie wohnen und bekommen den Unterhalt.</u>
+                    <u who="#boderD" start="627.916" end="x">Warum nennt man es „bursa“?</u>
+                    <u who="#wilfJ" start="629.344" end="x">Das ist ein polnischer Name.</u>
+                    <u who="#boderD" start="630.471" end="x">Ah, polnisch, ja. Nun?</u>
+                    <u who="#wilfJ" start="632.531" end="x">Ausserdem sind geschaffen worden ein zweites Zentrum in Oberschlesien—in Bytom, ist geschaffen worden eine Schlosser und mechanische Schule. Wir haben bekommen auch ein speziell „binion“, es wurde repariert und in den nächsten Tagen fängt die richtige Arbeit an.</u>
+                    <u who="#boderD" start="648.435" end="x">Was ist ein „binion“?</u>
+                    <u who="#wilfJ" start="649.923" end="x">Ein Gebäude.</u>
+                    <u who="#boderD" start="650.610" end="x">Ein Gebäude. Nun als . . . das ist die . . . so wie geht es im Allgemeinen?</u>
+                    <u who="#wilfJ" start="658.905" end="x">Die Juden in Polen haben alle Möglichkeiten sich selber anzupassen, es ist zum ersten Mal so in der Geschichte von Polen, dass sind die Juden geworden gleichberechtigte Bürger, faktisch, juridisch und wirtschaftlich. Die Versuche zur „Aktion“ . . . zu machen ein jüdisches Problem in Polen werden doch entscheidend zurück gewiesen von der ganz demokratischen polnischen Bevölkerung.</u>
+                    <u who="#boderD" start="685.647" end="x">Oh.</u>
+                    <u who="#wilfJ" start="686.189" end="x">Nur die Kraft der „Aktion“ . . .</u>
+                    <u who="#boderD" start="688.900" end="x">Was ist die „Aktion“?</u>
+                    <u who="#wilfJ" start="689.744" end="x">Die Reaktion.</u>
+                    <u who="#boderD" start="690.871" end="x">Ja.</u>
+                    <u who="#wilfJ" start="691.455" end="x">Das sind die polnischen Faschisten . . .</u>
+                    <u who="#boderD" start="693.895" end="x">Ja.</u>
+                    <u who="#wilfJ" start="694.166" end="x">. . . die schon in der Regierung waren bis neunzehn hundert neun und dreißig (1939), weil die haben in dem Moment verloren die Macht von ihre Hände. Die wollen die Macht nicht völlig [unverständlich], obwohl sie wissen, dass sie die Macht nicht mehr bekommen, hier und im Ausland erschweren sie die neue demokratische Regierung, sie schaffen Unruhe bei der Bildung und dem Aufbau eines neuen Polens. Eine der Methoden mit welcher sie führen die Reaktion—die Faschisten . . . die polnischen Faschisten führen den Kampf gegen die Regierung, ist die Aktion—die Kämpfe gegen Juden. Deswegen ist das Ergebnis davon gewesen das Pogrom in Kielce . . .</u>
+                    <u who="#boderD" start="741.526" end="x">Erzählen Sie mir von dem Pogrom mit alle Einzelheiten, die Sie wissen?</u>
+                    <u who="#wilfJ" start="745.604" end="x">Das Pogrom ist heraus gegeben worden von den ausgehenden Nachforschungen von den Sich . . . Sicherheitsorganen, welche wir hier haben und war inspiriert von den polnischen, ausländischen Agenten.</u>
+                    <u who="#boderD" start="759.761" end="x">Polnisch?</u>
+                    <u who="#wilfJ" start="761.550" end="x">Polnische, ausländische Agenten.</u>
+                    <u who="#boderD" start="762.815" end="x">Ja.</u>
+                    <u who="#wilfJ" start="763.327" end="x">Unmittelbar direkt daraus ist die Provokation geworden, war der Grund von dem, dass man hat beschuldigt, dass ein polnisches Kind die Juden haben geschnappt um von ihm Blut abzunehmen, aber es ist ihnen gelungen das Kind zu retten.</u>
+                    <u who="#boderD" start="779.171" end="x">Ja, aber sagen Sie mir, was hat man gesagt, für was haben die Juden gebraucht das Blut?</u>
+                    <u who="#wilfJ" start="784.424" end="x">Nun das ist die alte Verleumdung, man glaubt, dass die Juden zum Bar mitzven für rituale Zwecke brauchen Blut von christliche Kinder.</u>
+                    <u who="#boderD" start="792.557" end="x">Nun ist da noch gewesen eine andere Verleumdung?</u>
+                    <u who="#wilfJ" start="795.581" end="x">Nein, in diesem Fall war es die Einzige.</u>
+                    <u who="#boderD" start="798.322" end="x">Das ist ein Altweibermärchen. Also ich habe gehört eine andere Geschichte, aber Sie sagen es „this way“. Also, das ist interessant. Sie brauchen das Blut? Das ist doch gewesen im Juli, „the Pogrom“.</u>
+                    <u who="#wilfJ" start="812.418" end="x">Ja.</u>
+                    <u who="#boderD" start="812.961" end="x">Wer kommt jetzt zum Pesa?</u>
+                    <u who="#wilfJ" start="814.178" end="x">Nein. Das ist der . . . das ist die Behauptung, dass die Juden bar-mitzven zu verschiedene andere Rituale . . .</u>
+                    <u who="#boderD" start="821.720" end="x">Oh . . .</u>
+                    <u who="#wilfJ" start="822.413" end="x">. . . man darf nicht Blut von christliche Kinder.</u>
+                    <u who="#boderD" start="826.341" end="x">Nicht nur für Mazos?</u>
+                    <u who="#wilfJ" start="827.498" end="x">Nicht nur für Matze. Und das Kind ist herum gegangen. Es war gewesen angestichelt von den Agenten. Und das Kind ist herum gegangen und hat gesagt, dass es ist gewesen gehalten bei Juden im Keller zwei Tag . . .</u>
+                    <u who="#boderD" start="839.498" end="x">Ja.</u>
+                    <u who="#wilfJ" start="839.950" end="x">. . . und erst danach ist ihm gelungen heraus zu kommen.</u>
+                    <u who="#boderD" start="842.251" end="x">Hat er gesagt, da waren andere Kind oder nein?</u>
+                    <u who="#wilfJ" start="844.269" end="x">Nein, nur für sich allein.</u>
+                    <u who="#boderD" start="846.016" end="x">Ja.</u>
+                    <u who="#wilfJ" start="846.378" end="x">Erst danach, hat man gemacht eine Nachforschung und da hat sich heraus gewiesen, dass das Kind war angestiftet—der eigene Vater hat das Kind gehalten und hat ihm eingeredet diese Verleumdung zu machen. Haben die Polen auch gehabt, die Masse ist gewesen . . . die haben dahin geschickt Agenten—Einer hat schon in der Früh . . .</u>
+                    <u who="#boderD" start="874.428" end="x">Herüber geschickt Agenten?</u>
+                    <u who="#wilfJ" start="875.663" end="x">Herüber geschickt vom Ausland Agenten . . .</u>
+                    <u who="#boderD" start="877.802" end="x">Ja.</u>
+                    <u who="#wilfJ" start="878.507" end="x">Und schon am früh haben sich zusammen Massen. Man hat von Mund zu Mund übergegeben die Version und so hat man angefangen heraus zu schleppen Juden von dem Haus, wo ist gewesen das jüdische Kommittee In Kielce.</u>
+                    <u who="#boderD" start="896.200" end="x">Ja.</u>
+                    <u who="#wilfJ" start="896.875" end="x">Ausserdem hat man geschnappt die Juden auf der Gasse. Der Pogrom hat gedauert fast einen ganzen Tag. Die [unverständlich] das hat sich heraus gewiesen, aber die Funktionäre von der Miliz . . .</u>
+                    <u who="#boderD" start="910.532" end="x">Hm.</u>
+                    <u who="#wilfJ" start="910.845" end="x">. . . haben auch mitgemacht in der Aktion.</u>
+                    <u who="#boderD" start="913.586" end="x">Ja.</u>
+                    <u who="#wilfJ" start="914.008" end="x">Zum Ende von dem Tag mit Hilfe von den Sicherheitsorganen und dem polnischen Militär ist es gelungen das Pogrom zu liquidieren.</u>
+                    <u who="#boderD" start="924.261" end="x">Was war der Name von dem, hm, Präsident . . . der jüdischen, hm, Ge . . .</u>
+                    <u who="#wilfJ" start="930.767" end="x">Der Vorsitzende von dem jüdischen Kommittee, der auch ermordet wurde auf schändliche Art an dem Tag, ist gewesen Doktor Kahane.</u>
+                    <u who="#boderD" start="938.981" end="x">Kahane?</u>
+                    <u who="#wilfJ" start="939.535" end="x">Kahane.</u>
+                    <u who="#boderD" start="940.017" end="x">Hm.</u>
+                    <u who="#wilfJ" start="941.342" end="x">Erst nachdem, wenn man [unverständlich] Ausforschung—eine spezielle Kommission angekommen ist in Warschau und die mit allen Mitteln verschaffen Sicherheit für die Juden, welche sind noch geblieben. In spezielle Autos sind sie heraus geführt worden nach Lodz.</u>
+                    <u who="#boderD" start="959.264" end="x">Diese von Kielce?</u>
+                    <u who="#wilfJ" start="960.168" end="x">Diese von Kielce. Und schon nach ein paar Tagen, um zu überzeugen die polnischen Massen—die starke Hand von der polnischen Regierung in starker Reaktion gegen die Fälle ist gewesen der Prozess gegen die Hauptanstifter von dem Pogrom in nur ein paar Tagen und innerhalb von zehn (10) Tage sind neun Polakken zu Tode verurteilt und in vier (4) Tagen danach ist das Todesurteil ausgeführt worden.</u>
+                    <u who="#boderD" start="995.477" end="x">So denkt ihr, dass die Sachen von Pogrom helfen, die Sachen auch so ein bisschen zu stillen, damit sich [unverständlich] die Bevölkerung.</u>
+                    <u who="#wilfJ" start="1005.236" end="x">Die Situation ist folgendermaßen hier, dank der starken Hand von der polnischen Regierung, die so scharf reagiert hat auf das Kielcer Pogrom, hat sich daraus starke Beruhigung im Land entwickelt, desto mehr da die Arbeitermassen, die polnischen Massen haben in allen Städte gehalten spezielle Meetings und haben mobilisiert die polnischen Massen gegen den Kampf für die Faschisten, die polnischen Faschisten. Die Arbeiter haben . . . die polnischen Arbeiter haben auf die Meetings heraus gewesen [unverständlich] dem polnischen Volk, dass die Pogrome schaden nicht nur wenn gewendet gegen Juden; also die Hand, welche schlägt die polnischen . . . die Demokraten, die Intervent Hand, die kämpft gegen die polnische Regierung, die bewirkt daraus spezielle Pogrome—diese schaden der polnischen Regierung im Ausland, um daraus zu rufen Unruhe im Land. Und der Effekt ist schon der, dass in der letzten Zeit ist gewesen eine starke Beruhigung insofern desto mehr muss die Regierung alle Schutzmittel dagegen anwenden, dass sich solche Geschehen nicht wiederholen. Eines dieser Schutzmittel ist, dass die polnische Regierung hat gegeben spezielle Verhütungsmittel an alle jüdischen Kommitäten . . . an alle jüdischen Institutionen und sie werden speziell bewacht von den Sicherheitsorganen. Und deswegen hoffen wir, dass sich das nicht wiederholen muss, was vorher vorgekommen ist.</u>
+                    <u who="#boderD" start="1103.528" end="x">Haben sie erlaubt die Juden sollen Waffen haben?</u>
+                    <u who="#wilfJ" start="1107.082" end="x">Alle Juden, die arbeiten beim jüdischen Kommittee und haben Verantwortungsposten . . .</u>
+                    <u who="#boderD" start="1111.932" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1112.456" end="x">. . . haben das Recht und haben Bewaffnungsmittel und Erlaubnis zu tragen bei sich die Bewaffnung.</u>
+                    <u who="#boderD" start="1119.384" end="x">Nun sag mir, aber man sieht jetzt hier in Paris wieder sehr viele Juden, was kommen gelaufen von Polen die letzten . . . hm, vier Wochen.</u>
+                    <u who="#wilfJ" start="1130.270" end="x">Ja, im Zusammenhang mit den Kielcer Pogromen ist klar, dass ist entstanden eine Psychose zwischen die jüdischen Massen. In . . . es ist gewesen eine Zeit—einige Wochen nach die Kielcer Pogrome, wo grössere Gruppen von verschiedenen Teilen von Polen sind dann heraus gefahren, [unverständlich] zu retten das Leben. Nun wir müssen sagen nach den objektiven Bedingungen, die schafften die Unruhestimmung bei den Juden in Polen, sind gewesen andere Faktoren, die schon geschaffen die Alarmstimmung. Verantwortliche [unverständlich] haben ausgenützt die . . . die</u>
+                    <u who="#boderD" start="1177.146" end="x">Verantwortliche was?</u>
+                    <u who="#wilfJ" start="1178.532" end="x">[unverständlich] Gesellschaftliche Verantwortliche haben ausgenützt die Verhältnisse, die objektiven Bedingungen,die Unruhestimmung, die entstanden ist durch die Kielcer Pogrome—und haben begonnen eine spezielle Propaganda—aber die Unruhestimmung war stark und deswegen die Juden kommen raus. Ein Fakt . . .</u>
+                    <u who="#boderD" start="1200.140" end="x">. . . so dass die Juden heraus gehen sollen?</u>
+                    <u who="#wilfJ" start="1201.195" end="x">. . . . . . so dass die Juden kommen raus; ungeachtet dass in dem Moment keine Emigrationsmöglichkeiten für Juden nicht gegeben hat. Es ist klar, dass jeder Jud, der hat Emigrationsmöglichkeiten, es ist klar und es ist gerechtfertigt und er muss raus. Auf dem Standpunkt stehen auch die Vorsteher von der polnischen Regierung, weil sie haben gegeben ein Erklärung, dass sie werden unterstützen Emigrationsbestreben von die Juden in legale Formen. Dagegen ist aber die polnische Regierung im Interesse der jüdischen Massen gegen Unruhestimmungen in jedem wo Juden sind chaotisch, ohne Ziel, in unlegalen Emigrationsmöglichkeiten heraus wandern. Wir haben hier eine Situatio, die soll anspornen die Leut , die eben haben Brüder und in dem Moment . . . die sind von Polen . . . sind in deutsche Lager unter englischer oder amerikanischer Okkupation. Also so hat sich letzthin die Situation in Polen beruhigt. [unverständlich] eine jüdische Gemeinschaft in Polen . . .</u>
+                    <u who="#boderD" start="1273.173" end="x">Eine jüdische was?</u>
+                    <u who="#wilfJ" start="1274.269" end="x">Eine jüdische Wirtschaft, eine jüdische Gesellschaft, eine jüdische Gemeinschaft.</u>
+                    <u who="#boderD" start="1277.101" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1277.384" end="x">. . . von den jüdischen Massen in Polen. Eine Gemeinschaft von hundert vierzig tausend (140,000) Juden muss haben den größten Willen zu bleiben in Polen, die auch haben verantwortliche, wirtschaftliche Regierungsposten. Alle . . .</u>
+                    <u who="#boderD" start="1294.854" end="x">Hat die polnische Regierung Juden in der Regierung?</u>
+                    <u who="#wilfJ" start="1297.565" end="x">Die polnische Regierung wünschen . . . wünschen Richtung zu geben jedem Jud, was hat die entsprechende Qualifikationen und will arbeiten und will unternehmen ein Regierungsposten, wird die Möglichkeit geben und zu nehmen, die größten Regierungsposten, wenn man hat die entsprechenden Qualifikationen. Das ist, dass wir haben in der polnischen Regierung verantwortliche Staatsmänner, wir haben Juden, die übernehmen verantwortliche Regierungsposten ungeachtet, dass sie sind Juden. Unsere Männer haben die Posten, weil sie auch haben die entsprechende Qualifikationen. Ausserdem ist in letzter Zeit gelungen dem jüdischen Kommittee anzuordnen die Juden in der Schwerindustrie. In den Kohlengruben—wir haben heutzutage viele Arbeiter, was arbeiten unter der Erd als Schachtarbeiter . . .</u>
+                    <u who="#boderD" start="1353.848" end="x">Jüdische?</u>
+                    <u who="#wilfJ" start="1354.583" end="x">Jüdische . . . in Oberschlesien und Niederschlesien. Und alle die Juden—speziell die, die sind eingeordnet in der Industrie, die sich vernehmen mit produktiver Arbeit—haben das Verlangen zu verbleiben in Polen, weil sie sehen, dass die polnische demokratische Regierung nun ist gegeben ein Verbündeten, wo es gibt jede Garantie, dass sie sich können ausleben national sowie sozial. Wir Juden in Polen geben sich die Idee, dass alle jüdischen Volk—das Ziel des jüdischen Volkes ist verbunden mit der Verstärkung der Demokratie der ganzen Welt. Wenn sich verstärkt, wenn die Demokratie auf der ganzen Welt offen wird, hoffen wir, dass dann morgen ein bessere und eine glücklichere Zeit wird, nicht wie heut. Wir Juden in Polen, wir nehmen einen aktiven Anteil in der Verstärkung, in dem Aufbau der Demokratie in Polen, weil wir glauben, das ist eine der wichtigsten Etappen für die Verstärkung der Demokratie in der ganzen Welt. Wir verbinden unser Ziel mit dem Sieg der Demokratie in Polen. Und so, weil wir glauben, es wird siegen die Demokratie auf der ganzen Welt, so sind wir sicher es wird siegen die Demokratie in Polen und darin liegen alle ökonomischen und objektiven Bedingungen für den Wiederaufbau einer neuen, gesunden jüdischen Gemeinschaft in Polen.</u>
+                    <u who="#boderD" start="1459.765" end="x">Nun sag mir, wieviel Juden sind in Polen geblieben?</u>
+                    <u who="#wilfJ" start="1461.629" end="x">Heutzutage haben wir mehr als hundert dreißig bis hundert vierzig tausend Juden in Polen.</u>
+                    <u who="#boderD" start="1466.629" end="x">Das ist alles was ist geblieben von die Juden in Polen?</u>
+                    <u who="#wilfJ" start="1471.117" end="x">Das ist gewesen nachdem die Juden schon haben verlassen Polen . . .</u>
+                    <u who="#boderD" start="1478.045" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1478.449" end="x">. . . in verschiedene Länder.</u>
+                    <u who="#boderD" start="1478.449" end="x">Wie viele . . . wie viele schätzt ihr sind ausgewandert?</u>
+                    <u who="#wilfJ" start="1484.498" end="x">Wir haben herausgefunden, dass in der Zeit der Repatriierung . . . in der Zeit von einem Jahr die Zahl der Juden, die sind heraus gefahren war nahezu hundert tausend Juden.</u>
+                    <u who="#boderD" start="1497.251" end="x">Also alles zusammen—wieviel Juden sind gewesen in Polen bevor dem Krieg?</u>
+                    <u who="#wilfJ" start="1502.944" end="x">Vor dem Krieg sind wir gewesen drei ein halb ( 3 ½ )Millionen Juden in Polen.</u>
+                    <u who="#boderD" start="1506.721" end="x">Das ist alles?</u>
+                    <u who="#wilfJ" start="1507.564" end="x">Das ist gewesen die jüdische Bevölkerung in Polen.</u>
+                    <u who="#boderD" start="1509.613" end="x">Und was ist gewesen die polnische Population?</u>
+                    <u who="#wilfJ" start="1512.215" end="x">Bitte?</u>
+                    <u who="#boderD" start="1512.938" end="x">Und Polens?</u>
+                    <u who="#wilfJ" start="1514.384" end="x">Die ganze Bevölkerung on Polen ist gewesen ungefähr dreißig (30) Millionen.</u>
+                    <u who="#boderD" start="1518.300" end="x">So die Juden sind gewesen zwölf (12) Prozent.</u>
+                    <u who="#wilfJ" start="1521.716" end="x">Ja.</u>
+                    <u who="#boderD" start="1522.451" end="x">All right! Und jetzt—was ist die polnische Bevölkerung jetzt nach Ihrer Berechnung?</u>
+                    <u who="#wilfJ" start="1527.403" end="x">Nach neuer Berechnung zwei und zwanzig (22) Millionen.</u>
+                    <u who="#boderD" start="1531.240" end="x">Hm, warum?</u>
+                    <u who="#wilfJ" start="1532.536" end="x">Weil der Rest in Poland ist ausgerottet worden und ein Teil der Emigranten befindet sich noch außerhalb des Landes.</u>
+                    <u who="#boderD" start="1539.596" end="x">Ja. Und dann ein Teil von Polen ist gegangen zu Russland, nicht wahr?</u>
+                    <u who="#wilfJ" start="1544.024" end="x">Ja. Die haben aber auf Grund einer Abmachung zwischen Russland und Polen . . . haben sie sich repatriiert zurück in die Gebiete, welches wir haben als das jetzige Polen.</u>
+                    <u who="#boderD" start="1555.663" end="x">Ach so jetzt mit zwei und zwanzig (22) Millionen polnische Population . . .</u>
+                    <u who="#wilfJ" start="1560.765" end="x">Ja.</u>
+                    <u who="#boderD" start="1561.187" end="x">. . . und ungefähr hundert fünfzig tausend (150 000) Juden . . .</u>
+                    <u who="#wilfJ" start="1564.169" end="x">Ja.</u>
+                    <u who="#boderD" start="1564.380" end="x">. . . die . . . die Bevölkerung von die Juden weniger als ein Perzent.</u>
+                    <u who="#wilfJ" start="1571.500" end="x">Ja.</u>
+                    <u who="#boderD" start="1572.585" end="x">Also das ist geblieben von die ganzen Juden in Polen?</u>
+                    <u who="#wilfJ" start="1576.181" end="x">Bis lang sind geblieben Juden . . . perzentuell zwei (2) Prozent sind die früheren jüdischen [unverständlich] . . .</u>
+                    <u who="#boderD" start="1586.362" end="x">Und sie sagen . . .</u>
+                    <u who="#wilfJ" start="1586.904" end="x">Acht und neunzig (98) Prozent der polnischen Juden, die die sind gewesen im Land während der Okkupation . . . aber nicht gezählt, die sind gewesen im Ausland.</u>
+                    <u who="#boderD" start="1596.272" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1596.676" end="x">Acht und neunzig Perzent der polnischen Juden, wo sind gewesen während der Okkupation sind vernichtet worden. Der Rest hat sich gerettet auf sogenannte arische, christliche Papiere . . .</u>
+                    <u who="#boderD" start="1608.013" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1608.435" end="x">Die haben sich gerettet mit diesen Papieren.</u>
+                    <u who="#boderD" start="1615.875" end="x">Nun also Mr. Wilf, das ist ein sehr interessanter Standpunkt. Es ist natürlich . . . nun was denkt ihr wird sein die beste Lösung für die Frage von die Juden, die nun sind in deutschen Lagern hier in Frankreich? Zum Beispiel, letzte Woche ist von Lodz eine ganze Delegation von Yeshiva gekommen und es werden noch kommen mehr von dort. Also was denken Sie, was soll man tun mit alle diese Menschen?</u>
+                    <u who="#wilfJ" start="1653.624" end="x">Das ist eben die nicht-richtige Stellung der gesellschaftlichen [unverständlich]. Mir ist es klar, dass es Juden in Poland gibt, die zu ihren Verwanden emigrieren wollen oder weil er noch aus irgend einem ideologischen Standpunkt will fahren nach Israel . . . es ist klar, dass man darf diesen Menschen geben die Möglichkeit. Aber die Gesellschaften, die sich befassen mit der Frage, sollen und dürfen in erster Reihe sicherstellen, dass Emigrationsmöglichkeiten—legale, menschliche Emigrationsmöglichkeiten bestehen und nicht heraus führen chaotisch die Juden von Polen. Desto mehr muss objektive Bedingungen, denn die sind nicht vorhanden. Rausführen aus den Lagern . . . in dem Moment befinden sich die Juden in den deutschen Lagern, so wie wir informiert sind, in sehr schweren ökonomischen Bedingungen und ausserdem fehlen einstweilen—in diesem Moment nicht vorhanden die legalen Möglichkeiten um heraus zu führen die Juden nach einem Land, wo sie können endlich finden ein Land, wo sie in Frieden leben können. Sie sitzen herum in den Lagern und warten, dass sie bekommen Auswanderungszertifikate für Israel oder Einreisegenehmigungen in andere Länder. Es ist klar, das diese Situation—das Liquidieren der Lager von die Juden in Deutschland—wir dauern nicht weniger wie zwei (2) Jahr. Und so leiden die Juden noch zwei (2) Jahre—das Leben von die Juden in die Lager . . . es ist klar, es ist sehr schwer.</u>
+                    <u who="#boderD" start="1758.523" end="x">Wollen Sie das wirklich unternehmen zu sagen den polnischen Juden, die jetzt sitzen in Deutschland oder Frankreich, dass es sicher ist für sie zurück zu kommen nach Polen?</u>
+                    <u who="#wilfJ" start="1771.366" end="x">Wir haben schon Fälle in dem Moment . . . aber es sind einzelne Fälle . . .</u>
+                    <u who="#boderD" start="1776.547" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1777.252" end="x">Sehr wenige Fälle, aber es sind Fälle, wo die Juden kommen zurück nach Polen. Weil, wie ich hab schon gesagt, wenn es Juden gibt, die denken, dass es gibt keine Sicherheit zu leben in Polen oder will vielleicht aus anderen Gründen heraus fahren, es ist klar, dass wegen solchen Gründen sie eine Chance haben weg zu gehen. Weil die polnische Regierung stellt nicht Sperrungen für die Ausfuhr. Aber das ist klar, da es nicht gibt objektive Bedingungen statt zu wohnen in die Lager in Deutschland, das ist klar, dass es wäre rationeller, logischer zu bleiben in Polen, als zu verbinden mit seinen Verwandten in Amerika, in Kanada und in andere Länder—als zu bekommen Einreisebewilligungen und direkt zu kommen nach Polen direkt zu die Verwanden und nicht durch zu machen diese schrecklichsten Etappen wie sie sich stellen vor die Lager in Deutschland.</u>
+                    <u who="#boderD" start="1838.856" end="x">Nun . . . gibt es noch welche andere Punkte, die Sie wollen beschreiben? Sie sagen dass sich die Juden beteiligen an andere Sachen. Sind die jüdischen Professoren zurück gekommen zur Universität von Warschau oder zu den anderen Universitäten?</u>
+                    <u who="#wilfJ" start="1855.212" end="x">Was angeht die jüdische Intelligenz in Polen . . . die meisten sind vernichtet worden während der Okkupation. Aber die, die sich noch waren in Polen, die arbeiten weiter bei ihren früherigen Posten.</u>
+                    <u who="#boderD" start="1876.730" end="x">Wollen Sie noch über etwas reden, wollen Sie etwas klären? Über die ganze Situation . . . wollen Sie noch etwas hinzufügen?</u>
+                    <u who="#wilfJ" start="1886.941" end="x">Ich wollte nur noch das bemerken, dass wir, die Juden in Polen, die jüdischen Kommittees in Polen, sind letzthin nicht nur aktiv selbst hier nicht nur zu den großen Hilfsaktivitäten, aber darauf, dass jeder Jud sein vormalige Arbeitsstätte aufbaut . . . und zu schaffen alle Bedingungen, dass die Juden sollen arbeiten produktiv, dass sie auch wieder aufbauen das jüdische Leben in Polen . . . und auch wiederum aufbauen die jüdische Gemeinschaft in Polen. Heutzutage werden geschaffen jüdische Kulturinstitute in Polen. Wir haben jetzt in Polen einen jüdischen Rassenverband, wir haben zwei jüdische Theater, um aufzubauen das kulturelle Leben. Wir haben das Bestreben dass diese kleine jüdische Gemeinschaft sodann wieder ein Kern der jüdischen Gesellschaft bekomme, wie vor dem Krieg und wir haben das Bestreben, dass die jüdische Yishuv in Polen . . .</u>
+                    <u who="#boderD" start="1962.491" end="x">Was ist jüdische Yishuv?</u>
+                    <u who="#wilfJ" start="1963.726" end="x">Die jüdische Gesellschaft in Polen . . .</u>
+                    <u who="#boderD" start="1965.503" end="x">Ja.</u>
+                    <u who="#wilfJ" start="1965.891" end="x">. . . so wie sie haben genommen einen aktiven Anteil während der Kriegszeit mit den deutschen Verband—dann wie die Juden haben genommen einen aktiven Anteil auf der Front, entweder war es auf der Front oder mit den Partisanen oder in der Vorbereitung eines Aufstandes. So sind wir auch heute . . . die Juden in Polen nehmen einen aktiven Anteil in dem Aufbau der neuen polnischen Miliz basierend auf dem neuen demokratischen Prinzip. Wir wollen [unverständlich] den Preußen in der Verstärkung der Demokratie.</u>
+                    <u who="#boderD" start="2004.965" end="x">Nun sag mir dies . . . etwas über Russland. Sie haben gesagt, dass Sie haben gearbeitet als Advokat. Haben die Russen erlaubt, dass sie privat praktizieren . . . privat als Advokat? Und haben sie auch privat bekommen bezahlt von dem Menschen für Ihre Arbeit?</u>
+                    <u who="#wilfJ" start="2022.174" end="x">Die Advokatur in Russland ist eine Kooperative . . .</u>
+                    <u who="#boderD" start="2026.783" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2027.699" end="x">. . . eine Kollektive.</u>
+                    <u who="#boderD" start="2029.428" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2030.073" end="x">Jeder muss eine entsprechende Qualifikation haben, dann tritt er in eine Kollektive ein in der entsprechenden Stadt und ist dann ein Mitglied der juristischen Gruppierung . . .</u>
+                    <u who="#boderD" start="2042.043" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2042.808" end="x">. . . was gibt juristische Arbeit der Bevölkerung—tritt auf in Gerichte und handelt alle jüdischen Probleme . . . alle juristischen Probleme.</u>
+                    <u who="#boderD" start="2050.639" end="x">Juristisch.</u>
+                    <u who="#wilfJ" start="2052.447" end="x">Der Lohn der Advokaten in Russland ist ein Prozent von dem was die Klienten haben zu zahlen an . . .</u>
+                    <u who="#boderD" start="2060.622" end="x">. . . an die Kooperative.</u>
+                    <u who="#wilfJ" start="2061.839" end="x">. . . an die Kooperative.</u>
+                    <u who="#boderD" start="2062.755" end="x">Oh. Kann der Klient wählen welchen Advokaten er will?</u>
+                    <u who="#wilfJ" start="2065.869" end="x">Der Klient kommt in die Kooperative . . . in die Juristische und verlangt den oder jenen Advokat.</u>
+                    <u who="#boderD" start="2073.490" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2074.074" end="x">Also so haben die Advokaten, die . . . sagen wir haben einen grösseren juristischen Einfluss, grössere juristische Fähigkeiten . . .</u>
+                    <u who="#boderD" start="2081.454" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2081.737" end="x">. . . Bildung . . .</u>
+                    <u who="#boderD" start="2082.159" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2082.743" end="x">. . . haben das Recht vielleicht mehr auszulegen sich und haben auch eine grössere juristische Praxis als andere Advokaten, die einen schwächeren [unverständlich] .</u>
+                    <u who="#boderD" start="2093.978" end="x">Können Sie mir erzählen über einen interessanten Prozess, den Sie haben gehabt während der ganzen Zeit in ihrer Praxis?</u>
+                    <u who="#wilfJ" start="2099.400" end="x">In der Zeit wenn ich bin gewesen in Russland, habe ich Anteil genommen sehr oft—und trotzdem, dass ich bin gekommen von Polen—so in der Zeit hab ich gearbeitet . . . bin ich gewesen zugelassen zu die Prozesse gegen die, was haben oft gegen [unverständlich] und entgegen der russischen Regierung.</u>
+                    <u who="#boderD" start="2122.514" end="x">Aha.</u>
+                    <u who="#wilfJ" start="2122.755" end="x">Das waren die sogenannten konterrevolutionären Prozesse.</u>
+                    <u who="#boderD" start="2126.183" end="x">Ja.</u>
+                    <u who="#wilfJ" start="2126.978" end="x">Und ich musste feststellen als Advokat [unverständlich] Leute Anteil genommen in diese gewissen konterrevolutionären Prozesse.</u>
+                    <u who="#boderD" start="2135.231" end="x">Sie haben sie verteidigt?</u>
+                    <u who="#wilfJ" start="2136.225" end="x">Ich habe sie verteidigt. Die Regierung, die Sowjet Regierung gibt jedem, der angeklagt wird, das ist schon festgelegt in der Konstitution, das Recht zu haben einen Verteidiger. Er hat das Recht sich zu wählen den Verteidiger und wenn er hat nicht einen Verteidiger, dann bestimmt ihn die Regierung. Und es ist sehr oft vorgekommen, dass ich hatte die Möglichkeit zu vertreten solche konterrevolutionäre Verbrechen und ich musste feststellen, dass die haben gehabt alle Rechte zur Verteidigung genau wie in allen anderen Ländern.</u>
+                    <u who="#boderD" start="2171.324" end="x">Haben sie jemals gewonnen so einen Fall?</u>
+                    <u who="#wilfJ" start="2173.113" end="x">Es sind gewesen Fälle, wo die sind gewesen angeklagt . . . Bürger, sowjetische Bürger, auch polnische Bürger . . . für konterrevolutionäre Agitation und Propaganda. In der Konsequenz—in dem Prozess hat sich heraus gewiesen sehr oft, dass die Zeugenaussagen sind gewesen nicht richtig und es sind oft gewesen Fälle, wo man die Menschen frei gelassen hat.</u>
+                    <u who="#boderD" start="2197.365" end="x">Das war nicht ein militärisches Gericht?</u>
+                    <u who="#wilfJ" start="2199.715" end="x">Nein, es sind spezielle allgemeine Gerichte, die beurteilen alle anderen Prozesse. Die entscheiden aber auch die Prozesse der konterrevolutionären Aktivitäten.</u>
+                    <u who="#boderD" start="2210.028" end="x">Haben sie Geschworene? [unverständlich; russisch]</u>
+                    <u who="#wilfJ" start="2213.131" end="x">Dort in Russland ist es festgelegt, dass da ist ein Vorsitzender, der ist gewählt und ausserdem für die Leute ein [unverständlich].</u>
+                    <u who="#boderD" start="2223.120" end="x">Wie viele?</u>
+                    <u who="#wilfJ" start="2223.994" end="x">Zwei (2).</u>
+                    <u who="#boderD" start="2225.018" end="x">[unverständlich; Tonband sehr schlecht und leise] das Gericht?</u>
+                    <u who="#wilfJ" start="2228.602" end="x">Ja.</u>
+                    <u who="#boderD" start="2230.168" end="x">Danke sehr, Mr. Wilf. Das war ein spezieller Report—eine spezielle . . . [Tonband endet]</u>
+                </div>
+                <!-- End spool 9-50 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#wilfJ_en">
+                <!-- Begin spool 9-50 -->
+                <div lang="en">
+                    <p>[Note: This is a so-called background interview taken in order to obtain some illuminating views on the total situation. The interviewee is a delegate to the International <term ref="#vothG_ort">ORT</term> Convention. —D.P.B.]</p>
+                    <u who="#boderD" start="0.121" end="x">[In English] This is Spool Number 50. The interviewee is Dr. Jacob Wilf. <placeName ref="Paris">Paris</placeName>, August 17, 1946. Dr. Wilf is from <placeName ref="Katowice">Katowice</placeName>, Poland and is now at the conference of the <term ref="#vothG_ort">ORT</term> in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="17.487" end="x">[In German] And so, Herr Doctor, tell us again what is your name. You speak Yiddish, right?</u>
+                    <u who="#wilfJ" start="21.678" end="x">Yes.</u>
+                    <u who="#boderD" start="22.161" end="x">[In German/Yiddish] What is your name?</u>
+                    <u who="#wilfJ" start="24.528" end="x">My name [is] Jacob Wilf.</u>
+                    <u who="#boderD" start="27.317" end="x">And what kind of a doctor are you?</u>
+                    <u who="#wilfJ" start="29.262" end="x">Jurisprudence.</u>
+                    <u who="#boderD" start="30.272" end="x">You are a Doctor of Jurisprudence. How old are you, Doctor?</u>
+                    <u who="#wilfJ" start="33.619" end="x">I am forty years old.</u>
+                    <u who="#boderD" start="35.021" end="x">Oh . . . You are only forty years old. Did you practice as a lawyer?</u>
+                    <u who="#wilfJ" start="39.845" end="x">Yes. I am at present a lawyer in <placeName ref="Katowice">Katowice</placeName>.</u>
+                    <u who="#boderD" start="42.348" end="x">And you are at present a lawyer in <placeName ref="Katowice">Katowice</placeName>. Now, Doctor, I understand that you were in Russia?</u>
+                    <u who="#wilfJ" start="52.614" end="x">Yes.</u>
+                    <u who="#boderD" start="53.187" end="x">Right. Were you deported to Russia?</u>
+                    <u who="#wilfJ" start="55.750" end="x">No. I went to Russia voluntarily.</u>
+                    <u who="#boderD" start="58.614" end="x">You went from Poland to Russia.</u>
+                    <u who="#wilfJ" start="60.514" end="x">Yes.</u>
+                    <u who="#boderD" start="60.770" end="x">Speak a bit louder. Where . . . When did you go to Russia?</u>
+                    <u who="#wilfJ" start="64.810" end="x">I . . . In June of 1941 I left for Russia.</u>
+                    <u who="#boderD" start="69.816" end="x">The Germans were not yet in <placeName ref="Katowice">Katowice</placeName>?</u>
+                    <u who="#wilfJ" start="72.002" end="x">No. The Germans were already in <placeName ref="Katowice">Katowice</placeName> for a long time. I was in another part—in <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#boderD" start="77.776" end="x">Oh . . . Were the Germans in <placeName ref="Lviv">Lemberg</placeName>?</u>
+                    <u who="#wilfJ" start="80.294" end="x">They arrived near <placeName ref="Lviv">Lemberg</placeName>. I was . . .</u>
+                    <u who="#boderD" start="82.329" end="x">But they were not yet there?</u>
+                    <u who="#wilfJ" start="83.565" end="x">Not yet.</u>
+                    <u who="#boderD" start="84.470" end="x">So you . . . The Germans were in <placeName ref="Katowice">Katowice</placeName> before they were in <placeName ref="Lviv">Lemberg</placeName>?</u>
+                    <u who="#wilfJ" start="88.978" end="x">They were in <placeName ref="Katowice">Katowice</placeName> already in '39.</u>
+                    <u who="#boderD" start="91.526" end="x">And they came to <placeName ref="Lviv">Lemberg</placeName>?</u>
+                    <u who="#wilfJ" start="93.742" end="x">The 30th of June, 1941.</u>
+                    <u who="#boderD" start="97.179" end="x">Who defended <placeName ref="Lviv">Lemberg</placeName>?</u>
+                    <u who="#wilfJ" start="99.260" end="x">The Poles [corrects himself], the Russians.</u>
+                    <u who="#boderD" start="101.175" end="x">The Russians have defended <placeName ref="Lviv">Lemberg</placeName> and they [the Germans] occupied <placeName ref="Lviv">Lemberg</placeName> afterwards.</u>
+                    <u who="#wilfJ" start="104.296" end="x">Yes.</u>
+                    <u who="#boderD" start="104.688" end="x">And you were in <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#wilfJ" start="105.863" end="x">Yes.</u>
+                    <u who="#boderD" start="106.587" end="x">And so you left <placeName ref="Lviv">Lemberg</placeName> for Russia.</u>
+                    <u who="#wilfJ" start="109.210" end="x">Yes.</u>
+                    <u who="#boderD" start="109.707" end="x">Together with the Russians, or how did that happen?</u>
+                    <u who="#wilfJ" start="111.969" end="x">Together with the Russians—with the army.</u>
+                    <u who="#boderD" start="113.763" end="x">With the army . . .</u>
+                    <u who="#wilfJ" start="114.743" end="x">[I was]—drafted.</u>
+                    <u who="#boderD" start="115.632" end="x">Did many Jews leave?</u>
+                    <u who="#wilfJ" start="117.110" end="x">Unfortunately, few Jews left [with them].</u>
+                    <u who="#boderD" start="118.934" end="x">Unfortunately few Jews have left. What happened to those who remained?</u>
+                    <u who="#wilfJ" start="123.457" end="x">Those who remained . . . Ninety-eight percent were annihilated by the Germans.</u>
+                    <u who="#boderD" start="129.683" end="x">Did you by any chance know a lawyer, a Doctor Loewenherz from <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName>? [A reference to Heirich Loewenherz].</u>
+                    <u who="#wilfJ" start="134.899" end="x">No.</u>
+                    <u who="#boderD" start="135.774" end="x">In <placeName ref="Lviv">Lwow</placeName>? You did not know him?</u>
+                    <u who="#wilfJ" start="x" end="x">No.</u>
+                    <!--missing-->
+                    <u who="#boderD" start="138.110" end="x">He was from <placeName ref="Gdynia">Gdynia</placeName>, <placeName ref="Gdańsk">Danzig</placeName>.</u>
+                    <u who="#wilfJ" start="141.065" end="x">No.</u>
+                    <u who="#boderD" start="142.211" end="x">Now then, tell me what happened when you left with the Russians.</u>
+                    <u who="#wilfJ" start="147.080" end="x">The 30th of June, 1941. I was drafted into the Red Army . . .</u>
+                    <u who="#boderD" start="152.688" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="152.960" end="x">And with the Red Army I departed. We retreated.</u>
+                    <u who="#boderD" start="155.990" end="x">How old were you?</u>
+                    <u who="#wilfJ" start="157.377" end="x">I was . . . thirty-four years old.</u>
+                    <u who="#boderD" start="162.352" end="x">Thirty-four . . . What did they make' of you. A common soldier?</u>
+                    <u who="#wilfJ" start="166.377" end="x">A common soldier.</u>
+                    <u who="#boderD" start="167.312" end="x">Yes. And you went away with the Red Army . . .</u>
+                    <u who="#wilfJ" start="169.407" end="x">. . . went away with the Red Army. We retreated as far as the Caucasus.</u>
+                    <u who="#boderD" start="173.448" end="x">Yes. Now . . .</u>
+                    <u who="#wilfJ" start="174.458" end="x">Afterward, I was there demobilized, since I was of Polish origin . . .</u>
+                    <u who="#boderD" start="178.679" end="x">Yes..</u>
+                    <u who="#wilfJ" start="179.011" end="x">And all who were of Polish origin were then demobilized.</u>
+                    <u who="#boderD" start="182.493" end="x">Why . . . ?</u>
+                    <u who="#wilfJ" start="183.338" end="x">Because at that time they did not have sufficient confidence in the Polish citizens, that they would actually participate in a struggle against the German forces [?].</u>
+                    <u who="#boderD" start="192.368" end="x">Did they know that you were a Jew?</u>
+                    <u who="#wilfJ" start="195.021" end="x">Yes, they knew.</u>
+                    <u who="#boderD" start="196.167" end="x">But they discharged you, too?</u>
+                    <u who="#wilfJ" start="197.825" end="x">Yes, as a Pole . . . [?].</u>
+                    <u who="#boderD" start="199.031" end="x">Well, so what did you do when you were discharged?</u>
+                    <u who="#wilfJ" start="201.866" end="x">After that I retreated deep into Russia, and I came to Turkmania, the Turkmanian Republic.</u>
+                    <u who="#boderD" start="208.816" end="x">Did you have a family with you?</u>
+                    <u who="#wilfJ" start="211.334" end="x">The wife? I took her with me.</u>
+                    <u who="#boderD" start="212.133" end="x">Your wife. You have no children?</u>
+                    <u who="#wilfJ" start="214.108" end="x">No.</u>
+                    <u who="#boderD" start="214.605" end="x">No. And the wife followed with the Russian Army?</u>
+                    <u who="#wilfJ" start="216.595" end="x">She followed with the Russian Army . . .</u>
+                    <u who="#boderD" start="218.706" end="x">Yes..</u>
+                    <u who="#wilfJ" start="218.842" end="x">And in the summer, in.. in August, 1941, we arrived in Turkmania . . .</u>
+                    <u who="#boderD" start="224.224" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="224.541" end="x">There we settled.</u>
+                    <u who="#boderD" start="226.335" end="x">Yes..</u>
+                    <u who="#wilfJ" start="227.044" end="x">I worked there as a lawyer . . .</u>
+                    <u who="#boderD" start="230.165" end="x">They let you work as a Russian lawyer?</u>
+                    <u who="#wilfJ" start="232.080" end="x">The let me . . . I passed a certain examination and they permitted me to be a lawyer, a Russian lawyer.</u>
+                    <u who="#boderD" start="239.150" end="x">You speak Russian?</u>
+                    <u who="#wilfJ" start="240.115" end="x">I speak Russian very well.</u>
+                    <u who="#boderD" start="241.623" end="x">You speak Russian well. Where did you study law?</u>
+                    <u who="#wilfJ" start="244.472" end="x">I studied law in <placeName ref="Kraków">Krakow</placeName> . . .</u>
+                    <u who="#boderD" start="246.553" end="x">Ah . . .</u>
+                    <u who="#wilfJ" start="247.563" end="x">..at the University.</u>
+                    <u who="#boderD" start="248.920" end="x">Aha.</u>
+                    <u who="#wilfJ" start="249.478" end="x">In '29 . . .</u>
+                    <u who="#boderD" start="251.121" end="x">Yes..</u>
+                    <u who="#wilfJ" start="251.483" end="x">In 1929 I graduated.</u>
+                    <u who="#boderD" start="252.930" end="x">[In Russian] So where did you learn Russian?</u>
+                    <u who="#wilfJ" start="255.161" end="x">I learned Russian during the German War, the German-Polish War; when I was in <placeName ref="Lviv">Lwow</placeName> . . .</u>
+                    <u who="#boderD" start="262.036" end="x">Yes..</u>
+                    <u who="#wilfJ" start="262.413" end="x">I learned the Russian language.</u>
+                    <u who="#boderD" start="263.815" end="x">You studied the Russian language . . .</u>
+                    <u who="#wilfJ" start="265.262" end="x">Yes..</u>
+                    <u who="#boderD" start="266.830" end="x">[In German/Yiddish] So you . . . So you practiced law, where?</u>
+                    <u who="#wilfJ" start="271.805" end="x">[The interviewee reverses to Yiddish. It was my experience that the flow of speech with recently acquired second languages is greatly restrained and the expression of ideas in most cases substantially hampered. —D.P.B.] In <placeName ref="Mary">Mary</placeName> . . .</u>
+                    <u who="#boderD" start="273.689" end="x">Yes..</u>
+                    <u who="#wilfJ" start="274.323" end="x">..Turkmanian Republic.</u>
+                    <u who="#boderD" start="276.238" end="x">Yes..</u>
+                    <u who="#wilfJ" start="277.188" end="x">At the same time, after a few months' time, I lectured on legal science in a school of law.</u>
+                    <u who="#boderD" start="x" end="x">Yes..</u>
+                    <!--missing-->
+                    <u who="#wilfJ" start="286.920" end="x">A Russian law school.</u>
+                    <u who="#boderD" start="288.419" end="x">Yes..</u>
+                    <u who="#wilfJ" start="289.444" end="x">And my wife worked in the largest factory . . .</u>
+                    <u who="#boderD" start="294.223" end="x">Yes..</u>
+                    <u who="#wilfJ" start="295.082" end="x">..of that factory.</u>
+                    <u who="#boderD" start="299.303" end="x">Yes..</u>
+                    <u who="#wilfJ" start="299.786" end="x">And we were there until the year '45; and we returned with the 'repatriation'—we returned to Poland.</u>
+                    <u who="#boderD" start="308.605" end="x">Didn't the Russians cause you any difficulties about your return?</u>
+                    <u who="#wilfJ" start="311.650" end="x">No. Perfectly voluntarily. Whoever presented himself, received the proper documents, some monetary assistance and provisions for the journey . . .</u>
+                    <u who="#boderD" start="317.982" end="x">Monetary assistance and provisions for the journey?</u>
+                    <u who="#wilfJ" start="319.233" end="x">. . . provisions for the journey; and we returned back to Poland.</u>
+                    <u who="#boderD" start="322.037" end="x">You returned, where to?</u>
+                    <u who="#wilfJ" start="324.178" end="x">I returned in July, 1945 . . .</u>
+                    <u who="#boderD" start="329.228" end="x">The war was still going on?</u>
+                    <u who="#wilfJ" start="331.158" end="x">The war was still on [??]</u>
+                    <u who="#boderD" start="332.892" end="x">Didn't the Russians draft you?</u>
+                    <u who="#wilfJ" start="335.229" end="x">No . . . No.</u>
+                    <u who="#boderD" start="336.239" end="x">No. Now that is a story. It is, of course, very interesting, what was going on in Russia; but that is not our problem. Tell me now, how have you encountered Poland, and what is going on in Poland in general, and what is happening to the Jews in Poland. And explain to me the whole story of the <term ref="#vothG_pogrom">pogrom</term> of <placeName ref="Kielce">Kielce</placeName>. Start with the general situation. Are you active in Jewish affairs?</u>
+                    <u who="#wilfJ" start="368.179" end="x">Yes. At the present time I am the Vice-Chairman of the Regional Committee of Upper Silesia . . .</u>
+                    <u who="#boderD" start="375.430" end="x">That is what, a general . . . ?</u>
+                    <u who="#wilfJ" start="377.089" end="x">A general Jewish Committee.</u>
+                    <u who="#boderD" start="378.491" end="x">Oh, a general Jewish . . .</u>
+                    <u who="#wilfJ" start="379.908" end="x">This is the only representative [body] of the Jews in Poland . . .</u>
+                    <u who="#boderD" start="383.586" end="x">Yes..</u>
+                    <u who="#wilfJ" start="383.948" end="x">In this committee all parties are represented . . .</u>
+                    <u who="#boderD" start="387.114" end="x">Yes..</u>
+                    <u who="#wilfJ" start="387.446" end="x">..which are active nowadays in the Jewish street [affairs].</u>
+                    <u who="#boderD" start="390.325" end="x">Now tell me, what kind of representation is there necessary? Are [not] all now equal citizens in Poland?</u>
+                    <u who="#wilfJ" start="397.260" end="x">Yes, but the Jews have special interests, which the committees have to represent.</u>
+                    <u who="#boderD" start="402.808" end="x">For instance?</u>
+                    <u who="#wilfJ" start="403.697" end="x">First of all, the committees were formed as relief committees. The problem was to render the first urgent assistance to the Jews who were returning from the <term ref="#vothG_lager">lagers</term> . . .</u>
+                    <u who="#boderD" start="412.532" end="x">Yes..</u>
+                    <u who="#wilfJ" start="412.939" end="x">..as well as to the repatriates from Russia.</u>
+                    <u who="#boderD" start="417.612" end="x">Yes..</u>
+                    <u who="#wilfJ" start="418.517" end="x">That was the first, main taks of the Jewish committees in Poland. Nowadays, the Jewish committee deals with other problems. The first problem which stands before the Jewish committee is to 'productivate' [to turn to, to engage in productive work] the Jewish masses.</u>
+                    <u who="#boderD" start="435.175" end="x">Who does that?</u>
+                    <u who="#wilfJ" start="435.356" end="x">First of all, the Jews who have lost on account of the war their . . . all their property and belongings, have lost their workshops. The committees are charged with finding the means for the Jews who live or intend to settle in Poland to rebuild their workshops.</u>
+                    <u who="#boderD" start="454.950" end="x">Now that is very interesting, Mr. Wilf. Will you speak a bit slower, because what you are telling me is very important. Now . . .</u>
+                    <u who="#wilfJ" start="463.664" end="x">And so the committees form the only organization which endeavors to return the Jewish masses to productivity. They endeavor that every Jew wherever he may live, should depend on his speciality, on his qualifications, that he may take his part in the reconstruction of the country and do his part in productive labors. That is what the committees which render material assistance are for . . .</u>
+                    <u who="#boderD" start="495.293" end="x">[words not clear]</u>
+                    <u who="#wilfJ" start="495.685" end="x">. . . to incorporate the Jews in production.</u>
+                    <u who="#boderD" start="497.507" end="x">Which committees, for instance?</u>
+                    <u who="#wilfJ" start="499.196" end="x">The Jewish committees in every city render material assistance to the Jews, so that they will be able to rebuild their workshops again.</u>
+                    <u who="#boderD" start="509.734" end="x">And where do they get the means?</u>
+                    <u who="#wilfJ" start="524.252" end="x">For a long time, just until a few months past, the exclusive help which the committees have received were the funds which they got from the Polish government.</u>
+                    <u who="#boderD" start="523.166" end="x">From the Polish government?</u>
+                    <u who="#wilfJ" start="524.252" end="x">Exclusively from the Polish government.</u>
+                    <u who="#boderD" start="526.136" end="x">Yes..</u>
+                    <u who="#wilfJ" start="526.438" end="x">In the year '45, the <term ref="#vothG_ajdc">Joint</term> [JDC] had not yet come to allot proper sums of money for the Jews in Poland. The sole help in 1945, which the Jewish committees had at their disposal to help the Jews, were provisions which they got from the Polish government, and sums of money.</u>
+                    <u who="#boderD" start="548.192" end="x">Yes..</u>
+                    <u who="#wilfJ" start="548.689" end="x">This year we have received already the money allotments from the <term ref="#vothG_ajdc">Joint</term>.</u>
+                    <u who="#boderD" start="552.941" end="x">Hm . . .</u>
+                    <u who="#wilfJ" start="553.951" end="x">Besides that, we have received provisions which are being distributed among the Jewish population.</u>
+                    <u who="#boderD" start="558.956" end="x">Aha . . . Well, and what does the <term ref="#vothG_ort">ORT</term> do there?</u>
+                    <u who="#wilfJ" start="563.886" end="x">In addition, in Poland the organization <term ref="#vothG_ort">ORT</term> exists, which organizes, and has already organized in cities where there is a larger Jewish population.. They organize trade schools, especially for the purpose of giving the Jewish youth, who had no opportunity to learn anything on account of the [German] occupation, the opportunity to learn a trade—to give them a proper education. Already we have, for example [two words in Hebrew], in Upper Silesia where I am the President of the <term ref="#vothG_ort">ORT</term> . . .</u>
+                    <u who="#boderD" start="599.154" end="x">Hm . . .</u>
+                    <u who="#wilfJ" start="599.350" end="x">. . . We have one of the best textile schools . . . textile schools in <placeName ref="Bielsko-Biała">Bielsk</placeName> . . .</u>
+                    <u who="#boderD" start="605.847" end="x">Yes..</u>
+                    <u who="#wilfJ" start="606.360" end="x">Not far from <placeName ref="Katowice">Katowice</placeName>.</u>
+                    <u who="#boderD" start="607.746" end="x">Yes..</u>
+                    <u who="#wilfJ" start="608.119" end="x">There we have today about thirty young people . . .</u>
+                    <u who="#boderD" start="611.734" end="x">Men or women?</u>
+                    <u who="#wilfJ" start="613.132" end="x">Mostly men, who have a 'bursa' there. There they live, receiving complete maintenance and study . . .</u>
+                    <u who="#boderD" start="621.518" end="x">What do you call a 'bursa?'</u>
+                    <u who="#wilfJ" start="623.307" end="x">That is such a home where they live and get their maintenance.</u>
+                    <u who="#boderD" start="627.916" end="x">Why is it called a 'bura?'</u>
+                    <u who="#wilfJ" start="629.344" end="x">That is a Polish name.</u>
+                    <u who="#boderD" start="630.471" end="x">A Polish [name]. Yes . . . Nu . . .</u>
+                    <u who="#wilfJ" start="632.531" end="x">Besides that, in the second center of Upper Silesia, in [the city of] <placeName ref="Bytom">Bytom</placeName>, a trade school was created for toolmakers. We have obtained a special 'binion;' it has been repaired and in the next few days we shall start the actual work.</u>
+                    <u who="#boderD" start="648.435" end="x">What is a 'binion?'</u>
+                    <u who="#wilfJ" start="649.923" end="x">A building.</u>
+                    <u who="#boderD" start="650.610" end="x">A building. Now then . . . That is . . . how is life there in general?</u>
+                    <u who="#wilfJ" start="658.905" end="x">The Jews in Poland have all the opportunities to adjust themselves; because, it may be said for the first time in the history of Poland the Jews became citizens with equal rights. In fact, legally and economically. The attempts of the '<term ref="#vothG_action">Action</term>' to create a Jewish problem in Poland are being decisively rejected by the whole democratic population of Poland.</u>
+                    <u who="#boderD" start="685.647" end="x">Oh . . .</u>
+                    <u who="#wilfJ" start="686.189" end="x">Only the efforts of the '<term ref="#vothG_action">Action</term>' . . .</u>
+                    <u who="#boderD" start="688.900" end="x">What is the '<term ref="#vothG_action">Action</term>?'</u>
+                    <u who="#wilfJ" start="689.744" end="x">The reaction.</u>
+                    <u who="#boderD" start="690.871" end="x">Yes..</u>
+                    <u who="#wilfJ" start="691.455" end="x">Those are the Polish Fascists . . .</u>
+                    <u who="#boderD" start="693.895" end="x">Yes..</u>
+                    <u who="#wilfJ" start="694.166" end="x">. . . those who have ruled until 1939, who at that time lost power from their hands . . . They, although they are aware that they shall not get their power back, endeavor by all means at home and abroad, to impede the new democratic government of Poland in the creation and upbuilding of a new Poland on a democratic foundation. One of the methods which is being used by the Reaction, the Fascists—the Polish Fascists in their fight against the government are the '<term ref="#vothG_action">Actions</term>'—the fights against the Jews. In Poland assaults on Jews [two words not clear] are taking place, day in and day out. That is why there was the <term ref="#vothG_pogrom">pogrom</term> in <placeName ref="Kielce">Kielce</placeName> . . .</u>
+                    <u who="#boderD" start="741.526" end="x">Tell me about the <term ref="#vothG_pogrom">pogrom</term> with all the details that you know . . .</u>
+                    <u who="#wilfJ" start="745.604" end="x">The <term ref="#vothG_pogrom">pogrom</term>, as revealed by the investigation of the various official agencies which have then taken place, was inspired by foreign agents.</u>
+                    <u who="#boderD" start="759.761" end="x">Polish . . . ?</u>
+                    <u who="#wilfJ" start="761.550" end="x">Polish foreign agents.</u>
+                    <u who="#boderD" start="762.815" end="x">Yes..</u>
+                    <u who="#wilfJ" start="763.327" end="x">The direct immediate provocation was the creation of a calumny [frame-up]—that the Jews had snatched a Polish child for the purpose of taking blood from him, but they had managed to rescue the child.</u>
+                    <u who="#boderD" start="779.171" end="x">Yes. But tell me, what did they say that the Jews needed the blood for:</u>
+                    <u who="#wilfJ" start="784.424" end="x">Well, that is the old calumny that the Jews are using blood of Christian children for ritual purposes.</u>
+                    <u who="#boderD" start="792.557" end="x">Was there not another calumny?</u>
+                    <u who="#wilfJ" start="795.581" end="x">No, in this case that was the only calumny.</u>
+                    <u who="#boderD" start="798.322" end="x">The old calumny. Well, I have heard a different story. But if you are reporting it this way . . . That is interesting. How could they need blood . . . ? It happened in July, the <term ref="#vothG_pogrom">pogrom</term>..</u>
+                    <u who="#wilfJ" start="812.418" end="x">Yes.</u>
+                    <u who="#boderD" start="812.961" end="x">So how does that tie up with the Passover?</u>
+                    <u who="#wilfJ" start="814.178" end="x">No. That comes from the allegation that Jews use [blood] for various other . . .</u>
+                    <u who="#boderD" start="821.720" end="x">Oh . . .</u>
+                    <u who="#wilfJ" start="822.413" end="x">..ritual needs the blood of Christian children.</u>
+                    <u who="#boderD" start="826.341" end="x">Not only for mazos?</u>
+                    <u who="#wilfJ" start="827.498" end="x">Not only for mazos. And the child was going around. It was instigated by some 'agents,' and the child was going around; and it was said [alleged] that it was hidden by the Jews in a cellar for two days . . .</u>
+                    <u who="#boderD" start="839.498" end="x">Yes..</u>
+                    <u who="#wilfJ" start="839.950" end="x">..And only after that he managed to escape . . .</u>
+                    <u who="#boderD" start="842.251" end="x">Did he say that there were other children [with him], or not . . . ?</u>
+                    <u who="#wilfJ" start="844.269" end="x">No, only about himself.</u>
+                    <u who="#boderD" start="846.016" end="x">Yes..</u>
+                    <u who="#wilfJ" start="846.378" end="x">Afterwards, when the investigation got under way, it was established that the child was instigated, that his own father had hidden the child and had talked him into creating such a calumny. The population, the Poles seized upon the calumny—the masses were instigated by specially sent-in agents. One started already in the morning . . .</u>
+                    <u who="#boderD" start="874.428" end="x">Agent sent in?</u>
+                    <u who="#wilfJ" start="875.663" end="x">Agents sent in from abroad . . .</u>
+                    <u who="#boderD" start="877.802" end="x">Yes..</u>
+                    <u who="#wilfJ" start="878.507" end="x">And already from the early morning crowds began to conglomerate. The word about the calumny spread from mouth to mouth; and so they started to drag out the Jews from the building in which the Jewish Committee of <placeName ref="Kielce">Kielce</placeName> was located.</u>
+                    <u who="#boderD" start="896.200" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="896.875" end="x">And besides, they also grabbed Jews from the street. This <term ref="#vothG_pogrom">pogrom</term> lasted nearly a full day. [Two words in between]. It was also revealed that a part of the officials of the militia . . .</u>
+                    <u who="#boderD" start="910.532" end="x">Hm . . .</u>
+                    <u who="#wilfJ" start="910.845" end="x">. . . have also participated in the '<term ref="#vothG_action">action</term>.'</u>
+                    <u who="#boderD" start="913.586" end="x">Yes..</u>
+                    <u who="#wilfJ" start="914.008" end="x">Only at the end of the day, thanks to the intervention of the Security Authorities and of the Polish Army, was the liquidation of the <term ref="#vothG_pogrom">pogrom</term> accomplished.</u>
+                    <u who="#boderD" start="924.261" end="x">What was the name of the Chairman . . . president of the Jewish . . .</u>
+                    <u who="#wilfJ" start="930.767" end="x">The chairman of the Jewish Committee, who was also killed that day in a most disgraceful manner, was Doctor Kahane.</u>
+                    <u who="#boderD" start="938.981" end="x">Kahane..?</u>
+                    <u who="#wilfJ" start="939.535" end="x">Kahane.</u>
+                    <u who="#boderD" start="940.017" end="x">Hm . . .</u>
+                    <u who="#wilfJ" start="941.342" end="x">Only after that, when an investigation got under way—a special commission arrived from <placeName ref="Warsaw">Warsaw</placeName> and all measures were taken in order to bring about security for those Jews who still remained. They were transported in special automobiles to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="959.264" end="x">The ones from <placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#wilfJ" start="960.168" end="x">The ones from <placeName ref="Kielce">Kielce</placeName>. And already in a few days, in order to convince [to silence?] the Polish masses, the strong hand of the Polish government, in a strong reaction against the events [?] in <placeName ref="Kielce">Kielce</placeName>, revealed itself in the fact that the trial of the main instigators of the <term ref="#vothG_pogrom">pogrom</term> took place in only a few days, and within only ten days nine Poles were sentenced to death, and four days afterwards the death penalty was executed.</u>
+                    <u who="#boderD" start="995.477" end="x">So you think that the events of the <term ref="#vothG_pogrom">pogrom</term> will help to quieten things down, that the population will be pacified?</u>
+                    <u who="#wilfJ" start="1005.236" end="x">The situation already now is such that thanks to the strong hand of the Polish government, which has responded so sharply to the <term ref="#vothG_pogrom">pogrom</term> of <placeName ref="Kielce">Kielce</placeName>, a firm order [calm] has emerged [all] over the country; more so, since the working masses—the Polish working masses have held special meetings in all cities, and have mobilized the Polish masses for a struggle against the Fascists—the Polish Fascists. The workers—the Polish workers, have demonstrated at meetings that they have proved to the Polish people that these pogroms are not only directed against the Jews, but that the hand that beats and kills the . . . the Polish 'democrats' [democratic people], the hand of intervention which fights against the Polish government, is provoking such pogroms in order to harm [the prestige, to prejudice against] the Polish people in [the eyes of] foreign countries; and in order to evoke unrest at home. And the effect is that during recent times order [calm] was established at all levels—more so, that the government takes all possible measures toward the aim that such events should not repeat themselves anymore. One of the measures is that the Polich government has released special pieces of armament to all Jewish committees—to all Jewish institutions; and they are specially guarded by the agencies of security. And so we hope that . . . that there shall not be repetitions of that what has happened.</u>
+                    <u who="#boderD" start="1103.528" end="x">Well, did they permit the Jews to possess arms?</u>
+                    <u who="#wilfJ" start="1107.082" end="x">All Jews who work in the Jewish committees, who occupy positions of responsibility . . .</u>
+                    <u who="#boderD" start="1111.932" end="x">Yes..</u>
+                    <u who="#wilfJ" start="1112.456" end="x">..have the right, and have received arms, and permission to bear arms on their person.</u>
+                    <u who="#boderD" start="1119.384" end="x">Now tell me, one sees presently in <placeName ref="Paris">Paris</placeName> a lot of Jews who fled from Poland during the last few weeks.</u>
+                    <u who="#wilfJ" start="1130.270" end="x">Yes. It is clear that in connection with the <term ref="#vothG_pogrom">pogroms</term> of <placeName ref="Kielce">Kielce</placeName> a psychosis has come about within the Jewish masses . . . There was a time, a few weeks after the <placeName ref="Kielce">Kielce</placeName> pogroms, that substantial groups of Jews from various regions of Poland have departed, for the sole purpose of saving their bare lives. But we must say that besides the objective conditions which have created the alarmed [?] mood among the Jews in Poland, there were different, additional factors which have created the mood of alarm despair[?]. A number of irresponsible community [last word in Hebrew] workers have taken advantage . . .</u>
+                    <u who="#boderD" start="1177.146" end="x">. . . irresponsible what . . . ? [The corresponding words did not sound clear in the actual interview, although they were understandable in part from context on the wire].</u>
+                    <u who="#wilfJ" start="1178.532" end="x">. . . community [same word in Hebrew] workers . . . [repeats in German] community workers have taken advantage of the conditions; the objective factors, the alarmed mood which was brought about by the occurrence of the <placeName ref="Kielce">Kielce</placeName>
+                        <term ref="#vothG_pogrom">pogroms</term> [He often uses the plural for this word], and started to call a special . . . to use a special propaganda—reinforcing the mood of alarm [unrest], so that the Jews should get away. In fact . . .</u>
+                    <u who="#boderD" start="1200.140" end="x">..so that the Jews should flee?</u>
+                    <u who="#wilfJ" start="1201.195" end="x">..so that the Jews should flee; notwithstanding that at this time no real possibilities for emigration of the Jew are available. It is clear that for every Jew who has chances for emigration, it is proper and timely to . . . to leave [the country]. This view is also shared by the representatives of the Polish government, who have announced that they shall support the aspirations of the Jews to emigrate by legal methods. On the other hand, the Polish government in the interests of the Polish . . . the Jewish masses are against the moods of unrest and against the fact that the Jews should emigrate chaotically without an aim and without legal facilities of emigration. We deal here with a situation that would enhance the sufferings, the deprivations which are being undergone at present, by our brother refugees [?] from Poland, in the German <term ref="#vothG_lager">lagers</term> of the English and American occupation [zones]. That is how the situation in Poland has recently quieted down. There now exists in Poland a Jewish community [last word in Hebrew].</u>
+                    <u who="#boderD" start="1273.173" end="x">. . . a Jewish what . . . ?</u>
+                    <u who="#wilfJ" start="1274.269" end="x">[again in Hebrew] . . . a Jewish community . . . [in German/Yiddish] a Jewish community . . .</u>
+                    <u who="#boderD" start="1277.101" end="x">Yes..</u>
+                    <u who="#wilfJ" start="1277.384" end="x">. . . of the Jewish masses in Poland. A community of a hundred and thirty to a hundred and forty thousand Jews, who have the greatest desire to remain in Poland, who occupy responsible positions in the economy and government. They work . . .</u>
+                    <u who="#boderD" start="1294.854" end="x">Does the Polish government have Jews in the government?</u>
+                    <u who="#wilfJ" start="1297.565" end="x">The Polish government has a policy that every Jew who possesses the proper qualifications, and wants to work—wants to undertake to serve the government—offers them all the possibilities to occupy the highest government posts, provided they have the corresponding qualifications. That is why we now have in the Polish government responsible men of state. We have Jews who occupy responsible positions of government, regardless of [the fact] that they are Jews. They occupy their posts because they possess the proper qualifications. Besides, that the Jewish committee has recently succeeded in incorporating the Jews into the heavy industries. In the coal mines—we have many workers nowadays who work [deep] under the ground as miners . . .</u>
+                    <u who="#boderD" start="1353.848" end="x">Jewish?</u>
+                    <u who="#wilfJ" start="1354.583" end="x">Jewish . . . In Upper Silesia and Lower Silesia. All these Jews, especially those who have been incorporated in the industries—who are engaged in productive work—have the desire to remain in Poland, if only because they see that they have in the democratic government of Poland a near and devoted ally, which offers any guaranty that they shall be able to exist both nationally and socially . . . We Jews in Poland are given to the idea that the lot of the Jewish people—the aim of the Jewish people is intertwined with the coming to power of democracy all over the world. When democracy shall come to power, we shall be victorious all over the world. We hope, and we are sure that the tomorrow for the Jewish people will be a safer and happier [?]one; not like it is today. We Jews in Poland desire to take an active part in the reinforcement in the build-up of democracy in Poland because we believe that this is one of the most important steps for the reinforcement of democracy in the whole world. We combine our lot with the victory of democracy in Poland. And so just as we have faith in the victory of democracy in the whole world, so we are sure that democracy will win in Poland and that is how all the economic and objective conditions for the rebuilding of a new, healthy Jewish community in Poland will be brought about.</u>
+                    <u who="#boderD" start="1459.765" end="x">Now tell me, how many Jews have remained in Poland?</u>
+                    <u who="#wilfJ" start="1461.629" end="x">Nowadays we have in Poland a population of a hundred and thirty to a hundred and forty thousand Jews.</u>
+                    <u who="#boderD" start="1466.629" end="x">That is all . . . all that has remained of the Jews in Poland?</u>
+                    <u who="#wilfJ" start="1471.117" end="x">That is what has remained after a part of the Jews have left Poland . . .</u>
+                    <u who="#boderD" start="1478.045" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="1478.449" end="x">. . . for various countries.</u>
+                    <u who="#boderD" start="1479.606" end="x">How many . . . How many, do you estimate, have left?</u>
+                    <u who="#wilfJ" start="1484.498" end="x">We estimate that during the time of repatriation, within a year . . . about a year, the number who have left comes to about a hundred thousand Jews.</u>
+                    <u who="#boderD" start="1497.251" end="x">A hundred thousand . . . Now, altogether how many Jews were there in Poland before the war?</u>
+                    <u who="#wilfJ" start="1502.944" end="x">Before the war there were three and half million Jews in Poland.</u>
+                    <u who="#boderD" start="1506.721" end="x">That is all?</u>
+                    <u who="#wilfJ" start="1507.564" end="x">That was the Jewish population in Poland.</u>
+                    <u who="#boderD" start="1509.613" end="x">And what was the population in Poland?</u>
+                    <u who="#wilfJ" start="1512.215" end="x">Pardon . . .</u>
+                    <u who="#boderD" start="1512.938" end="x">. . . the whole population of Poland?</u>
+                    <u who="#wilfJ" start="1514.384" end="x">The total population of Poland was about thirty million.</u>
+                    <u who="#boderD" start="1518.300" end="x">So the Jews constituted about twelve percent.</u>
+                    <u who="#wilfJ" start="1521.716" end="x">Yes.</u>
+                    <u who="#boderD" start="1522.451" end="x">All right. And what is the Polish population now, according to new estimates?</u>
+                    <u who="#wilfJ" start="1527.403" end="x">According to new estimates it is [twenty-] four . . . twenty-two million.</u>
+                    <u who="#boderD" start="1531.240" end="x">How come?</u>
+                    <u who="#wilfJ" start="1532.536" end="x">Because the rest were killed off in Poland, and part are still outside the country. [He refers apparently to the Andres' regiments, and other Poles who were taken to Germany as slave laborers, or fled to Russia and remained there].</u>
+                    <u who="#boderD" start="1539.596" end="x">Yes. And then a part of Poland has been taken by Russia. Isn't that so?</u>
+                    <u who="#wilfJ" start="1544.024" end="x">Yes. But they, according to an accord between Russia and Poland, have repatriated themselves to the regions which form present day Poland.</u>
+                    <u who="#boderD" start="1555.663" end="x">Now then, at present, with a Polish population of twenty-two million . . .</u>
+                    <u who="#wilfJ" start="1560.765" end="x">Yes . . .</u>
+                    <u who="#boderD" start="1561.187" end="x">. . . and about one hundred and fifty thousand Jews . . .</u>
+                    <u who="#wilfJ" start="1564.169" end="x">Yes.</u>
+                    <u who="#boderD" start="1564.380" end="x">. . . the . . . the population of the Jews amounts to less than one percent?</u>
+                    <u who="#wilfJ" start="1571.500" end="x">Yes.</u>
+                    <u who="#boderD" start="1572.585" end="x">And that has remained of all the Jews in Poland?</u>
+                    <u who="#wilfJ" start="1576.181" end="x">That has remained . . . in total there have remained of the Jews percent-wise, . . .</u>
+                    <u who="#boderD" start="1579.916" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="1580.398" end="x">. . . two percent of the former Jewish population of Poland.</u>
+                    <u who="#boderD" start="1586.362" end="x">And you say . . .</u>
+                    <u who="#wilfJ" start="1586.904" end="x">Ninety-eight percent of the Polish Jews, those who were in the country during the occupation . . . not counting those who were abroad . . .</u>
+                    <u who="#boderD" start="1596.272" end="x">Yes..</u>
+                    <u who="#wilfJ" start="1596.676" end="x">Ninety-eight percent of the Polish Jews who were there during the occupation have been murdered. There remained only—they saved themselves on so-called Arian, Christian papers . . .</u>
+                    <u who="#boderD" start="1608.013" end="x">Yes..</u>
+                    <u who="#wilfJ" start="1608.435" end="x">. . . These have saved themselves [a few words in Hebrew] in certain numbers [??].</u>
+                    <u who="#boderD" start="1615.875" end="x">[Pause] Now, Mr. Wilf, that is a very interesting point of view. Of course . . . now, what would you think would be the best solution of the problem for the Jews who are now all over—in the German <term ref="#vothG_lager">lagers</term>, here in France? For example, I understand that last week a whole <term ref="#vothG_yeshiva">Yeshiva</term> [Hebrew theological college] arrived from <placeName ref="Lódź">Lodz</placeName>, and still more are coming from there. Now what do you think . . . what shall be done with all these people?</u>
+                    <u who="#wilfJ" start="1653.624" end="x">This is precisely the incorrect approach taken on the part of the social [political] parties [?]. To us it is clear that since there are Jews in Poland who desire to emigrate to their relatives, or who let us say, those who following an ideological view wish to go to the Land of Israel . . . it is clear that such people should be given a chance [to do so]. But the social agencies [?] who deal with this problem should and must first of all establish emigration opportunities—legal human emigration opportunities; not to lead out of Poland the Jews in a state of chaos. More so, since 'objective' facilities are not available for it. To lead them into <term ref="#vothG_lager">lagers</term>, while we are being informed that the Jews in the German <term ref="#vothG_lager">lagers</term> live under very hard economic conditions . . . very hard economic conditions . . . and, in addition to it, there are at present—at this time there are no legal facilities to lead out the Jews anywhere, into some land where they could find a place of [safe] settlement. At present they sit around in the <term ref="#vothG_lager">lager</term> waiting to receive either 'certificates' for the Land of Israel, or emigration permits for other countries. It is clear that this situation—the liquidation of the Jewish <term ref="#vothG_lager">lagers</term> in Germany—will take no less than two years; and the sufferings of the Jews during these two years—the life of the Jews in the <term ref="#vothG_lager">lagers</term>—is obviously [to be] very hard.</u>
+                    <u who="#boderD" start="1758.523" end="x">[A long pause] Would you really take it unto yourself to tell the Polish Jews who now dwell in Germany, or in France, that it is safe for them . . . for them to return to Poland?</u>
+                    <u who="#wilfJ" start="1771.366" end="x">We have already cases at present . . . although these are isolated cases . . .</u>
+                    <u who="#boderD" start="1776.547" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="1777.252" end="x">Very few cases, but there are cases where Jews are returning to Poland. Because, as I have already stated, if there are Jews who consider that there is no safety for them to live in Poland, or who want to leave for other reasons, it is clear that for such reasons they will have a chance to leave. Because the Polish government does not impose obstructions against departure. But it seems clear that since there are no proper conditions to live in the <term ref="#vothG_lager">lagers</term> of Germany, that it would be more rational, logical, to remain in Poland—to make contact with relatives in America, in <term ref="#vothG_canada">Canada</term>, [or] in other countries—to obtain immigration permits, and to jorney directly from Poland to their relatives and not to go through with one of the most horrible interludes as we picture to ourselves the <term ref="#vothG_lager">lagers</term> of Germany.</u>
+                    <u who="#boderD" start="1838.856" end="x">[Pause] Are there some other instances that you would like to describe? You say that the Jews are active in other things. Have the Jewish professors returned to the University of <placeName ref="Warsaw">Warsaw</placeName>—to the other universities?</u>
+                    <u who="#wilfJ" start="1855.212" end="x">What concerns the Jewish intelligentsia in Poland . . . most of them were murdered during the time of the occupation. But those who are at present in Poland—they continue working in their previous positions.</u>
+                    <u who="#boderD" start="1876.730" end="x">[Pause] Anything else you want to talk about? About the whole situation? Do you have anything to add?</u>
+                    <u who="#wilfJ" start="1886.941" end="x">I just want to make this remark . . . that we, the Jews in Poland, the Jewish committees in Poland, devote ourselves since recently, not only to the great activities of relief, but direct especially our attention [efforts] toward the goal that every Jew should be able to rebuild his former workshop . . . endeavor to create all the conditions so that the Jews will be able to work productively—that they should rebuild in time [?] the Jewish life in Poland—build-up again the Jewish community of Poland. Cultural institutions are being created nowadays in Poland. We have now in Poland a union of Jewish writers [or a Jewish Literary Society]; we have two Jewish theaters; and we are endeavoring to reconstruct not only the Jewish economic life of Poland but we are endeavoring to build up the cultural life. We are endeavoring that this small Jewish community in Poland should again be a substantial Jewish community like before the war, and we endeavor that the Jewish Yishuv in Poland . . .</u>
+                    <u who="#boderD" start="1962.491" end="x">What is a 'Jewish Yishuv?' [He had used the term all the time during the interview and I understood him well from the context. However, I asked the question just to make sure the meaning of the term.]</u>
+                    <u who="#wilfJ" start="1963.726" end="x">The Jewish community [commonwealth] in Poland . . .</u>
+                    <u who="#boderD" start="1965.503" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="1965.891" end="x">. . . that just as they have taken an active part during the time of the war with the German invaders; just as the Jews have taken an active part during the war on all fronts, be it in the war at the front, be it with the <term ref="#vothG_partisans">partisans</term>, or in preparation of revolts. Just in the same manner, we Jews who are today in Poland desire to take part in the building up of a new Polish militia [army] on the basis of a new democratic principle. We desire to have a great part in the strengthening of democracy.</u>
+                    <u who="#boderD" start="2004.965" end="x">Now tell me this, something about Russia. You told me that you have worked as a lawyer. Did the Russians permit one to practice privately . . . privately as a lawyer? And you were getting privately paid by the people for your services?</u>
+                    <u who="#wilfJ" start="2022.174" end="x">The legal profession in Russia forms a guild . . .</u>
+                    <u who="#boderD" start="2026.783" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2027.699" end="x">. . . a 'collective' [a cooperative].</u>
+                    <u who="#boderD" start="2029.428" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2030.073" end="x">Everyone who has the proper qualification, joins the collective in the corresponding city and becomes a member of the legal profession . . .</u>
+                    <u who="#boderD" start="2042.043" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2042.808" end="x">. . . which renders legal services to the population—appears at trials and deals with all Jewish problems [corrects himself], all Juridicial problems.</u>
+                    <u who="#boderD" start="2050.639" end="x">Juridicial . . .</u>
+                    <u who="#wilfJ" start="2052.447" end="x">The salary received by the lawyer in Russia is a percent of that what the client pays to the . . .</u>
+                    <u who="#boderD" start="2060.622" end="x">. . . to the cooperative?</u>
+                    <u who="#wilfJ" start="2061.839" end="x">. . . to the cooperative.</u>
+                    <u who="#boderD" start="2062.755" end="x">Oh. Is the client able to choose which lawyer he wants?</u>
+                    <u who="#wilfJ" start="2065.869" end="x">The client comes to the juridicial cooperative and demands specifically this or the other lawyer.</u>
+                    <u who="#boderD" start="2073.490" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2074.074" end="x">In this way lawyers who have a greater juridicial prestige, greater juridicial abilities . . .</u>
+                    <u who="#boderD" start="2081.454" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2081.737" end="x">. . . education . . .</u>
+                    <u who="#boderD" start="2082.159" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2082.743" end="x">. . . have the right to take advantage of the better opportunities, and have a greater legal practice than other lawyers who are 'weaker' and . . . and [word not clear].</u>
+                    <u who="#boderD" start="2093.978" end="x">Could you tell me about some interesting cases that you had during your whole period of [legal] practice?</u>
+                    <u who="#wilfJ" start="2099.400" end="x">During the time that I spent in Russia I participated very often, and that in spite of the fact that I came from Poland . . . So, in time, since I had been working, I was admitted to the trials against those who acted [?] during the war against the Russian government.</u>
+                    <u who="#boderD" start="2122.514" end="x">Hm . . .</u>
+                    <u who="#wilfJ" start="2122.755" end="x">Those were the so-called counter-revolutionary trials.</u>
+                    <u who="#boderD" start="2126.183" end="x">Yes . . .</u>
+                    <u who="#wilfJ" start="2126.978" end="x">And I was established as a lawyer in spite of the fact that I took part in the so-called counter-revolutionary trials . . .</u>
+                    <u who="#boderD" start="2135.231" end="x">You defended them?</u>
+                    <u who="#wilfJ" start="2136.225" end="x">. . . I defended [them]. The government—the Soviet government—gives anyone who is indicted [and] that is already provided for in the Constitution, the right to have a defender [a lawyer, legal council]. He has a right to choose council; and if he has no council the government provides one. And so it happened often, that I had a chance to represent such [people] in counter-revolutionary trials; and I must affirm that they had all the rights of defense just like in any other country.</u>
+                    <u who="#boderD" start="2171.324" end="x">Did you ever win [such] a case?</u>
+                    <u who="#wilfJ" start="2173.113" end="x">There were cases when there were indicted citizens—Soviet citizens, also Polish citizens -for counter-revolutionary agitation and propaganda. And as a consequence [in course of] the trial, it was often revealed that the testimonies of the witnesses were not correct and there were often cases that the people were set free.</u>
+                    <u who="#boderD" start="2197.365" end="x">That was not a military court?</u>
+                    <u who="#wilfJ" start="2199.715" end="x">No. Such special general courts which handled all other cases; and they also decide the cases of the counter-revolutionary activities.</u>
+                    <u who="#boderD" start="2210.028" end="x">Did they have a jury? [Repeats the term in Russian].</u>
+                    <u who="#wilfJ" start="2213.131" end="x">There in Russia it is arranged that there is a president [presiding judge] who is elected, and in addition there are peoples' representatives.</u>
+                    <u who="#boderD" start="2223.120" end="x">How many?</u>
+                    <u who="#wilfJ" start="2223.994" end="x">Two.</u>
+                    <u who="#boderD" start="2225.018" end="x">And they handle [?] the trial?</u>
+                    <u who="#wilfJ" start="2228.602" end="x">Yes.</u>
+                    <u who="#boderD" start="2230.168" end="x">Thank you very much, Mr. Wilf. This was a special report—a special message [Wire apparently terminates in the middle of the sentence].</u>
+                    <p>[Note: In reading this material one should always keep in mind that the translations are verbatim without editorial adaptations of any kind. —D.P.B.]</p>
+                </div>
+                <!-- End spool 9-50 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

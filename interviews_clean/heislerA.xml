@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Adolph Heisler; August 27, 1946; Genève, Switzerland</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT39M39.807S" id="heislerA_9-81">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-81</note>
+                                <placeName ref="Genève"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-27</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="heislerA_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="heislerA_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="heislerA" role="interviewee">
+                        <persName>
+                            <forename>Adolph</forename>
+                            <surname>Heisler</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>18</age>
+                        <birth ref="Chynadiyovo"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Czechoslovakia"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <trait type="tattoo">
+                            <desc>A4470</desc>
+                        </trait>
+                        <event type="invasion" ref="Chynadiyovo">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Munkács Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Birkenau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Buchenwald concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Trawniki concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Ohrdruf concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Weimar" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#heislerA_de">
+                <!-- begin Spool 9-81 -->
+                <div lang="en">
+                    <u who="#boderD" start="1.593" end="x">(In English) This is Spool 81. Geneva, August 27th, 1946. The interview is with Adolph Heisler, eighteen (18) years old, from the Czech territory, which presumably has become Russian now. He carries a tattoo number A 4470. (A four, four ,seven, zero)</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="29.093" end="x">Also, Herr Heisler, also wollen Sie uns noch einmal sagen Ihren ganzen Namen und wo sind Sie geboren. Sprechen Sie laut, langsam und ziemlich laut, nun?</u>
+                    <u who="#heislerA" start="38.323" end="x">Also, mein Name ist Adolph Heisler und ich ....</u>
+                    <u who="#boderD" start="41.790" end="x">Ja.</u>
+                    <u who="#heislerA" start="41.951" end="x">...und ich komme aus der Tschechoslowakei, aus Karpathen Russland. Achtzehn (18) Jahre bin ich alt und ich bin deportiert worden später nach Auschwitz.</u>
+                    <u who="#boderD" start="51.997" end="x">Ja. Also erzählen Sie mir, wo waren Sie und was ist Ihnen passiert, wie der Krieg angefangen hat.</u>
+                    <u who="#heislerA" start="60.066" end="x">Wenn der Krieg angefangen hat, hat man uns genommen in ein Ghetto and da hat man uns sehr mies behandelt. Und nach dem Ghetto ... in dem Ghetto waren wir ein Monat und nach einem Monat hat man uns deportiert mit dem Zug nach Auschwitz. </u>
+                    <u who="#boderD" start="75.106" end="x">Nun warten Sie mal. Ich will diese ganze Geschichte wissen. Das ist doch nicht so schnell gegangen. Wie hat man bekannt gemacht, wie ... Wer waren Ihre Eltern? Was war Ihr Vater und Ihre Mutter?</u>
+                    <u who="#heislerA" start="87.746" end="x">Also wir hatten eine große Landwirtschaft und mein Vater hatte ein großes Holzunternehmen, da hat man in die Wälder ....</u>
+                    <u who="#boderD" start="96.353" end="x">Ja, nun?</u>
+                    <u who="#heislerA" start="97.874" end="x">Alles ... und da hat man uns alles zugenommen ...</u>
+                    <u who="#boderD" start="102.448" end="x">Nun, Ihr Vater war ein Holzhändler und hatte .. war Landwirt?</u>
+                    <u who="#heislerA" start="105.662" end="x">Ja und ... </u>
+                    <u who="#boderD" start="106.677" end="x">In der Stadt oder neben der Stadt?</u>
+                    <u who="#heislerA" start="108.230" end="x">In der Nähe der Stadt.</u>
+                    <u who="#boderD" start="109.261" end="x">In der Nähe der Stadt. Und haben Sie Brüder und Schwestern gehabt?</u>
+                    <u who="#heislerA" start="113.848" end="x">Ja, ich hatte zwei (2) Brüder. Ein Bruder lebt noch jetzt, er ist im russischen Territorium – bei der Tante lebt er.</u>
+                    <u who="#boderD" start="119.956" end="x">In Russland?</u>
+                    <u who="#heislerA" start="120.655" end="x">Ja. </u>
+                    <u who="#boderD" start="121.288" end="x">Und der Andere?</u>
+                    <u who="#heislerA" start="122.525" end="x">Der Andere .... von dem Anderen weiß ich nichts und von die Eltern weiß ich auch nichts.</u>
+                    <u who="#boderD" start="125.928" end="x">Sie wissen nichts von Ihren Eltern?</u>
+                    <u who="#heislerA" start="127.320" end="x">Nein.</u>
+                    <u who="#boderD" start="127.921" end="x">Haben Sie von Ihrem Bruder im russischen Territorium einen Brief bekommen?</u>
+                    <u who="#heislerA" start="132.194" end="x">Von meinem Bruder nicht, aber ein Mädel hat mir geschrieben, ein bekanntes Mädel, sie wohnte nah bei, hm, neben uns, sie hat mir geschrieben, dass sie hat gesprochen mit meinem Bruder. Und ich hab auch einmal telegraphiert und alles, aber Antwort hab ich nicht bekommen. Ich weiß nicht ... ich kann nicht in Verbindung kommen mit Russland und ich weiß auch nicht wies ihm geht und alles.</u>
+                    <u who="#boderD" start="155.301" end="x">Ja, nun also in der Stadt gelebt, wie hat die Stadt geheißen?</u>
+                    <u who="#heislerA" start="161.504" end="x">Chynadiyovo.</u>
+                    <u who="#boderD" start="162.662" end="x">Chynadiyovo. </u>
+                    <u who="#heislerA" start="163.851" end="x">Ja.</u>
+                    <u who="#boderD" start="164.168" end="x">Wie schreibt man das?</u>
+                    <u who="#heislerA" start="165.879" end="x">C. </u>
+                    <u who="#boderD" start="167.018" end="x">Ah, C.</u>
+                    <u who="#heislerA" start="168.872" end="x">Z</u>
+                    <u who="#boderD" start="169.049" end="x">Czyna ....</u>
+                    <u who="#heislerA" start="170.096" end="x">Chynadiyovo. </u>
+                    <u who="#boderD" start="171.254" end="x">Chynadiyovo. </u>
+                    <u who="#heislerA" start="172.428" end="x">Ja, das ist eine tschechische Stadt bei (unverständlich).</u>
+                    <u who="#boderD" start="173.870" end="x">Nun, als erzählen Sie mir, die Deutschen sind dorthin gekommen. Wie sind sie da rein gekommen?</u>
+                    <u who="#heislerA" start="181.591" end="x">Ja, also sie sind sofort hereingekommen, wir haben gesehen die deutsche Besetzung mit dem Militär und es ist auf einmal schwarz geworden vor den Juden ihre Augen. Und nach zwei (2) Wochen am Morgen sind sie gekommen und man hat nichts gewusst, sie besetzen die Häuser und das war dann in 2 Stunden alles zusammen gepackt und deportiert worden. Man hat nicht gewusst wohin. Wir wurden geführt zu einem Haus, in diesem Haus hat man zusammen getrieben und man ... alle mit den Autos in das Ghetto.</u>
+                    <u who="#boderD" start="213.645" end="x">Ja. Wo ... wo war das Ghetto? Wie hat man das Ghetto gemacht?</u>
+                    <u who="#heislerA" start="217.283" end="x">Das Mukachevo Ghetto. Das waren große Barracken von einer Ziegelfabrik. Dort waren große Barracken von Holz, die voll waren mit Ziegel, die man dort gelagert. Und es war sehr (unverständlich) konnte es nicht aushalten, denn es waren schrecklich viele Menschen. In einer Baracke wohnten drei tausend (3000) Mann, da war kein Platz und schrecklich viele Menschen und ...</u>
+                    <u who="#boderD" start="241.160" end="x">Männer und Frauen und Kinder alles zusammen?</u>
+                    <u who="#heislerA" start="243.251" end="x">Alles zusammen. Die Familien waren ... dort waren noch die Familien zusammen.</u>
+                    <u who="#boderD" start="247.619" end="x">Ja, nun, und Sie waren der Ältes....., ja, sie haben einen Bruder und eine ...</u>
+                    <u who="#heislerA" start="252.427" end="x">Ja, zwei Brüder.</u>
+                    <u who="#boderD" start="253.031" end="x">Zwei Brüder haben Sie gehabt?</u>
+                    <u who="#heislerA" start="254.125" end="x">Ja.</u>
+                    <u who="#boderD" start="254.521" end="x">Waren die älter oder jünger?</u>
+                    <u who="#heislerA" start="256.074" end="x">Jüngere Brüder.</u>
+                    <u who="#boderD" start="257.189" end="x">Jüngere Brüder. Nun, und, hm, wie lange sind Sie gewesen dort in dieser Ziegelfabrik?</u>
+                    <u who="#heislerA" start="263.972" end="x">In der Ziegelfabrik waren wir vier, vier (4) Wochen.</u>
+                    <u who="#boderD" start="266.966" end="x">Ja, und wer hat Ihnen zu Essen gegeben, was hat man zu Essen gegeben?</u>
+                    <u who="#heislerA" start="270.445" end="x">Ja, die Kehille haben sich selbst ausgehalten noch von dieser Verpflegung, weil wir haben gehabt die Lebensmittel und alles haben sie weg transportieren von zu Hause. Die Operation hat alles zugenommen und ....</u>
+                    <u who="#boderD" start="281.612" end="x">Ja.</u>
+                    <u who="#heislerA" start="283.024" end="x">... und es war nicht genug, was man gebracht hat von der Stadt.</u>
+                    <u who="#boderD" start="287.442" end="x">Ja. Und wer war die Kehille?</u>
+                    <u who="#heislerA" start="291.059" end="x">Das war die jüdische Gemeinde, weil die haben gesagt, dass man soll (unverständlich) haben noch nicht zugenommen das Geld, Protektion und sie waren (unverständlich) zum Transportieren Lebensmittel.</u>
+                    <u who="#boderD" start="304.956" end="x">Lebensmittel. Nun, und nach, hm, .....das hat gedauert, sagen Sie, vier (4) Wochen?</u>
+                    <u who="#heislerA" start="309.813" end="x">Vier (4) Wochen.</u>
+                    <u who="#boderD" start="310.583" end="x">Und was ist dann passiert? Sagen Sie mir die ganzen Einzelheiten, wie es war.</u>
+                    <u who="#heislerA" start="315.001" end="x">Also sie kommen an einem Morgen und sie haben gesagt, wer die Rechte hat von dieser Stadt, die Zugehörigkeit, dann ist es möglich, dass er da bleiben darf und ... dass er nach Hause gelassen werden. Und so haben wir gebracht alle Papiere, wir haben auch gezeigt Papiere, alles gute Papiere. Und sie haben die zugenommen. Und auf einmal sieht man ein großes Feuer von den Papieren. Sie haben sie nur über uns Spaß gemacht. Und am anderen Tag .....</u>
+                    <u who="#boderD" start="341.086" end="x">Also Sie sagen, man hat die Papiere gesammelt und was hat man dann getan?</u>
+                    <u who="#heislerA" start="345.191" end="x">Man hat sie verbrennt, weil sie wollen selber, dass sie damit wir nicht haben um auszureisen ....</u>
+                    <u who="#boderD" start="351.720" end="x">Ja.</u>
+                    <u who="#heislerA" start="352.237" end="x">... und am anderen Tag an Morgen hat man nicht erlaubt, dass man verlässt die Baracke und man soll hinein kommen in einen Haufen Wagons. Und dann haben sie gepackt diese Wagonen zu hundert (100) hat man in einen Wagon, ohne Essen, ohne Allem und man hat uns transportiert ... wir wurden transportiert, wohin aber hat niemand gewusst. Wir fahren .... wir fahren zwei (2) Wochen auf dem Zug. Und dann sind wir rausgekommen nach Auschwitz. Wir wussten nicht ......</u>
+                    <u who="#boderD" start="377.340" end="x">Ja, noch ....</u>
+                    <u who="#heislerA" start="378.126" end="x">Wir wussten nichts von Auschwitz .... von der Vernich...., weil wir haben gesehen, die Arbeiter ... Leute in Häftlingskleider, aber wir haben nicht gewusst, was das bedeutet. Dann aber ... dann haben wir die ganze Geschichte gehört.</u>
+                    <u who="#boderD" start="391.080" end="x">Also, wollen wir ein bisserl zurück gehen. Man hat sie auf ....alle hinein gesetzt in die Wagons.</u>
+                    <u who="#heislerA" start="397.174" end="x">Ja.</u>
+                    <u who="#boderD" start="397.302" end="x">Was für Wagons waren das?</u>
+                    <u who="#heislerA" start="398.840" end="x">Das waren Lastwagen Wagons für die Vieh. Sehr viele Personen waren da, es war sehr voll gestopft, ohne Wasser. Man hat kein Wasser uns nicht gegeben. Das Essen war gar nichts, weil von zu Hause hat man nicht mehr, wir waren doch schon vier (4) Wochen in dem Ghetto, alles was wir hatten war weg.</u>
+                    <u who="#boderD" start="417.949" end="x">Und wie viele Personen waren in einem Wagon?</u>
+                    <u who="#heislerA" start="420.833" end="x">Wir waren ein hundert (100) Leute in einem Wagon.</u>
+                    <u who="#boderD" start="422.981" end="x">Waren dort Stühle, waren dort Bänke ......</u>
+                    <u who="#heislerA" start="425.001" end="x">Nein, nein, da waren keine. Die Decken hat man zugenommen, alles hat man zugenommen, wir liegen auf die Holzbretter.</u>
+                    <u who="#boderD" start="431.063" end="x">Waren Ihre Mutter und Ihr Vater mit Ihnen?</u>
+                    <u who="#heislerA" start="433.289" end="x">Ja, war noch in dem Wagon auch, aber .....</u>
+                    <u who="#boderD" start="435.184" end="x">Und die zwei (2) Brüder?</u>
+                    <u who="#heislerA" start="436.612" end="x">Auch, also alle waren zusammen. Nur in Auschwitz – wie wir sind dran gekommen, hat man uns verteilt alle.</u>
+                    <u who="#boderD" start="442.753" end="x">Ein Moment .... also hat man sie reingeschoben in die Wagons. War da eine Toilette?</u>
+                    <u who="#heislerA" start="449.708" end="x">Nichts, nichts.</u>
+                    <u who="#boderD" start="450.838" end="x">So wie hat man das getan, wenn man hat wollen gehen ... zum, hm, zum ... Bidet oder?</u>
+                    <u who="#heislerA" start="456.506" end="x">Wir hatten einige Töpfe, so hatten wir ....</u>
+                    <u who="#boderD" start="459.278" end="x">Ja?</u>
+                    <u who="#heislerA" start="459.704" end="x">... Toiletten gemacht und dann ausgeschüttet.</u>
+                    <u who="#boderD" start="462.995" end="x">Ausgeschüttet wo?</u>
+                    <u who="#heislerA" start="464.436" end="x">Hinaus aus dem Wagon. </u>
+                    <u who="#boderD" start="465.723" end="x">Waren die Wagons offen?</u>
+                    <u who="#heislerA" start="467.357" end="x">Da war eine kleine Öffnung, durch das Fenster....</u>
+                    <u who="#boderD" start="470.290" end="x">Ja.</u>
+                    <u who="#heislerA" start="470.650" end="x">... und mit Draht ...</u>
+                    <u who="#boderD" start="471.971" end="x">Ja.</u>
+                    <u who="#heislerA" start="472.129" end="x">... und da hat man kaum die Hand durch.</u>
+                    <u who="#boderD" start="474.256" end="x">Und wie haben die Männer und Frauen ... die Frauen diese Töpfe benutzt?</u>
+                    <u who="#heislerA" start="478.165" end="x">Ja, da war alles gleich, egal ... man hat da nicht sehr viel geschaut, da.</u>
+                    <u who="#boderD" start="482.180" end="x">Ja, also und wir lange sind man gefahren? </u>
+                    <u who="#heislerA" start="488.678" end="x">Zwei (2) Wochen.</u>
+                    <u who="#boderD" start="489.782" end="x">Zwei (2) Wochen?</u>
+                    <u who="#heislerA" start="490.607" end="x">Ja.</u>
+                    <u who="#boderD" start="491.122" end="x">Und hat man die Wagons da jeden Tag los gemacht?</u>
+                    <u who="#heislerA" start="493.496" end="x">Nein.</u>
+                    <u who="#boderD" start="495.784" end="x">Und Wasser?</u>
+                    <u who="#heislerA" start="497.249" end="x">Auch nicht. Wir hatten ... jeder hat sich noch mitgenommen vom Ghetto einen Eimer Wasser und wir haben bekommen Brot, das heißt zwei (2) Kilo Brot und mit diesem hat man gelebt die ganze Zeit ...</u>
+                    <u who="#boderD" start="507.308" end="x">Also?</u>
+                    <u who="#heislerA" start="507.866" end="x">... pro Person.</u>
+                    <u who="#boderD" start="508.790" end="x">Haben Sie und Ihre Familie genug zu essen gehabt?</u>
+                    <u who="#heislerA" start="512.169" end="x">Von genug ist leider da nicht, aber was kann man machen?</u>
+                    <u who="#boderD" start="515.339" end="x">Ja, nun .... sind sie alle .... was haben die Menschen den ganzen Tag im Wagon getan?</u>
+                    <u who="#heislerA" start="522.610" end="x">Gar nichts. Wir haben uns gesetzt, Einer hat gesagt, das passiert. Und Einer hat gesagt, das wird sein. Wir haben absolut nichts gewusst und wir waren ganz nervös. Wir waren alle nicht mehr normal von der Geschichte was ist vorher gegangen.</u>
+                    <u who="#boderD" start="536.073" end="x">Aha. Und nun wann sind Sie angekommen und wann? In Auschwitz?</u>
+                    <u who="#heislerA" start="539.424" end="x">In Auschwitz.</u>
+                    <u who="#boderD" start="540.320" end="x">Erzählen Sie, wenn der Zug ist angekommen, was ist dann passiert? Also was hat dort passiert?</u>
+                    <u who="#heislerA" start="546.935" end="x">Also wir sind dort angekommen.</u>
+                    <u who="#boderD" start="548.556" end="x">(Lärm im Mikrophon) Also warten Sie mal ………….nun?</u>
+                    <u who="#heislerA" start="550.944" end="x">Wir sind dort angekommen nach Auschwitz. Es ist dort gestanden ein SS Sturm Führer und der hat aussortiert die alten Menschen und die Kinder auf eine Seite und die Arbeitsfähigen, die die sehr gut und arbeitsfähig ausgesehen haben, die hat er auf die andere Seite. Die Anderen, die haben sie weg geführt und wohin wir haben nicht gewusst. Nur am anderen Tag haben wir gesehen die große Flamme mit Rauch vom Krematorium, wo man hat sie verbrannt. Und wir sind gegangen in Baracken. </u>
+                    <u who="#boderD" start="577.944" end="x">Wer sind das: wir?</u>
+                    <u who="#heislerA" start="579.632" end="x">Wir – die Arbeitsfähigen, ich war auch unter ihnen und ich habe ...</u>
+                    <u who="#boderD" start="583.332" end="x">Also was ist passiert mit Ihrer Familie, wenn sie kamen nach Auschwitz?</u>
+                    <u who="#heislerA" start="587.855" end="x">Zu meiner Familie hat passiert, dass mein Bruder und ich sind wir gestanden auf einer Seite und die Übrigen sind gestanden ....</u>
+                    <u who="#boderD" start="594.805" end="x">Wer war die Übrigen?</u>
+                    <u who="#heislerA" start="595.910" end="x">Die Mutter. Der Vater war nicht da, denn den Vater hat man zugenommen zum, hm, Dienst, zum militärischen Dienst, noch zu Hause.</u>
+                    <u who="#boderD" start="604.855" end="x">Ja.</u>
+                    <u who="#heislerA" start="605.316" end="x">Und die Mutter mit dem kleinen Bruder ist, hm, ..... ist gegang ... wurde genommen auf die andere Seite mit ... so mit den nicht Arbeitsfähigen.</u>
+                    <u who="#boderD" start="613.843" end="x">Also das habe ich nicht gewusst! Ihr Vater ist nicht mit Ihnen gewählt worden, Ihr Vater wurde genommen zum militärischen Dienst. War Ihr Vater mit Ihnen im Ghetto dabei?</u>
+                    <u who="#heislerA" start="623.179" end="x">Nein.</u>
+                    <u who="#boderD" start="623.768" end="x">Nein, also wo war er da? War er in der ungarischen Armee?</u>
+                    <u who="#heislerA" start="627.217" end="x">Ja.</u>
+                    <u who="#boderD" start="627.555" end="x">Hm, war er in der tschechischen Armee?</u>
+                    <u who="#heislerA" start="629.330" end="x">Ja, er war in der tschechischen Armee. Und da wurde er einberufen und diese starken Menschen, die gut arbeitsfähig waren zu graben, Schützengraben zu graben.</u>
+                    <u who="#boderD" start="639.740" end="x">Ja.</u>
+                    <u who="#heislerA" start="640.146" end="x">Und er ist auch dort geblieben. Und wir waren im Ghetto.</u>
+                    <u who="#boderD" start="643.802" end="x">Aha. Und Sie haben ihn nicht .... er hat sie nicht gesehen bevor Sie weggefahren sind.</u>
+                    <u who="#heislerA" start="647.056" end="x">Nein.</u>
+                    <u who="#boderD" start="647.709" end="x">Ja und Sie haben nichts von ihm gehört.</u>
+                    <u who="#heislerA" start="649.191" end="x">Nein.</u>
+                    <u who="#boderD" start="649.803" end="x">Also die Mutter und der kleine Junge haben sie in Auschwitz auf die andere Seite gestellt?</u>
+                    <u who="#heislerA" start="653.236" end="x">Ja.</u>
+                    <u who="#boderD" start="654.057" end="x">Nun, also weiter.</u>
+                    <u who="#heislerA" start="656.247" end="x">Und der Bruder und ich sind gegangen – wie sagt man – baden.</u>
+                    <u who="#boderD" start="661.343" end="x">Ja.</u>
+                    <u who="#heislerA" start="661.667" end="x">Und nach dem Baden hat man abgeschoren alles und hat man uns geführt in eine Baracke.</u>
+                    <u who="#boderD" start="666.306" end="x">Was meinen Sie, man hat abgeschoren alles? War das ....</u>
+                    <u who="#heislerA" start="668.322" end="x">Die Haare und alles abgeschoren.</u>
+                    <u who="#boderD" start="669.692" end="x">Am ganzen Körper.</u>
+                    <u who="#heislerA" start="670.490" end="x">Am ganzen Körper.</u>
+                    <u who="#boderD" start="671.549" end="x" lang="en">Also weiter (Läuten, wie ein Telefon) Dr. Boder (in English): that was a telephone interruption. (Auf deutsch): Nun?</u>
+                    <u who="#heislerA" start="676.561" end="x">Und dann hat man uns - nach dem Abscheren und nach dem Bad - hat man uns angezogen die Häftlingsanzüge, sie waren so wie die Anderen. Wir haben nicht gewusst, was da los ist. Und wie wir sind rausgekommen, haben wir gesehen, wie die Stecken geflogen sind bei die Häftling über die Rücken und Köpfe.</u>
+                    <u who="#boderD" start="694.065" end="x">Also wer hat sie geschlagen?</u>
+                    <u who="#heislerA" start="695.837" end="x">Es waren die SS und es waren die deutschen Kriegs... nicht Kriegsverbrecher, sondern Verbrecher, die im sechs und dreißiger (36) Jahr noch nicht in den Konzentrationslagern waren und die waren noch ärger als die SS selbst.</u>
+                    <u who="#boderD" start="711.714" end="x">Ja.</u>
+                    <u who="#heislerA" start="712.009" end="x">Und diese hat man genommen als ‚capos’, das heißt sie haben absolute Kraft über die Häftlinge gehabt in dem Lager, selbst haben das gehabt bei dem Kommando, sie haben gehabt (unverständlich).</u>
+                    <u who="#boderD" start="724.940" end="x">Ja.</u>
+                    <u who="#heislerA" start="726.002" end="x">Und dann hat man uns getrieben in die Baracken. Und dann wenn kommt der andere Tag – auch nichts zu essen und schlafen haben wir überhaupt nicht können, denn es war kalt und es waren die Steine, eine Baracke von Steine und da ....</u>
+                    <u who="#boderD" start="742.929" end="x">Ein Steinboden?</u>
+                    <u who="#heislerA" start="744.661" end="x">Ja. Und da sind wir gesessen. Das war in Birkenau selbst.</u>
+                    <u who="#boderD" start="748.019" end="x">Ja.</u>
+                    <u who="#heislerA" start="748.141" end="x">Das war noch nicht in Auschwitz, das war, hm, das Quarantäne Lager für Auschwitz.</u>
+                    <u who="#boderD" start="752.322" end="x">Ja. Das war was für ein Lager?</u>
+                    <u who="#heislerA" start="754.052" end="x">Quarantäne Lager. </u>
+                    <u who="#boderD" start="755.151" end="x">Ein Quarantäne Lager für Auschwitz? </u>
+                    <u who="#heislerA" start="756.109" end="x">Die Leute wurden dort gebadet und abgeschoren und angezogen. Und Auschwitz war schon ....es war nahe von Auschwitz und Auschwitz war ein Arbeitslager.</u>
+                    <u who="#boderD" start="764.591" end="x">Ja, nun?</u>
+                    <u who="#heislerA" start="766.543" end="x">Und dort hat man uns dann gefragt, was wir (unverständlich) und sie haben gesagt, wir müssen arbeiten.</u>
+                    <u who="#boderD" start="774.769" end="x">Ja.</u>
+                    <u who="#heislerA" start="775.507" end="x">Und so habe ich gesagt, ich bin ein Schlosser, denn ich habe gewusst, dass es immer besser ist zu sagen, dass man irgend eine Arbeit hat, als im Feld zu arbeiten, aber ...</u>
+                    <u who="#boderD" start="784.253" end="x">Haben Sie verstanden Schlosserei?</u>
+                    <u who="#heislerA" start="786.438" end="x">Ja, ich bin dort in die Schule und zu Haus ich habe immer gern gehabt, so mit dieser Sache herum zu spielen.</u>
+                    <u who="#boderD" start="790.768" end="x">Ja.</u>
+                    <u who="#heislerA" start="790.901" end="x">Und ich wusste ganz genau, dass sie gebraucht haben einen Schlosser da, .... und da habe ich eine Ahnung und so habe ich mich dazu beworben.</u>
+                    <u who="#boderD" start="800.260" end="x">Ja.</u>
+                    <u who="#heislerA" start="801.625" end="x">Und so habe ich mich dazu beworben. Also, ich habe selber kein Glück gehabt für das, weil ....weil ich bin ... sie haben mich nicht zugenommen dazu.</u>
+                    <u who="#boderD" start="809.081" end="x">Ja.</u>
+                    <u who="#heislerA" start="810.118" end="x">Und am nächsten Tag hat man uns hinaus gerufen. Wir haben .... wir haben schon gehabt die .... die Nummern haben wir noch nicht gehabt.</u>
+                    <u who="#boderD" start="818.201" end="x">Ja.</u>
+                    <u who="#heislerA" start="818.696" end="x">Und wir wurden heraus gerufen und man hat uns geführt nach Auschwitz, zum Lager Auschwitz. Dort wie wir sind angekommen hat man uns gegeben eine Supp zu essen. Es war schon am dritten (3.) Tag und so wir haben bekommen einen (1) Liter Supp und man hat uns geführt zum nummerieren.</u>
+                    <u who="#boderD" start="837.269" end="x">Zum Tätowieren.</u>
+                    <u who="#heislerA" start="838.234" end="x">Ja.</u>
+                    <u who="#boderD" start="838.598" end="x">Wenn jeder hat bekommen einen (1) Liter Supp, worin hat man die Supp gegeben?</u>
+                    <u who="#heislerA" start="842.506" end="x">Das waren solche Schüssel, die Schüssel ... zerbrochene Schüssel, was waren von die Transporte zusammen geholt, weil sie mitgenommen haben die Töpfe ...</u>
+                    <u who="#boderD" start="850.420" end="x">Ja.</u>
+                    <u who="#heislerA" start="850.567" end="x">... von den Wagonen ....</u>
+                    <u who="#boderD" start="851.836" end="x">Ja, nun?</u>
+                    <u who="#heislerA" start="852.236" end="x">... und die haben sie zusammen gesammelt und haben in diesen die Suppe gegeben ...</u>
+                    <u who="#boderD" start="856.191" end="x">Ja.</u>
+                    <u who="#heislerA" start="856.432" end="x">... zu essen.</u>
+                    <u who="#boderD" start="857.139" end="x">Nun?</u>
+                    <u who="#heislerA" start="858.455" end="x">Und nachdem wir bekommen haben die Suppe, und danach tätowiert. Wir sind dann noch geblieben zwei (2) Tage und am dritten (3.) Tag hat man uns weg genommen und man hat geteilt vom Bruder und ich mich hat man weggenommen in einer Kohlengrube zu arbeiten. Das war acht (8) Kilometer von Auschwitz, in Jawischowitz (Jawiszowice).</u>
+                    <u who="#boderD" start="876.409" end="x">Jawischowitz?</u>
+                    <u who="#heislerA" start="877.283" end="x">Ja.</u>
+                    <u who="#boderD" start="877.689" end="x">In einer Kohlengrube.</u>
+                    <u who="#heislerA" start="878.766" end="x">Ja.</u>
+                    <u who="#boderD" start="879.053" end="x">Und hat man Ihnen gegeben Hammer und hat man Ihnen gegeben ....</u>
+                    <u who="#heislerA" start="882.434" end="x">Ja, so wie jeder .... wie jeder Arbeiter hab ich ......</u>
+                    <u who="#boderD" start="884.801" end="x">Und eine Lampe auf dem Kopf?</u>
+                    <u who="#heislerA" start="886.332" end="x">Nicht auf dem .... wir haben gehabt in die Hände Lampen. Und zwar hat sechs (6) Kilo die Lampe und selbst haben wir getragen.</u>
+                    <u who="#boderD" start="893.631" end="x">Warum, warum war die Lampe so schwer? Was war das?</u>
+                    <u who="#heislerA" start="896.459" end="x">Es war ... ich weiß nicht, es waren die ... die Karbid – nicht Karbid Lampen, aber ....</u>
+                    <u who="#boderD" start="901.274" end="x">Ja.</u>
+                    <u who="#heislerA" start="901.999" end="x">... solche Laternen, elektrische Akkumulator-Laterne.</u>
+                    <u who="#boderD" start="905.257" end="x">Oh, das waren ... ja.</u>
+                    <u who="#heislerA" start="906.740" end="x">Und das waren ....</u>
+                    <u who="#boderD" start="906.977" end="x">Mit Batterien?</u>
+                    <u who="#heislerA" start="907.879" end="x">Ja.</u>
+                    <u who="#boderD" start="908.535" end="x">Ja?</u>
+                    <u who="#heislerA" start="908.903" end="x">Das waren solche Lampen damit sie es auch aushalten zwölf (12) Stunden, weil wir haben acht (8) Stunden Arbeit ...</u>
+                    <u who="#boderD" start="915.525" end="x">Aha.</u>
+                    <u who="#heislerA" start="915.678" end="x">... aber (unverständlich) musste leuchten, weil wir ...</u>
+                    <u who="#boderD" start="920.097" end="x">Ja?</u>
+                    <u who="#heislerA" start="920.250" end="x">... die Appells hatten und das und das.</u>
+                    <u who="#boderD" start="922.369" end="x">Und dann hat man die Lampen jede Nacht wieder chargiert?</u>
+                    <u who="#heislerA" start="925.595" end="x">Ja, abgegeben. Jeder hat eine Lampen Nummer und jeder ...</u>
+                    <u who="#boderD" start="928.919" end="x">Ja.</u>
+                    <u who="#heislerA" start="929.046" end="x">... hat abgegeben die Lampe.</u>
+                    <u who="#boderD" start="930.240" end="x">Ja. Und haben Sie zuvor gearbeitet mit Kohlen?</u>
+                    <u who="#heislerA" start="934.923" end="x">Nein. </u>
+                    <u who="#boderD" start="935.436" end="x">Nein.</u>
+                    <u who="#heislerA" start="935.568" end="x">Ich habe ... ich habe ....</u>
+                    <u who="#boderD" start="936.134" end="x">Wie alt waren Sie damals?</u>
+                    <u who="#heislerA" start="937.455" end="x">Sechzehn (16) Jahre.</u>
+                    <u who="#boderD" start="938.540" end="x">Aha. Und mit wem sind Sie gegangen? Alle Häftlinge oder waren Sie ...</u>
+                    <u who="#heislerA" start="941.734" end="x">Alle Häftlinge.</u>
+                    <u who="#boderD" start="942.949" end="x">Ja. Und wie tief sind sie runter gegangen.</u>
+                    <u who="#heislerA" start="945.983" end="x">Das war vier und sechzig (64) Meter in die Tiefe.</u>
+                    <u who="#boderD" start="948.451" end="x">Vier und sechzig (64) Meter in die Tiefe. </u>
+                    <u who="#heislerA" start="949.591" end="x">Ja.</u>
+                    <u who="#boderD" start="949.817" end="x">ist man runter gegangen in was? In einem?</u>
+                    <u who="#heislerA" start="951.777" end="x">In einem Lift.</u>
+                    <u who="#boderD" start="952.907" end="x">Ja.</u>
+                    <u who="#heislerA" start="953.047" end="x">Ist man runter gegangen in einem Lift.</u>
+                    <u who="#boderD" start="954.064" end="x">Wer hat Ihnen gezeigt wie zu arbeiten?</u>
+                    <u who="#heislerA" start="956.134" end="x">Ja, da war überall ein polnischer Zivilist, ein Vorarbeiter.</u>
+                    <u who="#boderD" start="959.887" end="x">Ja. Waren die gut zu Ihnen?</u>
+                    <u who="#heislerA" start="962.274" end="x">Ja, aber die waren doch halbe Verbrecher selbst.</u>
+                    <u who="#boderD" start="964.909" end="x">Warum?</u>
+                    <u who="#heislerA" start="965.483" end="x">Sie haben uns noch viel ärger behandelt als die Deutschen selbst. Sie haben ein ... Anzeigen gemacht, sie haben geschlagen und es war schrecklich, wie die Polen behandelt haben uns ...</u>
+                    <u who="#boderD" start="975.540" end="x">Hm. </u>
+                    <u who="#heislerA" start="975.619" end="x">... in der Kohlengrube.</u>
+                    <u who="#boderD" start="976.827" end="x">Hm.</u>
+                    <u who="#heislerA" start="978.189" end="x">Und sie haben tot geschlagen die Menschen, die Häftlinge.</u>
+                    <u who="#boderD" start="982.461" end="x">Haben Sie nicht einmal probiert zurück zu schlagen?</u>
+                    <u who="#heislerA" start="984.972" end="x">Ja, wer hat gehabt die Kraft. Wir waren doch ganz abgeplagt und total verhungert von dem Liter Suppe und zwei hundert (200) Gramm Brot, das wir haben bekommen und wir haben in der Kohlengrube gearbeitet. Und sie haben uns tot geschlagen.</u>
+                    <u who="#boderD" start="996.350" end="x">Nun weiter. Wie lange haben Sie dort gearbeitet in den Kohlengruben? Und wo ist Ihr Bruder hin gegangen?</u>
+                    <u who="#heislerA" start="1002.718" end="x">Vom Bruder habe ich gewusst nix mehr.</u>
+                    <u who="#boderD" start="1004.865" end="x">Aha.</u>
+                    <u who="#heislerA" start="1005.307" end="x">Von dem Bruder habe ich erst jetzt von dem Mädel ....</u>
+                    <u who="#boderD" start="1007.510" end="x">Ja.</u>
+                    <u who="#heislerA" start="1007.665" end="x">.... eine Nachricht bekommen.</u>
+                    <u who="#boderD" start="1009.429" end="x">Also wie lange hat das gedauert?</u>
+                    <u who="#heislerA" start="1012.083" end="x">Es hat gedauert bis zum Jahr ... Jahr, wo die Russen sind hinein gekommen. Dann nach Auschwitz haben sie angefangen zu überfallen Ober Schlesien, das war in 45.</u>
+                    <u who="#boderD" start="1022.160" end="x">Und wie lange waren Sie in Auschwitz?</u>
+                    <u who="#heislerA" start="1025.006" end="x">Zwei (2) Jahre.</u>
+                    <u who="#boderD" start="1025.812" end="x">Haben Sie die ganze Zeit in den Kohlengruben gearbeitet?</u>
+                    <u who="#heislerA" start="1028.168" end="x">Ja. </u>
+                    <u who="#boderD" start="1029.051" end="x">Als Kohlenarbeiter.</u>
+                    <u who="#heislerA" start="1030.077" end="x">Ja.</u>
+                    <u who="#boderD" start="1030.682" end="x">Sind Sie jetzt ein guter Kohlenarbeiter, nicht?</u>
+                    <u who="#heislerA" start="1033.057" end="x">Ja, ziemlich ein Guter (lacht etwas).</u>
+                    <u who="#boderD" start="1034.782" end="x">Ja. Nun und ...und dann, hm, wenn Sie sind heraus gekommen von den Minen, was ist dann passiert?</u>
+                    <u who="#heislerA" start="1043.522" end="x">Wenn wir heraus gekommen sind, hat man uns gezählt, hat jeder geschaut, es fehlt jemand nicht, und dann man uns geführt durchs Lager und dann hat man uns geführt ins Lager. Dann hat man uns gebadet. Jeder hat ...</u>
+                    <u who="#boderD" start="1053.409" end="x">Jeden Abend?</u>
+                    <u who="#heislerA" start="1054.397" end="x">Jeden Abend gebadet.</u>
+                    <u who="#boderD" start="1055.749" end="x">Ja.</u>
+                    <u who="#heislerA" start="1056.239" end="x">Das war eine gute Sache, dass wir haben können baden jeden Abend baden. Und nach dem Baden hat man uns ....</u>
+                    <u who="#boderD" start="1061.718" end="x">Ja?</u>
+                    <u who="#heislerA" start="1061.931" end="x">... wir haben bekommen das Nachtessen. Das war ein Stückchen Brot und ein Schale schwarzer Kaffee und dann sind wir alle ins Bett.</u>
+                    <u who="#boderD" start="1068.338" end="x">Ja. Was für Betten haben Sie gehabt?</u>
+                    <u who="#heislerA" start="1070.925" end="x">Das waren hölzerne Pritschen, die waren gestapelt, die Betten waren 4 Stock hoch. Auf die Bretter wir geschlafen haben. Jeder ...</u>
+                    <u who="#boderD" start="1077.580" end="x">Jeder Mensch auf ihren Pritschen?</u>
+                    <u who="#heislerA" start="1080.009" end="x">Ja, da waren auf .... ungefähr einem (1) Meter haben geschlafen vier, fünf (4, 5) Leut. Das waren ....</u>
+                    <u who="#boderD" start="1084.952" end="x">Habe Sie Ihre Kleider abgezogen?</u>
+                    <u who="#heislerA" start="1086.954" end="x">Nein, es war doch zu kalt die Kleider auszuziehen.</u>
+                    <u who="#boderD" start="1089.838" end="x">Hat man eine Decke gehabt?</u>
+                    <u who="#heislerA" start="1091.451" end="x">Eine Decke hat man gehabt zu zweit, manchmal auch nicht.</u>
+                    <u who="#boderD" start="1094.750" end="x">Haben Sie Läuse gehabt?</u>
+                    <u who="#heislerA" start="1096.392" end="x">Das ist gar keine Frage, wir hatten sehr viel Läuse.</u>
+                    <u who="#boderD" start="1098.697" end="x">Bitte langsam. Sie hatten viele Läuse?</u>
+                    <u who="#heislerA" start="1100.718" end="x">Ja.</u>
+                    <u who="#boderD" start="1102.456" end="x">Also Sie sagen Sie haben Läuse gehabt, aber Sie haben jeden Tag gebadet. Nun?</u>
+                    <u who="#heislerA" start="1107.681" end="x">Ja, wir haben gebadet, aber es waren Läuse da, leider. Wir haben ... wir haben nicht gehabt genug Seife und in die Pritschen, in diese Betten sind immer geblieben die Läuse. Und wenn wir sind nach Hause gekommen, haben wir uns immer in das Selbe gelegt.</u>
+                    <u who="#boderD" start="1121.792" end="x">Nun und was hat man dagegen getan?</u>
+                    <u who="#heislerA" start="1124.383" end="x">Also man hat nichts getan dagegen .... dafür, weil es waren sehr viele Massen von Menschen in den Baracken. In einer Baracke waren zwei, drei hundert (2, 300) Leute schon. Und wir haben schon aufgepasst selber, dass sie weg kommen, aber man kann nicht dafür sorgen genug.</u>
+                    <u who="#boderD" start="1141.757" end="x">Nun und was ist passiert, wenn Einer krank geworden ist?</u>
+                    <u who="#heislerA" start="1144.940" end="x">Wenn Einer krank geworden ist, hat man ihn weg genommen oder man hat ihm (unverständlich), dass er hat er stirbt schneller. Und wenn nicht ....</u>
+                    <u who="#boderD" start="1152.048" end="x">Man hat ihm gegeben was?</u>
+                    <u who="#heislerA" start="1153.551" end="x">Zugestellt hat man, dass sie schneller tot werden.</u>
+                    <u who="#boderD" start="1155.804" end="x">Ja.</u>
+                    <u who="#heislerA" start="1156.050" end="x">Das haben sie auch selbst verlangt, das Leben war nicht gut und es war kein Verlangen gesund zu werden.</u>
+                    <u who="#boderD" start="1162.630" end="x">Nun?</u>
+                    <u who="#heislerA" start="1165.804" end="x">Und wenn Einer so schwer krank war, dass ... das war ein Krankenhaus. Und wenn Einer Wunden hatte, Wunden wenn jemand hat sich zerschlagen selber oder was.</u>
+                    <u who="#boderD" start="1176.213" end="x">Aha. Nun? Und so haben Sie die ganze Zeit gearbeitet in den ....</u>
+                    <u who="#heislerA" start="1181.545" end="x">Ja, wir haben gearbeitet, wir haben nicht gehabt einen Samstag oder Sonntag.</u>
+                    <u who="#boderD" start="1187.196" end="x">Keinen Sonntag?</u>
+                    <u who="#heislerA" start="1188.322" end="x">Nein, nichts!</u>
+                    <u who="#boderD" start="1189.206" end="x">Hm.</u>
+                    <u who="#heislerA" start="1189.769" end="x">Immer nur arbeiten.</u>
+                    <u who="#boderD" start="1190.634" end="x">War da ein Feiertag wo Sie nicht gearbeitet haben?</u>
+                    <u who="#heislerA" start="1194.108" end="x">Ja, es war Neujahr ... da haben wir frei gehabt, ja.</u>
+                    <u who="#boderD" start="1197.422" end="x">Neujahr.</u>
+                    <u who="#heislerA" start="1197.942" end="x">Neujahr.</u>
+                    <u who="#boderD" start="1198.382" end="x">Oder Weihnachten?</u>
+                    <u who="#heislerA" start="1200.223" end="x">Weihnachten nicht.</u>
+                    <u who="#boderD" start="1201.273" end="x">Aber Neujahr, ja. </u>
+                    <u who="#heislerA" start="1202.046" end="x">Neujahr, ja.</u>
+                    <u who="#boderD" start="1202.921" end="x">So was haben Sie an diesem Tag getan?</u>
+                    <u who="#heislerA" start="1205.106" end="x">Was wir ... da waren immer drei (3) Schichten. Ich habe immer gearbeitet die Mittagschicht. So sind wir aufgestanden um acht (8) Uhr morgens ...</u>
+                    <u who="#boderD" start="1212.494" end="x">Ja.</u>
+                    <u who="#heislerA" start="1212.747" end="x">Und wir haben sich gewaschen und wir haben bekommen eine Kaffee, einen schwarzen Kaffee und bis Mittags hat man sich herum gedreht.</u>
+                    <u who="#boderD" start="1221.428" end="x">Ja. </u>
+                    <u who="#heislerA" start="1221.625" end="x">Und dann bin ich ... ich war noch jung und ich war (unverständlich) und ich konnte mich selber halten, so bin ich in einen Block ausfegen geholfen. Und ich hab gehabt ein wenig Protektion von dem Block Ältesten und hab bekommen immer noch ein wenig Supp dazu.</u>
+                    <u who="#boderD" start="1235.561" end="x">Ja.</u>
+                    <u who="#heislerA" start="1235.656" end="x">Und das hat mich immer gehalten eine Weil.</u>
+                    <u who="#boderD" start="1237.572" end="x">Aha. Sie haben aber dafür gearbeitet.</u>
+                    <u who="#heislerA" start="1239.332" end="x">Ja, dafür gearbeitet in dem Lager.</u>
+                    <u who="#boderD" start="1241.954" end="x">Aha. Nun dann?</u>
+                    <u who="#heislerA" start="1244.269" end="x">Und dann ist gekommen ....</u>
+                    <u who="#boderD" start="1244.966" end="x">Sind Sie acht (8) Kilometer jeden Tag gegangen zur Arbeit?</u>
+                    <u who="#heislerA" start="1248.675" end="x">Nein, die Arbeit war nicht so weit weg. Es waren drei (3) Kilometer.</u>
+                    <u who="#boderD" start="1251.706" end="x">Drei (3) Kilometer hin.</u>
+                    <u who="#heislerA" start="1252.637" end="x">Ja.</u>
+                    <u who="#boderD" start="1252.720" end="x">Und drei (3) Kilometer zurück.</u>
+                    <u who="#heislerA" start="1253.939" end="x">Ja.</u>
+                    <u who="#boderD" start="1254.529" end="x">Bitte weiter.</u>
+                    <u who="#heislerA" start="1255.458" end="x">Und um 11 Uhr hat man Mittag gegessen und da bekommt ein Jeder einen (1) Liter Supp ... und dann sind wir hinunter gegangen zu die Arbeit. Und wir sind vorbei bei dem Detail, dem Kommando bewacht bei der SS und bis zum runter gehen.</u>
+                    <u who="#boderD" start="1267.639" end="x">Haben Sie gesungen, wie sie sind zur Arbeit?</u>
+                    <u who="#heislerA" start="1269.867" end="x">Nein, (unverständlich) gesungen auch ohne unserem Singen.</u>
+                    <u who="#boderD" start="1273.539" end="x">Also, was meinen Sie damit?</u>
+                    <u who="#heislerA" start="1275.767" end="x">Es war nicht in unserem Sinn zu singen. </u>
+                    <u who="#boderD" start="1277.535" end="x">Ja, aber man sagte, die SS hat es verlangt.</u>
+                    <u who="#heislerA" start="1279.845" end="x">Von uns haben sie es nicht verlangt. Es waren Lager, da haben es verlangt, aber nur um Spaß zu machen, aber nicht von uns.</u>
+                    <u who="#boderD" start="1286.643" end="x">Aha.</u>
+                    <u who="#heislerA" start="1287.105" end="x">Sie haben nur geschrien ..., wenn die Leut sind gefallen auf die Füß, haben sie geschrien: „Links zwei, links zwei“ um zu halten Schritt.</u>
+                    <u who="#boderD" start="1293.472" end="x">Nun und dann?</u>
+                    <u who="#heislerA" start="1295.764" end="x">Und dann sind wir runter gefahren. Da unten hat jeder gewusst seinen Arbeitsplatz.</u>
+                    <u who="#boderD" start="1300.013" end="x">Ja.</u>
+                    <u who="#heislerA" start="1300.328" end="x">Also wir sind gekommen. Die Arbeit war in die .... in die Stege, Träger. Das heißt die Kohlen .... es war sechzig (60) Meter hoch. Das heißt wir müssen arbeiten abgebogen ... sechzig (60) Zentimeter ..</u>
+                    <u who="#boderD" start="1313.080" end="x">Ja.</u>
+                    <u who="#heislerA" start="1313.567" end="x">.... hoch. Und da müssen wir liegend arbeiten die acht (8) Stunden.</u>
+                    <u who="#boderD" start="1317.448" end="x">Nun?</u>
+                    <u who="#heislerA" start="1317.878" end="x">Und zwar die Schaufeln darüber. Und das hat gedauert acht (8) Stunden ohne ... ohne nichts. Also wir haben gearbeitet acht (8) Stunden, in acht (8) Stunden war Arbeitsschluss, da sind die Anderen gekommen und wir sind weg gegangen und wir sind ins Lager and wie ich hab gesagt, wir haben sich gebadet und sind weiter ins Bett gegangen.</u>
+                    <u who="#boderD" start="1339.352" end="x">Ja.</u>
+                    <u who="#heislerA" start="1339.990" end="x">Und das hat so gedauert bis tausend neun .... bis vier und vierzig (44).</u>
+                    <u who="#boderD" start="1343.880" end="x">Also Sie haben mir gesagt, Sie haben Neujahr einen Tag frei gehabt.</u>
+                    <u who="#heislerA" start="1347.260" end="x">Ja.</u>
+                    <u who="#boderD" start="1347.517" end="x">Was hat man an dem Tag getan?</u>
+                    <u who="#heislerA" start="1349.759" end="x">Was? Man hat sich ausgeschlafen. Wir haben uns gefreut, man kann sich ausruhen.</u>
+                    <u who="#boderD" start="1354.113" end="x">Ja. Nun?</u>
+                    <u who="#heislerA" start="1354.833" end="x">Jeder hat geschlafen den ganzen Tag.</u>
+                    <u who="#boderD" start="1357.075" end="x">Nun?</u>
+                    <u who="#heislerA" start="1357.359" end="x">Das haben wir getan.</u>
+                    <u who="#boderD" start="1359.956" end="x">Also und das hat gedauert wie lang?</u>
+                    <u who="#heislerA" start="1362.116" end="x">Das hat gedauert bis .... ich glaube fünf und vierzig (45). Da sind die Russen ....</u>
+                    <u who="#boderD" start="1366.716" end="x">Ja.</u>
+                    <u who="#heislerA" start="1367.073" end="x">Im Dezember vier und vierzig (44) sind die Russen über Nacht herein gekommen und wir haben angefangen zu ... hm, weg zu gehen von dort. Dann haben wir verlassen die Kohlengruben .und .....</u>
+                    <u who="#boderD" start="1376.813" end="x">Was meinen Sie, wer hat verlassen? Man hat Sie weggeführt?</u>
+                    <u who="#heislerA" start="1378.508" end="x">Ja, weg genommen.</u>
+                    <u who="#boderD" start="1379.592" end="x">Nun und wohin hat man Sie geführt?</u>
+                    <u who="#heislerA" start="1381.496" end="x">Also wir wurden gebracht, wir mussten zu Fuß gehen.</u>
+                    <u who="#boderD" start="1384.626" end="x">Was haben die getan mit den Kohlengruben? Haben sie die Minen .....</u>
+                    <u who="#heislerA" start="1387.053" end="x">Zugemacht.</u>
+                    <u who="#boderD" start="1387.866" end="x">Ja, zugemacht.</u>
+                    <u who="#heislerA" start="1388.813" end="x">Also wir waren acht (8) Kilometer von Auschwitz und da haben wir gesehen, wie Auschwitz verbrennt. Die haben alles angezündet, sie sind durch das ganze Lager durch, beim Appell und haben zerschlagen alles. Und wir sind gegangen zu Fuß und also jeder hat sich genommen in den paar letzten Minuten mit dem Rücken zum Feuer genommen Brot und alles Mögliche, weil alles war offen und so hat jeder ....</u>
+                    <u who="#boderD" start="1408.488" end="x">Also sie konnten Brot stehlen?</u>
+                    <u who="#heislerA" start="1409.671" end="x">Ja.</u>
+                    <u who="#boderD" start="1410.250" end="x">Ja.</u>
+                    <u who="#heislerA" start="1410.838" end="x">Und jeder hat sich genommen ein Brot. Man hat sich tot geschlagen nach einem Stückchen Brot. </u>
+                    <u who="#boderD" start="1415.852" end="x">Nun.</u>
+                    <u who="#heislerA" start="1416.359" end="x">Und wir sind gegangen auf dem Weg. Es war Schnee von fünfzig Zentimeter, einen halben (½) Meter hat es geschneit.</u>
+                    <u who="#boderD" start="1422.851" end="x">Langsam, ja.</u>
+                    <u who="#heislerA" start="1424.665" end="x">Und wir waren da nicht gut angezogen und natürlich haben wir da sehr schnell gehen müssen, weil sie haben Angst gehabt vor den Russen, dass die Russen werden uns erwischen.</u>
+                    <u who="#boderD" start="1433.771" end="x">Nun?</u>
+                    <u who="#heislerA" start="1434.393" end="x">Und wir haben gewusst ...</u>
+                    <u who="#boderD" start="1435.945" end="x">Warum haben sie nicht gewollt die Russen sollen die Häftlinge nehmen?</u>
+                    <u who="#heislerA" start="1439.615" end="x">Warum? Warum, weil sie haben Angst gehabt, dass wir ihnen das erzählen, die ganze Geschichten, so dass die ganze Welt weiß das. Jetzt weiß die ganzen Geschichten die Welt, ... aber damals haben sie uns benutzt, um zu arbeiten. Dann haben sie uns transportiert nach Buchenwald.</u>
+                    <u who="#boderD" start="1455.213" end="x">Aha. Also sind sie gegangen. Wie weit sind Sie gegangen?</u>
+                    <u who="#heislerA" start="1458.260" end="x">Wir sind gegangen einhundert vierzig (140) Kilometer zu Fuß. Das war in 2 Tagen.</u>
+                    <u who="#boderD" start="1462.697" end="x">Ja.</u>
+                    <u who="#heislerA" start="1463.315" end="x">Und eine Nacht haben wir geschlafen, weil die SS haben auch nicht mehr gehen können. Die waren gesund, aber die auch nicht mehr Kraft gehabt nach achtzig (80) Kilometer.</u>
+                    <u who="#boderD" start="1473.473" end="x">Langsam.</u>
+                    <u who="#heislerA" start="1474.733" end="x">Und nach achtzig (80) Kilometer sind wir angekommen und sie haben uns genommen auf ein Feld ...</u>
+                    <u who="#boderD" start="1480.472" end="x">Ja.</u>
+                    <u who="#heislerA" start="1480.786" end="x">... von Schnee und dort hat man angefangen zu schießen und da haben sie gesagt, alle sollen sich hin legen, weil sie haben nicht wollen, dass man noch steht. </u>
+                    <u who="#boderD" start="1489.542" end="x">Ja.</u>
+                    <u who="#heislerA" start="1489.669" end="x">Es war keine ... es war kein Platz zum Stehen auf dem Feld. Und sie haben gesagt sich hin legen. Und dann haben sie angefangen zu schreien. Und Einer ist auf den Anderen gefallen, weil sie haben geschossen über die Köpfe. Viele sind damals gefallen.</u>
+                    <u who="#boderD" start="1502.992" end="x">Warum haben sie wollen, man soll sich hin legen?</u>
+                    <u who="#heislerA" start="1505.180" end="x">Sie haben alle Phantasien im Kopf.</u>
+                    <u who="#boderD" start="1507.385" end="x">Und?</u>
+                    <u who="#heislerA" start="1508.199" end="x">Und alle sind hin gelegt und hat geschneit und ein großer Frost war. Die Nacht war schrecklich kalt. Ich habe mich selbst gewundert, wie ich habe das ausgehalten – eine ganze Nacht. Ich bin in den Schnee reingefallen und dann hab ich geschlafen. Dann in der Früh bin ich auf ganz nass, weil der Schnee hat geschmolzen. Ich wundere mich heute, wie ich hab durch diese Nacht gekommen. Und morgens sind wir aufgestanden und die, hm, .... fünfzig (50) Perzent sind geblieben liegen da im dem Schnee. Und wir, die sind über geblieben haben müssen sie dort begraben, und ausgraben Graben zum Begraben und dann sind wir weiter gegangen.</u>
+                    <u who="#boderD" start="1547.896" end="x">Mit was haben Sie ausgegraben da?</u>
+                    <u who="#heislerA" start="1549.629" end="x">Sie haben ... sie haben gehabt Werkzeuge.</u>
+                    <u who="#boderD" start="1552.119" end="x">Sie haben gebracht Werkzeuge?</u>
+                    <u who="#heislerA" start="1552.860" end="x">Ja.</u>
+                    <u who="#boderD" start="1553.540" end="x">Und mit die, die da gelegen sind und die nicht tot waren, was hat man da getan?</u>
+                    <u who="#heislerA" start="1557.692" end="x">Also wir haben sie gemusst begraben.</u>
+                    <u who="#boderD" start="1560.478" end="x">Die Lebendigen?</u>
+                    <u who="#heislerA" start="1562.336" end="x">Nein, die Lebendigen haben begraben die Toten.</u>
+                    <u who="#boderD" start="1565.156" end="x">Ja, aber wenn das welche waren, die Kranke waren?</u>
+                    <u who="#heislerA" start="1567.130" end="x">Hat man auch lebendig, lebendig geworfen in das Grab. Wer hat nicht gekonnt gehen, hat man geschossen und in das Grab rein.</u>
+                    <u who="#boderD" start="1573.551" end="x">Erschossen und in das Grab.</u>
+                    <u who="#heislerA" start="1575.599" end="x">Ja, aber viele Menschen waren schon am Weg, die konnten nicht gehen, sie haben sich genommen ein Betttuch über den Kopf gelegt und sich hin gesetzt ...</u>
+                    <u who="#boderD" start="1582.258" end="x">Ja.</u>
+                    <u who="#heislerA" start="1582.437" end="x">... und der SS Mann ist gekommen und hat ihn zugeschossen.</u>
+                    <u who="#boderD" start="1585.678" end="x">Hat er wenigstens gesehen, ob der Mann tot war, nachdem er ihn erschossen hat?</u>
+                    <u who="#heislerA" start="1588.669" end="x">Wenn er ist nicht tot gewesen ist er so geblieben. Und haben gewartet bis er gestorben war.</u>
+                    <u who="#boderD" start="1593.713" end="x">Hm, nun?</u>
+                    <u who="#heislerA" start="1596.231" end="x">Und am anderen Tag nachdem wir haben sie begraben, sind wir dann weiter gegangen. Sie haben uns gesagt, wir haben noch fünfzig (50) Kilometer bis zu einem Zug. Und dort können wir einsteigen in den Zug, denn hier haben sie keine freie (unverständlich)</u>
+                    <u who="#boderD" start="1607.289" end="x">Ein Moment! Also weiter. Es waren fünfzig (50) Kilometer bis zum Zug.</u>
+                    <u who="#heislerA" start="1611.137" end="x">Ja und wir sind auch diese fünfzig (50) Kilometer gegangen zu Fuß. Viele Leute sind gefallen auf dem Weg, weil sie haben nicht .... nicht mehr gekonnt zu gehen. Sie würden erschossen auf dem Weg und gerade so lassen sie liegen auf dem Weg. Und wir, wer noch kann zu gehen, wir sind dorthin gekommen auf den Bahnhof, das war in Breslau, glaube ich. Und dort haben wir gewartet auf Wagons. Und in einigen Stunden sind – wo wir gesessen haben im Schnee – in einigen Stunden sind gekommen Wagonen und wir sind eingestiegen in die Wagons. Aber die Wagons waren auch schrecklich, weil die Wagons waren oben ganz offen ohne Dächer. Es waren die halben Wagonen. Und dort war sehr viel Schnee und wir haben ... wir mussten uns in den Schnee setzen.</u>
+                    <u who="#boderD" start="1653.839" end="x">Die Wagonen innen haben Schnee gehabt?</u>
+                    <u who="#heislerA" start="1655.884" end="x">Ja, weil sie waren ohne Dächer.</u>
+                    <u who="#boderD" start="1657.822" end="x">Ja.</u>
+                    <u who="#heislerA" start="1658.456" end="x">Und wir sind also gesessen im Schnee. Und die Fahrt hat gedauert acht (8) Tage bis nach Buchenwald. Wir haben nicht gewusst ...</u>
+                    <u who="#boderD" start="1666.103" end="x">Waren welchen SS mit Ihnen in den Wagonen?</u>
+                    <u who="#heislerA" start="1668.476" end="x">Ja, da war ein SS Mann in jedem Wagon. </u>
+                    <u who="#boderD" start="1670.191" end="x">Und ist der SS Mann selbst auch gestanden im Schnee?</u>
+                    <u who="#heislerA" start="1672.888" end="x">Ja, aber er war doch gut angezogen.</u>
+                    <u who="#boderD" start="1674.755" end="x">Ja.</u>
+                    <u who="#heislerA" start="1675.123" end="x">Und zwei Mal am Tag hat die Wache und jede Station hat ein Anderer aufgetreten.</u>
+                    <u who="#boderD" start="1680.891" end="x">Aha.</u>
+                    <u who="#heislerA" start="1681.253" end="x">Und am Ende waren zwei (2) Wagon, die waren geheizt.</u>
+                    <u who="#boderD" start="1685.287" end="x">Ja.</u>
+                    <u who="#heislerA" start="1685.481" end="x">Und die SS hat dort gewohnt.</u>
+                    <u who="#boderD" start="1687.218" end="x">Ja. </u>
+                    <u who="#heislerA" start="1687.509" end="x">Und sie haben immer die Wache getauscht.</u>
+                    <u who="#boderD" start="1689.342" end="x">Nun, hat man nicht, wenn man so viel Tage zusammen ist, hat man nicht mit der SS geredet, haben Sie nicht mit ihm gesprochen? Hat er mit sich selbst geredet?</u>
+                    <u who="#heislerA" start="1696.820" end="x">Ja, er hat gesagt .... es war ein Guter, der hat gewollt reden. Und dann war ein Schlechter, der war böse und hat genommen das Gewehr und hat geschlagen, wenn man was gesagt .....</u>
+                    <u who="#boderD" start="1704.964" end="x">Hm.</u>
+                    <u who="#heislerA" start="1705.036" end="x">....das war die Antwort, wenn man sich getraut hat den Mund aufmachen zu dürfen.</u>
+                    <u who="#boderD" start="1709.013" end="x">Nun?</u>
+                    <u who="#heislerA" start="1709.455" end="x">Das haben sie gemacht im Lager auch. Ein Häftling ist gegangen und hat er ihn gegrüßt, dann hat er zu ihm gesagt, ob er sein Kamerad sei, dass er grüßt ihn. Hat er nicht gegrüßt, hat er gesagt, warum er grüßt ihn nicht. So hat er ihn auch geschlagen. Da hat man selbst nicht gewusst, was zu machen.</u>
+                    <u who="#boderD" start="1726.183" end="x">Hm.</u>
+                    <u who="#heislerA" start="1726.320" end="x">Wenn es war ein Guter und er hat geredet, dann hat man ihn gefragt, wo man führt uns hin.</u>
+                    <u who="#boderD" start="1730.044" end="x">Nun?</u>
+                    <u who="#heislerA" start="1730.432" end="x">Und er hat gesagt, er weiß das selbst nicht. Eben er hat auch einen Befehl vom (unverständlich) bekommen und mehr und wohin weiß er auch nicht.</u>
+                    <u who="#boderD" start="1738.875" end="x">Nun?</u>
+                    <u who="#heislerA" start="1739.225" end="x">Also dann haben wir gesehen, dass wir kommen nach Buchenwald – wie wir sind angekommen.</u>
+                    <u who="#boderD" start="1742.859" end="x">Ja?</u>
+                    <u who="#heislerA" start="1743.058" end="x">Das war nach acht (8) Tagen auf dem Zug gefahren ...</u>
+                    <u who="#boderD" start="1746.712" end="x">Nun?</u>
+                    <u who="#heislerA" start="1747.749" end="x">...wir sind nach Buchenwald und wir waren noch sehr schwach so von der Reise.</u>
+                    <u who="#boderD" start="1751.920" end="x">Ja.</u>
+                    <u who="#heislerA" start="1752.405" end="x">Mir selbst hat es den Kopf auch verdreht nach dem Bad. Wir haben uns dort selbst gebadet, weil sie haben die Deutschen, die gekommen sind, in ein anderes Lager ... hat man gebadet.</u>
+                    <u who="#boderD" start="1762.878" end="x">Nun, also was soll das bedeuten.....</u>
+                    <u who="#heislerA" start="1763.501" end="x">Zur Desinfektion.</u>
+                    <u who="#boderD" start="1764.113" end="x">... und Sie sagen Ihr Kopf war verdreht?</u>
+                    <u who="#heislerA" start="1765.300" end="x">Ja, ich hab mich da selbst .... ich bin nicht zu mir da selbst gekommen.</u>
+                    <u who="#boderD" start="1768.273" end="x">Was soll das heißen?</u>
+                    <u who="#heislerA" start="1769.403" end="x">Ich war schwach geworden nach dem Baden. Ich war sehr schwach und habe ein heißes Bad bekommen....</u>
+                    <u who="#boderD" start="1774.864" end="x">Nun?</u>
+                    <u who="#heislerA" start="1774.992" end="x">... und das hat mich, mein Beine zerstört, denn ich war doch ganz erfroren.</u>
+                    <u who="#boderD" start="1778.911" end="x">Ja.</u>
+                    <u who="#heislerA" start="1779.088" end="x">Ich hab kaum können zum Bad zu gehen.</u>
+                    <u who="#boderD" start="1781.919" end="x">Nun?</u>
+                    <u who="#heislerA" start="1782.293" end="x">Und danach bin ich ... nach dem heißen Bad, hat es mir den Kopf verdreht.</u>
+                    <u who="#boderD" start="x" end="x">Ja.</u>
+                    <!--missing-->
+                    <u who="#heislerA" start="1785.757" end="x">Also, dann habe ich mich ein wenig hin gesetzt und bin zu mir ein bisschen gekommen.</u>
+                    <u who="#boderD" start="1789.799" end="x">Aha.</u>
+                    <u who="#heislerA" start="1790.183" end="x">Und dann hat man und dann geschickt.... nach dem Bad wieder geschickt und die Haare wurden noch einmal abgeschoren alles. Die ganzen Haare abgeschoren, ja, .... und dann hat man uns geführt in Blocken in die Baracken. Und dort waren wir einige ... zwei (2) Tage in den Baracken. Und dann haben wir gehört, wir gehen wieder in die Arbeit - irgendwo anderen Platz. Und auf dem anderen Platz hat man uns heraus getrieben einen Morgen Tag in den Schnee (unverständlich). Und man hat uns nicht gesagt wohin man geht und das war auch ein kalter Tag und man hat uns hinaus gepackt in Wagons. Und wir sind gefahren einen Tag, es war gut, dass es war nicht mehr.</u>
+                    <u who="#boderD" start="1831.291" end="x">Wieder von Buchenwald?</u>
+                    <u who="#heislerA" start="1832.432" end="x">Von Buchenwald, Deutschland zu einem anderen ... das war in Thüringen.</u>
+                    <u who="#boderD" start="1836.309" end="x">Ja.</u>
+                    <u who="#heislerA" start="1836.993" end="x">Trawniki. </u>
+                    <u who="#boderD" start="1837.854" end="x">Ja.</u>
+                    <u who="#heislerA" start="1838.539" end="x">Und wir sind angekommen im Lager. Also das war noch viel ärger wie die Kohlengruben. </u>
+                    <u who="#boderD" start="1843.867" end="x">Ja?</u>
+                    <u who="#heislerA" start="1844.230" end="x">Das war ein Lager in (unverständlich) und dort waren Depots von Munition und im Keller haben wir gewohnt – unter die Erde in Bunkern.</u>
+                    <u who="#boderD" start="x" end="x">Ja.</u>
+                    <!--missing-->
+                    <u who="#heislerA" start="1852.671" end="x">In einem Wald.</u>
+                    <u who="#boderD" start="1853.783" end="x">Nun?</u>
+                    <u who="#heislerA" start="1854.001" end="x">Und dort war das ... das Behandeln noch viel ärger wie überall.</u>
+                    <u who="#boderD" start="1858.014" end="x">Warum?</u>
+                    <u who="#heislerA" start="1859.321" end="x">Weil da hat man nicht gebadet. In anderen Lagern da konnte man da vielleicht noch baden. Wir haben kein Wasser gehabt. Das hat gedauert – in 3 Monaten also wir haben nicht gehabt kein Wasser auf dem Gesicht überhaupt – für waschen sich. Und die Läuse haben uns aufgegessen im Ganzen.</u>
+                    <u who="#boderD" start="1874.703" end="x">Und was haben Sie dort denn getan?</u>
+                    <u who="#heislerA" start="1876.542" end="x">Gearbeitet, gegraben verschiedene Graben, Munition geladen.</u>
+                    <u who="#boderD" start="1881.040" end="x">Aha.</u>
+                    <u who="#heislerA" start="1881.573" end="x">Und sie haben gebaut eine große Fabrik in einem ... unter dem Wald.</u>
+                    <u who="#boderD" start="1885.800" end="x">Schon in fünf und vierzig (45)?</u>
+                    <u who="#heislerA" start="1887.069" end="x">In fünf und vierzig (45).</u>
+                    <u who="#boderD" start="1887.601" end="x">Eine unterirdische Fabrik ....</u>
+                    <u who="#heislerA" start="1889.020" end="x">Ja. </u>
+                    <u who="#boderD" start="1889.281" end="x">... haben sie gebaut. Nun?</u>
+                    <u who="#heislerA" start="1891.670" end="x">Und dort war es doch was Schreckliches. Ich habe dort unterhalten mit Leuten, sie waren Einige von Polen, die waren sechs (6) Jahre schon darin. Haben sie gesagt, dass sie in die ärgsten Lager so wie Majdanek, Treblinka waren, aber in so einem Lager waren sie noch nicht.</u>
+                    <u who="#boderD" start="1908.197" end="x">Nun?</u>
+                    <u who="#heislerA" start="1908.944" end="x">Und dort waren wir ... und dann bin ich auch noch krank geworden von die vielen Läuse – die letzten zwei (2) Woche bevor die Befreiung.</u>
+                    <u who="#boderD" start="1917.961" end="x">Ja.</u>
+                    <u who="#heislerA" start="1918.913" end="x">Und dort bin ich krank geworden und bin ich ganze Zeit beim Arzt – acht (8) Tage. Ich bin hingegangen jeden Abend und hab gesagt, ich kann nicht arbeiten, aber er wollte mir nicht glauben.</u>
+                    <u who="#boderD" start="1927.923" end="x">War es ein jüdischer Arzt?</u>
+                    <u who="#heislerA" start="1929.164" end="x">Ja.</u>
+                    <u who="#boderD" start="1929.752" end="x">Ja?</u>
+                    <u who="#heislerA" start="1930.238" end="x">Von Polen, ein Jude. Das war ein sehr ein Schlechter. Da waren unter die Juden auch sehr schlechte Menschen, weil sie haben sehr .... sehr gemeine Leute.</u>
+                    <u who="#boderD" start="1939.959" end="x">Ja. </u>
+                    <u who="#heislerA" start="1941.341" end="x">Und hat er mich dann.... er hat mich geschoben, ich war damals jung – ich war siebzehn (17) Jahre alt – und er hat mich dann gegeben ins Spital, das im Revier. Dort war ich acht (8) Tage. Da hat man mich geschickt dann - mit einem Transport auch nach (unverständlich).</u>
+                    <u who="#boderD" start="1961.606" end="x">Wo waren die Krematorien denn?</u>
+                    <u who="#heislerA" start="1963.296" end="x">Das war in der Nähe – acht (8) Kilometer weiter von dort war auch ein Lager, ein großes Lager Ohrdorf. Und dort haben sie auch gehabt ein Krematorium hergerichtet. </u>
+                    <u who="#boderD" start="1973.183" end="x">Haben sie dort die Leute vergast?</u>
+                    <u who="#heislerA" start="1975.600" end="x">Nein, sie haben sie nur getötet, aus .... sie waren sowieso schon halb tot. Sie haben sie tot geschlagen mit Gewehr oder was sonst, hm, ...................... aber das war unser Glück, dass die Amerikaner sind schon ....</u>
+                    <u who="#boderD" start="1990.227" end="x">Nun wo waren Sie, wenn die Amerikaner sind gekommen?</u>
+                    <u who="#heislerA" start="1994.314" end="x">Wir waren da in diesem .....in diesem Lager, wo man hat uns genommen zum Pulver .... zum Vergasen. Und wir ....</u>
+                    <u who="#boderD" start="2001.517" end="x">Was heißt das Lager ... welches Lager war das?</u>
+                    <u who="#heislerA" start="2003.654" end="x">Das war in Ohrdorf. Nachdem ich krank war, hat man mich weg geführt von dort.</u>
+                    <u who="#boderD" start="2007.508" end="x">Wohin?</u>
+                    <u who="#heislerA" start="2008.617" end="x">Acht (8) Kilometer weiter war das Lager wo die Leute sollen .... war ein Krematorium. Die Leute waren... die dort hin kamen waren viele krank, weil .... es war schrecklich dort ...</u>
+                    <u who="#boderD" start="2017.342" end="x">Ja.</u>
+                    <u who="#heislerA" start="2018.527" end="x">Die hat man getötet und verbrannt.</u>
+                    <u who="#boderD" start="2021.979" end="x">Nun?</u>
+                    <u who="#heislerA" start="2023.298" end="x">Und ... und wie wir sind gekommen schon, das war schon der letzte Transport. Sie haben nicht mehr Zeit gehabt, dass ... dafür. Sie waren schon mit sich selbst zu tun, weil die Amerikaner haben sich schon genähert da.</u>
+                    <u who="#boderD" start="2033.778" end="x">Ja.</u>
+                    <u who="#heislerA" start="2034.593" end="x">Und wir sind hier gelegen wieder acht (8) Tage. Und es hat geheißen, dass wir bleiben dort bis sie erschießen die ganzen Leute, aufschießen oder explodieren das Lager, oder was immer.</u>
+                    <u who="#boderD" start="2049.145" end="x">Hm.</u>
+                    <u who="#heislerA" start="2049.650" end="x">Und zum Glück hat man uns genommen nach, hm, ... transportiert nach Buchenwald. </u>
+                    <u who="#boderD" start="2056.182" end="x">Zurück transportiert nach Buchenwald?</u>
+                    <u who="#heislerA" start="2056.942" end="x">Ja, aber ...</u>
+                    <u who="#boderD" start="2058.443" end="x">Nun?</u>
+                    <u who="#heislerA" start="2059.029" end="x">Es war aber ein besonderes Glück mit mir, dass – ich weiß nicht – wie ich das (unverständlich) die ganze Geschichte, weil .... uns alle hat man transportiert mit die Wagon, .....mit ....... zu Fuß.</u>
+                    <u who="#boderD" start="2071.977" end="x">Ja.</u>
+                    <u who="#heislerA" start="2072.161" end="x">Und ich hab mir gesagt – da waren auch andere kranke Menschen – ich gehe nicht mehr zu Fuß; sie sollen mich hier töten. Ich soll zu Fuß gehen und dann sterben? Hab mich hierher gestellt, um hier zu sterben auf diesem Platz.</u>
+                    <u who="#boderD" start="2083.282" end="x">Nun?</u>
+                    <u who="#heislerA" start="2084.307" end="x">Und dann ist gekommen im letzten Moment Autobus und so die Kranken wurden ein .... eingeladen in die Autos und hat man sie weggeführt.</u>
+                    <u who="#boderD" start="2092.910" end="x">Nach Buchenwald?</u>
+                    <u who="#heislerA" start="2093.734" end="x">Ja. </u>
+                    <u who="#boderD" start="2094.311" end="x">Nun?</u>
+                    <u who="#heislerA" start="2094.760" end="x">Und das war unser Glück. Wie wir sind gekommen nach Buchenwald ... da haben wir geglaubt .... In Buchenwald hat man uns in die Nähe des Krematoriums und so haben wir geglaubt, dass wir ins das Krematorium genommen werden, aber zum Glück ....</u>
+                    <u who="#boderD" start="2106.748" end="x">Ja?</u>
+                    <u who="#heislerA" start="2107.471" end="x">... hat man uns doch nicht ins Krematorium gebracht, sondern in dem alten Lager dort von die Menschen, die gekommen waren in Quarantäne. Und dort hat man uns gehalten einige Tage.</u>
+                    <u who="#boderD" start="2119.060" end="x">Und dann?</u>
+                    <u who="#heislerA" start="2120.176" end="x">Wir haben gewusst, dass die Amerikaner sind schon nahe, weil sie sind schnell vorwärts, wir haben jede Nacht gehört die Schießerei. Und von Buchenwald hat man auch angefangen zu evakuieren .... weg zu führen viele Leute.</u>
+                    <u who="#boderD" start="2132.553" end="x">Wohin?</u>
+                    <u who="#heislerA" start="2134.309" end="x">Also ich weiß nicht wohin.</u>
+                    <u who="#boderD" start="2136.148" end="x">Ja.</u>
+                    <u who="#heislerA" start="2136.330" end="x">Weil ich bin dort geblieben und es hat geheißen, dass die ... wer kann gehen, kann gehen und wer nicht gehen kann, der ... denn das Lager wird zerstört.</u>
+                    <u who="#boderD" start="2145.412" end="x">Ja.</u>
+                    <u who="#heislerA" start="2145.659" end="x">In letzter Stunde.</u>
+                    <u who="#boderD" start="2146.950" end="x">Ja.</u>
+                    <u who="#heislerA" start="2147.522" end="x">Und ... die gesunden Leute sind gegangen, aber unser Block hat gesagt, wir gehen nicht. Und sie sollen uns töten, wir werden hier bleiben.</u>
+                    <u who="#boderD" start="2156.295" end="x">Hm. </u>
+                    <u who="#heislerA" start="2157.205" end="x">Und ... die SS ist gekommen am anderen Tag ... es war ein Sonntag ... da sind gekommen die SS und sie haben angefangen hinaus zu schmeißen aus die Fenster und zu treiben. </u>
+                    <u who="#boderD" start="2168.943" end="x">Hinaus zu schmeißen – was?</u>
+                    <u who="#heislerA" start="2170.960" end="x">Durch die Fenster.</u>
+                    <u who="#boderD" start="2172.060" end="x">Ja, sie haben die Menschen raus geschmissen ....</u>
+                    <u who="#heislerA" start="2173.653" end="x">Ja.</u>
+                    <u who="#boderD" start="2173.998" end="x">Ja.</u>
+                    <u who="#heislerA" start="2174.190" end="x">Durch die Fenster. Und sie haben angefangen sie zu treiben auf den Appell Platz und von dort hat man uns wollen evakuieren.</u>
+                    <u who="#boderD" start="2180.137" end="x">Auf welchem Stock war es?</u>
+                    <u who="#heislerA" start="2182.199" end="x">Es war ... es waren nicht mit Stockwerk.</u>
+                    <u who="#boderD" start="2185.994" end="x">Warum durch die Fenster, warum nicht durch die Türen?</u>
+                    <u who="#heislerA" start="2188.690" end="x">Weil niemand hat nicht wollen gehen!</u>
+                    <u who="#boderD" start="2190.359" end="x">Aha, und?</u>
+                    <u who="#heislerA" start="2191.403" end="x">Jeder hat sich geweigert vor der Evakuierung.</u>
+                    <u who="#boderD" start="2193.926" end="x">Ja.</u>
+                    <u who="#heislerA" start="2194.528" end="x">Und sie haben geschüttet Wasser über die Menschen. Niemand hat .... sie haben aber nichts ausgeführt. Die Leute haben sich gesagt, dass ..... sollen sie (unverständlich) ... sollen sie schießen.</u>
+                    <u who="#boderD" start="2204.266" end="x">Nun?</u>
+                    <u who="#heislerA" start="2204.993" end="x">Und sie haben doch nicht geschossen, ich weiß nicht warum. Und am anderen Tag – wieder die selbe Geschichte. Und dann doch haben sie heraus gekriegt und haben die Leute versammelt am Appell Platz.</u>
+                    <u who="#boderD" start="2216.328" end="x">Ja.</u>
+                    <u who="#heislerA" start="2217.237" end="x">Und ich bin auch dort hinaus gekommen. Und hab ich gesehen, dass da ein Transport steht mit Jugendliche. </u>
+                    <u who="#boderD" start="2223.587" end="x">Ja. </u>
+                    <u who="#heislerA" start="2223.769" end="x">Und das war der Grund, sie wurden aussortiert – sie bleiben hier im Lager – sie sind nicht transportfähig. Und dann habe ich mich dorthin zu gestellt. Ich war ja auch Junge. </u>
+                    <u who="#boderD" start="2233.830" end="x">Hm.</u>
+                    <u who="#heislerA" start="2234.465" end="x">Und hab mich hinzu gestellt und hab mich rein gemischt und bin zurück gegangen ins Lager C und die andere Leute sind weg mit den Transport. Und das war Dienstag schon. Und Mittwoch ... das war der achte Tage wo wir waren ganz ohne Essen. Am Mittwoch hat man gehört eine große Schießerei und um zehn (10) haben wir gehört den Feind-Alarm, der kam an, weil da kam ein amerikanischer Tank. Sie sind zurück gefahren und um elf (11) Uhr haben wir gehört die Flieger. Und um halb vier (4) sind wir befreit worden von die Amerikaner, das waren die ersten Amerikaner. Die ganzen Deutschen haben verlassen das ganze Lager.</u>
+                    <u who="#boderD" start="2277.872" end="x">Und wann haben die Deutschen das Lager verlassen?</u>
+                    <u who="#heislerA" start="2280.181" end="x">Sie haben es verlassen um ein (1) Uhr Nachmittag.</u>
+                    <u who="#boderD" start="2282.029" end="x">Und was haben sie gesagt?</u>
+                    <u who="#heislerA" start="2283.736" end="x">Nichts, man hat nur gesehen sie laufen sie weg von der Wache. Es war so. Wir haben nachher dann gewusst ... gehört, dass der von Weimar, der Lager Kommandant hat, hm, telefoniert, sie sollen sprengen die Lager – eine Stunde nach der Befreiung. Er hat noch nicht gewusst damals, dass das Lager ist befreit worden. Es war halb fünf. Und der Lager Älteste – es war ein Häftling – hat geantwortet: ‚Ja, ja, wir werden zersprengen ihre Köpfe.’ Also, wenn wir eine Stunde vorher noch nicht befreit gewesen wären, hätten sie gesprengt das Lager. </u>
+                    <u who="#boderD" start="2319.572" end="x">Was hat er ihm geantwortet?</u>
+                    <u who="#heislerA" start="2321.631" end="x">Dass es, hm, dass er telefonieren sollte zum Heiland und nicht zu uns hier. </u>
+                    <u who="#boderD" start="2326.101" end="x">Aha, nun?</u>
+                    <u who="#heislerA" start="2328.527" end="x">Und das war die Befreiung. Und nach der Befreiung die Menschen haben sich vorgestellt dann so Geschichten, ganze Beglückung, aber viele sind auch gestorben nach der Befreiung, weil sie haben bekommen das Essen, das Fett und die ganze Nahrung und haben sich verdorben den Magen. Und sie haben bekommen Bauchschmerzen und sind gestorben davon auch.</u>
+                    <u who="#boderD" start="2348.996" end="x">Ja. Und dann wurde ...</u>
+                    <u who="#heislerA" start="2352.855" end="x">Und dann hat man mich weg genommen von dem jugendlichen Block, dort war ich eine Zeit lang. Dann bin ich krank geworden mit Fleck-Typhus.</u>
+                    <u who="#boderD" start="2362.741" end="x">Nach der Befreiung haben Sie Fleck-Typhus bekommen?</u>
+                    <u who="#heislerA" start="2364.532" end="x">Ja. </u>
+                    <u who="#boderD" start="2364.998" end="x">Ja. </u>
+                    <u who="#heislerA" start="2365.812" end="x">Und dort bin ich gelegen vier (4) Wochen krank. Und dann habe ich gehört von dem Transport in die Schweiz und hab ich mich auch gemeldet dafür zu fahren in die Schweiz.</u>
+                </div>
+                <!-- end Spool 9-81 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#heislerA_en">
+                <!-- begin spool 9-81 -->
+                <div lang="en">
+                    <u who="#boderD" start="1.593" end="x">[In English:] This is Spool 81. <placeName ref="Genève">Geneva</placeName>, August 27th, 1946. The interviewee is Abraham [?] Heisler, eighteen years old, from the Czech territory which presumably has become Russian now. He carries a tattoo number A [A is possibly just a triangle] 4470. [In German:] And so Mr. Eis-...Heisler, would you tell us again your full name and where you were born. Speak slowly and [words not clear]. Nu?</u>
+                    <u who="#heislerA" start="38.323" end="x">Well, my name is Adolph Heisler.</u>
+                    <u who="#boderD" start="41.790" end="x">Yes.</u>
+                    <u who="#heislerA" start="41.951" end="x">And I come from Czechoslovakia, from Carpatho-Russia. I am eighteen years of age, and was later deported to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="51.997" end="x">Yes. And so, tell me, where were you and what had happened to you when the war began?</u>
+                    <u who="#heislerA" start="60.066" end="x">When the war began we were put into a <term ref="#vothG_ghetto">ghetto</term>, and there we were very much mistreated. And after the <term ref="#vothG_ghetto">ghetto</term>...we were in the <term ref="#vothG_ghetto">ghetto</term> one month, and after a month we were transported away by train to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="75.106" end="x">Now wait a moment. I want to know the whole story. That did not go that fast. And so how did they make it known? How were you...Who were your parents? What did you father and mother do?</u>
+                    <u who="#heislerA" start="87.746" end="x">And so, we had a large farm and my father had a large lumber business. We were working the forests [?].</u>
+                    <u who="#boderD" start="96.353" end="x">Yes. Nu?</u>
+                    <u who="#heislerA" start="97.874" end="x">And it was...and all that was then taken away from us...</u>
+                    <u who="#boderD" start="102.448" end="x">Now wait. Your father was a lumber merchant, and he [also] had a farm?</u>
+                    <u who="#heislerA" start="105.662" end="x">Yes. and also [?]...</u>
+                    <u who="#boderD" start="106.677" end="x">In the town or near the town?</u>
+                    <u who="#heislerA" start="108.230" end="x">Near the town.</u>
+                    <u who="#boderD" start="109.261" end="x">Near the town. Did you have any brothers and sisters?</u>
+                    <u who="#heislerA" start="113.848" end="x">Yes, I had two brothers. One brother is still alive today. He is in the Russian territory. He is living with an aunt.</u>
+                    <u who="#boderD" start="119.956" end="x">In Russia.</u>
+                    <u who="#heislerA" start="120.655" end="x">Yes.</u>
+                    <u who="#boderD" start="121.288" end="x">And the other one?</u>
+                    <u who="#heislerA" start="122.525" end="x">The other one...about the other one I know nothing, and about the parents I neither know anything.</u>
+                    <u who="#boderD" start="125.928" end="x">You know nothing about your parents.</u>
+                    <u who="#heislerA" start="127.320" end="x">No.</u>
+                    <u who="#boderD" start="127.921" end="x">No. Did you receive any letters from your brother in the Russian territory?</u>
+                    <u who="#heislerA" start="132.194" end="x">Not from him personally, but a girl wrote to me, a girl, an acquaintance. She was there. She was...she had lived as a neighbor next to us, so she wrote me that she had talked with my brother. I also sent once a telegram and everything, but I received no answer. I do not know...I cannot get in good communication with Russia, and I do not know how he is getting along and all that.</u>
+                    <u who="#boderD" start="155.301" end="x">Yes. Nu, and so you were living there in your town. What was the name of the town?</u>
+                    <u who="#heislerA" start="161.504" end="x">
+                        <placeName ref="Chynadiyovo">Chynadiyovo</placeName>
+                    </u>
+                    <u who="#boderD" start="162.662" end="x">
+                        <placeName ref="Chynadiyovo">Chynadiyovo</placeName>
+                    </u>
+                    <u who="#heislerA" start="163.851" end="x">Yes.</u>
+                    <u who="#boderD" start="164.168" end="x">How is it spelled?</u>
+                    <u who="#heislerA" start="165.879" end="x">C...</u>
+                    <u who="#boderD" start="167.018" end="x">Aha. C...</u>
+                    <u who="#heislerA" start="168.872" end="x">...Z...</u>
+                    <u who="#boderD" start="169.049" end="x">Chyna...</u>
+                    <u who="#heislerA" start="170.096" end="x"><placeName ref="Chynadiyovo">Chynadiyovo</placeName>.</u>
+                    <u who="#boderD" start="171.254" end="x"><placeName ref="Chynadiyovo">Chynadiyovo</placeName>.</u>
+                    <u who="#heislerA" start="172.428" end="x">Yes. That is a Czech city at the [word not clear].</u>
+                    <u who="#boderD" start="173.870" end="x">Yes. and so, good. Now tell me. The Germans arrived. How did they enter [the city]?</u>
+                    <u who="#heislerA" start="181.591" end="x">Right away the army entered. We saw the German occupation with the army, and all of a sudden it became black before the Jews' eyes. And two weeks later one morning they came, and we did not know why the houses were occupied, and they said in two hours everybody has to be packed up to be taken away. We did not know where to. The men [people] were led into a building. They were driven together into a large building, and they were taken in trucks to the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="213.645" end="x">Yes. Where...where was the <term ref="#vothG_ghetto">ghetto</term>? Where did they make the <term ref="#vothG_ghetto">ghetto</term>?</u>
+                    <u who="#heislerA" start="217.283" end="x">The <placeName ref="Munkács Ghetto" type="camp">Mukachevo Ghetto</placeName>. There were large barracks of a brick factory. There were large wooden barracks where the bricks were stored, and there we were quartered. It was very crowded there. We could not stand it, because there were terribly many people. In one barrack lived three thousand persons, because there was no room. And they crowded the people terribly, and...</u>
+                    <u who="#boderD" start="241.160" end="x">Men, women, and children together?</u>
+                    <u who="#heislerA" start="243.251" end="x">Everything together. The families still were...the families were still together.</u>
+                    <u who="#boderD" start="247.619" end="x">Yes. Nu, and you were the olde-...yes, you have a brother and a [feminine ending: eine]...</u>
+                    <u who="#heislerA" start="252.427" end="x">Yes, the two brothers.</u>
+                    <u who="#boderD" start="253.031" end="x">You had two brothers.</u>
+                    <u who="#heislerA" start="254.125" end="x">Yes.</u>
+                    <u who="#boderD" start="254.521" end="x">Were they older or younger?</u>
+                    <u who="#heislerA" start="256.074" end="x">Younger brothers.</u>
+                    <u who="#boderD" start="257.189" end="x">Younger brothers. Now, and how long were you there, in that brick factory?</u>
+                    <u who="#heislerA" start="263.972" end="x">In the brick factory we were four...four weeks.</u>
+                    <u who="#boderD" start="266.966" end="x">Yes? Who gave you to eat? What were you given to eat?</u>
+                    <u who="#heislerA" start="270.445" end="x">Yes, the Kehille [community] still supported itself. All the food supplies which we still had, had to be moved [taken along?]. We did not have much any more, because everything had been taken away.</u>
+                    <u who="#boderD" start="281.612" end="x">Hm. Yes?</u>
+                    <u who="#heislerA" start="283.024" end="x">And what was short [insufficient] was brought from the town.</u>
+                    <u who="#boderD" start="287.442" end="x">Yes. And who was the Kehille?</u>
+                    <u who="#heislerA" start="291.059" end="x">That was the Jewish Community [Council?] which took care that there should be sufficient. Everything was still not taken away due to money protection [bribery] and so forth. They were in [words not clear], so they permitted to bring in some food supplies.</u>
+                    <u who="#boderD" start="304.956" end="x">Food supplies. Nu, and after...that lasted, you say, four weeks.</u>
+                    <u who="#heislerA" start="309.813" end="x">Four weeks, yes.</u>
+                    <u who="#boderD" start="310.583" end="x">What happened then? Tell me all the details. How was it?</u>
+                    <u who="#heislerA" start="315.001" end="x">And so one morning comes, and it was said that whoever has citizen's rights of that and that city, the citizenship, then it is possible for him to remain there...for him to be released home. And so everybody brought his papers. We, too, showed [ours], all good [valid] papers. They were taken away. And suddenly we see he makes a big fire with those papers. They were just making fun of us. And the next day...</u>
+                    <u who="#boderD" start="341.086" end="x">And so you say that the papers were collected, and then what did they do?</u>
+                    <u who="#heislerA" start="345.191" end="x">And they were burned. They only said so [about citizenship], because they did not want us to have anything to show [identification] for the right to travel.</u>
+                    <u who="#boderD" start="351.720" end="x">Yes?</u>
+                    <u who="#heislerA" start="352.237" end="x">And on the next day in the morning we were not permitted to leave the barracks. We saw a great number of RR-cars arriving. And they packed in many [?] people in those RR-cars, a hundred people to a wagon, without food, without anything, and we were transported...where we are being transported to nobody knew. We were riding and riding, two weeks in the train. And then we arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. We did not know...</u>
+                    <u who="#boderD" start="377.340" end="x">Yes? Nu...</u>
+                    <u who="#heislerA" start="378.126" end="x">We did not know about any <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, about extermina-....We saw people dressed in prisoner clothes, but we did not know what it meant. Only afterwards we found out the entire story.</u>
+                    <u who="#boderD" start="391.080" end="x">All right. And so let us go back a little. You were put into RR-cars.</u>
+                    <u who="#heislerA" start="397.174" end="x">Yes.</u>
+                    <u who="#boderD" start="397.302" end="x">What kind of RR-cars were they?</u>
+                    <u who="#heislerA" start="398.840" end="x">They were those freight cars for cattle.</u>
+                    <u who="#boderD" start="402.303" end="x">Yes?</u>
+                    <u who="#heislerA" start="402.757" end="x">Not passenger cars. And they were very crowded, without water. They did not supply any water. Food, there was none, because from home we had not been able any more to bring any food along. Because we had already been four weeks in that <placeName ref="Munkács Ghetto" type="camp">ghetto</placeName>, everything had given out.</u>
+                    <u who="#boderD" start="417.949" end="x">How many persons were you in one wagon?</u>
+                    <u who="#heislerA" start="420.833" end="x">We were a hundred people in a wagon.</u>
+                    <u who="#boderD" start="422.981" end="x">Were there any seats, any benches?</u>
+                    <u who="#heislerA" start="425.001" end="x">No, no, just so. They had taken away the bundles. They had taken away everything. We lay on the bare boards.</u>
+                    <u who="#boderD" start="431.063" end="x">Was your father and mother with you?</u>
+                    <u who="#heislerA" start="433.289" end="x">Yes, still there in the RR-car, but...</u>
+                    <u who="#boderD" start="435.184" end="x">And the two brothers?</u>
+                    <u who="#heislerA" start="436.612" end="x">Also. All of us were still together. Only in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, when we arrived, were we all dispersed [separated].</u>
+                    <u who="#boderD" start="442.753" end="x">One moment. And so you were shoved into the RR-cars. Was there a toilet?</u>
+                    <u who="#heislerA" start="449.708" end="x">Nothing, nothing.</u>
+                    <u who="#boderD" start="450.838" end="x">So then, how did one do it when one wanted to go to...to...to relieve oneself or...?</u>
+                    <u who="#heislerA" start="456.506" end="x">We had a few pots, so we...</u>
+                    <u who="#boderD" start="459.278" end="x">Yes?</u>
+                    <u who="#heislerA" start="459.704" end="x">...made a toilet in the pots and poured it out.</u>
+                    <u who="#boderD" start="462.995" end="x">Poured it out where?</u>
+                    <u who="#heislerA" start="464.436" end="x">Out of the RR-car, outside [?].</u>
+                    <u who="#boderD" start="465.723" end="x">Were the RR-cars open?</u>
+                    <u who="#heislerA" start="467.357" end="x">There was a small opening, through the window...</u>
+                    <u who="#boderD" start="470.290" end="x">Yes.</u>
+                    <u who="#heislerA" start="470.650" end="x">...and covered with wire.</u>
+                    <u who="#boderD" start="471.971" end="x">Yes.</u>
+                    <u who="#heislerA" start="472.129" end="x">We could barely put the hand through.</u>
+                    <u who="#boderD" start="474.256" end="x">And how did the men and women use the pots?</u>
+                    <u who="#heislerA" start="478.165" end="x">Well, everything was the same [did not matter]. People there did not look [care] so much any more.</u>
+                    <u who="#boderD" start="482.180" end="x">Nu. And so, how long did the journey last?</u>
+                    <u who="#heislerA" start="488.678" end="x">Two weeks.</u>
+                    <u who="#boderD" start="489.782" end="x">[With surprise:] Two weeks?</u>
+                    <u who="#heislerA" start="490.607" end="x">Yes.</u>
+                    <u who="#boderD" start="491.122" end="x">Were the wagons opened every day?</u>
+                    <u who="#heislerA" start="493.496" end="x">No.</u>
+                    <u who="#boderD" start="495.784" end="x">And water?</u>
+                    <u who="#heislerA" start="497.249" end="x">Neither. We had...everybody had taken along a bucket of water from the <placeName ref="Munkács Ghetto" type="camp">ghetto</placeName>, and we had received a bread, that means two kilos of bread, and on this we lived the whole time...</u>
+                    <u who="#boderD" start="507.308" end="x">And so?</u>
+                    <u who="#heislerA" start="507.866" end="x">...per person [apparently still referring to the bread].</u>
+                    <u who="#boderD" start="508.790" end="x">Did you and your family have enough to eat?</u>
+                    <u who="#heislerA" start="512.169" end="x">From enough it was very far, but what could one do?</u>
+                    <u who="#boderD" start="515.339" end="x">Yes. Nu, did all of you.... What did the people do all day in the RR-cars?</u>
+                    <u who="#heislerA" start="522.610" end="x">Nothing. We were sitting. One said we are being taken there, and one said this will happen. We did not know ourselves. We were completely mixed up. We were already not normal from all the 'story' that had happened.</u>
+                    <u who="#boderD" start="536.073" end="x">Aha. Nu, and thus you arrived where? In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#heislerA" start="539.424" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="540.320" end="x">Now tell, when the train arrived, what happened then? And so what happened there?</u>
+                    <u who="#heislerA" start="546.935" end="x">And so we arrived there.</u>
+                    <u who="#boderD" start="548.556" end="x">[Testing the microphone.] Wait a moment. Nu?</u>
+                    <u who="#heislerA" start="550.944" end="x">We arrived there in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. An <term ref="#vothG_ss">SS</term> Storm leader was standing there, and he separated the older people and the children to one side, and those capable of working, those who looked very capable of working, they put to the other side. About the others, where they were led, no on knew only the next day we saw the huge flames and the smoke from the crematory where they were being burned. And we went into barracks.</u>
+                    <u who="#boderD" start="577.944" end="x">Who is the we?</u>
+                    <u who="#heislerA" start="579.632" end="x">We the capable of working. I was also among them.</u>
+                    <u who="#boderD" start="583.332" end="x">And so what happened to your family when you arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#heislerA" start="587.855" end="x">To my family happened that, that my brother and I stood on one side and the remaining stood...</u>
+                    <u who="#boderD" start="594.805" end="x">Who were the remaining?</u>
+                    <u who="#heislerA" start="595.910" end="x">The mother. The father was not there, because the father had been drafted for service, for military service, still at home.</u>
+                    <u who="#boderD" start="604.855" end="x">Yes?</u>
+                    <u who="#heislerA" start="605.316" end="x">And the mother with the smaller brother was...went...were taken away to the other side to...with those...those not capable of working.</u>
+                    <u who="#boderD" start="613.843" end="x">And so, I did not know that. Your father then was not with... When, where was your father taken for military service? Was your father there with you in the <placeName ref="Munkács Ghetto" type="camp">ghetto</placeName>?</u>
+                    <u who="#heislerA" start="623.179" end="x">No.</u>
+                    <u who="#boderD" start="623.768" end="x">No. And so where was he? Was he in the Hungarian army?</u>
+                    <u who="#heislerA" start="627.217" end="x">Yes.</u>
+                    <u who="#boderD" start="627.555" end="x">In the Czech army?</u>
+                    <u who="#heislerA" start="629.330" end="x">He was in the Czech army. And then they called the strong people, those who were well capable of working [word not clear] to dig trenches.</u>
+                    <u who="#boderD" start="639.740" end="x">Yes?</u>
+                    <u who="#heislerA" start="640.146" end="x">And he still remained there. And we were in the <placeName ref="Munkács Ghetto" type="camp">ghetto</placeName>.</u>
+                    <u who="#boderD" start="643.802" end="x">Aha. And you...he did not see you before you left?</u>
+                    <u who="#heislerA" start="647.056" end="x">No.</u>
+                    <u who="#boderD" start="647.709" end="x">And you did not hear from him at all?</u>
+                    <u who="#heislerA" start="649.191" end="x">No.</u>
+                    <u who="#boderD" start="649.803" end="x">And so your mother with the small boy went in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> to the other side?</u>
+                    <u who="#heislerA" start="653.236" end="x">Yes</u>
+                    <u who="#boderD" start="654.057" end="x">Nu, go on.</u>
+                    <u who="#heislerA" start="656.247" end="x">And the brother and I, we went to bathe.</u>
+                    <u who="#boderD" start="661.343" end="x">Yes.</u>
+                    <u who="#heislerA" start="661.667" end="x">And after we were bathed, everything was shorn off, and we were led into a barrack.</u>
+                    <u who="#boderD" start="666.306" end="x">What do you mean, everything shorn off?</u>
+                    <u who="#heislerA" start="668.322" end="x">The hair, everything shorn off.</u>
+                    <u who="#boderD" start="669.692" end="x">From the whole body?</u>
+                    <u who="#heislerA" start="670.490" end="x">From the whole body.</u>
+                    <u who="#boderD" start="671.549" end="x">[A ringing noise.] And so, go on. [In English:] There was a telephone interruption. [In german:] Nu?</u>
+                    <u who="#heislerA" start="676.561" end="x">And there we were...after the shearing off, in the bath, we were dressed in the prisoner uniforms just like the others. We did not know what was going on there. When we came out we already saw the sticks [clubs] flying over the backs and over the heads, those beatings there.</u>
+                    <u who="#boderD" start="694.065" end="x">Who was beating you?</u>
+                    <u who="#heislerA" start="695.837" end="x">There were the <term ref="#vothG_ss">SS</term>, and there were the German war-...not war criminals, but professional criminals who yet in the year '36 were put in concentration camps. They were worse yet than the <term ref="#vothG_ss">SS</term> men themselves.</u>
+                    <u who="#boderD" start="711.714" end="x">Yes?</u>
+                    <u who="#heislerA" start="712.009" end="x">And they were appointed there as <term ref="#vothG_capo">capos</term>. That means in the <term ref="#vothG_lager">lager</term> they would be over the prisoners. So in the <term ref="#vothG_lager">lager</term> proper they had detail, and they had [were in charge of] the supervision.</u>
+                    <u who="#boderD" start="724.940" end="x">Yes.</u>
+                    <u who="#heislerA" start="726.002" end="x">There we were driven into a barrack. And the second day we still did not get anything to eat, and sleep we could neither, because it was cold. It was on the stones, a barrack of stones. And there we...</u>
+                    <u who="#boderD" start="742.929" end="x">A stone floor.</u>
+                    <u who="#heislerA" start="744.661" end="x">Yes. And there we sat. It was still in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> proper.</u>
+                    <u who="#boderD" start="748.019" end="x">Yes.</u>
+                    <u who="#heislerA" start="748.141" end="x">It [<placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>] was not yet in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. It was the quarantine <term ref="#vothG_lager">lager</term> for <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="752.322" end="x">Yes. What kind of a <term ref="#vothG_lager">lager</term> was it?</u>
+                    <u who="#heislerA" start="754.052" end="x">Quarantine <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="755.151" end="x">A quarantine <term ref="#vothG_lager">lager</term> for <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> [?]?</u>
+                    <u who="#heislerA" start="756.109" end="x">There people were bathed, had their hair shorn off, and dressed [were outfitted]. And <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was already.... It was near <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, and <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was already the work <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="764.591" end="x">Yes. Nu?</u>
+                    <u who="#heislerA" start="766.543" end="x">And we were then asked there [about] the occupations, what occupation one has. And they said we will be sent to work.</u>
+                    <u who="#boderD" start="774.769" end="x">Yes?</u>
+                    <u who="#heislerA" start="775.507" end="x">And I reported as...that I was a locksmith [metal worker], because I knew that it is always better to have a trade than to work some place on a field, but...</u>
+                    <u who="#boderD" start="784.253" end="x">Did you know anything about locksmithing?</u>
+                    <u who="#heislerA" start="786.438" end="x">Yes. I went to a school at home. I always liked to play around with these things.</u>
+                    <u who="#boderD" start="790.768" end="x">Yes.</u>
+                    <u who="#heislerA" start="790.901" end="x">And I knew exactly that they are calling for locksmiths, then they need locksmiths, then...then one can somehow...if one has some sort of idea, when one understands [?]...</u>
+                    <u who="#boderD" start="800.260" end="x">Yes.</u>
+                    <u who="#heislerA" start="801.625" end="x">And I presented myself for it. And anyway I had no luck with it, because I was...I was not accepted for it.</u>
+                    <u who="#boderD" start="809.081" end="x">Yes?</u>
+                    <u who="#heislerA" start="810.118" end="x">And on the next day we were called out. We had...we already had the...we had no numbers yet.</u>
+                    <u who="#boderD" start="818.201" end="x">Yes.</u>
+                    <u who="#heislerA" start="818.696" end="x">We were just called out, and we were led to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, to <term ref="#vothG_lager">Lager</term>
+                        <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. Arriving there, we were given a soup to eat. It was already the third day, so everyone received a liter of soup, and we were led to be numbered...to tattoo the numbers.</u>
+                    <u who="#boderD" start="837.269" end="x">To be tattooed.</u>
+                    <u who="#heislerA" start="838.234" end="x">Yes.</u>
+                    <u who="#boderD" start="838.598" end="x">If everyone received a liter of soup, in what was the liter of soup given?</u>
+                    <u who="#heislerA" start="842.506" end="x">There were there such bowls, various broken bowls which had been collected from the transports, because they had taken along pots...</u>
+                    <u who="#boderD" start="850.420" end="x">Yes?</u>
+                    <u who="#heislerA" start="850.567" end="x">...from the RR-cars.</u>
+                    <u who="#boderD" start="851.836" end="x">Nu?</u>
+                    <u who="#heislerA" start="852.236" end="x">Then they collected them. And in them the soup was given...</u>
+                    <u who="#boderD" start="856.191" end="x">Yes.</u>
+                    <u who="#heislerA" start="856.432" end="x">...to eat.</u>
+                    <u who="#boderD" start="857.139" end="x">Nu?</u>
+                    <u who="#heislerA" start="858.455" end="x">And after getting the liter of soup, we were tattooed. We still stayed there two days, and on the third day we were taken away. I was separated from the brother, and I was taken away to work in a coal mine. It was eight kilometers from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, in <placeName ref="Jawiszowice">Jawiszowice</placeName>.</u>
+                    <u who="#boderD" start="876.409" end="x"><placeName ref="Jawiszowice">Jawiszowice</placeName>.</u>
+                    <u who="#heislerA" start="877.283" end="x">Yes.</u>
+                    <u who="#boderD" start="877.689" end="x">In a coal mine.</u>
+                    <u who="#heislerA" start="878.766" end="x">Yes.</u>
+                    <u who="#boderD" start="879.053" end="x">And so, were you given hammers? Were you given...</u>
+                    <u who="#heislerA" start="882.434" end="x">Yes. The same as everybody, the same as every worker, I was given...</u>
+                    <u who="#boderD" start="884.801" end="x">And a lamp on the head?</u>
+                    <u who="#heislerA" start="886.332" end="x">Not on the.... We had to carry lamps in the hands. The lamp weighed six kilo. The lamp itself was taking one's strength.</u>
+                    <u who="#boderD" start="893.631" end="x">Why? How come the lamp was that heavy? What was it?</u>
+                    <u who="#heislerA" start="896.459" end="x">It was...I don't know. They were those carbide...not carbide lamps, but...</u>
+                    <u who="#boderD" start="901.274" end="x">Yes.</u>
+                    <u who="#heislerA" start="901.999" end="x">...such a lantern, an electric lantern [?].</u>
+                    <u who="#boderD" start="905.257" end="x">Oh, they were...yes.</u>
+                    <u who="#heislerA" start="906.740" end="x">And they were...</u>
+                    <u who="#boderD" start="906.977" end="x">With batteries.</u>
+                    <u who="#heislerA" start="907.879" end="x">Yes.</u>
+                    <u who="#boderD" start="908.535" end="x">Yes?</u>
+                    <u who="#heislerA" start="908.903" end="x">And they were large lamps so as to last the twelve hours. We only worked eight hours...</u>
+                    <u who="#boderD" start="915.525" end="x">Aha.</u>
+                    <u who="#heislerA" start="915.678" end="x">...but they had to light [burn] for ten hours, to come out...</u>
+                    <u who="#boderD" start="920.097" end="x">Yes.</u>
+                    <u who="#heislerA" start="920.250" end="x">...and the <term ref="#vothG_appell">appells</term>, and that and that.</u>
+                    <u who="#boderD" start="922.369" end="x">And then the lamps were re-charged every night?</u>
+                    <u who="#heislerA" start="925.595" end="x">Yes, returned. Everybody had a lamp number, and everybody...</u>
+                    <u who="#boderD" start="928.919" end="x">Yes.</u>
+                    <u who="#heislerA" start="929.046" end="x">...returned the lamp.</u>
+                    <u who="#boderD" start="930.240" end="x">Aha. Had you every worked before by coal?</u>
+                    <u who="#heislerA" start="934.923" end="x">No.</u>
+                    <u who="#boderD" start="935.436" end="x">No.</u>
+                    <u who="#heislerA" start="935.568" end="x">I have...I have...</u>
+                    <u who="#boderD" start="936.134" end="x">How old were you then?</u>
+                    <u who="#heislerA" start="937.455" end="x">Sixteen years.</u>
+                    <u who="#boderD" start="938.540" end="x">Aha. And with whom did you go? All the prisoners or were you...</u>
+                    <u who="#heislerA" start="941.734" end="x">All prisoners.</u>
+                    <u who="#boderD" start="942.949" end="x">Yes? And how deep did you go down?</u>
+                    <u who="#heislerA" start="945.983" end="x">That was...it was four hundred and sixty meters deep.</u>
+                    <u who="#boderD" start="948.451" end="x">Four [hundred] and sixty [mistake: sounds like 64] meters deep.</u>
+                    <u who="#heislerA" start="949.591" end="x">Yes.</u>
+                    <u who="#boderD" start="949.817" end="x">You went down in what? In an elevator?</u>
+                    <u who="#heislerA" start="951.777" end="x">In a lift.</u>
+                    <u who="#boderD" start="952.907" end="x">Yes?</u>
+                    <u who="#heislerA" start="953.047" end="x">We went down in a lift.</u>
+                    <u who="#boderD" start="954.064" end="x">Who showed you how to work?</u>
+                    <u who="#heislerA" start="956.134" end="x">Yes, there was everywhere a Polish civilian, a foreman.</u>
+                    <u who="#boderD" start="959.887" end="x">Yes? Were they good to you?</u>
+                    <u who="#heislerA" start="962.274" end="x">Yes, they were still worse than the Germans themselves.</u>
+                    <u who="#boderD" start="964.909" end="x">Why?</u>
+                    <u who="#heislerA" start="965.483" end="x">They treated us much worse than the Germans. They informed on us. They beat [us]. It was terrible the way the Poles treated us there...</u>
+                    <u who="#boderD" start="975.540" end="x">Hm.</u>
+                    <u who="#heislerA" start="975.619" end="x">...in the coal mines.</u>
+                    <u who="#boderD" start="976.827" end="x">Hm.</u>
+                    <u who="#heislerA" start="978.189" end="x">And they beat us, the prisoners, to death.</u>
+                    <u who="#boderD" start="982.461" end="x">Did you not try sometimes to hit back?</u>
+                    <u who="#heislerA" start="984.972" end="x">But who had the strength? We were completely worn out. Completely starved from that liter of soup and two hundred grams of bread, and working in a coal mine, we had no mine [?] any more to fight back.</u>
+                    <u who="#boderD" start="996.350" end="x">Nu, go on. How long did you work there in the coal mines? And where did your brother go?</u>
+                    <u who="#heislerA" start="1002.718" end="x">I knew nothing more about the brother.</u>
+                    <u who="#boderD" start="1004.865" end="x">Aha.</u>
+                    <u who="#heislerA" start="1005.307" end="x">From the brother I have only now through that girl...</u>
+                    <u who="#boderD" start="1007.510" end="x">Yes.</u>
+                    <u who="#heislerA" start="1007.665" end="x">...received news.</u>
+                    <u who="#boderD" start="1009.429" end="x">And so how long did it last?</u>
+                    <u who="#heislerA" start="1012.083" end="x">It lasted until the year...year...until the Russians arrived. Then [?] in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>...they started attacking Upper Silesia. That was in '45.</u>
+                    <u who="#boderD" start="1022.160" end="x">Then how long were you in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#heislerA" start="1025.006" end="x">Two years.</u>
+                    <u who="#boderD" start="1025.812" end="x">Did you work in the coal mines all the time?</u>
+                    <u who="#heislerA" start="1028.168" end="x">Yes.</u>
+                    <u who="#boderD" start="1029.051" end="x">As a coal miner</u>
+                    <u who="#heislerA" start="1030.077" end="x">Yes.</u>
+                    <u who="#boderD" start="1030.682" end="x">[Jokingly:] So you are now a good coal miner, no?</u>
+                    <u who="#heislerA" start="1033.057" end="x">Yes, a pretty good one.</u>
+                    <u who="#boderD" start="1034.782" end="x">Yes. Nu, and...and then when you came out from the mines, what would happen then?</u>
+                    <u who="#heislerA" start="1043.522" end="x">When we came out we were counted [to see] if everybody is present, if none is missing, and we were led into the <term ref="#vothG_lager">lager</term>. There we bathed. Everyone had...</u>
+                    <u who="#boderD" start="1053.409" end="x">Every evening?</u>
+                    <u who="#heislerA" start="1054.397" end="x">Bathed every evening.</u>
+                    <u who="#boderD" start="1055.749" end="x">Yes.</u>
+                    <u who="#heislerA" start="1056.239" end="x">That was a good thing, that bath, that we were still able to bathe. And after the bath we were...</u>
+                    <u who="#boderD" start="1061.718" end="x">Yes...[?]</u>
+                    <u who="#heislerA" start="1061.931" end="x">We got the supper which was a piece of bread and a [portion of] black coffee, and we went to bed.</u>
+                    <u who="#boderD" start="1068.338" end="x">Yes. What kind of beds did you have?</u>
+                    <u who="#heislerA" start="1070.925" end="x">They were wooden plank-beds, such tiered beds, four stories high. We slept on the boards. Every...</u>
+                    <u who="#boderD" start="1077.580" end="x">How many people to a plank-bed?</u>
+                    <u who="#heislerA" start="1080.009" end="x">Yes. There were...on...approximately on one meter slept four, five people. There were...</u>
+                    <u who="#boderD" start="1084.952" end="x">Did you take off your clothes?</u>
+                    <u who="#heislerA" start="1086.954" end="x">No, it was too cold for undressing.</u>
+                    <u who="#heislerA" start="1089.838" end="x">Did you have any blankets?</u>
+                    <u who="#heislerA" start="1091.451" end="x">We had one blanket for [number not clear], and sometimes not even one.</u>
+                    <u who="#boderD" start="1094.750" end="x">Did you have lice?</u>
+                    <u who="#heislerA" start="1096.392" end="x">There is no question about it. We had very many lice.</u>
+                    <u who="#boderD" start="1098.697" end="x">And so, slowly. You had many lice.</u>
+                    <u who="#heislerA" start="1100.718" end="x">Yes.</u>
+                    <u who="#boderD" start="1102.456" end="x">And so you say you had many lice, but you said you were bathed every day. Nu?</u>
+                    <u who="#heislerA" start="1107.681" end="x">Yes, we bathed and still there were lice. For the reason...because we did...we did not have enough soap, and in the underwear and in the beds the lice always remained. When we would come home, at home we always lay down in the same things.</u>
+                    <u who="#boderD" start="1121.792" end="x">Nu, what was done about it?</u>
+                    <u who="#heislerA" start="1124.383" end="x">And so, not much was done about it, because there was a very great crowd of people. In one barrack there were two, three hundred people. And there could not...care was taken so that it should go away [rid ourselves], but not enough care could be taken.</u>
+                    <u who="#boderD" start="1141.757" end="x">Nu, what happened when someone became sick?</u>
+                    <u who="#heislerA" start="1144.940" end="x">When someone became sick he was taken away, or he was given a thrust [injection] to make him die faster. And if not...</u>
+                    <u who="#boderD" start="1152.048" end="x">What does that mean? He was given what?</u>
+                    <u who="#heislerA" start="1153.551" end="x">Given a push [injection?, booster?] to make him die faster.</u>
+                    <u who="#boderD" start="1155.804" end="x">Yes.</u>
+                    <u who="#heislerA" start="1156.050" end="x">He would even...even request it himself, because he would...life was not that good that he should desire to recover.</u>
+                    <u who="#boderD" start="1162.630" end="x">Nu?</u>
+                    <u who="#heislerA" start="1165.804" end="x">And if one was not so critically ill, there was a...a sick-ward. It was a hospital. And the wounds would be bandaged when one would hurt himself, or something like that.</u>
+                    <u who="#boderD" start="1176.213" end="x">Aha. Nu? And thus you worked all the time in the...</u>
+                    <u who="#heislerA" start="1181.545" end="x">Yes, we worked. We had no free Saturday nor Sunday.</u>
+                    <u who="#boderD" start="1187.196" end="x">No Sunday?</u>
+                    <u who="#heislerA" start="1188.322" end="x">No, nothing.</u>
+                    <u who="#boderD" start="1189.206" end="x">Hm.</u>
+                    <u who="#heislerA" start="1189.769" end="x">Always working.</u>
+                    <u who="#boderD" start="1190.634" end="x">Was there any holiday that you did not work?</u>
+                    <u who="#heislerA" start="1194.108" end="x">Yes, on New Year's we had a free day.</u>
+                    <u who="#boderD" start="1197.422" end="x">New Year.</u>
+                    <u who="#heislerA" start="1197.942" end="x">New Year.</u>
+                    <u who="#boderD" start="1198.382" end="x">Or Christmas?</u>
+                    <u who="#heislerA" start="1200.223" end="x">Christmas, no.</u>
+                    <u who="#boderD" start="1201.273" end="x">But New Year.</u>
+                    <u who="#heislerA" start="1202.046" end="x">New Year, yes.</u>
+                    <u who="#boderD" start="1202.921" end="x">So what did you do that day?</u>
+                    <u who="#heislerA" start="1205.106" end="x">What we...There were three shifts. I always worked on the noon shift. So we got up at eight o'clock in the morning.</u>
+                    <u who="#boderD" start="1212.494" end="x">Yes.</u>
+                    <u who="#heislerA" start="1212.747" end="x">And we washed up and got a coffee, a black coffee. And until dinner we idled around.</u>
+                    <u who="#boderD" start="1221.428" end="x">Yes.</u>
+                    <u who="#heislerA" start="1221.625" end="x">And I went...I was not...I was young, and I was able to get along [?], so I went there to a <term ref="#vothG_block">block</term> to sweep up. I had a little protection [favoritism] from the <term ref="#vothG_blockalteste">block elder</term>, so I would always get a little extra soup.</u>
+                    <u who="#boderD" start="1235.561" end="x">Yes.</u>
+                    <u who="#heislerA" start="1235.656" end="x">And that kept me going.</u>
+                    <u who="#boderD" start="1237.572" end="x">Aha. But you worked for it.</u>
+                    <u who="#heislerA" start="1239.332" end="x">Yes, for that I did extra work in the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="1241.954" end="x">Aha. Nu, and then?</u>
+                    <u who="#heislerA" start="1244.269" end="x">And then came...</u>
+                    <u who="#boderD" start="1244.966" end="x">From there you walked every day eight kilometers to work?</u>
+                    <u who="#heislerA" start="1248.675" end="x">No. The work was not so far. We walked three kilometers.</u>
+                    <u who="#boderD" start="1251.706" end="x">Three kilometers there.</u>
+                    <u who="#heislerA" start="1252.637" end="x">Yes.</u>
+                    <u who="#boderD" start="1252.720" end="x">And three kilometer back.</u>
+                    <u who="#heislerA" start="1253.939" end="x">Yes.</u>
+                    <u who="#boderD" start="1254.529" end="x">Go on.</u>
+                    <u who="#heislerA" start="1255.458" end="x">At eleven o'clock we ate dinner. Everyone got the liter...the liter of soup, and we went down to work. We marched out by details, guarded...guarded by the <term ref="#vothG_ss">SS</term>, and we went down.</u>
+                    <u who="#boderD" start="1267.639" end="x">Did you sing while going to work?</u>
+                    <u who="#heislerA" start="1269.867" end="x">[Bitterly:] It was already singing for us. - - - - without...without our singing.</u>
+                    <u who="#boderD" start="1273.539" end="x">What do you mean by that?</u>
+                    <u who="#heislerA" start="1275.767" end="x">We had no mood for singing.</u>
+                    <u who="#boderD" start="1277.535" end="x">Yes, but it is said that the <term ref="#vothG_ss">SS</term> demanded it.</u>
+                    <u who="#heislerA" start="1279.845" end="x">From us they did not demand it. There were some <term ref="#vothG_lager">lagers</term>, yes. There were <term ref="#vothG_lager">lagers</term> where they did demand it just to make fun, but not from us.</u>
+                    <u who="#boderD" start="1286.643" end="x">Aha.</u>
+                    <u who="#heislerA" start="1287.105" end="x">They just yelled all the time. The people were falling on their feet, so they would call, 'Left, two, left, two,' to keep in step.</u>
+                    <u who="#boderD" start="1293.472" end="x">Nu, and then?</u>
+                    <u who="#heislerA" start="1295.764" end="x">And then we would ride down. There [in the mine] everyone knew his work-place.</u>
+                    <u who="#boderD" start="1300.013" end="x">Yes.</u>
+                    <u who="#heislerA" start="1300.328" end="x">We arrived there. The civilian [foreman] arrived, too, and we worked in the...in the props. That means in the coal...it was sixty meters high. There we had to bend down...[corrects himself] sixty centimeters...</u>
+                    <u who="#boderD" start="1313.080" end="x">Yes.</u>
+                    <u who="#heislerA" start="1313.567" end="x">...high. And there we had to work lying down the whole eight hours.</u>
+                    <u who="#boderD" start="1317.448" end="x">Nu?</u>
+                    <u who="#heislerA" start="1317.878" end="x">And to throw, shovel beneath yourself. And that lasted for eight hours without...without rest. Nothing. Thus we worked the eight hours. Every eight hours the shift was changed. The others came, and we left. We arrived in the <term ref="#vothG_lager">lager</term>, and like I said, we bathed and went again to bed.</u>
+                    <u who="#boderD" start="1339.352" end="x">Yes.</u>
+                    <u who="#heislerA" start="1339.990" end="x">Thus it went on until [one] thousand, nine...until '44.</u>
+                    <u who="#boderD" start="1343.880" end="x">You told me you had a free day on New Year.</u>
+                    <u who="#heislerA" start="1347.260" end="x">Yes.</u>
+                    <u who="#boderD" start="1347.517" end="x">What did you do on that day?</u>
+                    <u who="#heislerA" start="1349.759" end="x">What? We caught up on our sleep. We were very happy that we could get some rest.</u>
+                    <u who="#boderD" start="1354.113" end="x">Yes. Nu?</u>
+                    <u who="#heislerA" start="1354.833" end="x">Everyone slept the whole day.</u>
+                    <u who="#boderD" start="1357.075" end="x">Nu?</u>
+                    <u who="#heislerA" start="1357.359" end="x">Whatever one could.</u>
+                    <u who="#boderD" start="1359.956" end="x">And so that lasted how long?</u>
+                    <u who="#heislerA" start="1362.116" end="x">That lasted until, I believe, '45. Then the Russians...</u>
+                    <u who="#boderD" start="1366.716" end="x">Yes.</u>
+                    <u who="#heislerA" start="1367.073" end="x">In December of '44 the Russians made an attack on the region. So we started to go away from there. We left the coal mines, and...</u>
+                    <u who="#boderD" start="1376.813" end="x">What do you mean, you left? You were led away?</u>
+                    <u who="#heislerA" start="1378.508" end="x">Yes, taken away.</u>
+                    <u who="#boderD" start="1379.592" end="x">Nu, and where were you led?</u>
+                    <u who="#heislerA" start="1381.496" end="x">And so, we took to the road on foot.</u>
+                    <u who="#boderD" start="1384.626" end="x">What did they do with the coal mines? Were the mines...</u>
+                    <u who="#heislerA" start="1387.053" end="x">Abandoned.</u>
+                    <u who="#boderD" start="1387.866" end="x">Yes, abandoned.</u>
+                    <u who="#heislerA" start="1388.813" end="x">And so we...we had...we were eight kilometers from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, so we saw <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> burning. They set everything on fire, the entire <term ref="#vothG_lager">lager</term>. The crematories were bombed [blasted]. They demolished everything. And we walked on foot. And so everyone had...in the last moments everybody was able to loot bread and everything, because everything was open. So everyone...</u>
+                    <u who="#boderD" start="1408.488" end="x">You could steal bread?</u>
+                    <u who="#heislerA" start="1409.671" end="x">Yes.</u>
+                    <u who="#boderD" start="1410.250" end="x">Yes.</u>
+                    <u who="#heislerA" start="1410.838" end="x">And everyone grabbed a loaf. We killed each other for a piece of bread.</u>
+                    <u who="#boderD" start="1415.852" end="x">Nu?</u>
+                    <u who="#heislerA" start="1416.359" end="x">And we walked on the road. There was snow of forty centimeters, a half meter of snow.</u>
+                    <u who="#boderD" start="1422.851" end="x">Slowly. Yes.</u>
+                    <u who="#heislerA" start="1424.665" end="x">And we were not dressed well. But of course we had to walk very fast, because they were afraid of the Russians, that the Russians will catch up with us.</u>
+                    <u who="#boderD" start="1433.771" end="x">Nu?</u>
+                    <u who="#heislerA" start="1434.393" end="x">And we had to...</u>
+                    <u who="#boderD" start="1435.945" end="x">Why did they not want the Russians to get hold of the prisoners?</u>
+                    <u who="#heislerA" start="1439.615" end="x">Why? Why should they want [that]? They were afraid, of course, that we would tell all those stories so that the whole world would know. Now the whole world does know all the stories, but...and then we were of use to them for work. We were then transported to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.</u>
+                    <u who="#boderD" start="1455.213" end="x">Aha. And so you were walking. How far did you walk on foot?</u>
+                    <u who="#heislerA" start="1458.260" end="x">We walked a hundred and forty kilometers on foot. It was in two days.</u>
+                    <u who="#boderD" start="1462.697" end="x">Yes?</u>
+                    <u who="#heislerA" start="1463.315" end="x">And one night we slept, because the <term ref="#vothG_ss">SS</term> themselves could not walk any more. They were healthy, it is true, but they, too, had no more strength, because we made eighty kilometers.</u>
+                    <u who="#boderD" start="1473.473" end="x">Slowly.</u>
+                    <u who="#heislerA" start="1474.733" end="x">[After] the eighty kilometers we arrived there. We were chased into a field...</u>
+                    <u who="#boderD" start="1480.472" end="x">Yes?</u>
+                    <u who="#heislerA" start="1480.786" end="x">...of snow, and there they began to shoot, and then they said for everybody to lie down, because they did not want us to stand.</u>
+                    <u who="#boderD" start="1489.542" end="x">Yes.</u>
+                    <u who="#heislerA" start="1489.669" end="x">And there was no room to stand on that field. And they said to lie down. And they began to yell. One simply fell on top of another, because they were shooting over our heads. Many also fell there.</u>
+                    <u who="#boderD" start="1502.992" end="x">Why did they want you to lie down?</u>
+                    <u who="#heislerA" start="1505.180" end="x">They had such a fantasy in their heads.</u>
+                    <u who="#boderD" start="1507.385" end="x">Nu?</u>
+                    <u who="#heislerA" start="1508.199" end="x">And everything [everybody] lay down. And there was snow and a severe frost. The night was terribly cold. I myself was surprised how I lived through it a whole night. I had fallen into the snow, and I slept there. In the morning I arose completely wet, because the snow had melted. I am surprised today how I pulled through that night. And in the morning we got up, and fifty per cent remained lying there in the snow. And the rest that had remained, we had to bury them there, dig ditches and bury them. And we went on.</u>
+                    <u who="#boderD" start="1547.896" end="x">With what did you dig the ditches?</u>
+                    <u who="#heislerA" start="1549.629" end="x">They had brought tools.</u>
+                    <u who="#boderD" start="1552.119" end="x">They had brought tools.</u>
+                    <u who="#heislerA" start="1552.860" end="x">Yes.</u>
+                    <u who="#boderD" start="1553.540" end="x">And what was done to those who were not yet dead?</u>
+                    <u who="#heislerA" start="1557.692" end="x">We had to bury them?</u>
+                    <u who="#boderD" start="1560.478" end="x">The living?</u>
+                    <u who="#heislerA" start="1562.336" end="x">No. The living had to bury the dead.</u>
+                    <u who="#boderD" start="1565.156" end="x">Yes, but the ones who were sick?</u>
+                    <u who="#heislerA" start="1567.130" end="x">They were also while still ali-...alive thrown into the grave. Who...whoever was not able to walk was shot and thrown into the grave.</u>
+                    <u who="#boderD" start="1573.551" end="x">Shot and thrown into the grave.</u>
+                    <!-- didn't get that "yes" -->
+                    <u who="#heislerA" start="1575.599" end="x">Yes. But there were also many people on the road who were not able to walk any more, so they would take a blanket over the head, put the head in it...</u>
+                    <u who="#boderD" start="1582.258" end="x">Yes.</u>
+                    <u who="#heislerA" start="1582.437" end="x">...and sit down. The <term ref="#vothG_ss">SS</term> man would pass by and finish him off with a shot.</u>
+                    <u who="#boderD" start="1585.678" end="x">Did he at least see if the man was dead when he shot him?</u>
+                    <u who="#heislerA" start="1588.669" end="x">If he was not dead he remained that way. He waited until he died [?].</u>
+                    <u who="#boderD" start="1593.713" end="x">Hm. Nu?</u>
+                    <u who="#heislerA" start="1596.231" end="x">And the next day, after we buried them, we walked on. They said we still have fifty kilometers to a train. And there we will board a train, because here they do not have a free [proper] railroad station for...</u>
+                    <u who="#boderD" start="1607.289" end="x">One moment. [Adjusting the equipment.] And so go on. It was fifty kilometers to the train.</u>
+                    <u who="#heislerA" start="1611.137" end="x">Yes. And we walked the fifty kilometers still on foot. Many people fell on the way, because they could not...not make it. So they were shot there on the road, and left lying thus on the road. And we, who were still able to make it, arrived there, at a railroad station. It was in <placeName ref="Wrocław">Breslau</placeName>, I believe. And there we waited for RR-cars. And after several hours -- we sat there in the snow -- after several hours rr- cars arrived, and we boarded the RR-cars. But the RR-cars were also terrible, because the RR-cars were, of course, completely open, without roofs. They were those half-RR-cars [flat cars or gondolas]. There was much snow, and we had to sit in the snow.</u>
+                    <u who="#boderD" start="1653.839" end="x">There was snow in the RR-cars?</u>
+                    <u who="#heislerA" start="1655.884" end="x">Yes, because they were without roofs.</u>
+                    <u who="#boderD" start="1657.822" end="x">Yes.</u>
+                    <u who="#heislerA" start="1658.456" end="x">And we sat there in the snow. And the journey to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> took eight days. We did not know...</u>
+                    <u who="#boderD" start="1666.103" end="x">Were there any <term ref="#vothG_ss">SS</term> with you in the RR-cars?</u>
+                    <u who="#heislerA" start="1668.476" end="x">Yes. There was an <term ref="#vothG_ss">SS</term> man in each RR-car.</u>
+                    <u who="#boderD" start="1670.191" end="x">And where was the <term ref="#vothG_ss">SS</term> standing, also in the snow?</u>
+                    <u who="#heislerA" start="1672.888" end="x">Yes, but he, of course, was well dressed.</u>
+                    <u who="#boderD" start="1674.755" end="x">Yes.</u>
+                    <u who="#heislerA" start="1675.123" end="x">And they were constantly changing [the guard]. On ever...every stations others would take over.</u>
+                    <u who="#boderD" start="1680.891" end="x">Aha.</u>
+                    <u who="#heislerA" start="1681.253" end="x">And at the end there were two RR-cars, passenger cars, which were heated.</u>
+                    <u who="#boderD" start="1685.287" end="x">Yes.</u>
+                    <u who="#heislerA" start="1685.481" end="x">And the <term ref="#vothG_ss">SS</term> were living there.</u>
+                    <u who="#boderD" start="1687.218" end="x">Yes.</u>
+                    <u who="#heislerA" start="1687.509" end="x">And the guards would always be changed.</u>
+                    <u who="#boderD" start="1689.342" end="x">Well, if you were together for so many days, didn't people talk to the <term ref="#vothG_ss">SS</term> man? Didn't people talk with him? Didn't he himself talk?</u>
+                    <u who="#heislerA" start="1696.820" end="x">Yes, he said.... There would be a good one. So he wanted to talk, and there would be a mean one who would take the rifle and beat one if one said a word to him.</u>
+                    <u who="#boderD" start="1704.964" end="x">Hm.</u>
+                    <u who="#heislerA" start="1705.036" end="x">It was the response [?] if one still dared to open [one's mouth] to say a word to him.</u>
+                    <u who="#boderD" start="1709.013" end="x">Nu?</u>
+                    <u who="#heislerA" start="1709.455" end="x">The same trick they would also do in the <term ref="#vothG_lager">lager</term>. One would be walking along, and he [the prisoner] greated him. So he [the <term ref="#vothG_ss">SS</term>] would come over to him and ask whether he is his comrade [implying that such an idea was, of course, presumptuous] that he greets him. If he [the prisoner] did not greet, then he would ask why he does not greet him. So he would also beat him. So we would not know ourselves what to do.</u>
+                    <u who="#boderD" start="1726.183" end="x">Hm.</u>
+                    <u who="#heislerA" start="1726.320" end="x">If there was a good one, he would talk. So we would ask him where we were being taken.</u>
+                    <u who="#boderD" start="1730.044" end="x">Nu?</u>
+                    <u who="#heislerA" start="1730.432" end="x">So he said he does not know himself. He also has [just] an order from the headquarters, and he does not know either where we are being taken.</u>
+                    <u who="#boderD" start="1738.875" end="x">Nu?</u>
+                    <u who="#heislerA" start="1739.225" end="x">But then we saw that we are arriving in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.</u>
+                    <u who="#boderD" start="1741.739" end="x">How?</u>
+                    <u who="#heislerA" start="1741.915" end="x">When we arrived...</u>
+                    <u who="#boderD" start="1742.859" end="x">Yes.</u>
+                    <u who="#heislerA" start="1743.058" end="x">...there, after eight days riding on the...on the train...</u>
+                    <u who="#boderD" start="1746.712" end="x">Nu?</u>
+                    <u who="#heislerA" start="1747.749" end="x">We arrived there in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. But we were already very weak from the journey.</u>
+                    <u who="#boderD" start="1751.920" end="x">Yes.</u>
+                    <u who="#heislerA" start="1752.405" end="x">My own head was spinning after the bath. We were bathed there, because by the Germans the ones arriving in an...another <term ref="#vothG_lager">lager</term> were bathed.</u>
+                    <u who="#boderD" start="1762.878" end="x">Nu, what does it mean...</u>
+                    <u who="#heislerA" start="1763.501" end="x">Disinfection.</u>
+                    <u who="#boderD" start="1764.113" end="x">...your head was spinning?</u>
+                    <u who="#heislerA" start="1765.300" end="x">Yes. I could not...I could not come to myself.</u>
+                    <u who="#boderD" start="1768.273" end="x">What does that mean?</u>
+                    <u who="#heislerA" start="1769.403" end="x">I became weak after the bath. I was very weak and after a hot bath...</u>
+                    <u who="#boderD" start="1774.864" end="x">Nu?</u>
+                    <u who="#heislerA" start="1774.992" end="x">That sort of melted my bones, because I was completely frozen.</u>
+                    <u who="#boderD" start="1778.911" end="x">Yes.</u>
+                    <u who="#heislerA" start="1779.088" end="x">I was hardly able to walk over to the bath.</u>
+                    <u who="#boderD" start="1781.919" end="x">Nu?</u>
+                    <u who="#heislerA" start="1782.293" end="x">And then I was...after a hot bath my head was spinning. So I sat down for a little while and more or less came to myself.</u>
+                    <u who="#boderD" start="1789.799" end="x">Aha.</u>
+                    <u who="#heislerA" start="1785.757" end="x">Then we were sent...after the bath we were sent into.... There they again shore us everywhere [?]. The hair was shorn off all over, and we were led into <term ref="#vothG_block">blocks</term>...into barracks. And there we were for two days in the barracks. And suddenly we hear [that] we are going to work again, to another place. And in the other place we were chased out one early morning in the snow. The whole <term ref="#vothG_block">block</term> was called out, and we were not told where we were going, and it was also a cold day, and we were packed into RR-cars. And we rode one day. It was good that it did not take any longer.</u>
+                    <u who="#boderD" start="1831.291" end="x">Again from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#heislerA" start="1832.432" end="x">From <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> to ano-...it was in Germany itself, in Thuringia.</u>
+                    <u who="#boderD" start="1836.309" end="x">Yes.</u>
+                    <u who="#heislerA" start="1836.993" end="x">Karawinki [or <placeName ref="Trawniki concentration camp" type="camp">Trawinki</placeName> -- the recording is not clear; both names appear incorrect unless we deal with a makeshift name invented by the prisoners].</u>
+                    <u who="#boderD" start="1837.854" end="x">Hm.</u>
+                    <u who="#heislerA" start="1838.539" end="x">And we arrived in a <term ref="#vothG_lager">lager</term>. And so there [it] was much worse yet than in the coal mines.</u>
+                    <u who="#boderD" start="1843.867" end="x">Yes.</u>
+                    <u who="#heislerA" start="1844.230" end="x">It was a <term ref="#vothG_lager">lager</term> [word not clear]. There were munition depots. And we lived in a cellar, in underground bunkers.</u>
+                    <!-- cant locate the yes -->
+                    <u who="#boderD" start="x" end="x">Yes.</u>
+                    <u who="#heislerA" start="1852.671" end="x">In a forest.</u>
+                    <u who="#boderD" start="1853.783" end="x">Nu?</u>
+                    <u who="#heislerA" start="1854.001" end="x">And there the...the...the treatment was much worse than anywhere else.</u>
+                    <u who="#boderD" start="1858.014" end="x">Why?</u>
+                    <u who="#heislerA" start="1859.321" end="x">Because there we did not bathe. There [in other camps] one still could bathe. We had no water. Three months passed that we did not have any water on our faces whatsoever with which to wash ourselves. And the lice ate us up completely.</u>
+                    <u who="#boderD" start="1874.703" end="x">What did you do there?</u>
+                    <u who="#heislerA" start="1876.542" end="x">Worked. Dug various ditches. Loaded munitions.</u>
+                    <u who="#boderD" start="1881.040" end="x">Aha.</u>
+                    <u who="#heislerA" start="1881.573" end="x">They were building there a large factory in a...underneath a forest.</u>
+                    <u who="#boderD" start="1885.800" end="x">In '45 already?</u>
+                    <u who="#heislerA" start="1887.069" end="x">In '45.</u>
+                    <u who="#boderD" start="1887.601" end="x">An underground factory...</u>
+                    <u who="#heislerA" start="1889.020" end="x">Yes.</u>
+                    <u who="#boderD" start="1889.281" end="x">...they were building there. Nu?</u>
+                    <u who="#heislerA" start="1891.670" end="x">And there it was something terrible. I talked there to some people from Poland who had been there already for six years. They said they had gone through the worst <term ref="#vothG_lager">lagers</term>, <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>, but they were never in such a place.</u>
+                    <u who="#boderD" start="1908.197" end="x">Nu?</u>
+                    <u who="#heislerA" start="1908.944" end="x">And there we were.... Then I, too, became sick from the many lice, in the last two weeks before the liberation.</u>
+                    <u who="#boderD" start="1917.961" end="x">Yes?</u>
+                    <u who="#heislerA" start="1918.913" end="x">When I became sick, I went to a doctor for eight days. Would always go in the evenings, pleading that I cannot work. He did not want to believe me.</u>
+                    <u who="#boderD" start="1927.923" end="x">Was he a Jewish doctor?</u>
+                    <u who="#heislerA" start="1929.164" end="x">Yes.</u>
+                    <u who="#boderD" start="1929.752" end="x">Yes?</u>
+                    <u who="#heislerA" start="1930.238" end="x">From Poland, a Jew. He...he was a very mean one. There were also among the Jews themselves very bad people. Because they would...very brutal persons.</u>
+                    <u who="#boderD" start="1939.959" end="x">Yes?</u>
+                    <u who="#heislerA" start="1941.341" end="x">And then he...he spared me, because, after all, I was young. I was then seventeen years old. And he put me in the hospital, in the sick-ward. There I was eight days. Then I was sent on a transport that was being sent to the crematory.</u>
+                    <u who="#boderD" start="1961.606" end="x">Where were the crematories there?</u>
+                    <u who="#heislerA" start="1963.296" end="x">They were near. Eight kilometers from there was also a <term ref="#vothG_lager">lager</term>, a big <term ref="#vothG_lager">lager</term>, <placeName ref="Ohrdruf concentration camp" type="camp">Ohrdurf</placeName> [?]. And there they also had set up a crematory.</u>
+                    <u who="#boderD" start="1973.183" end="x">Did they gas the people there?</u>
+                    <u who="#heislerA" start="1975.600" end="x">No, they would just kill them, finish.... They were anyway already half dead. So they would just kill them with rifles or what not [?]. But it was our luck that the Americans were already...</u>
+                    <u who="#boderD" start="1990.227" end="x">Now where were you when the Americans arrived?</u>
+                    <u who="#heislerA" start="1994.314" end="x">We were there in that...in that <term ref="#vothG_lager">lager</term> where we had been taken to be pulver-...to be gassed. And we...</u>
+                    <u who="#boderD" start="2001.517" end="x">What does it mean, in a <term ref="#vothG_lager">lager</term> to be.... In which <term ref="#vothG_lager">lager</term> was it?</u>
+                    <u who="#heislerA" start="2003.654" end="x">It was in Ohrdurf. After I became sick I was naturally taken away from there.</u>
+                    <u who="#boderD" start="2007.508" end="x">Where to?</u>
+                    <u who="#heislerA" start="2008.617" end="x">Eight kilometers away there was a <term ref="#vothG_lager">lager</term> where people would be...there was a crematory. The people who...from there would come very many sick people. Because of the...it was terrible there.</u>
+                    <u who="#boderD" start="2017.342" end="x">Yes.</u>
+                    <u who="#heislerA" start="2018.527" end="x">So they were there killed and burned.</u>
+                    <u who="#boderD" start="2021.979" end="x">Nu?</u>
+                    <u who="#heislerA" start="2023.298" end="x">And when we arrived, it was already the last transport. They did not have any more time for it. They...they were already busy with themselves, because the Americans were already approaching it [the <term ref="#vothG_lager">lager</term>].</u>
+                    <u who="#boderD" start="2033.778" end="x">Yes.</u>
+                    <u who="#heislerA" start="2034.593" end="x">And we lay there another eight days. And we were supposed to remain there until the <term ref="#vothG_lager">lager</term> will be shot...all the people there will be shot, or they will blast the <term ref="#vothG_lager">lager</term> [with explosives], or something like that.</u>
+                    <u who="#boderD" start="2049.145" end="x">Hm.</u>
+                    <u who="#heislerA" start="2049.650" end="x">And luckily we were taken and transported to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> from there.</u>
+                    <u who="#boderD" start="2056.182" end="x">Transported back to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.</u>
+                    <u who="#heislerA" start="2056.942" end="x">Yes, and so...</u>
+                    <u who="#boderD" start="2058.443" end="x">Nu?</u>
+                    <u who="#heislerA" start="2059.029" end="x">But with me it was a special stroke of luck. I don't know how I succeeded in that whole affair, because all were transported in the rr-... [correcting himself] on foot.</u>
+                    <u who="#boderD" start="2071.977" end="x">Yes.</u>
+                    <u who="#heislerA" start="2072.161" end="x">And I had told myself -- there were [other] sick people -- I am not going on foot any more. Let them kill me here. I have to go and suffer and then die? I decided to die here on the spot.</u>
+                    <u who="#boderD" start="2083.282" end="x">Nu?</u>
+                    <u who="#heislerA" start="2084.307" end="x">And then there came, in the last moment, trucks, and the sick were loaded on the trucks, and they were taken away.</u>
+                    <u who="#boderD" start="2092.910" end="x">To <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#heislerA" start="2093.734" end="x">Yes.</u>
+                    <u who="#boderD" start="2094.311" end="x">Nu?</u>
+                    <u who="#heislerA" start="2094.760" end="x">And that was our luck. [The following note was inserted in the first-draft translation by Mr. Bernard Wolf who himself was in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> at that time: He is probably referring here to the death march from <placeName ref="Ohrdruf concentration camp" type="camp">Ohrdurf</placeName> to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. 'Twelve thousand prisoners left <placeName ref="Ohrdruf concentration camp" type="camp">Ohrdurf</placeName>, less than half arrived in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.'] From there we came to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and we were pushed into.... We believed that.... In <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> we were put near the crematory, so we believed that we were being taken to the crematory, but luckily...</u>
+                    <u who="#boderD" start="2106.748" end="x">Yes?</u>
+                    <u who="#heislerA" start="2107.471" end="x">...we were not [taken] to the crematory, but were [taken] to the old <term ref="#vothG_lager">lager</term>, among the people who were in quarantine. And we were lodged there for a few days.</u>
+                    <u who="#boderD" start="2119.060" end="x">And then?</u>
+                    <u who="#heislerA" start="2120.176" end="x">But we knew that the Americans were already near, because they were advancing rapidly. Every night we could hear the shooting. And <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, too, began to be evacuated to...to take away the people.</u>
+                    <u who="#boderD" start="2132.553" end="x">Where to?</u>
+                    <u who="#heislerA" start="2134.309" end="x">Well, I don't know where to.</u>
+                    <u who="#boderD" start="2136.148" end="x">Yes.</u>
+                    <u who="#heislerA" start="2136.330" end="x">Because I remained there still. And it was said that those who could walk, go, and who cannot walk, he...then the <term ref="#vothG_lager">lager</term> will be destroyed.</u>
+                    <u who="#boderD" start="2145.412" end="x">Yes.</u>
+                    <u who="#heislerA" start="2145.659" end="x">In the last hour.</u>
+                    <u who="#boderD" start="2146.950" end="x">Yes.</u>
+                    <u who="#heislerA" start="2147.522" end="x">And the healthy people went, but our <term ref="#vothG_block">block</term> said we are not going. They should kill us here, and we shall remain here.</u>
+                    <u who="#boderD" start="2156.295" end="x">Hm.</u>
+                    <u who="#heislerA" start="2157.205" end="x">And...but still on the next day -- it was on Sunday -- the <term ref="#vothG_ss">SS</term> came and began to throw [us] out through the windows and to chase.</u>
+                    <u who="#boderD" start="2168.943" end="x">Threw out, what?</u>
+                    <u who="#heislerA" start="2170.960" end="x">Threw us out the windows.</u>
+                    <u who="#boderD" start="2172.060" end="x">Yes. They threw out the people?</u>
+                    <u who="#heislerA" start="2173.653" end="x">Yes.</u>
+                    <u who="#boderD" start="2173.998" end="x">Yes.</u>
+                    <u who="#heislerA" start="2174.190" end="x">Through the windows. And started to drive [them] to the <term ref="#vothG_appell">appell</term> square, and from there we should be taken for evacuation.</u>
+                    <u who="#boderD" start="2180.137" end="x">On what story [floor] was it [in the hospital]?</u>
+                    <u who="#heislerA" start="2182.199" end="x">It was on...it had no stories.</u>
+                    <u who="#boderD" start="2185.994" end="x">Why through the windows and not through the doors?</u>
+                    <u who="#heislerA" start="2188.690" end="x">Because nobody wanted to go.</u>
+                    <u who="#boderD" start="2190.359" end="x">Aha. And?</u>
+                    <u who="#heislerA" start="2191.403" end="x">Everyone was reluctant to be evacuated.</u>
+                    <u who="#boderD" start="2193.926" end="x">Yes.</u>
+                    <u who="#heislerA" start="2194.528" end="x">And they poured water over these people. Nobody wan-...they still did not carry it out, because the people told themselves.... They called to their faces to shoot them.</u>
+                    <u who="#boderD" start="2204.266" end="x">Nu?</u>
+                    <u who="#heislerA" start="2204.993" end="x">But they did not shoot. I do not know why. And on the next day, the same story. Finally they succeeded. They assembled the people on the <term ref="#vothG_appell">appell</term> square.</u>
+                    <u who="#boderD" start="2216.328" end="x">Yes.</u>
+                    <u who="#heislerA" start="2217.237" end="x">And I went up there, too. And I saw standing there a transport of youths [youngsters].</u>
+                    <u who="#boderD" start="2223.587" end="x">Yes.</u>
+                    <u who="#heislerA" start="2223.769" end="x">And that was for a reason [?]. They had been selected to remain in the <term ref="#vothG_lager">lager</term>. They were not suitable for transport. And so I went over there. I, of course, am young too.</u>
+                    <u who="#boderD" start="2233.830" end="x">Hm.</u>
+                    <u who="#heislerA" start="2234.465" end="x">And I went over and mingled in, and returned to the <term ref="#vothG_lager">lager</term>. And these people left on a transport. And this was on Tuesday already. And on Wednesday...that day was the eighth day that we were completely without food. Wednesday morning we heard the shooting on the part of the Germans [?], and at ten o'clock we heard an enemy...enemy alarm [to be sounded on the approach of the enemy]. The Americans had arrived, one American tank, and went back. And by eleven o'clock planes came over. And at three-thirty we were liberated by the Americans. The first Americans had arrived. The Germans had abandoned the <term ref="#vothG_lager">lager</term> entirely.</u>
+                    <u who="#boderD" start="2277.872" end="x">When did the Germans abandon the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#heislerA" start="2280.181" end="x">They left at one o'clock in the afternoon.</u>
+                    <u who="#boderD" start="2282.029" end="x">What did they say?</u>
+                    <u who="#heislerA" start="2283.736" end="x">Nothing. We only saw them leaving the watchtowers. It was so. Afterwards we dis-...dis-...discovered...heard that from <placeName ref="Weimar">Weimar</placeName> the <term ref="#vothG_lager">lager</term> commander had telephoned to demolish the <term ref="#vothG_lager">lager</term>, [he telephoned] one hour after the liberation. He did not know yet that the <term ref="#vothG_lager">lager</term> had already been liberated. It was at half past four. So the <term ref="#vothG_lager">lager</term> elder -- he was a prisoner -- answered him, 'Yes, yes, we will demolish their heads.' If we had not been liberated an hour before, they would have demolished the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="2319.572" end="x">What did he answer him?</u>
+                    <u who="#heislerA" start="2321.631" end="x">That [now] he should already telephone to Lord God and not to us.</u>
+                    <u who="#boderD" start="2326.101" end="x">Aha. Nu?</u>
+                    <u who="#heislerA" start="2328.527" end="x">And thus we were liberated. And so, [about] this liberation, people had imagined whole stories, great happiness, but many people also died after the liberation, because they received very fat food. And they completely ruined their stomachs. They got stomach aches, and they died from that, too.</u>
+                    <u who="#boderD" start="2348.996" end="x">Yes. And then where...</u>
+                    <u who="#heislerA" start="2352.855" end="x">And then I was taken away to a youth <term ref="#vothG_block">block</term>, and there I was for a certain time. There I became sick with spotted typhus.</u>
+                    <u who="#boderD" start="2362.741" end="x">After the liberation you had spotted typhus?</u>
+                    <u who="#heislerA" start="2364.532" end="x">Yes.</u>
+                    <u who="#boderD" start="2364.998" end="x">Yes.</u>
+                    <u who="#heislerA" start="2365.812" end="x">There I lay four weeks, and then I heard about the transport going to Switzerland. So I reported for it, to go to Switzerland.</u>
+                </div>
+                <!-- end Spool 9-81 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

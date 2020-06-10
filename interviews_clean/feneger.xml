@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews [first name unknown] Feneger; August 16, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>David Palmer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT6M51.350S" id="feneger_9-45A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="en">English</lang>
+                                <note type="spools" n="1">9-45A</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-16</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="feneger_en" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="feneger" role="interviewee">
+                        <persName>
+                            <forename>[first name unknown]</forename>
+                            <surname>Feneger</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>unknown</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, language.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#feneger_en">
+                <!-- begin spool 9-45A -->
+                <div lang="en">
+                    <u who="#boderD" start="0.391" end="x">[In English] Spool 9-45A and 9-45B. It had some irrelevant material on the start. Possibly in duplication a, um . . . previously used wire was used again. The spool is for the time being 9-45A, containing the . . . interview with a . . . Polish, English-speaking marine, who trains Jewish sailors and fisherman, and 9-45B the beginning of the interview with Mr. Bramson at the <term ref="#vothG_ort">ORT</term> school. There is some other irrelevant material on the spool—apparently the apparatus, how it often happened was demonstrated to some visitors at the place of interview before privacy could be obtained with the actual interviewee.</u>
+                    <p>[Indistinct conversation in French off-microphone]</p>
+                    <u who="#boderD" start="180.136" end="x">What is your name sir?</u>
+                    <u who="#feneger" start="182.333" end="x">Feneger [?].</u>
+                    <u who="#boderD" start="183.786" end="x">Feneger [?].</u>
+                    <u who="#feneger" start="184.809" end="x">Feneger [?]. F . . . F-E—</u>
+                    <u who="#boderD" start="187.521" end="x">That's all right. You are a Frenchman?</u>
+                    <u who="#feneger" start="189.564" end="x">No I am Polish.</u>
+                    <u who="#boderD" start="190.536" end="x">You are Polish?</u>
+                    <u who="#feneger" start="191.237" end="x">My father was come from of [?] Poland to <placeName ref="Berlin">Berlin</placeName>. And I lived in <placeName ref="Berlin">Berlin</placeName>.</u>
+                    <u who="#boderD" start="195.991" end="x">Aha, and you lived in <placeName ref="Berlin">Berlin</placeName>?</u>
+                    <u who="#feneger" start="197.556" end="x">Ya.</u>
+                    <u who="#boderD" start="198.158" end="x">Now I understand that you are now with the <term ref="#vothG_ort">ORT</term>?</u>
+                    <u who="#feneger" start="201.838" end="x">I . . . we are working with the <term ref="#vothG_ort">ORT</term> and with other organizations in order to form a Jewish Marine.</u>
+                    <u who="#boderD" start="207.555" end="x">A Jewish Marine?</u>
+                    <u who="#feneger" start="208.518" end="x">Marine, yes.</u>
+                    <u who="#boderD" start="209.391" end="x">And where do you have your headquarters?</u>
+                    <u who="#feneger" start="211.386" end="x">We have our headquarters in <placeName ref="London">London</placeName>.</u>
+                    <u who="#boderD" start="213.562" end="x">In <placeName ref="London">London</placeName>?</u>
+                    <u who="#feneger" start="214.594" end="x">Yes, it's a Zebulon . . . Zebulon organization.</u>
+                    <u who="#boderD" start="217.332" end="x">Yes.</u>
+                    <u who="#feneger" start="217.723" end="x">A Palestinian sea-faring organization . . .</u>
+                    <u who="#boderD" start="220.371" end="x">Yes . . .</u>
+                    <u who="#feneger" start="220.672" end="x">A Palestinian sea-faring organization who works, who works in <placeName ref="London">London</placeName> and in Palestine and in the United States, in the States and they were formed there, they were formed there the Marine . . .</u>
+                    <u who="#boderD" start="232.347" end="x">Yes. Are you in <placeName ref="Marseille">Marseille</placeName>, stationed now?</u>
+                    <u who="#feneger" start="235.055" end="x">Now? No. I am in <placeName ref="Paris">Paris</placeName> here.</u>
+                    <u who="#boderD" start="237.314" end="x">You are here in <placeName ref="Paris">Paris</placeName>. What are you the general-director or something?</u>
+                    <u who="#feneger" start="240.865" end="x">Yes, the technical director.</u>
+                    <u who="#boderD" start="241.927" end="x">The technical director, now tell me what are you really doing? For instance I understand you have a marine school in <placeName ref="Marseille">Marseille</placeName>.</u>
+                    <u who="#feneger" start="248.818" end="x">Yes, we have twenty-seven people there.</u>
+                    <u who="#boderD" start="251.595" end="x">Yes and what are you training them?</u>
+                    <u who="#feneger" start="253.551" end="x">We are training fishery . . . for fisheries.</u>
+                    <u who="#boderD" start="256.711" end="x">For fisheries?</u>
+                    <u who="#feneger" start="257.442" end="x">Yes.</u>
+                    <u who="#boderD" start="257.954" end="x">Yes, and . . .</u>
+                    <u who="#feneger" start="259.317" end="x">We are buying boats and we are training them as French fisherman.</u>
+                    <u who="#boderD" start="264.252" end="x">Oh.</u>
+                    <u who="#feneger" start="264.923" end="x">And French instructors . . . for nine months and then they will go to sea and for the fisheries of the high—great sea, you know?</u>
+                    <u who="#boderD" start="275.124" end="x">Yes . . . uh . . . deep-sea fishing?</u>
+                    <u who="#feneger" start="277.360" end="x">Deep-sea fishing.</u>
+                    <u who="#feneger" start="278.663" end="x">Then they will go to Palestine.</u>
+                    <u who="#boderD" start="280.899" end="x">Yes. Now tell me are you training marines also for other purposes than fishery?</u>
+                    <u who="#feneger" start="286.174" end="x">Yes, for navigation. For the Marine . . .</u>
+                    <u who="#boderD" start="289.192" end="x">Generally . . . in other words you are training Jewish seamen.</u>
+                    <u who="#feneger" start="293.414" end="x">Jewish seaman, yes.</u>
+                    <u who="#boderD" start="294.296" end="x">Aha.</u>
+                    <u who="#feneger" start="295.388" end="x">And with the collaboration of the Palestine school of Zebulon.</u>
+                    <u who="#boderD" start="299.902" end="x">Oh, the Zebulon? What is the Zebulon school in Palestine?</u>
+                    <u who="#feneger" start="303.401" end="x">Zebulon school in Palestine is the same school as we are here forming [unintelligible] fishery and the merchant marine.</u>
+                    <u who="#boderD" start="311.135" end="x">A merchant marine.</u>
+                    <u who="#feneger" start="312.227" end="x">Merchant marine.</u>
+                    <u who="#boderD" start="313.100" end="x">Yes . . . merchant marine.</u>
+                    <u who="#feneger" start="315.817" end="x">And an instructor from Palestine will come here.</u>
+                    <u who="#boderD" start="319.669" end="x">When? To the <term ref="#vothG_ort">ORT</term> convention?</u>
+                    <u who="#feneger" start="321.544" end="x">No, um . . . . To our school . . . [wire break]</u>
+                    <u who="#boderD" start="332.205" end="x">. . . your students. And do you have only men at your . . . [wire break] . . . and do you have already graduates?</u>
+                    <u who="#feneger" start="343.769" end="x">No, no, no. We are beginning . . . not quite yet.</u>
+                    <u who="#boderD" start="346.607" end="x">You are just beginning and the plan is to create a Jewish Marine.</u>
+                    <u who="#feneger" start="350.227" end="x">A Marine, yes.</u>
+                    <u who="#boderD" start="352.162" end="x">Well, I think that is very interesting.</u>
+                    <u who="#boderD" start="359.483" end="x">This concludes spool 9-45A. An interview with Mr. Fenger in English, an instructor in the new formed—or newly formed—navigation school which had its branches in <placeName ref="Paris">Paris</placeName>. It was the Zebulon school. And in France and, I understand even in England. Chicago, November the 14th 1950, Boder. This concludes Spool 9-45A and eh, . . . on another spool we have 9-45B the beginning of the interview with Mr. Bramson in Russian.</u>
+                </div>
+                <!-- end spool 9-45A -->
+            </div>
+            <!-- end transcription -->
+        </body>
+    </text>
+</TEI>

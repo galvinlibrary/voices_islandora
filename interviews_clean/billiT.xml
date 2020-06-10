@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+  <!-- begin TEI header -->
+  <teiHeader>
+    <fileDesc>
+      <!-- title statement -->
+      <titleStmt>
+        <title>David P. Boder Interviews Tomas Billi; September 21, 1946; München, Germany</title>
+        <author>David P. Boder</author>
+        <respStmt>
+          <resp>Text encoding</resp>
+          <name>Yamini Girey</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Roy Cochrun</name>
+        </respStmt>
+        <respStmt>
+          <resp>Translation</resp>
+          <name>Roy Cochrun</name>
+        </respStmt>
+		<respStmt>
+          <resp>Footnotes</resp>
+          <name>Roy Cochrun</name>
+		  <name>Eben E. English</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name>Eben E. English</name>
+        </respStmt>
+      </titleStmt>
+      <!-- publication statement -->
+      <publicationStmt>
+        <publisher>Paul V. Galvin Library</publisher>
+        <pubPlace>
+          <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>35 W. 33rd St</addrLine>
+            <addrLine>Chicago, IL 60616</addrLine>
+          </address>
+        </pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+        </availability>
+      </publicationStmt>
+      <!-- source description -->
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="audio" dur="PT17M25.472S" id="billiT_9-142A">
+            <broadcast>
+              <bibl>
+                <lang value="primary" norm="Russia">Russian</lang>
+                <note type="spools" n="1">9-142A</note>
+                <placeName ref="Lohengrinstrasse"/>
+              </bibl>
+            </broadcast>
+            <date>1946-09-21</date>
+            <respStmt>
+              <resp>Recorded by</resp>
+              <name>David P. Boder</name>
+            </respStmt>
+            <equipment>
+              <p>Armour wire recorder</p>
+            </equipment>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <!-- profile desription -->
+    <profileDesc>
+      <textDesc id="billiT_ru" n="transcription">
+        <channel mode="s">interview</channel>
+        <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+        <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+        <domain type="documentary"/>
+        <factuality type="fact"/>
+        <interaction type="complete"/>
+        <preparedness type="none"/>
+        <purpose type="documentary"/>
+      </textDesc>
+      <textDesc id="billiT_en" n="english_translation">
+        <channel mode="s">interview</channel>
+        <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+        <derivation type="translation">English translation of the interview transcript</derivation>
+        <domain type="documentary"/>
+        <factuality type="fact"/>
+        <interaction type="complete"/>
+        <preparedness type="none"/>
+        <purpose type="documentary"/>
+      </textDesc>
+      <particDesc>
+        <listPerson>
+          <person id="boderD" role="interviewer">
+            <persName>
+              <addName type="honorific" full="abb">Dr.</addName>
+              <forename>David</forename>
+              <forename type="middle">Pablo</forename>
+              <surname>Boder</surname>
+            </persName>
+          </person>
+          <person id="billiT" role="interviewee">
+            <persName>
+              <forename>Tomas</forename>
+              <surname>Billi</surname>
+            </persName>
+            <sex value="1">male</sex>
+            <age>58</age>
+            <birth ref="Nivenskoye"/>
+            <faith>unknown</faith>
+            <nationality key="Estonia"/>
+            <state type="marital_status">
+              <desc>married</desc>
+            </state>
+            <trait type="role_during_holocaust">
+              <desc>victim</desc>
+            </trait>
+            <event type="invasion" ref="Narva">
+              <ab/>
+            </event>
+            <event type="liberation" ref="München" resp="us">
+              <ab/>
+            </event>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <!-- encoding description -->
+    <encodingDesc>
+      <editorialDecl>
+        <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+        <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <!-- end TEI header -->
+  <text>
+    <body>
+      <!-- include the locations file -->
+      <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+      <!-- include the camps file -->
+      <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+      <!-- include the glossary file -->
+      <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+      <!-- begin trancription -->
+      <div corresp="#billiT_ru">
+        <!-- begin spool 9-142A-->
+        <div lang="en">
+          <u who="#boderD" start="0.783" end="x">[In English] September the 21st, 1946, a displaced persons' camp for Baltics—Latvians, Lithuanians and Estonians—near, in the environment of <placeName ref="München">Munich</placeName>, Camp Lohengrinstrasse. The interviewee is Tomas Billi, a Estonian, similar to the woman who, ah, a compatriot of the woman, Mrs. Anna Paul, which we heard before. Only he prefers to speak Russian, and so Russian we speak.</u>
+        </div>
+        <div lang="Russia">
+          <u who="#boderD" start="38.469" end="x">[In Russian] Ну, господин Билли, скажите нам, как ваше полное имя, сколько вам лет и где вы родились? [Some weak instructions from Boder, most likely about use of microphone.]</u>
+          <u who="#billiT" start="53.722" end="x">Мое имя Томас Билый, родился я в городе Виттенберге в Эстонии в 1888 г.</u>
+          <u who="#boderD" start="65.275" end="x">Да. Вам, значит, теперь 58 лет.</u>
+          <u who="#billiT" start="67.534" end="x">58 лет.</u>
+          <u who="#boderD" start="69.101" end="x">Так. Что вы такой по профессии?</u>
+          <u who="#billiT" start="72.185" end="x">Я по профессии текстильный человек.</u>
+          <u who="#boderD" start="78.179" end="x">Текстильный работник.</u>
+          <u who="#billiT" start="79.143" end="x">Работник.</u>
+          <u who="#boderD" start="79.956" end="x">Так. Ну, вы мне расскажите что, а где вы были и что с вами случилось когда Русские вернулись в Эстонию.</u>
+          <u who="#billiT" start="90.649" end="x">Я работал в городе Нарву. Город находится прямо у русской границы . . .</u>
+          <u who="#boderD" start="97.922" end="x">Так.</u>
+          <u who="#billiT" start="99.127" end="x">. . . в текстильной фабрике, как русские в 40-м году пришли в Эстонию.</u>
+          <u who="#boderD" start="107.621" end="x">Так.</u>
+          <u who="#billiT" start="108.163" end="x">Они в нашем завод(е) начинались [базирование?]</u>
+          <u who="#boderD" start="112.742" end="x">[прерывающий] Начинались [базирование?], да?</u>
+          <u who="#billiT" start="113.989" end="x">Да. Как и все другие заводы. А я остался пока там работать при Советской власти.</u>
+          <u who="#boderD" start="126.501" end="x">Так. А кому этот завод принадлежал сперва?</u>
+          <u who="#billiT" start="129.905" end="x">Это было акционерное общество. Принадлежалo Эстонцам.</u>
+          <u who="#boderD" start="134.194" end="x">Так.</u>
+          <u who="#billiT" start="136.032" end="x">Там, и . . . Я был тоже включающий там в этой фабрике. Имел тоже маленькое пакет акцией.</u>
+          <u who="#boderD" start="146.436" end="x">Ага.</u>
+          <u who="#billiT" start="147.713" end="x">Но, все-таки Большевики оставили меня тоже там работать, потому что у них не было, как сказать . . . аг . . .</u>
+          <u who="#boderD" start="159.791" end="x">Специалистов.</u>
+          <u who="#billiT" start="160.454" end="x">. . . специалистов.</u>
+          <u who="#boderD" start="162.502" end="x">Так . . . И тогда, дальше что случилось?</u>
+          <u who="#billiT" start="167.502" end="x">Я работал там почти до ухода, когда они уже, как немцы пришли.</u>
+          <u who="#boderD" start="177.383" end="x">Так . . . Так . . . Ну, что с вами было при большевиках? Какие перемены в вашей личной жизни произошли? Были ли какие-нибудь перемены?</u>
+          <u who="#billiT" start="186.190" end="x">Перемены были большие. Они начали разных людей вывозить из Эстонии. На всякое, в Россию, на каторжные работы.</u>
+          <u who="#boderD" start="201.908" end="x">Почему на каторжные работы? [неразборчиво] [надо?] общественная работа, нет?</u>
+          <u who="#billiT" start="206.848" end="x">Так, сказали, что в Сибирь посылают [прервано].</u>
+          <u who="#boderD" start="209.709" end="x">Ну, ладно. Так?</u>
+          <u who="#billiT" start="211.637" end="x">Пришли салоны с селянами всей, целой Эстонии через нашу граничный город, потому что надо было на границе как раз.</u>
+          <u who="#boderD" start="226.487" end="x">Ага</u>
+          <u who="#billiT" start="228.638" end="x">И в нашем городе тоже начали ночью всегда арестовать людей</u>
+          <u who="#boderD" start="237.536" end="x">Так.</u>
+          <u who="#billiT" start="237.849" end="x">и возить . . .</u>
+          <u who="#boderD" start="241.403x" end="x">в Россию.</u>
+          <u who="#billiT" start="242.277" end="x">в Россию, да.</u>
+          <u who="#boderD" start="243.283" end="x">А возили их с семьями или одних? Как это было?</u>
+          <u who="#billiT" start="246.175" end="x">[Их все?] женщины особы, детей сняли у родителей и мужчины [неразборчиво] в особые вагоны.</u>
+          <u who="#boderD" start="256.127" end="x">Mm-mmm. Так</u>
+          <u who="#billiT" start="257.525" end="x">Так, и это все случилось всю ночью,</u>
+          <u who="#boderD" start="262.145" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="262.597" end="x">. . . каждую ночь организовали одну улицу.</u>
+          <u who="#boderD" start="266.091" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="266.694" end="x">Ну, тогда мы боялись и все люды начали искать себе другие квартиры, и люди мы имели там несколько квартир. Я, на пример, имел себе 3 квартиры в городе. Одну ночь спал в этой квартире, в другую ночь пошел опять в другую, потому что боялся в своей комнате ночевать.</u>
+          <u who="#boderD" start="293.741" end="x">Ага</u>
+          <u who="#billiT" start="294.133" end="x">И это, слыхали мы через этих шоферов какую улицу они будут на пример в ночи в захват возьмут.</u>
+          <u who="#boderD" start="305.711" end="x">Откуда шоферы узнали?</u>
+          <u who="#billiT" start="307.609" end="x">Им дали где им уже, значит, что они должны вечером в 12:00 часов собрать в ту улицу.</u>
+          <u who="#boderD" start="315.452" end="x">А шоферы были Эстонцы?</u>
+          <u who="#billiT" start="317.199" end="x">Эстонцы были, да.</u>
+          <u who="#boderD" start="318.404" end="x">Ага.</u>
+          <u who="#billiT" start="318.826" end="x">Так.</u>
+          <u who="#boderD" start="319.651" end="x">Ну, и значит и так, что вас [неразборчиво], а у вас была семья.</u>
+          <u who="#billiT" start="323.868" end="x">Семья тоже самая.</u>
+          <u who="#boderD" start="325.465" end="x">Ну, сколько у вас был человек в семье?</u>
+          <u who="#billiT" start="327.495" end="x">4 человека.</u>
+          <u who="#boderD" start="328.851" end="x">Кто? Жена и кто еще?</u>
+          <u who="#billiT" start="330.098" end="x">Жена и дочка и зять и, и бабушка еще.</u>
+          <u who="#boderD" start="336.164" end="x">Ага.</u>
+          <u who="#billiT" start="336.646" end="x">Ну, моего зять все-таки при работе . . .</u>
+          <u who="#boderD" start="339.688" end="x">Взяли?</u>
+          <u who="#billiT" start="340.441" end="x">. . . взяли и посылали.</u>
+          <u who="#boderD" start="341.91" end="x">И его жену?</u>
+          <u who="#billiT" start="342.971" end="x">Жену, жена работала опять в другом месте, жену не захватили в этот раз.</u>
+          <u who="#boderD" start="348.694" end="x">Так. И где он теперь ваш зять?</u>
+          <u who="#billiT" start="351.044" end="x">Вот, неизвестно теперь.</u>
+          <u who="#boderD" start="353.164" end="x">А его жена?</u>
+          <u who="#billiT" start="354.640" end="x">Жена тут в Германии уже сейчас. Она работает тут.</u>
+          <u who="#boderD" start="358.255" end="x">Так. Ну, теперь расскажите как это было когда Немцы пришли.</u>
+          <u who="#billiT" start="362.996" end="x">Немцы пришли тогда, мы все-таки сперва радовались, что у нас спасители идут и вообще. Ну потом они тоже самые поступили как и . . . и Советы.</u>
+          <u who="#boderD" start="380.147" end="x">Так. А скажите, фабрику вашу, которую Советы забрали, отдали обратно на [прервано].</u>
+          <u who="#billiT" start="386.213" end="x">Ну, вот. Ничего не отдали.</u>
+          <u who="#boderD" start="387.990" end="x">Немцы тоже [оставили?] [прервано]</u>
+          <u who="#billiT" start="389.135" end="x">Тоже самое, назначили свои [неразборчиво] команду там и, и, и [взяли?] своей рукой все.</u>
+          <u who="#boderD" start="398.876" end="x">Так.</u>
+          <u who="#billiT" start="400.153" end="x">Ну, мы должны были там дальше работать.</u>
+          <u who="#boderD" start="403.045" end="x">Так.</u>
+          <u who="#billiT" start="404.985" end="x">И работали мы пока все там как разбили весь город.</u>
+          <u who="#boderD" start="411.021" end="x">Кто это разбил?</u>
+          <u who="#billiT" start="412.136" end="x">А, это Советы, с аэропланами.</u>
+          <u who="#boderD" start="415.341" end="x">С аэропланами разбили все?</u>
+          <u who="#billiT" start="416.166" end="x">Наступление Советов [начал в России?] по тому, должно быть по приказу Немцев уже уйти в [штурм?].</u>
+          <u who="#boderD" start="426.196" end="x">И эвакуироваться.</u>
+          <u who="#billiT" start="428.124" end="x">Эвакуироваться, да.</u>
+          <u who="#boderD" start="428.968" end="x">Хорошо. А здесь, никто не хотел эвакуировать?</u>
+          <u who="#billiT" start="431.540" end="x">А ну так, они заставили силу [неразборчиво].</u>
+          <u who="#boderD" start="434.685" end="x">Ага.</u>
+          <u who="#billiT" start="435.167" end="x">А через эти, а, Эстонской полиции, Немецкой полиции, все до последнего человека должны мы скоро до Нарвы уйти.</u>
+          <u who="#boderD" start="446.884" end="x">Tak.</u>
+          <u who="#billiT" start="447.378" end="x">Куда, сперва был приказ, куда каждый хочет . . .</u>
+          <u who="#boderD" start="451.607" end="x">Так.</u>
+          <u who="#billiT" start="452.108" end="x">. . . идти.</u>
+          <u who="#boderD" start="452.764" end="x">А потом?</u>
+          <u who="#billiT" start="453.710" end="x">А потом уже мы как раз попали [прервано]</u>
+          <u who="#boderD" start="456.975" end="x">Вы ушли ИЗ Нарвы?</u>
+          <u who="#billiT" start="458.632" end="x">Из Нарвы, да.</u>
+          <u who="#boderD" start="459.487" end="x">Да.</u>
+          <u who="#billiT" start="459.939" end="x">Да.</u>
+          <u who="#boderD" start="460.120" end="x">Так.</u>
+          <u who="#billiT" start="460.433" end="x">Ну, потом уже пришлось мне на полевую работу поступить 70 километров из [Тоилы?]</u>
+          <u who="#boderD" start="468.506" end="x">Так.</u>
+          <u who="#billiT" start="469.030" end="x">Там опять Немцы имели большие Эстонские умения под своим, аг . . .</u>
+          <u who="#boderD" start="475.247" end="x">Руководством.</u>
+          <u who="#billiT" start="476.000" end="x">руководством, да. Ну, они заставили нам там, поставили на полевые работы.</u>
+          <u who="#boderD" start="482.024" end="x">Да.</u>
+          <u who="#billiT" start="482.717" end="x">Там были всех национальностей, и Русских были и Эстонцев были и военнопленных и мы работали там пока . . .</u>
+          <u who="#boderD" start="493.169" end="x">И были там Евреи?</u>
+          <u who="#billiT" start="494.597" end="x">Евреи в этом районе не было. Не былo [даже слыхаты?], а в Нарве были Евреи . . .</u>
+          <u who="#boderD" start="503.284" end="x">[неразборчиво]</u>
+          <u who="#billiT" start="503.959" end="x">Они заставили Евреях окопы копать.</u>
+          <u who="#boderD" start="508.579" end="x">Так . . . Так . . . . А потом что они [с ними сделали?]?</u>
+          <u who="#billiT" start="512.345" end="x">Они их [угнали?] перед ним по дороге как их, ну, важнее еще [уехали на ругах?] Евреи. Их раньше угнали по дороге, мы на дорогу встретили, как их угнали все пешком [из Тоилы].</u>
+          <u who="#boderD" start="529.797" end="x">Ага. Ну, значит, и вы тогда на земле работали. Как долго это продолжал?</u>
+          <u who="#billiT" start="536.767x" end="x">Это продолжал из, а, до . . . долго . . . Сентября месяца почти.</u>
+          <u who="#boderD" start="546.297" end="x">Так.</u>
+          <u who="#billiT" start="546.689" end="x">Тогда дали новый приказ, [неразборчиво] этим работам, что мы должны опять в другое место уйти.</u>
+          <u who="#boderD" start="554.502" end="x">Так.</u>
+          <u who="#billiT" start="555.105" end="x">Там были и Русские люди и их отправили куда-то к немецкому уезду.</u>
+          <u who="#boderD" start="563.009" end="x">Так.</u>
+          <u who="#billiT" start="563.985" end="x">Нам сказали, что в моей семье, что мы должны ехать в Ревел, наша столица, города. Ну и мы запаковали свои маленькие вещи и уехали в Ревел. Там выдали нам бумагу, чтобы поехать в Германию. [И мы?], нас увезли сюда в Судетскую область опять [неразборчиво]</u>
+          <u who="#boderD" start="599.816" end="x">На чем увезли?</u>
+          <u who="#billiT" start="603.009" end="x">Мы на пароход [посадили?] в Ревеле.</u>
+          <u who="#boderD" start="605.087" end="x">Да, так.</u>
+          <u who="#billiT" start="606.774" end="x">А в Судетскую область посылали опять в текстильную фабрику, потому что мы были с текстильными фирмами знакомы.</u>
+          <u who="#boderD" start="615.633" end="x">Ага.</u>
+          <u who="#billiT" start="616.006" end="x">Да.</u>
+          <u who="#boderD" start="617.061" end="x">Сколько у вас человек попал в [прервано].</u>
+          <u who="#billiT" start="618.579" end="x">Четыро [заикающийся] на сто.</u>
+          <u who="#boderD" start="621.471" end="x">Так. Ну, еще?</u>
+          <u who="#billiT" start="624.073" end="x">Ну, мы работали там в Судетской области опять пока уже там начали эвакуировать.</u>
+          <u who="#boderD" start="630.429" end="x">Так.</u>
+          <u who="#billiT" start="631.194" end="x">Тогда начал [с нуля?] опять сюда к Мюнкену [Произносится по-немецки, но с русским грамматическокм окончанием], и у одного крестьянина назначали работать.</u>
+          <u who="#boderD" start="640.290" end="x">Так.</u>
+          <u who="#billiT" start="640.652" end="x">[Тоже?] вся семья, и моя дочка и жена, мы работали пока Американцы пришли у одного Немецкого крестьянина.</u>
+          <u who="#boderD" start="651.779" end="x">Он [вас заплатил за?] работу?</u>
+          <u who="#billiT" start="653.448" end="x">Немножко платил только.</u>
+          <u who="#boderD" start="656.081" end="x">И давал вам есть?</u>
+          <u who="#billiT" start="656.997" end="x">Кушать тоже было мало, мы получили немецкие карты и немножко добавочное нам все-таки давали.</u>
+          <u who="#boderD" start="663.786" end="x">И на немецкие карты вы что, покупали еду?</u>
+          <u who="#billiT" start="666.768" end="x">Покупали, да.</u>
+          <u who="#boderD" start="667.913" end="x">А откуда деньги были на еду?</u>
+          <u who="#billiT" start="669.521" end="x">Ну, столько, он нам все-таки немножко [неразборчиво] [давал?].</u>
+          <u who="#boderD" start="673.106" end="x">Так. Так что, вы с картами покупали и он немножко прибавлял.</u>
+          <u who="#billiT" start="677.124" end="x">Прибавлял, да.</u>
+          <u who="#boderD" start="678.208" end="x">А был он хороший человек?</u>
+          <u who="#billiT" start="679.654" end="x">Ну, не так особый. Очень много укорял все-таки.</u>
+          <u who="#boderD" start="683.479" end="x">Так.</u>
+          <u who="#billiT" start="683.931" end="x">Моя жена должна с утра до вечера все [из скотоводства и голев?] работать и чистить, и дочка опять ручную работу делала и старая бабушка, сорок, а, 74 года, она [опять?] пряла пряжу крестьянину.</u>
+          <u who="#boderD" start="704.720" end="x">Так.</u>
+          <u who="#billiT" start="705.425" end="x">[неразборчиво]</u>
+          <u who="#boderD" start="705.979" end="x">Ну, почему вы не могли уйти от него а пойти в другое место?</u>
+          <u who="#billiT" start="709.473" end="x">[По одежду?] некуда был нам уйти.</u>
+          <u who="#boderD" start="711.582" end="x">Ага . . . Так, что вы не могли оставить жену. А что этот крестьянин, он бы на наций?</u>
+          <u who="#billiT" start="719.365" end="x">Нет, наций не был.</u>
+          <u who="#boderD" start="721.667" end="x">Ага . . . . Он был молодой человек и у него был много детей зато он был [дома?]. [неразборчиво] [пятеро?] маленьких детей и еще всего 8 человек в семья было.</u>
+          <u who="#boderD" start="731.980" end="x">Так, все его [прервано]</u>
+          <u who="#billiT" start="732.824" end="x">В доме работа. В доме.</u>
+          <u who="#boderD" start="734.583" end="x">Так . . . Ну, а вы, а, как потом случилось когда немецы, аг, немцы проиграли войну. У вас радио было, вы узнали что происходит?</u>
+          <u who="#billiT" start="744.312" end="x">Ничего не было.</u>
+          <u who="#boderD" start="745.589" end="x">Ничего не было?</u>
+          <u who="#billiT" start="746.523" end="x">Нет.</u>
+          <u who="#boderD" start="747.047" end="x">Ну, и как все это случилось когда . . . и кто, кто вас освободил?</u>
+          <u who="#billiT" start="751.264" end="x">Это американцы [вдруг?] приехали уже сюда с автомобилем в деревню . . .</u>
+          <u who="#boderD" start="757.360x" end="x">Так.</u>
+          <u who="#billiT" start="757.752" end="x">и тогда мы с радостью пришли им на встречу и мы говорили, они что вот [выезд?] значит [Звучит как немецкий "аус."]. [шамкать], ну, неменцы [поправляет] иностранцы, что теперь не работать больше у немцы, немцы должны вам давать так кушать.</u>
+          <u who="#boderD" start="780.113" end="x">Да.</u>
+          <u who="#billiT" start="780.746" end="x">Ну, [мы им?] все-таки он не так плохой хозяин был, мы все-таки работали [дальше?].</u>
+          <u who="#boderD" start="786.511" end="x">Ага. Ну вы не работали так много?</u>
+          <u who="#billiT" start="789.312" end="x">Ну пока [в местном?] мы начали так потребовать все-таки лу(чше), больше пищи</u>
+          <u who="#boderD" start="794.132" end="x">Так</u>
+          <u who="#billiT" start="794.825" end="x">[Молоко требовали?] одну кучку [тем?] больше и чтобы семья все-таки могла кушать. Ну они нам [могут?] тогда [добавлен?] тоже.</u>
+          <u who="#boderD" start="804.132" end="x">Так.</u>
+          <u who="#billiT" start="805.541" end="x">Пока был приказ приехать сюда, аг, в лагерь.</u>
+          <u who="#boderD" start="809.577" end="x">А приказ был, чтоб вы приехали сюда в лагерь?</u>
+          <u who="#billiT" start="811.655" end="x">Да, да.</u>
+          <u who="#boderD" start="812.107" end="x">Ну, а что вы делаете тут в лагере?</u>
+          <u who="#billiT" start="814.517" end="x">Тут моя семья [и я был здесь?], я буду в Германии, работал, фабрика там заболели совсем [с изнурительной?] болезни.</u>
+          <u who="#boderD" start="823.746" end="x">Так.</u>
+          <u who="#billiT" start="824.391" end="x">И смотря по болезни я [все дальше?] работал у крестьянина.</u>
+          <u who="#boderD" start="829.463" end="x">Так</u>
+          <u who="#billiT" start="830.036" end="x">А тут теперь, ну вот, до сих пор так [тяжелую?] работу ничего не делаю, только садоводством вдруг занимается, скомандую.</u>
+          <u who="#boderD" start="839.536" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="840.078" end="x">И мы имеем тут лагерное поле и [на это?] поле тоже скомандовал тут для лагеря картошку садили. И я всегда был [скомандую?] по этому делу.</u>
+          <u who="#boderD" start="849.295" end="x">Ага. [Вы?] начальником скомандовал?</u>
+          <u who="#billiT" start="850.753" end="x">Начальником, да.</u>
+          <u who="#boderD" start="851.759" end="x">Ну, и что вы думаете? Куда вы пойдете? [неразборчиво] [для вас?] кончится?</u>
+          <u who="#billiT" start="856.036" end="x">Ну, это трудно сказать.</u>
+          <u who="#boderD" start="860.494" end="x">Что вы хотите делать?</u>
+          <u who="#billiT" start="862.133" end="x">Да. Мы все думаем, что если домой не по-, попасть, так придется тут в Германии начать работать.</u>
+          <u who="#boderD" start="869.404" end="x">Аг, вы . . . Почему вы не можете домой попасть?</u>
+          <u who="#billiT" start="872.567" end="x">Аг, по . . . по этой вредной режиме не хочется обратно идти [больше?]. Мы страдали уже два раза вот этими режимами.</u>
+          <u who="#boderD" start="884.507" end="x">Не хочется [прервано].</u>
+          <u who="#billiT" start="884.941" end="x">Ни . . . Никак не хочется домой идти . . . У нас было хорошо своего демократического правления [прервано].</u>
+          <u who="#boderD" start="893.959" end="x">Ну вот, демократического режима [уже значит?] не было. Вашей . . . президент был уже такой диктатор как [Улман?], как Сталин . . . как . . .</u>
+          <u who="#billiT" start="900.827" end="x">Нет, нет . . . Нет, у нас было демократическое [прервано]</u>
+          <u who="#boderD" start="904.905" end="x">У вас что? Парламент был свой?</u>
+          <u who="#billiT" start="906.231" end="x">Парламент свой.</u>
+          <u who="#boderD" start="908.050" end="x">Ну, а почему ни коммунистов в [тюрьму?] садили?</u>
+          <u who="#billiT" start="911.665" end="x">Ну, если они по, как сказать [уже смерть?] правильно, порядка в Эстонии будет требовать.</u>
+          <u who="#boderD" start="921.767" end="x">Ага. Так. Ег, ну, а вы думаете, что вам можно быть остаться в Германии?</u>
+          <u who="#billiT" start="930.864" end="x">Ну, если, я думаю, что возможность будет.</u>
+          <u who="#boderD" start="933.948" end="x">У вас родственник в Америке нет?</u>
+          <u who="#billiT" start="935.635" end="x">Нет.</u>
+          <u who="#boderD" start="936.629" end="x">И в Южней Америке?</u>
+          <u who="#billiT" start="937.683" end="x">Тоже нет.</u>
+          <u who="#boderD" start="938.527" end="x">Ага.</u>
+          <u who="#billiT" start="939.202" end="x">[Записали?], что [в Америку?] ехать [так как?] я уже старый и думают, что на тяжелую работу [прервано]</u>
+          <u who="#boderD" start="945.057" end="x">Сколько вам лет, Мистер Томас?</u>
+          <u who="#billiT" start="947.015" end="x">Аг . . . </u>
+          <u who="#boderD" start="949.244" end="x">[Все понят?]</u>
+          <u who="#billiT" start="949.786" end="x">Аг, 58 [прервано]</u>
+          <u who="#boderD" start="951.429" end="x">Ну, да, вы мне сказали, что родились в 1888 году. Ну, вы не такой старый если вы отдохнете немножко с [неразборчиво] [поправитесь?].</u>
+          <u who="#billiT" start="959.154" end="x">Я понимаю хорошо земледельческое дело</u>
+          <u who="#boderD" start="962.027" end="x">Ага.</u>
+          <u who="#billiT" start="962.419" end="x">Я [малая лета?] все служило тогдашними изменениями и учился по полеводству.</u>
+          <u who="#boderD" start="966.244" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="966.666" end="x">И мне все интересует все полеводство.</u>
+          <u who="#boderD" start="968.534" end="x">Ага.</u>
+          <u who="#billiT" start="968.938" end="x">[Поучу себе?] все-таки где-нибудь кусок земли так [стать?]</u>
+          <u who="#boderD" start="972.565" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="973.631" end="x">И там что-нибудь еще завести скотоводство и свиноводство или куроводство, я все это понимаю.</u>
+          <u who="#boderD" start="987.366" end="x">Так.</u>
+          <u who="#billiT" start="987.607" end="x">И свои лет я бы жил до конца.</u>
+          <u who="#boderD" start="989.987" end="x">Да.</u>
+          <u who="#billiT" start="991.897" end="x">Ну вот, эти, [неразборчиво].</u>
+          <u who="#boderD" start="994.861" end="x">Да. [Дал?] что-нибудь [подняться уже?] выработать, [и даже дать?] людам пропадать.</u>
+          <u who="#billiT" start="999.753" end="x">Да, это верно.</u>
+          <u who="#boderD" start="1003.771" end="x">Ну, вот. Спасибо господин Билли. Я думаю, что это было очень важный и очень интересно, что вы мне рассказали.</u>
+        </div>
+        <div lang="en">
+          <u who="#boderD" start="1011.964" end="x">[In English] This concludes a short interview with Tomas Billi . . . at forty minutes of the spool. He is an Estonian, fifty-eight years old and is now in the displaced center at Lohengrin . . . Lohengrinstrasse near, or in Munich. Illinois Institute of Technology wire recording.</u>
+        </div>
+        <!-- end spool 9-142A-->
+      </div>
+      <!-- end transcription -->
+      <!-- begin English translation -->
+      <div corresp="#billiT_en">
+        <!-- begin spool 9-142A-->
+        <div lang="en">
+          <u who="#boderD" start="0.783" end="x">[In English] September the 21st, 1946, a displaced persons' camp for Baltics—Latvians, Lithuanians and Estonians—near, in the environment of <placeName ref="München">Munich</placeName>, Camp Lohengrinstrasse. The interviewee is Tomas Billi, a Estonian, similar to the woman who, ah, a compatriot of the woman, Mrs. Anna Paul, which we heard before.<note n="1">Anna Paul was also interviewed by Boder on September 21st at Lohengrinstrasse, on Spools 9-140B and 9-141A.</note> Only he prefers to speak Russian, and so Russian we speak.</u>
+          <u who="#boderD" start="38.469" end="x">[In Russian] Well, Mr. Billi, tell us what is your full name, how old you are and where you were born? [Some weak instructions from Boder, most likely about use of microphone.]</u>
+          <u who="#billiT" start="53.722" end="x">My name is Tomas Billi and I was born in the city of <placeName ref="Nivenskoye">Wittenberg</placeName> in Estonia in 1888.<note n="2">It is unclear exactly what location Billi is referring to. The most likely location is Wittenberg, which was the German name for the city of Nivenskoye, about sixteen kilometers south of Kaliningrad. This territory is currently within the Kaliningrad Oblast, a Russian exclave between Poland and Lithuania on the Baltic Sea, but at the time of Billi's birth it was part of Prussia.</note></u>
+          <u who="#boderD" start="65.275" end="x">Yes. So that means you are fifty-eight years old now.</u>
+          <u who="#billiT" start="67.534" end="x">I am fifty-eight.</u>
+          <u who="#boderD" start="69.101" end="x">So. What was your profession?</u>
+          <u who="#billiT" start="72.185" end="x">I was a textile person by profession.</u>
+          <u who="#boderD" start="78.179" end="x">A textile worker.</u>
+          <u who="#billiT" start="79.143" end="x">A worker.</u>
+          <u who="#boderD" start="79.956" end="x">So. Well, tell me what and where you were and what happened to you when the Russians returned to Estonia.</u>
+          <u who="#billiT" start="90.649" end="x">I was working in the city of <placeName ref="Narva">Narva</placeName>. The city is located right on the Russian border . . .</u>
+          <u who="#boderD" start="97.922" end="x">So.</u>
+          <u who="#billiT" start="99.127" end="x">. . . in a textile factory when the Russians arrived in Estonia in 1940.</u>
+          <u who="#boderD" start="107.621" end="x">So.</u>
+          <u who="#billiT" start="108.163" end="x">They started [basing?] in our factory.</u>
+          <u who="#boderD" start="112.742" end="x">[<emph rend="italics">interrupts</emph>] They started [basing?], right?</u>
+          <u who="#billiT" start="113.989" end="x">Yes. As with all the other plants. But I still stayed there working under the Soviet authorities.</u>
+          <u who="#boderD" start="126.501" end="x">So. And to whom did the plant belong originally?</u>
+          <u who="#billiT" start="129.905" end="x">It was a joint stock company. It belonged to the Estonians</u>
+          <u who="#boderD" start="134.194" end="x">So.</u>
+          <u who="#billiT" start="136.032" end="x">There, and . . . I also was included there in this factory. I also had a small number of shares.</u>
+          <u who="#boderD" start="146.436" end="x">Aha.</u>
+          <u who="#billiT" start="147.713" end="x">But, anyhow, the Bolsheviks left me working there, too, because they didn't have any, how do you say it . . . ah . . .</u>
+          <u who="#boderD" start="159.791" end="x">Specialists.</u>
+          <u who="#billiT" start="160.454" end="x">. . . specialists.</u>
+          <u who="#boderD" start="162.502" end="x">So . . . And then, what else happened?</u>
+          <u who="#billiT" start="167.502" end="x">I was working there almost until they left, when they already, when the Germans arrived.</u>
+          <u who="#boderD" start="177.383" end="x">So . . . So. Well, what was it like for you under the Bolsheviks? What kind of changes occurred in your personal life? Were there any kind of changes?</u>
+          <u who="#billiT" start="186.190" end="x">There were huge changes. They began to take various people out of Estonia. For any, to Russia, for backbreaking work.</u>
+          <u who="#boderD" start="201.908" end="x">Why for backbreaking work? [Unintelligible] [there had to be?] public work, didn't there?</u>
+          <u who="#billiT" start="206.848" end="x">So, it was said that they were sending [them] to Siberia—</u>
+          <u who="#boderD" start="209.709" end="x">[<emph rend="italics">interrupts</emph>] Well, okay. And so?</u>
+          <u who="#billiT" start="211.637" end="x">Vehicles came through our border city with villagers from all over Estonia because they had to be right on the border.</u>
+          <u who="#boderD" start="226.487" end="x">Aha.</u>
+          <u who="#billiT" start="228.638" end="x">And they also began arresting people all the time at night in our city.</u>
+          <u who="#boderD" start="237.536" end="x">So.</u>
+          <u who="#billiT" start="237.849" end="x">and taking [them] . . .</u>
+          <u who="#boderD" start="241.403" end="x">to Russia.</u>
+          <u who="#billiT" start="242.277" end="x">to Russia, right.</u>
+          <u who="#boderD" start="243.283" end="x">And did they take them with their families or alone? How was it?</u>
+          <u who="#billiT" start="246.175" end="x">[All of them?] the women were special, they took the children from the parents and they [unintelligible] the men onto special [rail] cars.</u>
+          <u who="#boderD" start="256.127" end="x">Hm-mmm. So.</u>
+          <u who="#billiT" start="257.525" end="x">So, and this all happened all night.</u>
+          <u who="#boderD" start="262.145" end="x">Hm-mmm.</u>
+          <u who="#billiT" start="262.597" end="x">. . . they organized one street every night.</u>
+          <u who="#boderD" start="266.091" end="x">Hm-mmm.</u>
+          <u who="#billiT" start="266.694" end="x">Well, then we were afraid and all the people began to look for other apartments for themselves, and we people had several apartments there. I, for example, had 3 apartments for myself in the city. One night I would sleep in this apartment, the next night I went again to another, because I was afraid to spend the night in my room.</u>
+          <u who="#boderD" start="293.741" end="x">Aha.</u>
+          <u who="#billiT" start="294.133" end="x">And this, we heard via these drivers which street they would be taking captive at night, for example.</u>
+          <u who="#boderD" start="305.711" end="x">How did the drivers learn this?</u>
+          <u who="#billiT" start="307.609" end="x">They would tell them that they were supposed to assemble on such-and-so a street at twelve o'clock.</u>
+          <u who="#boderD" start="315.452" end="x">And the drivers were Estonians?</u>
+          <u who="#billiT" start="317.199" end="x">They were Estonians, yes.</u>
+          <u who="#boderD" start="318.404" end="x">Aha.</u>
+          <u who="#billiT" start="318.826" end="x">So.</u>
+          <u who="#boderD" start="319.651" end="x">Well, it means that [unintelligible] you, and you had a family.</u>
+          <u who="#billiT" start="323.868" end="x">A family was the same.</u>
+          <u who="#boderD" start="325.465" end="x">Well, how many people were in your family?</u>
+          <u who="#billiT" start="327.495" end="x">Four people.</u>
+          <u who="#boderD" start="328.851" end="x">Who? Wife and who else?</u>
+          <u who="#billiT" start="330.098" end="x">My wife, daughter and son-in-law and, and also grandmother.</u>
+          <u who="#boderD" start="336.164" end="x">Aha.</u>
+          <u who="#billiT" start="336.646" end="x">Well, my son-in-law, anyhow, during work . . .</u>
+          <u who="#boderD" start="339.688" end="x">They took him?</u>
+          <u who="#billiT" start="340.441" end="x">. . . they took him and sent him away.</u>
+          <u who="#boderD" start="341.917" end="x">And his wife?</u>
+          <u who="#billiT" start="342.971" end="x">His wife, his wife was working elsewhere, they didn't capture his wife this time.</u>
+          <u who="#boderD" start="348.694" end="x">So. And where is your son-in-law now?</u>
+          <u who="#billiT" start="351.044" end="x">Well, it is unknown now.</u>
+          <u who="#boderD" start="353.164" end="x">And his wife?</u>
+          <u who="#billiT" start="354.640" end="x">His wife is here in Germany right now. She works here.</u>
+          <u who="#boderD" start="358.255" end="x">So. Well, now tell me what it was like when the Germans arrived.</u>
+          <u who="#billiT" start="362.996" end="x">Then the Germans arrived, and anyhow at first we were glad that our saviors were coming. But then they behaved just like the Soviets, too.</u>
+          <u who="#boderD" start="380.147" end="x">So. And tell me, your factory that the Soviets had taken, did they give it back to—</u>
+          <u who="#billiT" start="386.213" end="x">[<emph rend="italics">interrupts</emph>] Well. They didn't give anything back.</u>
+          <u who="#boderD" start="387.990" end="x">Did the Germans [leave?], too—</u>
+          <u who="#billiT" start="389.135" end="x">[<emph rend="italics">interrupts</emph>] It was the same, they designated their own [unintelligible] command there and, and, and [took away?] everything with their own hands.</u>
+          <u who="#boderD" start="398.876" end="x">So.</u>
+          <u who="#billiT" start="400.153" end="x">Well, we were supposed to work there some more.</u>
+          <u who="#boderD" start="403.045" end="x">So.</u>
+          <u who="#billiT" start="404.985" end="x">And we worked for a while there until they destroyed the whole city.</u>
+          <u who="#boderD" start="411.021" end="x">Who destroyed it?</u>
+          <u who="#billiT" start="412.136" end="x">A, it was the Soviets, with airplanes.</u>
+          <u who="#boderD" start="415.341" end="x">They destroyed everything with airplanes?</u>
+          <u who="#billiT" start="416.166" end="x">The Soviet assault [began in Russia?] for the reason it was supposed to be by order of the Germans to go on [the attack?].<note n="3">Possibly he means that the Soviets were preempting a German attack.</note></u>
+          <u who="#boderD" start="426.196" end="x">And to be evacuated.</u>
+          <u who="#billiT" start="428.124" end="x">To be evacuated, right.</u>
+          <u who="#boderD" start="428.968" end="x">Okay. But here, no one wanted to evacuate?</u>
+          <u who="#billiT" start="431.540" end="x">Well, they compelled us using force [unintelligible].</u>
+          <u who="#boderD" start="434.685" end="x">Aha.</u>
+          <u who="#billiT" start="435.167" end="x">And through these, ah, Estonian police and German police, everyone to the last man soon had to leave for <placeName ref="Narva">Narva</placeName>.</u>
+          <u who="#boderD" start="446.884" end="x">So.</u>
+          <u who="#billiT" start="447.378" end="x">Whence, at first there was an order, where everyone wants . . .</u>
+          <u who="#boderD" start="451.607" end="x">So.</u>
+          <u who="#billiT" start="452.108" end="x">. . . to go.</u>
+          <u who="#boderD" start="452.764" end="x">And afterwards?</u>
+          <u who="#billiT" start="453.710" end="x">And afterwards we ended up right—</u>
+          <u who="#boderD" start="456.975" end="x">[<emph rend="italics">interrupts</emph>] You left FROM <placeName ref="Narva">Narva</placeName>?</u>
+          <u who="#billiT" start="458.632" end="x">From <placeName ref="Narva">Narva</placeName>, yes.</u>
+          <u who="#boderD" start="459.487" end="x">Yes.</u>
+          <u who="#billiT" start="459.939" end="x">Yes.</u>
+          <u who="#boderD" start="460.120" end="x">So.</u>
+          <u who="#billiT" start="460.433" end="x">Well, afterwards it happened that I ended up in field work seventy kilometers from [<placeName ref="Toila">Toila</placeName>?].</u>
+          <u who="#boderD" start="468.506" end="x">So.</u>
+          <u who="#billiT" start="469.030" end="x">The Germans again had huge Estonian skills under their, ah . . .</u>
+          <u who="#boderD" start="475.247" end="x">Control.</u>
+          <u who="#billiT" start="476.000" end="x">. . . control, right. Well, they compelled us there, they put us into field work.</u>
+          <u who="#boderD" start="482.024" end="x">Yes.</u>
+          <u who="#billiT" start="482.717" end="x">There were all nationalities there, there were both Russians and Estonians and prisoners-of-war, and we worked there for the time being . . .</u>
+          <u who="#boderD" start="493.169" end="x">And were there Jews there?</u>
+          <u who="#billiT" start="494.597" end="x">There were no Jews in this region. There were not [even rumors?], but there were Jews in <placeName ref="Narva">Narva</placeName> . . .</u>
+          <u who="#boderD" start="503.284" end="x">[Unintelligible]</u>
+          <u who="#billiT" start="503.959" end="x">They forced the Jews to dig trenches.</u>
+          <u who="#boderD" start="508.579" end="x">So . . . So . . . And what did the [do with them?] afterwards?</u>
+          <u who="#billiT" start="512.345" end="x">They [drove (as captives)?] them ahead of them along the road like also, well, more importantly the Jews [went away to?] [unintelligible]. They had driven them along the road earlier, [and] we met [them] on the road as they were driving them all on foot [away from <placeName ref="Toila">Toila</placeName>?]</u>
+          <u who="#boderD" start="529.797" end="x">Aha. Well, and you then were working on the land. How long did this continue?</u>
+          <u who="#billiT" start="536.767" end="x">This continued from, ah, to . . . for a long time . . . almost to the month of September.</u>
+          <u who="#boderD" start="546.297" end="x">So.</u>
+          <u who="#billiT" start="546.689" end="x">Then they gave a new order, [unintelligible] for this work, that we must once more go somewhere else.</u>
+          <u who="#boderD" start="554.502" end="x">So.</u>
+          <u who="#billiT" start="555.105" end="x">There were Russian people, too, and they sent them somewhere to a German district.</u>
+          <u who="#boderD" start="563.009" end="x">So.</u>
+          <u who="#billiT" start="563.985" end="x">They told us that in my family, that we must go to <placeName ref="Tallinn">Revel</placeName>, our capital, the city.<note n="4">Revel ("Rewel" in Polish or German) was the old name for Tallin, the capital of Estonia</note> Well, and we packed our small things and went to Sudetenland again [unintelligible].<note n="5">The term "Sudentenland" refers to the western regions of Czechoslovakia, at that time inhabited by many ethnic Germans, or "Volksdeutsche."</note></u>
+          <u who="#boderD" start="599.816" end="x">On what did they take [you] away?</u>
+          <u who="#billiT" start="603.009" end="x">We [got onto?] a steamship in <placeName ref="Tallinn">Revel</placeName>.</u>
+          <u who="#boderD" start="605.087" end="x">Yes, so.</u>
+          <u who="#billiT" start="606.774" end="x">And they sent us to the Sudetenland to a textile factory again, because we already were acquainted with textile firms.</u>
+          <u who="#boderD" start="615.633" end="x">Aha.</u>
+          <u who="#billiT" start="616.006" end="x">Yes.</u>
+          <u who="#boderD" start="617.061" end="x">How many people did you have who reached—</u>
+          <u who="#billiT" start="618.579" end="x">[<emph rend="italics">interrupts</emph>] Four [<emph rend="italics">stammers</emph>] to a hundred.</u>
+          <u who="#boderD" start="621.471" end="x">So. And what else?</u>
+          <u who="#billiT" start="624.073" end="x">Well, we worked there in the Sudetenland again until they started to evacuate there.</u>
+          <u who="#boderD" start="630.429" end="x">So.</u>
+          <u who="#billiT" start="631.194" end="x">Then I started [from scratch?] again to here to <placeName ref="München">Munich</placeName>, and I was assigned to work with a farm worker.</u>
+          <u who="#boderD" start="640.290" end="x">So.</u>
+          <u who="#billiT" start="640.652" end="x">[Also?] the whole family, both my daughter and wife, we worked until the Americans arrived with the same German farm worker.</u>
+          <u who="#boderD" start="651.779" end="x">Did [he pay you for?] the work?</u>
+          <u who="#billiT" start="653.448" end="x">He only paid a little.</u>
+          <u who="#boderD" start="656.081" end="x">And did he feed you?</u>
+          <u who="#billiT" start="656.997" end="x">There was only a little to eat, too; we received German [ration] cards and they gave us a little additional.</u>
+          <u who="#boderD" start="663.786" end="x">And what did you do with the German cards, did you buy food?</u>
+          <u who="#billiT" start="666.768" end="x">Yes, we bought it.</u>
+          <u who="#boderD" start="667.913" end="x">Where did the money come from for the food?</u>
+          <u who="#billiT" start="669.521" end="x">Well, so much, he [gave?] us [unintelligible] a little anyhow.</u>
+          <u who="#boderD" start="673.106" end="x">So. So, you bought it with the cards and he increased it a little.</u>
+          <u who="#billiT" start="677.124" end="x">He increased it, yes.</u>
+          <u who="#boderD" start="678.208" end="x">And was he a good man?</u>
+          <u who="#billiT" start="679.654" end="x">Well, not so special. He reproached [us] a lot.</u>
+          <u who="#boderD" start="683.479" end="x">So.</u>
+          <u who="#billiT" start="683.931" end="x">My wife was supposed to work and clean everything from morning to evening [from the cattle care and?] [unintelligible], and my daughter was doing manual labor again, and old grandma, forty, ah, seventy-four years old, she was spinning yarn [again?] for the farmer.</u>
+          <u who="#boderD" start="704.720" end="x">So.</u>
+          <u who="#billiT" start="705.425" end="x">. . .</u>
+          <u who="#boderD" start="705.979" end="x">[<emph rend="italics">interrupts</emph>] Well, why weren't you able to leave him and go somewhere else?</u>
+          <u who="#billiT" start="709.473" end="x">There was nowhere for us to go [because of the clothes?]</u>
+          <u who="#boderD" start="711.582" end="x">Aha . . . So, you were not able to leave your wife. And what about this farmer, was he a Nazi?</u>
+          <u who="#billiT" start="719.365" end="x">No, he wasn't a Nazi.</u>
+          <u who="#boderD" start="720.781" end="x">Aga . . .</u>
+          <u who="#billiT" start="721.667" end="x">He was a young man and he had many children and so he was [at home?]. [Unintelligible] [five?] small children and a total of 8 people were in the family.</u>
+          <u who="#boderD" start="731.980" end="x">So, all his—</u>
+          <u who="#billiT" start="732.824" end="x">[<emph rend="italics">interrupts</emph>] A job in the house. In the house.</u>
+          <u who="#boderD" start="734.583" end="x">So . . . Well, and you, ah, what happened then when the Germans, ah, the Germans lost the war? Did you have a radio, did you find out what was going on?</u>
+          <u who="#billiT" start="744.312" end="x">There was nothing.</u>
+          <u who="#boderD" start="745.589" end="x">There was nothing?</u>
+          <u who="#billiT" start="746.523" end="x">No.</u>
+          <u who="#boderD" start="747.047" end="x">Well, and how did it all happen when . . . and who, who liberated you?</u>
+          <u who="#billiT" start="751.264" end="x">It was the Americans [who] [suddenly?] arrived here with a car at the village . . .</u>
+          <u who="#boderD" start="757.360" end="x">So.</u>
+          <u who="#billiT" start="757.752" end="x">and then we went to meet them happily and we told them that they [departure? sounds like German "aus"]. [<emph rend="italics">Mumbles</emph>] Well, the Germans [<emph rend="italics">correcting himself</emph>] the foreigners, not to work any more with the Germans, and the Germans were supposed to feed us.</u>
+          <u who="#boderD" start="780.113" end="x">Yes.</u>
+          <u who="#billiT" start="780.746" end="x">Well, [we?] [unintelligible] he wasn't such a bad boss, so we worked [more?]</u>
+          <u who="#boderD" start="786.511" end="x">Aha. Well, you didn't work so much?</u>
+          <u who="#billiT" start="789.312" end="x">Well, for the time being we started [locally?] to demand bet[ter], more food.</u>
+          <u who="#boderD" start="794.132" end="x">So.</u>
+          <u who="#billiT" start="794.825" end="x">[We demanded milk?] one [handful?] more and so that the family would be able to eat. Well, they [can?] then [have added?] for us, too.</u>
+          <u who="#boderD" start="804.132" end="x">So.</u>
+          <u who="#billiT" start="805.541" end="x">In the meantime there was an order to come here, ah, to the camp.</u>
+          <u who="#boderD" start="809.577" end="x">And there was an order for you to come here to the camp?</u>
+          <u who="#billiT" start="811.655" end="x">Yes, yes.</u>
+          <u who="#boderD" start="812.107" end="x">Well, and what do you do here in the camp?</u>
+          <u who="#billiT" start="814.517" end="x">My family [and I were here?], I will be in Germany, I was working, [at the] factory there [everyone] has a [wasting?] disease.</u>
+          <u who="#boderD" start="823.746" end="x">So.</u>
+          <u who="#billiT" start="824.391" end="x">And considering the disease, I worked for the farmer [even more?].</u>
+          <u who="#boderD" start="829.463" end="x">So.</u>
+          <u who="#billiT" start="830.036" end="x">And here now, up to now I am not doing such [difficult?] work, only suddenly [it] is involved with gardening, I will be in charge.</u>
+          <u who="#boderD" start="839.536" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="840.078" end="x">And we have a camp field here and [in this?] field I have also been in charge [and] we put in potatoes for the camp. And I always was [in charge?] of this business.</u>
+          <u who="#boderD" start="849.295" end="x">Aha. [You?] were in charge as the boss?</u>
+          <u who="#billiT" start="850.753" end="x">As the boss, right.</u>
+          <u who="#boderD" start="851.759" end="x">Well, and what do you think? Where will you go? [Unintelligible] it will end [for you?]?</u>
+          <u who="#billiT" start="856.036" end="x">Well, it's difficult to say.</u>
+          <u who="#boderD" start="860.494" end="x">What do you want to do?</u>
+          <u who="#billiT" start="862.133" end="x">Yes. We all think that if we cannot go home then we will have to start work here in Germany.</u>
+          <u who="#boderD" start="869.404" end="x">Ah, you . . . Why can't you go home?</u>
+          <u who="#billiT" start="872.567" end="x">Ah, because of . . . because of the bad regime we don't want to go back [any more?]. We have suffered from these two regimes twice already.</u>
+          <u who="#boderD" start="884.507" end="x">I don't want to—</u>
+          <u who="#billiT" start="884.941" end="x">[<emph rend="italics">interrupts</emph>] No . . . There is no way I want to go home . . . We had a good democratic government—</u>
+          <u who="#boderD" start="893.959" end="x">[<emph rend="italics">interrupts</emph>] Well, there wasn't a democratic regime. Of your . . . the president was already such a dictator as [Ulman?], as Stalin . . . as . . .</u>
+          <u who="#billiT" start="900.827" end="x">No, no . . . No, we had a democratic—</u>
+          <u who="#boderD" start="904.905" end="x">[<emph rend="italics">interrupts</emph>] What do you have? Was the parliament yours?</u>
+          <u who="#billiT" start="906.231" end="x">The parliament [was] ours?</u>
+          <u who="#boderD" start="908.050" end="x">Well, and why didn't they put the communists into [prison?]?</u>
+          <u who="#billiT" start="911.665" end="x">Well, if they, how do you say [to death already?] correctly, to require order in Estonia.</u>
+          <u who="#boderD" start="921.767" end="x">Aha. So. Eh, well, and you think that it may be possible for you to remain in Germany?</u>
+          <u who="#billiT" start="930.864" end="x">Well, if . . . I think, that there will be a possibility.</u>
+          <u who="#boderD" start="933.948" end="x">Don't you have any relatives in America?</u>
+          <u who="#billiT" start="935.635" end="x">No.</u>
+          <u who="#boderD" start="936.629" end="x">And in South America?</u>
+          <u who="#billiT" start="937.683" end="x">Also no.</u>
+          <u who="#boderD" start="938.527" end="x">Aha.</u>
+          <u who="#billiT" start="939.202" end="x">[We wrote?] that to go [to America since?] I am already old and they think that [unintelligible] for difficult work.</u>
+          <u who="#boderD" start="945.057" end="x">How old are you, Mr. Tomas?</u>
+          <u who="#billiT" start="947.015" end="x">Ah . . .</u>
+          <u who="#boderD" start="949.244" end="x">[All understood?]</u>
+          <u who="#billiT" start="949.786" end="x">Ah, fifty-eight— [<emph rend="italics">stops before finishing</emph>]</u>
+          <u who="#boderD" start="951.429" end="x">[<emph rend="italics">interrupts</emph>] Well, yes, you told me that you were born in 1888. Well, you aren't so old if you rest a little and [recover?] from [unintelligible].</u>
+          <u who="#billiT" start="959.154" end="x">I understand the farming business okay.</u>
+          <u who="#boderD" start="962.027" end="x">Aha.</u>
+          <u who="#billiT" start="962.419" end="x">I [little age?] all has happened with the subsequent changes and I studied field husbandry.</u>
+          <u who="#boderD" start="966.244" end="x">Hm-mmm.</u>
+          <u who="#billiT" start="966.666" end="x">And I am interested in everything about field husbandry.</u>
+          <u who="#boderD" start="968.534" end="x">Aha.</u>
+          <u who="#billiT" start="968.938" end="x">[I will teach myself?] anyhow [to stand?] a piece of land somewhere.</u>
+          <u who="#boderD" start="972.565" end="x">Mm-mmm.</u>
+          <u who="#billiT" start="973.631" end="x">And to set up something else raising cattle and raising pigs or poultry breeding, I understand all this.</u>
+          <u who="#boderD" start="987.366" end="x">So.</u>
+          <u who="#billiT" start="987.607" end="x">And I would live out my years to the end.</u>
+          <u who="#boderD" start="989.987" end="x">Yes.</u>
+          <u who="#billiT" start="991.897" end="x">Well, these [unintelligible].</u>
+          <u who="#boderD" start="994.861" end="x">Yes. [I gave?] something [to be lifted up already?] to develop [and even to give?] people to disappear.</u>
+          <u who="#billiT" start="999.753" end="x">Yes, that's true.</u>
+          <u who="#boderD" start="1003.771" end="x">Well. thank you, Mr. Billi. I think that what you told me was very important and very interesting.</u>
+          <u who="#boderD" start="1011.964" end="x">[In English] This concludes a short interview with Tomas Billi . . . at firty minutes of the spool. He is an Estonian, fifty-eight years old and is now in the displaced center at Lohengrin . . . Lohengrinstrasse near, or in <placeName ref="München">Munich</placeName>. Illinois Institute of Technology wire recording.</u>
+        </div>
+        <!-- end spool 9-142A-->
+      </div>
+      <!-- end English translation -->
+    </body>
+  </text>
+</TEI>

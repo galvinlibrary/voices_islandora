@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews David Lea; August 12, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (Spanish)</resp>
+                    <name>Adriana Barrós Tomé</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation (Spanish)</resp>
+                    <name>Patricia Sanner</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (German)</resp>
+                    <name>Simone Müller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation (German)</resp>
+                    <name>Simone Müller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Simone Müller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Christian Schmidt</name>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT55M17.446S" id="leaD_9-41B_9-42">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <lang value="secondary" norm="Spain">Spanish</lang>
+                                <note type="spools" n="1">9-41B</note>
+                                <note type="spools" n="2">9-42</note>
+                                <placeName ref="AJDC office"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-12</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="leaD_de_es" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="leaD_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="leaD" role="interviewee">
+                        <persName>
+                            <forename>David</forename>
+                            <surname>Lea</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>28</age>
+                        <birth ref="Thessaloníki"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Greece"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <trait type="tattoo">
+                            <desc>120930</desc>
+                        </trait>
+                        <event type="invasion" ref="Greece">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Landsberg concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Buchenwald concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Dachau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Dachau" when="1945-04-29" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#leaD_de_es">
+                <!-- begin Spool 9-41B -->
+                <div lang="Germany">
+                    <p>Anmerkung des Transkribenden: Dies ist das Interview mit David Lea, einem in Saloniki, Griechenland, geborenen Juden aufgenommen am 12. August 1946 in Paris. Neben der Qualität der Aufnahme, sowie einer relativ lauten Umgebung, leidet das Interview auch an dem nur mäßigen Deutsch David Leas, weswegen dieses nach einer halben Stunde in Spanisch fortgeführt wird, eine Sprache, die Herr Lea besser zu beherrschen scheint. Die erste, in Deutsch gehaltene Hälfte des Interviews ist geprägt von oft unklaren Satzkonstruktionen und Nachfragen, sowie Zusammenfassungen des eben Gesagten von Seiten des Interviewers. Herr Lea spricht mit großer Schnelligkeit und offensichtlicher Aufregung. Die Transkription versucht diese Dynamik möglichst getreu wieder zu geben.</p>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="3.595" end="x">[In English] Paris, ah, August 12, 1946 at the headquarters of the American Joint Distribution Committee. The interviewee is David Lea with tattoo number 120930 of Auschwitz.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="21.420" end="x">[In German] Äh . . . Also Herr Lea, wollen Sie mir sagen, wo sind sie geboren?</u>
+                    <u who="#leaD" start="26.547" end="x">In Saloniki.</u>
+                    <u who="#boderD" start="27.807" end="x">Sie sind geboren in?</u>
+                    <u who="#leaD" start="29.278" end="x">In Saloniki.</u>
+                    <u who="#boderD" start="29.913" end="x">In Saloniki.</u>
+                    <u who="#leaD" start="30.659" end="x">Griechenland [Unterbricht]</u>
+                    <u who="#boderD" start="31.354" end="x">In Griechenland. Und, äh, was für ein Staatsangehöriger sind sie? I mean, äh, von welchem Lande sind sie ein Staatsangehöriger? Äh, ich meine, äh, sind sie ein Grieche oder sind sie ein Spanier, oder was sind sie?</u>
+                    <u who="#leaD" start="49.964" end="x">Grieche.</u>
+                    <u who="#boderD" start="50.629" end="x">Sie sind Grieche, all right. Und sie sind in Saloniki geboren?</u>
+                    <u who="#leaD" start="54.134" end="x">Jawohl.</u>
+                    <u who="#boderD" start="54.759" end="x">Nun erzählen sie mich, äh, was hat dort passiert, wenn der Krieg angefangen hat?</u>
+                    <u who="#leaD" start="61.194" end="x">Ich hab gemacht Soldat in Militär, nachher Krieggefang in Krebv. [?] Nachher . . .</u>
+                    <u who="#boderD" start="65.998" end="x">Sie waren ein Soldat für wen? Für die Griechen? [Unterbricht]</u>
+                    <u who="#leaD" start="68.324" end="x">Jawohl.</u>
+                    <u who="#boderD" start="68.868" end="x">Für die Griechen?</u>
+                    <u who="#leaD" start="69.170" end="x">Nach Albanien.</u>
+                    <u who="#boderD" start="70.349" end="x">Nach Albania [verwendet die englische Aussprache]</u>
+                    <u who="#leaD" start="71.186" end="x">Albania [verwendet nun ebenfalls die englische Aussprache]</u>
+                    <u who="#boderD" start="71.509" end="x">Und mit wem haben sie ge . . . , gegen wen haben sie gekämpft?</u>
+                    <u who="#leaD" start="75.527" end="x">Gegen Italia.</u>
+                    <u who="#boderD" start="76.645" end="x">Sie haben gekämpft gegen die . . . ?</u>
+                    <u who="#leaD" start="77.854" end="x">Ich habe gekämpft [gleichzeitig mit Interviewer] . . . Krieg gegen Italia.</u>
+                    <u who="#boderD" start="80.111" end="x">Gegen die Italia.</u>
+                    <u who="#leaD" start="81.069" end="x">Ja.</u>
+                    <u who="#boderD" start="81.725" end="x">Nun und dann . . .</u>
+                    <u who="#leaD" start="82.441" end="x">Nun [unterbricht] und nachher kommen die Deutschen am, äh, sechsten April, sechsten Mai, April kommen nach Kreta. Nachher zweiundvierzig Tage gefangen mit den Deutschen nach Kreta.</u>
+                    <u who="#boderD" start="95.130" end="x">Ja</u>
+                    <u who="#leaD" start="97.054" end="x">Dann nachher drei Monate Kriegefangen.</u>
+                    <u who="#boderD" start="100.438" end="x">Ja</u>
+                    <u who="#leaD" start="101.707" end="x">Komm nach Hause. Nachher sechs Monat . . .</u>
+                    <u who="#boderD" start="104.970" end="x">Wo sind sie nach Hause gekommen? [Unterbricht]</u>
+                    <u who="#leaD" start="106.472" end="x">In Saloniki . . . [Geräusch im Hintergrund] nach Saloniki.</u>
+                    <u who="#boderD" start="108.245" end="x">Im Haus dann nach Saloniki?</u>
+                    <u who="#leaD" start="109.182" end="x">Ja, jawohl, in Saloniki. Dann nachher deportieren Auschwitz.</u>
+                    <u who="#boderD" start="113.433" end="x">Wie lange haben sie gelebt in Saloniki?</u>
+                    <u who="#leaD" start="115.206" end="x">Gelebt in Saloniki?</u>
+                    <u who="#boderD" start="116.898" end="x">Nachdem sie nach Hause gekommen sind. Ja, bevor sie deportiert sind.</u>
+                    <u who="#leaD" start="120.403" end="x">Fünf Monat.</u>
+                    <u who="#boderD" start="121.361" end="x">Sie haben in Saloniki fünf Monate gelebt.</u>
+                    <u who="#leaD" start="122.802" end="x">Fünf Monat, jawohl.</u>
+                    <u who="#boderD" start="124.011" end="x">Wer waren denn in Saloniki, die Italiener oder die Deutschen?</u>
+                    <u who="#leaD" start="127.265" end="x">Die Deutsch, auch die Italiener.</u>
+                    <u who="#boderD" start="129.038" end="x">Die Italiener und auch die Deutschen?</u>
+                    <u who="#leaD" start="131.486" end="x">Die Deutschen, aber zusammen mit Italiener.</u>
+                    <u who="#boderD" start="133.622" end="x">Und dann, wieso hat man sie deportiert?</u>
+                    <u who="#leaD" start="136.362" end="x">Weil ich jüdisch.</u>
+                    <u who="#boderD" start="137.843" end="x">Aha, wie haben die bekannt gemacht, dass die Juden kommen sollen, oder was?</u>
+                    <u who="#leaD" start="144.178" end="x">Die Deutsch hat gemacht ein Ghetto.</u>
+                    <u who="#boderD" start="146.203" end="x">Oh.</u>
+                    <u who="#leaD" start="146.828" end="x">Hat gesproche in die jüdisch, jede Jüdisch von Griechenland wird fahren nach Polonia, nach Krakau, Arbeit. Wird gegeben Arbeit gut, Essen gut. Und sind sie griechisch, kann nicht vorstellen, wann, ich, äh, sprechen deutsch stimmt. Wird fahren zusammen mit der Familie.</u>
+                    <u who="#boderD" start="164.563" end="x">Sie sind mit ihrer Familie?</u>
+                    <u who="#leaD" start="166.457" end="x">Jawohl.</u>
+                    <u who="#boderD" start="167.213" end="x">Man hat die ganze Familie genommen.</u>
+                    <u who="#leaD" start="168.684" end="x">Hat ganze Familie genommen. [gleichzeitig] Mein . . .</u>
+                    <u who="#boderD" start="169.802" end="x">Von wo? [Unterbricht]</u>
+                    <u who="#leaD" start="170.648" end="x">Von Saloniki. Mein Familie ist 37 Mann. Nur ich blieb, 36 Mann im Krematorium von Auschwitz. Brände in neun, äh, zwei- äh kleine Völkchen.</u>
+                    <u who="#boderD" start="183.579" end="x">Also, warten Sie mal. Sie sagen, da waren 37 Personen in ihrer Familie. Welche waren das?</u>
+                    <u who="#leaD" start="188.041" end="x">Mutter . . .</u>
+                    <u who="#boderD" start="188.404" end="x">Ihr Vater. [gleichzeitig]</u>
+                    <u who="#leaD" start="190.298" end="x">Vater, Mutter, Bruder [ständige Hintergrundgeräusche]</u>
+                    <u who="#boderD" start="191.779" end="x">Wie viel Brüder? [Unterbricht]</u>
+                    <u who="#leaD" start="192.918" end="x">Drei Brüder mit zwei Bruder.</u>
+                    <u who="#boderD" start="194.963" end="x">Drei Brüder mit . . . ?</u>
+                    <u who="#leaD" start="196.081" end="x">Mit zwei Bruder . . . Drei Brüder.</u>
+                    <u who="#boderD" start="198.589" end="x">Ja.</u>
+                    <u who="#leaD" start="199.365" end="x">Zwei Fräulein noch dazu.</u>
+                    <u who="#boderD" start="200.665" end="x">Was?</u>
+                    <u who="#leaD" start="200.898" end="x">Zwei Fräulein.</u>
+                    <u who="#boderD" start="201.886" end="x">Zwei, äh, zwei Mädchens .</u>
+                    <u who="#leaD" start="203.085" end="x">Jawohl.</u>
+                    <u who="#boderD" start="203.992" end="x">Yes.</u>
+                    <u who="#leaD" start="204.315" end="x">Mein Mutter, mein Vater, mein Mutter von mein Vater, mein Mutter von meiner Ma und Cousin.</u>
+                    <u who="#boderD" start="209.572" end="x">Ja.</u>
+                    <u who="#leaD" start="210.660" end="x">Alle zusammen.</u>
+                    <u who="#boderD" start="211.890" end="x">Hat man sie alle zusammen arretiert? [Unterbricht]</u>
+                    <u who="#leaD" start="213.966" end="x">Jawohl.</u>
+                    <u who="#boderD" start="214.652" end="x">Ja.</u>
+                    <u who="#leaD" start="215.338" end="x">Also, alle zusammen 2. April. In neun Mai . . .</u>
+                    <u who="#boderD" start="219.136" end="x">Warten sie, man hat sie am 2. April arretiert und dann, wie hat man sie weggeschickt? [unterbricht]</u>
+                    <u who="#leaD" start="224.897" end="x">äh, weggeschickt, äh, . . . , in Transport.</u>
+                    <u who="#boderD" start="227.375" end="x">Ja, was für ein kind, äh, was für ein Transport war das?</u>
+                    <u who="#leaD" start="229.481" end="x">In Transport kein Wasser, kein Essen hat gemacht dort, kein hat gemacht die Deutschen bei uns.</u>
+                    <u who="#boderD" start="234.940" end="x">Ja.</u>
+                    <u who="#leaD" start="236.723" end="x">Neun Tage in Transport, zugesperrt die Tür, die Fräulein also kaputt, halbe Transport vor kommen in Auschwitz, kaputt, tot. . . .</u>
+                    <u who="#boderD" start="245.083" end="x">Oh, in, in . . . [unterbricht]</u>
+                    <u who="#leaD" start="246.917" end="x">. . . kein Brot, kein Brot in die Wagon. [spricht trotzdem weiter]</u>
+                    <u who="#boderD" start="248.932" end="x">Ja, und sie sind gestorben in . . .</u>
+                    <u who="#leaD" start="251.198" end="x">. . . sind gestorben in Wagon, die halbe Transport.</u>
+                    <u who="#boderD" start="253.636" end="x">Ja. Hat man nicht jeden Tag los gemacht, die . . .</u>
+                    <u who="#leaD" start="256.869" end="x">die Wagon?</u>
+                    <u who="#boderD" start="257.615" end="x">Ja.</u>
+                    <u who="#leaD" start="257.857" end="x">Jeden Tag. Nur, man hat gesagt, dort die SS ein bisschen Wasser äh macht kaputt. Die SS . . . du kann nicht waschen, äh, kaputt mache alle Jüdisch in die Wagon.</u>
+                    <u who="#boderD" start="269.056" end="x">Ja.</u>
+                    <u who="#leaD" start="269.661" end="x">Kommen . . . [Geräusch im Hintergrund] im Mai 43 nach Auschwitz. Die selbe Tage haben zwei danach getrennt, [unverständlich], 36 Mann. Nur . . .</u>
+                    <u who="#boderD" start="280.347" end="x">Was heißt man hat sie getrennt? [Unterbricht]</u>
+                    <u who="#leaD" start="282.181" end="x">In Krematorium.</u>
+                    <u who="#boderD" start="283.985" end="x">Ja, warum hat man sie nicht genommen?</u>
+                    <u who="#leaD" start="285.547" end="x">Warum – warum, ich nicht Nummer von 25 Jahre</u>
+                    <u who="#boderD" start="288.861" end="x">Oh, waren alle die übrigen älter von 25 Jahren?</u>
+                    <u who="#leaD" start="293.181" end="x">Jawohl, 25 Jahre alt bis 30 Jahre.</u>
+                    <u who="#boderD" start="296.716" end="x">Aha. 25 Jahre mit 30 Jahren hat gepasst.</u>
+                    <u who="#leaD" start="298.589" end="x">25 Jahre [gleichzeitig] . . . Ja in Auschwitz.</u>
+                    <u who="#boderD" start="300.644" end="x">Ja, und die anderen?</u>
+                    <u who="#leaD" start="302.266" end="x">Die Anderen, die brennen.</u>
+                    <u who="#boderD" start="303.958" end="x">Was haben sie gesehen? Haben sie gesehen, wie man . . .</u>
+                    <u who="#leaD" start="306.707" end="x">Ich kam zusammen, keine Vorstellung hat gemacht die Deutsch, nur hat gemacht die Selektion. Die junge, bis 7 und 13, bis 20 Jahre, bis 30 Jahre [verbessert sich] und die anderen, sagen Deutsch, gehen zu Auto, die Mutter und die Vater, nachher kommt nach Revier.<note n="1">Als Revier bezeichnete man die Krankenstation in den Konzentrationslagern.</note></u>
+                    <u who="#boderD" start="322.659" end="x">Oh. Man hat sie in Autos weg?</u>
+                    <u who="#leaD" start="325.520" end="x">Jawohl.</u>
+                    <u who="#boderD" start="326.034" end="x">Ja.</u>
+                    <u who="#leaD" start="326.629" end="x">Autos weg. Deutsche gesagt, welche krank, die Mutter die Vater, gute Esser nicht, gehen nach Revier. Nachher zwei Tage uns hat gesagt die SS, wo ist mein Familie. [Unverständlich] sage, noch drei vier Tage und sie kaputt. Nachher ein Monat, können sie vorstellen, mein Familie, ganze Familie von jüdisch nach Krematorium. Ich, äh, bin 44 Novem . . . .</u>
+                    <u who="#boderD" start="352.512" end="x">Ja, äh. Nehmen sie die Hand runter.</u>
+                    <u who="#leaD" start="354.316" end="x">Ja, 44 Novembre,<note n="2">verwendet die französische Aussprache.</note> ich bin in Auschwitz, in Lager Auschwitz. Hat gebrennet sechs, äh, Moment . . .</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="368.567" end="x">[In English] He's writing down the number. All right. [Pause]</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="374.751" end="x">[In German] Six hunderttausend.</u>
+                    <u who="#leaD" start="376.775" end="x">In Novembre.</u>
+                    <u who="#boderD" start="378.739" end="x">In ein Monat?</u>
+                    <u who="#leaD" start="379.766" end="x">Moment, In Novembre.</u>
+                    <u who="#boderD" start="381.217" end="x">Ja</u>
+                    <u who="#leaD" start="382.084" end="x">Hat gebrennet die Deutsch, hat gemachet Unsinn. Die Kommando, Sonderkommando, arbeitendes Sonderkommando Krematorium. In sieben . . .</u>
+                    <u who="#boderD" start="391.359" end="x">Haben sie im Krematorium gearbeitet? [Unterbricht]</u>
+                    <u who="#leaD" start="392.740" end="x">Ja in Bayern. In siebenundzwanzig Tage hat gebrennet sechs, sechzig, hunderttausend jüdisch ungarisch.</u>
+                    <u who="#boderD" start="399.196" end="x">60.000 ungarische Juden.</u>
+                    <u who="#leaD" start="401.069" end="x">Ja . . .</u>
+                    <u who="#boderD" start="401.794" end="x">Haben sie im Krematorium gearbeitet? [Unterbricht]</u>
+                    <u who="#leaD" start="403.154" end="x">Jawohl. [gleichzeitig] Jawohl, ich arbeite Krematorium. Ich dieselbe hab gebrennet. Sechs und tausend, äh, sechzig, äh . . .</u>
+                    <u who="#boderD" start="410.517" end="x">Sechshundertausend.</u>
+                    <u who="#leaD" start="411.384" end="x">Sechshundertausend jüdisch hat gebrennt bis zwa, zwa-, äh, bis siebenundzwanzig Tage. Nach Tage, jeden Tag hat gebrennt die Krematorium von, äh, Auschwitz.</u>
+                    <u who="#boderD" start="421.626" end="x">Ja.</u>
+                    <u who="#leaD" start="422.221" end="x">Nachher komm die Russisch. 18 April. 18 Junai von Radom zu Lager Ausschwitz, die Russisch komm 28 Junai.<note n="3">Er meint hier wohl eher Januar als Juni. Das Lager Auschwitz wurde am 27. Januar 1945 von der russischen Armee befreit.</note> Nachher ich fahre Buchenwald. Special . . . [Geräusche im Hintergrund]</u>
+                    <u who="#boderD" start="437.236" end="x">Wann waren sie in Buchenwald?</u>
+                    <u who="#leaD" start="438.586" end="x">In Buchenwald ich hab gemacht drei Monat, zwei waren Dauchau, ein Woche lang Fürth, nachher kommen 29 April die amerikanisch Truppe nach Dachau auf Befehl.</u>
+                    <u who="#boderD" start="449.976" end="x">Aha, ja. Und haben sie befreit.</u>
+                    <u who="#leaD" start="451.608" end="x">Jawohl.</u>
+                    <u who="#boderD" start="452.656" end="x">Also, sie sagen, dass sie haben gearbeitet in Auschwitz im Krematorium?</u>
+                    <u who="#leaD" start="457.158" end="x">Ja, Ja, Jawohl.</u>
+                    <u who="#boderD" start="458.418" end="x">Äh . . .</u>
+                    <u who="#leaD" start="458.711" end="x">Sonderkommando.</u>
+                    <u who="#boderD" start="459.406" end="x">Im Sonderkommando. Also beschreiben sie, wie, was ist im Krematorium zugegangen? Was war das Krematorium? [Pause] Oh. [Pause]</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="478.611" end="x">[In English] He's lighting a cigarette. He wanted to roll one, but I offered him an American cigarette and light my own.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="487.729" end="x">[In German] Also sagen sie, sie haben gearbeitet im Krematorium. Wollen sie mir beschreiben, wie hat man im Krematorium gearbeitet und wie hat das Krematorium ausgesehen?</u>
+                    <u who="#leaD" start="498.385" end="x">In, also wie man hat gearbeitet . . . ? [zögert]</u>
+                    <u who="#boderD" start="498.385" end="x">Ja, also wie hat man, wie hat das Krematorium ausgesehen?</u>
+                    <u who="#leaD" start="503.201" end="x">Jawohl, ja. Kommt Transporte von jedem . . . kommt Transporte von ganz Europa jüdische . . .</u>
+                    <u who="#boderD" start="509.606" end="x">Ein bisschen näher. [unterbricht]</u>
+                    <u who="#leaD" start="510.473" end="x">Kommt Transporte von ganz Europa jüdische. Junge von zwei Monat, von fünf Jahre, von sieben Jahre, von zehn Jahre, von achtzehn Jahre. Mensch von 80 Jahre, 90 Jahre bleibt dort. Kommt nach, äh, Krematorium. Ist ein großes Saale. Schreibe Franzose äh Deutsch. Mein, äh, – sage, ein Affiche<note n="4">Benutzt den französischen Begriff für Aushang.</note> in Krematorium sage, alles ausziehen. Mache bade. Die Menschen machen bade. Ich die, äh, ich gesund, wann ich . . . wann ich bade, ich gesund. Dinge, die ich kann nicht verstehen, was bestimmt spreche, alles ausziehen, zusammen, die Männer mit die Fräulein zusammen, die Frauen von 80 Jahre, die Mädchen von 20 Jahre, alle zusammen. Äh, wann die zusammen alles, bekommen die Seife und die – was ist diese . . .</u>
+                    <u who="#boderD" start="566.428" end="x">Handtuch.</u>
+                    <u who="#leaD" start="567.214" end="x">Handtuch, Seife. Ein SS von anderes Zimmer, gucke, alles schon, alles schon er-, erledigt, alles schon fertig. Alles schon ist aus. Hat gemacht auf die Luminette und die Gas. in zwei Minut, ein bis zwei Minut, kaputt zwei, dreitausend Mann.</u>
+                    <u who="#boderD" start="589.048" end="x">Sind sie richtig gestorben?</u>
+                    <u who="#leaD" start="590.912" end="x">Richtig gestorben. Nachher, die klein Junge, zwei, äh, vier Jahre, drei Jahre. Nur bekommen . . . äh . . . äh hier . . . [scheint auf seine Nase zu zeigen]Blut, äh, Blut, Bluten.</u>
+                    <u who="#boderD" start="600.791" end="x">Nasebluten.</u>
+                    <u who="#leaD" start="602.000" end="x">Nase-, Nasebluten von, von äh Gift. Nur die Klein hat geschreiet. Mama, Mama, Mama. Aber die Mutter nachher, nach ein, äh, ein Minut die Mutter war fertig, die ganze Familie. Nachher kommen Unsinn. Ich Ventilateur,<note n="5">Benutzt den französischen Begriff.</note> Ventilateur.</u>
+                    <u who="#boderD" start="617.369" end="x">Ja.</u>
+                    <u who="#leaD" start="618.115" end="x">Hat gemacht auch Unsinn, dieselbe, die Sonderkommando, die Ventilateur.</u>
+                    <u who="#boderD" start="622.496" end="x">Ja.</u>
+                    <u who="#leaD" start="624.209" end="x">Die Gas weg . . . Raus.</u>
+                    <u who="#boderD" start="625.952" end="x">Raus, ja.</u>
+                    <u who="#leaD" start="626.828" end="x">(undeutlich)</u>
+                    <u who="#boderD" start="628.732" end="x">Ja, ja.</u>
+                    <u who="#leaD" start="629.992" end="x">Bekommen Töne.</u>
+                    <u who="#boderD" start="630.829" end="x">Ja.</u>
+                    <u who="#leaD" start="631.454" end="x">Schmeißen die Tot in die Wagonnet<note n="6">Benutzt den französischen Begriff.</note> . . .</u>
+                    <u who="#boderD" start="633.992" end="x">Yes.</u>
+                    <u who="#leaD" start="634.476" end="x">und nachher in die Krematorium.</u>
+                    <u who="#boderD" start="636.854" end="x">Also, ja. Was war die Krematorium? Ein Ofen? [Pause] Was war es? Ein Ofen, äh.. ein . . . ?</u>
+                    <u who="#leaD" start="644.035" end="x">Ko-, Ko-, Kohle.</u>
+                    <u who="#boderD" start="645.365" end="x">Ja.</u>
+                    <u who="#leaD" start="646.685" end="x">Kohl, Kohl..</u>
+                    <u who="#boderD" start="648.105" end="x">Äh, yes. War es ein Ofen oder war es ein . . . ?</u>
+                    <u who="#leaD" start="652.184" end="x">Nicht. Äh, Krematorium, Krematorium . . . [unterbricht] und die . . .</u>
+                    <u who="#boderD" start="653.686" end="x">Ja, ja. Wie viel Menschen auf einmal hat man verbrennen können? [unterbricht]</u>
+                    <u who="#leaD" start="658.541" end="x">Wann ich, äh, mit Transport kommen jeden Tag zehn Transport von 20 bis 40 Tausend Mann. Acht Mann ein Krematorium, zwanzig Minuten gebrennet. Nach die Tage jeden Tag Gebrenne gemacht in Krematorium. Jeden Tag, nach Sabbat, jeden Tag Gebrenne in Krematorium. In Krematorium war Arbeit ungefähr 5, äh, 1.500 Mann. 500 Mann jede Stunde, jede acht Stunde Arbeit. Nachher dann tauschen, andere 500 Mann. Und die arbeiten in Sonderkommando, gut gegessen.</u>
+                    <u who="#boderD" start="693.703" end="x">Hat man ihnen gut zu Essen gegeben?</u>
+                    <u who="#leaD" start="694.609" end="x">Ja, jawohl. Nachher die 1.500 Mann arbeite nur drei Monat. Denn nachher die SS hat gemacht kaputt, mit, äh, die ungef. die 1500 Mann.</u>
+                    <u who="#boderD" start="707.812" end="x">Wie haben sie sie kaputt gemacht?</u>
+                    <u who="#leaD" start="709.011" end="x">Warum—Nichts wolle sprechen, was sie da machen in Krematorium.</u>
+                    <u who="#boderD" start="711.881" end="x">Aber wie haben sie sie kaputt gemacht. Auch im Krematorium?</u>
+                    <u who="#leaD" start="714.601" end="x">Auch im Krematorium. Und die SS macht kaputt in Krematorium dieselbe, die, die, äh, Sonderkommando. Nachher drei Monat dabei, nachher in Krematorium.</u>
+                    <u who="#boderD" start="724.260" end="x">Ja.</u>
+                    <u who="#leaD" start="724.704" end="x">Gebrennt dieselbe. Ich nicht gebrennt, wann kommen die Russisch.</u>
+                    <u who="#boderD" start="729.598" end="x">Aha.</u>
+                    <u who="#leaD" start="730.021" end="x">Wenn mein Kommando, die Sonderkommando, 1500 Mann nicht gebrennet, dann kommen die Russisch. Und die Deutschen, keine Zeit, keine Zeit. Wenn ich hab Zeit, och, hundert gebrennet.</u>
+                    <u who="#boderD" start="740.595" end="x">Ja.</u>
+                    <u who="#leaD" start="742.015" end="x">In, äh, 43 . . . die Krematorium, vier, vier . . . [Hintergrundgeräusch] . . . Nummer Krematorium vier, die Griechisch von Saloniki, Athen hat gemachet ein Bomb. Bombe macht kaputt.</u>
+                    <u who="#boderD" start="755.561" end="x">Wer hat gemacht?</u>
+                    <u who="#leaD" start="756.286" end="x">Die Griechisch von Athen. In, äh, 34.</u>
+                    <u who="#boderD" start="760.878" end="x">In, äh, ähm 44.</u>
+                    <u who="#leaD" start="762.903" end="x">44.</u>
+                    <u who="#boderD" start="764.193" end="x">Waren es jüdische Griechen?</u>
+                    <u who="#leaD" start="765.311" end="x">Jüdische Griechisch, zusammen mit den Polacken.</u>
+                    <u who="#boderD" start="766.390" end="x">Zusammen mit den Polacken haben sowas getan.</u>
+                    <u who="#leaD" start="769.191" end="x">Ja. Hat . . .</u>
+                    <u who="#boderD" start="770.149" end="x">Aufgerissen.</u>
+                    <u who="#leaD" start="770.774" end="x">Aufgerissen, ja, hat Munition in Krematorium vier. Griechische von Athena und Polack jüdisch von Ghetto von Warschaua.</u>
+                    <u who="#boderD" start="778.297" end="x">Ja.</u>
+                    <u who="#leaD" start="779.505" end="x">Hat gemacht kaputt Krematorium vier.</u>
+                    <u who="#boderD" start="782.134" end="x">Wo, in, äh, Auschwitz?</u>
+                    <u who="#leaD" start="783.454" end="x">Nein, in Birkenau.</u>
+                    <u who="#boderD" start="784.481" end="x">In Birkenau. Genau Auschwitz und Birkenau. Ähm, wie haben sie das Krematorium kaputt gemacht?</u>
+                    <u who="#leaD" start="791.430" end="x">Die jüdisch – äh, griechisch und jüdisch Polack.</u>
+                    <u who="#boderD" start="794.602" end="x">Aha und was hat man denen getan?</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="798.409" end="x">Äh, sind sie leben geblieben die Menschen?</u>
+                    <u who="#leaD" start="800.545" end="x">Alles kaputt, drin in Krematorium.</u>
+                    <u who="#boderD" start="802.198" end="x">Die Menschen, die drin waren?</u>
+                    <u who="#leaD" start="803.277" end="x">. . . die auch. Die Menschen, die drin waren. [Unterbricht] Wann die, die, äh, Mensch ist raus [unverständlich] ist mit die Gewehrmaschin. Die SS sage, wenn ich Unsinn mache in Krematorium, ist unser kaputt. Alles zerstört, drinnen mit die Mensch, die jüdische Polack und die jüdische von Griechenland. Nachher zwei Minut . . . kaputt</u>
+                    <u who="#boderD" start="821.244" end="x">Haben sie das selbst gesehen?</u>
+                    <u who="#leaD" start="823.168" end="x">Ich hab gesehen nicht, wann ich bin im Revier. [Hintergrundgeräusch]</u>
+                    <u who="#boderD" start="824.981" end="x">Was?</u>
+                    <u who="#leaD" start="825.434" end="x">Ich bin krank.</u>
+                    <u who="#boderD" start="826.371" end="x">Oh sie waren krank und sie waren im Revier.</u>
+                    <u who="#leaD" start="828.386" end="x">[unverständlich, da gleichzeitig mit Interviewer] . . . war in Revier, nicht gesehen, aber doch Bum.</u>
+                    <u who="#boderD" start="831.317" end="x">Sie haben gehört, wie es passiert ist.</u>
+                    <u who="#leaD" start="832.547" end="x">Alles ja. [unterbricht]</u>
+                    <u who="#boderD" start="833.354" end="x">Und nachdem man die Krematorien aufgerissen hat, hat man noch Leute verbrannt nachdem?</u>
+                    <u who="#leaD" start="838.692" end="x">Nicht.</u>
+                    <u who="#boderD" start="839.085" end="x">Nein, man hat keinerlei . . .</u>
+                    <u who="#leaD" start="840.837" end="x">Kein. [gleichzeitig]</u>
+                    <u who="#boderD" start="841.502" end="x">Keinerlei.</u>
+                    <u who="#leaD" start="842.257" end="x">Äh, vor zwei Tage evakuiert die Lager von Birkenau, SS hat gemacht kaputt, alles Krematorium.</u>
+                    <u who="#boderD" start="848.843" end="x">Alles selbst kaputt gemacht.</u>
+                    <u who="#leaD" start="849.780" end="x">Von zwei Tage evakuiert die Lager von Birkenau. 18 April, evakuiert bei uns Lager. 16 nein 18, äh, 18 . . .</u>
+                    <u who="#boderD" start="858.321" end="x">Nein, nein, nein, nehmen sie die Hand runter. [Unterbricht] Ja.</u>
+                    <u who="#leaD" start="859.248" end="x">18 Junai,<note n="7">Siehe oben. Auch hier meint er wohl Januar und nicht Juni.</note> im April, 18 Junai 45 evakuiert die Lager Auschwitz. 16 Junai 45, die Deutsch hat gemacht kaputt die Krematorien. Sechs Krematorien hat gemacht kaputt die Deutsch.</u>
+                    <u who="#boderD" start="874.747" end="x">Sie selbst? Und wie viel haben die Griechen kaputt gemacht?</u>
+                    <u who="#leaD" start="877.729" end="x">Die Griechen kaputt und auch die Polack kaputt.</u>
+                    <u who="#boderD" start="879.925" end="x">Ja, aber wieviel Krematorien haben die Griechen . . .</u>
+                    <u who="#leaD" start="881.798" end="x">Ein Krematorium. [unterbricht] Ein Krematorium. Ein Krematorium vier. Dieselbe, die jüdische Polack hat gemacht die Krematorium vier kaputt.</u>
+                    <u who="#boderD" start="890.530" end="x">Aha, und den Rest haben die SS kaputt gemacht.</u>
+                    <u who="#leaD" start="892.968" end="x">SS kaputt gemacht.</u>
+                    <u who="#boderD" start="893.572" end="x">Nun, also wo sind sie gegangen nachdem, äh, wer hat sie befreit, die Russen oder die Amerikaner?</u>
+                    <u who="#leaD" start="897.772" end="x">Amerikanisch. 29 April 45.</u>
+                    <u who="#boderD" start="900.482" end="x">Von welchem Lager?</u>
+                    <u who="#leaD" start="901.530" end="x">Von Dachau.</u>
+                    <u who="#boderD" start="902.618" end="x">Von Dachau. Äh, war in Dachau auch ein Krematorium?</u>
+                    <u who="#leaD" start="906.536" end="x">In Dachau Krematorium, 44 hat gemacht nur ein Krematorium. Warum hat gemacht. In Dachau ist verboten für die jüdisch.</u>
+                    <u who="#boderD" start="914.935" end="x">Was?</u>
+                    <u who="#leaD" start="915.479" end="x">In Dachau ist verboten . . .</u>
+                    <u who="#boderD" start="916.869" end="x">In Dachau war's verboten von jüdischer Rang. Keine Juden in Dachau.</u>
+                    <u who="#leaD" start="919.972" end="x">Ja. Keine Juden, kein Krematorium.</u>
+                    <u who="#boderD" start="921.534" end="x">Ja.</u>
+                    <u who="#leaD" start="921.918" end="x">Nachher. 5, äh, 5, äh 45 komme ich, hat gemachet noch ein Krematorium. Für alles, für die jüdische, für die Arier. Nachher in April, in 29 April . . .</u>
+                    <u who="#boderD" start="937.800" end="x">Ja. Sagen sie Haben sie in irgendwelch einem Lager Zigeuner gesehen?</u>
+                    <u who="#leaD" start="943.450" end="x">Jawohl.</u>
+                    <u who="#boderD" start="944.136" end="x">Erzählen sie mir von den Zigeunern.</u>
+                    <u who="#leaD" start="945.366" end="x">In Lager, in Lager von Birkenau.</u>
+                    <u who="#boderD" start="948.136" end="x">Ja.</u>
+                    <u who="#leaD" start="949.103" end="x">Hat gesehen Zigeuner—sieben, acht tausend Mann Zigeuner, nicht jüdisch, zusammen mit die Kinder, mit die alles. Gut gegessen, drei, fünf, sieben Monat. Nachher, ein Nacht, eine Stunde, einer von Früh hat gemacht die Deutsche antreten hat ganze Zigeunerlager.</u>
+                    <u who="#boderD" start="967.653" end="x">Ja.</u>
+                    <u who="#leaD" start="968.650" end="x">Hat ganze Zigeunerlager, nachher zwei Stunde acht neun Mann, acht neun Tausend Mann zusammen mit die Kinderchen kaputt, alles Zigeuner. Und nachher man in Lager Birkenau nicht gucken mehr Zigeuner.</u>
+                    <u who="#boderD" start="980.121" end="x">Also man hat alle Zigeuner tot gemacht.</u>
+                    <u who="#leaD" start="981.632" end="x">Alle tot.</u>
+                    <u who="#boderD" start="982.922" end="x">Hat man sie auch durch die Gaskammern geschickt?</u>
+                    <u who="#leaD" start="985.460" end="x">Alles, alle durch die Gas.</u>
+                    <u who="#boderD" start="987.324" end="x">Mh. Warum hat man das getan?</u>
+                    <u who="#leaD" start="990.980" end="x">Ich weiß nicht warum.</u>
+                    <u who="#boderD" start="992.693" end="x">Sie wissen nicht warum</u>
+                    <u who="#leaD" start="993.892" end="x">Jawohl</u>
+                    <u who="#boderD" start="994.859" end="x">Äh. Und wer hat nachher im Block gewohnt, wo die Zigeuner gewohnt haben?</u>
+                    <u who="#leaD" start="999.904" end="x">Ja. In Block Zigeuners gewohnt. Oder Block für Zigeuner, nur Zigeuner. Warum ist—Zigeuner bleibt, warum nicht Arier, kein SS zusammen ziehen lassen.</u>
+                    <u who="#boderD" start="1009.330" end="x">Aber wenn man alle Zigeuner tot, äh, wenn man alle Zigeuner getötet hat, wer hat nachher im Block gelebt?</u>
+                    <u who="#leaD" start="1015.705" end="x">Die Block ist aus.</u>
+                    <u who="#boderD" start="1016.944" end="x">Der Block ist . . .</u>
+                    <u who="#leaD" start="1017.781" end="x">Gesperrt. [unterbricht]</u>
+                    <u who="#boderD" start="1017.983" end="x">Der Block ist gesperrt gewesen.</u>
+                    <u who="#leaD" start="1019.131" end="x">Gesperrt.</u>
+                    <u who="#boderD" start="1019.887" end="x">Ja . . . Und was tun sie jetzt Herr Lea?</u>
+                    <u who="#leaD" start="1024.621" end="x">Ich arbeite in Komitee [unverständlich, Hintergrundgeräusch].</u>
+                    <u who="#boderD" start="1026.766" end="x">Sie arbeiten im Komitee in [unverständlich].</u>
+                    <u who="#leaD" start="1028.398" end="x">Ich hab keine Familie.</u>
+                    <u who="#boderD" start="1029.990" end="x">Was?</u>
+                    <u who="#leaD" start="1030.685" end="x">Keine Familie.</u>
+                    <u who="#boderD" start="1031.531" end="x">Sie haben keine Familie.</u>
+                    <u who="#leaD" start="1032.489" end="x">36 Mann—kaputt.</u>
+                    <u who="#boderD" start="1035.320" end="x">Aha, und äh, was wollen sie tun nachher? Wie sind sie nach Frankreich gekommen?</u>
+                    <u who="#leaD" start="1041.655" end="x">Warum in Griechenland? Ich hab . . .</u>
+                    <u who="#boderD" start="1043.740" end="x">Wie sind sie gekommen? [Unterbricht] Von—wie alt sind sie? Wie alt sind sie?</u>
+                    <u who="#leaD" start="1048.474" end="x">Ich bin, wie alt bin ich? . . . . 28.</u>
+                    <u who="#boderD" start="1050.973" end="x">Sie sind 28 Jahre alt. Allright. Und jetzt stehen sie mit dem Joint?</u>
+                    <u who="#leaD" start="1057.882" end="x">Jawohl.</u>
+                    <u who="#boderD" start="1058.517" end="x">Haben sie Verwandte in Amerika?</u>
+                    <u who="#leaD" start="1060.713" end="x">Kein.</u>
+                    <u who="#boderD" start="1061.438" end="x">Keine. Haben sie Verwandte in Palästina?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1066.333" end="x">[In English] This concludes um, um Spool 41, of which half is Ms. Precker and the other one is Mr. Lea. After the machine stopped, he suggested that he has something more to tell.</u>
+                    <!-- end Spool 9-41B -->
+                    <!-- begin Spool 9-42 -->
+                    <u who="#boderD" start="1083.061" end="x">This is Spool number 42. Mr. David Lea continued.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="1089.496" end="x">[In German] Mr. Lea sie sagten, . . . .was wollten sie sagen von Auschwitz?</u>
+                    <u who="#leaD" start="1095.280" end="x">Von Warschau.</u>
+                    <u who="#boderD" start="1096.661" end="x">Oh. Sie sagten, sie waren in Warschau. Wieso sind sie nach Warschau gekommen?</u>
+                    <u who="#leaD" start="1100.459" end="x">Ich ging nach Warschau von nach Birkenau sechs Septembre.<note n="8">Er verwendet den französischen Begriff.</note> Jom Kippur.</u>
+                    <u who="#boderD" start="1107.489" end="x">Ja. Wieso sind sie befreit von Birkenau gewesen?</u>
+                    <u who="#leaD" start="1109.846" end="x">Von Birkenau Transport von die jüdisch nach Arbeit in Warschaua.</u>
+                    <u who="#boderD" start="1113.613" end="x">Oh, die – wer hat sie genommen dort?</u>
+                    <u who="#leaD" start="1115.215" end="x">Die SS.</u>
+                    <u who="#boderD" start="1116.414" end="x">Die SS hat sie genommen von Birkenau nach Auschwitz, äh nach Warschau. Erzählen sie, was hat dort passiert. [Lea spricht ständig bestätigend dazwischen]</u>
+                    <u who="#leaD" start="1122.759" end="x">Arbeit in Ghetto in die Hause von die jüdisch. Das ganze Ghetto ist, die Ghetto von Warschaua, [Hintergrundgeräusch] zweihundert Meter, so lange von Friedhof von Warschaua ist jüdisch. Ich nicht verstehe die Stadt, warum, ich nicht spreche Polack .</u>
+                    <u who="#boderD" start="1141.390" end="x">Polnisch, ja.</u>
+                    <u who="#leaD" start="1142.085" end="x">Die, die Leute deportiert Polack, wenn ich jetzt nach, äh, in Amerika, als Stadt, zwei- zweihundert, äh zweihundert Meter ist lange die Friedhof, von die jüdisch, nach mein Lager.</u>
+                    <u who="#boderD" start="1157.845" end="x">Aha</u>
+                    <u who="#leaD" start="1158.803" end="x">Arbeit . . .</u>
+                    <u who="#boderD" start="1159.428" end="x">Warum hat man sie geschickt von Auschwitz nach Warschau? [unterbricht]</u>
+                    <u who="#leaD" start="1162.450" end="x">Warum ich geschicket. Als junger, gesund Mensch. Arbeit.</u>
+                    <u who="#boderD" start="1166.912" end="x">Wer—Wo haben sie sollen arbeiten?</u>
+                    <u who="#leaD" start="1169.057" end="x">Arbeiten in die Stadt, mit die Pickel, mit die Pickel, mit die Scheffel [Schaufel]. Kein Essen, nur 150 Gramm Brot jeden Tag, Mittag ein Liter Wasser. So, Arbeit, äh, 40 Stunden.</u>
+                    <u who="#boderD" start="1186.338" end="x">Mh. Also, was ist passiert?</u>
+                    <u who="#leaD" start="1189.152" end="x">Ich nachher SS hat gesproche. [Pause]</u>
+                    <u who="#boderD" start="1194.077" end="x">Ja.</u>
+                    <u who="#leaD" start="1194.884" end="x">Jeder Jüdisch von Arbeit, in die Lager von die jüdisch, alles kaputt. Die Lager ist so lange, so weit, 50 Meter von Pawiak to Warschau.</u>
+                    <u who="#boderD" start="1206.960" end="x">Ja.</u>
+                    <u who="#leaD" start="1208.431" end="x">Arbeiten in die Bunki<note n="9">Anmerkung: Die Bedeutung von „Bunki“ ist nicht ganz klar. Offensichtlich sprechen sie über den „Bund“, die jüdische Widerstandsorganisation im Warschauer Ghetto bzw. den Allgemeinen Jüdischen Arbeiterbund.</note>, [unverständlich] dieselbe deutsch. Junge hat ganze Familie jüdisch mit die Kinderchen kaputt hat gemacht. Die Kampf mit die Deutsch von 39. Nachher SS mit zu vielleicht, komm rüber, bei uns in die Bunki. Weil jüdisch, wann sie suchen, wann sie suche Jüdisch in die Bunki. Ich zuviel jüdisch in die Bunki, nicht kaputt, also kaputt, äh, also nicht kaputt. Ich genommen hab Gewehrmaschine, ge- äh gestohlen.</u>
+                    <u who="#boderD" start="1241.369" end="x">Was sind die Bunki? Was ist der Bund?</u>
+                    <u who="#leaD" start="1243.544" end="x">Der Bunki ist jüdisch, Verband, noch machen Sabotage, die nachmachen Sabotage drinnen in die Ghetto. Und gucken in die Straße die Deutsch mach kaputt. Auf Arbeit, Arbeit acht, äh, neun Monat in, äh, Warschau.</u>
+                    <u who="#boderD" start="1260.414" end="x">Ja.</u>
+                    <u who="#leaD" start="1260.958" end="x">Nachher Lager von Warschaua evakuiert.</u>
+                    <u who="#boderD" start="1262.973" end="x">Ja.</u>
+                    <u who="#leaD" start="1264.514" end="x">In Lager von Warschau ist großer Transport, Jom Kippur, kommen in, äh, Warschaua, nur griechisch, jüdische Barack. Warum, Unsinn diese Barack griechisch, nicht verstehen Polack, verstehen England. Die Deutsch hat gesagt, welche nicht verstehen Polack, kommen in Warschaua. Hat gesagt, guter [unverständlich], gut [unverständlich]. Unsinn, die jüdische Barack gehen in Warschaua. Warum, die Deutsch Angst. Wenn ich arbeit in Warschaua und ich verstehen Polack, muss weg. Aber nur die jüdische Barack nicht verstehen Polack. Die Deutsch kein Angst bei uns. Nachher Jüdisch Barack kaputt, komm . . . Polack Jüdische. Polack Jüdische, ungarische Jüdische . . . Lithuan Jüdische . . . von Krakau Jüdische, von Ukrainisch Jüdische. 40 Stunden Arbeit die Tage, Deutschlager, nachher die Nacht Appell drei Stunden, Schuhe, keine Schuhe, keine Strümpfe, Schuhe von Holz . . . kein Handschuh, Arbeit einmal Schuhe, einmal Mantel . . . ein Mantel. Wann kommen in die, in die Platz von Arbeit, die Kapos, deutsch, sagen, ausziehe die Mantel. (Unsere/Unsinn) ausziehe die Mantel, hat gemacht ausziehen, was man hat gesagt. Warum, tot schlagen. Draußen kalt jede Tage, mit die Schaufel mit die Pickel, eine Stunde Arbeit, nachher kaputt.</u>
+                    <u who="#boderD" start="1356.273" end="x">Was heißt kaputt?</u>
+                    <u who="#leaD" start="1357.059" end="x">Von, äh, . . . von Kalt, kein Esse, kein . . . kein Esse, kein Vitamins, keine Schlafen, zu viel Läuse. Die . . .</u>
+                    <u who="#boderD" start="1366.748" end="x">Läuse? [unterbricht]</u>
+                    <u who="#leaD" start="1367.313" end="x">Läuse zu viel. Typhus in die Lager von Warschaua. Typhus jeden Tag 80, 90, 100 Mann kaputt. In Revier, kein Essen in Revier. Nun kommt die SS, die [unverständlich] SS, ein deutsch, sagen alle jüdisch kaputt. Mit die ein, was ist . . . . Macht kaputt.</u>
+                    <u who="#boderD" start="1385.098" end="x">Mit was? Mit Einspritze?</u>
+                    <u who="#leaD" start="1386.669" end="x">Ja, so [scheint es ihm zu zeigen]</u>
+                    <u who="#boderD" start="1387.636" end="x">Mit Injection.</u>
+                    <u who="#leaD" start="1388.573" end="x">Ja, Injection in Revier. In Lager von Warschaua, die Revier ist Block 7.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1395.784" end="x">[In English] He demonstrates by hand, he didn't know the word. There were people that were killed by injection. No?</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#leaD" start="1403.488" end="x">In Lager von Warschaua die Revier ist Block 7 oder Block 8. Die Chef von Revier ist ein Deutsch. Schlecht die jüdische kaputt. [unverständlich] in die Krematorium, alles jüdisch, eh kaputt. Kein jüdisches nachhause mehr. Nachher weg in Lager Landsberg. Ist ob Bayern. Ich Arbeit in Landsberg. Die Lagerführer verstand mich von Birkenau. Die äh hat gearbeit in Sonderkommando. Eine Tag hat gesagt, kommen sie, arbeite in Friedhofkommando . . .</u>
+                    <u who="#boderD" start="1440.513" end="x">In welchem Kommando?</u>
+                    <u who="#leaD" start="1441.622" end="x">In Friedhofkommando nach Landsberg, Bayern. Ich hab dieselbe, mein Kommando, noch 15 Mann ich 16 Mann alles. 12000, 5, 1500 hundert 37 jüdisch in ein Monat Arbeit. Diese Lager . . .</u>
+                    <u who="#boderD" start="1461.704" end="x">Wie haben sie die Nummer gewusst? Wie haben sie gezählt?[unterbricht]</u>
+                    <u who="#leaD" start="1464.656" end="x">Das mache die [unverständlich]. ich zweihundert tot, 180 tot, die Lagerführung hat gemachet Report. Jetzt holte ich 50 Polack tot, 20 griechisch jüdisch tot, 10 ungarische, 10 Slowak, mache Report. In ein Monat Arbeit 12 tausend vier hundert 37 kaputt. Diese Friedhof, kein Maßstab, kann kein Mensch vorstellen, nur die 16 Mann, was arbeit.</u>
+                    <u who="#boderD" start="1494.833" end="x">Wie haben sie Gräber gemacht? Für jeden ein separates Grab? [Unterbricht]</u>
+                    <u who="#leaD" start="1498.217" end="x">Vierhundert Mann ein Loch. Dreihundert Mann ein Loch. Nachher hat gemacht tief zwei Meter 40 Zentimeter.</u>
+                    <u who="#boderD" start="1507.513" end="x">Was?</u>
+                    <u who="#leaD" start="1508.057" end="x">Zwei Meter 40 Zentimeter dick.</u>
+                    <u who="#boderD" start="1510.344" end="x">Tief</u>
+                    <u who="#leaD" start="1510.827" end="x">Tief. Kommen jeden Wagen, jeden Wagen 40 tot. Kommt zusammen die Wagen nach die Tot, die SS Unsinn die Jüdisch, wollte ein bisschen (undeutlich). Die SS nix hat gelassen. Hat gesehen Kamerad Arbeit in, mit die [unverständlich] hat gesagt, ist mein Bruder, mein Cousin. Ein bisschen gelesen. Kein bisschen gelesen . . .</u>
+                    <u who="#boderD" start="1532.876" end="x">Kein bisschen was?</u>
+                    <u who="#leaD" start="1533.631" end="x">Gelesen.</u>
+                    <u who="#boderD" start="1534.447" end="x">Ah . . .</u>
+                    <u who="#leaD" start="1535.202" end="x">Nix. Tot, tot die Mensch, die Bruder . . .</u>
+                    <u who="#boderD" start="1536.713" end="x">Ah gebetet.</u>
+                    <u who="#leaD" start="1538.245" end="x">Gelesen. Bracha</u>
+                    <u who="#boderD" start="1539.565" end="x">Aha, zu machen Broche. No? Hat er . . . [wird unterbrochen]</u>
+                    <u who="#leaD" start="1542.496" end="x">Die SS hat geschlagen tot. SS ein Tag hat der Kamerad, hat Kamerad bekommen für beten. Gegen die SS sagen, nimm mein Portion Brot sagen die SS . . .</u>
+                    <u who="#boderD" start="1553.061" end="x">Warten Sie, Sie sagen . . . [unterbricht, Lea spricht jedoch weiter]</u>
+                    <u who="#leaD" start="1554.109" end="x">. . . mein Kamerad sagen, diese, die Tot ist mein Bruder. Wollen ein bisschen gelesen. Die SS genommen die Pick und die Schaufel hauen die Kopf, zusammen mit die Bruder kaputt.</u>
+                    <u who="#boderD" start="1564.230" end="x">Aha, um, a person has asked permission to pray over his brother who he had to bury. But he tells the SS killed him with the Shovel and buried them both. All right.</u>
+                    <u who="#leaD" start="1578.780" end="x">Nachher, ein Tage. 400 tot, äh, 400. In jede Loch 400 tot, 300, 350. Nachher zusperre die tot mit die [unverständlich]. Die Lager dort hat gesagt, mache, kann man sagen, die Loch, damit man nicht versteht, warum tot diese Leut. Die Friedhof hat gemacht und ich in Bayern, in die Mitte.</u>
+                    <u who="#boderD" start="1604.097" end="x">Wo ist das? In Warschau?</u>
+                    <u who="#leaD" start="1605.396" end="x">Nicht in Warschau. In Landsberg, Bayern.</u>
+                    <u who="#boderD" start="1607.813" end="x">In, in . . . ?</u>
+                    <u who="#leaD" start="1608.266" end="x">In Landsberg, Bayern.</u>
+                    <u who="#boderD" start="1609.294" end="x">Bavaria?</u>
+                    <u who="#leaD" start="1610.161" end="x">Bavaria.</u>
+                    <u who="#boderD" start="1610.614" end="x">Ja</u>
+                    <u who="#leaD" start="1610.947" end="x">Bavaria.</u>
+                    <u who="#boderD" start="1611.723" end="x">Was für ein Lager war in Landsberg?</u>
+                    <u who="#leaD" start="1614.261" end="x">In Landsberg ist, ganze Landsberg ist Endlager.</u>
+                    <u who="#boderD" start="1618.068" end="x">Aha.</u>
+                    <u who="#leaD" start="1618.421" end="x">Lager eins, Lager zwei, Lager drei, Lager vier, Lager fünf, Lager sechs, Lager sieben, Lager acht, Lager neun, Lager zehn, Lager elf. In die Lager vier, Lager sieben, Lager sieben, ist Lager nur Quarantäne</u>
+                    <u who="#boderD" start="1634.101" end="x">Nur Quarantäne?</u>
+                    <u who="#leaD" start="1634.524" end="x">Quarantäne macht kaputt die Jüdische mit die Injection. In die Lager eins ist die Ober, in Lager eins ist ein Lager, Arbeitslager. Die Name ist Tannberg. Die schlechte Mensch . . .</u>
+                    <u who="#boderD" start="1647.766" end="x">Welcher Name? [unterbricht]</u>
+                    <u who="#leaD" start="1648.512" end="x">Tannberg. Deutsch. Tannberg, Tannberg. Diese SS jetzt ist in Nürnberg. Ein Kamerad von mir, russisch-jüdisch. Die Name ist Kosakov. Gehen Prozess nach ..</u>
+                    <u who="#boderD" start="1664.434" end="x">Nürnberg.</u>
+                    <u who="#leaD" start="1665.180" end="x">Nürnberg. Gucken diesen. In die Prozess hat gesprochen die Kommandant von Tribunal amerikanisch. Diese, die schlechte Menschen und die Jüdisch hat gemacht 29, und dieselbe. Nachher ich weiß nicht, was ich hätt gemacht, mit diese SS. In Lager vier, ist dieselbe von Lager fünf, Lager sieben. Quarantäne. 27. April 44, 45. Die FDG. Chef SS von Revier.</u>
+                    <u who="#boderD" start="1698.732" end="x">Was ist FDG?</u>
+                    <u who="#leaD" start="1699.669" end="x">FDG ist Chef von Revier. SS. Unter die Déporté, Chef von die Revier SS sage, FDG, hat gebrennet. Die Leute, ist zu viel, ist zu viel kranke, hat gebrennet. Mensch Gesund. Mehr von 3000 Mann mit die Gas. Nachher, zwei Stunde kommen die Amerikanisch. Die Amerikanisch hat, äh . . . , hat gesagt, jeden Deutsch von Bayern, kommt gucke, was gemacht die Deutsch. Die Mensch gesund hat gebrennet, mit die Gas, mit die Flamme.</u>
+                    <u who="#boderD" start="1736.040" end="x">Ja, ja.</u>
+                    <u who="#leaD" start="1737.702" end="x">Ein Kamerad . . .</u>
+                    <u who="#boderD" start="1738.941" end="x">Wie hat man sie gebrannt? Mit . . . [unterbricht]</u>
+                    <u who="#leaD" start="1740.322" end="x">Mit die, äh, die Flamm.</u>
+                    <u who="#boderD" start="1741.370" end="x">Mit Flame throwers?</u>
+                    <u who="#leaD" start="1742.851" end="x">Jawohl, jawohl, jawohl.</u>
+                    <u who="#boderD" start="1744.171" end="x">Gesunde Menschen hat er verbrannt mit, äh, Feuer-, äh, werfer.</u>
+                    <u who="#leaD" start="1748.854" end="x">Warum getan. Die FDG hat gesehen die Amerikanisch ist nach, ist zwanzig Kilometer nach Bayern, daher hat gemacht kaputt die jüdisch. Nicht jüdisch, nicht vorstellen, warum ist zuviel krank, kein Essen. Bis März, bis April 45, bekommen in Lager vier nur 80 Gramm Brot jeden Tag. Kein, kein Margarine, kein Essen. Mittag ein Liter nur Wasser. So jeden Tage, 200, 300 Jüdisch kaputt. In zwei Monat war ganze Lager kaputt. Nachher zwei Monat trage andere Jüdisch von Lager fünf, von Lager drei, von Lager zwei, von Lager neun, von Lager elf, elf. Ist dieselbe, hat gesehn, hat gegucket. In Lager drei. Drei April 44. Jüdische, Lithuan, macht kaputt, die Jüdische krank, die Tot. Jüdische. Esse die.</u>
+                    <u who="#boderD" start="1817.720" end="x">Mh?</u>
+                    <u who="#leaD" start="1818.859" end="x">Die jüdische, die Jüdische . . .</u>
+                    <u who="#boderD" start="1820.481" end="x">Haben gegessen . . .</u>
+                    <u who="#leaD" start="1821.418" end="x">Haben gegessen, die tot Jüdische. Haben . . .</u>
+                    <u who="#boderD" start="1823.342" end="x">Ja, in wel, in welch . . . [unterbricht]</u>
+                    <u who="#leaD" start="1824.339" end="x">Ja, haben gegessen [gleichzeitig] In Lager drei. In Bayern. Bayern</u>
+                    <u who="#boderD" start="1827.602" end="x">Äh,wo war das? In Dachau, in . . .</u>
+                    <u who="#leaD" start="1829.324" end="x">Nicht. In Landsberg, Bayern. Lager drei.</u>
+                    <u who="#boderD" start="1831.258" end="x">Aha. In Landsberg. Haben die Ju- äh die Menschen gegessen von den Menschen?</u>
+                    <u who="#leaD" start="1836.627" end="x">Ja. Ich selbe hab gegucket.</u>
+                    <u who="#boderD" start="1838.927" end="x">Ja, sie selbst haben gesehen.</u>
+                    <u who="#leaD" start="1840.347" end="x">Ich selbe. In Lager drei.</u>
+                    <u who="#boderD" start="1841.948" end="x">Ja, nun. Hat man den gar nichts gegessen gegeben?</u>
+                    <u who="#leaD" start="1845.423" end="x">Gar nichts gegessen. Nachher die SS hat gesperrt die Lager, hat gesagt, kein Dinner.</u>
+                    <u who="#boderD" start="1852.613" end="x">All right. Sagen sie das . . . Können sie dasselbe in Griechisch sagen? In Griechisch? Können sie griechisch sprechen?</u>
+                    <u who="#leaD" start="1859.048" end="x">Ja, ein wenig.</u>
+                    <u who="#boderD" start="1859.954" end="x">Sagen sie mir dasselbe in Griechisch.</u>
+                    <u who="#leaD" start="1861.012" end="x">Sprechen sie nicht spanisch. Warum nicht spanisch?</u>
+                </div>
+                <div lang="Spain">
+                    <u who="#boderD" start="1862.889" end="x">[In Spanish] ¿Usted habla español?</u>
+                    <u who="#leaD" start="1864.202" end="x">Claro que hablo español.</u>
+                    <u who="#boderD" start="1865.108" end="x">Oh! ¿Por qué no me dijo? Bueno, dígame otra vez del caso de cuando . . . del canibalismo</u>
+                    <u who="#leaD" start="1874.811" end="x">¿En español?</u>
+                    <u who="#boderD" start="1875.811" end="x">Sí.</u>
+                    <u who="#leaD" start="1876.217" end="x">Señores y señoras. Yo me topé con dos soldados, con tres soldados, en el campo de Landsberg, campo 3, en Baviera. Después de 15 a 20 días que no teníamos nada de comida, nosotros los deportados, había muchos muertos, tomamos una tarde a las 10 y un cuarto de una hora de la tarde, tomamos los cuchillos y curtimos a nuestros compañeros judíos que ya estaban muertos. Y comimos la carne suya.</u>
+                    <u who="#boderD" start="1912.793" end="x">¿Usted también?</u>
+                    <u who="#leaD" start="1914.558" end="x">Claro. Me acuerdo, el 3 de febrero del 45. En todo el campo, estábamos judíos españole de [ininteligible] y los restantes eran judíos de [ininteligible], de Varsovia, de Lituana, de Bélgica, de [ininteligible], de Italia y de otras ciudades que estaban ocupadas por las bárbaras armadas enemigas de la Europa.</u>
+                    <u who="#boderD" start="1944.790" end="x">¿Y?</u>
+                    <u who="#leaD" start="1945.353" end="x">Nosotros sufrimos tanto tiempo, mucho. Tres años en el campo. Después que la comida era muy poca, no nos alcanzaba y trabajábamos 14 horas al día.</u>
+                    <u who="#boderD" start="1956.055" end="x">Hable más despacio. ¿En qué trabajaban ustedes?</u>
+                    <u who="#leaD" start="1960.243" end="x">Nosotros trabajábamos en hacer fortificaciones.</u>
+                    <u who="#boderD" start="1963.055" end="x">Sí.</u>
+                    <u who="#leaD" start="1964.102" end="x">Con la pala y la [ininteligible]. Después que laborábamos [ininteligible] como podíamos trabajar, nos maltrataban con los palos y [ininteligible] a muerte.</u>
+                    <u who="#leaD" start="1967.923" end="x">En un transporte que vino de Varsovia, en 1944, cuando los rusos se aproximaban a Varsovia. El más grande transporte y el más grande desastre de la historia judía fue de Varsovia que nos deportaron con trenes 18 días. En trenes de animales, acerrados noche y día, guardados por cuatro bárbaros de las SS con las metralletas, sin agua, sin nada de comida, el sol tanto . . . Y se murieron más de 8000 personas. Éramos 8726 personas y tornamos al campo de [ininteligible] 725 personas. Los 8000 fueron matados o por el hambre, o por los SS, o por la sequía.</u>
+                    <u who="#boderD" start="2029.795" end="x">Bueno, ¿ese transporte iba de dónde?</u>
+                    <u who="#leaD" start="2032.482" end="x">Ese transporte venía de Varsovia . . .</u>
+                    <u who="#boderD" start="2034.467" end="x">De Varsovia a . . .</u>
+                    <u who="#leaD" start="2035.623" end="x">A Dachau. Los rusos se acercaban de Varsovia y los alemanes nos querían . . . nos . . . necesitaban algo de nosotros para trabajar y tomar al interior de Alemania. No nos querían matar y para eso nos encerraron en unos vagones, a 120 personas en un vagón de animales.</u>
+                    <u who="#boderD" start="2056.416" end="x">Sí.</u>
+                    <u who="#leaD" start="2056.947" end="x">Cerrados noche y día, sin un . . .</u>
+                    <u who="#boderD" start="2058.556" end="x">¿Por qué lo llama "vagón de animales"? ¿No era un vagón de carga?</u>
+                    <u who="#leaD" start="2062.149" end="x">No. No disponían. Y ellos no disponían, les estaba . . . era . . . era prohibido . . . era prohibido para los judíos.</u>
+                    <u who="#boderD" start="2068.649" end="x">Ajá.</u>
+                    <u who="#leaD" start="2069.430" end="x">Estábamos ahí, maltratados por unas bestias y nosotros levantábamos las manos a Dios [ininteligible] que no podemos más sufrir. Mismo que queríamos [ininteligible] de pillar, todos al lado. El SS nos decía "¿quién quiere pillar?", mas nosotros ya veíamos que otros camaradas iban a pillar, iban a facer lo que sea . . .</u>
+                    <u who="#boderD" start="2093.007" end="x">Ajá. En el carro.</u>
+                    <u who="#leaD" start="2094.538" end="x">En el carro. Venía el SS y con la metralleta lo mataba y nosotros éramos [ininteligible] nos pillar en los pantalones . . . eh . . . todo. Y a veces, queríamos salir de cuerpo, salíamos en la mano y lo arrojábamos por un buraco que habíamos fecho en el vagón</u>
+                    <u who="#boderD" start="2109.466" end="x">Esto fue en el mes de . . .</u>
+                    <u who="#leaD" start="2111.888" end="x">Junio y julio del 44</u>
+                    <u who="#boderD" start="2113.685" end="x">Junio y julio . . .</u>
+                    <u who="#leaD" start="2116.903" end="x">Sí. Junio y julio, porque no me puedo acordar exactamente</u>
+                    <u who="#boderD" start="2121.388" end="x">Sí. No es importante.</u>
+                    <u who="#leaD" start="2122.138" end="x">porque habíamos perdido la moral, cual la familia, cual las finanzas y cual no tenemos fuerza. Todos los judíos que tornaron de los campos de concentración de Alemania puede ser que estemos buenos de cuerpo, de facha, mas en el interior no estamos buenos. Estamos todos [ininteligible].</u>
+                    <u who="#boderD" start="2143.106" end="x">¿Por qué?</u>
+                    <u who="#leaD" start="2143.778" end="x">Porque el trabajo era mucho, la poca comida, la leña que nos daban, el frío y mucho. Estamos todos jalados en los pulmones, quien con reumatismo, quien con asma, quien los pulmones y . . . la más parte tienen . . . pierden . . . pierden su moral. Yo estoy hablando, un judío griego, [ininteligible] separadito. Si me acuerdo más . . . podíamos [ininteligible] hablar más seguido, no me estoy acordando.</u>
+                    <u who="#leaD" start="2173.058" end="x">La desgracia que hubo al 44 en el campo de Birkenau, más o menos no podía hablar porque no soy bueno en alemán . . . no me explico, mas en seguida lo voy a hablar en español. En el 44, a la fin del 44, en noviembre, en el campo de Birkenau, en septiembre, octubre o noviembre, 600.000 hungareses judíos vinieron en Birkenau. Después que los crematorios no daban abasto para quemar a los judíos, los SS ordenaron 3000 hombres que hagan unos pozos.</u>
+                    <u who="#boderD" start="2210.713" end="x">¿Cómo dijo?</u>
+                    <u who="#leaD" start="2212.932" end="x">Pozos, pozos. [El entrevistado dice algo en otro idioma para hacerse entender].</u>
+                    <u who="#boderD" start="2215.713" end="x">Ah . . . agujas . . .</u>
+                    <u who="#leaD" start="2222.337" end="x">Sí. Agujas.</u>
+                    <u who="#boderD" start="2223.056" end="x">Agujeros</u>
+                    <u who="#leaD" start="2223.493" end="x">Sí. Y quemaron en 27 días 600.000 judíos vivos. Los vimos nosotros, nosotros porque yo laboraba [ininteligible] comando al crematorio, y los vía por del frente, los quemaron vivos con leña y bencina. Los transportes que venían, había veces</u>
+                    <u who="#boderD" start="2244.773" end="x">Los quemaban en agujeros, no en los . . .</u>
+                    <u who="#leaD" start="2246.570" end="x">No los quemaron . . . No los quemaron en los hornos porque no tenían tiempo.</u>
+                    <u who="#boderD" start="2251.336" end="x">Sí. No los pasaron en el chambre . . . cámara de gas</u>
+                    <u who="#leaD" start="2256.539" end="x">No. No los pasaron en la cámara de gas porque no tenían tiempo los alemanes.</u>
+                    <u who="#boderD" start="2261.235" end="x">¿Entonces qué?</u>
+                    <u who="#leaD" start="2261.797" end="x">Los quemaron en los . . . en los pozos que hicimos nosotros, con leña y con essence</u>
+                    <u who="#boderD" start="2267.906" end="x">¿Con qué?</u>
+                    <u who="#leaD" start="2268.843" end="x">Con essence, bencina.</u>
+                    <u who="#boderD" start="2270.171" end="x">Bencina.</u>
+                    <u who="#leaD" start="2270.811" end="x">Bencina.</u>
+                    <u who="#boderD" start="2271.608" end="x">Bueno. ¿Les mataron anteriormente o qué?</u>
+                    <u who="#leaD" start="2272.889" end="x">Los quemaron vivos. No los mataron, los quemaron vivos.</u>
+                    <u who="#boderD" start="2276.389" end="x">¿Los quemaron vivos?</u>
+                    <u who="#leaD" start="2277.186" end="x">Vivos. Seiscientos mil hungareses judíos, al noviembre o al septiembre. No me acuerdo exactamente la data y el día, mas me acuerdo que yo vide esto [ininteligible]</u>
+                    <u who="#boderD" start="2286.858" end="x">¿Cómo?</u>
+                    <u who="#leaD" start="2289.358" end="x">[ininteligible] lo vi esto como si la [ininteligible] fuera mía.</u>
+                    <u who="#boderD" start="2292.545" end="x">Bueno.</u>
+                    <u who="#leaD" start="2293.045" end="x">Los transportes que venían ahí estaban guardados por miles de SS y en todo el convoy había como 20 a 25 o 50 [ininteligible]. Y en el último que vi había una Jeep alemana, decían que era la Croix Rouge. Y los judíos, cuando les . . . los metían al convoy, les decían que los iban a ir al hospital y los judíos lo creían porque veían que estaban acompañados por el [ininteligible]</u>
+                    <u who="#boderD" start="2316.200" end="x">¿El [ininteligible] tenía qué? ¿Una cruz roja?</u>
+                    <u who="#leaD" start="2322.957" end="x">El [ininteligible] tenía la Croix Rouge y tenía . . .</u>
+                    <u who="#boderD" start="2326.566" end="x">¿Qué es "Croix Rouge"?</u>
+                    <u who="#leaD" start="2327.379" end="x">La Cruz Roja</u>
+                    <u who="#boderD" start="2327.832" end="x">¿La Cruz Roja?</u>
+                    <u who="#leaD" start="2329.144" end="x">Sí. Tenía en la [ininteligible], tenía una bandera blanca con la Cruz Roja y decía que lo vamos a llevar al hospital a mirar, y lo vamos a llevar [ininteligible]. Después, allí . . . adentro de allí abría los gases.</u>
+                    <u who="#boderD" start="2346.034" end="x">Ajá.</u>
+                    <u who="#leaD" start="2346.909" end="x">Mas [ininteligible] sabía de eso, el transporte [ininteligible]. Mesmo nosotros mismos [ininteligible]. Mas después de un mes, dos meses, tres meses que laboré al crematorio, ya supimos que contiene. El gas lo traen con la Cruz Roja. Con el [ininteligible], con la coche de la Cruz Roja.</u>
+                    <u who="#boderD" start="2366.001" end="x">De la Cruz Roja. Sí.</u>
+                    <u who="#leaD" start="2367.392" end="x">De la Cruz Roja. Esto como estoy explicando . . . yo lo estoy explicando que [ininteligible] si no lo puedo explicar, caros hermanos [ininteligible] y no vas a poder sentir. Es la más desgracia, la más grande que hubo en el crematorio. [ininteligible] nuestros hermanos. Seis millones de judíos murieron en los campos, cuales maltratados, cuales de hambre, cuales [ininteligible] para pasar a la chambre a gas, fillos y padres. No podían más resistir la sufriencia y la hambrera y el piojo, ni el trabajo y se iban voluntarios a la chambre a gas.</u>
+                    <u who="#boderD" start="2409.983" end="x">Bueno, dígame . . . eh . . . ¿qué es que dijo usted de los . . . ?</u>
+                    <u who="#leaD" start="2415.982" end="x">¿De la esterilización?</u>
+                    <u who="#boderD" start="2418.481" end="x">Bueno, sí.</u>
+                    <u who="#leaD" start="2421.325" end="x">En el campo de Auschwitz, que es la misma dirección que el campo de Birkenau, es unos veinte minutos a pie, esterilizaban a las mujeres de 18 años y hasta 27 años. Las esterilizaban en el Bloco 10 de Auschwitz. En Berkinau, esterilizaban de 22 años fita 30 años a los jóvenes, en el Bloco . . .</u>
+                    <u who="#boderD" start="2448.090" end="x">¿A los hombres?</u>
+                    <u who="#leaD" start="2449.090" end="x">Hombres, hombres.</u>
+                    <u who="#boderD" start="2450.090" end="x">¿Cómo los esterilizaban?</u>
+                    <u who="#leaD" start="2451.527" end="x">Los llevaban allí y con inyecciones, los esterilizaban. Con inyecciones los esterilizaban. Al Bloco 26. Esto paso al Juin, al 4, 7, 8 de Juin.</u>
+                    <u who="#boderD" start="2469.026" end="x">¿Qué mes?</u>
+                    <u who="#leaD" start="2470.136" end="x">Juin</u>
+                    <u who="#boderD" start="2471.152" end="x">Mes de junio</u>
+                    <u who="#leaD" start="2474.308" end="x">Junio. Sí. De 1943. Después que hacían esto, que esterilizaban a mujeres y hombres, se echaban los SS, había unas chambres especialitas para los hombres, los jóvenes y las mujeres en edad, se echaban ahí juntos . . . si querían tener los doctores de las SS . . . si podían prevenir a realizar otra raza. Y la más parte, no parirían. La más parte, el 95% no parirían.</u>
+                    <u who="#boderD" start="2508.978" end="x">Bueno. Los otros . . . que . . . ¿se pusieron embarazadas? ¿o cómo? Eh . . . ¿Qué quiere decir 95% no podían . . . eh no . . . ?</u>
+                    <u who="#leaD" start="2520.087" end="x">Los 95% no volvían, a poder, a quitar los espermas.</u>
+                    <u who="#boderD" start="2524.352" end="x">Oh. No podían volver a tener acto sexual.</u>
+                    <u who="#leaD" start="2527.711" end="x">No podían tener el acto sexual.</u>
+                    <u who="#boderD" start="2529.164" end="x">Bueno. Entonces, metieron juntos los hombres con las mujeres.</u>
+                    <u who="#leaD" start="2534.695" end="x">Juntos con las mujeres y no podían hacer nada. Mas a notar que les daban buena comida a estos hombres para ver si podían hacer cosas, mas normalmente mesmo que les dieran toda la comida del mundo era imposible de arribar porque estaban bien esterilizados.</u>
+                    <u who="#boderD" start="2549.992" end="x">Sí.</u>
+                    <u who="#leaD" start="2550.742" end="x">Y cada día, en el campo de Birkenau había una selección de hombres, de 2000 a 3000 hombres quemaban cada noche, deportados que estaban en el campo [ininteligible] tres meses o cinco meses o un año. Como [ininteligible] judíos, como judíos sefaradí, como judíos lituanos, como hungareses y los llevaban al crematorio.</u>
+                    <u who="#boderD" start="2575.116" end="x">Dígame otra vez el caso cuando pidieron permiso . . . permiso de rezar sobre los muertos.</u>
+                    <u who="#leaD" start="2588.459" end="x">¿Sobre?</u>
+                    <u who="#boderD" start="2590.318" end="x">Que dijo usted que los que quemaron a los muertos pidieron permiso que podían rezar, que podían . . . eh . . . Dijo usted anteriormente que no les permitían de decir sus . . .</u>
+                    <u who="#leaD" start="2604.192" end="x">Ah, sí. Me topé en Landberg, al 45 en Baviera. Trabajaba en un comando de quince hombres judíos y yo, dieciséis.</u>
+                    <u who="#boderD" start="2621.070" end="x">Sí.</u>
+                    <u who="#leaD" start="2621.570" end="x">Un día, de los comandos que trabajaba, murió la hermana en el campo de concentración número 7. Naturalmente, nosotros como judíos, llamemos un joven que tenía un amigo, un compañero, para [ininteligible] a excavar.</u>
+                    <u who="#boderD" start="2638.460" end="x">[El entrevistador dice la palabra excavar en otro idioma para ver si comprendió].</u>
+                    <u who="#leaD" start="2642.085" end="x">[El entrevistado confirma lo entendido por el entrevistador]. Y entonces, cuando hicimos la excavación, el SS viene y nos dice "¿qué están haciendo sucios judíos con un libro?". Le dice el hombre . . .</u>
+                    <u who="#boderD" start="2655.303" end="x">Ah, ¿tenían un libro?</u>
+                    <u who="#leaD" start="2656.177" end="x">Sí. Teníamos un libro . . . los hungareses y los poloneses judíos . . . cuando los hungareses al 44 que los deportaron, traían libros [ininteligible] y [ininteligible]. Y nosotros guardábamos en la tierra, en los pantalones, guardábamos los libros de la ley para [ininteligible].</u>
+                    <u who="#boderD" start="2675.035" end="x">Para rezar.</u>
+                    <u who="#leaD" start="2677.722" end="x">Para rezar. Cuando le ve, dice . . . di . . . dice "¿qué es ese sucio libro que tienes judío?", pero me dice a mí . . .</u>
+                    <u who="#boderD" start="2684.237" end="x">Hable más despacio.</u>
+                    <u who="#leaD" start="2685.346" end="x">"¿Qué es ese sucio libro que tienes?". Mi compañero se alzó y le dijo que "es mi hermana y quería rezar". Y dice "para los sucios no necesita [ininteligible]". Tomó la pala, levantó la pala y le dio en la cabeza y el hombre, al momento murió. Y nosotros lo enterramos con la hermana, con 400 más en una fora. En cada fora que hacíamos, 300, 350, 400, 450. Después de dos metros y cuarenta centímetros de hondura, echábamos la tierra y antes de cubrirlos echábamos [ininteligible] o cal para que no diera [ininteligible]</u>
+                    <u who="#boderD" start="2729.157" end="x">¿Para que no diera qué?</u>
+                    <u who="#leaD" start="2730.391" end="x">[ininteligible]</u>
+                    <u who="#boderD" start="2731.032" end="x">Ah.</u>
+                    <u who="#leaD" start="2732.032" end="x">Y entonces, echábamos piedra y tierra, y enterrábamos la fosa y nos íbamos. Al otro día, hacíamos el mismo trabajo, porque era un campo de cuarentena. Era un campo para matar con las inyecciones a los judíos. Las inyecciones que echábamos, mesmo en el brazo, mesmo en el pie, después de tres a cuatro minutos, la sangre le subía a [ininteligible]</u>
+                    <u who="#boderD" start="2759.515" end="x">¿A dónde?</u>
+                    <u who="#leaD" start="2760.828" end="x">Cuando echaba la inyección, la sangre le subía [ininteligible], ya estaba preto</u>
+                    <u who="#boderD" start="2764.250" end="x">¿Quiénes echaban las inyecciones? ¿Ustedes?</u>
+                    <u who="#leaD" start="2767.766" end="x">No. Los SS.</u>
+                    <u who="#boderD" start="2768.985" end="x">Los SS.</u>
+                    <u who="#leaD" start="2769.656" end="x">Y en muchos campos, los SS daban orden a los judíos que echaran inyecciones, pero los judíos obligatoriamente lo hacían porque si no lo hacían, el SS estaba con la metralleta y ya estaba detrás de él y "si no haces esto te mato".</u>
+                    <u who="#boderD" start="2783.983" end="x">¿Y?</u>
+                    <u who="#leaD" start="2784.936" end="x">Y claro, el judío que era venir, le echaban la inyección.</u>
+                    <u who="#boderD" start="2790.248" end="x">Pero dígame. ¿De dónde la sangre aparecía?</u>
+                    <u who="#leaD" start="2793.420" end="x">En la [ininteligible]</u>
+                    <u who="#boderD" start="2794.577" end="x">Aquí en el . . .</u>
+                    <u who="#leaD" start="2795.874" end="x">Y preto y aquí.</u>
+                    <u who="#boderD" start="2797.030" end="x">¿Parecía salir?</u>
+                    <u who="#leaD" start="2799.655" end="x">No. Se veía todo preto, el meollo de la [ininteligible] se hacía preta con dos puntos, tres puntos y ya . . . al momento se morían. Mas después de dos a tres puntos, . . .</u>
+                    <u who="#boderD" start="2812.451" end="x">¿Quiénes hacían los tres puntos?</u>
+                    <u who="#leaD" start="2814.826" end="x">Tres minutos</u>
+                    <u who="#boderD" start="2816.560" end="x">¿Tres minutos?</u>
+                    <u who="#leaD" start="2817.200" end="x">De dos a tres minutos, después se hacía todo preto. El [ininteligible] preto. Y nosotros los tomábamos y los echábamos en una [ininteligible] y los enterrábamos. Después, en el campo 1 en Landberg, había el grande SS medical. El nombre era Blanca, tenía nombre español, un alto, moreno. Era como yo de grande.</u>
+                    <u who="#boderD" start="2847.761" end="x">¿Una mujer?</u>
+                    <u who="#leaD" start="2848.605" end="x">No. Un hombre. Se llamaba Blanca. Un alto moreno, alrededor de 35 a 34 años. Este no podía ver a los judíos, mesmo a los judíos querían trabajar, que estaban en buena salud, unos cuantos, él ordenaba echarles inyecciones. Este fue matado, este mismo, tenía una criatura y una mujer. Fue . . . se mató</u>
+                    <u who="#boderD" start="2879.154" end="x">¿Cómo una criatura?</u>
+                    <u who="#leaD" start="2880.998" end="x">Un pequeño.</u>
+                    <u who="#boderD" start="2882.138" end="x">Ajá. ¿Un niño?</u>
+                    <u who="#leaD" start="2883.185" end="x">Un niño. Un pequeño. Tenía un pequeño y una mujer con él.</u>
+                    <u who="#boderD" start="2887.123" end="x">Sí.</u>
+                    <u who="#leaD" start="2887.669" end="x">Cuando los americanos se estaban acercando del Lager 1, él ya vio que se estaban acercando, no tenía más para hacer, nada para salvar . . . tomó al pequeño, lo mandó a la [ininteligible], tomó una inyección, mató [ininteligible] a la mujer suya en primero, después [ininteligible] y él. Y un compañero mío que se topa actualmente en París le quitó la hora y el anillo de la mano y . . . cuando vio que 2ya estaba muerto, le quitó el anillo y la hora de la mano.</u>
+                    <u who="#boderD" start="2924.324" end="x">¿Cómo se llama la hora? ¿El reloj?</u>
+                    <u who="#leaD" start="2926.262" end="x">El reloj. La hora y el anillo. Este camarado se topa actualmente en París y nos vemos cada día y cada noche.</u>
+                    <u who="#boderD" start="2936.262" end="x">Bueno</u>
+                    <u who="#leaD" start="2937.277" end="x">Quería . . .</u>
+                    <u who="#boderD" start="2938.980" end="x">Sí.</u>
+                    <u who="#leaD" start="2940.214" end="x">En el campo 5, en el campo 5, después de la ocupación,</u>
+                    <u who="#boderD" start="2950.010" end="x">¿El campo 5 de qué?</u>
+                    <u who="#leaD" start="2950.667" end="x">El campo 5 de Landsberg, Baviera, después de la ocupación, estábamos trabajando en unos comandos muy duros de árboles, para cortar árboles, para [ininteligible] nosotros, no podíamos hacer trabajo porque no teníamos comida y diríamos "si quieres que trabajemos, danos comida", sino no [ininteligible] necesidad. No podemos trabajar 14 horas en el día, matándonos es mejor. Los SS no nos querían matar.</u>
+                    <u who="#boderD" start="2978.540" end="x">Sí.</u>
+                    <u who="#leaD" start="2979.306" end="x">No nos querían matar. Los vamos a hacer penar, los vamos a maltratar de leña y después los vamos a matar cuando nos place y nos gusta a nosotros. Esto aconteció en el Lager de Landsberg. En el Lager 5, en el Lager 6, en el Lager 7, en el Lager 8, en el Lager 9, en el Lager 10 y en el Lager 11. Laborábamos a la estación [ininteligible], ese era el comando</u>
+                    <u who="#boderD" start="3009.633" end="x">¿[Ininteligible]? [El entrevistador confirma el nombre del comando en alemán]</u>
+                    <u who="#leaD" start="3013.524" end="x">[Ininteligible. El entrevistado repite el nombre del comando en alemán]. Yo laboraba al Lager 7 al Tot comando. El nombre mío . . .</u>
+                    <u who="#boderD" start="3022.367" end="x">¿Tot comando?</u>
+                    <u who="#leaD" start="3023.164" end="x">Tot comando, sí.</u>
+                    <u who="#boderD" start="3023.852" end="x">That was bad. ¿Qué era esto?</u>
+                    <u who="#leaD" start="3026.789" end="x">Tot comando era un comando especialista para enterrar los muertos, porque en Alemania era prohibido de hacer crematorios y de quemar a los muertos, porque la más parte de la población civil alemana ignoraba que había crematorios y fornos. Muchas veces veníamos de . . . nos encontrábamos con civiles alemanes y les explicábamos. Y los civiles decían: "esa barbaridad, el pueblo alemán no la hace nunca". Pero nosotros, les dijimos: que un día, nosotros ya sabemos que [ininteligible] los alemanes, mas va a saber la historia, o [ininteligible], o mesmo [ininteligible], que existió crematorios en Alemania".</u>
+                    <u who="#leaD" start="3067.459" end="x">El más lungo y cruel crematorio fue en el campo de Buchenwald, el cual tengo un compañero que dormimos todos juntos en el [ininteligible] en la Maison de la Rue [ininteligible]. 9 Rue [ininteligible], París. Somos 4 de ellos, 4 judíos. Los tres son del campo de Buchenwald, el uno es del campo de Dachau [ininteligible]. Uno se llama [ininteligible], el otro se llama Henry Suchami, actualmente labora en la American [ininteligible]. Henry Suchami es el primer transporte sefardí de Grecia en Auschwitz. 109957, el número [ininteligible] 109957 primo transporte de Grecia, el cual perdió padre, madre, familia, tres criaturas de cinco años, de siete años y de once años, y mujer. Y la mujer, preñada.</u>
+                    <u who="#leaD" start="3135.581" end="x">[Nombre ininteligible], un joven de alrededor de 35 años, perdió una criatura y su mujer. Y está escrito a la migración palestiniana y no hay posibilidad de partir, no hay inda posibilidad de partir. El [ininteligible] palestiniano de París, que se topa en la calle 83 Avenue [ininteligible], le dice "mañana, después de mañana, de aquí a cinco meses, de aquí a un mes, de aquí a tres meses, te vas a ir". Este joven tiene parientes en Palestina, mas como es flaco, no puede irse ilegal, se espanta, se está quedando conmigo . . .</u>
+                    <u who="#boderD" start="3176.754" end="x">Es que es flaco . . .</u>
+                    <u who="#leaD" start="3178.098" end="x">Del campo [ininteligible]. Como está [ininteligible] el campo, [ininteligible] ni trabajar puede, ni nada. Naturalmente, es que espera de mí, un compañero que estuvimos al campo tres años, un bocado de pan o una calza que le va a dar una [ininteligible] para él se meter. Si no le da una calza, un calzado, no tiene para meter, que . . . y no puede trabajar. Tiene flaco, tiene [ininteligible] los pulmones. No es sólo este caso de los déportés, hay muchos déportés aquí en Francia, el cual . . .</u>
+                    <u who="#boderD" start="3209.165" end="x">Por supuesto.</u>
+                    <u who="#leaD" start="3210.143" end="x">Hay muchos déportés aquí en Francia, que estamos sufriendo ainda. Mesmo que nos queremos ir en Palestina y estamos viendo la barbarie del inglés, que si nosotros . . . la juventud que salimos de los campos, si nos vamos en Palestina, nunca empezaríamos a trabajar. Yo, lebanés que le estoy hablando, no pensaría nunca a trabajar en Palestina, pensaría en tomar el fusil o la metralleta y demandar la libertad. Si no la toma la libertad con la guerra . . . si no tengo la libertad con la política, la va a tomar con la guerra. Nunca pensaría a trabajar. Si me muero en Palestina, algún día mis hijos o mis hermanos van a venir. Porque ya vi el campo cuando estuve tres años, ya vi la exterminación de 6000 judíos y no me gustaría nunca esta política inglesa. Nosotros, los rescatés de los campos, queremos ir presto a batirnos contra esos . . . sucia raz . . . sucia política inglesa y no tenemos la posibilidad por esto de donde estamos. Que nos topamos en Fra . . . actualmente en Francia muchos jóvenes judíos y que están migrando ilegal.</u>
+                    <u who="#boderD" start="3281.542" end="x">Emigrando a Francia</u>
+                    <u who="#leaD" start="3284.276" end="x">No. Está emigrando a la Palestina.</u>
+                    <u who="#boderD" start="3286.400" end="x">Sí.</u>
+                    <u who="#leaD" start="3286.900" end="x">Y un día la Palestina . . . un día, la Palestina la tomaremos y mesmo si se morirían 50.000 judíos en Palestina en combate o 100.000 judíos. No es lo importante.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="3298.742" end="x">[In English] This ends Spool 42 of Mr. David Lea.</u>
+                </div>
+                <!-- end spool 9-42 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#leaD_en">
+                <!-- begin Spool 9-41B -->
+                <div lang="en">
+                    <p>Translator's Note: The following is the interview with David Lea, a Jew from <placeName ref="Thessaloníki">Saloniki</placeName>, Greece, which was conducted on August 12, 1945 in <placeName ref="Paris">Paris</placeName>. The quality of the recording is poor and the interview itself was conducted in a rather noisy surrounding. Another obstacle is David Lea's poor German. Thus interruptions, confirmative questions and summaries on the part of the interviewer characterize the interview. Mr. Lea speaks with great rapidity and obvious excitement. The transcription attempts to capture this dynamic as best as possible.</p>
+                    <u who="#boderD" start="3.595" end="x">[In English] <placeName ref="Paris">Paris</placeName>, um, August 12, 1946 at the headquarters of the <term ref="#vothG_ajdc">American Joint Distribution Committee</term>. The interviewee is David Lea with tattoo number 120930 of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#leaD" start="21.420" end="x">[In German] Um . . . Well, Mr. Lea, will you tell me, where you were born?</u>
+                    <u who="#leaD" start="26.547" end="x">In <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#boderD" start="27.807" end="x">You were born in . . . ?</u>
+                    <u who="#leaD" start="29.278" end="x">In <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#boderD" start="29.913" end="x">In <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#leaD" start="30.659" end="x">Greece. [Interrupting]</u>
+                    <u who="#boderD" start="31.354" end="x">In Greece. And, um, what nationality do you have? I mean, um, of which country do you hold nationality? Um, I mean, um, are you Greek or Spanish, or what are you?</u>
+                    <u who="#leaD" start="49.964" end="x">Greek.</u>
+                    <u who="#boderD" start="50.629" end="x">You are Greek, all right. And you were born in <placeName ref="Thessaloníki">Saloniki</placeName>?</u>
+                    <u who="#leaD" start="54.134" end="x">That's right.</u>
+                    <u who="#boderD" start="54.759" end="x">Well, tell me, what has happened there when the war broke out?</u>
+                    <u who="#leaD" start="61.194" end="x">I have done soldier in military, after, war prison in Krebv [unclear?]. After . . .</u>
+                    <u who="#boderD" start="65.998" end="x">You were a soldier for whom? For the Greek? [Interrupting]</u>
+                    <u who="#leaD" start="68.324" end="x">That's right.</u>
+                    <u who="#boderD" start="68.868" end="x">For the Greek?</u>
+                    <u who="#leaD" start="69.170" end="x">To Albanien [uses the German pronunciation]</u>
+                    <u who="#boderD" start="70.349" end="x">To Albania? [uses the English pronunciation]</u>
+                    <u who="#leaD" start="71.186" end="x">Albania [now also using the English pronunciation]</u>
+                    <u who="#boderD" start="71.509" end="x">And with whom were you fi- . . . , against whom did you fight?</u>
+                    <u who="#leaD" start="75.527" end="x">Against Italia.</u>
+                    <u who="#boderD" start="76.645" end="x">You were fighting against . . . . ?</u>
+                    <u who="#leaD" start="77.854" end="x">I was fighting [simultaneously with Interviewer] . . . war against Italia.</u>
+                    <u who="#boderD" start="80.111" end="x">Against Italia.</u>
+                    <u who="#leaD" start="81.069" end="x">Yes.</u>
+                    <u who="#boderD" start="81.725" end="x">Well and then . . .</u>
+                    <u who="#leaD" start="82.441" end="x">Well [Interrupting] and after Germans come on, um, April 6, Mai 6, April, come to Crete. After, 42 days in prison with the Germans to Crete.</u>
+                    <u who="#boderD" start="95.130" end="x">Yes.</u>
+                    <u who="#leaD" start="97.054" end="x">Then after, three months war prison.</u>
+                    <u who="#boderD" start="100.438" end="x">Yes.</u>
+                    <u who="#leaD" start="101.707" end="x">Come home. After six months . . .</u>
+                    <u who="#boderD" start="104.970" end="x">Where did you get home to? [Interrupting]</u>
+                    <u who="#leaD" start="106.472" end="x">In <placeName ref="Thessaloníki">Saloniki</placeName> . . . [Noise in background] to <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#boderD" start="108.245" end="x">To your house in <placeName ref="Thessaloníki">Saloniki</placeName>?</u>
+                    <u who="#leaD" start="109.182" end="x">Yes, that's right, in <placeName ref="Thessaloníki">Saloniki</placeName>. Then deport <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="113.433" end="x">How long did you live in <placeName ref="Thessaloníki">Saloniki</placeName>?</u>
+                    <u who="#leaD" start="115.206" end="x">Lived in <placeName ref="Thessaloníki">Saloniki</placeName>?</u>
+                    <u who="#boderD" start="116.898" end="x">After you came home. Yes, before you were deported.</u>
+                    <u who="#leaD" start="120.403" end="x">Five months.</u>
+                    <u who="#boderD" start="121.361" end="x">You lived in <placeName ref="Thessaloníki">Saloniki</placeName> for five months.</u>
+                    <u who="#leaD" start="122.802" end="x">Five months. That's right.</u>
+                    <u who="#boderD" start="124.011" end="x">Who was in <placeName ref="Thessaloníki">Saloniki</placeName>, the Italians or the Germans?</u>
+                    <u who="#leaD" start="127.265" end="x">The Germans, also the Italians.</u>
+                    <u who="#boderD" start="129.038" end="x">The Italians and also the Germans?</u>
+                    <u who="#leaD" start="131.486" end="x">The German, but together with the Italian.</u>
+                    <u who="#boderD" start="133.622" end="x">Well then, why did they deport you?</u>
+                    <u who="#leaD" start="136.362" end="x">Because I Jewish.</u>
+                    <u who="#boderD" start="137.843" end="x">Aha, how did they make known, that the Jewish should come, or what?</u>
+                    <u who="#leaD" start="144.178" end="x">The Germans have made <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="146.203" end="x">Oh.</u>
+                    <u who="#leaD" start="146.828" end="x">Have said in Jewish, ever Jewish of Greece will travel to Polonia, to <placeName ref="Kraków">Cracow</placeName>. Work. Will have work good, food good. And are you Greek, cannot imagine, when, I, um, speak German is correct. Will travel together with family.</u>
+                    <u who="#boderD" start="164.563" end="x">You traveled with your family?</u>
+                    <u who="#leaD" start="166.457" end="x">That's right.</u>
+                    <u who="#boderD" start="167.213" end="x">They took the whole family?</u>
+                    <u who="#leaD" start="168.684" end="x">Took whole family. [Simultaneously] My . . .</u>
+                    <u who="#boderD" start="169.802" end="x">Where from? [Interrupting]</u>
+                    <u who="#leaD" start="170.648" end="x">From <placeName ref="Thessaloníki">Saloniki</placeName>. My family is 37 persons. Only I remained, 36 person in Crematorium of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. Burned in nine, um, two, um, little people.</u>
+                    <u who="#boderD" start="183.579" end="x">Ok, wait. You are telling me, that there were 37 persons in your family. Who were they?</u>
+                    <u who="#leaD" start="188.041" end="x">Mother . . .</u>
+                    <u who="#boderD" start="188.404" end="x">You father. [simultaneously]</u>
+                    <u who="#leaD" start="190.298" end="x">Father, mother, brother . . . [constant noise in the background]</u>
+                    <u who="#boderD" start="191.779" end="x">How many brothers? [Interrupting]</u>
+                    <u who="#leaD" start="192.918" end="x">Three brothers with two brother.</u>
+                    <u who="#boderD" start="194.963" end="x">Three brothers with . . . ?</u>
+                    <u who="#leaD" start="196.081" end="x">with two brother . . . Three brothers.</u>
+                    <u who="#boderD" start="198.589" end="x">Yes.</u>
+                    <u who="#leaD" start="199.365" end="x">Two Fräulein as well.</u>
+                    <u who="#boderD" start="200.665" end="x">What?</u>
+                    <u who="#leaD" start="200.898" end="x">Two Fräulein</u>
+                    <u who="#boderD" start="201.886" end="x">Two, um, two girls.</u>
+                    <u who="#leaD" start="203.085" end="x">That's right.</u>
+                    <u who="#boderD" start="203.992" end="x">Yes.</u>
+                    <u who="#leaD" start="204.315" end="x">My mother, my father, my mother of my father, my mother of my mum and cousins.</u>
+                    <u who="#boderD" start="209.572" end="x">Yes.</u>
+                    <u who="#leaD" start="210.660" end="x">All together.</u>
+                    <u who="#boderD" start="211.890" end="x">Did you all get arrested together? [Interrupting]</u>
+                    <u who="#leaD" start="213.966" end="x">That's right.</u>
+                    <u who="#boderD" start="214.652" end="x">Yes.</u>
+                    <u who="#leaD" start="215.338" end="x">Well, all together. April 2. In nine May . . . .</u>
+                    <u who="#boderD" start="219.136" end="x">Wait, they arrested you on April 2, and then, how did they send you away? [Interrupting]</u>
+                    <u who="#leaD" start="224.897" end="x">um, sent away, um . . . in transport.</u>
+                    <u who="#boderD" start="227.375" end="x">Yes, what kind of, um, what kind of transport was it?</u>
+                    <u who="#leaD" start="229.481" end="x">In transport no water, no food was made there, none has made the German for us.</u>
+                    <u who="#boderD" start="234.940" end="x">Yes.</u>
+                    <u who="#leaD" start="236.723" end="x">Nine days in transport, barred the door, half of transport when coming to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, finished, dead.</u>
+                    <u who="#boderD" start="245.083" end="x">Oh, in, in . . . [Interrupting]</u>
+                    <u who="#leaD" start="246.917" end="x">. . . no bread, no bread, in the wagons . . . [Continues talking]</u>
+                    <u who="#boderD" start="248.932" end="x">Yes, and they died in . . . .</u>
+                    <u who="#leaD" start="251.198" end="x">. . . died in wagon, half of transport.</u>
+                    <u who="#boderD" start="253.636" end="x">Yes. Didn't they open up the . . . every day.</u>
+                    <u who="#leaD" start="256.869" end="x">the wagon?</u>
+                    <u who="#boderD" start="257.615" end="x">Yes.</u>
+                    <u who="#leaD" start="257.857" end="x">Every day. Only they said, the <term ref="#vothG_ss">SS</term> a little bit of water, um, makes finished. The <term ref="#vothG_ss">SS</term> . . . . You cannot wash yourself, um, finished all the Jewish in wagon.</u>
+                    <u who="#boderD" start="269.056" end="x">Yes.</u>
+                    <u who="#leaD" start="269.661" end="x">Coming . . . [Noise in background] in May 43 to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. The same day two separated according to . . . [unintelligible], 36 persons. Only . . .</u>
+                    <u who="#boderD" start="280.347" end="x">What do you mean you were separated? [Interrupting]</u>
+                    <u who="#leaD" start="282.181" end="x">In Crematorium.</u>
+                    <u who="#boderD" start="283.985" end="x">Yes, why had they not taken you?</u>
+                    <u who="#leaD" start="285.547" end="x">Why—why, I not number of 25 years.</u>
+                    <u who="#boderD" start="288.861" end="x">Oh, were all the others older than 25 years?</u>
+                    <u who="#leaD" start="293.181" end="x">That's right, 25 years old to 30 years.</u>
+                    <u who="#boderD" start="296.716" end="x">Aha. So 25 to 30 in age was ok.</u>
+                    <u who="#leaD" start="298.589" end="x">25 years [simultaneously] . . . Yes in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="300.644" end="x">Yes, and what about the others?</u>
+                    <u who="#leaD" start="302.266" end="x">The other, they burn.</u>
+                    <u who="#boderD" start="303.958" end="x">Did you see? Did you see, how they . . .</u>
+                    <u who="#leaD" start="306.707" end="x">I came together, no introduction made the German, only has made selection. The young, until 7 and 13, until 20 years, until 30 years [is correcting himself] and the others, say Germans, go to car, the mother and the father, come to "<term ref="#vothG_revier">Revier</term>."</u>
+                    <u who="#boderD" start="322.659" end="x">Oh. They were taken away in cars?</u>
+                    <u who="#leaD" start="325.520" end="x">That's right.</u>
+                    <u who="#boderD" start="326.034" end="x">Yes.</u>
+                    <u who="#leaD" start="326.629" end="x">Away in cars. German said, who sick, the mother, the father, not good eater, go to "<term ref="#vothG_revier">Revier</term>." After two days, the <term ref="#vothG_ss">SS</term> told us, where is my family [unintelligible], say, three, four days more and they are finished. After a month, can you imagine, my family, all family, Jewish, to Crematorium. I, um, was 44 Novem . . . .</u>
+                    <u who="#boderD" start="352.512" end="x">Yes, um. Please take your hand down.</u>
+                    <u who="#leaD" start="354.316" end="x">Yes, 44 Novembre,<note n="1">He is using the French pronunciation of November.</note> I was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, in the camp of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. Have burned, six, um, a moment. . . .</u>
+                    <u who="#boderD" start="368.567" end="x">[In English] He's writing down the number. All right. [Pause]</u>
+                    <u who="#boderD" start="374.751" end="x">[In German] Six hundred thousand.</u>
+                    <u who="#leaD" start="376.775" end="x">In Novembre.</u>
+                    <u who="#boderD" start="378.739" end="x">In one month?</u>
+                    <u who="#leaD" start="379.766" end="x">Wait, in Novembre.</u>
+                    <u who="#boderD" start="381.217" end="x">Yes.</u>
+                    <u who="#leaD" start="382.084" end="x">The German have burned, made nonsense. The commando, special commando, working special commando crematorium. In seven . . . .</u>
+                    <u who="#boderD" start="391.359" end="x">Did you work in the crematorium? [Interrupting]</u>
+                    <u who="#leaD" start="392.740" end="x">Yes in c. In 27 days, they have burnt six, sixty, hundred thousand Jewish Hungarian.</u>
+                    <u who="#boderD" start="399.196" end="x">60.000 Hungarian Jews.</u>
+                    <u who="#leaD" start="401.069" end="x">Yes . . .</u>
+                    <u who="#boderD" start="401.794" end="x">Did you work in the crematorium? [Interrupting]</u>
+                    <u who="#leaD" start="403.154" end="x">That's right. [simultaneously] That's right, I work crematorium. I self have burnt. Six and thousand, um, sixty, um . . .</u>
+                    <u who="#boderD" start="410.517" end="x">Six hundred thousand.</u>
+                    <u who="#leaD" start="411.384" end="x">Six hundred thousand Jewish have burnt until, two, two, um until twenty-seven days. After days, every day burnt the crematorium of, um, <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="421.626" end="x">Yes.</u>
+                    <u who="#leaD" start="422.221" end="x">After, the Russians come. April 18. June 18 from <placeName ref="Radom">Radom</placeName> to the camp of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, the Russian come June 28.<note n="2">He seems to be mixing up June with January. <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was liberated by the Russian Army on January 27, 1945.</note> After, I travel to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. Special . . . [Noises in the background]</u>
+                    <u who="#boderD" start="437.236" end="x">When were you in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#leaD" start="438.586" end="x">In <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> I have done three months, two were in <placeName ref="Dachau">Dachau</placeName>, one week in <placeName ref="Fürth">Fürth</placeName>, after, April 29, American troop come to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> on order.</u>
+                    <u who="#boderD" start="449.976" end="x">Aha, yes. And liberated you.</u>
+                    <u who="#leaD" start="451.608" end="x">That's right.</u>
+                    <u who="#boderD" start="452.656" end="x">Well, you are saying, that you worked in the crematorium of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#leaD" start="457.158" end="x">Yes, Yes, that's right</u>
+                    <u who="#boderD" start="458.418" end="x">Um . . .</u>
+                    <u who="#leaD" start="458.711" end="x">Special commando.</u>
+                    <u who="#boderD" start="459.406" end="x">In the special commando. Well, tell me, how . . . what happened in the crematorium? What was the crematorium? [Pause] Oh. [Pause]</u>
+                    <u who="#boderD" start="478.611" end="x">[In English] He's lighting a cigarette. He wanted to roll one, but I offered him an American cigarette and light my own.</u>
+                    <u who="#boderD" start="487.729" end="x">[In German] Well, tell me, you worked in the crematorium. Would you tell me, how did you work in the crematorium and what did the crematorium look like?</u>
+                    <u who="#leaD" start="498.385" end="x">In, well, how one has worked . . . ? [hesitates]</u>
+                    <u who="#boderD" start="498.385" end="x">Yes, well, so how did you, what did the crematorium look like?</u>
+                    <u who="#leaD" start="503.201" end="x">That's right, Yes. Come transport from every . . . . Come transport from all of Europe Jewish . . .</u>
+                    <u who="#boderD" start="509.606" end="x">Come a little closer. [Interrupting]</u>
+                    <u who="#leaD" start="510.473" end="x">Come transport from all of Europe, Jewish. Boy of two months, of five years, of seven years, of ten years, of eighteen years. Person of 80 years, of 90 years stays there. Comes to, um crematorium. Is a big hall. Write French, um, German. My, um—say, an "Affiche"<note n="3">He uses the French word for announcement.</note> in Crematorium say, all undress. Make bath. People make bath. I, the, um, I healthy, when I . . . when I bath, I healthy. Things, I cannot understand, what spoken correct, all undress, together, men with the Fräulein together, the women of 80 years and the girls of 20 years, all together. Um, when all together, they get soap and the—what is that . . . .</u>
+                    <u who="#boderD" start="566.428" end="x">Towel.</u>
+                    <u who="#leaD" start="567.214" end="x">Towel, soap. An <term ref="#vothG_ss">SS</term> from the other room look, all already, all already . . . done, all already finished. All is out. Has opened up the Luminette and the gas. In two minutes, one to two minutes, finished two- three thousand men.</u>
+                    <u who="#boderD" start="589.048" end="x">Did they all really die?</u>
+                    <u who="#leaD" start="590.912" end="x">Really died. After, the little boys, two, um four years, three years. Only they get . . . um . . . um here . . . [seems to be pointing to his nose] blood, um, blood, bleeding.</u>
+                    <u who="#boderD" start="600.791" end="x">A bleeding nose.</u>
+                    <u who="#leaD" start="602.000" end="x">Nose, . . . a bleeding nose from the poison. Only the little one cried, Mummy, Mummy, Mummy. But the mother after, after one, um, two minutes the mother was finished, the entire family. Then come nonsense. I Ventilateur,<note n="4">He uses the French terminology.</note> Ventilateur.</u>
+                    <u who="#boderD" start="617.369" end="x">Yes.</u>
+                    <u who="#leaD" start="618.115" end="x">Has also done nonsense, the same, the special commando, the Ventilateur.</u>
+                    <u who="#boderD" start="622.496" end="x">Yes.</u>
+                    <u who="#leaD" start="624.209" end="x">The gas off . . . out</u>
+                    <u who="#boderD" start="625.952" end="x">Out, yes.</u>
+                    <u who="#leaD" start="626.828" end="x">(unclear)</u>
+                    <u who="#boderD" start="628.732" end="x">Yes, Yes.</u>
+                    <u who="#leaD" start="629.992" end="x">Get noisy</u>
+                    <u who="#boderD" start="630.829" end="x">Yes.</u>
+                    <u who="#leaD" start="631.454" end="x">Throw the dead in the wagonnet<note n="5">He uses the French terminology.</note> . . .</u>
+                    <u who="#boderD" start="633.992" end="x">Yes.</u>
+                    <u who="#leaD" start="634.476" end="x">. . . and after into the crematorium.</u>
+                    <u who="#boderD" start="636.854" end="x">Well, yes. What was the crematorium? An oven? [Pause] What was it? An oven, um, a . . . ?</u>
+                    <u who="#leaD" start="644.035" end="x">Co-, Co-, Coal.</u>
+                    <u who="#boderD" start="645.365" end="x">Yes.</u>
+                    <u who="#leaD" start="646.685" end="x">Coal, Coal . . .</u>
+                    <u who="#boderD" start="648.105" end="x">Um, yes. Was it an oven or . . . ?</u>
+                    <u who="#leaD" start="652.184" end="x">No. Um, crematorium, crematorium . . . [Interrupting] and the . . .</u>
+                    <u who="#boderD" start="653.686" end="x">Yes, yes. How many people could you burn in there at one time? [Interrupting]</u>
+                    <u who="#leaD" start="658.541" end="x">When I, um, with transport come every day ten transports of 20 to 40 thousand people. Eight people in one crematorium, twenty minutes burn. After the days, every day made burn in crematorium. Every day, after Sabbath, every day burning in crematorium. In crematorium there was work, about five, um, 1500 men. 500 men every hour, every eight hours work. After change, other 500 men work. And those who work special commando eat good.</u>
+                    <u who="#boderD" start="693.703" end="x">They gave you good food?</u>
+                    <u who="#leaD" start="694.609" end="x">Yes, that's right. After, the 1500 men only work for three months. Because after, the <term ref="#vothG_ss">SS</term> has finished them, with, um, the, 1500 men.</u>
+                    <u who="#boderD" start="707.812" end="x">How did they finish them?</u>
+                    <u who="#leaD" start="709.011" end="x">Why—Not want them to speak about what they are doing in crematorium.</u>
+                    <u who="#boderD" start="711.881" end="x">But how did they finish them. Also in the crematorium?</u>
+                    <u who="#leaD" start="714.601" end="x">Also in crematorium. And the <term ref="#vothG_ss">SS</term> finished in crematorium the same, the, the, um special commando. After three months with it, then crematorium.</u>
+                    <u who="#boderD" start="724.260" end="x">Yes.</u>
+                    <u who="#leaD" start="724.704" end="x">Burned the same. I did not burn, then come the Russian.</u>
+                    <u who="#boderD" start="729.598" end="x">Aha.</u>
+                    <u who="#leaD" start="730.021" end="x">When my commando, the special commando, 1.500 men did not burn, then come the Russian. And the Germans, no time, no time. When I have time, hundreds have burned.</u>
+                    <u who="#boderD" start="740.595" end="x">Yes.</u>
+                    <u who="#leaD" start="742.015" end="x">In, um, 43 . . . the crematorium four, four . . . [noise in the background] number crematorium four, the Greek from <placeName ref="Thessaloníki">Saloniki</placeName>, <placeName ref="Athens">Athens</placeName>, has made a bomb. Bomb destroys.</u>
+                    <u who="#boderD" start="755.561" end="x">Who has done that?</u>
+                    <u who="#leaD" start="756.286" end="x">The Greek from <placeName ref="Athens">Athens</placeName>. In, um, 34.</u>
+                    <u who="#boderD" start="760.878" end="x">In um, um 44.</u>
+                    <u who="#leaD" start="762.903" end="x">44.</u>
+                    <u who="#boderD" start="764.193" end="x">Were these Jewish Greeks?</u>
+                    <u who="#leaD" start="765.311" end="x">Jewish Greeks together with the Polacks.</u>
+                    <u who="#boderD" start="766.390" end="x">Together with the Polacks they did such a thing.</u>
+                    <u who="#leaD" start="769.191" end="x">Yes. Had . . .</u>
+                    <u who="#boderD" start="770.149" end="x">Torn.</u>
+                    <u who="#leaD" start="770.774" end="x">Torn, yes, had munitions in crematorium four. Greek from <placeName ref="Athens">Athens</placeName> and Polack, Jewish, from the <placeName ref="Warsaw Ghetto" type="camp">Ghetto of Warsaw</placeName>.</u>
+                    <u who="#boderD" start="778.297" end="x">Yes.</u>
+                    <u who="#leaD" start="779.505" end="x">Have destroyed crematorium four.</u>
+                    <u who="#boderD" start="782.134" end="x">Where, in, um <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#leaD" start="783.454" end="x">No, in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="784.481" end="x">In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. Exactly, <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> and <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. Um, how did they destroy the crematorium?</u>
+                    <u who="#leaD" start="791.430" end="x">The Jewish—um, Greek and Jewish Polack.</u>
+                    <u who="#boderD" start="794.602" end="x">Aha, and what did they do to them? [Pause] Um, did they survive, the people?</u>
+                    <u who="#leaD" start="800.545" end="x">All destroyed in Crematorium.</u>
+                    <u who="#boderD" start="802.198" end="x">The people that were in it?</u>
+                    <u who="#leaD" start="803.277" end="x">. . . they too. The people that were in it. [Interrupting] When the, the, um, person went out [unintelligible] it was with machine gun. The <term ref="#vothG_ss">SS</term> said, that when I make nonsense in the crematorium, we is finished. Everything destroyed, inside, with the people, the Jewish Polack and the Jewish from Greece. After two minutes . . . finished.</u>
+                    <u who="#boderD" start="821.244" end="x">Did you see that for yourself?</u>
+                    <u who="#leaD" start="823.168" end="x">I have seen it not, when I am in <term ref="#vothG_revier">Revier</term> [noise in the background]</u>
+                    <u who="#boderD" start="824.981" end="x">What?</u>
+                    <u who="#leaD" start="825.434" end="x">I am sick.</u>
+                    <u who="#boderD" start="826.371" end="x">Oh, you were sick and you were in the <term ref="#vothG_revier">Revier</term>.</u>
+                    <u who="#leaD" start="828.386" end="x">[unintelligible, as simultaneously with Interviewer] . . . was in <term ref="#vothG_revier">Revier</term>, did not see, but bum.</u>
+                    <u who="#boderD" start="831.317" end="x">You have heard it, when it happened.</u>
+                    <u who="#leaD" start="832.547" end="x">Everything, yes. [Interrupting]</u>
+                    <u who="#boderD" start="833.354" end="x">And after they had destroyed the crematoria, were there still people being burnt in there?</u>
+                    <u who="#leaD" start="838.692" end="x">Not.</u>
+                    <u who="#boderD" start="839.085" end="x">No, they did not . . .</u>
+                    <u who="#leaD" start="840.837" end="x">No. [simultaneously]</u>
+                    <u who="#boderD" start="841.502" end="x">None.</u>
+                    <u who="#leaD" start="842.257" end="x">Um, for two days they evacuated the camp of <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. <term ref="#vothG_ss">SS</term> has destroyed all crematoria.</u>
+                    <u who="#boderD" start="848.843" end="x">They destroyed it all themselves.</u>
+                    <u who="#leaD" start="849.780" end="x">For two days evacuated the camp of <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. April 18, they evacuated with us camp. 16 no 18, um 18 . . .</u>
+                    <u who="#boderD" start="858.321" end="x">No, no, no, take the hand down. [Interrupting] Yes.</u>
+                    <u who="#leaD" start="859.248" end="x">June 18,<note n="6">Again, he seems to be mixing up January and June.</note> in April, June 18, 45 they evacuated the camp of <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. June 16, 45 the German destroyed all the crematoria. Six crematoria did destroy the German.</u>
+                    <u who="#boderD" start="874.747" end="x">They themselves? And how many did the Greek destroy?</u>
+                    <u who="#leaD" start="877.729" end="x">The Greek destroyed and also the Polack destroyed.</u>
+                    <u who="#boderD" start="879.925" end="x">Yes, but how many of the crematoria did the Greek . . .</u>
+                    <u who="#leaD" start="881.798" end="x">One crematorium. [Interrupting] One crematorium. One crematorium number four. The same, the Jewish Polack has destroyed crematorium four.</u>
+                    <u who="#boderD" start="890.530" end="x">Aha, and the rest was destroyed by the <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#leaD" start="892.968" end="x">destroyed by <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="893.572" end="x">Now, but, where did you go to after, um, who has liberated you, the Russians or the Americans?</u>
+                    <u who="#leaD" start="897.772" end="x">American. April 29, 45.</u>
+                    <u who="#boderD" start="900.482" end="x">From which camp?</u>
+                    <u who="#leaD" start="901.530" end="x">From <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="902.618" end="x">From <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. Um, was there a crematorium in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> as well?</u>
+                    <u who="#leaD" start="906.536" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> crematorium, 44 they made only one crematorium. Why—has done. In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, it is forbidden for the Jewish.</u>
+                    <u who="#boderD" start="914.935" end="x">What?</u>
+                    <u who="#leaD" start="915.479" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> it is forbidden . . .</u>
+                    <u who="#boderD" start="916.869" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> it was forbidden for Jewish rank. There were no Jews in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#leaD" start="919.972" end="x">Yes. No Jews, non crematorium.</u>
+                    <u who="#boderD" start="921.534" end="x">Yes.</u>
+                    <u who="#leaD" start="921.918" end="x">After, five, um, five, um 45 I come, have made another crematorium. For all, for the Jewish and for the Arian. After in April, in April 29 . . . .</u>
+                    <u who="#boderD" start="937.800" end="x">Yes. Tell me, have you seen any gypsies in one of the camps?</u>
+                    <u who="#leaD" start="943.450" end="x">Yes indeed.</u>
+                    <u who="#boderD" start="944.136" end="x">Tell me about the gypsies.</u>
+                    <u who="#leaD" start="945.366" end="x">In camp, in camp of <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="948.136" end="x">Yes.</u>
+                    <u who="#leaD" start="949.103" end="x">Have seen gypsies—seven, eight thousand gypsies, not Jewish. All together with the children, with everything. Eat good, three, five, seven Months. After, one night, one hour, one before dawn the Germans have made call for the whole camp of gypsies.</u>
+                    <u who="#boderD" start="967.653" end="x">Yes.</u>
+                    <u who="#leaD" start="968.650" end="x">Have called the entire camp of gypsies, after two hours, eight, nine people, eight, nine thousand people together with the children small finished, all gypsies. And after, one has not seen gypsies anymore in camp of <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="980.121" end="x">So they killed all the gypsies?</u>
+                    <u who="#leaD" start="981.632" end="x">All dead.</u>
+                    <u who="#boderD" start="982.922" end="x">Were they also sent through the gas chambers?</u>
+                    <u who="#leaD" start="985.460" end="x">All, all through the gas.</u>
+                    <u who="#boderD" start="987.324" end="x">Mh. Why did they do that?</u>
+                    <u who="#leaD" start="990.980" end="x">I don't know why.</u>
+                    <u who="#boderD" start="992.693" end="x">You don't know why.</u>
+                    <u who="#leaD" start="993.892" end="x">That's right.</u>
+                    <u who="#boderD" start="994.859" end="x">Um. And who lived in the <term ref="#vothG_block">block</term> the gypsies had lived in afterwards?</u>
+                    <u who="#leaD" start="999.904" end="x">Yes. In <term ref="#vothG_block">block</term> there lived the gypsies. Or <term ref="#vothG_block">block</term> for gypsies, only gypsies. Why is—gypsies stay, why not Arian, no <term ref="#vothG_ss">SS</term> let them live together.</u>
+                    <u who="#boderD" start="1009.330" end="x">But when all the gypsies were, um, when all the gypsies had been killed. Who lived on that <term ref="#vothG_block">block</term> afterwards?</u>
+                    <u who="#leaD" start="1015.705" end="x">The <term ref="#vothG_block">block</term> is out.</u>
+                    <u who="#boderD" start="1016.944" end="x">The <term ref="#vothG_block">block</term> is . . . ?</u>
+                    <u who="#leaD" start="1017.781" end="x">Barred. [Interrupting]</u>
+                    <u who="#boderD" start="1017.983" end="x">The <term ref="#vothG_block">block</term> was barred.</u>
+                    <u who="#leaD" start="1019.131" end="x">Barred.</u>
+                    <u who="#boderD" start="1019.887" end="x">Yes . . . And what are you doing now, Mr. Lea?</u>
+                    <u who="#leaD" start="1024.621" end="x">I work in the committee of . . . [unintelligible, noises in the background]</u>
+                    <u who="#boderD" start="1026.766" end="x">You are working in the committee . . . [unintelligible]</u>
+                    <u who="#leaD" start="1028.398" end="x">I have no family.</u>
+                    <u who="#boderD" start="1029.990" end="x">What?</u>
+                    <u who="#leaD" start="1030.685" end="x">No family.</u>
+                    <u who="#boderD" start="1031.531" end="x">You have no family.</u>
+                    <u who="#leaD" start="1032.489" end="x">36 persons - finished.</u>
+                    <u who="#boderD" start="1035.320" end="x">Aha, and um, what do you intend to do afterwards? How did you get to France?</u>
+                    <u who="#leaD" start="1041.655" end="x">Why in Greece? I have . . .</u>
+                    <u who="#boderD" start="1043.740" end="x">How did you get here? [Interrupting] From—How old are you? How old are you?</u>
+                    <u who="#leaD" start="1048.474" end="x">I am, how old I am? . . . . 28.</u>
+                    <u who="#boderD" start="1050.973" end="x">You are 28 years old. All right. And now you are with the <term ref="#vothG_ajdc">Joint</term>?</u>
+                    <u who="#leaD" start="1057.882" end="x">That's right.</u>
+                    <u who="#boderD" start="1058.517" end="x">Do you have relatives in America?</u>
+                    <u who="#leaD" start="1060.713" end="x">Not.</u>
+                    <u who="#boderD" start="1061.438" end="x">None. Do you have relatives in Palestine?</u>
+                    <u who="#boderD" start="1066.333" end="x">[In English] This concludes um, um Spool 41, of which half is Ms. Precker and the other one is Mr. Lea. After the machine stopped, he suggested that he has something more to tell.</u>
+                    <!-- end Spool 9-41B -->
+                    <!-- begin Spool 9-42 -->
+                    <u who="#boderD" start="1083.061" end="x">This is Spool number 42. Mr. David Lea continued.</u>
+                    <u who="#boderD" start="1089.496" end="x">[In German] Mr. Lea, you said—what did you want to tell me about <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#leaD" start="1095.280" end="x">About <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1096.661" end="x">Oh. You said you were in <placeName ref="Warsaw">Warsaw</placeName>. Why did you come to <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#leaD" start="1100.459" end="x">I went to <placeName ref="Warsaw">Warsaw</placeName> from <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>, 6 Septembre.<note n="7">He uses the French terminology.</note> Yom Kippur.</u>
+                    <u who="#boderD" start="1107.489" end="x">Yes. Why, were you liberated from <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>?</u>
+                    <u who="#leaD" start="1109.846" end="x">From <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> transport for the Jewish to work in <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1113.613" end="x">Oh, the—who took you there?</u>
+                    <u who="#leaD" start="1115.215" end="x">The <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="1116.414" end="x">The <term ref="#vothG_ss">SS</term> took you from <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, um, to <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>. Now tell me, what happened there. [Lea continuously interrupts in the affirmative.]</u>
+                    <u who="#leaD" start="1122.759" end="x">Work in <placeName ref="Warsaw Ghetto" type="camp">ghetto</placeName> in the house of the Jewish. All of the <placeName ref="Warsaw Ghetto" type="camp">ghetto</placeName> is, the <placeName ref="Warsaw Ghetto" type="camp">ghetto from Warsaw</placeName> [noise in the background] two hundred meters, so long from the graveyard of <placeName ref="Warsaw">Warsaw</placeName> is Jewish. I not understand the city, why—I not speak Polack.</u>
+                    <u who="#boderD" start="1141.390" end="x">Polish,yes.</u>
+                    <u who="#leaD" start="1142.085" end="x">The, the people deport Polack. When I now to, um, in America, as city, two, two hundred, um, two hundred meter is long the graveyard of the Jewish up to my camp.</u>
+                    <u who="#boderD" start="1157.845" end="x">Aha</u>
+                    <u who="#leaD" start="1158.803" end="x">Work . . .</u>
+                    <u who="#boderD" start="1159.428" end="x">Why did they send you from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> to <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>? [Interrupting]</u>
+                    <u who="#leaD" start="1162.450" end="x">Why I sent? As young, healthy persons. Work.</u>
+                    <u who="#boderD" start="1166.912" end="x">Who—where did you have to work?</u>
+                    <u who="#leaD" start="1169.057" end="x">Work in the town, with the pickaxe, with the pickaxe, with the shovel. No food, only 150 gram bread every day, noon one liter of water. This way work, um, 40 hours.</u>
+                    <u who="#boderD" start="1186.338" end="x">Mh. So, what has happened?</u>
+                    <u who="#leaD" start="1189.152" end="x">I, after, <term ref="#vothG_ss">SS</term> has spoken.</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="1194.077" end="x">Yes.</u>
+                    <u who="#leaD" start="1194.884" end="x">Every Jewish from the work, in the camp of the Jewish is finished. The camps is as long as, as wide as 50 meter from Pawiak to <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1206.960" end="x">Yes.</u>
+                    <u who="#leaD" start="1208.431" end="x">Work in the Bunki,<note n="8">Translator's Note: "Bunki" is not a German word—they are obviously talking about "The Bund" (The General Jewish Labor Union, usually just called "Bund"). "Bunki" is possibly Lea's pronunciation of "Bund."</note> [unintelligible], the same German. Boy has had finished whole family, Jewish, with the children little. The fight with the Germans of 39. Afterwards, <term ref="#vothG_ss">SS</term> with, to, perhaps come over to us, in the Bunke. I too much Jewish in the Bund. Because Jewish, when they search, when they search Jewish in the Bund. I too much Jewish in the Bunki, not finished, so finished, um, so not finished. I took machine gun, um, stole it.</u>
+                    <u who="#boderD" start="1241.369" end="x">What are the Bunki? What is the "Bund"?</u>
+                    <u who="#leaD" start="1243.544" end="x">The Bunki is Jewish organization, make sabotage, who make sabotage inside the <placeName ref="Warsaw Ghetto" type="camp">guetto</placeName>. And look in the street, finish the German. At work, work eight, nine months in, um, <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1260.414" end="x">Yes.</u>
+                    <u who="#leaD" start="1260.958" end="x">After, camp of <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName> evacuated.</u>
+                    <u who="#boderD" start="1262.973" end="x">Yes.</u>
+                    <u who="#leaD" start="1264.514" end="x">In the camp of <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName> big transport came, Jom Kippur, came to, um <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>, only Greek Jewish barrack. Why—Nonsense, this barrack Greek, does not understand Polack, understands England. The German has said, those who do not understand Polack come to <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>. Has said, good [unintelligible], good [unintelligible]. Nonsense, the Jewish barrack go to <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>. Why—the Germans afraid. When I work in <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName> and I understand Polack, must go. But only Jewish barrack not understand Polack. The Germans had no fear with us. After Jewish barrack finished, come . . . Polack Jewish. Polack Jewish, Hungarian Jewish . . . Lithuanian Jewish . . . from <placeName ref="Kraków">Cracow</placeName> Jewish, from Ukraine Jewish. 40 hours work at day, German camp, after at night call for three hours. Shoes, no shoes, no stockings, shoes of wood . . . no gloves, Work, one time shoe, one time jacket . . . , one jacket. When come to, to place of work, the <term ref="#vothG_capo">Capo</term>, German, say, take off the jacket. ("Nonsense" or "Us"; German: "Unsinn" or "uns") take off the jacket, have done so, as he had said. Why—beat to death. Outside cold every day, with the shovel and the pickaxe, one hour work, then finished.</u>
+                    <u who="#boderD" start="1356.273" end="x">What do you mean by finished?</u>
+                    <u who="#leaD" start="1357.059" end="x">From, um, . . . from cold, no food, no . . . no food, no vitamins, no sleep, to many lice. The . . .</u>
+                    <u who="#boderD" start="1366.748" end="x">Lice? [Interrupting]</u>
+                    <u who="#leaD" start="1367.313" end="x">Lice, too many. Typhoid, every day, 80, 90, 100 people finished. In <term ref="#vothG_revier">Revier</term>, no food in <term ref="#vothG_revier">Revier</term>. Now there comes <term ref="#vothG_ss">SS</term>, the [unintelligible] <term ref="#vothG_ss">SS</term>, one German say all Jewish finished. With the, what is . . . makes finished.</u>
+                    <u who="#boderD" start="1385.098" end="x">With what? With injection?</u>
+                    <u who="#leaD" start="1386.669" end="x">Yes, so [Seems to show it to him].</u>
+                    <u who="#boderD" start="1387.636" end="x">With injection.</u>
+                    <u who="#leaD" start="1388.573" end="x">Yes, injection in <term ref="#vothG_revier">Revier</term>. In the camp of <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>, the <term ref="#vothG_revier">Revier</term> is the <term ref="#vothG_block">block</term> number 7.</u>
+                    <u who="#boderD" start="1395.784" end="x">[In English] He demonstrates by hand, he didn't know the word. There were people that were killed by injection. No?</u>
+                    <u who="#leaD" start="1403.488" end="x">In the camp of <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>, the <term ref="#vothG_revier">Revier</term> is <term ref="#vothG_block">block</term> 7 or <term ref="#vothG_block">block</term> 8. Boss of <term ref="#vothG_revier">Revier</term> is a German. Bad, all the Jewish finished. [unintelligible].. in the Crematorium, all Jewish, finished anyways. There is no Jewish coming home. After, gone to camp <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>. This is in Bavaria. I work in <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>. The camp official understand me from <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. The, um, have worked in special commando. One day he said, come, work in graveyard commando.</u>
+                    <u who="#boderD" start="1440.513" end="x">In which commando?</u>
+                    <u who="#leaD" start="1441.62" end="x">In graveyard commando to <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, Bavaria. I have the same, my commando, still 15 people, me, 16 people all together. 12.000 . . . 5 . . . 1537 Jewish in one month work. This camp . . .</u>
+                    <u who="#boderD" start="1461.704" end="x">How did you know the number? How did you count? [Interrupting]</u>
+                    <u who="#leaD" start="1464.656" end="x">This are doing the [unintelligible]. I 200 dead, 180 dead, the command of the camp made report. Now I fetch 50 Polack dead, 20 Greek Jewish dead, 10 Hungarian, 10 Slowak, make report. In one month work, 12437 finished. This graveyard, no measurement, no person can understand, only the 16 people that worked.</u>
+                    <u who="#boderD" start="1494.833" end="x">How did you make the graves? Was there a separate grave for everyone? [Interrupting]</u>
+                    <u who="#leaD" start="1498.217" end="x">400 people one hole. 300 people one hole. After, digging two meters and 40 centimeters.</u>
+                    <u who="#boderD" start="1507.513" end="x">What?</u>
+                    <u who="#leaD" start="1508.057" end="x">Two meters, 40 centimeters thick.</u>
+                    <u who="#boderD" start="1510.344" end="x">Deep.</u>
+                    <u who="#leaD" start="1510.827" end="x">Deep. There come wagons, every wagon 40 dead. Come together the wagons to the dead. The <term ref="#vothG_ss">SS</term>, nonsense. One Jewish wanted do a little (unclear). The <term ref="#vothG_ss">SS</term> has not allowed. Have seen comrade, work in the, with the [unintelligible], has said, is my brother, my cousin. Has read a little. No little reading.</u>
+                    <u who="#boderD" start="1532.876" end="x">No little what?</u>
+                    <u who="#leaD" start="1533.631" end="x">Reading.</u>
+                    <u who="#boderD" start="1534.447" end="x">Ah . . .</u>
+                    <u who="#leaD" start="1535.202" end="x">Nothing. Dead, dead, the human, the brother . . .</u>
+                    <u who="#boderD" start="1536.713" end="x">Ah pray.</u>
+                    <u who="#leaD" start="1538.245" end="x">Reading. Bracha</u>
+                    <u who="#boderD" start="1539.565" end="x">Aha, to make Broche. No? Did he . . . [is interrupted]</u>
+                    <u who="#leaD" start="1542.496" end="x"><term ref="#vothG_ss">SS</term> has stroken him dead. <term ref="#vothG_ss">SS</term> has, one day the comrade got, the comrade got for praying. Against the <term ref="#vothG_ss">SS</term>, saying, take my portion, say the <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="1553.061" end="x">Now wait, you are saying . . . [Interrupting, Lea continues however]</u>
+                    <u who="#leaD" start="1554.109" end="x">. . . my comrade said, this, the dead, is my brother. Wanted to do a little reading. The <term ref="#vothG_ss">SS</term> tock the pickleaxe and the shovel and hit him on the head, finished together with the brother.</u>
+                    <u who="#boderD" start="1564.230" end="x">Aha, um, a person has asked permission to pray over his brother who he had to bury. But he tells the <term ref="#vothG_ss">SS</term> killed him with the shovel and buried them both. All right.</u>
+                    <u who="#leaD" start="1578.780" end="x">After, one day. 400 dead, um, 400. In every hole 400 dead, 300, 350. After closing the dead with the [unintelligible]. The camp there has said, do, one can say, the hole, so that no one understand why these people dead. The graveyard has done and I in Bayern, in the middle.</u>
+                    <u who="#boderD" start="1604.097" end="x">Where is that ? In <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>?</u>
+                    <u who="#leaD" start="1605.396" end="x">Not in <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>. In <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, Bayern. [He uses the German term for Bavaria, which the interviewer does not seem to understand at first]</u>
+                    <u who="#boderD" start="1607.813" end="x">In, in . . . ?</u>
+                    <u who="#leaD" start="1608.266" end="x">In <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, Bayern.</u>
+                    <u who="#boderD" start="1609.294" end="x">Bavaria?</u>
+                    <u who="#leaD" start="1610.161" end="x">Bavaria.</u>
+                    <u who="#boderD" start="1610.614" end="x">Yes</u>
+                    <u who="#leaD" start="1610.947" end="x">Bavaria.</u>
+                    <u who="#boderD" start="1611.723" end="x">What kind of camp was <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>?</u>
+                    <u who="#leaD" start="1614.261" end="x">In <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, there is, the entire of <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName> is final camp.</u>
+                    <u who="#boderD" start="1618.068" end="x">Aha.</u>
+                    <u who="#leaD" start="1618.421" end="x">Camp one, camp two, camp three, camp four, camp five, camp six, camp seven, camp eight, camp nine, camp ten, camp eleven. In camp number four, camp seven, camp seven, there is only quarantine.</u>
+                    <u who="#boderD" start="1634.101" end="x">Only quarantine?</u>
+                    <u who="#leaD" start="1634.524" end="x">Quarantine finishes the Jewish with injection. In camp one, there is main, in camp one, it is a camp, work camp. The name is Tannberg. The bad people . . .</u>
+                    <u who="#boderD" start="1647.766" end="x">What is it called? [Interrupting]</u>
+                    <u who="#leaD" start="1648.512" end="x">Tannberg. German. Tannberg, Tannberg. Those <term ref="#vothG_ss">SS</term> people are now in <placeName ref="Nürnberg">Nürnberg</placeName>. A comrade of mine, Russian Jewish. His name is Kosakov. Went to trial in . . .</u>
+                    <u who="#boderD" start="1664.434" end="x"><placeName ref="Nürnberg">Nürnberg</placeName>.</u>
+                    <u who="#leaD" start="1665.180" end="x"><placeName ref="Nürnberg">Nürnberg</placeName>. Watch this. During the trial, he spoke with commander of tribunal, American. These, the bad people and the Jewish has made 29, and the same. After I don't know, what I would have done with this <term ref="#vothG_ss">SS</term>. In camp four, it is the same as camp five, camp seven. Quarantine. April 27, 44, 45. FDG, head <term ref="#vothG_ss">SS</term>.of <term ref="#vothG_revier">Revier</term>.</u>
+                    <u who="#boderD" start="1698.732" end="x">What is the FDG?</u>
+                    <u who="#leaD" start="1699.669" end="x">FDG is the head of <term ref="#vothG_revier">Revier</term>
+                        <term ref="#vothG_ss">SS</term>. Among the Déporté, head of <term ref="#vothG_revier">Revier</term>
+                        <term ref="#vothG_ss">SS</term> said, FDG, burn. The people, there are too many, there are too many, has burnt. Healthy people, more than 3.000 people with the gas. After two hours, the Americans come. The Americans have said, um, have said to every German from Bavaria, come and see, what the Germans have done. The people, healthy, have burnt, with the gas, with the flames.</u>
+                    <u who="#boderD" start="1736.040" end="x">Yes, Yes.</u>
+                    <u who="#leaD" start="1737.702" end="x">One comrade . . .</u>
+                    <u who="#boderD" start="1738.941" end="x">How did they burn them? With . . . [Interrupting]</u>
+                    <u who="#leaD" start="1740.322" end="x">With the, um, the flame.</u>
+                    <u who="#boderD" start="1741.370" end="x">With flame throwers?</u>
+                    <u who="#leaD" start="1742.851" end="x">That's right, that's right, that's right.</u>
+                    <u who="#boderD" start="1744.171" end="x">He had healthy people burnt with flame, um, throwers.</u>
+                    <u who="#leaD" start="1748.854" end="x">Why done. The FDG has seen that the Americans are, are twenty kilometers to Bavaria. Thus he done finishing the Jewish. Not Jewish, can't imagine, why, is too much sickness, no food. Until March, until April 45, one got only 80 grams of bread every day. No, no margarine, no food. Noon time, only one liter of water. So every day, 200, 300 Jewish finished. In two months, the entire camp was finished. After, two months carry other Jewish from camp five, from camp three, from camp two, from camp nine, from camp eleven, eleven. It is the same, have seen it, have watched. In camp three. April 3, 44. Jewish Lithuanian, finishes Jewish, sick, the dead. Jewish. Eats them.</u>
+                    <u who="#boderD" start="1817.720" end="x">Mh?</u>
+                    <u who="#leaD" start="1818.859" end="x">The Jewish, the jewish . . . .</u>
+                    <u who="#boderD" start="1820.481" end="x">Have eaten . . .</u>
+                    <u who="#leaD" start="1821.418" end="x">Have eaten the dead Jewish. Have . . .</u>
+                    <u who="#boderD" start="1823.342" end="x">Yes, in which, in which . . . [Interrupting]</u>
+                    <u who="#leaD" start="1824.339" end="x">Yes, have eaten [simultaneously] In camp three. In Bayern. Bayern.</u>
+                    <u who="#boderD" start="1827.602" end="x">Um, where was that? In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, in . . .</u>
+                    <u who="#leaD" start="1829.324" end="x">Not. In <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, Bayern. Camp three.</u>
+                    <u who="#boderD" start="1831.258" end="x">Aha. In <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>. Did the Jew- , um, did people eat other people?</u>
+                    <u who="#leaD" start="1836.627" end="x">Yes. I self have seen it.</u>
+                    <u who="#boderD" start="1838.927" end="x">Yes, you yourself have seen it.</u>
+                    <u who="#leaD" start="1840.347" end="x">I myself. In camp three.</u>
+                    <u who="#boderD" start="1841.948" end="x">Yes, well. Didn't they give you anything to eat then?</u>
+                    <u who="#leaD" start="1845.423" end="x">Ate nothing at all. After, the <term ref="#vothG_ss">SS</term> has barred the camp, has said, no dinner.</u>
+                    <u who="#boderD" start="1852.613" end="x">All right. Tell me . . . . Could you say the same in Greek? In Greek? Do you speak Greek?</u>
+                    <u who="#leaD" start="1859.048" end="x">Yes, a little.</u>
+                    <u who="#boderD" start="1859.954" end="x">Then, tell me the same in Greek.</u>
+                    <u who="#leaD" start="1861.012" end="x">Don't you speak Spanish. Why not Spanish?</u>
+                    <u who="#boderD" start="1862.889" end="x">[In Spanish] Do you speak Spanish?</u>
+                    <u who="#leaD" start="1864.202" end="x">Of course, I speak Spanish.</u>
+                    <u who="#boderD" start="1865.108" end="x">Oh. And why didn‘t you tell me so? Well . . . tell me again about the case when . . . the cannibalism case.</u>
+                    <u who="#leaD" start="1874.811" end="x">In Spanish?</u>
+                    <u who="#boderD" start="1875.811" end="x">Yes.</u>
+                    <u who="#leaD" start="1876.217" end="x">Ladies and gentlemen. I came across two soldiers, three soldiers, in <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName> camp –camp 3- in Bavaria. After 15 to 20 days without any food to eat we, deportees, there were many dead people, we took one afternoon, at 10 and one quarter of an hour in the afternoon, we took the knives and cut our Jewish fellows who were already dead. And we ate the flesh of them.</u>
+                    <u who="#boderD" start="1912.793" end="x">And you did, too?</u>
+                    <u who="#leaD" start="1914.558" end="x">‘course. I remember, it was February 3rd, 1945. In the whole camp, we were there, Spanish Jews from [unintelligible] and the others were Jews from <placeName ref="Warsaw">Warsaw</placeName>, from Lithuania, from [unintelligible], from Belgium, from [unintelligible], from Italy, and from other cities which were occupied by the Armed Forces enemies of Europe.</u>
+                    <u who="#boderD" start="1944.790" end="x">And . . . ?</u>
+                    <u who="#leaD" start="1945.353" end="x">We suffered so long, so much time. Three years in camp. The food was so scarce, not enough, and we worked 14 hours a day.</u>
+                    <u who="#boderD" start="1956.055" end="x">Speak slowly, please. What work did you use to do there?</u>
+                    <u who="#leaD" start="1960.243" end="x">We worked building forts.</u>
+                    <u who="#boderD" start="1963.055" end="x">Yes.</u>
+                    <u who="#leaD" start="1964.102" end="x">With a shovel and a [calm]. After working [unintelligible] as we could, they battered us, they battered us with the sticks and beat us to death.</u>
+                    <u who="#leaD" start="1967.923" end="x">On a transportation that came from <placeName ref="Warsaw">Warsaw</placeName>, in 1944, when the Russians were approaching <placeName ref="Warsaw">Warsaw</placeName>. The biggest transportation, and the biggest disaster in Jewish history was in <placeName ref="Warsaw">Warsaw</placeName> where they deported us on train for 18 days. On animal trains, locked day and night, guarded by four barbarians of the <term ref="#vothG_ss">SS</term>, with their machine guns, no water, no food, and under the sun . . . And more than 8,000 people died. We were 8,726 people and 725 people returned to the <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> camp. The 8,000 people were killed by starvation, or by the <term ref="#vothG_ss">SS</term>, or by the drought.</u>
+                    <u who="#boderD" start="2029.795" end="x">Right, and from where did that transportation come?</u>
+                    <u who="#leaD" start="2032.482" end="x">The transportation came from <placeName ref="Warsaw">Warsaw</placeName> . . .</u>
+                    <u who="#boderD" start="2034.467" end="x">From <placeName ref="Warsaw">Warsaw</placeName> to . . .</u>
+                    <u who="#leaD" start="2035.623" end="x">To <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. The Russians were coming from <placeName ref="Warsaw">Warsaw</placeName> and the Germans wanted us . . . somehow needed us to work and take the interior of Germany. They didn't want to kill us and then they locked us in some train cars, 120 people in an animal car.</u>
+                    <u who="#boderD" start="2056.416" end="x">Yes.</u>
+                    <u who="#leaD" start="2056.947" end="x">Locked night and day, without a . . .</u>
+                    <u who="#boderD" start="2058.556" end="x">Why do you call it animal car? Wasn't it a freight car?</u>
+                    <u who="#leaD" start="2062.149" end="x">No. They didn't have . . . And they didn't have, it was . . . it . . . it was forbidden . . . it was forbidden for Jews.</u>
+                    <u who="#boderD" start="2068.649" end="x">I see . . .</u>
+                    <u who="#leaD" start="2069.430" end="x">We were there, battered by these beasts, and we raised our hands to God [unintelligible] 'cause we could suffer no more. And we wanted to pee, all side by side. The <term ref="#vothG_ss">SS</term> would ask "Who wants to pee?" but we saw that our comrades went to pee, to do whatever . . .</u>
+                    <u who="#boderD" start="2093.007" end="x">I see . . . In the railway car.</u>
+                    <u who="#leaD" start="2094.538" end="x">In the railway car. And then the <term ref="#vothG_ss">SS</term> came and killed them with the machine gun, and we were [ininteligible] of peeing in our pants . . . hem . . . all. And sometimes we wanted to defecate, we would do it on our hands and throw it away through a hole we had made to the railway car.</u>
+                    <u who="#boderD" start="2109.466" end="x">And that was in the month of . . .</u>
+                    <u who="#leaD" start="2111.888" end="x">June and July, '44.</u>
+                    <u who="#boderD" start="2113.685" end="x">June and July . . .</u>
+                    <u who="#leaD" start="2116.903" end="x">Yes. June and July, because I cannot remember exactly.</u>
+                    <u who="#boderD" start="2121.388" end="x">Yes. It is not important.</u>
+                    <u who="#leaD" start="2122.138" end="x">[unintelligible] because our morale was broken, we had lost our family, our finances, and we didn't have any strength. All the Jews who returned from the German concentration camps, we may look good physically, look well, but we are not well inside. We are all [unintelligible].</u>
+                    <u who="#boderD" start="2143.106" end="x">Why?</u>
+                    <u who="#leaD" start="2143.778" end="x">Because work was much, food was scarce, we were beaten to death, and it was very cold. We are all [unintelligible] our lungs, some with rheumatism, some with asthma, some with the lungs . . . and . . . most of all have . . . lose . . . they lose their morale. I am talking, a Greek Jew, [unintelligible] Sephardic. If I remembered more . . . we could [unintelligible] talk more frequently, I am not recalling much.</u>
+                    <u who="#leaD" start="2173.058" end="x">The tragedy that occurred in '44, in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> camp, more or less, I could not speak because my German isn't good . . . I don't speak well, but now, I will speak in Spanish. In 1944, by the end of 1944, in November, in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> camp . . . in September, October, or November, 600,000 Jewish Hungarians came in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. When the crematories were not enough to burn the Jews, the <term ref="#vothG_ss">SS</term> ordered 3,000 men to dig holes.</u>
+                    <u who="#boderD" start="2210.713" end="x">To make what?</u>
+                    <u who="#leaD" start="2212.932" end="x">Holes, pits. [The interviewer says something in another language to make himself clear].</u>
+                    <u who="#boderD" start="2215.713" end="x">Ah . . . whole . . .</u>
+                    <u who="#leaD" start="2222.337" end="x">Yes. Pits.</u>
+                    <u who="#boderD" start="2223.056" end="x">Pits.</u>
+                    <u who="#leaD" start="2223.493" end="x">Yes. And, in 27 days, they burned 600,000 Jews alive. We saw them because I worked [unintelligible] commando to the crematory, and I saw them by the front side, they burnt them alive, with wood and benzene. The transportations coming, sometimes . . .</u>
+                    <u who="#boderD" start="2244.773" end="x">They burned them in pits, not in the . . .</u>
+                    <u who="#leaD" start="2246.570" end="x">They did not burn them . . . they did not burn them in furnaces because they didn't have time.</u>
+                    <u who="#boderD" start="2251.336" end="x">Yes. They did not send them to the chambre . . . gas chamber.</u>
+                    <u who="#leaD" start="2256.539" end="x">No. They didn't put them in the gas chamber because the Germans didn't have time.</u>
+                    <u who="#boderD" start="2261.235" end="x">And then . . . ?</u>
+                    <u who="#leaD" start="2261.797" end="x">They burned them in the pits we had made, with wood and with essence.</u>
+                    <u who="#boderD" start="2267.906" end="x">With what?</u>
+                    <u who="#leaD" start="2268.843" end="x">With essence, benzene.</u>
+                    <u who="#boderD" start="2270.171" end="x">Benzene.</u>
+                    <u who="#leaD" start="2270.811" end="x">Benzene.</u>
+                    <u who="#boderD" start="2271.608" end="x">Right. did they kill them before, or what?</u>
+                    <u who="#leaD" start="2272.889" end="x">They burned them alive. They didn't kill them, they burned them alive.</u>
+                    <u who="#boderD" start="2276.389" end="x">They burned them alive?</u>
+                    <u who="#leaD" start="2277.186" end="x">Alive. Six hundred thousand Jewish Hungarians, in November or in September. I don't remember exactly the date and the day, but I remember that I witnessed this, as [unintelligible].</u>
+                    <u who="#boderD" start="2286.858" end="x">Pardon me.</u>
+                    <u who="#leaD" start="2289.358" end="x">[unintelligible] I saw this as if the [unintelligible] were mine.</u>
+                    <u who="#boderD" start="2292.545" end="x">Right.</u>
+                    <u who="#leaD" start="2293.045" end="x">The transportations coming there were guarded by thousands of <term ref="#vothG_ss">SS</term> and, in the whole convoy, there were about 20 to 25 or 50 [unintelligible]. And in the last one I saw, there was a German Jeep -they said it was from the Croix Rouge. And the Jews, when they were put in the convoy, they said they would take them to hospital, and the Jews believed it because they saw they were accompanied by the [unintelligible] of the Croix Rouge.</u>
+                    <u who="#boderD" start="2316.200" end="x">What did the [unintelligible] have? A red cross?</u>
+                    <u who="#leaD" start="2322.957" end="x">The [unintelligible] had the Croix Rouge and it had . . .</u>
+                    <u who="#boderD" start="2326.566" end="x">What is Croix Rouge?</u>
+                    <u who="#leaD" start="2327.379" end="x">The Red Cross.</u>
+                    <u who="#boderD" start="2327.832" end="x">The Red Cross?</u>
+                    <u who="#leaD" start="2329.144" end="x">Yes. It had in the [unintelligible], it had a white flag with the Red Cross, and he said we are taking you to the hospital to examine you, and we are taking [unintelligible]. And then, inside, he opened the gases.</u>
+                    <u who="#boderD" start="2346.034" end="x">I see . . .</u>
+                    <u who="#leaD" start="2346.909" end="x">But [unintelligible] knew that, the transportation [unintelligible]. Even us . . . we ourselves when we first arrived at the camp. But after one month, two months, three months that I worked in the crematory, we knew what it contained. The gas was brought with the Red Cross. With the [unintelligible], with the Red Cross car.</u>
+                    <u who="#boderD" start="2366.001" end="x">From the Red Cross. Yes.</u>
+                    <u who="#leaD" start="2367.392" end="x">From the Red Cross. As I am explaining . . . I am explaining that [unintelligible] caros brothers [unintelligible] you will not to be able to feel. This is the greatest tragedy, the greatest ever in the crematory. [unintelligible] our brothers and sisters. Six million Jews died in the camps, some battered, some of starvation, some [unintelligible] to be put in the gas chamber, children and parents. They could no longer stand the suffering and the starvation, and lice, and the forced labor any more, and they went voluntarily to the gas chamber.</u>
+                    <u who="#boderD" start="2409.983" end="x">So, tell me . . . er . . . what is it that you said about the . . . ?</u>
+                    <u who="#leaD" start="2415.982" end="x">About the sterilization?</u>
+                    <u who="#boderD" start="2418.481" end="x">Well . . . yes.</u>
+                    <u who="#leaD" start="2421.325" end="x">In the <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> camp, which is in the same direction as the <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> camp -about twenty minutes on foot- they sterilized eighteen to twenty-seven-year-old women. They were sterilized in <term ref="#vothG_block">Block</term> 10 in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>, they sterilized twenty-two to thirty-year-old youngsters, in <term ref="#vothG_block">Block</term> . . .</u>
+                    <u who="#boderD" start="2448.090" end="x">Men?</u>
+                    <u who="#leaD" start="2449.090" end="x">Men, yes, men.</u>
+                    <u who="#boderD" start="2450.090" end="x">How were they sterilized?</u>
+                    <u who="#leaD" start="2451.527" end="x">They took them there and sterilized them using injections. They sterilized them with injections. In <term ref="#vothG_block">Block</term> 26. This happened on Juin 4th, 7th, 8th of Juin.</u>
+                    <u who="#boderD" start="2469.026" end="x">What month was it?</u>
+                    <u who="#leaD" start="2470.136" end="x">Juin.</u>
+                    <u who="#boderD" start="2471.152" end="x">June.</u>
+                    <u who="#leaD" start="2474.308" end="x">June. Yes. In 1943. After they did this -sterilizing women and men, and the <term ref="#vothG_ss">SS</term> lay, there were some chambers, special for men, young people, and women after certain age, they lay together . . . the <term ref="#vothG_ss">SS</term> doctors wanted to have . . . if the breeding of a new race could be prevented. And most of them, would not bear children. Most of them, 95%, would not bear children.</u>
+                    <u who="#boderD" start="2508.978" end="x">Well, and what about the others . . . what . . . ? Did they get pregnant? Or what? Er . . . What does it mean, 95% could not . . . hem, no . . .</u>
+                    <u who="#leaD" start="2520.087" end="x">The 95% could not any more, they took their sperm.</u>
+                    <u who="#boderD" start="2524.352" end="x">Oh. They could not have sex again any more.</u>
+                    <u who="#leaD" start="2527.711" end="x">They could not have sex any more.</u>
+                    <u who="#boderD" start="2529.164" end="x">Right. Then, they put men and women together.</u>
+                    <u who="#leaD" start="2534.695" end="x">Together with the women, and they couldn't do anything. But even if these men were given good food to see if they could do things . . . but of course, even if they were fed the best food in the world, it was impossible for them, because they had been well sterilized.</u>
+                    <u who="#boderD" start="2549.992" end="x">Yes.</u>
+                    <u who="#leaD" start="2550.742" end="x">And every day, in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> camp, there was a selection of men, from 2,000 to 3,000 men, every night they burned deportees who had been in the camp for three months, or five months, or a year. Such as [unintelligible] Jews, Sephardic Jews, Lithuanian Jews, Hungarians, and they took them to the crematory.</u>
+                    <u who="#boderD" start="2575.116" end="x">Tell me again about the case when you asked for permission . . . permission to pray over the dead.</u>
+                    <u who="#leaD" start="2588.459" end="x">Over . . . ?</u>
+                    <u who="#boderD" start="2590.318" end="x">Didn't you say that they burned the dead and you asked for permission to pray, that you could . . . hem . . . ? You said earlier that you were not allowed to say your . . . hem . . .</u>
+                    <u who="#leaD" start="2604.192" end="x">Ah, yes. I was in <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, in the '45, in Bavaria. I worked in a commando of fifteen Jewish men, and me, sixteen.</u>
+                    <u who="#boderD" start="2621.070" end="x">Yes.</u>
+                    <u who="#leaD" start="2621.570" end="x">One day, the sister of one of the working commands died in concentration camp number 7. Naturally us, as Jews, called a young man who had a friend, a colleague, to [unintelligible] dig.</u>
+                    <u who="#boderD" start="2638.460" end="x">[The interviewer says the word dig in another language to check whether he understood correctly].</u>
+                    <u who="#leaD" start="2642.085" end="x">[The interviewee confirms what the interviewer understood]. And then, when we made the pit, the <term ref="#vothG_ss">SS</term> came to us and said "what are you dirty Jews doing with a book?" The man said . . .</u>
+                    <u who="#boderD" start="2655.303" end="x">Oh! You had a book?</u>
+                    <u who="#leaD" start="2656.177" end="x">Yes. We had a book . . . the Hungarians and the Polish Jews, when the Hungarian, in '44, when we were deported, they brought books [unintelligible] and [unintelligible]. And we kept them in holes in the earth, in our pants, we kept the books of the Law to [unintelligible].</u>
+                    <u who="#boderD" start="2675.035" end="x">To pray.</u>
+                    <u who="#leaD" start="2677.722" end="x">To pray. When he sees it, he says . . . says "what is that dirty book you have, Jew?," but . . .</u>
+                    <u who="#boderD" start="2684.237" end="x">Speak slowly, please.</u>
+                    <u who="#leaD" start="2685.346" end="x">"What is that dirty book you have?" My partner stood up and said "she is my sister and I wanted to pray." And he says "for the dirty you don't need to [unintelligible]." Then he took the shovel and hit the man on the head, and he died instantly. And we buried him with his sister, and other 400 people, in a pit. In each pit we dug, we put 300, 350, 400, 450 people. After two meters and forty centimeters in depth, we threw the earth, and before covering them, we threw [unintelligible] or lime to avoid [unintelligible].</u>
+                    <u who="#boderD" start="2729.157" end="x">To avoid what?</u>
+                    <u who="#leaD" start="2730.391" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="2731.032" end="x">Ah.</u>
+                    <u who="#leaD" start="2732.032" end="x">And then, we would throw rocks and earth, and cover the pit and leave. The following day, we would do the same job, because it was a quarantine camp. It was a camp to kill Jews with the injections. The injections we put, either in the arm, or in the foot, after three to four minutes, the blood would go up to [unintelligible]</u>
+                    <u who="#boderD" start="2759.515" end="x">Where to?</u>
+                    <u who="#leaD" start="2760.828" end="x">When the injection was shot, the blood would come up [unintelligible], they were already preto</u>
+                    <u who="#boderD" start="2764.250" end="x">Who would put the injections? Did you?</u>
+                    <u who="#leaD" start="2767.766" end="x">No. The <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="2768.985" end="x">The <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#leaD" start="2769.656" end="x">And in many camps, the <term ref="#vothG_ss">SS</term> ordered the Jews to put injections, but they did that mandatorily because otherwise, the <term ref="#vothG_ss">SS</term> had the machine gun, and it was behind them and "if you don't do this, I will kill you".</u>
+                    <u who="#boderD" start="2783.983" end="x">And . . . ?</u>
+                    <u who="#leaD" start="2784.936" end="x">And of course, the Jew came, and they shot them the injection.</u>
+                    <u who="#boderD" start="2790.248" end="x">But tell me. Where did the blood come from?</u>
+                    <u who="#leaD" start="2793.420" end="x">In the [unintelligible]</u>
+                    <u who="#boderD" start="2794.577" end="x">Here in the . . .</u>
+                    <u who="#leaD" start="2795.874" end="x">And preto and here.</u>
+                    <u who="#boderD" start="2797.030" end="x">Did it seem to flow out?</u>
+                    <u who="#leaD" start="2799.655" end="x">No. It looked all preto, the center of the [unintelligible] with two points, three points, and that was it . . . they died instantly. But after two to three points . . .</u>
+                    <u who="#boderD" start="2812.451" end="x">What did three points do?</u>
+                    <u who="#leaD" start="2814.826" end="x">Three minutes.</u>
+                    <u who="#boderD" start="2816.560" end="x">Three minutes?</u>
+                    <u who="#leaD" start="2817.200" end="x">Two to three minutes, then everything became preto. The [unintelligible] preto. And we took them and threw them in a [unintelligible] and we buried them. Also, in camp 1, in <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, there was the big <term ref="#vothG_ss">SS</term> medical. The name was Blanca, a Spanish name . . . tall, dark. As big as myself.</u>
+                    <u who="#boderD" start="2847.761" end="x">A woman?</u>
+                    <u who="#leaD" start="2848.605" end="x">No. A man. His name was Blanca. A tall, dark man, about 35 or 34 years. He couldn't stand Jews, even those who wanted to work, who were healthy, quite many . . . he gave the order to give them shots. This one was killed, this same one, he had a child and a wife. He was . . . he killed himself . . .</u>
+                    <u who="#boderD" start="2879.154" end="x">What do you mean? A child?</u>
+                    <u who="#leaD" start="2880.998" end="x">A small boy.</u>
+                    <u who="#boderD" start="2882.138" end="x">I see . . . A boy?</u>
+                    <u who="#leaD" start="2883.185" end="x">A boy. He had a little boy and a wife with him.</u>
+                    <u who="#boderD" start="2887.123" end="x">Yes.</u>
+                    <u who="#leaD" start="2887.669" end="x">When the Americans were approaching <term ref="#vothG_lager">Lager</term> 1, he saw that they were coming; he didn't have anything to do, nothing to save . . . he took the little boy, sent him to the [unintelligible], then he took a syringe and killed [unintelligible] his wife in the first place, then [unintelligible], and himself. And an acquaintance of mine, who is currently in <placeName ref="Paris">Paris</placeName>, took the time and the ring from his hand and . . . When he saw he was already dead, he took the ring and the time from his hand.</u>
+                    <u who="#boderD" start="2924.324" end="x">What do you mean "the time"? The watch?</u>
+                    <u who="#leaD" start="2926.262" end="x">The watch. The time and the ring. This comrade is now in <placeName ref="Paris">Paris</placeName> and we see each other every day and every night.</u>
+                    <u who="#boderD" start="2936.262" end="x">Right.</u>
+                    <u who="#leaD" start="2937.277" end="x">I wanted . . .</u>
+                    <u who="#boderD" start="2938.980" end="x">Yes.</u>
+                    <u who="#leaD" start="2940.214" end="x">In camp 5, camp 5, after the occupation . . .</u>
+                    <u who="#boderD" start="2950.010" end="x">Camp 5 where?</u>
+                    <u who="#leaD" start="2950.667" end="x">Camp 5 of <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>, Bavaria, after the occupation, we were working in commandos, very hard, with trees, to cut trees down for [unintelligible] we couldn't do the job because we didn't have any food and we would say "if you want us to work, give us food," if not [unintelligible]. We can't work 14 hours a day; it's better if you kill us. The <term ref="#vothG_ss">SS</term> didn't want to kill us.</u>
+                    <u who="#boderD" start="2978.540" end="x">Yes.</u>
+                    <u who="#leaD" start="2979.306" end="x">They didn't want to kill us. We are going to make you suffer, we are going to beat you to death and then we are going to kill you when we wish, and as we like. This happened in the <term ref="#vothG_lager">Lager</term> (camp) of <placeName ref="Landsberg concentration camp" type="camp">Landsberg</placeName>. In <term ref="#vothG_lager">Lager</term> 5, in <term ref="#vothG_lager">Lager</term> 6, in <term ref="#vothG_lager">Lager</term> 7, in <term ref="#vothG_lager">Lager</term> 8, in <term ref="#vothG_lager">Lager</term> 9, in <term ref="#vothG_lager">Lager</term> 10 and in <term ref="#vothG_lager">Lager</term> 11. We worked at the [unintelligible] station, that was the commando.</u>
+                    <u who="#boderD" start="3009.633" end="x">[Unintelligible]? [The interviewer confirms the name of the commando in German].</u>
+                    <u who="#leaD" start="3013.524" end="x">[Unintelligible]. [The interviewer repeats the name of the commando in German]. I worked in <term ref="#vothG_lager">Lager</term> 7, in commando Tot. My name . . .</u>
+                    <u who="#boderD" start="3022.367" end="x">Tot commando?</u>
+                    <u who="#leaD" start="3023.164" end="x">Tot commando, yes.</u>
+                    <u who="#boderD" start="3023.852" end="x">That was bad! What was it?</u>
+                    <u who="#leaD" start="3026.789" end="x">The Tot commando was a specialized commando for burying the dead, because in Germany it was forbidden to make crematories and burn the dead, because the greatest part of the civil German population ignored that there were crematories and furnaces. Many a time we would come from . . . we came across German civilians and explained to them. And the civilians would say: "German people never do that atrocity." But we told them: "but we told them one day . . . we already know that [unintelligible] Germans, but the story will come to be known, or [unintelligible], or even [unintelligible], that crematories existed in Germany."</u>
+                    <u who="#leaD" start="3067.459" end="x">The largest and cruelest crematory was in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> camp, in which I have a companion, that we sleep all together in the [unintelligible] of Maison de la Rue [unintelligible]. 9 Rue [unintelligible], <placeName ref="Paris">Paris</placeName>. We are 4 of them, 4 Jews. Three are from the <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> camp, and one is from <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> camp [unintelligible]. One is called [unintelligible], the other's name is Henry Suchami, who currently works with the American <term ref="#vothG_ajdc">Joint</term>. Henry Suchami is the first Sephardic transportation from Greece to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. 109,957, first transportation from Greece, who lost his mother, father, family, three children aged five, seven, and eleven, and his wife. And the wife was pregnant.</u>
+                    <u who="#leaD" start="3135.581" end="x">[Unintelligible name], a young man, about 35 years old, lost a child and his wife. And he is included in the Palestine migration list, and there is no chance to leave, not a single chance to leave. The [unintelligible] Palestinian from <placeName ref="Paris">Paris</placeName>, who is at 83 Avenue [unintelligible], says, "tomorrow, after tomorrow, five months from now, one month from now, three months from now, you are leaving." This young man has relatives in Palestine, but, as he is thin, he can't leave illegally, he is scared, he is staying with me.</u>
+                    <u who="#boderD" start="3176.754" end="x">Cause he is thin . . .</u>
+                    <u who="#leaD" start="3178.098" end="x">From camp [unintelligible]. As he is [unintelligible] the camp, [unintelligible], he can't even work, nothing. Naturally, what does he expect from me, a partner with whom we were in the camp three years, a piece of bread, or a pant he will have to adapt to his size. If I don't give him a pant, shoes, he doesn't have anything to wear, and . . . he can't work. He has thin, he has [unintelligible] his lungs. This isn't the only case of deportees, there are many deportees here in France, who . . .</u>
+                    <u who="#boderD" start="3209.165" end="x">Of course.</u>
+                    <u who="#leaD" start="3210.143" end="x">There are many deportees here in France, who are still suffering. And we want to go to Palestine, and we see the British barbarism, that if we . . . the young people who came from the camps, if we don't go to Palestine, we would never start working. I, a Lebanese, who am talking to you, wouldn't think to go to work to Palestine ever, I would think of taking the rifle or the machine gun, and claim for freedom. If you don't get freedom through war . . . if I don't get freedom with politics, I get freedom with war. I would never think of going to work. If I die in Palestine, some day my children or my siblings are going to come. Because I have already seen the camp when I was three, I saw the extermination of 6,000 Jews, and would never like this British politics. We, the survivors from the camps, want to go right now fight that dirty rac . . . that dirty British politics and we don't have the possibility because of where we are. Because there are currently in France many Jews, young people, that are migrating illegally.</u>
+                    <u who="#boderD" start="3281.542" end="x">Migrating to France?</u>
+                    <u who="#leaD" start="3284.276" end="x">No. Migrating to Palestine.</u>
+                    <u who="#boderD" start="3286.400" end="x">Yes.</u>
+                    <u who="#leaD" start="3286.900" end="x">And one day, Palestine . . . one day, Palestine we will take it and even if 50,000 Jews died in Palestine in combat, or 100,000 Jews. It is not the important point.</u>
+                    <u who="#boderD" start="3298.742" end="x">[In English] This ends Spool 42 of Mr. David Lea.</u>
+                </div>
+                <!-- end spool 9-42 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

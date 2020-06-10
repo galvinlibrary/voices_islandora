@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Bertha Goldwasser; August 4, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Elliot Lefkovitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT32M22.465S" id="goldwasserB_9-24">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-24</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-04</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="goldwasserB_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="goldwasserB_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="goldwasserB" role="interviewee">
+                        <persName>
+                            <forename>Bertha</forename>
+                            <surname>Goldwasser</surname>
+                            <surname type="maiden">Rosenstrauch</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>34</age>
+                        <birth ref="Poland"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>widow</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Paris">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Drancy concentration camp">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#goldwasserB_de">
+                <!-- begin Spool 9-24 -->
+                <div lang="en">
+                    <u who="#boderD" start="7.681" end="x">[In English] This is Spool number 24, taken the 4th of August, 1946, at 9 Rue de Patin, Paris. The interviewee is Mrs. Bertha Goldwasser, née Rosenstrauch, age 34. She is here in Paris and works with the Neue Freie Presse, a Jewish newspaper.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="33.997" end="x">[In German] Also Frau Goldwasser, wollen Sie uns wieder geben Ihren vollen Namen und wer Sie sind.</u>
+                    <u who="#goldwasserB" start="41.981" end="x">Mein Name ist Goldwasser. Geboren in Polen, verheiratet hab ich in Paris. Mein Mann, sein Name war Kuba Goldwasser, der . . . welcher war deportiert im 41. Jahr und arretiert bei der deutschen Gestapo.</u>
+                    <u who="#boderD" start="58.420" end="x">In Paris?</u>
+                    <u who="#goldwasserB" start="59.207" end="x">In Paris.</u>
+                    <u who="#boderD" start="60.352" end="x">Also sagen Sie mal, Frau Goldwasser, wo waren Sie, wenn der Krieg hat angefangen?</u>
+                    <u who="#goldwasserB" start="64.774" end="x">Wenn der Krieg hat angefangen war ich hier in Paris die ganze Zeit bis im Jahr, bis im Jahr 41. An dem Tag, wo man hat meinen Mann arretiert . . . und von der Deportation habe ich nichts gewusst. Vierzehn Tage später hat man mich auch arretiert mit meinem neun monatigen Mädchen.</u>
+                    <u who="#boderD" start="84.014" end="x">Bitte etwas näher, ein bisschen [unverständlich], ja? Man hat Sie also arretiert mit ihrem neun Monate alten Kind?</u>
+                    <u who="#goldwasserB" start="93.143" end="x">Ja.</u>
+                    <u who="#boderD" start="93.927" end="x">Erzählen Sie mir, wie es da war. Sie lebten mit ihrem Mann in Paris, nicht wahr?</u>
+                    <u who="#goldwasserB" start="101.049" end="x">Ja.</u>
+                    <u who="#boderD" start="101.351" end="x">Was war seine Beschäftigung?</u>
+                    <u who="#goldwasserB" start="102.801" end="x">Seine Beschäftigung war, er war Ingenieur.</u>
+                    <u who="#boderD" start="105.195" end="x">Er war ein Ingenieur.</u>
+                    <u who="#goldwasserB" start="106.143" end="x">Ingenieur, ja.</u>
+                    <u who="#boderD" start="107.151" end="x">Und haben Sie noch andere Kinder?</u>
+                    <u who="#goldwasserB" start="108.818" end="x">Nein.</u>
+                    <u who="#boderD" start="109.414" end="x">Das war Ihr . . .</u>
+                    <u who="#goldwasserB" start="110.780" end="x">Mein Einziges, mein einziges Baby . . .</u>
+                    <u who="#boderD" start="113.214" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="113.479" end="x">. . . ich habe gehabt.</u>
+                    <u who="#boderD" start="114.764" end="x">Haben Sie das Kind noch mit?</u>
+                    <u who="#goldwasserB" start="115.869" end="x">Nein. Ich bin auch deportiert und, hm,nun ich habe gewusst schon wo die Deportation hingeht und bin ich vom Zug hier runter gesprungen mit meinem Kind auf dem Arm. Und leider Gottes hat mein Kind den Tod erfahren während ich bin herunter gesprungen. Und ich selber war auch schwer verwundet, aber die Franzosen habe mich aufgehoben und mich . . . in neun Monaten auskuriert. Und nachher . . .</u>
+                    <u who="#boderD" start="138.302" end="x">Welche Franzosen? Die, die auf dem Zug waren?</u>
+                    <u who="#goldwasserB" start="139.943" end="x">Nein, die waren auf dem Boden. Die Franzosen, die haben gewohnt bei dem . . .</u>
+                    <u who="#boderD" start="143.080" end="x">Nicht so schnell, bitte. Also Ihr Mann würde . . . wurde arretiert und was hat man mit ihm gemacht?</u>
+                    <u who="#goldwasserB" start="151.884" end="x">Man hat ihn deportiert nach Deutschland, um im Salzgraben zu arbeiten.</u>
+                    <u who="#boderD" start="155.790" end="x">Ja. Wie hat man ihn arretiert? Erzählen Sie mir die Einzelheiten von diesem Fall.</u>
+                    <u who="#goldwasserB" start="160.784" end="x">Mich hat man zu Hause . . .</u>
+                    <u who="#boderD" start="162.164" end="x">Nein, nein—Ihren Mann.</u>
+                    <u who="#goldwasserB" start="163.282" end="x">Meinen Mann hat man auch zu Hause arretiert, es war am . . . am 26 August . . .</u>
+                    <u who="#boderD" start="170.166" end="x">August.</u>
+                    <u who="#goldwasserB" start="170.742" end="x">August um neun Uhr früh sind die Gestapo zu Hause hinein gekommen und haben gefragt seinem Namen.</u>
+                    <u who="#boderD" start="176.676" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="177.489" end="x">Und dann haben Sie gesagt: „Ah, sie sind Jude! Dann kommen Sie. Sie gut für, für Arbeit in Deutschland.” Mein Mann hat gearbeitet, hm, geantwortet: „Arbeiten ist bei mir kein Schreck, aber ich möchte nicht das durchmachen, was meine Freund schon haben mitgemacht in Deutschland.” Dann haben sie ihn beim Rücken genommen und die Stiegen herunter geschmissen. Und sie sagen: „Wir werden dir schon Arbeit geben, du wirst lange arbeiten für uns.” Und nachher ist er . . . haben sie ihn nach Deutschland deportiert. Sie haben ihn weggenommen von Drancy und von dort haben sie ihn nach Pantin geschickt.</u>
+                    <u who="#boderD" start="212.707" end="x">Und wer hat Ihnen das gesagt? Hat er Ihnen geschrieben?</u>
+                    <u who="#goldwasserB" start="214.283" end="x">Das, darüber habe ich von den Deutschen selber ein Papier bekommen, dass der Jude, der Häftlings-Jude Goldwasser fahrt nach Deutschland as freiwilliger Arbeiter.</u>
+                    <u who="#boderD" start="224.156" end="x">Als Freiwilliger?</u>
+                    <u who="#goldwasserB" start="224.883" end="x">Als freiwilliger Arbeiter. Aber das ist nicht wahr, denn sie haben es mit allen Juden und auch Franzosen gemacht. Aber das waren keine Freiwilligen, weil kein Jude und kein Franzose hat für die Deutschen sich freiwillig gemeldet.</u>
+                    <u who="#boderD" start="237.587" end="x">Erzählen Sie mir, Frau Goldwasser, wann hat man Ihnen dieses Papier gegeben?</u>
+                    <u who="#goldwasserB" start="241.718" end="x">Das Papier habe ich bekommen, hab ich bekommen in, hm, . . . April, am 11 April.</u>
+                    <u who="#boderD" start="248.923" end="x">Und sie haben ihn im August genommen?</u>
+                    <u who="#goldwasserB" start="251.634" end="x">Ja, im 41 Jahr.</u>
+                    <u who="#boderD" start="252.869" end="x">Ja und . . .</u>
+                    <u who="#goldwasserB" start="253.231" end="x">Am 11 April . . .</u>
+                    <u who="#boderD" start="253.351" end="x">Am elften 11 April . . .</u>
+                    <u who="#goldwasserB" start="254.791" end="x">. . . im 42. Jahr habe ich das . . .</u>
+                    <u who="#boderD" start="256.839" end="x">. . . das Papier bekommen.</u>
+                    <u who="#goldwasserB" start="257.894" end="x">. . . das Papier bekommen.</u>
+                    <u who="#boderD" start="259.063" end="x">Was hat man . . . hat man es Ihnen zu geschickt oder haben sie es gegeben?</u>
+                    <u who="#goldwasserB" start="260.663" end="x">Mit der Post.</u>
+                    <u who="#boderD" start="262.169" end="x">Man hat Sie mit der Post verständigt?</u>
+                    <u who="#goldwasserB" start="263.234" end="x">Ja.</u>
+                    <u who="#boderD" start="263.429" end="x">Dass er freiwillig nach Deutschland gegangen ist zu arbeiten.</u>
+                    <u who="#goldwasserB" start="266.867" end="x">Ja. Und auch unten haben sie dazu geschrieben: der Häftlings-Jude.</u>
+                    <u who="#boderD" start="270.797" end="x">Ja. Und nun also dann ist ihr Mann weggegangen und sie sind mit dem Kind geblieben.</u>
+                    <u who="#goldwasserB" start="275.942" end="x">Ah hm, ich bin mit dem Kind geblieben.</u>
+                    <u who="#boderD" start="277.071" end="x">Und wann hat man Sie arretiert?</u>
+                    <u who="#goldwasserB" start="279.324" end="x">Am sechzehnten Juli im 42 Jahr.</u>
+                    <u who="#boderD" start="282.185" end="x">Das war ungefähr ein Jahr später.</u>
+                    <u who="#goldwasserB" start="284.494" end="x">Ja, ein Jahr später.</u>
+                    <u who="#boderD" start="285.287" end="x">Na, warten Sie mal, war das Kind schon geboren wie Ihr Mann weg ging?</u>
+                    <u who="#goldwasserB" start="289.012" end="x">Ja, das Kind war schon geboren.</u>
+                    <u who="#boderD" start="290.247" end="x">Das Kind war schon geboren, wenn Ihr Mann weg ging?</u>
+                    <u who="#goldwasserB" start="292.682" end="x">Ja, wie mein Mann weg gegangen ist.</u>
+                    <u who="#boderD" start="293.911" end="x">Und das Kind war dann neun Monate alt?</u>
+                    <u who="#goldwasserB" start="295.421" end="x">Neun . . . es war neun Monate alt.</u>
+                    <u who="#boderD" start="297.027" end="x">Und wie man Sie arretiert hat, war das Kind schon ungefähr ein ein halb Jahre alt oder so, nicht wahr?</u>
+                    <u who="#goldwasserB" start="304.303" end="x">Ja. Nein, es war so, wenn neun Monate, das Kind hat neun Monate gehabt, da bin ich schon einmal arretiert worden . . .</u>
+                    <u who="#boderD" start="309.578" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="310.472" end="x">. . . wenn ich bin zum Lager gegangen, um mein Mann . . . meinem Mann Brot herein geworfen haben.</u>
+                    <u who="#boderD" start="315.667" end="x">Oh, was nun?</u>
+                    <u who="#goldwasserB" start="316.986" end="x">Da hat man mich arretiert das erste Mal mit dem Kind zusammen. Ich habe das Kind mitgenommen. Ich habe geglaubt, wenn sie ein Kind sehen, lassen sie mich im Lager durch gehen.</u>
+                    <u who="#boderD" start="327.284" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="328.242" end="x">Aber das hat nicht geholfen und wie die Anderen bin ich auch arretiert worden.</u>
+                    <u who="#boderD" start="330.776" end="x">War das in Paris?</u>
+                    <u who="#goldwasserB" start="332.182" end="x">In Drancy.</u>
+                    <u who="#boderD" start="333.250" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="333.451" end="x">Ein paar Kilometer von Paris, zwei . . .</u>
+                    <u who="#boderD" start="335.108" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="335.634" end="x">Nicht weit.</u>
+                    <u who="#boderD" start="336.548" end="x">So und dann . . . wie hat man Sie weg gelassen?</u>
+                    <u who="#goldwasserB" start="339.885" end="x">Man hat mich nach Drancy reingenommen auch . . .</u>
+                    <u who="#boderD" start="342.998" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="343.290" end="x">. . . aber mein Mann hat von dem gar nicht gewusst.</u>
+                    <u who="#boderD" start="345.423" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="345.859" end="x">Dann hat man . . . dann haben die Franzosen eingewendet, dass ich . . .</u>
+                    <u who="#boderD" start="349.156" end="x">Welche Franzosen?</u>
+                    <u who="#goldwasserB" start="350.351" end="x">Die Franzo, französischen . . . die, der Kommandant von dem französischen Lager.</u>
+                    <u who="#boderD" start="354.783" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="354.988" end="x">Der französische Kommandant von dem Lager . . .</u>
+                    <u who="#boderD" start="356.779" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="357.181" end="x">. . . hat eingewendet, ich soll mit dem Kind hinaus lassen.</u>
+                    <u who="#boderD" start="360.398" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="360.663" end="x">Hat mich hinaus . . . nachher und nachher die Polizei . . .</u>
+                    <u who="#boderD" start="362.842" end="x">Und warum hat er das getan?</u>
+                    <u who="#goldwasserB" start="364.543" end="x">Er hat Mitleid gehabt . . . mit dem Kind wahrscheinlich. Und er hat nicht gekonnt es anders machen, weil ich die erste Frau war, die arretiert war zu der Zeit.</u>
+                    <u who="#boderD" start="372.572" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="373.409" end="x">Ja.</u>
+                    <u who="#boderD" start="374.443" end="x">Ja und nun hat man Sie . . . sprechen Sie in diese Richtung. So hat man Sie entlassen und Sie sind nach Hause gekommen.</u>
+                    <u who="#goldwasserB" start="382.110" end="x">Ich bin nach Hause gekommen.</u>
+                    <u who="#boderD" start="383.208" end="x">Wo haben Sie da gewohnt?</u>
+                    <u who="#goldwasserB" start="385.126" end="x">Nicht mehr auf der Strasse . . . ich war nicht mehr, nicht weit . . . auf einer Anderen, auf einer ganz Anderen [unverständlich].</u>
+                    <u who="#boderD" start="390.126" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="390.883" end="x">Ich hab . . .</u>
+                    <u who="#boderD" start="391.245" end="x">Haben Sie eine Armband tragen müssen? Haben Sie eine Schleife tragen müssen?</u>
+                    <u who="#goldwasserB" start="395.506" end="x">Ich habe müssen tragen einen Magen David, wie man sagt, und darauf geschrieben . . .</u>
+                    <u who="#boderD" start="398.940" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="399.185" end="x">. . . mit „Juive”.</u>
+                    <u who="#boderD" start="401.217" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="401.789" end="x">Aber ich habe es nicht getragen, weil niemand mir erkennt, dass ich eine Jüdin bin . . .</u>
+                    <u who="#boderD" start="406.659" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="407.141" end="x">. . . hab ich mir erlaubt, es nicht zu tragen.</u>
+                    <u who="#boderD" start="409.250" end="x">Sie haben das riskiert, nicht wahr?</u>
+                    <u who="#goldwasserB" start="410.700" end="x">Ich habe es riskiert, ja!</u>
+                    <u who="#boderD" start="411.899" end="x">Ja. Nun und so sind Sie nach Hause gekommen mit dem Kind.</u>
+                    <u who="#goldwasserB" start="414.313" end="x">Und so bin ich nach Hause gekommen mit dem Kind.</u>
+                    <u who="#boderD" start="416.777" end="x">Nun—und was haben Sie dann getan? Haben Sie gearbeitet?</u>
+                    <u who="#goldwasserB" start="420.626" end="x">Ich habe vor gehabt zu arbeiten . . .</u>
+                    <u who="#boderD" start="422.534" end="x">Wo?</u>
+                    <u who="#goldwasserB" start="422.634" end="x">Illegal bei Schneiderei.</u>
+                    <u who="#boderD" start="425.005" end="x">Bei Schneiderei. Können Sie nähen?</u>
+                    <u who="#goldwasserB" start="426.853" end="x">Ich kann nähen auch, ja.</u>
+                    <u who="#boderD" start="428.865" end="x">Ja. Und wie lange haben Sie gearbeitet und wo haben Sie gearbeitet . . . bis, hm, man Sie wieder arretiert hat?</u>
+                    <u who="#goldwasserB" start="436.040" end="x">. . . bis ich wieder arretiert . . .</u>
+                    <u who="#boderD" start="436.747" end="x">Erzählen Sie mir die Einzelheiten von diesem Arrest.</u>
+                    <u who="#goldwasserB" start="439.793" end="x">Man hat mich . . . um vier Uhr in der Früh sind sie gekommen zu mir nach Hause und man hat geklopft . . .</u>
+                    <u who="#boderD" start="448.065" end="x">Um vier . . .</u>
+                    <u who="#goldwasserB" start="449.832" end="x">Uhr in der Früh hat man geklopft—hab ich nicht geantwortet.</u>
+                    <u who="#boderD" start="454.328" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="455.145" end="x">Dann noch einmal und dann . . . haben sie die Tür eingebrochen.</u>
+                    <u who="#boderD" start="458.900" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="459.422" end="x">Aber ich hab gehabt ein Fenster, was hat gegehen auf . . . hm, auf ein Dach von einem anderen Haus. So bin ich von dem Fenster hinaus und hab angefangen . . .</u>
+                    <u who="#boderD" start="466.485" end="x">Sagen Sie, waren Sie angekleidet?</u>
+                    <u who="#goldwasserB" start="468.242" end="x">Ich hab mich angekleidet . . . nur ein Peignoir [= Morgenmantel] hab ich mir mitgenommen . . .</u>
+                    <u who="#boderD" start="470.740" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="472.079" end="x">. . . und ich bin durch das Fenster hinaus und ich hab angefangen auf [unverständlich] zu gehen.</u>
+                    <u who="#boderD" start="477.310" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="477.682" end="x">. . . bis ich nicht mehr . . . und sie haben angefangen mir nach zu schießen. Und dann habe ich mir unter gegeben.</u>
+                    <u who="#boderD" start="485.540" end="x">Mit dem Kind?</u>
+                    <u who="#goldwasserB" start="486.554" end="x">Dann bin ich runter gekommen und da haben sie schon das Kind gehabt. Weil die ganze Zeit seit dem ersten Arretierung habe ich das Kind nicht bei mir gehabt. Meine Hausfrau hat das Kind gehalten.</u>
+                    <u who="#boderD" start="500.081" end="x">Ihre Hausfrau hat das . . . ?</u>
+                    <u who="#goldwasserB" start="501.461" end="x">Hat das Kind gehalten.</u>
+                    <u who="#boderD" start="503.011" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="503.252" end="x">Und nachher, wie ich bin runter gekommen, haben sie schon das Kind gehabt und haben mich, so wie ich bin gestanden, haben sie mich in das Lager genommen.</u>
+                    <u who="#boderD" start="512.317" end="x">Und sie haben Ihnen das Kind gegeben?</u>
+                    <u who="#goldwasserB" start="513.934" end="x">Ja, sie haben das Kind mir gegeben, ja.</u>
+                    <u who="#boderD" start="516.207" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="516.569" end="x">Das war ein großes Lager, wo hundert . . . hunderte, tausende von Frauen und Kinder und auch Männer waren, so zusammen gruppiert.</u>
+                    <u who="#boderD" start="524.218" end="x">Alles Juden?</u>
+                    <u who="#goldwasserB" start="525.085" end="x">Alles Juden, nur Juden. Und nachher haben sie angefangen auszusortieren, aussortieren wie man sagt, und die Frauen mit Kindern nach Drancy gebracht.</u>
+                    <u who="#boderD" start="536.071" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="536.497" end="x">Und von dort wurden die Kinder in den Zug genommen und anders deportiert, man genommen die Kinder und deportiert besonders.</u>
+                    <u who="#boderD" start="543.630" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="543.865" end="x">Ich hab mich . . . aber ich hab mich . . . [pause]</u>
+                    <u who="#boderD" start="548.899" end="x">Sie sind vom Zug heraus gesprungen.</u>
+                    <u who="#goldwasserB" start="550.048" end="x">Ich hab mir gedacht . . . ich habe gebeten dort die Frau, die deutsche Frau . . . die hat mich gern gehabt, weil sie selber verheiratet war mit einem Juden. Und sie war da . . . sie war in Frankreich und sie hat mich von zuvor gekannt auch. Dann hat sie gesagt . . .</u>
+                    <u who="#boderD" start="563.302" end="x">Sie hat Sie gekannt? War es eine Bekannte von Paris?</u>
+                    <u who="#goldwasserB" start="565.401" end="x">Es war eine Bekannte von Paris, die was hat da bei mir gewohnt. Aber sie hat wollen sich retten und sie hat gesagt, dass sie eine Deutsche ist, aber sie war eine Österreicherin, eine Wienerin war . . .</u>
+                    <u who="#boderD" start="573.559" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="573.958" end="x">. . . und auch ein Jüd, ein Mischling, . . .</u>
+                    <u who="#boderD" start="576.482" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="577.285" end="x">. . . und sie . . . sie hat mir gesagt, ich soll hinein gehen in den zweiten Wagon, dort sind die Kinder und ich soll sagen, sie hat mich geschickt. Und dann bin ich in den zweiten Wagon hinein und ich habe . . . und ich habe dort mein Kind gefunden. Und so sind wir [unverständlich] und es waren andere Mütter auch, die—ich weiß nicht auf welche Art wie . . . wie die zu die Kinder kommen. Und wie wir sind gekommen bei Colmar bei der Grenze . . . bei Colmar . . . sind wir, bin ich vom Zug hinaus gesprungen.</u>
+                    <u who="#boderD" start="603.255" end="x">Nun warten Sie mal, was für Wagon waren das?</u>
+                    <u who="#goldwasserB" start="606.318" end="x">Ein versiegelter Wagon, ein ganz vermachter Wagon für . . . für . . .</u>
+                    <u who="#boderD" start="610.202" end="x">Ein Liefer-Wagon?</u>
+                    <u who="#goldwasserB" start="612.324" end="x">Ein Wagon für die . . . für die Viecher, wie man, wie man . . .</u>
+                    <u who="#boderD" start="615.086" end="x">Für Vieh?</u>
+                    <u who="#goldwasserB" start="615.602" end="x">Ja.</u>
+                    <u who="#boderD" start="616.024" end="x">Ein Vieh-Wagon.</u>
+                    <u who="#goldwasserB" start="616.881" end="x">Ja.</u>
+                    <u who="#boderD" start="617.414" end="x">Nun und wie konnte Sie raus springen?</u>
+                    <u who="#goldwasserB" start="619.968" end="x">Es waren . . . da waren drei . . . les planches, wie sagt man da?</u>
+                    <u who="#boderD" start="624.084" end="x">Die Bretter waren nicht fest . . . ?</u>
+                    <u who="#goldwasserB" start="624.570" end="x">Die Bretter waren apart . . . und so . . .</u>
+                    <u who="#boderD" start="627.466" end="x">Oh, das war ein richtiger Vieh-Wagon?</u>
+                    <u who="#goldwasserB" start="631.064" end="x">Ja.</u>
+                    <u who="#boderD" start="631.376" end="x">Denn so hat man das Vieh transportiert . . .</u>
+                    <u who="#goldwasserB" start="631.892" end="x">Ja, das Vieh . . .</u>
+                    <u who="#boderD" start="632.946" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="633.247" end="x">Und dann haben die [unverständlich] . . . habe ich einen—ich weiß, ich weiß überhaupt nicht, wo ich die Kraft her dazu genommen, ich hab ausgebrochen einen Breiten und ich hab gesehen der Zug fängt an den Berg hinauf zu gehen . . .</u>
+                    <u who="#boderD" start="644.197" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="644.974" end="x">. . . bin ich hinunter gesprungen mit dem Kind.</u>
+                    <u who="#boderD" start="647.113" end="x">Hat Ihnen jemand das erzählt, dass es besser zu springen ist, wenn der Zug bergauf geht?</u>
+                    <u who="#goldwasserB" start="651.183" end="x">Nein, nein, ich habe mich schon mit dem Gedanken die ganze Zeit ge . . . getragen. Ich hab mir gesagt: „Einmal und für alles zum Tode fahr ich doch und da kann ich doch vielleicht mir das Leben zu retten.”</u>
+                    <u who="#boderD" start="661.488" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="662.054" end="x">Und dem Kind. Aber leider habe ich das Kind verloren beim Runterspringen. Und mit die Hände . . . mit meine Hände habe ich müssen das Kind zusammen nehmen . . . extra Teile von dem Körper habe ich im Wald gelassen.</u>
+                    <u who="#boderD" start="674.457" end="x">Was heißt extra Teile von . . . ?</u>
+                    <u who="#goldwasserB" start="675.833" end="x">Ein Fuß, eine Hand habe ich . . .</u>
+                    <u who="#boderD" start="677.363" end="x">Gesucht zusammen . . . ?</u>
+                    <u who="#goldwasserB" start="678.779" end="x">Ja, wenn ich bin herunter gesprungen der Zug ist schnell den Berg . . . den Berg hinauf gegangen . . .</u>
+                    <u who="#boderD" start="683.673" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="684.551" end="x">. . . und so kann ich mich selber nicht kann vor . . . nach vorn gehen. Und dann sind gekommen zwei französische Männer—von der Arbeit sind sie gekommen und haben sie mich gefragt, was ich hier mache. Und ich habe gesagt, ich bin eine Christin und die Deutschen habe mich bis hierher gebracht und haben mich da gelassen. Ich habe mich nicht getraut ihnen die Wahrheit zu sagen.</u>
+                    <u who="#boderD" start="703.686" end="x">Sie haben ihnen nicht gesagt, dass sie vom Zug gesprungen . . .</u>
+                    <u who="#goldwasserB" start="705.423" end="x">Nein.</u>
+                    <u who="#boderD" start="706.216" end="x">Nein.</u>
+                    <u who="#goldwasserB" start="706.327" end="x">Hab mich nicht getraut . . .</u>
+                    <u who="#boderD" start="707.044" end="x">Und war der Körper des Kindes noch mit Ihnen?</u>
+                    <u who="#goldwasserB" start="708.905" end="x">Nein, sie haben schon nichts gesehen von dem Kind.</u>
+                    <u who="#boderD" start="710.763" end="x">Sie haben das Kind begraben?</u>
+                    <u who="#goldwasserB" start="711.279" end="x">Ich habe sie begraben, ja. Und dann kommen die Leute und sie haben mich mit sich genommen und haben mich, hm, . . . die Wunden gewaschen und ich bin geblieben . . .</u>
+                    <u who="#boderD" start="721.781" end="x">Wo waren Sie verwundet?</u>
+                    <u who="#goldwasserB" start="723.157" end="x">Das Knie, habe ich jetzt zwei [unverständlich] gebrochen gehabt.</u>
+                    <u who="#boderD" start="726.816" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="727.171" end="x">Im linken Fuß, ja. Und auch den ganzen Rücken hab ich zerschlagen gehabt, ich hab überhaupt—ich kann nicht gehen, ich kann nicht liegen und kein Essen hat dann geschmeckt. Aber ich war doch mit die Leute, die waren sehr nett zu mir und die haben mich auskuriert.</u>
+                    <u who="#boderD" start="742.825" end="x">Haben sie einen Doktor gebracht?</u>
+                    <u who="#goldwasserB" start="744.258" end="x">Nein, ich habe nicht gewollt, ich habe gesagt, ich . . .</u>
+                    <u who="#boderD" start="746.280" end="x">Aber wie kann man einen gebrochenen Fuß auskurieren?</u>
+                    <u who="#goldwasserB" start="748.730" end="x">Da war ein . . . ein Geistlicher, der hat mir das gemacht.</u>
+                    <u who="#boderD" start="752.981" end="x">Ein Geistlicher?</u>
+                    <u who="#goldwasserB" start="753.225" end="x">Ein Geistlicher.</u>
+                    <u who="#boderD" start="753.621" end="x">Der hat Ihnen den Fuß verbunden?</u>
+                    <u who="#goldwasserB" start="755.011" end="x">Ja, verbunden. Und so bin ich geblieben neun [9] Monate mit diese Leute.</u>
+                    <u who="#boderD" start="759.282" end="x">Sagen Sie mal, wenn man mit einem Geistliche zusammen kommt, hat der nicht verstehen können, dass Sie Jüdin waren?</u>
+                    <u who="#goldwasserB" start="766.084" end="x">Aber die Geistlichen selber haben sehr viel für die Juden getan.</u>
+                    <u who="#boderD" start="769.719" end="x">Die Geistlichen?</u>
+                    <u who="#goldwasserB" start="769.924" end="x">die französischen Geistlichen haben schon sehr viel für die Juden getan. Sie haben hunderte Kinder auf ge . . . aufgehalten mit sich.</u>
+                    <u who="#boderD" start="776.896" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="777.583" end="x">Sehr viel—die Geistlichen und auch die, hm, nun Schwestern.</u>
+                    <u who="#boderD" start="782.035" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="782.441" end="x">Sie haben sehr viele Kinder bei hier in Frankreich auch auf . . .</u>
+                    <u who="#boderD" start="784.704" end="x">Das ist wirklich wahr?</u>
+                    <u who="#goldwasserB" start="786.300" end="x">Ganz wahr, so wie ich sage.</u>
+                    <u who="#boderD" start="788.027" end="x">Ja, ich meine, dass man das erzählt hat in Amerika und wir wissen, wir haben gehört, dass die französischen Geistlichen gut waren, besonders gut.</u>
+                    <u who="#goldwasserB" start="796.279" end="x">Sehr gut.</u>
+                    <u who="#boderD" start="797.165" end="x">Ja. So?</u>
+                    <u who="#goldwasserB" start="798.924" end="x">Und nachher—da hat der Geistliche mit mir zu reden angefangen. Und ich habe gesehen, ich kann zu ihm Zutrauen haben, weil ich habe ihn einmal gefragt, was ist eigentlich an der Front [unverständlich—Rauschen im Tonband]. Und die Leute mit denen ich war, gehörten auch zur französischen Resistance.</u>
+                    <u who="#boderD" start="825.782" end="x">Und die Leute haben auf Sie [unverständlich; starkes Rauschen im Tonband] und sie sind gesund geworden. Und wohin sind Sie dann gegangen?</u>
+                    <u who="#goldwasserB" start="838.721" end="x">[unverständlich; starkes Rauschen im Tonband] . . . und so bis zur Befreiung war ich bei der französischen Resistance und habe gearbeitet dort bis zur Befreiung.</u>
+                    <u who="#boderD" start="895.912" end="x">Nun erzählen Sie mir etwas von der Arbeit der französischen Resistance.</u>
+                    <u who="#goldwasserB" start="900.159" end="x">Die französische Resistance hat sehr viel gearbeitet und hat, hat viel für die Juden getan. Wenn wir, wenn sie gehört haben, dass Juden arretiert wurden, haben sie gleich geschickt und die Juden in die Wälder genommen. Sie waren organisiert militärisch und wir haben sehr viel gegen die Deutschen gemacht</u>
+                    <u who="#boderD" start="923.577" end="x">Was haben sie, zum Beispiel, gemacht?</u>
+                    <u who="#goldwasserB" start="925.095" end="x">[unverständlich; starkes Rauschen im Tonband] gegen das deutsche Militär. Wir haben gegen das Militär Granaten geworfen und danach haben sie gestört im Vormarsch.</u>
+                    <u who="#boderD" start="935.659" end="x">Sie haben was verhindert?</u>
+                    <u who="#goldwasserB" start="937.225" end="x">Im Vormarsch. Wir haben auch Flieger gehabt, [unverständlich; starkes Rauschen im Tonband] Amerikaner, Kanadier und Englische, die haben herunter geschossen und die herunter geschossen sind. Die Flugzeuge wurden herunter geschossen. Diese Leute, die Amerikaner, diese „avaiteur”, wenn sie waren krank oder [unverständlich; starkes Rauschen im Tonband], wir haben sie zur der spanischen als auch der schweizerischen Grenze gebracht. Ich selber hab vier und zwanzig kanadische „avaiateuren” Flieger zu der spanischen Grenze geführt. Und dort habe ich sie übergeben der schweizerischen Resistance und auch an Geistliche. Diese haben ihnen angezogen andere Kleider und haben sie nach Spanien geführt.</u>
+                    <u who="#boderD" start="976.050" end="x">Aha. Und in Spanien hat man was? Hat man sie interniert oder?</u>
+                    <u who="#goldwasserB" start="979.394" end="x">In Spanien sind sie gleich angewendet an die amerikanische Konsulat und die sind weiter nach Marokko oder nach London heim gefahren.</u>
+                    <u who="#boderD" start="989.599" end="x">Und Sie sagen, Sie haben selbst mit diesen englischen oder kanadischen Soldaten gearbeitet.</u>
+                    <u who="#goldwasserB" start="995.955" end="x">Ja, habe ich.</u>
+                    <u who="#boderD" start="996.961" end="x">In welcher Stadt war das?</u>
+                    <u who="#goldwasserB" start="998.828" end="x">Es war, hm, in [Name unverständlich—klingt wie Parie de Mont Jacques] und von da bin ich mit vier und zwanzig Personen nach Toulouse gegangen. Da sind die Geistlichen gekommen und habe die Leute uebernommen von mir.</u>
+                    <u who="#boderD" start="1010.997" end="x">So die Geistlichen waren mit der Resistance?</u>
+                    <u who="#goldwasserB" start="1013.708" end="x">Mit der Resistance, sehr viel von die Geistlichen.</u>
+                    <u who="#boderD" start="1017.533" end="x">Nun sagen Sie mal, hm, was . . . wo haben Sie . . . hm, wo waren Sie wie die Befreiung gekommen ist?</u>
+                    <u who="#goldwasserB" start="1027.110" end="x">Wenn die Befreiung gekommen ist, war ich in Paris. Ich war auch—ich bin gewesen als Leutnant, als Leutnant von der FFI, von der Resistance.</u>
+                    <u who="#boderD" start="1036.640" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="1037.333" end="x">Und ich . . . ich war das zweite Mal verwundet in Paris.</u>
+                    <u who="#boderD" start="1041.381" end="x">Wieso?</u>
+                    <u who="#goldwasserB" start="1042.074" end="x">Weil ich hab müssen durch gehen, wo die Deutschen haben abgezogen—so schnell, so schnell man kann sich das gar nicht vorstellen. Und ich hab wollen durchgehen auf die zweite Seite und verständigen meine, meine Kameraden, dass sie erst [unverständlich; starkes Rauschen im Tonband] die Deutschen. Und die haben das bemerkt und haben geschossen. Ich war verwundet im Fuß und ich war zwölf Monat—zwölf Wochen war ich im Gips mit dem Fuß. Aber nachher . . . war ich sehr schnell auskuriert und auch meine Moral bei mir war ganz anders. Und auch bis zum heutigen Tag, dass ich arbeit für den militärischen Staff, das heißt in der Resistance der FFI [unverständlich; starkes Rauschen im Tonband].</u>
+                    <u who="#boderD" start="1083.798" end="x">Oh, die Resistance existiert noch? Die ist nicht hier auf . . .</u>
+                    <u who="#goldwasserB" start="1087.364" end="x">Sie existiert noch bis jetzt.</u>
+                    <u who="#boderD" start="1089.834" end="x">Ja. Bitte weiter.</u>
+                    <u who="#goldwasserB" start="1091.852" end="x">Weil sie findet vom Militär statt.</u>
+                    <u who="#boderD" start="1094.051" end="x">Und Sie sind ein Mitglied der Resistance?</u>
+                    <u who="#goldwasserB" start="1096.370" end="x">Ich bin ein Mitglied der Resistance, FFI, mit dem Kontingent der Marseillaise.</u>
+                    <u who="#boderD" start="1101.039" end="x">Also, was tun Sie jetzt im Militär stehen Sie?</u>
+                    <u who="#goldwasserB" start="1104.635" end="x">Jetzt haben Sie mich demobilisiert, weil ich schon zu alt bin [lacht] für den Militärdienst [lacht].</u>
+                    <u who="#boderD" start="1111.425" end="x">Oh, Sie sind vier und dreißig Jahre, Sie sehen aber aus wie acht und zwanzig.</u>
+                    <u who="#goldwasserB" start="1114.509" end="x">Aber für das Militär . . .</u>
+                    <u who="#boderD" start="1115.052" end="x">Wenn Sie zu alt sind, wen haben sie dann in der Resistance, fünfzehn jährige Kinder?</u>
+                    <u who="#goldwasserB" start="1121.660" end="x">Nein, bis sieben, acht und zwanzig sind die Frauen. Weil die jetzigen Frauen der Resistance fahren nach Marokko. Ich hab nicht wollen nach Marokko fahren, weil ich hab suchen wollen meinen Bruder, den man hat gefunden im Lager von Föhrenwald bei München.</u>
+                    <u who="#boderD" start="1142.084" end="x">Na, warten Sie mal—Sie hatten einen Bruder?</u>
+                    <u who="#goldwasserB" start="1144.554" end="x">Ja.</u>
+                    <u who="#boderD" start="1145.247" end="x">Wo hat er gelebt, wenn . . . wenn der Krieg anfing?</u>
+                    <u who="#goldwasserB" start="1148.560" end="x">In Polen war er bis zum 40 Jahr und dann . . .</u>
+                    <u who="#boderD" start="1151.392" end="x">Haben Sie mit Ihrer Familie in Polen korrespondiert?</u>
+                    <u who="#goldwasserB" start="1154.326" end="x">Ich habe einen letzten Brief . . . ich hab den letzten Brief von meiner Mutter bekommen in 42, im Mai . . . im Mai.</u>
+                    <u who="#boderD" start="1160.995" end="x">Wann sind Sie denn von Polen weggegangen?</u>
+                    <u who="#goldwasserB" start="1163.748" end="x">Im sechs und dreißigsten 36 Jahr, am zwanzigsten Juni.</u>
+                    <u who="#boderD" start="1166.128" end="x">Wieso sind Sie weg gegangen?</u>
+                    <u who="#goldwasserB" start="1167.736" end="x">Ich kam hierher zum Lernen.</u>
+                    <u who="#boderD" start="1169.965" end="x">Nach Paris?</u>
+                    <u who="#goldwasserB" start="1170.688" end="x">Nach Paris.</u>
+                    <u who="#boderD" start="1171.020" end="x">Was wollten Sie erlernen?</u>
+                    <u who="#goldwasserB" start="1172.267" end="x">Ich hab wollen . . . ich habe wollen lernen Chemie Ingenieur.</u>
+                    <u who="#boderD" start="1176.647" end="x">Sie wollten Chemie studieren?</u>
+                    <u who="#goldwasserB" start="1178.286" end="x">Chemie studieren.</u>
+                    <u who="#boderD" start="1179.202" end="x">Wo haben Sie das Gymnasium beendet?</u>
+                    <u who="#goldwasserB" start="1181.142" end="x">In Polen, in Baracz, da habe ich die Matura gemacht.</u>
+                    <u who="#boderD" start="1184.287" end="x">Da haben Sie die Matura gemacht.</u>
+                    <u who="#goldwasserB" start="1185.895" end="x">Matura.</u>
+                    <u who="#boderD" start="1187.160" end="x">Und dann sind Sie gekommen nach hier um chemische Ingenieur zu studieren, wo?</u>
+                    <u who="#goldwasserB" start="1190.624" end="x">In Paris.</u>
+                    <u who="#boderD" start="1191.781" end="x">An welcher Schule?</u>
+                    <u who="#goldwasserB" start="1192.775" end="x">An der Faculte de . . . [unverständlich].</u>
+                    <u who="#boderD" start="1196.360" end="x">Haben Sie dort angefangen?</u>
+                    <u who="#goldwasserB" start="1198.149" end="x">Ich hab angefangen . . . ich hab mich verschreiben, aber ich hab nicht angefangen. Meine Mutter war nicht so reich, dass sie mich aufhaltet. Und ich selber—die Sprache hab ich nicht gekannt und ich kann nur soweit vor gehen.</u>
+                    <u who="#boderD" start="1209.595" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1210.209" end="x">Dann habe ich angefangen „lessons” zu geben, lernen polnisch, und dann habe ich auch französisch gelernt.</u>
+                    <u who="#boderD" start="1218.372" end="x">Wer wollte jetzt polnisch lernen?</u>
+                    <u who="#goldwasserB" start="1220.481" end="x">Es waren . . . waren Kolonien von polnische Arbeiter, die in den Kohlengruben gearbeitet haben.</u>
+                    <u who="#boderD" start="1226.487" end="x">Hier?</u>
+                    <u who="#goldwasserB" start="1226.879" end="x">Hier in Frankreich</u>
+                    <u who="#boderD" start="1227.674" end="x">Und die wollten polnisch lernen?</u>
+                    <u who="#goldwasserB" start="1228.849" end="x">Ja, die haben da ja Kinder und [unverständlich] und Kinder, die waren das.</u>
+                    <u who="#boderD" start="1233.861" end="x">Aha, und in diesen Kolonien wollten sie, dass die Kinder polnisch lernen.</u>
+                    <u who="#goldwasserB" start="1236.783" end="x">Natürlich, ja, das waren doch Polen.</u>
+                    <u who="#boderD" start="1239.054" end="x">Ja. Und wann waren sie verheiratet?</u>
+                    <u who="#goldwasserB" start="1241.946" end="x">Im acht und dreißigsten 38 Jahr.</u>
+                    <u who="#boderD" start="1243.585" end="x">Hier in . . .</u>
+                    <u who="#goldwasserB" start="1244.139" end="x">Hier in Paris.</u>
+                    <u who="#boderD" start="1245.103" end="x">Hier in Paris.</u>
+                    <u who="#goldwasserB" start="1245.886" end="x">Ja.</u>
+                    <u who="#boderD" start="1246.519" end="x">Nun sagen Sie mal, und dann kamen Sie . . . und Sie hatten, hm, . . . wie gross war Ihre Familie in Polen?</u>
+                    <u who="#goldwasserB" start="1252.344" end="x">In Polen habe ich mein . . . meine Mutter und meinen Bruder gehabt.</u>
+                    <u who="#boderD" start="1256.488" end="x">Und der Vater?</u>
+                    <u who="#goldwasserB" start="1257.436" end="x">Mein Vater ist schon lange gestorben; ich war ein Kind mit vier Jahr.</u>
+                    <u who="#boderD" start="1261.034" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1261.295" end="x">Meinen Bruder habe ich verlassen, da war er fünfzehn Jahre alt. Ich habe auch Onkel und Tanten von meiner Mutter und Neffen von meiner Mutter Bruder und Schwägerin mit die Kinder.</u>
+                    <u who="#boderD" start="1272.247" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1272.773" end="x">Aber in Amerika habe ich zwei Tanten.</u>
+                    <u who="#boderD" start="1275.143" end="x">Zwei Tanten?</u>
+                    <u who="#goldwasserB" start="1275.910" end="x">Ja.</u>
+                    <u who="#boderD" start="1276.292" end="x">Also wollen wir erst mit den polnischen Verwandten, also wann haben Sie zuletzt von Ihrer Mutter gehört?</u>
+                    <u who="#goldwasserB" start="1281.186" end="x">Von meiner Mutter habe ich im 42 Jahre gehört. Im Mai habe ich den letzten Brief von ihr bekommen.</u>
+                    <u who="#boderD" start="1285.598" end="x">Wo war sie denn?</u>
+                    <u who="#goldwasserB" start="1286.787" end="x">Sie war in Baracz—zu Hause.</u>
+                    <u who="#boderD" start="1288.869" end="x">Ja. Und was, hm, . . . wie ist es Ihrer Mutter gegangen?</u>
+                    <u who="#goldwasserB" start="1292.444" end="x">Meine Mutter, meiner Mutter ist es—bevor der Krieg—ganz gut gegangen, aber wie die alle sie haben alles weggenommen da, haben sie aus dem Haus raus geschmissen und sie in ein Ghetto gesteckt, sowie alle anderen Juden. Und dort wahrscheinlich waren sie sehr schlecht behandelt, geschlagen und die Alten sind in die Gaskammern gegangen. Das haben sie mir erzählt. Und die Gaskammern waren sie erstickt.</u>
+                    <u who="#boderD" start="1316.100" end="x">Aber was hat Ihrer Mutter passiert?</u>
+                    <u who="#goldwasserB" start="1317.911" end="x">Mein Mutter hat man nach Treblinka genommen in ein . . .</u>
+                    <u who="#boderD" start="1321.606" end="x">Treblinka?</u>
+                    <u who="#goldwasserB" start="1322.570" end="x">Treblinka, in ein Lager gebracht. Und dort wurde sie in die Gaskammer [unverständlich].</u>
+                    <u who="#boderD" start="1327.464" end="x">Wer hat Ihnen das erzählt?</u>
+                    <u who="#goldwasserB" start="1328.749" end="x">Das hat mir mein Bruder erzählt. Der war . . . er war bei den Russen eingezogen, das war in Polen. Nachher, wie die Russen sich zurück gezogen haben, ist er mit nach Russland. Und dort ist er zur Armee, der Russischen und er . . . er ist Soldat. Er war drei mal verwundet. Er hat gekämpft an der ost preußischen Grenze unter dem Kommando von einem jüdischen General.</u>
+                    <u who="#boderD" start="1357.162" end="x">Und wer war das?</u>
+                    <u who="#goldwasserB" start="1358.276" end="x">Ein . . .</u>
+                    <u who="#boderD" start="1359.632" end="x">War das der General, der gefallen ist.</u>
+                    <u who="#goldwasserB" start="1361.242" end="x">Der gefallen ist.</u>
+                    <u who="#boderD" start="1361.895" end="x">Yurenko?</u>
+                    <u who="#goldwasserB" start="1362.427" end="x">Yur— . . . nein, nicht Yurenko.</u>
+                    <u who="#boderD" start="1366.283" end="x">Ja, in Nordost Preußen.</u>
+                    <u who="#goldwasserB" start="1368.205" end="x">In Nordost Preußen.</u>
+                    <u who="#boderD" start="1369.364" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1369.599" end="x">Er war verwundet und man hat ihn nach Moskau gebracht und ihn auskuriert. Nachher ging es ihm ganz gut in Russland. Das hat er mir geschrieben. Aber dann hat er sich gedenkt, dass er da ganz alleine ist. Er ist ja noch ein Kind. Und er hat gesehen vielleicht, dass er findet die Mutter. So ging er nach Hause, nach Polen, nach Baracz und er hat die Mutter nicht gefunden, keinen Menschen. So ist er weiter nach Polen . . . und in Polen hat er keinen von der Familie vorgefunden. So ist er nach Deutschland gekommen. In Deutschland hat er auch niemanden erfahren. Dann ist er weiter bis nach München und . . . und hat sich angeschlossen in dem Lager von der UNRRA. Dort hat er sich registriert für Amerika oder nach Palästina zu fahren. Aber wenn er hat von meiner Tante von Amerika bekommen hat meine Adresse und auch mich hat verständigt auf meiner Adresse in Frankreich geschrieben und jetzt bin ich in Kontakt mit ihm.</u>
+                    <u who="#boderD" start="1433.775" end="x">Wo ist der Bruder?.</u>
+                    <u who="#goldwasserB" start="1434.599" end="x">Mein Bruder ist in Mün . . . bei München—im Föhrenwald im Lager.</u>
+                    <u who="#boderD" start="1438.730" end="x">In einem Lager—und er korrespondiert mit Ihnen?</u>
+                    <u who="#goldwasserB" start="1442.268" end="x">Ja.</u>
+                    <u who="#boderD" start="1442.379" end="x">Warum kommt er nicht nach Paris?</u>
+                    <u who="#goldwasserB" start="1444.150" end="x">Weil ich selber weiß nicht was zu machen in Paris. Vielleicht er . . .</u>
+                    <u who="#boderD" start="1448.919" end="x">Wie alt ist er?</u>
+                    <u who="#goldwasserB" start="1449.351" end="x">Er ist jetzt vier und zwanzig Jahre alt, im fünf und zwanzigsten fast jetzt.</u>
+                    <u who="#boderD" start="1453.482" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1453.948" end="x">Also ich selber weiß nicht was zu machen, . . . ihn nach Paris zu nehmen? Ich bin allein. Ich vielleicht kann ihm eine Zukunft schaffen . . . und in Amerika, die Tanten wollen ihn nach Amerika haben.</u>
+                    <u who="#boderD" start="1465.723" end="x">Die Tanten wollen ihn in Amerika?</u>
+                    <u who="#goldwasserB" start="1466.988" end="x">Ja, die haben ihm ein Affidavit geschickt.</u>
+                    <u who="#boderD" start="1469.729" end="x">Sagen Sie mal, wo leben Ihre Tanten?</u>
+                    <u who="#goldwasserB" start="1472.375" end="x">Meine Tante lebt in Brooklyn.</u>
+                    <u who="#boderD" start="1474.417" end="x">In Brooklyn near New York?</u>
+                    <u who="#goldwasserB" start="1475.622" end="x">New York.</u>
+                    <u who="#boderD" start="1476.690" end="x">Und wie heißen die?</u>
+                    <u who="#goldwasserB" start="1478.156" end="x">Rosa Drah.</u>
+                    <u who="#boderD" start="1479.763" end="x">Rosa . . .</u>
+                    <u who="#goldwasserB" start="1480.048" end="x">Rosa Kupferstein und Anna Drah.</u>
+                    <u who="#boderD" start="1483.763" end="x">Kupferstein?</u>
+                    <u who="#goldwasserB" start="1484.777" end="x">K u p f e rstein.</u>
+                    <u who="#boderD" start="1486.223" end="x">Und Anna Drah?</u>
+                    <u who="#goldwasserB" start="1487.271" end="x">Anna Drah..</u>
+                    <u who="#boderD" start="1488.586" end="x">Beide in Brooklyn?</u>
+                    <u who="#goldwasserB" start="1489.771" end="x">Beide in Brooklyn.</u>
+                    <u who="#boderD" start="1490.996" end="x">Haben Sie auch die Telefon Nummern oder nur die Adressen?</u>
+                    <u who="#goldwasserB" start="1493.365" end="x">Ich habe die Adressen, nur die Adressen.</u>
+                    <u who="#boderD" start="1495.171" end="x">Sie haben nur die Adressen.</u>
+                    <u who="#goldwasserB" start="1496.376" end="x">Nur die Adressen, ja. Und sie haben mir auch ein Affidavit geschickt, sie wollen auch, dass ich nach Amerika gehen soll.</u>
+                    <u who="#boderD" start="1501.942" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1502.695" end="x">Aber leider, ich bin Polnische und die Quote für die Polen ist sehr „langweilig”, es kann vielleicht noch Jahre dauern.</u>
+                    <u who="#boderD" start="1511.240" end="x">Ja, aber Sie waren Studentin hier?</u>
+                    <u who="#goldwasserB" start="1514.216" end="x">Ja, ich war Student.</u>
+                    <u who="#boderD" start="1515.626" end="x">Sie waren Studentin?</u>
+                    <u who="#goldwasserB" start="1516.453" end="x">Ja.</u>
+                    <u who="#boderD" start="1516.895" end="x">Sie haben ein Diplom, dass sie vom Gymnasium graduiert haben?</u>
+                    <u who="#goldwasserB" start="1519.636" end="x">Ja, aber leider habe ich nichts, denn die Deutschen haben alles weggenommen und ich kann nicht ein Anderes bekommen.</u>
+                    <u who="#boderD" start="1524.684" end="x">Was es in der Universität verschrieben, dass Sie dort waren?</u>
+                    <u who="#goldwasserB" start="1528.038" end="x">Es war, ja, es war da . . .</u>
+                    <u who="#boderD" start="1530.191" end="x">Dann können Sie von der Universität eine Bescheinigung bekommen/</u>
+                    <u who="#goldwasserB" start="1532.765" end="x">Eine Bescheinigung kann ich ja auch bekommen, natürlich.</u>
+                    <u who="#boderD" start="1534.362" end="x">Ja, das sollte ja genug sein.</u>
+                    <u who="#goldwasserB" start="1536.264" end="x">Ja.</u>
+                    <u who="#boderD" start="1537.152" end="x">Nun, hm, sagen Sie mal hat die Marquis welche Gedichte, welche Lieder genannt?</u>
+                    <u who="#goldwasserB" start="1542.929" end="x">Ja, wir haben sehr schöne Lieder geschaffen.</u>
+                    <u who="#boderD" start="1545.049" end="x">Würden Sie vielleicht Eines für mich vorsingen?</u>
+                    <u who="#goldwasserB" start="1547.904" end="x">[lacht] Ne, das kann ich nicht [lacht wieder], ich hab keine Stimme [lacht].</u>
+                    <u who="#boderD" start="1550.886" end="x">Sie brauchen das nur mit einer sehr kleinen Stimme . . . , Hauptsache, dass die Worte klar sind.</u>
+                    <u who="#goldwasserB" start="1556.621" end="x">Ja.</u>
+                    <u who="#boderD" start="1558.683" end="x">Nur summen, wie man sagt, probieren Sie es!</u>
+                    <u who="#goldwasserB" start="1561.314" end="x">Ich kann mich vielleicht nicht erinnern.</u>
+                    <u who="#boderD" start="1562.864" end="x">Probieren Sie es, [unverständlich]</u>
+                    <u who="#goldwasserB" start="1564.702" end="x">In Französisch . . . meinen Sie?</u>
+                    <u who="#boderD" start="1565.612" end="x">Ja. Kennen Sie keine jüdischen Lieder von den Lagern?</u>
+                    <u who="#goldwasserB" start="1570.861" end="x">Von den Lagern, ja.</u>
+                    <u who="#boderD" start="1572.077" end="x">Ja. Wollen Sie mir diese vorsingen?</u>
+                    <u who="#goldwasserB" start="1574.296" end="x">Aber ich selber war nicht im Lager, Das sind irgendwelche Lieder, die welche . . .</u>
+                    <u who="#boderD" start="1577.212" end="x">Ja. [unverständlich]</u>
+                    <u who="#goldwasserB" start="1579.023" end="x">[trägt ein Gedicht vor] Ravensbrück, Ravensbrück, Du bist [unverständlich] und vielleicht einmal werden wir über Freiheit sehen. Da würden wir mit dem Leben sagen, ja, Ravensbrück, du bist die Vergangenheit und Unglück und Unrast durch die Deutschen, durch die Nazis, dem jüdischen Volk. Wir sind ja Junge, die Leben im Herzen haben. Wir müssen zum Leben streben, aber die Deutschen haben das Streben mit schwarzer Tinte beschmiert. [Ende] Das sind noch mehr Worte, aber ich kann mich nicht erinnern.</u>
+                    <u who="#boderD" start="1616.139" end="x">Bitte in Französisch.</u>
+                    <u who="#goldwasserB" start="1618.964" end="x">[spricht französisch]</u>
+                    <u who="#goldwasserB" start="1651.679" end="x">Da sind auch noch Wörter, an die kann ich mich nicht erinnern.</u>
+                    <u who="#boderD" start="1662.701" end="x">Nun sagen Sie, was denken Sie, was Sie im Allgemeinen . . . was soll aus der Zukunft werden?</u>
+                    <u who="#goldwasserB" start="1670.856" end="x">Über die Zukunft? Ja, wenn man kann von der Zukunft sprechen, es ist sehr schön. Aber leider . . . ich kann mir überhaupt nicht vorstellen, wie die Zukunft sein wird—ich auch nicht. Die Juden von Polen sind sehr unterdrückt. Die haben überhaupt keinen moralischen Instinkt, die haben überhaupt keine . . . keine Hoffnung zu leben. Die wollten nur wandern, die wollten laufen . . . nach Palästina lasst man sie leider nicht. England hat ihnen kein Zertifikat gegeben. Nach Amerika kann man nicht, man hat da für die Juden die Quote gesperrt. Also was sollen die Juden machen? Wohin sollen sie gehen? Sie haben keine Heimat. Sie wollen, aber können nicht eine zentrale Heimat haben. Sie wollen auch Palästiner sein, warum sollten wir die auch nicht sein? Also leider . . . kann ich, nein, kann ich mir überhaupt nicht vorstellen . . . wie so das Leben, das Problem vom jüdischen Leben allgemein auf der ganzen Welt wird sich, wird sich jetzt stellen die Frage. Wir stehen jetzt hier in ein Land für ein Weltkonferenz. Vielleicht wird man auch an uns sprechen. Das kann man nicht wissen. Der Jude im allgemeinen . . . ein europäischer Jude ist nicht sehr . . . ist nicht sehr, ist nicht sehr gesund vorläufig, weil moralisch—er hat kein Heimat. Er hat kein– wie man sagt im Jiddischen—kein Dach über dem Kopf. Und was kann der machen? Er ist gebrochen, keine Familie—von seiner Familie, von der schönsten Familie sind keine einzigen Menschen geblieben. Und von vielen hundert Millionen ist auch nicht Einer geblieben. Was kann man . . .</u>
+                    <u who="#boderD" start="1778.096" end="x">Für welche Zeitung arbeiten Sie hier in Paris?</u>
+                    <u who="#goldwasserB" start="1783.237" end="x">Ich? Ich für die Neue Presse. Das ist eine Zeitung, welche den Arbeiter Klasse verklagt verständlich.</u>
+                    <u who="#boderD" start="1792.307" end="x">Aha. Wie viele . . . wie viele jüdische Zeitungen gibt es in Paris?</u>
+                    <u who="#goldwasserB" start="1798.060" end="x">Es gibt viele jüdische Zeitungen in Paris, nicht alle . . . nicht alle sind einverständlich. Es gibt zionistische Zeitungen, es geben, hm, sozialistische, so genannte bundistische Zeitungen. Die sind die Ärgsten, weil sie haben eine schlechte Stellung gegen die, gegen die fortgeschrittene Arbeiterbewegung.</u>
+                    <u who="#boderD" start="1817.803" end="x">Die bundistischen Zeitungen?</u>
+                    <u who="#goldwasserB" start="1819.419" end="x">Nehmen immer die . . .</u>
+                    <u who="#boderD" start="1821.190" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="1821.742" end="x">Die bundistischen Zeitungen nehmen immer die Gegenstelle gegen der Neuen Presse. Das ist ein Kampf zwischen zwei Arbeiterlager.</u>
+                    <u who="#boderD" start="1831.682" end="x">Ist die bundistische Presse nicht eine sozialistische Presse, sondern eine sozial demokratische Presse?</u>
+                    <u who="#goldwasserB" start=" 1836.210" end="x">Eine Sozial-Demokratische sollte man so sagen, aber die [unverständlich] sind nicht so wie der Arbeiter will das haben.</u>
+                    <u who="#boderD" start="1845.394" end="x">Sie denken das?</u>
+                    <u who="#goldwasserB" start="1846.372" end="x">Das sehe ich so.</u>
+                    <u who="#boderD" start="1846.945" end="x">Das sehen Sie.</u>
+                    <u who="#goldwasserB" start="1847.881" end="x">Ja.</u>
+                    <u who="#boderD" start="1848.374" end="x">Aber es gibt viele Leute, die diese Zeitung lesen,nicht wahr?</u>
+                    <u who="#goldwasserB" start="1851.948" end="x">Es gibt, aber sie haben nicht so einen Erfolg. Ich sage das jetzt nicht als Anhänger der Neuen Presse . . .</u>
+                    <u who="#boderD" start="1858.151" end="x">Ja?</u>
+                    <u who="#goldwasserB" start="1858.533" end="x">. . . die welche einen gewaltig großen Erfolg hat. Wenn jemand kommt in eine jiddische Stube—in jeder jiddischen Familie in der Früh sehen sie eine jüdische Zeitung da. Das ist die Neue Presse—verständlich. Man sieht eine französische Zeitung, eine Arbeiter Zeitung auch oder auch eine Andere, aber der Jüd, aber der Jüd, der liest die . . . die Neue Presse.</u>
+                    <u who="#boderD" start="1883.101" end="x">Die Neue Presse.</u>
+                    <u who="#goldwasserB" start="1883.877" end="x">Weil in der hat er . . .</u>
+                    <u who="#boderD" start="1884.293" end="x">Ist die Neue Presse zionistisch?</u>
+                    <u who="#goldwasserB" start="1886.707" end="x">Nein, die Neue Presse ist nicht zionistisch. Die Neue Presse ist ein . . . nicht eine kommunistische, aber sie verteidigt den jüdischen Einwanderer, die verteidigt den jüdischen [unverständlich] Menschen, den Arbeiter, der im Haus arbeitet, der arbeitet in den Fabriken und den Intellektuellen, der . . .</u>
+                    <u who="#boderD" start="1906.619" end="x">Was sagen die über Palästina?</u>
+                    <u who="#goldwasserB" start="1908.611" end="x">Über Palästina? Was sie sagen über Palästina?</u>
+                    <u who="#boderD" start="1912.762" end="x">Ja.</u>
+                    <u who="#goldwasserB" start="1913.499" end="x">Sie haben sehr starke Meinungen über Palästina. Sie helfen auch in Palästina die Juden . . . den Juden, die gegen den . . . gegen den Bourgeois in die Lager, die welchen sich selbst eine Heimat schaffen, die wollen auch ein . . .</u>
+                    <u who="#boderD" start="1936.562" end="x">Ich danke sehr, Frau Goldwasser, es war ein sehr gutes . . . [Tonband zu Ende oder abgerissen].</u>
+                </div>
+                <!-- end Spool 9-24 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#goldwasserB_en">
+                <!-- begin Spool 9-24 -->
+                <div lang="en">
+                    <u who="#boderD" start="7.681" end="x">[In English] This is Spool number 24, taken the 4th of August, 1946, at 9 Rue de Patin, <placeName ref="Jewish Committee home for adult Jewish refugees">Paris</placeName>. The interviewee is Mrs. Bertha Goldwasser, née Rosenstrauch, age 34. She is here in <placeName ref="Paris">Paris</placeName> and works with the Neue Freie Presse, a Jewish newspaper.</u>
+                    <u who="#boderD" start="33.997" end="x">[In German] And so Mrs. Goldwasser, would you give us again your full name and [tell us] who you are?</u>
+                    <u who="#goldwasserB" start="41.981" end="x">My name is Goldwasser. Born in Poland. I was married here in <placeName ref="Paris">Paris</placeName>. My husband, his name was Kuba Goldwasser . . . who was deported in '41, arrested by the German <term ref="#vothG_gestapo">Gestapo</term>.</u>
+                    <u who="#boderD" start="58.420" end="x">In <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="59.207" end="x">In <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="60.352" end="x">Tell me, Mrs. Goldwasser, where were you when the war began?</u>
+                    <u who="#goldwasserB" start="64.774" end="x">When the war began I was here in <placeName ref="Paris">Paris</placeName>, all the time, until the year . . . until the year '41. On the day when my husband was arrested . . . and about the deportation I did not know. Fifteen days later I, too, was arrested together with my nine-months-old girl.<note n="1">In the spring of 1941, Vichy officials ordered the French police to round up mostly foreign-born Jewish men in Paris. Women and children were excluded at the time—Mrs. Goldwasser's arrest was anomalous. Native-born French Jews had a much better chance of survival than did foreign-born Jews such as the Goldwassers.</note></u>
+                    <u who="#boderD" start="84.014" end="x">A little nearer here [to the microphone]. Yes? You were arrested with your nine-months-old baby.</u>
+                    <u who="#goldwasserB" start="93.143" end="x">Yes.</u>
+                    <u who="#boderD" start="93.927" end="x">Tell me, how was it here? You were living with your husband in <placeName ref="Paris">Paris</placeName>, is that right?</u>
+                    <u who="#goldwasserB" start="101.049" end="x">Yes.</u>
+                    <u who="#boderD" start="101.351" end="x">What was his occupation?</u>
+                    <u who="#goldwasserB" start="102.801" end="x">His occupation was . . . he was an engineer.</u>
+                    <u who="#boderD" start="105.195" end="x">He was an engineer.</u>
+                    <u who="#goldwasserB" start="106.143" end="x">Engineer.</u>
+                    <u who="#boderD" start="107.151" end="x">And did you have any other children?</u>
+                    <u who="#goldwasserB" start="108.818" end="x">No.</u>
+                    <u who="#boderD" start="109.414" end="x">No. That was your . . .</u>
+                    <u who="#goldwasserB" start="110.780" end="x">My only . . . my only baby . . .</u>
+                    <u who="#boderD" start="113.214" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="113.479" end="x">. . . that I had.</u>
+                    <u who="#boderD" start="114.764" end="x">Don't you have the child any more?</u>
+                    <u who="#goldwasserB" start="115.869" end="x">No. I had also been deported. And when I found out where the deportation was going, I jumped from the train with the child in my arms. And, God's woe, my child was killed on the ground when I jumped down. And I, too, was very severely wounded, but some French [people] picked me up. [I was] with them nine months and was cured. And then . . .</u>
+                    <u who="#boderD" start="138.302" end="x">Which French [people], those who were on the train?</u>
+                    <u who="#goldwasserB" start="139.943" end="x">No. Those on the ground. The French people who lived near the tracks.</u>
+                    <u who="#boderD" start="143.080" end="x">Let us not go so fast, please. And so your husband was . . . was arrested. And what was done with him?</u>
+                    <u who="#goldwasserB" start="151.884" end="x">He was deported to Germany to work in the salt mines.</u>
+                    <u who="#boderD" start="155.790" end="x">Yes. How was he arrested? Tell me the particulars of that occurrence.</u>
+                    <u who="#goldwasserB" start="160.784" end="x">I was arrested at home . . .</u>
+                    <u who="#boderD" start="162.164" end="x">No, no, your husband.</u>
+                    <u who="#goldwasserB" start="163.282" end="x">My husband, too, was arrested at home. It was on the 26th of Aout— . . .</u>
+                    <u who="#boderD" start="170.166" end="x">August.</u>
+                    <u who="#goldwasserB" start="170.742" end="x">. . . August, at nine o'clock in the morning. The <term ref="#vothG_gestapo">Gestapo</term> came into the house and asked for his name.</u>
+                    <u who="#boderD" start="176.676" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="177.489" end="x">And then they said, "Aha! You are a Jew! Then come. You are good for . . . for work in Germany." My husband worked . . . [<emph rend="italics">correction</emph>] answered, "Work does not scare me, but I would not like to go through the same things that my friends have already gone through in Germany." So they took him by the neck and threw him down the stairs. And they said, "We will give you work indeed! You shall work a long time with us." And then they deported him to Germany. They took him away to <placeName ref="Drancy concentration camp" type="camp">Drancy</placeName>. And from <placeName ref="Drancy concentration camp" type="camp">Drancy</placeName> they sent him to <placeName ref="Pantin">Pantin</placeName>[?]</u>
+                    <u who="#boderD" start="212.707" end="x">How do you know that? Did he write to you?</u>
+                    <u who="#goldwasserB" start="214.283" end="x">About that I received from the Germans themselves a ca— . . . a letter that the Jew . . . the Jew-prisoner Goldwasser is going to Germany as . . . as a volunteer worker.</u>
+                    <u who="#boderD" start="224.156" end="x">As a volunteer?</u>
+                    <u who="#goldwasserB" start="224.883" end="x">As a volunteer worker. But it is not true, because they did this with all the Jews and Frenchmen. But they were not volunteers, because no Jew, no Frenchman reported to the Germans voluntarily.</u>
+                    <u who="#boderD" start="237.587" end="x">Tell me, Mrs. Goldwasser, when were you given this paper?</u>
+                    <u who="#goldwasserB" start="241.718" end="x">This paper I received . . . I received in April . . . on the 11th of April.</u>
+                    <u who="#boderD" start="248.923" end="x">He was taken in August . . .</u>
+                    <u who="#goldwasserB" start="251.634" end="x">In the year '41.</u>
+                    <u who="#boderD" start="252.869" end="x">Yes. And on . . .</u>
+                    <u who="#goldwasserB" start="253.231" end="x">On the 11th of April . . .</u>
+                    <u who="#boderD" start="253.351" end="x">The 11th of April . . .</u>
+                    <u who="#goldwasserB" start="254.791" end="x">. . . in the year '41, I . . .<note n="2">She seems to be confusing the dates. It was in August 1941 that Mr. Goldwasser was incarcerated in Drancy.</note></u>
+                    <u who="#boderD" start="256.839" end="x">Received this paper.</u>
+                    <u who="#goldwasserB" start="257.894" end="x">. . . received this paper.</u>
+                    <u who="#boderD" start="259.063" end="x">Was it mailed to you or transmitted by hand [?]?</u>
+                    <u who="#goldwasserB" start="260.663" end="x">Sent by mail. [unintelligible]</u>
+                    <u who="#boderD" start="262.169" end="x">Notified[?] you by mail . . .</u>
+                    <u who="#goldwasserB" start="263.234" end="x">Yes.</u>
+                    <u who="#boderD" start="263.429" end="x">. . . that he had gone voluntarily to work in Germany.</u>
+                    <u who="#goldwasserB" start="266.867" end="x">Yes. And also . . . and on the bottom was added: The Jew-prisoner.</u>
+                    <u who="#boderD" start="270.797" end="x">Yes. And so your husband had left, and you remained with the child.</u>
+                    <u who="#goldwasserB" start="275.942" end="x">And I remained with the child.</u>
+                    <u who="#boderD" start="277.071" end="x">And when were you arrested?</u>
+                    <u who="#goldwasserB" start="279.324" end="x">On the 16th of July in the year '42.<note n="3">The Germans conducted a forcible round-up of Jews in the Paris region—including women and children and people with disabilities—on July 16-17, 1942. Some 9,000 French police were involved in this operation, during which over 12,000 persons (including 3,900 children) were arrested. They were soon taken to Drancy before being deported to Auschwitz.</note></u>
+                    <u who="#boderD" start="282.185" end="x">That was approximately a year later.</u>
+                    <u who="#goldwasserB" start="284.494" end="x">Yes, a year later.</u>
+                    <u who="#boderD" start="285.287" end="x">Now wait a moment, please. Was the child born already when your husband left?</u>
+                    <u who="#goldwasserB" start="289.012" end="x">Yes. The child had already been born.</u>
+                    <u who="#boderD" start="290.247" end="x">The child had already been born when your husband left?</u>
+                    <u who="#goldwasserB" start="292.682" end="x">When my husband left.</u>
+                    <u who="#boderD" start="293.911" end="x">The child at that time was nine months old?</u>
+                    <u who="#goldwasserB" start="295.421" end="x">Nine . . . it was then nine months old.</u>
+                    <u who="#boderD" start="297.027" end="x">Yes. And when you were arrested the child was already approximately a year and a half old or so? Isn't that so?</u>
+                    <u who="#goldwasserB" start="304.303" end="x">Yes. No, it was thus. When my husband . . . when the child was nine months old I had already been arrested once.</u>
+                    <u who="#boderD" start="309.578" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="310.472" end="x">Because I had gone to the <term ref="#vothG_lager">lager</term>, and my husband . . . [I] threw in bread for my husband.</u>
+                    <u who="#boderD" start="315.667" end="x">Oh. Nu?</u>
+                    <u who="#goldwasserB" start="316.986" end="x">So I was arrested then, the first time, together with the child. I had taken the child along. I believed that if I went with a child perhaps they would let me pass near [enter?] the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="327.284" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="328.242" end="x">But it did not help, and the same as the others I was arrested.</u>
+                    <u who="#boderD" start="330.776" end="x">Was that here in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="332.182" end="x">In <placeName ref="Drancy concentration camp" type="camp">Drancy</placeName>.</u>
+                    <u who="#boderD" start="333.250" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="333.451" end="x">A few kilometers outside of <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="335.108" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="335.634" end="x">Not far.</u>
+                    <u who="#boderD" start="336.548" end="x">So then you were . . . And how were you released?</u>
+                    <u who="#goldwasserB" start="339.885" end="x">And I was taken into <placeName ref="Drancy concentration camp" type="camp">Drancy</placeName>, too.</u>
+                    <u who="#boderD" start="342.998" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="343.290" end="x">But my husband did not know about this.</u>
+                    <u who="#boderD" start="345.423" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="345.859" end="x">Then the French interceded, that [I] should . . .</u>
+                    <u who="#boderD" start="349.156" end="x">Which French?</u>
+                    <u who="#goldwasserB" start="350.351" end="x">The French . . . the <term ref="#vothG_commandant">commandant</term> of the French . . . of the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="354.783" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="354.988" end="x">The French <term ref="#vothG_commandant">commandant</term> of the <term ref="#vothG_lager">lager</term> . . .</u>
+                    <u who="#boderD" start="356.779" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="357.181" end="x">. . . interceded, that I with the child should be released.</u>
+                    <u who="#boderD" start="360.398" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="360.663" end="x">I was released. And afterwards the police . . .</u>
+                    <u who="#boderD" start="362.842" end="x">Why did he do that?</u>
+                    <u who="#goldwasserB" start="364.543" end="x">He took pity probably on the child. And he could not do otherwise. I was the first woman to get [into there] to be arrested at that time.</u>
+                    <u who="#boderD" start="372.572" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="373.409" end="x">Yes.</u>
+                    <u who="#boderD" start="374.443" end="x">[<emph rend="italics">adjusting the equipment</emph>] Talk in this direction. So you were released, and you came home.</u>
+                    <u who="#goldwasserB" start="382.110" end="x">And I came home.</u>
+                    <u who="#boderD" start="383.208" end="x">Where were you living then?</u>
+                    <u who="#goldwasserB" start="385.126" end="x">Not at the same address any more. I was not any more . . . At another . . . at a completely different location[?]</u>
+                    <u who="#boderD" start="390.126" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="390.883" end="x">I had . . .</u>
+                    <u who="#boderD" start="391.245" end="x">Did you have to wear an arm band? Did you have to wear an insignia?</u>
+                    <u who="#goldwasserB" start="395.506" end="x">I had to wear a Magen David [Star of David] as they say . . .<note n="4">The edict mandating the obligatory wearing of the yellow star by all Jews in the German occupied zone was promulgated in May 1942. It provoked a good deal of discontent among the general French population.</note></u>
+                    <u who="#boderD" start="398.940" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="399.185" end="x">. . . with "Juive" [Jew] inscribed on it.</u>
+                    <u who="#boderD" start="401.217" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="401.789" end="x">But I did not wear it, because I am not recognized too well as a Jewess.</u>
+                    <u who="#boderD" start="406.659" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="407.141" end="x">I allowed myself not to wear it.</u>
+                    <u who="#boderD" start="409.250" end="x">You took a chance, isn't it so?</u>
+                    <u who="#goldwasserB" start="410.700" end="x">I took a chance, yes.</u>
+                    <u who="#boderD" start="411.899" end="x">Yes. Nu, and thus you came home with the child.</u>
+                    <u who="#goldwasserB" start="414.313" end="x">And thus I came home with the child.</u>
+                    <u who="#boderD" start="416.777" end="x">All right. Nu, what did you do then, did you work?</u>
+                    <u who="#goldwasserB" start="420.626" end="x">I then undertook to work . . .</u>
+                    <u who="#boderD" start="422.534" end="x">Where?</u>
+                    <u who="#goldwasserB" start="422.634" end="x">. . . illegally. At dressmaking.</u>
+                    <u who="#boderD" start="425.005" end="x">At dressmaking. Can you sew?</u>
+                    <u who="#goldwasserB" start="426.853" end="x">I can sew too, yes.</u>
+                    <u who="#boderD" start="428.865" end="x">Yes. And how long did you work? And then you were working until you were again . . . arrested.</u>
+                    <u who="#goldwasserB" start="436.040" end="x">Until I was again arrested.</u>
+                    <u who="#boderD" start="436.747" end="x">Tell [me] the particulars of this arrest.</u>
+                    <u who="#goldwasserB" start="439.793" end="x">I was . . . They came at four o'clock in the morning to my house, and they knocked.</u>
+                    <u who="#boderD" start="448.065" end="x">At four o'clock in the morning?</u>
+                    <u who="#goldwasserB" start="449.832" end="x">At four o'clock in the morning they knocked. I did not answ— . . . answer.</u>
+                    <u who="#boderD" start="454.328" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="455.145" end="x">Then there was again . . . They broke in the door.</u>
+                    <u who="#boderD" start="458.900" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="459.422" end="x">But I had a window which led onto the . . . onto a roof of another house. I got out through that window and . . .</u>
+                    <u who="#boderD" start="466.485" end="x">Were you dressed?</u>
+                    <u who="#goldwasserB" start="468.242" end="x">I dressed myself . . . I only put on a house coat.</u>
+                    <u who="#boderD" start="470.740" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="472.079" end="x">And I got out through that window and started to walk on the roofs . . .</u>
+                    <u who="#boderD" start="477.310" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="477.682" end="x">. . . until I couldn't any more. And they began to shoot at me. Then I had to surrender, no?</u>
+                    <u who="#boderD" start="485.540" end="x">With the child.</u>
+                    <u who="#goldwasserB" start="486.554" end="x">When I came down they already had the child. Because all the time since the first arrest, I did not have the child with me. My landlady kept the child.</u>
+                    <u who="#boderD" start="500.081" end="x">Your landlady . . .</u>
+                    <u who="#goldwasserB" start="501.461" end="x">Kept the child.</u>
+                    <u who="#boderD" start="503.011" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="503.252" end="x">And when I came down they already had the child. And just the way I stood [in the same clothes] they took me to a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="512.317" end="x">And they gave you the child?</u>
+                    <u who="#goldwasserB" start="513.934" end="x">And they gave me the child, yes.</u>
+                    <u who="#boderD" start="516.207" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="516.569" end="x">It was in a big <term ref="#vothG_lager">lager</term> where hundreds . . . hundreds and thousands of women and children, men, too, were assembled together there.<note n="5">Those arrested in the infamous Paris round-up were at first packed for days without food, water or sanitary facilities in the Velodrome d'Hiver, a Paris sports arena.</note></u>
+                    <u who="#boderD" start="524.218" end="x">All Jews?</u>
+                    <u who="#goldwasserB" start="525.085" end="x">All Jews, only Jews. And then they began to sort [us] out, and the women with children were brought to <placeName ref="Drancy concentration camp" type="camp">Drancy</placeName>.</u>
+                    <u who="#boderD" start="536.071" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="536.497" end="x">And there the children were taken away, and from all the deported the children were taken and deported separately.</u>
+                    <u who="#boderD" start="543.630" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="543.865" end="x">I . . . I . . .</u>
+                    <u who="#boderD" start="548.899" end="x">You jumped off the train.</u>
+                    <u who="#goldwasserB" start="550.048" end="x">I got an idea. I asked the woman there . . . the German woman . . . She liked me, and she herself was married to a Jew. And she was . . . she had lived in France and knew me from before, too. Then she said . . .</u>
+                    <u who="#boderD" start="563.302" end="x">She knew you? It was an acquaintance from <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="565.401" end="x">An acquaintance from <placeName ref="Paris">Paris</placeName>. She had lived here. But she wanted to save herself, so she said that she was a German, but she was Austrian, a Viennese . . .</u>
+                    <u who="#boderD" start="573.559" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="573.958" end="x">. . . and also a Jewess, a Mischling [a half-Jew].<note n="6">Mischlinge (lit. hybrid) were "half Jews" of the “first or second degree” defined by the Nazi Nuremberg Laws promulgated in the fall of 1935.</note></u>
+                    <u who="#boderD" start="576.482" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="577.285" end="x">And she . . . she told me to go to the second RR-car. There are the children. And I should say that she sent me. Then I went into the second RR-car, and I had my child . . . and there I found my child. And thus we . . . There were other mothers, too. I do not know how . . . how they arranged to . . . to get to the children. When we got to the <placeName ref="Colmar">Colmar</placeName> bord[er] . . . to <placeName ref="Colmar">Colmar</placeName>, I jumped off the train.<note n="7">Mrs. Goldwasser's transport held a portion of the 42,500 French Jews who were sent to "an unknown destination" in 1942. In fact, the destination was Auschwitz, where most of the deported were murdered upon arrival. This would have been the fate of Mrs. Goldwasser and her child had she not taken the bold and difficult act of escaping from the train.</note></u>
+                    <u who="#boderD" start="603.255" end="x">Now wait a moment, please. What sort of a RR-car was it?</u>
+                    <u who="#goldwasserB" start="606.318" end="x">It was a sealed RR-car, a completely locked RR-car for . . . for . . .</u>
+                    <u who="#boderD" start="610.202" end="x">A freight car?</u>
+                    <u who="#goldwasserB" start="612.324" end="x">A RR-car for . . . for cattle.</u>
+                    <u who="#boderD" start="615.086" end="x">For cattle.</u>
+                    <u who="#goldwasserB" start="615.602" end="x">For cattle.</u>
+                    <u who="#boderD" start="616.024" end="x">A cattle car.</u>
+                    <u who="#goldwasserB" start="616.881" end="x">Yes.</u>
+                    <u who="#boderD" start="617.414" end="x">So. And how could you jump off?</u>
+                    <u who="#goldwasserB" start="619.968" end="x">There were . . . there were three . . . les planches. How does one say it?</u>
+                    <u who="#boderD" start="624.084" end="x">The boards were not tight [?] . . .</u>
+                    <u who="#goldwasserB" start="624.570" end="x">The boards were separated, and in this way we . . .</u>
+                    <u who="#boderD" start="627.466" end="x">Oh, that was a real cattle car.</u>
+                    <u who="#goldwasserB" start="631.064" end="x">A cattle car.</u>
+                    <u who="#boderD" start="631.376" end="x">Because so cattle were transported . . .</u>
+                    <u who="#goldwasserB" start="631.892" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="632.946" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="633.247" end="x">And then we . . . There was a . . . I took one . . . I do not know at all where I got the strength for it. I removed one board, and when I saw that the train was beginning to climb a hill . . .</u>
+                    <u who="#boderD" start="644.197" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="644.974" end="x">. . . I jumped off with the child.</u>
+                    <u who="#boderD" start="647.113" end="x">Did anyone explain to you that it is better to jump when the train is going uphill?</u>
+                    <u who="#goldwasserB" start="651.183" end="x">No, no. I carried this idea already all the time. I told myself, "Once and for all. I am going to death, of course. And here I might be able to save my life . . ."<note n="8">The Germans did everything possible to keep their victims from knowing that their deportation would end in death. Somehow, Mrs. Goldwasser, perhaps instinctively, realized this and was moved to take desperate action.</note></u>
+                    <u who="#boderD" start="661.488" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="662.054" end="x">. . . "and the child's." But, alas, I lost the child while jumping off. With my own . . . hands I had to gather the child . . . separate pieces of its body, and left it thus in the forest.</u>
+                    <u who="#boderD" start="674.457" end="x">What does it mean, separate pieces?</u>
+                    <u who="#goldwasserB" start="675.833" end="x">A leg, a hand. I have . . . [Details possibly not entirely all correct. —D.P.B.]</u>
+                    <u who="#boderD" start="677.363" end="x">Did that so . . .</u>
+                    <u who="#goldwasserB" start="678.779" end="x">Yes. When I jumped off, the train was going up the hill fast, up the hill.</u>
+                    <u who="#boderD" start="683.673" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="684.551" end="x">And thus I . . . I myself could . . . could not move ahead. And then two Frenchmen arrived from work. They asked me what I was doing here. I said that I am a Christian woman, and that the Germans had brought me here and had left me. I did not dare to tell the truth.</u>
+                    <u who="#boderD" start="703.686" end="x">You did not tell them that you jumped off.</u>
+                    <u who="#goldwasserB" start="705.423" end="x">No.</u>
+                    <u who="#boderD" start="706.216" end="x">No.</u>
+                    <u who="#goldwasserB" start="706.327" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="707.044" end="x">And was the body of the child still with you?</u>
+                    <u who="#goldwasserB" start="708.905" end="x">No. They saw already nothing [of the child]</u>
+                    <u who="#boderD" start="710.763" end="x">You had buried the child.</u>
+                    <u who="#goldwasserB" start="711.279" end="x">I had buried [her] yes. And then came [unintelligible]. The people took me to them, and they . . . and they washed my wound, and I remained . . .</u>
+                    <u who="#boderD" start="721.781" end="x">Where were you wounded?</u>
+                    <u who="#goldwasserB" start="723.157" end="x">My leg was broken in two places . . . was broken.</u>
+                    <u who="#boderD" start="726.816" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="727.171" end="x">The left leg, yes. And also my whole back was bruised. I could not lie down at all, nor walk, not even eat. But I was with those people. They were good [?]to me. They cured me.<note n="9">Mrs. Goldwasser was most fortunate in that the Frenchmen she encountered belonged to the Resistance. Some two-thirds of French Jewry survived in France, many due to help such as that offered to Mrs. Goldwasser. These rescuers came from all walks of life. Some were ideologically motivated. Others acted out of a conviction that a fellow human being in danger was deserving of help and compassion. Some of the rescuers knew those they helped and others were introduced to them by third parties. In Mrs. Goldwasser's case, as with many others, help was provided spontaneously to strangers.</note></u>
+                    <u who="#boderD" start="742.825" end="x">Did they bring a doctor?</u>
+                    <u who="#goldwasserB" start="744.258" end="x">No, I did not want it, because I said [unintelligible].</u>
+                    <u who="#boderD" start="746.280" end="x">But how can one [handle] a broken leg . . .</u>
+                    <u who="#goldwasserB" start="748.730" end="x">There was a . . . a clergyman. He did that for me.</u>
+                    <u who="#boderD" start="752.981" end="x">A clergyman?</u>
+                    <u who="#goldwasserB" start="753.225" end="x">A clergyman.</u>
+                    <u who="#boderD" start="753.621" end="x">He bandaged your leg.</u>
+                    <u who="#goldwasserB" start="755.011" end="x">Yes, bandaged. And thus I remained nine months with those people.</u>
+                    <u who="#boderD" start="759.282" end="x">Tell me, please, if you got together with the clergyman, wasn't he able to understand that you were Jewish?</u>
+                    <u who="#goldwasserB" start="766.084" end="x">But the clergy themselves here in France did very much for the Jews.<note n="10">Prior to the deportations of French Jewry, the French Catholic hierarchy did not protest against Vichy's anti-Jewish measures—many supported the Vichy regime, which had abolished previous anti-clerical legislation and afforded new privileges to the Church. Following the deportations, the attitude of a number in the Church changed. Catholic clerics hid Jews in religious institutions, issued false baptismal certificates and helped Jews fleeing to neutral Switzerland. A number of French Protestants, themselves a small and often beleaguered minority, also became involved in Jewish rescue efforts.</note></u>
+                    <u who="#boderD" start="769.719" end="x">The clergy . . .</u>
+                    <u who="#goldwasserB" start="769.924" end="x">The clergy in France did very much for the Jews. They have . . . have hidden hundreds of children with them.</u>
+                    <u who="#boderD" start="776.896" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="777.583" end="x">Very many. The clergy, and also the . . . the sisters [nuns].</u>
+                    <u who="#boderD" start="782.035" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="782.441" end="x">They hid very many children here in France.</u>
+                    <u who="#boderD" start="784.704" end="x">Then it was really true.</u>
+                    <u who="#goldwasserB" start="786.300" end="x">True indeed. Just as I say.</u>
+                    <u who="#boderD" start="788.027" end="x">Yes. I mean it was said so in America, and we have heard that the French clergy was [especially] good.</u>
+                    <u who="#goldwasserB" start="796.279" end="x">Very good.</u>
+                    <u who="#boderD" start="797.165" end="x">Yes. So.</u>
+                    <u who="#goldwasserB" start="798.924" end="x">And then the clergyman started talking [with me] I saw that I could trust him, because I asked him once what was going on at the [battle] fronts [unintelligible]. And the people with whom I stayed belonged also to the French Resistance. They also worked against the enemy [?] against the Germans. [About two sentences unintelligible.]</u>
+                    <u who="#boderD" start="825.782" end="x">And so they cared for you, and you got well. Where did you go then? [At least five or six sentences are unintelligible. Apparently the microphone connection during the interview got partially out of order. From the fragments of speech, one gathers that she discusses the Resistance. Then the recording becomes clear again. —D.P.B.]</u>
+                    <u who="#goldwasserB" start="838.721" end="x">. . . and so I returned home on false documents. I was in flight. And until liberation I joined the French Resistance and worked with them until the liberation of <placeName ref="Paris">Paris</placeName>.<note n="11">Although reliable statistics of Jews in the French Resistance movement are not available, there is little doubt that they were disproportionately represented in the French struggle against their German occupiers. They were found both in the general and the communist resistance. There was also a specifically Jewish resistance movement. It appears that Mrs. Goldwasser was in the general resistance movement, which was tied to the Free French Resistance under General Charles de Gaulle.</note></u>
+                    <u who="#boderD" start="895.912" end="x">Oh. Now tell me a bit about the work of the French Resistance.</u>
+                    <u who="#goldwasserB" start="900.159" end="x">The French Resistance worked very hard, and did . . . has done a lot for the Jews. When they learned . . . when they heard that Jews were being arrested they "sent" immediately and took the Jews into the forest. They were organized in a military manner, and we worked against the Germans.</u>
+                    <u who="#boderD" start="923.577" end="x">What, for example, did you do?</u>
+                    <u who="#goldwasserB" start="925.095" end="x">We were after the [German] military. When a [German] military unit would pass, they [the Resistance] threw grenades, and they hampered in general their advance.</u>
+                    <u who="#boderD" start="935.659" end="x">You hampered [?] . . .</u>
+                    <u who="#goldwasserB" start="937.225" end="x">Their advance. We also had aviators, American, Canadian, and English, who had been shot down, fell [parachuted] down. The planes were shot down. These people, the American aviators, when they were sick or wounded, we picked them up and brought them to the Spanish as well as to the Swiss border. I myself led twenty-four Canadian aviators to the Spanish border. And there I handed them over to other members of the Resistance and also to clergymen. They dressed them in different clothes and led them to Spain.</u>
+                    <u who="#boderD" start="976.050" end="x">And what happened in Spain? Were they interned or . . . ?</u>
+                    <u who="#goldwasserB" start="979.394" end="x">In Spain they got in touch at once with the American consulate, and they went to Morocco, or to <placeName ref="London">London</placeName>.<note n="12">At the time, Spain controlled a portion of northern Morocco from the Atlantic to the Algerian border. On November 8, 1942, Allied forces launched successful landings in French Morocco and Algeria and by May 1943 had driven the Axis powers out of North Africa. These Allied successes encouraged neutral Spain to become more helpful to the Allied cause.</note></u>
+                    <u who="#boderD" start="989.599" end="x">Aha. And you yourself worked with these English, Canadian soldiers.</u>
+                    <u who="#goldwasserB" start="995.955" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="996.961" end="x">In what city was that?</u>
+                    <u who="#goldwasserB" start="998.828" end="x">I arrived with these twenty-four [men] at <placeName ref="Toulouse">Toulouse</placeName>. There the clergy would come and take over these people from me.<note n="13">Jules-Gerard Saliege, the partially paralyzed bishop of Toulouse, authored a ground-breaking pastoral letter on August 30, 1942 which called upon his French countrymen to stand up for the rights of French Jewry and resist the harm being done to them. This letter was read in the majority of churches in the diocese of Toulouse and sold secretly in Catholic book stores. It helped inspire the will to resistance among the Catholic clergy of the area.</note></u>
+                    <u who="#boderD" start="1010.997" end="x">Yes. So the clergy was with the Resistance.</u>
+                    <u who="#goldwasserB" start="1013.708" end="x">With the Resistance. Very many of the clergy.</u>
+                    <u who="#boderD" start="1017.533" end="x">Tell me, please, where were you . . . where were you when the liberation came?</u>
+                    <u who="#goldwasserB" start="1027.110" end="x">When the liberation came I was in <placeName ref="Paris">Paris</placeName>. I was also . . . I was as a lieutenant, as a lieutenant of the SEK [?] of the Resistance.</u>
+                    <u who="#boderD" start="1036.640" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="1037.333" end="x">And I was . . . and I was wounded in <placeName ref="Paris">Paris</placeName> for the second time.</u>
+                    <u who="#boderD" start="1041.381" end="x">How?</u>
+                    <u who="#goldwasserB" start="1042.074" end="x">Because I had to pass through [a region] when the Germans retreated—so fast that one cannot imagine. And I wanted to get over to the other side [of the Seine?] in order to inform my comrades that they should hide from the Germans. They noticed it and fired. I was wounded in my leg, and twelve months . . . [<emph rend="italics">correction</emph>] twelve weeks I was in a plaster cast with my leg. But afterwards I did . . . I got well very rapidly, and also my morale was quite different. And to this day I am working in the French Military Staff, that means in the Resistance, SEK [?] with the contingent of the Marseillaise.<note n="14">The battle for Paris between the French Resistance and the German army, marked by fierce and bitter street struggles, began on August 17, 1944 and ended with the arrival of the Leclerc division of the Free French forces on August 25 when the remaining German forces surrendered. The SEK portion of the resistance movement, Marseillaise contingent, has not been identified. However, it should not be confused with the SEC, the Vichy Jewish Affairs Commission intended to catch Jews contravening Vichy's anti-Jewish edicts. It is not clear what type of work Mrs. Goldwasser was engaged in with the French military staff. Immediately after the war, resistance groups had a good deal of political power and played a considerable role in the government dominated by General de Gaulle.</note></u>
+                    <u who="#boderD" start="1083.798" end="x">Oh, the Resistance [organization] still exists!</u>
+                    <u who="#goldwasserB" start="1087.364" end="x">It was not disol— . . . dissolved [?]. It exists to this day [?].</u>
+                    <u who="#boderD" start="1089.834" end="x">And you . . . Go on.</u>
+                    <u who="#goldwasserB" start="1091.852" end="x">Because they are recognized by the Military Staff.</u>
+                    <u who="#boderD" start="1094.051" end="x">And you are a member of the Resistance.</u>
+                    <u who="#goldwasserB" start="1096.370" end="x">I am a member of the Resistance, SEK, with the contingent of the Marseillaise.</u>
+                    <u who="#boderD" start="1101.039" end="x">Yes. So what are you doing now concerning the military?</u>
+                    <u who="#goldwasserB" start="1104.635" end="x">Now they demobilized me, because I am already too old. [<emph rend="italics">giggles</emph>] [unintelligible]</u>
+                    <u who="#boderD" start="1111.425" end="x">Oh. You are thirty-four and look twenty-eight.</u>
+                    <u who="#goldwasserB" start="1114.509" end="x">But for the army . . .</u>
+                    <u who="#boderD" start="1115.052" end="x">If you are too old, then whom do they have in the Resistance, fifteen-year-old children?</u>
+                    <u who="#goldwasserB" start="1121.660" end="x">No, women up to twenty-seven, twenty-eight. Because presently the women of the Resistance are going to Morocco. I did not want to go to Morocco, because I wanted to search for my brother whom I found in <term ref="#vothG_lager">Lager</term> Föhrenwald near <placeName ref="München">Munich</placeName>.<note n="15">Like most Jews who left Communist bloc countries after World War II, Mrs. Goldwasser's brother was in an UNRRA camp. UNRRA was subordinate to the Allied military commands of each of the four zones of occupation. Munich and the surrounding area, including the Föhrenwald DP camp, were in the American zone. UNRRA's task was to administer the Displaced Persons camps and to oversee the activities of volunteer welfare organizations.</note></u>
+                    <u who="#boderD" start="1142.084" end="x">Now wait please. You have a brother?</u>
+                    <u who="#goldwasserB" start="1144.554" end="x">Yes.</u>
+                    <u who="#boderD" start="1145.247" end="x">Where did he live during the war . . . when the war began?</u>
+                    <u who="#goldwasserB" start="1148.560" end="x">He was in Poland until '40. And then . . .</u>
+                    <u who="#boderD" start="1151.392" end="x">Did you correspond with your family in Poland?</u>
+                    <u who="#goldwasserB" start="1154.326" end="x">Until . . . my last letter . . . the last letter from the mother I received in '42, in May . . . in May.</u>
+                    <u who="#boderD" start="1160.995" end="x">When did you leave Poland?</u>
+                    <u who="#goldwasserB" start="1163.748" end="x">In '36, on the 20th of June.</u>
+                    <u who="#boderD" start="1166.128" end="x">How come you left?</u>
+                    <u who="#goldwasserB" start="1167.736" end="x">I went . . . I came here to study.</u>
+                    <u who="#boderD" start="1169.965" end="x">To <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="1170.688" end="x">To <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1171.020" end="x">What did you want to study here?</u>
+                    <u who="#goldwasserB" start="1172.267" end="x">I wanted . . . I wanted to be trained as a chemical engineer.</u>
+                    <u who="#boderD" start="1176.647" end="x">You wanted to study as a chemical engineer?</u>
+                    <u who="#goldwasserB" start="1178.286" end="x">To study chemical engineering.</u>
+                    <u who="#boderD" start="1179.202" end="x">Where did you finish the Gymnasium?</u>
+                    <u who="#goldwasserB" start="1181.142" end="x">In Poland, in <placeName ref="Barysh">Barysz</placeName> [?]. There I graduated.</u>
+                    <u who="#boderD" start="1184.287" end="x">There you graduated.</u>
+                    <u who="#goldwasserB" start="1185.895" end="x">Graduated.</u>
+                    <u who="#boderD" start="1187.160" end="x">And then you came here to study chemical engineering. Where?</u>
+                    <u who="#goldwasserB" start="1190.624" end="x">In <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1191.781" end="x">In which school?</u>
+                    <u who="#goldwasserB" start="1192.775" end="x">In Faculte de . . . in Faculte de . . . in Faculte des Docteurs. [unintelligible; sounds like "Bue"]</u>
+                    <u who="#boderD" start="1196.360" end="x">Did you begin your studies?</u>
+                    <u who="#goldwasserB" start="1198.149" end="x">I beg— . . . I enrolled but did not begin. My mother was not rich enough to support me. And I myself did not know the language, so I was not able to go that far.</u>
+                    <u who="#boderD" start="1209.595" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1210.209" end="x">So then I . . . I began to give Polish lessons, and I myself was learning French.</u>
+                    <u who="#boderD" start="1218.372" end="x">Who wanted to learn Polish here?</u>
+                    <u who="#goldwasserB" start="1220.481" end="x">There were . . . there were colonies of Polish workers who were working here in coal mines.</u>
+                    <u who="#boderD" start="1226.487" end="x">Here?</u>
+                    <u who="#goldwasserB" start="1226.879" end="x">Here in France.</u>
+                    <u who="#boderD" start="1227.674" end="x">And they wanted to learn Polish?</u>
+                    <u who="#goldwasserB" start="1228.849" end="x">Yes. They had children here [unintelligible].</u>
+                    <u who="#boderD" start="1233.861" end="x">Aha. And these colonists wanted their children to learn Polish.</u>
+                    <u who="#goldwasserB" start="1236.783" end="x">Polish, yes. They were Poles, of course.</u>
+                    <u who="#boderD" start="1239.054" end="x">Yes. And when did you get married?</u>
+                    <u who="#goldwasserB" start="1241.946" end="x">In '38.</u>
+                    <u who="#boderD" start="1243.585" end="x">Here in . . .</u>
+                    <u who="#goldwasserB" start="1244.139" end="x">Here in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1245.103" end="x">Here in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#goldwasserB" start="1245.886" end="x">Yes.</u>
+                    <u who="#boderD" start="1246.519" end="x">Now tell me . . . And then you . . . and you had . . . How large was your family in Poland?</u>
+                    <u who="#goldwasserB" start="1252.344" end="x">In Poland I had my mother and my brother.</u>
+                    <u who="#boderD" start="1256.488" end="x">And the father?</u>
+                    <u who="#goldwasserB" start="1257.436" end="x">The father had died a long time ago, when I was a child four years old.</u>
+                    <u who="#boderD" start="1261.034" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1261.295" end="x">When I left my brother, he was fifteen years old. And I also had uncles, aunts, my mother's brothers and sisters . . . [her] brothers- and sisters-in-law with children.</u>
+                    <u who="#boderD" start="1272.247" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1272.773" end="x">But in America I have two aunts.</u>
+                    <u who="#boderD" start="1275.143" end="x">Two aunts?</u>
+                    <u who="#goldwasserB" start="1275.910" end="x">Yes.</u>
+                    <u who="#boderD" start="1276.292" end="x">Now let us first finish with the Polish relatives. When was the last time you heard from your mother?</u>
+                    <u who="#goldwasserB" start="1281.186" end="x">From my mother I have [heard] in '42. In May I received the last letter.</u>
+                    <u who="#boderD" start="1285.598" end="x">Where was she then?</u>
+                    <u who="#goldwasserB" start="1286.787" end="x">She was in <placeName ref="Barysh">Barysz</placeName> [?] at home.</u>
+                    <u who="#boderD" start="1288.869" end="x">Yes. And what . . . How did your mother get along?</u>
+                    <u who="#goldwasserB" start="1292.444" end="x">Before the war my mother was rather well off, but afterwards, like all the others, they took everything away from her, drove her out [of her house] put [her] into a <term ref="#vothG_ghetto">ghetto</term> like all the other Jews. And there probably she was very badly treated, beaten. And the old ones were even taken to the gas chambers. I was told that. In the gas chambers they were asphyxiated.</u>
+                    <u who="#boderD" start="1316.100" end="x">But what happened to your mother?</u>
+                    <u who="#goldwasserB" start="1317.911" end="x">My mother was taken to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> to a . . .</u>
+                    <u who="#boderD" start="1321.606" end="x"><placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>?</u>
+                    <u who="#goldwasserB" start="1322.570" end="x"><placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> . . . to a <term ref="#vothG_lager">lager</term>. And there he was gassed in a gas [unintelligible].</u>
+                    <u who="#boderD" start="1327.464" end="x">Who told you that?</u>
+                    <u who="#goldwasserB" start="1328.749" end="x">My brother told me that. He had remained . . . He was drafted [?] by the Russians. That was in Poland. Then, when the Russians withdrew, he went with them to Russia. And there he joined the Russian army, and . . . and he was a soldier. He was wounded three times. He has fought . . . fought on the borders of East Prussia, under the command of a Jewish general.<note n="16"> In keeping with the August 1939 Stalin-Hitler pact, the Russians occupied eastern Poland after the outbreak of World War II and drafted Mrs. Goldwasser's brother into the Red Army. In June 1941, following the invasion of the Soviet Union by Nazi Germany, the Red Army withdrew and her brother went with it. Some half a million Jews fought in the Red Army during World War II. Approximately 120,000 lost their lives, and thousands more, including Mrs. Goldwasser's brother, were wounded.</note></u>
+                    <u who="#boderD" start="1357.162" end="x">Who was that?</u>
+                    <u who="#goldwasserB" start="1358.276" end="x">In . . .</u>
+                    <u who="#boderD" start="1359.632" end="x">Was this the general who was killed?</u>
+                    <u who="#goldwasserB" start="1361.242" end="x">Who was killed.</u>
+                    <u who="#boderD" start="1361.895" end="x">Yurenko?</u>
+                    <u who="#goldwasserB" start="1362.427" end="x">Yur— . . . no, not Yurenko.</u>
+                    <u who="#boderD" start="1366.283" end="x">Yes, in northeastern Prussia.</u>
+                    <u who="#goldwasserB" start="1368.205" end="x">In northeastern Prussia.</u>
+                    <u who="#boderD" start="1369.364" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1369.599" end="x">He [my brother] was wounded. And then he was taken to <placeName ref="Moskva">Moscow</placeName>, and [there] he recovered. Afterwards . . . he had it very good in Russia. This he wrote me. And then he thought, what should he do there all alone. He is still "a child." He thought perhaps he will find . . . perhaps he will yet find the mother. So he came home, to Poland, to <placeName ref="Barysh">Barysz</placeName> [?]. And he did not find the mother, no one. So he went on to Poland . . . he went to Poland. And he found no one of the family. So he came to Germany. In Germany he found no one either. Then he went on to <placeName ref="München">Munich</placeName> and . . . and joined a <term ref="#vothG_lager">lager</term> of the <term ref="#vothG_unrra">UNRRA</term>. There he decided to go either to America or to Palestine. But when he received word from my aunt in America, and when she also gave him my address, he immediately wrote to me in France, and now I am in contact with him.</u>
+                    <u who="#boderD" start="1433.775" end="x">Where is the brother?</u>
+                    <u who="#goldwasserB" start="1434.599" end="x">My brother is in Mun— . . . near <placeName ref="München">Munich</placeName>, in Föhrenwald, in a camp.</u>
+                    <u who="#boderD" start="1438.730" end="x">In a camp, and . . . and he corresponds with you.</u>
+                    <u who="#goldwasserB" start="1442.268" end="x">Yes.</u>
+                    <u who="#boderD" start="1442.379" end="x">Why doesn't he come to <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="1444.150" end="x">Because I myself do not know what to do in <placeName ref="Paris">Paris</placeName>. Perhaps he . . .</u>
+                    <u who="#boderD" start="1448.919" end="x">How old is he now?</u>
+                    <u who="#goldwasserB" start="1449.351" end="x">He is now twenty-four years old, going on twenty-five.</u>
+                    <u who="#boderD" start="1453.482" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1453.948" end="x">And so myself do not know what to do. To take him to <placeName ref="Paris">Paris</placeName>? I am alone. I perhaps can create a future for myself [?] and from America . . . the aunts want to take him over to America.</u>
+                    <u who="#boderD" start="1465.723" end="x">The aunts want to take him over to America.</u>
+                    <u who="#goldwasserB" start="1466.988" end="x">Yes. They have sent him an affidavit.<note n="17">The affidavit was a sworn assurance by family or friends of those who sought to be admitted to the United States that they had the financial means to care for the would-be immigrant and that he or she was at no risk to become "a public charge."</note></u>
+                    <u who="#boderD" start="1469.729" end="x">Tell me, please, where do your aunts live?</u>
+                    <u who="#goldwasserB" start="1472.375" end="x">My aunt lives in <placeName ref="Brooklyn">Brooklyn</placeName>.</u>
+                    <u who="#boderD" start="1474.417" end="x">In <placeName ref="Brooklyn">Brooklyn</placeName>, near <placeName ref="New York">New York</placeName>.</u>
+                    <u who="#goldwasserB" start="1475.622" end="x"><placeName ref="New York">New York</placeName>.</u>
+                    <u who="#boderD" start="1476.690" end="x">And what are their names?</u>
+                    <u who="#goldwasserB" start="1478.156" end="x">Rosa Drah [?].</u>
+                    <u who="#boderD" start="1479.763" end="x">Rosa . . .</u>
+                    <u who="#goldwasserB" start="1480.048" end="x">Rosa Kupferstein and Anna Drah [?].</u>
+                    <u who="#boderD" start="1483.763" end="x">Kupferstein?</u>
+                    <u who="#goldwasserB" start="1484.777" end="x">Kupferstein.</u>
+                    <u who="#boderD" start="1486.223" end="x">And Anna Drah.</u>
+                    <u who="#goldwasserB" start="1487.271" end="x">And Anna Drah.</u>
+                    <u who="#boderD" start="1488.586" end="x">Both in <placeName ref="Brooklyn">Brooklyn</placeName>.</u>
+                    <u who="#goldwasserB" start="1489.771" end="x">Both in <placeName ref="Brooklyn">Brooklyn</placeName>.</u>
+                    <u who="#boderD" start="1490.996" end="x">Do you also have their telephone numbers, or just their addresses?</u>
+                    <u who="#goldwasserB" start="1493.365" end="x">I have the addresses, just the addresses.</u>
+                    <u who="#boderD" start="1495.171" end="x">You have just the addresses.</u>
+                    <u who="#goldwasserB" start="1496.376" end="x">Just the addresses, yes. And they have also sent me an affidavit. They also want me to come to America.</u>
+                    <u who="#boderD" start="1501.942" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1502.695" end="x">But unfortunately I am Polish, and the quota for Poles is a very "tedious" one. It may take very long.</u>
+                    <u who="#boderD" start="1511.240" end="x">Yes. But you were a student here?</u>
+                    <u who="#goldwasserB" start="1514.216" end="x">Yes, I was a student.</u>
+                    <u who="#boderD" start="1515.626" end="x">You were a student.</u>
+                    <u who="#goldwasserB" start="1516.453" end="x">Yes.</u>
+                    <u who="#boderD" start="1516.895" end="x">Do you have a diploma showing that you have graduated [from the Gymnasium]?</u>
+                    <u who="#goldwasserB" start="1519.636" end="x">Yes. But unfortunately I have nothing [to show] because the Germans took everything away from me. I cannot get another one.</u>
+                    <u who="#boderD" start="1524.684" end="x">Is it recorded at the university that you had been there?</u>
+                    <u who="#goldwasserB" start="1528.038" end="x">It was . . . yes, it is recorded.</u>
+                    <u who="#boderD" start="1530.191" end="x">Then you can get a certificate from the university.</u>
+                    <u who="#goldwasserB" start="1532.765" end="x">I can get a certificate, of course.</u>
+                    <u who="#boderD" start="1534.362" end="x">Yes. That should be sufficient.</u>
+                    <u who="#goldwasserB" start="1536.264" end="x">Yes.</u>
+                    <u who="#boderD" start="1537.152" end="x">So. Tell me, please, did the <term ref="#vothG_maquis">Maquis</term> have any poems, any songs?</u>
+                    <u who="#goldwasserB" start="1542.929" end="x">Yes, they created very beautiful songs.</u>
+                    <u who="#boderD" start="1545.049" end="x">Would you perhaps sing one for me?</u>
+                    <u who="#goldwasserB" start="1547.904" end="x">[<emph rend="italics">chuckle</emph>] [unintelligible] I can't sing. I have no voice.</u>
+                    <u who="#boderD" start="1550.886" end="x">You may do it in a very low voice. The important thing is that the words be clear. Right?</u>
+                    <u who="#goldwasserB" start="1556.621" end="x">Yes.</u>
+                    <u who="#boderD" start="1558.683" end="x">Just hum it, so to speak. Try, please.</u>
+                    <u who="#goldwasserB" start="1561.314" end="x">I cannot remember.</u>
+                    <u who="#boderD" start="1562.864" end="x">Try, please. Let us see.</u>
+                    <u who="#goldwasserB" start="1564.702" end="x">[In French] [unintelligible]? [<emph rend="italics">sings</emph>] Friends, you heard the glory of liberty, which has called you. Come to the ranks [unintelligible] stretch out your hand to your brothers, who agree with you [feel like you] [unintelligible; "to fight against"?] be it those who abandoned the legions [ranks] be it those who abandoned the nations. Friends, you hear the glory which is calling you. On the hills is liberty, which will unite you, comrades, Jews, Italians [unintelligible].</u>
+                    <u who="#boderD" start="1565.612" end="x">[In German] Yes. Do you know any Jewish songs from the <term ref="#vothG_lager">lagers</term>?</u>
+                    <u who="#goldwasserB" start="1570.861" end="x">From the <term ref="#vothG_lager">lagers</term>? Yes.</u>
+                    <u who="#boderD" start="1572.077" end="x">Yes. Will you please sing one for me?</u>
+                    <u who="#goldwasserB" start="1574.296" end="x">But I myself was not in the <term ref="#vothG_lager">lager</term>. These are songs which we have had come to us [?].</u>
+                    <u who="#boderD" start="1577.212" end="x">Yes. Will you sing one?</u>
+                    <u who="#goldwasserB" start="1579.023" end="x">[<emph rend="italics">recites</emph>] "[The first line is not clear] <placeName ref="Ravensbrück concentration camp" type="camp">Ravensbrück</placeName>, <placeName ref="Ravensbrück concentration camp" type="camp">Ravensbrück</placeName>, you are in the abyss [?]. And perhaps one day we will see freedom. Then we shall say to life once again, yes, <placeName ref="Ravensbrück concentration camp" type="camp">Ravensbrück</placeName>, you are the past, the sorrow, the destruction, by the Germans, by the Nazis, of the Jewish people. We the young have faith in life [?]. One must strive to live. But the Germans have besmirched this striving with black ink." There are some more words, but I do not remember them.</u>
+                    <u who="#boderD" start="1616.139" end="x">Recite please in French.</u>
+                    <u who="#goldwasserB" start="1618.964" end="x">[She recites another song in French.]</u>
+                    <u who="#goldwasserB" start="1651.679" end="x">[In German] There are some more words to this too, but I do not remember them.</u>
+                    <u who="#boderD" start="1662.701" end="x">Well, tell me, what do you think in general? What will become of the future?</u>
+                    <u who="#goldwasserB" start="1668.508" end="x">About the future?</u>
+                    <u who="#boderD" start="1669.537" end="x">[<emph rend="italics">adjusts the equipment</emph>]</u>
+                    <u who="#goldwasserB" start="1670.856" end="x">. . . when one is able to talk about the future it is [appears] very beautiful. But we cannot imagine at all what the future will look like. The Polish Jews had been very much oppressed. They have absolutely no "moral instinct." They have absolutely no . . . no hope to live. They want to wander. They want to run. To Palestine, unfortunately, they are not admitted. England does not want to give any certificates. To America one is unable [to go]. People have affidavits, but the quota is blocked. Well, what should the Jews do? Where should they go? They have no homeland. They want to have a national homeland. They want to be Palestinian citizens. And why should we not be? And so, unfortunately, no . . . I cannot imagine at all how life . . . the problem of the Jewish life in general, all over the world, will . . . will not take shape. It is a question. We are at the start of a world conference. Perhaps they will talk about us, too. Who knows? The Jews in general . . . a European Jew is not . . . is not too well at the moment. I mean morally. He has no homeland. He has no, as one says in Yiddish, roof over his head. And what can he do? He is broken up. No family. And out of a family, out of the most beautiful families, not a single person was left. And out of many hundreds and millions not even one has remained. What can one . . .<note n="18">Mrs. Goldwasser was indeed among those who lost almost their entire family including her mother, her husband, her baby daughter and her aunts, uncles and cousins.</note></u>
+                    <u who="#boderD" start="1778.096" end="x">For which paper do you work, here in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="1783.237" end="x">I? For the Neue . . . Neue Presse. This is a paper which naturally defends the working class.</u>
+                    <u who="#boderD" start="1792.307" end="x">Aha. How many . . . how many Jewish papers are there in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#goldwasserB" start="1798.060" end="x">There are many Jewish papers, but not all . . . not all of the same opinion. There are <term ref="#vothG_zionist">Zionist</term> papers. There are socialist, so-called Bundist [an old, Jewish socialist party founded in Czarist Russia] papers. They are the worst, because they are against . . . against the progressive labor movement.<note n="19">The Bund was opposed to the communist labor movement. It was a socialist movement that aimed to seek Jewish cultural autonomy in a democratic state. It favored the Yiddish language.</note></u>
+                    <u who="#boderD" start="1817.803" end="x">The Bundist papers?</u>
+                    <u who="#goldwasserB" start="1819.419" end="x">[They] take always the stand . . .</u>
+                    <u who="#boderD" start="1821.190" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="1821.742" end="x">The Bundist paper always takes the opposite stand, against the Neue Presse. This is a struggle between two camps of labor.</u>
+                    <u who="#boderD" start="1831.682" end="x">Is the Bundist press not a socialist press, not a Social-Democratic press?</u>
+                    <u who="#goldwasserB" start="1836.210" end="x">A Social-Democratic [paper] as it is said, but in reality they are not the way the worker wants to have it.</u>
+                    <u who="#boderD" start="1845.394" end="x">You think so?</u>
+                    <u who="#goldwasserB" start="1846.372" end="x">That is what I think.</u>
+                    <u who="#boderD" start="1848.374" end="x">But there are many people who read this paper. Isn't that so?</u>
+                    <u who="#goldwasserB" start="1851.948" end="x">There are, but it does not have too much of a success [following] I am not talking now as a follower of the Neue Presse . . .</u>
+                    <u who="#boderD" start="1858.151" end="x">Yes?</u>
+                    <u who="#goldwasserB" start="1858.533" end="x">. . . which has a tremendous success.</u>
+                    <u who="#goldwasserB" start="1861.831" end="x">[In Yiddish] When one comes to a Jewish home, in every Jewish family, in the morning one sees a Jewish newspaper.</u>
+                    <u who="#goldwasserB" start="1868.912" end="x">[In German] This is the Neue Presse, naturally. As one sees a French newspaper, a working man's paper, or any other one, but the . . . but the Jew, he reads the . . . the Neue Presse.</u>
+                    <u who="#boderD" start="1883.101" end="x">The Neue Presse.</u>
+                    <u who="#goldwasserB" start="1883.877" end="x">Because in it he has . . .</u>
+                    <u who="#boderD" start="1884.293" end="x">Is the Neue Presse <term ref="#vothG_zionist">Zionistic</term>?</u>
+                    <u who="#goldwasserB" start="1886.707" end="x">The Neue Presse is not <term ref="#vothG_zionist">Zionistic</term>. The Neue Presse is a . . . not communistic, but it defends the Jewish immigrant, defends the Jewish [unintelligible] man, the worker who works at home, who works in the factories, and the intellectuals who . . .<note n="20">The Neue Presse (also known as Neie Presse or Naie Presse) was a Yiddish language daily newspaper with pronounced communist leanings. Like the Bund, it was anti-Zionist, but was more universalistic in outlook.</note></u>
+                    <u who="#boderD" start="1906.619" end="x">What does it say about Palestine?</u>
+                    <u who="#goldwasserB" start="1908.611" end="x">About Palestine? What does it say about Palestine?</u>
+                    <u who="#boderD" start="1912.762" end="x">Yes.</u>
+                    <u who="#goldwasserB" start="1913.499" end="x">They have a very strong [?] opinion about Palestine. They help in Palestine the Jews who organize in Palestine against the . . . against the bourgeois camp [class] who want to create their own homeland, who want something too . . .</u>
+                    <u who="#boderD" start="1936.562" end="x">I thank you very much, Mrs. Goldwasser. This is a very good . . . [mid-sentence interruption of interview apparently due to the end of the spool]</u>
+                </div>
+                <!-- End Spool 9-24 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Julian Weinberg; August 17, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT39M49.572S" id="weinbergJ_9-49">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-49</note>
+                                <placeName ref="Grand Hotel"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-17</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="weinbergJ_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="weinbergJ_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="weinbergJ" role="interviewee">
+                        <persName>
+                            <forename>Julian</forename>
+                            <surname>Weinberg</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>56</age>
+                        <birth ref="Lódź"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Lódź">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Łódź Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Lódź" when="1945-01-19" resp="Russia">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#weinbergJ_de">
+                <!-- Begin spool 9-49 -->
+                <div lang="Germany">
+                    <u who="#boderD" start="0.271" end="x">[In German] Sei können jüdisch oder deutsch reden, wie Sie wollen.</u>
+                    <u who="#weinbergJ" start="2.377" end="x">Hm.</u>
+                    <u who="#boderD" start="2.678" end="x">Von wo sind Sie jetzt gekommen?</u>
+                    <u who="#weinbergJ" start="5.361" end="x">Ich bin gekommen von . . . aus Lodz.</u>
+                    <u who="#boderD" start="8.193" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="8.735" end="x">Polen.</u>
+                    <u who="#boderD" start="9.458" end="x">Polen. Wie ist Ihr voller Name?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="15.542" end="x">[In English] August 17, 1946. Paris, Grand Hotel. Spool Number 49. An Illinois Institute of Technology recording. The interviewee is with the engineer Julian Weinberg from Lodz, Poland.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="33.918" end="x">[In German] Also Herr Weinberg, wollen Sie mir nochmals sagen, was ist Ihr Name und von wo sind Sie?</u>
+                    <u who="#weinbergJ" start="41.490" end="x">Mein Name ist Julian Weinberg aus Lodz, Polen.</u>
+                    <u who="#boderD" start="49.773" end="x">Was tun Sie jetzt in Lodz, Herr Weinberger?</u>
+                    <u who="#weinbergJ" start="52.364" end="x">Jetzt bin ich Leitender Direktor des Elektrizitätswerkes Lodz.</u>
+                    <u who="#boderD" start="61.051" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="61.696" end="x">Das ist . . . das ist eines der größten Elektrizitätswerke Polens.</u>
+                    <u who="#boderD" start="67.973" end="x">Ja. Sagen Sie mal, waren Sie auch vor dem Kriege mit diesen Werken verbunden?</u>
+                    <u who="#weinbergJ" start="73.967" end="x">Ja, vor dem Kriege habe ich auch gearbeitet in diesem Werke seit 1911.</u>
+                    <u who="#boderD" start="80.985" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="81.588" end="x">Und im Jahre, in diesem Jahre neunzehn hundert sechs und vierzig (1946) habe ich das fünf und dreißig (35) jährige Jubiläum meiner Arbeit in diesem Elektrizitätswerke gefeiert.</u>
+                    <u who="#boderD" start="100.516" end="x">Ja. Aber Sie sehen aus, wie ein ganz junger Mensch, Herr Weinberg! Wie alt sind Sie?</u>
+                    <u who="#weinbergJ" start="105.859" end="x">Ich bin geboren achtzehn hundert neunzig (1890) . . .</u>
+                    <u who="#boderD" start="109.444" end="x">Aha.</u>
+                    <u who="#weinbergJ" start="110.028" end="x">. . . ich bin sechs und fünfzig (56) Jahre alt.</u>
+                    <u who="#boderD" start="112.197" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="113.492" end="x">Und als ein und zwanzig (21) jähriger junger Mann habe ich bereits den Posten eines Ingenieurs in dem Elektrizitätswerk Lodz übernommen</u>
+                    <u who="#boderD" start="127.498" end="x">Also das war noch . . . [beide sprechen]</u>
+                    <u who="#weinbergJ" start="128.673" end="x">Gleich nach . . . das war neunzehn hundert elf (1911)—das heißt kurz nach meinem Studium.</u>
+                    <u who="#boderD" start="137.028" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="137.450" end="x">Studiert habe ich in Paris. War ich . . . habe ich studiert Mathematik, das war auf der Sorbonne und dann habe ich das Polytechnikum in Nancy absolviert.</u>
+                    <u who="#boderD" start="151.908" end="x">Also, Sie waren noch Ingenieur zur Zeit wo Polen Russland war?</u>
+                    <u who="#weinbergJ" start="156.649" end="x">Jawohl, ganz richtig.</u>
+                    <u who="#boderD" start="157.836" end="x">Ja. Deswegen weil Sie Jude waren, waren Sie angestellt dort?</u>
+                    <u who="#weinbergJ" start="161.716" end="x">Ja, wenn Polen noch an Russland gehörte.</u>
+                    <u who="#boderD" start="166.638" end="x">Nun, sagen Sie mal, Herr Weinberg . . .</u>
+                    <u who="#weinbergJ" start="168.277" end="x">Das war das Kongress Polen.</u>
+                    <u who="#boderD" start="170.217" end="x">Ja. Ich bin ein bisschen nervös, denn Sie wollen mir nicht mehr als eine halbe ( ½ ) Stunde geben und ich weiß, dass Sie sehr viel zu erzählen haben. Darum möchte ich Sie Folgendes bitten. Beantworten Sie ein paar Fragen. Wo waren Sie, wenn die Deutschen Polen . . . also nach Polen rein kamen?</u>
+                    <u who="#weinbergJ" start="193.271" end="x">Im letzten Krieg?</u>
+                    <u who="#boderD" start="195.128" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="196.014" end="x">Da war ich in Lodz.</u>
+                    <u who="#boderD" start="197.562" end="x">Sie waren in Lodz auf Ihrer Stelle?</u>
+                    <u who="#weinbergJ" start="199.369" end="x">Auf meiner Stelle, ja.</u>
+                    <u who="#boderD" start="202.261" end="x">Wie lange haben Sie die Deutschen zufrieden gelassen? Wie lange haben Sie gearbeitet nachdem die Deutschen gekommen sind?</u>
+                    <u who="#weinbergJ" start="211.731" end="x">Nachdem die Deutschen gekommen sind, habe ich gearbeitet . . .</u>
+                    <u who="#boderD" start="216.201" end="x">Nun?</u>
+                    <u who="#weinbergJ" start="220.430" end="x">. . . hm, zwei (2) Monate.</u>
+                    <u who="#boderD" start="222.219" end="x">Zwei Monate.</u>
+                    <u who="#weinbergJ" start="222.791" end="x">Zwei Monate. Und dann wurde unser Werk durch einen SS Mann übernommen . . .</u>
+                    <u who="#boderD" start="230.123" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="231.701" end="x">. . . und ich musste—als Jude—musste ich meinen Posten verlassen. Also . . .</u>
+                    <u who="#boderD" start="246.069" end="x">Und was haben Sie dann getan?</u>
+                    <u who="#weinbergJ" start="249.906" end="x">Dann kam eine Verordnung . . . alle Juden mussten die Stadt verlassen, um sich nach dem Ghetto zu . . . hm, . . .</u>
+                    <u who="#boderD" start="263.132" end="x">Zu begeben.</u>
+                    <u who="#weinbergJ" start="263.491" end="x">. . . zu begeben. Ja.</u>
+                    <u who="#boderD" start="264.937" end="x">Sprechen Sie Jiddisch lieber?</u>
+                    <u who="#weinbergJ" start="266.455" end="x">Das ist ganz egal.</u>
+                    <u who="#boderD" start="267.521" end="x">Also, beschreiben Sie uns . . . als ein intelligenter Mensch, als ein Ingenieur, beschreiben Sie uns das Lodzer Ghetto.</u>
+                    <u who="#weinbergJ" start="274.961" end="x">Also bevor wir noch in das Ghetto gegangen sind, da haben wir bekommen früher . . . zuerst solche . . . eine gelbe Armbinde, damit man uns auf der Strasse als Jude unterscheidet. Und dann war das noch zu wenig für die Deutschen, haben sie uns dann solche gelben Sterne angeklebt von vorne und von hinten, damit man von allen Seiten bemerkt, dass da ein Jude geht. Natürlich war der ganze Verkehr in der Stadt für die Juden fast unmöglich, weil die wurden von den Deutschen, hm, auf der Strasse, so verschiedene, ganz gewöhnliche Arbeiter wurden von den Deutschen genommen, unabhängig davon wer das ist, ob das ein Arbeiter oder ein Intelligenter ist, musste er die schwersten Arbeiten ausführen.</u>
+                    <u who="#boderD" start="332.717" end="x">Was für Arbeiten haben Sie ausführen müssen?</u>
+                    <u who="#weinbergJ" start="336.344" end="x">Ich musste, zum Beispiel, Fußboden scheuern eines Tages.</u>
+                    <u who="#boderD" start="344.579" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="345.404" end="x">Ich hatte noch einen Fall, als meine Mutter am fünften (5.) März gestorben ist und ich musste sie beerdigen. Da war ich der Einzige auf dem Friedhof; niemand durfte die Leiche begleiten ans Grab. Und als ich vom Friedhof zurück kehrte wurde ich auf der Strasse aufgefangen von einem jungen Volksdeutschen und in ein Tor geschleppt und auf dem Hofe musste ich Kohle von einem Fuhrwerk nach dem Keller tragen.</u>
+                    <u who="#boderD" start="390.504" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="392.263" end="x">Und das dauerte ein paar Stunden. Da war . . .</u>
+                    <u who="#boderD" start="394.793" end="x">Und . . .</u>
+                    <u who="#weinbergJ" start="395.094" end="x">Das war genau als ich vom Friedhof nach Hause mich begeben wollte.</u>
+                    <u who="#boderD" start="400.727" end="x">Also, Herr Weinberg, wollen wir das klar haben, also einfach ein Junge, nicht ein Offizier, nicht ein Beamter . . .</u>
+                    <u who="#weinbergJ" start="408.992" end="x">Nein.</u>
+                    <u who="#boderD" start="409.745" end="x">Einfach ein . . .</u>
+                    <u who="#weinbergJ" start="411.023" end="x">Das war ein junger . . . so ungefähr ein und zwanzig (21) . . . ein junger Mann . . .</u>
+                    <u who="#boderD" start="415.347" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="415.890" end="x">Mit einer Peitsche.</u>
+                    <u who="#boderD" start="417.709" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="418.643" end="x">Hat er mich auf der Strasse aufgefangen und in ein Tor geschleppt in ein Haus.</u>
+                    <u who="#boderD" start="424.155" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="424.908" end="x">Und dort waren noch andere Juden; es waren angesammelt zirka fünfzehn (15) Mann und alle mussten Kohle schleppen.</u>
+                    <u who="#boderD" start="436.354" end="x">Für wen hat man die Kohle geschleppt? Was es eine Behörde oder war es private . . .</u>
+                    <u who="#weinbergJ" start="440.432" end="x">Das war für die nationale sozialistische Volksorganisation, also N S V.</u>
+                    <u who="#boderD" start="450.191" end="x">Ja. Und die haben einfach . . .</u>
+                    <u who="#weinbergJ" start="451.577" end="x">N S V .</u>
+                    <u who="#boderD" start="451.890" end="x">. . . Leute auf der Strasse aufgehalten?</u>
+                    <u who="#weinbergJ" start="453.649" end="x">Ja.</u>
+                    <u who="#boderD" start="454.011" end="x">Und gezwungen zu arbeiten.</u>
+                    <u who="#weinbergJ" start="454.746" end="x">Ja.</u>
+                    <u who="#boderD" start="455.451" end="x">Nun?</u>
+                    <u who="#weinbergJ" start="457.240" end="x">Als die Arbeit fertig war . . .</u>
+                    <u who="#boderD" start="459.108" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="459.903" end="x">. . . da wurden Mehrere nach Hause gelassen. Aber mich . . . wenn sie erfuhren ich bin Ingenieur, . . .</u>
+                    <u who="#boderD" start="468.036" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="468.560" end="x">. . . haben sie mich zurück gelassen und ich musste noch zwei (2) Stunden länger bleiben, weil sie mich als Intele . . . als Intellektuellen betrachtet haben. Und ich musste noch zwei (2) Stunden noch Kohle, hm, . . .</u>
+                    <u who="#boderD" start="486.331" end="x">Schleppen.</u>
+                    <u who="#weinbergJ" start="486.753" end="x">. . . schleppen die Kohle, ja, von einem Keller in den Anderen, so eine unbrauchbare Arbeit eigentlich musste ich ausführen.</u>
+                    <u who="#boderD" start="493.753" end="x">Ach so, das war bloß Schikanerie?</u>
+                    <u who="#weinbergJ" start="495.801" end="x">Ja, das war eine reine Schikane . . .</u>
+                    <u who="#boderD" start="498.633" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="498.946" end="x">. . . und dann erst in den späten Abendstunden konnte ich nach Hause gehen.</u>
+                    <u who="#boderD" start="505.061" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="505.465" end="x">Überhaupt auf der Strasse war es ganz gefährlich für die Juden, weil jeder konnte . . . konnte mit uns machen, was er nur wollte. Das ist nur eine kleine Episode, die ich kurz vor dem, hm, dem Übertritt in das Ghetto hatte. Nun . . .</u>
+                    <u who="#boderD" start="527.314" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="527.857" end="x">. . . war es beschlossen, dass eigentlich die . . . das nach dem Lodzer Ghetto . . . sollte man eigentlich organisiert gehen. Also jeden Tag sollte ein bestimmtes Stadtviertel übersiedelt werden.</u>
+                    <u who="#boderD" start="545.490" end="x">Bei den Deutschen?</u>
+                    <u who="#weinbergJ" start="546.315" end="x">Bei den Deutschen, ja. Hm, dort wo ich wohnte ungefähr—dieses Stadtviertel sollte zuerst gehen. Also . . .</u>
+                    <u who="#boderD" start="560.863" end="x">War das ein besseres Stadtviertel?</u>
+                    <u who="#weinbergJ" start="562.603" end="x">Das war ein besseres Stadtviertel, ja. Und, hm, Punkt um siebzehn (17) Uhr wurde unser Haus durch SS Mann . . .</u>
+                    <u who="#boderD" start="577.133" end="x">Umzingelt?</u>
+                    <u who="#weinbergJ" start="577.916" end="x">umzingelt und alle Juden mussten das Haus verlassen. Also die SS Männer, die kamen direkt in die Wohnungen, wo Juden wohnten; haben . . . haben . . . haben uns nur fünf (5) Minuten Zeit gegeben damit wir sofort die Wohnung verlassen. Also jeder hat . . . konnte nur mitnehmen das Allerwenigste, was er hatte in einem Rucksack, um . . . um sich nach draußen auf den Hof zu begeben. Mit meinem Sohn hatte ich auch so einen Fall. Er hat so ein arisches Aussehen. Da hatte er Peitschen bekommen, weil er mit dem Vater mitgehen wollte. Ihm glaubte der SS Mann nicht, dass er Jude ist. Und er dachte, er wollte sich mit den Juden mit schmuggeln. Nun ich musste erst feststellen, dass das mein Sohn ist, dann hat man ihn auch mit genommen.</u>
+                    <u who="#boderD" start="651.537" end="x">Na, für welches „Glück“ wollte er sich mit den Juden mit schmuggeln?</u>
+                    <u who="#weinbergJ" start="655.043" end="x">Na, er wollte mit den Eltern gehen.</u>
+                    <u who="#boderD" start="657.091" end="x">Na ja, ich sage aber, warum soll der SS Mann denken, dass er absichtlich ins Ghetto gehen will?</u>
+                    <u who="#weinbergJ" start="662.646" end="x">Aha. Ja, er wusste nicht, er hat vielleicht gedacht, das ist ein Arier, nicht wahr. Dass er vielleicht zufällig . . . das war ein, hm, Junge—er war damals so zirka, hm, hm, fünfzehn (15) Jahr, nicht wahr.</u>
+                    <u who="#boderD" start="678.863" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="679.146" end="x">Ein kleiner . . . kleiner Junge, nicht wahr. Da dachte der, er hat sich verlaufen.</u>
+                    <u who="#boderD" start="685.411" end="x">Aha. Nun?</u>
+                    <u who="#weinbergJ" start="687.218" end="x">Nun, es war im Winter, es war frostig. Da hat man uns wieder gesammelt auf einem Hof.</u>
+                    <u who="#boderD" start="697.550" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="698.225" end="x">Die haben so von verschiedenen Häusern aus diesem „Quartier“ [Herr Weinberg spricht das französisch aus]—aus diesem Viertel . . .</u>
+                    <u who="#boderD" start="704.532" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="705.105" end="x">. . . die Juden angesammelt und wir wussten nicht genau wohin sie uns führen.</u>
+                    <u who="#boderD" start="714.816" end="x">Sie führen werden.</u>
+                    <u who="#weinbergJ" start="715.521" end="x">. . . sie führen werden.</u>
+                    <u who="#boderD" start="716.105" end="x">Nun sagen Sie mal, Herr Weinberg, ich möchte natürlich alles hören, was Sie sagen. Aber Sie wollen mir bloß eine halbe ( ½ ) Stunde geben.</u>
+                    <u who="#weinbergJ" start="724.720" end="x">Ja.</u>
+                    <u who="#boderD" start="725.184" end="x">Und darum möchte ich zu ein paar anderen Fragen kommen. Wie lange waren Sie im Ghetto?</u>
+                    <u who="#weinbergJ" start="733.750" end="x">Im Ghetto war ich über fünf (5) Jahre, die ganze Zeit. Also ich wollte nur kurz sagen . . .</u>
+                    <u who="#boderD" start="739.082" end="x">Ja, bitte sagen Sie mir alles . . . [unverständlich; beide sprechen]</u>
+                    <u who="#weinbergJ" start="740.359" end="x">. . . nachher . . . nachher, wie wir sind nach dem Ghetto gegangen, haben wir erfahren, dass am selben Tag—die selben SS Männer, dort wo sie in eine Wohnung nicht gleich rein gelassen wurden . . .</u>
+                    <u who="#boderD" start="753.733" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="754.076" end="x">. . . da haben sie die Türen aufgebrochen . . .</u>
+                    <u who="#boderD" start="756.125" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="756.468" end="x">und wo Kranke liegen, liegten und die nicht mit gehen konnten . . .</u>
+                    <u who="#boderD" start="760.535" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="760.878" end="x">. . . haben die die kranken Leute erschossen.</u>
+                    <u who="#boderD" start="763.740" end="x">Also wie hat das gekommen . . . [unverständlich; beide sprechen]</u>
+                    <u who="#weinbergJ" start="764.324" end="x">Also nachdem, nachdem . . . man erfahren hat . . .</u>
+                    <u who="#boderD" start="768.752" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="768.993" end="x">. . . dass sie mit solchen Mitteln nach dem Ghetto treiben wollen, dann sind schon in den nächsten Tagen alle Juden selbst . . . selbst nach dem Ghetto gegangen.</u>
+                    <u who="#boderD" start="780.379" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="780.783" end="x">Also, das sollte dauern, sagen wir eine Woche und in zwei Tagen habe alle Juden selbst die Stadt verlassen, weil sie haben gesehen mit welchen schroffen Mitteln, hm, die Juden behandelt werden. Also wir wurden zu Fuß nach dem Ghetto gebracht—darunter waren viele junge Mädels, alte Frauen in Hausschuhe, manche sind auch barfuss gelaufen . . . auf dem Schnee. Unterwegs müssen Viele auch die Rucksäcke weg schmeißen, weil es war ihnen zu schwer die Last zu tragen.</u>
+                    <u who="#boderD" start="827.147" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="828.352" end="x">Nun sind wir nach dem Ghetto gekommen. Das Ghetto Lodz war vollständig isoliert von der Stadt.</u>
+                    <u who="#boderD" start="841.008" end="x">Was war es denn?</u>
+                    <u who="#weinbergJ" start="842.014" end="x">Es war absolut keine Verbindung mit der Stadt. Es war umzingelt mit Draht . . .</u>
+                    <u who="#boderD" start="848.580" end="x">Aber es war in der Stadt?</u>
+                    <u who="#weinbergJ" start="849.996" end="x">Es war an der Peripherie der Stadt. Man hat ausgewählt die Altstadt.</u>
+                    <u who="#boderD" start="855.743" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="857.039" end="x">Das schlimmste Viertel der Stadt.</u>
+                    <u who="#boderD" start="861.991" end="x">Ah hm.</u>
+                    <u who="#weinbergJ" start="862.726" end="x">Das wurde den Juden zugeteilt. Und es wurde rings rum mit Stacheldraht umzingelt und mit Polizeiwache streng bewacht, damit niemand das Ghetto verlassen kann und damit überhaupt keine Verbindung mit der Stadt möglich ist. Also anfangs hieß es, dass . . . von uns lebten die Leute noch. Jeder hatte etwas Geld, was sie mitgenommen. Und Manche haben auch etwas Esswaren mitgenommen, etwas Lebensmittel und man konnte so die ersten paar Tage durchbringen. Später hat sich formiert eine sogenannte Ghetto-Verwaltung. Die Ghetto-Verwaltung war eigentlich eine Form von der . . . hm, Stadtverwaltung.</u>
+                    <u who="#boderD" start="945.001" end="x">Ja. Was meinen sie mit eine . . . ?</u>
+                    <u who="#weinbergJ" start="949.019" end="x">Eine Abteilung . . .</u>
+                    <u who="#boderD" start="950.284" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="950.495" end="x">. . . eine Abteilung war von der Stadtverwaltung.</u>
+                    <u who="#boderD" start="953.519" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="955.115" end="x">An der Spitze der Ghetto Verwaltung stand der bekannte Bieburg.</u>
+                    <u who="#boderD" start="961.200" end="x">Riebuck?</u>
+                    <u who="#weinbergJ" start="962.206" end="x">Bieburg.</u>
+                    <u who="#boderD" start="963.441" end="x">Ein Jude?</u>
+                    <u who="#weinbergJ" start="964.236" end="x">Nein, das war ein Deutscher aus Bremen.</u>
+                    <u who="#boderD" start="968.845" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="970.303" end="x">Ein Kaufmann.</u>
+                    <u who="#boderD" start="971.460" end="x">Wie schreiben Sie seinen Namen?</u>
+                    <u who="#weinbergJ" start="972.587" end="x">B- . . .</u>
+                    <u who="#boderD" start="974.888" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="975.310" end="x">. . . i-e-b-o-w.</u>
+                    <u who="#boderD" start="979.328" end="x">Bieloff? Ja, nun? Er war ein Kaufmann aus Bremen?</u>
+                    <u who="#weinbergJ" start="986.353" end="x">Ja. Und er hat übernommen die ganze Verwaltung. Nun hieß es, die Juden müssen im Ghetto arbeiten, sonst werden sie nicht leben können. Sie müssen auch ihre Existenz verdienen.</u>
+                    <u who="#boderD" start="1001.847" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1003.937" end="x">Na, da wurden verschiedene „Departements“ [Herr Weinberg sagt es auf französisch] geschaffen, verschiedene Abteilungen, wo dann die Juden arbeiten mussten. Also sagen wir ein Kleider [unverständlich] . . .</u>
+                    <u who="#boderD" start="1020.443" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1022.311" end="x">. . . wo man verschieden Kleidungsstücke ausführt . . . die Schneiderabteilungen. Dann waren eine Metallabteilung, einen elektrotechnische Abteilung, hm, Teppichabteilungen., Verschiedene. Die Leute, die nicht . . . die kein Fach besaßen mussten sich umschulen, um etwas zu tun. Natürlich wollten die Juden doch nicht für die deutsche Macht arbeiten. Sie haben nur etwas getan, um den Schein zu geben, als ob sie arbeiten. Sonst hätten wir überhaupt keine Lebensmittel von den Deutschen bekommen. Und schließlich war die jüdische Arbeit die Billigste—hat sich den Leuten, den Deutschen, gelohnt diese verschiedenen Resorts zu schaffen, obwohl die Arbeit nicht sehr intensiv war.</u>
+                    <u who="#boderD" start="1091.609" end="x">Obwohl die Arbeit nicht so intensiv war, ja?</u>
+                    <u who="#weinbergJ" start="1093.717" end="x">Ja.</u>
+                    <u who="#boderD" start="1093.989" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1094.814" end="x">Und die war nicht intensiv, weil die . . . unsere Juden wollten direkt nicht arbeiten für die Deutschen. Es war also eine . . . eine stille Sabotage gegen die Deutschen. Hm. Die Ghetto Verwaltung hat eigentlich doch die besten . . . sehr gute Geschäfte gemacht, weil sie haben diese Sachen, die im Ghetto verarbeitet wurden, haben diese auf dem linken Markt verkauft, zum Beispiel: . . .</u>
+                    <u who="#boderD" start="1133.664" end="x">Auf dem schwarzen Markt.</u>
+                    <u who="#weinbergJ" start="1134.971" end="x">Auf dem schwarzen Markt.</u>
+                    <u who="#boderD" start="1135.784" end="x">Wie haben Sie das genannt? Der Linke?</u>
+                    <u who="#weinbergJ" start="1138.044" end="x">Dem schwarzen Markt, ja.</u>
+                    <u who="#boderD" start="1139.954" end="x">Aber was war das andere Wort dafür?</u>
+                    <u who="#weinbergJ" start="1141.653" end="x">„Linke“ Markt.</u>
+                    <u who="#boderD" start="1142.840" end="x">War das ein Ausdruck dafür?</u>
+                    <u who="#weinbergJ" start="1144.057" end="x">Ja, Manche nennen es „links“.</u>
+                    <u who="#boderD" start="1146.177" end="x">Ja, das ist in Ordnung, ich will das nur wissen. Nun . . . ?</u>
+                    <u who="#weinbergJ" start="1149.551" end="x">Auf dem schwarzen Markt haben sie es verkauft ohne Gewerbescheine, nicht wahr. Ohne Scheine.</u>
+                    <u who="#boderD" start="1155.949" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1156.473" end="x">Zum Beispiel . . . unser . . . unsere, hm, . . . Holzabteilung.</u>
+                    <u who="#boderD" start="1165.901" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1166.817" end="x">Haben wir zum Beispiel ausgeschoben sehr viele Möbelstücke . . .</u>
+                    <u who="#boderD" start="1171.528" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1172.444" end="x">. . . und Kinderbettchen.</u>
+                    <u who="#boderD" start="1174.704" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1175.198" end="x">Das haben die ohne Scheine verkaufen können, deshalb hat es sich gelohnt, diese Werke zu führen, ja, ja.</u>
+                    <u who="#boderD" start="1183.390" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="1188.312" end="x">Wir haben doch eigentlich . . . wir haben kein Geld bekommen, nur Lebensmittel und sehr wenig. Der beste Beweis dafür ist, Tausend von Menschen mussten hungern.</u>
+                    <u who="#boderD" start="1204.605" end="x">Nun?</u>
+                    <u who="#weinbergJ" start="1205.930" end="x">Durch das Lodzer Ghetto gingen durch über zwei hundert tausend (200000) Menschen. Es waren hauptsächlich polnische Juden, es wurden auch aber im Lodzer Ghetto aus Deutschland, aus Österreich und aus der Tschechoslowakei Juden her gebracht—ungefähr fünfzehn tausend (15000) Juden.</u>
+                    <u who="#boderD" start="1240.306" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="1242.626" end="x">Und gerade diese Leute, die konnten sich so schnell nicht an diese schweren Lebensbedingungen im Ghetto gewöhnen und da kann man sagen, dass neunzig (90) Prozent dieser Juden, die aus dem Westen kamen, . . .</u>
+                    <u who="#boderD" start="1260.078" end="x">Die vom Ausland kamen . . .</u>
+                    <u who="#weinbergJ" start="1260.692" end="x">. . . die aus dem Westen kamen, die waren, die mussten den Hungertod mit machen. Auch die polnischen Juden, speziell die Frauen und die älteren Leute, konnten auch nicht mitmachen die schweren Bedingungen und an Hunger und an verschiedenen epidemischen Krankheiten, wie Fleckfieber, Bauchtyphus und Andere sind Viele gestorben. Außer diesen normalen Standardfällen, wenn man das „normal“ . . .</u>
+                    <u who="#boderD" start="1308.406" end="x">Nennen.</u>
+                    <u who="#weinbergJ" start="1309.382" end="x">. . . nennen kann . . .</u>
+                    <u who="#boderD" start="1310.069" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1312.581" end="x">. . . hm, waren diese vielen Deportationen. Es hieß einfach, dass die Deutschen Leute brauchten zu verschiedenen Arbeiten. Und so viele Leute, die sich schlecht gefühlt haben im Ghetto, die dachten, außerhalb wird es besser sein. Sie gingen zur Arbeit, aber sie kamen nicht mehr zurück. Viele Deportationen wurden bei uns ausgeführt durch die Behörden und zwar durch die Gestapo in Verbindung mit dem Rassenamt. Die Dispositionen, wie uns bekannt wurde, sind aus Berlin gekommen. Und so hieß es—man muss jetzt zehn tausend (10000) Mann deportieren—immer hat es geheißen ‚zur Arbeit’. Aber die Leute sind nie mehr wieder gekommen. Eines schönen Tages haben sie die sogenannte Dienst-Sperre in unserem Ghetto eingeführt.</u>
+                    <u who="#boderD" start="1393.726" end="x">Dienst-Sperre?</u>
+                    <u who="#weinbergJ" start="1394.389" end="x">Dienst Sperre.</u>
+                    <u who="#boderD" start="1395.293" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1395.757" end="x">. . . eingerichtet. Da kamen die SS Leute . . . Evakuierung . . . alle Leute mussten runter. Es wurde eine Selektion gemacht, wer evakuiert werden sollte und wer bleibt. Also Frauen und die Männer, die schlecht ausgesehen haben, die wurden auf Autos und Lastwagen geladen und nach Sammelstellen gebracht. Dort kam der sogenannten „Rollkommando“ . . . Rollkommando.</u>
+                    <u who="#boderD" start="1439.290" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="1439.953" end="x">Das waren SS Leute auf schweren, großen Lastautos mit Anhänger. Dort wurden alle Juden . . .</u>
+                    <u who="#boderD" start="1449.031" end="x">Anhänger heißt „trailer“, ein zweiter Wagen.</u>
+                    <u who="#weinbergJ" start="1451.471" end="x">Ja, ein zweiter Wagen. Diese Leute wurden gepackt auf diese Autos und weg geschafft. Auch wurden die Spitäler von den Schwerkraken befreit. Die Kinder wurden aus den Spitälern und aus den Kinderheimen raus geschafft.</u>
+                    <u who="#boderD" start="1482.659" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1483.394" end="x">Manche wurden direkt auf die Autos geschmissen, nicht wahr und das alles so raus geführt.</u>
+                    <u who="#boderD" start="1494.966" end="x">Haben Sie das selbst gesehen?</u>
+                    <u who="#weinbergJ" start="1496.472" end="x">Das habe ich selbst gesehen, ja. Und interessant ist das, dass später die Kleidungsstücke von diesen armen Leuten, die weggebracht wurden, sind die selben alten Kleidungsstücke wieder nach . . . ins Ghetto zurück gekommen. Also als später . . .</u>
+                    <u who="#boderD" start="1521.085" end="x">Zu welchem Zweck?</u>
+                    <u who="#weinbergJ" start="1523.646" end="x">Diese alten Kleidungsstücke sollten dienen . . . für diese Juden, die noch geblieben sind.</u>
+                    <u who="#boderD" start="1530.194" end="x">Zu welchem Zweck?</u>
+                    <u who="#weinbergJ" start="1530.706" end="x">Wir blieben doch im Ghetto über fünf (5) Jahre. Aus diesen alten Kleidungsstücken, aus diesen alten Schuhen, die zerrissen zurück kamen, weil die haben gesucht verschiedene, hm, . . . Wert . . . Wertgegenstände in den Kleidungsstücken, darum waren die Kleidungsstücke zerrissen, aufgeflickt. Auch die Schuhe wurden in unserem Ghetto . . . wurden die besseren Sachen hergerichtet und dann teilweise an die über gebliebene Bevölkerung im Ghetto verteilt und teilweise wurde auch das noch von den Deutschen raus geschafft für die Bombardierten, die bombardierte deutsche Bevölkerung.</u>
+                    <u who="#boderD" start="1588.483" end="x">Nun, hm, und sie waren ganze fünf (5) Jahre in dem Ghetto?</u>
+                    <u who="#weinbergJ" start="1593.845" end="x">Jawohl.</u>
+                    <u who="#boderD" start="1595.453" end="x">Haben Sie sich an der Gemeinde beteiligt?</u>
+                    <u who="#weinbergJ" start="1599.068" end="x">Ich habe mich in der Gemeinde selbst wenig beteiligt, denn bei uns war so ein Ältester der Juden . . .</u>
+                    <u who="#boderD" start="1609.682" end="x">Was war der Name?</u>
+                    <u who="#weinbergJ" start="1610.225" end="x">Er war sehr selbstständig . . . Rumkovski.</u>
+                    <u who="#boderD" start="1613.611" end="x">Was?</u>
+                    <u who="#weinbergJ" start="1614.316" end="x">Rumkovski.</u>
+                    <u who="#boderD" start="1615.443" end="x">Ja, ich habe den Namen schon von Anderen gehört.</u>
+                    <u who="#weinbergJ" start="1617.323" end="x">Jawohl. Er hat die Befehle bekommen, direkt von der Ghetto-Verwaltung und er hat selbst die Befehle ausgeführt, soweit es in seiner Macht war. Ich wollte mich direkt an diesen Sachen nicht beteiligen, . . .</u>
+                    <u who="#boderD" start="1629.155" end="x">Lebt er noch?</u>
+                    <u who="#weinbergJ" start="1629.468" end="x">. . . weil ich ein Gegner der ganzen Politik war und ich musste mich fern von dieser ganzen Sache halten. Hier . . .</u>
+                    <u who="#boderD" start="1635.733" end="x">Lebt Rumkovski noch?</u>
+                    <u who="#weinbergJ" start="1653.649" end="x">Nein, Rumkovski lebt nicht mehr.</u>
+                    <u who="#boderD" start="1656.210" end="x">Wer . . .</u>
+                    <u who="#weinbergJ" start="1656.734" end="x">Er wurde vernichtet von den Deutschen in Auschwitz. Die letzte Evakuierung war im Monat August neunzehn hundert vier und vierzig (1944). Also dann kam der Oberbürgermeister von der Stadt und auch der Amtsleiter von der Ghetto-Verwaltung. Sie haben Reden gehalten, sie haben gesagt, dass jetzt hat sich in Deutschland die ganze Politik geändert . Deutschland braucht Hunderte zur Arbeit, Deutschland wurde bombardiert, viele deutsche Städte wurden vernichtet. Diese Städte muss man wieder aufbauen und deshalb müssen auch die jüdischen Kräfte dazu . . .</u>
+                    <u who="#boderD" start="1708.210" end="x">Benützt?</u>
+                    <u who="#weinbergJ" start="1708.734" end="x">. . . benützt werden. Dann war eine Kommission von Generälen, eine . . . eine Militärkommission und die haben beschlossen, dass Lodz befinde sich in der Nähe der Front . . .</u>
+                    <u who="#boderD" start="1728.855" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1730.253" end="x">. . . und man werde nicht in der Nähe der Front so viele Juden halten. Das ist nicht richtig. Sie wollen, sie wollen den Juden helfen . . .</u>
+                    <u who="#boderD" start="1743.699" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1744.524" end="x">. . . eigentlich, weil sie sollen nicht in der Nähe der Front bleiben und deshalb haben wir verabredet, wir sollen raus fahren und werden bessere Arbeit und gute Lebensbedingungen haben und das eigentlich, das haben die, hm, mit so einer . . . Hm, mit so einer . . .</u>
+                    <u who="#weinbergJ" start="1777.738" end="x">Ja.</u>
+                    <u who="#boderD" start="1778.473" end="x">Aufrichtigkeit? Sincerety!</u>
+                    <u who="#weinbergJ" start="1779.600" end="x">Aufrichtigkeit gesagt, dass die Leute dachten, die wollten die Leute überzeugen, dass sie bessere Arbeiten und bessere Bedingungen haben werden. Es hat sich aber raus gestellt, alle Juden evakuiert—nicht nach den bombardierten Städten, sondern alles ging nach Auschwitz, das ist das bekannte Vernichtungslager. Und dort in Auschwitz wurden die Leute wieder einer Selektion unterworfen und die Meisten mussten durch das Krematorium durch gehen und dort haben sie ihr Leben beendet.</u>
+                    <u who="#boderD" start="1830.721" end="x">Waren Sie in Auschwitz?</u>
+                    <u who="#weinbergJ" start="1832.360" end="x">Ich war nicht in Auschwitz. Ich wurde . . . ich bin geblieben zwischen acht hundert sechzig (860) Menschen, die im Lodzer Ghetto über bleiben mussten. Das war eine Kolonne von den Deutschen gemacht, die das Ghetto ausräumen sollten.</u>
+                    <u who="#boderD" start="1861.360" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="1862.336" end="x">Aufräumen, das heißt diese Möbelstücke, die geblieben sind, diese noch alle Kleidungsstücke, Kissen und hm, . . .</u>
+                    <u who="#boderD" start="1880.907" end="x">Kissen und bedding . . .</u>
+                    <u who="#weinbergJ" start="1886.316" end="x">Ja, das ganze Bettzeug müssen wir zusammen legen und das alles wurde nach der Stadt geschafft von den Deutschen.</u>
+                    <u who="#boderD" start="1890.063" end="x">Nun.</u>
+                    <u who="#weinbergJ" start="1890.949" end="x">Das dauerte paar Monate. Wir, als die letzten siebzig tausend (70000) Mann, die nach Auschwitz gebracht wurden, wurde doch das Ghettostadt verkleinert und wir diese überbleibt . . . überbliebenen acht hundert und sechzig (8670) Mann und Frauen, wir wurden in zwei (2) Fabrik . . . hm, Wohnstätten . . .</u>
+                    <u who="#boderD" start="1941.364" end="x">Untergebracht?</u>
+                    <u who="#weinbergJ" start="1942.131" end="x">. . . lokalisiert.</u>
+                    <u who="#boderD" start="1943.215" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1944.237" end="x">Die Männer in einem . . . in einem Fabrikgebäude . . .</u>
+                    <u who="#boderD" start="1947.009" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="1947.172" end="x">. . . und die Frauen in dem Anderen.</u>
+                    <u who="#boderD" start="1950.437" end="x">Wo war Ihr Sohn?</u>
+                    <u who="#weinbergJ" start="1951.039" end="x">Mein Sohn war mit mir.</u>
+                    <u who="#boderD" start="1954.383" end="x">Hm.</u>
+                    <u who="#weinbergJ" start="1954.980" end="x">. . . und meine Frau mit meiner Tochter waren . . . waren auf der anderen Seite.</u>
+                    <u who="#boderD" start="1962.643" end="x">Sind die jetzt alle noch hier?</u>
+                    <u who="#weinbergJ" start="1963.920" end="x">Also man hat . . . Jawohl. Man hat uns direkt in diesen zwei Gebäuden lokalisiert das war eigentlich so ein Lager und von diesem Moment hat man uns betrachtet, wie ein Lager, wie in Auschwitz oder Dachau oder Andere. Wir waren unterworfen allen, allen hm, hm, strengen, hm, . . . hm, . . .</u>
+                    <u who="#boderD" start="1999.290" end="x">Disziplin?</u>
+                    <u who="#weinbergJ" start="2002.073" end="x">. . . allen strengen, ja, hm, . . .</u>
+                    <u who="#boderD" start="2004.272" end="x">Und Regeln?</u>
+                    <u who="#weinbergJ" start="2005.639" end="x">. . . und Regeln der, der Lager. Also jeden Morgen mussten wir uns auf dem Hof sammeln zum Appell . . .</u>
+                    <u who="#boderD" start="2020.399" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="2021.164" end="x">Da kamen die SS Leute, sie haben verteilt alle Leute für diese Arbeit. Dabei hat sich die ganze Sache bis neunzehnten (19.) September . . . bis Januar . . . bis zum neunzehnten (19.) Januar neunzehn hundert fünf und vierzig (1945), wo . . . an welchem Datum unsere Stadt von Russen und dann vom heranziehenden polnischen Militär befreit wurde. In den letzten Tagen, als wir sahen, dass sich die russische Offensive von Warschau herannaht, Sie müssen wissen, dass wir hatten auch ein verstecktes Radio im Lager. Da wussten wir ungefähr, wie sich die Sache verhält. Da haben wir . . . drei (3) Tage vor Befreiung der Stadt, . . . haben wir alle versteckt. Wir haben unser Lager verlassen und haben wir versteckt im Ghetto, was noch umzingelt wurde. Aus dem Ghetto konnten wir nicht raus, weil es war durch . . .</u>
+                    <u who="#boderD" start="2121.379" end="x">Bewacht?</u>
+                    <u who="#weinbergJ" start="2122.234" end="x">. . . durch Polizeiwache besetzt.</u>
+                    <u who="#boderD" start="2123.018" end="x">Das war nicht das Lager Polizei?</u>
+                    <u who="#weinbergJ" start="2124.355" end="x">No. Das Lager selbst hatte . . . hatte keine deutsche Polizei Wache—nur das ganze Ghetto. Wir sind nachts aus dem Lager raus und haben uns versteckt in verschiedenen Bunkern, in verschiedenen Kellern und auch in Dachböden der Häuser. Ich selber habe mich versteckt in einer Transformatoren Station. Das war ein Hochspannungsraum, wo ich meine Familie—insgesamt habe ich dreißig (30) Personen dort versteckt. Und aus diesem Grunde bin ich am Leben geblieben. Die Deutschen, wie wir später erfahren haben, sind auf unseren Hof gekommen und dort haben sie nur anstatt acht hundert sechzig (860) Mann, haben sie nur drei und zwanzig (23) Leute gefunden. Die haben einen großen Radau gemacht: „Wo sind die Anderen?“. Die Leute konnte darauf nicht antworten und sie haben gesagt: „Ja, die sind raus aus dem Lager.“ Da haben sie die drei und zwanzig (23) Mann verhaftet. Sie haben sie nicht erschossen, sondern verhaftet. Und sie haben beschlossen den Rest, über acht hundert Leute, die sich versteckt haben, haben sie beschlossen aus den Wohnungen raus zu ziehen und dann wollten sie eine gemeinsame . . .</u>
+                    <u who="#boderD" start="2229.343x" end="x">Exekution.</u>
+                    <u who="#weinbergJ" start="2229.855" end="x">. . . Exekution ausüben, weil sie haben schon von vorne herein—durch Juden—neun (9) Sammelgräber auf dem Friedhof ausführen lassen, und davon wussten wir. Und dort wollten sie uns alle hinschaffen und dann in diesen Massengräbern wollten sie uns vernichten. Also am ersten Tage, nachdem sie die drei und zwanzig (23) Mann verhaftet haben, es waren zirka hundert zwanzig (120) SS Männer mit Gewehre—haben sie uns aufsuchen wollen. Am ersten Tage haben sie zirka siebzig (70) Leute doch aufgefunden . . . zirka siebzig (70) Mann. Sie haben sie noch nicht erschossen. Sie haben sie auch zusammen mit den ersten drei und zwanzig (23) Leuten . . . haben sie auch verhaftet. Und sie sind gekommen am nächsten Tag . . . am nächsten Tag wollten sie den Rest auffinden. Nun haben sie auch Hunde mitgebracht. Mit Hunden wollten sie die Leute finden. Am nächsten Tag haben sie wieder etwas Leute gefunden, alle wieder verhaftet. Es verging noch eine Nacht und dann mussten sie schleunigst die Stadt verlassen. Und so . . . die rest . . . die restlichen Leute, die im Ghetto verblieben, . . . die haben sich auf diese Weise gerettet. Und auch diese Leute, die verhaftet, die wurden später von uns befreit.</u>
+                    <u who="#boderD" start="2373.232" end="x">Ein Moment.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2375.842" end="x" lang="en">[In English] This ends Spool 49, a report by the engi— . . . [ends abruptly]</u>
+                </div>
+                <!-- End spool 9-49 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#weinbergJ_en">
+                <!-- Begin spool 9-49 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.271" end="x">[In German] You can speak Yiddish or German, as you wish.</u>
+                    <u who="#weinbergJ" start="2.377" end="x">Hm.</u>
+                    <u who="#boderD" start="2.678" end="x">Where are you from?</u>
+                    <u who="#weinbergJ" start="5.361" end="x">I come from . . . from <placeName ref="Lódź">Lodz</placeName></u>
+                    <u who="#boderD" start="8.193" end="x">Ja.</u>
+                    <u who="#weinbergJ" start="8.735" end="x">Poland.</u>
+                    <u who="#boderD" start="9.458" end="x">Poland. What is your full name?</u>
+                    <u who="#boderD" start="15.542" end="x">[In English] August 17, 1946. <placeName ref="Paris">Paris</placeName>, Grand Hotel . . . Hotel, Spool Number 49. An Illinois Institute of Technology recording. The interviewee is the engineer Julian Weinberg, from <placeName ref="Lódź">Lodz</placeName>, Poland.</u>
+                    <u who="#boderD" start="33.918" end="x">[In German] Now then, Mr. Weinberg, will you please tell us again, what is your name, and where you are from?</u>
+                    <u who="#weinbergJ" start="41.490" end="x">My name is Julian Weinberg, from <placeName ref="Lódź">Lodz</placeName>, Poland.</u>
+                    <u who="#boderD" start="49.773" end="x">What are you doing now in <placeName ref="Lódź">Lodz</placeName>, Mr. Weinberg?</u>
+                    <u who="#weinbergJ" start="52.364" end="x">I am now the managing director of the Electric Works, <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="61.051" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="61.696" end="x">One of the larger electric plants.</u>
+                    <u who="#boderD" start="67.973" end="x">Yes. Now tell me, were you also before the war connected with these works?</u>
+                    <u who="#weinbergJ" start="73.967" end="x">Yes. I worked before the war too, in this plant since 1911 . . .</u>
+                    <u who="#boderD" start="80.985" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="81.588" end="x">. . . and in the year . . . this year, 1946, I have celebrated the thirty-fifth Jubilee of my services in these electric plants.</u>
+                    <u who="#boderD" start="100.516" end="x">Yes. But you look like a very young man, Mr. Weinberg. How old are you?</u>
+                    <u who="#weinbergJ" start="105.859" end="x">I was born in 1890 . . .</u>
+                    <u who="#boderD" start="109.444" end="x">Aha . . .</u>
+                    <u who="#weinbergJ" start="110.028" end="x">I am fifty-six years old . . .</u>
+                    <u who="#boderD" start="112.197" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="113.492" end="x">And as a twenty year old man I already took over the post of engineer in the Electrical Works of <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="127.498" end="x">So that was still when . . .</u>
+                    <u who="#weinbergJ" start="128.673" end="x">Right after . . . that was in 1911—that means, short after my graduation.</u>
+                    <u who="#boderD" start="137.028" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="137.450" end="x">I studied in <placeName ref="Paris">Paris</placeName>. I was . . . I studied mathematics at the Sorbonne and then I graduated from the Politechnicum in <placeName ref="Nancy">Nancy</placeName>.</u>
+                    <u who="#boderD" start="151.908" end="x">So, then, you were an engineer during the time Poland was [part of] Russia.</u>
+                    <u who="#weinbergJ" start="156.649" end="x">Sure.</u>
+                    <u who="#boderD" start="157.836" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="158.119" end="x">Exactly!</u>
+                    <u who="#boderD" start="158.782" end="x">You were employed in spite of being a Jew?</u>
+                    <u who="#weinbergJ" start="161.716" end="x">Yes . . . when Poland still belonged to Russia.</u>
+                    <u who="#boderD" start="166.638" end="x">Now tell me then, Mr. Weinberg . . .</u>
+                    <u who="#weinbergJ" start="168.277" end="x">That was 'Congress Poland.'</u>
+                    <u who="#boderD" start="170.217" end="x">Yes. I am a bit nervous [uneasy] because you don't want to give me more than half an hour. And I know that you have to tell a great deal. I therefore should like to ask you . . . to ask you the following things. Answer a few questions. Where were you when the Germans marched into Poland?</u>
+                    <u who="#weinbergJ" start="193.271" end="x">In the last war?</u>
+                    <u who="#boderD" start="195.128" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="196.014" end="x">I was then in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="197.562" end="x">You were in <placeName ref="Lódź">Lodz</placeName> at you job.</u>
+                    <u who="#weinbergJ" start="199.369" end="x">At my job. Yes.</u>
+                    <u who="#boderD" start="202.261" end="x">For how long did the Germans leave you alone [did not bother you]? [Pause.] How long did you continue working after the arrival of the Germans?</u>
+                    <u who="#weinbergJ" start="211.731" end="x">After the arrival of the Germans I worked . . . [pause]</u>
+                    <u who="#boderD" start="216.201" end="x">Nu . . .</u>
+                    <u who="#weinbergJ" start="220.430" end="x">. . . Two months.</u>
+                    <u who="#boderD" start="222.219" end="x">Two months.</u>
+                    <u who="#weinbergJ" start="222.791" end="x">Two months . . .</u>
+                    <u who="#boderD" start="223.876" end="x">What have . . . ?</u>
+                    <u who="#weinbergJ" start="224.490" end="x">. . . And then . . .</u>
+                    <u who="#boderD" start="225.243" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="225.665" end="x">. . . our plant was taken over by an <term ref="#vothG_ss">SS</term> man . . .</u>
+                    <u who="#boderD" start="230.123" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="231.701" end="x">And I, as a Jew, had to leave my post. And so . . .</u>
+                    <u who="#boderD" start="246.069" end="x">And what did you do then?</u>
+                    <u who="#weinbergJ" start="249.906" end="x">Then an order came that all Jews were to leave the city, in order . . . to the <placeName ref="Łódź Ghetto" type="camp">ghetto</placeName>.</u>
+                    <u who="#boderD" start="262.587" end="x">. . . to move?</u>
+                    <u who="#weinbergJ" start="263.491" end="x">To move . . . Yes.</u>
+                    <u who="#boderD" start="264.497" end="x">[Aside:] Do you talk Yiddish better?</u>
+                    <u who="#weinbergJ" start="266.455" end="x">Makes no difference. [Footnote 1: His language difficulty may be due to two factors. (1) Long <term ref="#vothG_ghetto">ghetto</term> experience. (2) The strict adoption of the official Polish language after the liberation of Poland. —D.P.B.]</u>
+                    <u who="#boderD" start="267.521" end="x">Now then. Describe to us, as an intelligent person [educated person], as an engineer . . . describe to us the <placeName ref="Łódź Ghetto" type="camp">ghetto of Lodz</placeName>.</u>
+                    <u who="#weinbergJ" start="274.961" end="x">Even before we moved to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> we received such . . . [word not clear] marks of discrimination [??] as the armband, the yellow armband, so that we would be recognized on the streets as Jews. And then that appeared not enough to them, so they pasted [on us] such yellow stars from the front and on the back, so that from all sides it would be recognizable that here walks a Jew. Naturally the going about town was almost impossible for the Jews, because they were grabbed by the Germans on the streets. The Jews were [then] taken for most common labor. Regardless of who it was, whether he was a laborer or an intellectual, he had to perform the hardest forms of labor.</u>
+                    <u who="#boderD" start="332.717" end="x">What kind of work were you compelled to do?</u>
+                    <u who="#weinbergJ" start="336.344" end="x">I, for example, was compelled one day to scrub floors . . .</u>
+                    <u who="#boderD" start="344.579" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="345.404" end="x">I also had an experience, when my mother had died on the fifth of March and I had to bury her. I was then the only one at the cemetery. Nobody was permitted to accompany the body to the grave, and when I was returning from the cemetery, I was grabbed on the street by a young <term ref="#vothG_folk">Folk-German</term>, dragged through a gate; and in the yard I was compelled to carry coal from a cart to the cellar . . .</u>
+                    <u who="#boderD" start="390.504" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="392.263" end="x">And that lasted several hours.</u>
+                    <u who="#boderD" start="394.793" end="x">And [word not clear]</u>
+                    <u who="#weinbergJ" start="395.094" end="x">That was precisely when I was about to return home from the cemetery.</u>
+                    <u who="#boderD" start="400.727" end="x">Now then, Mr. Weinberg, let us have that straight. Simply a boy, not an officer—not an official . . .</u>
+                    <u who="#weinbergJ" start="408.992" end="x">No . . .</u>
+                    <u who="#weinbergJ" start="411.023" end="x">That was a boy—a young man of about twenty years of age . . .</u>
+                    <u who="#boderD" start="415.347" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="415.890" end="x">With a whip.</u>
+                    <u who="#boderD" start="417.709" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="418.643" end="x">He grabbed me on the street and dragged me through the gate of a building.</u>
+                    <u who="#boderD" start="424.155" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="424.908" end="x">And there were many other Jews. About fifteen people were assembled there and all of them had to carry coal.</u>
+                    <u who="#boderD" start="436.354" end="x">For whom was the coal carried? Was it a government office, or was it a private . . .</u>
+                    <u who="#weinbergJ" start="440.432" end="x">That was for the National Socialist Peoples' Union [Nazy Party]; it was NSV.</u>
+                    <u who="#boderD" start="450.191" end="x">Yes . . . And they simply . . .</u>
+                    <u who="#weinbergJ" start="451.577" end="x">NSV.</u>
+                    <u who="#boderD" start="451.890" end="x">. . . were detaining people on the streets . . . ?</u>
+                    <u who="#weinbergJ" start="453.649" end="x">Yes . . .</u>
+                    <u who="#boderD" start="454.011" end="x">. . . to make them work:</u>
+                    <u who="#weinbergJ" start="454.746" end="x">Yes.</u>
+                    <u who="#boderD" start="455.451" end="x">Now then . . .</u>
+                    <u who="#weinbergJ" start="457.240" end="x">As the work was completed . . .</u>
+                    <u who="#boderD" start="459.108" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="459.903" end="x">. . . several were released to go home; but I, when they learned that I was an engineer—</u>
+                    <u who="#boderD" start="468.036" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="468.560" end="x">I was detained, and I had to remain for two hours longer, because they considered me an intellectual and I was compelled for another two hours to . . .</u>
+                    <u who="#boderD" start="486.331" end="x">drag . . .</u>
+                    <u who="#weinbergJ" start="486.753" end="x">. . . to drag the coal. Yes. From one cellar to the other, I had to perform a perfectly useless task.</u>
+                    <u who="#boderD" start="493.753" end="x">Oh, that was simply chicanery.</u>
+                    <u who="#weinbergJ" start="495.801" end="x">That was pure chicanery . . .</u>
+                    <u who="#boderD" start="498.633" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="498.946" end="x">And then, only at [late] hours, in the evening, was I able to go home.</u>
+                    <u who="#boderD" start="505.061" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="505.465" end="x">In general, it was dangerous for the Jews in the streets, because everybody could do with us as he pleased. That was but a small episode which I experienced shortly before my entrance into the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> . . . Then . . .</u>
+                    <u who="#boderD" start="527.314" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="527.857" end="x">It was decided that we should go to the <placeName ref="Łódź Ghetto" type="camp">Ghetto of Lodz</placeName> in an organized manner. For instance, every day a certain section of the city should be resettled.</u>
+                    <u who="#boderD" start="545.490" end="x">By the Germans?</u>
+                    <u who="#weinbergJ" start="546.315" end="x">By the Germans, yes. Where I lived . . . about . . . this section was to go first. And so . . .</u>
+                    <u who="#boderD" start="560.863" end="x">Was that a better section.</u>
+                    <u who="#weinbergJ" start="562.603" end="x">And at 17 hours sharp [5 p.m.] our home was by the <term ref="#vothG_ss">SS</term> men . . .</u>
+                    <u who="#boderD" start="577.133" end="x">surrounded?</u>
+                    <u who="#weinbergJ" start="577.916" end="x">. . . surrounded, and all the Jews had to abandon the city. The <term ref="#vothG_ss">SS</term> men entered the apartments directly, occupied by the Jews; have . . . have . . . gave us only five minutes time to leave the apartments instantly. And so everyone could take with him . . . only the least trifle of his possessions in a knapsack, and then step out into the yard. I had a peculiar incident happen with my son. He has a kind of an '<term ref="#vothG_aryan">Aryan</term>' look. So he was struck with a whip because he wanted to go with his father. The <term ref="#vothG_ss">SS</term> man did not believe that he was Jewish. And he thought that he wanted to smuggle himself away with the Jews. I had first to prove that . . . that he was my son, and so he was taken with us.</u>
+                    <u who="#boderD" start="651.537" end="x">Now for what 'lucky' purpose would one want to smuggle himself away with the Jews?</u>
+                    <u who="#weinbergJ" start="655.043" end="x">Because he wanted to go with his parents.</u>
+                    <u who="#boderD" start="657.091" end="x">That's true. But how could an <term ref="#vothG_ss">SS</term> man think that anybody would intentionally [voluntarily] go to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#weinbergJ" start="662.646" end="x">[His language becomes rather erratic] He [the <term ref="#vothG_ss">SS</term>] did not know. He might have thought that he was an '<term ref="#vothG_aryan">Aryan</term>,' you see? That by chance that was a boy—He was that time . . . about . . . about fifteen years old, you see?</u>
+                    <u who="#boderD" start="678.863" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="679.146" end="x">He was still young . . . young boy, you see? So he thought he may be up to some mischief. [Footnote 2: The <term ref="#vothG_ss">SS</term> often had trouble with children, Jewish and Christian alike. The 'transports' often looked like enticing adventures and young boys, not yet assigned for deportation, would join them not to be separated from a parent or, as if intending to become mascots in the <term ref="#vothG_lager">lagers</term>, which were pictured, at times, to the deportees, as most attractive installations. —D.P.B.]</u>
+                    <u who="#boderD" start="685.411" end="x">Aha. Now . . .</u>
+                    <u who="#weinbergJ" start="687.218" end="x">Now, that was in the winter. It was freezing. We were again assembled in a yard.</u>
+                    <u who="#boderD" start="697.550" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="698.225" end="x">All the Jews from the various houses of this region, this section . . .</u>
+                    <u who="#boderD" start="704.532" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="705.105" end="x">. . . were assembled, and we did not know exactly where they would lead . . .</u>
+                    <u who="#boderD" start="714.816" end="x">. . . lead you?</u>
+                    <u who="#weinbergJ" start="715.521" end="x">lead us.</u>
+                    <u who="#boderD" start="716.105" end="x">All right. Now tell me, Mr. Weinberg, I am, of course, eager to hear anything you say. But you have promised to give me only a half hour.</u>
+                    <u who="#weinbergJ" start="724.720" end="x">Yes.</u>
+                    <u who="#boderD" start="725.184" end="x">And that is why I should like to come to other questions. How long were you in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#weinbergJ" start="733.750" end="x">I was in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> over five years. That is all the time [of the German occupation]. I only wanted to tell you briefly . . .</u>
+                    <u who="#boderD" start="739.082" end="x">Yes. Please tell everything . . . [a few words not clear]</u>
+                    <u who="#weinbergJ" start="740.359" end="x">Afterwards . . . afterwards . . . how we went to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>. We learned . . . the same day . . . the same <term ref="#vothG_ss">SS</term> men . . . if they were not instantly admitted to an apartment . . .</u>
+                    <u who="#boderD" start="753.733" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="754.076" end="x">They would break down the doors . . .</u>
+                    <u who="#boderD" start="756.125" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="756.468" end="x">. . . and where there were sick who could not go with them . . .</u>
+                    <u who="#boderD" start="760.535" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="760.878" end="x">. . . they shot the sick people.</u>
+                    <u who="#boderD" start="763.740" end="x">Now how come [not clear—both talk together]</u>
+                    <u who="#weinbergJ" start="764.324" end="x">After we learned . . .</u>
+                    <u who="#boderD" start="768.752" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="768.993" end="x">. . . that they intended to drive people to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> by such means. So the following days all the Jews went to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> on their own.</u>
+                    <u who="#boderD" start="780.379" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="780.783" end="x">So, although it [the resettlement] was to last a week, all the Jews left the town on their own, because they have seen the inhuman methods with which the Jews were treated. And so we were taken to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> on foot; among us were many young girls, old women in bedslippers. Some were running even barefooted on the snow. En route we had to throw away the rucksacks because the burden was too heavy to carry.</u>
+                    <u who="#boderD" start="827.147" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="828.352" end="x">And so we arrived in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>. The <placeName ref="Łódź Ghetto" type="camp">Ghetto of Lodz</placeName> was completely isolated from the city.</u>
+                    <u who="#boderD" start="841.008" end="x">What was it?</u>
+                    <u who="#weinbergJ" start="842.014" end="x">There was absolutely no communication. It was surrounded with wire . . .</u>
+                    <u who="#boderD" start="848.580" end="x">But it was in the city?</u>
+                    <u who="#weinbergJ" start="849.996" end="x">It was on the outskirts of the city.</u>
+                    <u who="#boderD" start="853.080" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="853.412" end="x">They selected the suburb.</u>
+                    <u who="#boderD" start="855.743" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="857.039" end="x">A section . . . the worse section of the city.</u>
+                    <u who="#boderD" start="861.991" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="862.726" end="x">That was assigned to the Jews. It was surrounded with barbed wire, and strictly guarded by police guards; so that nobody may leave the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>, and there were to be no communication with the city whatsoever . . . Yes . . . [Pause] at the beginning it was said . . . that . . . at the beginning people still lived . . . Everybody still had some money which he took with him . . . and some people had taken some food also, provisions. And one could manage the first few days. Afterwards there was formed a so-called <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> Council. This <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> Council was actually an outgrowth of the . . . of the City Council.</u>
+                    <u who="#boderD" start="945.001" end="x">Yes. What did you say, a . . . ?</u>
+                    <u who="#weinbergJ" start="949.019" end="x">. . . a branch . . .</u>
+                    <u who="#boderD" start="950.284" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="950.495" end="x">. . . a branch of the City Council.</u>
+                    <u who="#boderD" start="953.519" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="955.115" end="x">At the head of the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> Council stood the famous Bieburg.</u>
+                    <u who="#boderD" start="961.200" end="x">Riebuck?</u>
+                    <u who="#weinbergJ" start="962.206" end="x">Bie-burg [?].</u>
+                    <u who="#boderD" start="963.441" end="x">A Jew?</u>
+                    <u who="#weinbergJ" start="964.236" end="x">No. That was a German from <placeName ref="Bremen">Bremen</placeName>.</u>
+                    <u who="#boderD" start="968.845" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="970.303" end="x">A businessman [ a merchant].</u>
+                    <u who="#boderD" start="971.460" end="x">How do you spell his name? [The enunciation of the name still appeared indistinct]</u>
+                    <u who="#weinbergJ" start="972.587" end="x">B . . .</u>
+                    <u who="#boderD" start="974.888" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="975.310" end="x">i—e—b—o—w</u>
+                    <u who="#boderD" start="979.328" end="x">Bielow [pronounced Bee-loff]?</u>
+                    <u who="#weinbergJ" start="980.726" end="x">Bielow.</u>
+                    <u who="#boderD" start="981.461" end="x">Yes. Now then, he was a merchant from <placeName ref="Bremen">Bremen</placeName>?</u>
+                    <u who="#weinbergJ" start="986.353" end="x">Yes. And he took over the whole management [council]. Now it was proclaimed that the Jews in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> had to work, otherwise they shall be unable to live. They were to earn their existence.</u>
+                    <u who="#boderD" start="1001.847" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1003.937" end="x">Well, then there were created various shops [?], various outfits where the Jews were compelled to work. Let us say, a clothing shop . . .</u>
+                    <u who="#boderD" start="1020.443" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1022.311" end="x">. . . where all kind of clothing was produced . . . the tailoring details. Then there were metal details, and electrical details, a rug detail, various . . . The people who had no . . . had no trade, had to reeducate themselves in order to do something. Naturally the Jews did not wish to work for the German power [state]. They were doing only a little bit in order to give an impression as if they were working. Otherwise we would have gotten no provisions from the Germans. However, Jewish labor was the cheapest as it was worthwhile for the people—the Germans—to create these various shops although the interestive work was not very interestive.</u>
+                    <u who="#boderD" start="1091.609" end="x">Although the work was not very intensive?</u>
+                    <u who="#weinbergJ" start="1093.717" end="x">Yes.</u>
+                    <u who="#boderD" start="1093.989" end="x">Yes.</u>
+                    <u who="#weinbergJ" start="1094.814" end="x">And it was not intensive because our Jews actually did not wish to work for the germans. It was a kind . . . a kind of silent sabotage against the Germans [Pause]. However, the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> Council did good business in spite of that, because they were selling . . . They were selling the products that were manufactured in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> on the 'Left' market. For example . . .</u>
+                    <u who="#boderD" start="1133.664" end="x">On the black market?</u>
+                    <u who="#weinbergJ" start="1134.971" end="x">. . . on the black market.</u>
+                    <u who="#boderD" start="1135.784" end="x">What did you call it, the 'Left' . . . ?</u>
+                    <u who="#weinbergJ" start="1138.044" end="x">. . . the black market, it was . . .</u>
+                    <u who="#boderD" start="1139.954" end="x">But what was the other word for it?</u>
+                    <u who="#weinbergJ" start="1141.653" end="x">'Left' market.</u>
+                    <u who="#boderD" start="1142.840" end="x">Did they use that expression?</u>
+                    <u who="#weinbergJ" start="1144.057" end="x">Yes. Some were [called it] 'Left.'</u>
+                    <u who="#boderD" start="1146.177" end="x">Yes. That is all right, I just want to know it. Now then . . .</u>
+                    <u who="#weinbergJ" start="1149.551" end="x">They sold on the 'black' without ration certificates,you see? Without certificates . . . [may also mean 'purchase permits'].</u>
+                    <u who="#boderD" start="1155.949" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1156.473" end="x">For instance . . . our wood detail.</u>
+                    <u who="#boderD" start="1165.901" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1166.817" end="x">We constructed, for instance, very many pieces of furniture . . .</u>
+                    <u who="#boderD" start="1171.528" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1172.444" end="x">. . . and little beds for children.</u>
+                    <u who="#boderD" start="1174.704" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1175.198" end="x">These they could sell without [purchase] certificates, and that is why it was [one word not clear] worthwhile for me to manage these works for us.</u>
+                    <u who="#boderD" start="1183.390" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1188.312" end="x">To be sure. We were not getting any money, but only provisions, and very little. The best proof of it is that thousands of people were compelled to starve.</u>
+                    <u who="#boderD" start="1204.605" end="x">Now . . .</u>
+                    <u who="#weinbergJ" start="1205.930" end="x">Through the <placeName ref="Łódź Ghetto" type="camp">Lodz[?] Ghetto</placeName> in excess of two hundred thousand people have passed. These were mostly Polish Jews; but there were also Jews from Germany, from Austria, and from Czechoslovakia brought also to the <placeName ref="Łódź Ghetto" type="camp">Lodz Ghetto</placeName>, about fifteen thousand Jews.</u>
+                    <u who="#boderD" start="1240.306" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1242.626" end="x">And these people were precisely the ones who were unable to adjust rapidly to the hard living conditions in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>. And it is possible to say that 90% of these Jews . . .</u>
+                    <u who="#boderD" start="1260.078" end="x">. . . who have come from abroad?</u>
+                    <u who="#weinbergJ" start="1260.692" end="x">. . . who have come from the West were among those who were driven to death by starvation. Also the Polish Jews, especially the women, were neither able to stand the hard conditions, and many perished from hunger and various epidemic illnesses, such as spotted fever, intestinal typhus, and the like. Besides, these 'normal' [natural] cases of death, if that could be . . .</u>
+                    <u who="#boderD" start="1308.406" end="x">. . . called . . . ?</u>
+                    <u who="#weinbergJ" start="1309.382" end="x">. . . called 'normal' . . .</u>
+                    <u who="#boderD" start="1310.069" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1312.581" end="x">. . . There were these many deportations. It simply was said that the Germans were in need of people for various kinds of work. And so many people who were feeling bad in our <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> applied [for such work]. They thought that 'outside' it would be better. So they departed for work . . . but they never returned. Many deportations took place from our <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>, managed by the [word not clear], particularly by the <term ref="#vothG_gestapo">Gestapo</term> in coordination with the [name—word not clear] authority. These orders which were imparted to us arrived from <placeName ref="Berlin">Berlin</placeName>. And so it was proclaimed that ten thousand people are to be deported—always it was said for work. But the people never returned. One 'nice' day they established in our <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> a so-called 'passage [?] blockade!' . . .</u>
+                    <u who="#boderD" start="1393.726" end="x">Passage [?] blockade . . . ?</u>
+                    <u who="#weinbergJ" start="1394.389" end="x">Passage [?] blockade.</u>
+                    <u who="#boderD" start="1395.293" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1395.757" end="x">. . . was established. And the <term ref="#vothG_ss">SS</term> men came . . . [word not clear]. All Jews had to assemble. They made a selection—who was to be evacuated and who was to remain. And so women and men who looked bad were embarked on carts and on trucks, and taken to assembly points. There came the so-called 'roll-commando' [transportation detail], 'roll commando.'</u>
+                    <u who="#boderD" start="1439.290" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1439.953" end="x">Those were <term ref="#vothG_ss">SS</term> men on heavy, large freight autos, with trailers. There all the Jews . . .</u>
+                    <u who="#boderD" start="1449.031" end="x">[A check on the German word] Anhänger means trailers, a second vehicle . . .</u>
+                    <u who="#weinbergJ" start="1451.471" end="x">Yes, a second vehicle. There the people crowded into these autos and were removed. Also the hospitals were cleared of the gravely ill. The children were removed from the hospitals and from the homes, the childrens' homes . . .</u>
+                    <u who="#boderD" start="1482.659" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1483.394" end="x">Some of them were actually thrown on the autos, you see?</u>
+                    <u who="#boderD" start="1489.370" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1490.105" end="x">And in this manner all that was carted away.</u>
+                    <u who="#boderD" start="1494.966" end="x">Have you seen it yourself?</u>
+                    <u who="#weinbergJ" start="1496.472" end="x">This I have seen myself. Yes . . . It is interesting that . . . that afterwards the clothes of these unfortunate people who were shipped away . . . these same old clothes were returned to the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>. And so as later . . .</u>
+                    <u who="#boderD" start="1521.085" end="x">For what purpose?</u>
+                    <u who="#weinbergJ" start="1523.646" end="x">These old pieces of clothing should be used by the Jews who had still remained, because . . .</u>
+                    <u who="#boderD" start="1530.194" end="x">[word not clear]</u>
+                    <u who="#weinbergJ" start="1530.706" end="x">. . . We remained in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> for more than five years. Of these old pieces of clothing, of these old shoes which came back torn, because they were searching for various valuable . . . valuable objects [hidden] in the clothes; so the clothes were torn up, altered. The shoes as well. In our <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> the better things were repaired, and then partly distributed among the remaining population in the Ghetto, and partly it was also shipped out by the Germans for the bombed-out German population. [Pause]</u>
+                    <u who="#boderD" start="1588.483" end="x">Now then . . . And you spent five full years in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#weinbergJ" start="1593.845" end="x">Yes.</u>
+                    <u who="#boderD" start="1595.453" end="x">Did you participate in community [affairs/?</u>
+                    <u who="#weinbergJ" start="1599.068" end="x">I participated but little in the community [affairs], because we had one elder of the Jews . . .</u>
+                    <u who="#boderD" start="1609.682" end="x">What was his name?</u>
+                    <u who="#weinbergJ" start="1610.225" end="x">. . . He was very much on his own [overbearing] . . . Rumkowski. [Footnote 3: This name appears in several interviews, always in an unfavorable light. His role appears especially precarious in the deportation and alleged subsequent annihilation of several thousand Jewish children from the <placeName ref="Łódź Ghetto" type="camp">Lodz Ghetto</placeName>. —D.P.B.]</u>
+                    <u who="#boderD" start="1613.611" end="x">What?</u>
+                    <u who="#weinbergJ" start="1614.316" end="x">Rumkowski.</u>
+                    <u who="#boderD" start="1615.443" end="x">Yes. I have heard already that name from others.</u>
+                    <u who="#weinbergJ" start="1617.323" end="x">Certainly. He received the orders directly . . . the orders from the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> management, and he afterwards executed the orders . . .</u>
+                    <u who="#boderD" start="1629.155" end="x">Oh . . .</u>
+                    <u who="#weinbergJ" start="1629.468" end="x">. . . as far as it was in his power. I did not want to participate directly.</u>
+                    <u who="#boderD" start="1635.733" end="x">Is he presently alive?</u>
+                    <u who="#weinbergJ" start="1638.143" end="x">In these things, because I was opposed to the whole politics and I had to keep away from that whole business. Here . . .</u>
+                    <u who="#boderD" start="1651.559" end="x">Is Rumkowski still alive?</u>
+                    <u who="#weinbergJ" start="1653.649" end="x">No, Rumkowski is not alive anymore.</u>
+                    <u who="#boderD" start="1656.210" end="x">Who . . .</u>
+                    <u who="#weinbergJ" start="1656.734" end="x">He was annihilated by the Germans in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. And so the last evacuation took place in the month of August, 1944. At that time the Oberburgermeister of the city came and also the functionaries of the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> management. They made speeches, they told us that now the whole [trend of] politics has changed in Germany. Germany needs workers by the hundreds; Germany was bombarded, many German cities have been annihilated. These cities must be rebuilt and therefore, also the Jewish labor must . . .</u>
+                    <u who="#boderD" start="1708.210" end="x">. . . be used?</u>
+                    <u who="#weinbergJ" start="1708.734" end="x">. . . be made use of. Then there was a commission of generals, all of . . . a military commission, and they have decided that <placeName ref="Łódź Ghetto" type="camp">Lodz</placeName> is located near the front . . .</u>
+                    <u who="#boderD" start="1728.855" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1730.253" end="x">. . . and it would not be right to keep so many Jews near the front. That was not right. They wanted to help the Jews . . .</u>
+                    <u who="#boderD" start="1743.699" end="x">Yes . . .</u>
+                    <u who="#weinbergJ" start="1744.524" end="x">. . . so that they may not remain in the front zone, and therefore they have arranged [?] that we should leave, and we shall have better work, good living conditions and that they . . . have . . . with such . . . [he is here completely confused in search of the proper words]. Oh . . .</u>
+                    <u who="#boderD" start="1771.039" end="x">[Trying to guess the meaning] With such [apparent] frankmess</u>
+                    <u who="#weinbergJ" start="1777.738" end="x">Yes . . .</u>
+                    <u who="#boderD" start="1778.473" end="x">[In English] sincerity?</u>
+                    <u who="#weinbergJ" start="1779.600" end="x">. . . frankness presented [the proper word would have been cunning, slyness] that the people . . .</u>
+                    <u who="#boderD" start="1783.407" end="x">. . . conviction?</u>
+                    <u who="#weinbergJ" start="1784.281" end="x">Yes . . . That . . . they actually wanted to convince the people that . . . that they would have better work and better conditions. But what revealed itself [what actually happened ?], all the Jews were evacuated, not to the bombed-out cities, but everything [this pronoun refers, of course, to people; but like in so many other instances reflects the helplessness, the doom, the humiliation of the people concerned] went through <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>—through the famous extermination camp. And there in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> the people were subjected again to a selection and most of them were compelled to pass through the crematories and there they ended their lives.</u>
+                    <u who="#boderD" start="1830.721" end="x">Were you in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#weinbergJ" start="1832.360" end="x">I was not in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. I was . . . I remained among eight hundred and sixty people who were compelled to remain in the <placeName ref="Łódź Ghetto" type="camp">Ghetto of Lodz</placeName>. That was a detail assembled by the Germans who were supposed to put the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> in order.</u>
+                    <u who="#boderD" start="1861.360" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1862.336" end="x">Put in order [straighten up]; that means to assemble the pieces of furniture that have remained, the . . . all the pieces of clothing, pillows [?] [He badly searches for words]</u>
+                    <u who="#boderD" start="1880.907" end="x">. . . pillows and [In English:] bedding, [the confusion of the language by the interviewee obviously affects also the interviewer; like in the case of a normal individual talking to a stutterer—again in German] bedclothes.</u>
+                    <u who="#weinbergJ" start="1886.316" end="x">. . . The bed . . . Yes, all the bedding.</u>
+                    <u who="#boderD" start="1890.063" end="x">Nu . . .</u>
+                    <u who="#weinbergJ" start="1890.949" end="x">That lasted a few months. We . . . as the last seventy thousand people were taken to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> became greatly reduced, and we, the remaining eight hundred and sixty men and women . . . we were in two factory buildings [search for words] billetted?</u>
+                    <u who="#boderD" start="1941.364" end="x">. . . housed?</u>
+                    <u who="#weinbergJ" start="1944.237" end="x">Yes. The men in one . . .</u>
+                    <u who="#boderD" start="1947.009" end="x">[Words not clear]</u>
+                    <u who="#weinbergJ" start="1947.172" end="x">. . . in one factory building, and the women in another factory building.</u>
+                    <u who="#boderD" start="1950.437" end="x">Where was your son? [?]</u>
+                    <u who="#weinbergJ" start="1951.039" end="x">That was . . . my son was with me.</u>
+                    <u who="#boderD" start="1954.383" end="x">Hm . . .</u>
+                    <u who="#weinbergJ" start="1954.980" end="x">And my wife and my daughter were . . . were . . .</u>
+                    <u who="#boderD" start="1960.323" end="x">On the other side . . . ?</u>
+                    <u who="#weinbergJ" start="1962.643" end="x">. . . on the other side. And so . . .</u>
+                    <u who="#boderD" start="1963.920" end="x">Are they with you now?</u>
+                    <u who="#weinbergJ" start="1965.065" end="x">Yes. We were housed directly in these two buildings—which have become some kind of <term ref="#vothG_lager">lager</term>, and from this instant we were regarded as a <term ref="#vothG_lager">lager</term>, like in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> or the kind. We were subject to all disciplinary . . .</u>
+                    <u who="#boderD" start="1999.290" end="x">All discipline . . . ?</u>
+                    <u who="#weinbergJ" start="2002.073" end="x">. . . all discipline . . .</u>
+                    <u who="#boderD" start="2004.272" end="x">. . . and rules . . . ?</u>
+                    <u who="#weinbergJ" start="2005.639" end="x">. . . and rules of the <term ref="#vothG_lager">lagers</term>. That meant, every morning we had to assemble on the yard for <term ref="#vothG_appell">appell</term> . . .</u>
+                    <u who="#boderD" start="2020.399" end="x">Yes.</u>
+                    <u who="#weinbergJ" start="2021.164" end="x">Then the <term ref="#vothG_ss">SS</term> men would come. They assigned the people to various labor tasks. So this business dragged on until the 19th of September . . . January . . . until the 19th of January, 1945, on which date our city was . . . was liberated by the Russians and the then onmarching Polish armies. Now, during the last days, as we saw that the Russian offensive approached from <placeName ref="Warsaw">Warsaw</placeName> . . . You must know that we had a concealed radio also in the <term ref="#vothG_lager">lager</term>. We knew, therefore, approximately how the events stood. And so three days before the liberation of the city we all hid ourselves. We abandoned our <term ref="#vothG_lager">lager</term> and we hid ourselves within the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> because it was . . .</u>
+                    <u who="#boderD" start="2121.379" end="x">guarded . . . ?</u>
+                    <u who="#weinbergJ" start="2122.234" end="x">. . . occupied by a police guard.</u>
+                    <u who="#boderD" start="2123.018" end="x">Was that not the <term ref="#vothG_lager">lager</term> police?</u>
+                    <u who="#weinbergJ" start="2124.355" end="x">No [He uses the word 'only']. The <term ref="#vothG_lager">lager</term> proper had no German police guard, only the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> as a whole. We got out of the <term ref="#vothG_lager">lager</term> at night and hid in various bunkers, in various buildings, in cellars, and in the attics of the buildings. I, personally, hid myself in a transformer station. That was a high tension room, where I have [hidden] my family. Altogether I hid there thirteen persons. And for that reason I remained alive. The Germans, as we learned later, had come into our yard and there they found, instead of eight hundred and sixty persons, only twenty-three individuals. They made a big 'to-do,' 'Where are the others?' The people were unable to give a reply. And they said, 'Yes, they got out of the <term ref="#vothG_lager">lager</term>.' And they arrested the twenty-three persons. They did not shoot them, only arrested them. And they decided to drag out of the apartments the rest of the eight hundred people who had hidden themselves, and then proceed with a general . . .</u>
+                    <u who="#boderD" start="2229.343x" end="x">Execution.</u>
+                    <u who="#weinbergJ" start="2229.855" end="x">. . . execution . . . [We know that] because they had dug with Jewish labor nine mass graves on the cemetery. We knew about that. And they intended to get us all out there and to annihilate us in these mass graves. [Footnote 4: The preposition in should stand although it is not sure whether it is correct in this particular case. During the occupation of Siberia by the Czechs it was reported that in one case (Omsk) they made the condemned men—about fifteen persons—first step into a shallow grave, fired a few random salvos, and then shoveled the earth over them without individual examination of the bodies for signs of life or coup de grace. —D.P.B.] And so the first day after they had arrested these twenty-three persons—there were about a hundred and twenty <term ref="#vothG_ss">SS</term> men with arms—they wanted to find us . . . The first day they were indeed able to find about seventy people, about seventy persons. They did not shoot them yet. They arrested them also, like the first twenty-three persons. And they came the next day . . . the next day they wanted to find the rest. Now they brought dogs with them. They wanted to find the people by means of dogs. The next day they found a few people again. All [were] arrested again. Another night went by and then they were compelled to abandon the city on the sly. And so the saved . . . the remaining people, who had stayed over in the <placeName ref="Łódź Ghetto" type="camp">Ghetto</placeName> . . .</u>
+                    <u who="#boderD" start="2358.581" end="x">[Not clear]</u>
+                    <u who="#weinbergJ" start="2360.340" end="x">. . . have saved themselves in this manner, and also the people who were arrested were later set free by us.</u>
+                    <u who="#boderD" start="2373.232" end="x">One moment.</u>
+                    <u who="#boderD" start="2375.842" end="x">[In English] This ends Spool 49, a report by the engi— . . . [ends abruptly]</u>
+                    <p>[Note: As it so often happened, the spool was used for the interview practically to the last inch. The additional silent wire on the reproduction is an additional stretch not available on the original. —D.P.B.]</p>
+                    <!-- End spool 9-49 -->
+                </div>
+                <!-- end English translation -->
+            </div>
+        </body>
+    </text>
+</TEI>

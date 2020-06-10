@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Edith Zierer; September 8, 1946; Bellevue, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT22M16.346S" id="ziererE_9-116B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-116B</note>
+                                <placeName ref="OPEJ children's home"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-08</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="ziererE_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="ziererE_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="ziererE" role="interviewee">
+                        <persName>
+                            <forename>Edith</forename>
+                            <surname>Zierer</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>15</age>
+                        <birth>unknown</birth>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Katowice">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Kraków Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Płaszów concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Skarżysko-Kamienna concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Częstochowa concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Częstochowa" resp="Russia">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#ziererE_de">
+                <!-- Begin spool 9-116B -->
+                <div lang="en">
+                    <u who="#boderD" start="2.922" end="x">[In English] Chicago, November the 14, 1950. This is reproduction Spool 116B. The interviewee is Edith Zierer. Boder.</u>
+                    <u who="#boderD" start="48.506" end="x">We have now another young girl.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="50.928" end="x">[In German] Wie heißen Sie?</u>
+                    <u who="#ziererE" start="51.904" end="x">Edith Zierer.</u>
+                    <u who="#boderD" start="53.181" end="x">Edi?</u>
+                    <u who="#ziererE" start="54.085" end="x">Edith.</u>
+                    <u who="#boderD" start="55.784" end="x">Edith. Und der erste Name?</u>
+                    <u who="#ziererE" start="59.230" end="x">Zierer.</u>
+                    <u who="#boderD" start="60.085" end="x">Zierer. Schreiben Sie Ihren Namen C . . . ?</u>
+                    <u who="#ziererE" start="63.610" end="x">Nein, Z-I-E . . .</u>
+                    <u who="#boderD" start="65.128" end="x">Z . . . ? Schreiben Sie mir das auf. Ihr erster Name ist Edith, nicht wahr?</u>
+                    <u who="#ziererE" start="71.514" end="x">Ja.</u>
+                    <u who="#boderD" start="72.008" end="x">Aha. Und Sie sind bloß gewöhnt den letzten Namen zuerst zu sagen. Sie sprechen deutsch, nicht wahr?</u>
+                    <u who="#ziererE" start="77.622" end="x">Ja.</u>
+                    <u who="#boderD" start="77.743" end="x">Also, nun Edith, wie alt sind sie?</u>
+                    <u who="#ziererE" start="81.159" end="x">Fünfzehn (15).</u>
+                    <u who="#boderD" start="82.376" end="x">Fünfzehn (15).</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="85.156" end="x">[In English] We are starting at the, hm, we are starting at the fifteenth minute of the Spool number 116, an interview with Edith Zierer, age 15, at Bellevue near Paris, a home for displaced children, hm, who are here with a group of teachers, which, hm, hm, removed them from Poland.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="108.132" end="x">[In German] Also, also sagen Sie mir, Edith, wo waren Sie wenn der Krieg angefangen hat?</u>
+                    <u who="#ziererE" start="116.374" end="x">Wie der Krieg angefangen ist, da bin ich aus Katowitz nach Schlesien, nicht, nach Krakau und dann mit den Eltern zusammen nach Lemberg.</u>
+                    <u who="#boderD" start="124.308" end="x">Aha. Sagen Sie mir, wie viel . . . wie alt waren Sie dann?</u>
+                    <u who="#ziererE" start="128.597" end="x">Neun Jahre.</u>
+                    <u who="#boderD" start="129.712" end="x">Sie waren neun Jahre alt. Und wer war in Ihrer Familie? Der Vater . . .</u>
+                    <u who="#ziererE" start="134.814" end="x">Da war der Vater, die Mutter und eine Schwester, eine jüngere Schwester.</u>
+                    <u who="#boderD" start="137.766" end="x">Eine jüngere Schwester?</u>
+                    <u who="#ziererE" start="138.790" end="x">Ja.</u>
+                    <u who="#boderD" start="139.272" end="x">Und wie alt war ungefähr Ihr Vater dann?</u>
+                    <u who="#ziererE" start="141.592" end="x">Mein Vater? Damals? Ein und vierzig.</u>
+                    <u who="#boderD" start="144.255" end="x">Ja, Wissen Sie, wo Ihr Vater ist?</u>
+                    <u who="#ziererE" start="146.647" end="x">Nein.</u>
+                    <u who="#boderD" start="147.111" end="x">Nein. Und wo die Mutter ist?</u>
+                    <u who="#ziererE" start="148.780" end="x">Nein, auch nicht. Sie sind mit einem Transport in zwei und vierzig (42) nach Dachau.</u>
+                    <u who="#boderD" start="152.376" end="x">Beide zusammen? Vater und Mutter?</u>
+                    <u who="#ziererE" start="153.852" end="x">Nein, erst der Vater.</u>
+                    <u who="#boderD" start="155.208" end="x">Aha. Also wollen Sie mir dann die ganze Geschichte erzählen? Was hat passiert, wie Sie sich erinnern, wie die Deutschen nach Katowitz sind gekommen? Nun?</u>
+                    <u who="#ziererE" start="163.925" end="x">Da bin ich . . .</u>
+                    <u who="#boderD" start="165.082" end="x">Wie der Krieg angefangen hat.</u>
+                    <u who="#ziererE" start="165.847" end="x">Ja, wie der Krieg angefangen ist, da bin ich mit den Eltern nach Krakau und von Krakau dann nach Lemberg.</u>
+                    <u who="#boderD" start="172.594" end="x">Warum so schnell? Wie lange waren Sie in Krakau?</u>
+                    <u who="#ziererE" start="175.395" end="x">Zwei Tage.</u>
+                    <u who="#boderD" start="176.540" end="x">Warum sind Sie nach Krakau gegangen?</u>
+                    <u who="#ziererE" start="178.299" end="x">Warum? Weil Katowitz ist neben der Grenze, neben der deutschen Grenze. Und da sind . . . es gab viel Militär.</u>
+                    <u who="#boderD" start="184.233" end="x">Militär? So sind Sie einfach weg gegangen.</u>
+                    <u who="#ziererE" start="186.143" end="x">Ja.</u>
+                    <u who="#boderD" start="186.396" end="x">Was war Ihres Vaters Beschäftigung?</u>
+                    <u who="#ziererE" start="188.896" end="x">Ein . . . ein Geschäft hat er gehabt.</u>
+                    <u who="#boderD" start="190.703" end="x">Was für ein Geschäft?</u>
+                    <u who="#ziererE" start="191.968" end="x">Aus Leder . . . Leder.</u>
+                    <u who="#boderD" start="193.836" end="x">Ein Ledergeschäft? Was hat er Leder verkauft oder Ledersachen?</u>
+                    <u who="#ziererE" start="198.336" end="x">Ledersachen. Leder und Teppiche. Das war ein großer Laden.</u>
+                    <u who="#boderD" start="202.703" end="x">Das war ein großes Geschäft in Katowitz?</u>
+                    <u who="#ziererE" start="204.330" end="x">Ja.</u>
+                    <u who="#boderD" start="205.457" end="x">Nun . . . und von Katowitz sind Sie nach Krakau gegangen?</u>
+                    <u who="#ziererE" start="211.041" end="x">Ja.</u>
+                    <u who="#boderD" start="211.312" end="x">Und was haben Ihre Eltern dort . . . wie lange waren Sie in Krakau?</u>
+                    <u who="#ziererE" start="213.963" end="x">Zwei Tage.</u>
+                    <u who="#boderD" start="214.626" end="x">Warum so wenig?</u>
+                    <u who="#ziererE" start="215.903" end="x">Wir sind am acht und zwanzigsten (28.) September weg und dann ist der Krieg ausgebrochen.</u>
+                    <u who="#boderD" start="220.602" end="x">Oh, Sie sind vor dem Krieg weg gegangen?</u>
+                    <u who="#ziererE" start="222.692" end="x">Ja, ein paar Tage.</u>
+                    <u who="#boderD" start="223.867" end="x">Nun und danach? Und warum sind Sie in Lemberg bloß ein paar Tage geblieben?</u>
+                    <u who="#ziererE" start="228.024" end="x">Nein, in Lemberg waren wir ein Jahr, ein ganzes Jahr.</u>
+                    <u who="#boderD" start="230.777" end="x">Und wo waren Sie ein paar Tage?</u>
+                    <u who="#ziererE" start="232.735" end="x">In Krakau.</u>
+                    <u who="#boderD" start="233.783" end="x">In Krakau waren Sie nur ein paar Tage.</u>
+                    <u who="#ziererE" start="234.898" end="x">Ja.</u>
+                    <u who="#boderD" start="235.844" end="x">Und dann sind Sie nach Lemberg gegangen?</u>
+                    <u who="#ziererE" start="237.422" end="x">Ja.</u>
+                    <u who="#boderD" start="237.693" end="x">Und in Lemberg waren Sie ein ganzes Jahr.</u>
+                    <u who="#ziererE" start="239.079" end="x">Ein ganzes Jahr.</u>
+                    <u who="#boderD" start="239.513" end="x">Nun und was hat dort passiert?</u>
+                    <u who="#ziererE" start="241.543" end="x">Dort . . . es war sehr wenig zu essen, es war an Esswaren eine Not und wir haben sehr schlecht [unverständlich] und wir sind zurück nach Krakau,</u>
+                    <u who="#boderD" start="249.856" end="x">Nach Krakau.</u>
+                    <u who="#ziererE" start="250.218" end="x">Und unter Stalin, das war unter die Russen, nicht?</u>
+                    <u who="#boderD" start="252.911" end="x">Oh Lemberg, es war noch . . . das war noch, wenn die Russen und die Deutschen keinen Krieg gemacht haben?</u>
+                    <u who="#ziererE" start="257.260" end="x">Nein, noch vor dem Krieg.</u>
+                    <u who="#boderD" start="258.556" end="x">Vor dem Krieg, bevor dem deutschen russischen Krieg.</u>
+                    <u who="#ziererE" start="260.676" end="x">Ja.</u>
+                    <u who="#boderD" start="261.008" end="x">So sind Sie vom Lemberg zurück nach Krakau?</u>
+                    <u who="#ziererE" start="263.339" end="x">Ja.</u>
+                    <u who="#boderD" start="263.580" end="x">Nun, war da . . .</u>
+                    <u who="#ziererE" start="264.514" end="x">Ja.</u>
+                    <u who="#boderD" start="264.755" end="x">. . . mehr zu essen?</u>
+                    <u who="#ziererE" start="265.339" end="x">Da gab es mehr, wir haben da Familie gehabt, die haben uns geholfen, nicht.</u>
+                    <u who="#boderD" start="269.014" end="x">Ja.</u>
+                    <u who="#ziererE" start="269.466" end="x">Und dann sind wir . . . in ein und vierzig (41) ist da . . . haben sie das Ghetto gemacht in Krakau. Und da sind wir dann weg von Krakau, da sind wir nach Velichka gegangen.</u>
+                    <u who="#boderD" start="278.153" end="x">Velichka?</u>
+                    <u who="#ziererE" start="278.978" end="x">Ja.</u>
+                    <u who="#boderD" start="279.520" end="x">Ist das der selbe Platz, wo Fräulein Küchler war?</u>
+                    <u who="#ziererE" start="282.472" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="283.316" end="x">Aha, sie sind weg nach Velichka.</u>
+                    <u who="#ziererE" start="285.406" end="x">Ja.</u>
+                    <u who="#boderD" start="285.677" end="x">Und . . . nun also, was hat dort passiert?</u>
+                    <u who="#ziererE" start="288.689" end="x">Dort waren wir ein ein halb (1 ½ ) Jahr und dann war eine Aussiedlung, eine richtige Aussiedlung und wir sind weg nach Krakau.</u>
+                    <u who="#boderD" start="295.798" end="x">Ja, was heißt eine Aussiedlung?</u>
+                    <u who="#ziererE" start="297.316" end="x">Eine Aussiedlung, eine gänzliche Aussiedlung, Juden-rein . . .</u>
+                    <u who="#boderD" start="299.937" end="x">Also man hat die Stadt Juden rein machen wollen?</u>
+                    <u who="#ziererE" start="302.268" end="x">Ja.</u>
+                    <u who="#boderD" start="302.841" end="x">Und Sie sind nach Krakau weg gegangen allein oder mit einem Transport?</u>
+                    <u who="#ziererE" start="307.130" end="x">Nein, mit den Eltern. Wir waren vierzehn (14) Kilometer von Krakau ungefähr und wir sind zu Fuß gegangen.</u>
+                    <u who="#boderD" start="311.708" end="x">Oh, Sie sind mit den Eltern zu Fuß gegangen?</u>
+                    <u who="#ziererE" start="314.901" end="x">Ja.</u>
+                    <u who="#boderD" start="315.323" end="x">Nach Krakau?</u>
+                    <u who="#ziererE" start="316.178" end="x">Nach Krakau.</u>
+                    <u who="#boderD" start="316.389" end="x">Sie wollten nicht . . .</u>
+                    <u who="#ziererE" start="317.052" end="x">Auf die arische Seite, aber da war auch schon ein Ghetto.</u>
+                    <u who="#boderD" start="319.293" end="x">In Krakau war ein Ghetto, haben Sie . . .</u>
+                    <u who="#ziererE" start="320.811" end="x">In Krakau war ein Ghetto.</u>
+                    <u who="#boderD" start="322.136" end="x">Ja.</u>
+                    <u who="#ziererE" start="322.709" end="x">Aber wir sind auf die arische Seite gegangen.</u>
+                    <u who="#boderD" start="324.348" end="x">Hat man Sie rein gelassen auf die arische Seite?</u>
+                    <u who="#ziererE" start="327.191" end="x">Wir haben arische Aufenthaltspapiere [unverständlich; starkes Rauschen im Tonband] . . . wir haben arische Papiere gehabt.</u>
+                    <u who="#boderD" start="331.950" end="x">Sie haben arische Papiere gehabt?</u>
+                    <u who="#ziererE" start="333.878" end="x">Die Mutter hat arische Papiere gehabt.</u>
+                    <u who="#boderD" start="336.589" end="x">Oh und Sie?</u>
+                    <u who="#ziererE" start="337.444" end="x">Wir waren noch sehr klein, die haben wir nicht gebraucht.</u>
+                    <u who="#boderD" start="341.029" end="x">Und der Vater?</u>
+                    <u who="#ziererE" start="341.854" end="x">Der Vater war versteckt, weil er hatte ein semitisches Aussehen hat, da musste er sich verstecken.</u>
+                    <u who="#boderD" start="346.613" end="x">Was für ein Aussehen?</u>
+                    <u who="#ziererE" start="347.698" end="x">Sehr, sehr semitisch . . .</u>
+                    <u who="#boderD" start="349.608" end="x">Semitisch, jüdisch, er hat jüdisch ausgesehen.</u>
+                    <u who="#ziererE" start="351.668" end="x">Ja.</u>
+                    <u who="#boderD" start="352.210" end="x">So hat er sich versteckt?</u>
+                    <u who="#ziererE" start="353.536" end="x">Ja.</u>
+                    <u who="#boderD" start="353.940" end="x">Und die Mutter mit den Kindern hat es riskiert . . .</u>
+                    <u who="#ziererE" start="356.422" end="x">Ja.</u>
+                    <u who="#boderD" start="356.765" end="x">. . . rüber zu gehen . . . auf die arische Seite.</u>
+                    <u who="#ziererE" start="357.609" end="x">Ja.</u>
+                    <u who="#boderD" start="358.013" end="x">Nun was ist dann passiert?</u>
+                    <u who="#ziererE" start="359.411" end="x">Und dann waren wir . . . wir waren ein paar Tage in Krakau auf der arischen Seite und dann hat jemand die Mama, hm, . . . raus gegeben, nicht. Ein Deutscher, hat es, hat es erzählt, er hat sie gekannt . . .</u>
+                    <u who="#boderD" start="369.212" end="x">Er hat sie denunziert, ja?</u>
+                    <u who="#ziererE" start="370.266" end="x">Ja. Er hat sie denunziert und hat sie heraus gegeben und sie war auf der Polizei, bei der Gestapo.</u>
+                    <u who="#boderD" start="376.050" end="x">Und wo sind Sie geblieben?</u>
+                    <u who="#ziererE" start="377.869" end="x">Wir sind in der Stadt geblieben . . . mit meiner Schwester, ganz allein ohne . . .</u>
+                    <u who="#boderD" start="381.574" end="x">Das heißt sie zwei Kinder?</u>
+                    <u who="#ziererE" start="382.869" end="x">Ja.</u>
+                    <u who="#boderD" start="383.562" end="x">Und Du warst neun (9) Jahre alt und . . .</u>
+                    <u who="#ziererE" start="386.273" end="x">Ich war damals schon zehn (10.)</u>
+                    <u who="#boderD" start="387.580" end="x">Zehn (10) Jahre alt. Und die Schwester war wie alt?</u>
+                    <u who="#ziererE" start="389.809" end="x">Acht (8).</u>
+                    <u who="#boderD" start="390.140" end="x">Und man hat Euch die Mutter weg genommen . . . ohne Euch?</u>
+                    <u who="#ziererE" start="393.665" end="x">Ja.</u>
+                    <u who="#boderD" start="394.279" end="x">Wie ist das . . . wie ist das gekommen?</u>
+                    <u who="#ziererE" start="395.725" end="x">Weil wir sind zu Hause geblieben und die Mama ist runter gegangen und . . .</u>
+                    <u who="#boderD" start="399.520" end="x">Sie wurde auf der Strasse . . .</u>
+                    <u who="#ziererE" start="400.695" end="x">Ja, und sie ist nicht mehr zurück gekommen.</u>
+                    <u who="#boderD" start="403.346" end="x">Und Ihre Mama ist damals nicht mehr zurück gekommen?</u>
+                    <u who="#ziererE" start="405.256" end="x">Nein.</u>
+                    <u who="#boderD" start="406.443" end="x">Haben Sie gewusst was ihr passiert ist?</u>
+                    <u who="#ziererE" start="408.232" end="x">Nein, wir wussten gar nichts.</u>
+                    <u who="#boderD" start="410.324" end="x">Haben Sie das nachher erfahren?</u>
+                    <u who="#ziererE" start="411.743" end="x">Ja, vier (4) Wochen später haben wir erfahren, dass man sie auf der [unverständlich] Polizei gewesen ist. Das war ein Gefängnis, ein deutsches Gefängnis.</u>
+                    <u who="#boderD" start="418.099" end="x">Ja und dann?</u>
+                    <u who="#ziererE" start="419.487" end="x">Und dann sind wir alleine aufs Ghetto, weil wir haben keinen anderen Ausweg gehabt.</u>
+                    <u who="#boderD" start="423.200" end="x">Was heißt das? Die zwei (2) Kinder?</u>
+                    <u who="#ziererE" start="424.576" end="x">Ja. Und im Ghetto haben wir dann den Vater gesehen und zusammen mit ihm sind wir nach [unverständlich], denn in Krakau war schon die Aussiedlung und wir sind weg.</u>
+                    <u who="#boderD" start="434.826" end="x">Also sie sagten, ihr Vater hatte sich versteckt.</u>
+                    <u who="#ziererE" start="437.410" end="x">Ja, aber er ist dann zurück gegangen in das Ghetto, weil er konnte dort nicht lange bleiben.</u>
+                    <u who="#boderD" start="440.959" end="x">Wo er sich versteckt hat?</u>
+                    <u who="#ziererE" start="442.167" end="x">Ja.</u>
+                    <u who="#boderD" start="442.427" end="x">Und er ist ins Ghetto zurück gegangen?</u>
+                    <u who="#ziererE" start="443.192" end="x">Ja.</u>
+                    <u who="#boderD" start="443.594" end="x">Und Sie haben den Vater gefunden?</u>
+                    <u who="#ziererE" start="444.799" end="x">Ja.</u>
+                    <u who="#boderD" start="445.222" end="x">Und wie haben Sie ihn gefunden? [lacht etwas]</u>
+                    <u who="#ziererE" start="445.995" end="x">Auf der Strasse. [lacht] Das Ghetto war sehr klein, es hatte nur ein paar Strassen, nicht!</u>
+                    <u who="#boderD" start="450.178" end="x">Sie haben nicht gewusst, dass Ihr Vater dort war?</u>
+                    <u who="#ziererE" start="451.687" end="x">Nein, das habe ich nicht gedacht.</u>
+                    <u who="#boderD" start="452.925" end="x">Wie war das? Sie sind auf der Strasse rauf gegangen und . . .</u>
+                    <u who="#ziererE" start="454.965" end="x">Nein, ich bin in das Ghetto gekommen und an der Ecke steht der Vater.</u>
+                    <u who="#boderD" start="459.130" end="x">Nun, was hat er gesagt?</u>
+                    <u who="#ziererE" start="461.183" end="x">Er hat sich sehr gefreut, aber wenn er gehört hat, die Mama ist weg, dann war das schon [unverständlich; spricht sehr leise]</u>
+                    <u who="#boderD" start="470.346" end="x">Nun? Und dann waren Sie mit dem Vater im Ghetto. Und was ist dann passiert?</u>
+                    <u who="#ziererE" start="474.227" end="x">Dann sind wir in ein Lager . . . nach [unverständlich; klingt wie Beshanow] bei Krakau.</u>
+                    <u who="#boderD" start="478.241" end="x">Man hat sie dorthin geschickt?</u>
+                    <u who="#ziererE" start="479.358" end="x">Ja. Wir sind alleine in das Lager gegangen, weil das war ein Arbeitslager.</u>
+                    <u who="#boderD" start="482.587" end="x">Der Vater mit den Kindern?</u>
+                    <u who="#ziererE" start="484.278" end="x">Ja.</u>
+                    <u who="#boderD" start="484.568" end="x">Und was konnten Sie arbeiten?</u>
+                    <u who="#ziererE" start="486.717" end="x">Nein, ich konnte nicht arbeiten. Man wollte mich heraus schmeißen aus dem Lager, weil mit fünfzehn (15) Jahre erst fing man im Lager an zu arbeiten . . .</u>
+                    <u who="#boderD" start="493.267" end="x">Nun . . .</u>
+                    <u who="#ziererE" start="493.587" end="x">. . . und ich konnte noch nicht arbeiten. Da hat man mich raus geschmissen, mich und meine Schwester.</u>
+                    <u who="#boderD" start="498.585" end="x">Was heißt raus geschmissen?</u>
+                    <u who="#ziererE" start="499.509" end="x">Man hat uns einfach raus geschmissen. Die Deutschen sind herein gekommen und haben Kontrolle gemacht und haben uns raus geschmissen.</u>
+                    <u who="#boderD" start="505.080" end="x">Sie haben Ihnen gesagt, sie sollen weg gehen?</u>
+                    <u who="#ziererE" start="506.378" end="x">Ja. Aber sie haben es nicht gesagt, sie haben uns über den Drahtzaun geschmissen.</u>
+                    <u who="#boderD" start="510.211" end="x">Was soll das heißen, man hat sie aufgehoben und rausgeworfen?</u>
+                    <u who="#ziererE" start="512.475" end="x">Ja. Das waren solche Drahte und da hat man uns raus geschmissen. Der Vater war nicht da, der war bei der Arbeit und wir waren allein im Lager.</u>
+                    <u who="#boderD" start="518.952" end="x">Aha. Und die Schwester auch?</u>
+                    <u who="#ziererE" start="520.872" end="x">Auch. Und wir sind dann zu einem Polen gegangen.</u>
+                    <u who="#boderD" start="523.305" end="x">Nach Polen?</u>
+                    <u who="#ziererE" start="524.017" end="x">Zu einem Polen, zu einem Bauern.</u>
+                    <u who="#boderD" start="525.768" end="x">Sie sind zu einem Bauern gegangen. Und dann?</u>
+                    <u who="#ziererE" start="527.235" end="x">Ja. Und dort waren wir einige Zeit. Und ich . . . sie wollte etwas bezahlt haben. Und da ist die Schwester geblieben und ich bin nach Krakau ins Ghetto und hab von dort etwas Geld gebracht, habe bezahlt für die Schwester . . .</u>
+                    <u who="#boderD" start="540.563" end="x">Ja.</u>
+                    <u who="#ziererE" start="541.004" end="x">Und ich bin im Ghetto geblieben, weil . . . ich habe dort etwas gearbeitet, ich habe geholfen und habe von dem gelebt. Ich habe dort etwas geholfen.</u>
+                    <u who="#boderD" start="549.382" end="x">Aha. Der Vater war noch immer im Ghetto.</u>
+                    <u who="#ziererE" start="551.495" end="x">Im Lager.</u>
+                    <u who="#boderD" start="552.026" end="x">Im Lager. Und Sie sind nach dem Lager zurück gegangen? Oh, Sie haben im Ghetto gelebt?</u>
+                    <u who="#ziererE" start="556.614" end="x">Ja.</u>
+                    <u who="#boderD" start="557.055" end="x">Und dem Papa geholfen.</u>
+                    <u who="#ziererE" start="558.129" end="x">Ja.</u>
+                    <u who="#boderD" start="558.401" end="x">Und was ist aus Ihrer Schwester geworden?</u>
+                    <u who="#ziererE" start="561.449" end="x">Von meiner Schwester? Die war dort bei dem Bauern. Und dann war eine Aussiedlung aus dem Lager in ein großes Konzentrationslager, da bin ich mit dem Papa und man hat die Schwester geholt. Der Papa hat gemeint, dass wir sollen alle zusammen sein.</u>
+                    <u who="#boderD" start="574.940" end="x">Ah hm.</u>
+                    <u who="#ziererE" start="575.152" end="x">So sind wir alle zusammen in das Konzentrationslager in Plaszow, das war ein großes Lager.</u>
+                    <u who="#boderD" start="580.150" end="x">Ja.</u>
+                    <u who="#ziererE" start="581.285" end="x">Und dort war ich fünf (5) Wochen. Und nach fünf Wochen hat man mich ganz alleine genommen nach Skarzysko, eine Munitionsfabrik.</u>
+                    <u who="#boderD" start="589.271" end="x">Wie alt warst Du dann?</u>
+                    <u who="#ziererE" start="590.677" end="x">Elf (11) Jahre—das zwölfte (12.)Jahr.</u>
+                    <u who="#boderD" start="592.005" end="x">Elf (11) Jahre. Also, nun, also Du bist nach . . .</u>
+                    <u who="#ziererE" start="599.098" end="x">Nach Skarzysko.</u>
+                    <u who="#boderD" start="600.082" end="x">Pla . . .</u>
+                    <u who="#ziererE" start="600.402" end="x">Plaszow. Nach Plaszow.</u>
+                    <u who="#boderD" start="601.295" end="x">Also Du bist nach Plaszow gegangen.</u>
+                    <u who="#ziererE" start="602.412" end="x">Ja.</u>
+                    <u who="#boderD" start="602.835" end="x">Bist Du mit dem Vater gegangen . . .</u>
+                    <u who="#ziererE" start="604.392" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="604.755" end="x">. . . und der Schwester?</u>
+                    <u who="#ziererE" start="605.407" end="x">Zusammen, ja, ja.</u>
+                    <u who="#boderD" start="606.451" end="x">Hat man das erlaubt, die Männer mit den Kindern in einem . . .</u>
+                    <u who="#ziererE" start="608.353" end="x">Nein, das war ein extra Lager, aber wir haben sich gesehen jeden Tag.</u>
+                    <u who="#boderD" start="612.114" end="x">Es war ein extra Lager.</u>
+                    <u who="#ziererE" start="613.551" end="x">Ja.</u>
+                    <u who="#boderD" start="613.871" end="x">Nun sag mir mal, wie Du im Lager warst . . .</u>
+                    <u who="#ziererE" start="616.334" end="x">Ja.</u>
+                    <u who="#boderD" start="616.895" end="x">. . . hm, waren da andere viele Kinder?</u>
+                    <u who="#ziererE" start="619.340" end="x">Das waren . . . es war ein Kinderheim da, aber ich . . . ich wollte dort nicht sein, weil ich wollte arbeiten und dem Papa helfen, weil der Papa war sehr schwach. Er hat sich schlecht gefühlt, nicht.</u>
+                    <u who="#boderD" start="630.658" end="x">Ah hm.</u>
+                    <u who="#ziererE" start="631.159" end="x">Und die Schwester war in einem Kinderheim und ich bin nicht in dem Kinderheim gewesen, ich hab gearbeitet.</u>
+                    <u who="#boderD" start="635.747" end="x">Ein Kinderheim im Lager?</u>
+                    <u who="#ziererE" start="637.576" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="638.469" end="x">Und wer hat das Kinderheim verwaltet?</u>
+                    <u who="#ziererE" start="642.151" end="x">Die Deutschen wussten von dem nicht, aber die Jü . . . Juden.</u>
+                    <u who="#boderD" start="645.984" end="x">Was heißt das, die Deutschen wussten nicht, dass da ein Kinderheim war?</u>
+                    <u who="#ziererE" start="649.576" end="x">Ja, sie wussten’s, aber sie haben es erlaubt.</u>
+                    <u who="#boderD" start="652.081" end="x">Sie haben es erlaubt.</u>
+                    <u who="#ziererE" start="653.318" end="x">Am Anfang.</u>
+                    <u who="#boderD" start="654.194" end="x">Aha. Und dann hat man Dich allein genommen? Nach wohin?</u>
+                    <u who="#ziererE" start="657.230" end="x">Nach Skarzysko-Kamienna, das war eine Munitionsfabrik.</u>
+                    <u who="#boderD" start="660.007" end="x">Wieso hat man Dich ge . . .</u>
+                    <u who="#ziererE" start="662.017" end="x">In der Nacht war eine Selektion und da hat man mich mit genommen. Und ich wollte nicht [unverständlich] dem Vater und [unverständlich].</u>
+                    <u who="#boderD" start="668.295" end="x">Wo warst Du denn? Nicht im Kinderheim?</u>
+                    <u who="#ziererE" start="670.154" end="x">Nein, ich war nicht. Ich hab gearbeitet.</u>
+                    <u who="#boderD" start="672.086" end="x">Du warst mit den Frauen?</u>
+                    <u who="#ziererE" start="673.643" end="x">Ja und der Papa hat wo anders gearbeitet und ich wo anders, nicht.</u>
+                    <u who="#boderD" start="676.843" end="x">Ja.</u>
+                    <u who="#ziererE" start="677.344" end="x">Und das war in der Naht . . . in der Nachtschicht.</u>
+                    <u who="#boderD" start="679.728" end="x">Ja.</u>
+                    <u who="#ziererE" start="680.090" end="x">Und da hat man uns mit genommen . . .</u>
+                    <u who="#boderD" start="681.660" end="x">Aha.</u>
+                    <u who="#ziererE" start="682.463" end="x">. . . nach Skarzysko.</u>
+                    <u who="#boderD" start="683.296" end="x">Also erzählen Sie mir, wie seid ihr nach Skarzysko gefahren?</u>
+                    <u who="#ziererE" start="686.453" end="x">Nach Skarzysko? In einem Wagon waren hundert (100) Leute, nicht.</u>
+                    <u who="#boderD" start="691.572" end="x">Männer und Frauen?</u>
+                    <u who="#ziererE" start="692.646" end="x">Nein, nur Frauen. Die Frauen extra und die Männer extra.</u>
+                    <u who="#boderD" start="695.755" end="x">Ja.</u>
+                    <u who="#ziererE" start="696.208" end="x">Und wir haben . . . eine Schnitte Brot bekommen, nicht und ein bisschen Wasser und wir sind nach Skarzysko gefahren. Wir wussten nicht, dass wir fahren nach Skarzysko, wir haben gedacht wir gehen nach Auschwitz. Und . . .</u>
+                    <u who="#boderD" start="706.971" end="x">Sie haben es nicht . . .</u>
+                    <u who="#ziererE" start="708.227" end="x">Nein, wir haben gedacht, dass wir fahren nach Auschwitz.</u>
+                    <u who="#boderD" start="711.263" end="x">Haben Sie gewusst was in Auschwitz passiert?</u>
+                    <u who="#ziererE" start="713.527" end="x">Ja.</u>
+                    <u who="#boderD" start="714.088" end="x">Ja, nun . . .</u>
+                    <u who="#ziererE" start="715.386" end="x">Und dann sind wir in Skarzysko . . . da hat man uns ausgeladen. Da waren neun hundert (900) Leute, nicht. Und da hat man 70 Leute genommen. Da waren drei (3) Werke.</u>
+                    <u who="#boderD" start="724.893" end="x">Ja.</u>
+                    <u who="#ziererE" start="725.316" end="x">Ein besseres Werk, ein Schlechteres und ein ganz Schlechtes, nicht.</u>
+                    <u who="#boderD" start="728.684" end="x">Ja.</u>
+                    <u who="#ziererE" start="729.197" end="x">Man hat gewusst, dass man da sterben konnte. Da bin ich auf das erste Werk . . .</u>
+                    <u who="#boderD" start="734.811" end="x">Auf dem Besten?</u>
+                    <u who="#ziererE" start="735.403" end="x">Ja, auf das Beste bin ich gekommen und da ich deutsch konnte habe ich eine Arbeit bekommen, nicht.</u>
+                    <u who="#boderD" start="741.759" end="x">Ja.</u>
+                    <u who="#ziererE" start="742.031" end="x">Und man hat nicht geguckt, dass ich ein Kind bin. Man hat mich an eine Maschine hin gestellt, eine Kiste unter meine Füsse, weil ich war zu klein . . .</u>
+                    <u who="#boderD" start="749.021" end="x">Ja.</u>
+                    <u who="#ziererE" start="749.401" end="x">. . . und ich hab gearbeitet.</u>
+                    <u who="#boderD" start="750.699" end="x">Und was hast Du gearbeitet?</u>
+                    <u who="#ziererE" start="751.876" end="x">An Munition.</u>
+                    <u who="#boderD" start="753.355" end="x">Ja.</u>
+                    <u who="#ziererE" start="753.898" end="x">Hülsen.</u>
+                    <u who="#boderD" start="755.800" end="x">Und wie haben die sich benommen, wie haben sie sich Dir gegenüber benommen?</u>
+                    <u who="#ziererE" start="760.285" end="x">Zur mir haben sie sich sehr gut ver . . . benommen, nicht.</u>
+                    <u who="#boderD" start="764.408" end="x">Ja.</u>
+                    <u who="#ziererE" start="765.030" end="x">Weil ich war klein, aber dann ist ein anderer [unverständlich] gekommen, ein guter Mann. Und er hat sich von Anfang an mit mir gut benommen. Aber dann war es jeden Tag schlechter.</u>
+                    <u who="#boderD" start="776.094" end="x">Was war es? Was hat er getan?</u>
+                    <u who="#ziererE" start="777.603" end="x">Nicht er. Er ist weg gegangen, nicht, und es sind andere Meister auf seinen Platz gekommen. Und es war dann schon sehr schlecht.</u>
+                    <u who="#boderD" start="784.213" end="x">Weshalb?</u>
+                    <u who="#ziererE" start="784.636" end="x">Ich war hungrig und habe sehr viel gearbeitet. Es war eine enorme . . . drei malige Höhe . . .</u>
+                    <u who="#boderD" start="790.449" end="x">Was?</u>
+                    <u who="#ziererE" start="790.980" end="x">Es war drei Mal dieselbe Arbeit man musste machen.</u>
+                    <u who="#boderD" start="794.602" end="x">Aha.</u>
+                    <u who="#ziererE" start="795.435" end="x">Und sie haben uns geschlagen . . .</u>
+                    <u who="#boderD" start="798.350" end="x">Wer hat Euch geschlagen?</u>
+                    <u who="#ziererE" start="799.467" end="x">Die Deutschen.</u>
+                    <u who="#boderD" start="800.795" end="x">Ja, wer?</u>
+                    <u who="#ziererE" start="802.214" end="x">Die Meister.</u>
+                    <u who="#boderD" start="803.379" end="x">Die Meister selbst oder waren dort Capos?</u>
+                    <u who="#ziererE" start="805.902" end="x">Nein, es waren keine Capos.</u>
+                    <u who="#boderD" start="807.592" end="x">Die Meister selbst haben Euch geschlagen?</u>
+                    <u who="#ziererE" start="809.192" end="x">Ja.</u>
+                    <u who="#boderD" start="809.693" end="x">Nun.</u>
+                    <u who="#ziererE" start="810.327" end="x">Und wenn einer Schmelz gemacht hat, nicht . . .</u>
+                    <u who="#boderD" start="811.915" end="x">Ja.</u>
+                    <u who="#ziererE" start="812.235" end="x">. . . dann hat man bekommen zwanzig (20) mit einem Gummiknüppel.</u>
+                    <u who="#boderD" start="816.660" end="x">Was soll das heißen: „wenn man Schmelz gemacht“?</u>
+                    <u who="#ziererE" start="818.338" end="x">Schmelz—das ist eine nicht gute Hülse, nicht.</u>
+                    <u who="#boderD" start="821.235" end="x">Ja.</u>
+                    <u who="#ziererE" start="821.567" end="x">Aber wenn sie . . . da war eine Kontrolle.</u>
+                    <u who="#boderD" start="823.740" end="x">Ja.</u>
+                    <u who="#ziererE" start="823.982" end="x">Eine anddauernde deutsche Kontrolle da. Wenn jemand etwas schlecht gemacht hat, ein . . . ein Schmelz—das hat geheißen Schmelz—dann hat man ihn damals geschlagen.</u>
+                    <u who="#boderD" start="833.236" end="x">Mit einem Gummiknüppel?</u>
+                    <u who="#ziererE" start="834.582" end="x">Ja.</u>
+                    <u who="#boderD" start="835.397" end="x">Nun?</u>
+                    <u who="#ziererE" start="836.381" end="x">Und dann in drei und vierzig (43) sind wir weg in das dritte (3.) Lager, nein das vierte (4.) Lager schon—nach Czestochowa. In Czestochowa waren wir für ein ein halb (1 ½ ) Jahr und dort haben sich die Russen . . .</u>
+                    <u who="#boderD" start="850.433" end="x">In Czestochowa waren Sie ein ein halb (1 ½ ) Jahr.</u>
+                    <u who="#ziererE" start="852.395" end="x">Ja.</u>
+                    <u who="#boderD" start="852.715" end="x">Und dort haben Sie die Russen befreit?</u>
+                    <u who="#ziererE" start="854.194" end="x">Ja.</u>
+                    <u who="#boderD" start="854.828" end="x">Und da warst Du ganz allein?</u>
+                    <u who="#ziererE" start="855.854" end="x">Ganz allein!</u>
+                    <u who="#boderD" start="856.488" end="x">Hast Du die ganze Zeit, während Du in der anderen Fabrik warst . . .</u>
+                    <u who="#ziererE" start="860.623" end="x">Ja.</u>
+                    <u who="#boderD" start="861.064" end="x">. . . in der anderen Fabrik warst, hast Du da nichts von dem Vater oder Deiner Schwester gehört?</u>
+                    <u who="#ziererE" start="862.772" end="x">Nein, nein, gar nichts.</u>
+                    <u who="#boderD" start="864.764" end="x">Und Du weißt nicht, wo Deine Schwester jetzt ist?</u>
+                    <u who="#ziererE" start="866.515" end="x">Nein, nichts. Sie ist wahrscheinlich nach Auschwitz und da hat man die Kinder, alle . . . weg weg gemacht.</u>
+                    <u who="#boderD" start="874.410" end="x">In Auschwitz hat man die Kinder weg [unverständlich; flüstert]. Nun und dann haben Dich die Russen befreit. Und was ist dann passiert?</u>
+                    <u who="#ziererE" start="881.865" end="x">Da bin ich nach Katowitz zurück, weil ich hab gedacht, dass die Eltern sind da. Aber . . .</u>
+                    <u who="#boderD" start="886.241" end="x">Was heißt: „Du bist zurück“? Wie bist Du zurück gekommen?</u>
+                    <u who="#ziererE" start="888.535" end="x">Die Russen waren schon nicht mehr in Czestochowa, da bin ich mit den Russen zusammen nach . . .</u>
+                    <u who="#boderD" start="891.998" end="x">Was heißt das „mit den Russen“?</u>
+                    <u who="#ziererE" start="893.404" end="x">Zusammen . . . mit dem Militär zusammen.</u>
+                    <u who="#boderD" start="894.944" end="x">Im Zug oder wie?</u>
+                    <u who="#ziererE" start="896.411" end="x">Ja.</u>
+                    <u who="#boderD" start="897.063" end="x">Im Zug? Haben sie Dich rein gelassen?</u>
+                    <u who="#ziererE" start="898.983" end="x">Ja.</u>
+                    <u who="#boderD" start="899.907" end="x">Und Du bist zurück gegangen? Und wohin?</u>
+                    <u who="#ziererE" start="901.947" end="x">Nach . . . nach Katowitz.</u>
+                    <u who="#boderD" start="903.305" end="x">Ja. Und?</u>
+                    <u who="#ziererE" start="904.845" end="x">In Katowitz habe ich niemanden gefunden, nicht. Die Eltern waren gar nicht da. Das Haus war plombiert und ich konnte da zu einer Frau, die hat mich mit genommen nach Krakau . . .</u>
+                    <u who="#boderD" start="921.765" end="x">Hm?</u>
+                    <u who="#ziererE" start="922.477" end="x">Die war mit mir.</u>
+                    <u who="#boderD" start="923.763" end="x">Aha?</u>
+                    <u who="#ziererE" start="923.914" end="x">Die hat mir geholfen.</u>
+                    <u who="#boderD" start="925.091" end="x">Warum war das Haus plombiert? War das Euer eigenes Haus?</u>
+                    <u who="#ziererE" start="928.291" end="x">Ja, das war unser eigenes Haus. Weil die Deutschen sind weg, haben sie es plombiert.</u>
+                    <u who="#boderD" start="934.617" end="x">Oh, konntest Du nicht die Plombe aufreißen?</u>
+                    <u who="#ziererE" start="936.657" end="x">Nein, das war . . . das durfte man nicht.</u>
+                    <u who="#boderD" start="938.589" end="x">Aber die Russen waren ja schon da.</u>
+                    <u who="#ziererE" start="939.935" end="x">Ja, aber die Russen haben es nicht erlaubt, weil ich noch nicht . . . weil ich noch keine achtzehn (18) Jahre alt war.</u>
+                    <u who="#boderD" start="946.001" end="x">Du hast keine achtzehn (18) Jahre gehabt und . . . ?</u>
+                    <u who="#ziererE" start="947.571" end="x">Das habe ich Ihnen gesagt, nicht. Und wenn ich achtzehn (18) Jahre habe, dann bekomme ich die Wohnung zurück. Weil niemand Älterer ist von der Familie über geblieben und ich war angeblich noch zu jung, um meine eigene Wohnung zu haben.</u>
+                    <u who="#boderD" start="957.911" end="x">Aha. Und niemand anders hat dort geliebt?</u>
+                    <u who="#ziererE" start="960.326" end="x">Es waren dann Russen da, ein Offizier.</u>
+                    <u who="#boderD" start="963.272" end="x">Aha. Und er ist rein gegangen in die Wohnung.</u>
+                    <u who="#ziererE" start="965.312" end="x">Ja.</u>
+                    <u who="#boderD" start="966.248" end="x">Hast Du sie gesehen? Waren Deine Sachen dort?</u>
+                    <u who="#ziererE" start="968.530" end="x">Nein.</u>
+                    <u who="#boderD" start="969.484" end="x">Aha. Sprich hier in diese Richtung.</u>
+                    <u who="#ziererE" start="971.494" end="x">Nein, es war nichts da.</u>
+                    <u who="#boderD" start="973.214" end="x">Und Du bist zu was für einer Frau gegangen? Einer Jüdin oder ?</u>
+                    <u who="#ziererE" start="977.349" end="x">Eine Jüdin.</u>
+                    <u who="#boderD" start="978.617" end="x">Und?</u>
+                    <u who="#ziererE" start="978.967" end="x">Die hat mich zu sich genommen und mir ist es sehr gut gegangen bei ihr. Ja.</u>
+                    <u who="#boderD" start="984.852" end="x">Nun und dann? Sie waren fünf (5) Wochen dort?</u>
+                    <u who="#ziererE" start="987.991" end="x">Und dann hat man mich nach Zakopane geschickt.</u>
+                    <u who="#boderD" start="991.492" end="x">Wer?</u>
+                    <u who="#ziererE" start="992.337" end="x">Das Kommittee?</u>
+                    <u who="#boderD" start="993.786" end="x">Was für ein Kommittee war das?</u>
+                    <u who="#ziererE" start="995.355" end="x">Das Kommittee von Katowitz, ein jüdisches Kommittee.</u>
+                    <u who="#boderD" start="997.347" end="x">Und wie weit ist Zakopane von Katowitz?</u>
+                    <u who="#ziererE" start="999.702" end="x">Von Katowitz? Hundert fünfzig Kilometer.</u>
+                    <u who="#boderD" start="1001.984" end="x">Aha.</u>
+                    <u who="#ziererE" start="1002.998" end="x">Das ist ein Kinderheim, nicht. Und da . . .</u>
+                    <u who="#boderD" start="1004.115" end="x">Ja, Da hat man Dich in ein Kinderheim geschickt, wo . . .</u>
+                    <u who="#ziererE" start="1006.849" end="x">Ja.</u>
+                    <u who="#boderD" start="1007.181" end="x">. . . wo Frau Küchler war?</u>
+                    <u who="#ziererE" start="1007.936" end="x">Ja.</u>
+                    <u who="#boderD" start="1008.346" end="x">Und . . . was ist da passiert?</u>
+                    <u who="#ziererE" start="1010.550" end="x">Da hatte ich es sehr gut und ich habe gelernt und dann sind wir nach Frankreich.</u>
+                    <u who="#boderD" start="1016.061" end="x">Warum seid Ihr weg nach Frankreich? Was hat dort passiert?</u>
+                    <u who="#ziererE" start="1019.773" end="x">Es waren . . . die Polen. Die Polen haben geschlagen, nicht.</u>
+                    <u who="#boderD" start="1023.697" end="x">Wen?</u>
+                    <u who="#ziererE" start="1024.349" end="x">Die Juden. Weil wir . . . wir sind ja in die Schule gegangen—ins Gymnasium—und die haben uns geschlagen und . . .</u>
+                    <u who="#boderD" start="1030.162" end="x">Wer? Die Kinder in der Schule?</u>
+                    <u who="#ziererE" start="1031.387" end="x">Die Kinder in der Schule, ja</u>
+                    <u who="#boderD" start="1032.927" end="x">Warum?</u>
+                    <u who="#ziererE" start="1033.971" end="x">Antisemitisch.</u>
+                    <u who="#boderD" start="1036.084" end="x">Na ja, aber . . . der Krieg war ja . . . es waren befreit die Polen. Da war . . .</u>
+                    <u who="#ziererE" start="1039.935" end="x">Na, aber sie wollten nicht . . . in Zakopane da waren sehr viele Religionen und sie wollten keine Juden haben. Sie konnten auf die Juden gar nicht gucken. Und sie . . . man hat die Juden geschlagen, dass es hat einen besseren Platz gegeben und . . .</u>
+                    <u who="#boderD" start="1053.547" end="x">Und was haben die Lehrer gesagt? Und die Polizei?</u>
+                    <u who="#ziererE" start="1056.493" end="x">Die Lehrer [unverständlich; Rauschen im Tonband]</u>
+                    <u who="#boderD" start="1063.562" end="x">Ja.</u>
+                    <u who="#ziererE" start="1064.395" end="x">Der Direktor hat sich geschrieen ein bisschen . . . sie angeschrien.</u>
+                    <u who="#boderD" start="1067.673" end="x">Er hat mit ihnen geschimpft ein wenig.</u>
+                    <u who="#ziererE" start="1068.627" end="x">Ja.</u>
+                    <u who="#boderD" start="1069.098" end="x">Aber sie haben sich nicht gekümmert.</u>
+                    <u who="#ziererE" start="1071.048" end="x">Nein, gar nicht.</u>
+                    <u who="#boderD" start="1071.851" end="x">Nein. Nun und dann in Zakopane, was hat da passiert?</u>
+                    <u who="#ziererE" start="1076.728" end="x">So sind wir weg. Diese . . . die Frau Küchler hat . . . das heißt wir sind weg gegangen mit ihr.</u>
+                    <u who="#boderD" start="1082.885" end="x">Und wohin sind Sie gefahren?</u>
+                    <u who="#ziererE" start="1085.058" end="x">Nach . . . erst nach Prag . Und von Prag—wir waren eine Woche in Prag—und dann nach Frankreich.</u>
+                    <u who="#boderD" start="1091.396" end="x">Wie sind Sie gefahren nach Frankreich? In einem . . .</u>
+                    <u who="#ziererE" start="1093.690" end="x">Autobus.</u>
+                    <u who="#boderD" start="1094.746" end="x">Mit einem Autobus. Alle sechzig (60) Kinder in einem . . .</u>
+                    <u who="#ziererE" start="1097.349" end="x">Zwei (2) Auto.</u>
+                    <u who="#boderD" start="1098.406" end="x">Zwei Autobussen. Wer hat diese Autobusse gegeben?</u>
+                    <u who="#ziererE" start="1102.499" end="x">Das war eine Organisation—ich weiß nicht . . .</u>
+                    <u who="#boderD" start="1104.358" end="x">Du weißt nicht was für eine Organisation. Nun, was tust Du hier jetzt?</u>
+                    <u who="#ziererE" start="1107.950" end="x">Hier? Wir lernen . . .</u>
+                    <u who="#boderD" start="1110.262" end="x">Was lernst Du?</u>
+                    <u who="#ziererE" start="1112.242" end="x">In die zweite Gymnasium Klasse gehe ich.</u>
+                    <u who="#boderD" start="1114.826" end="x">Du gehst zur Schule hier?</u>
+                    <u who="#ziererE" start="1116.323" end="x">Nein, wir arbeiten zu Hause. Wir haben einen Professor und eine Lehrerin.</u>
+                    <u who="#boderD" start="1119.510" end="x">Ja.</u>
+                    <u who="#ziererE" start="1119.902" end="x">Und wir lernen hebräisch, französisch . . .</u>
+                    <u who="#boderD" start="1122.558" end="x">Ja.</u>
+                    <u who="#ziererE" start="1122.890" end="x">Und wir haben gelernt Englisch, aber wir können nicht drei (3) Sprachen auf einmal lernen.</u>
+                    <u who="#boderD" start="1126.814" end="x">Ja und sollte man auch nicht.</u>
+                    <u who="#ziererE" start="1128.178" end="x">Ja, also wir lernen die zwei (2) Sprachen, Geographie, Historia und so weiter.</u>
+                    <u who="#boderD" start="1133.611" end="x">. . . und so weiter.</u>
+                    <u who="#ziererE" start="1134.414" end="x">Ja.</u>
+                    <u who="#boderD" start="1135.006" end="x">Arbeitest Du? Hilfst Du mit der Arbeit?</u>
+                    <u who="#ziererE" start="1136.956" end="x">Ja, jedes Kind hier hilft bei uns. Jede Woche . . . hilft ein anderes Kind in der Küche, nicht. Arbeitet in einem Dienst in dem Haus oder im Garten.</u>
+                    <u who="#boderD" start="1147.507" end="x">Und wer passt auf die kleinen Kinder da auf?</u>
+                    <u who="#ziererE" start="1149.771" end="x">Auf die Kleinen . . . zwei (2) Frauen, nicht.</u>
+                    <u who="#boderD" start="1153.381" end="x">Zwei Frauen passen auf die kleinen Kinder auf?</u>
+                    <u who="#ziererE" start="1154.878" end="x">Ja.</u>
+                    <u who="#boderD" start="1155.409" end="x">Müsst Ihr damit mit helfen?</u>
+                    <u who="#ziererE" start="1157.220" end="x">Nein, jetzt schon nicht.</u>
+                    <u who="#boderD" start="1158.669" end="x">Jetzt schon nicht mehr. Nun und was wird aus Dir werden?</u>
+                    <u who="#ziererE" start="1163.184" end="x">Ich weiß es nicht.</u>
+                    <u who="#boderD" start="1164.150" end="x">Oh! Was willst Du lernen? Was möchtest Du studieren? Was möchtest Du lernen?</u>
+                    <u who="#ziererE" start="1172.287" end="x">Ich möchte studieren.</u>
+                    <u who="#boderD" start="1174.840" end="x">Ja.</u>
+                    <u who="#ziererE" start="1176.319" end="x">Ich weiß aber nicht.</u>
+                    <u who="#boderD" start="1178.915" end="x">Wieviel Schule hast Du gehabt?</u>
+                    <u who="#ziererE" start="1180.865" end="x">Schule? Ich habe vier (4) Klassen gelernt, beendet, nicht, nein. Und wenn der Krieg war beendet in Zakopane, die erste Klasse Gymnasium und dann [unverständlich; spricht sehr leise, Geräusch im Tonband] . . .</u>
+                    <u who="#boderD" start="1191.205" end="x">Nun, denkst Du, willst Du ein Fach lernen?</u>
+                    <u who="#ziererE" start="1195.974" end="x">Ein Fach? Nein, ich möchte studieren, ich hab sehr gern Sprachen zu lernen.</u>
+                    <u who="#boderD" start="1200.399" end="x">Ja. Welche Sprachen?</u>
+                    <u who="#ziererE" start="1201.383" end="x">Das ist egal.</u>
+                    <u who="#boderD" start="1202.940" end="x">Ja und wohin werdet Ihr alle gehen?</u>
+                    <u who="#ziererE" start="1205.053" end="x">Nach Palästina, bestimmt!</u>
+                    <u who="#boderD" start="1206.683" end="x">Ihr werdet bestimmt nach Palästina gehen?</u>
+                    <u who="#ziererE" start="1208.240" end="x">Ja.</u>
+                    <u who="#boderD" start="1209.357" end="x">Nun dort werden ja die Meisten auf dem Lande arbeiten.</u>
+                    <u who="#ziererE" start="1213.009" end="x">Na ja, vielleicht!</u>
+                    <u who="#boderD" start="1214.325" end="x">Vielleicht. Gefällt es Dir hier?</u>
+                    <u who="#ziererE" start="1217.482" end="x">Ja, sehr.</u>
+                    <u who="#boderD" start="1220.669" end="x">Nun ja, kannst Du mir sagen, wenn ich Dich frage, von dieser ganzen Zeit—welcher war der schwerste Moment in Deinem Leben?</u>
+                    <u who="#ziererE" start="1229.693" end="x">Der schwerste Moment war damals, wie man hat die Mama weg genommen. Ich bin ganz allein geblieben mit der Schwester, ohne einen Groschen. Kein Geld haben wir gehabt, nicht. Und wir wussten nicht, wo der Vater ist. Wir waren ganz allein auf der arischen Seite. Und dann . . . wenn ich bin weg ohne die Eltern, ohne den Vater und die Schwester, nach . . . nach Skarzysko.</u>
+                    <u who="#boderD" start="1255.781" end="x">Hm, . . . wenn Du in der Munitionsfabrik gearbeitet hast, wo hast Du geschlafen?</u>
+                    <u who="#ziererE" start="1263.707" end="x">Es waren lange Baracken für hundert fünfzig (150) . . . viele Stockbetten . . . hundert fünfzig (15) Menschen waren in einer langen Baracke da.</u>
+                    <u who="#boderD" start="1271.361" end="x">Die Frauen allein?</u>
+                    <u who="#ziererE" start="1272.556" end="x">Ja, extra Frauen, extra Männer.</u>
+                    <u who="#boderD" start="1274.729" end="x">Waren Deine Haare abgeschoren?</u>
+                    <u who="#ziererE" start="1277.174" end="x">Ja, nur vom [unverständlich].</u>
+                    <u who="#boderD" start="1279.305" end="x">Aber sonst nicht?</u>
+                    <u who="#ziererE" start="1280.470" end="x">Nein.</u>
+                    <u who="#boderD" start="1281.152" end="x">Habt Ihr Euch rein halten können dort?</u>
+                    <u who="#ziererE" start="1283.385" end="x">Ja.</u>
+                    <u who="#boderD" start="1284.080" end="x">Hat man Seife gegeben?</u>
+                    <u who="#ziererE" start="1285.336" end="x">Sehr wenig. Aber man hat mit Soda in der Munitionsfabrik . . . ist für Seife und wir haben . . . dort Soda. Und wir haben sich mit Soda gewaschen. Es hat sehr gebrannt, aber . . .</u>
+                    <u who="#boderD" start="1296.400" end="x">Ja. Ihr habt Euch mit dem Soda gewaschen. Wozu war die Seife in der Munitionsfabrik?</u>
+                    <u who="#ziererE" start="1301.441" end="x">Um zu waschen die Hülsen, man wäscht die Hülsen.</u>
+                    <u who="#boderD" start="1304.206" end="x">Oh, da habt Ihr Seife mit genommen oder was?</u>
+                    <u who="#ziererE" start="1306.790" end="x">Nein, man darf sie nicht mit nehmen. Man hat Schläge bekommen für das. Aber man hat manchmal bekommen vom Meister, wenn er gut aufgelegt war.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1317.332" end="x">This concludes the interview with Edith Zierer, a fifteen year old young girl, hm, who is now in the home for displaced children at Bellevue near Paris. An Illinois Institute of Technology wire recording.</u>
+                </div>
+                <!-- End spool 9-116B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#ziererE_en">
+                <!-- Begin spool 9-116B -->
+                <div lang="en">
+                    <u who="#boderD" start="2.922" end="x">[In English] <placeName ref="Chicago">Chicago</placeName>, November the 14, 1950. This is reproduction Spool 116B. The interviewee is Edith Zierer. Boder.</u>
+                    <u who="#boderD" start="48.506" end="x">We have now another young girl.</u>
+                    <u who="#boderD" start="50.928" end="x">[In German] What is your name?</u>
+                    <u who="#ziererE" start="51.904" end="x">Edith Zierer [?].</u>
+                    <u who="#boderD" start="53.181" end="x">Edij . . . ?</u>
+                    <u who="#ziererE" start="54.085" end="x">Edith.</u>
+                    <u who="#boderD" start="55.784" end="x">Edith. And the first name?</u>
+                    <u who="#ziererE" start="59.230" end="x">Zierer.</u>
+                    <u who="#boderD" start="60.085" end="x">Zierer. You spell your name C . . .</u>
+                    <u who="#ziererE" start="63.610" end="x">No. Z-I-E . . .</u>
+                    <u who="#boderD" start="65.128" end="x">Z . . . Please write it down. Your first name is Edith, true? You simply are accustomed to give the first name at the end?</u>
+                    <u who="#ziererE" start="71.514" end="x">Yes.</u>
+                    <u who="#boderD" start="72.008" end="x">You speak German, true? Now, Edith, how old are you?</u>
+                    <u who="#ziererE" start="81.159" end="x">[She speaks in a very low voice] Fifteen.</u>
+                    <u who="#boderD" start="82.376" end="x">Fifteen.</u>
+                    <u who="#boderD" start="85.156" end="x">[In English] We are starting at the . . . we are starting at the fifteen minute of the Spool number 116 an interview with Edith Kira [incorrect], age fifteen, at <placeName ref="OPEJ children's home">Bellevue</placeName>, near <placeName ref="Paris">Paris</placeName>, a home for displaced children, who are here with a group of teachers which [who have] removed them from Poland.</u>
+                    <u who="#boderD" start="108.132" end="x">[In German] And so tell me, Edith, where were you when the war started?</u>
+                    <u who="#ziererE" start="116.374" end="x">When the war started I went from <placeName ref="Katowice">Katowice</placeName> in Silesia, no?—to <placeName ref="Kraków">Cracow</placeName>, and then [I went] together with the parents to <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#boderD" start="124.308" end="x">Aha. Tell me, how old were you then?</u>
+                    <u who="#ziererE" start="128.597" end="x">Nine years.</u>
+                    <u who="#boderD" start="129.712" end="x">You were nine years old. And of whom did your family consist? The father . . .</u>
+                    <u who="#ziererE" start="134.814" end="x">There were the father, the mother, and one sister, a younger sister.</u>
+                    <u who="#boderD" start="137.766" end="x">A younger sister.</u>
+                    <u who="#ziererE" start="138.790" end="x">Yes.</u>
+                    <u who="#boderD" start="139.272" end="x">How old about was your father then?</u>
+                    <u who="#ziererE" start="141.592" end="x">The father? Then? Forty-one years old.</u>
+                    <u who="#boderD" start="144.255" end="x">Yes. Do you know where your father is?</u>
+                    <u who="#ziererE" start="146.64" end="x">[Barely audible voice] No.</u>
+                    <u who="#boderD" start="147.111" end="x">No. And where your mother is?</u>
+                    <u who="#ziererE" start="148.780" end="x">Neither. They went away with a transport in '42 to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> [?].</u>
+                    <u who="#boderD" start="152.376" end="x">Both together? Father and mother?</u>
+                    <u who="#ziererE" start="153.852" end="x">No. First the father.</u>
+                    <u who="#boderD" start="155.208" end="x">Aha. Now then, will you please tell me the whole story. What happened, as you remember it, when the Germans arrived in <placeName ref="Katowice">Katowice</placeName>. Nu.</u>
+                    <u who="#ziererE" start="163.925" end="x">I was . . .</u>
+                    <u who="#boderD" start="165.082" end="x">When the war started.</u>
+                    <u who="#ziererE" start="165.847" end="x">Yes. When the war started I went with my parents to <placeName ref="Kraków">Cracow</placeName>, and from <placeName ref="Kraków">Cracow</placeName> to <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#boderD" start="172.594" end="x">Why so fast. Now how long were you in <placeName ref="Kraków">Cracow</placeName>?</u>
+                    <u who="#ziererE" start="175.395" end="x">Two days.</u>
+                    <u who="#boderD" start="176.540" end="x">Why did you go to <placeName ref="Kraków">Cracow</placeName>?</u>
+                    <u who="#ziererE" start="178.299" end="x">Why? Because <placeName ref="Katowice">Katowice</placeName> is near the border, near the German border. And there is . . . were a lot of troops [apparently Polish].</u>
+                    <u who="#boderD" start="184.233" end="x">Troops. So you simply left.</u>
+                    <u who="#ziererE" start="186.143" end="x">Yes.</u>
+                    <u who="#boderD" start="186.396" end="x">What was the occupation of your father?</u>
+                    <u who="#ziererE" start="188.896" end="x">He had a business.</u>
+                    <u who="#boderD" start="190.703" end="x">What kind of business?</u>
+                    <u who="#ziererE" start="191.968" end="x">Of leather. Leather.</u>
+                    <u who="#boderD" start="193.836" end="x">A leather business. Did he sell leather, or things of leather?</u>
+                    <u who="#ziererE" start="198.336" end="x">Things of leather. Leather and rugs. All kinds of merchandise.</u>
+                    <u who="#boderD" start="202.703" end="x">It was a big store in <placeName ref="Katowice">Katowice</placeName>.</u>
+                    <u who="#ziererE" start="204.330" end="x">Yes.</u>
+                    <u who="#boderD" start="205.457" end="x">Now then, from <placeName ref="Katowice">Katowice</placeName> you went to <placeName ref="Kraków">Cracow</placeName>. And what did your parents do there? How long were you in <placeName ref="Katowice">Katowice</placeName>?</u>
+                    <u who="#ziererE" start="213.963" end="x">A few days [?].</u>
+                    <u who="#boderD" start="214.626" end="x">Why so little?</u>
+                    <u who="#ziererE" start="215.903" end="x">We left the 28th of September, and then the war started.</u>
+                    <u who="#boderD" start="220.602" end="x">Oh. You left before the war.</u>
+                    <u who="#ziererE" start="222.692" end="x">Yes, a few days [before].</u>
+                    <u who="#boderD" start="223.867" end="x">And then, afterwards . . . why did you remain in <placeName ref="Lviv">Lemberg</placeName> only a few days?</u>
+                    <u who="#ziererE" start="228.024" end="x">No. We were in <placeName ref="Lviv">Lemberg</placeName> one year, a whole year.</u>
+                    <u who="#boderD" start="230.777" end="x">So where then were you a few days?</u>
+                    <u who="#ziererE" start="232.735" end="x">In <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#boderD" start="233.783" end="x">In <placeName ref="Kraków">Cracow</placeName> you spent a few days.</u>
+                    <u who="#ziererE" start="234.898" end="x">Yes.</u>
+                    <u who="#boderD" start="235.844" end="x">And then you went to <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#ziererE" start="237.422" end="x">Yes.</u>
+                    <u who="#boderD" start="237.693" end="x">And in <placeName ref="Lviv">Lemberg</placeName> you spent the whole year.</u>
+                    <u who="#ziererE" start="239.079" end="x">A whole year.</u>
+                    <u who="#boderD" start="239.513" end="x">Nu. And what happened there?</u>
+                    <u who="#ziererE" start="241.543" end="x">There was very little food. There was a [great] scarcity. We ate very badly. And when we returned to <placeName ref="Kraków">Cracow</placeName>, because <placeName ref="Lviv">Lemberg</placeName> was under the Russians. No [you see?]?</u>
+                    <u who="#boderD" start="252.911" end="x">Oh, <placeName ref="Lviv">Lemberg</placeName>, still was . . . That was still when the Russians and Germans were not at war.</u>
+                    <u who="#ziererE" start="257.260" end="x">No. Before the war.</u>
+                    <u who="#boderD" start="258.556" end="x">Before the war, the Germans-Russian war.</u>
+                    <u who="#ziererE" start="260.676" end="x">Yes.</u>
+                    <u who="#boderD" start="261.008" end="x">So you went from <placeName ref="Lviv">Lemberg</placeName> back to <placeName ref="Praha">Prague</placeName> [<placeName ref="Kraków">Cracow</placeName>?].</u>
+                    <u who="#ziererE" start="263.339" end="x">Yes.</u>
+                    <u who="#boderD" start="263.580" end="x">Well. Was there . . .</u>
+                    <u who="#ziererE" start="264.514" end="x">At the station . . .</u>
+                    <u who="#boderD" start="264.755" end="x">. . . more to eat?</u>
+                    <u who="#ziererE" start="265.339" end="x">There was more to eat. We had relatives there. They helped us, no?</u>
+                    <u who="#boderD" start="269.014" end="x">Yes.</u>
+                    <u who="#ziererE" start="269.466" end="x">And then we . . . in '41 the <term ref="#vothG_ghetto">Ghetto</term> was established in <placeName ref="Kraków">Cracow</placeName>, so we left from <placeName ref="Wieliczka">Wieliczka</placeName> [words not clear].</u>
+                    <u who="#boderD" start="278.153" end="x">For <placeName ref="Wieliczka">Wieliczka</placeName>. Is that the same place where Miss Kuechler was?</u>
+                    <u who="#ziererE" start="282.472" end="x">Yes. Yes.</u>
+                    <u who="#boderD" start="283.316" end="x">Yes. So you left for <placeName ref="Wieliczka">Wieliczka</placeName>.</u>
+                    <u who="#ziererE" start="285.406" end="x">Yes.</u>
+                    <u who="#boderD" start="285.677" end="x">And . . . now then, what happened there?</u>
+                    <u who="#ziererE" start="288.689" end="x">There we remained for a year and a half. And again an expulsion, a real expulsion, and we left for <placeName ref="Kraków">Cracow</placeName>, and then . . .</u>
+                    <u who="#boderD" start="295.798" end="x">What does it mean, an expulsion?</u>
+                    <u who="#ziererE" start="297.316" end="x">An expulsion, a total expulsion, a Jew-clean [procedure—an ordinance to 'free a locality of its Jews].</u>
+                    <u who="#boderD" start="299.937" end="x">Oh. The city was to be made Jew-clean. And you left for <placeName ref="Kraków">Cracow</placeName> alone or with a transport?</u>
+                    <u who="#ziererE" start="307.130" end="x">No. With the parents. We were fifteen [?] kilometers from <placeName ref="Kraków">Cracow</placeName>, so we went on foot.</u>
+                    <u who="#boderD" start="311.708" end="x">Oh. You went with the parents on foot to <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#ziererE" start="316.178" end="x">To <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#boderD" start="316.389" end="x">You did not want . . .</u>
+                    <u who="#ziererE" start="317.052" end="x">To the <term ref="#vothG_aryan">Aryan</term> side. Because there was already a <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="319.293" end="x">In <placeName ref="Kraków">Cracow</placeName> [there] was a <term ref="#vothG_ghetto">Ghetto</term>. Did you . . .</u>
+                    <u who="#ziererE" start="320.811" end="x">In <placeName ref="Kraków">Cracow</placeName> [there] was a <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="322.136" end="x">Yes.</u>
+                    <u who="#ziererE" start="322.709" end="x">But we went to the <term ref="#vothG_aryan">Aryan</term> side.</u>
+                    <u who="#boderD" start="324.348" end="x">How were you admitted to the <term ref="#vothG_aryan">Aryan</term> side?</u>
+                    <u who="#ziererE" start="327.191" end="x">We had not [words not clear]. We came [?] in on <term ref="#vothG_aryan">Aryan</term> papers.</u>
+                    <u who="#boderD" start="331.950" end="x">Did you have <term ref="#vothG_aryan">Aryan</term> papers?</u>
+                    <u who="#ziererE" start="333.878" end="x">The mother had <term ref="#vothG_aryan">Aryan</term> papers.</u>
+                    <u who="#boderD" start="336.589" end="x">Oh. And you [?]?</u>
+                    <u who="#ziererE" start="337.444" end="x">We were still very small. We did not need any [?].</u>
+                    <u who="#boderD" start="341.029" end="x">And the father?</u>
+                    <u who="#ziererE" start="341.854" end="x">The father was hiding. He had a very Semitic appearance, so he had to hide.</u>
+                    <u who="#boderD" start="346.613" end="x">What kind of an appearance?</u>
+                    <u who="#ziererE" start="347.698" end="x">Very, very Semitic . . .</u>
+                    <u who="#boderD" start="349.608" end="x">Semitic. He was . . . he looked Jewish.</u>
+                    <u who="#ziererE" start="351.668" end="x">Yes.</u>
+                    <u who="#boderD" start="352.210" end="x">So he hid himself.</u>
+                    <u who="#ziererE" start="353.536" end="x">Yes.</u>
+                    <u who="#boderD" start="353.940" end="x">And the mother with the children took the risk . . .</u>
+                    <u who="#ziererE" start="356.422" end="x">Yes.</u>
+                    <u who="#boderD" start="356.765" end="x">. . . to pass over . . . to the <term ref="#vothG_aryan">Aryan</term> side.</u>
+                    <u who="#ziererE" start="357.609" end="x">Yes.</u>
+                    <u who="#boderD" start="358.013" end="x">And what happened then?</u>
+                    <u who="#ziererE" start="359.411" end="x">And then we were . . . we were in <placeName ref="Kraków">Cracow</placeName> a few days, on the <term ref="#vothG_aryan">Aryan</term> side. And then somebody reported on the mama, no? A German, he did . . . he did . . . about her. He knew her.</u>
+                    <u who="#boderD" start="369.212" end="x">He denounced her . . .</u>
+                    <u who="#ziererE" start="370.266" end="x">Yes. He knew her, and he reported on her, and she was [taken] to the police, to the <term ref="#vothG_gestapo">Gestapo</term>.</u>
+                    <u who="#boderD" start="376.050" end="x">And where did you remain?</u>
+                    <u who="#ziererE" start="377.869" end="x">We . . . we remained in the city, with my sister, all alone.</u>
+                    <u who="#boderD" start="381.574" end="x">That means the two children?</u>
+                    <u who="#ziererE" start="382.869" end="x">Yes.</u>
+                    <u who="#boderD" start="383.562" end="x">You . . . you were nine years old, and . . .</u>
+                    <u who="#ziererE" start="386.273" end="x">I was then already ten.</u>
+                    <u who="#boderD" start="387.580" end="x">Ten years old. And the sister, how old was she?</u>
+                    <u who="#ziererE" start="389.809" end="x">Eight.</u>
+                    <u who="#boderD" start="390.140" end="x">And they took . . . they took away the mother without you?</u>
+                    <u who="#ziererE" start="393.665" end="x">Yes.</u>
+                    <u who="#boderD" start="394.279" end="x">How did that . . . how did that come about?</u>
+                    <u who="#ziererE" start="395.725" end="x">Because we remained home, and the mama went out on the street [?] and . . .</u>
+                    <u who="#boderD" start="399.520" end="x">She was taken on the street?</u>
+                    <u who="#ziererE" start="400.695" end="x">Yes. And she did not return.</u>
+                    <u who="#boderD" start="403.346" end="x">And your mama did not return any more?</u>
+                    <u who="#ziererE" start="405.256" end="x">No.</u>
+                    <u who="#boderD" start="406.443" end="x">Did you know what happened to her?</u>
+                    <u who="#ziererE" start="408.232" end="x">No. We knew nothing.</u>
+                    <u who="#boderD" start="410.324" end="x">Did you find out later?</u>
+                    <u who="#ziererE" start="411.743" end="x">Yes. After four weeks we learned that she was held in the [name not clear]. That was a prison, a German prison.</u>
+                    <u who="#boderD" start="418.099" end="x">Yes. And then?</u>
+                    <u who="#ziererE" start="419.487" end="x">Well, then we went to the <term ref="#vothG_ghetto">Ghetto</term> by ourselves, because we had no other way out.</u>
+                    <u who="#boderD" start="423.200" end="x">What does that mean? The two children?</u>
+                    <u who="#ziererE" start="424.576" end="x">Yes. And in the <placeName ref="Kraków Ghetto" type="camp">Ghetto</placeName> we found the father, and together with him we went to Bieżanów [district of <placeName ref="Kraków">Cracow</placeName>], because in <placeName ref="Kraków">Cracow</placeName> there began a resettlement [expulsion of the Jews]. And we left.</u>
+                    <u who="#boderD" start="434.826" end="x">Now then, you say your father had hid himself.</u>
+                    <u who="#ziererE" start="437.410" end="x">Yes, but he returned to the <placeName ref="Kraków Ghetto" type="camp">Ghetto</placeName>, because he could not remain there for a long.</u>
+                    <u who="#boderD" start="440.959" end="x">Where he hid himself?</u>
+                    <u who="#ziererE" start="442.167" end="x">Yes.</u>
+                    <u who="#boderD" start="442.427" end="x">So he returned to the <placeName ref="Kraków Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#ziererE" start="443.192" end="x">Yes.</u>
+                    <u who="#boderD" start="443.594" end="x">And you found the father.</u>
+                    <u who="#ziererE" start="444.799" end="x">Yes.</u>
+                    <u who="#boderD" start="445.222" end="x">How did you find him? [Chuckle.]</u>
+                    <u who="#ziererE" start="445.995" end="x">[Laughter.] On the street. The <term ref="#vothG_ghetto">Ghetto</term> was very small, only a few streets. No?</u>
+                    <u who="#boderD" start="450.178" end="x">You did not know that your father was there?</u>
+                    <u who="#ziererE" start="451.687" end="x">No, I did not know.</u>
+                    <u who="#boderD" start="452.925" end="x">How was it? You went out on the street and . . .</u>
+                    <u who="#ziererE" start="454.965" end="x">No. I came to the <placeName ref="Kraków Ghetto" type="camp">Ghetto</placeName>, and on the corner there stood the father.</u>
+                    <u who="#boderD" start="459.130" end="x">Well, what did he say?</u>
+                    <u who="#ziererE" start="461.183" end="x">He was very glad, but when he heard that the Mama was gone, then he already [her voice fades into silence].</u>
+                    <u who="#boderD" start="470.346" end="x">[Pause. Slowly] Yes. [Pause.] Now then . . . and then you were with your father in the <term ref="#vothG_ghetto">Ghetto</term>. And what happened then?</u>
+                    <u who="#ziererE" start="474.227" end="x">Then we went to a <term ref="#vothG_lager">lager</term>, to Bieżanów [district of <placeName ref="Kraków">Cracow</placeName>] near <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#boderD" start="478.241" end="x">You were sent away?</u>
+                    <u who="#ziererE" start="479.358" end="x">Yes. We went by ourselves to the <term ref="#vothG_lager">lager</term>, because it was a work <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="482.587" end="x">Your father with the children.</u>
+                    <u who="#ziererE" start="484.278" end="x">Yes.</u>
+                    <u who="#boderD" start="484.568" end="x">And what work could you do?</u>
+                    <u who="#ziererE" start="486.717" end="x">No. I could not work. They wanted to throw me out of the <term ref="#vothG_lager">lager</term>, because they accepted in the <term ref="#vothG_lager">lager</term> only [those] from the age of fifteen and up . . .</u>
+                    <u who="#boderD" start="493.267" end="x">Nu.</u>
+                    <u who="#ziererE" start="493.587" end="x">. . . for work. And I could not work yet. So we were thrown out, I and my sister.</u>
+                    <u who="#boderD" start="498.585" end="x">What does that mean, 'thrown out'?</u>
+                    <u who="#ziererE" start="499.509" end="x">We were thrown out. The Germans came in, made a check-up. So they threw out.</u>
+                    <u who="#boderD" start="505.080" end="x">They told you to leave?</u>
+                    <u who="#ziererE" start="506.378" end="x">Yes. They did not tell us. We were thrown out over the wires [fence].</u>
+                    <u who="#boderD" start="510.211" end="x">What does that mean? They lifted you up and threw you out?</u>
+                    <u who="#ziererE" start="512.475" end="x">Yes. There were such wires [fences], so they threw us out. The father did not happen to be present at the moment. He was at work, and we were alone in the <term ref="#vothG_lager">lager</term> [apparently factory grounds].</u>
+                    <u who="#boderD" start="518.952" end="x">Aha. And the sister, too?</u>
+                    <u who="#ziererE" start="520.872" end="x">Too. And so we went to the Pole [the words for Poland and Pole in the dative case are the same: Polen].</u>
+                    <u who="#boderD" start="523.305" end="x">To Poland?</u>
+                    <u who="#ziererE" start="524.017" end="x">To a Pole, to a peasant.</u>
+                    <u who="#boderD" start="525.768" end="x">You went to a peasant. And then?</u>
+                    <u who="#ziererE" start="527.235" end="x">Yes. And there we stayed for some time. And I . . . she wanted to get some pay, so the sister remained, and I went to <placeName ref="Kraków">Cracow</placeName> to the <term ref="#vothG_ghetto">Ghetto</term> and brought from there some money, paid up for the sister . . .</u>
+                    <u who="#boderD" start="540.563" end="x">Yes.</u>
+                    <u who="#ziererE" start="541.004x" end="x">And I myself remained in the <term ref="#vothG_ghetto">Ghetto</term>, because I . . . I worked here [in the Ghetto] a bit. I helped out, and I lived on it. I helped out [did some chores].</u>
+                    <u who="#boderD" start="549.382" end="x">Aha. Your Papa was still in the Ghetto?</u>
+                    <u who="#ziererE" start="551.495" end="x">In the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="552.026" end="x">In the <term ref="#vothG_lager">lager</term>. And you had returned to the <term ref="#vothG_lager">lager</term>. [Correction] Oh, you lived in the <term ref="#vothG_ghetto">Ghetto</term> . . .</u>
+                    <u who="#ziererE" start="556.614" end="x">Yes.</u>
+                    <u who="#boderD" start="557.055" end="x">. . . and helped out your papa [with your earnings].</u>
+                    <u who="#ziererE" start="558.129" end="x">Yes.</u>
+                    <u who="#boderD" start="558.401" end="x">And what became of your sister?</u>
+                    <u who="#ziererE" start="561.449" end="x">Of my sister. Well, she was with a peasant. And then a deportation occurred from the <term ref="#vothG_lager">lager</term> to a large concentration camp, so I with papa [?] fetched the sister. The papa himself [did it], because he wanted that we should all be together.</u>
+                    <u who="#boderD" start="574.940" end="x">Nu.</u>
+                    <u who="#ziererE" start="575.152" end="x">So we all together went to a concentration camp in <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. That is a large <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="580.150" end="x">Yes.</u>
+                    <u who="#ziererE" start="581.285" end="x">There I stayed for five weeks. And after five weeks I, all alone, was taken to <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>, to a munitions factory.</u>
+                    <u who="#boderD" start="589.271" end="x">How old were you then?</u>
+                    <u who="#ziererE" start="590.677" end="x">Eleven years. Going into my twelfth.</u>
+                    <u who="#boderD" start="592.005" end="x">Eleven years old. Now then, you went to . . .</u>
+                    <u who="#ziererE" start="599.098" end="x"><placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>.</u>
+                    <u who="#boderD" start="600.082" end="x">Pla- . . .</u>
+                    <u who="#ziererE" start="600.402" end="x"><placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. To <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <u who="#boderD" start="601.295" end="x">You went to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <u who="#ziererE" start="602.412" end="x">Yes.</u>
+                    <u who="#boderD" start="602.835" end="x">Did you go together with you father . . .</u>
+                    <u who="#ziererE" start="604.392" end="x">Yes.</u>
+                    <u who="#boderD" start="604.755" end="x">. . . and your sister?</u>
+                    <u who="#ziererE" start="605.407" end="x">Yes, yes, together.</u>
+                    <u who="#boderD" start="606.451" end="x">Was that permitted, men and children in one . . .</u>
+                    <u who="#ziererE" start="608.353" end="x">No. That was a separate <term ref="#vothG_lager">lager</term>, but they saw each other every day.</u>
+                    <u who="#boderD" start="612.114" end="x">That was a separate <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#ziererE" start="613.551" end="x">Yes.</u>
+                    <u who="#boderD" start="613.871" end="x">Now tell me, when you were in the <term ref="#vothG_lager">lager</term> . . .</u>
+                    <u who="#ziererE" start="616.334" end="x">Yes.</u>
+                    <u who="#boderD" start="616.895" end="x">. . . were there many other children?</u>
+                    <u who="#ziererE" start="619.340" end="x">There were . . . there was a children's home, but I did not . . . I did not want to be there, because I wanted to do some work so that I could help out the papa, because the papa was very weak. He felt bad [he did not feel good]. No?</u>
+                    <u who="#boderD" start="630.658" end="x">Hm.</u>
+                    <u who="#ziererE" start="631.159" end="x">The sister was in a children's home, and I was not in the children's home. I worked.</u>
+                    <u who="#boderD" start="635.747" end="x">A children's home in the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#ziererE" start="637.576" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="638.469" end="x">And who managed the children's home?</u>
+                    <u who="#ziererE" start="642.151" end="x">The Germans didn't know [did not care?] anything about it, but the Jews . . .</u>
+                    <u who="#boderD" start="645.984" end="x">What do you mean? The Germans did not know that there existed a children's home?</u>
+                    <u who="#ziererE" start="649.576" end="x">They knew, yes. They knew, but they permitted it.</u>
+                    <u who="#boderD" start="652.081" end="x">They permitted it.</u>
+                    <u who="#ziererE" start="653.318" end="x">At the beginning.</u>
+                    <u who="#boderD" start="654.194" end="x">Aha. And then you alone were taken. Where to?</u>
+                    <u who="#ziererE" start="657.230" end="x"><placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko-Kamienna</placeName>, to an ammunition factory.</u>
+                    <u who="#boderD" start="660.007" end="x">How come? Were you . . .</u>
+                    <u who="#ziererE" start="662.017" end="x">There was a selection at night, so I was taken. I did not want to tell anything to the father and the sister. Not to take leave . . .</u>
+                    <u who="#boderD" start="668.295" end="x">Where were you? Not in the children's home?</u>
+                    <u who="#ziererE" start="670.154" end="x">No, I was not. I worked.</u>
+                    <u who="#boderD" start="672.086" end="x">You were with the women?</u>
+                    <u who="#ziererE" start="673.643" end="x">And the papa worked somewhere else, and I [worked] somewhere else. No?</u>
+                    <u who="#boderD" start="676.843" end="x">Yes.</u>
+                    <u who="#ziererE" start="677.344" end="x">And at night . . . It was during a night shift.</u>
+                    <u who="#boderD" start="679.728" end="x">Yes.</u>
+                    <u who="#ziererE" start="680.090" end="x">And at night we were taken . . .</u>
+                    <u who="#boderD" start="681.660" end="x">Aha.</u>
+                    <u who="#ziererE" start="682.463" end="x">. . . to <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>.</u>
+                    <u who="#boderD" start="683.296" end="x">Now tell me, how did you travel to <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>?</u>
+                    <u who="#ziererE" start="686.453" end="x">To <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>? There were a hundred people to a wagon [RR-car]. No?</u>
+                    <u who="#boderD" start="691.572" end="x">Men and women?</u>
+                    <u who="#ziererE" start="692.646" end="x">Hm. Only women. The women separately, the men separately.</u>
+                    <u who="#boderD" start="695.755" end="x">Yes.</u>
+                    <u who="#ziererE" start="696.208" end="x">And we got a slice of bread. No? We drank a little water and traveled to <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>. We did not know that we traveled to <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>. We thought [we were going] to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. And . . .</u>
+                    <u who="#boderD" start="706.971" end="x">You did not know that you . . .</u>
+                    <u who="#ziererE" start="708.227" end="x">No. We thought that we were going to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="711.263" end="x">Did you know what was going on in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#ziererE" start="713.527" end="x">Yes.</u>
+                    <u who="#boderD" start="714.088" end="x">Now . . .</u>
+                    <u who="#ziererE" start="715.386" end="x">And then in <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName> we were disembarked, there nine hundred people, no? So they took seventy people . . . There were three shops.</u>
+                    <u who="#boderD" start="724.893" end="x">Yes.</u>
+                    <u who="#ziererE" start="725.316" end="x">A [somewhat] better shop, a bad one, and one very bad, no?</u>
+                    <u who="#boderD" start="728.684" end="x">Yes.</u>
+                    <u who="#ziererE" start="729.197" end="x">They did . . . where one just could die at once. So I was [taken] to the first shop . . .</u>
+                    <u who="#boderD" start="734.811" end="x">To the best one?</u>
+                    <u who="#ziererE" start="735.403" end="x">Yes, I was taken to the best, and since I knew German I got work, no?</u>
+                    <u who="#boderD" start="741.759" end="x">Yes.</u>
+                    <u who="#ziererE" start="742.031" end="x">They did not consider that I was a child, a box under my feet, because I was too small.</u>
+                    <u who="#boderD" start="749.021" end="x">Yes.</u>
+                    <u who="#ziererE" start="749.401" end="x">And I worked.</u>
+                    <u who="#boderD" start="750.699" end="x">What kind of work did you do?</u>
+                    <u who="#ziererE" start="751.876" end="x">At munitions.</u>
+                    <u who="#boderD" start="753.355" end="x">Yes.</u>
+                    <u who="#ziererE" start="753.898" end="x">Shells.</u>
+                    <u who="#boderD" start="755.800" end="x">Yes. And how did they behave themselves? How did they behave themselves towards you?</u>
+                    <u who="#ziererE" start="760.285" end="x">Towards me they behaved very well, no?</u>
+                    <u who="#boderD" start="764.408" end="x">Yes.</u>
+                    <u who="#ziererE" start="765.030" end="x">Because I was small, but still it depended on his moods. He was [?] a good man. At the beginning he behaved himself well, and then it became worse from day to day.</u>
+                    <u who="#boderD" start="776.094" end="x">What was it about? What did he do?</u>
+                    <u who="#ziererE" start="777.603" end="x">Not he. He left and other foreman came in his place. And then it was already very bad.</u>
+                    <u who="#boderD" start="784.213" end="x">Why [?]?</u>
+                    <u who="#ziererE" start="784.636" end="x">I went hungry. I worked a lot. It was an enormous . . . a three times increase . . .</u>
+                    <u who="#boderD" start="790.449" end="x">What?</u>
+                    <u who="#ziererE" start="790.980" end="x">Three times as much of the same work had to be done.</u>
+                    <u who="#boderD" start="794.602" end="x">Aha.</u>
+                    <u who="#ziererE" start="795.435" end="x">And so they beat us . . .</u>
+                    <u who="#boderD" start="798.350" end="x">Who beat you?</u>
+                    <u who="#ziererE" start="799.467" end="x">The Germans.</u>
+                    <u who="#boderD" start="800.795" end="x">Yes. Who?</u>
+                    <u who="#ziererE" start="802.214" end="x">The foremen.</u>
+                    <u who="#boderD" start="803.379" end="x">The foremen themselves, or were there <term ref="#vothG_capo">capos</term>?</u>
+                    <u who="#ziererE" start="805.902" end="x">No, there were no <term ref="#vothG_capo">capos</term>.</u>
+                    <u who="#boderD" start="807.592" end="x">The masters themselves beat you?</u>
+                    <u who="#ziererE" start="809.192" end="x">Yes.</u>
+                    <u who="#boderD" start="809.693" end="x">Now . . . [go on].</u>
+                    <u who="#ziererE" start="810.327" end="x">If one made a smelt, no? [See below.]</u>
+                    <u who="#boderD" start="811.915" end="x">Yes.</u>
+                    <u who="#ziererE" start="812.235" end="x">One would get twenty with a rubber cudgel. [Her voice practically fades for the next section dealing with the beatings.]</u>
+                    <u who="#boderD" start="816.660" end="x">What does it mean, 'when one made a smelt'?</u>
+                    <u who="#ziererE" start="818.338" end="x">Smelt, that means a bad shell, no? [Rejected shell to be remelted.]</u>
+                    <u who="#boderD" start="821.235" end="x">Yes.</u>
+                    <u who="#ziererE" start="821.567" end="x">When they . . . there was an inspection [control].</u>
+                    <u who="#boderD" start="823.740" end="x">Yes.</u>
+                    <u who="#ziererE" start="823.982" end="x">A continuous German control. If somebody made it wrong, a smelt—that was called a smelt—then he would get a beating.</u>
+                    <u who="#boderD" start="833.236" end="x">With a rubber cudgel.</u>
+                    <u who="#ziererE" start="834.582" end="x">Yes.</u>
+                    <u who="#boderD" start="835.397" end="x">Nu.</u>
+                    <u who="#ziererE" start="836.381" end="x">And then in '43 we went away to the third <term ref="#vothG_lager">lager</term> . . . [corrects herself] the fourth <term ref="#vothG_lager">lager</term> already, to <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>. And in <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName> we were for a year and a half, and there the Russians . . .</u>
+                    <u who="#boderD" start="850.433" end="x">You were for a year and a half in <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>.</u>
+                    <u who="#ziererE" start="852.395" end="x">Yes.</u>
+                    <u who="#boderD" start="852.715" end="x">And there the Russians liberated you.</u>
+                    <u who="#ziererE" start="854.194" end="x">Yes.</u>
+                    <u who="#boderD" start="854.828" end="x">And there you were all alone?</u>
+                    <u who="#ziererE" start="855.854" end="x">All alone.</u>
+                    <u who="#boderD" start="856.488" end="x">Didn't you since then, while you were in the other factory . . .</u>
+                    <u who="#ziererE" start="860.623" end="x">Yes.</u>
+                    <u who="#boderD" start="861.064" end="x">Didn't you hear anything from the father, your sister?</u>
+                    <u who="#ziererE" start="862.772" end="x">No, no, nothing.</u>
+                    <u who="#boderD" start="864.764" end="x">And you don't know where your sister is now?</u>
+                    <u who="#ziererE" start="866.515" end="x">No, nothing. She probably went to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, and there the children, too, were [voice fades] done away with.</u>
+                    <u who="#boderD" start="874.410" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> [in subdued tone like an echo] the children were done away with? [In normal voice] Now then the Russian had liberated you. And what happened then?</u>
+                    <u who="#ziererE" start="881.865" end="x">Then I returned to <placeName ref="Katowice">Katowice</placeName>, because I thought that the parents were there. So I . . .</u>
+                    <u who="#boderD" start="886.241" end="x">What does it mean, 'you returned'? How did you return to . . .</u>
+                    <u who="#ziererE" start="888.535" end="x">The Russians were not any more in <placeName ref="Częstochowa">Chenstokhov</placeName>, so I returned [retreated?] together with the Russians.</u>
+                    <u who="#boderD" start="891.998" end="x">What does that mean, 'with the Russians'?</u>
+                    <u who="#ziererE" start="893.404" end="x">Together with the army.</u>
+                    <u who="#boderD" start="894.944" end="x">By train or how?</u>
+                    <u who="#ziererE" start="896.411" end="x">Yes.</u>
+                    <u who="#boderD" start="897.063" end="x">By train? Did they admit you?</u>
+                    <u who="#ziererE" start="898.983" end="x">Yes.</u>
+                    <u who="#boderD" start="899.907" end="x">And you returned. Where to?</u>
+                    <u who="#ziererE" start="901.947" end="x">To <placeName ref="Katowice">Katowice</placeName>.</u>
+                    <u who="#boderD" start="903.305" end="x">Yes, and . . .</u>
+                    <u who="#ziererE" start="904.845" end="x">In <placeName ref="Katowice">Katowice</placeName> I did not find anybody, no? The parents were there no more. The house was lead-sealed [plumbed], and I could not get in at all. And I spent a few weeks with the Committee [in a shelter], and then I went to <placeName ref="Kraków">Cracow</placeName>, and they took me with them [her voice fades] . . .</u>
+                    <u who="#boderD" start="921.765" end="x">What?</u>
+                    <u who="#ziererE" start="922.477" end="x">They were with [?] me.</u>
+                    <u who="#boderD" start="923.763" end="x">Aha?</u>
+                    <u who="#ziererE" start="923.914" end="x">They helped me.</u>
+                    <u who="#boderD" start="925.091" end="x">Why was the house lead-sealed? Was this your own house [your property]?</u>
+                    <u who="#ziererE" start="928.291" end="x">Yes, that was our own house. When the Germans left they plumbed it.</u>
+                    <u who="#boderD" start="934.617" end="x">Oh. Couldn't you tear off the plumb?</u>
+                    <u who="#ziererE" start="936.657" end="x">No, that was [prohibited] . . . that was not permitted.</u>
+                    <u who="#boderD" start="938.589" end="x">But the Russians were already there.</u>
+                    <u who="#ziererE" start="939.935" end="x">Yes, but the Russians did not permit it, because I was not yet eighteen years old.</u>
+                    <u who="#boderD" start="946.001" end="x">You were not yet eighteen, and . . . ?</u>
+                    <u who="#ziererE" start="947.571" end="x">That is what I was told, no? When I shall be eighteen years old I will get the apartment back. Because nobody else from the family had remained, and I was [allegedly] too young to have my own apartment.</u>
+                    <u who="#boderD" start="957.911" end="x">Aha. And no one else lived there?</u>
+                    <u who="#ziererE" start="960.326" end="x">There were Russians afterwards [?], an officer [?].</u>
+                    <u who="#boderD" start="963.272" end="x">Aha. And he entered the apartment.</u>
+                    <u who="#ziererE" start="965.312" end="x">Yes.</u>
+                    <u who="#boderD" start="966.248" end="x">Did you see? Were your things there?</u>
+                    <u who="#ziererE" start="968.530" end="x">No.</u>
+                    <u who="#boderD" start="969.484" end="x">Aha. Talk in this direction [towards the microphone].</u>
+                    <u who="#ziererE" start="971.494" end="x">No, nothing was there any more.</u>
+                    <u who="#boderD" start="973.214" end="x">And to what kind of a woman did you go? A Jewess or a . . . ? [She must have mentioned this woman aside from the microphone.]</u>
+                    <u who="#ziererE" start="977.349" end="x">A Jewess.</u>
+                    <u who="#boderD" start="978.617" end="x">And . . .</u>
+                    <u who="#ziererE" start="978.967" end="x">She took me in, and I had it very good with her.</u>
+                    <u who="#boderD" start="984.852" end="x">Yes. And then? You were five [?] weeks there?</u>
+                    <u who="#ziererE" start="987.991" end="x">And then I was sent to <placeName ref="Zakopane">Zakopane</placeName>.</u>
+                    <u who="#boderD" start="991.492" end="x">Who?</u>
+                    <u who="#ziererE" start="992.337" end="x">The Committee.</u>
+                    <u who="#boderD" start="993.786" end="x">Which Committee was that?</u>
+                    <u who="#ziererE" start="995.355" end="x">The Committee of <placeName ref="Katowice">Katowice</placeName>, a Jewish Committee.</u>
+                    <u who="#boderD" start="997.347" end="x">Yes. And how far is <placeName ref="Zakopane">Zakopane</placeName> from <placeName ref="Katowice">Katowice</placeName>?</u>
+                    <u who="#ziererE" start="999.702" end="x">From <placeName ref="Katowice">Katowice</placeName>? One hundred and fifty kilometers.</u>
+                    <u who="#boderD" start="1001.984" end="x">Aha.</u>
+                    <u who="#ziererE" start="1002.998" end="x">That is a children's home, no? That is [words not clear].</u>
+                    <u who="#boderD" start="1004.115" end="x">Yes. They sent you to a children's home where . . .</u>
+                    <u who="#ziererE" start="1006.849" end="x">Yes.</u>
+                    <u who="#boderD" start="1007.181" end="x">. . . Mrs. Kuechler was?</u>
+                    <u who="#ziererE" start="1007.936" end="x">Yes.</u>
+                    <u who="#boderD" start="1008.346" end="x">And . . . what happened then?</u>
+                    <u who="#ziererE" start="1010.550" end="x">I had it very good there. I studied, and then we left for France.</u>
+                    <u who="#boderD" start="1016.061" end="x">Why did you leave for France? What happened there?</u>
+                    <u who="#ziererE" start="1019.773" end="x">The Poles. The Poles were beating up, no?</u>
+                    <u who="#boderD" start="1023.697" end="x">Whom.</u>
+                    <u who="#ziererE" start="1024.349" end="x">The Jews. We were . . . we were going to school, to the gymnasium [secondary school], and they beat us up, and . . .</u>
+                    <u who="#boderD" start="1030.162" end="x">Who beat you? The children at school, yes?</u>
+                    <u who="#ziererE" start="1031.387" end="x">Yes, the children at school.</u>
+                    <u who="#boderD" start="1032.927" end="x">Why?</u>
+                    <u who="#ziererE" start="1033.971" end="x">[They were] anti-Semitic. Well . . .</u>
+                    <u who="#boderD" start="1036.084" end="x">Well, yes. But the war . . . the Poles were liberated. They were . . .</u>
+                    <u who="#ziererE" start="1039.935" end="x">Well, but they did not want . . . In <placeName ref="Zakopane">Zakopane</placeName> there were very many Jews, and they did not want any Jews. They could not look at the Jews. And they . . . the Jews were beaten up. A better seat in the [classroom] . . .</u>
+                    <u who="#boderD" start="1053.547" end="x">And what did the teachers say? The Police?</u>
+                    <u who="#ziererE" start="1056.493" end="x">The teachers—nothing. The director intervened some. Yes, yes.</u>
+                    <u who="#boderD" start="1063.562" end="x">What?</u>
+                    <u who="#ziererE" start="1064.395" end="x">The director hollered . . . hollered at them.</u>
+                    <u who="#boderD" start="1067.673" end="x">He scolded them a bit.</u>
+                    <u who="#ziererE" start="1068.627" end="x">Yes.</u>
+                    <u who="#boderD" start="1069.098" end="x">But they paid no heed.</u>
+                    <u who="#ziererE" start="1071.048" end="x">No, not at all.</u>
+                    <u who="#boderD" start="1071.851" end="x">Nu, and then what was going on in <placeName ref="Zakopane">Zakopane</placeName>? What happened then?</u>
+                    <u who="#ziererE" start="1076.728" end="x">So we left. The . . . the . . . Mrs. Kuechler has . . . that is, we departed with her.</u>
+                    <u who="#boderD" start="1082.885" end="x">And where did you go?</u>
+                    <u who="#ziererE" start="1085.058" end="x">First to <placeName ref="Praha">Prague</placeName>. And from <placeName ref="Praha">Prague</placeName>—we were a week in <placeName ref="Praha">Prague</placeName>—and then to France.</u>
+                    <u who="#boderD" start="1091.396" end="x">How did you go to France, by . . .</u>
+                    <u who="#ziererE" start="1093.690" end="x">By bus.</u>
+                    <u who="#boderD" start="1094.746" end="x">By bus. [Chuckle.] All sixty children in one . . .</u>
+                    <u who="#ziererE" start="1097.349" end="x">Two busses.</u>
+                    <u who="#boderD" start="1098.406" end="x">Two busses. Who provided these busses?</u>
+                    <u who="#ziererE" start="1102.499" end="x">That was an organization who provided . . .</u>
+                    <u who="#boderD" start="1104.358" end="x">You don't know what kind of organization? Now, what are you now doing here?</u>
+                    <u who="#ziererE" start="1107.950" end="x">Here? We study . . .</u>
+                    <u who="#boderD" start="1110.262" end="x">What are you studying?</u>
+                    <u who="#ziererE" start="1112.242" end="x">I attend the second year of Gymnasium.</u>
+                    <u who="#boderD" start="1114.826" end="x">You are going to school here.</u>
+                    <u who="#ziererE" start="1116.323" end="x">No. We have it at home. We have a professor and a woman teacher.</u>
+                    <u who="#boderD" start="1119.510" end="x">Yes.</u>
+                    <u who="#ziererE" start="1119.902" end="x">And we study Hebrew, French . . .</u>
+                    <u who="#boderD" start="1122.558" end="x">Nu.</u>
+                    <u who="#ziererE" start="1122.890" end="x">And we studied English, but now we can't study three languages at once.</u>
+                    <u who="#boderD" start="1126.814" end="x">Yes, and one shouldn't.</u>
+                    <u who="#ziererE" start="1128.178" end="x">So we study two languages, geography, history, and . . .</u>
+                    <u who="#boderD" start="1133.611" end="x">. . . et cetera.</u>
+                    <u who="#ziererE" start="1134.414" end="x">Yes.</u>
+                    <u who="#boderD" start="1135.006x" end="x">Do you work? Do you help with the chores?</u>
+                    <u who="#ziererE" start="1136.956" end="x">Yes, every child helps here. Every week . . . every week a different child has duty in the kitchen, no? She works. Or a duty [?] in the house, in the garden.</u>
+                    <u who="#boderD" start="1147.507" end="x">And who attends [takes care of] the little children?</u>
+                    <u who="#ziererE" start="1149.771" end="x">There are such two women, no?</u>
+                    <u who="#boderD" start="1153.381" end="x">Two women take care of the small children.</u>
+                    <u who="#ziererE" start="1154.878" end="x">Yes.</u>
+                    <u who="#boderD" start="1155.409" end="x">Do you have to help out with it?</u>
+                    <u who="#ziererE" start="1157.220" end="x">No, not now any more.</u>
+                    <u who="#boderD" start="1158.669" end="x">Nu, and what do you think will become of you?</u>
+                    <u who="#ziererE" start="1163.184" end="x">I don't know.</u>
+                    <u who="#boderD" start="1164.150" end="x">Oh. [Pause.] What do you want to learn? What would you like to study? What do you like to learn?</u>
+                    <u who="#ziererE" start="1172.287" end="x">I want to study? [Pause.]</u>
+                    <u who="#boderD" start="1174.840" end="x">Yes.</u>
+                    <u who="#ziererE" start="1176.319" end="x">I don't know [?].</u>
+                    <u who="#boderD" start="1178.915" end="x">How much schooling did you have?</u>
+                    <u who="#ziererE" start="1180.865" end="x">Schooling? I have studied . . . four grades, completed, no? And when the war was over I went to <placeName ref="Zakopane">Zakopane</placeName>, to the first grade of the Gymnaisum [apparently high school level]. And then . . .</u>
+                    <u who="#boderD" start="1191.205" end="x">Now, do you want to learn some trade?</u>
+                    <u who="#ziererE" start="1195.974" end="x">A trade. Maybe [?] no. I enjoy very much to study languages, no?</u>
+                    <u who="#boderD" start="1200.399" end="x">What languages?</u>
+                    <u who="#ziererE" start="1201.383" end="x">Makes no difference.</u>
+                    <u who="#boderD" start="1202.940" end="x">Hm. And where do you all intend to go?</u>
+                    <u who="#ziererE" start="1205.053" end="x">To Palestine, for sure.</u>
+                    <u who="#boderD" start="1206.683" end="x">You are for sure to go to Palestine?</u>
+                    <u who="#ziererE" start="1208.240" end="x">Yes.</u>
+                    <u who="#boderD" start="1209.357" end="x">Well. There you will mostly work on the land?</u>
+                    <u who="#ziererE" start="1213.009" end="x">Well, maybe.</u>
+                    <u who="#boderD" start="1214.325" end="x">Do you like it here?</u>
+                    <u who="#ziererE" start="1217.482" end="x">Yes, very much.</u>
+                    <u who="#boderD" start="1220.669" end="x">Well. Could you tell me, if I ask you about all this time, which was the hardest moment in your life?</u>
+                    <u who="#ziererE" start="1229.693" end="x">The hardest moment was when they took away the mama. I remained all alone with the sister. Without a penny, we had no money, no? And we did not know where the father was. We remained all alone on the <term ref="#vothG_aryan">Aryan</term> side. And then when I left, without the parents, without the father and the sister, for <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarzysko</placeName>.</u>
+                    <u who="#boderD" start="1255.781" end="x">Now . . . When you worked in the munitions factory, where did you sleep?</u>
+                    <u who="#ziererE" start="1263.707" end="x">There were long barracks. I did [words not clear]. The beds [?] were mounted. Hundred fifty people were in a long barracks.</u>
+                    <u who="#boderD" start="1271.361" end="x">Women alone?</u>
+                    <u who="#ziererE" start="1272.556" end="x">Yes, separate. The women were separate, the men separate.</u>
+                    <u who="#boderD" start="1274.729" end="x">Was your hair . . . hair shorn?</u>
+                    <u who="#ziererE" start="1277.174" end="x">Well, only from the head.</u>
+                    <u who="#boderD" start="1279.305" end="x">Otherwise not.</u>
+                    <u who="#ziererE" start="1280.470" end="x">No.</u>
+                    <u who="#boderD" start="1281.152" end="x">Were you able to keep clean there?</u>
+                    <u who="#ziererE" start="1283.385" end="x">Yes.</u>
+                    <u who="#boderD" start="1284.080" end="x">Did they give soap?</u>
+                    <u who="#ziererE" start="1285.336" end="x">Very little. But we were . . . because in a munitions factory there is a lot of soap, we had . . . and soda. So we washed ourselves with that soda. It was smarting badly, but . . .</u>
+                    <u who="#boderD" start="1296.400" end="x">Yes. So you washed yourselves with the soda. What was there soap for in the munitions factory?</u>
+                    <u who="#ziererE" start="1301.441" end="x">So, to wash the shells [?]. The shells [?] were washed.</u>
+                    <u who="#boderD" start="1304.206" end="x">Oh. So you took some soap with you, or what?</u>
+                    <u who="#ziererE" start="1306.790" end="x">It was not permitted to take [it]. One got beaten for it, but sometimes one would get it from the foreman, when he was in a good mood [?].</u>
+                    <u who="#boderD" start="1317.332" end="x">[In English] This concludes the interview with Edith Zierer, a fifteen year old girl who is now in the home for displaced children at <placeName ref="OPEJ children's home">Bellevue</placeName> near <placeName ref="Paris">Paris</placeName>. An Illinois Institute of Technology wire recording.</u>
+                </div>
+                <!-- End spool 9-116B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

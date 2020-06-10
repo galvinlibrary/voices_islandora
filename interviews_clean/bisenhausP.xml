@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Polia Bisenhaus; July 29, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <!-- <respStmt>
+                    <resp>Transcription</resp>
+                    <name>David P. Boder</name>
+                    </respStmt> -->
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Elliot Lefkovitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT25M37.829S" id="bisenhausP_9-3B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <lang value="secondary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-3B</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-07-29</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="bisenhausP_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="bisenhausP" role="interviewee">
+                        <persName>
+                            <forename>Polia</forename>
+                            <surname>Bisenhaus</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>unknown</age>
+                        <birth ref="Staszów"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Poland">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Kielce Ghetto ">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Częstochowa concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Burgau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Türkheim concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Dachau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Dachau" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin English translation -->
+            <div corresp="#bisenhausP_en">
+                <!-- begin Spool 9-3B -->
+                <div lang="en">
+                    <p>Note: This interview occurred at the training school of the <term ref="#vothG_ort">ORT</term>. The interviewee is apparently still perplexed from her war experiences. Her mentality appears stunted. Her speech is phlegmatic and she seems to grasp very poorly the situation of the interview which proceeds in German-Yiddish.</p>
+                    <u who="#boderD" start="0.517" end="x">Now you talk into this.</u>
+                    <u who="#bisenhausP" start="3.404" end="x">Now what shall I talk.</u>
+                    <u who="#boderD" start="4.826" end="x">I shall tell you. Now tell me Polia, what is your full name?</u>
+                    <u who="#bisenhausP" start="9.279" end="x">What?</u>
+                    <u who="#boderD" start="10.352" end="x">What is your name?</u>
+                    <u who="#bisenhausP" start="11.961" end="x">My name? Polia Bisenhaus.</u>
+                    <u who="#boderD" start="15.162" end="x">Say it again, Polia what?</u>
+                    <u who="#bisenhausP" start="17.630" end="x">Polia Bisenhaus.</u>
+                    <u who="#boderD" start="19.036" end="x">Bisenhaus?</u>
+                    <u who="#bisenhausP" start="19.849" end="x">Bisenhaus. [in French] Oui.</u>
+                    <u who="#boderD" start="22.047" end="x">Where are you from?</u>
+                    <u who="#bisenhausP" start="23.422" end="x">I? - from Poland.</u>
+                    <u who="#boderD" start="24.670" end="x">You are from Poland?</u>
+                    <u who="#bisenhausP" start="25.986" end="x">Oui.</u>
+                    <u who="#boderD" start="26.517" end="x">From what city in Poland?</u>
+                    <u who="#bisenhausP" start="27.861" end="x"><placeName ref="Staszów">Stashu</placeName>.</u>
+                    <u who="#boderD" start="28.908" end="x"><placeName ref="Staszów">Stashu</placeName>?</u>
+                    <u who="#bisenhausP" start="30.283" end="x">Uhm [yes]</u>
+                    <u who="#boderD" start="30.718" end="x">What is that [in English] Russian? [then in German] Russian Poland, or.....?</u>
+                    <u who="#bisenhausP" start="33.736" end="x">It was in Poland....</u>
+                    <u who="#boderD" start="36.533" end="x">Come nearer a bit. Was it Russian Poland?</u>
+                    <u who="#bisenhausP" start="40.743" end="x">Russian Poland. Before the war [a few words not clear] it was Russian Poland.<note n="1">Polia here is most probably referring to World War I since prior to that Staszów was part of Russian controlled Poland. The Russians were not in the town at the start of World War II. It was occupied from the very beginning by the Germans.</note></u>
+                    <u who="#boderD" start="46.375" end="x">Yes. But during the war, were the Russians there or....</u>
+                    <u who="#bisenhausP" start="50.266" end="x">The Russians.</u>
+                    <u who="#boderD" start="51.217" end="x">The Russians were there. All right now, tell me, and then when the Russians had left - when did the Germans come? Tell me the whole story.</u>
+                    <u who="#bisenhausP" start="62.707" end="x">Well I was not there when the Russians arrived I was already in a <term ref="#vothG_lager">lager</term> with the Germans [She apparently refers to the end of the war]. I was not in Stashu.<note n="2">This is in reference to the Russian conquest of Staszów in the winter of 1945.</note></u>
+                    <u who="#boderD" start="72.078" end="x">How did you get to Germany?</u>
+                    <u who="#bisenhausP" start="74.421" end="x">I was in <placeName ref="Kielce Ghetto " type="camp">Kielce</placeName> in [locality not clear] in a labor....in an ammunition <term ref="#vothG_lager">lager</term>, in a work <term ref="#vothG_lager">lager</term>; I worked at ammunitions, and afterwards in the year '44 I was evacuated to Germany.<note n="3">Kielce was the name of a district and also of a town in the district.</note></u>
+                    <u who="#boderD" start="93.029" end="x">So. But where did you live when the Russians came?</u>
+                    <u who="#bisenhausP" start="99.201" end="x">Well I was not under the Russians.</u>
+                    <u who="#boderD" start="100.882" end="x">You were not under the Russians?</u>
+                    <u who="#bisenhausP" start="101.992" end="x">I was liberated by the Americans.</u>
+                    <u who="#boderD" start="104.539" end="x">And you were not under the Russians.</u>
+                    <u who="#bisenhausP" start="106.289" end="x">No, I was not under the Russians, I was liberated by the Americans.<note n="4">This refers to Polia's liberation from Dachau on April 29, 1945 by American troops.</note></u>
+                    <u who="#boderD" start="110.423" end="x">Yes. Now then in what kind of a <term ref="#vothG_lager">lager</term> were you? Where were you in a <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#bisenhausP" start="115.347" end="x">In Poland I was in a <term ref="#vothG_lager">lager</term>, a labor <term ref="#vothG_lager">lager</term>; and in Germany I was in an annihilation <term ref="#vothG_lager">lager</term>.<note n="5">By this, Polia means Bergen-Belsen.</note></u>
+                    <u who="#boderD" start="122.125" end="x">An annihilation camp?</u>
+                    <u who="#bisenhausP" start="123.562" end="x">Oui.</u>
+                    <u who="#boderD" start="124.015" end="x">Tell me about that labor camp.</u>
+                    <u who="#bisenhausP" start="127.155" end="x">Well we were working twelve hours a day. One week during the day, one week during the night.</u>
+                    <u who="#boderD" start="136.313" end="x">What work did you do?</u>
+                    <u who="#bisenhausP" start="137.595" end="x">Ammunitions. That is....ammunitions....</u>
+                    <u who="#boderD" start="143.061" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="143.624" end="x">/a few words not clear]</u>
+                    <u who="#boderD" start="144.302" end="x">Oh. That was a factory.</u>
+                    <u who="#bisenhausP" start="146.161" end="x">....a factory.</u>
+                    <u who="#boderD" start="146.880" end="x">Now then, and what did they give you to eat?</u>
+                    <u who="#bisenhausP" start="151.677" end="x">In Poland it was not bad. In Poland the food was fair, some days there was meat, but in Germany it was very bad.</u>
+                    <u who="#boderD" start="164.513" end="x">Aha. But that was in Poland. And how long did you work in Poland?</u>
+                    <u who="#bisenhausP" start="169.928" end="x">In Poland? - Three years.</u>
+                    <u who="#boderD" start="171.488" end="x">Three years. And why were you moved from there?</u>
+                    <u who="#bisenhausP" start="174.993" end="x">When the Russians approached <placeName ref="Kielce Ghetto " type="camp">Kielce</placeName> we were sent to <placeName ref="Częstochowa concentration camp" type="camp">Chestochowa</placeName>. And afterwards, when they approached <placeName ref="Częstochowa concentration camp" type="camp">Chestochowa</placeName> we were sent to Germany. [two or three words not clear]<note n="6">The correct spelling is Częstochowa, a town famed for the Jasna Gora monastery that houses the painting of the Black Madonna, making it the most famous Catholic pilgrimage site in Poland.</note></u>
+                    <u who="#boderD" start="187.008" end="x">Aha. Why did you tell me that you were in an annihilation camp? Which camp was that?</u>
+                    <u who="#bisenhausP" start="192.501" end="x"><placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="193.750" end="x"><placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>! Oh, what were you doing there?</u>
+                    <u who="#bisenhausP" start="201.505" end="x">There we did nothing. We were sitting around and we got no food. We got ten deca of bread [about three ounces] per day, but on certain days there was no bread either. They would say.... the bread did not arrive [??] and they gave us no food. And when the <term ref="#vothG_ss">SS</term> would come, and ask "why were you not given food today", so they said, the <term ref="#vothG_ss">SS</term> told us to say that we had stolen.</u>
+                    <u who="#boderD" start="232.246" end="x">You should say that?</u>
+                    <u who="#bisenhausP" start="233.713" end="x">Yes, that we should say that we had stolen and that is why we don't get any, we have food punishment.</u>
+                    <u who="#boderD" start="239.571" end="x">Aha.</u>
+                    <u who="#bisenhausP" start="240.008" end="x">And that is why we got no food.</u>
+                    <u who="#boderD" start="242.874" end="x">Aha.</u>
+                    <u who="#bisenhausP" start="243.218" end="x">And that happened many times during the week.</u>
+                    <u who="#boderD" start="245.328" end="x">Aha. And how did you sleep. Tell me about that.</u>
+                    <u who="#bisenhausP" start="249.714" end="x">We slept on the ground, and it was....all day we were sitting on the ground, on the same straw, and afterwards at night we slept on the same place. It was very dirty there. Many died from the dirt that was there.</u>
+                    <u who="#boderD" start="266.675" end="x">What did the Germans say? Why were you held there?</u>
+                    <u who="#bisenhausP" start="270.909" end="x">They told us nothing about why they held us there. They did not tell us but we knew, that they held us because they wanted to annihilate us, but they did not succeed.</u>
+                    <u who="#boderD" start="283.067" end="x">All right. Did they annihilate there other people?</u>
+                    <u who="#bisenhausP" start="286.411" end="x">[two words not clear] When the people were weak, and were becoming weaker from day to day because they were not given any food, so they annihilated them. There was....well a chamber where they gassed [gas-killed] them, and afterwards they burned....well that all is known what the Germans have done.<note n="7">There was a crematorium in Bergen-Belsen, but there was not a gas chamber. Inmates died from disease and starvation.</note></u>
+                    <u who="#boderD" start="311.280" end="x">How come you say it is well known? In America they know very little.</u>
+                    <u who="#bisenhausP" start="314.574" end="x">Oh, they know in America. The periodicals have written a lot. Don't they know?</u>
+                    <u who="#boderD" start="323.180" end="x">Oh yes, some people know, some people don't. That's why I want....do you have relatives in America?<note n="8">Boder here might have been beginning to articulate a key motive for conducting his interviews, namely, to make the world aware of Nazi crimes.</note></u>
+                    <u who="#bisenhausP" start="330.703" end="x">Oui, I have relatives in America.</u>
+                    <u who="#boderD" start="332.824" end="x">Where are your relatives?</u>
+                    <u who="#bisenhausP" start="333.933" end="x">One uncle is in <placeName ref="New York">New York</placeName> and one is in <placeName ref="Chicago">Chicago</placeName>.</u>
+                    <u who="#boderD" start="338.209" end="x">You have an uncle in <placeName ref="Chicago">Chicago</placeName>. I am from <placeName ref="Chicago">Chicago</placeName>.</u>
+                    <u who="#bisenhausP" start="342.247" end="x">Bisenhaus. It is the same name.</u>
+                    <u who="#boderD" start="345.417" end="x">Bisenhaus?</u>
+                    <u who="#bisenhausP" start="346.095" end="x">Bisenjaus. He is an uncle of my father.</u>
+                    <u who="#boderD" start="350.390" end="x">Do you wish that I should see your uncle?</u>
+                    <u who="#bisenhausP" start="352.861" end="x">Oui. I should like to see him very much. But I should like....</u>
+                    <u who="#boderD" start="355.688" end="x">Do you want me to see your uncle, that I should talk to him?</u>
+                    <u who="#bisenhausP" start="359.466" end="x">[rather indifferent] Yes, why not?</u>
+                    <u who="#boderD" start="360.804" end="x">Do you want to come to America?</u>
+                    <u who="#bisenhausP" start="362.880" end="x">I don't know. I would very much like to go to Palestine.</u>
+                    <u who="#boderD" start="366.064" end="x">You want very much....</u>
+                    <u who="#bisenhausP" start="366.651" end="x">Because I have there two aunts, and I would like better to go to Palestine. Yes, I think, for me it will be better than in America.</u>
+                    <u who="#boderD" start="378.970" end="x">Do you want to say something to your uncle?</u>
+                    <u who="#bisenhausP" start="381.675" end="x">To my uncle?</u>
+                    <u who="#boderD" start="383.407" end="x">Yes. I shall call him to my house and have him listen to the machine. [There ensuses a conversation. It was apparently not clear to her that the conversation is being recorded] He will hear what you are saying.</u>
+                    <u who="#bisenhausP" start="386.304" end="x">What I am saying, he will hear?</u>
+                    <u who="#boderD" start="390.021" end="x">Yes, yes.</u>
+                    <u who="#bisenhausP" start="391.033" end="x">And what he says I would not hear? Oh, that is no good. I want to hear him too.</u>
+                    <u who="#boderD" start="400.647" end="x">No, no. Here you may simply say something, just like on a radio.</u>
+                    <u who="#bisenhausP" start="404.395" end="x">But I don't know his address.</u>
+                    <u who="#boderD" start="406.253" end="x">Oh, I will find him.</u>
+                    <u who="#bisenhausP" start="409.450" end="x">Yes?</u>
+                    <u who="#boderD" start="410.231" end="x">Yes. I shall find him. You will later give me his address. I shall take it down and I will find him.</u>
+                    <u who="#bisenhausP" start="417.028" end="x">Right now.</u>
+                    <u who="#boderD" start="419.195" end="x">No, no. You just say now what you want to tell to your uncle, and when I shall return to <placeName ref="Chicago">Chicago</placeName>, I shall have this machine, and I shall ask him to my house and I shall let him hear what you are saying.</u>
+                    <u who="#bisenhausP" start="431.151" end="x">So, and when will you be home?</u>
+                    <u who="#boderD" start="434.260" end="x">In five weeks.</u>
+                    <u who="#bisenhausP" start="434.759" end="x">Five weeks?</u>
+                    <u who="#boderD" start="435.821" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="436.445" end="x">Well, that is good [She apparently was unable to grasp the situation].</u>
+                    <u who="#boderD" start="438.156" end="x">Now say something.</u>
+                    <u who="#bisenhausP" start="439.746" end="x">Now can I say anything? If I could talk to him I would have a lot to say.</u>
+                    <u who="#boderD" start="445.561" end="x">Now for example, what would you like to tell to your uncle?</u>
+                    <u who="#bisenhausP" start="447.850" end="x">What I would like....how he was, how he feels, what is he doing.</u>
+                    <u who="#boderD" start="452.175" end="x">So. Do you want him to do something for you?</u>
+                    <u who="#bisenhausP" start="454.798" end="x">For you? [She is apparently bewildered by the German second person plural].<note n="9">Apparently, "Sie".</note></u>
+                    <u who="#boderD" start="455.797" end="x">Do you want him to do something for you? Has he sent you money?</u>
+                    <u who="#bisenhausP" start="459.592" end="x">Well he sends me....yes.</u>
+                    <u who="#boderD" start="461.115" end="x">He sends you....?</u>
+                    <u who="#bisenhausP" start="461.708" end="x">Yes, but I am learning a trade so that I may earn something myself. It is not nice that the uncle should have to send me [money]. He may send it once, twice, three times, but it is not proper.</u>
+                    <u who="#boderD" start="469.255" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="469.724" end="x">I am not sick, one does not have to support me, I want to become independent, I want to earn [something] myself.<note n="10">Polia's sentiments here are indicative of those of many survivors who wished to rebuild their lives and reassert their humanity after all the trials and tribulations they had been through.</note></u>
+                    <u who="#boderD" start="479.863" end="x">Speak louder. Is he a rich man, your uncle?</u>
+                    <u who="#bisenhausP" start="484.484" end="x">Yes, he is not poor.</u>
+                    <u who="#boderD" start="486.528" end="x">How many weeks, how many months were you in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>, in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>?</u>
+                    <u who="#bisenhausP" start="490.602" end="x">I was three months in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="495.505" end="x">Three monhts?</u>
+                    <u who="#bisenhausP" start="496.994" end="x">Three months.<note n="11">Most probably, January, February and part of March, 1945.</note></u>
+                    <u who="#boderD" start="497.930" end="x">Were many people exterminated there?</u>
+                    <u who="#bisenhausP" start="503.034" end="x">Yes. Many people died. Because at the <term ref="#vothG_appell">appell</term>.....</u>
+                    <u who="#boderD" start="507.331" end="x">Um.</u>
+                    <u who="#bisenhausP" start="508.009" end="x">Do you know what an <term ref="#vothG_appell">appell</term> is?</u>
+                    <u who="#boderD" start="508.535" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="508.910" end="x">They would call out people, they were going completely naked, with nothing on....</u>
+                    <u who="#boderD" start="514.117" end="x">Why had they nothing on?</u>
+                    <u who="#bisenhausP" start="515.818" end="x">They have taken away everything that we had yet from home. All their clothes. They have given such stripes.<note n="12">The striped uniforms of concentration camp survivors.</note></u>
+                    <u who="#boderD" start="522.818" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="523.349" end="x">[a few words not clear]....without shoes or stockings we were going around in the greatest....January, in the greatest cold, January, February, these are the greatest colds, and we were going around almost naked, all shorn [?] without food, without sleep, without washing, so many of course died.</u>
+                    <u who="#boderD" start="542.963" end="x">Did the Nazie molest the woman, did they.....</u>
+                    <u who="#bisenhausP" start="549.933" end="x">....beat them?</u>
+                    <u who="#boderD" start="551.088" end="x">No, I mean were they indescent with the woman?</u>
+                    <u who="#bisenhausP" start="554.975" end="x">That of course is understood. [She apparently did not understand the allusion to sex]</u>
+                    <u who="#boderD" start="557.660" end="x">What do you mean - it is understood?</u>
+                    <u who="#bisenhausP" start="559.127" end="x">They behaved very badly towards the women. They have beaten us frequently. When one did not stand straight at the <term ref="#vothG_appell">appell</term>, when in the cold one would cuddle up next to the other, and they would beat [us] over the head, and otherwise drag us around.</u>
+                    <u who="#boderD" start="577.365" end="x">Now tell me for example, what were people doing all day in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>. Say you got up in the morning - at what time?</u>
+                    <u who="#bisenhausP" start="586.201" end="x">In the morning there was an <term ref="#vothG_appell">appell</term> to get up say at four o'clock, three o'clock, five o'clock.</u>
+                    <u who="#boderD" start="592.623" end="x">Nu.</u>
+                    <u who="#bisenhausP" start="592.623" end="x">So we went to wash. For washing there was a room a very small one; cold water very cold, and we would go in there completely naked, and many of us caught cold.</u>
+                    <u who="#boderD" start="604.892" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="605.578" end="x">And the organism [She uses the word organ with a slurred ending] is weak, one did not eat; one washes himself with cold water.</u>
+                    <u who="#boderD" start="609.543" end="x">Were there men or women who.....</u>
+                    <u who="#bisenhausP" start="611.589" end="x">Women, these were.</u>
+                    <u who="#boderD" start="613.604" end="x">I mean the Nazis.</u>
+                    <u who="#bisenhausP" start="615.415" end="x">The Nazis? There were women and men. But the women were much worse to us. They were much worse to us than the men.<note n="13">There were a number of German female SS guards at Belsen who oversaw and tortured the thousands of Jewish female inmates there. Their behavior might have been made worse in part by their desire to impress their male counterparts.</note></u>
+                    <u who="#boderD" start="622.632" end="x">How come?</u>
+                    <u who="#bisenhausP" start="623.631" end="x">Well, the women were beating us terribly, they were beating us. There were many Jews [women] Turkish and Romanian [Jews] who were the <term ref="#vothG_lager">lager</term> leaders, <term ref="#vothG_lager">lager</term>
+                        <term ref="#vothG_trusty">trusties</term> and they were much worse than the Nazis.</u>
+                    <u who="#boderD" start="641.938" end="x">You mean to say there were Jewish <term ref="#vothG_lager">lager</term> leaders?<note n="14">In early December, 1944, Josef Kramer became camp commandant, a post formerly held by Adolf Haas. Under Kramer, Bergen-Belsen became a concentration camp. The internal management of the camp was placed in the hands of prisoner overseers as was done in other concentration camps. In order to retain their posts or from sheer sadism, a number felt compelled to demonstrate their ruthlessness. Polia's description of the brutal Jewish female functionaries as "Turkish or Romanian" is highly dubious, especially since Turkey was neutral during World War II. It should be noted that after the war Kramer and other SS administrators of the camp, including sixteen women, were tried for their crimes at Belsen. Kramer and eleven others were condemned to death and executed. Nineteen were imprisoned and fourteen were acquitted.</note></u>
+                    <u who="#bisenhausP" start="644.950" end="x">Yes.</u>
+                    <u who="#boderD" start="645.684" end="x">And....</u>
+                    <u who="#bisenhausP" start="646.787" end="x">And they were very mean to us, very mean.</u>
+                    <u who="#boderD" start="650.192" end="x">There were Jewish <term ref="#vothG_lager">lager</term> leaders and they have.....</u>
+                    <u who="#bisenhausP" start="653.119" end="x">Yes, yes, they behaved very mean.</u>
+                    <u who="#boderD" start="656.554" end="x">Towards the other Jews?</u>
+                    <u who="#bisenhausP" start="657.834" end="x">Yes, yes. Very mean.</u>
+                    <u who="#boderD" start="660.269" end="x">Now tell me then. You would get up at three, four in the morning, and you went to wash, then what?</u>
+                    <u who="#bisenhausP" start="669.228" end="x">Yes, afterwards they have gave us coffee, black coffee; many times we would not get that either, and without bread.</u>
+                    <u who="#boderD" start="678.112" end="x">Without bread.</u>
+                    <u who="#bisenhausP" start="678.861" end="x">Yes. And afterwards at twelve o'clock, half past eleven, eleven, however it would happen, it was dinner time. At dinner time there was a bit of soup, three quarters of a liter, sometimes half a liter, sometimes not even a half a liter, that was with turnips. If one would find three pieces of turnips in a soup that was considered already very good. That was already a good soup.<note n="15">No doubt she means "lunch" time.</note></u>
+                    <u who="#boderD" start="704.765" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="705.296" end="x">And afterwards at five o'clock at four o'clock, sometimes at six o'clock there was brad, a little piece of bread, divided among ten people, twelve people.</u>
+                    <u who="#boderD" start="716.802" end="x">Hm....</u>
+                    <u who="#bisenhausP" start="717.442" end="x">It would come out maybe eight deca of bread, ten deca of bread a piece. That was the meal.</u>
+                    <u who="#boderD" start="723.165" end="x">And then in the evening. And then what were you doing after the meal?</u>
+                    <u who="#bisenhausP" start="727.442" end="x">Afterwards we kept on sitting like all of the day. During the <term ref="#vothG_appell">appell</term> we got our dinner.</u>
+                    <u who="#boderD" start="733.864" end="x">Oh.</u>
+                    <u who="#bisenhausP" start="734.301" end="x">The <term ref="#vothG_appell">appell</term> took place every day.</u>
+                    <u who="#boderD" start="737.330" end="x">What do you call the <term ref="#vothG_appell">appell</term>? What was the <term ref="#vothG_appell">appell</term>? </u>
+                    <u who="#bisenhausP" start="739.952" end="x">The <term ref="#vothG_appell">appell</term> is the count, whether somebody had escaped, whether somebody had died, so they would know exactly how many are to be handed over to the [next]shift, how many there were in the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="760.822" end="x">Aha.</u>
+                    <u who="#bisenhausP" start="751.261" end="x">How many women, men....[?] It happened many times that the <term ref="#vothG_appell">appell</term> lasted four, five hours. And many people collapsed at the <term ref="#vothG_appell">appell</term>, from the cold and from fatigue, from hunger.</u>
+                    <u who="#boderD" start="764.279" end="x">And what was done with them?</u>
+                    <u who="#bisenhausP" start="765.824" end="x">[She apparently did not get the question]. Well afterwards we went....often they made an <term ref="#vothG_appell">appell</term> - not to stand outdoors [??] but they took us to work. The work consisted in carrying sticks, all kinds of lumber from one yard into the other. That was the work.....was nothing, but they beat us many times when we could not run so fast and [word not clear].<note n="16">This routine was part of the senseless labor in Bergen-Belsen and other camps designed to weaken and inflict pain on the prisoners and minimize any chance of revolt.</note></u>
+                    <u who="#boderD" start="789.719" end="x">Hm....now tell me was there a doctor?</u>
+                    <u who="#bisenhausP" start="794.183" end="x">Yes, there was a doctor, a dentist.</u>
+                    <u who="#boderD" start="797.804" end="x">A dentist, did he do anything for the prisoners? Did he do something for them?</u>
+                    <u who="#bisenhausP" start="803.892" end="x">Well, he pulled teeth. He pulled them out if one had a toothache, he took out teeth.</u>
+                    <u who="#boderD" start="811.248" end="x">Was it a German doctor?</u>
+                    <u who="#bisenhausP" start="812.435" end="x">No [??] There was a German doctor, there was a Jewish doctor.<note n="17">Despite Polia's mention of a dentist and a doctor, there was no real medical care for Bergen-Belsen detainees at the time.</note></u>
+                    <u who="#boderD" start="816.515" end="x">A Jewish doctor....</u>
+                    <u who="#bisenhausP" start="817.899" end="x">A Jewish doctor.</u>
+                    <u who="#boderD" start="819.116" end="x">Aha. And [a pause] tell me and then how were you liberated?</u>
+                    <u who="#bisenhausP" start="829.762" end="x">Liberated I was from <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> by the Americans.</u>
+                    <u who="#boderD" start="833.814" end="x">Now come, were you sent from <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>....?</u>
+                    <u who="#bisenhausP" start="835.799" end="x">From <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> there were afterwards still three <term ref="#vothG_lager">lagers</term>.</u>
+                    <u who="#boderD" start="838.671" end="x">Tell me about them.</u>
+                    <u who="#bisenhausP" start="840.625" end="x">After <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> we were in <placeName ref="Burgau concentration camp" type="camp">Burgau</placeName>, and afterwards in <placeName ref="Türkheim concentration camp" type="camp">Turkenheim</placeName>.</u>
+                    <u who="#boderD" start="844.527" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="845.557    " end="x">In <placeName ref="Burgau concentration camp" type="camp">Burgau</placeName> we were three weeks, or four weeks. Afterwards, in <placeName ref="Türkheim concentration camp" type="camp">Turkenheim</placeName> I was two weeks. Afterwards when [one word not clear] the Americans approached we were led to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> and there we were liberated, the 30-th of ....</u>
+                    <u who="#boderD" start="863.347" end="x">Now were you transported from one <term ref="#vothG_lager">lager</term> to the other, by train, by truck, how?</u>
+                    <u who="#bisenhausP" start="869.999" end="x">From <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> to <placeName ref="Burgau concentration camp" type="camp">Burgau</placeName> we traveled in wagons [RR cars].</u>
+                    <u who="#boderD" start="877.163" end="x">In wagons?</u>
+                    <u who="#bisenhausP" start="878.006" end="x">In wagons.</u>
+                    <u who="#boderD" start="878.755" end="x">And how long did that last?</u>
+                    <u who="#bisenhausP" start="880.784" end="x">It lasted a whole eight days. Eight days it lasted - the trip.</u>
+                    <u who="#boderD" start="886.355" end="x">And...</u>
+                    <u who="#bisenhausP" start="886.792" end="x">And we did not get any food on the way, and there were bombardments, and many were killed by bombs.<note n="18">During the final months of the war, the Allies, with complete air supremacy, bombed Germany relentlessly with often dire consequences for both German combatants and non-combatants and prisoners.</note></u>
+                    <u who="#boderD" start="894.886" end="x">Were also your people killed, how come?</u>
+                    <u who="#bisenhausP" start="896.719" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="897.733" end="x">How, did the bombs fall....</u>
+                    <u who="#bisenhausP" start="899.169" end="x">The bombs fell</u>
+                    <u who="#boderD" start="899.877" end="x">On the train?</u>
+                    <u who="#bisenhausP" start="900.626" end="x">On the train, one could not run away.</u>
+                    <u who="#boderD" start="904.962" end="x">How could you run away if you were in the train?</u>
+                    <u who="#bisenhausP" start="907.667" end="x">Well, on the other side...</u>
+                    <u who="#boderD" start="910.646" end="x">Oh, the train was standing?</u>
+                    <u who="#bisenhausP" start="912.269" end="x">When they bombarded the train would stand.</u>
+                    <u who="#boderD" start="916.640" end="x">And the Nazis too?</u>
+                    <u who="#bisenhausP" start="919.106" end="x">The Nazis have run away. They hid. They were shooting, they shot at the planes and ...</u>
+                    <u who="#boderD" start="926.442" end="x">Did they permit you to hide?</u>
+                    <u who="#bisenhausP" start="930.203" end="x">They did not see it. They themselves were in a mix-up, because they themselves wanted to run away.</u>
+                    <u who="#boderD" start="937.355" end="x">Well then....and then you marched eight days, where from?</u>
+                    <u who="#bisenhausP" start="941.285" end="x">And then we marched eight days from <placeName ref="Türkheim concentration camp" type="camp">Turkenheim</placeName> to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.<note n="19">Dachau was established on March 10, 1933. It was the first concentration camp organized by the SS and the model and training ground for all other SS operated camps. At lease 32,000 human beings perished at Dachau during the twelve years of its infamous existence including inmates subjected to barbarous pseudo medical experiments conducted there.</note></u>
+                    <u who="#boderD" start="946.404" end="x"><placeName ref="Türkheim concentration camp" type="camp">Turkenheim</placeName> to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. Now tell me you came to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. What were you doing there?</u>
+                    <u who="#bisenhausP" start="951.711" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> it was already a few days before liberation. We arrived, and the <term ref="#vothG_ss">SS</term> said to the leaders, who brought us: 'Why did you bring these people, I don't need them;' So they said, 'we don't know, because they wanted to hide [save themselves], what shall we do with these people?' And the <term ref="#vothG_ss">SS</term> leader said: 'Oh I know well what to do with these people.' He lined us up, and we thought that they were going to shoot us, because there was a rumor [??] that so will be done with all Jews. Afterwards there came an order, and they ran away, and when the <term ref="#vothG_gestapo">gestapo</term> saw this they ran away. And afterwards we were led into a <term ref="#vothG_block">block</term>, already there were....</u>
+                    <u who="#boderD" start="994.582" end="x">What do you mean?</u>
+                    <u who="#bisenhausP" start="995.581" end="x">The <term ref="#vothG_ss">SS</term> already behaved themselves with the Jews, the Jews already started taking over. They saw that liberation was near, they took us into a <term ref="#vothG_block">block</term> [she speaks with excitement]. The people were tired, eight days walking on foot, and in the morning when we came out we saw no more <term ref="#vothG_ss">SS</term>. They were all gone. And in the air up high were people standing and they showed white flags [??] and there were standing already Jewish prisoners.<note n="20">Jews were among the inmates who were attempting to assume control of the camp after most of the SS guards had fled leaving a garrison of about two hundred to defend the camp.</note></u>
+                    <u who="#boderD" start="1027.929" end="x">Jewish prisoners?</u>
+                    <u who="#bisenhausP" start="1028.616" end="x">Jewish prisoners, with guns, and they have taken over the service from the Nazis.</u>
+                    <u who="#boderD" start="1029.051" end="x">Yes. Now....</u>
+                    <u who="#bisenhausP" start="1029.385" end="x">One saw that things have changed.</u>
+                    <u who="#boderD" start="1034.376" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="1035.571" end="x">Afterwards the Nazis tried to get out of the <term ref="#vothG_lager">lager</term>, they still wanted to kill the few Jews, but they failed, because the Americans had come.</u>
+                    <u who="#boderD" start="1047.647" end="x">They failed. So how many days were you in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                    <u who="#bisenhausP" start="1051.050" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> I was three weeks already after liberation. Afterwards..</u>
+                    <u who="#boderD" start="1056.074" end="x">But before liberation? How long were you....</u>
+                    <u who="#bisenhausP" start="1058.697" end="x">Well I was there two days.</u>
+                    <u who="#boderD" start="1060.414" end="x">Two days only, in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#bisenhausP" start="1061.397" end="x">Yes, two days.</u>
+                    <u who="#boderD" start="1062.592" end="x">And then came liberation.</u>
+                    <u who="#bisenhausP" start="1063.981" end="x">Then came liberation. And we were liberated by the Americans, and that was already good.</u>
+                    <u who="#boderD" start="1069.075" end="x">Yes. Were many <term ref="#vothG_ss">SS</term> arrested when the Americans came?</u>
+                    <u who="#bisenhausP" start="1074.085" end="x">Yes, many were arrested, but the Americans did not do anything. They [the prisoners] recognized an <term ref="#vothG_ss">SS</term> who did much evil to the Jews[??], but the Americans did not permit to do anything to him.<note n="21">American soldiers did in fact kill the SS troops manning the guard towers. Several others were killed by Americans who were incensed and sickened by the gruesome sights they encountered upon entering the camp. Some inmates also took retribution against their SS tormentors. However, as Polia indicates, the vast majority of the remaining SS guards were imprisoned.</note></u>
+                    <u who="#boderD" start="1086.830" end="x">What did the Americans do?</u>
+                    <u who="#bisenhausP" start="1087.923" end="x">They did not want to do anything.</u>
+                    <u who="#boderD" start="1089.530" end="x">They did not permit....</u>
+                    <u who="#bisenhausP" start="1091.075" end="x">No, they did not permit</u>
+                    <u who="#boderD" start="1091.855" end="x">....to do anything to him.</u>
+                    <u who="#bisenhausP" start="1093.036" end="x">No.</u>
+                    <u who="#boderD" start="1093.723" end="x">So where did the Jewish men get the rifles....?</u>
+                    <u who="#bisenhausP" start="1099.124" end="x">They did not get them, they took them from the Nazis, when they threw away their rifles.</u>
+                    <u who="#boderD" start="1103.562" end="x">Oh.</u>
+                    <u who="#bisenhausP" start="1104.361" end="x">And they took them right away.</u>
+                    <u who="#boderD" start="1105.616" end="x">Aha. And now how did you happen to come to <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#bisenhausP" start="1111.126" end="x">To <placeName ref="Paris">Paris</placeName> I was taken by an uncle and an aunt.</u>
+                    <u who="#boderD" start="1115.434" end="x">Where from? From <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#bisenhausP" start="1116.948" end="x">Yes, they were already here.</u>
+                    <u who="#boderD" start="1118.872" end="x">Oh, they have lived already in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#bisenhausP" start="1120.464" end="x">Yes, they lived in <placeName ref="Paris">Paris</placeName> [??]</u>
+                    <u who="#boderD" start="1121.697" end="x">Did you have the address?</u>
+                    <u who="#bisenhausP" start="1122.758" end="x">No, I had no address, but they found out from a [word not clear] from a list.<note n="22">Following the war, survivors and various tracing services posted their names on lists searching for relatives. It was no doubt by perusing these lists that Polia's relatives discovered that she was alive. Between the time of her liberation from Dachau and the time she arrived in Paris at the beginning of 1946, there is no indication as to where Polia was recuperating.</note></u>
+                    <u who="#boderD" start="1128.158" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="1128.985" end="x">It was sent out from the <term ref="#vothG_lager">lager</term>, so it became known in America. The uncle made inquiries in <placeName ref="Paris">Paris</placeName>, who....that was the Bisenhaus from Labush [??]. The first did not know, and they did not know me, because I was still very fatigued [??], afterwards they found out they took me over here.</u>
+                    <u who="#boderD" start="1148.842" end="x">They took you over to <placeName ref="Paris">Paris</placeName>. And how long are you now in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#bisenhausP" start="1152.088" end="x">In <placeName ref="Paris">Paris</placeName> I am six months.</u>
+                    <u who="#boderD" start="1153.727" end="x">Six months. And you plan to go to Palestine.</u>
+                    <u who="#bisenhausP" start="1157.957" end="x">Hm.</u>
+                    <u who="#boderD" start="1158.706" end="x">Better than to go to America?</u>
+                    <u who="#bisenhausP" start="1160.345" end="x">Better than to go to America.</u>
+                    <u who="#boderD" start="1161.672" end="x">Who do you know. Who do you have in Palestine?</u>
+                    <u who="#bisenhausP" start="1164.295" end="x">In Palestine I have two aunts.</u>
+                    <u who="#boderD" start="1165.918" end="x">Where?</u>
+                    <u who="#bisenhausP" start="1167.135" end="x">[words not clear] in <placeName ref="Hadera">Hadera</placeName> [??]</u>
+                    <u who="#boderD" start="1169.835" end="x">And you think that they can take you over.</u>
+                    <u who="#bisenhausP" start="1174.924" end="x">They don't know me but I have to go there through a <term ref="#vothG_kibbutz">Kibbutz</term> a <term ref="#vothG_hachshara">Hachshara</term>.</u>
+                    <u who="#boderD" start="1179.149" end="x">Through what?</u>
+                    <u who="#bisenhausP" start="1180.638" end="x">I can go through a <term ref="#vothG_hachshara">Hachshara</term>, through a <term ref="#vothG_kibbutz">Kibbutz</term>.</u>
+                    <u who="#boderD" start="1183.375" end="x">Do you understand Hebrew?</u>
+                    <u who="#bisenhausP" start="1184.868" end="x">No, I don't know. The little I knew I have forgotten, because I study now French.</u>
+                    <u who="#boderD" start="1189.767" end="x">You study French here, and your uncle and aunt live here already a long time?</u>
+                    <u who="#bisenhausP" start="1195.786" end="x">Yes. They are here already seventeen years.</u>
+                    <u who="#boderD" start="1198.379" end="x">Aha. I wish to ask you for something.</u>
+                    <u who="#bisenhausP" start="1203.202" end="x">Yes.</u>
+                    <u who="#boderD" start="1203.732" end="x">I am a professor who studies these things you understand. But I shall see, if you give me the address of your uncle....</u>
+                    <u who="#bisenhausP" start="1215.157" end="x">I have the address at home.</u>
+                    <u who="#boderD" start="1221.127" end="x">I shall be here tomorrow and after tomorrow.</u>
+                    <u who="#bisenhausP" start="1223.870" end="x">Yes, yes. If you come here tomorrow I shall give you the address of my uncle from here.</u>
+                    <u who="#boderD" start="1230.248" end="x">And I shall see your uncle.</u>
+                    <u who="#bisenhausP" start="1231.832" end="x">It may be very interesting to him.</u>
+                    <u who="#boderD" start="1237.954" end="x">He will be very glad. - [Here I showed her one of the TAT cards.] This is a picture by a prominent artist. From the last three years of your experiences, what do you think does this picture mean?<note n="23">These were most probably cards with various images designed to evoke emotional and psychological responses from subjects. Polia's responses indicate that she was projecting her own feelings and experiences onto the images.</note></u>
+                    <u who="#bisenhausP" start="1260.304" end="x">Well this picture is of a woman, I believe she has lost everything, who is worried about what to do, she has no way out.</u>
+                    <u who="#boderD" start="1273.839" end="x">And what do you think is this picture about?</u>
+                    <u who="#bisenhausP" start="1277.283" end="x">This picture is about the war, this is about the war.</u>
+                    <u who="#boderD" start="1285.073" end="x">Yes, go on.</u>
+                    <u who="#bisenhausP" start="1286.751" end="x">That is [word not clear]</u>
+                    <u who="#boderD" start="1292.170" end="x">Yes, what do you think happened to him?</u>
+                    <u who="#bisenhausP" start="1295.401" end="x">Well he has lost everything. The whole family, he has remained alone. [word not clear] I too have remained alone of the whole family.<note n="24">The supremely tragic losses endured by Polia and other survivors included loss of family, loss of home, loss of friends and acquaintances, loss of culture, loss of possessions, loss of dignity and often loss of faith.</note></u>
+                    <u who="#boderD" start="1312.393" end="x">And what is this?</u>
+                    <u who="#bisenhausP" start="1313.805" end="x">And this. I don't know. It is a [word not clear].</u>
+                    <u who="#boderD" start="1318.404" end="x">But what do you think?</u>
+                    <u who="#bisenhausP" start="1320.655" end="x">I think he is thinking about his wife, who has died. And this is his daughter. I don't know [word not clear].</u>
+                    <u who="#boderD" start="1330.571" end="x">And what do you think is this?</u>
+                    <u who="#bisenhausP" start="1333.166" end="x">This? [a pause, she says only a few words which are not clear].</u>
+                    <u who="#boderD" start="1350.520" end="x">And what do think is this?</u>
+                    <u who="#bisenhausP" start="1352.162" end="x">[a few words not clear]</u>
+                    <u who="#boderD" start="1362.931" end="x">And what do you think is this?</u>
+                    <u who="#bisenhausP" start="1364.025" end="x">Is it not Palestine?</u>
+                    <u who="#boderD" start="1368.247" end="x">May be.</u>
+                    <u who="#bisenhausP" start="1378.045" end="x">May be. He works, he works in the field, and that is very nice.</u>
+                    <u who="#boderD" start="1382.369" end="x">Tell me do you have a father and mother.</u>
+                    <u who="#bisenhausP" start="1385.539" end="x">No. my father and mother were deported with the whole family.</u>
+                    <u who="#boderD" start="1389.004" end="x">When were they deported?</u>
+                    <u who="#bisenhausP" start="1390.191" end="x">Five or six years ago [??]</u>
+                    <u who="#boderD" start="1392.353" end="x">When you were still in <placeName ref="Kielce">Kielce</placeName>.</u>
+                    <u who="#bisenhausP" start="1394.243" end="x">Yes, when I still was in <placeName ref="Kielce">Kielce</placeName>. I was still home. I was sent from <placeName ref="Kielce">Kielce</placeName>, we were taken to the city where there was a .....shop [She uses the English word - like so many <term ref="#vothG_dp">DPs</term>] for all kinds of trades. And I went to the shop, money was paid [apparently a bribe to gain occupational deferment from deportation] and I was accepted, and afterwards I was eight [eighteen??] days I was in the shop and then I was sent to <placeName ref="Kielce Ghetto " type="camp">Kielce</placeName>. And the family was deported and I don't know where they are.<note n="25">For many survivors the ultimate fate of their families remained unknown. Polia was among the lucky and plucky few Polish Jews who survived for five years under German occupation. Some three million other Polish Jews were liquidated.</note></u>
+                    <u who="#boderD" start="1425.826" end="x">When was the family deported?</u>
+                    <u who="#bisenhausP" start="1427.841" end="x">'42.</u>
+                    <u who="#boderD" start="1429.856" end="x">I mean how long after the Nazis came was the family deported?</u>
+                    <u who="#bisenhausP" start="1437.264" end="x">Oh, the Germans had come in '39. In '39....</u>
+                    <u who="#boderD" start="1441.994" end="x">Yes.</u>
+                    <u who="#bisenhausP" start="1442.837" end="x">....and the parents were deported in '42.</u>
+                    <u who="#boderD" start="1445.825" end="x">The parents were deported in '42.</u>
+                    <u who="#bisenhausP" start="1447.384" end="x">Yes, in '42.</u>
+                    <u who="#boderD" start="1448.539" end="x">Were you home when they were deported?</u>
+                    <u who="#bisenhausP" start="1451.304" end="x">No I was not home.</u>
+                    <u who="#boderD" start="1453.715" end="x">You were in <placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#bisenhausP" start="1454.590" end="x">Yes.</u>
+                    <u who="#boderD" start="1455.025" end="x">Do you have brothers and sisters?</u>
+                    <u who="#bisenhausP" start="1457.665" end="x">I had[word not clear] but I am alone of the six of the whole family [there is a great deal of noise, the last sentence may be incorrect].</u>
+                    <u who="#boderD" start="1462.294" end="x">How many brothers and sisters did you have?</u>
+                    <u who="#bisenhausP" start="1465.215" end="x">I had two brothers, and three sisters.</u>
+                    <u who="#boderD" start="1468.069" end="x">And where are they?</u>
+                    <u who="#bisenhausP" start="1469.203" end="x">Deported. My brothers were in <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarżysko</placeName> and they are no more. Maybe they were murdered in <placeName ref="Skarżysko-Kamienna concentration camp" type="camp">Skarżysko</placeName>.</u>
+                    <u who="#boderD" start="1478.495" end="x">Now what shall I tell your uncle in <placeName ref="Chicago">Chicago</placeName>?</u>
+                    <u who="#bisenhausP" start="1484.739" end="x">Now whatever you want to tell him. That you have....</u>
+                    <u who="#boderD" start="1487.775" end="x">Are you all right here</u>
+                    <u who="#bisenhausP" start="1489.352" end="x">Yes. I have it good here, with my aunt, with my uncle.</u>
+                    <u who="#boderD" start="1493.191" end="x">And you study here, you learn....</u>
+                    <u who="#bisenhausP" start="1495.996" end="x">I learn at the <term ref="#vothG_ort">ORT</term> to make soutien gorge [brassiers]<note n="26">Soutien gorge does indeed translate to brassiere. Polia was being trained in brassiere making in the ORT school.</note></u>
+                    <u who="#boderD" start="1499.370" end="x">What is that?</u>
+                    <u who="#bisenhausP" start="1500.150" end="x">Soutien gorge I learn....</u>
+                    <u who="#boderD" start="1501.284" end="x">What is that?</u>
+                    <u who="#bisenhausP" start="1501.939" end="x">These are corsets well, soutien gorge.</u>
+                    <u who="#boderD" start="1509.591" end="x">And what are you doing in the day time [The interview took place at an <term ref="#vothG_ort">ORT</term> night school].</u>
+                    <u who="#bisenhausP" start="1511.605" end="x">During the day I do nothing. Now I do nothing.</u>
+                    <u who="#boderD" start="1515.336" end="x">Don't you work?</u>
+                    <u who="#bisenhausP" start="1516.522" end="x">No I do not work during the day [it was hard for <term ref="#vothG_dp">DPs</term> to get work permits in <placeName ref="Paris">Paris</placeName>].<note n="27">Polia, however, though stateless, was more fortunate than many DPs at the time who were languishing in camps in Germany, Austria and Italy. Most wished to emigrate to Palestine but were denied entry by the British.</note></u>
+                    <u who="#boderD" start="1523.816" end="x">This is a record of Polia Bisenhaus taken at the <term ref="#vothG_ort">ORT</term> school [word not clear] on July 29th, in <placeName ref="Paris">Paris</placeName>, 1946.</u>
+                    <p>[Note: This was only the second interview taken in Europe in connection with the project. Lack of experience and background knowledge of the details of the events are well reflected in these recordings. There is also the affective state of the interviewer and the spontaneity of the interview which may have good as well as undesirable effects on the procedure. Chicago 1952].</p>
+                </div>
+                <!-- end Spool 9-3B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+
+</TEI>

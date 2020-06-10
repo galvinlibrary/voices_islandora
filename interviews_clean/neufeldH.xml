@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Helena Neufeld; August 3, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (Polish)</resp>
+                    <name>M. Holiday</name>
+                    <name>I. Laskawiec</name>
+                    <orgName>Argos Multilingual</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (Russian)</resp>
+                    <orgName>Argos Multilingual</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT30M58.821S" id="neufeldH_9-20">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Poland">Polish</lang>
+                                <lang value="secondary" norm="Russia">Russian</lang>
+                                <note type="spools" n="1">9-20</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-03</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="neufeld_pl_ru" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="neufeld_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="neufeldH" role="interviewee">
+                        <persName>
+                            <forename>Helena</forename>
+                            <surname>Neufeld</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>unknown</age>
+                        <birth ref="Warsaw"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland">Polish</nationality>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Warsaw">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Lvov Ghetto ">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Falkenberg" resp="Russia">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#neufeld_pl_ru">
+                <!-- begin spool 9-20 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.594" end="x">[In English] For some reason, the first few words on this spool are missing. This is Spool 9-20. In other words, it is a reproduction of the original Spool number 20. Boder.</u>
+                    <u who="#boderD" start="80.208" end="x">. . . a young married woman, she understands a bit English, German, and Yiddish, but she prefers for fluency to speak Polish. Eh . . . [unintelligible] eh, Mrs. Neufeld . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="95.631" end="x">[In Russian] Расскажите мне, откуда вы и [неразборчиво] как вы попали в Париж? Говорите по-польски.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="110.167" end="x">[In Polish] Byłam w obozie w Belsen w Niemczech do wyzwolenia, potem przyjechałam do Paryża, gdzie mam moją rodzinę, jedyną, która pozostała mi przy życiu. Ponieważ cała rodzina w Polsce zginęła.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="129.448" end="x">[In Russian] А где вы родились?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="131.378" end="x">[In Polish] W Warszawie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="132.614" end="x">[In Russian] Вы родились в Варшаве и в каком году? Расскажите мне все, что случилось в таком времени, как немцы пришли сюда.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="142.981" end="x">[In Polish] Kiedy Niemcy przyszli do Warszawy, byłam w Warszawie jeszcze krótki czas do października czterdz . . . trzydziestego dziewiątego roku. W październiku przeszłam granicę sowiecko-niemiecką. Pojechałam do Lwowa. Tam mieszkałam półtorej roku blisko. Przeżyłam następnie wkroczenie . . . wybuch wojny sowiecko-niemieckiej. Nie zdążyłam już uciec ze Lwowa, ponieważ ewakuacja odbywała się bardzo szybko. Niemcy zaskoczyli mnie we Lwowie. Tam przeżyłam straszny pogrom, który miał miejsce w pierwszych dniach po wkroczeniu Niemców. Byłam we Lwowie do chwili utwo . . . , kiedy zaprojektowano utworzenie getta lwowskiego. Wtedy uciekłam ze Lwowa, nielegalnie, do Warszawy, ponieważ w Warszawie znajdowała się moja rodzina.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="218.818" end="x">[In Russian] Вы говорите, что был погром в Львове?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="225.331" end="x">[In Polish] We Lwowie był pogrom w kilka dni po wkroczeniu Niemców. Pogrom był dokonany właściwie nie przez samych Niemców, ale głównie przez Ukraińców . . . był to prawdziwie bestialski pogrom. Ukraińcy, Ukraińcy posługiwali się po prostu starym chłopskim systemem. Zabijali pałkami ludzi na śmierć, zabijali dzieci. Było wtedy bardzo wiele ofiar wśród Żydów.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="261.346" end="x">[In Russian] А немцы позволили им этот погром?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="264.271" end="x">[In Polish] Niemcy . . . to było właściwie zaaranżowane przez Niemców, ale Niemcy woleli nie występować jawnie sami, tylko woleli, żeby to wyglądało jako spontaniczny odruch Ukraińców.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="279.603" end="x">[In Russian] А как вы вернулись в Варшаву?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="283.206" end="x">[In Polish] Do Warszawy jechałam właściwie jako Aryjka, jako Polka, katoliczka, ale nie miałam żadnych dokumentów, przy czym jestem dosyć podobna do Żydówki, więc droga była bardzo niebezpieczna. W Krakowie na dworcu, to było o dwunastej w nocy, jakiś volksdeutsche, to znaczy volksdeutsche, szpicel niemiecki, tak, złapał mnie, pytał mnie o papiery. Nie miałam żadnych papierów. Znalazłam się na gestapo, ale przypadkiem, dzięki temu, że napotkałam tam na jakiegoś urzędnika kolejowego, Polaka . . . bardzo miłego i przyzwoitego człowieka, udało mi się wydostać. Odprowadził mnie na dworzec i pojechałam do Warszawy. W Warszawie już wtedy też nie wolno było Żydom poruszać się po tak zwanej aryjskiej stronie. Byli zamknięci w getcie. No, ale jakoś udało mi się przejść przez tą . . . przez dzielnicę polską i dostałam się do . . . dostałam się do getta przez jakąś dziurę w murze.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="358.279" end="x">[In Russian] А вы что, были уже замужем тогда?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="361.581" end="x">[In Polish] Nie, nie byłam zamężna, nie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="362.380" end="x">[In Russian] Нет, вы не были замужем. Конечно. А вот в Варшаве вы, значит, жили в гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="367.733" end="x">[In Polish] Tak, w Warszawie byłam w getcie od listopada czterdziestego pierwszego roku. Przez cały czas, aż do akcji wysiedleńczej.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="379.778" end="x">[In Russian] Расскажите мне, как была жизнь в варшавском гетто.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="385.175" end="x">[In Polish] Kiedy pierwszy raz znalazłam się w getcie, nie mogę opisać, jak wstrząsające wrażenie to wywołało na mnie. Od razu natknęłam się na takie widoki, z którymi już później się oswoiłam, ale o których nigdy nie mogę zapomnieć. Było wiele zburzonych domów w getcie. We wnękach murów siedziały dzieci żydowskie, blade, wychudzone, jak szkielety. Cieniutkie rączki, nóżki . . . i żebrały, cienkimi głosikami błagały o chleb. To było, pamiętam, pierwsze moje wrażenie. Drugie, równie wstrząsające, to było to, że wszyscy ludzie nosili opaski na ręku. To był jakiś dziwny świat ludzi z opaskami, ale ludzie ci zachowywali się jak normalni, porusza . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="444.771" end="x">[In Russian] Ну и как [неразборчиво] в гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="449.505" end="x">[In Polish] W getcie byłam do chwili głównej akcji, to znaczy do lip . . . do dwudziestego drugiego lipca czterdziestego drugiego roku. Następnie przeżyłam tą całą akcję.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="466.570" end="x">[In Russian] Скажите мне, кто была с вами . . . был ваш отец, мать . . . где все эти были?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="471.694" end="x">[In Polish] Nie, kiedy przyjechałam do Warszawy, ojciec mój już nie żył, a brat został zabity przez Niemców. Brat był bardzo wcześnie zabrany, ponieważ jeszcze, zdaje się w czterdziestym roku, Niemcy wzięli wielu inteligentów żydowskich jako zakładników i później ich rozstrzelali. Tak że byłam z matką i z siostrą.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="496.508" end="x">[In Russian] А где ваш отец был э-э-э . . . сперва э-э-э . . . как э-э-э . . . ваш отец . . . что . . . умер сперва или что?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="503.263" end="x">[In Polish] Ojciec umarł w parę miesięcy po wybuchu wojny. Dokładnie nie wiem, bo byłam we Lwowie. Był bardzo słabym człowiekiem, przeżył bombardowanie Warszawy . . . I w ogóle był człowiekiem bardzo delikatnym i to wszystko, co widział, wpływało bardzo źle i pogorszyło to jego stan tak, że umarł w kilka miesięcy potem.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="523.676" end="x">[In Russian] А чем ваш отец занимался? С чего ваша семья жила до войны?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="527.023" end="x">[In Polish] Ojciec był nauczycielem.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="529.269" end="x">[In Russian] Что?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="529.902" end="x">[In Polish] Ojciec był nauczycielem.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="531.983" end="x">[In Russian] Это что? Учителем? И что учил?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="535.224" end="x">[In Polish] Ojciec uczył języka polskiego, matematyki w szkołach powszechnych dla dzieci żydowskich.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="542.249" end="x">[In Russian] Ага. А сам он что окончил?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="546.621" end="x">[In Polish] Ojciec mój uczył się na kursach zorganizowanych przez synagogę żydowską, dla Żydów, którzy chcieli się uczyć nauk świeckich, a potem zdawał egzamin nauczycielski u jakiegoś profesora polskiego. Otrzymał dyplom.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="568.722" end="x">[In Russian] И он умер, значит, после того, как немцы пришли в Польшу . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="572.235" end="x">[In Polish] Tak, umarł w parę miesięcy po tym.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="573.004" end="x">[In Russian] Он где умер? В Варшаве?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="574.406" end="x">[In Polish] Tak umarł w Warszawie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="575.371" end="x">[In Russian] Ну . . . а . . . в гетто он умер?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="578.642" end="x">[In Polish] . . . jeszcze nie było getta.</u>
+                    <u who="#boderD" start="580.451" end="x">Jeszcze nie . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="581.657" end="x">[In Russian] Ну, значит, вы были в гетто и с кем вы были в гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="586.150" end="x">[In Polish] . . . z matką, z siostrą i z mężem siostry.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="589.723" end="x">[In Russian] И где вы жили там?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="591.969" end="x">[In Polish] Myśmy żyli na Nowolipiu w domu . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="595.165" end="x">[In Russian] В доме?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="596.552" end="x">[In Polish] . . . w naszym mieszkaniu, ponieważ to mieszka . . . Nowolipie należało do getta.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="601.979" end="x">[In Russian] А . . . значит, вы остались в своем доме, потому что [неразборчиво] сделали часть гетто. Хорошо.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="607.467" end="x">[In Polish] Tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="607.708" end="x">[In Russian] А этот дом принадлежал кому? [неразборчиво] Кто был хозяин дома?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="616.226" end="x">[In Polish] No był właściciel domu, przed wojną . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="619.091" end="x">[In Russian] Еврей или . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="619.950" end="x">[In Polish] To był Żyd.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="622.061" end="x">[In Russian] Да. И вы платили за квартиру?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="626.719" end="x">[In Polish] . . . z początku płaciliśmy, a potem . . . ja nie pamiętam.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="631.332" end="x">[In Russian] Хорошо. Когда вы, значит, вышли из гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="635.131" end="x">[In Polish] Potem zaczęła się akcja wysiedleńcza w dwudzie . . . dwudziestego drugiego lipca czterdziestego drugiego roku . . . wtedy ukrywaliśmy się trochę.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="651.435" end="x">[In Russian] В гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="652.432" end="x">[In Polish] W samym getcie, jeżeli akcja była w . . . na jednej ulicy, tośmy przechodzili na drugą ulicę.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="659.516" end="x">[In Russian] А какая это акция была, скажите [неразборчиво] . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="662.787" end="x">[In Polish] Niemcy . . . ukazały się plakaty na murach, podpisane nawet przez gminę żydowską, że wszyscy Żydzi powinni zgłosić się do punktów przesiedleńczych . . . i będą przesiedleni na wschód. Każdy otrzyma trzy kilo chleba, kilo marmolady, dostar . . . dostarczy się wagonów i tymi wagonami Niemcy . . . Żydzi pojadą na wschód. Tam się ich osiedli w małych miasteczkach i tam będą pracować. Następnie było wymienione, że od akcji wysiedleńczej zwolnieni są ci Żydzi, którzy pracują w fabrykach niemieckich, następnie pracownicy gminy żydowskiej.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="712.241" end="x">[In Russian] И там это . . . были госпитали в гетто . . . были доктора?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="716.447" end="x">[In Polish] Tak, były szpitale w getcie, byli lekarze, tylko że chorzy umierali po prostu z głodu. Było mało lekarstw. Nawet jak chorego udało się wyleczyć, to i tak nie miało się go czym odżywiać. Tak że była bardzo duża śmiertelność.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="735.472" end="x">[In Russian] И куда и где хоронили людей? А где хоронили [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="743.611" end="x">[In Polish] Ludzi chowano na cmentarzu żydowskim.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="747.184" end="x">[In German/English] Was . . . was, war [unintelligible] . . . was that in Ghetto? The jüdische?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="755.973" end="x">[In Polish] Cmentarz żydowski był trochę poza gettem, ale dostawało się przepustki i można było . . . nawet rodzina też mogła odprowadzić tych zmarłych . . . i można było ich chować na cmentarzu na getcie, na starym żydowskim cmentarzu. Jednych chowano we wspólnych grobach, . . . były ogromne wspólne groby, . . . była śmiertelność ostatnio około pięciu tysięcy ludzi miesięcznie, a tych, którzy mogli sobie pozwolić, chowano w grobach pojedynczych.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="790.119" end="x">[In Russian] Ну а потом как вы уехали из гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="795.366" end="x">[In Polish] Potem . . . po pierwszej akcji ja zostałam, dlatego że była . . . pozostało jeszcze około czterdziestu tysięcy Żydów po pierwszej akcji. Więc z tego część została na terenach kilku fabryk niemieckich, w których wyrabiano mundury dla wojska, buty, kożuchy i tak dalej. Więc udało mi się ukryć, ja tam pracowałam w takim ambulatorium fabrycznym. No i byłam w getcie do stycznia czterdziestego trzeciego roku. W styczniu wybuchła druga akcja . . . i w styczniu uciekłam na aryjską stronę, . . . właśnie w czasie tej drugiej akcji . . . też ucieczka była bardzo niebezpieczna, ale wyjechaliśmy jakimś autem fabrycznym, ja niby jako pracownica tej fabryki. Była [niezrozumiały], znaczy się taka brama w murze. Tam stali żandarmi niemieccy i kontrolowali każdego, kto wyjeżdżał z getta. No i akurat, jak to auto wyjeżdżało, przyjechał patrol SS-owski, który przeprowadzał akcje. Kazano wszystkim wysiąść z auta. Rewidowano. Ja byłam jedyną kobietą. Nawet wszyscy mężczyźni byli pewni, że mnie od razu zabiorą na Umschlagplatz, to był ten plac zborny, gdzie zbierano wszystkich Żydów, ale jakimś dziwnym przypadkiem pozwolono mi wsiąść do auta i wyjechaliśmy. Tam auto się zatrzymało, gdzieś na ulicy Puławskiej. Miałam tam znajomych, Aryjczyków. Wysiadłam z auta i w ten sposób wyszłam z getta.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="912.022" end="x">[In Russian] [неразборчиво] говорите дальше.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="916.937" end="x">[In Polish] No, było mi bardzo trudno ukrywać się, ponieważ mam wygląd bardzo semicki. Ci Polacy, u których byłam, przyjęli mnie dobrze, ale musiałam szereg razy zmieniać mieszkanie. Ostatni raz zamieszkałam na Muranowskiej ulicy, akurat na wprost getta. No i w ten sposób widziałam akcję niemiecką w kwietniu czterdziestego trzeciego roku. Powstanie w getcie warszawskim, . . . ponieważ nasze okna . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="951.475" end="x">[In Russian] Вы были там, когда [неразборчиво]</u>
+                    <u who="#neufeldH" start="953.450" end="x">Я была, видела, я видела.</u>
+                    <u who="#boderD" start="955.545" end="x">Вы видели. Ну, расскажите про восстание.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="958.983" end="x">[In Polish] Więc okna nasze wychodziły akurat na róg ulicy Muranowskiej i Nalewek. W ten sposób mogliśmy obserwować cały plac Muranowski, część Nalewek i ulicę . . . zdaje się Miłą, która prowadziła właśnie do tego Umschlagplatzu, na którym zbierano wszystkich Żydów. Tak że widzieliśmy wszystkie pochody żydowskie, które Niemcy prowadzili na Umschlagplatz. Osiemnastego kwietnia nagle rano zaczęła się strzelanina. Nie wiedzieliśmy w ogóle, że [niezrozumiały]. Doszliśmy do okien. Widzieliśmy, że mur getta jest otoczony bardzo gęsto posterunkami, które . . . każdy posterunek składał się zwykle z jednego Niemca, jednego Ukraińca, jednego policjanta polskiego. Posterunki były ustawione co dziesięć, piętnaście kroków . . . i co pewien . . . nie pamiętam, czy każdy, czy co drugi posterunek miał karabin maszynowy. Wiedzieliśmy od razu, że szykuje się jakaś akcja w getcie, bo każda akcja była poprzedzona właśnie obsadzeniem całego muru. No i rozpoczęła się formalna bitwa. Bardzo zaciekła. Więc słyszeliśmy karabiny maszynowe. Następnie granaty. W pewnym momencie usłyszeliśmy znany . . . usłyszałam znany odgłos, ale nie wierzyłam oczom. To były tanki. Spojrzałam w Nalewki . . . i rzeczywiście z Nalewki powoli wyjeżdżały dwa tanki niemieckie. No to już znaczyło, że to jest koniec getta.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1085.741" end="x">[In Russian] Ну, расскажите, что потом случилось с вами, как долго вы были в Варшаве и как вы убрались из Варшавы.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1091.937" end="x">[In Polish] Potem ukrywałam się jeszcze jakiś czas, ale było mi bardzo trudno ukrywać się. Później Niemcy zabrali nas do . . . zabrali mnie do obozu. Do Belsen-Bergen. To było w lipcu czterdziestego trzeciego roku. W tym obozie byłam dwadzieścia miesięcy. Przeszło dwadzieścia miesięcy . . . do jakiegoś trzynastego kwietnia czterdziestego piątego roku. Wtedy zaczęto ewakuować obóz. Zbliżali się podobno Anglicy. Ewakuowano nas dziesiątego kwietnia. Dwa tygodnie byłam w pociągu do dwudziestego trzeciego kwietnia.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1137.238" end="x">[In Russian] Вас эвакуировали из Бельзен?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1139.620" end="x">[In Polish] Tak . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1140.284" end="x">[In Russian] Кто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1141.445" end="x">[In Polish] Niemcy, Niemcy mieli zwyczaj, wszystkie obozy, do których zbliżali się Anglicy czy Amerykanie, ewakuować. O ile zdążyli. Tak więc Belsen też zaczęli ewakuować i mnie ewakuowali.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1156.054" end="x">[In Russian] В Бельзен знали, что вы еврейка?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1156.054" end="x">[In Polish] Tak w Belsen byli . . . było bardzo wielu Żydów. Byli Żydzi polscy, Żydzi węgierscy, Żydzi rumuńscy, jugosłowiańscy, Żydzi holenderscy.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1169.275" end="x">[In Russian] Ага, э-э-э . . . как долго вы были в Бельзен?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1174.129" end="x">[In Polish] Przeszło dwadzieścia miesięcy.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1176.843" end="x">[In Russian] Сколько?</u>
+                    <u who="#neufeldH" start="1177.974" end="x">Больше чем двадцать.</u>
+                    <u who="#boderD" start="1179.738" end="x">Двадцать месяцев. Расскажите про жизнь в Бельзен. Как вы жили в этом . . . блок ваш . . . и так далее.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1187.533" end="x">[In Polish] Więc . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1189.086" end="x">[In Russian] Вы работали в Бельзен?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1190.006" end="x">[In Polish] Nie, myśmy nie pracowali.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1191.890" end="x">[In Russian] Нет. Значит, двадцать месяцев вы не работали. Сколько вас было человек в одном блоке?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1198.826" end="x">[In Polish] Początkowo to była . . . myśmy byli trzymani oddzielnie . . . to byli Żydzi z Polski. Więc to była grupa przeszło dwa tysiące pięćset osób . . . początkowo. Następnie zaczęto w październiku . . . już po trzech miesiącach wysłano z naszej grupy przeszło tysiąc osób. Blisko dwa tysiące osób. Później dowiedzieliśmy się, że wysłano ich do Oświęcimia.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1228.299" end="x">[In Russian] Э-э-э . . . как вы спали там в этом бараке?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1231.721" end="x">[In Polish] Z początku warunki jeszcze były trochę lepsze. Nie było tak ciasno. Więc każdy z nas miał swoją pryczę . . . , ale prycze były dwupiętrowe. Jedna była dolna, a druga była górna . . . i bardzo ciasno ustawione. Nie można się było obrócić. Te korytarzyki były tak ciasne . . . to nas bardzo męczyło. Przykrywaliśmy się kocami. Mieliśmy takie sienniki. Dostawaliśmy zupę, chleb, czasem trochę margaryny.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1263.350" end="x">[In Russian] А что делали целый день?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1265.295" end="x">[In Polish] Nic . . . nic. Nasza grupa nie pracowała. Były grupy, które pracowały, inne nie pracowały.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1272.757" end="x">[In Russian] А вы знали эту женщину в Бельзен . . . как ее звали?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1278.154" end="x">[In Polish] Irma . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1279.179" end="x">[In Russian] Ирма [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1280.747" end="x">[In Polish] Nie, ja jej nie znałam, ale komendanta Kramera znałam.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1284.305" end="x">[In Russian] Вы знали Крамера?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1285.722" end="x">[In Polish] Tak. Widziałam go parę razy. Z początku mieliśmy innego komendanta, Hassa, a potem zastąpił go Kramer.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1294.984" end="x">[In Russian] А вы были здоровы в Бельзен?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1300.065" end="x">[In Polish] Nie . . . w Belsen . . . Przyjechałam do Belsen już chora, . . . bo byłam jeszcze dwa tygodnie w więzieniu, w Warszawie, na Pawiaku. No i poza tym byłam, przeżyłam bardzo dużo w czasie, kiedy się ukrywałam. Przyjechałam chora i potem, . . . wszyscy byli chorzy, dlatego żeśmy dostawali bardzo mało jeść tak, że wszyscy byli spuchnięci. Mieli nogi spuchnięte i twarze spuchnięte i wszyscy byli bardzo słabi. Początkowo jeszcze dostawaliśmy jeść. Potem coraz gorzej, coraz gorzej. Pierwszy rok jeszcze jako takośmy wytrzymali. Chociaż zimę spędziliśmy w kamiennych barakach. Było zimno. Dachy przeciekały. Woda się lała.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1350.719" end="x">[In Russian] Так . . . скажите, а если кто-нибудь заболевал, что делали тогда?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1357.518" end="x">[In Polish] Było . . . między tymi więźniami był, byli lekarze. Oni leczyli chorych, a oprócz tego był taki duży szpital. Jak były jakieś poważniejsze wypadki, to meldowało się niemieckiemu lekarzowi, . . . no i tych chorych się zabierało do szpitala.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1377.855" end="x">[In Russian] Так . . . а потом, значит, вас эвакуировали из Бельзен куда?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1383.719" end="x">[In Polish] Ten pociąg jechał tam i z powrotem, tam i z powrotem, dlatego że wszystkie drogi były przecięte i były bombardowane, stacje się paliły, tak że pociąg miał jechać do Theresienstadt, do Czech . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="1398.041" end="x">[In German] Tschech— . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1398.689" end="x">[In Polish] . . . tak, ale bardzo niedaleko zajechał, dlatego że maszynista nie mógł prowadzić pociągu po tych bombardowanych drogach.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1407.523" end="x">[In Russian] [неразборчиво]</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1408.277" end="x">[In Polish] Były naloty . . . Nie. Były naloty, bombardowania . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1411.594" end="x">[In Russian] Вы не доехали до Терезиенштадт . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1413.659" end="x">[In Polish] Nie, myśmy gdzieś byli . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1414.745" end="x">[In Russian] . . . И кто вас освободил?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1416.629" end="x">[In Polish] Rosjanie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1417.926" end="x">[In Russian] Русские?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1418.846" end="x">[In Polish] Tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1419.555" end="x">[In Russian] Русские вас освободили? Расскажите, как случилось это.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1424.575" end="x">[In Polish] [niezrozumiały]</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1425.811" end="x">[In Russian] Вы были в поездах?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1427.168" end="x">[In Polish] . . . myśmy byli w wagonach . . . w wagonie towarowym. Noc . . . nawet całą noc pociąg stał. Nawet było dosyć spokojnie. Z daleka było słychać strzały, ale nie było żadnego nalotu. Z samego rana, o szóstej może, ktoś przebiegł koło naszego wagonu i powiedział: „już są Rosjanie, już Niemcy uciekli”.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1451.534" end="x">[In Russian] Что они, русские, вам дали есть?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1456.358" end="x">[In Polish] Tak, więc wszyscy wybiegli z wagonu i rzeczywiście byli dwaj sowieccy żołnierze na koniach. No i powiedzieli: „wyjdźcie już z wagonów. Każdy może iść na wieś. Tam znajdziecie . . . wejdźcie do mieszkań, tam . . . ”.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1474.901" end="x">[In Russian] В каком городе это было?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1476.876" end="x">[In Polish] . . . to było koło . . . [niezrozumiały], gdzieś koło Drezna. Małe miasteczko.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1484.534" end="x">[In Russian] Хорошо. [неразборчиво] ну, оттуда когда вас освободили . . . куда вы поехали?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1488.273" end="x">[In Polish] . . . myśmy byli chorzy bardzo, więc . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1491.017" end="x">[In Russian] Ваша сестра была с вами?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1492.751" end="x">[In Polish] Nie, nie było z mojej rodziny nikogo. Więc poszliśmy do najbliższej wioski niemieckiej. Tam weszliśmy do domu niemieckiego, wykąpaliśmy się, po pierwsze, i położyliśmy się do łóżek, i leżeliśmy w łóżkach.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1507.359" end="x">[In Russian] И оттуда куда вы поехали?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1511.460" end="x">[In Polish] Leże . . . miesiąc czasu leżeliśmy tam, bo nie mieliśmy sił chodzić. Byliśmy bardzo słabi, a potem ja pojechałam do Paryża.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1523.023" end="x">[In Russian] Зачем вы в Париж поехали? У ва . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1524.787" end="x">[In Polish] Bo w Polsce nie miałam rodziny . . . wiedziałam przecież, . . . matka moja zginęła w czasie akcji jeszcze. Jej siostra, też wiedziałam, że zginęła. Tak że pojechałam do Paryża, gdzie mam rodzinę.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1538.521" end="x">[In Russian] У вас есть родственники в Париже?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1540.345" end="x">[In Polish] Mam kuzynki dwie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1541.913" end="x">[In Russian] У вас есть две кузины тут, в Париже.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1543.572" end="x">[In Polish] Tak, tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1544.477" end="x">[In Russian] Ну, а что вы теперь собирали . . . А где вы вышли замуж?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1549.799" end="x">[In Polish] Za mąż ja wyszłam w getcie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1553.251" end="x">[In Russian] О! Вы вышли в гетто?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1555.090" end="x">[In Polish] Tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1555.452" end="x">[In Russian] И что с мужем вашим [неразборчиво].</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1556.628" end="x">[In Polish] Mąż też był w obozie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1559.432" end="x">[In Russian] Куда?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1560.307" end="x">[In Polish] . . . też był . . . w Belsen był.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1562.312" end="x">[In Russian] Вас послали, мужчин и женщин . . . А немцы знали, что это был ваш муж?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1566.895" end="x">[In Polish] Tak, tak, oni znali, że to mój mąż.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1571.222" end="x">[In Russian] И э-э-э . . . потом с вами все время ехали, доехали до Бельзен и остались [неразборчиво].</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1577.719" end="x">[In Polish] W Belsen, tam byliśmy oddzielnie, a potem znów byliśmy razem, a potem nas ewakuowali.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1583.931" end="x">[In Russian] И были вместе, когда русские пришли . . . вы были вместе?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1586.750" end="x">[In Polish] Wszyscy, tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1587.745" end="x">[In Russian] Вы были вместе. И тогда вы решили оба поехать в Париж?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1591.936" end="x">[In Polish] Tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1592.358" end="x">[In Russian] Как вы поехали, у вас были деньги?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1594.408" end="x">[In Polish] Nie, myśmy nie mieli wcale pieniędzy i jechaliśmy bez pieniędzy cały czas, autami wojskowymi, a potem pociągami dla repatriantów.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1606.318" end="x">[In Russian] Вас впустили во Францию или [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1608.805" end="x">[In Polish] . . . wpuścili. Ja mówię trochę po francusku i ja mam rodzinę . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1612.484" end="x">[In Russian] Где вы учились по-французски?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1614.549" end="x">[In Polish] W szkole jeszcze nauczyłam się, ja bardzo lubiłam francuski.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1617.564" end="x">[In Russian] Вы что, ходили в гимназию в Варшаве?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1619.343" end="x">[In Polish] Tak.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1620.037" end="x">[In Russian] Да. А ваш муж где учился?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1622.042" end="x">[In Polish] Też w Warszawie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1623.308" end="x">[In Russian] А откуда он английский знает?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1626.444" end="x">[In Polish] On uczył się angielskiego.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1628.193" end="x">[In Russian] Ага. А что ваш муж делает в Париже?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1632.942" end="x">[In Polish] No . . . z początku myśmy nic nie robili, myśmy się źle czuli. Teraz on pracował trochę jako tłumacz.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1641.218" end="x">[In Russian] А что вы собираетесь делать?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1644.445" end="x">[In Polish] Nie wiemy jeszcze, to bardzo ciężka decyzja. Mam przyjaciół w Ameryce, którzy bardzo chcą, żebym tam pojechała. Rodziny nie mam gdzie indziej. Może zostanę w Paryżu. Nie wiadomo.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1656.219" end="x">[In Russian] Ага. У вас есть родственники в Америке?</u>
+                    <u who="#neufeldH" start="1658.526" end="x">Нет. Подруги.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1662.400" end="x">[In Polish] Przyjaciół mam w Ameryce. [niezrozumiały]</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1664.179" end="x">[In Russian] Нет родственников. А ваш муж чем занимается? Что он работает?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1668.431" end="x">[In Polish] On pracował jako tłumacz.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1670.587" end="x">[In Russian] [неразборчиво]</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1671.296" end="x">[In Polish] Z Amerykanami.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1673.934" end="x">[In Russian] С американскими?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1674.989" end="x">[In Polish] Tutaj, w amerykańskich instytucjach, bo zna angielski.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1678.065" end="x">[In Russian] Что он делает?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1679.377" end="x">[In Polish] Ja nie wiem nawet.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1681.653" end="x">[In Russian] И для американского правительства, и для еврейских организаций.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1685.965" end="x">[In Polish] Nie, nie, to nie to . . . nie wiem . . . dla polskich czy dla amerykańskich.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1690.563" end="x">[In Russian] Да. Он работает для них. И он придет домой в десять часов?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1693.412" end="x">[In Polish] Tak, on przyjdzie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1694.076" end="x">[In Russian] Он придет. Скажите, [неразборчиво] были какие-нибудь песни, которые эти пленные пели?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1706.875" end="x">[In Polish] My?</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1707.734" end="x">[In Russian] Да.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1709.996" end="x">[In Polish] . . . pieśni mało . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1711.971" end="x">[In Russian] [неразборчиво]</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1713.916" end="x">[In Polish] Tak, były . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1715.017" end="x">[In Russian] [неразборчиво] есть новые песни, которые делали в этом лагере?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1718.288" end="x">[In Polish] Nie, nie, nie . . . nie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1721.394" end="x">[In Russian] Вы не знаете . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1722.072" end="x">[In Polish] Nie, nie . . . u nas owszem pisano wiersze.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1726.384" end="x">[In Russian] Что?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1726.881" end="x">[In Polish] Wiersze.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#neufeldH" start="1728.902" end="x">[In Russian] Стихи.</u>
+                    <u who="#boderD" start="1729.520" end="x">Писали . . . и тоже стихи писали? Знаете какие-нибудь [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1731.812" end="x">[In Polish] Nie, ja nie pisałam, może mąż będzie pamiętał coś.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1735.807" end="x">[In Russian] Вы знаете какие-нибудь [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1737.812" end="x">[In Polish] Nie.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1738.717" end="x">[In Russian] Не знаете . . .</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1740.358" end="x">[In English] Well, this concludes the record of Ms. Helena Neufeld. Eh . . . she . . . eh . . . insists on making her record in Polish, she is apparently conscious about her language, and she is staying with her hus . . . , she married her husband in the Ghetto in Warsaw, and it so happened that through all the deportations they were together. August the 3rd, 1946. Paris the home [unintelligible] Jews. After concluding the record of so many, as often happens, you get some new data. On the question of [unintelligible] she tells me that she is a dentist graduated from Warsaw.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="1796.366" end="x">[In German] Wann haben Sie dentistry studiert?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1802.487" end="x">[In Polish] [niezrozumiały]</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1804.100" end="x">[In Russian] [неразборчиво]?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1807.236" end="x">[In Polish] Studiowałam od trzydziestego pierwszego do końca trzydziestego piątego roku . . . tysiąc dziewięćset trzydziestego pierwszego do końca tysiąc dziewięćset trzydziestego piątego roku.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1819.311" end="x">[In Russian] Так сколько же вам лет?</u>
+                    <u who="#neufeldH" start="1821.603" end="x">Тридцать три.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1823.978" end="x">[In Polish] Trzydzieści trzy.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1825.266" end="x">[In Russian] Вы что, поступили в зубоврачебную школу в Варшаве? Когда? Сразу после гимназии?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1831.869" end="x">[In Polish] Nie, właściwie nie chciałam [niezrozumiały] romanistykę. Chciałam wyjechać za granicę do Francji, ale rodzice bardzo pragnęli, żebym wstąpiła na dentystykę, więc . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1847.846" end="x">[In Russian] Что вы теперь работаете тут? У дантиста или как, сами работаете?</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#neufeldH" start="1855.474" end="x">[In Polish] [niezrozumiały]</u>
+                </div>
+                <!-- end spool 9-20 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#neufeld_en">
+                <!-- begin spool 9-20 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.594" end="x">[In English] For some reasons the first few words in this spool are missing. This is Spool 9-20. In other words this is a reproduction of the original Spool number 20. Boder.</u>
+                    <u who="#boderD" start="80.208" end="x">[Missing: "This is Spool number 20, taken at the Jewish Committee's home in <placeName ref="Paris">Paris</placeName> on Rue Guy Patin on August the 3rd, 1946. The person to be interviewed is Mrs. Helena Neufeld . . ."] . . . a young married woman. She understands a bit of English, German, and Yiddish, but she prefers, for fluency, to speak Polish. Eh . . . [unintelligible] eh, Mrs. Neufeld . . .</u>
+                    <u who="#boderD" start="95.631" end="x">[In Russian] Tell me where you are from, and how did you come to <placeName ref="Paris">Paris</placeName>? Speak Polish.</u>
+                    <u who="#neufeldH" start="110.167" end="x">[In Polish] I was in Camp Belsen in Germany till the liberation. Afterwards I came to <placeName ref="Paris">Paris</placeName> where I have relatives, the only ones who remained alive.</u>
+                    <u who="#boderD" start="125.408" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="126.011" end="x">[In Polish] The rest of the family in Poland was killed.</u>
+                    <u who="#boderD" start="129.448" end="x">[In Russian] And where were you born?</u>
+                    <u who="#neufeldH" start="131.378" end="x">[In Polish] In <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="132.614" end="x">[In Russian] Yes. You were born in <placeName ref="Warsaw">Warsaw</placeName>. Tell me what happened when the Germans came there.</u>
+                    <u who="#neufeldH" start="142.981" end="x">When the Germans arrived in <placeName ref="Warsaw">Warsaw</placeName>. I remained in <placeName ref="Warsaw">Warsaw</placeName> a short time, till October, '39. In October I crossed the Soviet-German border. I went to <placeName ref="Lviv">Lwow</placeName>. There I lived about a year and a half. Then I lived through the entry . . . the outbreak of the Soviet-German war. I wasn't able to leave <placeName ref="Lviv">Lwow</placeName> fast enough, because the evacuation took place very fast. I was trapped by the Germans in <placeName ref="Lviv">Lwow</placeName>. There I lived through a terrible <term ref="#vothG_pogrom">pogrom</term> which took place in the first days after the Germans arrived. I was in <placeName ref="Lviv">Lwow</placeName> till [words not clear] . . . till the creation of the <term ref="#vothG_ghetto">Ghetto</term> in <placeName ref="Lviv">Lwow</placeName>. Then I ran away from <placeName ref="Lviv">Lwow</placeName> illegally, to <placeName ref="Warsaw">Warsaw</placeName>, because my family was living in <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="218.818" end="x">[In Russian] You said that there was a pogom in <placeName ref="Lviv">Lwow</placeName>?</u>
+                    <u who="#neufeldH" start="225.331" end="x">[In Polish] Yes. The <term ref="#vothG_pogrom">pogrom</term> in <placeName ref="Lviv">Lwow</placeName> took place a few days after the Germans arrived. The Pogrom was carried out actually not by the Germans themselves, but mostly by the Ukrainians. It was really a bestial pogrom. The Ukr- . . . Ukrainians simply made use of the old Polish system. They beat people to death with clubs. They killed children. There were many Jewish victims at that time.</u>
+                    <u who="#boderD" start="261.346" end="x">[In Russian] The Germans allowed them to make a <term ref="#vothG_pogrom">pogrom</term>?</u>
+                    <u who="#neufeldH" start="264.271" end="x">[In Polish] The Germans? [Chuckle.] It had actually been arranged by the Germans. But the Germans preferred not to take an active part, but they preferred that it should look like a spontaneous uprising of the Ukrainians.</u>
+                    <u who="#boderD" start="279.603" end="x">[In Russian] How did you return to <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#neufeldH" start="283.206" end="x">[In Polish] <placeName ref="Warsaw">Warsaw</placeName> . . . to <placeName ref="Warsaw">Warsaw</placeName> I traveled actually as an <term ref="#vothG_aryan">Aryan</term>, as a Polish woman, a Catholic. However, I didn't have any documents. Since I look quite a bit like a Jewess, the trip was dangerous. In <placeName ref="Kraków">Cracow</placeName> on the railroad station—it was twelve o'clock at night—some <term ref="#vothG_folk">Folk-German</term>, that means . . . eh . . . eh . . . a <term ref="#vothG_folk">Folk-German</term> . . .</u>
+                    <u who="#boderD" start="312.387" end="x">[In Russian] Yes?</u>
+                    <u who="#neufeldH" start="313.337" end="x">[In Polish] . . . a German informer, yes, he caught me. He asked me for papers. I didn't have any papers. I found myself at the <term ref="#vothG_gestapo">Gestapo</term>, but by accident, thanks to that, that I had met there some railway official, a Pole, a very fine and descent person, I succeeded in getting out. He accompanied me to the station, and I went to <placeName ref="Warsaw">Warsaw</placeName>. In <placeName ref="Warsaw">Warsaw</placeName>, too, at that time Jews were not permitted to go to the so-called <term ref="#vothG_aryan">Aryan</term> side. They locked me up in the <term ref="#vothG_ghetto">ghetto</term>. But somehow I succeeded in crossing the . . . the Polish section, and I got in . . . I got into the <term ref="#vothG_ghetto">ghetto</term> through an opening in the wall.</u>
+                    <u who="#boderD" start="358.279" end="x">[In Russian] Were you married then?</u>
+                    <u who="#neufeldH" start="361.581" end="x">[In Polish] No, I wasn't married.</u>
+                    <u who="#boderD" start="362.380" end="x">[In Russian] You weren't married.</u>
+                    <u who="#neufeldH" start="363.511" end="x">[In Polish] No.</u>
+                    <u who="#boderD" start="364.220" end="x">[In Russian] In <placeName ref="Warsaw">Warsaw</placeName> you lived in the <term ref="#vothG_ghetto">Ghetto</term>?</u>
+                    <u who="#neufeldH" start="367.733" end="x">[In Polish] Yes. I was in the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName> from November, '41, throughout the entire time till the resettlement <term ref="#vothG_action">action</term>.</u>
+                    <u who="#boderD" start="379.778" end="x">[In Russian] Tell me, how was life in the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>?</u>
+                    <u who="#neufeldH" start="385.175" end="x">[In Polish] Upon first coming into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> . . .</u>
+                    <u who="#boderD" start="389.004" end="x">[In Russian] Yes.</u>
+                    <u who="#neufeldH" start="389.607" end="x">[In Polish] I cannot describe the shocking impression it had aroused in me. At once I came upon sights which I later encountered much too often, but which I shall never be able to forget. There were many houses in ruins inside the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>. Jewish children were sitting among the ruins, pale, emaciated, like skeletons, thin little hands and legs. And [they] were begging. With thin little voices they were begging for bread. This was, I remember, my first impression. The second, and an equally shocking one, was [the fact] that all the people were wearing armbands on the arms. It was a strange world of people with armbands. But people were behaving as if that was normal. They were moving about . . .</u>
+                    <u who="#boderD" start="444.771" end="x">[In Russian] What? [For some reason there is a chuckle in which both participate.] Yes. And how long were you in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#neufeldH" start="449.505" end="x">[In Polish] I was in the <term ref="#vothG_ghetto">Ghetto</term> till the moment of the main <term ref="#vothG_action">action</term>, that means till Jul- . . . till the 22nd of July, 1942. Then I lived through there the entire <term ref="#vothG_action">action</term>.</u>
+                    <u who="#boderD" start="466.570" end="x">[In Russian] Wait a moment. Who was with you? Was your father there? Your mother? Who else was there?</u>
+                    <u who="#neufeldH" start="471.694" end="x">[In Polish] No. When I arrived in <placeName ref="Warsaw">Warsaw</placeName> my father wasn't alive any more, and my brother had been killed by the Germans. My brother had been very early taken away. In '40 yet the Germans had taken many Jewish intellectuals as hostages and shot them afterwards. So that I was [there] with my mother and my sister.</u>
+                    <u who="#boderD" start="496.508" end="x">[In Russian] Aha. And where was your father? Eh . . . how did your father . . . did your father die before, or what?</u>
+                    <u who="#neufeldH" start="503.263" end="x">[In Polish] My father died a few months after the outbreak of the war. I do not know exactly when, because I was in <placeName ref="Lviv">Lwow</placeName>. He was a very frail man. He had lived through the bombing . . .</u>
+                    <u who="#boderD" start="512.565" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="513.032" end="x">[In Polish] . . . of <placeName ref="Warsaw">Warsaw</placeName>. And he was altogether a very delicate person, and everything that he saw . . .</u>
+                    <u who="#boderD" start="517.947" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="518.264" end="x">[In Polish] . . . and things were looking very bad, and that made his condition worse, so that he died a few months later.</u>
+                    <u who="#boderD" start="523.676" end="x">[In Russian] What was your father's occupation? What did your family live on before the war?</u>
+                    <u who="#neufeldH" start="527.023" end="x">[In Polish] My father was a teacher.</u>
+                    <u who="#boderD" start="529.269" end="x">[In Russian] What?</u>
+                    <u who="#neufeldH" start="529.902" end="x">[In Polish] My father was a teacher.</u>
+                    <u who="#boderD" start="531.983" end="x">[In Russian] A teacher? What did he teach?</u>
+                    <u who="#neufeldH" start="535.224" end="x">[In Polish] Father taught the Polish language, mathematics, in the public schools for Jewish children.</u>
+                    <u who="#boderD" start="542.249" end="x">[In Russian] Aha. And he himself, what did he finish [what training did he have] ?</u>
+                    <u who="#neufeldH" start="546.621" end="x">[In Polish] My father studied in schools established by Jewish synagogues for Jews who wanted to receive a liberal education.</u>
+                    <u who="#boderD" start="559.902" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="560.219" end="x">[In Polish] And afterwards he passed a teacher's examination with a certain Polish professor.</u>
+                    <u who="#boderD" start="566.294" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="566.807" end="x">[In Polish] He received a teacher's diploma.</u>
+                    <u who="#boderD" start="568.722" end="x">[In Russian] That means he died before the Germans entered Poland?</u>
+                    <u who="#neufeldH" start="572.235" end="x">[In Polish] Yes. He died a few . . .</u>
+                    <u who="#boderD" start="573.004" end="x">[In Russian] Where did he die, in <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#neufeldH" start="574.406" end="x">[In Polish] In <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="575.371" end="x">[In Russian] Aha. Nu, and . . . did he die in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#neufeldH" start="578.642" end="x">[In Polish] There was no <term ref="#vothG_ghetto">Ghetto</term> yet.</u>
+                    <u who="#boderD" start="580.451" end="x">[In Polish] There was no <term ref="#vothG_ghetto">Ghetto</term> yet.</u>
+                    <u who="#boderD" start="581.657" end="x">[In Russian] So you were in the <term ref="#vothG_ghetto">Ghetto</term>. With whom were you in the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#neufeldH" start="586.150" end="x">[In Polish] With [my] mother, with [my] sister, and with [my] sister's husband.</u>
+                    <u who="#boderD" start="589.723" end="x">[In Russian] Where did you live?</u>
+                    <u who="#neufeldH" start="591.969" end="x">[In Polish] We lived on Nowolipia, in . . .</u>
+                    <u who="#boderD" start="595.165" end="x">[In Russian] In a house?</u>
+                    <u who="#neufeldH" start="596.552" end="x">[In Polish] In our apartment. That apartment . . . Nowolipia belonged to the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="601.979" end="x">[In Russian] Aha. So you remained in your apartment . . .</u>
+                    <u who="#neufeldH" start="604.301" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="605.432" end="x">[In Russian] . . . because Nowolipia was made a part of the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#neufeldH" start="607.467" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="607.708" end="x">[In Russian] All right. That house belonged to whom? [Pause.] Well, who was the landlord of the house?</u>
+                    <u who="#neufeldH" start="616.226" end="x">[In Polish] Nu, there was the owner of the house. Before the war he was . . .</u>
+                    <u who="#boderD" start="619.091x" end="x">[In Russian] A Jew or . . .</u>
+                    <u who="#neufeldH" start="619.950" end="x">[In Polish] It was a Jew. [Words not clear.]</u>
+                    <u who="#boderD" start="622.061" end="x">[In Russian] Yes. And did you pay rent?</u>
+                    <u who="#neufeldH" start="626.719" end="x">[In Polish] In the beginning we paid and later on . . . I don't remember.</u>
+                    <u who="#boderD" start="631.332" end="x">[In Russian] All right. When did you go into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#neufeldH" start="635.131" end="x">[In Polish] Then the resettlement <term ref="#vothG_action">action</term> started, on the 22nd of July, 1942. At that time . . . we were hiding a little . . .</u>
+                    <u who="#boderD" start="651.435" end="x">[In Russian] In the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#neufeldH" start="652.400" end="x">[In Polish] In the <term ref="#vothG_ghetto">Ghetto</term> itself. If the <term ref="#vothG_action">action</term> took place on one street, we would go over to the next street.</u>
+                    <u who="#boderD" start="659.516" end="x">[In Russian] What kind of <term ref="#vothG_action">action</term> was it? Tell me about the <term ref="#vothG_action">action</term>.</u>
+                    <u who="#neufeldH" start="662.787" end="x">[In Polish] Then appeared . . . the Germans . . . posters appeared upon the walls, even signed by the Jewish Community Council, that all the Jews have to report to resettlement points, and they will be resettled to the East. Everyone will receive three kilos of bread, a kilo of marmalade. RR-cars will be supplied, and in these RR-cars the Germans . . . [correction] the Jews will go to the East. There they will be settled in small towns, and there they will work. Next it was mentioned that the Jews who are working in German plants are exempted from this resettlement. Next, the workers in the Jewish Community Council . . . I don't remember. My husband . . .</u>
+                    <u who="#boderD" start="712.241" end="x">[In Russian] And there, what . . . Were there any hospitals in the <term ref="#vothG_ghetto">Ghetto</term>? Were there doctors?</u>
+                    <u who="#neufeldH" start="716.447" end="x">[In Polish] Yes. There were hospitals in the <term ref="#vothG_ghetto">Ghetto</term>. There were doctors. Only the sick were dying simply of hunger. There was little medicine. Even if they did succeed in curing a sick person, there still was no food to nurse him back to health, so that there was a very high mortality.</u>
+                    <u who="#boderD" start="735.472" end="x">[In Russian] And where to . . . where were the people buried?</u>
+                    <u who="#neufeldH" start="738.922" end="x">[In Polish] What is that?</u>
+                    <u who="#boderD" start="740.038" end="x">[In Russian] Where were they buried? [In German] Where were they buried?</u>
+                    <u who="#neufeldH" start="743.611" end="x">[In Polish] Oh. People were buried in the Jewish cemetery.</u>
+                    <u who="#boderD" start="747.184" end="x">[In German/English] Was . . . was the Jewish cemetery inside the Ghetto?</u>
+                    <u who="#neufeldH" start="755.973" end="x">[In Polish] The Jewish cemetery was a little outside the <term ref="#vothG_ghetto">Ghetto</term>, but passes could be gotten, and one could . . . even the family could accompany the deceased.</u>
+                    <u who="#boderD" start="767.476" end="x">[In Russian] Yes.</u>
+                    <u who="#neufeldH" start="767.853" end="x">[In Polish] Yes. And they could be buried in the cemetery on Gesia [Street] , in the old Jewish cemetery.</u>
+                    <u who="#boderD" start="773.235" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="773.823" end="x">[In Polish] The poor were buried in communal graves. There were huge communal graves, because the mortality toward the end was around five thousand people a month, and those who could afford it were buried in individual graves.</u>
+                    <u who="#boderD" start="790.119" end="x">[In Russian] Yes. Nu? Afterwards how did you leave the <term ref="#vothG_ghetto">Ghetto</term>?</u>
+                    <u who="#neufeldH" start="795.366" end="x">[In Polish] Afterwards, after the first <term ref="#vothG_action">action</term>, I remained, because there was . . . there had remained around forty thousand Jews after the first <term ref="#vothG_action">action</term>. Of them a part was left in a few German plants in which were manufactured uniforms for the army, shoes, fur coats, and so forth. I was able to hide myself. I was working there in a kind of factory dispensary.</u>
+                    <u who="#boderD" start="829.270" end="x">[In Russian] Hm.</u>
+                    <u who="#neufeldH" start="830.416" end="x">[In Polish] I was in the <term ref="#vothG_ghetto">Ghetto</term> till January, '43. In January the second <term ref="#vothG_action">action</term> broke out, and in January I escaped to the <term ref="#vothG_aryan">Aryan</term> side during the course of the second <term ref="#vothG_action">action</term>. Also the escape was very dangerous, but we drove out in a factory truck. I pretending to be a worker of that factory. There was a check point, that means a gate in the wall. There stood German <term ref="#vothG_gendarme">gendarmes</term> checking on everybody leaving the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>. Well, just as the truck was driving out, as <term ref="#vothG_ss">SS</term> patrol which was carrying out the <term ref="#vothG_action">action</term> drove by. Everybody was told to get out of the truck. We were searched. I was the only woman. All the men were sure that I would be taken away to the distribution depot. That was the assembly place where all the Jews were being assembled. But for some strange reason they permitted me to get back on the truck, and we drove away. Near Pulaski Street the truck stopped. I had friends there, <term ref="#vothG_aryan">Aryans</term>. I got out of the truck, and in this way I left the <placeName ref="Warsaw Ghetto" type="camp">Ghettov</placeName>.</u>
+                    <u who="#boderD" start="912.022" end="x">[In Russian] What happened then? Continue, please.</u>
+                    <u who="#neufeldH" start="916.937" end="x">[In Polish] Nu, it was very difficult for me to hide, because I have a very Semitic appearance. The Poles with whom I was hiding received me well, but I had to change my lodgings several times. The last time I was living on Muranowski Street right across from the <term ref="#vothG_ghetto">Ghetto</term>. Well, and that is how I was able to see the German <term ref="#vothG_action">action</term> of April, '43, the uprising of the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>.</u>
+                    <u who="#boderD" start="949.469" end="x">[In Russian] Yes.</u>
+                    <u who="#neufeldH" start="950.133" end="x">[In Polish] Because our windows . . .</u>
+                    <u who="#boderD" start="951.475" end="x">[In Russian] Did you live there during the uprising?</u>
+                    <u who="#neufeldH" start="953.450" end="x">I lived vis-a-vis. I saw [it]</u>
+                    <u who="#boderD" start="955.545" end="x">Yes, you saw [it] Now tell about the uprising.</u>
+                    <u who="#neufeldH" start="958.983" end="x">[In Polish] Our windows faced directly the corner of Muranowska and Nalewki Streets. In this way we could observe the whole Muranowska Square, part of Nalewki [Street] , and, I think, Mila Street which led precisely to that distribution depot where all the Jews were assembled. So that I was able to see all the Jewish convoys which the Germans were leading to the distribution depot. On the 18th of April in the morning shots were suddenly heard. We didn't know what was going on. We went over to the windows. We saw that the wall of the <term ref="#vothG_ghetto">Ghetto</term> was thickly surrounded by numerous patrols. Each patrol ordinarily consisted of one German, one Ukrainian, and one Polish policeman. The patrols were ten, fifteen feet apart, and I don't remember if each or every other patrol had a machine gun. We knew right away that an <term ref="#vothG_action">action</term> in the <term ref="#vothG_ghetto">Ghetto</term> was in the offing, because every <term ref="#vothG_action">action</term> always began by just such an encirclement of the entire wall. Well, and there began a regular battle, a very furious battle. At first we heard machine guns, then grenades. Suddenly we heard a familiar . . . I heard a familiar noise, but I couldn't believe that they were tanks. I looked on Nalewki [Street] , and there, indeed, two German tanks were slowly driving into Nalewki. Well, that meant the end of the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="1085.741" end="x">[In Russian] Tell me, what happened to you afterwards? How long were you in <placeName ref="Warsaw">Warsaw</placeName>, and how did you get out of <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#neufeldH" start="1091.937" end="x">[In Polish] Afterwards I was still hiding for some time, but it was very difficult for me to hide. Later on the Germans took us to . . . took me to the <term ref="#vothG_lager">lager</term>, to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. This was in July in the year '43. In this <term ref="#vothG_lager">lager</term> I was twenty months, over twenty months, till around the 13th of April of the year '45. At that time they started to evacuate the camp. It seemed that the English were approaching. We were evacuated on the 10th of April. Two weeks I was in the train, until the 23rd of April.</u>
+                    <u who="#boderD" start="1137.238" end="x">[In Russian] You were evacuated from <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>.</u>
+                    <u who="#neufeldH" start="1139.620" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1140.284" end="x">[In Russian] Who?</u>
+                    <u who="#neufeldH" start="1141.445" end="x">[In Polish] The Germans. The Germans were in the habit of evacuating all the camps which the English or the Americans were approaching, provided they had time.</u>
+                    <u who="#boderD" start="1149.269" end="x">[In Russian] Hm.</u>
+                    <u who="#neufeldH" start="1149.812" end="x">[In Polish] They began to evacuate <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>, too, and I was evacuated.</u>
+                    <u who="#boderD" start="1153.747" end="x">[In Russian] Did they know in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> that you are a Jewess?</u>
+                    <u who="#neufeldH" start="1156.054" end="x">[In Polish] Yes. In <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> there were very many Jews. There were Polish Jews, Hungarian Jews, Rumanian Jews, Yugoslavian, Dutch Jews.</u>
+                    <u who="#boderD" start="1169.275" end="x">[In Russian] Aha. How long were you in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>?</u>
+                    <u who="#neufeldH" start="1174.129" end="x">[In Polish] Over twenty months.</u>
+                    <u who="#boderD" start="1176.843" end="x">[In Russian] How many?</u>
+                    <u who="#neufeldH" start="1177.974" end="x">Over twenty months.</u>
+                    <u who="#boderD" start="1179.738" end="x">Twenty months?</u>
+                    <u who="#neufeldH" start="1180.658" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1181.186" end="x">[In Russian] Tell me about the life in Belsen. How were you living in your <term ref="#vothG_block">block</term> and so forth?</u>
+                    <u who="#neufeldH" start="1187.533" end="x">[In Polish] So . . .</u>
+                    <u who="#boderD" start="1189.086" end="x">[In Russian] Did you work in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>?</u>
+                    <u who="#neufeldH" start="1190.006" end="x">[In Polish] No, we didn't . . .</u>
+                    <u who="#boderD" start="1191.197" end="x">[In Russian] No.</u>
+                    <u who="#neufeldH" start="1191.393" end="x">[In Polish] . . . work.</u>
+                    <u who="#boderD" start="1191.890" end="x">[In Russian] That means you didn't work for twenty months?</u>
+                    <u who="#neufeldH" start="1194.574" end="x">[In Polish] No.</u>
+                    <u who="#boderD" start="1195.102" end="x">[In Russian] How many people were in a <term ref="#vothG_block">block</term>?</u>
+                    <u who="#neufeldH" start="1198.826" end="x">[In Polish] In the beginning there were . . . we were kept separately, the Polish Jews. This was a group of over two thousand five hundred persons, in the beginning. Later on they began . . . in October, after three months, they sent out over a thousand people from our group.</u>
+                    <u who="#boderD" start="1221.364" end="x">[In Russian] Hm.</u>
+                    <u who="#neufeldH" start="1222.555" end="x">[In Polish] About two thousand people. Later we found out that they were sent to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1228.299" end="x">[In Russian] How did you sleep there in the barracks?</u>
+                    <u who="#neufeldH" start="1231.721" end="x">[In Polish] In the beginning conditions were still a little better. It wasn't that crowded, and every one of us had his plank bed.</u>
+                    <u who="#boderD" start="1238.234" end="x">[In Russian] Yes?</u>
+                    <u who="#neufeldH" start="1239.968" end="x">[In Polish] But the plank beds were two-tiered, a lower one and an upper one, very closely set. One couldn't turn around. The spaces between them were very narrow. This fatigued us very much. We covered ourselves with blankets. We had such paillasses. We received a soup, bread, sometimes a little margarine.</u>
+                    <u who="#boderD" start="1263.350" end="x">[In Russian] What did you do all day?</u>
+                    <u who="#neufeldH" start="1265.295" end="x">[In Polish] Nothing, nothing. Our group didn't work. There were groups which worked, and which didn't work.</u>
+                    <u who="#boderD" start="1272.757" end="x">[In Russian] Did you know in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> that woman . . . What was she called? . . . eh . . .</u>
+                    <u who="#neufeldH" start="1278.154" end="x">[In Polish] Irma . . .</u>
+                    <u who="#boderD" start="1279.179" end="x">[In Russian] Irma Gray, or . . . [reference to Irma Grese]</u>
+                    <u who="#neufeldH" start="1280.747" end="x">[In Polish] No, I didn't know her, but I knew the <term ref="#vothG_commandant">Commandant</term> Kramer.</u>
+                    <u who="#boderD" start="1284.305" end="x">[In Russian] You did know Kramer?</u>
+                    <u who="#neufeldH" start="1285.722" end="x">[In Polish] Yes. I saw him a few times. In the beginning we had a different <term ref="#vothG_commandant">Commandant</term>, Kass [?] , and afterwards Kramer took his place.</u>
+                    <u who="#boderD" start="1294.984" end="x">[In Russian] Hm.</u>
+                    <u who="#neufeldH" start="1295.467" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1296.537" end="x">[In Russian] Yes. And you, were you in good health in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>?</u>
+                    <u who="#neufeldH" start="1300.065" end="x">[In Polish] No. In <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> . . . I arrived in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> already sick, because I had been in prison for two weeks in <placeName ref="Warsaw">Warsaw</placeName>, in the Pawiak [Prison]</u>
+                    <u who="#boderD" start="1308.824" end="x">[In Russian] Hm.</u>
+                    <u who="#neufeldH" start="1309.593" end="x">[In Polish] Well, and besides, I had gone through a great deal during the time when I was hiding. I arrived sick, and later on . . . everybody was sick, because we got very little food, so that everybody was very weak. At first we received food. Later on it became worse and worse. The first year we lived through somehow, even though during the winter we lived in stone barracks. It was cold. The roofs were leaky. Water was pouring in.</u>
+                    <u who="#boderD" start="1350.719" end="x">[In Russian] Yes. Tell me, if anybody got sick what did they do then?</u>
+                    <u who="#neufeldH" start="1357.518" end="x">[In Polish] There were . . . among the prisoners there were doctors. They treated the sick, and besides that there was a large hospital. In case there were any serious cases it was reported to the German doctor. Well, and the sick were taken to the hospital.</u>
+                    <u who="#boderD" start="1377.855" end="x">[In Russian] Yes. And later on you were evacuated from <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>. Where to?</u>
+                    <u who="#neufeldH" start="1383.719" end="x">[In Polish] The train was traveling there and back, there and back. Because all the roads were out and were bombed. Railroad stations were burning, so that . . . the train was supposed to go to <placeName ref="Terezín">Theresenstadt</placeName>, to Czechoslovakia.</u>
+                    <u who="#boderD" start="1398.041" end="x">[In German] Czech— . . .</u>
+                    <u who="#neufeldH" start="1398.689" end="x">[In Polish] Yes. But it didn't travel very far, because the engineer couldn't run the train on the bombed out roads.</u>
+                    <u who="#boderD" start="1407.523" end="x">[In Russian] Yes. [Words not clear.]</u>
+                    <u who="#neufeldH" start="1408.277" end="x">[In Polish] There were air raids. No? There were air raids. We were bombed.</u>
+                    <u who="#boderD" start="1411.594" end="x">[In Russian] You didn't go to <placeName ref="Terezín">Theresenstadt</placeName>?</u>
+                    <u who="#neufeldH" start="1413.659" end="x">[In Polish] No.</u>
+                    <u who="#boderD" start="1414.081" end="x">[In Russian] No.</u>
+                    <u who="#neufeldH" start="1414.217" end="x">[In Polish] We were of course . . .</u>
+                    <u who="#boderD" start="1414.745" end="x">[In Russian] And who liberated you?</u>
+                    <u who="#neufeldH" start="1416.629" end="x">[In Polish] The Russians.</u>
+                    <u who="#boderD" start="1417.926" end="x">[In Russian] The Russians?</u>
+                    <u who="#neufeldH" start="1418.846" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1419.555" end="x">[In Russian] The Russians liberated you. Tell [me] , how did it happen?</u>
+                    <u who="#neufeldH" start="1424.575" end="x">[In Polish] During one . . .</u>
+                    <u who="#boderD" start="1425.811" end="x">[In Russian] Were you in trains?</u>
+                    <u who="#neufeldH" start="1427.168" end="x">[In Polish] We were in RR-cars, in a freight car, even during the night. All night the train was standing. It was even quite peaceful. From afar shots could be heard, but there was no air raid. Early in the morning, around six, someone ran past our RR-car and said, 'The Russians are already here.'</u>
+                    <u who="#boderD" start="1451.534" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="1452.182" end="x">[In Polish] The Germans had already run away.</u>
+                    <u who="#boderD" start="1453.720" end="x">[In Russian] Did the Russians feed you?</u>
+                    <u who="#neufeldH" start="1456.358" end="x">[In Polish] Yes. Then all the people ran out of the RR-cars, and there really were two Russian soldiers on horses. And they said, 'You can leave the RR-cars now. Everybody can go to the village. There you will find . . . go into the houses. There . . . '</u>
+                    <u who="#boderD" start="1474.901" end="x">[In Russian] In what town was that?</u>
+                    <u who="#neufeldH" start="1476.876" end="x">[In Polish] It was . . . somewhat around <placeName ref="Falkenberg">Falkenburg</placeName>, near <placeName ref="Terezín">Theresenstadt</placeName>.</u>
+                    <u who="#boderD" start="1483.464" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="1483.871" end="x">[In Polish] A small town.</u>
+                    <u who="#boderD" start="1484.534" end="x">[In Russian] All right. After the liberation where did you go from there?</u>
+                    <u who="#neufeldH" start="1488.273" end="x">[In Polish] We were very sick then.</u>
+                    <u who="#boderD" start="1491.017" end="x">[In Russian] Your sister was with you?</u>
+                    <u who="#neufeldH" start="1492.751" end="x">[In Polish] No, there was no one from my family, no one.</u>
+                    <u who="#boderD" start="1494.756" end="x">[In Russian] Yes.</u>
+                    <u who="#neufeldH" start="1495.359" end="x">[In Polish] Then we went to the nearest German village. There we went into a German house. First of all we bathed and climbed into beds and [chuckle] lay in the beds.</u>
+                    <u who="#boderD" start="1507.359" end="x">[In Russian] Yes. And from there where did you go?</u>
+                    <u who="#neufeldH" start="1511.460" end="x">[In Polish] We lay . . . a month's time we lay there, because we had no strength to walk. We were very weak, and afterwards I went to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1523.023" end="x">[In Russian] Why did you go to <placeName ref="Paris">Paris</placeName>? You have . . .</u>
+                    <u who="#neufeldH" start="1524.787" end="x">[In Polish] Because in Poland I had no family. I knew, of course, my mother had perished during the <term ref="#vothG_action">action</term>. And my sister I also knew had perished. So that I went to <placeName ref="Paris">Paris</placeName> where I have family.</u>
+                    <u who="#boderD" start="1538.521" end="x">[In Russian] You do have family in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#neufeldH" start="1540.345" end="x">[In Polish] I have two [female] cousins.</u>
+                    <u who="#boderD" start="1541.913" end="x">[In Russian] You have two cousins here . . .</u>
+                    <u who="#neufeldH" start="1543.466" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1543.572" end="x">[In Russian] . . . in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#neufeldH" start="1544.160" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1544.477" end="x">[In Russian] And what do you intend to . . . Where did you get married?</u>
+                    <u who="#neufeldH" start="1549.799" end="x">[In Polish] I got married in the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="1553.251" end="x">[In Russian] Oh! You got married in the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#neufeldH" start="1555.090" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1555.452" end="x">[In Russian] And what happened to your husband?</u>
+                    <u who="#neufeldH" start="1556.628" end="x">[In Polish] My husband was also in a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="1559.432" end="x">[In Russian] Where?</u>
+                    <u who="#neufeldH" start="1560.307" end="x">[In Polish] He was also . . . he was in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>.</u>
+                    <u who="#boderD" start="1562.312" end="x">[In Russian] Oh. They sent men and women. Did the Germans know that he was your husband?</u>
+                    <u who="#neufeldH" start="1566.895" end="x">[In Polish] Yes. Yes, they knew that he was my husband.</u>
+                    <u who="#boderD" start="1571.222" end="x">[In Russian] And he went with you together all the time, and arrived in <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>? And from <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName> you were evacuated . . .</u>
+                    <u who="#neufeldH" start="1577.719" end="x">[In Polish] In <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>, there we lived separately. And then we were again together. And then we were evacuated.</u>
+                    <u who="#boderD" start="1583.931" end="x">[In Russian] And you were together . . . And when the Russsians arrived you were together?</u>
+                    <u who="#neufeldH" start="1586.750" end="x">[In Polish] Yes. Everybody . . .</u>
+                    <u who="#boderD" start="1587.745" end="x">[In Russian] Yes, you were together. And then you two decided to go to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#neufeldH" start="1591.936" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1592.358" end="x">[In Russian] How did you travel? Did you have money?</u>
+                    <u who="#neufeldH" start="1594.408" end="x">[In Polish] No, we had no money whatsoever, but we traveled without money all the time. In military cars and later in trains for the repatriates.</u>
+                    <u who="#boderD" start="1606.318" end="x">[In Russian] Did they allow you to enter France, or you . . .</u>
+                    <u who="#neufeldH" start="1608.805" end="x">[In Polish] They let us in. I speak a little French, and I have family in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1612.484" end="x">[In Russian] Where did you learn to speak French?</u>
+                    <u who="#neufeldH" start="1614.549" end="x">[In Polish] I learned it in school yet. I liked the French language very much.</u>
+                    <u who="#boderD" start="1617.564" end="x">[In Russian] Did you attend the gymnasium in <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#neufeldH" start="1619.343" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1620.037" end="x">[In Russian] Yes. And where did your husband study?</u>
+                    <u who="#neufeldH" start="1622.042" end="x">[In Polish] Also in <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1623.308" end="x">[In Russian] How come he knows English?</u>
+                    <u who="#neufeldH" start="1626.444" end="x">[In Polish] He studied English.</u>
+                    <u who="#boderD" start="1628.193" end="x">[In Russian] Aha, and what does your husband do in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#neufeldH" start="1632.942" end="x">[In Polish] Well, in the beginning we didn't do anything. We weren't feeling well. Now he is working a little as an interpreter.</u>
+                    <u who="#boderD" start="1641.218" end="x">[In Russian] Aha, and what do you intend to do?</u>
+                    <u who="#neufeldH" start="1644.445" end="x">[In Polish] We don't know yet. It is a very hard decision. We have friends in America who want us very much to come over. I don't have any family anywhere else. Maybe I will remain in <placeName ref="Paris">Paris</placeName>. We don't know yet.</u>
+                    <u who="#boderD" start="1656.219" end="x">[In Russian] Aha. You have relatives in America?</u>
+                    <u who="#neufeldH" start="1658.526" end="x">No. Just girl friends.</u>
+                    <u who="#neufeldH" start="1662.400" end="x">[In Polish] In America I have friends, a girl friend.</u>
+                    <u who="#boderD" start="1664.179" end="x">[In Russian] But you have no relatives. And your husband, what is his occupation? What does he do?</u>
+                    <u who="#neufeldH" start="1668.431" end="x">[In Polish] He was working as an interpreter.</u>
+                    <u who="#boderD" start="1670.587" end="x">[In Russian] What is that?</u>
+                    <u who="#neufeldH" start="1671.296" end="x">[In Polish] With the Americans.</u>
+                    <u who="#boderD" start="1673.934" end="x">[In Russian] With the Americans?</u>
+                    <u who="#neufeldH" start="1674.989" end="x">[In Polish] Here. In Americans institutions, because he knows English.</u>
+                    <u who="#boderD" start="1678.065" end="x">[In Russian] What institutions?</u>
+                    <u who="#neufeldH" start="1679.377" end="x">[In Polish] I don't even know.</u>
+                    <u who="#boderD" start="1681.653" end="x">[In Russian] For the American government or for Jewish organizations?</u>
+                    <u who="#neufeldH" start="1685.965" end="x">[In Polish] No, no. They aren't . . . I don't know whether for Polish or for American.</u>
+                    <u who="#boderD" start="1690.563" end="x">[In Russian] Yes. He is working for them.</u>
+                    <u who="#neufeldH" start="1693.412" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1694.076" end="x">[In Russian] And he will return home by ten o'clock?</u>
+                    <u who="#neufeldH" start="1695.749" end="x">[In Polish] Yes. He will return . . .</u>
+                    <u who="#boderD" start="1697.166" end="x">[In Russian] [Words not clear.] Tell me, in Belsen did you have any songs which the prisoners were singing?</u>
+                    <u who="#neufeldH" start="1706.875" end="x">[In Polish] We?</u>
+                    <u who="#boderD" start="1707.734" end="x">[In Russian] Yes.</u>
+                    <u who="#neufeldH" start="1709.996" end="x">[In Polish] Songs? Very few . . .</u>
+                    <u who="#boderD" start="1711.971" end="x">[In Russian] Yes. Jewish or . . .</u>
+                    <u who="#neufeldH" start="1713.916" end="x">[In Polish] Yes, there were.</u>
+                    <u who="#boderD" start="1715.017" end="x">[In Russian] . . . new songs which were composed there in the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#neufeldH" start="1718.288" end="x">[In Polish] No, no, no, no.</u>
+                    <u who="#boderD" start="1721.394" end="x">[In Russian] You don't know any?</u>
+                    <u who="#neufeldH" start="1722.072" end="x">[In Polish] No, no. By us . . . Of course, people wrote verse.</u>
+                    <u who="#boderD" start="1726.384" end="x">[In Russian] What?</u>
+                    <u who="#neufeldH" start="1726.881" end="x">[In Polish] Verse. [In Russian] Verse.</u>
+                    <u who="#boderD" start="1728.902" end="x">[In Russian] People wrote.</u>
+                    <u who="#neufeldH" start="1729.520" end="x">[In Polish] Yes.</u>
+                    <u who="#boderD" start="1729.942" end="x">[In Russian] Did you also write poetry? Do you know any?</u>
+                    <u who="#neufeldH" start="1731.812" end="x">[In Polish] No, I didn't write [any] Maybe my husband will remember some.</u>
+                    <u who="#boderD" start="1735.807" end="x">[In Russian] Do you know any?</u>
+                    <u who="#neufeldH" start="1737.812" end="x">[In Polish] No.</u>
+                    <u who="#boderD" start="1738.717" end="x">[In Russian] You don't know any.</u>
+                    <u who="#boderD" start="1740.358" end="x">[In English] Well, this concludes the record of Mrs. Helena Neufeld. She insists on making her record in Polish. She is apparently conscious about her language. And she is saying that she married her husband in the <placeName ref="Warsaw Ghetto" type="camp">ghetto of Warsaw</placeName>. And it so happened that during all the deportations they were together. August the 3rd, 1946. <placeName ref="Paris">Paris</placeName>. The home for adult Jews . . . After concluding the record, how so many . . . how [it] often happens, you have some new data. On the question 'What is she working in?' she tells me she is a dentist, graduated from <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="1796.366" end="x">[In German] When did you study dentistry?</u>
+                    <u who="#neufeldH" start="1802.487" end="x">[In Polish] [Words not clear.]</u>
+                    <u who="#boderD" start="1804.100" end="x">[In Russian] When did you study in <placeName ref="Warsaw">Warsaw</placeName>? How long ago?</u>
+                    <u who="#neufeldH" start="1807.236" end="x">[In Polish] I studied from 1931 to the end of 1935. From 1931 to the end of 1935.</u>
+                    <u who="#boderD" start="1819.311" end="x">[In Russian] How old are you now?</u>
+                    <u who="#neufeldH" start="1821.603" end="x">Thirty-three.</u>
+                    <u who="#neufeldH" start="1823.978" end="x">[In Polish] Trzydzieści trzy.</u>
+                    <u who="#boderD" start="1825.266" end="x">[In Russian] Did you enter a technical school in <placeName ref="Warsaw">Warsaw</placeName>? When? Right after the gymnasium?</u>
+                    <u who="#neufeldH" start="1831.869" end="x">[In Polish] No. I really didn't want to study for a dentist. One year I studied Romantics, I wanted to travel abroad, to France, but my parents insisted that I study for a dentist, so then . . .</u>
+                    <u who="#boderD" start="1847.846" end="x">[In Russian] Aha.</u>
+                    <u who="#neufeldH" start="1848.359" end="x">[In Polish] . . . after a year, after . . .</u>
+                    <u who="#boderD" start="1849.173" end="x">[In Russian] Where are you working here? For a dentist, or are you working for yourself?</u>
+                    <u who="#neufeldH" start="1855.474" end="x">[In Polish] For myself. I can't [words not clear]</u>
+                    <p>[As far as I can remember, she did some dental work for the <term ref="#vothG_dp">DPs</term> without proper license to practice dentistry in <placeName ref="Paris">Paris</placeName>. —D.P.B.] </p>
+                </div>
+                <!-- end spool 9-20 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

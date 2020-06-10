@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Victor Ferdinansk; September 24, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT32M05.720S" id="ferdinanskV_9-153B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-153B</note>
+                                <placeName ref="UNRRA University of Munich"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-24</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="ferdinanskV_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="ferdinanskV_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="ferdinanskV" role="interviewee">
+                        <persName>
+                            <forename>Victor</forename>
+                            <surname>Ferdinansk</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>unknown</age>
+                        <birth>unknown</birth>
+                        <faith>Roman Catholic</faith>
+                        <nationality key="Lithuania"/>
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#ferdinanskV_de">
+                <!-- begin spool 9-153B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.625" end="x">[In English] Munich, September the 24th, 1946, at the UNRRA University of the Deutsches Museum. The interviewee is Mr. Victor Ferdinansk, a Lithuanian, who will talk to us in German.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="12.663" end="x">[In German] Also sagen Sie mir, Victor, was ist Ihnen passiert, wenn die Russen nach Litauen gekommen?</u>
+                    <u who="#ferdinanskV" start="20.122" end="x">Also die Russen sind nach Litauen gekommen 1940. Damals war ich im Gymnasium in der dritten Klasse und im Herbst dieses Jahres bin ich gekommen nach Tallin in die achte Lasse des Ritter Seminars.</u>
+                    <u who="#boderD" start="34.662" end="x">Von welcher Religion sind Sie?</u>
+                    <u who="#ferdinanskV" start="36.740" end="x">Ich bin römisch katholisch.</u>
+                    <u who="#boderD" start="38.302" end="x">Ja. Weiter nun.</u>
+                    <u who="#ferdinanskV" start="39.958" end="x">Und es war uns allen klar, dass das Ritter Seminar nicht lange bestehen wird.</u>
+                    <u who="#boderD" start="46.696" end="x">In welcher Stadt was das Seminar?</u>
+                    <u who="#ferdinanskV" start="48.868" end="x">In Tallin . . . Kovno.</u>
+                    <u who="#boderD" start="50.227" end="x">In Kovno? Das hat man damals genannt das Kovno Theologisches Seminar?</u>
+                    <u who="#ferdinanskV" start="55.241" end="x">Kovno Theologisches Seminar.</u>
+                    <u who="#boderD" start="56.585" end="x">Bei Riga? Nun . . .</u>
+                    <u who="#ferdinanskV" start="58.335" end="x">Als Angehöriger des Franziskaner Ordens wurde ich von mein . . . von unserem Vorgesetzten nach Deutschland geschickt mit dem Auftrag nach Italien zu kommen. Damals studierten nämlich in Italien viele unserer Landsleute und sie hatten diese Dokumente schon für uns besorgt.</u>
+                    <u who="#boderD" start="90.034" end="x">Also was heißt diese Dokumente? Was für Dokumente haben Sie gebraucht?</u>
+                    <u who="#ferdinanskV" start="92.871" end="x">Das heißt Einreise-Dokumente nach Italien.</u>
+                    <u who="#boderD" start="95.465" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="96.309" end="x">Aber wir waren sehr tief enttäuscht, als wir uns nach Deutschland begeben haben.</u>
+                    <u who="#boderD" start="101.958" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="102.646" end="x">Ich habe die Absicht gehabt nach Italien zu kommen, aber an Stelle dessen ist etwas Anderes eingetroffen. Ich wurde beim illegalen Überschreiten der Grenze . . .</u>
+                    <u who="#boderD" start="116.370" end="x">Oh, sie haben die Grenze illegal überschritten?</u>
+                    <u who="#ferdinanskV" start="118.528" end="x">Ja. Ich wurde fest genommen und in ein Lager gebracht, wo ich sieben Tage gehalten wurde. Aber dann wurde gesehen, dass ich kein Spion bin. Dann wurde ich mit einem (unverständlich) nach Berlin geschickt, wo ich mit französischen Gefangenen im Deutschen Verlag als Gefangener Dienste leisten musste.</u>
+                    <u who="#boderD" start="144.154" end="x">Also Sie haben nicht einen Pass-Schein nach Italien?</u>
+                    <u who="#ferdinanskV" start="146.903" end="x">Nein.</u>
+                    <u who="#boderD" start="147.965" end="x">Sie haben Sie als Gefangenen genommen?</u>
+                    <u who="#ferdinanskV" start="151.558" end="x">Ja, ich wurde verhaftet und zur Arbeit gebracht.</u>
+                    <u who="#boderD" start="154.714" end="x">Bitte weiter.</u>
+                    <u who="#ferdinanskV" start="156.229" end="x">Und nachdem ich ungefähr drei oder Monate gearbeitet habe . . .</u>
+                    <u who="#boderD" start="160.979" end="x">Haben Sie einem Lager gelabt?</u>
+                    <u who="#ferdinanskV" start="162.932" end="x">Das war ein Arbeiterlager.</u>
+                    <u who="#boderD" start="167.072" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="167.666" end="x">In diesem Zimmer haben geschlafen sehr viele. Ich glaube so viel wie fünfzig Leute zumindest.</u>
+                    <u who="#boderD" start="175.765" end="x">Ja, nun und . . .</u>
+                    <u who="#ferdinanskV" start="176.734" end="x">Und ja einmal wurde das ganze Haus, wo jeder - alle zusammen gewohnt haben, untersucht und auf Grund meiner Nationalität wurde ich von der Gestapo andermal festgenommen und in Berlin auf das Polizei Präsidium gebracht. Die haben mich drei Stunden lang untersucht, gefragt nach verschiedenen Sachen, also dann stellte sich heraus, dass ich kein gefährlicher Mensch bin, sondern bloß Student der Theologie.</u>
+                    <u who="#boderD" start="207.522" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="208.178" end="x">Und ich wurde nach der drei stündigen Untersuchung entlassen.</u>
+                    <u who="#boderD" start="212.073" end="x">Nun.</u>
+                    <u who="#ferdinanskV" start="212.948" end="x">Diese ganze Geschichte war mir sehr unangenehm und ich wollte nicht, dass es irgendwelchen Folgen hat. Darum bin ich auch von Berlin nach München gekommen.</u>
+                    <u who="#boderD" start="230.430" end="x">Also wieso . . . ille . . .</u>
+                    <u who="#ferdinanskV" start="231.997" end="x">Illegal.</u>
+                    <u who="#boderD" start="233.216" end="x">Illegal. Nun sagen Sie mir, haben Sie sich nicht mit den katholischen Geistlichen verständigen können, dass man Ihnen hilft? Mit den Franziskanern?</u>
+                    <u who="#ferdinanskV" start="242.313" end="x">Nein, in Berlin, das war fast nicht möglich, weil jede Behörde war sehr eingestellt gegen die Religion und es war wirklich nichts zu machen.</u>
+                    <u who="#boderD" start="252.892" end="x">Nun?</u>
+                    <u who="#ferdinanskV" start="253.720" end="x">Und damals war ich sehr jung und habe sehr schlecht die deutsche Sprache beherrscht.</u>
+                    <u who="#boderD" start="256.980" end="x">Hat man Ihnen erlaubt zur Kirche zu gehen?</u>
+                    <u who="#ferdinanskV" start="258.819" end="x">Das Kirchen Gehen hat man erlaubt zu gehen.</u>
+                    <u who="#boderD" start="261.069" end="x">Konnten Sie da nicht mit dem Vater sprechen?</u>
+                    <u who="#ferdinanskV" start="263.553" end="x">Praktisch konnten die nicht viel helfen. Denn um Einen in der Pfarre aufzunehmen, sollten die auch eine polizeiliche Genehmigung haben. Und ohne diese polizeiliche Genehmigung durften sie überhaupt niemanden aufnehmen. Darum habe ich beschlossen nach Bayern zu flüchten, wo das ganze Land katholisch ist.</u>
+                    <u who="#boderD" start="285.039" end="x">Nun?</u>
+                    <u who="#ferdinanskV" start="286.008" end="x">Und . . .</u>
+                    <u who="#boderD" start="286.992" end="x">Sie kamen dann nach München?</u>
+                    <u who="#ferdinanskV" start="288.648" end="x">Nach München. 1941 bin ich nach München gekommen, wo ich in einem Franziskanischen Kloster aufgenommen wurde und bis zum Jahre neunzehn hundert fünf und vierzig (1945) beschäftigt wurde als Litauer und Ausländer.</u>
+                    <u who="#boderD" start="302.977" end="x">Aha. Also da haben die Deutschen nachher doch gewusst, dass Sie dort waren?</u>
+                    <u who="#ferdinanskV" start="307.633" end="x">Später . . . das haben sie nicht gewusst. Aber später selbstverständlich als ich angemeldet wurde, wurde das, hm, . . .</u>
+                    <u who="#boderD" start="315.429" end="x">[unverständlich]</u>
+                    <u who="#ferdinanskV" start="316.210" end="x">Ein Gestapo Beamter ist gekommen. Die ganze Sache hat sich herausgestellt und er hatte dann folgende Anordnung gegeben: Ich darf nicht in zivil . . . in die Stadt hinaus gehen nicht in Zivilkleider, wie das heißt, nur in Ordern . . .</u>
+                    <u who="#boderD" start="337.254" end="x">Nun?</u>
+                    <u who="#ferdinanskV" start="337.941" end="x">. . . bis damals war erlaubt, dass man auch in Zivilkleidern in die Stadt hinaus gehen zu können.</u>
+                    <u who="#boderD" start="347.087" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="347.915" end="x">Dann zweitens war mir der Auftrag erlegt, dass ich jede Woche mich beim zuständigen Polizei Präsidium oder Revier melden muss.</u>
+                    <u who="#boderD" start="350.134" end="x">Nun.</u>
+                    <u who="#ferdinanskV" start="351.008" end="x">Es war mir verboten litauisch auf der Strasse zu sprechen</u>
+                    <u who="#boderD" start="351.581" end="x">Oh ja.</u>
+                    <u who="#ferdinanskV" start="352.643" end="x">Und es war mir verboten an andere litauische Briefe zu schreiben, in litauischer Sprach.</u>
+                    <u who="#boderD" start="357.293" end="x">Hm, aber Sie konnten doch in deutsch schreiben?</u>
+                    <u who="#ferdinanskV" start="359.525" end="x">In deutscher Sprache durfte ich nicht schreiben.</u>
+                    <u who="#boderD" start="361.869" end="x">Zu wem haben Sie dann schreiben können oder wollen?</u>
+                    <u who="#ferdinanskV" start="364.494" end="x">Gewöhnlich habe ich einen anderen Briefverkehr unterhalten mit meinen Freunden, mit andere Leut . . .</u>
+                    <u who="#boderD" start="372.327" end="x">Wo? Hier in Deutschland?</u>
+                    <u who="#ferdinanskV" start="374.234" end="x">Ja.</u>
+                    <u who="#boderD" start="376.139" end="x">Aha, nun weiter. Durch dieser ganzen Zeit haben die Deutschen Sie jemals geschlagen?</u>
+                    <u who="#ferdinanskV" start="381.889" end="x">Da ich ein Theologie Student gewesen bin, selbstverständlich bin ich nicht zu Schlägereien gekommen.</u>
+                    <u who="#boderD" start="387.197" end="x">Warum ist das selbstverständlich? Sie haben mir gesagt, dass die Deutschen die Religion nicht sehr respektiert haben.</u>
+                    <u who="#ferdinanskV" start="392.884" end="x">Das stimmt schon.</u>
+                    <u who="#boderD" start="394.837" end="x">Aber soweit sie betroffen waren . . . ?</u>
+                    <u who="#ferdinanskV" start="397.665" end="x">Aber in dem Kloster . . . im Kloster habe ich eine katholische Umgebung gehabt und es ist nicht dazu gekommen.</u>
+                    <u who="#boderD" start="404.117" end="x">Was haben Sie im Kloster getan?</u>
+                    <u who="#ferdinanskV" start="405.929" end="x">Im Kloster? Das ist sehr schwer zu sagen. Wir waren . . .</u>
+                    <u who="#boderD" start="410.710" end="x">Wurden Sie behandelt wie alle Anderen?</u>
+                    <u who="#ferdinanskV" start="414.866" end="x">Das kann man nicht sagen, ich habe immer gespürt, dass ich ein Ausländer bin. Und die haben immer uns zu verstehen gegeben, dass wir Ausländer sind und wir waren jeder, hm, in jeder . . .</u>
+                    <u who="#boderD" start="423.851" end="x">Beziehung.</u>
+                    <u who="#ferdinanskV" start="425.258" end="x">. . . in jeder Beziehung ignoriert, darum . . .</u>
+                    <u who="#boderD" start="426.946" end="x">Bei den anderen Leuten oder den Franziskanern?</u>
+                    <u who="#ferdinanskV" start="430.243" end="x">Auch.</u>
+                    <u who="#boderD" start="430.993" end="x">Von den Brüdern?</u>
+                    <u who="#ferdinanskV" start="431.993" end="x">Auch von den Brüdern.</u>
+                    <u who="#boderD" start="433.165" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="433.634" end="x">Und darum habe ich beschlossen in 1900 . . . im Jahre 1945 als die Amerikaner gekommen sind und die Zivil . . . die Zivillager eingerichtet haben, aus dem Kloster einzutreten . . .</u>
+                    <u who="#boderD" start="446.821" end="x">Auszutreten.</u>
+                    <u who="#ferdinanskV" start="448.353" end="x">Ja, auszutreten und das habe ich gemacht.</u>
+                    <u who="#boderD" start="451.369" end="x">Hm. Nun was studieren Sie jetzt hier?</u>
+                    <u who="#ferdinanskV" start="453.682" end="x">Jetzt an dieser Universität studiere ich Jura und bin im zweiten Semester.</u>
+                    <u who="#boderD" start="459.056" end="x">Also Sie haben die Theologie aufgegeben?</u>
+                    <u who="#ferdinanskV" start="459.056" end="x">Ich habe die Theologie aufgegeben und nur aus diesem Grunde, dass ich nicht in Deutschland bleiben wollte und als Geistlicher unter Deutschen arbeiten.</u>
+                    <u who="#boderD" start="470.914" end="x">Sagen Sie mir . . . es ist . . . sehr interessant, dass ich Sie getroffen habe. Was haben die Franziskaner Brüder von den Nazis gedacht? Ich meine im Allgemeinen, wie war die Stimmung während des Krieges? Es ist für uns sehr wichtig, dass Sie uns so eine Schätzung geben können. Andere frage ich nicht darüber, ich will bloß die Erlebnisse haben. Aber Sie sind Theologe, sie haben in einem Kloster gelebt, wie haben sie sich zu dem Krieg verhalten, zu den Nazis und allem?</u>
+                    <u who="#ferdinanskV" start="503.405" end="x">Diese Stimmung war sehr verschieden. Es kam darauf an, was für eine Person es gewesen ist. Die Älteren waren sozusagen verschworene Feinde des Nazismus.</u>
+                    <u who="#boderD" start="520.513" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="521.153" end="x">Aber es gab auch jüngere Deutsche, die man . . . als, als Ausländer man wurde nicht ange . . . [unverständlich]. Wir sind im Kloster gelassen, aber die jungen Leute, Prediger sind eingerückt . . .</u>
+                    <u who="#boderD" start="533.567" end="x">Was heißt eingerückt?</u>
+                    <u who="#ferdinanskV" start="534.661" end="x">Eingerückt, das heißt in die Armee . . .</u>
+                    <u who="#boderD" start="537.056" end="x">Oh, sie wurden genommen?</u>
+                    <u who="#ferdinanskV" start="538.665" end="x">Ja, genommen und sollten auch für die hitlerische Sache kämpfen.</u>
+                    <u who="#boderD" start="544.009" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="545.041" end="x">Die sind selbstverständlich durch die Hitler Schule durchgegangen und haben das Militär . . . haben den Militärdienst durch gemacht und, hm, als junge Leute waren die nicht genug kritisch, um die Sache richtig zu erkennen.</u>
+                    <u who="#boderD" start="562.200" end="x">Nun, wann haben Sie die gesehen? Nachdem sie das Militär durchgemacht haben oder wie war das Ganze?</u>
+                    <u who="#ferdinanskV" start="567.793" end="x">Ja, während der Kriegszeit sind sie doch oft und oft wieder mal auf Urlaub gekommen.</u>
+                    <u who="#boderD" start="573.647" end="x">Oh ja, nun?</u>
+                    <u who="#ferdinanskV" start="574.803" end="x">Und da konnte man sich im kurzen Gesprächen einen Blick bekommen, wie sie denken. Alle waren vom Hitler—man kann sagen—größtenteils begeistert.</u>
+                    <u who="#boderD" start="585.795" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="586.327" end="x">Die jungen Leute.</u>
+                    <u who="#boderD" start="587.312" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="587.765" end="x">Aber ich habe allerdings auch getroffen, die die Hitler auch anders verstanden haben, als der Hitler selbst.</u>
+                    <u who="#boderD" start="596.249" end="x">Nun sagen Sie mal, wo . . . hm, wo war der Bischof Faulhaber? Wo war der jetzt, in München?</u>
+                    <u who="#ferdinanskV" start="602.749" end="x">Ja, zu dieser . . . war Bischof, . . . Kardinal Faulhaber . . .</u>
+                    <u who="#boderD" start="607.659" end="x">Kardinal Faulhaber?</u>
+                    <u who="#ferdinanskV" start="608.643" end="x">. . . war er in München.</u>
+                    <u who="#ferdinanskV" start="x" end="x">Ah, in München war er.</u>
+                    <u who="#boderD" start="609.880" end="x">Ja.</u>
+                    <u who="#boderD" start="610.633" end="x">Ja. Er war nicht pro Hitler.</u>
+                    <u who="#ferdinanskV" start="613.378" end="x">Nein, auf keinen Fall.</u>
+                    <u who="#boderD" start="616.519" end="x">Nun und die Anderen, sagen Sie mir, was haben sie gewusst von der Verfolgung von verschiedenen Völkern? Sagen wir, zum Beispiel, was haben Sie gewusst, was man mit den Juden getan hat, mit den Norwegern, mit den Zigeuners, und so weiter?</u>
+                    <u who="#ferdinanskV" start="633.878" end="x">Ja, was mit den Juden gemacht wurde, das wurde allen klar. Wir haben alle gewusst, dass die Juden eingesperrt werden und ermordet. Das haben auch die Deutschen gewusst. Aber dagegen war selbstverständlich nichts zu tun.</u>
+                    <u who="#boderD" start="651.564" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="652.486" end="x">Denn wir als Ausländer konnten es richtig schätzen, dass wir noch irgendwie als Menschen leben können und nicht eingesperrt sind.</u>
+                    <u who="#boderD" start="663.126" end="x">Hm, aber die Deutschen selbst, die deutschen Geistlichen, die haben es gewusst und was haben die darüber gesagt? Habt sie gesagt, dass es denen recht ist oder . . . ?</u>
+                    <u who="#ferdinanskV" start="671.813" end="x">Die deutschen Geistlichen haben das nie gebilligt und bei den Vorlesungen bei dem Alten Testament, manchmal ist Frage aufgeworfen worden, was die Juden anbelangt. Da kann ich mich gut erinnern, dass der Herr Professor habe sich entschieden gegen die Misshandlung der Juden ausgesprochen.</u>
+                    <u who="#boderD" start="690.781" end="x">Und was haben die deutschen Studenten gesagt?</u>
+                    <u who="#ferdinanskV" start="693.250" end="x">Die deutschen Studenten, die haben auch immer die, hm, Herabsetzung einer bestimmten Nationalität auch abgelehnt—als Theologen - das haben sie immer gemacht.</u>
+                    <u who="#boderD" start="710.906" end="x">Nun, sagen Sie, wie haben sie sich zum Krieg verhalten? Wollten sie, dass Deutschland den Krieg gewinnen soll—und so weiter?</u>
+                    <u who="#ferdinanskV" start="720.040" end="x">Das war sehr verschieden, die . . .</u>
+                    <u who="#boderD" start="721.899" end="x">Sie verstehen, dass ich jetzt bloß . . .</u>
+                    <u who="#ferdinanskV" start="723.243" end="x">Ja.</u>
+                    <u who="#boderD" start="723.852" end="x">. . . eine solche Frage stelle, . . .</u>
+                    <u who="#ferdinanskV" start="724.821" end="x">Ja.</u>
+                    <u who="#boderD" start="725.352" end="x">. . . weil Sie ein besserer Beobachter sind als Andere.</u>
+                    <u who="#ferdinanskV" start="729.417" end="x">Ja.</u>
+                    <u who="#boderD" start="730.105" end="x">Sie waren ja nicht im Lager, Sie waren, hm, ein bisschen frei. Sie konnten mit den Deutschen reden, die Anderen konnten nicht, nicht wahr! Also weiter.</u>
+                    <u who="#ferdinanskV" start="739.239" end="x">Also es war sehr verschieden. Die Meisten wollten damit . . . der Krieg zu gewinnen, damit, hm, damit der Krieg gewonnen würde, denn damit habe sie gerade auch ihre Existenzmöglichkeiten gesehen.</u>
+                    <u who="#boderD" start="757.019" end="x">Oh ja, und sie waren doch . . . sie haben zum Lande gehört, nicht wahr?</u>
+                    <u who="#ferdinanskV" start="759.991" end="x">Ja.</u>
+                    <u who="#boderD" start="760.741" end="x">Man kann das ja schließlich einem Menschen nicht übel nehmen, wenn er will, dass sein Land den Krieg gewinnt, sie verstehen das?</u>
+                    <u who="#ferdinanskV" start="766.148" end="x">Ja, ich verstehe Sie.</u>
+                    <u who="#boderD" start="767.086" end="x">Ja, nun sie wollten gewinnen. Wie kam es als es zum Ende kam? Nun? Waren Sie im Kloster, wie die Amerikaner herein kamen?</u>
+                    <u who="#ferdinanskV" start="780.819" end="x">Ja, ich war damals noch im Kloster.</u>
+                    <u who="#boderD" start="782.631" end="x">Und wie hat das ausgesehen, erzählen Sie mir.</u>
+                    <u who="#ferdinanskV" start="784.850" end="x">Ja, die Meisten haben sich sehr ruhig verhalten und waren damit zufrieden, dass es endlich mit der Hitler Wirtschaft zu Ende geht.</u>
+                    <u who="#boderD" start="796.398" end="x">Und sie haben gewusst, die Amerikaner werden Ihnen nichts tun?</u>
+                    <u who="#ferdinanskV" start="799.814" end="x">Ja, selbstverständlich. Aber ich habe auch oft manche junge Soldaten getroffen, das heißt vorherige Soldaten, die sehr betrübt darüber waren, dass fremde Soldaten in ihr eigenes Land gekommen sind.</u>
+                    <u who="#boderD" start="814.782" end="x">Na ja, waren die nicht selber in anderen Ländern?</u>
+                    <u who="#ferdinanskV" start="817.204" end="x">Das stimmt schon, aber als Kinder ihrer Heimat, \waren sie darüber nicht besonders erfreut. Ich habe das wenigstens von dieser Seite beobachten können.</u>
+                    <u who="#boderD" start="829.954" end="x">Nun haben Sie gesehen unter den Deutschen oder unter den Geistlichen, dass die eine gewisse Kriegsschuld fühlten?</u>
+                    <u who="#ferdinanskV" start="842.360" end="x">Das habe ich nicht ganz genau feststellen können. Aber ich glaube, dass wenn man breiter denkt, dass jeder Mensch an der Sache seines Nächsten sich irgendwie schuldig fühlen kann . . .</u>
+                    <u who="#boderD" start="864.872" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="865.715" end="x">. . . und insoweit haben sie sich auch schuldig gefühlt.</u>
+                    <u who="#boderD" start="868.278" end="x">Nun ja, haben Sie gesehen, dass es irgendwie ein Gefühl war, dass man etwas gut machen muss, was man der Welt angetan hat?</u>
+                    <u who="#ferdinanskV" start="879.575" end="x">Das gerade habe ich nicht bemerkt, dass man das unbedingt gut machen kann.</u>
+                    <u who="#boderD" start="887.543" end="x">Gut machen muss!</u>
+                    <u who="#ferdinanskV" start="890.355" end="x">Oder muss, das habe ich nicht bemerkt.</u>
+                    <u who="#boderD" start="892.214" end="x">Nun sagen wir zum Beispiel, das. Sie waren jetzt in Amerika gewesen Kleider zu schicken für die Deutschen. Nicht wahr? Und so viel wird auch geschickt.</u>
+                    <u who="#ferdinanskV" start="901.443" end="x">Ja.</u>
+                    <u who="#boderD" start="901.928" end="x">Nun haben die Deutschen selber alles weggegeben, was sie weggeben konnten?</u>
+                    <u who="#ferdinanskV" start="907.709" end="x">Für wen? Für wen?</u>
+                    <u who="#boderD" start="909.771" end="x">Für die armen Deutschen und für die . . . für die anderen verschleppten Leute.</u>
+                    <u who="#ferdinanskV" start="915.205" end="x">Nein, denn die Deutschen haben die ganze Zeit die Verschleppten oder uns Ausländer wirklich misshandelt. Und dies als Theologe habe ich immer sehr tief gespürt und das ganze Übel fünf, sechs Jahre lang mit Schmerzen tragen müssen. Denn bei jedem Schritt, wo ich im Kloster war oder dort auf einer Behörde, wurde mir immer zu verstehen gegeben, dass ich ein Ausländer bin und nichts da zu suchen habe.</u>
+                    <u who="#boderD" start="946.615" end="x">Nun sagen Sie mir zum Beispiel, warum gehen Sie jetzt auf die UNRRA Universität und gehen nicht direkt zu einer deutschen Universität Jura zu studieren?</u>
+                    <u who="#ferdinanskV" start="954.381" end="x">Ich kenne die Deutschen sehr gut und es würde mir wirklich weh tun, dass ich bei denen Zuflucht zu suchen gezwungen bin, wie ich hatte. Nur aus diesem Grunde will ich nichts mit die Deutschen zu tun haben.</u>
+                    <u who="#boderD" start="971.275" end="x">Aber Sie hatten . . .</u>
+                    <u who="#ferdinanskV" start="972.916" end="x">Die waren meine Feinde die ganze Zeit, weil ich die sehr gut kenne, ich habe die Gelegenheit gehabt dazu.</u>
+                    <u who="#boderD" start="978.727" end="x">Nun wo denken Sie denn Jura zu praktizieren?</u>
+                    <u who="#ferdinanskV" start="981.258" end="x">Ja, das ist eine Frage, auf die ich vorläufig keine Antwort geben kann. Ich wenigstens . . . ich hoffe wenigstens, dass die Zeit günstig sein wird und wir in ein paar Jahren wieder in unsere Heimat zurück kehren dürfen.</u>
+                    <u who="#boderD" start="1004.995" end="x">Wie stellen Sie sich das vor? Denken Sie, dass die Russen weg gehen werden oder dass die Russen werden besser werden, oder was denken Sie?</u>
+                    <u who="#ferdinanskV" start="1016.338" end="x">Ja, das ist meine persönlich Ansicht, dass die Lage, wie sie jetzt ist, nicht lange bestehen kann.</u>
+                    <u who="#boderD" start="1026.199" end="x">In welchem Sinn?</u>
+                    <u who="#ferdinanskV" start="1027.449" end="x">Das bedeutet alle . . . die ganze weltpolitische Lage.</u>
+                    <u who="#boderD" start="1031.38" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="1031.818" end="x">Das ist ein Übergang von einem Stadium zum anderen Stadium.</u>
+                    <u who="#boderD" start="1037.583" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="1038.474" end="x">Und als solcher, das kann nicht lange bestehen bleiben. Das ist doch ein Weg, ein ewiges Fortschreiten. Und ich glaube, dass entweder auf einem friedlichen oder einem militärischen Wege wird uns die Möglichkeit verschafft in unsere Heimat zurück zu kehren.</u>
+                    <u who="#boderD" start="1062.863" end="x">Haben Sie welche Verbindung mit Ihrer Heimat? Was hören Sie von ihren . . . sie haben dort, sie haben doch Eltern gehabt, nicht wahr?</u>
+                    <u who="#ferdinanskV" start="1070.878" end="x">Ja, ich habe meine Eltern in meiner Heimat, ja.</u>
+                    <u who="#boderD" start="1073.034" end="x">Wann haben Sie zuletzt von denen gehört?</u>
+                    <u who="#ferdinanskV" start="1075.924" end="x">Die Verbindung mit meinen Eltern ist abgebrochen in dem Jahre 1944, als die Russen an der litauischen Grenze, an der westlichen Grenze standen . . . und jeder Postverkehr zwischen Deutschland und Litauen abgebrochen wurde.</u>
+                    <u who="#boderD" start="1094.620" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="1095.558" end="x">Seit dem habe ich von meinen Eltern gar nichts gehört und ich befürchte sehr, dass sie nicht mehr am Leben sind.</u>
+                    <u who="#boderD" start="1104.995" end="x">Gibt es nicht irgend welchen Weg sich zu verständigen durch das Rote Kreuz oder irgendwie?</u>
+                    <u who="#ferdinanskV" start="1110.479" end="x">Wenn es auch geben würde, würde ich das nicht probieren.</u>
+                    <u who="#boderD" start="1114.650" end="x">Ja?</u>
+                    <u who="#ferdinanskV" start="1115.400" end="x">Ich habe Angst meinen Eltern zu sagen, dass ich lebendig bin und mich in Deutschland befinde. Denn darin würden die Russen oder die Kommunisten deutlich in meinen Eltern ein Element sehen, das Ihnen unlieb ist.</u>
+                    <u who="#boderD" start="1142.542" end="x">Nun sagen Sie mir, wie geht es hier an der Universität?</u>
+                    <u who="#ferdinanskV" start="1146.192" end="x">Ja von dieser Universität bin ich sehr begeistert und mit meinem ganzen Herzen bin ich dabei. Aber jeder Anfang ist auch schwer, darum ist der Anfang an dieser Universität auch sehr schwer. Wir haben auch sehr wenig Geld, auch wenige Präparate, auch keine Laboratorien . . .</u>
+                    <u who="#boderD" start="1170.931" end="x">Wie steht es mit den Büchern?</u>
+                    <u who="#ferdinanskV" start="1172.337" end="x">Auch fast keine Bibliothek.</u>
+                    <u who="#boderD" start="1175.903" end="x">Sie sind ein Student, sie studieren Jura. Studieren Sie das deutsche Gesetz oder was für ein Gesetz studieren Sie?</u>
+                    <u who="#ferdinanskV" start="1182.481" end="x">Als Juristen und als Studenten in dem dritten und zweiten Semester studieren wir gewöhnlich die Einführungen in das Recht, das heißt das römische Recht.</u>
+                    <u who="#boderD" start="1194.126" end="x">Ja.</u>
+                    <u who="#ferdinanskV" start="1195.251" end="x">Einführung in das Recht, Soziologie, allgemeine Volkswirtschaftslehre, Statistik und das sind so allgemeine Fächer, die für alle Nationalitäten und Nationen gemeinsam sind.</u>
+                    <u who="#boderD" start="1207.656" end="x">Nun, es tut mir leid, wie müssen abbrechen. Ich möchte wirklich sehr gerne jeden von Euch für eine Stunde haben oder zwei—vielleicht wäre das besser. Aber Sie sehen, ich würde vorziehen zwei Personen oder drei Personen für drei Stunden zu haben, statt jeden für eine halbe Stunden, nicht wahr. Aber da es doch so verschiedene Gruppen hier gibt, will ich keinem wehe tun, nicht wahr. Und ich vielleicht werde ich mir von der ganzen Geschichte mir etwas kollektiv zusammen stellen, nicht wahr. Mein Name wird hier mit ihrem Direktor bleiben, wenn Sie mir mal schreiben wollen. Ich weiß nicht, ob ich viel tun kann, aber ich werde es wenigstens zu wem hin schicken, der etwas tun könnte. Es hat mir wirklich gefreut Sie kennen zu lernen. Danke sehr.</u>
+                    <u who="#ferdinanskV" start="1259.257" end="x">Ich danke Ihnen auch.</u>
+                </div>
+                <!-- end spool 9-153B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#ferdinanskV_en">
+                <!-- begin spool 9-153B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.625" end="x">[In English] <placeName ref="München">Munich</placeName>, September the 24th, 1946, at the <term ref="#vothG_unrra">UNRRA</term> University of the Deutsches Museum. The interviewee is Mr. Victor Ferdinansk, a Lithuanian, who will talk to us in German.</u>
+                    <u who="#boderD" start="12.663" end="x">[In German:] Now tell me, Victor, what happened to you when the Russians had come to Lithuania?</u>
+                    <u who="#ferdinanskV" start="20.122" end="x">[He speaks rather fluently, but it is the German of a foreigner.] And so the Russians came to Lithuania. They came in 1940. At that time I was a gymnasium pupil of third grade [possibly counting from the top], and in the autumn of that year I came to <placeName ref="Tallinn">Tallinn</placeName> and entered the eighth year of the Ritter Seminary [Seminary of the Knights; origin of the name is not clear, but possibly named after the Crusaders].</u>
+                    <u who="#boderD" start="34.662" end="x">What is your religion?</u>
+                    <u who="#ferdinanskV" start="36.740" end="x">I am a Roman Catholic.</u>
+                    <u who="#boderD" start="38.302" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="39.958" end="x">And it was clear to all of us that the Ritter Seminary will not continue to exist for long.</u>
+                    <u who="#boderD" start="46.696" end="x">In what city was that seminary?</u>
+                    <u who="#ferdinanskV" start="48.868" end="x">In <placeName ref="Tallinn">Tallinn</placeName> . . . [<emph rend="italics">correction</emph>] in <placeName ref="Kaunas">Kovno</placeName>.</u>
+                    <u who="#boderD" start="50.227" end="x">In <placeName ref="Kaunas">Kovno</placeName>? A so-called [in Russian] theological seminary.</u>
+                    <u who="#ferdinanskV" start="55.241" end="x">A theological seminary.</u>
+                    <u who="#boderD" start="56.585" end="x">Near <placeName ref="Rīga">Riga</placeName>? Well . . .</u>
+                    <u who="#ferdinanskV" start="58.335" end="x">And as a member of the Franciscan Order, I was sent by my superiors to Germany with instructions to go to Italy, since at that time a number of our compatriots studied in Italy, and they had already obtained for us the [proper] documents.</u>
+                    <u who="#boderD" start="90.034" end="x">Now what does that mean, "the documents"? What kind of documents did you need?</u>
+                    <u who="#ferdinanskV" start="92.871" end="x">That means entrance documents [permits] to Italy.</u>
+                    <u who="#boderD" start="95.465" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="96.309" end="x">But we were deeply disappointed when we came to Germany.</u>
+                    <u who="#boderD" start="101.958" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="102.646" end="x">I had the intention to get to Italy, but instead of that something different happened. At the illegal crossing of the border I was . . .</u>
+                    <u who="#boderD" start="116.370" end="x">Oh, you had crossed the border to Germany illegally?</u>
+                    <u who="#ferdinanskV" start="118.528" end="x">Yes. I was arrested and placed in a <term ref="#vothG_lager">lager</term> where I spent seven days. But then it was established [?] that I was not a spy. So then supplied with a pass, I was sent to <placeName ref="Berlin">Berlin</placeName> where I had to render services as a prisoner [?] together with French prisoners who were in Germany.</u>
+                    <u who="#boderD" start="144.154" end="x">Oh, so you did not get a traveler's permit to Italy?</u>
+                    <u who="#ferdinanskV" start="146.903" end="x">No.</u>
+                    <u who="#boderD" start="147.965" end="x">You were simply taken prisoner?</u>
+                    <u who="#ferdinanskV" start="151.558" end="x">I was arrested and taken to work.</u>
+                    <u who="#boderD" start="154.714" end="x">Now go on.</u>
+                    <u who="#ferdinanskV" start="156.229" end="x">After I had worked approximately three or four months . . .</u>
+                    <u who="#boderD" start="160.979" end="x">Did you live in a <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#ferdinanskV" start="162.932" end="x">That was a work <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="167.072" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="167.666" end="x">Very many slept in one room. I believe there were fifty people, at least.</u>
+                    <u who="#boderD" start="175.765" end="x">Yes. Nu, and . . .</u>
+                    <u who="#ferdinanskV" start="176.734" end="x">And once the whole building where we lived together was searched, and of the basis of my nationality [Lithuanian] I was again arrested by the <term ref="#vothG_gestapo">Gestapo</term> and taken to the police headquarters of <placeName ref="Berlin">Berlin</placeName>. They questioned me at length for three hours, asked about various things, but it was established then that I was not a dangerous person, but just a student of theology . . .</u>
+                    <u who="#boderD" start="207.522" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="208.178" end="x">. . . and I was released after the three-hour questioning.</u>
+                    <u who="#boderD" start="212.073" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="212.948" end="x">But the whole story was very unpleasant to me, and I did not want it to have possibly any [bad] consequences. For that reason I went from <placeName ref="Berlin">Berlin</placeName> to <placeName ref="München">Munich</placeName>.</u>
+                    <u who="#boderD" start="230.430" end="x">Now how come? Ille— . . .</u>
+                    <u who="#ferdinanskV" start="231.997" end="x">Illegally . . .</u>
+                    <u who="#boderD" start="233.216" end="x">Illegally. Now tell me, could you not come to an understanding with the Catholic clergy in Germany that they should help you? With the Franciscans?</u>
+                    <u who="#ferdinanskV" start="242.313" end="x">No. In <placeName ref="Berlin">Berlin</placeName> that was hardly possible, because all the authorities were badly set against religion, and there was nothing one could do.</u>
+                    <u who="#boderD" start="252.892" end="x">Now . . .</u>
+                    <u who="#ferdinanskV" start="253.720" end="x">I was then very young, and was in very poor command of the German language.</u>
+                    <u who="#boderD" start="256.980" end="x">Were you permitted to go to church?</u>
+                    <u who="#ferdinanskV" start="258.819" end="x">One was permitted to go to church.</u>
+                    <u who="#boderD" start="261.069" end="x">Could you not talk there with the priest?</u>
+                    <u who="#ferdinanskV" start="263.553" end="x">Practically [in fact] they could not help much. And then in order to be able to admit [to the parish] all the foreigners, they also had to have a police permit. And without such a police permit they could not admit one at all. That is why I decided to flee to Bavaria, where the whole country is Catholic.</u>
+                    <u who="#boderD" start="285.039" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="286.008" end="x">And . . .</u>
+                    <u who="#boderD" start="286.992" end="x">You came then to <placeName ref="München">Munich</placeName>?</u>
+                    <u who="#ferdinanskV" start="288.648" end="x">To <placeName ref="München">Munich</placeName>. In 1941 in the spring I came to <placeName ref="München">Munich</placeName> where I was accepted by a Franciscan monastery, where I was working until 1945 as a Lithuanian and foreigner.</u>
+                    <u who="#boderD" start="302.977" end="x">Ah. So afterwards the Germans knew that you were there?</u>
+                    <u who="#ferdinanskV" start="307.633" end="x">Later on . . . They did not know it. But later on, when I was registered, that was . . .</u>
+                    <u who="#boderD" start="315.429" end="x">Cleared up?</u>
+                    <u who="#ferdinanskV" start="316.210" end="x">An employee of the <term ref="#vothG_gestapo">Gestapo</term> arrived. The whole affair was cleared up, and he gave the following orders: I have no right to go out into the city in "civvies," that means in civilian clothes, only in the habit of the order . . .</u>
+                    <u who="#boderD" start="337.254" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="337.941" end="x">. . . which [although it] then was permitted, that people of the order could go into the city in civilian clothes.</u>
+                    <u who="#boderD" start="347.087" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="347.915" end="x">Then, second, it was ordered that every week I had to present myself to the nearby police station.</u>
+                    <u who="#boderD" start="350.134" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="351.008" end="x">It was prohibited for me to speak Lithuanian on the street.</u>
+                    <u who="#boderD" start="351.581" end="x">Oh, yes.</u>
+                    <u who="#ferdinanskV" start="352.643" end="x">And [I] was also not permitted to write Lithuanian letters to others, in the Lithuanian language.</u>
+                    <u who="#boderD" start="357.293" end="x">Hm. But you could write in the German language.</u>
+                    <u who="#ferdinanskV" start="359.525" end="x">In the German language I was not [?] permitted to write.</u>
+                    <u who="#boderD" start="361.869" end="x">To whom could you or did you want to write?</u>
+                    <u who="#ferdinanskV" start="364.494" end="x">Ordinarily I maintained no other correspondence with my friends, with other . . .</u>
+                    <u who="#boderD" start="372.327" end="x">Where, here in Germany?</u>
+                    <u who="#ferdinanskV" start="374.234" end="x">Here in Germany.</u>
+                    <u who="#boderD" start="375.077" end="x">In <term ref="#vothG_lager">lagers</term>, et cetera [?]?</u>
+                    <u who="#ferdinanskV" start="375.514" end="x">Yes.</u>
+                    <u who="#boderD" start="376.139" end="x">Aha. Now continue. During all that time did the Germans ever beat you?</u>
+                    <u who="#ferdinanskV" start="381.889" end="x">Thanks to the fact that I was a student, it is self-understood that I did not have the occasion to get into beatings.</u>
+                    <u who="#boderD" start="387.197" end="x">Why is that so self-understood? You have told me that the Germans did not respect religion too much.</u>
+                    <u who="#ferdinanskV" start="392.884" end="x">That is of course correct.</u>
+                    <u who="#boderD" start="394.837" end="x">But . . . but as far as you are concerned?</u>
+                    <u who="#ferdinanskV" start="397.665" end="x">In the monastery . . . in the monastery I still had a Catholic environment, and it did not come to it [to beatings].</u>
+                    <u who="#boderD" start="404.117" end="x">And what were you doing in the monastery?</u>
+                    <u who="#ferdinanskV" start="405.929" end="x">In the monastery? That is very hard to tell. We were . . .</u>
+                    <u who="#boderD" start="410.710" end="x">Were you treated there like all the others?</u>
+                    <u who="#ferdinanskV" start="414.866" end="x">That cannot be said. I always felt that I was a foreigner. And they always gave us [?] to understand that we are foreigners, and we were in all . . .</u>
+                    <u who="#boderD" start="423.851" end="x">. . . respects.</u>
+                    <u who="#ferdinanskV" start="425.258" end="x">. . . respects slighted, for that reason.</u>
+                    <u who="#boderD" start="426.946" end="x">By the other people, by the other Franciscans?</u>
+                    <u who="#ferdinanskV" start="430.243" end="x">As well, as well.</u>
+                    <u who="#boderD" start="430.993" end="x">By the brothers?</u>
+                    <u who="#ferdinanskV" start="431.993" end="x">By the brothers as well.</u>
+                    <u who="#boderD" start="433.165" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="433.634" end="x">And that is why I decided in 1945, when the Americans arrived and had established the civilian [?] camps, to enter the monastery . . .</u>
+                    <u who="#boderD" start="446.821" end="x">To leave?</u>
+                    <u who="#ferdinanskV" start="448.353" end="x">Yes, to leave, and that is what I did.</u>
+                    <u who="#boderD" start="451.369" end="x">Hm. And what do you study here now?</u>
+                    <u who="#ferdinanskV" start="453.682" end="x">At this university I study jurisprudence, and I am now in the second semester.</u>
+                    <u who="#boderD" start="459.056" end="x">Then you have given up theology?</u>
+                    <u who="#ferdinanskV" start="459.056" end="x">I have given up theology, and only for the reason that I did not want to remain in Germany, and work among the Germans as such, as a clergyman.</u>
+                    <u who="#boderD" start="470.914" end="x">Now tell me this. That you . . . It is very interesting to have met you. What did the Franciscan brothers think about the Nazis? I mean in general. What was the mood during the war? It is very important for us that you give us such an appraisal. I don't ask the others about it. I just want personalia [personal experiences]. But you are a theologian. You have lived in a monastery. What was their attitude towards the war, towards the Nazis and all that?</u>
+                    <u who="#ferdinanskV" start="503.405" end="x">This mood [attitude] varied greatly. It depended on what kind of a person one was. The older ones were, so to speak, avowed enemies of Nazism.</u>
+                    <u who="#boderD" start="520.513" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="521.153" end="x">But there also were younger ones, Germans, [among whom] we as foreigners did not count. We were left in the monastery, but the young German clergy were incorporated . . .</u>
+                    <u who="#boderD" start="533.567" end="x">What does that mean, "incorporated"?</u>
+                    <u who="#ferdinanskV" start="534.661" end="x">"Incorporated," that means in the army.</u>
+                    <u who="#boderD" start="537.056" end="x">Oh, they were taken?</u>
+                    <u who="#ferdinanskV" start="538.665" end="x">Taken, and were to fight also for the Hitler cause.</u>
+                    <u who="#boderD" start="544.009" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="545.041" end="x">These of course have passed through the Hitler school, had military . . . had gone through military service, and as young people they were not shrewd enough to appraise the events properly.</u>
+                    <u who="#boderD" start="562.200" end="x">Now when did you see those, after they were through with the army? How was that all?</u>
+                    <u who="#ferdinanskV" start="567.793" end="x">Yes. We . . . during the war they time and again, repeatedly, were coming on furlough.</u>
+                    <u who="#boderD" start="573.647" end="x">Oh, yes. Well . . .</u>
+                    <u who="#ferdinanskV" start="574.803" end="x">And so one could, through brief conversations, gain an insight into their way of thinking. All of them, one might say most of them, were inspired by Hitler.</u>
+                    <u who="#boderD" start="585.795" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="586.327" end="x">The young people.</u>
+                    <u who="#boderD" start="587.312" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="587.765" end="x">But I also have met others who understood the Hitler cause differently than Hitler himself.</u>
+                    <u who="#boderD" start="596.249" end="x">Nu.</u>
+                    <u who="#ferdinanskV" start="596.687" end="x">They . . .</u>
+                    <u who="#boderD" start="597.375" end="x">Now tell me, where was Bishop Faulhaber?<note n="1">Boder is referring to Michael von Faulhaber, a Roman Catholic Cardinal and Archbishop of Munich from 1917 to 1952. Faulhaber was an outspoken ideological opponent of the violent and racist policies of the Nazis. He was involved in Reichskonkordat negotiations of 1933, an agreement between the Holy See and the Nazi government that guaranteed Catholics freedom of religion in Germany. Although on the surface, this agreement appeared to sanction the activities of the Nazis, but in fact most Catholic leaders remained fundamentally opposed to Hitler's rule.</note> Where was he, in <placeName ref="München">Munich</placeName>?</u>
+                    <u who="#ferdinanskV" start="602.749" end="x">Yes. At that time Bishop . . . [<emph rend="italics">correction</emph>] Cardinal Faulhaber . . .</u>
+                    <u who="#boderD" start="607.659" end="x">Cardinal Faulhaber.</u>
+                    <u who="#ferdinanskV" start="608.643" end="x">. . . was in <placeName ref="München">Munich</placeName>. He was in <placeName ref="München">Munich</placeName>.</u>
+                    <u who="#boderD" start="610.633" end="x">Well, he was not pro-Hitler.</u>
+                    <u who="#ferdinanskV" start="613.378" end="x">No. Definitely no.</u>
+                    <u who="#boderD" start="616.519" end="x">Well, and the others? Tell me, what did you [they?] know about the persecution of various nationalities? Say, for instance, what did you know about what was done with the Jews, with the Norwegians, with the Gypsies, and so on?</u>
+                    <u who="#ferdinanskV" start="633.878" end="x">Yes. Well, what was done with the Jews has become clear to everybody. We all knew that the Jews were incarcerated and murdered. That all the Germans knew as well. It is self-understood that against that there was nothing to do . . .</u>
+                    <u who="#boderD" start="651.564" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="652.486" end="x">. . . since we, as foreigners, could feel fortunate that we [ourselves] could in some way live as humans and are not locked up.</u>
+                    <u who="#boderD" start="663.126" end="x">Hm. But the Germans, the German clergy, they knew it, and what did they say about it? Did they say "it serves them right," or . . .</u>
+                    <u who="#ferdinanskV" start="671.813" end="x">The German clergy never approved of it, and at the lectures about the Old Testament, the question was often brought up concerning the Jews. So I can well remember that the Herr Professor had categorically expressed himself against the mistreatment of the Jews.</u>
+                    <u who="#boderD" start="690.781" end="x">And what did the German students say?</u>
+                    <u who="#ferdinanskV" start="693.250" end="x">The German students too rejected the humiliation [degrading] of a certain nation. As theologians they did so always.</u>
+                    <u who="#boderD" start="710.906" end="x">Now tell me, what was their attitude towards the war? Did they want Germany to win the war and the like?</u>
+                    <u who="#ferdinanskV" start="720.040" end="x">That varied a great deal.</u>
+                    <u who="#boderD" start="721.899" end="x">You understand . . .</u>
+                    <u who="#ferdinanskV" start="723.243" end="x">Yes.</u>
+                    <u who="#boderD" start="723.852" end="x">. . . that I ask only you such a question . . .</u>
+                    <u who="#ferdinanskV" start="724.821" end="x">Yes.</u>
+                    <u who="#boderD" start="725.352" end="x">. . . because I think that you were a better observer than the others.</u>
+                    <u who="#ferdinanskV" start="729.417" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="730.105" end="x">You were not in a <term ref="#vothG_lager">lager</term>. You were in a way free. You could talk with the Germans. The others could not. True? Now then, go on.</u>
+                    <u who="#ferdinanskV" start="739.239" end="x">And so it varied. Most of them wanted the war to be won [by the Germans]. Then in it they saw their own chance of existence.</u>
+                    <u who="#boderD" start="757.019" end="x">Oh, yes, and they were . . . they belonged to the country, true?</u>
+                    <u who="#ferdinanskV" start="759.991" end="x">Yes.</u>
+                    <u who="#boderD" start="760.741" end="x">And one cannot take offense against a person if he wishes that his country should win a war. You understand that?</u>
+                    <u who="#ferdinanskV" start="766.148" end="x">Yes, I understand.</u>
+                    <u who="#boderD" start="767.086" end="x">Well, they wanted to win. But how was it when the end [of the war] approached? Well? [Pause.] Were you in the monastery when the Americans arrived?</u>
+                    <u who="#ferdinanskV" start="780.819" end="x">Yes, I was still in the monastery.</u>
+                    <u who="#boderD" start="782.631" end="x">And how did things look then? Tell me.</u>
+                    <u who="#ferdinanskV" start="784.850" end="x">Well, most remained calm and were very satisfied that the Hitler reign had finally come to an end.</u>
+                    <u who="#boderD" start="796.398" end="x">And they knew that the Americans won't do anything to them?</u>
+                    <u who="#ferdinanskV" start="799.814" end="x">Yes, of course. But I have met quite a few young soldiers [German], that is former soldiers, who were greatly saddened that soldiers of other countries have entered their land.</u>
+                    <u who="#boderD" start="814.782" end="x">Now, well, weren't they themselves in other countries?</u>
+                    <u who="#ferdinanskV" start="817.204" end="x">That certainly is correct. But as children of their fatherland, they were not especially gladdened. I at least could observe that from aside.</u>
+                    <u who="#boderD" start="829.954" end="x">Now have you observed among the clergy or the Germans [in general] that they felt a certain war guilt?</u>
+                    <u who="#ferdinanskV" start="842.360" end="x">[Pause.] That I could not ascertain exactly. But I believe that if one thinks broader [deeper], that [then] every man is in some way guilty of the deeds of his fellow man . . .</u>
+                    <u who="#boderD" start="864.872" end="x">Well . . .</u>
+                    <u who="#ferdinanskV" start="865.715" end="x">. . . and in so far they too have felt guilty.</u>
+                    <u who="#boderD" start="868.278" end="x">Now have you observed that there was a kind of a feeling that one has [they have] to make good for that which one has [they have] done to the world?</u>
+                    <u who="#ferdinanskV" start="879.575" end="x">That exactly I have not noticed, that it unconditionally could be made good.</u>
+                    <u who="#boderD" start="887.543" end="x">[<emph rend="italics">as if correcting him</emph>] Must be made good.</u>
+                    <u who="#ferdinanskV" start="890.355" end="x">Or must. That I did not notice.</u>
+                    <u who="#boderD" start="892.214" end="x">Now tell me, for instance, this. We are now being asked in America to send clothes for the Germans. Isn't that so? And so much is being sent.</u>
+                    <u who="#ferdinanskV" start="901.443" end="x">Yes.</u>
+                    <u who="#boderD" start="901.928" end="x">Now, did the Germans themselves give everything that they could have given?</u>
+                    <u who="#ferdinanskV" start="907.709" end="x">For whom? For whom?</u>
+                    <u who="#boderD" start="909.771" end="x">For the poor Germans, and for the other "dragged-away" [vershlepte, a standard term in Germany] people.</u>
+                    <u who="#ferdinanskV" start="915.205" end="x">No. Because the Germans have all the time truly mistreated the dragged-away, or us foreigners. And I as a theologian have always felt that very deeply, and had to carry with pains this whole misfortune for five, six years. Because on every step, whether I was in the monastery or at any magistracy, it was always given to me to understand that I was a foreigner and have nothing to do [expect] here.</u>
+                    <u who="#boderD" start="946.615" end="x">Now tell me, for instance, why do you attend now the <term ref="#vothG_unrra">UNRRA</term> University and don't go directly to a German university to study law?</u>
+                    <u who="#ferdinanskV" start="954.381" end="x">I know the Germans very well, and it would hurt me indeed should I have to seek refuge with them as I had to. Just for this reason I don't want [to have] anything to do with the Germans.</u>
+                    <u who="#boderD" start="971.275" end="x">But you had . . .</u>
+                    <u who="#ferdinanskV" start="972.916" end="x">They were my enemies all the time. Because I know them well. I had the opportunity.</u>
+                    <u who="#boderD" start="978.727" end="x">[<emph rend="italics">some whispers</emph>] Now where do you think then to practice law?</u>
+                    <u who="#ferdinanskV" start="981.258" end="x">Well, that is a question to which, for the time being, I can't give any answer. At least . . . I hope at least that the time will be favorable, and that we in a few years will be able to return to our homeland.</u>
+                    <u who="#boderD" start="1004.995" end="x">How do you imagine that? Do you think that the Russians will leave, or they will change for the better? Or . . . what do you think?</u>
+                    <u who="#ferdinanskV" start="1016.338" end="x">Yes, that is my personal viewpoint, that the present situation could not prevail for long.</u>
+                    <u who="#boderD" start="1026.199" end="x">In what sense?</u>
+                    <u who="#ferdinanskV" start="1027.449" end="x">That means all . . . the political situation of the whole world.</u>
+                    <u who="#boderD" start="1031.380" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="1031.818" end="x">Because this is a transition from one state [of affairs] to another.</u>
+                    <u who="#boderD" start="1037.583" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="1038.474" end="x">And as such it cannot last long. That is a [unintelligible], an eternal march forward. And I believe that by peaceful or military means the possibility will be created for us to return to our homeland.</u>
+                    <u who="#boderD" start="1062.863" end="x">Do you have any communication with your homeland? What do you hear from your . . . Do you have there . . . you had parents there, true?</u>
+                    <u who="#ferdinanskV" start="1070.878" end="x">Yes, I had my parents in my homeland.</u>
+                    <u who="#boderD" start="1073.034" end="x">When did you hear from them last?</u>
+                    <u who="#ferdinanskV" start="1075.924" end="x">The communication with my parents was broken up in the year 1944, when the Russians stood [already] at the Lithuanian border . . . [<emph rend="italics">correction</emph>] at the Estonian border, and all postal communication between Germany and Lithuania was broken.</u>
+                    <u who="#boderD" start="1094.620" end="x">Hm.</u>
+                    <u who="#ferdinanskV" start="1095.558" end="x">Since then I heard nothing from my parents. And I fear greatly that they are not alive any more.</u>
+                    <u who="#boderD" start="1104.995" end="x">Is there no way of any kind to make contact, through the Red Cross, or in some other way?</u>
+                    <u who="#ferdinanskV" start="1110.479" end="x">Even if there were, I would not try it.</u>
+                    <u who="#boderD" start="1114.650" end="x">Yes?</u>
+                    <u who="#ferdinanskV" start="1115.400" end="x">Because I am afraid to ask [tell] my parents that I am alive and live at present in Germany, because then the Russians, or the communists, will come to see in my parents something they dislike.</u>
+                    <u who="#boderD" start="1142.542" end="x">Now tell me, how are things here at the [<term ref="#vothG_unrra">UNRRA</term>] University?</u>
+                    <u who="#ferdinanskV" start="1146.192" end="x">I am very enthusiastic about this university, and I give myself to it with my whole heart. But every start is difficult, and so the start at this university is very difficult. We also have very little money, scarce [study] facilities, also no laboratories . . .</u>
+                    <u who="#boderD" start="1170.931" end="x">How does it stand with books?</u>
+                    <u who="#ferdinanskV" start="1172.337" end="x">Too, there is no library.</u>
+                    <u who="#boderD" start="1175.903" end="x">Now you are a student. You study law. Do you study German law? Or what kind of law do you study?</u>
+                    <u who="#ferdinanskV" start="1182.481" end="x">As jurists and students in the third or second semester, we usually study the introductions to law, that means Roman law.</u>
+                    <u who="#boderD" start="1194.126" end="x">Yes.</u>
+                    <u who="#ferdinanskV" start="1195.251" end="x">Introduction to law, sociology, general economics, statistics, and with it the general subjects which are common to all nationalities and nations.</u>
+                    <u who="#boderD" start="1207.656" end="x">Now then, I am sorry we have to stop. I would like indeed to have every one of you for an hour or two, and probably that would have been better, but you see . . . I should have preferred to have two persons or three persons for three hours [each] than each one [more people] for half an hour. True? But since there are here [so many] diverse groups, I don't want to hurt [offend] anybody. True? And maybe I would be able to make a composite from the whole story [from all the stories]. True? My name shall remain here with your director in case you want to write to me sometime. I don't know whether I could do much, but I shall forward it [your letter] to somebody who should be able to do something. It was indeed a pleasure to get to know you. Thank you, indeed.</u>
+                    <u who="#ferdinanskV" start="1259.257" end="x">I thank you, too.</u>
+                    <p>[Note 1: Spool 153 follows directly and is the beginning of an interview with Valerius Michelson (see Chapter 64)].</p>
+                    <p>[Note 2: The limitation of the interview time to half an hour so that representatives of all groups at the <term ref="#vothG_unrra">UNRRA</term> University could be interviewed in one afternoon was imposed by the management of the university. —D.P.B.]</p>
+                </div>
+                <!-- end spool 9-153B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

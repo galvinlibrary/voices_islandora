@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews David Hirsch; August 26, 1946; Genève, Switzerland</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Johannes Barthel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Johannes Barthel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Elliot Lefkovitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Christian Schmidt</name>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT26M20.225S" id="hirschD_9-74B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-74B</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-26</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="hirschD_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="hirschD_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="hirschD" role="interviewee">
+                        <persName>
+                            <forename>David</forename>
+                            <surname>Hirsch</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>18</age>
+                        <birth ref="Germany"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Germany"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Mannheim">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Gurs concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Rivesaltes concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Les Avants">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Montreux" resp="Switzerland">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#hirschD_de">
+                <!-- begin spool 9-74B -->
+                <div lang="en">
+                    <u who="#boderD" start="2.352" end="x">[In English] Paris, August 26th. This is Spool 74, starting at about thirteen minutes. The interviewee is David Hirsch, at the ORT School for Boys. Oh, this isn't Paris, excuse me, this is Geneva.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="27.196" end="x">[In German] Also Herr Hirsch, können Sie mir sagen, wo waren Sie wenn der Krieg hat angefangen und was ist Ihnen passiert?</u>
+                    <u who="#hirschD" start="35.020" end="x">Also...</u>
+                    <u who="#boderD" start="36.106" end="x">Sagen Sie nochmal Ihren Namen. Was ist Ihr Name?</u>
+                    <u who="#hirschD" start="38.895" end="x">Mein Name ist David Hirsch.</u>
+                    <u who="#boderD" start="39.845" end="x">[unverständlich]</u>
+                    <u who="#hirschD" start="40.885" end="x">Mein Name ist David Hirsch.</u>
+                    <u who="#boderD" start="42.664" end="x">Wie alt sind Sie denn?</u>
+                    <u who="#hirschD" start="43.900" end="x">18 Jahre.</u>
+                    <u who="#boderD" start="45.106" end="x">18 Jahre. Also wo waren Sie wenn der Krieg hat angefangen?</u>
+                    <u who="#hirschD" start="48.664" end="x">Beim Beginn des Krieges war ich noch in Deutschland, und zwar in Mannheim.</u>
+                    <u who="#boderD" start="52.855" end="x">In Mannheim. Sind Sie geboren in Deutschland?</u>
+                    <u who="#hirschD" start="55.086" end="x">Jawohl.</u>
+                    <u who="#boderD" start="55.659" end="x">Sind Sie deutsch geboren, nicht wahr?</u>
+                    <u who="#hirschD" start="57.046" end="x">Jawohl.</u>
+                    <u who="#boderD" start="58.071" end="x">Wann, äh, was war Ihre Elterns Beschäftigung?</u>
+                    <u who="#hirschD" start="62.232" end="x">Meine Eltern, äh, sind schon ziemlich früh aus Deutschland weg, also, ich weiß eigentlich gar nicht genau, was sie machten da in Deutschland. Ich war später mit meinen Großeltern.</u>
+                    <u who="#boderD" start="72.830" end="x">Aha. Wann sind ungefähr Ihre Eltern von Deutschland weggegangen?</u>
+                    <u who="#hirschD" start="76.523" end="x">Siebenunddreißig.</u>
+                    <u who="#boderD" start="77.760" end="x">Sie sind's in siebenunddreißig, und wissen Sie nicht, erinnern Sie sich nicht was Ihre Elterns Geschäft war?</u>
+                    <u who="#hirschD" start="82.298" end="x">Also, mein Vater hat früher Tischlerei, oder... [unverständlich]</u>
+                    <u who="#boderD" start="86.775" end="x">Ja. Was tut Ihr Vater jetzt?</u>
+                    <u who="#hirschD" start="90.152" end="x">Jetzt ist er in Argentinien. Buenos Aires.</u>
+                    <u who="#boderD" start="93.258" end="x">Oh, er ist in Argentinien.</u>
+                    <u who="#hirschD" start="94.570x" end="x">Ja.</u>
+                    <u who="#boderD" start="95.098" end="x">Mit Ihrer Mutter?</u>
+                    <u who="#hirschD" start="96.259" end="x">Jawohl.</u>
+                    <u who="#boderD" start="96.937" end="x">Gehen Sie auch nach Argentinien?</u>
+                    <u who="#hirschD" start="98.385" end="x">Jawohl.</u>
+                    <u who="#boderD" start="99.033" end="x">Wenn?</u>
+                    <u who="#hirschD" start="100.330" end="x">Ich rechne so in einigen Monaten. Beantrage gerade mein Visum, nicht?</u>
+                    <u who="#boderD" start="104.657" end="x">Ja. Also Sie sind dann mit Ihren Großeltern in Mannheim geblieben, ja?</u>
+                    <u who="#hirschD" start="108.833" end="x">Ja.</u>
+                    <u who="#boderD" start="109.391" end="x">Alright. Und was war dann passiert wie der Krieg anfing?</u>
+                    <u who="#hirschD" start="112.542" end="x">Also, äh, das erste Kriegsjahr waren wir noch in Mannheim, bis 1940. 1940 wurden ja alle Pfälzer und Badenser Juden nach Frankreich, beziehungsweise nach Gurs deportiert.</u>
+                    <u who="#boderD" start="126.095" end="x">Obwohl Frankreich hat schon den Waffenstillstand erklärt.</u>
+                    <u who="#hirschD" start="129.065" end="x">Ja, ja. Im Oktober war das.</u>
+                    <u who="#boderD" start="129.774" end="x">Und dann wurden was? Die deutschen Juden wurden wohin deportiert?</u>
+                    <u who="#hirschD" start="133.467" end="x">Nach Frankreich.</u>
+                    <u who="#boderD" start="134.704" end="x">Ja?</u>
+                    <u who="#hirschD" start="135.292" end="x">Camp de Gurs.</u>
+                    <u who="#boderD" start="136.513" end="x">Ja. Und so, wer wurde von Ihnen deportiert?</u>
+                    <u who="#hirschD" start="141.247" end="x">Bitte?</u>
+                    <u who="#boderD" start="141.986" end="x">Also, wer wurde deportiert? Ihre Großeltern...</u>
+                    <u who="#hirschD" start="144.654" end="x">Und ich.</u>
+                    <u who="#boderD" start="145.408" end="x">Ja. Ihre Großeltern und Sie.</u>
+                    <u who="#hirschD" start="146.885" end="x">Jawohl.</u>
+                    <u who="#boderD" start="147.458" end="x">Waren da noch andere Kinder oder auch andere mit Ihnen?</u>
+                    <u who="#hirschD" start="150.021" end="x">Jawohl, da waren noch, äh, ähm, drei, äh, Tanten, und, äh, das ist alles.</u>
+                    <u who="#boderD" start="157.860" end="x">Alles. Und Ihre Eltern waren schon in Argentinien?</u>
+                    <u who="#hirschD" start="160.815" end="x">Jawohl.</u>
+                    <u who="#boderD" start="161.358" end="x">Ja, also. Nun, was war dann passiert?</u>
+                    <u who="#hirschD" start="164.539" end="x">Nun war ich dann ein Jahr im KZ in Frankreich...</u>
+                    <u who="#boderD" start="169.650" end="x">Was war das? Im...</u>
+                    <u who="#hirschD" start="170.871" end="x">KZ, Konzentrationslager.</u>
+                    <u who="#boderD" start="172.529" end="x">Oh, KZ, nennen Sie das. Sie waren in Frankreich im Konzentrationslager.</u>
+                    <u who="#hirschD" start="176.509" end="x">Ja.</u>
+                    <u who="#boderD" start="176.690" end="x">In welcher Stadt?</u>
+                    <u who="#hirschD" start="177.866" end="x">In Gurs.</u>
+                    <u who="#boderD" start="179.268" end="x">Ja?</u>
+                    <u who="#hirschD" start="180.625" end="x">Und, äh...</u>
+                    <u who="#boderD" start="181.153" end="x">Mit Ihren Großeltern?</u>
+                    <u who="#hirschD" start="182.947" end="x">Jawohl. </u>
+                    <u who="#boderD" start="184.771" end="x">Mit Ihren Großeltern zusammen waren Sie im Konzentrationslager?</u>
+                    <u who="#hirschD" start="188.118" end="x">Ja.</u>
+                    <u who="#boderD" start="190.877" end="x">Nun, [unverständlich], äh, beschreiben Sie mal, was für ein Lager war das und wie haben Sie dort gelebt?</u>
+                    <u who="#hirschD" start="197.103" end="x">Also, die ersten fünf Monate war ich da in einem Lager, das, äh, früher schon von Rotspaniern aufgebaut wurde.</u>
+                    <u who="#boderD" start="207.686" end="x">Ja.</u>
+                    <u who="#hirschD" start="208.802" end="x">Mit, äh, Stacheldraht umgeben, in der Mitte führt die Lagerstraße durch.</u>
+                    <u who="#boderD" start="215.028" end="x">Ja.</u>
+                    <u who="#hirschD" start="215.420" end="x">Und, äh, jede Abteilung, das heißt, von A bis M hat verschiedene Abteilungen. Die sind extra mit Stacheldraht, äh, umzaunt, die Männer sind, äh, in extra Abteilungen und die Frauen in extra Abteilungen.</u>
+                    <u who="#boderD" start="231.159" end="x">Also, wurde dann Ihr Großvater von Ihrer Großmutter, sepa..., äh,...</u>
+                    <u who="#hirschD" start="234.521" end="x">Jawohl.</u>
+                    <u who="#boderD" start="235.199" end="x">Abgetrennt, ab..., ja. Und, Ihre Tanten sind mit Ihrer Mutter ge...</u>
+                    <u who="#hirschD" start="239.571" end="x">Jawohl.</u>
+                    <u who="#boderD" start="239.933" end="x">Ja. Nun, was, äh, mit Ihrer Großmutter...</u>
+                    <u who="#hirschD" start="242.194" end="x">Ja.</u>
+                    <u who="#boderD" start="242.707" end="x">Nun, was hat denn passiert?</u>
+                    <u who="#hirschD" start="245.466" end="x">Also, was das Leben anbetrifft war es nicht, äh, besonders gut. </u>
+                    <u who="#boderD" start="250.365" end="x">Wer hat sie aufgepasst, Deutsche oder Franzosen?</u>
+                    <u who="#hirschD" start="252.567" end="x">Franzosen.</u>
+                    <u who="#boderD" start="253.728" end="x">Ja. Nun, haben Sie arbeiten müssen?</u>
+                    <u who="#hirschD" start="257.633" end="x">Nein, nicht arbeiten.</u>
+                    <u who="#boderD" start="259.879" end="x">Also, wie lange hat das gedauert und was hat nachher passiert?</u>
+                    <u who="#hirschD" start="263.015" end="x">Also, hier waren wir fünf Monate...</u>
+                    <u who="#boderD" start="265.322" end="x">Ja.</u>
+                    <u who="#hirschD" start="265.789" end="x">... bis Monat März '41.</u>
+                    <u who="#boderD" start="267.809" end="x">Ja.</u>
+                    <u who="#hirschD" start="268.292" end="x">Von hier aus sind wir dann nach Camp de Rivesaltes verschickt worden.</u>
+                    <u who="#boderD" start="272.347" end="x">Alle?</u>
+                    <u who="#hirschD" start="273.433" end="x">Nicht alle.</u>
+                    <u who="#boderD" start="274.413" end="x">Aber Sie mit Ihrer Familie?</u>
+                    <u who="#hirschD" start="275.363" end="x">Jawohl.</u>
+                    <u who="#boderD" start="275.951" end="x">[unverständlich] Während Sie im Lager waren, haben Sie Ihre Großeltern sehen können?</u>
+                    <u who="#hirschD" start="280.971" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="281.634" end="x">Ja, nun? Dann?</u>
+                    <u who="#hirschD" start="284.318" end="x">Dann waren wir also sieben Monate in Rivesaltes. Rivesaltes ist so ungefähr ein Lager, fünfundzwanzig, äh, Quadratkilometer Fläche.</u>
+                    <u who="#boderD" start="295.338" end="x">Ja. Und. Was waren das, Gebäude, Häuser, Barracken?</u>
+                    <u who="#hirschD" start="299.318" end="x">Ähm. Steinbarracken.</u>
+                    <u who="#boderD" start="301.338" end="x">Ja. Die hat man doch nicht jetzt gebaut?</u>
+                    <u who="#hirschD" start="303.931" end="x">Nein, die waren schon früher. Es waren früher Militärlager gewesen.</u>
+                    <u who="#boderD" start="307.549" end="x">Ja. Nun?</u>
+                    <u who="#hirschD" start="309.687" end="x">Und, äh, hier wurden wir dann ungefähr zu hundertzwanzigst in Barracken, einer Person nach der anderen, nicht, äh...</u>
+                    <u who="#boderD" start="318.566" end="x">Wie viele Betten waren...</u>
+                    <u who="#hirschD" start="320.556" end="x">Die Betten, ja, ja.</u>
+                    <u who="#boderD" start="321.793" end="x">Und wieviel Leute in einem Bett?</u>
+                    <u who="#hirschD" start="325.667" end="x">Äh, im ganzen waren hundertzwanzig. Das war eine Reihe lang.</u>
+                    <u who="#boderD" start="329.497" end="x">Ja.</u>
+                    <u who="#hirschD" start="329.633" end="x">War nicht direkt die Reihe ein Bett pro Person, sondern eine Reihe durch mit Stroh.</u>
+                    <u who="#boderD" start="333.869" end="x">Ja. Nun?</u>
+                    <u who="#hirschD" start="336.161" end="x">Hier war ich also sieben Monaten und wurde dann, äh, befreit durch die OSE.</u>
+                    <u who="#boderD" start="343.684" end="x">Wie ist das? Wieso hat Sie die OSE befreit?</u>
+                    <u who="#hirschD" start="346.232" end="x">Alle Jugendliche wurden, äh, viele Jugendliche auf jeden Fall, wurden durch die OSE befreit... Aus den französischen Lagern.</u>
+                    <u who="#boderD" start="354.539" end="x">Oh. War es nicht von den Deutschen eingenommen das Lager?</u>
+                    <u who="#hirschD" start="358.021" end="x">Nein, das war noch von, von der französischen Behörde im unbesetzten Gebiet...</u>
+                    <u who="#boderD" start="363.449" end="x">Ja?</u>
+                    <u who="#hirschD" start="363.796" end="x">... äh, war das bewacht gewesen, nicht?</u>
+                    <u who="#boderD" start="366.826" end="x">Oh, äh, und die Franzosen, die OSE hat alle Jugendlichen weggelassen? Also was...</u>
+                    <u who="#hirschD" start="372.464" end="x">Von allen... Sie hat versucht, ähm, so viel als möglich zu befreien.</u>
+                    <u who="#boderD" start="376.927" end="x">Ja. Nun, und was ist von Ihren Großeltern geworden?</u>
+                    <u who="#hirschD" start="380.440" end="x">Die waren dann noch ungefähr bis August '42, waren die noch in diesem selben Lager und wurden dann irgendwohin, ahm, verschickt. Entweder nach Deutschland oder in Polen.</u>
+                    <u who="#boderD" start="396.736" end="x">Und Sie haben niemals von denen gehört?</u>
+                    <u who="#hirschD" start="398.244" end="x">Niemals etwas gehört ...bislang.</u>
+                    <u who="#boderD" start="400.747" end="x">Haben Sie jetzt Aufspürungen gesucht, haben Sie nach gesucht?</u>
+                    <u who="#hirschD" start="404.591" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="405.677" end="x">Und was... Sie haben nichts...</u>
+                    <u who="#hirschD" start="407.652" end="x">Nichts.</u>
+                    <u who="#boderD" start="408.180" end="x">Äh, sprechen Sie noch lauter. Sie haben nichts von denen gehört?</u>
+                    <u who="#hirschD" start="411.240" end="x">Nichts gehört.</u>
+                    <u who="#boderD" start="412.507" end="x">Also, was hat die OSE mit Ihnen gemacht, wenn sie Sie befreit hat?</u>
+                    <u who="#hirschD" start="415.658" end="x">Also, ich kam dann in ein Kinderheim, und ...</u>
+                    <u who="#boderD" start="419.321" end="x">Ja, wie alt waren Sie dann?</u>
+                    <u who="#hirschD" start="421.613" end="x">Dreizehn.</u>
+                    <u who="#boderD" start="422.623" end="x">Ja?</u>
+                    <u who="#hirschD" start="423.980" end="x">Bei Limoges. Das war also sehr gut, hier war ich zwei Jahre.</u>
+                    <u who="#boderD" start="429.121" end="x">Ja?</u>
+                    <u who="#hirschD" start="429.739" end="x">Nicht ganz zwei Jahre.</u>
+                    <u who="#boderD" start="431.397" end="x">Ja?</u>
+                    <u who="#hirschD" start="432.302" end="x">Und, äh, schließlich hat‘s dann für mich wieder angefangen, dass ich das Alter von fünfzehn Jahre gehabt habe, und, äh, von der französischen Polizei gesucht wurde.</u>
+                    <u who="#boderD" start="443.262" end="x">Ja?</u>
+                    <u who="#hirschD" start="443.790" end="x">Und von einem, äh...</u>
+                    <u who="#boderD" start="444.724" end="x">Sogar wie in dem Heim von [unverständlich]?</u>
+                    <u who="#hirschD" start="447.146" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="447.640" end="x">Lebten Sie in einem Heim, wie viel Jungens waren Sie zusammen?</u>
+                    <u who="#hirschD" start="451.327" end="x">Wir waren Jungens und Mädels, ungefähr im Ganzen hundert.</u>
+                    <u who="#boderD" start="456.520" end="x">Ja. Was haben Sie dort im Heim getan?</u>
+                    <u who="#hirschD" start="459.785" end="x">Gärtnerei- und Lederarbeiten.</u>
+                    <u who="#boderD" start="462.616" end="x">Ja?</u>
+                    <u who="#hirschD" start="463.791" end="x">Und sonst noch bisschen studiert, Englisch, Deutsch gemacht, nicht?</u>
+                    <u who="#boderD" start="467.887" end="x">Ja, man hat unterrichtet. Nun, und, äh, wer waren die Lehrer?</u>
+                    <u who="#hirschD" start="473.159" end="x">Die Lehrer waren alles Juden.</u>
+                    <u who="#boderD" start="475.400" end="x">Und man hat die nicht weggeschickt?</u>
+                    <u who="#hirschD" start="478.063" end="x">Nein, vorerst, äh, konnten sie noch bleiben, aber später wurde es dann, im Jahre dreiundv..., äh, Ende '42, Anfang '43, wurde es dann für die genauso schlimm.</u>
+                    <u who="#boderD" start="489.099" end="x">Und dann?</u>
+                    <u who="#hirschD" start="491.599" end="x">Also, ich war dann bis Mai '43 eben in diesem Heim...</u>
+                    <u who="#boderD" start="496.870" end="x">Ja.</u>
+                    <u who="#hirschD" start="497.503" end="x">... und, äh, musste dann noch mit einigen Kameraden das Heim verlassen.</u>
+                    <u who="#boderD" start="501.551" end="x">Warum?</u>
+                    <u who="#hirschD" start="503.328" end="x">Eben weil wir gesucht wurden von der Polizei.</u>
+                    <u who="#boderD" start="505.889" end="x">Sie wurden gesucht von der Polizei?</u>
+                    <u who="#hirschD" start="507.136" end="x">Ja, nicht direkt, noch, so dass wir auf der Liste waren, sondern wir, äh, wir waren, wir hätten jeden Moment, äh, geholt werden können, nicht?</u>
+                    <u who="#boderD" start="517.148" end="x">Ja. Und?</u>
+                    <u who="#hirschD" start="518.383" end="x">Von hier aus bin ich dann nach Südfrankreich.</u>
+                    <u who="#boderD" start="522.220" end="x">Ja.</u>
+                    <u who="#hirschD" start="523.305" end="x">Und, äh...</u>
+                    <u who="#boderD" start="524.281" end="x">Sind Sie mit den Jungen einfach weggelaufen?</u>
+                    <u who="#hirschD" start="526.642" end="x">Nein, wir wurden alle, äh, wir wurden, äh, weg...</u>
+                    <u who="#boderD" start="532.215" end="x">Ausgerüstet? </u>
+                    <u who="#hirschD" start="533.191" end="x">Ausgerüstet...</u>
+                    <u who="#boderD" start="534.378" end="x">Die Schule hat es gewusst, ja?</u>
+                    <u who="#hirschD" start="535.896" end="x">Ja, ja. Wir wurden da bis nach Grenoble und von hier aus wurden wir dann bei Bauern versteckt.</u>
+                    <u who="#boderD" start="541.589" end="x">Ja. Und, äh, wie lange hat das gedauert?</u>
+                    <u who="#hirschD" start="545.788" end="x">Das heißt ich war dann während sechs Monaten als guter Franzose mit falschen Papieren...</u>
+                    <u who="#boderD" start="551.071" end="x">Ja. Wer hat die Papiere für Sie gemacht?</u>
+                    <u who="#hirschD" start="553.812" end="x">Die hab ich mir auf dem Bürgermeisteramt geholt. In dem Dorf wo ich war.</u>
+                    <u who="#boderD" start="557.457" end="x">Wieso, Sie haben gesagt Ihren Namen...</u>
+                    <u who="#hirschD" start="559.065" end="x">Ich hab irgendeinen Namen erfunden, und, äh, hab mich dort vorgstellt, hab‘ Fotos gemacht, und äh [unverständlich]...</u>
+                    <u who="#boderD" start="566.005" end="x">Hat Ihnen Papiere gegeben?</u>
+                    <u who="#hirschD" start="566.981" end="x">Hat mir meine Papiere...</u>
+                    <u who="#boderD" start="567.626" end="x">Und welche Religion haben Sie angegeben?</u>
+                    <u who="#hirschD" start="570.138" end="x">Religion hab ich keine angegeben. Gar nichts.</u>
+                    <u who="#boderD" start="573.662" end="x">Nun, und dann haben Sie was? Auf dem Dorfe gelebt? Haben Sie gearbeitet?</u>
+                    <u who="#hirschD" start="577.487" end="x">Ich hab gearbeitet, für den Bauer.</u>
+                    <u who="#boderD" start="579.837" end="x">Und dann?</u>
+                    <u who="#hirschD" start="582.198" end="x">Und dann... ich wurde da von der jüdischen Organisation, Pfadfinderorganisation, die die jungen Leute eben versteckt hatte, wurd‘ ich öfters mal von, äh, von diesen Leuten aufgesucht.</u>
+                    <u who="#boderD" start="597.439" end="x">Was haben Sie diese Organisation genannt?</u>
+                    <u who="#hirschD" start="600.512" end="x">Pfadfinder.</u>
+                    <u who="#boderD" start="601.307" end="x">Was?</u>
+                    <u who="#hirschD" start="601.940" end="x">Pfadfinder.</u>
+                    <u who="#boderD" start="602.795" end="x">Pfadfinder, ja?</u>
+                    <u who="#hirschD" start="604.783" end="x">Ja. Die, die, das heißt, die jüdische Widerstandsbewegung in Frankreich.</u>
+                    <u who="#boderD" start="608.458" end="x">Ja?</u>
+                    <u who="#hirschD" start="609.121" end="x">Die die jungen Leute eben versteckt hat beim Bauern.</u>
+                    <u who="#boderD" start="613.651" end="x">Ja.</u>
+                    <u who="#hirschD" start="614.374" end="x">Und, äh, die machten dann einige Besuche während der Zeit als ich dort war.</u>
+                    <u who="#boderD" start="619.555" end="x">Ja.</u>
+                    <u who="#hirschD" start="619.989" end="x">Und, äh...</u>
+                    <u who="#boderD" start="621.537" end="x">Was war das für eine Organisation?</u>
+                    <u who="#hirschD" start="624.549" end="x">Das war IJF.<note n="1">Gemeint sind mit hoher Wahrscheinlichkeit die EIF (Eclaireurs Israélites de France), die jüdische Pfadfinderorganisation Frankreichs, die sich im 2. Weltkrieg beispielsweise für die Befreiung jüdischer Kinder und Jugendlicher aus den Arbeits- und Konzentrationslagern einsetzte.</note></u>
+                    <u who="#boderD" start="627.802" end="x">Wie?</u>
+                    <u who="#hirschD" start="628.676" end="x">I, i - schi - i - j - ...</u>
+                    <u who="#boderD" start="636.068" end="x">J?</u>
+                    <u who="#hirschD" start="637.014" end="x">I.</u>
+                    <u who="#boderD" start="638.954" end="x">I?</u>
+                    <p>(Stille)</p>
+                    <u who="#boderD" start="646.599" end="x">Äh, nur die Jugend...</u>
+                    <u who="#hirschD" start="651.539" end="x">Äh, nein, des war der, der, die ganzen Vereine in Frankreich, alle Juden, des war dann so 'n, äh, ...</u>
+                    <u who="#boderD" start="660.045" end="x">Ja.</u>
+                    <u who="#hirschD" start="660.467" end="x">... ich weiß nicht genau.</u>
+                    <u who="#boderD" start="660.467" end="x">Ja, und wie haben die sich geheimgehalten und so?</u>
+                    <u who="#hirschD" start="663.925" end="x">Ja, das war unter, das war unter, äh, OSE glaub ich gestanden.</u>
+                    <u who="#boderD" start="667.901" end="x">Ja.</u>
+                    <u who="#hirschD" start="668.323" end="x">Eben diese Organisation.</u>
+                    <u who="#boderD" start="669.419" end="x">Ja, und wie lange haben Sie dort gelebt?</u>
+                    <u who="#hirschD" start="673.034" end="x">Ich hab dort sechs Monate gelebt...</u>
+                    <u who="#boderD" start="675.215" end="x">Ja.</u>
+                    <u who="#hirschD" start="675.619" end="x">... und, äh, konnte zufälligerweise durch so einen Besuch mal vorsprechen wie's eigentlich steht mit den anderen Jungens und Mädels, die, äh, soviel ich, äh, gehört hatte damals, in die Schweiz, äh, gehen konnten.</u>
+                    <u who="#boderD" start="690.842" end="x">Ja?</u>
+                    <u who="#hirschD" start="691.336" end="x">So sagt man mir, sie wissen im Moment überhaupt nichts, und, äh, drei Wochen später bekam ich dann einen Brief...</u>
+                    <u who="#boderD" start="700.595" end="x">Ja?</u>
+                    <u who="#hirschD" start="700.926" end="x">... dass, äh, dass ich mich bereit machen soll, ich fahr dann in eine Schule nach Lyon, eine Großschule...</u>
+                    <u who="#boderD" start="710.203" end="x">Ja?</u>
+                    <u who="#hirschD" start="711.197" end="x">... und ich weiß nicht, damals, ich dachte gerade ich könnte vielleicht in die Schweiz rein, nicht, schließlich schreibt man alles, äh, etwas per Brief...</u>
+                    <u who="#boderD" start="719.974" end="x">Ja.</u>
+                    <u who="#hirschD" start="720.366" end="x">... damit's nicht rauskommt. Und so wars schließlich, dass ich in die Schweiz gekommen bin mit noch einem Kameraden, und wir dann zusammen...</u>
+                    <u who="#boderD" start="726.914" end="x">Vorher sind Sie nach Lyon gegangen?</u>
+                    <u who="#hirschD" start="728.541" end="x">Nein, nach Lyon bin ich nicht gefahren, das war nur, äh, im Brief gestanden.</u>
+                    <u who="#boderD" start="733.402" end="x">Ja. Aber es hat gemeint, dass was?</u>
+                    <u who="#hirschD" start="735.541" end="x">Ja, dass wir nach der Schweiz fahren.</u>
+                    <u who="#boderD" start="737.559" end="x">Nun?</u>
+                    <u who="#hirschD" start="738.101" end="x">So sind wir bis nach Annecy gefahren...</u>
+                    <u who="#boderD" start="741.083" end="x">Wie, äh, per Bahn oder...</u>
+                    <u who="#hirschD" start="742.559" end="x">Per Bahn.</u>
+                    <u who="#boderD" start="743.192" end="x">Ja. Und niemand hat Sie nicht, äh, abgehalten?</u>
+                    <u who="#hirschD" start="745.734" end="x">Doch, wir sind einige Mal von Deutschen kontrolliert worden, aber da wir, äh, unsere Papiere gehabt haben...</u>
+                    <u who="#boderD" start="752.029" end="x">Ja, und Sie haben Französisch gesprochen?</u>
+                    <u who="#hirschD" start="753.837" end="x">Französische Papiere...</u>
+                    <u who="#boderD" start="755.295" end="x">Ja, haben Sie gesagt, dass Sie Deutsch können?</u>
+                    <u who="#hirschD" start="757.415" end="x">Nein, nein.</u>
+                    <u who="#boderD" start="757.897" end="x">Und die haben nicht gefragt, ob Sie Juden waren?</u>
+                    <u who="#hirschD" start="760.126" end="x">Nein, nein.</u>
+                    <u who="#boderD" start="760.819" end="x">Nun?</u>
+                    <u who="#hirschD" start="761.241" end="x">Sie haben, äh, die Papiere, die richtigen Papiere eben gesehen, da haben Sie uns durchgelassen, nicht?</u>
+                    <u who="#boderD" start="765.861" end="x">Ja. Und so gingen Sie wie weit?</u>
+                    <u who="#hirschD" start="767.940" end="x">So ging ich bis an die Schweizer Grenze, bis nach, ähm, Annecy...</u>
+                    <u who="#boderD" start="774.518" end="x">Ja?</u>
+                    <u who="#hirschD" start="775.603" end="x">In Annecy suchten wir dann am selben Tag jemand auf, der uns da eben die Stelle sagen sollte [unverständlich].</u>
+                    <u who="#boderD" start="783.085" end="x">Und, äh, wie haben Sie versucht den aufzusuchen?</u>
+                    <u who="#hirschD" start="785.760" end="x">Eben auch durch die Organisation.</u>
+                    <u who="#boderD" start="788.079" end="x">Die OSE?</u>
+                    <u who="#hirschD" start="789.254" end="x">Nicht die OSE, die, äh [unverständlich]...</u>
+                    <u who="#boderD" start="791.091" end="x">Die jüdische, die IJF?</u>
+                    <u who="#hirschD" start="793.875" end="x">Die, äh, die hat vielmehr die Sechste geheißen. Diese, äh, denn OSE war dritte, und so war es in mehrere Gruppen eingeteilt, denn OSE hat für die Kinder gesorgt, nicht, äh, was Gesundheit anbetrifft und so waren so mehrere Gruppen da.</u>
+                    <u who="#boderD" start="807.863" end="x">Ja. Nun, und?</u>
+                    <u who="#hirschD" start="811.188" end="x">Und, äh, wir fanden dann niemand und mussten schließlich nach Chambéry während acht Tage zurück, um uns in Chambéry acht Tage zu verstecken.</u>
+                    <u who="#boderD" start="821.730" end="x">Ja? </u>
+                    <u who="#hirschD" start="822.363" end="x">Hier, äh, waren wir dann in einem Dachboden oben gelegen mit noch anderen Juden zusammen...</u>
+                    <u who="#boderD" start="831.309" end="x">Ja. Was waren diese, auch junge Leute?</u>
+                    <u who="#hirschD" start="833.640" end="x">Junge und ältere Leute.</u>
+                    <u who="#boderD" start="834.845" end="x">Ja. Und wessen Dachboden war das?</u>
+                    <u who="#hirschD" start="837.990" end="x">Das wussten wir überhaupt nicht, man hat uns einfach hier oben rauf getan. So lagen wir ungefähr fünf Tage auf dem Dachboden...</u>
+                    <u who="#boderD" start="844.990" end="x">Ja?</u>
+                    <u who="#hirschD" start="845.833" end="x">... und plötzlich ist dann...</u>
+                    <p>(Klopfen im Hintergrund)</p>
+                    <u who="#boderD" start="848.538" end="x">Sie waren auf dem Dachboden und dann?</u>
+                    <u who="#hirschD" start="850.357" end="x">Und plötzlich, äh, kam nach fünf Tagen der Besitzer. Der...</u>
+                    <u who="#boderD" start="855.478" end="x">Oh, der Besitzer hat nicht gewusst [unverständlich]...</u>
+                    <u who="#hirschD" start="857.207" end="x">Der wusste überhaupt nichts. Und, äh, sagte uns dann wir können ruhig bleiben, aber, äh, wir sollen das Zimmer auf unseren Namen nehmen.</u>
+                    <u who="#boderD" start="866.346" end="x">Auf welchen Namen nehmen?</u>
+                    <u who="#hirschD" start="867.804" end="x">Äh, polizeilich auf unseren Namen einschreiben.</u>
+                    <u who="#boderD" start="871.370" end="x">Ja?</u>
+                    <u who="#hirschD" start="871.912" end="x">Das wollten wir natürlich nicht, und, äh...</u>
+                    <u who="#boderD" start="874.503" end="x">Wie viel Leute waren dort im Zimmer?</u>
+                    <u who="#hirschD" start="876.172" end="x">Ungefähr zehn Leute.</u>
+                    <u who="#boderD" start="877.720" end="x">In einem Zimmer?</u>
+                    <u who="#hirschD" start="878.594" end="x">Ja, also aufm Dach oben.</u>
+                    <u who="#boderD" start="880.534" end="x">Ja. Waren da auch Frauen?</u>
+                    <u who="#hirschD" start="882.263" end="x">Nein.</u>
+                    <u who="#boderD" start="882.877" end="x">Ja, nun?</u>
+                    <u who="#hirschD" start="884.594" end="x">Nun, haben wir das Haus da verlassen...</u>
+                    <u who="#boderD" start="888.450" end="x">Ja.</u>
+                    <u who="#hirschD" start="889.366" end="x">... und, äh, haben uns dann noch eine Nacht in einem Hotel dort aufgehalten...</u>
+                    <u who="#boderD" start="895.221" end="x">Ja?</u>
+                    <u who="#hirschD" start="895.944" end="x">... und, äh, nächsten Tag fuhren wir dann...</u>
+                    <u who="#boderD" start="898.746" end="x">(Ungläubig) In einem Hotel?</u>
+                    <u who="#hirschD" start="899.993" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="900.818" end="x">Haben Sie bezahlt?</u>
+                    <u who="#hirschD" start="902.595" end="x">Ja...</u>
+                    <u who="#boderD" start="902.897" end="x">Konnten Sie das?</u>
+                    <u who="#hirschD" start="903.602" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="904.849" end="x">Und wie hat das Hotel Sie reingelassen ohne der Polizei mitzuteilen?</u>
+                    <u who="#hirschD" start="909.138" end="x">Ähm, ich war doch Franzose gewesen damals, nicht?</u>
+                    <u who="#boderD" start="911.488" end="x">Oh, ja. Ja. </u>
+                    <u who="#hirschD" start="912.855" end="x">(Lacht.)</u>
+                    <u who="#boderD" start="913.247" end="x">Und die anderen Leute? Sind die mit Ihnen mitgegangen?</u>
+                    <u who="#hirschD" start="915.355" end="x">Nein, wir waren nur zu zweit...</u>
+                    <u who="#boderD" start="916.861" end="x">Aha.</u>
+                    <u who="#hirschD" start="917.223" end="x">... mein Kamerad und ich.</u>
+                    <u who="#boderD" start="918.048" end="x">Ja. Und?</u>
+                    <u who="#hirschD" start="919.343" end="x">Und, äh, nächsten Tag hab ich dann 'ne Gruppe Jungens und Mädels getroffen, in Annecy, wieder, wir sind also am nächsten wieder hingefahren nach Annecy, und, äh, abends gegen halb sieben haben wir dann den Omnibus genommen...</u>
+                    <u who="#boderD" start="935.187" end="x">Ja?</u>
+                    <u who="#hirschD" start="935.518" end="x">... bis, äh, Saint-Julien...<note n="2">Saint-Julien-en-Genevois (Hochsavoyen)</note></u>
+                    <u who="#boderD" start="937.217" end="x">Ja?</u>
+                    <u who="#hirschD" start="937.771" end="x">... direkt an der Grenze...</u>
+                    <u who="#boderD" start="939.458" end="x">Ja?</u>
+                    <u who="#hirschD" start="939.862" end="x">... hier sind wir dann in ein Bauernhaus, das ungefähr 200 Meter von der Grenze ist... </u>
+                    <u who="#boderD" start="944.904" end="x">Ja?</u>
+                    <u who="#hirschD" start="945.235" end="x">... und, äh, der Bauer, natürlich, hat sich zuerst umgeschaut, ob niemand da ist, und, äh, so sind wir zu acht über die Grenze gekommen. Und da war noch ein kleines Mädchen von fünf Jahren, und, äh...</u>
+                    <u who="#boderD" start="959.663" end="x">Wie ist das mit Ihnen gekommen?</u>
+                    <u who="#hirschD" start="961.681" end="x">Ja.</u>
+                    <u who="#boderD" start="962.314" end="x">Wo haben Sie die anderen sechs gefunden? Sie waren doch zwei?</u>
+                    <u who="#hirschD" start="966.422" end="x">Die anderen sechs, die haben wir dann eben in Annecy gefunden. In Annecy ist 'n Transport, also 'n Kindertransport aus Paris nach Annecy, angeblich in den Ferien...</u>
+                    <u who="#boderD" start="975.669" end="x">Ja?</u>
+                    <u who="#hirschD" start="976.272" end="x">... gefahren. Und die haben wir dort mitgenommen. Von dort aus.</u>
+                    <u who="#boderD" start="979.236" end="x">Aha. Und wer hat Ihnen das Bauernhaus angezeigt?</u>
+                    <u who="#hirschD" start="983.405" end="x">War jemand mit uns.</u>
+                    <u who="#boderD" start="984.682" end="x">Der hat gewusst?</u>
+                    <u who="#hirschD" start="985.556" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="986.050" end="x">Wer war das?</u>
+                    <u who="#hirschD" start="987.056" end="x">Ich kenn keinen Namen.</u>
+                    <u who="#boderD" start="988.170" end="x">Ist es ein Fran... Nein, ich wollte keinen Namen. War es ein Franzose, ein Jude, wer war das?</u>
+                    <u who="#hirschD" start="993.170" end="x">Keine Ahnung.</u>
+                    <u who="#boderD" start="994.044" end="x">Keine Ah...?</u>
+                    <u who="#hirschD" start="994.658" end="x">Hab den Mann niemals vorher gesehen.</u>
+                    <u who="#boderD" start="996.466" end="x">Und wie haben Sie ihn erkannt?</u>
+                    <u who="#hirschD" start="998.255" end="x">[unverständlich] vorgestellt.</u>
+                    <u who="#boderD" start="1002.864" end="x">Als was? Dass Sie weggehen müssen?</u>
+                    <u who="#hirschD" start="1005.075" end="x">Der Mann mit mir kommt.</u>
+                    <u who="#boderD" start="1007.617" end="x">Na, ich versteh das nicht. Äh, Sie waren da in der kleinen Stadt, ja?</u>
+                    <u who="#hirschD" start="1012.858" end="x">Ja.</u>
+                    <u who="#boderD" start="1013.159" end="x">Und...</u>
+                    <u who="#hirschD" start="1013.581" end="x">Wir haben die anderen...</u>
+                    <u who="#boderD" start="1014.364" end="x">... wie haben Sie den Mann erkannt?</u>
+                    <u who="#hirschD" start="1014.997" end="x">... die anderen getroffen, nicht, die...</u>
+                    <u who="#boderD" start="1017.087" end="x">Ah, Sie haben auf andere getroffen, die den Mann gekannt.</u>
+                    <u who="#hirschD" start="1020.160" end="x">Nein! Mit diesen Kindern...</u>
+                    <u who="#boderD" start="1022.250" end="x">Ja?</u>
+                    <u who="#hirschD" start="1022.793" end="x">... ist doch jemand mitgekommen als Begleitung, es...</u>
+                    <u who="#boderD" start="1025.185" end="x">Ja.</u>
+                    <u who="#hirschD" start="1025.438" end="x">... waren doch meistens kleine Kinder... </u>
+                    <u who="#boderD" start="1026.643" end="x">Ja.</u>
+                    <u who="#hirschD" start="1026.806" end="x">... aus Paris.</u>
+                    <u who="#boderD" start="1027.631" end="x">Ja?</u>
+                    <u who="#hirschD" start="1028.384" end="x">Und diese haben den Mann gekannt.</u>
+                    <u who="#boderD" start="1030.854" end="x">Oh [unverständlich].</u>
+                    <u who="#hirschD" start="1031.758" end="x">Und die, äh, folgendes wusst‘ ich gar nicht, der Mann ist einfach mitgekommen und...</u>
+                    <u who="#boderD" start="1036.017" end="x">Ja.</u>
+                    <u who="#hirschD" start="1036.378" end="x">... hatte uns das angezeigt.</u>
+                    <u who="#boderD" start="1038.125" end="x">Ja, und?</u>
+                    <u who="#hirschD" start="1039.029" end="x">Hab ich natürlich hier in der Schweiz nicht gesagt, als ich ... </u>
+                    <u who="#boderD" start="1041.409" end="x">Ja, ja, ich verstehe.</u>
+                    <u who="#hirschD" start="1041.542" end="x">...angekommen bin.</u>
+                    <u who="#boderD" start="1042.759" end="x">Und? Dann hat er Sie ins Bauernhaus genommen?</u>
+                    <u who="#hirschD" start="1045.994" end="x">Ja.</u>
+                    <u who="#boderD" start="1046.536" end="x">Ja. Und dann?</u>
+                    <u who="#hirschD" start="1047.892" end="x">Und dann, als der Bauer gesehen hat, dass keine Deutschen in der Nähe sind an der...</u>
+                    <u who="#boderD" start="1052.814" end="x">Ja.</u>
+                    <u who="#hirschD" start="1053.880" end="x">... Grenze, sind wir dann sofort los, und, äh, sind übern Stacheldraht, äh, in die Schweiz rüber.</u>
+                    <u who="#boderD" start="1059.513" end="x">Also die, und die Schweizer Wache, wo hat die Schweizer Wache... </u>
+                    <u who="#hirschD" start="1062.627" end="x">Die Schweizer Wache hatte uns erst nach, äh, zwei Kilometer Marsch in, auf Schweizer Gebiet, äh, angehalten.</u>
+                    <u who="#boderD" start="1069.465" end="x">Und da war ein kleines Mädchen von fünf Jahren mit...</u>
+                    <u who="#hirschD" start="1071.796" end="x">Ja.</u>
+                    <u who="#boderD" start="1072.158" end="x">... Ihnen? Wessen Kind war das?</u>
+                    <u who="#hirschD" start="1073.857" end="x">Ich weiß nicht. Hat noch drei Geschwister gehabt.</u>
+                    <u who="#boderD" start="1076.670" end="x">Oh, die waren auch mit?</u>
+                    <u who="#hirschD" start="1078.267" end="x">Ja.</u>
+                    <u who="#boderD" start="1078.701" end="x">Oh ja, da waren drei Geschwister mit einem kleinen Kind?</u>
+                    <u who="#hirschD" start="1081.605" end="x">Ja.</u>
+                    <u who="#boderD" start="1082.099" end="x">Sprechen Sie, äh... ja. Und dann sind Sie, haben sich der Schweizer Polizei vorgestellt? Nun erzählen Sie weiter, was hat in der Schweiz passiert?</u>
+                    <u who="#hirschD" start="1089.912" end="x">Nun, äh, hat uns eben die Schweizer Wache angehalten, man hat uns aufs nächste Zollamt gebracht...</u>
+                    <u who="#boderD" start="1096.539" end="x">Ja?</u>
+                    <u who="#hirschD" start="1097.274" end="x">... und, äh, von da aus in einem Auto mit noch mehreren Leuten, die in der selben Nacht da erwischt worden sind...</u>
+                    <u who="#boderD" start="1104.214" end="x">Ja?</u>
+                    <u who="#hirschD" start="1104.678" end="x">... hierher nach Genf gebracht.</u>
+                    <u who="#boderD" start="1106.286" end="x">Ja?</u>
+                    <u who="#hirschD" start="1106.768" end="x">In Genf wurden alle Personalien aufgenommen und so weiter.</u>
+                    <u who="#boderD" start="1111.407" end="x">Wer hat das getan?</u>
+                    <u who="#hirschD" start="1113.467" end="x">Schweizer.</u>
+                    <u who="#boderD" start="1114.160" end="x">Ja, waren keine Juden dabei?</u>
+                    <u who="#hirschD" start="1115.124" end="x">Äh, Militärpolizei.</u>
+                    <u who="#boderD" start="1116.582" end="x">Was?</u>
+                    <u who="#hirschD" start="1117.166" end="x">Militärpolizei.</u>
+                    <u who="#boderD" start="1118.221" end="x">Militärpolizei hat Ihre Namen aufgenommen und dann?</u>
+                    <u who="#hirschD" start="1121.245" end="x">Namen, Personalien, alles, nicht?</u>
+                    <u who="#boderD" start="1123.745" end="x">Ja.</u>
+                    <u who="#hirschD" start="1124.197" end="x">Woher, und so weiter. Und, äh, dann wurden wir nachts endlich mal um zwei Uhr auf Stroh geworfen...</u>
+                    <u who="#boderD" start="1131.799" end="x">Ja?</u>
+                    <u who="#hirschD" start="1132.281" end="x">... mit verschlossenen Türen...</u>
+                    <u who="#boderD" start="1133.817" end="x">Ja?</u>
+                    <u who="#hirschD" start="1134.691" end="x">Und, äh, so waren wir den ganzen Tag dort zu gewesen, bis nächsten Tag, äh, musst ich nochmal vorsprechen beim, beim zivilen Beamten.</u>
+                    <u who="#boderD" start="1147.052" end="x">Ja?</u>
+                    <u who="#hirschD" start="1147.625" end="x">Und, äh, da ich keine Papiere hatte...</u>
+                    <u who="#boderD" start="1150.800" end="x">Mhm.</u>
+                    <u who="#hirschD" start="1151.384" end="x">... wollte der liebe Mann mich dann sofort wieder aus der Schweiz rausschmeißen.</u>
+                    <u who="#boderD" start="1156.987" end="x">Also, wieso hatten Sie keine Papiere? Sie sagten Sie hatten französische Papiere?</u>
+                    <u who="#hirschD" start="1160.132" end="x">Jawohl, solange ich in Frankreich war.</u>
+                    <u who="#boderD" start="1163.066" end="x">Ja?</u>
+                    <u who="#hirschD" start="1163.952" end="x">Die Papiere hab ich so, sofort als ich über die Grenze gegangen bin in Frankreich zurückgelassen. Demjen..., dem Mann da, der mit uns gekommen ist, gegeben.</u>
+                    <u who="#boderD" start="1172.669" end="x">Ja.</u>
+                    <u who="#hirschD" start="1173.103" end="x">Damit die Papiere jemand anders dann wieder...</u>
+                    <u who="#boderD" start="1175.103" end="x">Oh, damit jemand anders [unverständlich]</u>
+                    <u who="#hirschD" start="1176.248" end="x">... zu, äh, zu Gut kommen können.</u>
+                    <u who="#boderD" start="1178.730" end="x">Ja?</u>
+                    <u who="#hirschD" start="1179.194" end="x">Schließlich muss er dann nur 's Foto wechseln.</u>
+                    <u who="#boderD" start="1181.164" end="x">Was?</u>
+                    <u who="#hirschD" start="1181.839" end="x">Schließlich muss er nur 's Foto wechseln.</u>
+                    <u who="#boderD" start="1183.357" end="x">Ja. Und dann?</u>
+                    <u who="#hirschD" start="1184.020" end="x">Stempel und alles ist da.</u>
+                    <u who="#boderD" start="1185.478" end="x">Ja? Und so, so hatten Sie überhaupt keine Papiere, und zu was hat der...</u>
+                    <u who="#hirschD" start="1190.189" end="x">So hatte ich keine Papiere und bin hier in die Schweiz gekommen auf meinen alten Namen...</u>
+                    <u who="#boderD" start="1197.038" end="x">Ja?</u>
+                    <u who="#hirschD" start="1197.520" end="x">... und, äh, meine alten Daten, wie sie eigentlich in Richtigkeit waren.</u>
+                    <u who="#boderD" start="1201.797" end="x">Ja?</u>
+                    <u who="#hirschD" start="1202.309" end="x">Nicht?</u>
+                    <u who="#boderD" start="1202.671" end="x">Und so wurden Sie...</u>
+                    <u who="#hirschD" start="1203.978" end="x">Und, äh, die wollten mich dann wieder rauswerfen.</u>
+                    <u who="#boderD" start="1206.538" end="x">Ja.</u>
+                    <u who="#hirschD" start="1207.382" end="x">Das heißt, ich hab, äh, ich hab mich nicht, äh, ich bin nicht gewichen.</u>
+                    <u who="#boderD" start="1211.400" end="x">Was?</u>
+                    <u who="#hirschD" start="1211.912" end="x">Ich bin, äh, ich bin im Büro geblieben, ich habe mich nicht rausschmeißen lassen...</u>
+                    <u who="#boderD" start="1216.912" end="x">Wie rausschmeißen? Sie haben sich nicht rausschmeißen lassen?</u>
+                    <u who="#hirschD" start="1219.683" end="x">Nein, er hat mich zur, er hat mir die Tür gewiesen.</u>
+                    <u who="#boderD" start="1222.364" end="x">Nach wo?</u>
+                    <u who="#hirschD" start="1223.430" end="x">Und, äh...</u>
+                    <u who="#boderD" start="1223.822" end="x">Sind Sie rausgegangen?</u>
+                    <u who="#hirschD" start="1225.310" end="x">Nein.</u>
+                    <u who="#boderD" start="1226.075" end="x">Nun?</u>
+                    <u who="#hirschD" start="1227.099" end="x">Nun, ich hab gesagt "Ich geh nicht!".</u>
+                    <u who="#boderD" start="1229.388" end="x">Oh.</u>
+                    <u who="#hirschD" start="1229.961" end="x">Ich hab ihm dann einen Brief von meinen Eltern gezeigt, um ihm zu beweisen, dass ich eben, meine Aussagen, äh, meine, betreffs meiner Eltern, dass sie in Buenos Aires sind, äh, dass er mir die glauben kann, nicht?</u>
+                    <u who="#boderD" start="1243.497" end="x">Was haben Sie ihm gezeigt?</u>
+                    <u who="#hirschD" start="1244.822" end="x">Einen alten Brief von meinen Eltern.</u>
+                    <u who="#boderD" start="1246.901" end="x">Oh. Den hatten Sie doch noch mit?</u>
+                    <u who="#hirschD" start="1248.540" end="x">Den hatt‘ ich noch mit.</u>
+                    <u who="#boderD" start="1249.124" end="x">Haben Sie nicht Angst gehabt, das mit sich zu tragen?</u>
+                    <u who="#hirschD" start="1251.654" end="x">Nein, nein.</u>
+                    <u who="#boderD" start="1252.799" end="x">Nun, und?</u>
+                    <u who="#hirschD" start="1254.094" end="x">Nun, äh, hat er mich also aufgeschrieben...</u>
+                    <u who="#boderD" start="1257.679" end="x">Ja?</u>
+                    <u who="#hirschD" start="1259.348" end="x">... und, äh, als alles soweit war, sollt ich doch mit sechs anderen zurückgeschickt werden.</u>
+                    <u who="#boderD" start="1264.571" end="x">Ja?</u>
+                    <u who="#hirschD" start="1265.095" end="x">Über die Grenze also zurückgestellt.</u>
+                    <u who="#boderD" start="1267.414" end="x">Ja?</u>
+                    <u who="#hirschD" start="1268.107" end="x">Und, äh, ich verstand das einfach nicht. Alle anderen mussten vortreten um durchsucht zu werden, und ich war noch mit sechs anderen...</u>
+                    <u who="#boderD" start="1277.836" end="x">Ja?</u>
+                    <u who="#hirschD" start="1278.198" end="x">... wovon auch 'n Mann darunter war, der zum sechsten Mal zurückgeschickt worden ist...</u>
+                    <u who="#boderD" start="1282.065" end="x">Ja?</u>
+                    <u who="#hirschD" start="1283.210" end="x">... und, äh,...</u>
+                    <u who="#boderD" start="1283.843" end="x">War das ein jüdischer Mann?</u>
+                    <u who="#hirschD" start="1286.204" end="x">Ich weiß nicht.</u>
+                    <u who="#boderD" start="1287.319" end="x">Und wie hat man Sie zurückgeschickt? Einfach über die Grenze geschoben...</u>
+                    <u who="#hirschD" start="1289.952" end="x">Einfach über die Grenze geschoben.</u>
+                    <u who="#boderD" start="1291.229" end="x">... oder sind Sie der Polizei dort abgegeben?</u>
+                    <u who="#hirschD" start="1293.518" end="x">Nein, über die Grenze geschoben.</u>
+                    <u who="#boderD" start="1295.777" end="x">An einer Stelle, wo keiner war?</u>
+                    <u who="#hirschD" start="1297.344" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="1298.290" end="x">Ja, nun?</u>
+                    <u who="#hirschD" start="1299.417" end="x">Nun, äh, konnte ich mich noch arrangieren irgendwie durch die Tür da zu wischen, und mich der Menge da anschließen.</u>
+                    <u who="#boderD" start="1308.917" end="x">Ja?</u>
+                    <u who="#hirschD" start="1309.339" end="x">Und mich so, äh...</u>
+                    <u who="#boderD" start="1310.375" end="x">Lauter bitte. Ja.</u>
+                    <u who="#hirschD" start="1311.068" end="x">Und so später dann ins Büro einbrechen, als alle, äh, durch waren, bin ich dann auch ins Büro nochmal reingegangen...</u>
+                    <u who="#boderD" start="1318.520" end="x">Ja.</u>
+                    <u who="#hirschD" start="1319.104" end="x">... und, äh, hab gefragt, was da, ob da irgendein Fehler vielleicht vorgekommen ist wegen meiner Sache, sagte der doch vorhin, dass es jetzt in Ordnung wär, nicht?</u>
+                    <u who="#boderD" start="1329.165" end="x">Wieso?</u>
+                    <u who="#hirschD" start="1330.322" end="x">Ja, zuerst wollt er mich rausschmeißen, nachdem ich den Brief gezeigt hab...</u>
+                    <u who="#boderD" start="1333.979" end="x">Ja?</u>
+                    <u who="#hirschD" start="1334.383" end="x">... hat er gesagt die Sache ist doch in Ordnung...</u>
+                    <u who="#boderD" start="1336.232" end="x">Ja?</u>
+                    <u who="#hirschD" start="1336.624" end="x">... er hat mir dann geglaubt. Dann ist die Sache nochmal so gewesen, dass ich schon aufm, fast aufm Weg war, um zurückgewiesen zu werden.</u>
+                    <u who="#boderD" start="1345.540" end="x">Ja. Und dann?</u>
+                    <u who="#hirschD" start="1346.395" end="x">Äh, ich bin dann nochmal zu ihm gegangen aufs Büro, hab ihm die Sache noch einmal erklärt...</u>
+                    <u who="#boderD" start="1351.516" end="x">Ja?</u>
+                    <u who="#hirschD" start="1351.950" end="x">... ob vielleicht jetzt in Zwischenzeit wieder'n Irrtum vorgekommen ist...</u>
+                    <u who="#boderD" start="1355.155" end="x">Ja.</u>
+                    <u who="#hirschD" start="1355.980" end="x">So...</u>
+                    <u who="#boderD" start="1356.733" end="x">Hat er Ihnen was gesagt?</u>
+                    <u who="#hirschD" start="1357.998" end="x">Hat er mir also... die Sache genehmigt...</u>
+                    <u who="#boderD" start="1362.306" end="x">Ja?</u>
+                    <u who="#hirschD" start="1363.011" end="x">... ich hab mein Geld abliefern müssen, mein französisches, was ich dabei gehabt hab.</u>
+                    <u who="#boderD" start="1366.668" end="x">Wieviel hatten Sie?</u>
+                    <u who="#hirschD" start="1367.885" end="x">Siebenun... siebenhundertfünfzig Franken...</u>
+                    <u who="#boderD" start="1370.156" end="x">Wo haben Sie das bekommen? </u>
+                    <u who="#hirschD" start="1372.234" end="x">... französische. Da wo ich gearbeitet habe.</u>
+                    <u who="#boderD" start="1374.012" end="x">Wo?</u>
+                    <u who="#hirschD" start="1374.988" end="x">Beim Bauern.</u>
+                    <u who="#boderD" start="1375.783" end="x">Oh, der Bauer hat Ihnen bezahlt?</u>
+                    <u who="#hirschD" start="1378.193" end="x">Er hätte mir nicht bezahlen sollen, aber die, äh, die waren sehr nett, die Leute. Und da hat er mir jede, äh, vierzehn Tag etwas bezahlt.</u>
+                    <u who="#boderD" start="1386.669" end="x">Und Sie haben das gespart?</u>
+                    <u who="#hirschD" start="1388.157" end="x">Ja.</u>
+                    <u who="#boderD" start="1389.675" end="x">Oh. Und dann haben Sie das Geld den Schweizern abgegeben und?</u>
+                    <u who="#hirschD" start="1393.410" end="x">Und, äh...</u>
+                    <u who="#boderD" start="1394.073" end="x">Haben Sie das nachher zurückbekommen?</u>
+                    <u who="#hirschD" start="1395.320" end="x">... hab es, äh, später in Fran..., in Schweizer Franken zurückbekommen.</u>
+                    <u who="#boderD" start="1398.344" end="x">Ja. Nun, und?</u>
+                    <u who="#hirschD" start="1400.091" end="x">Nun bin ich dann, ne halbe Stunde später, äh, auf Transport gegangen in ein anderes Lager...</u>
+                    <u who="#boderD" start="1406.868" end="x">Ja?</u>
+                    <u who="#hirschD" start="1407.471" end="x">... auch hier in Genf.</u>
+                    <u who="#boderD" start="1408.477" end="x">Ja?</u>
+                    <u who="#hirschD" start="1408.838" end="x">Hier war ich dann, ähm, drei Wochen.</u>
+                    <u who="#boderD" start="1412.573" end="x">Ja?</u>
+                    <u who="#hirschD" start="1412.965" end="x">Von Genf aus bin ich dann nach Les Avants gekommen...</u>
+                    <u who="#boderD" start="1417.345" end="x">Ja.</u>
+                    <u who="#hirschD" start="1417.809" end="x">... bei Montreux.</u>
+                    <u who="#boderD" start="1419.176" end="x">Ja?</u>
+                    <u who="#hirschD" start="1419.478" end="x">Hier war ich vier Wochen und dann wurd' ich dann durch die Kinderhilfe befreit und...</u>
+                    <u who="#boderD" start="1424.129" end="x">Welche Kinderhilfe?</u>
+                    <u who="#hirschD" start="1425.316" end="x">Schweizer...</u>
+                    <u who="#boderD" start="1426.021" end="x">Ja, und?</u>
+                    <u who="#hirschD" start="1427.148" end="x">... Kinderhilfe. Und kam, äh, nach, äh, Speicher im Kanton Appenzell, bei St. Gallen.</u>
+                    <u who="#boderD" start="1433.455" end="x">Aha. Und?</u>
+                    <u who="#hirschD" start="1434.630" end="x">Hier war ich also unter weniger günstigen Verhältnissen in einem Kinderheim...</u>
+                    <u who="#boderD" start="1440.666" end="x">Ja?</u>
+                    <u who="#hirschD" start="1440.877" end="x">... während dreieinhalb Monaten. Und, äh, konnte dann dank meiner Kameraden, die ich hier in Genf hatte, in Pont de la Forêt, konnte ich dann hierher kommen.</u>
+                    <u who="#boderD" start="1450.979" end="x">Was ist das?</u>
+                    <u who="#hirschD" start="1452.275" end="x">Pont de la Forêt.</u>
+                    <u who="#boderD" start="1453.612" end="x">Was ist das?</u>
+                    <u who="#hirschD" start="1454.727" end="x">Das ist, äh, ein Kinderheim.</u>
+                    <u who="#boderD" start="1457.269" end="x">Ein jüdisches?</u>
+                    <u who="#hirschD" start="1458.384" end="x">Ja.</u>
+                    <u who="#boderD" start="1461.498" end="x">Wie schreibt man das? Schreiben Sie es mal auf. (Hirsch schreibt es auf.) Wieso haben Sie Kameraden im Pont de La Forêt gehabt?</u>
+                    <u who="#hirschD" start="1470.926" end="x">Eben mein Kamerad, der mit mir war.</u>
+                    <u who="#boderD" start="1473.004" end="x">Ja?</u>
+                    <u who="#hirschD" start="1473.185" end="x">Wurde hier in Genf gleich befreit und kam in das Heim, und ich kam weiter.</u>
+                    <u who="#boderD" start="1478.456" end="x">Aha. Und dann?</u>
+                    <u who="#hirschD" start="1479.721" end="x">Dadurch, äh, traf er dort noch andere Kameraden...</u>
+                    <u who="#boderD" start="1483.899" end="x">Ja?</u>
+                    <u who="#hirschD" start="1484.321" end="x">... mit denen wir in Frankreich zusammen waren.</u>
+                    <u who="#boderD" start="1486.038" end="x">Ja?</u>
+                    <u who="#hirschD" start="1486.622" end="x">In dem OSE-Heim.</u>
+                    <u who="#boderD" start="1488.008" end="x">Ja?</u>
+                    <u who="#hirschD" start="1488.773" end="x">Ist ganz komisch. (Lacht.) Man trifft sich hier wieder.</u>
+                    <u who="#boderD" start="1491.544" end="x">Ja?</u>
+                    <u who="#hirschD" start="1491.966" end="x">... und, äh, die wollten dann absolut, dass ich hierher komme.</u>
+                    <u who="#boderD" start="1494.689" end="x">Ja?</u>
+                    <u who="#hirschD" start="1495.273" end="x">Und so hab' ich es durchgesetzt hierher zu kommen. War dann für zwei Monate hier und hab, äh, gleich hier angefangen, äh...</u>
+                    <u who="#boderD" start="1502.111" end="x">Zu lernen?</u>
+                    <u who="#hirschD" start="1502.846" end="x">... zu lernen.</u>
+                    <u who="#boderD" start="1503.822" end="x">Und was, äh, wollen Sie jetzt tun?</u>
+                    <u who="#hirschD" start="1507.449" end="x">Jetzt, äh, will ich ungefähr noch... will ich hier erstmal noch fertigmachen. Das heißt, ich hab hier noch zwei Monate...</u>
+                    <u who="#boderD" start="1514.750" end="x">Ja?</u>
+                    <u who="#hirschD" start="1515.142" end="x">... um meine Schlussprüfung zu machen.</u>
+                    <u who="#boderD" start="1517.022" end="x">Ja?</u>
+                    <u who="#hirschD" start="1517.124" end="x">Und will dann so schnell als möglich nach Buenos Aires.</u>
+                    <u who="#boderD" start="1520.438" end="x">Haben Sie von Ihren Eltern Brief offen?</u>
+                    <u who="#hirschD" start="1523.492" end="x">Ja.</u>
+                    <u who="#boderD" start="1523.884" end="x">Ja? Und haben Sie die Genehmigung nach Buenos Aires zu gehen?</u>
+                    <u who="#hirschD" start="1528.444" end="x">Ich erwarte jetzt mein Visum.</u>
+                    <u who="#boderD" start="1530.312" end="x">Sie erwarten Ihr...</u>
+                    <u who="#hirschD" start="1530.926" end="x">Das Visum liegt seit, äh, Mai auf dem Ministerium in...</u>
+                    <u who="#boderD" start="1534.451" end="x">Hier? </u>
+                    <u who="#hirschD" start="1534.704" end="x">... Buenos Aires.</u>
+                    <u who="#boderD" start="1535.186" end="x">In Buenos Aires?</u>
+                    <u who="#hirschD" start="1536.011" end="x">Ja. Muss nur noch genehmigt werden.</u>
+                    <u who="#boderD" start="1538.361" end="x">Äh, wissen Sie, dass da jetzt von Argentinien ein Ortsvertreter da ist?</u>
+                    <u who="#hirschD" start="1543.403" end="x">Ja?</u>
+                    <u who="#boderD" start="1544.156" end="x">Haben Sie das nicht gewusst?</u>
+                    <u who="#hirschD" start="1545.361" end="x">Nein.</u>
+                    <u who="#boderD" start="1546.054" end="x">Oh, ich werde ihn wahrscheinlich, äh, man wird ihn in Paris sehen. Äh, er ist ein Advokat, schreiben Sie Ihren Namen auf und man kann, vielleicht kann er was tun... [unverständlich]. Naja, Sie werden, man wird das schon besorgen.</u>
+                    <u who="#hirschD" start="1562.454" end="x">Ja.</u>
+                    <u who="#boderD" start="1562.816" end="x">Nun, äh, die Zeit ist sehr kurz, also ich danke Ihnen sehr!</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1567.725" end="x">[In English] This concludes the, err, short interview with David Hirsch. This concludes the short interview with David Hirsch. [Ends abruptly].</u>
+                </div>
+                <!-- end spool 9-74B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#hirschD_en">
+                <!-- begin spool 9-74B -->
+                <u who="#boderD" start="2.352" end="x">[In English] <placeName ref="Paris">Paris</placeName>, August 26th. This is Spool 74, starting at about thirteen minutes. The interviewee is David Hirsch, at the <term ref="#vothG_ort">ORT</term> School for Boys. Oh, this isn't <placeName ref="Paris">Paris</placeName>, excuse me, this is <placeName ref="Genève">Geneva</placeName>.</u>
+                <u who="#boderD" start="27.196" end="x">[In German] So, Mr. Hirsch, can you tell me, where were you when the war started, and what has happened to you?</u>
+                <u who="#hirschD" start="35.020" end="x">So...</u>
+                <u who="#boderD" start="36.106" end="x">Tell your name again. What is your name?</u>
+                <u who="#hirschD" start="38.895" end="x">My name is David Hirsch.</u>
+                <u who="#boderD" start="39.845" end="x">[unintelligible]</u>
+                <u who="#hirschD" start="40.885" end="x">My name is David Hirsch.</u>
+                <u who="#boderD" start="42.664" end="x">How old are you?</u>
+                <u who="#hirschD" start="43.900" end="x">Eighteen years.</u>
+                <u who="#boderD" start="45.106" end="x">Eighteen years. So, where were you when the war started?</u>
+                <u who="#hirschD" start="48.664" end="x">At the beginning of the war I was still in Germany, namely in <placeName ref="Mannheim">Mannheim</placeName>.<note n="1">At the time of the Nazi assumption of power, Mannheim had a Jewish population of 6,509. Due to Nazi economic and social anti-Semitic measures, 3,927 Mannheim Jews emigrated from 1933 to 1940, including David Hirsch's parents.</note></u>
+                <u who="#boderD" start="52.855" end="x">In <placeName ref="Mannheim">Mannheim</placeName>. Were you born in Germany?</u>
+                <u who="#hirschD" start="55.086" end="x">Yes.</u>
+                <u who="#boderD" start="55.659" end="x">You were born German, weren't you?</u>
+                <u who="#hirschD" start="57.046" end="x">Yes.</u>
+                <u who="#boderD" start="58.071" end="x">When, err, what was your parents' business?</u>
+                <u who="#hirschD" start="62.232" end="x">My parents, err, left Germany quite early, so, I don't know exactly what they were doing, there in Germany. I was with my grandparents later.</u>
+                <u who="#boderD" start="72.830" end="x">I see. About what time did your parents leave Germany?</u>
+                <u who="#hirschD" start="76.523" end="x">Thirty-seven.</u>
+                <u who="#boderD" start="77.760" end="x">They did in thirty-seven and don't you know, don't you recall what was your parents' business?</u>
+                <u who="#hirschD" start="86.775" end="x">Well, my father was doing joinery, or...[unintelligible]</u>
+                <u who="#boderD" start="90.152" end="x">Yes. What is your father doing now?</u>
+                <u who="#hirschD" start="90.152" end="x">He is now in Argentina. In <placeName ref="#vothL1319">Buenos Aires</placeName>.</u>
+                <u who="#boderD" start="93.258" end="x">Oh, he is in Argentina?</u>
+                <u who="#hirschD" start="94.570" end="x">Yes.</u>
+                <u who="#boderD" start="95.098" end="x">With your mother?</u>
+                <u who="#hirschD" start="96.259" end="x">That's right.</u>
+                <u who="#boderD" start="96.937" end="x">Are you also going to Argentina?</u>
+                <u who="#hirschD" start="98.385" end="x">That's right.</u>
+                <u who="#boderD" start="99.033" end="x">When?</u>
+                <u who="#hirschD" start="100.330" end="x">I reckon in a few months. Just applying for my visa, .</u>
+                <u who="#boderD" start="104.657" end="x">Yes. So, you stayed in <placeName ref="Mannheim">Mannheim</placeName> with your grandparents, right?</u>
+                <u who="#hirschD" start="108.833" end="x">Yes.</u>
+                <u who="#boderD" start="109.391" end="x">Alright. And what happened then, when the war started?</u>
+                <u who="#hirschD" start="112.542" end="x">Well, err, the first year of the war we were still in <placeName ref="Mannheim">Mannheim</placeName>, till 1940. In 1940, all Jews from Palatinate and Baden were deported to France, to <placeName ref="Gurs concentration camp" type="camp">Gurs</placeName>.<note n="2">Mannheim is located in Baden. After the fall of France, some 2,000 Jews from Mannheim were deported in late October 1940 to Gurs concentration camp, located in southern France. The camp was administered by the collaborationist French Vichy government. Despite the harsh living conditions endured by the detainees, Jewish cultural and religious life was maintained in the camp.</note></u>
+                <u who="#boderD" start="126.095" end="x">Even though France had already declared the truce?</u>
+                <u who="#hirschD" start="129.065" end="x">Yes, yes. That was in October.</u>
+                <u who="#boderD" start="129.774" end="x">And then happened what? Where were the German Jews deported to?</u>
+                <u who="#hirschD" start="133.467" end="x">France.</u>
+                <u who="#boderD" start="134.704" end="x">Yes?</u>
+                <u who="#hirschD" start="135.292" end="x">Camp de <placeName ref="Gurs concentration camp" type="camp">Gurs</placeName>.</u>
+                <u who="#boderD" start="136.513" end="x">Yes. And so, who of you was deported?</u>
+                <u who="#hirschD" start="141.247" end="x">Excuse me?</u>
+                <u who="#boderD" start="141.986" end="x">Well, who was deported? Your grandparents...</u>
+                <u who="#hirschD" start="144.654" end="x">And I.</u>
+                <u who="#boderD" start="145.408" end="x">Yes. Your grandparents and you.</u>
+                <u who="#hirschD" start="146.885" end="x">That's right..</u>
+                <u who="#boderD" start="147.458" end="x">Were there any other children, or any others, with you?</u>
+                <u who="#hirschD" start="150.021" end="x">That's right, there were, err, err, three, err, aunts, and, err, that is all.</u>
+                <u who="#boderD" start="157.860" end="x">All. And your parents were already in Argentina?</u>
+                <u who="#hirschD" start="160.815" end="x">That's right..</u>
+                <u who="#boderD" start="161.358" end="x">Yes, well. What happened then?</u>
+                <u who="#hirschD" start="164.539" end="x">Then, I was in France in a <term ref="#vothG_kz">KZ</term> for a year...</u>
+                <u who="#boderD" start="169.650" end="x">What was that? In a...</u>
+                <u who="#hirschD" start="170.871" end="x"><term ref="#vothG_kz">KZ</term>, concentration camp.</u>
+                <u who="#boderD" start="172.529" end="x">Oh, <term ref="#vothG_kz">KZ</term>, that is what you call it. You were in France in a concentration camp.</u>
+                <u who="#hirschD" start="176.509" end="x">Yes.</u>
+                <u who="#boderD" start="176.690" end="x">In which city?</u>
+                <u who="#hirschD" start="177.866" end="x">In <placeName ref="Gurs concentration camp" type="camp">Gurs</placeName>.</u>
+                <u who="#boderD" start="179.268" end="x">Yes?</u>
+                <u who="#hirschD" start="180.625" end="x">And, err...</u>
+                <u who="#boderD" start="181.153" end="x">With your grandparents?</u>
+                <u who="#hirschD" start="182.947" end="x">That's right.</u>
+                <u who="#boderD" start="184.771" end="x">You were in a concentration camp together with your grandparents?</u>
+                <u who="#hirschD" start="188.118" end="x">Yes.</u>
+                <u who="#boderD" start="190.877" end="x">Well, [unintelligible], err, describe what kind of camp that was and how you lived there?</u>
+                <u who="#hirschD" start="197.103" end="x">Well, the first five months I was in a camp there that had been built by Spanish Republicans.<note n="3">Gurs was established in April 1939. It was situated some fifty miles from the Spanish border. Its establishment came at the same time as the defeat of the Spanish republicans in the bitter and bloody Spanish Civil War from 1936-39 by Francisco Franco, who became the Fascist dictator of Spain. Many republicans fled across the border, and a number were interned in Gurs.</note></u>
+                <u who="#boderD" start="207.686" end="x">Yes.</u>
+                <u who="#hirschD" start="208.802" end="x">Surrounded by, err, barbed wire, the camp road goes through in the center.</u>
+                <u who="#boderD" start="215.028" end="x">Yes.</u>
+                <u who="#hirschD" start="215.420" end="x">And, err, every section, that means, there were different sections from A to M. Each is separately surrounded by, err, barbed wire, the men are in separate, err, sections, and the women in separate sections.</u>
+                <u who="#boderD" start="231.159" end="x">Well, were your grandfather and your grandmother separ..., err,....</u>
+                <u who="#hirschD" start="234.521" end="x">That's right.</u>
+                <u who="#boderD" start="235.199" end="x">Separated, sep..., yes. And your aunts, did they stay with your moth...</u>
+                <u who="#hirschD" start="239.571" end="x">That's right.</u>
+                <u who="#boderD" start="239.933" end="x">Yes. Now, what, err, with your grandmother...</u>
+                <u who="#hirschD" start="242.194" end="x">Yes.</u>
+                <u who="#boderD" start="242.707" end="x">Now, what happened then?</u>
+                <u who="#hirschD" start="245.466" end="x">Well, concerning life it was not, err, especially good.</u>
+                <u who="#boderD" start="250.365" end="x">Who guarded you, Germans or Frenchmen?</u>
+                <u who="#hirschD" start="252.567" end="x">Frenchmen.</u>
+                <u who="#boderD" start="253.728" end="x">Yes. Well, did you have to work?</u>
+                <u who="#hirschD" start="257.633" end="x">No, no working.</u>
+                <u who="#boderD" start="259.879" end="x">So, how long did that last and what happened later?</u>
+                <u who="#hirschD" start="263.015" end="x">Well, we were here for five months...</u>
+                <u who="#boderD" start="265.322" end="x">Yes?</u>
+                <u who="#hirschD" start="265.789" end="x">... until the month of March '41.</u>
+                <u who="#boderD" start="267.809" end="x">Yes.</u>
+                <u who="#hirschD" start="268.292" end="x">From here, we were sent to Camp de <placeName ref="Rivesaltes concentration camp" type="camp">Rivesaltes</placeName>.<note n="4">Like Gurs, Rivesaltes was at first used to imprison Spanish republican loyalists and troops who had fled to France. It was located in southeastern France, not far from the Spanish border and a few miles from the town of Perpignan. At the time of the arrival of David and his grandparents, Rivesaltes had at least 3,000 children and was considered a family camp despite its primitive and unhealthy living and sanitary conditions.</note></u>
+                <u who="#boderD" start="272.347" end="x">All?</u>
+                <u who="#hirschD" start="273.433" end="x">Not all.</u>
+                <u who="#boderD" start="274.413" end="x">But you and your family?</u>
+                <u who="#hirschD" start="275.363" end="x">That's right.</u>
+                <u who="#boderD" start="275.951" end="x">[unintelligible]. While you were in the camp, were you allowed to see your grandparents?</u>
+                <u who="#hirschD" start="280.971" end="x">Yes, yes.</u>
+                <u who="#boderD" start="281.634" end="x">Yes, well? Then?</u>
+                <u who="#hirschD" start="284.318" end="x">Then we were in <placeName ref="Rivesaltes concentration camp" type="camp">Rivesaltes</placeName> for seven months. <placeName ref="Rivesaltes concentration camp" type="camp">Rivesaltes</placeName> is a camp with an area of circa twenty-five, err, square kilometers.</u>
+                <u who="#boderD" start="295.338" end="x">Yes. And. What was that, buildings, houses, barracks?</u>
+                <u who="#hirschD" start="299.318" end="x">Err. Barracks made of stone.</u>
+                <u who="#boderD" start="301.338" end="x">Yes. They had not just been built?</u>
+                <u who="#hirschD" start="303.931" end="x">No, they were before. They had been military camps.</u>
+                <u who="#boderD" start="307.549" end="x">Yes. Well?</u>
+                <u who="#hirschD" start="309.687" end="x">And, err, here we were, about a hundred twenty of us in barracks, one person after the other, right, err...</u>
+                <u who="#boderD" start="318.566" end="x">How many beds were...</u>
+                <u who="#hirschD" start="320.556" end="x">The beds. Yes, yes.</u>
+                <u who="#boderD" start="321.793" end="x">And how many people in one bed?</u>
+                <u who="#hirschD" start="325.667" end="x">Err, altogether there were a hundred twenty. That was in one row.</u>
+                <u who="#boderD" start="329.497" end="x">Yes.</u>
+                <u who="#hirschD" start="329.633" end="x">Wasn't exactly a row with one bed per person, but rather a whole row covered with straw.</u>
+                <u who="#boderD" start="333.869" end="x">Yes. Well?</u>
+                <u who="#hirschD" start="336.161" end="x">Here I've been for seven months and was then, err, liberated by the <term ref="#vothG_ose">OSE</term>.<note n="5">The OSE was especially active in providing medical and social assistance to those interned at the time in Gurs and Rivesaltes.</note></u>
+                <u who="#boderD" start="343.684" end="x">How is that? Why has the <term ref="#vothG_ose">OSE</term> liberated you?</u>
+                <u who="#hirschD" start="346.232" end="x">All youths were, err, many youths, at any rate, were liberated by the <term ref="#vothG_ose">OSE</term>... From the French camps.</u>
+                <u who="#boderD" start="354.539" end="x">Oh. Hadn't it been taken by the Germans, the camp?</u>
+                <u who="#hirschD" start="358.021" end="x">No, that was guarded by, by the French authorities in...</u>
+                <u who="#boderD" start="363.449" end="x">Yes?</u>
+                <u who="#hirschD" start="363.796" end="x">... err, the unoccupied area.<note n="6">Southern France was under the control of the Vichy government following the armistice of June 1940, and was not occupied by German troops until November 1942 when the Allies landed in North Africa.</note></u>
+                <u who="#boderD" start="366.826" end="x">Oh, err, and the French, the <term ref="#vothG_ose">OSE</term> let all youths go? So, what...</u>
+                <u who="#hirschD" start="372.464" end="x">Of all... They tried to, err, free as many as possible.</u>
+                <u who="#boderD" start="376.927" end="x">Yes. Well, what became of your grandparents?</u>
+                <u who="#hirschD" start="380.440" end="x">They were, until around August '42, in the same camp and were then sent, err, somewhere. Either to Germany or in Poland.<note n="7">Hirsch's grandparents were deported from Rivesaltes by Vichy French authorities during the large deportations of Jews from France to Nazi extermination camps in the summer and fall of 1942. They most likely were murdered in Auschwitz immediately upon arrival, along with some 42,500 Jews sent eastward from France in 1942—approximately one-third from the Vichy zone of France.</note></u>
+                <u who="#boderD" start="396.736" end="x">And you never heard of them?</u>
+                <u who="#hirschD" start="398.244" end="x">Never heard anything ...so far.</u>
+                <u who="#boderD" start="400.747" end="x">Have you looked for traces, have you searched?</u>
+                <u who="#hirschD" start="404.591" end="x">Yes, yes.</u>
+                <u who="#boderD" start="405.677" end="x">And what... You have nothing...</u>
+                <u who="#hirschD" start="407.652" end="x">Nothing.</u>
+                <u who="#boderD" start="408.180" end="x">Err, speak even louder. You haven't heard anything from them?</u>
+                <u who="#hirschD" start="411.240" end="x">Heard nothing.</u>
+                <u who="#boderD" start="412.507" end="x">So, what did the <term ref="#vothG_ose">OSE</term> do with you when they had freed you?</u>
+                <u who="#hirschD" start="415.658" end="x">Well, I came to an asylum, and...</u>
+                <u who="#boderD" start="419.321" end="x">Yes, how old were you, then?</u>
+                <u who="#hirschD" start="421.613" end="x">Thirteen.</u>
+                <u who="#boderD" start="422.623" end="x">Yes?</u>
+                <u who="#hirschD" start="423.980" end="x">Near <placeName ref="Limoges">Limoges</placeName>. That was very good, here I was for two years.<note n="8">The OSE worked assiduously to save Jewish children in France. David benefited from the efforts of this organization by first being placed in a children's refuge center near the town of Limoges in the Haute Vienne department in central France.</note></u>
+                <u who="#boderD" start="429.121" end="x">Yes?</u>
+                <u who="#hirschD" start="429.739" end="x">Not quite two years.</u>
+                <u who="#boderD" start="431.397" end="x">Yes?</u>
+                <u who="#hirschD" start="432.302" end="x">Yes, err, eventually it started again for me, that I had reached the age of fifteen, and, err, the French police were looking for me.</u>
+                <u who="#boderD" start="443.262" end="x">Yes?</u>
+                <u who="#hirschD" start="443.790" end="x">And from a, err,...</u>
+                <u who="#boderD" start="444.724" end="x">Even like in the asylum of [unintelligible]?</u>
+                <u who="#hirschD" start="447.146" end="x">Yes, yes.</u>
+                <u who="#boderD" start="447.640" end="x">You lived in an asylum, how many boys were you altogether?</u>
+                <u who="#hirschD" start="451.327" end="x">We were boys and girls, altogether around a hundred.</u>
+                <u who="#boderD" start="456.520" end="x">Yes. What did you do there, in the asylum?</u>
+                <u who="#hirschD" start="459.785" end="x">Gardener's and leather work.</u>
+                <u who="#boderD" start="462.616" end="x">Yes?</u>
+                <u who="#hirschD" start="463.791" end="x">And besides a bit of studying, English, German, right?</u>
+                <u who="#boderD" start="467.887" end="x">Yes, they taught. Well, and, err, who were the teachers?</u>
+                <u who="#hirschD" start="473.159" end="x">The teachers were all Jews.</u>
+                <u who="#boderD" start="475.400" end="x">And they were not sent away?</u>
+                <u who="#hirschD" start="478.063" end="x">No, for the time being, err, they could stay, but later, in the year forty-thr..., err, at the end of '42 or beginning of '43, it got just as bad for them.</u>
+                <u who="#boderD" start="489.099" end="x">And then?</u>
+                <u who="#hirschD" start="491.599" end="x">Well, I was in this asylum until May '43...</u>
+                <u who="#boderD" start="496.870" end="x">Yes.</u>
+                <u who="#hirschD" start="497.503" end="x">... and then had to, err, leave the asylum with some comrades.</u>
+                <u who="#boderD" start="501.551" end="x">Why?</u>
+                <u who="#hirschD" start="503.328" end="x">Precisely because the police were looking for us.</u>
+                <u who="#boderD" start="505.889" end="x">The police were looking for you?</u>
+                <u who="#hirschD" start="507.136" end="x">Yes, not directly, yet, like being on a list, but we, err, we were, we could have been taken away, err, any moment, right?<note n="9">Following the roundups (Fr. raffles) of Jews in 1942 and the occupation of all of France by the Germans in November of that year, the situation for the Jews deteriorated, and the OSE had to move David and others to safer locations. The "circuit Garel," named after its leader Georges Garel, was created to hide children such as David who were being hunted by the Nazis.</note></u>
+                <u who="#boderD" start="517.148" end="x">Yes. And?</u>
+                <u who="#hirschD" start="518.383" end="x">From here I then went to Southern France.</u>
+                <u who="#boderD" start="522.220" end="x">Yes.</u>
+                <u who="#hirschD" start="523.305" end="x">And, err...</u>
+                <u who="#boderD" start="524.281" end="x">Did you simply run away with the boys?</u>
+                <u who="#hirschD" start="526.642" end="x">No, we were all, err, we were, err, away...</u>
+                <u who="#boderD" start="532.215" end="x">Equipped?</u>
+                <u who="#hirschD" start="533.191" end="x">Equipped...</u>
+                <u who="#boderD" start="534.378" end="x">The school knew it, right?</u>
+                <u who="#hirschD" start="535.896" end="x">Yes, yes. We were there to Grenoble and from here on we were hidden with farmers.<note n="10">The OSE could not have functioned without the help of Christian institutions and individual Christians such as the farmers in the Grenoble area of southwestern France mentioned by David.</note></u>
+                <u who="#boderD" start="541.589" end="x">Yes. And, err, how long did this last?</u>
+                <u who="#hirschD" start="545.788" end="x">That means then I was a good Frenchman with forged papers for six months...<note n="11">False identity papers were absolutely essential to living clandestinely. Skillfully forged papers could make the difference between life and death for those on the run from the Nazis and their Vichy French collaborators.</note></u>
+                <u who="#boderD" start="551.071" end="x">Yes, who made the papers for you?</u>
+                <u who="#hirschD" start="553.812" end="x">I got them at the mayor's office. In the village where I was.</u>
+                <u who="#boderD" start="557.457" end="x">Why, you gave your name...</u>
+                <u who="#hirschD" start="559.065" end="x">I invented some name and, err, presented myself there, had photos taken and, err...</u>
+                <u who="#boderD" start="566.005" end="x">They gave you papers?</u>
+                <u who="#hirschD" start="566.981" end="x">Had my papers...</u>
+                <u who="#boderD" start="567.626" end="x">And which religion did you state?</u>
+                <u who="#hirschD" start="570.138" end="x">I didn't state any. Nothing at all.</u>
+                <u who="#boderD" start="573.662" end="x">Well, and then what did you do? Live in the village? Did you work?</u>
+                <u who="#hirschD" start="577.487" end="x">I worked, for the farmer.</u>
+                <u who="#boderD" start="579.837" end="x">And then?</u>
+                <u who="#hirschD" start="582.198" end="x">And then... I was visited there by the Jewish organization, Boy Scout organization, which hid the young people, I was visited from time to time, err, by these people.<note n="12">Robert Gamzon, who became a French partisan commander, founded the Jewish scout movement (Eclaireurs Israelites de France) in France. After the French surrender, Gamzon re-established the movement's network in the cities of unoccupied France where many Jewish refugees were located. He spearheaded the establishment of children's homes, welfare centers, workshops, agricultural training farms and Jewish educational undertakings. David benefited from the efforts of this organization, which worked alongside the OSE. The scouts were especially active in the southwestern area of France where he was located.</note></u>
+                <u who="#boderD" start="597.439" end="x">What did you call that organization?</u>
+                <u who="#hirschD" start="600.512" end="x">Boy Scouts.</u>
+                <u who="#boderD" start="601.307" end="x">What?</u>
+                <u who="#hirschD" start="601.940" end="x">Boy Scouts.</u>
+                <u who="#boderD" start="602.795" end="x">Boy Scouts, right?</u>
+                <u who="#hirschD" start="604.783" end="x">Yes. They, they, that means the Jewish Resistance Movement in France.</u>
+                <u who="#boderD" start="608.458" end="x">Yes?</u>
+                <u who="#hirschD" start="609.121" end="x">Those who hid the young people with the farmer.</u>
+                <u who="#boderD" start="613.651" end="x">Yes.</u>
+                <u who="#hirschD" start="614.374" end="x">And, err, they visited me a few times while I was there.</u>
+                <u who="#boderD" start="619.555" end="x">Yes.</u>
+                <u who="#hirschD" start="619.989" end="x">And, err...</u>
+                <u who="#boderD" start="621.537" end="x">What kind of organization was that?</u>
+                <u who="#hirschD" start="624.549" end="x">That was the IJF. <note n="13">The reference is to the EIF (Eclaireurs Israélites de France), the Jewish Boy Scout organization of France, which was engaged in liberating Jewish children and adolescents from labor and concentration camps during World War II.</note></u>
+                <u who="#boderD" start="627.802" end="x">What?</u>
+                <u who="#hirschD" start="628.676" end="x">I, i – schi – i – j - ...</u>
+                <u who="#boderD" start="636.068" end="x">J?</u>
+                <u who="#hirschD" start="637.014" end="x">I.</u>
+                <u who="#boderD" start="638.954" end="x">I?</u>
+                <p>(Silence)</p>
+                <u who="#boderD" start="646.599" end="x">Err, only the young...</u>
+                <u who="#hirschD" start="651.539" end="x">Err, no, that was the, the, all associations in France, all Jews, that was some, err...</u>
+                <u who="#boderD" start="660.045" end="x">Yes.</u>
+                <u who="#hirschD" start="660.467" end="x">I don't know exactly.</u>
+                <u who="#boderD" start="660.467" end="x">Yes, and how did they keep themselves secret and all?</u>
+                <u who="#hirschD" start="663.925" end="x">Yes, they came under, they came under, err, <term ref="#vothG_ose">OSE</term>, I believe.</u>
+                <u who="#boderD" start="667.901" end="x">Yes.</u>
+                <u who="#hirschD" start="668.323" end="x">This very organization.</u>
+                <u who="#boderD" start="669.419" end="x">Yes, and how long did you live there?</u>
+                <u who="#hirschD" start="673.034" end="x">I lived there for six months...</u>
+                <u who="#boderD" start="675.215" end="x">Yes.</u>
+                <u who="#hirschD" start="675.619" end="x">... and, err, could ask on such a visit, by chance, how the other boys and girls are, which, err, as I, err, had heard then, could go to, err, Switzerland.</u>
+                <u who="#boderD" start="690.842" end="x">Yes?</u>
+                <u who="#hirschD" start="691.336" end="x">So they tell me they know nothing at this moment and, err, three weeks later I received a letter...</u>
+                <u who="#boderD" start="700.595" end="x">Yes?</u>
+                <u who="#hirschD" start="700.926" end="x">... telling me that, err, that I should get ready, I would go to a school in <placeName ref="Lyon">Lyon</placeName>, a big school...<note n="14">The sentence in the letter about going to a big school in Lyon, the second largest city in the country at the time, located in southeastern France, was a code for getting prepared to be transferred across the border into Switzerland.</note></u>
+                <u who="#boderD" start="710.203" end="x">Yes?</u>
+                <u who="#hirschD" start="711.197" end="x">... and, I don't know, back then I just thought that maybe I could get into Switzerland, right, because after all you write everything, err, something by letter...</u>
+                <u who="#boderD" start="719.974" end="x">Yes.</u>
+                <u who="#hirschD" start="720.366" end="x">... so it won't come out. And that was, eventually, how I got into Switzerland along with a comrade, and then we together...</u>
+                <u who="#boderD" start="726.914" end="x">Before that you went to <placeName ref="Lyon">Lyon</placeName>?</u>
+                <u who="#hirschD" start="728.541" end="x">No, I didn't go to <placeName ref="Lyon">Lyon</placeName>, that was only, err, written in the letter.</u>
+                <u who="#boderD" start="733.402" end="x">Yes, but it meant what?</u>
+                <u who="#hirschD" start="735.541" end="x">Well, that we go to Switzerland.</u>
+                <u who="#boderD" start="737.559" end="x">Well?</u>
+                <u who="#hirschD" start="738.101" end="x">So we went to <placeName ref="Annecy">Annecy</placeName>...</u>
+                <u who="#boderD" start="741.083" end="x">How, err, by train, or...?</u>
+                <u who="#hirschD" start="742.559" end="x">By train.</u>
+                <u who="#boderD" start="743.192" end="x">Yes. And nobody hasn't, err, stopped you?</u>
+                <u who="#hirschD" start="745.734" end="x">We were controlled by Germans a few times, but since we, err, had our papers...</u>
+                <u who="#boderD" start="752.029" end="x">Yes, and you were talking French?</u>
+                <u who="#hirschD" start="753.837" end="x">French papers...</u>
+                <u who="#boderD" start="755.295" end="x">Yes, did you tell them you spoke German?</u>
+                <u who="#hirschD" start="757.415" end="x">No, no.</u>
+                <u who="#boderD" start="757.897" end="x">And they didn't ask if you were Jews?</u>
+                <u who="#hirschD" start="760.126" end="x">No, no.</u>
+                <u who="#boderD" start="760.819" end="x">Well?</u>
+                <u who="#hirschD" start="761.241" end="x">They saw, err, the papers, the right papers, and then they let us pass, right?</u>
+                <u who="#boderD" start="765.861" end="x">Yes. And you went how far?</u>
+                <u who="#hirschD" start="767.940" end="x">That's how I went to the Swiss border, to, err, <placeName ref="Annecy">Annecy</placeName>...</u>
+                <u who="#boderD" start="774.518" end="x">Yes?</u>
+                <u who="#hirschD" start="775.603" end="x">The same day, in <placeName ref="Annecy">Annecy</placeName> we were looking for somebody, who should tell us the place [unintelligible].</u>
+                <u who="#boderD" start="783.085" end="x">And, err, how did you try to meet him?</u>
+                <u who="#hirschD" start="785.760" end="x">Through this organization.</u>
+                <u who="#boderD" start="788.079" end="x">The <term ref="#vothG_ose">OSE</term>?</u>
+                <u who="#hirschD" start="789.254" end="x">Not the <term ref="#vothG_ose">OSE</term>, the [unintelligible].</u>
+                <u who="#boderD" start="791.091" end="x">The Jewish one, the IJF?</u>
+                <u who="#hirschD" start="793.875" end="x">It, err, was called the Sixth.<note n="15">"The Sixth" (La Sixième) was  the code name for a clandestine scout rescue network formed by Robert Gamzon in the summer of 1942. It produced false identity papers, found asylum for Jewish children in non-Jewish institutions and private homes, and worked in smuggling Jews of all ages across the border into neutral Spain and Switzerland.</note> It, err, <term ref="#vothG_ose">OSE</term> was the Third, and so it was divided into several groups, the <term ref="#vothG_ose">OSE</term> cared for children, right, err, concerning health and like this there were several groups.<note n="16">The OSE in France was actually a part of the Union Generale des Israelites de France (UGIF), the French Jewish council established by the Germans on November 29, 1941. Its counterpart in the Vichy zone did not begin to function until May 1942. The UGIF and its components functioned legally while certain UGIF agencies, such as the OSE and the scouts, engaged in illegal work, at times with the knowledge and participation of UGIF officials. Eventually the OSE and the scouts went almost completely underground. The UGIF was eventually disbanded after the liberation of France in August 1944.</note></u>
+                <u who="#boderD" start="807.863" end="x">Yes. Well, and?</u>
+                <u who="#hirschD" start="811.188" end="x">And, err, we eventually found nobody, and had to go back to <placeName ref="Chambéry">Chambéry</placeName> for eight days, to hide in <placeName ref="Chambéry">Chambéry</placeName> for eight days.</u>
+                <u who="#boderD" start="821.730" end="x">Yes?</u>
+                <u who="#hirschD" start="822.363" end="x">Here, err, we were lying in an attic together with other Jews...</u>
+                <u who="#boderD" start="831.309" end="x">Yes. What were they, young people also?</u>
+                <u who="#hirschD" start="833.640" end="x">Young and older people.</u>
+                <u who="#boderD" start="834.845" end="x">Yes. And whose attic was that?</u>
+                <u who="#hirschD" start="837.990" end="x">We didn't know that at all, they simply put us up there. So we were lying for five days in the attic...</u>
+                <u who="#boderD" start="844.990" end="x">Yes?</u>
+                <u who="#hirschD" start="845.833" end="x">... and then all of a sudden...</u>
+                <p>(Knocking in the background)</p>
+                <u who="#boderD" start="848.538" end="x">You were up in the attic and then?</u>
+                <u who="#hirschD" start="850.357" end="x">And all of a sudden, err, after five days, the owner came up. He...</u>
+                <u who="#boderD" start="855.478" end="x">Oh, the owner hadn't known [unintelligible]?</u>
+                <u who="#hirschD" start="857.207" end="x">He hadn't known anything. And, err, said we could stay, but, err, should register the room in our name.</u>
+                <u who="#boderD" start="866.346" end="x">In which name?</u>
+                <u who="#hirschD" start="867.804" end="x">Err, register the room with the police in our name.</u>
+                <u who="#boderD" start="871.370" end="x">Yes?</u>
+                <u who="#hirschD" start="871.912" end="x">Of course, we didn't want that, and, err...</u>
+                <u who="#boderD" start="874.503" end="x">How many people were there in this room?</u>
+                <u who="#hirschD" start="876.172" end="x">Around ten people.</u>
+                <u who="#boderD" start="877.720" end="x">In one room?</u>
+                <u who="#hirschD" start="878.594" end="x">Yes, well, up in the attic.</u>
+                <u who="#boderD" start="880.534" end="x">Yes. Were there any women?</u>
+                <u who="#hirschD" start="882.263" end="x">No.</u>
+                <u who="#boderD" start="882.877" end="x">Yes, well?</u>
+                <u who="#hirschD" start="884.594" end="x">Well, we left the house...</u>
+                <u who="#boderD" start="888.450" end="x">Yes.</u>
+                <u who="#hirschD" start="889.366" end="x">... and, err, spent one night there in a hotel...</u>
+                <u who="#boderD" start="895.221" end="x">Yes?</u>
+                <u who="#hirschD" start="895.944" end="x">... and the next day we went...</u>
+                <u who="#boderD" start="898.746" end="x">(Disbelievingly) In a hotel?</u>
+                <u who="#hirschD" start="899.993" end="x">Yes, yes.</u>
+                <u who="#boderD" start="900.818" end="x">Did you pay?</u>
+                <u who="#hirschD" start="902.595" end="x">Yes...</u>
+                <u who="#boderD" start="902.897" end="x">You could do that?</u>
+                <u who="#hirschD" start="903.602" end="x">Yes, yes.</u>
+                <u who="#boderD" start="904.849" end="x">And how did the hotel accept you without reporting to the police?</u>
+                <u who="#hirschD" start="909.138" end="x">Err, I was French back then, right?</u>
+                <u who="#boderD" start="911.488" end="x">Oh, yes. Yes.</u>
+                <u who="#hirschD" start="912.855" end="x">(Laughing.)</u>
+                <u who="#boderD" start="913.247" end="x">And the other people? Did they go with you?</u>
+                <u who="#hirschD" start="915.355" end="x">No, there was only two of us...</u>
+                <u who="#boderD" start="916.861" end="x">Aha.</u>
+                <u who="#hirschD" start="917.223" end="x">... my comrade and I.</u>
+                <u who="#boderD" start="918.048" end="x">Yes. And?</u>
+                <u who="#hirschD" start="919.343" end="x">And, err, the next day I met a group of boys and girls, in <placeName ref="Annecy">Annecy</placeName>, again, so we went to <placeName ref="Annecy">Annecy</placeName> again and, err, in the evening, around half past six, we took the bus...</u>
+                <u who="#boderD" start="935.187" end="x">Yes?</u>
+                <u who="#hirschD" start="935.518" end="x">... to, err, <placeName ref="Saint-Julien-en-Genevois">Saint-Julien</placeName>...</u>
+                <u who="#boderD" start="937.217" end="x">Yes?</u>
+                <u who="#hirschD" start="937.771" end="x">... directly at the border...</u>
+                <u who="#boderD" start="939.458" end="x">Yes?</u>
+                <u who="#hirschD" start="939.862" end="x">... here we went to a farmer's house located around 200 meters away from the border...</u>
+                <u who="#boderD" start="944.904" end="x">Yes?</u>
+                <u who="#hirschD" start="945.235" end="x">... and, err, the farmer, of course, first looked about to see if there's nobody around and, err, that's how the eight of us crossed the border. And then there was a little girl of five years and, err...</u>
+                <u who="#boderD" start="959.663" end="x">How did she come along with you?</u>
+                <u who="#hirschD" start="961.681" end="x">Yes.</u>
+                <u who="#boderD" start="962.314" end="x">Where did you find the other six? You were two, after all?</u>
+                <u who="#hirschD" start="966.422" end="x">The other six, we found them in <placeName ref="Annecy">Annecy</placeName>. In <placeName ref="Annecy">Annecy</placeName> a transport, a transport of children at that, went from <placeName ref="Paris">Paris</placeName> to <placeName ref="Annecy">Annecy</placeName>, allegedly for the holidays.</u>
+                <u who="#boderD" start="975.669" end="x">Yes?</u>
+                <u who="#hirschD" start="976.272" end="x">And we picked them up. From there.</u>
+                <u who="#boderD" start="979.236" end="x">Aha. And who showed you the farmer's house?</u>
+                <u who="#hirschD" start="983.405" end="x">There was somebody with us.<note n="17">The man David is referring was most probably from the OSE. He had accompanied the children from Paris to Annecy to attempt to transfer them across the Swiss border.</note></u>
+                <u who="#boderD" start="984.682" end="x">He knew?</u>
+                <u who="#hirschD" start="985.556" end="x">Yes, yes.</u>
+                <u who="#boderD" start="986.050" end="x">Who was he?</u>
+                <u who="#hirschD" start="987.056" end="x">I don't know a name.</u>
+                <u who="#boderD" start="988.170" end="x">Is he a Fren... No, I didn't want a name. Was he a Frenchman, a Jew, who was that?</u>
+                <u who="#hirschD" start="993.170" end="x">No idea.</u>
+                <u who="#boderD" start="994.044" end="x">No id...</u>
+                <u who="#hirschD" start="994.658" end="x">I never saw this man before.</u>
+                <u who="#boderD" start="996.466" end="x">And how did you recognize him?</u>
+                <u who="#hirschD" start="998.255" end="x">[unintelligible] introduced.</u>
+                <u who="#boderD" start="1002.864" end="x">As what? That you must leave?</u>
+                <u who="#hirschD" start="1005.075" end="x">The man comes with me.</u>
+                <u who="#boderD" start="1007.617" end="x">Well, I don't understand that. Err, you were there, in the little town, right?</u>
+                <u who="#hirschD" start="1012.858" end="x">Yes.</u>
+                <u who="#boderD" start="1013.159" end="x">And...</u>
+                <u who="#hirschD" start="1013.581" end="x">We met the others...</u>
+                <u who="#boderD" start="1014.364" end="x">... how did you recognize this man?</u>
+                <u who="#hirschD" start="1014.997" end="x">... the others, right, who...</u>
+                <u who="#boderD" start="1017.087" end="x">Ah, you met others who knew this man?</u>
+                <u who="#hirschD" start="1020.160" end="x">No! With these children...</u>
+                <u who="#boderD" start="1022.250" end="x">Yes?</u>
+                <u who="#hirschD" start="1022.793" end="x">... there was someone who accompanied them, they...</u>
+                <u who="#boderD" start="1025.185" end="x">Yes.</u>
+                <u who="#hirschD" start="1025.438" end="x">... were mostly small children...</u>
+                <u who="#boderD" start="1026.643" end="x">Yes.</u>
+                <u who="#hirschD" start="1026.806" end="x">... from <placeName ref="Paris">Paris</placeName>.</u>
+                <u who="#boderD" start="1027.631" end="x">Yes?</u>
+                <u who="#hirschD" start="1028.384" end="x">And they knew the man.</u>
+                <u who="#boderD" start="1030.854" end="x">Oh, [unintelligible].</u>
+                <u who="#hirschD" start="1031.758" end="x">And they, err, I didn't even know the following, the man just came along and...</u>
+                <u who="#boderD" start="1036.017" end="x">Yes.</u>
+                <u who="#hirschD" start="1036.378" end="x">... indicated this to us.</u>
+                <u who="#boderD" start="1038.125" end="x">Yes, and?</u>
+                <u who="#hirschD" start="1039.029" end="x">Didn't tell that here in Switzerland, of course, when...</u>
+                <u who="#boderD" start="1041.409" end="x">Yes, yes, I understand.</u>
+                <u who="#hirschD" start="1041.542" end="x">... I arrived.</u>
+                <u who="#boderD" start="1042.759" end="x">And? Then he took you into the farmer's house?</u>
+                <u who="#hirschD" start="1045.994" end="x">Yes.</u>
+                <u who="#boderD" start="1046.536" end="x">Yes. And then?</u>
+                <u who="#hirschD" start="1047.892" end="x">And then, when the farmer saw that there were no Germans nearby at the...</u>
+                <u who="#boderD" start="1052.814" end="x">Yes.</u>
+                <u who="#hirschD" start="1053.880" end="x">... border we started immediately and, err, went over the barbed wire, err, into Switzerland.</u>
+                <u who="#boderD" start="1059.513" end="x">Well, and the Swiss guards, where did the Swiss guards...?</u>
+                <u who="#hirschD" start="1062.627" end="x">The Swiss guards, err, stopped us only after, err, a march of two kilometers in, on Swiss territory.</u>
+                <u who="#boderD" start="1069.465" end="x">And there was a little girl of five years with...</u>
+                <u who="#hirschD" start="1071.796" end="x">Yes.</u>
+                <u who="#boderD" start="1072.158" end="x">... you. Whose child was she?</u>
+                <u who="#hirschD" start="1073.857" end="x">I don't know. Had three siblings.</u>
+                <u who="#boderD" start="1076.670" end="x">Oh, they were also with you?</u>
+                <u who="#hirschD" start="1078.267" end="x">Yes.</u>
+                <u who="#boderD" start="1078.701" end="x">Oh yes, there were three siblings with a small child?</u>
+                <u who="#hirschD" start="1081.605" end="x">Yes.</u>
+                <u who="#boderD" start="1082.099" end="x">Speak, err, yes. And then you were, you presented yourself to the Swiss police? Now go on, what happened in Switzerland?</u>
+                <u who="#hirschD" start="1089.912" end="x">Then, err, the Swiss guards stopped us, we were taken to the nearest customs office...</u>
+                <u who="#boderD" start="1096.539" end="x">Yes?</u>
+                <u who="#hirschD" start="1097.274" end="x">... and, err, from there transported in a car with several people, who got caught there the same night...</u>
+                <u who="#boderD" start="1104.214" end="x">Yes?</u>
+                <u who="#hirschD" start="1104.678" end="x">... here to <placeName ref="Genève">Geneva</placeName>.</u>
+                <u who="#boderD" start="1106.286" end="x">Yes?</u>
+                <u who="#hirschD" start="1106.768" end="x">In <placeName ref="Genève">Geneva</placeName>, all personal data was recorded and so on.</u>
+                <u who="#boderD" start="1111.407" end="x">Who did this?</u>
+                <u who="#hirschD" start="1113.467" end="x">The Swiss.</u>
+                <u who="#boderD" start="1114.160" end="x">Yes, were they [unintelligible]?</u>
+                <u who="#hirschD" start="1115.124" end="x">Err, military police.</u>
+                <u who="#boderD" start="1116.582" end="x">What?</u>
+                <u who="#hirschD" start="1117.166" end="x">Military police.</u>
+                <u who="#boderD" start="1118.221" end="x">Military police recorded your names and then?</u>
+                <u who="#hirschD" start="1121.245" end="x">Names, personal data, everything, right?</u>
+                <u who="#boderD" start="1123.745" end="x">Yes.</u>
+                <u who="#hirschD" start="1124.197" end="x">From where, and so on. And, err, then we were finally thrown on straw at two o'clock...</u>
+                <u who="#boderD" start="1131.799" end="x">Yes?</u>
+                <u who="#hirschD" start="1132.281" end="x">... with locked doors...</u>
+                <u who="#boderD" start="1133.817" end="x">Yes?</u>
+                <u who="#hirschD" start="1134.691" end="x">And, err, that's how we spent the whole day there until the next, err, I again had to report to, to a civilian official.</u>
+                <u who="#boderD" start="1147.052" end="x">Yes?</u>
+                <u who="#hirschD" start="1147.625" end="x">And, err, as I had no papers...</u>
+                <u who="#boderD" start="1150.800" end="x">Mhm.</u>
+                <u who="#hirschD" start="1151.384" end="x">... the good man wanted to throw me out of Switzerland again immediately.<note n="18">Official Swiss policy at the time was that "refugees on racial grounds only, for example Jews" did not fall under the category of political refugees to whom Switzerland had traditionally offered refuge. These "racial refugees" were therefore refused admittance into the country. Consequently, many thousands of Jews were denied entry, and many others who had managed to slip across the border were expelled. This policy was carried out despite full knowledge on the part of the Swiss government that Jews were being murdered by Nazi Germany.</note></u>
+                <u who="#boderD" start="1156.987" end="x">Well, why didn't you have any papers? You said you had French papers?</u>
+                <u who="#hirschD" start="1160.132" end="x">Yes, for as long as I was in France.</u>
+                <u who="#boderD" start="1163.066" end="x">Yes?</u>
+                <u who="#hirschD" start="1163.952" end="x">I left the papers behind in France when I crossed the border. Gave them to the one, the man that had come with us.</u>
+                <u who="#boderD" start="1172.669" end="x">Yes.</u>
+                <u who="#hirschD" start="1173.103" end="x">So that another person can then...</u>
+                <u who="#boderD" start="1175.103" end="x">Oh, so that another person [unintelligible].</u>
+                <u who="#hirschD" start="1176.248" end="x">... benefit from them.</u>
+                <u who="#boderD" start="1178.730" end="x">Yes?</u>
+                <u who="#hirschD" start="1179.194" end="x">After all, he only has to change the photo then.</u>
+                <u who="#boderD" start="1181.164" end="x">What?</u>
+                <u who="#hirschD" start="1181.839" end="x">After all, he only has to change the photo.</u>
+                <u who="#boderD" start="1183.357" end="x">Yes. And then?</u>
+                <u who="#hirschD" start="1184.020" end="x">Seal and all is already on it.</u>
+                <u who="#boderD" start="1185.478" end="x">Yes? And so, so you didn't have any papers, and what has the...?</u>
+                <u who="#hirschD" start="1190.189" end="x">So I didn't have any papers and came here to Switzerland in my old name...</u>
+                <u who="#boderD" start="1197.038" end="x">Yes?</u>
+                <u who="#hirschD" start="1197.520" end="x">... and my old data, as it was actually correct...</u>
+                <u who="#boderD" start="1201.797" end="x">Yes?</u>
+                <u who="#hirschD" start="1202.309" end="x">..., right?</u>
+                <u who="#boderD" start="1202.671" end="x">And so you were...</u>
+                <u who="#hirschD" start="1203.978" end="x">And, err, they wanted to throw me out again.</u>
+                <u who="#boderD" start="1206.538" end="x">Yes.</u>
+                <u who="#hirschD" start="1207.382" end="x">Actually, I have, err, I haven't, err, I didn't budge.</u>
+                <u who="#boderD" start="1211.400" end="x">What?</u>
+                <u who="#hirschD" start="1211.912" end="x">I stayed, err, I stayed in the office, I didn't let them throw me out...</u>
+                <u who="#boderD" start="1216.912" end="x">Throw out, how? You didn't let them throw you out?</u>
+                <u who="#hirschD" start="1219.683" end="x">Now, he showed me the, he showed me the door.</u>
+                <u who="#boderD" start="1222.364" end="x">Where to?</u>
+                <u who="#hirschD" start="1223.430" end="x">And, err...</u>
+                <u who="#boderD" start="1223.822" end="x">Did you go out?</u>
+                <u who="#hirschD" start="1225.310" end="x">No.</u>
+                <u who="#boderD" start="1226.075" end="x">Well?</u>
+                <u who="#hirschD" start="1227.099" end="x">Well, I said: “I won't go!?.</u>
+                <u who="#boderD" start="1229.388" end="x">Oh.</u>
+                <u who="#hirschD" start="1229.961" end="x">Then I showed him a letter from my parents to prove to him that I, my statements, err, my, concerning my parents, that they are in <placeName ref="#vothL1319">Buenos Aires</placeName>, err, that he can believe me that, right?</u>
+                <u who="#boderD" start="1243.497" end="x">What did you show to him?</u>
+                <u who="#hirschD" start="1244.822" end="x">An old letter from my parents.</u>
+                <u who="#boderD" start="1246.901" end="x">Oh. You had that with you?</u>
+                <u who="#hirschD" start="1248.540" end="x">I had it with me.</u>
+                <u who="#boderD" start="1249.124" end="x">Were you not afraid of carrying it around with you?</u>
+                <u who="#hirschD" start="1251.654" end="x">No, no.</u>
+                <u who="#boderD" start="1252.799" end="x">Well, and?</u>
+                <u who="#hirschD" start="1254.094" end="x">Now, err, took my name...</u>
+                <u who="#boderD" start="1257.679" end="x">Yes?</u>
+                <u who="#hirschD" start="1259.348" end="x">... and, err, when it was time, I was to be sent back with six others.</u>
+                <u who="#boderD" start="1264.571" end="x">Yes?</u>
+                <u who="#hirschD" start="1265.095" end="x">Sent back across the border.</u>
+                <u who="#boderD" start="1267.414" end="x">Yes?</u>
+                <u who="#hirschD" start="1268.107" end="x">And, err, I simply didn't understand that. All others had to step forward in order to be searched, and I was still there with six others...</u>
+                <u who="#boderD" start="1277.836" end="x">Yes?</u>
+                <u who="#hirschD" start="1278.198" end="x">... among them was a man who was sent back for the sixth time...</u>
+                <u who="#boderD" start="1282.065" end="x">Yes?</u>
+                <u who="#hirschD" start="1283.210" end="x">... and, err...</u>
+                <u who="#boderD" start="1283.843" end="x">Was that a Jewish man?</u>
+                <u who="#hirschD" start="1286.204" end="x">I don't know.</u>
+                <u who="#boderD" start="1287.319" end="x">And how did they send you back? Simply pushed across the border...<note n="19"> It is unclear if David was actually expelled to France, or if this would have been his fate had the Swiss official, as he subsequently indicates, not relented. It seems that after the official's first refusal to admit him, David tried again while still at the refugee office and was finally admitted.</note></u>
+                <u who="#hirschD" start="1289.952" end="x">Simply pushed across the border.</u>
+                <u who="#boderD" start="1291.229" end="x">... or were you handed over to the police there?</u>
+                <u who="#hirschD" start="1293.518" end="x">No, pushed across the border.</u>
+                <u who="#boderD" start="1295.777" end="x">At a place where nobody was?</u>
+                <u who="#hirschD" start="1297.344" end="x">Yes, yes.</u>
+                <u who="#boderD" start="1298.290" end="x">Yes, well?</u>
+                <u who="#hirschD" start="1299.417" end="x">Now, err, I could manage somehow to rush through the door and to join the crowd there.</u>
+                <u who="#boderD" start="1308.917" end="x">Yes?</u>
+                <u who="#hirschD" start="1309.339" end="x">And so, err...</u>
+                <u who="#boderD" start="1310.375" end="x">Louder, please. Yes.</u>
+                <u who="#hirschD" start="1311.068" end="x">And so break into the office later, when all, err, were through, I once again went into the office...</u>
+                <u who="#boderD" start="1318.520" end="x">Yes?</u>
+                <u who="#hirschD" start="1319.104" end="x">... and, err, asked what, whether there was some mistake concerning my issue, him saying before that it was alright, right?</u>
+                <u who="#boderD" start="1329.165" end="x">Why?</u>
+                <u who="#hirschD" start="1330.322" end="x">Well, first he wanted to throw me out, after I showed him the letter...</u>
+                <u who="#boderD" start="1333.979" end="x">Yes?</u>
+                <u who="#hirschD" start="1334.383" end="x">... he said that it was okay...</u>
+                <u who="#boderD" start="1336.232" end="x">Yes?</u>
+                <u who="#hirschD" start="1336.624" end="x">... he believed me then. Then it was once more that I was already, almost on my way to be turned back.</u>
+                <u who="#boderD" start="1345.540" end="x">Yes. And then?</u>
+                <u who="#hirschD" start="1346.395" end="x">Err, I again went into his office, explained the issue to him once more...</u>
+                <u who="#boderD" start="1351.516" end="x">Yes?</u>
+                <u who="#hirschD" start="1351.950" end="x">... if maybe in the meantime there had been another error...</u>
+                <u who="#boderD" start="1355.155" end="x">Yes?</u>
+                <u who="#hirschD" start="1355.980" end="x">So...</u>
+                <u who="#boderD" start="1356.733" end="x">He told you what?</u>
+                <u who="#hirschD" start="1357.998" end="x">So he... approved of my issue...</u>
+                <u who="#boderD" start="1362.306" end="x">Yes?</u>
+                <u who="#hirschD" start="1363.011" end="x">... I had to turn in my money, the French money that I had with me.</u>
+                <u who="#boderD" start="1366.668" end="x">How much did you have?</u>
+                <u who="#hirschD" start="1367.885" end="x">Seven an... seven-hundred and fifty francs...</u>
+                <u who="#boderD" start="1370.156" end="x">Where did you get that?</u>
+                <u who="#hirschD" start="1372.234" end="x">... French francs. Where I worked.</u>
+                <u who="#boderD" start="1374.012" end="x">Where?</u>
+                <u who="#hirschD" start="1374.988" end="x">With the farmer.</u>
+                <u who="#boderD" start="1375.783" end="x">Oh, the farmer did pay you?</u>
+                <u who="#hirschD" start="1378.193" end="x">He shouldn't have paid me, but they, err, they were very nice, the people. And so he paid me, err, something every fourteen days.</u>
+                <u who="#boderD" start="1386.669" end="x">And you saved this?</u>
+                <u who="#hirschD" start="1388.157" end="x">Yes.</u>
+                <u who="#boderD" start="1389.675" end="x">Oh. And then you gave your money to the Swiss and?</u>
+                <u who="#hirschD" start="1393.410" end="x">And, err...</u>
+                <u who="#boderD" start="1394.073" end="x">Did you get it back afterwards?</u>
+                <u who="#hirschD" start="1395.320" end="x">... got it, err, later back in Fran..., in Swiss Francs.</u>
+                <u who="#boderD" start="1398.344" end="x">Yes. Well, and?</u>
+                <u who="#hirschD" start="1400.091" end="x">Well, then, half an hour later, err, I went on transport to another camp...</u>
+                <u who="#boderD" start="1406.868" end="x">Yes?</u>
+                <u who="#hirschD" start="1407.471" end="x">... also here, in <placeName ref="Genève">Geneva</placeName>.</u>
+                <u who="#boderD" start="1408.477" end="x">Yes?</u>
+                <u who="#hirschD" start="1408.838" end="x">Here I was, err, for three weeks then.</u>
+                <u who="#boderD" start="1412.573" end="x">Yes?</u>
+                <u who="#hirschD" start="1412.965" end="x">From <placeName ref="Genève">Geneva</placeName> I came to <placeName ref="Les Avants" type="camp">Les Avants</placeName>...</u>
+                <u who="#boderD" start="1417.345" end="x">Yes.</u>
+                <u who="#hirschD" start="1417.809" end="x">... near <placeName ref="Montreux">Montreux</placeName>.</u>
+                <u who="#boderD" start="1419.176" end="x">Yes?</u>
+                <u who="#hirschD" start="1419.478" end="x">Here I was for four weeks and then got liberated by the Children's Relief then and...</u>
+                <u who="#boderD" start="1424.129" end="x">Which Children's Relief?</u>
+                <u who="#hirschD" start="1425.316" end="x">Swiss...</u>
+                <u who="#boderD" start="1426.021" end="x">Yes, well?</u>
+                <u who="#hirschD" start="1427.148" end="x">... Children's Relief. And came, err, to, err, <placeName ref="Speicher">Speicher</placeName> in the canton Appenzell, near <placeName ref="Sankt Gallen">St. Gallen</placeName>.<note n="20">The so-called OSE Union was headquartered in Geneva and cared for David in the various Swiss locations he describes, including Speicher and the the Pont de la Foret home in Geneva.</note></u>
+                <u who="#boderD" start="1433.455" end="x">Aha. And?</u>
+                <u who="#hirschD" start="1434.630" end="x">Here I was, under less convenient conditions, in a children's home...</u>
+                <u who="#boderD" start="1440.666" end="x">Yes?</u>
+                <u who="#hirschD" start="1440.877" end="x">... for three and a half months. And, err, could then, thanks to my comrades I had here in <placeName ref="Genève">Geneva</placeName>, in Pont de la Forêt, could then come here.</u>
+                <u who="#boderD" start="1450.979" end="x">What is that?</u>
+                <u who="#hirschD" start="1452.275" end="x">Pont de la Forêt.</u>
+                <u who="#boderD" start="1453.612" end="x">What is that?</u>
+                <u who="#hirschD" start="1454.727" end="x">That is, err, a children's home.</u>
+                <u who="#boderD" start="1457.269" end="x">A Jewish one?</u>
+                <u who="#hirschD" start="1458.384" end="x">Yes.</u>
+                <u who="#boderD" start="1461.498" end="x">How do you spell that? Write it down. (Hirsch writes it down.) Why did you have comrades in Pont de la Forêt?</u>
+                <u who="#hirschD" start="1470.926" end="x">My comrade, who was with me.</u>
+                <u who="#boderD" start="1473.004" end="x">Yes?</u>
+                <u who="#hirschD" start="1473.185" end="x">Was liberated right here in <placeName ref="Genève">Geneva</placeName> and came to that asylum, and I went further.</u>
+                <u who="#boderD" start="1478.456" end="x">Aha. And then?</u>
+                <u who="#hirschD" start="1479.721" end="x">So, err, he met other comrades there...</u>
+                <u who="#boderD" start="1483.899" end="x">Yes?</u>
+                <u who="#hirschD" start="1484.321" end="x">... with whom we were together in France.</u>
+                <u who="#boderD" start="1486.038" end="x">Yes?</u>
+                <u who="#hirschD" start="1486.622" end="x">In the <term ref="#vothG_ose">OSE</term> home.</u>
+                <u who="#boderD" start="1488.008" end="x">Yes?</u>
+                <u who="#hirschD" start="1488.773" end="x">Quite funny. (Laughs) Here you meet again.</u>
+                <u who="#boderD" start="1491.544" end="x">Yes?</u>
+                <u who="#hirschD" start="1491.966" end="x">And, err, they absolutely wanted me to come here.</u>
+                <u who="#boderD" start="1494.689" end="x">Yes?</u>
+                <u who="#hirschD" start="1495.273" end="x">And so I got my way coming here. Was here for two months and immediately, err, started, err...</u>
+                <u who="#boderD" start="1502.111" end="x">Learning?</u>
+                <u who="#hirschD" start="1502.846" end="x">... learning.<note n="21">David was diligently studying to make up for his lost education and to prepare for his new post-war life.</note></u>
+                <u who="#boderD" start="1503.822" end="x">And what, err, do you want to do now?</u>
+                <u who="#hirschD" start="1507.449" end="x">Now, err, I want to... I want to finish here first. That means, I have two more months here...</u>
+                <u who="#boderD" start="1514.750" end="x">Yes?</u>
+                <u who="#hirschD" start="1515.142" end="x">... to take my final exam.</u>
+                <u who="#boderD" start="1517.022" end="x">Yes?</u>
+                <u who="#hirschD" start="1517.124" end="x">And then want to go to <placeName ref="#vothL1319">Buenos Aires</placeName> as quickly as possible.</u>
+                <u who="#boderD" start="1520.438" end="x">Do you have a letter open from your parents?</u>
+                <u who="#hirschD" start="1523.492" end="x">Yes.</u>
+                <u who="#boderD" start="1523.884" end="x">Yes? And do you have permission to go to <placeName ref="#vothL1319">Buenos Aires</placeName>?</u>
+                <u who="#hirschD" start="1528.444" end="x">I am currently waiting for my visa.</u>
+                <u who="#boderD" start="1530.312" end="x">You are waiting for your...</u>
+                <u who="#hirschD" start="1530.926" end="x">Since May the visa is in the, err, government department in...</u>
+                <u who="#boderD" start="1534.451" end="x">Here?</u>
+                <u who="#hirschD" start="1534.704" end="x">... <placeName ref="#vothL1319">Buenos Aires</placeName>.</u>
+                <u who="#boderD" start="1535.186" end="x">In <placeName ref="#vothL1319">Buenos Aires</placeName>?</u>
+                <u who="#hirschD" start="1536.011" end="x">Yes. Only needs approval.</u>
+                <u who="#boderD" start="1538.361" end="x">Err, do you know that right now a representative from Argentina is here?</u>
+                <u who="#hirschD" start="1543.403" end="x">Yes?</u>
+                <u who="#boderD" start="1544.156" end="x">Didn't you know that?</u>
+                <u who="#hirschD" start="1545.361" end="x">No.</u>
+                <u who="#boderD" start="1546.054" end="x">Oh, I probably will, err, he can be seen in <placeName ref="Paris">Paris</placeName>. Err, he is an advocate, write down your name and maybe one can, he can do something [unintelligible]. Well, you will, this will be taken care of.<note n="22">As in many other instances, Boder offers his help to his interviewee.</note></u>
+                <u who="#hirschD" start="1562.454" end="x">Yes.</u>
+                <u who="#boderD" start="1562.816" end="x">Well, err, the time is very short, so, I thank you very much!</u>
+                <u who="#boderD" start="1567.725" end="x">[In English] This concludes the, err, short interview with David Hirsch. This concludes the short interview with David Hirsch. [Ends abruptly].</u>
+                <!-- end spool 9-74B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Hadassah Marcus; September 13, 1946; Hénonville, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Raynor Ren</name>
+                </respStmt>
+                <!--
+                    <respStmt>
+                    <resp>Transcription</resp>
+                    <name>[name]</name>
+                    </respStmt>
+                -->
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT52M13.961S" id="marcusH_9-128_9-129">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <note type="spools" n="1">9-128</note>
+                                <note type="spools" n="2">9-129</note>
+                                <placeName ref="Hénonville"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-13</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="marcusH_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="marcusH" role="interviewee">
+                        <persName>
+                            <forename>Hadassah</forename>
+                            <surname>Marcus</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>32</age>
+                        <birth ref="Warsaw"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <trait type="tattoo">
+                            <desc>48543Δ</desc>
+                        </trait>
+                        <event type="invasion" ref="Warsaw">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Majdanek concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Ravensbrück concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Neustadt-Glewe concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Neustadt-Glewe" when="1945-05-02" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <!-- <div> -->
+            <!-- paste transcription here -->
+            <!-- </div> -->
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#marcusH_en">
+                <!-- begin spool 9-128 -->
+                <div lang="en">
+                    <u who="#boderD" start="2.243" end="x">[In English] France. September the 13th, 1946, at <placeName ref="Hénonville">Henonville</placeName>, fifty kilometers from <placeName ref="Paris">Paris</placeName>, in a home for displaced Jews which consists of a large <term ref="#vothG_kibbutz">Kibbutz</term> and also of a Lithuanian <term ref="#vothG_yeshiva">Yeshiva</term> which is here temporarily. And the person to be interviewed is Mrs. Hadassah Marcus, tattoo number 48543 and a triangle.</u>
+                    <u who="#boderD" start="40.160" end="x">[In Yiddish] And so, Mrs. Marcus, tell us again your name and where you are from.</u>
+                    <u who="#marcusH" start="44.545" end="x">My name is Hadassah Marcus, born in <placeName ref="Warsaw">Warsaw</placeName> and all my years [I] have spent in <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="51.459" end="x">Now, Mrs. Marcus, how old are you now?</u>
+                    <u who="#marcusH" start="54.638" end="x">I am thirty-two years old.</u>
+                    <u who="#boderD" start="57.247" end="x">Thirty-two years.</u>
+                    <u who="#marcusH" start="58.215" end="x">Yes.</u>
+                    <u who="#boderD" start="58.626" end="x">Do you have a family?</u>
+                    <u who="#marcusH" start="60.326" end="x">[With emphasis] I have no family.</u>
+                    <u who="#boderD" start="62.164" end="x">Your husband is not with you?</u>
+                    <u who="#marcusH" start="63.671" end="x">My husband isn't with me for a long time.</u>
+                    <u who="#boderD" start="66.148" end="x">And you are alone here in the <term ref="#vothG_kibbutz">Kibbutz</term>?</u>
+                    <u who="#marcusH" start="67.709" end="x">I [am] alone in the <term ref="#vothG_kibbutz">Kibbutz</term>.</u>
+                    <u who="#boderD" start="69.375" end="x">And so. Nu, Mrs. Marcus, would you tell me where you were and what happened to you when the war began?</u>
+                    <u who="#marcusH" start="78.562" end="x">The war started by us in the first minute [at first] in the year 1939.</u>
+                    <u who="#boderD" start="84.349" end="x">Yes?</u>
+                    <u who="#marcusH" start="84.784" end="x">I was at that time with five small children and with my husband, and with a very large family. Our family consisted of over five hundred persons.</u>
+                    <u who="#boderD" start="94.592" end="x">How is that?</u>
+                    <u who="#marcusH" start="95.641" end="x">My children still had six grandfathers and six grandmothers.</u>
+                    <u who="#boderD" start="98.792" end="x">Hm.</u>
+                    <u who="#marcusH" start="99.448" end="x">All alive.</u>
+                    <u who="#boderD" start="100.671" end="x">Yes.</u>
+                    <u who="#marcusH" start="101.075" end="x">There was little mortality with us.</u>
+                    <u who="#boderD" start="103.490" end="x">How can children have six grandfathers?</u>
+                    <u who="#marcusH" start="105.469" end="x">Four great grandmothers and four great grandfathers.</u>
+                    <u who="#boderD" start="109.950" end="x">Oh, Nu?</u>
+                    <u who="#marcusH" start="111.077" end="x">From both sides they were sll still alive.</u>
+                    <u who="#boderD" start="113.930" end="x">Yes. Nu?</u>
+                    <u who="#marcusH" start="115.548" end="x">[In] 1942 when the edict came out [the doom was proclaimed] on the 22nd [of] the seventh month.</u>
+                    <u who="#boderD" start="122.351" end="x">Yes.</u>
+                    <u who="#marcusH" start="123.970" end="x">. . . a great panic gripped <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="126.927" end="x">Hm.</u>
+                    <u who="#marcusH" start="127.661" end="x">And people began to look for places in industrial plants. By us they were called 'shops' [from the German Shuppen].</u>
+                    <u who="#boderD" start="133.629" end="x">In '42? That late?</u>
+                    <u who="#marcusH" start="135.772" end="x">Yes. Yes.</u>
+                    <u who="#boderD" start="136.336" end="x">Did you live in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> already before?</u>
+                    <u who="#marcusH" start="138.110" end="x">Before, in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="139.052" end="x">And so let us begin this way. What happened when the Germans entered <placeName ref="Warsaw">Warsaw</placeName>? What happened then?</u>
+                    <u who="#marcusH" start="143.233" end="x">When the Germans entered there was a great panic. Right away we began to feel his strong hand. Right away he began strongly to exterminate us. And right away he began . . . at first with the great Jewith savants, and with our clergymen as well as with other men of learning. Right away he . . . all of our . . . the whole intelligentsia he took away from us. And later, when we had already lost the whole intelligentsia and all those who could show us a way [lead us], they started on us, the average people.</u>
+                    <u who="#boderD" start="181.361" end="x">Hm.</u>
+                    <u who="#marcusH" start="182.386" end="x">They began to take people into <term ref="#vothG_lager">lagers</term>. In the beginning we had words [regards] from the people.</u>
+                    <u who="#boderD" start="188.378" end="x">And so when did they take you into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#marcusH" start="190.829" end="x">Into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> they took us in the year 1941.</u>
+                    <u who="#boderD" start="194.689" end="x">Yes? And you went into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> with the others?</u>
+                    <u who="#marcusH" start="197.000" end="x">Into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> with everything [everybody].</u>
+                    <u who="#boderD" start="198.668" end="x">Hm.</u>
+                    <u who="#marcusH" start="199.215" end="x">Because we were living in the region which was to become the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="203.969" end="x">Hm.</u>
+                    <u who="#marcusH" start="204.468" end="x">So we just remained there. People who . . . if they were living outside the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> were greatly broken up.</u>
+                    <u who="#boderD" start="212.173" end="x">Hm.</u>
+                    <u who="#marcusH" start="212.437" end="x">They weren't able by any means to find living quarters.</u>
+                    <u who="#boderD" start="215.281" end="x">Hm.</u>
+                    <u who="#marcusH" start="215.630" end="x">Because during all the time . . . during the entire war [the Jews of] the entire district of Poland . . .</u>
+                    <u who="#boderD" start="220.152" end="x">Yes.</u>
+                    <u who="#marcusH" start="220.414" end="x">. . . were pushed into <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="222.059" end="x">Hm.</u>
+                    <u who="#marcusH" start="222.615" end="x">So that it was very crowded . . .</u>
+                    <u who="#boderD" start="224.229" end="x">Christians as well, or just Jews?</u>
+                    <u who="#marcusH" start="225.408" end="x">Only Jews.</u>
+                    <u who="#boderD" start="226.644" end="x">Hm.</u>
+                    <u who="#marcusH" start="227.230" end="x">Christians he left in peace entirely. He gave them all the rights that they demanded in order that the gentiles should be able to help, entirely in the open, with all the perpetrations that he wanted.</u>
+                    <u who="#boderD" start="240.344" end="x">The German?</u>
+                    <u who="#marcusH" start="241.100" end="x">The German.</u>
+                    <u who="#boderD" start="241.751" end="x">Nu? And so you were living in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>. On what street in <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName> did you live?</u>
+                    <u who="#marcusH" start="245.142" end="x">On Nowolipki 66.</u>
+                    <u who="#boderD" start="246.695" end="x">Hm.</u>
+                    <u who="#marcusH" start="246.839" end="x">There I lived.</u>
+                    <u who="#boderD" start="247.734" end="x">Hm.</u>
+                    <u who="#marcusH" start="248.579" end="x">Everyone of us took in many of his relatives. We shared with everything, with what we were able to. But in the year 1942 on the 22nd of the seventh month, when the edict came out that the Jews should be resetlled, we didn't know what he wants [us] to do. He hung out placards that we are being sent to <placeName ref="Lublin">Lublin</placeName>. And everyone of us can take along fifteen kilos. The finest people, the strongest, the . . . the entire youth took along baggage and went there, but alas, we had no more word from them.</u>
+                    <u who="#boderD" start="284.565" end="x">Hm. That was still before the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> was annihilated?</u>
+                    <u who="#marcusH" start="287.726" end="x">Yes, that was all still before.</u>
+                    <u who="#boderD" start="288.283" end="x">They hung placards that you should come to <placeName ref="Lublin">Lublin</placeName>.</u>
+                    <u who="#marcusH" start="290.271" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="291.384" end="x">Tell me, what was the occupation of your family in <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>?</u>
+                    <u who="#marcusH" start="294.873" end="x">We were diamond dealers.</u>
+                    <u who="#boderD" start="297.447" end="x">Oh. Where did you buy the diamonds? Where did you sell them?</u>
+                    <u who="#marcusH" start="301.074" end="x">One from another.</u>
+                    <u who="#boderD" start="302.476" end="x">Hm. In . . . in peace time you . . .</u>
+                    <u who="#marcusH" start="304.580" end="x">In peace time and during the war.</u>
+                    <u who="#boderD" start="306.608" end="x">Hm.</u>
+                    <u who="#marcusH" start="306.817" end="x">Because this had been for generations . . . dealers in silver and gold [and] diamonds.</u>
+                    <u who="#boderD" start="309.980" end="x">Do you understand diamonds?</u>
+                    <u who="#marcusH" start="311.938" end="x">I? No. I, myself, no.</u>
+                    <u who="#boderD" start="313.748" end="x">Nu. And so? What did you do with the merchandise that you had?</u>
+                    <u who="#marcusH" start="319.036" end="x">Nu, that . . . when the war started I had four factories of my own, and when the Germans entered.</u>
+                    <u who="#boderD" start="326.038" end="x">Factories?</u>
+                    <u who="#marcusH" start="326.674" end="x">Yes.</u>
+                    <u who="#boderD" start="326.704" end="x">What sort of factories did you have?</u>
+                    <u who="#marcusH" start="327.549" end="x">Chemical. We manufactured argentum nitricum [silver nitrate].</u>
+                    <u who="#boderD" start="331.472" end="x">Yes?</u>
+                    <u who="#marcusH" start="331.641" end="x">That is needed for photographic [work], for lithography [words not clear].</u>
+                    <u who="#boderD" start="334.785" end="x">So you had another occupation besides diamonds.</u>
+                    <u who="#marcusH" start="336.575" end="x">Everything.</u>
+                    <u who="#boderD" start="337.290" end="x">Yes?</u>
+                    <u who="#marcusH" start="337.767" end="x">There was everything. I was a great enterprising power.</u>
+                    <u who="#boderD" start="341.929" end="x">Yes?</u>
+                    <u who="#marcusH" start="342.118" end="x">My husband was a . . . a . . . a . . . he had everything under his hand.</u>
+                    <u who="#boderD" start="347.800" end="x">Hm.</u>
+                    <u who="#marcusH" start="348.064" end="x">And the basic thing . . . our occupation was gold, silver, and diamonds. This was so from generation to generation.</u>
+                    <u who="#boderD" start="354.058" end="x">Hm. Yes? So what do you say was done, you did with your merchandise, with all that you had?</u>
+                    <u who="#marcusH" start="361.931" end="x">My merchandise . . . when there had come out the edicts that we should be resettled . . .</u>
+                    <u who="#boderD" start="368.405" end="x">Yes?</u>
+                    <u who="#marcusH" start="368.994" end="x">. . . we hid it.</u>
+                    <u who="#boderD" start="370.752" end="x">Hm.</u>
+                    <u who="#marcusH" start="371.433" end="x">But after a few months . . . someone had informed on us.</u>
+                    <u who="#boderD" start="374.684" end="x">Hm.</u>
+                    <u who="#marcusH" start="375.150" end="x">Because even then we were doing business. And they took my husband away. He sat [was imprisoned] for three months.</u>
+                    <u who="#boderD" start="380.500" end="x">Hm.</u>
+                    <u who="#marcusH" start="380.518" end="x">I was left alone then with the five children.</u>
+                    <u who="#boderD" start="383.616" end="x">Yes?</u>
+                    <u who="#marcusH" start="384.121" end="x">He was murderously beaten. One day he received seventy five strokes.</u>
+                    <u who="#boderD" start="388.362" end="x">Who?</u>
+                    <u who="#marcusH" start="389.625" end="x">The husband.</u>
+                    <u who="#boderD" start="390.298" end="x">Yes?</u>
+                    <u who="#marcusH" start="390.914" end="x">Only because they knew that he can hold out and that he has money.</u>
+                    <u who="#boderD" start="396.609" end="x">Hm.</u>
+                    <u who="#marcusH" start="396.778" end="x">He was merderously tortured, but [words not clear] . . .</u>
+                    <u who="#boderD" start="399.983" end="x">What did they want?</u>
+                    <u who="#marcusH" start="400.033" end="x">They didn't want anything. They just tortured him.</u>
+                    <u who="#boderD" start="402.766" end="x">Yes, did they ask anything?</u>
+                    <u who="#marcusH" start="404.744" end="x">Yes.</u>
+                    <u who="#boderD" start="404.744" end="x">Did they demand anything?</u>
+                    <u who="#marcusH" start="408.899" end="x">They demanded that we should give out to them the wealthy Jew [Jewish N'giddim] who were still around.</u>
+                    <u who="#boderD" start="414.457" end="x">What does N'giddim mean?</u>
+                    <u who="#marcusH" start="415.756" end="x">Where there are still the very wealthy . . .</u>
+                    <u who="#boderD" start="417.577" end="x">Hm.</u>
+                    <u who="#marcusH" start="418.605" end="x">. . . those who have money.</u>
+                    <u who="#boderD" start="418.726" end="x">Hm.</u>
+                    <u who="#marcusH" start="418.756" end="x">When he will betray them, then they will set him free.</u>
+                    <u who="#boderD" start="420.939" end="x">Nu?</u>
+                    <u who="#marcusH" start="422.240" end="x">But one was acting like one ought to act. And we succeeded in getting him out after three months of imprisonment.</u>
+                    <u who="#boderD" start="428.404" end="x">Hm.</u>
+                    <u who="#marcusH" start="429.038" end="x">We thought then that it was a piece of luck. But a few months later there began to erupt in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> strong blockades, as we called them.</u>
+                    <u who="#boderD" start="441.152" end="x">Yes.</u>
+                    <u who="#marcusH" start="441.490" end="x">Every day they took away ten . . . over ten thousand persons from <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName>. They were sent away.</u>
+                    <u who="#boderD" start="447.526" end="x">Hm.</u>
+                    <u who="#marcusH" start="449.101" end="x">Where were they sent? That varied. From no one did we receive word any more. I lost my husband [in] the year [one] thousand nine hundred [forty] three . . . in the year '42 in the eight month.</u>
+                    <u who="#boderD" start="464.439" end="x">Hm. In August.</u>
+                    <u who="#marcusH" start="465.706" end="x">Yes.</u>
+                    <u who="#boderD" start="466.099" end="x">What does it mean?</u>
+                    <u who="#marcusH" start="466.582" end="x">Then I remained alone with all the children.</u>
+                    <u who="#boderD" start="469.509" end="x">What does it mean? Was he arrested, or was he . . .</u>
+                    <u who="#marcusH" start="471.109" end="x">He went out accidentally.</u>
+                    <u who="#boderD" start="473.916" end="x">Yes?</u>
+                    <u who="#marcusH" start="475.012" end="x">And there was going on a very strong blockade [raid].</u>
+                    <u who="#boderD" start="477.245" end="x">Yes.</u>
+                    <u who="#marcusH" start="477.698" end="x">All people were taken away.</u>
+                    <u who="#boderD" start="479.418" end="x">Hm.</u>
+                    <u who="#marcusH" start="480.264" end="x">At that time they took away the entire 'shop'. At that time he was going to a 'shop'.</u>
+                    <u who="#boderD" start="483.282" end="x">What? Oh. A german 'shop'?</u>
+                    <u who="#marcusH" start="484.911" end="x">Yes.</u>
+                    <u who="#boderD" start="485.475" end="x">He was working there?</u>
+                    <u who="#marcusH" start="486.863" end="x">Yes.</u>
+                    <u who="#marcusH" start="487.197" end="x">And he was taken away, the entire 'shop', everybody. The entire 'shop' was liquidated at that time.</u>
+                    <u who="#boderD" start="491.181" end="x">Yes.</u>
+                    <u who="#marcusH" start="493.065" end="x">And I did not have any more . . . I was left with all the children alone . . .</u>
+                    <u who="#boderD" start="498.816" end="x">Hm.</u>
+                    <u who="#marcusH" start="499.092" end="x">. . . in very hard circumstances, because ten times a day such blockades were going on.</u>
+                    <u who="#boderD" start="508.198" end="x">Hm. During the blockades they did what?</u>
+                    <u who="#marcusH" start="510.929" end="x">During the blockades they shot, searched, and exterminated, in all the cellars, in all the offices.</u>
+                    <u who="#boderD" start="518.146" end="x">Hm.</u>
+                    <u who="#marcusH" start="518.448" end="x">. . . in all the places where one might be able . . . where it just looked that one might be hidden.</u>
+                    <u who="#boderD" start="525.179" end="x">Hm.</u>
+                    <u who="#marcusH" start="525.572" end="x">And he who was found was either shot on the spot, because he had hidden himself, or he was taken to the distribution depot and [from] there sent away to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>. At that time <placeName ref="Warsaw Ghetto" type="camp">Warsaw</placeName> was going mostly to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#boderD" start="538.985" end="x"><placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> is what, where? Near <placeName ref="Katowice">Katowice</placeName>? Near <placeName ref="Sosnowiec">Sosnowice</placeName>?</u>
+                    <u who="#marcusH" start="542.305" end="x">No.</u>
+                    <u who="#boderD" start="543.081" end="x">Where is <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>?</u>
+                    <u who="#marcusH" start="544.117" end="x"><placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> is not far from <placeName ref="Warsaw">Warsaw</placeName>. I don't . . .</u>
+                    <u who="#boderD" start="546.630" end="x">Hm.</u>
+                    <u who="#marcusH" start="546.650" end="x">. . . know exactly.</u>
+                    <u who="#boderD" start="547.133" end="x">Yes, yes.</u>
+                    <u who="#marcusH" start="548.500" end="x">. . . where.</u>
+                    <u who="#boderD" start="548.953" end="x">Hm. Nu, go on.</u>
+                    <u who="#marcusH" start="550.547" end="x">During all that time all the transports went to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#boderD" start="554.484" end="x">Hm.</u>
+                    <u who="#marcusH" start="555.007" end="x">In the year 1943, the 18th, the first [month] . . .</u>
+                    <u who="#boderD" start="559.565" end="x">Yes?</u>
+                    <u who="#marcusH" start="560.018" end="x">. . . there was a great holocaust. They took all the shops away. Everything [was] liquidated.</u>
+                    <u who="#boderD" start="565.873" end="x">What does it mean, a holocaust?</u>
+                    <u who="#marcusH" start="567.382" end="x">That there was . . . nobody could save himself . . .</u>
+                    <u who="#boderD" start="570.158" end="x">Hm.</u>
+                    <u who="#marcusH" start="571.365" end="x">. . . but one shop. It was then on the Nowolipie Street. Shultz's</u>
+                    <u who="#boderD" start="576.335" end="x">Hm.</u>
+                    <u who="#marcusH" start="577.136" end="x">That shop was left unharmed at that time. And the entire <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> was emptied out. And at that time, in my absence, on the 18th, first [month], they took all my children away.</u>
+                    <u who="#boderD" start="588.635" end="x">Just took them away?</u>
+                    <u who="#marcusH" start="589.662" end="x">Yes.</u>
+                    <u who="#boderD" start="590.278" end="x">[Words not clear.]</u>
+                    <u who="#marcusH" start="590.950" end="x">In my absence.</u>
+                    <u who="#boderD" start="591.800" end="x">[Words not clear.]</u>
+                    <u who="#marcusH" start="592.065" end="x">I was not at home . . . home then [words not clear] . . .</u>
+                    <u who="#boderD" start="594.110" end="x">In your absence . . .</u>
+                    <u who="#marcusH" start="595.276" end="x">Yes.</u>
+                    <u who="#boderD" start="596.315" end="x">. . . your children were taken away? How old were they?</u>
+                    <u who="#marcusH" start="597.492" end="x">The oldest child was ten and a half years old.</u>
+                    <u who="#boderD" start="600.249" end="x">Hm</u>
+                    <u who="#marcusH" start="600.515" end="x">The next one [was] seven years, and twins of four years.</u>
+                    <u who="#boderD" start="603.533" end="x">Hm.</u>
+                    <u who="#marcusH" start="604.945" end="x">One had died . . .</u>
+                    <u who="#boderD" start="606.716" end="x">Hm.</u>
+                    <u who="#marcusH" start="606.927" end="x">. . . a short time before, a handicapped[?].</u>
+                    <u who="#boderD" start="609.613" end="x">And there they permitted . . .</u>
+                    <u who="#marcusH" start="611.561" end="x">There . . . Yes. There people worked at furriery, at furs, at shoemaking, at various trades.</u>
+                    <u who="#boderD" start="618.285" end="x">Oh, it was a large shop.</u>
+                    <u who="#marcusH" start="620.108" end="x">[With emphasis] A large shop. One of the largest shops.</u>
+                    <u who="#boderD" start="622.163" end="x">And did people live there like in <term ref="#vothG_lager">lagers</term> or in . . . or people lived at home?</u>
+                    <u who="#marcusH" start="625.995" end="x">Variously. In homes.</u>
+                    <u who="#boderD" start="627.427" end="x">And where did you live?</u>
+                    <u who="#marcusH" start="628.639" end="x">I was also living . . . at that time I still had an uncle . . .</u>
+                    <u who="#boderD" start="632.361" end="x">Hm.</u>
+                    <u who="#marcusH" start="632.658" end="x">. . . a brother, and a sister.</u>
+                    <u who="#boderD" start="634.548" end="x">Hm.</u>
+                    <u who="#marcusH" start="634.768" end="x">So we were [living] together.</u>
+                    <u who="#boderD" start="636.292" end="x">Hm. Nu?</u>
+                    <u who="#marcusH" start="638.237" end="x">In 1943 after the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> purge . . .</u>
+                    <u who="#boderD" start="643.232" end="x">Yes?</u>
+                    <u who="#marcusH" start="644.149" end="x">. . . we perceived that the time was coming for Shultz's terrain [factory] as well.</u>
+                    <u who="#boderD" start="649.619" end="x">Hm.</u>
+                    <u who="#marcusH" start="650.048" end="x">During the second Seder night [the second night of Passover] we went down into the bunker.</u>
+                    <u who="#boderD" start="653.090" end="x">During the second Seder?</u>
+                    <u who="#marcusH" start="654.080" end="x">Yes.</u>
+                    <u who="#boderD" start="654.631" end="x">And where did you have a bunker?</u>
+                    <u who="#marcusH" start="656.470" end="x">The bunker was entirely under the ground, very deep underground.</u>
+                    <u who="#boderD" start="660.287" end="x">Hm.</u>
+                    <u who="#marcusH" start="660.563" end="x">Without windows, without air, and without anything.</u>
+                    <u who="#boderD" start="663.653" end="x">And who had made the bunker?</u>
+                    <u who="#marcusH" start="665.321" end="x">It was made by a few people . . .</u>
+                    <u who="#boderD" start="667.856" end="x">Hm.</u>
+                    <u who="#marcusH" start="668.364" end="x">Thirty-odd people were living in that bunker. [Words not clear. A few words might be missing due to a break in the wire. She apparently tells about camouflaging doors] . . . which were leading from the house. And they [pieces of furniture] were put back in the same place where they were before so that nobody in no way could find a trace, that something is to be found there.</u>
+                    <u who="#boderD" start="682.758" end="x">And so wait . . . wait a moment. The bunker was in a cellar or in a . . .</u>
+                    <u who="#marcusH" start="686.124" end="x">Underground.</u>
+                    <u who="#boderD" start="687.179" end="x">Underground.</u>
+                    <u who="#marcusH" start="687.860" end="x">Yes.</u>
+                    <u who="#boderD" start="688.231" end="x">And how did one enter there? Through . . .</u>
+                    <u who="#marcusH" start="689.672" end="x">Through the . . . through rooms of the house.</u>
+                    <u who="#boderD" start="691.706" end="x">Hm.</u>
+                    <u who="#marcusH" start="691.746" end="x">And through there corridors were made.</u>
+                    <u who="#boderD" start="693.489" end="x">Yes?</u>
+                    <u who="#marcusH" start="693.970" end="x">Everything [was] underground.</u>
+                    <u who="#boderD" start="695.303" end="x">Yes?</u>
+                    <u who="#marcusH" start="696.261" end="x">And that is how we entered that cellar.</u>
+                    <u who="#boderD" start="698.726" end="x">Yes. Nu? Who was it that had built . . . built such things?</u>
+                    <u who="#marcusH" start="702.223" end="x">One's own people, alone with our [own] hands.</u>
+                    <u who="#boderD" start="704.758" end="x">Nu? And where did one discard the earth, everything?</u>
+                    <u who="#marcusH" start="708.760" end="x">The earth was thrown out, because we had been preparing already [for] months in advance. We knew that a moment will arrive when they will make <placeName ref="Warsaw">Warsaw</placeName> completely Jew-clean [Juden-rein].</u>
+                    <u who="#boderD" start="718.373" end="x">Hm.</u>
+                    <u who="#marcusH" start="719.085" end="x">That which one could never imagine before, that such a thing could happen.</u>
+                    <u who="#boderD" start="722.872" end="x">Nu? And then?</u>
+                    <u who="#marcusH" start="724.480" end="x">On the 13th of April, on the 13th of the fourth [month]—this was after having been in a bunker a few weeks . . .</u>
+                    <u who="#boderD" start="730.770" end="x">Yes?</u>
+                    <u who="#marcusH" start="731.273" end="x">. . . we were discovered.</u>
+                    <u who="#boderD" start="733.469" end="x">How?</u>
+                    <u who="#marcusH" start="734.191" end="x">They let in to us . . . another bunker had been discovered and there was found someone who reported us [?]. He had no way out any more, and we had to start going out.</u>
+                    <u who="#boderD" start="744.160" end="x">How many people were you in the bunker?</u>
+                    <u who="#marcusH" start="745.445" end="x">Thirty-odd people we were then, one's own [people].</u>
+                    <u who="#boderD" start="747.970" end="x">How did people sleep there? Eat?</u>
+                    <u who="#marcusH" start="750.353" end="x">Everything below..We had made makeshift beds.</u>
+                    <u who="#boderD" start="754.341" end="x">Hm.</u>
+                    <u who="#marcusH" start="754.602" end="x">As far as eating, we lived on whatever we could.</u>
+                    <u who="#boderD" start="757.516" end="x">Yes?</u>
+                    <u who="#marcusH" start="758.831" end="x">Because food did not have any place with us [did not enter one's mind].</u>
+                    <u who="#boderD" start="761.859" end="x">And when one had to go? How did one . . .</u>
+                    <u who="#marcusH" start="764.444" end="x">Oh, everything [everybody] together, because we had no other possibilities. We couldn't get to the surface.</u>
+                    <u who="#boderD" start="771.275" end="x">Hm. Nu</u>
+                    <u who="#marcusH" start="773.709" end="x">They took us out on a Friday at one o'clock.</u>
+                    <u who="#boderD" start="777.659" end="x">Yes?</u>
+                    <u who="#marcusH" start="778.182" end="x">Up to twelve o'clock of the same day the people who were discovered in bunkers were taken into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>—there were no more people there [ or: they did not appear human any more]—into the [house of the] Jewish Community Council.</u>
+                    <u who="#boderD" start="789.575" end="x">Yes?</u>
+                    <u who="#marcusH" start="789.958" end="x">And they gave everyone one shot, no more. That shot, wherever it hit . . . so that people were . . . from one shot can still live 'quite well.'</u>
+                    <u who="#boderD" start="799.371" end="x">Yes.</u>
+                    <u who="#marcusH" start="800.585" end="x">One of those caught had to take all those people . . .</u>
+                    <u who="#boderD" start="804.906" end="x">Hm.</u>
+                    <u who="#marcusH" start="805.229" end="x">. . . who had received the shot [ not clear, possible a break in the wire]. And he who did that had to lie down last on top.</u>
+                    <u who="#boderD" start="816.197" end="x">Hm.</u>
+                    <u who="#marcusH" start="816.758" end="x">This was until twelve o'clock of the same Friday.</u>
+                    <u who="#boderD" start="819.914" end="x">Who told you that?</u>
+                    <u who="#marcusH" start="821.579" end="x">That was told to me by people who had . . . had been present.</u>
+                    <u who="#boderD" start="826.160" end="x">Did [words not clear]?</u>
+                    <u who="#marcusH" start="826.661" end="x">Such . . . Yes. Who had . . . There were people who had masqueraded as Germans. There was an apparatus [organization] for . . . people knew everything. All that was reported.</u>
+                    <u who="#boderD" start="837.598" end="x">Hm.</u>
+                    <u who="#marcusH" start="840.155" end="x">Fate wanted it that we should remain alive, and we were taken out an hour later. Because this edict [doom] lasted until twelve on the same day.</u>
+                    <u who="#boderD" start="849.093" end="x">Hm.</u>
+                    <u who="#marcusH" start="851.069" end="x">At one o'clock we were taken out and searched as big as we were. We couldn't take anything along with us, and besides that, we didn't want to, because we knew where we were going, that we were going to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#boderD" start="865.474" end="x">Yes.</u>
+                    <u who="#marcusH" start="868.236" end="x">Or else we thought that we were going to be burned by them like our previous people, But they led us to the distribution depot. There was the assembly place for all the people whom they had gathered together, and we were, on the same day, Friday afternoon, put into the RR-cars. In the wagon in which I was, were over a hundred people. The RR-car couldn't take in any more than fifty-odd [persons].</u>
+                    <u who="#boderD" start="893.579" end="x">Men and women?</u>
+                    <u who="#marcusH" start="894.553" end="x">Men, women, and children. It is [was] without exception. Thirty-nine people were suffocated.</u>
+                    <u who="#boderD" start="900.952" end="x">Hm.</u>
+                    <u who="#marcusH" start="901.215" end="x">From the heat.</u>
+                    <u who="#boderD" start="901.969" end="x">Yes.</u>
+                    <u who="#marcusH" start="903.384" end="x">Because there were no windows. A very small window far up. Many people jumped out, not because they wanted to save themselves. They wanted to perish in the [open] air.</u>
+                    <u who="#boderD" start="918.130" end="x">One moment, please.</u>
+                    <u who="#boderD" start="919.960" end="x">[In English] This concludes Spool number 128, a report by Mrs. Hadassah Marcus. She is in a . . . and we continue on spool number 129. <placeName ref="Hénonville">Henonville</placeName>, fifty kilometers from <placeName ref="Paris">Paris</placeName>, in an <term ref="#vothG_agudah">Agudah</term> Israel home, supported by the <term ref="#vothG_agudah">Agudah</term>, and the educational part maintained by the <term ref="#vothG_ort">ORT</term> organization. We go over to Spool 129. Illinois Institute of Technology Wire Recording.</u>
+                    <!-- end spool 9-128 -->
+                    <!-- begin spool 9-129 -->
+                    <u who="#boderD" start="963.570" end="x">[In English] France. September 13th, 1946. <placeName ref="Hénonville">Henonville</placeName> near <placeName ref="Paris">Paris</placeName>. A home for displaced Jews mainly maintained by . . . by a <term ref="#vothG_kibbutz">Kibbutz</term> and supported by the <term ref="#vothG_agudah">Agudah</term> Israel, and also having another organization, a <term ref="#vothG_yeshiva">Yeshiva</term> from Lithuania. Mrs. Hadassah Marcus is continuing her report which had started on [Spool] 128.</u>
+                    <u who="#boderD" start="992.217" end="x">[In Yiddish] And so, Mrs. Marcus, they took you there to the distribution depot.</u>
+                    <u who="#marcusH" start="995.925" end="x">Yes. On the same day, Friday, in the evening I was taken to the RR-cars. We were in the RR-cars over a hundred people where there could be only about fifty. Thirty-nine persons had suffocated, because we were completely without air. There was a small window. People were fighting to get out, to get out not for the sake of living, but at least to perish in the air.</u>
+                    <u who="#boderD" start="1018.902" end="x">You mean to jump out?</u>
+                    <u who="#marcusH" start="1020.407" end="x">Yes.</u>
+                    <u who="#boderD" start="1020.938" end="x">Nu, go on.</u>
+                    <u who="#marcusH" start="1021.790" end="x">And in the . . . When dawn came we saw that we were being led not to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>, but we were being led in the direction of <placeName ref="Lublin">Lublin</placeName>, that means to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. We arrived in <placeName ref="Lublin">Lublin</placeName>, and from there, guarded each fifth row by two soldiers with large dogs, with rifles ready, we were led to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, which is a few kilometers from <placeName ref="Lublin">Lublin</placeName>. When we arrived in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> we were the first transport of Jews, of Jewish women. Men were already there, Slovakian Jews.</u>
+                    <u who="#boderD" start="1054.962" end="x">Who was there before?</u>
+                    <u who="#marcusH" start="1057.487" end="x">The Germans. At that time this was a completely new <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="1060.665" end="x">Oh, it was a new <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#marcusH" start="1062.059" end="x">Yes. We were among the first Jews in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="1065.398" end="x">In '43 it was?</u>
+                    <u who="#marcusH" start="1066.332" end="x">In the year '43 on the first of May we arrived in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="1069.781" end="x">Hm.</u>
+                    <u who="#marcusH" start="1070.965" end="x">We lived under very hazardous conditions. As Jews . . . They took away our shoes, and we had to stand all night on a field barefoot. <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> has a climate which has strong winds, unheard of, or great heats. Throughout the night a frost [snow?] of ten centimeters [ thick ] lay on the ground. They examined our feet, if we didn't put a piece of paper underneath. Afterwards, in the morning, we had to run, not walk, to work, chased after by a young female <term ref="#vothG_ss">SS</term> man with a giant dog. Her name was Brigida.</u>
+                    <u who="#boderD" start="1105.220" end="x">Brigida?</u>
+                    <u who="#marcusH" start="1106.012" end="x">Birgida.</u>
+                    <u who="#boderD" start="1106.515" end="x">She was an <term ref="#vothG_ss">SS</term> woman.</u>
+                    <u who="#marcusH" start="1108.030" end="x">An <term ref="#vothG_ss">SS</term> woman.</u>
+                    <u who="#boderD" start="1109.052" end="x">But you had said a female <term ref="#vothG_ss">SS</term> man [<term ref="#vothG_ss">SS</term>-manke].</u>
+                    <u who="#marcusH" start="1110.745" end="x">A female <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="1112.040" end="x">Yes.</u>
+                    <u who="#marcusH" start="1112.523" end="x">She was . . . it is possible that we didn't find in all that time another such woman as she was. Her badness exceeded all human understanding. Running barefoot . . . The Kommando [contingent of prisoners] numbered around fifteen hundred people.</u>
+                    <u who="#boderD" start="1132.938" end="x">Hm.</u>
+                    <u who="#marcusH" start="1133.996" end="x">Whether in rain or in snow at that time, we had to stand and work. She carried on a lot. When she noticed anything, she released a dog. We were bitten, our clothes torn off. And when one returned to the <term ref="#vothG_lager">lager</term> bitten, the next day he was taken to the crematory, because people who weren't completely well, or if one had the smallest rash on himself, one didn't have the right to live.</u>
+                    <u who="#boderD" start="1163.388" end="x">Scabs—what they call it..</u>
+                    <u who="#marcusH" start="1165.103" end="x">An itch, or a wind burn, or a blister from rubbing.</u>
+                    <u who="#boderD" start="1169.728" end="x">Yes.</u>
+                    <u who="#marcusH" start="1170.381" end="x">Immediately she had no right to live, and she was immediately taken to the crematory. We were given absolutely no medical help. Whoever gave us the least bit of help was punished.</u>
+                    <u who="#boderD" start="1185.714" end="x">And what did you work at?</u>
+                    <u who="#marcusH" start="1187.449" end="x">We worked then in the field.</u>
+                    <u who="#boderD" start="1189.373" end="x">Hm</u>
+                    <u who="#marcusH" start="1189.946" end="x">Later on we worked by bricks. We were helping, alas, to build a new crematory on that field which was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> near the bath. At that time people were . . . they were burning, gassing the people in the bath where we bathed.</u>
+                    <u who="#boderD" start="1204.235" end="x">Hm.</u>
+                    <u who="#marcusH" start="1204.548" end="x">In another part. And they were burned in a pit.</u>
+                    <u who="#boderD" start="1208.328" end="x">What do you mean, in a pit? In an open ditch?</u>
+                    <u who="#marcusH" start="1209.603" end="x">In an open ditch.</u>
+                    <u who="#boderD" start="1210.918" end="x">Yes?</u>
+                    <u who="#marcusH" start="1211.351" end="x">We ourselves were present when we took out still unburned pieces, parts of people, and took them on the trucks and threw them in the water. The ashes [were] either thrown in the water or they were strewn in the gardens.</u>
+                    <u who="#boderD" start="1227.378" end="x">Nu?</u>
+                    <u who="#marcusH" start="1228.681" end="x">And so this crematory [the ditch?] was not enough for them, and we ourselves had to help carry bricks at night to build the crematory. Three months I was in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, After three months I was sent to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1243.633" end="x">Why? What . . .</u>
+                    <u who="#marcusH" start="1244.637" end="x">There were transports from <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. We were told that we were being sent to factories to work.</u>
+                    <u who="#boderD" start="1253.031" end="x">Where were you tattooed?</u>
+                    <u who="#marcusH" start="1254.766" end="x">We were tattooed in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1256.670" end="x">Hm. Nu, and so?</u>
+                    <u who="#marcusH" start="1258.143" end="x">Only <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> gave tattooes, no other <term ref="#vothG_lager">lager</term>.[??].</u>
+                    <u who="#boderD" start="1261.742" end="x">Hm. <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> neither?</u>
+                    <u who="#marcusH" start="1263.686" end="x">No.</u>
+                    <u who="#boderD" start="1264.109" end="x">No. And so.</u>
+                    <u who="#marcusH" start="1265.935" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> I arrived . . .</u>
+                    <u who="#boderD" start="1268.089" end="x">How many people were traveling with you to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#marcusH" start="1270.113" end="x">To <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> we traveled in parties.</u>
+                    <u who="#boderD" start="1272.598" end="x">Hm.</u>
+                    <u who="#marcusH" start="1273.137" end="x">With my transport traveled over a thousand people.</u>
+                    <u who="#boderD" start="1276.203" end="x">Only women, or men also?</u>
+                    <u who="#marcusH" start="1277.316" end="x">Women and men.</u>
+                    <u who="#boderD" start="1278.220" end="x">Hm.</u>
+                    <u who="#marcusH" start="1279.214" end="x">The . . . A night before, before we went to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> . . .</u>
+                    <u who="#boderD" start="1282.513" end="x">Hm.</u>
+                    <u who="#marcusH" start="1283.347" end="x">. . . we had already been selected. We were at twelve at night . . . This was still in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="1288.640" end="x">Yes.</u>
+                    <u who="#marcusH" start="1289.233" end="x">We were already asleep. So they ordered [us] to dress quickly.</u>
+                    <u who="#boderD" start="1293.331" end="x">Hm.</u>
+                    <u who="#marcusH" start="1294.333" end="x">We didn't know where we were being taken. The men of . . . of that field knew that now we were being led into the crematory. There was a case that one man had a wife among us, who still remained in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. He was a doctor, and he knew exactly where we were being led. So he poisoned himself.</u>
+                    <u who="#boderD" start="1317.200" end="x">The doctor?</u>
+                    <u who="#marcusH" start="1318.102" end="x">Yes.</u>
+                    <u who="#boderD" start="1318.545" end="x">A Jew?</u>
+                    <u who="#marcusH" start="1319.128" end="x">A Jew. But the same night, as we were being led on the road to the crematory, there arrived someone riding a white horse, and . . . and he . . . and he gave some kind of an order, and we were led back again [Note on p. 48-(2743)].</u>
+                    <u who="#boderD" start="1332.940" end="x">Where to? To . . . to where were you led back?</u>
+                    <u who="#marcusH" start="1335.706" end="x">To . . . into the field.</u>
+                    <u who="#boderD" start="1337.101" end="x">Into the field?</u>
+                    <u who="#marcusH" start="1337.834" end="x">Yes. While on the road.</u>
+                    <u who="#boderD" start="1339.658" end="x">From <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#marcusH" start="1340.782" end="x">In <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="1341.504" end="x">In <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#marcusH" start="1342.719" end="x">Because it had been the road to the crematory, but the one on the white horse had arrived . . .</u>
+                    <u who="#boderD" start="1347.368" end="x">Who was he?</u>
+                    <u who="#marcusH" start="1347.853" end="x">. . . in the midst of the road. An <term ref="#vothG_ss">SS</term> man, and with an order that we should be led back. When we returned we didn't find that doctor any more, because he know that the wife had been led to the crematory. And he was found poisoned.</u>
+                    <u who="#boderD" start="1360.138" end="x">So you were . . . you were then taken back to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#marcusH" start="1362.855" end="x">Yes.</u>
+                    <u who="#boderD" start="1363.487" end="x">Nu? What did you . . .</u>
+                    <u who="#marcusH" start="1364.090" end="x">But the next morning they led us to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1366.786" end="x">Again you were led to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#marcusH" start="1367.630" end="x">Yes. When we arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> we were assured that we had arrived in a lucky moment, that there are no more crematories.</u>
+                    <u who="#boderD" start="1375.144" end="x">Hm.</u>
+                    <u who="#marcusH" start="1375.739" end="x">That means there are, but Jews are not being burned any more.</u>
+                    <u who="#boderD" start="1377.975" end="x">Hm.</u>
+                    <u who="#marcusH" start="1378.359" end="x">We calmed down a little, but immediately on arrival they made a selection. At that time I was still with a sister, with a very young sister. She we fifteen years old. I was put to the side, to go to the crematory. And . . .</u>
+                    <u who="#boderD" start="1395.198" end="x">You had been told that they were not burning any more.</u>
+                    <u who="#marcusH" start="1397.062" end="x">But so was the case. When we arrived it was so.</u>
+                    <u who="#boderD" start="1400.769" end="x">Hm.</u>
+                    <u who="#marcusH" start="1401.175" end="x">We were comforted with that, that they are not burning any more, but I myself was put to the side.</u>
+                    <u who="#boderD" start="1405.516" end="x">Hm.</u>
+                    <u who="#marcusH" start="1406.815" end="x">We sat a few hours and waited till we should be taken away, but an order came again that we should be taken into the <term ref="#vothG_lager">lager</term> together with the rest of the transport.</u>
+                    <u who="#boderD" start="1418.326" end="x">Hm.</u>
+                    <u who="#marcusH" start="1419.406" end="x">After that I worked for three months in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, in water.</u>
+                    <u who="#boderD" start="1423.959" end="x">When were you tattooed?</u>
+                    <u who="#marcusH" start="1425.370" end="x">Immediately on arrival.</u>
+                    <u who="#boderD" start="1426.630" end="x">Nu?</u>
+                    <u who="#marcusH" start="1427.890" end="x">And so.</u>
+                    <u who="#boderD" start="1428.395" end="x">Was your hair cut off?</u>
+                    <u who="#marcusH" start="1429.836" end="x">I [?] . . . entirely cut off the hair. In <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> we had our hair.</u>
+                    <u who="#boderD" start="1433.483" end="x">Hm.</u>
+                    <u who="#marcusH" start="1433.927" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> wherever a hair was found it was . . .</u>
+                    <u who="#boderD" start="1437.151" end="x">Who did the cutting?</u>
+                    <u who="#marcusH" start="1438.532" end="x">Women.</u>
+                    <u who="#boderD" start="1439.287" end="x">Women.</u>
+                    <u who="#marcusH" start="1440.033" end="x">Yes.</u>
+                    <u who="#boderD" start="1440.637" end="x">Were there any cases that men did it?</u>
+                    <u who="#marcusH" start="1444.505" end="x">In my time there were no [such] cases, but in any case men were standing by.</u>
+                    <u who="#boderD" start="1449.179" end="x">Men were standing by?</u>
+                    <u who="#marcusH" start="1450.348" end="x">Yes.</u>
+                    <u who="#boderD" start="1450.922" end="x">They watched it?</u>
+                    <u who="#marcusH" start="1452.312" end="x">Yes.</u>
+                    <u who="#boderD" start="1453.270" end="x">Who were the men?</u>
+                    <u who="#marcusH" start="1454.923" end="x">Various ones.</u>
+                    <u who="#boderD" start="1455.881" end="x">[Word not clear.]</u>
+                    <u who="#marcusH" start="1456.265" end="x">There were <term ref="#vothG_ss">SS</term> men . . . <term ref="#vothG_ss">SS</term> men. There were <term ref="#vothG_capo">capos</term>, and there were people who were working there in the bath.</u>
+                    <u who="#boderD" start="1464.517" end="x">Hm.</u>
+                    <u who="#marcusH" start="1465.596" end="x">Because in the bath men were working, men, too.</u>
+                    <u who="#boderD" start="1467.037" end="x">Men [worked] in the bath.</u>
+                    <u who="#marcusH" start="1468.064" end="x">Men and women.</u>
+                    <u who="#boderD" start="1469.273" end="x">Yes. Nu?</u>
+                    <u who="#marcusH" start="1470.775" end="x">After three months of work in the water--that means that in the morning we went in the water and stood up to the neck . . .</u>
+                    <u who="#boderD" start="1477.805" end="x">What was the work in the water?</u>
+                    <u who="#marcusH" start="1480.373" end="x">Gathered the leaves.</u>
+                    <u who="#boderD" start="1481.340" end="x">Yes.</u>
+                    <u who="#marcusH" start="1481.845" end="x">And gathered the . . . such long . . .</u>
+                    <u who="#boderD" start="1484.072" end="x">The grass?</u>
+                    <u who="#marcusH" start="1484.758" end="x">Yes. It was taken out on the field.</u>
+                    <u who="#boderD" start="1487.649" end="x">Hm.</u>
+                    <u who="#marcusH" start="1488.012" end="x">It was dried.</u>
+                    <u who="#boderD" start="1488.849" end="x">Hm.</u>
+                    <u who="#marcusH" start="1489.263" end="x">Afterwards it was gathered and . . . I don't know what they used it for. [They were possible cutting peat or processing flax.]</u>
+                    <u who="#boderD" start="1493.786" end="x">But they wanted to use it for something?</u>
+                    <u who="#marcusH" start="1496.889" end="x">Possibly. This I don't know.</u>
+                    <u who="#boderD" start="1498.542" end="x">How many people were working in the water?</u>
+                    <u who="#marcusH" start="1501.766" end="x">In my time, when I was working at this work, this Kommando numbered two hundred fifty people. Two hundred people were in the water at a time, and fifty people were working outside.</u>
+                    <u who="#boderD" start="1512.473" end="x">Hm.</u>
+                    <u who="#marcusH" start="1512.987" end="x">When there was no [work in the] water, we were carrying barrows, but barrows heaped up to capacity, that from seven till twelve we weren't permitted to rest or to put down the barrow to load in the sand for us.</u>
+                    <u who="#boderD" start="1525.395" end="x">Hm.</u>
+                    <u who="#marcusH" start="1525.748" end="x">We had to carry it in the hand and go around, and ten Christians stood with shovels, and everyone threw in a shovel, so that, God forbid, we shouldn't be able to rest, not at the loading and not at the unloading.</u>
+                    <u who="#boderD" start="1538.669" end="x">Tell me about the water. How did one work in there? People went in with the clothes?</u>
+                    <u who="#marcusH" start="1542.950" end="x">With the clothes we went in the water. Only the shoes were taken off.</u>
+                    <u who="#boderD" start="1546.264" end="x">Yes.</u>
+                    <u who="#marcusH" start="1546.566" end="x">If it happened that someone said that he isn't feeling well, he cannot go into the water, [then] he couldn't even take off the shoes. He was thrown in, the way he was standing and walking [just as he was], into the water.</u>
+                    <u who="#boderD" start="1557.714" end="x">He was thrown into the water. Nu, what did one work? When one took out the grass . . . the grass, did one have to dive, or what?</u>
+                    <u who="#marcusH" start="1563.989" end="x">We went . . . the water reached up to our neck.</u>
+                    <u who="#boderD" start="1566.850" end="x">Nu?</u>
+                    <u who="#marcusH" start="1567.515" end="x">And thus with the hands we gathered it and carried it to the shore.</u>
+                    <u who="#boderD" start="1571.548" end="x">Hm.</u>
+                    <u who="#marcusH" start="1572.114" end="x">. . . and went again, constantly farther . . . in summer . . . whatever could be found.</u>
+                    <u who="#boderD" start="1576.788" end="x">All that happened already in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#marcusH" start="1578.894" end="x">Yes.</u>
+                    <u who="#boderD" start="1579.459" end="x">Nu?</u>
+                    <u who="#marcusH" start="1580.326" end="x">But in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> I had the opportunity, having been a year and a half in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> . . .</u>
+                    <u who="#boderD" start="1585.583" end="x">Hm.</u>
+                    <u who="#marcusH" start="1586.148" end="x">. . . around two years.</u>
+                    <u who="#boderD" start="1587.287" end="x">Hm.</u>
+                    <u who="#marcusH" start="1588.094" end="x">. . . that I had my <term ref="#vothG_block">block</term> vis-a-vis the crematory.</u>
+                    <u who="#boderD" start="1591.900" end="x">Hm.</u>
+                    <u who="#marcusH" start="1592.112" end="x">Perhaps thirty meters separated the crematory from me [my place].</u>
+                    <u who="#boderD" start="1597.429" end="x">Yes?</u>
+                    <u who="#marcusH" start="1599.807" end="x">I had the occassion to witness everything. We are all living witnesses to what they have done.</u>
+                    <u who="#boderD" start="1606.867" end="x">How did you . . . you could see it through the windows, or what?</u>
+                    <u who="#marcusH" start="1610.100" end="x">It was entirely open.</u>
+                    <u who="#boderD" start="1611.891" end="x">Hm.</u>
+                    <u who="#marcusH" start="1612.275" end="x">They didn't even have the understanding that they should cover it up. Quite late they covered [it] with small trees so that we shouldn't be able to see everything and hear everything.</u>
+                    <u who="#boderD" start="1621.178" end="x">Hm.</u>
+                    <u who="#marcusH" start="1621.752" end="x">The transports arrived there, huge transports. In ten minutes on the clock we already saw the fire coming from the chimneys. We recognized the transports, whether they were fat or lean [people].</u>
+                    <u who="#boderD" start="1635.036" end="x">By what?</u>
+                    <u who="#marcusH" start="1635.843" end="x">Because the smoke . . . if a black smoke was coming from the chimney it was a lean transport.</u>
+                    <u who="#boderD" start="1641.000" end="x">Hm.</u>
+                    <u who="#marcusH" start="1641.483" end="x">When [they were] fat, there was a huge fire going that could be seen from distances of tens of kilometers. In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> there were five ovens. Not far from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> there was <placeName ref="Birkenau concentration camp" type="camp">Brzezinki</placeName> with four ovens, but there were seasons when the nine ovens weren't able . . . to work this out, to burn this . . .</u>
+                    <u who="#boderD" start="1661.504" end="x">Hm.</u>
+                    <u who="#marcusH" start="1662.250" end="x">. . . as many transport as there were, [so] they made . . . dug out ditches and almost as if entirely . . .</u>
+                    <u who="#boderD" start="1667.256" end="x">Pits.</u>
+                    <u who="#marcusH" start="1667.699" end="x">Pits . . . almost as if people entirely alive were burned.</u>
+                    <u who="#boderD" start="1671.000" end="x">How . . . how . . . without having the people gassed?</u>
+                    <u who="#marcusH" start="1673.736" end="x">At the end they were giving very little gas. The people were only like they would have lost their equilibrium [consciousness].</u>
+                    <u who="#boderD" start="1680.611" end="x">Yes.</u>
+                    <u who="#marcusH" start="1680.860" end="x">They even begrudged [them] a little gas.</u>
+                    <u who="#boderD" start="1683.072" end="x">Hm.</u>
+                    <u who="#marcusH" start="1683.848" end="x">We had the occassion to hear all the cries of Shema Yisroeil [the prayer of distress and profession of faith] and sometimes the singing of the Hatikvah [national anthem of Israel].</u>
+                    <u who="#boderD" start="1689.877" end="x">What?</u>
+                    <u who="#marcusH" start="1690.347" end="x">And sometimes the singing of the Hatikvah.</u>
+                    <u who="#boderD" start="1691.858" end="x">Hm.</u>
+                    <u who="#marcusH" start="1693.849" end="x">We had . . . I myself saw how the oven was being opened and the people were being pushed in. At each time I also had the occassion to see how the gassed people were lying completely outside, a whole heap. Because in the beginning we thought that maybe it is just the people's clothing, only when we came closer we saw [they were] all gassed people.</u>
+                    <u who="#boderD" start="1718.206" end="x">You happened to pass by, yourself? You . . . how did you . . .</u>
+                    <u who="#marcusH" start="1721.063" end="x">No. Our Kommando [detail] had passed through that time . . .</u>
+                    <u who="#boderD" start="1723.709" end="x">Hm, yes.</u>
+                    <u who="#marcusH" start="1724.733" end="x">. . . through that road.</u>
+                    <u who="#boderD" start="1725.858" end="x">Hm.</u>
+                    <u who="#marcusH" start="1726.721" end="x">So we had observed quite well. If we were brought . . .</u>
+                    <u who="#boderD" start="1729.269" end="x">Your . . . your kommando had passed by.</u>
+                    <u who="#marcusH" start="1731.361" end="x">Yes.</u>
+                    <u who="#boderD" start="1731.862" end="x">It could be seen. Nu?</u>
+                    <u who="#marcusH" start="1732.846" end="x">If we were brought to the <placeName ref="Nürnberg">Nurenberg</placeName> Trials, they would definitely have no defense whatsoever. They would absolutely be unable to disclaim anything against us. Because it couldn't be imagined that we will be let out at liberty, and what such living witnesses could give the world. There were also cases that out of giant transports nobody, nobody was let in alive into the <term ref="#vothG_lager">lager</term>. Children were altogether out of the question. If they want to claim that they were burning only weak people, the living witnesses can tell that they took away from us the most beautiful, the youngest, the healthiest people, who were still sufficiently capable and strong for work. There was a time when they installed a children's <term ref="#vothG_block">block</term>. The children were given of the finest and the best, but it was only when they had to present proof for an inspection or such. During one nice, bright morning the children were taken away and all burned.</u>
+                    <u who="#boderD" start="1807.892" end="x">What? The entire children's <term ref="#vothG_block">block</term>?</u>
+                    <u who="#marcusH" start="1810.285" end="x">Yes.</u>
+                    <u who="#boderD" start="1810.850" end="x">Hm .</u>
+                    <u who="#marcusH" start="1811.264" end="x">The children's <term ref="#vothG_block">block</term> lasted only for a short time.</u>
+                    <u who="#boderD" start="1813.158" end="x">Hm. How many do you estimate were there?</u>
+                    <u who="#marcusH" start="1816.633" end="x">Children there were in untold numbers.</u>
+                    <u who="#boderD" start="1819.101" end="x">Hm.</u>
+                    <u who="#marcusH" start="1820.361" end="x">Because this we can't . . . we can't fix the statistics, how many children there had been. We only know how many children we have missing. And as many as there are missing, that many had gone into the oven. Cases of [natural] death, there were very few. People didn't die at all. They didn't allow them to die. They didn't permit us to get sick and die like human beings. There were times when we were given bread and we didn't even have time to eat the bread, because directly from work they were leading [people] into the crematory. [Pause.]</u>
+                    <u who="#boderD" start="1862.066" end="x">Nu?</u>
+                    <u who="#marcusH" start="1863.900" end="x">In the year 1945 . . . it was also on the 18th, 1st month, i.e., the 18th of January, when the Russians were already standing behind our backs. We were aroused from sleep in the middle of the night, and we had to march on foot. In that night we covered thirty kilometers, without any rest, running, not walking. We weren't give anything for the road. We were told to take along our Kotzen, but we had to throw it away in the middle of the road, because the [our] strength had given out.</u>
+                    <u who="#boderD" start="1899.033" end="x">What were you told to take along?</u>
+                    <u who="#marcusH" start="1900.263" end="x">Kotzen, nothing else.</u>
+                    <u who="#boderD" start="1901.553" end="x">The . . . what is Kotzen?</u>
+                    <u who="#marcusH" start="1903.305" end="x">Blankets.</u>
+                    <u who="#boderD" start="1903.607" end="x">Blankets. Yes.</u>
+                    <u who="#boderD" start="1904.641" end="x">You threw it away, and . . .</u>
+                    <u who="#marcusH" start="1906.152" end="x">In the middle of the road, because we had no strength to carry it along. We were too exhausted.</u>
+                    <u who="#boderD" start="1911.426" end="x">Hm.</u>
+                    <u who="#marcusH" start="1913.729" end="x">If one wanted to rest a moment on the road, if he only gave a bow with the head, he was taken out and immediately shot. Very many men fell at that time, more than women. After covering that night thirty kilometers, we were given in the morning fifteen minutes to rest. After that we walked a whole day, again a whole night, and were loaded into RR-cars. He who couldn't make it so fast into the RR-cars was also taken away and shot. In RR-cars we traveled five days, in entirely open RR-cars. Then . . .</u>
+                    <u who="#boderD" start="1954.339" end="x">In what month was it?</u>
+                    <u who="#marcusH" start="1955.514" end="x">It was in the year '45 in the first month.</u>
+                    <u who="#boderD" start="1958.465" end="x">In January.</u>
+                    <u who="#marcusH" start="1959.127" end="x">In January.</u>
+                    <u who="#boderD" start="1959.406" end="x">You traveled in open RR-cars. Nu?</u>
+                    <u who="#marcusH" start="1962.112" end="x">We nourished ourselves [lived on] during the entire five days with a little snow. One from another stole a little snow, because even that we weren't given the possibility of having. We were packed in very many, so that there was no place to sit down. We had to stand.</u>
+                    <u who="#boderD" start="1978.384" end="x">Were there <term ref="#vothG_ss">SS</term> in each RR-car?</u>
+                    <u who="#marcusH" start="1980.184" end="x">Yes, each RR-car was guarded by <term ref="#vothG_ss">SS</term> men.</u>
+                    <u who="#boderD" start="1982.696" end="x">And where did they ride? Did they stand, too?</u>
+                    <u who="#marcusH" start="1985.170" end="x">They had a place for themselves already where they could lie down quietly.</u>
+                    <u who="#boderD" start="1989.604" end="x">In the same wagon?</u>
+                    <u who="#marcusH" start="1990.477" end="x">In the same wagon, yes. Each wagon had to have guards.</u>
+                    <u who="#boderD" start="1993.827" end="x">Nu? Did they mark off a place for themselves, or what?</u>
+                    <u who="#marcusH" start="1996.644" end="x">Yes.</u>
+                    <u who="#boderD" start="1997.437" end="x">How did they do it?</u>
+                    <u who="#marcusH" start="1998.862" end="x">They had already their bench . . .</u>
+                    <u who="#boderD" start="2001.397" end="x">Hm.</u>
+                    <u who="#marcusH" start="2001.787" end="x">. . . already arranged.</u>
+                    <u who="#boderD" start="2003.234" end="x">Nu?</u>
+                    <u who="#marcusH" start="2003.673" end="x">After five days of travel, we were standing more than traveling. Whether it was raining or snowing we traveled uncovered. When one needed . . . the human need . . .</u>
+                    <u who="#boderD" start="2012.323" end="x">Hm.</u>
+                    <u who="#marcusH" start="2013.854" end="x">There wasn't any [toilet] either. We were also not given the possibility for that. We had to . . . if one had a little container . . .</u>
+                    <u who="#boderD" start="2026.885" end="x">A what?</u>
+                    <u who="#marcusH" start="2027.446" end="x">If one had a can . . .</u>
+                    <u who="#boderD" start="2029.178" end="x">Yes?</u>
+                    <u who="#marcusH" start="2029.457" end="x">. . . to do what one had to . . .</u>
+                    <u who="#boderD" start="2030.870" end="x">Hm.</u>
+                    <u who="#marcusH" start="2032.532" end="x">After five days of dragging us around in such a way we arrived in <placeName ref="Ravensbrück">Ravensbruck</placeName>.</u>
+                    <u who="#boderD" start="2038.301" end="x">Oh, you were in <placeName ref="Ravensbrück">Ravensbruck</placeName>?</u>
+                    <u who="#marcusH" start="2039.855" end="x">Yes.</u>
+                    <u who="#boderD" start="2040.228" end="x">Yes?</u>
+                    <u who="#marcusH" start="2042.066" end="x">In <placeName ref="Ravensbrück">Ravensbruck</placeName> we lived under threatening conditions—dirty, not [having] eaten, again beaten.</u>
+                    <u who="#boderD" start="2053.223" end="x">Beaten? Who?</u>
+                    <u who="#marcusH" start="2055.506" end="x">Everything, <term ref="#vothG_ss">SS</term> men and <term ref="#vothG_capo">capos</term>.</u>
+                    <u who="#boderD" start="2058.101" end="x">Were the <term ref="#vothG_capo">capos</term> men or women?</u>
+                    <u who="#marcusH" start="2059.903" end="x">Men and women, various . . .</u>
+                    <u who="#boderD" start="2061.162" end="x">And who were those <term ref="#vothG_capo">capos</term>?</u>
+                    <u who="#marcusH" start="2062.811" end="x">Prisoners.</u>
+                    <u who="#boderD" start="2064.027" end="x">Jews or what?</u>
+                    <u who="#marcusH" start="2065.414" end="x">Various ones. Germans, gentiles, and Jews.</u>
+                    <u who="#boderD" start="2067.969" end="x">Hm.</u>
+                    <u who="#marcusH" start="2071.085" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> we were beaten with clubs that could have fifteen centimeters in thickness [circumference?] .</u>
+                    <u who="#boderD" start="2081.003" end="x">Hm.</u>
+                    <u who="#marcusH" start="2081.916" end="x">There were cases sometimes . . .</u>
+                    <u who="#boderD" start="2082.843" end="x">What do you mean, thick?</u>
+                    <u who="#marcusH" start="2084.525" end="x">Thick.</u>
+                    <u who="#boderD" start="2085.086" end="x">Yes.</u>
+                    <u who="#marcusH" start="2085.758" end="x">There were cases when we were sitting in the bath in the nude.</u>
+                    <u who="#boderD" start="2088.867" end="x">Hm.</u>
+                    <u who="#marcusH" start="2089.287" end="x">We were beaten with such sticks without any why or wherefore.</u>
+                    <u who="#boderD" start="2093.483" end="x">Did men enter the bath?</u>
+                    <u who="#marcusH" start="2094.855" end="x">Women.</u>
+                    <u who="#boderD" start="2096.071" end="x">Women. What did they beat you for?</u>
+                    <u who="#marcusH" start="2097.035" end="x">For nothing. [Pause.] It is quite clearly written up in various books who did that and how they . . . what all their names were.</u>
+                    <u who="#boderD" start="2106.742" end="x">Yes? nu.</u>
+                    <u who="#marcusH" start="2109.218" end="x">But in <placeName ref="Ravensbrück">Ravensbruck</placeName> the same things met us. But with this still worse, that we didn't even have anywhere to sleep, because there was no good reason. After four weeks of being in <placeName ref="Ravensbrück">Ravensbruck</placeName>, we were again sent to <placeName ref="Neustadt-Glewe concentration camp" type="camp">Neustadt</placeName>. This is seventy kilometers past <placeName ref="Berlin">Berlin</placeName>. There was an entirely new <term ref="#vothG_lager">lager</term>, an entirely new <term ref="#vothG_lager">lager</term> where we didn't have any conveniences, the most necessary that a man has to have. And we again met up with blows and with beatings.</u>
+                    <u who="#boderD" start="2143.337" end="x">Did you work there?</u>
+                    <u who="#marcusH" start="2144.986" end="x">Not at the beginning. There was a <term ref="#vothG_commandant">commandant</term> whose greatest pleasure was—he was a great sadist—if he could, without any reason, passing by beat up someone completely so that he couldn't get up any more. Later on work began. People were assigned to ammunition factories.</u>
+                    <u who="#boderD" start="2167.244" end="x">Hm.</u>
+                    <u who="#marcusH" start="2169.275" end="x">. . . and to dig trenches.</u>
+                    <u who="#boderD" start="2171.634" end="x">Hm.</u>
+                    <u who="#marcusH" start="2172.084" end="x">I worked at the trenches . . .</u>
+                    <u who="#boderD" start="2174.451" end="x">Hm.</u>
+                    <u who="#marcusH" start="2175.848" end="x">. . . in such difficult . . . in such difficult conditions. Lately we received eight dekas of bread a day. We walked to work seven to eight kilometers.</u>
+                    <u who="#boderD" start="2186.215" end="x">Hm.</u>
+                    <u who="#marcusH" start="2187.998" end="x">And on the second of May we were liberated from there.</u>
+                    <u who="#boderD" start="2191.671" end="x">Who entered?</u>
+                    <u who="#marcusH" start="2193.168" end="x">First the Americans entered to us, later the Russians.</u>
+                    <u who="#boderD" start="2197.589" end="x">And so tell me about the last few days. How was it? Did you notice that you are going to be liberated? How was it?</u>
+                    <u who="#marcusH" start="2204.240" end="x">Rumors reached us . . .</u>
+                    <u who="#boderD" start="2207.691" end="x">Yes.</u>
+                    <u who="#marcusH" start="2208.305" end="x">. . . that the liberation is at hand. But we were already so resigned from everything, because we didn't imagine that some day will come the happy moment, possibly the unhappy [moment], because we had not lived to see any happiness anyway. Every one of us remained entirely alone.</u>
+                    <u who="#boderD" start="2228.685" end="x">Nu?</u>
+                    <u who="#marcusH" start="2229.175" end="x">But the moment of liberation did come. It could be noticed. A few minutes before, before the Americans entered to us, all the <term ref="#vothG_ss">SS</term> men disappeared, and we remained alone.</u>
+                    <u who="#boderD" start="2242.598" end="x">They didn't tell you anything?</u>
+                    <u who="#marcusH" start="2244.236" end="x">Didn't say anything. They didn't tell us anything. Still, it was lucky for us that they didn't take us out of the <term ref="#vothG_lager">lager</term> so that we should have to walk farther, that we weren't chased . . .</u>
+                    <u who="#boderD" start="2253.721" end="x">[Word not clear.]</u>
+                    <u who="#marcusH" start="2254.074" end="x">. . . so that we were liberated at the place.</u>
+                    <u who="#boderD" start="2255.944" end="x">Hm.</u>
+                    <u who="#marcusH" start="2256.297" end="x">Because if they would move us at that time, not even ten per cent of us would have remained.</u>
+                    <u who="#boderD" start="2261.631" end="x">Why?</u>
+                    <u who="#marcusH" start="2262.457" end="x">Because the people were so much exhausted. People were sitting and eating grass from hunger. We didn't even have the strength to get up.</u>
+                    <u who="#boderD" start="2273.328" end="x">So how . . . who . . . in the morning the Americans came in? Who had come in?</u>
+                    <u who="#marcusH" start="2278.280" end="x">First the Americans. They drove through and calmed us.</u>
+                    <u who="#boderD" start="2282.416" end="x">Hm. Did they come . . .</u>
+                    <u who="#marcusH" start="2283.954" end="x">And afterwards.</u>
+                    <u who="#boderD" start="2284.336" end="x">. . . in automobiles or tanks?</u>
+                    <u who="#marcusH" start="2285.495" end="x">In automobiles.</u>
+                    <u who="#boderD" start="2286.630" end="x">Yes?</u>
+                    <u who="#marcusH" start="2287.251" end="x">And later on the Russians arrived. And the Russians remained.</u>
+                    <u who="#boderD" start="2290.108" end="x">Hm.</u>
+                    <u who="#marcusH" start="2290.991" end="x">Eight kilometers from us the Americans remained . . .</u>
+                    <u who="#boderD" start="2293.630" end="x">[Words not clear.]</u>
+                    <u who="#marcusH" start="2294.137" end="x">. . . standing in <placeName ref="Ludwigslust">Ludwigs</placeName> [<placeName ref="Ludwigslust">Ludwigslust</placeName>].</u>
+                    <u who="#boderD" start="2295.816" end="x">Yes?</u>
+                    <u who="#marcusH" start="2296.968" end="x">And by us the Russians.</u>
+                    <u who="#boderD" start="2297.378" end="x">Didn't you see? Did they catch any of the <term ref="#vothG_ss">SS</term>?</u>
+                    <u who="#marcusH" start="2299.913" end="x">Nothing. We didn't see anything. All the Germans women were released half an hour before.</u>
+                    <u who="#boderD" start="2305.056" end="x">Hm.</u>
+                    <u who="#marcusH" start="2305.416" end="x">All the German prisoners.</u>
+                    <u who="#boderD" start="2306.873" end="x">Oh, the prisoners were released.</u>
+                    <u who="#marcusH" start="2307.890" end="x">Yes. The German [ones] only.</u>
+                    <u who="#boderD" start="2309.045" end="x">Did you see them do it?</u>
+                    <u who="#boderD" start="2310.354" end="x">Yes.</u>
+                    <u who="#boderD" start="2310.868" end="x">Did you know why?</u>
+                    <u who="#marcusH" start="2311.842" end="x">Yes. The entire day we knew that they were already quite near.</u>
+                    <u who="#boderD" start="2315.817" end="x">Hm.</u>
+                    <u who="#marcusH" start="2316.187" end="x">They broke open the magazines then. They still had time to shoot one gentile girl.</u>
+                    <u who="#boderD" start="2322.129" end="x">Why?</u>
+                    <u who="#marcusH" start="2322.239" end="x">Because she had come close to the magazine.</u>
+                    <u who="#boderD" start="2323.806" end="x">The <term ref="#vothG_ss">SS</term>?</u>
+                    <u who="#marcusH" start="2324.154" end="x">The <term ref="#vothG_ss">SS</term> men.</u>
+                    <u who="#boderD" start="2325.159" end="x">Yes.</u>
+                    <u who="#marcusH" start="2325.309" end="x">That was perhaps half an hour before the liberation.</u>
+                    <u who="#boderD" start="2327.732" end="x">Yes? Did you see airplanes first? Was the <term ref="#vothG_lager">lager</term> bombed?</u>
+                    <u who="#marcusH" start="2332.611" end="x">No, not on that day. That day was entirely quiet.</u>
+                    <u who="#boderD" start="2335.655" end="x">But before?</u>
+                    <u who="#marcusH" start="2337.776" end="x">Before, yes. Before we had great bombings, but the <term ref="#vothG_lager">lager</term> it didn't damage.</u>
+                    <u who="#boderD" start="2341.896" end="x">Hm.</u>
+                    <u who="#marcusH" start="2342.465" end="x">In our <term ref="#vothG_lager">lager</term> there was . . . how large was the <term ref="#vothG_lager">lager</term>? It wasn't a large one.</u>
+                    <u who="#boderD" start="2347.495" end="x">Hm.</u>
+                    <u who="#marcusH" start="2347.972" end="x">And under the entire underground was hidden gasoline.</u>
+                    <u who="#boderD" start="2351.088" end="x">Oh. Hm.</u>
+                    <u who="#marcusH" start="2352.460" end="x">We ourselves had to make . . . to build tunnels in order to hide the gasoline.</u>
+                    <u who="#boderD" start="2357.390" end="x">In what was it kept? In cans?</u>
+                    <u who="#marcusH" start="2358.913" end="x">In cans.</u>
+                    <u who="#boderD" start="2359.511" end="x">Yes? Nu? Did the Americans take it afterwards?</u>
+                    <u who="#marcusH" start="2362.441" end="x">I don't know.</u>
+                    <u who="#boderD" start="2363.129" end="x">Yes.</u>
+                    <u who="#marcusH" start="2363.707" end="x">Because immediately after, we moved some place else.</u>
+                    <u who="#boderD" start="2367.049" end="x">Where did they take you to?</u>
+                    <u who="#marcusH" start="2368.401" end="x">Nu, everyone separetely.</u>
+                    <u who="#boderD" start="2370.024" end="x">How long did you still remain in the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#marcusH" start="2371.587" end="x">I was still in the <term ref="#vothG_lager">lager</term> two days, but right outside the <term ref="#vothG_lager">lager</term> in the house where the <term ref="#vothG_ss">SS</term> men had lived . . .</u>
+                    <u who="#boderD" start="2377.321" end="x">Yes.</u>
+                    <u who="#marcusH" start="2377.607" end="x">. . . we lived for another few weeks, because we simply had to come to ourselves so that we might have the strength to go on.</u>
+                    <u who="#boderD" start="2383.404" end="x">Hm. And that was under the Russians.</u>
+                    <u who="#marcusH" start="2384.907" end="x">Yes.</u>
+                    <u who="#boderD" start="2385.646" end="x">Nu, and where did you go to from the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#marcusH" start="2389.500" end="x">From the <term ref="#vothG_lager">lager</term> we went then . . . traveled on foot, everyone with a little cart.</u>
+                    <u who="#boderD" start="2393.997" end="x">How is that? Where did you find a little cart?</u>
+                    <u who="#marcusH" start="2395.650" end="x">We procured some . . . we organized [appropriated] from the Germans, that which we had taken away from the Germans</u>
+                    <u who="#boderD" start="2399.519" end="x">Hm.</u>
+                    <u who="#marcusH" start="2400.067" end="x">Because there were living many . . .</u>
+                    <u who="#boderD" start="2400.554" end="x">Hand carts.</u>
+                    <u who="#marcusH" start="2401.328" end="x">Yes. There were many German civilians. We walked for about ten kilometers, and later we met a cart . . .</u>
+                    <u who="#boderD" start="2409.009" end="x">Hm.</u>
+                    <u who="#marcusH" start="2409.587" end="x">. . . on which were riding people, and they took us one.</u>
+                    <u who="#boderD" start="2412.635" end="x">Hm. What does it mean . . .</u>
+                    <u who="#marcusH" start="2412.766" end="x">And we traveled together with them.</u>
+                    <u who="#boderD" start="2413.454" end="x">. . . 'us'? Who was with you?</u>
+                    <u who="#marcusH" start="2415.598" end="x">with me there were a few more girls. The sister, too, was there.</u>
+                    <u who="#boderD" start="2419.593" end="x">Your sister?</u>
+                    <u who="#marcusH" start="2420.111" end="x">Yes.</u>
+                    <u who="#boderD" start="2420.558" end="x">Nu?</u>
+                    <u who="#marcusH" start="2421.413" end="x">And a few more young girls who I had to keep under my protection.</u>
+                    <u who="#boderD" start="2425.579" end="x">Hm. And . . .</u>
+                    <u who="#marcusH" start="2427.353" end="x">Everyone was traveling separately to one's home.</u>
+                    <u who="#boderD" start="2430.514" end="x">Yes. What did the Germans say when you took their little carts? Or . . .</u>
+                    <u who="#marcusH" start="2434.971" end="x">Many were still so shameless [insolent] that they didn't permit it.</u>
+                    <u who="#boderD" start="2438.966" end="x">Yes?</u>
+                    <u who="#marcusH" start="2439.765" end="x">But they were at that time full of fear.</u>
+                    <u who="#boderD" start="2442.755" end="x">Yes?</u>
+                    <u who="#marcusH" start="2443.624" end="x">And they were simply afraid of us. They had to let us do whatever we wanted.</u>
+                    <u who="#boderD" start="2450.483" end="x">Hm.</u>
+                    <u who="#marcusH" start="2451.362" end="x">Later they created for themsleves a militia [an organization for selfprotection].</u>
+                    <u who="#boderD" start="2453.858" end="x">The Germans?</u>
+                    <u who="#marcusH" start="2454.446" end="x">Yes.</u>
+                    <u who="#boderD" start="2455.004" end="x">And?</u>
+                    <u who="#marcusH" start="2455.547" end="x">That must have come from the government that existed at that time so that nothing should be taken away from them any more.</u>
+                    <u who="#boderD" start="2462.828" end="x">Hm. Nu? And then you took a cart and went where?</u>
+                    <u who="#marcusH" start="2468.089" end="x">Then we traveled towards <placeName ref="Stargard Szczeciński">Stargard</placeName>, and from there we traveled by train to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2473.991" end="x">Oh.</u>
+                    <u who="#marcusH" start="2474.147" end="x">Because to <placeName ref="Warsaw">Warsaw</placeName> I had no reason to go. I was given reports that <placeName ref="Warsaw">Warsaw</placeName> was, as it is in fact, an empty, desolate field.</u>
+                    <u who="#boderD" start="2482.105" end="x">Hm.</u>
+                    <u who="#marcusH" start="2482.472" end="x">And unfortunately I knew that I won't find anyone of the family any more.</u>
+                    <u who="#boderD" start="2486.199" end="x">So you . . .</u>
+                    <u who="#marcusH" start="2486.586" end="x">So I settled in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2488.581" end="x">Who: You.</u>
+                    <u who="#marcusH" start="2488.882" end="x">In Lo . . .</u>
+                    <u who="#boderD" start="2489.189" end="x">. . . and your sister.</u>
+                    <u who="#marcusH" start="2489.576" end="x">I and the sister.</u>
+                    <u who="#boderD" start="2490.908" end="x">Nu?</u>
+                    <u who="#marcusH" start="2491.114" end="x">And the few girls that I had with me. But they right away found some relatives and some friends from their towns, and they got settled.</u>
+                    <u who="#boderD" start="2501.512" end="x">Nu?</u>
+                    <u who="#marcusH" start="2502.793" end="x">Not finding anyone even in <placeName ref="Lódź">Lodz</placeName>, we joined, I being a comrade [member] of <term ref="#vothG_agudah">Agudah</term> Yisroeil . . . a member of <term ref="#vothG_agudah">Agudah</term> yisroeil . . .</u>
+                    <u who="#boderD" start="2511.844" end="x">Were you always with them?</u>
+                    <u who="#marcusH" start="2513.040" end="x">Yes. From before the war.</u>
+                    <u who="#boderD" start="2515.377" end="x">Yes?</u>
+                    <u who="#marcusH" start="2515.684" end="x">We began to search for our people. And we found, although it was very hard for us, and we began to do our work. Because we saw that we have to create a home for those people who are returning now from the <term ref="#vothG_lager">lagers</term>, who were greatly broken up, everyone by himself [alone].</u>
+                    <u who="#boderD" start="2535.851" end="x">Hm. And so?</u>
+                    <u who="#marcusH" start="2539.434" end="x">We created the first <term ref="#vothG_kibbutz">Kibbutz</term> in <placeName ref="Lódź">Lodz</placeName> of <term ref="#vothG_agudah">Agudah</term> Yisroeil. I was [one] of the first who opened the <term ref="#vothG_kibbutz">Kibbutz</term>. Since that time . . .</u>
+                    <u who="#boderD" start="2551.284" end="x">How many people joined that <term ref="#vothG_kibbutz">Kibbutz</term>?</u>
+                    <u who="#marcusH" start="2553.795" end="x">When I opened the <term ref="#vothG_kibbutz">Kibbutz</term> I was with four people.</u>
+                    <u who="#boderD" start="2557.117" end="x">Hm.</u>
+                    <u who="#marcusH" start="2557.494" end="x">I was the fifth.</u>
+                    <u who="#boderD" start="2559.459" end="x">What did you live on?</u>
+                    <u who="#marcusH" start="2561.243" end="x">In the <term ref="#vothG_kibbutz">Kibbutz</term> at the beginning we lived on that which was collected for us.</u>
+                    <u who="#boderD" start="2566.313" end="x">Hm.</u>
+                    <u who="#marcusH" start="2567.582" end="x">And later we began to find means from various sources.</u>
+                    <u who="#boderD" start="2572.338" end="x">Hm.</u>
+                    <u who="#marcusH" start="2572.705" end="x">Nu, there had arrived more people, and by joint work we were able to create a home for all those who were completely alone after returning from the <term ref="#vothG_lager">lagers</term>. And that is how we were living in the <term ref="#vothG_kibbutz">Kibbutz</term>.</u>
+                    <u who="#boderD" start="2588.299" end="x">Hm. Already in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#marcusH" start="2589.928" end="x">Already in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2591.010" end="x">Yes?</u>
+                    <u who="#marcusH" start="2591.798" end="x">We saw to it that as far as possible we should be able to send people out of Poland, there where our air is, to <term ref="#vothG_eretzY">Eretz Yisroeil</term>. Because in spite of all we didn't have a peaceful life in Poland. A Jew couldn't go peacefully out in the street. There had begun again carnages and again slaughters.</u>
+                    <u who="#boderD" start="2610.670" end="x">How do you explain it? The Poles wanted to be free of the Germans. They knew that the German was attacking the Jews. How does it come that a Pole should do the same thing?</u>
+                    <u who="#marcusH" start="2620.085" end="x">That's hopeless. He [the German] has left a legacy which, it seems like, will remain in Poland, in spite of the government being strongly against it. But it isn't strong enough to stand up against the dark masses which still reign and maintain themselves in Poland. And before <term ref="#vothG_pesach">Pesach</term> [Passover] we succeeded in tearing ourselves through and coming to France.</u>
+                    <u who="#boderD" start="2646.611" end="x">With whom did you . . . where did you meet the rabbi, the Rabbi Hochman, or what is his name? The rabbi who is here.</u>
+                    <u who="#marcusH" start="2654.427" end="x">Rabbi Horowitz?</u>
+                    <u who="#boderD" start="2655.515" end="x">Rabbi Horowitz, yes. [See Chapter 42, Rabbi Horowitz].</u>
+                    <u who="#marcusH" start="2656.663" end="x">Rabbi Horowitz came from Russia, from the <term ref="#vothG_partisans">partisans</term> . . .</u>
+                    <u who="#boderD" start="2660.210" end="x">Hm.</u>
+                    <u who="#marcusH" start="2661.082" end="x">. . . to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2662.224" end="x">Oh, and?</u>
+                    <u who="#marcusH" start="2663.577" end="x">And at that time we began working together. Later he was taken as Rabbi of <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="2668.939" end="x">Yes?</u>
+                    <u who="#marcusH" start="2669.240" end="x">But in <placeName ref="Warsaw">Warsaw</placeName> a Jew with a beard could not go out in peace. When he would leave his house he had to have police with him . . .</u>
+                    <u who="#boderD" start="2675.769" end="x">Hm.</u>
+                    <u who="#marcusH" start="2675.986" end="x">. . . that he should be guarded.</u>
+                    <u who="#boderD" start="2677.002" end="x">Hm.</u>
+                    <u who="#marcusH" start="2677.519" end="x">And we simply spirited him away from <placeName ref="Warsaw">Warsaw</placeName> when the possibility arose to leave for France . . .</u>
+                    <u who="#boderD" start="2683.104" end="x">Oh.</u>
+                    <u who="#marcusH" start="2683.481" end="x">. . . on the way to <term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                    <u who="#boderD" start="2685.287" end="x">Hm.</u>
+                    <u who="#marcusH" start="2685.630" end="x">And that was the objective of the <term ref="#vothG_agudah">Agudah</term>.</u>
+                    <u who="#boderD" start="2688.207" end="x">Hm.</u>
+                    <u who="#marcusH" start="2689.620" end="x">And now we sit in <placeName ref="Hénonville">Henonville</placeName> and wait for an Alliyah, not caring which way we go to <term ref="#vothG_eretzY">Eretz Yisroeil</term>. The troubles don't scare us that are happening there.</u>
+                    <u who="#boderD" start="2699.872" end="x">Is your sister here with you?</u>
+                    <u who="#marcusH" start="2701.537" end="x">The sister is still in Poland. She does not have the possibility of coming yet. Probably she will come.</u>
+                    <u who="#boderD" start="2706.427" end="x">Why did she remain there?</u>
+                    <u who="#marcusH" start="2708.132" end="x">She go married.</u>
+                    <u who="#boderD" start="2709.336" end="x">Oh.</u>
+                    <u who="#marcusH" start="2710.049" end="x">She is still quite a young child. She is eighteen years old.</u>
+                    <u who="#boderD" start="2712.636" end="x">Yes.</u>
+                    <u who="#marcusH" start="2713.590" end="x">And she couldn't travel together with me. After us more people were supposed to arrive, but it had been upset. We were informed on.</u>
+                    <u who="#boderD" start="2721.101" end="x">So?</u>
+                    <u who="#marcusH" start="2722.035" end="x">Yes. Nu, possibly she will come now.</u>
+                    <u who="#boderD" start="2725.253" end="x">Why were you informed on? Why can't people travel?</u>
+                    <u who="#marcusH" start="2728.912" end="x">There are found already . . . because they don't want to let us out of Poland.</u>
+                    <u who="#boderD" start="2732.952" end="x">Why not?</u>
+                    <u who="#marcusH" start="2734.086" end="x">Because they understand that Jews are still quite useful to them. Because all that is ill in Poland, all that, is being reconstructed. Jewish hands are doing the reconstruction. Without us they know they won't accomplish anything. And again there exists the Jewish Committee in Poland</u>
+                    <u who="#boderD" start="2749.051" end="x">Yes.</u>
+                    <u who="#marcusH" start="2749.279" end="x">. . . which had been founded. It stands on guard so as not to let out a single Jew from Poland [apparently a government council on Jewish affairs].</u>
+                    <u who="#boderD" start="2754.782" end="x">Why? The Jewish Committee is . . . doesn't want that Jews should . . .</u>
+                    <u who="#marcusH" start="2757.550" end="x">I don't know what kind of ideas they have. They say that one lives entirely peacefully and well in Poland, [that] one doesn't have to go to Ereta Yisroei.</u>
+                    <u who="#boderD" start="2764.025" end="x">Hm.</u>
+                    <u who="#marcusH" start="2764.288" end="x">We didn't become legalized either, because they hindered us.</u>
+                    <u who="#boderD" start="2768.780" end="x">The Jewish Committee?</u>
+                    <u who="#marcusH" start="2769.804" end="x">Yes.</u>
+                    <u who="#boderD" start="2770.377" end="x">Nu?</u>
+                    <u who="#marcusH" start="2770.630" end="x">We had to be on guard against the Jewish Committee with each and every transport that we smuggled out of Poland.</u>
+                    <u who="#boderD" start="2777.000" end="x">Hm.</u>
+                    <u who="#marcusH" start="2778.365" end="x">They stand [against] us all the time and hinder us in that work. Now we sit in <placeName ref="Hénonville">Henonville</placeName>and wait again for an Alliyah, not caring what the road will be. At the first opportunity we go on.</u>
+                    <u who="#boderD" start="2793.039" end="x">How did you travel from the Polish border to here? You were first in Czechoslovakia?</u>
+                    <u who="#marcusH" start="2797.732" end="x">Yes, in Czechoslovakia. In <placeName ref="Praha">Prague</placeName>.</u>
+                    <u who="#boderD" start="2798.255" end="x">How long were you in Czechoslovakia?</u>
+                    <u who="#marcusH" start="2799.910" end="x">Two weeks</u>
+                    <u who="#boderD" start="2800.804" end="x">Two weeks? And then you . . . how did you travel?</u>
+                    <u who="#marcusH" start="2803.030" end="x">To France.</u>
+                    <u who="#boderD" start="2803.884" end="x">By busses?</u>
+                    <u who="#marcusH" start="2805.269" end="x">We traveled second class [good accommodations], thanks to the efforts of the <term ref="#vothG_agudah">Agudah</term> [possibly by train].</u>
+                    <u who="#boderD" start="2810.108" end="x">Hm.</u>
+                    <u who="#marcusH" start="2811.252" end="x">Very fine.</u>
+                    <u who="#boderD" start="2811.533" end="x">Who, the entire group?</u>
+                    <u who="#marcusH" start="2812.878" end="x">Not the entire group.</u>
+                    <u who="#boderD" start="2814.303" end="x">Who?</u>
+                    <u who="#marcusH" start="2814.535" end="x">Most of the group.</u>
+                    <u who="#boderD" start="2816.721" end="x">Hm.</u>
+                    <u who="#marcusH" start="2816.853" end="x">First went the [members of the] <term ref="#vothG_kibbutz">Kibbutzim</term>.</u>
+                    <u who="#boderD" start="2818.759" end="x">Hm.</u>
+                    <u who="#marcusH" start="2819.472" end="x">With us were also private people.</u>
+                    <u who="#boderD" start="2821.946" end="x">You belong to a <term ref="#vothG_kibbutz">Kibbutz</term>?</u>
+                    <u who="#marcusH" start="2822.589" end="x">But first . . . I am in a <term ref="#vothG_kibbutz">Kibbutz</term> now?</u>
+                    <u who="#boderD" start="2824.084" end="x">Yes.</u>
+                    <!-- Not found in audio here -->
+                    <u who="#marcusH" start="2824.537" end="x">Yes.</u>
+                    <u who="#boderD" start="2824.840" end="x">And the private people were who?</u>
+                    <u who="#marcusH" start="2827.046" end="x">Also people of the <term ref="#vothG_agudah">Agudah</term>, and various one. If there comes . . . but in first place the <term ref="#vothG_kibbutz">Kibbutzim</term> people were taken.</u>
+                    <u who="#boderD" start="2835.222" end="x">Hm. And you had traveled through where? Through Germany?</u>
+                    <u who="#marcusH" start="2838.781" end="x">We traveled through Germany, too.</u>
+                    <u who="#boderD" start="2840.376" end="x">Did you stop . . . stayed there [word not clear]?</u>
+                    <u who="#marcusH" start="2842.592" end="x">No. We only passed through.</u>
+                    <u who="#boderD" start="2844.648" end="x">What?</u>
+                    <u who="#marcusH" start="2845.231" end="x">We only passed through.</u>
+                    <u who="#boderD" start="2846.435" end="x">Passed through, and then you came into France?</u>
+                    <u who="#marcusH" start="2848.341" end="x">To France, yes.</u>
+                    <u who="#boderD" start="2849.305" end="x">And how long do you think you will have to wait?</u>
+                    <u who="#marcusH" start="2852.814" end="x">We don't know. These are things which we don't know, how long . . . We have sent away already three transports to <term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                    <u who="#boderD" start="2858.648" end="x">And did they arrive [reach their destination]?</u>
+                    <u who="#marcusH" start="2859.582" end="x">Yes.</u>
+                    <u who="#boderD" start="2859.965" end="x">Nu? [Words not clear.] And what do you do here?</u>
+                    <u who="#marcusH" start="2863.895" end="x">Here we work. It differs. Tailoring.</u>
+                    <u who="#boderD" start="2865.871" end="x">[Words not clear.] And you?</u>
+                    <u who="#marcusH" start="2867.316" end="x">I am the technical manager.</u>
+                    <u who="#boderD" start="2868.679" end="x">What . . . in what? In what?</u>
+                    <u who="#marcusH" start="2871.597" end="x">In . . . in the kitchen.</u>
+                    <u who="#boderD" start="2874.174" end="x">In the . . . the . . . in the kitchen</u>
+                    <u who="#marcusH" start="2875.739" end="x">Yes.</u>
+                    <u who="#boderD" start="2876.883" end="x">And the . . .</u>
+                    <u who="#marcusH" start="2877.657" end="x">No. Over the general order.</u>
+                    <u who="#boderD" start="2879.543" end="x">Hm.</u>
+                    <u who="#marcusH" start="2879.675" end="x">Simply that everything should be in good order.</u>
+                    <u who="#boderD" start="2881.120" end="x">Over the women or everybody?</u>
+                    <u who="#marcusH" start="2882.605" end="x">Everybody.</u>
+                    <u who="#boderD" start="2885.934" end="x">Hm. Nu, is there anything more that you would want to tell us?</u>
+                    <u who="#marcusH" start="2890.776" end="x">[Pause.] What I have told are not the protim. It is . . .</u>
+                    <u who="#boderD" start="2894.085" end="x">What are protim?</u>
+                    <u who="#marcusH" start="2894.708" end="x">There are no protim, det- . . . details.</u>
+                    <u who="#boderD" start="2897.133" end="x">Yes.</u>
+                    <u who="#marcusH" start="2897.677" end="x">If one should want to relate the details, say about what one had lived through in one minute, one can sit and write a whole year. I figure that from the collected materials the world should know, and she can already form a picture [of] what had happened with us. And now the whole world should stand open for us with all . . . with all the forces with which they can help . . . help us so that we could arrive in <term ref="#vothG_eretzY">Eretz Yisroeil</term>. So that there we should be able to live our life fully and at least feel at home. Because no matter where it should be, we won't be able to find peace. America is not for us. Belgium is not for us. The whole world is not for us, because there . . . there we won't feel secure. We don't demand much happiness from life any more, because we had too much unhappiness. We already have given too much of our share to the world. But still, now we want a peaceful life and for once to feel what it means to be in one's home [homeland].</u>
+                    <u who="#boderD" start="2956.248" end="x">Hm.</u>
+                    <u who="#marcusH" start="2957.319" end="x">Maybe, because of that, we should be able to carry the responsibility for the generations which will come, that to them shouldn't happen any more what has happened to us.</u>
+                    <u who="#boderD" start="2967.594" end="x">Nu, what do you think to . . . for instance, in . . . nu, yes. And what would you want that one should do for you?</u>
+                    <u who="#marcusH" start="2978.935" end="x">The world should see to fight that for us should be opened the gates of <term ref="#vothG_eretzY">Eretz Yisroeil</term>. We demand nothing more. We still are quite capable people. The world shouldn't think that that we are crippled, backward [?]. There is yet much energy in us, because there is the will for revenge in us, which we cannot use up, because we are not able to. We have to do too much and work too much and shed too much blood, so that our Jewish consciecce and our Jewish heart should be able to carry that out. Or led the world carry that out. Let the world take revenge on those who have ruined us completely.</u>
+                    <u who="#boderD" start="3022.870" end="x">Do you have relatives in America?</u>
+                    <u who="#marcusH" start="3024.963" end="x">I have relatives in America.</u>
+                    <u who="#boderD" start="3026.225" end="x">Where are they?</u>
+                    <u who="#marcusH" start="3027.377" end="x">One is in <placeName ref="San Francisco">San Francisco</placeName>, [and] one is in <placeName ref="New York">New York</placeName>.</u>
+                    <u who="#boderD" start="3029.130" end="x">Hm.</u>
+                    <u who="#marcusH" start="3030.212" end="x">But till now I couldn't get their address, because when we arrived in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> they took everything away from us. We went in naked, and we were given already their clothing so that I don't have their address. I would want very much to know their address.</u>
+                    <u who="#boderD" start="3048.406" end="x">Did you try to look for them through the HIAS?</u>
+                    <u who="#marcusH" start="3051.490" end="x">Through the HIAS? Not yet.</u>
+                    <u who="#boderD" start="3053.483" end="x">That is the best organization through which you can look for them.</u>
+                    <u who="#marcusH" start="3056.407" end="x">[Word not clear.]</u>
+                    <u who="#boderD" start="3057.389" end="x">The HIAS knows how to look for people.</u>
+                    <u who="#marcusH" start="3060.563" end="x">Where is the HIAS? Here is <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#boderD" start="3062.186" end="x">Oh, yes. The HIAS.</u>
+                    <u who="#marcusH" start="3063.198" end="x">Yes?</u>
+                    <u who="#boderD" start="3063.469" end="x">. . . is in <placeName ref="Paris">Paris</placeName>. And they . . . and they search out . . . they understand from a few words . . . from a few names . . .</u>
+                    <u who="#marcusH" start="3071.476" end="x">Yes?</u>
+                    <u who="#boderD" start="3071.967" end="x">. . . to ask around. They ask around. They ask around, and they find out.</u>
+                    <u who="#marcusH" start="3075.811" end="x">Hm.</u>
+                    <u who="#boderD" start="3076.793" end="x">That would be a good thing if you could find them. Nu, Mrs. Marcus, you have . . . it was a very important and interesting report that you have given me, and I thank you very much for your cooperation.</u>
+                    <u who="#marcusH" start="3090.745" end="x">Adieu.</u>
+                    <u who="#boderD" start="3091.697" end="x">Adieu. This . . . [words not clear] . . . one moment [word not clear].</u>
+                    <u who="#boderD" start="3095.184" end="x">[In English] This concludes Spool number 129. We are concluding it at thirty minutes. Madame Hadassah Marcus, a continuation of part of the Spool number 128. <placeName ref="Hénonville">Henonville</placeName>, fifty kilometers from <placeName ref="Paris">Paris</placeName>. September 3rd, 1946. Recording of the Illinois Institute of Technology. [After a stretch of silence there follows a fragment of a song by an unidentified male voice.]</u>
+                    <p>[Note for page-21-(2716): The expression 'on a white horse' may not necessarily be a figurative one since, as a rule, all race horses were requisitioned by the Germans from the estates in occupied territory.]</p>
+                </div>
+                <!-- end spool 9-129 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+  <!-- begin TEI header -->
+  <teiHeader>
+    <fileDesc>
+      <!-- title statement -->
+      <titleStmt>
+        <title>David P. Boder Interviews Dina, Sophia, and Wanda Linik; September 13, 1946; Hénonville, France</title>
+        <author>David P. Boder</author>
+        <respStmt>
+          <resp>Text encoding</resp>
+          <name>Yamini Girey</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription</resp>
+          <orgName>Argos Multilingual</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Translation</resp>
+          <orgName>Argos Multilingual</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Footnotes</resp>
+          <name>Eben E. English</name>
+        </respStmt>
+        <respStmt>
+          <resp>Editor</resp>
+          <name>Eben E. English</name>
+        </respStmt>
+      </titleStmt>
+      <!-- publication statement -->
+      <publicationStmt>
+        <publisher>Paul V. Galvin Library</publisher>
+        <pubPlace>
+          <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+        </pubPlace>
+        <date>2009</date>
+        <availability>
+          <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+        </availability>
+      </publicationStmt>
+      <!-- source description -->
+      <sourceDesc>
+        <recordingStmt>
+          <recording type="audio" dur="PT26M19.232S" id="linikD_9-130A">
+            <broadcast>
+              <bibl>
+                <lang value="primary" norm="Russia">Russian</lang>
+                <lang value="secondary" norm="yi">Yiddish</lang>
+                <note type="spools" n="1">9-130A</note>
+                <placeName ref="Hénonville"/>
+              </bibl>
+            </broadcast>
+            <date>1946-09-13</date>
+            <respStmt>
+              <resp>Recorded by</resp>
+              <name>David P. Boder</name>
+            </respStmt>
+            <equipment>
+              <p>Armour wire recorder</p>
+            </equipment>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <!-- profile desription -->
+    <profileDesc>
+      <textDesc id="linikD_ru_yi" n="transcription">
+        <channel mode="s">interview</channel>
+        <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+        <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+        <domain type="documentary"/>
+        <factuality type="fact"/>
+        <interaction type="complete"/>
+        <preparedness type="none"/>
+        <purpose type="documentary"/>
+      </textDesc>
+      <textDesc id="linikD_en" n="english_translation">
+        <channel mode="s">interview</channel>
+        <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+        <derivation type="translation">English translation of the interview transcript</derivation>
+        <domain type="documentary"/>
+        <factuality type="fact"/>
+        <interaction type="complete"/>
+        <preparedness type="none"/>
+        <purpose type="documentary"/>
+      </textDesc>
+      <particDesc>
+        <listPerson>
+          <person id="boderD" role="interviewer">
+            <persName>
+              <addName type="honorific" full="abb">Dr.</addName>
+              <forename>David</forename>
+              <forename type="middle">Pablo</forename>
+              <surname>Boder</surname>
+            </persName>
+          </person>
+          <person id="linikD" role="interviewee">
+            <persName>
+              <forename>Dina</forename>
+              <surname>Linik</surname>
+            </persName>
+            <sex value="2">female</sex>
+            <age>unknown</age>
+            <birth ref="Poland"/>
+            <faith>Jewish</faith>
+            <nationality key="Poland"/>
+            <state type="marital_status">
+              <desc>widow</desc>
+            </state>
+            <trait type="role_during_holocaust">
+              <desc>unknown</desc>
+            </trait>
+            <event type="invasion" ref="Kyiv">
+              <ab/>
+            </event>
+          </person>
+          <person id="linikS" role="interviewee">
+            <persName>
+              <forename>Sophia</forename>
+              <surname>Linik</surname>
+            </persName>
+            <sex value="2">female</sex>
+            <age>19</age>
+            <birth>unknown</birth>
+            <faith>Jewish</faith>
+            <nationality>unknown</nationality>
+            <state type="marital_status">
+              <desc>unmarried</desc>
+            </state>
+            <trait type="role_during_holocaust">
+              <desc>unknown</desc>
+            </trait>
+            <event type="invasion" ref="Kyiv">
+              <ab/>
+            </event>
+          </person>
+          <person id="linikW" role="interviewee">
+            <persName>
+              <forename>Wanda</forename>
+              <surname>Linik</surname>
+            </persName>
+            <sex value="2">female</sex>
+            <age>10</age>
+            <birth>unknown</birth>
+            <faith>Jewish</faith>
+            <nationality>unknown</nationality>
+            <state type="marital_status">
+              <desc>unmarried</desc>
+            </state>
+            <trait type="role_during_holocaust">
+              <desc>unknown</desc>
+            </trait>
+            <event type="invasion" ref="Kyiv">
+              <ab/>
+            </event>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <!-- encoding description -->
+    <encodingDesc>
+      <editorialDecl>
+        <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+        <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <!-- end TEI header -->
+  <text>
+    <body>
+      <!-- include the locations file -->
+      <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+      <!-- include the camps file -->
+      <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+      <!-- include the glossary file -->
+      <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+      <!-- begin transcription -->
+      <div corresp="#linikD_ru_yi">
+        <!-- begin spool 9-130A -->
+        <div lang="en">
+          <u who="#boderD" start="0.724" end="x">[In English] Spool 9-130A. Dina and Wanda Linik, L-I-N-I-K. In Russian. November the 7th, 1950. Boder.</u>
+          <u who="#boderD" start="72.380" end="x">Paris, September the 13th, in eh . . . France September the 13th 1946. Hénonville, 50 kilometers from Paris in a home for displaced Jews, eh, eh, which is occupied by a kibbutz and also by a yeshiva. The interviewee is a Mrs. Dina Linik, em which is withholding her husband's name, and she is going to report on her experiences, during the war in, which she had in, which she passed in Russia and then in [unintelligible] Poland.</u>
+        </div>
+        <div lang="Russia">
+          <u who="#boderD" start="122.596" end="x">[In Russian] Ну да . . . Also Мадам Линик, вы мне, пожалуйста, скажите, где вы были, когда началась война, и что с вами случилось во время войны, и как вы попали сюда. Ну . . .</u>
+          <u who="#linikD" start="136.015" end="x">Война 1941 года . . . с немцами застигла меня в городе Киеве вместе с моей семьей и . . . которая состояла из мужа и двое дочерей, Софьей и Вандой. В июле сорок первого года, когда немец стал подступать близко к Киеву, я вместе с мужем и с детьми э-э-э . . . эвакуировалась э-э-э . . . на Северный Кавказ.</u>
+          <u who="#boderD" start="168.811" end="x">Из Киева?</u>
+          <u who="#linikD" start="169.505" end="x">Из Киева.</u>
+          <u who="#boderD" start="170.169" end="x">Что русские правительства эвакуировали людей . . . свободно?</u>
+          <u who="#linikD" start="173.701" end="x">Эвакуировала с детьми . . . эвакуировала на Северный Кавказ.</u>
+          <u who="#boderD" start="178.397" end="x">А как мужа вашего не взяли?</u>
+          <u who="#linikD" start="180.238" end="x">Подождите еще, дойдет [unintelligible].</u>
+          <u who="#boderD" start="181.898" end="x">Так.</u>
+          <u who="#linikD" start="183.709" end="x">Там мы прожили два с половиной месяца . . . где э-э-э . . . мужа . . . муж был взят в армию. В сентябре 1941 года муж ушел на фронт, и я осталась с двумя дочерьми. Сказать, сколько лет?</u>
+          <u who="#boderD" start="205.955" end="x">Да.</u>
+          <u who="#linikD" start="207.615" end="x">Одной, старшей, Софье 13 лет, а младшей Ванде 6 лет.</u>
+          <u who="#boderD" start="213.289" end="x">Когда было?</u>
+          <u who="#linikD" start="213.984" end="x">[short pause]</u>
+          <u who="#boderD" start="214.304" end="x">[unintelligible]</u>
+          <u who="#linikD" start="218.185" end="x">5 лет. Пробыли мы на Северном Кавказе 4 месяца, и обратно Гитлер нагнал нас. Он стал подходить подступом Ростова и дальше Ростова начал подходить к Кавказу. Тяжело мне пришлось, когда на Северном Кавказе никак нельзя было с детьми выбраться, эвакуироваться, потому что местные власти очень сильно, много причиняло вредительства . . . и очень много . . . очень много, значит, ставило палки в колеса, чтобы не эвакуироваться и чтобы не уходить с этого . . . Кавказа.</u>
+          <u who="#boderD" start="259.720" end="x">А куда же люди эвакуировались?</u>
+          <u who="#linikD" start="261.398" end="x">С Кавказа люди не имели другого выхода, кроме в Каспийское море.</u>
+          <u who="#boderD" start="268.038" end="x">То есть что значит?</u>
+          <u who="#linikD" start="269.324" end="x">На . . . в Среднюю Азию, в Среднюю Азию.</u>
+          <u who="#boderD" start="271.455" end="x">Ну и куда же, значит, что же тогда случилось?</u>
+          <u who="#linikD" start="280.829" end="x">Что случилось? Приехали мы в Махачкала, это порт возле Каспийского моря.</u>
+          <u who="#boderD" start="287.560" end="x">Так.</u>
+          <u who="#linikD" start="289.661" end="x">Десятки тысяч людей валялись на пристани, на улице.</u>
+          <u who="#boderD" start="301.057" end="x">Так.</u>
+          <u who="#linikD" start="302.687" end="x">Тяжелая картина была тогда, очень тяжелая картина еврейская. Люди по 6–7 недель валялись на пристани под дождем . . .</u>
+          <u who="#boderD" start="313.281" end="x">А кто эти люди были, главное?</u>
+          <u who="#linikD" start="314.989" end="x">Евреи.</u>
+          <u who="#boderD" start="315.683" end="x">Почему евреи?</u>
+          <u who="#linikD" start="317.042" end="x">Потому что за ними Гитлера было специально же известно на евреев всех погромы . . .</u>
+          <u who="#boderD" start="322.432" end="x">Ага, и евреи хотели эвакуироваться.</u>
+          <u who="#linikD" start="324.605" end="x">И потому евреи хотели эвакуироваться. Везде, все порты, все пристани были только завалены семьями, детьми еврейскими.</u>
+          <u who="#boderD" start="333.569" end="x">Да.</u>
+          <u who="#linikD" start="336.316" end="x">После долгих мытарств я попала на . . . на пароход, если можно назвать его пароход, это был не пароход, а какой-то транспортный . . .</u>
+          <u who="#boderD" start="348.920" end="x">. . . баржа . . .</u>
+          <u who="#linikD" start="349.813" end="x">. . . транспортная баржа, которую так набили битком, что едва ли селедки бы так уместились в бочке, как . . . как людей уместили в этой барже в трюме, на палубе, везде.</u>
+          <u who="#boderD" start="362.791" end="x">Так. </u>
+          <u who="#linikD" start="365.417" end="x">Баржа была не при . . . как это сказать . . . ну, она не была приготовлена для . . .</u>
+          <u who="#boderD" start="375.033" end="x">. . . для пассажиров . . .</u>
+          <u who="#linikD" start="375.745" end="x">Да . . . для пассажиров, для такого груза . . . ну и кроме того . . . нужно прибавить к тому, что налетали очень часто самолеты . . .</u>
+          <u who="#boderD" start="386.067" end="x">Откуда?</u>
+          <u who="#linikD" start="386.641" end="x">Пытались . . . Самолеты залетали немецкие, пытались бомбить, бомбили нас по дороге. Это самое [unintelligible] получило незначительное повреждение . . .</u>
+          <u who="#boderD" start="392.212" end="x">Так.</u>
+          <u who="#linikD" start="393.178" end="x">. . . после чего начался сильный шторм, шестибалловый шторм. Нас качало в пароходе как игрушка все равно. Несколько раз мы уже мысленно прощались со своей жизнью. Всякие это . . . теснота, это самое переживания . . . сделали . . . многих людьми . . . многие люди получили свою смерть на этом самом пароходе.</u>
+          <u who="#boderD" start="423.564" end="x">Что, так [unintelligible]?</u>
+          <u who="#linikD" start="424.850" end="x">Да. Очень многие получили паралич сердца. Их не выдерживали этот самый режим, ну . . .</u>
+          <u who="#boderD" start="432.564" end="x">Сколько [unintelligible] вы были на пароходе?</u>
+          <u who="#linikD" start="434.737" end="x">Мы . . . тот пароход, который должен нас был перевезти за шестнадцать часов, мы были двое с половиной суток на . . . на море, на открытом море, после чего мы прибыли в Красноводск. В Красноводске начали размещать нас по эшелонам, транспортам в разные . . . разные части Средней Азии. Мы попали в колхоз возле Алма-Ата.</u>
+          <u who="#boderD" start="460.817" end="x">Так.</u>
+          <u who="#linikD" start="462.175" end="x">Там я прожила с детьми 9 месяцев.</u>
+          <u who="#boderD" start="465.405" end="x">Ага. Что вы делали?</u>
+          <u who="#linikD" start="466.449" end="x">Работала в колхозе.</u>
+          <u who="#boderD" start="469.467" end="x">Что вы работали?</u>
+          <u who="#linikD" start="470.222" end="x">Работала на поле в колхозе, на уборке хлеба, затем работала на консервном заводе, и много пришлось перетерпеть, пережить за это время.</u>
+          <u who="#boderD" start="480.532" end="x">А что, платили за работу?</u>
+          <u who="#linikD" start="482.723" end="x">За работу . . . Конечно, платили хлебом. Норму давали [unintelligible], мы были приноравлены ко всем колхозникам. Потом в сорок втором году я выехала обратно . . . да, в сорок втором году, сорок третий год и сорок четвертый год это все время я была в Средней Азии. Затем в сорок четвертом году, когда уже был взят город Киев, я обратно посредством [unintelligible] при содействии, так сказать, власти мне удалось получить разрешение вернуться обратно к себе на родину.</u>
+          <u who="#boderD" start="521.602" end="x">В Киев?</u>
+          <u who="#linikD" start="522.357" end="x">В Киев.</u>
+          <u who="#boderD" start="523.371" end="x">А скажите, что дети делали в колхозе?</u>
+          <u who="#linikD" start="527.053" end="x">Старшая работала и училась, а младшая училась в школе.</u>
+          <u who="#boderD" start="531.550" end="x">Так. А в общем условия в колхозе были какие?</u>
+          <u who="#linikD" start="537.315" end="x">Какие могли быть общие условия в колхозе . . . были одинаковы, как для всех.</u>
+          <u who="#boderD" start="541.468" end="x">Да. Какие условия были? Хорошо было там жить или что?</u>
+          <u who="#linikD" start="547.160" end="x">Хорошо было, если мы не видели близко Гитлера, уже было хорошо. Мы считали то хорошо, что несоприкосновенно, близко с Гитлером, это считалось хорошо. От Гитлера я уходила 4 раза, всякий раз он нас настигал.</u>
+          <u who="#boderD" start="561.496" end="x">То есть какие 4 раза? Из Киева?</u>
+          <u who="#linikD" start="562.884" end="x">В Киеве он нас настигал, в Северном Кавказе настигал, затем после Северного Кавказа, я забыла прибавить, я еще была в Грузии, там тоже он подходил близко, ну и затем я в Средней Азии, когда возвращалась, если вы помните, это обратно с Ростова он начал свой . . . свои успехи, и там тоже в дороге нас застало на этом . . . в Ростове, там тоже я еле-еле избавилась от следов этого Гитлера.</u>
+          <u who="#boderD" start="589.880" end="x">Так-так.</u>
+          <u who="#linikD" start="591.709" end="x">Ну затем . . .</u>
+          <u who="#boderD" start="592.270" end="x">А от мужа вы слышали, письма получали?</u>
+          <u who="#linikD" start="594.262" end="x">А от мужа . . . от мужа шел 3 сентября я получила от него 5 писем и после этого как в воду канул. Известно мне только, что он очутился под Полтавой, где он был . . . вся его дивизия была окружена немцами. Дальше о судьбе я его ничего не знаю. Я писала неоднократно в правительство, но мне ответили, что никаких следов, пропал без вести. Можно считать, что если бы он жив был, то он вернулся бы. Я считаю, что он погиб.</u>
+          <u who="#boderD" start="628.541" end="x">А вы думаете, если бы он был жив, он мог бы вас найти теперь. Есть кто-нибудь в России, кто знает, где вы?</u>
+          <u who="#linikD" start="635.543" end="x">Я его ждала в Киеве полтора года . . . и не могла его дождаться. Я считаю, что полтора года — достаточный срок для того, чтобы узнать что-нибудь за него или чтобы он о нас что-нибудь узнал, причем он же имел много знакомых, и близких, и родных, где бы он мог спросить о нас, если он жив.</u>
+          <u who="#boderD" start="655.422" end="x">Так, они знают, где вы.</u>
+          <u who="#linikD" start="656.750" end="x">Да. Теперь так. В Киеве я прожила полтора года.</u>
+          <u who="#boderD" start="663.813" end="x">В Киеве?</u>
+          <u who="#linikD" start="664.676" end="x">В Киеве.</u>
+          <u who="#boderD" start="665.280" end="x">Это уже война кончилась или еще она продолжалась?</u>
+          <u who="#linikD" start="668.286" end="x">Война была уже закончена.</u>
+          <u who="#boderD" start="669.554" end="x">О! Вы вернулись в Киев в каком году?</u>
+          <u who="#linikD" start="671.987" end="x">В сорок четвертом году.</u>
+          <u who="#boderD" start="673.484" end="x">В сорок четвертом году немцев уже выгнали из Киева? Война закончилась в сорок пятом, и вы все еще жили в Киеве. Но как вы там жили в Киеве, с чего вы жили?</u>
+          <u who="#linikD" start="682.496" end="x">В Киеве я работала.</u>
+          <u who="#boderD" start="683.673" end="x">Где?</u>
+          <u who="#linikD" start="685.152" end="x">Я работала, на фабриках работала, на заводе работала . . .</u>
+          <u who="#boderD" start="688.804" end="x">Ну и каковы же были условия? Вы работали на фабрике, что вам платили?</u>
+          <u who="#linikD" start="699.325" end="x">Что мне платили? Зарплату платили.</u>
+          <u who="#boderD" start="701.921" end="x">Да. [unintelligible] можно было на это жить с двумя детьми?</u>
+          <u who="#linikD" start="705.108" end="x">Нет. Я материально совершенно не была обеспечена, и мне очень тяжело пришлось. Одна прокормить детей я не могла. Дети заболели после всех этих мытарств, переживаний. Дети заболели и не были приспособлены и к тому, чтобы уже больше бороться с голодом, с этими недостатками. После этого, по репатриации, так сказать, польских граждан я попала в общие списки и выехала из Киева.</u>
+          <u who="#boderD" start="737.434" end="x">Как полька?</u>
+          <u who="#linikD" start="738.219" end="x">Как полька.</u>
+          <u who="#boderD" start="739.052" end="x">А вы что, родились в Польше?</u>
+          <u who="#linikD" start="740.398" end="x">Я родилась в Польше.</u>
+          <u who="#boderD" start="743.175" end="x">Так.</u>
+          <u who="#linikD" start="743.736" end="x">Выехала я с детьми из . . . попала я в город Краков, где я прожила короткое время, а затем на общих основаниях как . . . как получившая сообщение о своих близких Америки, Палестины . . .</u>
+          <u who="#boderD" start="770.237" end="x">Кто у вас в Палестине?</u>
+          <u who="#linikD" start="771.251" end="x">У меня в Палестине есть мать.</u>
+          <u who="#boderD" start="772.730" end="x">О! Так.</u>
+          <u who="#linikD" start="774.318" end="x">У меня в Палестине есть сестра и брат, которым удалось в двадцать втором году уехать к себе туда. Сейчас у меня сильное желание есть ехать в Палестину к своим родным, но известно, что по сложившимся обстоятельствам политическим я не могу сейчас уехать туда. Питаю надежду, что в скором будущем я сумею объединиться со своими ро . . . близкими, родными и устроить жизнь своих детей, чтобы он имел более благополучный исход, чем моя жизнь . . .</u>
+          <u who="#boderD" start="810.933" end="x">Кто это он?</u>
+          <u who="#linikD" start="812.189" end="x">Чтобы жизнь моих детей случилась более, чтоб исход, жизнь моих детей был более благоприятный, чем у меня сложилась в . . . жизнь моя.</u>
+          <u who="#boderD" start="821.080" end="x">Так, вы говорите, вы хотите . . . А ваши сестры в Чикаго разве не говорят по-русски?</u>
+          <u who="#linikD" start="827.962" end="x">Мои сестры уехали, я еще была совсем м . . .</u>
+          <u who="#boderD" start="830.666" end="x">Маленькая.</u>
+          <u who="#linikD" start="830.998" end="x">Маленькая.</u>
+          <u who="#boderD" start="831.813" end="x">И вы не знаете, говорят ли они?</u>
+          <u who="#linikD" start="832.719" end="x">Я их хорошо помню. Знают ли они русский язык, я сомневаюсь, потому что одна сестра Рахиль [unintelligible] находится 34 года в Чикаго. Вторая сестра находится с двадцать второго года в Чикаго.</u>
+        </div>
+        <div lang="Germany">
+          <u who="#boderD" start="847.224" end="x">[In German] . . . Also wollen wir reden Jiddisch jetzt.</u>
+          <u who="#linikD" start="849.276" end="x">. . . Wollen wir reden Jiddisch.</u>
+        </div>
+        <div lang="yi">
+          <u who="#boderD" start="850.997" end="x">[In Yiddish] אלזא לאמיר רעדן אידיש יעצט לאמיר רעדן אידיש</u>
+          <u who="#boderD" start="855.422" end="x">עה, וואו זענט איר געקומען קיין פוילן, ווען איר זענט אוועק געפארן פון קיעוו?</u>
+          <u who="#linikD" start="855.422" end="x">אויף, עה, מיר געקומען א פוילישע ??</u>
+          <u who="#boderD" start="859.333" end="x">וואו, וואו זענט איר געקומען, צו וועלכער שטאט?</u>
+          <u who="#linikD" start="861.959" end="x">קיין קראקוב.</u>
+          <u who="#boderD" start="863.396" end="x">נאך קראקוב זענט איר געקומען?</u>
+          <u who="#linikD" start="864.440" end="x">יא, נאכער האבן מיר געוואוינט אין לאדזש, אין קראקוב, אין קאטאוויץ, איז סאסנאוויץ, אויסגעפארן גאנץ פוילן, און</u>
+          <u who="#boderD" start="872.589" end="x">און פון וואס האט מען דאס געלעבט?</u>
+          <u who="#linikD" start="873.736" end="x">און, און מען האט געלעבט פון אלעס וואס די אמעריקאנער עה, מלוכה האט געשטיצט.</u>
+          <u who="#boderD" start="880.074" end="x">יא, אלעס. און אייערע ווייבער און מיידלעך זענען געווען מיט אייך?</u>
+          <u who="#linikD" start="883.817" end="x">יא. נאכער זענען מיר געקומען, אויכעט אלעס א דאנק די אמעריקאנער מלוכה, האט אונז געגעבן אזעלכע שטיצונג, אז מען האט געקענט איבערפארן פון פוילן קיין טשעכיי, ווייל אין פוילן איז אויכעט, אזוי ווי מען ווייסט די אלגעמיינע לאגע איז ניט קיין גוטע פאר די אידן, עס איז פארגעקומען אז מען האט זייער פיל געמארדעט אידן אין פוילן זענען מיר געווען</u>
+          <u who="#boderD" start="906.048" end="x">האט איר זעלבסט געזען?</u>
+          <u who="#linikD" start="907.588" end="x">אלץ האט מען געזען. יא. פאר מיר איז פארגעקומען ווי אין לאדזש האט מען געמארדעוועט פיר אידישע קיבוץ'ניקעס,</u>
+          <u who="#boderD" start="914.065" end="x">יא, פארוואס?</u>
+          <u who="#linikD" start="915.381" end="x">פאר גארנישט. דערפאר וואס זיי זענען אידן.</u>
+          <u who="#boderD" start="917.391" end="x">אהא.</u>
+          <u who="#linikD" start="917.693" end="x">מער ניט. נאר וואס, ווייל זיי הייסן אין דער נאמען איד. אלזא האט מען געזען אז פאר אונז איז אין פוילן איז אויך ניט קיין לעבן, ווייל די אידן לאזט מען ניט, לאזט מען ניט אין פוילן דאס לעבן, האט מען אונז געהאלפן, און דערנאך זענען מיר געקומען קיין טשעכיי</u>
+          <u who="#boderD" start="933.556" end="x">יא.</u>
+          <u who="#linikD" start="934.281" end="x">און אין טשעכיי האט די פראנצויזישע רעגירונג ערלויבט אז מען זאל אריין פארן אלס טראנזיטן, וועלכע צו פארן ווייטער, טראנזיט,</u>
+          <u who="#boderD" start="942.146" end="x">אהא.</u>
+          <u who="#linikD" start="943.535" end="x">יעצט געפינען מיר זיך אין ??, דאס הייסט אין קיבוץ פון אגודת פועלי ישראל</u>
+          <u who="#boderD" start="950.465" end="x">אגודת וואס?</u>
+          <u who="#linikD" start="951.328" end="x">אגודת פועלי ישראל</u>
+          <u who="#boderD" start="953.199" end="x">פועלי ישראל</u>
+          <u who="#linikD" start="954.044" end="x">פועלי ישראל, מיטן נאמען נצח ישראל</u>
+          <u who="#boderD" start="957.063" end="x">אהא.</u>
+          <u who="#linikD" start="957.473" end="x">דאהי געפינען מיר זיך שוין פיר מאנאט מיט דעם האפענונג אז אונז וועלן מיר אפפארן נאך ארץ ישראל</u>
+          <u who="#boderD" start="964.053" end="x">אהא.</u>
+          <u who="#linikD" start="964.524" end="x">ווילט זיך, איך האב זייע געוואלט זיך געוואלט זען מיט מיינע צוויי שוועסטער וועלכע זענען אין אמעריקע, אבער איך ווייס ניט ווי קען דאס קומען, צי קענען זי מיר אויף אזוי פיל העלפן אז איך זאל קענען פארן נאך אמעריקע?</u>
+          <u who="#boderD" start="978.093" end="x">אהא, האבן זיי צו אייך געשריבן?</u>
+          <u who="#linikD" start="980.840" end="x">איך האב ערהאלטן פון זיי בריוו, אבער זיי האבן מיך געפרעגט, אפשר, אפשר נייטיג זיך אין עפעס אבער פון דענץ, האבן זיי ניט, זיי ווייסן אז איך האב אין ארץ ישראל א שוועסטער מיט א ברודער א קלענערן, און אויך אין ארץ ישראל א מוטער</u>
+          <u who="#boderD" start="995.925" end="x">יא</u>
+          <u who="#linikD" start="996.245" end="x">אבער אלזא וואלט איך זייער געוואלט ??</u>
+          <u who="#boderD" start="998.829" end="x">אהא. נא, פילייכט ווען איר גייט עס נאך ארץ ישראל, פאר אן אמעריקאנער איז דאך לייכט צו מאכן א וויזיטע דארטן?</u>
+          <u who="#linikD" start="1005.849" end="x">קיין אמעריקע?</u>
+          <u who="#boderD" start="1006.845" end="x">ניין, פון אמעריקע נאך פאלעסטינע</u>
+          <u who="#linikD" start="1009.290" end="x">יא.</u>
+          <u who="#boderD" start="1009.821" end="x">מען פארט דאך ??, עס וועט זיך בארואיגן, און זיי וועלן וויסן די גאנצע משפחה איז אין פאלעסטינע, וועלן זיי קומען נאכדעם?</u>
+          <u who="#linikD" start="1017.759" end="x">קיין פאלעסטינע?</u>
+          <u who="#boderD" start="1018.924" end="x">יא.</u>
+          <u who="#linikD" start="1019.214" end="x">פון אמעריקע?</u>
+          <u who="#boderD" start="1020.107" end="x">יא. מען פארט זייער אפט. מען פארט זייער פיל.</u>
+          <u who="#linikD" start="1022.371" end="x">עס קענען פון פאלעסטינע קיין אמעריקע פארן?</u>
+          <u who="#boderD" start="1025.286" end="x">א, נא. פון אמעריקע נאך פאלעסטינע</u>
+          <u who="#linikD" start="1027.248" end="x">ניין, און פון פאלעסטינע קיין אמעריקע?</u>
+          <u who="#boderD" start="1029.814" end="x">דאס איז, יעס, מען קען פארן נאטורליך, אבער אמעריקאנישע בירגער קענען דאך פארן פריי נאך פאלעסטינע, געווענליך</u>
+          <u who="#linikD" start="1038.917" end="x">איך מיין. איך ווייס ניט אז זיי קענע פארן, זיי זענען עלטערע צוויי פערזאן, ניט קיין אכצן יאר, און פארלאזן אייגענע פאמילע, און זענען פארנומען מיט זייערע געשעפטן, געשעפטליך</u>
+          <u who="#boderD" start="1051.008" end="x">אהא. און, זיינען ביידע טעכטער אייערע היער מיט אייך?</u>
+          <u who="#linikD" start="1054.708" end="x">יא.</u>
+          <u who="#boderD" start="1055.734" end="x">וואו האט איר זיך אנגעשלאסן אין דעם קיבוץ?</u>
+          <u who="#linikD" start="1058.541" end="x">אונז האמיר, אונז האמיר געקומען קיין פוילן האבן מיר זיך איינגעמעלדעט אין אגודה</u>
+          <u who="#boderD" start="1065.272" end="x">יא</u>
+          <u who="#linikD" start="1065.743" end="x">אין די אגודה, און די גאנצע צייט האלטן מיר זיך האנט ביי האנט מיט דער אגודה</u>
+          <u who="#boderD" start="1071.073" end="x">און זיי האבן אייך אריבערגעבראכט?</u>
+          <u who="#linikD" start="1072.811" end="x">יא. די אגודה האט אונז אריבער געבראכט פון פוילן קיין פראנקרייך, און ביז יעצט זעען זיי פונעם גאנצן שטיצן אונז, אז מיר זאלן קענען קומען קיין ארץ ישראל</u>
+          <u who="#boderD" start="1085.337" end="x">אהא, ווי זאגט מען דעס, איר, איר, וואס טוט איר היער א גאנצן טאג? און וואס טוען די קינדער? ווי אלט זענען די קינדער?</u>
+          <u who="#linikD" start="1092.900" end="x">יא. אין, אין דעם קיבוץ נצח ישראל לערנען זאך, אין ווערטשאפט, אין שניידערי</u>
+          <u who="#boderD" start="1103.705" end="x">מיט די, די ארטס ווערקשאפט</u>
+          <u who="#linikD" start="1106.482" end="x">יא. ארטס ווערקשאפט אין שניידעריי, אונטער דער, און דער לערערקע איז מדאדם, אה</u>
+          <u who="#boderD" start="1113.804" end="x">לאקשטיין</u>
+          <u who="#linikD" start="1114.305" end="x">אה, אלא לאקשטיין, ס'איז זייער א וואוילער, א אידישע, העפליכער מענטש, א גוטער לערערין פאר אונז, און זי זעט אז דער איד, זאל, זאל, יעדער אידיש קינד זאל באקומען עפעס א פאך און זאל קענען סובסיסטן אויף די גאנצע וועלט</u>
+          <u who="#boderD" start="1132.474" end="x">אהא. און די קינדער?</u>
+          <u who="#linikD" start="1133.138" end="x">און די קינדער מיינע. איין טאכטער איז נאך א קליינס, וואלדא, זי איז אלט צען יאר, און זי לערנט עברית אז זי וועט קומען קיין ארץ ישראל זאל זיך קענען אויסשמועסן מיט אלעמען, און די עלטערע טאכטער לערנט אויכעט עברית, און זי לערנט פאר גערטנעריי</u>
+          <u who="#boderD" start="1153.368" end="x">אהא, און זי וועט, זי וועט ארבייטן אין, אין ארץ ישראל אין א קאלאניע ווער</u>
+          <u who="#linikD" start="1159.314" end="x">וואס וועט, איך קען גארניט וויסן, וואס מיט אונז קען מען גיבן, אז מען קומט קיין ארץ ישראל. אבער מיר האפן אז מען קומט קיין ארץ ישראל און מען קען גערטנעריי, מען קען נייען, איז קען סובסיסטן, עפעס וועט מען דאך טוען זאל מען קענען באקומען א נוץ</u>
+          <u who="#boderD" start="1176.415" end="x">און וואו לעבט איר היער? האט איר א צימער פאר זיך??</u>
+          <u who="#linikD" start="1178.938" end="x">יא, אין אגודה, אין נצח ישראל, אין קיבוץ, האב איך איין צימער פאר מיר און מיינע צוויי טעכטער, און זיי באזארגן שוין מיט בעט געוואנט, מיט א בעט, און מיט שפייז, און מיט ווארימקייט, אלעס וואס סי, וואס סי קומט, אלעס, עה, און די אגודה, באזארגן זיי אלעס</u>
+          <u who="#boderD" start="1202.105" end="x">און אייערע שוועסטער האבן אייך נאך קיינמאל ניט געשיקט קיין באשטיצונג? קיין געלט?</u>
+          <u who="#linikD" start="1206.650" end="x">איך האב ניט געפאדערט, ווייל, איך, אונז זיינען דא ניט הונגעריק</u>
+          <u who="#boderD" start="1210.031" end="x">אהא.</u>
+          <u who="#linikD" start="1210.804" end="x">עס לעבט מען ניט אזוי שטארק, ווי זאגט מען</u>
+          <u who="#boderD" start="1214.353" end="x">אין לוקסוס</u>
+          <u who="#linikD" start="1215.168" end="x">אין לוקסוס. אלזא זענען מיר ניט הונגעריק, מיר האבן זיך זייער פיל אנגעליטן ביי דעם דייטש פאר דער קריג, אז מען געפינען שוין אויס, אז דא הייסט שוין, ווי הייסט עס, אז מען קען שוין שלאפן רואיג, און קיין נפקא מינא מיטן געוויר, און, און</u>
+          <u who="#boderD" start="1231.255" end="x">מיטן געווער.</u>
+          <u who="#linikD" start="1231.997" end="x">מיטן געווער. יא, און קיינער, און זי ווייסן אז דו שלאפסט ביינאכט אז דו שפילסט ניט מיטן לעבן, און מען שטייט אויף אינדערפרי און ס'איז פאראן א גלאז טיי, איז שוין, איז מען שוין מיט</u>
+          <u who="#boderD" start="1240.418" end="x">און וואו איז די ארבייט אין די קאכאזן האט מען זיך גוט באנומען? פריינטליך באנומען?</u>
+          <u who="#linikD" start="1246.744" end="x">ווי קען, וואס הייסט פריינטליך באנומען? ווי קען זיין פריינטליך? אז זיי קענען קומען נעמען דעם אידן, פרעג איך דיך</u>
+          <u who="#boderD" start="1254.458" end="x">נא פרעג איך אייך?</u>
+          <u who="#linikD" start="1255.816" end="x">מען קען נישט זאגן פריינטליך. אבער אלעס האבן זיי געהאט רעכט פאר דער מאכט, זיי האבן דאך מורא געהאט עפעס א געפיל, אבער צו דעם איד אדער קעגן דעם איד דאס האבן זיי ניט געקענט טון ווייל דאס איז, די מלוכה האט געקוקט אויף דעם, אבער פריינטליך ניט, זיי האבן געזאגט אז אידן דארפן פארן צו זוכן ארץ ישראל</u>
+          <u who="#boderD" start="1272.942" end="x">די קאכאזן האבן דאס געזאגט?</u>
+          <u who="#linikD" start="1273.818" end="x">יא. אז אידן דארפן פארשן צו זוכן א לאנד</u>
+          <u who="#boderD" start="1279.691" end="x">אהא. און וואס איז, אייער עלטערע טאכטער אה, זאגט איר, ווילט איר אז איך זאל זיי זען?</u>
+          <u who="#linikD" start="1285.909" end="x">יא, און געוואלט אינען זאלן איבער געבן א גרוס פאר מיינע שוועסטער</u>
+          <u who="#boderD" start="1288.251" end="x">נא, ברענגט אריין ביידע מיידלעך</u>
+        </div>
+        <div lang="Russia">
+          <u who="#boderD" start="1292.054" end="x">[In Russian] Как вас зовут, барышня?</u>
+          <u who="#linikS" start="1294.366" end="x">Софья Линик.</u>
+          <u who="#boderD" start="1296.406" end="x">И вам сколько лет?</u>
+          <u who="#linikS" start="1298.791" end="x">Девятнадцать.</u>
+          <u who="#boderD" start="1300.318" end="x">А у вас что, тетки в Париже, тетки в Чикаго?</u>
+          <u who="#linikS" start="1303.306" end="x">Да, у меня две тетки в Чикаго.</u>
+          <u who="#boderD" start="1304.876" end="x">Как их зовут?</u>
+          <u who="#linikS" start="1306.101" end="x">Рахиль и Гиту.</u>
+          <u who="#boderD" start="1309.361" end="x">А фамилий вы не знаете?</u>
+          <u who="#linikS" start="1311.039" end="x">Я знаю.</u>
+          <u who="#boderD" start="1311.945" end="x">Как, Рахиль кто?</u>
+          <u who="#linikS" start="1313.472" end="x">Рахиль Бравер . . .</u>
+          <u who="#boderD" start="1314.559" end="x">Так, и Гиту . . .</u>
+          <u who="#linikS" start="1316.297" end="x">Гиту . . . Бухенлер.</u>
+          <u who="#boderD" start="1319.678" end="x">Гиту Бухенлер. А вы им написали письма . . . письма?</u>
+          <u who="#linikS" start="1324.435" end="x">Мы писали письма.</u>
+        </div>
+        <div lang="yi">
+          <u who="#boderD" start="1326.023" end="x">[In Yiddish] [unintelligible]</u>
+          <p>[unintelligible voices]</p>
+        </div>
+        <div lang="Russia">
+          <u who="#boderD" start="1330.780" end="x">[In Russian] Скажите по-русски, если вы не можете. А что они вам пишут?</u>
+          <u who="#linikS" start="1346.985" end="x">Они пишут, что очень счастливы, что узнали о нас, так они давно о нас не имели сведений . . .</u>
+          <u who="#boderD" start="1352.901" end="x">Ага.</u>
+          <u who="#linikS" start="1354.157" end="x">. . . так они давно не имели о нас сведения . . . ну, очень бы хотели нас увидеть.</u>
+          <u who="#boderD" start="1359.155" end="x">Ага. А что ваша сестра Ванда, сколько ей лет?</u>
+          <u who="#linikD" start="1363.036" end="x">Нашей Ванде 11 лет.</u>
+          <u who="#boderD" start="1366.326" end="x">[unintelligible]</u>
+          <u who="#linikS" start="1367.503" end="x">[unintelligible]</u>
+          <u who="#boderD" start="1368.318" end="x">Понятно. Так, ей 10 лет. Она большая такая.</u>
+          <u who="#boderD" start="1371.554" end="x">Ну, а Ванда, как тебе тут нравится во Франции?</u>
+          <u who="#linikW" start="1374.349" end="x">Хорошо.</u>
+          <u who="#boderD" start="1375.122" end="x">Очень хорошо. А кто эта маленькая девочка, которая с тобой всегда?</u>
+          <u who="#linikW" start="1378.762" end="x">Это моя подруга.</u>
+          <u who="#boderD" start="1380.440" end="x">[unintelligible]</u>
+          <u who="#linikW" start="1382.764" end="x">Моя подруга.</u>
+          <u who="#boderD" start="1383.428" end="x">Твоя подруга. А что ты целый день делаешь тут?</u>
+          <u who="#linikW" start="1385.891" end="x">Играюсь.</u>
+          <u who="#boderD" start="1387.237" end="x">Играешься? А ты умеешь читать по-русски?</u>
+          <u who="#linikW" start="1390.726" end="x">Умею.</u>
+          <u who="#boderD" start="1391.342" end="x">И писать по-русски умеешь?</u>
+          <u who="#linikW" start="1392.839" end="x">Да.</u>
+          <u who="#boderD" start="1393.702" end="x">А что нужно сказать твоей тетке? Хочешь поехать в Америку?</u>
+          <u who="#linikW" start="1397.837" end="x">Я хочу, чтобы она ко мне приехала.</u>
+          <u who="#boderD" start="1400.662" end="x">Так. А ты куда собираешься ехать?</u>
+          <u who="#linikW" start="1403.155" end="x">В Палестину.</u>
+          <u who="#boderD" start="1404.320" end="x">Ну хорошо. А теперь спой песню.</u>
+          <u who="#linikS" start="1407.004" end="x">Ну спой, спой.</u>
+          <u who="#boderD" start="1409.982" end="x">А что, вы хотите поехать в Америку?</u>
+          <u who="#linikS" start="1411.751" end="x">Ну так . . . .</u>
+          <u who="#boderD" start="1414.365" end="x">Ну, говорите, что хотите.</u>
+          <u who="#linikW" start="1416.586" end="x">[laughing]</u>
+          <u who="#boderD" start="1417.884" end="x">Нет, это . . .</u>
+          <u who="#linikD" start="1418.759" end="x">Моя мама хочет в Палестину, а мое желание ехать в Америку.</u>
+          <u who="#linikS" start="1422.864" end="x">Это она знает, что моя мама очень хочет ехать в Палестину и никуда больше, а мое желание ехать в Америку.</u>
+          <u who="#boderD" start="1429.280" end="x">А что вы умеете делать?</u>
+          <u who="#linikS" start="1431.423" end="x">Что умею делать?</u>
+          <u who="#boderD" start="1432.721" end="x">Да. Вы какое-нибудь . . .</u>
+          <u who="#linikS" start="1433.959" end="x">Например.</u>
+          <u who="#boderD" start="1434.339" end="x">. . . ремесло знаете?</u>
+          <u who="#linikS" start="1435.637" end="x">Ну . . . я училась.</u>
+          <u who="#boderD" start="1437.478" end="x">Чему?</u>
+          <u who="#linikS" start="1438.190" end="x">Я училась в мединституте.</u>
+          <u who="#boderD" start="1440.152" end="x">В каком институте?</u>
+          <u who="#linikS" start="1440.997" end="x">В мединституте. Медицинский институт.</u>
+          <u who="#boderD" start="1443.291" end="x">И чему вы научились там?</u>
+          <u who="#linikS" start="1444.637" end="x">Ну я ж не кончила его.</u>
+          <u who="#boderD" start="1445.995" end="x">А сколько лет вы имели его?</u>
+          <u who="#linikS" start="1447.233" end="x">Я училась на первом курсе . . . и мне пришлось . . . да . . . на дантиста . . . на дантиста.</u>
+          <u who="#boderD" start="1453.608" end="x">А вы кончили гимназию?</u>
+          <u who="#linikS" start="1454.894" end="x">Я кончила гимназию, поступила на первый курс мединститута, медицинского института . . .</u>
+          <u who="#boderD" start="1461.371" end="x">Так.</u>
+          <u who="#linikS" start="1461.812" end="x">Ну и я занимаюсь на первом курсе на зубоврачебном факультете мне пришлось оставить.</u>
+          <u who="#boderD" start="1467.866" end="x">В каком городе вы были на зубоврачебном факультете?</u>
+          <u who="#linikS" start="1469.587" end="x">В Киеве.</u>
+          <u who="#boderD" start="1470.903" end="x">В Киеве. Уже когда вы вернулись из Средней Азии?</u>
+          <u who="#linikS" start="1474.060" end="x">Да, из Средней Азии, так как я в Киеве только и окончила гимназию.</u>
+          <u who="#boderD" start="1477.971" end="x">Ага . . . А вы своей тетке написали об этом?</u>
+          <u who="#linikS" start="1483.917" end="x">Я написала ей маленькое письмецо [unintelligible] написала, потому что я не могу по-английски писать, а по-еврейски тоже.</u>
+          <u who="#boderD" start="1490.406" end="x">Тоже. Можете или не можете?</u>
+          <u who="#linikS" start="1492.277" end="x">Не могу. Я по-еврейски немножко написала, потому что я не могу выразить здесь все, что я хочу написать.</u>
+          <u who="#boderD" start="1498.675" end="x">Так.</u>
+        </div>
+        <div lang="yi">
+          <u who="#boderD" start="1502.448" end="x">[In Yiddish] [unintelligible]</u>
+          <u who="#linikW" start="1525.658" end="x">[unintelligible]</u>
+        </div>
+        <div lang="en">
+          <u who="#boderD" start="1540.833" end="x">[In English] This is Spool 9-130A. Covering the interview with a whole family, Dina, Sophia, and Wanda Linik. At Hénonville, near Paris. November 7th 1950, Boder. The other half of this spool is eh . . . Pinkhus Rosenfeld.</u>
+        </div>
+        <!-- end spool 9-130A-->
+      </div>
+      <!-- end transcription -->
+      <!-- begin English translation -->
+      <div corresp="#linikD_en">
+        <!-- begin spool 9-130A -->
+        <div lang="en">
+          <u who="#boderD" start="0.724" end="x">[In English] Spool 9-130A. Dina and Wanda Linik, L-I-N-I-K. In Russian. November the 7th, 1950. Boder.</u>
+          <u who="#boderD" start="72.380" end="x"><placeName ref="Paris">Paris</placeName>, September the 13th, in eh . . . France, September the 13th, 1946. <placeName ref="Hénonville">Hénonville</placeName>, fifty kilometers from <placeName ref="Paris">Paris</placeName> in a home for displaced Jews, eh, eh, which is occupied by a <term ref="#vothG_kibbutz">kibbutz</term> and also by a <term ref="#vothG_yeshiva">yeshiva</term>. The interviewee is a Mrs. Dina Linik, em which is withholding her husband's name, and she is going to report on her experiences, during the war in, which she had in, which she passed in Russia and then in [unintelligible] Poland.</u>
+          <u who="#boderD" start="122.596" end="x">[In Russian] Well, yes . . . [Unintelligible]. Madam Linik, could you please tell me where you were when the war began, what happened to you during the war and, and how you got here? Well . . .</u>
+          <u who="#linikD" start="136.015" end="x">When the war with the Germans began in 1941 . . . I was in <placeName ref="Kyiv">Kiev</placeName> with my family, and . . . including my husband and two daughters, Sofia and Wanda. In July 1941, when the Germans were approaching <placeName ref="Kyiv">Kiev</placeName>, I fled to, eh . . . the Northern Caucasus, eh . . . together with my husband and children.<note n="1">The Caucasus is a region located between the Black Sea and the Caspian Sea, at the intersection of Europe, Asia, and the Middle East.</note></u>
+          <u who="#boderD" start="168.811" end="x">From <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="169.505" end="x">From <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="170.169" end="x">Did the Russian government evacuate people . . . freely?</u>
+          <u who="#linikD" start="173.701" end="x">Evacuated with children . . . evacuated to the Northern Caucasus.</u>
+          <u who="#boderD" start="178.397" end="x">What about your husband, did they take him?</u>
+          <u who="#linikD" start="180.238" end="x">Please wait, I will explain it later [unintelligible].</u>
+          <u who="#boderD" start="181.898" end="x">Okay.</u>
+          <u who="#linikD" start="183.709" end="x">We were living there for two and half months . . . before, eh . . . my husband . . . was recruited to the army. In September, 1941, my husband went to the front, leaving me with my two daughters. Should I tell you their age?</u>
+          <u who="#boderD" start="205.955" end="x">Yes.</u>
+          <u who="#linikD" start="207.615" end="x">The older, Sofia, was thirteen, while the younger, Wanda, was six.</u>
+          <u who="#boderD" start="213.289" end="x">When did it happen?</u>
+          <u who="#linikD" start="213.984" end="x">[Short pause]</u>
+          <u who="#boderD" start="214.304" end="x">[Unintelligible]</u>
+          <u who="#linikD" start="218.185" end="x">Five years. We were staying at the Northern Caucasus for four months, when Hitler's troops approached again. They took <placeName ref="Stephanskirchen">Rostov</placeName>, and were approaching the Caucasus. I had a hard time trying to evacuate from the Northern Caucasus with my children. Evacuate, since the local authorities caused much, very much trouble . . . and very much . . . very much, you know, they were creating obstacles to prevent us from evacuating and leaving this . . . Caucasus.</u>
+          <u who="#boderD" start="259.720" end="x">So, how did the people evacuate then?</u>
+          <u who="#linikD" start="261.398" end="x">The only way to leave the Caucasus was to go to the Caspian Sea.</u>
+          <u who="#boderD" start="268.038" end="x">How do you mean?</u>
+          <u who="#linikD" start="269.324" end="x">In . . . to Central Asia, to Central Asia.</u>
+          <u who="#boderD" start="271.455" end="x">So where . . . well, what happened then?</u>
+          <u who="#linikD" start="280.829" end="x">You ask what happened? We arrived in <placeName ref="Makhachkala">Makhanchakala</placeName>, a port on the Caspian Sea.</u>
+          <u who="#boderD" start="287.560" end="x">Okay.</u>
+          <u who="#linikD" start="289.661" end="x">Dozens of thousands of people were lying around at the docks, on the streets.</u>
+          <u who="#boderD" start="301.057" end="x">Okay.</u>
+          <u who="#linikD" start="302.687" end="x">That was a terrible sight, terrible sight, of the Jewish disaster. People were lying for six-seven weeks at the docks under the rain . . .</u>
+          <u who="#boderD" start="313.281" end="x">It is important for us to know who those people were.</u>
+          <u who="#linikD" start="314.989" end="x">Jews.</u>
+          <u who="#boderD" start="315.683" end="x">Why Jews?</u>
+          <u who="#linikD" start="317.042" end="x">Because Hitler was after them, perfectly clear, they massacred all Jews . . .</u>
+          <u who="#boderD" start="322.432" end="x">Okay, so the Jews wanted to evacuate.</u>
+          <u who="#linikD" start="324.605" end="x">Therefore, the Jews wanted to evacuate. Each and every place, all docks, all havens, were filled up by Jewish families and children.</u>
+          <u who="#boderD" start="333.569" end="x">Yes.</u>
+          <u who="#linikD" start="336.316" end="x">After going through much trouble, I got on board . . . a ship, well, not exactly a ship, but some transportation . . .</u>
+          <u who="#boderD" start="348.920" end="x">. . . barge . . .</u>
+          <u who="#linikD" start="349.813" end="x">. . . transportation barge, which was extremely full of people, tighter then herring in a barrel, people were everywhere, in the hold, on the deck.</u>
+          <u who="#boderD" start="362.791" end="x">Okay.</u>
+          <u who="#linikD" start="365.417" end="x">The barge wasn't de— . . . how do you call it . . . well, wasn't designed . . .</u>
+          <u who="#boderD" start="375.033" end="x">. . . for carrying any passengers . . .</u>
+          <u who="#linikD" start="375.745" end="x">Yes . . . for the passengers, this type of cargo . . . also . . . I should add that the planes were attacking us all the time . . .</u>
+          <u who="#boderD" start="386.067" end="x">From where?</u>
+          <u who="#linikD" start="386.641" end="x">They tried . . . The planes were German, they tried to bomb us, bomb us along the way. This [unintelligible] was damaged slightly . . .</u>
+          <u who="#boderD" start="392.212" end="x">Okay.</u>
+          <u who="#linikD" start="393.178" end="x">. . . after that, a strong, six-degree storm began. The storm was tossing the ship like a toy. A few times, we thought that we were going to die. Various . . . confined space, this emotional stress . . . made . . . many people . . . many people died on this ship.</u>
+          <u who="#boderD" start="423.564" end="x">What, this [unintelligible]?</u>
+          <u who="#linikD" start="424.850" end="x">Yes. Many people died from cardiac arrest. They couldn't withstand the stress, you know . . .</u>
+          <u who="#boderD" start="432.564" end="x">How long [unintelligible] were you on that ship?</u>
+          <u who="#linikD" start="434.737" end="x">We . . . that ship was supposed to take us to the destination in sixteen hours, we had been at sea . . . for two and half days, open sea, before we arrived to <placeName ref="Türkmenbaşy">Krasnovodsk</placeName>. In <placeName ref="Türkmenbaşy">Krasnovodsk</placeName>, they put us on the railway carriages, various vehicles, to take us to different . . . different parts of Central Asia. We ended up in a kolkhoz [a form of collective farming in the Soviet Union] near <placeName ref="Almaty">Alma-Ata</placeName>.</u>
+          <u who="#boderD" start="460.817" end="x">Okay.</u>
+          <u who="#linikD" start="462.175" end="x">I lived with my children for nine months there.</u>
+          <u who="#boderD" start="465.405" end="x">Okay. What did you do there?</u>
+          <u who="#linikD" start="466.449" end="x">I was working at the kolkhoz.</u>
+          <u who="#boderD" start="469.467" end="x">What did you do?</u>
+          <u who="#linikD" start="470.222" end="x">I was working in the field at the kolkhoz, harvesting wheat for bread, then worked at the canning factory, and I went through much trouble, much stress during this time.</u>
+          <u who="#boderD" start="480.532" end="x">And did you get any payment?</u>
+          <u who="#linikD" start="482.723" end="x">Payment . . . Naturally, they paid me with bread. They gave me the norm [unintelligible], we were equal to the kolkhoz workers in this sense. Then in 1942, I went back . . . yes, in 1942, 1943, and 1944, all this time I was in Central Asia. Then, in 1944, when <placeName ref="Kyiv">Kiev</placeName> was liberated from occupation, I went through [unintelligible] used help, you know, of the authorities to obtain permission to return to my home country.</u>
+          <u who="#boderD" start="521.602" end="x">To <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="522.357" end="x">To <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="523.371" end="x">And what were your children doing at the kolkhoz?</u>
+          <u who="#linikD" start="527.053" end="x">My older daughter was working and studying, while the younger was just studying at school.</u>
+          <u who="#boderD" start="531.550" end="x">Okay. What were the life conditions at the kolkhoz?</u>
+          <u who="#linikD" start="537.315" end="x">What kind of general conditions would you expect from a kolkhoz? The same for everyone.</u>
+          <u who="#boderD" start="541.468" end="x">Yes. What kind of conditions were you living in? Were they good or bad?</u>
+          <u who="#linikD" start="547.160" end="x">They were good, staying away from Hitler was already good enough. We believed “good" was to be anywhere but around Hitler. I escaped Hitler four times, and each time he caught up with us.</u>
+          <u who="#boderD" start="561.496" end="x">Which four times are those? From <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="562.884" end="x">He caught up with us in <placeName ref="Kyiv">Kiev</placeName>, in the Northern Caucasus, then after the Northern Caucasus, I forgot to add, I was in Georgia too, he came close there too, and then I was in Central Asia, when I returned, as you may remember, from <placeName ref="Rostov">Rostov</placeName>, he began his . . . their successful victories, and caught up with us on the road in this . . . in <placeName ref="Rostov">Rostov</placeName>, I had hard time escaping from Hitler there too.</u>
+          <u who="#boderD" start="589.880" end="x">Well, okay.</u>
+          <u who="#linikD" start="591.709" end="x">And then . . .</u>
+          <u who="#boderD" start="592.270" end="x">Did you hear from your husband, get any letters?</u>
+          <u who="#linikD" start="594.262" end="x">And from my husband . . . from husband, he left on September 3, I received five letters from him, and then he disappeared. I only know that he was near <placeName ref="Poltava">Poltava</placeName>, where . . . their division was surrounded by the Germans. I don't know what happened to him afterwards. I wrote to the government more than once, but they replied that he had disappeared without a trace. I believe that he would have returned, if he had been alive. I assume that he perished.</u>
+          <u who="#boderD" start="628.541" end="x">Do you think that he could find you if he was alive now? Is there anyone in Russia who knows where you live?</u>
+          <u who="#linikD" start="635.543" end="x">I waited for him in <placeName ref="Kyiv">Kiev</placeName> for a year and a half . . . in vain. I think that a year and a half is enough to hear any news about him or for him to find any news about us, he also had many friends and relatives who could have told him where we had been, if he had been alive.</u>
+          <u who="#boderD" start="655.422" end="x">So, they know where you are.</u>
+          <u who="#linikD" start="656.750" end="x">Yes. This is true now. I lived in <placeName ref="Kyiv">Kiev</placeName> for a year and a half.</u>
+          <u who="#boderD" start="663.813" end="x">In <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="664.676" end="x">In <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="665.280" end="x">Was the war over by that time or was it still in progress?</u>
+          <u who="#linikD" start="668.286" end="x">The war was over.</u>
+          <u who="#boderD" start="669.554" end="x">Oh! In which year did you return to <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="671.987" end="x">In 1944.</u>
+          <u who="#boderD" start="673.484" end="x">Were the Germans ousted from <placeName ref="Kyiv">Kiev</placeName> in 1944? The war was over in 1945, and you still lived in <placeName ref="Kyiv">Kiev</placeName>. But how did you live in <placeName ref="Kyiv">Kiev</placeName>, how did you make your living?</u>
+          <u who="#linikD" start="682.496" end="x">I was working in <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="683.673" end="x">Where?</u>
+          <u who="#linikD" start="685.152" end="x">I was working, working at the factories, at a plant . . .</u>
+          <u who="#boderD" start="688.804" end="x">What were the conditions there? You worked at the factory, and what did they pay you?</u>
+          <u who="#linikD" start="699.325" end="x">What did they pay me? They paid me a salary.</u>
+          <u who="#boderD" start="701.921" end="x">Yes. [Unintelligible] was it enough for you and two children?</u>
+          <u who="#linikD" start="705.108" end="x">No. I was poor and went through much trouble. I couldn't make enough money for my children by myself. My children got sick after all this trouble, stress. My children got sick and weren't able to withstand hunger, these hardships anymore. After that, I was included in the general list of, well, repatriated Polish citizens and left <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="737.434" end="x">As a Pole?</u>
+          <u who="#linikD" start="738.219" end="x">As a Pole.</u>
+          <u who="#boderD" start="739.052" end="x">Were you born in Poland?</u>
+          <u who="#linikD" start="740.398" end="x">I was born in Poland.</u>
+          <u who="#boderD" start="743.175" end="x">Okay.</u>
+          <u who="#linikD" start="743.736" end="x">I left with my children . . . ended up in <placeName ref="Kraków">Krakow</placeName>, where I lived for a short period of time, then based on . . . the message from my relatives in the U.S., Palestine . . .</u>
+          <u who="#boderD" start="770.237" end="x">Who do you have in Palestine?</u>
+          <u who="#linikD" start="771.251" end="x">My mother lives in Palestine.</u>
+          <u who="#boderD" start="772.730" end="x">Oh! Okay.</u>
+          <u who="#linikD" start="774.318" end="x">I have a sister and a brother in Palestine who were lucky to go there in 1922. I now want to go to Palestine, to my relatives, very much, but evidently I cannot do so due to the current political environment. I hope that in the near future I will be able to join my relatives . . . friends, my family, and provide a better living for my children, so that it is better than I had myself . . .</u>
+          <u who="#boderD" start="810.933" end="x">How do you mean?</u>
+          <u who="#linikD" start="812.189" end="x">I mean my childrens' lives, I want them to live a better life . . . than I did.</u>
+          <u who="#boderD" start="821.080" end="x">Okay, you say that you want . . . And your sisters in <placeName ref="Chicago">Chicago</placeName> speak Russian, don't they?</u>
+          <u who="#linikD" start="827.962" end="x">My sisters left, when I was very y— . . .</u>
+          <u who="#boderD" start="830.666" end="x">Young.</u>
+          <u who="#linikD" start="830.998" end="x">Young.</u>
+          <u who="#boderD" start="831.813" end="x">And you don't know if they speak it?</u>
+          <u who="#linikD" start="832.719" end="x">I remember them well. I doubt if they know Russian, because one of the sisters, Rachel, [unintelligible] has been living in <placeName ref="Chicago">Chicago</placeName> for thirty-four years. The second sister has been living in <placeName ref="Chicago">Chicago</placeName> since 1922.</u>
+          <u who="#boderD" start="847.224" end="x">[In German] . . . Please, we would like now to speak Yiddish.</u>
+          <u who="#linikD" start="849.276" end="x">. . . Yes, we would like to speak Yiddish.</u>
+          <u who="#boderD" start="850.997" end="x">[In Yiddish] . . . Well then, let's speak Yiddish now . . . let's speak Yiddish.</u>
+          <u who="#boderD" start="855.422" end="x">Eh, where did you go in Poland, after you left <placeName ref="Kyiv">Kiev</placeName>?</u>
+          <u who="#linikD" start="855.422" end="x">In, eh, we came to a Polish . . .</u>
+          <u who="#boderD" start="859.333" end="x">Where, where did you go, to which town?</u>
+          <u who="#linikD" start="861.959" end="x">To <placeName ref="Kraków">Krakow</placeName>.</u>
+          <u who="#boderD" start="863.396" end="x">You came to <placeName ref="Kraków">Krakow</placeName>?</u>
+          <u who="#linikD" start="864.440" end="x">Yes, later we lived in <placeName ref="Lódź">Lodz</placeName>, in <placeName ref="Kraków">Krakow</placeName>, in <placeName ref="Katowice">Katowice</placeName>, in <placeName ref="Sosnowiec">Sosnowiec</placeName>, traveled through all of Poland and . . .</u>
+          <u who="#boderD" start="872.589" end="x">And how did you make a living?</u>
+          <u who="#linikD" start="873.736" end="x">And, and one made a living on all of the support given by the American, eh, state.</u>
+          <u who="#boderD" start="880.074" end="x">Yes, all. And your women and girls were with you?</u>
+          <u who="#linikD" start="883.817" end="x">Yes. Later we came, also all thanks to the American state, [who] gave us such support, so that one could travel from Poland to Czechoslovakia, because also in Poland, as one knows, the general situation for the Jews was not very good. It happened that many Jews were killed in Poland while we were there.</u>
+          <u who="#boderD" start="906.048" end="x">Did you see it yourself?</u>
+          <u who="#linikD" start="907.588" end="x">One has seen everything. Yes. It happened before me, four Jewish kibbutzniks were killed in <placeName ref="Lódź">Lodz</placeName>.</u>
+          <u who="#boderD" start="914.065" end="x">Yes, why?</u>
+          <u who="#linikD" start="915.381" end="x">For nothing. For being Jewish.</u>
+          <u who="#boderD" start="917.391" end="x">I see.</u>
+          <u who="#linikD" start="917.693" end="x">Nothing else. Only because they have Jewish names. Thus, one could see, that also in Poland there is no life for us; because they don't leave the Jews alone, they don't let them live in Poland, we were helped, and later we came to Czechoslovakia</u>
+          <u who="#boderD" start="933.556" end="x">Yes.</u>
+          <u who="#linikD" start="934.281" end="x">And in Czechoslovakia the French Government gave permission to travel into the country as passengers in transit, who continue to travel, transit.</u>
+          <u who="#boderD" start="942.146" end="x">I see.</u>
+          <u who="#linikD" start="943.535" end="x">Now we are in [unintelligible] That means we are in <term ref="#vothG_kibbutz">kibbutz</term> Israel Agudath Poeli.</u>
+          <u who="#boderD" start="950.465" end="x">Agudath what?</u>
+          <u who="#linikD" start="951.328" end="x">Agudath Poeli Israel.</u>
+          <u who="#boderD" start="953.199" end="x">Poeli Israel.</u>
+          <u who="#linikD" start="954.044" end="x">Poeli Israel, named Netzach Israel.</u>
+          <u who="#boderD" start="957.063" end="x">I see.</u>
+          <u who="#linikD" start="957.473" end="x">We have been here already for four months, hoping to leave for <term ref="#vothG_eretzY">Erez Israel</term>.</u>
+          <u who="#boderD" start="964.053" end="x">I see.</u>
+          <u who="#linikD" start="964.524" end="x">I wanted, I have very much wanted to see my two sisters, who live in America, but I don't know how this can happen, if they can help me travel to America.</u>
+          <u who="#boderD" start="978.093" end="x">I see, did they write to you?</u>
+          <u who="#linikD" start="980.840" end="x">I received a letter from them, they asked me, maybe, maybe I need something, but since then they didn't, they know that I have a sister with a younger brother in <term ref="#vothG_eretzY">Erez Israel</term>, as well as a mother in <term ref="#vothG_eretzY">Erez Israel</term>.</u>
+          <u who="#boderD" start="995.925" end="x">Yes.</u>
+          <u who="#linikD" start="996.245" end="x">[Unintelligible] but consequently I had wanted [it] so much.</u>
+          <u who="#boderD" start="998.829" end="x">I see. Here, maybe when you go to <term ref="#vothG_eretzY">Erez Israel</term>, for an American it would be easier for them to go there for a visit.</u>
+          <u who="#linikD" start="1005.849" end="x">To America?</u>
+          <u who="#boderD" start="1006.845" end="x">No, from America to Palestine.</u>
+          <u who="#linikD" start="1009.290" end="x">Yes.</u>
+          <u who="#boderD" start="1009.821" end="x">Yet one travels, [unintelligible] it will calm down, and they will know the entire family is in Palestine. Will they come afterwards?</u>
+          <u who="#linikD" start="1017.759" end="x">To Palestine?</u>
+          <u who="#boderD" start="1018.924" end="x">Yes.</u>
+          <u who="#linikD" start="1019.214" end="x">From America?</u>
+          <u who="#boderD" start="1020.107" end="x">Yes. People travel very often. People travel a lot.</u>
+          <u who="#linikD" start="1022.371" end="x">One can travel from Palestine to America?</u>
+          <u who="#boderD" start="1025.286" end="x">Ah, here. From America to Palestine.</u>
+          <u who="#linikD" start="1027.248" end="x">No, and from Palestine to America?</u>
+          <u who="#boderD" start="1029.814" end="x">That is, yes, of course one can travel, but American citizens are usually free to travel to Palestine.</u>
+          <u who="#linikD" start="1038.917" end="x">I mean, I don't know if they can travel, they are two elderly people, not eighteen years old anymore, and to leave their own families, and they are very busy with their businesses, business-wise.</u>
+          <u who="#boderD" start="1051.008" end="x">I see. And are both of your daughters here with you?</u>
+          <u who="#linikD" start="1054.708" end="x">Yes.</u>
+          <u who="#boderD" start="1055.734" end="x">Where did you join the <term ref="#vothG_kibbutz">kibbutz</term>?</u>
+          <u who="#linikD" start="1058.541" end="x">We have, we came to Poland and registered with the <term ref="#vothG_agudah">Agudah</term>.</u>
+          <u who="#boderD" start="1065.272" end="x">Yes.</u>
+          <u who="#linikD" start="1065.743" end="x">In the <term ref="#vothG_agudah">Agudah</term>, and the entire time we are very close to the <term ref="#vothG_agudah">Agudah</term>.</u>
+          <u who="#boderD" start="1071.073" end="x">And they brought you over?</u>
+          <u who="#linikD" start="1072.811" end="x">Yes. The <term ref="#vothG_agudah">Agudah</term> has brought us over from Poland to France, and until now they have seen to support us, until we can go to <term ref="#vothG_eretzY">Erez Israel</term>.</u>
+          <u who="#boderD" start="1085.337" end="x">I see, how do I say that, you, you, and what do you do here the whole day? And what do the children do? How old are the children?</u>
+          <u who="#linikD" start="1092.900" end="x">Yes. In, in the <term ref="#vothG_kibbutz">kibbutz</term> Netzach Israel [they] learn things, in economy, in the tailor shop.</u>
+          <u who="#boderD" start="1103.705" end="x">With the, the village work-force?</u>
+          <u who="#linikD" start="1106.482" end="x">Yes. Village work-force in tailor shop, among them, and the teacher is Madam, eh . . .</u>
+          <u who="#boderD" start="1113.804" end="x">Lackstein.</u>
+          <u who="#linikD" start="1114.305" end="x">Ah, à la Lackstein, she is very nice, a Jewish polite person, a good teacher for us and she sees as the Jew should, that each Jewish child should get some subjects and be able to work all over the world.</u>
+          <u who="#boderD" start="1132.474" end="x">I see. And the children?</u>
+          <u who="#linikD" start="1133.138" end="x">And my children. One daughter is still small, Wanda, she is ten years old, and she studies Ivrit [modern Hebrew], so when she comes to <term ref="#vothG_eretzY">Erez Israel</term> she can communicate with all people, and the older daughter studies also Ivrit and gardening.</u>
+          <u who="#boderD" start="1153.368" end="x">I see, and she will, she will work in, in <term ref="#vothG_eretzY">Erez Israel</term> in a colony.</u>
+          <u who="#linikD" start="1159.314" end="x">I can't say what will happen, what one will give to us when we come to <term ref="#vothG_eretzY">Erez Israel</term>. But we hope that we will get to <term ref="#vothG_eretzY">Erez Israel</term> and one can do gardening, one can sew, is able to get by, there will be something that one will be able to do, one should become useful.</u>
+          <u who="#boderD" start="1176.415" end="x">And where do you live here? Do you have a room for yourself?</u>
+          <u who="#linikD" start="1178.938" end="x">Yes, in <term ref="#vothG_agudah">Agudah</term>, in Netzach Israel, in the <term ref="#vothG_kibbutz">kibbutz</term>, I have a room for myself and my two daughters, and bed linen, bed, food, and heating are provided for, and everything that is needed the <term ref="#vothG_agudah">Agudah</term> cares for.</u>
+          <u who="#boderD" start="1202.105" end="x">And so far, your sisters have not sent you any support? No money?</u>
+          <u who="#linikD" start="1206.650" end="x">I didn't ask for it, because we are not hungry here.</u>
+          <u who="#boderD" start="1210.031" end="x">I see.</u>
+          <u who="#linikD" start="1210.804" end="x">One doesn't live very great, how do I say that . . .</u>
+          <u who="#boderD" start="1214.353" end="x">In luxury.</u>
+          <u who="#linikD" start="1215.168" end="x">In luxury. We are not hungry, we have suffered very much from the Germans before the war, as one knows now, as it is said, how do I say, that one can already sleep calmly and no quarrel with arms, and, and . . .</u>
+          <u who="#boderD" start="1231.255" end="x">With arms?</u>
+          <u who="#linikD" start="1231.997" end="x">With arms. Yes, and no one, and they know when you are asleep at night that you are not risking your life, and you get up in the morning and you have a glass of tea before you, it is already, one is already with . . .</u>
+          <u who="#boderD" start="1240.418" end="x">And where the work is in the kolkhoz have people behaved well? Behaved friendly?</u>
+          <u who="#linikD" start="1246.744" end="x">How can they? What does it mean to behave friendly? How can they be friendly? Since they can come and take away from the Jews, I am asking you?</u>
+          <u who="#boderD" start="1254.458" end="x">I am asking you?</u>
+          <u who="#linikD" start="1255.816" end="x">One can not say friendly. But they accepted everything that their state did as right; they had a bit of a feeling of fear. But for the Jew or against the Jew they couldn't do anything, because the state was on them, but friendly no, they said that Jews could go and look for <term ref="#vothG_eretzY">Erez Israel</term>.</u>
+          <u who="#boderD" start="1272.942" end="x">The kolkhoz said that?</u>
+          <u who="#linikD" start="1273.818" end="x">Yes. That Jews should look for a land.</u>
+          <u who="#boderD" start="1279.691" end="x">I see. And what is, your elder daughter, eh, you say, do you want me to see her?</u>
+          <u who="#linikD" start="1285.909" end="x">Yes, and I wanted you to send my regards to my sister.</u>
+          <u who="#boderD" start="1288.251" end="x">Here, let's bring both girls inside.</u>
+          <u who="#boderD" start="1292.054" end="x">[In Russian] What is your name, young woman?</u>
+          <u who="#linikS" start="1294.366" end="x">Sophia Linik.</u>
+          <u who="#boderD" start="1296.406" end="x">And what is your age?</u>
+          <u who="#linikS" start="1298.791" end="x">Nineteen.</u>
+          <u who="#boderD" start="1300.318" end="x">Do you have any aunts in <placeName ref="Paris">Paris</placeName> or <placeName ref="Chicago">Chicago</placeName>?</u>
+          <u who="#linikS" start="1303.306" end="x">Yes, my two aunts live in <placeName ref="Chicago">Chicago</placeName>.</u>
+          <u who="#boderD" start="1304.876" end="x">What are their names?</u>
+          <u who="#linikS" start="1306.101" end="x">Rachel and Gitu.</u>
+          <u who="#boderD" start="1309.361" end="x">Do you know their last names?</u>
+          <u who="#linikS" start="1311.039" end="x">I do.</u>
+          <u who="#boderD" start="1311.945" end="x">What are they, what is Rachel's name?</u>
+          <u who="#linikS" start="1313.472" end="x">Rachel Braver . . .</u>
+          <u who="#boderD" start="1314.559" end="x">Okay, and Gitu . . .</u>
+          <u who="#linikS" start="1316.297" end="x">Gitu . . . Buchenler.</u>
+          <u who="#boderD" start="1319.678" end="x">Gitu Buchenler. Did you send letters to them . . . letters?</u>
+          <u who="#linikS" start="1324.435" end="x">We sent letters to them.</u>
+          <u who="#boderD" start="1326.023" end="x">[In Yiddish] [Unintelligible]</u>
+          <p>[Unintelligible voices]</p>
+          <u who="#boderD" start="1330.780" end="x">[In Russian] Speak Russian, if you can't say it otherwise. What did they write to you?</u>
+          <u who="#linikS" start="1346.985" end="x">They say that they are happy to hear from us, because they didn't know anything about us for a long time . . .</u>
+          <u who="#boderD" start="1352.901" end="x">Okay.</u>
+          <u who="#linikS" start="1354.157" end="x">. . . they didn't know anything about us for a long time . . . and they want to see us very much.</u>
+          <u who="#boderD" start="1359.155" end="x">Okay. And what about your sister Wanda, what is her age?</u>
+          <u who="#linikD" start="1363.036" end="x">Our Wanda is eleven.</u>
+          <u who="#boderD" start="1366.326" end="x">[Unintelligible]</u>
+          <u who="#linikS" start="1367.503" end="x">[Unintelligible]</u>
+          <u who="#boderD" start="1368.318" end="x">Alright. Okay, she is ten. She is pretty grown-up.</u>
+          <u who="#boderD" start="1371.554" end="x">Well, Wanda, how do you like it here in France?</u>
+          <u who="#linikW" start="1374.349" end="x">Good.</u>
+          <u who="#boderD" start="1375.122" end="x">Very well. Who is this girl that is with you all the time?</u>
+          <u who="#linikW" start="1378.762" end="x">This is my girlfriend.</u>
+          <u who="#boderD" start="1380.440" end="x">[Unintelligible]</u>
+          <u who="#linikW" start="1382.764" end="x">My girlfriend.</u>
+          <u who="#boderD" start="1383.428" end="x">Your girlfriend. What have you been doing here all day?</u>
+          <u who="#linikW" start="1385.891" end="x">I have been playing.</u>
+          <u who="#boderD" start="1387.237" end="x">Playing? Can you read Russian?</u>
+          <u who="#linikW" start="1390.726" end="x">Yes, I can.</u>
+          <u who="#boderD" start="1391.342" end="x">And can you write in Russian?</u>
+          <u who="#linikW" start="1392.839" end="x">Yes.</u>
+          <u who="#boderD" start="1393.702" end="x">What do you want to say to your aunt? Do you want to go to the U.S.?</u>
+          <u who="#linikW" start="1397.837" end="x">I want her to come to me.</u>
+          <u who="#boderD" start="1400.662" end="x">Okay. And where are you going to go?</u>
+          <u who="#linikW" start="1403.155" end="x">To Palestine.</u>
+          <u who="#boderD" start="1404.320" end="x">Okay then. Now sing a song.</u>
+          <u who="#linikS" start="1407.004" end="x">Come on, sing it.</u>
+          <u who="#boderD" start="1409.982" end="x">Don't you want to go to the U.S.?</u>
+          <u who="#linikS" start="1411.751" end="x">Well . . .</u>
+          <u who="#boderD" start="1414.365" end="x">Well, say what you think.</u>
+          <u who="#linikW" start="1416.586" end="x">[laughing]</u>
+          <u who="#boderD" start="1417.884" end="x">No, this . . .</u>
+          <u who="#linikD" start="1418.759" end="x">[<emph rend="italics">possibly speaking for Wanda or Sophia</emph>] My mother wants to go to Palestine, and I want to go to the U.S.</u>
+          <u who="#linikS" start="1422.864" end="x">She knows that my mother wants to go to Palestine very much and nowhere else, and I want to go to the U.S.</u>
+          <u who="#boderD" start="1429.280" end="x">And what can you do?</u>
+          <u who="#linikS" start="1431.423" end="x">What can I do?</u>
+          <u who="#boderD" start="1432.721" end="x">Yes. Do you know any . . .</u>
+          <u who="#linikS" start="1433.959" end="x">For instance?</u>
+          <u who="#boderD" start="1434.339" end="x">. . . profession?</u>
+          <u who="#linikS" start="1435.637" end="x">Well . . . I studied.</u>
+          <u who="#boderD" start="1437.478" end="x">Studied what?</u>
+          <u who="#linikS" start="1438.190" end="x">I studied at a medical college.</u>
+          <u who="#boderD" start="1440.152" end="x">Which college?</u>
+          <u who="#linikS" start="1440.997" end="x">Medical college. Medical institute.</u>
+          <u who="#boderD" start="1443.291" end="x">And what did you learn there?</u>
+          <u who="#linikS" start="1444.637" end="x">Well, I didn't graduate from it.</u>
+          <u who="#boderD" start="1445.995" end="x">And how long did you study there?</u>
+          <u who="#linikS" start="1447.233" end="x">I was studying the first year . . . and I had to . . . yes . . . I was planning to become a dentist . . . dentist.</u>
+          <u who="#boderD" start="1453.608" end="x">Did you finish school?</u>
+          <u who="#linikS" start="1454.894" end="x">I finished school and entered the first year of medical college . . .</u>
+          <u who="#boderD" start="1461.371" end="x">Okay.</u>
+          <u who="#linikS" start="1461.812" end="x">And I was studying the first year at the dentist faculty, which I had to quit eventually.</u>
+          <u who="#boderD" start="1467.866" end="x">In which city did you study at the dentist faculty?</u>
+          <u who="#linikS" start="1469.587" end="x">In <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="1470.903" end="x">In <placeName ref="Kyiv">Kiev</placeName>. Was it when you returned from Central Asia?</u>
+          <u who="#linikS" start="1474.060" end="x">Yes, from Central Asia, because I only finished school in <placeName ref="Kyiv">Kiev</placeName>.</u>
+          <u who="#boderD" start="1477.971" end="x">Okay . . . Did you write to your aunt about this?</u>
+          <u who="#linikS" start="1483.917" end="x">I sent a small letter to her [unintelligible] sent, because I can't write in English, and also in Jewish.</u>
+          <u who="#boderD" start="1490.406" end="x">Also? Can or can't you?</u>
+          <u who="#linikS" start="1492.277" end="x">I can't. I wrote in Jewish a little, because I can't really express everything I want to say.</u>
+          <u who="#boderD" start="1498.675" end="x">Okay.</u>
+          <u who="#boderD" start="1502.448" end="x">[In Yiddish] [Unintelligible]</u>
+          <u who="#linikW" start="1525.658" end="x">[Unintelligible]</u>
+          <u who="#boderD" start="1540.833" end="x">[In English] This is Spool 9-130A. Covering the interview with a whole family, Dina, Sophia, and Wanda Linik. At <placeName ref="Hénonville">Hénonville</placeName>, near <placeName ref="Paris">Paris</placeName>. November 7th, 1950, Boder. The other half of this spool is eh . . . Pinkhus Rosenfeld.</u>
+        </div>
+        <!-- end spool 9-130A-->
+      </div>
+      <!-- begin English translation -->
+    </body>
+  </text>
+</TEI>

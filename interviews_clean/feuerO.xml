@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Otto Feuer; August 22, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Raynor Ren</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Elliot Lefkovitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT1H20M29.257S" id="feuerO_9-64_9-65">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="en">English</lang>
+                                <note type="spools" n="1">9-64</note>
+                                <note type="spools" n="2">9-65</note>
+                                <placeName ref="AJDC office"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-22</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="feuerO_en" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="feuerO" role="interviewee">
+                        <persName>
+                            <forename>Otto</forename>
+                            <surname>Feuer</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>unknown</age>
+                        <birth ref="Wien"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Hamburg">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Sachsenhausen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Dachau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Buchenwald concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Weimar" when="1945-04-11" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#feuerO_en">
+                <!-- begin spool 9-64 -->
+                <div lang="en">
+                    <u who="#boderD" start="1.495" end="x"><placeName ref="Paris">Paris</placeName>, August the 22nd, 1946. An interview at the offices of the <term ref="#vothG_ajdc">Joint</term>, <term ref="#vothG_ajdc">American Joint Distribution Committee</term>. The interviewee, Mr. Otto Feuer, an executive employee of that committee.</u>
+                    <u who="#boderD" start="24.973" end="x">Also Herr Feuer, or let's try English and then you can go on anyway you want to. [<emph rend="italics">Feuer starts to say something but stops</emph>] Will you tell us again what is your profession and where you were born?</u>
+                    <u who="#feuerO" start="36.974" end="x">I'm born in <placeName ref="Wien">Vienna</placeName> but I have always been living in <placeName ref="Hamburg">Hamburg</placeName>, in Germany.<note n="1">Hamburg was Germany's second largest city and its largest port. It had the fourth largest Jewish community in the country, a community that was vibrant and well-organized. Jews were well integrated into the life of this generally tolerant and progressive city.</note></u>
+                    <u who="#boderD" start="41.085" end="x">Yes.</u>
+                    <u who="#feuerO" start="42.113" end="x">I . . .</u>
+                    <u who="#boderD" start="47.321" end="x">What did you study?</u>
+                    <u who="#feuerO" start="44.874" end="x">Law.</u>
+                    <u who="#boderD" start="45.620" end="x">You studied law.</u>
+                    <u who="#feuerO" start="46.759" end="x">Yes.</u>
+                    <u who="#boderD" start="46.992" end="x">Are you a graduate lawyer?</u>
+                    <u who="#feuerO" start="48.101" end="x">No, I made three years.</u>
+                    <u who="#boderD" start="50.932" end="x">Yes.</u>
+                    <u who="#feuerO" start="51.437" end="x">Then I had to interrupt it because the persecution of Hitler did no more give me any chance to continue the study.<note n="2">Among the many pieces of anti-Jewish legislation enacted by the Nazis were measures barring Jews from various professions such as law and measures designed to make such occupations inaccessible in the first place by restricting Jewish admission to institutions of higher learning and preventing them from sitting for state examinations.</note></u>
+                    <u who="#boderD" start="58.135" end="x">Yes. All right. Now, tell me . . . this . . . since when are you in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#feuerO" start="70.362" end="x">. . . <placeName ref="Paris">Paris</placeName> I have been since October '45. Forty . . . forty five.</u>
+                    <u who="#boderD" start="75.851" end="x">Did you ever live in <placeName ref="Paris">Paris</placeName> before?</u>
+                    <u who="#feuerO" start="77.745" end="x">No, I did not.</u>
+                    <u who="#boderD" start="78.612" end="x">Oh, so <placeName ref="Paris">Paris</placeName> is for you a new . . .</u>
+                    <u who="#feuerO" start="80.929" end="x">. . . a new country.</u>
+                    <u who="#boderD" start="81.373" end="x">. . . a new place. All right. Will you first give us a short chronological sketch of the time, say from your university years up to the present date.</u>
+                    <u who="#feuerO" start="99.250" end="x">[a short pause] Well, after having, after having finished school I studied, when I have to give up my studies . . .</u>
+                    <u who="#boderD" start="106.673" end="x">Where did you study?</u>
+                    <u who="#feuerO" start="107.842" end="x">In <placeName ref="Hamburg">Hamburg</placeName>, in Germany.</u>
+                    <u who="#boderD" start="110.038" end="x">Hum. Did you know Professor Stern?</u>
+                    <u who="#feuerO" start="112.476" end="x">Only by name.</u>
+                    <u who="#boderD" start="113.434" end="x">Wilhelm Stern. Only by name.</u>
+                    <u who="#feuerO" start="114.422" end="x">Only by name.</u>
+                    <u who="#boderD" start="115.319" end="x">Yes. [word not clear] [a short pause] Then when you gave up your studies what were you doing?</u>
+                    <u who="#feuerO" start="126.549" end="x">I was playing chess, I was something like a chessmaster and I was giving chess lessons. Then in October . . .</u>
+                    <u who="#boderD" start="133.156" end="x">To whom?</u>
+                    <u who="#feuerO" start="133.821" end="x">To whom? To people who . . .</u>
+                    <u who="#boderD" start="136.863" end="x">In . . . in <placeName ref="Hamburg">Hamburg</placeName>?</u>
+                    <u who="#feuerO" start="137.639" end="x">In <placeName ref="Hamburg">Hamburg</placeName>, in Germany.</u>
+                    <u who="#boderD" start="138.959" end="x">[words not clear]</u>
+                    <u who="#feuerO" start="139.433" end="x">[words not clear] to Jews, in '36, '37 . . .</u>
+                    <u who="#boderD" start="143.321" end="x">Yes.</u>
+                    <u who="#feuerO" start="143.674" end="x">. . . and the beginning of '38.</u>
+                    <u who="#boderD" start="145.417" end="x">Yes.</u>
+                    <u who="#feuerO" start="146.405" end="x">And I was working in the export, the export branch too.</u>
+                    <u who="#boderD" start="151.411" end="x">In a Jewish firm?</u>
+                    <u who="#feuerO" start="152.550" end="x">In a merchant (business), yes. His name was Lissauer.</u>
+                    <u who="#boderD" start="157.073" end="x">Yes.</u>
+                    <u who="#feuerO" start="158.454" end="x">In the 28th of October, 1938 all Jews of Polish origin were expelled from Germany, that means we all were arrested in the morning, at five o'clock in the morning and my mother, and two brothers of mine were brought together with all Jews of Polish origin over the German border to Poland where we were stopped in a little town at the Polish border, [name of town not clear] and where we lived at first under . . . <note n="3">Responding to a move by the Polish government to deprive Polish Jews from the right of return from countries under German rule, the Germans drove some 17,000 Polish Jews into a no-man's-land between the two countries on October 28, 1938. The largest number were stranded near the border town of Zbaszyn.</note></u>
+                    <u who="#boderD" start="187.675" end="x">Now, wait a moment. Excuse me for interrupting. You were born in <placeName ref="Wien">Vienna</placeName>.</u>
+                    <u who="#feuerO" start="193.164" end="x">Hum.</u>
+                    <u who="#boderD" start="193.759" end="x">Why are you considered of Polish origin?</u>
+                    <u who="#feuerO" start="196.046" end="x">My father was of Polish origin.</u>
+                    <u who="#boderD" start="198.091" end="x">Your father was of Polish origin. Your mother?</u>
+                    <u who="#feuerO" start="200.650" end="x">My mother was of Russian origin.</u>
+                    <u who="#boderD" start="203.088" end="x">Of what?</u>
+                    <u who="#feuerO" start="203.646" end="x">Russian.</u>
+                    <u who="#boderD" start="204.475" end="x">Your mother was Russian, Russian-Jewish.</u>
+                    <u who="#feuerO" start="206.510" end="x">But my mother and all the family of my mother has been living in <placeName ref="Wien">Vienna</placeName> since fifty years ago.</u>
+                    <u who="#boderD" start="212.073" end="x">Aha.</u>
+                    <u who="#feuerO" start="212.842" end="x">Nevertheless, I, though not speaking a single word of Polish, was considered as a Polish national up to '38, when even the Poles took, Poles . . . Poland took away this nationality and I was stateless.</u>
+                    <u who="#boderD" start="228.620" end="x">Now wait a moment. In '38, was there already a war with Poland?</u>
+                    <u who="#feuerO" start="232.977" end="x">No, no it was one year before the war.</u>
+                    <u who="#boderD" start="235.133" end="x">So they took the Russ . . . the Poles . . .</u>
+                    <u who="#feuerO" start="237.108" end="x">All the Jews of Polish origin were brought over the German border. Oh that's history, that's known I think . . .</u>
+                    <u who="#boderD" start="243.515" end="x">All right, let's refresh it.</u>
+                    <u who="#feuerO" start="245.339" end="x">. . . were brought over the border to Poland.</u>
+                    <u who="#boderD" start="248.580" end="x">And the Poles?</u>
+                    <u who="#feuerO" start="249.650" end="x">The Poles didn't . . . didn't give us permission to enter the country . . .</u>
+                    <u who="#boderD" start="253.766" end="x">Yes.</u>
+                    <u who="#feuerO" start="254.143" end="x">Because we had to [word not clear] we had to cross the border in such a hurry, we were driven by German policeman with bayonets and so on, that the Polish had no possibility to check our papers.</u>
+                    <u who="#boderD" start="266.640" end="x">Yes.</u>
+                    <u who="#feuerO" start="267.228" end="x">So they stopped us at the border.</u>
+                    <u who="#boderD" start="269.957" end="x">Yes.</u>
+                    <u who="#feuerO" start="270.243" end="x">Then there were negotiations between the Polish government and the German government . . .</u>
+                    <u who="#boderD" start="274.509" end="x">Yes.</u>
+                    <u who="#feuerO" start="275.006" end="x">. . . concerning our eventually going back to Germany, or at any rate that we were allowed to get some of our property out of Germany. And these negotiations were interrupted by the incident in <placeName ref="Paris">Paris</placeName> where the German employees of, in the German embassy in <placeName ref="Paris">Paris</placeName> . . . <note n="4">Feuer is referring to the assassination of Ernst vom Rath by Herschel Grynszpan. </note></u>
+                    <u who="#boderD" start="295.445" end="x">Yes.</u>
+                    <u who="#feuerO" start="296.334" end="x">Von Rath.</u>
+                    <u who="#boderD" start="297.555" end="x">Yes.</u>
+                    <u who="#feuerO" start="298.022" end="x">Was killed by . . .</u>
+                    <u who="#boderD" start="300.540" end="x">Grynszpan.</u>
+                    <u who="#feuerO" start="301.490" end="x">. . . by Grynszpan, it is very interesting, the family of Grynszpan, the origin of this episode in <placeName ref="Paris">Paris</placeName> . . .</u>
+                    <u who="#boderD" start="308.078" end="x">Yes.</u>
+                    <u who="#feuerO" start="308.545" end="x">[words not clear] He is cause of our expulsion to Poland, because the family of Grynszpan . . . <note n="5">Grynszpan was not the cause of Feuer's family's expulsion to Poland. The expulsion took place on October 28, 1938, followed by the assassination on November 7, 1938.</note></u>
+                    <u who="#boderD" start="312.932" end="x">Yes.</u>
+                    <u who="#feuerO" start="313.339" end="x">Was expelled with us, and was together with us.</u>
+                    <u who="#boderD" start="316.339" end="x">From <placeName ref="Hamburg">Hamburg</placeName>?</u>
+                    <u who="#feuerO" start="317.078" end="x">No, from <placeName ref="Hannover">Hanover</placeName>.</u>
+                    <u who="#boderD" start="318.329" end="x">From <placeName ref="Hannover">Hanover</placeName>.</u>
+                    <u who="#feuerO" start="318.977" end="x">And they wrote to a brother of hers . . . of theirs, living in <placeName ref="Paris">Paris</placeName> about the experience . . .</u>
+                    <u who="#boderD" start="325.203" end="x">Yes.</u>
+                    <u who="#feuerO" start="326.213" end="x">In consequences of, Grynszpan committed this murder here in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="331.504" end="x">Now wait a moment, was he the brother to whom they wrote?</u>
+                    <u who="#feuerO" start="334.052" end="x">Yes.</u>
+                    <u who="#boderD" start="334.851" end="x">Yes.</u>
+                    <u who="#feuerO" start="335.650" end="x">To draw the attention of the world, that was the motive of the act [?]</u>
+                    <u who="#boderD" start="339.223" end="x">Yes.</u>
+                    <u who="#feuerO" start="339.660" end="x">. . . to draw the attention of the world to the situation and the plight of the Jews.</u>
+                    <u who="#boderD" start="345.163" end="x">Yes.</u>
+                    <u who="#feuerO" start="347.379" end="x">So [words not clear] . . .</u>
+                    <u who="#boderD" start="348.570" end="x">By the way, what happened to Grynszpan, will you remind us?</u>
+                    <u who="#feuerO" start="352.083" end="x">Grynszpan I know, Grynszpan was kept in prison here in <placeName ref="Paris">Paris</placeName>, but I don't know if he was liberated, I think so, he was liberated when the Germ . . . I don't know, at any rate I don't know . . .</u>
+                    <u who="#boderD" start="360.812" end="x">But he was taken by the Germans to Germany.</u>
+                    <u who="#feuerO" start="362.877" end="x">I don't know, no, I have not the slightest idea except for . . .</u>
+                    <u who="#boderD" start="365.123" end="x">Yes, well that is what the American papers said . . .</u>
+                    <u who="#feuerO" start="367.912" end="x">Yes.</u>
+                    <u who="#boderD" start="368.259" end="x">. . . that when the Germans took <placeName ref="Paris">Paris</placeName> they . . . they took him for sometime away I think to <placeName ref="Vichy">Vichy</placeName>, but he was in Prison.</u>
+                    <u who="#feuerO" start="376.143" end="x">Yes.</u>
+                    <u who="#boderD" start="376.339" end="x">You see, and finally the Germans caught up with him and he was executed in Germany.<note n="6">The exact fate of Herschel Grynszpan has not been determined. After the fall of France, the collaborationist Vichy government turned him over to the Germans. Their plan to stage a show trial was not realized, and Grynszpan disappeared without a trace. It is not clear how he died, but it is almost certain that he did not survive the war.</note></u>
+                    <u who="#feuerO" start="381.570" end="x">So, I never learned about that . . .</u>
+                    <u who="#boderD" start="384.118" end="x">Yes.</u>
+                    <u who="#feuerO" start="384.525" end="x">It must have been . . . at that time I had already been in a concentration camp, and we . . .</u>
+                    <u who="#boderD" start="389.756" end="x">Because in America there was a great movement . . .</u>
+                    <u who="#feuerO" start="393.208" end="x">To save him, I . . .</u>
+                    <u who="#boderD" start="394.309" end="x">. . . to save him, and the French gave him I think a life sentence and kept him here.</u>
+                    <u who="#feuerO" start="398.907" end="x">Hum.</u>
+                    <u who="#boderD" start="399.947" end="x">Also, that was in '38, you came . . .</u>
+                    <u who="#feuerO" start="402.103" end="x">That was in '38 [words not clear]</u>
+                    <u who="#boderD" start="403.626" end="x">[words not clear]</u>
+                    <u who="#feuerO" start="404.425" end="x">October the 28th.</u>
+                    <u who="#boderD" start="405.767" end="x">There was no war?</u>
+                    <u who="#feuerO" start="406.415" end="x">There was no war, that was before the war.</u>
+                    <u who="#boderD" start="408.661" end="x">All right, so they took you across the Polish border, what did you [words not clear]</u>
+                    <u who="#feuerO" start="411.721" end="x">It was together with my mother and two brothers of mine . . .</u>
+                    <u who="#boderD" start="414.450" end="x">Your father?</u>
+                    <u who="#feuerO" start="415.038" end="x">My father at that time was already living in Belgium, in <placeName ref="#vothL">Brussels</placeName>.<note n="7">The interview provides no information as to the fate of Feuer's parents.</note></u>
+                    <u who="#boderD" start="418.701" end="x">Hum . . .</u>
+                    <u who="#feuerO" start="420.646" end="x">In July '39 my brothers and I and my mother too, we got the permission to re-enter Germany in order to emigrate from Germany to the States.</u>
+                    <u who="#boderD" start="432.058" end="x">Yes.</u>
+                    <u who="#feuerO" start="433.430" end="x">We came back to Germany and we had to settle our papers, it took some time because all the papers, all the papers which were required by the American consulate were, were available. And then the war broke out and we were arrested the 9th of September once more, my brothers and me, myself the ninth of September '39, were arrested and were at first interned.</u>
+                    <u who="#boderD" start="458.984" end="x">Now let's clear it up, when did the war start?</u>
+                    <u who="#feuerO" start="461.894" end="x">September 1st.</u>
+                    <u who="#boderD" start="463.025" end="x">September 1st the war started with Poland.</u>
+                    <u who="#feuerO" start="466.025" end="x">Hum.</u>
+                    <u who="#boderD" start="466.191" end="x">And then Jew or no Jew you were supposedly a Polish citizen.</u>
+                    <u who="#feuerO" start="470.156" end="x">Yes.</u>
+                    <u who="#boderD" start="470.653" end="x">So you were arrested, and interned.</u>
+                    <u who="#feuerO" start="472.357" end="x">Yes.</u>
+                    <u who="#boderD" start="472.734" end="x">And your mother?</u>
+                    <u who="#feuerO" start="473.744" end="x">My mother was at that time at . . . she was free.</u>
+                    <u who="#boderD" start="476.684" end="x">Yes.</u>
+                    <u who="#feuerO" start="477.031" end="x">She was living in <placeName ref="Hamburg">Hamburg</placeName>.</u>
+                    <u who="#boderD" start="478.312" end="x">Yes.</u>
+                    <u who="#feuerO" start="479.744" end="x">In December '39, let me finish that, one of my brothers even got the permission to emigrate to the States, and in January another brother of mine who has been brought at that time already at <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName>, a concentration camp in Germany, and in February, February the 10th . . .</u>
+                    <u who="#boderD" start="500.884" end="x">Your other brother was also permitted to emigrate?</u>
+                    <u who="#feuerO" start="502.919" end="x">Yes, he was permitted to emigrate.</u>
+                    <u who="#boderD" start="504.743" end="x">[words not clear]</u>
+                    <u who="#feuerO" start="506.175" end="x">Yes and is now living in the States.</u>
+                    <u who="#boderD" start="507.607" end="x">Yes.</u>
+                    <u who="#feuerO" start="508.557" end="x">And . . . the 10th of February '40 I was brought to <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName>. Up to that time I had been in a German . . . in a prison in Germany in <placeName ref="Hamburg">Hamburg</placeName> . . .</u>
+                    <u who="#boderD" start="517.044" end="x">Yes.</u>
+                    <u who="#feuerO" start="517.662" end="x">A prison, a prison of the SR and the <term ref="#vothG_ss">SS</term>, but it was . . . was not yet a concentration camp, so my first concentration camp was <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName>, <placeName ref="Oranienburg concentration camp" type="camp">Oranienburg</placeName>.</u>
+                    <u who="#boderD" start="526.933" end="x">Yes.</u>
+                    <u who="#feuerO" start="528.064" end="x">There I came in February, the 10th of February 1940, and my papers for the emigration for the U.S. were ready and I was invited by the American consulate at <placeName ref="Hamburg">Hamburg</placeName> to make my formal visa application; that was in April '40, the Germans no more didn't give me the permit . . .</u>
+                    <u who="#boderD" start="548.553" end="x">To emigrate.</u>
+                    <u who="#feuerO" start="549.081" end="x">To leave the country. I was in <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName> up to September '40, and September '40 I came as an invalid to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="561.126" end="x">Why as an invalid?</u>
+                    <u who="#feuerO" start="563.282" end="x">Why as an invalid? Well I had some experience in <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName> which made me an invalid.</u>
+                    <u who="#boderD" start="570.156" end="x">Will you tell us about that experience.</u>
+                    <u who="#feuerO" start="578.734" end="x">[Long pause] Well, [pause] it's not to be told in such a short time about the experience of someone in the concentration camp.<note n="8">"It's not to be told in such a short time about the experience of someone in the concentration camp" is a poignant, gross understatement. The brutalities he and other inmates endured are beyond description.</note></u>
+                    <u who="#boderD" start="586.860" end="x">Well, [words not clear]</u>
+                    <u who="#feuerO" start="587.810" end="x">Well, I was working in a . . . I don't understand, what is a Steinbruch?</u>
+                    <u who="#boderD" start="593.524" end="x">In the, in a quarry.</u>
+                    <u who="#feuerO" start="595.318" end="x">In a quarry . . . quarry, and of course this work was accompanied by what you already know by about, we were . . .</u>
+                    <u who="#boderD" start="604.378" end="x">Well, you tell us as if we know nothing, all right. It was accompanied by . . .</u>
+                    <u who="#feuerO" start="608.916" end="x">Well we were ill treated . . . and at any rate I had wounds on my feet, I had lost about 25 kilos of weight, and I was no more able to work, and so they took one day, they took all those Jews and brought them to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                    <u who="#boderD" start="628.234" end="x">Those who could not work?</u>
+                    <u who="#feuerO" start="629.636" end="x">Those who could do no more work.</u>
+                    <u who="#boderD" start="631.008" end="x">Well.</u>
+                    <u who="#feuerO" start="632.561" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> I was from December [he probably means September] '40 to June '41; then I was brought to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> I was from June '41 up to April 11th '45; then we were liberated by the American troops.</u>
+                    <u who="#boderD" start="648.767" end="x">Hum.</u>
+                    <u who="#feuerO" start="653.395" end="x">[pause] Do you want -- I can't . . . I can't tell you in generally, our, my experience in the camp, I could tell you some . . .</u>
+                    <u who="#boderD" start="660.707" end="x">Well, you pick what you think is significant, but of your personal experience.</u>
+                    <u who="#feuerO" start="666.451" end="x">Well I should like to [word not clear]</u>
+                    <u who="#boderD" start="667.461" end="x">Suppose you . . . you are a lawyer.</u>
+                    <u who="#feuerO" start="669.466" end="x">Yes.</u>
+                    <u who="#boderD" start="670.205" end="x">Suppose you are accusing the Nazis before the American people. Now what do you have to say against them?</u>
+                    <u who="#feuerO" start="685.021" end="x">Well what I have to say against them . . .</u>
+                    <u who="#boderD" start="687.358" end="x">Complete, what they have done to you. You see?</u>
+                    <u who="#feuerO" start="698.951" end="x">[long pause] I don't want to talk about what they have done to me, I want to talk what they have done to all of us and, for instance, what they have done to men, I also even want to talk . . . <note n="9">Like so many other survivors, Feuer wanted to bear witness. He wanted the world to never forget the crimes of the Nazis.</note></u>
+                    <u who="#boderD" start="706.383" end="x">To whom [?]</u>
+                    <u who="#feuerO" start="707.001" end="x">Men, to men in general, to German men, to any . . .</u>
+                    <u who="#boderD" start="709.911" end="x">To men.</u>
+                    <u who="#feuerO" start="710.439" end="x">To men, yes.</u>
+                    <u who="#boderD" start="711.117" end="x">Yes.</u>
+                    <u who="#feuerO" start="712.760" end="x">I want to tell you how they succeeded in changing . . . the brains of normal men, and I should like to give you some example -</u>
+                    <u who="#boderD" start="726.132" end="x">All right . . . go ahead.</u>
+                    <u who="#feuerO" start="726.841" end="x">One example. It was one of the most awful experiences I had in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. We were working, in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> we were working. Of course we were, as generally, we were awfully ill treated. One day, it was in summer, in May '41, about, I was standing there together working with a friend of mine, a comrade of mine, when the <term ref="#vothG_ss">SS</term> man came, a young <term ref="#vothG_ss">SS</term> man, he had about twenty years, and he came in behind us and he called my comrade. 'Come', well will you . . . stillgestanden (attention!) will you, will you put your hands on your . . . on your trousers. Well, then he had him stand behind a hole of water, how do you call it in English?</u>
+                    <u who="#boderD" start="779.878" end="x">A puddle, yes a ditch.</u>
+                    <u who="#feuerO" start="781.913" end="x">A ditch of water, about a depths of, of two meters . . .</u>
+                    <u who="#boderD" start="786.089" end="x">Yes. Behind or in front?</u>
+                    <u who="#feuerO" start="788.546" end="x">In front.</u>
+                    <u who="#boderD" start="789.375" end="x">Yes.</u>
+                    <u who="#feuerO" start="790.053" end="x">But with the back to the ditch.</u>
+                    <u who="#boderD" start="791.123" end="x">To the ditch.</u>
+                    <u who="#feuerO" start="792.193" end="x">To the ditch.</u>
+                    <u who="#boderD" start="793.022" end="x">Yes.</u>
+                    <u who="#feuerO" start="793.731" end="x">And when he stands there with the hands on the trousers, on his trousers, he kicked him into his stomach that he fell into this ditch, and he came . . . he came, his face came up, then he took a club . . . a club . . .</u>
+                    <u who="#boderD" start="813.314" end="x">Yes . . .</u>
+                    <u who="#feuerO" start="814.143" end="x">. . . and pushed him down, at any rate he pushed him three times, four times, as long as it was necessary, until this man was drowned. And he called me and I, I of course was ready to have now the same experience, but no, he had me draw him out.</u>
+                    <u who="#boderD" start="830.470" end="x">Yes, to pull him out.</u>
+                    <u who="#feuerO" start="831.601" end="x">To pull, I had to pull . . . I pulled him out and I had to put him on a little . . . little cart and I had to bring him into the camp. We were working outside . . .</u>
+                    <u who="#boderD" start="845.214" end="x">Yes.</u>
+                    <u who="#feuerO" start="845.983" end="x">Yes. We were working outside of the camp.</u>
+                    <u who="#boderD" start="848.561" end="x">Yes.</u>
+                    <u who="#feuerO" start="849.330" end="x">That's not so awful. But the most awful thing, that now on the way, this <term ref="#vothG_ss">SS</term> man, a boy of about twenty years, he began to tell me how awful he . . . how unhappy he was.</u>
+                    <u who="#boderD" start="861.164" end="x">Yes.</u>
+                    <u who="#feuerO" start="862.053" end="x">He had an appointment for the same evening with his sweetheart. And now he had been ordered that he would have to do duty, and he wouldn't, he couldn't go to his date.</u>
+                    <u who="#boderD" start="875.455" end="x">Yes.</u>
+                    <u who="#feuerO" start="876.495" end="x">He was speaking to me without any consciousness that he just had commited a murder.</u>
+                    <u who="#boderD" start="884.590" end="x">Yes.</u>
+                    <u who="#feuerO" start="885.118" end="x">He was just complaining, he was speaking to me now as . . . as . . . as one comrade speaks to another comrade.</u>
+                    <u who="#boderD" start="892.007" end="x">Yes.</u>
+                    <u who="#feuerO" start="892.535" end="x">And I think that, that even that, at that time I already was accustomed to a lot of things, but at that time I had the idea . . . how it's possible that a man, a human being, can no more be conscious, can no more be aware of having killed somebody, and speaking to somebody who was only a chance that it's not he who has been killed, like his comrade . . .</u>
+                    <u who="#boderD" start="917.385" end="x">Yes . . .</u>
+                    <u who="#feuerO" start="918.305" end="x">. . . complaining that he can't go on his date. He has . . . He would have liked to get rid of all the staff and some of [word not clear] and so on, but without any consciousness of having committed a murder . . .<note n="10">The incident related by Feuer regarding the murder of his friend by the SS man reflects the mentality of the SS and the defenselessness of the prisoners. The SS were conditioned to behave with utter ruthlessness and brutality to those who were the supposed enemies of the "master race." These so-called enemies could be killed or exploited to serve the greater "racial good." In the camps, the SS could act with impunity towards the prisoners, give vent to their sadistic passion and exercise to the utmost their "will to power." When the SS man spoke to Feuer after he had murdered his friend, he was not speaking to a fellow human being but rather to an animate object or thing.</note></u>
+                    <u who="#boderD" start="935.896" end="x">Now let me ask a question. This <term ref="#vothG_ss">SS</term> man . . . what was his rank?</u>
+                    <u who="#feuerO" start="942.514" end="x">[several words not clear] it was nothing . . .</u>
+                    <u who="#boderD" start="946.690" end="x">A private?</u>
+                    <u who="#feuerO" start="948.605" end="x">One can call him a private.</u>
+                    <u who="#boderD" start="951.515" end="x">All right. Now had any private the right to go in and kill a person?</u>
+                    <u who="#feuerO" start="958.555" end="x">Any private, any private had the right to do anything he wanted.</u>
+                    <u who="#boderD" start="963.032" end="x">They could go in . . .</u>
+                    <u who="#feuerO" start="964.408" end="x">Of course there was nothing forbidden for those people, and even they were . . . educated to do it. The were educated, and educated to do it. This is (?) those people they were really, they were taught to do a good job in killing. Of course they killed, they have lost any sense of . . . of . . . of consciousness. They . . . <note n="11">Feuer means "conscience." The SS were taught that pangs of conscience stemming from sympathy or compassion for their victims were signs of weakness that had to be stamped out.</note></u>
+                    <u who="#boderD" start="987.382" end="x">Weren't there any rules for them? Don't you remember whether any instructions - the Germans like [to] write, weren't there any instructions what the duties, and the rights and the obligations of such an <term ref="#vothG_ss">SS</term> man in the camp were.</u>
+                    <u who="#feuerO" start="1002.533" end="x">No. The duties of his, the duites of an <term ref="#vothG_ss">SS</term> man were to pull out of the prisoners, or the detainees the maximum of power - the amount of work which is possible.</u>
+                    <u who="#boderD" start="1014.503" end="x">Nu . . . and . . .</u>
+                    <u who="#feuerO" start="1015.577" end="x">To do this is of course necessary to be very, very strict and to give very rude examples of cruelty to terrify the others.</u>
+                    <u who="#boderD" start="1026.916" end="x">Oh . . . it was really an example of cruelty . . . well did that other fellow not work while he . . .</u>
+                    <u who="#feuerO" start="1033.332" end="x">No he did not. At any rate, of course, this was only a pretext.</u>
+                    <u who="#boderD" start="1037.968" end="x">Yes.</u>
+                    <u who="#feuerO" start="1038.529" end="x">For the insticts of those <term ref="#vothG_ss">SS</term> men.</u>
+                    <u who="#boderD" start="1041.746" end="x">Yes.</u>
+                    <u who="#feuerO" start="1042.217" end="x">. . . to do every thing they wanted. That was . . .</u>
+                    <u who="#boderD" start="1046.974" end="x">Now, here a man was dead . . .</u>
+                    <u who="#feuerO" start="1048.894" end="x">Yes.</u>
+                    <u who="#boderD" start="1049.636" end="x">Did he have to report that he was dead? Did he have to write him off from the card?</u>
+                    <u who="#feuerO" start="1054.785" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="1056.010" end="x">So what would he do?</u>
+                    <u who="#feuerO" start="1056.571" end="x">He was . . . [word not clear] . . . died of starvation . . . on the card, or of . . . of pneumonia, of consequences of tuberculosis . . . that was on the card. Of course there was a [half a German word not clear] -karte for each prisoner. It is very interesting. The killed six million Jews . . . Jews, but/when] I had to evacuate [?] the ones who have survived, I found the same costume, the same shoes in which I have been arrested.<note n="12">These fictitious reasons for prisoners' deaths were also commonly used in the Nazis' euthanasia program.</note></u>
+                    <u who="#boderD" start="1086.729" end="x">Ja.</u>
+                    <u who="#feuerO" start="1087.351" end="x">I still have.</u>
+                    <u who="#boderD" start="1088.697" end="x">Where did you find them?</u>
+                    <u who="#feuerO" start="1089.319" end="x">It was in der Textenkammer (store room for textiles) It followed me from <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName> to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>; of course I never wore it.</u>
+                    <u who="#boderD" start="1096.007" end="x">Yes.</u>
+                    <u who="#feuerO" start="1096.267" end="x">It followed me. It followed me from <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName> to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, and from <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> to <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. And we were liberated [??] - for prisoner to take, who took care of it. I got it, and I still have it at home.</u>
+                    <u who="#boderD" start="1109.520" end="x">Now wait a moment. I understand that when they took away from the prisoners the things they gave it away to others. They took it away . . . they . . .</u>
+                    <u who="#feuerO" start="1117.747" end="x">Not within the camps in Germany. In <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName>, <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> and <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, they did not. In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> those people which passed through the chambers of gas, the clothes, and all the belongings were taken away and were distributed to . . . to . . . even to other prisoners; we . . . in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, we wore later the [word not clear] suits of people who were killed in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1142.142" end="x">Yes.</u>
+                    <u who="#feuerO" start="1142.824" end="x">But our, our suits, we wore that kind. Those ancient prisoners of '39, we were already considered as, as prominente . . .</u>
+                    <u who="#boderD" start="1156.182" end="x">As the aristocrats . . .</u>
+                    <u who="#feuerO" start="1157.106" end="x">Yes.</u>
+                    <u who="#boderD" start="1157.728" end="x">And you were of '39 because you were a Polish -</u>
+                    <u who="#feuerO" start="1160.945" end="x">Yes.</u>
+                    <u who="#boderD" start="1161.446" end="x">. . . subject to be interniert as a Pole.</u>
+                    <u who="#feuerO" start="1163.969" end="x">Ja.</u>
+                    <u who="#boderD" start="1164.772" end="x">All right. Let's fish out another episode. That is one accusation of one Nazi of murder. Now tell me another episode.</u>
+                    <u who="#feuerO" start="1178.341" end="x">It is not an accusation. It is more a humoristic episode, than . . . On August 24 we were bombed. <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . .</u>
+                    <u who="#boderD" start="1186.991" end="x">The other one is a humoristic episode . . .</u>
+                    <u who="#feuerO" start="1188.458" end="x">Yes.</u>
+                    <u who="#boderD" start="1188.868" end="x">Yes.</u>
+                    <u who="#feuerO" start="1189.158" end="x"><placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was bombed by American airplanes.</u>
+                    <u who="#boderD" start="1193.009" end="x">Yes.</u>
+                    <u who="#feuerO" start="1193.872" end="x">. . . and the bombing was made excellent. That means that interside the camp not a single bomb fell, but outer of the camp, where all the industry was, the factories were, they were all laid down.<note n="13">Buchenwald had some 130 satellite camps, the most infamous of which was Dora. The camps employed hundreds of thousands of slave laborers who were often worked to death for the German war effort.</note></u>
+                    <u who="#boderD" start="1212.927" end="x">Hum.</u>
+                    <u who="#feuerO" start="1214.001" end="x">Nevertheless the <term ref="#vothG_ss">SS</term> had forbidden the prisoners to leave those places, to go into the camp.</u>
+                    <u who="#boderD" start="1221.353" end="x">Yes.</u>
+                    <u who="#feuerO" start="1221.673" end="x">. . . and nevertheless we had about four hundred dead.</u>
+                    <u who="#boderD" start="1227.637" end="x">Yes.</u>
+                    <u who="#feuerO" start="1229.587" end="x">While in this moment there were others . . . amongst the dead. There were two . . . about one hundred and fifty <term ref="#vothG_ss">SS</term> and of course a lot of wounded.</u>
+                    <u who="#boderD" start="1239.052" end="x">Yes.</u>
+                    <u who="#feuerO" start="1239.794" end="x">At that time . . . This moment, the commander of the camp, he tried . . . Wir sind alle Kameraden - helft uns Kameraden. They cried to the prisoners - we are all comrades . . .</u>
+                    <u who="#boderD" start="1253.213" end="x">Yes.</u>
+                    <u who="#feuerO" start="1253.654" end="x">Helft.</u>
+                    <u who="#boderD" start="1254.547" end="x">To do what. What was there to do?</u>
+                    <u who="#feuerO" start="1256.376" end="x">To help, to dig out wounded ones, and to carry wounded ones, and so on, what kind of . . .</u>
+                    <u who="#boderD" start="1260.921" end="x">Yes.</u>
+                    <u who="#feuerO" start="1262.237" end="x">Well, [word not clear] at that time we were comrades.</u>
+                    <u who="#boderD" start="1265.213" end="x">Yes. What happened after the bombing?</u>
+                    <u who="#feuerO" start="1269.336" end="x">After the bombing? The war continued. The latter part the factories were not more standing . . . (we) were sent to other camps and the other ones were occupied to rebuild the factories . . .</u>
+                    <u who="#boderD" start="1282.634" end="x">The factories never worked (again)?</u>
+                    <u who="#feuerO" start="1284.372" end="x">No, the factories never worked again . . .</u>
+                    <u who="#boderD" start="1285.670" end="x">Did you hear a story, they say something about an oak, Goethe's Oak somewhere in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?<note n="14">Construction on Buchenwald began in 1937 in a wooded area five miles from Weimar, the home of the noted German poet, Goethe, who supposedly rested and meditated under an oak tree, Goethe's oak. The oak was spared by the Nazis and designated the center of the camp, which was the antithesis of the humanistic and enlightened spirit of the poet and the democratic hopes on which the post World War I Weimar Republic was founded.</note></u>
+                    <u who="#feuerO" start="1293.596" end="x">Oh, of course. There was Goethe's Oak. [word not clear] Goethe's Oak was the only victim of the bombing.</u>
+                    <u who="#boderD" start="1300.073" end="x">Oh . . . tell us what the legend [Footnote: The subsequent discussion has direct reference to the interview with Mr. Bramson, micro-cards, p. 823.] connected with it?</u>
+                    <u who="#feuerO" start="1303.170" end="x">Goethe's Oak was then . . . There was a kitchen of <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.</u>
+                    <u who="#boderD" start="1307.444" end="x">Yes.</u>
+                    <u who="#feuerO" start="1307.945" end="x">And next to this kitchen the was an oak, and on this oak, sitting under this oak, Goethe . . . Goethe is supposed to have written the poem: Über allen Wipfeln ist . . . ruh . . .</u>
+                    <u who="#boderD" start="1319.975" end="x">Oh . . . Tell me, is there anywhere in Goethe's biography this oak mentioned?</u>
+                    <u who="#feuerO" start="1324.943" end="x">Yes, it is.</u>
+                    <u who="#boderD" start="1326.259" end="x">It is? One could trace it in . . . /word not clear]</u>
+                    <u who="#feuerO" start="1328.782" end="x">Goethe has been very often . . .</u>
+                    <u who="#boderD" start="1330.913" end="x">. . . in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . .</u>
+                    <u who="#feuerO" start="1331.806" end="x">In <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . .</u>
+                    <u who="#boderD" start="1333.394" end="x">That is the verse: Über allen . . .</u>
+                    <u who="#feuerO" start="1336.098" end="x">Wipfeln is Ruh.</u>
+                    <u who="#boderD" start="1336.750" end="x">Wipfeln is Ruh.</u>
+                    <u who="#feuerO" start="1336.949" end="x">It is one of the most . . .</u>
+                    <u who="#boderD" start="1338.295" end="x">in alle. Ja. I know . . . in allen Gipfeln hörest du kaum. einen . . . [hesitates]</u>
+                    <u who="#feuerO" start="1343.625" end="x">. . . einen . . .</u>
+                    <u who="#boderD" start="1344.126" end="x">einen Hauch.</u>
+                    <u who="#feuerO" start="1344.627" end="x">einen Hauch. Ja.</u>
+                    <u who="#boderD" start="1346.275" end="x">Die . . . Vögel schlafen im (recollecting) something . . . im Walde warte nur, balde ruhest du such. (complete text at the end of the interview) Is that . . .</u>
+                    <u who="#feuerO" start="1353.718" end="x">Ja, that is that.</u>
+                    <u who="#boderD" start="1354.521" end="x">Ja. Nun und so, what happened?</u>
+                    <u who="#feuerO" start="1359.670" end="x">This oak caught fire.</u>
+                    <u who="#boderD" start="1361.922" end="x">From the bombing?</u>
+                    <u who="#feuerO" start="1363.389" end="x">Yes, from the bombing.</u>
+                    <u who="#boderD" start="1363.618" end="x">From the kitchen?</u>
+                    <u who="#feuerO" start="1364.451" end="x">No, from the the bombing.</u>
+                    <u who="#boderD" start="1366.008" end="x">Yes.</u>
+                    <u who="#feuerO" start="1366.811" end="x">It was at the border of the camp Gebau. [installation]</u>
+                    <u who="#boderD" start="1371.326" end="x">Yes.</u>
+                    <u who="#feuerO" start="1371.736" end="x">At about 200 meters and a single . . .</u>
+                    <u who="#boderD" start="1377.096" end="x">Yes.</u>
+                    <u who="#feuerO" start="1377.989" end="x">Also Brent bomb.</u>
+                    <u who="#boderD" start="1379.365" end="x">Yes.</u>
+                    <u who="#feuerO" start="1379.957" end="x">. . . fell into . . .</u>
+                    <u who="#boderD" start="1380.730" end="x">Incendiary bomb.</u>
+                    <u who="#feuerO" start="1381.623" end="x">Incendary bomb fell into the camp, without doing another harm. But this oak caught fire, and this damaged, and had to be cut . . .</u>
+                    <u who="#boderD" start="1393.382" end="x">Yes.</u>
+                    <u who="#feuerO" start="1394.456" end="x">. . . directly after the bombing.</u>
+                    <u who="#boderD" start="1396.798" end="x">Yes. Now how was that oak cut? I want to verify another story. Who cut the oak?</u>
+                    <u who="#feuerO" start="1405.297" end="x">Prisoners cut the oak.</u>
+                    <u who="#boderD" start="1407.820" end="x">Prisoners cut the oak. Was there a call to them, to come out to . . .</u>
+                    <u who="#feuerO" start="1413.965" end="x">There was no special call. But it had to be cut.</u>
+                    <u who="#boderD" start="1417.152" end="x">Oh, you don't know . . .</u>
+                    <u who="#feuerO" start="1419.373" end="x">No . . .</u>
+                    <u who="#boderD" start="1419.693" end="x">. . . Any legend connected with that oak?</u>
+                    <u who="#feuerO" start="1420.496" end="x">No, I don't think there will be any legend about this oak, otherwise I would have known it.</u>
+                    <u who="#boderD" start="1425.071" end="x">There supposedly is a legend about the oak.</u>
+                    <u who="#feuerO" start="1428.500" end="x">Could you tell the . . .</u>
+                    <u who="#boderD" start="1429.786" end="x">Yes. The legend is that Goethe supposedly wrote to somebody that as long as this oak stands, Germany will stand.</u>
+                    <u who="#feuerO" start="1439.009" end="x">I don't think . . .</u>
+                    <u who="#boderD" start="1440.506" end="x">You didn't hear it.</u>
+                    <u who="#feuerO" start="1441.520" end="x">No, I never heard it.</u>
+                    <u who="#boderD" start="1442.353" end="x">No; I heard that from another <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> man, and he said that they called over the loudspeaker for volunteers to chop off that oak . . .</u>
+                    <u who="#feuerO" start="1455.500" end="x">Oh, that is not true. I am sure that is not true . . .</u>
+                    <u who="#boderD" start="1458.597" end="x">That is not true?</u>
+                    <u who="#feuerO" start="1459.158" end="x">That is not true.</u>
+                    <u who="#boderD" start="1461.138" end="x">All right, they simply called the prisoners to chop off the oak.</u>
+                    <u who="#feuerO" start="1464.204" end="x">Yes.</u>
+                    <u who="#boderD" start="1464.494" end="x">That's all as far as you know. Now any other episodes?</u>
+                    <u who="#feuerO" start="1469.945" end="x">Well, the most interesting episode of course, is the episode of our underground organization, in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and I wonder if this is already known?</u>
+                    <u who="#boderD" start="1478.603" end="x">[not clear, sounds like 'certainly not enough']</u>
+                    <u who="#feuerO" start="1482.575" end="x">It would be difficult for you to understand that we have built up in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> an underground organization . . . since . . . since '41.</u>
+                    <u who="#boderD" start="1492.855" end="x">Yes.</u>
+                    <u who="#feuerO" start="1493.115" end="x">Even, even earlier.</u>
+                    <u who="#boderD" start="1494.823" end="x">In . . .</u>
+                    <u who="#feuerO" start="1495.173" end="x">You must know, it was one of the tactics of the Nazis, that they were put together . . . there were put together in our concentration camps political prisoners, religious prisoners, there were not only Jews, but a sect, a Christian sect . . .</u>
+                    <u who="#boderD" start="1513.725" end="x">Yes.</u>
+                    <u who="#feuerO" start="1514.347" end="x">The so called explorers of the bible.<note n="15">Feuer most probably means Jehovah's Witnesses. The Witnesses would not swear an oath of allegiance to the state and as pacifists would not serve in the armed forces. They were persecuted and victimized by the Nazis. In the camps, they were identified by a purple triangle.</note></u>
+                    <u who="#boderD" start="1516.689" end="x">Yes.</u>
+                    <u who="#feuerO" start="1517.371" end="x">And of course, criminals too.</u>
+                    <u who="#boderD" start="1520.860" end="x">Yes.</u>
+                    <u who="#feuerO" start="1521.331" end="x">Criminals.</u>
+                    <u who="#boderD" start="1521.892" end="x">How did the criminals get in there? What did they . . . ? Liquidate the prisoners, or what?</u>
+                    <u who="#feuerO" start="1526.045" end="x">No, no. When a criminal had finished his term in prison . . .</u>
+                    <u who="#boderD" start="1529.594" end="x">Yes.</u>
+                    <u who="#feuerO" start="1531.423" end="x">. . . his sentence in prison, and he was considered to be dangerous for the German people . . . for the people.</u>
+                    <u who="#boderD" start="1538.896" end="x">Yes.</u>
+                    <u who="#feuerO" start="1540.152" end="x">They did not give him his liberty.</u>
+                    <u who="#boderD" start="1542.283" end="x">Yes.</u>
+                    <u who="#feuerO" start="1542.693" end="x">. . . but they sent him to a concentration camp.</u>
+                    <u who="#boderD" start="1545.639" end="x">Yes. Nu . . .</u>
+                    <u who="#feuerO" start="1546.321" end="x">Of course, they made those criminals most of which were very, very bad subjects, and very mean and very cruel; they made out of them to . . . our, our masters.</u>
+                    <u who="#boderD" start="1562.275" end="x">
+                        <term ref="#vothG_trusty">Trusties</term>.</u>
+                    <u who="#feuerO" start="1563.259" end="x">[Apparently not understanding the word] Cartys.</u>
+                    <u who="#boderD" start="1564.152" end="x"><term ref="#vothG_capo">Capos</term> . . .</u>
+                    <u who="#feuerO" start="1565.076" end="x"><term ref="#vothG_capo">Capos</term>. <term ref="#vothG_blockalteste">Blockälteste</term> and so on.</u>
+                    <u who="#boderD" start="1567.810" end="x">Yes</u>
+                    <u who="#feuerO" start="1570.786" end="x">Now . . . in . . . this begin already in '38, '39, that a group of the first prisoners of concentration camp, that were the German political prisoners, most of them were communists, who began to build up an underground movement against those criminal prisoners.</u>
+                    <u who="#boderD" start="1590.573" end="x">Yes.</u>
+                    <u who="#feuerO" start="1591.315" end="x">. . . and this was a real fight. A fight between . . . the criminal prisoners had green triangles, -</u>
+                    <u who="#boderD" start="1600.176" end="x">Yes.</u>
+                    <u who="#feuerO" start="1600.556" end="x">We all had triangles.</u>
+                    <u who="#boderD" start="1602.083" end="x">Yes.</u>
+                    <u who="#feuerO" start="1602.614" end="x">And the criminals had green, the political had red ones.</u>
+                    <u who="#boderD" start="1605.560" end="x">And what had you?</u>
+                    <u who="#feuerO" start="1606.816" end="x">We had red ones and yellow ones.<note n="16">The yellow triangle Feuer wore signified that he was a Jew. The red triangle signified that he was a also a political prisoner. Feuer did not reveal his political sympathies in the interview, but he was most probably a left-wing political opponent of the Nazis. He describes himself as a "simple prisoner," but one wonders, given his intelligence and strength of personality, what role he played in the prisoner underground dominated by the "reds."</note></u>
+                    <u who="#boderD" start="1608.283" end="x">You were considered a political?</u>
+                    <u who="#feuerO" start="1610.112" end="x">No. We were considered as political Jews.</u>
+                    <u who="#boderD" start="1612.273" end="x">Yes.</u>
+                    <u who="#feuerO" start="1612.955" end="x">That were red . . . it was a Star of David . . .</u>
+                    <u who="#boderD" start="1616.052" end="x">Yes.</u>
+                    <u who="#feuerO" start="1616.583" end="x">. . . two triangles, one in red and the other one in yellow . . .</u>
+                    <u who="#boderD" start="1620.615" end="x">Why? Why?</u>
+                    <u who="#feuerO" start="1621.810" end="x">. . . so be forming together a Star of David.</u>
+                    <u who="#boderD" start="1624.212" end="x">Aha . . . yes, yes . . . quite a color scheme . . .</u>
+                    <u who="#feuerO" start="1630.115" end="x">What?</u>
+                    <u who="#boderD" start="1630.797" end="x">Quite a color combination.</u>
+                    <u who="#feuerO" start="1632.475" end="x">Yes.</u>
+                    <u who="#boderD" start="1632.916" end="x">Red and yellow.</u>
+                    <u who="#feuerO" start="1633.387" end="x">Yes. Yellow was always the color for Jews . . . in, in the middle ages.</u>
+                    <u who="#boderD" start="1640.467" end="x">Yes.</u>
+                    <u who="#feuerO" start="1641.511" end="x">The Jewish star was a . . . was a yellow star in Germany. That is why they always took yellow for the color . . . to signify Jews.</u>
+                    <u who="#boderD" start="1651.821" end="x">Yes.</u>
+                    <u who="#feuerO" start="1654.223" end="x">Now this fight between the political prisoners and between the criminals ended about '42, and it was the political ones who were victorious in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, that means that that time the political prisoners had all the decisive positions.<note n="17">Given the system of prisoner "self administration," this was of the utmost importance in saving lives as Feuer's account subsequently illustrates.</note></u>
+                    <u who="#boderD" start="1676.575" end="x">Yes.</u>
+                    <u who="#feuerO" start="1676.895" end="x">They had the positions of the self-administration of the camp, that means most of the <term ref="#vothG_capo">capos</term> had become . . . were now political prisoners . . .</u>
+                    <u who="#boderD" start="1686.058" end="x">Yes.</u>
+                    <u who="#feuerO" start="1686.348" end="x">. . . and most of the people in the . . . for instance in the Arbeitstatistic - those people, who distribute, and who organized the work to be done were political prisoners. The hospital were . . . was in hand(s) of political prisoners, and the circumstances in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> - that is why <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> compared to other camps, compared for instance to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, or compared for instance to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, which I know, or to <placeName ref="Sachsenhausen concentration camp" type="camp">Sachsenhausen</placeName> which I know, was really the best camp, with all its atrocities . . . it was the best camp. For instance it was able [possible] that in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> in '44 and '45 that about two thousand people a day were called . . .</u>
+                    <u who="#boderD" start="1729.879" end="x">Yes.</u>
+                    <u who="#feuerO" start="1730.833" end="x">. . . should work, did not work.</u>
+                    <u who="#boderD" start="1733.688" end="x">Hum.</u>
+                    <u who="#feuerO" start="1734.189" end="x">Because they had . . . were people in the hospital could give for ill ones . . . papers which would . . . which ordered them for a rest. for three days, for five days, and six days . . .</u>
+                    <u who="#boderD" start="1751.441" end="x">Yes.</u>
+                    <u who="#feuerO" start="x" end="x">And those papers of course were given by prisoners, and they, at that time, they had won the confidence of the <term ref="#vothG_ss">SS</term> . . .</u>
+                    <u who="#boderD" start="1760.091" end="x">Yes.</u>
+                    <u who="#feuerO" start="1761.226" end="x">They were no more checked by the <term ref="#vothG_ss">SS</term> - so was able [possible] that about fifteen hundred, two thousand and even more a day of . . . of . . . did not, did not work . . .</u>
+                    <u who="#boderD" start="1773.679" end="x">Well, did they favor only political prisoners or did they do it in favor of all prisoners?</u>
+                    <u who="#feuerO" start="1779.281" end="x">No, they did it in favor of all prisoners. Of course, it can't be denied that political . . . who couldn't work as much . . . when there was a question, . . . for instance, there was a question in December '42.</u>
+                    <u who="#boderD" start="1803.424" end="x">Yes.</u>
+                    <u who="#feuerO" start="1805.494" end="x">All the Jews were checked to be sent to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> or to stay in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. At that time, we shouldn't be sent . . . it was not the intention to send us to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>; it was the intention to send us to <placeName ref="Majdanek concentration camp" type="camp">Lublin</placeName>, to exterminate us there.</u>
+                    <u who="#boderD" start="1822.202" end="x">In <placeName ref="Majdanek concentration camp" type="camp">Lublin</placeName>.</u>
+                    <u who="#feuerO" start="1823.397" end="x">In <placeName ref="Majdanek concentration camp" type="camp">Lublin</placeName>.</u>
+                    <u who="#boderD" start="1824.170" end="x">Yes.</u>
+                    <u who="#feuerO" start="1825.275" end="x">Well we all took (?) at that time a medical, a medical . . . a visitation by the doctor . . . and the prisoners had to make the lists for those people who were determined to go there.</u>
+                    <u who="#boderD" start="1838.663" end="x">were assinged to go.</u>
+                    <u who="#feuerO" start="1839.405" end="x">Were assigned to go there..and those to assign to stay.</u>
+                    <u who="#boderD" start="1842.984" end="x">Yes.</u>
+                    <u who="#feuerO" start="1844.813" end="x">And it was quite impossible to say . . . that nobody would go . . . <note n="18">Feuer might be referring here to the follow-up of an October 17, 1942 order by Himmler to transfer all Jewish prisoners in the Reich to Auschwitz. Obviously, he was among those Buchenwald Jewish prisoners who were spared deportation. It is unknown if this was due to any sort of standing he had among the "reds."</note></u>
+                    <u who="#boderD" start="1850.958" end="x">Yes.</u>
+                    <u who="#feuerO" start="1851.580" end="x">This problem even in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was not much harder. You all know that in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was selection.</u>
+                    <u who="#boderD" start="1857.785" end="x">Yes.</u>
+                    <u who="#feuerO" start="1859.161" end="x">And these selections were at first done always by physicians, by <term ref="#vothG_ss">SS</term> physicians.</u>
+                    <u who="#boderD" start="1865.638" end="x">Yes.</u>
+                    <u who="#feuerO" start="1866.169" end="x">Later, they were not more up to . . . they had to..they had enough of it . . . the older prisoners, the old . . . the chief of <term ref="#vothG_block">block</term> . . . the <term ref="#vothG_blockalteste">Blockälteste</term>.</u>
+                    <u who="#boderD" start="1877.143" end="x">Yes.</u>
+                    <u who="#feuerO" start="1877.463" end="x">. . . to do the selection. No you see (the) problem that . . .</u>
+                    <u who="#boderD" start="1881.012" end="x">Selection for what?</u>
+                    <u who="#feuerO" start="1882.268" end="x">Selection for the gas chamber.</u>
+                    <u who="#boderD" start="1884.037" end="x">Yes, and the prisoner himself had to select . . .</u>
+                    <u who="#feuerO" start="1886.017" end="x">The prisoner himself had to select . . .</u>
+                    <u who="#boderD" start="1888.691" end="x">Yes.</u>
+                    <u who="#feuerO" start="1888.981" end="x">He had to . . . to 'reply' this pri(soner) . . . this man is no more able to work.</u>
+                    <u who="#boderD" start="1894.854" end="x">Hum.</u>
+                    <u who="#feuerO" start="1895.747" end="x">. . . he has to pass through the chas cam . . . [slip of tongue] gas chamber . . .</u>
+                    <u who="#boderD" start="1898.481" end="x">Now [word not clear] were they telling them that it is a selection for the gas chamber?</u>
+                    <u who="#feuerO" start="1902.211" end="x">The prisoner, the <term ref="#vothG_blockalteste">Blockälteste</term> was quite conscious, what it was, and the prisoner was quite conscious too.</u>
+                    <u who="#boderD" start="1908.416" end="x">Did they give him a quota of some kind?</u>
+                    <u who="#feuerO" start="1911.060" end="x">No, they didn't give him a quota. They told him you have to . . .</u>
+                    <u who="#boderD" start="1913.764" end="x">[apparently calling attention to the position of the micro-phone] . . . in that direction . . .</u>
+                    <u who="#feuerO" start="1914.808" end="x">You had to make the selection, and you will give us the names and numbers of those people who are not more able to work.</u>
+                    <u who="#boderD" start="1922.643" end="x">Oh. And then?</u>
+                    <u who="#feuerO" start="1924.442" end="x">And then . . . they would do the rest. Now you see, the real problem is this prisoner. If the <term ref="#vothG_ss">SS</term> physician makes the selection, he would have selected let's say a hundred . . .</u>
+                    <u who="#boderD" start="1937.679" end="x">Yes.</u>
+                    <u who="#feuerO" start="1939.448" end="x">If a prisoner makes a selection, he would only select let us say twenty-five.</u>
+                    <u who="#boderD" start="1946.317" end="x">Yes.</u>
+                    <u who="#feuerO" start="1946.788" end="x">And this would satisfy the <term ref="#vothG_ss">SS</term>, because they were so . . . already annoyed, and too . . . too lazy to check it. All (?) twenty five, is twenty five.</u>
+                    <u who="#boderD" start="1960.931" end="x">Yes.</u>
+                    <u who="#feuerO" start="1961.251" end="x">But if the prisoner wouldn't send anyone, or wouldn't sent even less than this percentage [??] they would become suspected.</u>
+                    <u who="#boderD" start="1970.686" end="x">Suspicious..yes.</u>
+                    <u who="#feuerO" start="1971.791" end="x">Suspicious.</u>
+                    <u who="#boderD" start="1972.986" end="x">Yes.</u>
+                    <u who="#feuerO" start="1974.168" end="x">And they would do it themselves.</u>
+                    <u who="#boderD" start="1975.939" end="x">Yes.</u>
+                    <u who="#feuerO" start="1978.467" end="x">Now you see the real problem. This prisoner, he could save the lives of seventy five people.</u>
+                    <u who="#boderD" start="1984.853" end="x">Yes.</u>
+                    <u who="#feuerO" start="1985.595" end="x">By doing this selection. But he would be the murderer of twenty-five.</u>
+                    <u who="#boderD" start="1990.955" end="x">Yes.</u>
+                    <u who="#feuerO" start="1991.577" end="x">In this prison, there in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, there it was in the most sharpest form. But this pri . . . this problem was always . . .</u>
+                    <u who="#boderD" start="2001.676" end="x">In what form would you say . . .</u>
+                    <u who="#feuerO" start="2002.962" end="x">In the sharpest [this word before did not sound clear] form . . .</u>
+                    <u who="#boderD" start="2004.006" end="x">In the sharpest form it was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#feuerO" start="2005.714" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="2006.487" end="x">Yes.</u>
+                    <u who="#feuerO" start="2007.139" end="x">But this problem . . . you can do something . . . There were people who were working for . . . in the <term ref="#vothG_ss">SS</term> kitchen for instance . . .</u>
+                    <u who="#boderD" start="2015.397" end="x">Yes.</u>
+                    <u who="#feuerO" start="2015.807" end="x">They could 'organize' [synonym for stealing] they could get some . . . some food stuf . . .</u>
+                    <u who="#boderD" start="2021.197" end="x">Yes.</u>
+                    <u who="#feuerO" start="2021.577" end="x">And they could give some foodstuff to somebody.</u>
+                    <u who="#boderD" start="2024.553" end="x">Yes.</u>
+                    <u who="#feuerO" start="2024.994" end="x">But of course, they couldn't give it to everybody.</u>
+                    <u who="#boderD" start="2027.276" end="x">Yes. So who would get it?</u>
+                    <u who="#feuerO" start="2030.463" end="x">Oh, they gave it ahead to personal friends, and they gave it to their political friends . . . [pause]</u>
+                    <u who="#boderD" start="2038.087" end="x">To think, that was a tricky situation . . . eh?</u>
+                    <u who="#feuerO" start="2041.304" end="x">. . . it was . . . I don't see a way to go out of this . . . situation.<note n="19">This is an indication of the so-called "choiceless" choices often faced by the prisoners in the camps as well as the "grey zone" of morality, so well-described by Primo Levi, in which prisoners had to function. Often survival in the camps meant survival at someone else's expense. In those instances when life saving help could be given, a system of triage had to be employed.</note></u>
+                    <u who="#boderD" start="2046.755" end="x">Have you ever been a <term ref="#vothG_blockalteste">Blockälteste</term>?</u>
+                    <u who="#feuerO" start="2048.765" end="x">No, I never . . . I have been a simple prisoner.</u>
+                    <u who="#boderD" start="2051.560" end="x">How . . . how did one become a <term ref="#vothG_blockalteste">Blockälteste</term>? How could one avoid to become a <term ref="#vothG_blockalteste">Blockältester</term>?</u>
+                    <u who="#feuerO" start="2061.115" end="x">How could one avoid to become a <term ref="#vothG_blockalteste">Blockältester</term>? Well at first . . . the first <term ref="#vothG_blockalteste">Blockälteste</term> were all assigned by the <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="2071.183" end="x">Yes.</u>
+                    <u who="#feuerO" start="2071.563" end="x">When the political prisoners had won this fight against thee criminal prisoners, they had of course a lot of influence. You know there were good . . . good terms . . . <note n="20">For a detailed description of the struggle between the "greens" and the "reds" in Buchenwald and the consequences of its outcome, see Eugen Kogon's The Theory and Practice of Hell.</note></u>
+                    <u who="#boderD" start="2084.106" end="x">Yes.</u>
+                    <u who="#feuerO" start="2084.366" end="x">. . . between the leading political . . .</u>
+                    <u who="#boderD" start="2087.221" end="x">. . . prisoners . . .</u>
+                    <u who="#feuerO" start="2088.024" end="x">. . . between the political detainees in the camps and between the . . .</u>
+                    <u who="#boderD" start="2093.535" end="x"><term ref="#vothG_ss">SS</term>?</u>
+                    <u who="#feuerO" start="2093.873" end="x">. . . and the <term ref="#vothG_ss">SS</term>. The . . .</u>
+                    <u who="#boderD" start="2096.004" end="x">Well, would you not attribute that a bit . . . Well, what do you attribute to such good terms?</u>
+                    <u who="#feuerO" start="2100.429" end="x">No. Don't think it was attributed because they were against [?? not clear] cruel things or some things like that. That is not that.</u>
+                    <u who="#boderD" start="2108.053" end="x">No?</u>
+                    <u who="#feuerO" start="2108.433" end="x">The <term ref="#vothG_ss">SS</term> was not able to organize, and to administrate the camp alone [by themselves].</u>
+                    <u who="#boderD" start="2113.703" end="x">Well wouldn't that have been good that the camp would have gone to pieces?</u>
+                    <u who="#feuerO" start="2118.671" end="x">The camp would have gone to pieces. All the people in the camp would surely have gone to pieces.</u>
+                    <u who="#boderD" start="2122.975" end="x">Oh . . . that's so.</u>
+                    <u who="#feuerO" start="2124.321" end="x">Oh!</u>
+                    <u who="#boderD" start="2125.788" end="x">Now . . .</u>
+                    <u who="#feuerO" start="2126.530" end="x">[excited] They didn't tell. Now you see you have . . . you all have not the right picture. For instance there were lice in the camp and there were some cases . . .</u>
+                    <u who="#boderD" start="2135.270" end="x">Yes.</u>
+                    <u who="#feuerO" start="2135.680" end="x">Of . . . eh . . . spotted fever.</u>
+                    <u who="#boderD" start="2139.531" end="x">Yes.</u>
+                    <u who="#feuerO" start="2140.123" end="x">Spotted typhus.</u>
+                    <u who="#boderD" start="2141.228" end="x">Yes.</u>
+                    <u who="#feuerO" start="2142.695" end="x">The <term ref="#vothG_ss">SS</term> didn't care. The <term ref="#vothG_ss">SS</term> made the quarantine, you see?</u>
+                    <u who="#boderD" start="2146.938" end="x">Yes.</u>
+                    <u who="#feuerO" start="2147.711" end="x">They didn't care, what was going on in the camp. Yes? The prisoner had to get out of bed. [they] has to bury them, has to burn [??] them. You see?</u>
+                    <u who="#boderD" start="2155.908" end="x">Yes.</u>
+                    <u who="#feuerO" start="2156.681" end="x">The <term ref="#vothG_ss">SS</term> took care of it. The <term ref="#vothG_ss">SS</term> wouldn't . . .</u>
+                    <u who="#boderD" start="2160.049" end="x">. . . care to touch the . . .</u>
+                    <u who="#feuerO" start="2160.942" end="x">Wouldn't be in . . . inflicted.</u>
+                    <u who="#boderD" start="2162.982" end="x">Yes. Infected?</u>
+                    <u who="#feuerO" start="2164.539" end="x">Infected.</u>
+                    <u who="#boderD" start="2165.342" end="x">Yes.</u>
+                    <u who="#feuerO" start="2167.231" end="x">And that was . . . the prisoners . . . the <term ref="#vothG_ss">SS</term> didn't take care if there were . . . toilet and so on. If there were none, there were none.</u>
+                    <u who="#boderD" start="2179.654" end="x">Ah . . .</u>
+                    <u who="#feuerO" start="2180.396" end="x">. . . but if the prisoners, the prisoners took care . . . those prisoners took care, that we, we were [had] orders of prisoners, that every week, twice a week everybody was looked over for lice . . .</u>
+                    <u who="#boderD" start="2195.173" end="x">Hum.</u>
+                    <u who="#feuerO" start="2196.187" end="x">They had to pass this . . . this . . .</u>
+                    <u who="#boderD" start="2198.167" end="x">Did the prisoners have DDT?</u>
+                    <u who="#feuerO" start="2200.539" end="x">No, they had not. We had nothing. Everything . . . We had nothing no . . . no, no such a powder. It was . . . it is unimaginable that we in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . . in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> it was avoided..an epidemic . . .</u>
+                    <u who="#boderD" start="2217.891" end="x">Yes.</u>
+                    <u who="#feuerO" start="2218.388" end="x">But it was avoided. It was avoided because twice a week we made the so called, Lausecontrolle [louse check up] where everybody . . .</u>
+                    <u who="#boderD" start="2224.780" end="x">[word not clear, sounds like 'the prisoners themselves'?]</u>
+                    <u who="#feuerO" start="2225.700" end="x">Yes. Where everybody was checked when he . . . when he . . . when a louse was found he was completely shaved and he was bath and so on.</u>
+                    <u who="#boderD" start="2239.514" end="x">On your own initiavtive?</u>
+                    <u who="#feuerO" start="2240.765" end="x">Yes.</u>
+                    <u who="#boderD" start="2242.288" end="x">All right. Now . . . that is a very important point. Now tell me this . . . Well about [several words not clear]</u>
+                    <u who="#feuerO" start="2255.147" end="x">You ask . . . you ask me about what was to be done about not becoming a . . .</u>
+                    <u who="#boderD" start="2260.650" end="x">A <term ref="#vothG_trusty">trusty</term>.</u>
+                    <u who="#feuerO" start="2261.147" end="x">A <term ref="#vothG_trusty">trusty</term>, a <term ref="#vothG_blockalteste">Blockälteste</term>.</u>
+                    <u who="#boderD" start="2263.423" end="x">Yes.</u>
+                    <u who="#feuerO" start="2264.765" end="x">Well later, when those political prisoners [word not clear] had won, I have to tell you another story . . .</u>
+                    <u who="#boderD" start="2272.137" end="x">Go ahead.</u>
+                    <u who="#feuerO" start="2272.755" end="x">[note here the pitch of the reproduction spool becomes markedly higher. The equipment must have been sped up]. It is rather interesting, you know . . . I don't know if you know that, that two physicians in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . .</u>
+                    <u who="#boderD" start="2280.398" end="x">Yes.</u>
+                    <u who="#feuerO" start="2280.594" end="x">. . . physicians who had killed hundreds of us. I don't say thousands.</u>
+                    <u who="#boderD" start="2286.911" end="x">Now . . .</u>
+                    <u who="#feuerO" start="2287.107" end="x">[word not clear sounds like: 'that I know exactly']</u>
+                    <u who="#boderD" start="2290.710" end="x">Yes.</u>
+                    <u who="#feuerO" start="2292.233" end="x">They stayed in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, on their own will.</u>
+                    <u who="#boderD" start="2296.258" end="x">Yes.</u>
+                    <u who="#feuerO" start="2296.695" end="x">At ten o'clock in the morning there was the order: every <term ref="#vothG_ss">SS</term> man has to leave the camp.</u>
+                    <u who="#boderD" start="2306.901" end="x">Yes.</u>
+                    <u who="#feuerO" start="2307.429" end="x">And those <term ref="#vothG_ss">SS</term> physicians, they remained.</u>
+                    <u who="#boderD" start="2311.394" end="x">Were they arrested afterwards?</u>
+                    <u who="#feuerO" start="2313.007" end="x">Of course. We had them remain. We had them believe . . . when the Americans will come, oh, don't be afraid, we will tell them you have been fine to us.</u>
+                    <u who="#boderD" start="2322.037" end="x">Yes.</u>
+                    <u who="#feuerO" start="2322.534" end="x">They really believed us.</u>
+                    <u who="#boderD" start="2324.750" end="x">And then?</u>
+                    <u who="#feuerO" start="2325.549" end="x">Of course, later when they came heraus, we didn't kill them.</u>
+                    <u who="#boderD" start="2328.820" end="x">Yes.</u>
+                    <u who="#feuerO" start="2329.167" end="x">But we delivered them with all the records, we delivered them to the American authorities.</u>
+                    <u who="#boderD" start="2334.157" end="x">Do you know what happened to them?</u>
+                    <u who="#feuerO" start="2335.740" end="x">I don't know, there will be a trial, there was a trial for <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> and for . . . for <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>. I didn't yet hear about the <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> trial.</u>
+                    <u who="#boderD" start="2346.127" end="x">Are there . . . [??]</u>
+                    <u who="#feuerO" start="2346.594" end="x">But these [<term ref="#vothG_ss">SS</term>] were delivered to the <term ref="#vothG_ss">SS</term> authorities, [corrects himself] to the American authorities.</u>
+                    <u who="#boderD" start="2351.132" end="x">Can you explain this to me about <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, just a kind of a human question that sometimes my temperamental American friends ask. Why was it that when the liberation came and the Americans still did not have things in their hands, why did the prisoners behave so well? Why didn't they go out and say burn cities nearby and took rev . . . take revenge? [There is an interruption. Appparently some co-workers or subordinates of Mister Feuer at the office of the <term ref="#vothG_ajdc">Joint Distribution Committee</term> came in for instructions. However this also coincided with the end of the spool. —D.P.B.]</u>
+                    <u who="#boderD" start="2415.200" end="x">We continue on the next spool the interview with Mr. Feuer. We continue on the next spool with the interview of Mr. Feuer.</u>
+                    <!-- end spool 9-64 -->
+                    <!-- begin spool 9-65 -->
+                    <u who="#boderD" start="2434.304" end="x">This is Spool 65. <placeName ref="Paris">Paris</placeName>, August the 22nd, 1946. Mr. Feuer continues. Well, tell me, Mr. Feuer then . . . so . . . I had . . .</u>
+                    <u who="#feuerO" start="2450.350" end="x">You have asked me</u>
+                    <u who="#boderD" start="2452.114" end="x">Yes.</u>
+                    <u who="#feuerO" start="2452.702" end="x">. . . about the good behavior of the prisoners [both talk, several words not clear]</u>
+                    <u who="#boderD" start="2454.014" end="x">Yes. I am just . . . a question that I hear so often. How is it that the liberated prisoners behaved so well, did not get hold of arms, did not shoot the <term ref="#vothG_ss">SS</term>, did not go out and demolish the nearby towns like <placeName ref="Weimar">Weimar</placeName>, although I think the Air Corps, the Air Force has done that. What accounts for that decent behavior?</u>
+                    <u who="#feuerO" start="2486.321" end="x">You must know that [word not clear] that there were several groups of prisoners. Two groups, two great groups of prisoners. That means that one group of about 80% of the prisoners who have lived during the years or during the months which they have been in the concentration camps, during the starvation and so . . . any person [word not clear]</u>
+                    <u who="#boderD" start="2511.844" end="x">Yes.</u>
+                    <u who="#feuerO" start="2512.251" end="x">And they were only thinking . . . walk around to find some food.</u>
+                    <u who="#boderD" start="2519.140" end="x">Yes.</u>
+                    <u who="#feuerO" start="2519.487" end="x">And to have some [word not clear . . . treat??] . . . And that was all that they asked from . . . from the life. And they had no more any personal will [??] And there were about 20% of other prisoners, who still had something like a will, and still was . . . There was the underground movement in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. Now when die [these] were liberated it was not, it wasn't . . . it was not too difficult for us - I belonged to those 20%.</u>
+                    <u who="#boderD" start="2560.342" end="x">Hum.</u>
+                    <u who="#feuerO" start="2563.674" end="x">To martyr the 80%. They were doing what they were ordered to do.</u>
+                    <u who="#boderD" start="2568.634" end="x">Yes.</u>
+                    <u who="#feuerO" start="2569.162" end="x">. . . by us. Up to now it was the <term ref="#vothG_ss">SS</term> who had ordered them, and now it was we who ordered them. It was not to our interest.</u>
+                    <u who="#boderD" start="2576.866" end="x">Then why did . . . yes . . .</u>
+                    <u who="#feuerO" start="2578.027" end="x">It was not at all our interest, we didn't . . . we had dreamt of the vengeance for years.</u>
+                    <u who="#boderD" start="2583.650" end="x">Hum.</u>
+                    <u who="#feuerO" start="2583.891" end="x">And we had spoken about vengeance for years. There was not one <term ref="#vothG_appell">appell</term> in the evening or in the morning when we were not talking about . . . and we were always convinced, we were always convinced, that Germany would lose the war. We never had any doubt, never. We even had no doubt in 1940, we had no doubt, Germany must lose this war, and Germany will lose this war. We were not so much convinced that we would survive.</u>
+                    <u who="#boderD" start="2613.711" end="x">Yes.</u>
+                    <u who="#feuerO" start="2614.058" end="x">On the contrary. Most of us, and I was completely convinced that I would not survive.</u>
+                    <u who="#boderD" start="2619.621" end="x">Nu . . .</u>
+                    <u who="#feuerO" start="2620.450" end="x">But we were always speaking about the eventual . . . about an eventual vengeance. And we were not looking . . . we don't think that this was the right way to go out and to . . . kill now German children or kill German women, because they have killed Jewish children and Jewish women. We wanted . . . that our idea to have such trials . . . as <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>, as Nürenberg . . . But now, now of course it's all I could see . . . but that time we had another picture of those trials to be. We wanted [to] watch, we wanted, we wanted to watch to see those <term ref="#vothG_ss">SS</term> men moving. We did not want to kill them at once. Those <term ref="#vothG_ss">SS</term> men we wanted that they should have the same pain that we had. We don't . . . we want [word not clear] this is nothing, today is nothing, we were longing, we had time when we were longing [to do what??]<note n="21">Concentration camp prisoners often seethed with a desire for vengeance. However, the kind of retribution Feuer describes places him and others who sought to bring the perpetrators to trial in courts of law rather than killing them on the spot on a far higher moral and ethical plane than their oppressors. An American court tried twenty-one leading Buchenwald Nazis in 1947. Two were sentenced to death and four to life imprisonment.</note></u>
+                    <u who="#boderD" start="2674.647" end="x">Hum.</u>
+                    <u who="#feuerO" start="2675.446" end="x">There should, these should, at first we wanted them . . . the workers to see, and then of course the German people to see. Who guided the German people, who leaded the German people? And we wanted of course that the German people became aware of the full responsibility. Of course it's not only the Nazis who were responsible. It is the whole German people who knew about the concentration camps, and knew at any rate that they existed, and knew at any rate what was going on there, even not knowing the details [at the time??] when we were liberated. I . . . we were trying to find every <term ref="#vothG_ss">SS</term> man, and we . . . we . . . we . . . the Americans arrived about three hours late . . . after the Germans had given up the camp, and for three hours we were completely alone in the camp. And we already were looking around . . . we had arms, and we had arms always, we were looking around . . . <note n="22">The American forces did not have to shoot their way into Buchenwald. Before its liberation on April 11, 1945, the Germans had left, and the prisoner underground was in control of the facility. Unfortunately in the days before the liberation, thousands of prisoners had been shipped out of the camp, many of whom died from starvation, disease and exhaustion or were shot or beaten to death by the SS.</note></u>
+                    <u who="#boderD" start="2732.071" end="x">What do you mean you had arms always?</u>
+                    <u who="#feuerO" start="2734.287" end="x">We had . . . since . . . since '43 . . . were armed in the camp.</u>
+                    <u who="#boderD" start="2738.674" end="x">And what did you expect to do with it . . .</u>
+                    <u who="#feuerO" start="2741.885" end="x">We expected to defend ourselves. You don't know that when the order came that every <term ref="#vothG_ss">SS</term> man has to leave the camp, there were people around, outside of the camp, and were ready. And in this moment we counted that now they will try to exterminate the camp.</u>
+                    <u who="#boderD" start="2760.253" end="x">Oh.</u>
+                    <u who="#feuerO" start="2760.750" end="x">. . . the guards. For this moment we were prepared . . . to fight against the guard.</u>
+                    <u who="#boderD" start="2766.343" end="x">Yes.</u>
+                    <u who="#feuerO" start="2766.780" end="x">The guards.</u>
+                    <u who="#boderD" start="2767.187" end="x">But they didn't do that.</u>
+                    <u who="#feuerO" start="2767.896" end="x">They didn't do that now.</u>
+                    <u who="#boderD" start="2769.690" end="x">Yes.</u>
+                    <u who="#feuerO" start="2771.032" end="x">[words not clear, sound like 'we sent a message'] to the American army, that . . . to know, that the camp [word not clear] we had a transmitter, a radio transmitter in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and through the camp [word not clear - operator?] we sent a message SOS. We also had a reciever of course.</u>
+                    <u who="#boderD" start="2786.590" end="x">Yes.</u>
+                    <u who="#feuerO" start="2786.756" end="x">We had radio receivers and the . . .</u>
+                    <u who="#boderD" start="2788.640" end="x">I [?] mean secret, you mean secret receivers.</u>
+                    <u who="#feuerO" start="2790.675" end="x">Nu yes. And -</u>
+                    <u who="#boderD" start="2791.655" end="x">What kind of receivers were they? Crystal sets or what?</u>
+                    <u who="#feuerO" start="2795.258" end="x">No. Normal radios.</u>
+                    <u who="#boderD" start="2798.198" end="x">And the <term ref="#vothG_blockalteste">Blockälteste</term> didn't know?</u>
+                    <u who="#feuerO" start="2801.017" end="x">No. [about two sentences not clear. Sounds like:] There were normal radio sets. The <term ref="#vothG_ss">SS</term> listened to the German news. But we had within the camp, in secret places, in a secret place we had a radio which we always could use and the [word not clear] can use.</u>
+                    <u who="#boderD" start="2822.831" end="x">So you knew what was going on?</u>
+                    <u who="#feuerO" start="2825.047" end="x">Absolutely. And we were much more [informed?] The <term ref="#vothG_ss">SS</term> came sometimes to us, and to ask us. Some of the <term ref="#vothG_ss">SS</term> were quite conscious that we were better informed by our radios than theirs.</u>
+                    <u who="#boderD" start="2838.437" end="x">And the couldn't . . . didn't search, they couldn't find it?</u>
+                    <u who="#feuerO" start="2840.894" end="x">They couldn't find it. They had no possibilities to find it.</u>
+                    <u who="#boderD" start="2844.286" end="x">Why?</u>
+                    <u who="#feuerO" start="2845.206" end="x">Why? Because even within the camp there was a complete service administration. And then even [??] in those places it was not so . . . not so difficult to dig into a place a radio, it's not such a big thing and . . .</u>
+                    <u who="#boderD" start="2857.734" end="x">Why did they respect so much the <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> people?</u>
+                    <u who="#feuerO" start="2861.518" end="x">Who?</u>
+                    <u who="#boderD" start="2862.196" end="x">The <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#feuerO" start="2862.965" end="x">The <term ref="#vothG_ss">SS</term>? Because . . . oh . . . they didn't respect us . . . not exceptionally [???] . . .</u>
+                    <u who="#boderD" start="2866.689" end="x">Yes, but why did they take, . . . they had so much consideration? Why didn't they make selections in your place, and kill them off?</u>
+                    <u who="#feuerO" start="2873.337" end="x">No at that time in '44 and '45 <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was not an extermination camp. <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was a camp to work.</u>
+                    <u who="#boderD" start="2881.161" end="x">Yes.</u>
+                    <u who="#feuerO" start="2881.598" end="x">And <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was a great assembly camp . . . From <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> . . . in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> arrived always convoys coming from Poland, and from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> they were distributed to all the other camps in Germany.</u>
+                    <u who="#boderD" start="2893.462" end="x">Hum.</u>
+                    <u who="#feuerO" start="2893.462" end="x">So <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was an assembly for all . . . for all German concentration camps.<note n="23">Buchenwald was not the main assembly point for all other concentration camps. What Feuer might be describing here is that in 1944-'45, owing to the advances of the Red army, thousands of prisoners including many Jews were transferred from camps in the East to Buchenwald. Some remained in the main camp, and others were sent to one of Buchenwald's many satellite camps such as Ohrdruf, which was visited by General Eisenhower and leading Congressional dignitaries.</note></u>
+                    <u who="#boderD" start="2899.537" end="x">Yes.</u>
+                    <u who="#feuerO" start="2900.607" end="x">And <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was not a camp to exterminate people. People - anybody, a Jew - his duty was to do his utmost in working for Germany. And then if he dies while working, well it's O.K. But in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> itself they didn't exterminate.</u>
+                    <u who="#boderD" start="2919.088" end="x">And the selections at <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#feuerO" start="2920.550" end="x">That was at <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="2921.952" end="x">And . . .</u>
+                    <u who="#feuerO" start="2922.269" end="x">That was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="2923.249" end="x">Yes. But you spoke about the . . . the responsible <term ref="#vothG_trusty">trusties</term> who had to make the selection.</u>
+                    <u who="#feuerO" start="2928.299" end="x">[several words not clear] That has nothing to do. That was in '42. [several words not clear]</u>
+                    <u who="#boderD" start="2932.445" end="x">[several words not clear]</u>
+                    <u who="#feuerO" start="2933.274" end="x">That had to do with selection . . . at that time we didn't yet get frightened [??] There was not yet <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> at that time.</u>
+                    <u who="#boderD" start="2942.364" end="x">Hum.</u>
+                    <u who="#feuerO" start="2942.711" end="x">And then when <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> already was . . . but there was not yet the gas chambers [several words not clear] We didn't quite know. We only were concious that during all the time we were in concentration camps we were always . . . afraid [??] to be unable to work.</u>
+                    <u who="#boderD" start="2961.676" end="x">So -</u>
+                    <u who="#feuerO" start="2961.962" end="x">That we were always -</u>
+                    <u who="#boderD" start="2963.545" end="x">Yes.</u>
+                    <u who="#feuerO" start="2964.103" end="x">It was always very, very dangerous.</u>
+                    <u who="#boderD" start="2967.013" end="x">Hum.</u>
+                    <u who="#feuerO" start="2967.752" end="x">Never. In this first selection in 1942, it was dangerous to be . . .</u>
+                    <u who="#boderD" start="2976.963" end="x">Yes.</u>
+                    <u who="#feuerO" start="2977.099" end="x">-under those who were non able to work.</u>
+                    <u who="#boderD" start="2979.617" end="x">Yes.</u>
+                    <u who="#feuerO" start="2980.808" end="x">Nevertheless the prisoners had to assign a certain amount, about four hundred peopl . . .</u>
+                    <u who="#boderD" start="2986.491" end="x">In <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#feuerO" start="2986.868" end="x">. . . in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. Of course the <term ref="#vothG_ss">SS</term> . . . at that time the <term ref="#vothG_ss">SS</term> made it; but the prisoners were able to change in . . . in . . . in . . . several cases [several words not clear] to change the list.</u>
+                    <u who="#boderD" start="2999.931" end="x">Tell me this . . . These two doctors who were giving injections . . .</u>
+                    <u who="#feuerO" start="3007.755" end="x">Hum.</u>
+                    <u who="#boderD" start="3009.187" end="x">Lethal injections to people, in connection with what did they do that?</u>
+                    <u who="#feuerO" start="3013.453" end="x">It was ordered by the <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="3016.031" end="x">To do what?</u>
+                    <u who="#feuerO" start="3017.976" end="x">To kill people.</u>
+                    <u who="#boderD" start="3019.107" end="x">Which? The weak ones?</u>
+                    <u who="#feuerO" start="3021.202" end="x">That was a special kind of people, and it was several special kinds of people.</u>
+                    <u who="#boderD" start="3026.493" end="x">For instance?</u>
+                    <u who="#feuerO" start="3028.166" end="x">For instance. There were Russian officers.</u>
+                    <u who="#boderD" start="3031.618" end="x">Yes.</u>
+                    <u who="#feuerO" start="3031.995" end="x">Who were killed this way. Or Russian soldiers.<note n="24">The Nazis treated Russian prisoners of war horribly. They were considered subhuman and bearers of the "virus of Bolshevism." Most Soviet prisoners of war sent to Buchenwald were murdered soon after arrival.</note></u>
+                    <u who="#boderD" start="3036.955" end="x">Yes.</u>
+                    <u who="#feuerO" start="3037.784" end="x">And we don't know why these Russian soldiers. Of some we knew it were Russian officers, people of the French Resistance.</u>
+                    <u who="#boderD" start="3046.452" end="x">Yes.</u>
+                    <u who="#feuerO" start="3046.919" end="x">. . . some Jews - and we never knew - there was an incident . . . up to now we don't know what was the reason for it. In '43 . . . at that time there were only one hundred and seventy Jews in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and they all were masons, and that is why they have stayed in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, and they were not sent in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> - to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. In '43 it was the Jews who have built up the great [word not clear - sounds like Gussbetrieb - smelters or Gustoff Werke] the factories, it was Jews, they have been . . .</u>
+                    <u who="#boderD" start="3075.789" end="x">The <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> Werke (works)</u>
+                    <u who="#feuerO" start="3076.829" end="x">Thanks to Mauerer - to masons . . .</u>
+                    <u who="#boderD" start="3080.161" end="x">Yes.</u>
+                    <u who="#feuerO" start="3080.719" end="x">They were masons. They were very good masons, very efficient masons.</u>
+                    <u who="#boderD" start="3085.528" end="x">Yes. [word not clear]</u>
+                    <u who="#feuerO" start="3087.171" end="x">When somebody came to visit the camp, I remember [??] this, the commander of the camp, he showed the factory and he told the high German generals, a German general who told it; 'you see, that is all my Jews who have built this'.</u>
+                    <u who="#boderD" start="3102.572" end="x">Yes. Were they Freimaurer?</u>
+                    <u who="#feuerO" start="3105.391" end="x">No . . . no . . .</u>
+                    <u who="#boderD" start="3106.371" end="x">Oh, you called them masons because the were artisan-masons.</u>
+                    <u who="#feuerO" start="3109.401" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="3109.838" end="x">You see, I understood masons in the sense of Freimaurer.<note n="25">Boder here means Freemasons, members of the international Masonic order that was considered by the Nazis to be an enemy of the Third Reich.</note></u>
+                    <u who="#feuerO" start="3112.506" end="x">No, no.</u>
+                    <u who="#boderD" start="3114.662" end="x">So they were experienced . . .</u>
+                    <u who="#feuerO" start="3116.305" end="x">No, they were experienced masons . . . [several words not clear]</u>
+                    <u who="#boderD" start="3119.094" end="x">. . . and they built a house . . .</u>
+                    <u who="#feuerO" start="3119.953" end="x">. . . they built factories.</u>
+                    <u who="#boderD" start="3121.807" end="x">Yes.</u>
+                    <u who="#feuerO" start="3123.752" end="x">. . . in the summer '43, the factories had been built. And without any reason, some Jews, the names of some Jews were written down when working, under the pretext - they have been late.</u>
+                    <u who="#boderD" start="3140.749" end="x">Yes.</u>
+                    <u who="#feuerO" start="3141.910" end="x">The next day they got twenty-five strokes with a club.</u>
+                    <u who="#boderD" start="3146.357" end="x">Each one?</u>
+                    <u who="#feuerO" start="3147.277" end="x">Each one, and then . . .</u>
+                    <u who="#boderD" start="3148.950" end="x">When, during the <term ref="#vothG_appell">Appell</term>?</u>
+                    <u who="#feuerO" start="3150.563" end="x">No, after the <term ref="#vothG_appell">Appell</term>, after the evening <term ref="#vothG_appell">Appell</term>, and then they were sent to the hospital.</u>
+                    <u who="#boderD" start="3157.030" end="x">To the infirmary.</u>
+                    <u who="#feuerO" start="3158.131" end="x">. . . to the infirmary, and there they got the deadly injection . . . by one of those . . .</u>
+                    <u who="#boderD" start="3163.648" end="x">Physicians.</u>
+                    <u who="#feuerO" start="3164.025" end="x">Physicians.</u>
+                    <u who="#boderD" start="3167.688" end="x">And you think it was what? An experiment?</u>
+                    <u who="#feuerO" start="3169.934" end="x">No, it wasn't an experiment. It is . . . as far as we know, it was only the person who was hated [by Lange??] the leader of the camp. [several words not clear]<note n="26">In fact there were a number of barbaric medical experiments that took place at Buchenwald using human beings. They were undertaken with the cooperation of the German armed services and various German firms such as I.G. Farben and the Behring works. SS doctors conducted tests with typhus, yellow fever, smallpox, cholera, diptheria, chemical warfare agents, phosphorus-rubber substances from incendiary bombs, poisoned ammunition, blood too old to be used on "normal patients" and other pathogens. Most subjects of these experiments died agonizing deaths. The most infamous of the experiments dealt with typhus in which hundreds infected with the disease perished. Since the method of the injection was later shown to be unscientific, the medical value of these tests was useless.</note></u>
+                    <u who="#boderD" start="3182.100" end="x">Hated whom?</u>
+                    <u who="#feuerO" start="3183.351" end="x">Hatred against the Jews.</u>
+                    <u who="#boderD" start="3185.326" end="x">Hum . . .</u>
+                    <u who="#feuerO" start="3185.552" end="x">So if he wanted . . . he picked up some . . . One day he had picked up five young jews who were very good masons.</u>
+                    <u who="#boderD" start="3194.341" end="x">Meaning construction workers?</u>
+                    <u who="#feuerO" start="3196.587" end="x">Construction workers.</u>
+                    <u who="#boderD" start="3197.265" end="x">When you say to an American, a mason.</u>
+                    <u who="#feuerO" start="3199.783" end="x">It is a Free-mason.</u>
+                    <u who="#boderD" start="3200.944" end="x">It is Freimaurer.</u>
+                    <u who="#feuerO" start="3202.949" end="x">I now know [??] A construction worker.</u>
+                    <u who="#boderD" start="3206.100" end="x">Yes.</u>
+                    <u who="#feuerO" start="3207.713" end="x">Well. And they were very strong, and . . . they were very good at work [??] and those five . . . their names were written down . . . and they got about their twenty . . . about fifteen strokes, at that time those numbered only fifteen [??] they were sent to the hospital, and there they got the deadly injection. [about 5-7 words not clear] the last [word not clear] they had already the injection in the arm. And they knew what was going on. And they told a comrade who [??] passed at the window, with the possibility to see them . . .</u>
+                    <u who="#boderD" start="3237.910" end="x">Yes.</u>
+                    <u who="#feuerO" start="3238.468" end="x">One of them told him - I can only tell you in German.</u>
+                    <u who="#boderD" start="3244.483" end="x">Yes.</u>
+                    <u who="#feuerO" start="3244.800" end="x">'Ich habe jetzt zwei liter haferflocken gegessen, süss wie zucker' [I have just eaten two liters of oatflakes. Sweet as sugar]</u>
+                    <u who="#boderD" start="3250.091" end="x">Nu.</u>
+                    <u who="#feuerO" start="3250.468" end="x">'Und die haben mir so gut geschmackt; sie sind ja auch so gesund' [and they were so delicious, they are so good for one's health] . . . You know what . . . ?</u>
+                    <u who="#boderD" start="3257.960" end="x">Wer hat das gesagt? [Who said that?]</u>
+                    <u who="#feuerO" start="3258.910" end="x">[continues in German] The man who had the injection in the arm, was not to live within an hour.</u>
+                    <u who="#boderD" start="3264.171" end="x">Ja.</u>
+                    <u who="#feuerO" start="3264.849" end="x">[in English] You know what that is - cynic?</u>
+                    <u who="#boderD" start="3267.156" end="x">What?</u>
+                    <u who="#feuerO" start="3267.895" end="x">Cynicism.</u>
+                    <u who="#boderD" start="3268.965" end="x">Ja.</u>
+                    <u who="#feuerO" start="3270.156" end="x">Er hat gesagt: 'Ich habe jetzt zwei liter Hafterflocken..!' [I have just eaten two liters of oatflakes] . . .</u>
+                    <u who="#boderD" start="3273.216" end="x">Yes.</u>
+                    <u who="#feuerO" start="3273.744" end="x">' . . . sie haben mir wunderbar geschmeckt' [they were so delicious]</u>
+                    <u who="#boderD" start="3275.327" end="x">Haferflocken waren eine suppe? [oatflakes were a soup?]</u>
+                    <u who="#feuerO" start="3276.488" end="x">Haferflocken were a nicer . . . die [word not clear] Suppe, es war eine besondere Suppe [it was a special soup]</u>
+                    <u who="#boderD" start="3279.277" end="x">Yes.</u>
+                    <u who="#feuerO" start="3279.774" end="x">Eine gute Suppe [a good soup]</u>
+                    <u who="#boderD" start="3282.352" end="x">[apparently translates] Two liters of flake soup.</u>
+                    <u who="#feuerO" start="3288.096" end="x">Yes.</u>
+                    <u who="#boderD" start="3288.684" end="x">And I feel wonderful.</u>
+                    <u who="#feuerO" start="3290.448" end="x">[word not clear] and I feel wonderful.</u>
+                    <u who="#boderD" start="3294.262" end="x">Don't you think that the injection may have had that kind of [effect]</u>
+                    <u who="#feuerO" start="3296.840" end="x">No, no, no. The same evening, I can tell you I met a Jew . . .</u>
+                    <u who="#boderD" start="3301.016" end="x">Ja.</u>
+                    <u who="#feuerO" start="3301.544" end="x">That same evening, there was a new prisoner.</u>
+                    <u who="#boderD" start="3305.961" end="x">Ja.</u>
+                    <u who="#feuerO" start="3306.368" end="x">A Jew of about sixty years.</u>
+                    <u who="#boderD" start="3308.072" end="x">Ja.</u>
+                    <u who="#feuerO" start="3309.715" end="x">You must realize that at this time we were all convinced, the only logical conclusion we could make was - it was now the time they wanted to exterminate all of us.</u>
+                    <u who="#boderD" start="3319.017" end="x">Yes.</u>
+                    <u who="#feuerO" start="3319.484" end="x">We were all convinced, now the time is come, it was summer '43.</u>
+                    <u who="#boderD" start="3323.569" end="x">Yes.</u>
+                    <u who="#feuerO" start="3324.308" end="x">We were convinced now [words not clear] we were all convinced . . .</u>
+                    <u who="#boderD" start="3326.705" end="x">Why didn't you rebel then? Why wasn't there a fight then?<note n="27">The question regarding the supposed lack of resistance on the part of the victims is asked again and again. It is answered by Elie Wiesel who wrote, "The question is not why there was not more resistance. The question is how so many found the strength to resist at all."</note></u>
+                    <u who="#feuerO" start="3330.007" end="x">How . . . how do you want us to rebel?</u>
+                    <u who="#boderD" start="3331.047" end="x">[several words not clear]</u>
+                    <u who="#feuerO" start="3331.756" end="x">We were hundred and seventy Jews. Arms? How can you fight them - with a revolver. Against machine guns, flame throwers.</u>
+                    <u who="#boderD" start="3340.605" end="x">Ja.</u>
+                    <u who="#feuerO" start="3341.193" end="x">. . . against . . . do you know, how . . . do you know the towers of <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>? How the towers . . . with the machine guns, with armored [word not clear] with flame throwers . . .</u>
+                    <u who="#boderD" start="3350.766" end="x">Yes?</u>
+                    <u who="#feuerO" start="3351.396" end="x">How do you want us to fight?</u>
+                    <u who="#boderD" start="3353.646" end="x">Hum.</u>
+                    <u who="#feuerO" start="3354.246" end="x">We had no possibility to make a real fight, to . . . ha . . . before we could approach, we would have been killed.</u>
+                    <u who="#boderD" start="3361.386" end="x">Ja. Was it surrounded with electric wire?</u>
+                    <u who="#feuerO" start="3364.896" end="x">Of course it was surrounded with electric wire.</u>
+                    <u who="#boderD" start="3365.946" end="x">Were there cases of suicide at the electric wire?</u>
+                    <u who="#feuerO" start="3368.736" end="x">Of course there were.</u>
+                    <u who="#boderD" start="3369.876" end="x">Often? Many?</u>
+                    <u who="#feuerO" start="3372.036" end="x">Not too much. No, no . . . the will to live. There were not too much compared with all the things there were not . . . too much suicides in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>. People wanted to live. With all this they wanted to live. They could no more go, they could no more march, but they wanted to live. They didn't want to stie [correcting himself] to die [a slip of the tongue apparently a fusion of the st from the word sterben meaning die, and the English word die]<note n="28">Despite the horrendous conditions in the camp, the will to live that Feuer refers to should be understood as a form of resistance. Armed resistance, as he indicates, was suicidal, but prisoners could and did engage in moral, psychological and spiritual resistance.</note></u>
+                    <u who="#boderD" start="3391.266" end="x">Could you tell me what did they call a <term ref="#vothG_mussulman">Mussulman</term>?</u>
+                    <u who="#feuerO" start="3394.116" end="x">A <term ref="#vothG_mussulman">Mussulman</term>? That is somebody who is unable to work.</u>
+                    <u who="#boderD" start="3399.486" end="x">And what . . .</u>
+                    <u who="#feuerO" start="3399.996" end="x">Who is unable to work, who is no more able to march, ride . . . and to run no more, and no more to behave . . .</u>
+                    <u who="#boderD" start="3408.726" end="x">Yes.</u>
+                    <u who="#feuerO" start="3408.996" end="x">. . . how he has to behave in this concentration camp - he was called a <term ref="#vothG_mussulman">Mussulman</term>.</u>
+                    <u who="#boderD" start="3412.026" end="x">An emaciated person . . .</u>
+                    <u who="#feuerO" start="3413.496" end="x">Yes.</u>
+                    <u who="#boderD" start="3414.186" end="x">Now tell me, have you an idea, what is the philology of the word? Where does it come from?</u>
+                    <u who="#feuerO" start="3420.666" end="x"><term ref="#vothG_mussulman">Mussulman</term> that is of course . . . it is . . . you know . . .</u>
+                    <u who="#boderD" start="3423.350" end="x">You think it means a <term ref="#vothG_mussulman">Mussulman</term>, a Mohammedan . . .</u>
+                    <u who="#feuerO" start="3425.990" end="x">Of course . . . yes.</u>
+                    <u who="#boderD" start="3427.550" end="x">Now why would they give such a name? [a pause] Did you never talk about it, did it never occure to you to get, so to say, the semantics of the word?</u>
+                    <u who="#feuerO" start="3440.330" end="x">But it is quite sure that this is the origin of the word.</u>
+                    <u who="#boderD" start="3444.740" end="x">Ja.</u>
+                    <u who="#feuerO" start="3445.160" end="x">They had this picture, the German had this picture, the <term ref="#vothG_mussulman">Mussulman</term> is quite strange to the German.</u>
+                    <u who="#boderD" start="3449.720" end="x">Yes.</u>
+                    <u who="#feuerO" start="3450.290" end="x">You see. And this picture was created by German . . . by Germans. By German prisoners.</u>
+                    <u who="#boderD" start="3455.240" end="x">Yes.</u>
+                    <u who="#feuerO" start="3455.990" end="x">Or by German <term ref="#vothG_ss">SS</term> even. But it is . . . the imagination of a <term ref="#vothG_mussulman">Mussulman</term> is so strange to a German. Somebody who has a particular hat on his head.</u>
+                    <u who="#boderD" start="3468.620" end="x">Yes.</u>
+                    <u who="#feuerO" start="3468.890" end="x">And to have [several words not clear] and that is a <term ref="#vothG_mussulman">Mussulman</term>. And you know we had our hats, our caps and so on, might be that this was some like this.</u>
+                    <u who="#boderD" start="3483.320" end="x">Now, tell me, I have still this other question. You started telling me something about the character of the <term ref="#vothG_capo">capos</term>. You said that before. What were they? You say, not all of them were criminals?<note n="29">As Mr. Feuer shows, not even the capos (the foremen of various camp work details) can be stereotyped.</note></u>
+                    <u who="#feuerO" start="3500.810" end="x">Not all of them were criminals. [were] some of them, and a little amount of them were very good people. But you must, you must see the cause [??] . . . They were simple prisoners, never can . . . I couldn't understand that time [??] and I was kicked enough . . .</u>
+                    <u who="#boderD" start="3522.560" end="x">Ja.</u>
+                    <u who="#feuerO" start="3523.100" end="x">But I am quite sure, that . . . I remember one thing, when an <term ref="#vothG_ss">SS</term> man was looking for me . . .</u>
+                    <u who="#boderD" start="3528.110" end="x">Yes.</u>
+                    <u who="#feuerO" start="3528.380" end="x">And was trying to, to ill treat me, to strike me and so on, that the <term ref="#vothG_capo">capo</term> came and began to chase me, and began to cry - you lousy Jew, and so on. Was?Willst du machen dass du weg kommst. [get out of here] But by doing that, he chased me away.</u>
+                    <u who="#boderD" start="3545.750" end="x">Yes.</u>
+                    <u who="#feuerO" start="3546.290" end="x">And then I . . . I was liberated from the <term ref="#vothG_ss">SS</term> man.<note n="30">Some capos used mimicry of SS methods while in the presence of their superiors in order to save lives.</note></u>
+                    <u who="#boderD" start="3550.400" end="x">Aha.</u>
+                    <u who="#feuerO" start="3551.450" end="x">You see.</u>
+                    <u who="#boderD" start="3552.320" end="x">Ja.</u>
+                    <u who="#feuerO" start="3552.650" end="x">And that of course a simple prisoner . . . and I at that time, I couldn't understand. The simple prisoner could never understand . . . why the <term ref="#vothG_capo">capo</term> ist so, and why the <term ref="#vothG_capo">capo</term> ist so. I won't I won't excuse all of them . . .</u>
+                    <u who="#boderD" start="3567.020" end="x">Nu . . . Ja.</u>
+                    <u who="#feuerO" start="3567.590" end="x">There is . . . at least half of them really were criminals, who really did all this work for . . . to have some more bread [word not clear] to have this power, to have the position and to have - don't be forced to work and so on.</u>
+                    <u who="#boderD" start="3580.460" end="x">Ja. [pause] Mr. Feuer . . . Mr. Feuer, there is another question that I can not ask the other people. What do you know about the whole sex situation in the camps. First of all, how did the treat women prisoners. You have interviewed here people, here and there, and so to what extent were the women sexually abused, or not sexually abused?</u>
+                    <u who="#feuerO" start="3635.569" end="x">In reality I never learned that, for instance, [that] a Jewish woman has been abused by an <term ref="#vothG_ss">SS</term> man, in the concentration camps.</u>
+                    <u who="#boderD" start="3647.209" end="x">You have not heard?</u>
+                    <u who="#feuerO" start="3648.109" end="x">I have not heard about it . . . that Jewish women, of course in Poland . . .</u>
+                    <u who="#boderD" start="3655.939" end="x">Yes?</u>
+                    <u who="#feuerO" start="3656.629" end="x">But not in the concentration camps. They have been abused by <term ref="#vothG_ss">SS</term> men, but not in the concentration camps. I was sure that the <term ref="#vothG_ss">SS</term> were influential [??]</u>
+                    <u who="#boderD" start="3668.329" end="x">What?</u>
+                    <u who="#feuerO" start="3669.799" end="x">. . . there was greater punishment by the <term ref="#vothG_ss">SS</term> . . . it was against . . . this was against . . .</u>
+                    <u who="#boderD" start="3675.409" end="x">This was against the law . . .</u>
+                    <u who="#feuerO" start="3676.969" end="x">. . . against German racial law . . .</u>
+                    <u who="#boderD" start="3679.369" end="x">Oh, it was against the racial laws?</u>
+                    <u who="#feuerO" start="3681.259" end="x">It was against the racial laws?</u>
+                    <u who="#boderD" start="3682.489" end="x">Promiscuous sex relations?</u>
+                    <u who="#feuerO" start="3684.559" end="x">Of course.</u>
+                    <u who="#boderD" start="3685.519" end="x">You mean to say, if there were a Jew . . .</u>
+                    <u who="#feuerO" start="3687.559" end="x">. . . a Jew, a Jew could have been prosecuted in Germany before the war, in 1936 or seven. Before the war there was this law of Rassenshande.<note n="31">The second of the two Nuremberg laws, the Law for the Protection of German Blood and Honor, issued on September 15, 1935, prohibited marriages and extra marital intercourse between Jews and Germans. </note></u>
+                    <u who="#boderD" start="3698.659" end="x">Yes. But didn't that mean that they should not have children?</u>
+                    <u who="#feuerO" start="3702.649" end="x">No, no . . . that was even sexual intercourse between a Jew and a prostitute. He was . . . he was condemned to . . . to prison . . . to . . . two years, three years even when having sexual intercourse with a prostitute . . .</u>
+                    <u who="#boderD" start="3718.069" end="x">With an <term ref="#vothG_aryan">Aryan</term> prostitute . . .</u>
+                    <u who="#feuerO" start="3719.299" end="x">With an <term ref="#vothG_aryan">Aryan</term> prostitute. And even German have been prosecuted, and have been prosecuted because having intercourse with a Jewish, with a Jewish girl . . .</u>
+                    <u who="#boderD" start="3732.229" end="x">Yes. Were then the Polish women and the others differently treated? They say they had the brothels for the officers?</u>
+                    <u who="#feuerO" start="3740.629" end="x">[several words not clear] Of course the had brothels for the officers.</u>
+                    <u who="#boderD" start="3744.109" end="x">And who were they?</u>
+                    <u who="#feuerO" start="3745.129" end="x">It was no Jewish women. Women of all nations but no Jewish women.</u>
+                    <u who="#boderD" start="3751.099" end="x">Deportees?</u>
+                    <u who="#feuerO" start="3752.059" end="x">Yes.</u>
+                    <u who="#boderD" start="3752.899" end="x">women deportees.</u>
+                    <u who="#feuerO" start="3753.979" end="x">Deportees too . . .</u>
+                    <u who="#boderD" start="3755.269" end="x">What did the tell about the brothel in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>?</u>
+                    <u who="#feuerO" start="3759.589" end="x">This brothel in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> was created in autumn '43 some words sound like Germanic Club, or one o'clock and at the assembly, after an <term ref="#vothG_appell">Appell</term> at two o'clock or about one o'clock . . .</u>
+                    <u who="#boderD" start="3774.649" end="x">Nun?</u>
+                    <u who="#feuerO" start="3775.729" end="x">Nun at one o'clock, and the <term ref="#vothG_ss">SS</term> commander of the camp declared to the prisoners, the brothel is open and the prisoners can begin "their work" - "can begin their work, ja" [??]</u>
+                    <u who="#boderD" start="3788.269" end="x">Can begin - you mean . . .</u>
+                    <u who="#feuerO" start="3789.589" end="x">. . . "their work"</u>
+                    <u who="#boderD" start="3790.189" end="x">Under what conditions?</u>
+                    <u who="#feuerO" start="3791.839" end="x">It was only for Germans . . .</u>
+                    <u who="#boderD" start="3793.999" end="x">Yes.</u>
+                    <u who="#feuerO" start="3794.689" end="x">There were sixteen women at that time in the brothel. So he had to make an application to the <term ref="#vothG_blockalteste">Blockälteste</term>.</u>
+                    <u who="#boderD" start="3803.659" end="x">Who had to make an application?</u>
+                    <u who="#feuerO" start="3805.279" end="x">The prisoners. The interested person . . . an application to the <term ref="#vothG_blockalteste">Blockälteste</term>, who forwarded it to the Aberstatistik.</u>
+                    <u who="#boderD" start="3814.249" end="x">Yes.</u>
+                    <u who="#feuerO" start="3814.939" end="x">And then he got an invitation from the Aberstatistik [?] some day later to show up in the hospital in the [word not clear] where he passed a medical visit.</u>
+                    <u who="#boderD" start="3826.249" end="x">Yes, examination . . .</u>
+                    <u who="#feuerO" start="3827.359" end="x">Exaination, and then he got a clear [?] ticket to go to the brothel where he had to pasy one mark. We got in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> Lagermark -</u>
+                    <u who="#boderD" start="3840.379" end="x">Yes, that was . . . yes . . .</u>
+                    <u who="#feuerO" start="3842.929" end="x">And he had to pay for it, and then he could use a woman, he couldn't [?] have his choice, his choice . . . when the woman was too weak . . .</u>
+                    <u who="#boderD" start="3853.579" end="x">Yes.</u>
+                    <u who="#feuerO" start="3854.899" end="x">And at any rate . . . he would have to take another woman, and of course that meant [here apparently the interview was interrupted for some reason possibly by some co-worker of Mr. Feuer]</u>
+                    <u who="#boderD" start="3863.239" end="x">Well you said he could go over and then . . .</u>
+                    <u who="#feuerO" start="3866.869" end="x">He then, of course the <term ref="#vothG_ss">SS</term> man, one <term ref="#vothG_ss">SS</term> man was on duty of the brothel, and he took care that nobody stay too long with his girl there. There was a recognized [word not clear]</u>
+                    <u who="#boderD" start="3879.889" end="x">Yes.</u>
+                    <u who="#feuerO" start="3881.929" end="x">Of course most of the political prisoners tried not with complete success, but at any rate tried to boycott the brothel.</u>
+                    <u who="#boderD" start="3891.529" end="x">Yes, who were the women.</u>
+                    <u who="#feuerO" start="3893.539" end="x">The women, the women, were deportees of the . . . of a women's concentration camp.</u>
+                    <u who="#boderD" start="3898.099" end="x">Yes.</u>
+                    <u who="#feuerO" start="3898.699" end="x">. . . who have been asked to volunteer for it.</u>
+                    <u who="#boderD" start="3902.479" end="x">They volunteered. What were they given in exchange?</u>
+                    <u who="#feuerO" start="3903.859" end="x">They were given - they had not to work.</u>
+                    <u who="#boderD" start="3907.879" end="x">Not to work. Were they given better food?</u>
+                    <u who="#feuerO" start="3910.039" end="x">They got better food. Yes. They got the same food . . . they got the same food as the <term ref="#vothG_ss">SS</term>.</u>
+                    <u who="#boderD" start="3915.229" end="x">Yes. Were the <term ref="#vothG_ss">SS</term> also using the same place?</u>
+                    <u who="#feuerO" start="3919.849" end="x">There was one [word not clear] Lagerführer Gust who was in this place always in this place and who had a sweetheart in this place, a very interesting story with this sweetheart.</u>
+                    <u who="#boderD" start="3929.029" end="x">Yes.</u>
+                    <u who="#feuerO" start="3930.109" end="x">She furnished the camp with a lot of informations.</u>
+                    <u who="#boderD" start="3933.499" end="x">What kind? [??]</u>
+                    <u who="#feuerO" start="3934.549" end="x">. . . from [?] this girl, which she drew out of the Lagerführer.</u>
+                    <u who="#boderD" start="3938.899" end="x">Yes. And why . . . if he was the Lagerführer, how happened it that he couldn't take her out and keep her for himself.</u>
+                    <u who="#feuerO" start="3946.129" end="x">Because this woman was a deportee and she was assigned to this . . . to this brothel.</u>
+                    <u who="#boderD" start="3951.469" end="x">Yes.</u>
+                    <u who="#feuerO" start="3951.919" end="x">So he couldn't, he couldn't take her [several words not clear] He was not so much interested. You see he was a perverted man who found an interest to have such a woman.</u>
+                    <u who="#boderD" start="3962.749" end="x">Yes.</u>
+                    <u who="#feuerO" start="3963.619" end="x">Well the story I wanted to tell you.</u>
+                    <u who="#boderD" start="3965.839" end="x">Yes.</u>
+                    <u who="#feuerO" start="3966.589" end="x">Of course most of the prisoners who visited the camp [corrects himself] who visited the brothel, who visited . . . were political . . . [corrects himself] were criminal prisoners.</u>
+                    <u who="#boderD" start="3976.789" end="x">Yes.</u>
+                    <u who="#feuerO" start="3978.529" end="x">Well this story went around in the whole camp.</u>
+                    <u who="#boderD" start="3981.859" end="x">Yes.</u>
+                    <u who="#feuerO" start="3982.549" end="x">Starting with the beginning of the autumn of '43 we have got the permission to receive packages . . . food packages . . .</u>
+                    <u who="#boderD" start="3991.729" end="x">Yes.</u>
+                    <u who="#feuerO" start="3992.299" end="x">And those German criminal prisoners . . .</u>
+                    <u who="#boderD" start="3994.609" end="x">Yes.</u>
+                    <u who="#feuerO" start="3994.849" end="x">[word not clear] From relatives, - and of course had some relatives in Germany, and they got food packages. Now one of this prisoners has got a cookie.</u>
+                    <u who="#boderD" start="4002.799" end="x">A what?</u>
+                    <u who="#feuerO" start="4003.909" end="x">A cookie . . .</u>
+                    <u who="#boderD" start="4004.809" end="x">Yes . . . a cake . . .</u>
+                    <u who="#feuerO" start="4007.569" end="x">A cake, and of course everybody of those who frequented the brothel wanted to bring something special to his "sweetheart' to have some nice minutes.</u>
+                    <u who="#boderD" start="4021.129" end="x">Yes.</u>
+                    <u who="#feuerO" start="4021.909" end="x">And he brought this cake.</u>
+                    <u who="#boderD" start="4025.359" end="x">Yes.</u>
+                    <u who="#feuerO" start="4025.689" end="x">[several words not clear] He made his application, and [several words not clear] he went to the brothel, and he brought this cake to this woman. After having finished, he came back to us. It was Sunday and nobody worked, and he came back to his barracks[??] and sat down at this table. And then . . . he was doing nothing, and about a half an hour later one of his comrades entered the [word not clear] <term ref="#vothG_block">block</term>, seated himself at the same desk, and he had a little parcel and he began to take out this parcel and it was this cake.</u>
+                    <u who="#boderD" start="4065.334" end="x">Yes.</u>
+                    <u who="#feuerO" start="4066.234" end="x">Which one of the [word not clear] criminals has brought to the woman.</u>
+                    <u who="#boderD" start="4070.314" end="x">Yes.</u>
+                    <u who="#feuerO" start="x" end="x">[repeats the same, not clear word as in the previous sentence, sounds like was] which she has given to the other comrade. He was now . . . the prisoner could now see how this comrade was eating cookie . . . [several words not clear]</u>
+                    <u who="#boderD" start="4080.874" end="x">Yes. Why did she give it away?</u>
+                    <u who="#feuerO" start="4084.324" end="x">[several words not clear] She was in love with this guy.</u>
+                    <u who="#boderD" start="4088.674" end="x">She was in love with this guy - so she gave him away the cake that the other had brought. Well . . .</u>
+                    <u who="#feuerO" start="4094.044" end="x">He was [a case of] strictly ignored love. The prisoners who have been for years, and years and years, and of German origninal became . . . because afterwards so-called Ehrenhäftlings . . .<note n="32">Literally, "true prisoners." They had a higher status than the more recent arrivals due to the positions they occupied in the camp prisoner hierarchy and the increased chances for survival these positions could secure. It should be noted that the most prominent prisoners in Buchenwald were incarcerated in an isolated barrack deep in the woods. These celebrities included the former head the German Social Democratic party, Rudolf Breitscheid and his wife, the business magnate, Fritz Thyssen and the former French premier, Leon Blum.</note></u>
+                    <u who="#boderD" start="4105.084" end="x">Yes.</u>
+                    <u who="#feuerO" start="4105.474" end="x">That means they were entitled to have the hair not cut.</u>
+                    <u who="#boderD" start="4110.964" end="x">Hum.</u>
+                    <u who="#feuerO" start="4112.074" end="x">And it was strictly forbidden for prisoners to write a words to one of the . . .</u>
+                    <u who="#boderD" start="4119.484" end="x">Women?</u>
+                    <u who="#feuerO" start="4120.714" end="x">Well. There were orders that almost [??] . . . prisoners who have done it . . .</u>
+                    <u who="#boderD" start="4124.524" end="x">Yes.</u>
+                    <u who="#feuerO" start="4125.094" end="x">Must be [word not clear] prisoners who haven't had a woman for seven years, eight years, ten years.</u>
+                    <u who="#boderD" start="4130.104" end="x">Yes.</u>
+                    <u who="#feuerO" start="4130.674" end="x">And of course it was something for some of them. And some of those prisoners lost their hair. Because they have written a letter to one of those girls.</u>
+                    <u who="#boderD" start="4140.394" end="x">So they had to shave off their hair?</u>
+                    <u who="#feuerO" start="4142.524" end="x">That is so [??] They got to have the hair cut.</u>
+                    <u who="#boderD" start="4146.724" end="x">Now tell me this, Mr. Feuer. After you were freed from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, where did you go?</u>
+                    <u who="#feuerO" start="4154.374" end="x">After my liberation in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, I stayed for about a month in <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName> and . . .</u>
+                    <u who="#boderD" start="4158.754" end="x">Who took care of you, who was feeding the camp?</u>
+                    <u who="#feuerO" start="4162.234" end="x">It was the American army who . . . I guess it was also the Russians [?] who made distributions [of prisoners??]</u>
+                    <u who="#boderD" start="4169.734" end="x">Yes.</u>
+                    <u who="#feuerO" start="4170.934" end="x">We were fed, we were -</u>
+                    <u who="#boderD" start="4172.344" end="x">Did you go in the Verwaltung, did you go into the management of the camp.</u>
+                    <u who="#feuerO" start="4177.294" end="x">Yes, of course. We had..our administration completely continued to exist.</u>
+                    <u who="#boderD" start="4183.654" end="x">The -</u>
+                    <u who="#feuerO" start="4184.104" end="x">Only that we were no more governed by the <term ref="#vothG_ss">SS</term>. We were completely self governing ourselves, and there were of course American officers who had the final decision about questions, and so on. But all the other things..we made the requisitions ourselves. The American officers gave us a truck. They gave us some people, some soldiers with arms to make requisitions, and gave us the authorization to requisition.</u>
+                    <u who="#boderD" start="4211.029" end="x">Oh, you mean you made [word not clear] requisitions from the Germans?</u>
+                    <u who="#feuerO" start="4213.369" end="x">From the Germans. Yes.</u>
+                    <u who="#boderD" start="4214.569" end="x">Did the Germans have enough to feed such a camp.</u>
+                    <u who="#feuerO" start="4218.079" end="x">Some of it . . . how have we been fed formerly.</u>
+                    <u who="#boderD" start="4223.359" end="x">Yes.</u>
+                    <u who="#feuerO" start="4223.629" end="x">Of course we were fed by Germans too. The un . . . [apparently he wanted to say UNNRA] the American army contributed something, but the basic food was German food.</u>
+                    <u who="#boderD" start="4233.349" end="x">Did you regain your freedom, could you start to go out?</u>
+                    <u who="#feuerO" start="4236.379" end="x">Yes we went . . . we could not . . . just not completely. We could get a paper, authorizing us to leave the camp, for one day.</u>
+                    <u who="#boderD" start="4248.379" end="x">Yes.</u>
+                    <u who="#feuerO" start="4248.859" end="x">To have a furlough.</u>
+                    <u who="#boderD" start="4249.939" end="x">Yes.</u>
+                    <u who="#feuerO" start="4250.179" end="x">For one day.</u>
+                    <u who="#boderD" start="4251.019" end="x">Yes.</u>
+                    <u who="#feuerO" start="4251.409" end="x">And we had to come back. Because it was no more so strict, and we could leave the camp. Of course we have cut, we have cut the barbed wire and so on, and we left the camp very often [?] And we didn't leave the camp, most of us, 99% of us came back because nobody knew where to go.</u>
+                    <u who="#boderD" start="4268.359" end="x">And the war was still going on.</u>
+                    <u who="#feuerO" start="4270.579" end="x">The war was still going on, and so on.</u>
+                    <u who="#boderD" start="4273.369" end="x">Did you have your radios and could you listen to . . .</u>
+                    <u who="#feuerO" start="4276.459" end="x">Yes. We all, we all . . . we had it formal. Now we could of course -</u>
+                    <u who="#boderD" start="4280.989" end="x">Yes.</u>
+                    <u who="#feuerO" start="4281.589" end="x">No more listen to the Germans [several words not clear] they broadcasted, we listened to it. Officially to . . . Landsman [?] to Luxembourg.</u>
+                    <u who="#boderD" start="4290.829" end="x">Aha. Tell me this. Were the stores of clothes . . . [??] of so long. Could you get that back then?</u>
+                    <u who="#feuerO" start="4299.709" end="x">Yes. Yes we could now . . . even we requisitioned two . . . army clothes and so on . . . army stock was requisitioned.</u>
+                    <u who="#boderD" start="4309.879" end="x">Yes.</u>
+                    <u who="#feuerO" start="4310.359" end="x">And was given to us.</u>
+                    <u who="#boderD" start="4311.559" end="x">German army stuff?</u>
+                    <u who="#feuerO" start="4312.909" end="x">German army stuff. And even other vital clothes, baby clothes was requisitioned by . . . by the American army, and was given to us.</u>
+                    <u who="#boderD" start="4322.059" end="x">Requisitioned from whom?</u>
+                    <u who="#feuerO" start="4324.129" end="x">From the Germans.</u>
+                    <u who="#boderD" start="4326.109" end="x">You mean from the families requisitioned.</u>
+                    <u who="#feuerO" start="4328.809" end="x">No, no, no, no, no, no . . . from German stores.</u>
+                    <u who="#boderD" start="4331.299" end="x">Yes.</u>
+                    <u who="#feuerO" start="4332.319" end="x">From German stores. There were still German stores.</u>
+                    <u who="#boderD" start="4334.959" end="x">Yes.</u>
+                    <u who="#feuerO" start="4335.619" end="x">[enumerates, not clear] ordinary . . . shoes, and then suits too, and pullovers, and so on . . .</u>
+                    <u who="#boderD" start="4346.329" end="x">[word not clear] then you got more or less clothes, and so on . . . and then, when did you go away to France . . . eh, to France?</u>
+                    <u who="#feuerO" start="4353.889" end="x">Now . . . after the liberation there came a lot of Americans, American army personalities and then were such [word not clear] and press men, and so on, who came to visit the camp, and I guided most of these people through the camp. When guiding one of the American officers through a camp, a certain lieutenant Letva [??] [several words not clear] he was very impressed about . . . the story. He told me, he had been in the States, he had been an isolationist.</u>
+                    <u who="#boderD" start="4389.650" end="x">Yes.</u>
+                    <u who="#feuerO" start="4390.190" end="x">And now, after having seen <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>, he now knew, why it was good that he was . . .</u>
+                    <u who="#boderD" start="4398.230" end="x">. . . came here.</u>
+                    <u who="#feuerO" start="4399.190" end="x">That America Has made [was in] this war.</u>
+                    <u who="#boderD" start="4401.650" end="x">Yes.</u>
+                    <u who="#feuerO" start="4403.390" end="x">Well, this man this officer was very fond of me, and he offered me to accompany him. And I had nobody, I had nowhere to go, so I went with him and we turned into the vicinity of the little town of Germany of <placeName ref="Wetzlar">Wetzlar</placeName>. [next sentence not clear] He had to leave for <placeName ref="Marseille">Marseilles</placeName> [several words not clear] I stayed with him about one month.<note n="33">Wetzlar is located in Hesse-Nassau Germany southeast of Marburg and north of Frankfurt.</note></u>
+                    <u who="#boderD" start="4426.310" end="x">What did you do with him?</u>
+                    <u who="#feuerO" start="4428.290" end="x">I was doing nothing at that time. I was eating very well.</u>
+                    <u who="#boderD" start="4432.340" end="x">Ja.</u>
+                    <u who="#feuerO" start="4432.970" end="x">And I was helping a little bit in the kitchen.</u>
+                    <u who="#boderD" start="4435.100" end="x">Ja.</u>
+                    <u who="#feuerO" start="4436.390" end="x">Then he recommended me to the American Military government it Wetzlar and I was working there . . . from May 22nd on to August 15th.</u>
+                    <u who="#boderD" start="4448.180" end="x">Yes.</u>
+                    <u who="#feuerO" start="4449.470" end="x">Then I created in the city of <placeName ref="Wetzlar">Wetzlar</placeName> a committee [for people] for persons who have left . . . been in concetration camps, and I was beginning to work for a new German newspaper, the Frankfurter Rundschau.</u>
+                    <u who="#boderD" start="4465.970" end="x">Hum.</u>
+                    <u who="#feuerO" start="4469.240" end="x">I earned [?] a very good living. I had a very interesting job, and I had a car, I had a very fine apartment and so on, but I could no more see the Germans . . .</u>
+                    <u who="#boderD" start="4478.060" end="x">The Frankfurter Rundschau could supply you with that kind of facilities, with a car?</u>
+                    <u who="#feuerO" start="4483.580" end="x">I was working [?] for the Frankfurter Rundschau in combine with this work that I was doing for the Military government and for this committee.</u>
+                    <u who="#boderD" start="4490.420" end="x">Yes.</u>
+                    <u who="#feuerO" start="4490.570" end="x">I had a car.</u>
+                    <u who="#boderD" start="4492.100" end="x">Did you learn yourself . . . ?</u>
+                    <u who="#feuerO" start="4492.880" end="x">Yes I drive, drove myself.</u>
+                    <u who="#boderD" start="4494.920" end="x">Yes.</u>
+                    <u who="#feuerO" start="4495.340" end="x">I drove myself, I was still living in that little town of <placeName ref="Wetzlar">Wetzlar</placeName>. <placeName ref="Wetzlar">Wetzlar</placeName> is a very famous town because these Leitz Werke you know, Leitz . . .</u>
+                    <u who="#boderD" start="4503.680" end="x">Leitz? The optical . . .</u>
+                    <u who="#feuerO" start="4506.410" end="x">Yes the optical works of Leitz around there . . .</u>
+                    <u who="#boderD" start="4509.350" end="x">Ja.</u>
+                    <u who="#feuerO" start="4511.180" end="x">I made a very good living, but I could no more be with the Germans. I don't I couldn't . . . I do not, I won't tell really that I hate the, but I detest them [several words not clear]</u>
+                    <u who="#boderD" start="4520.120" end="x">[not clear]</u>
+                    <u who="#feuerO" start="4520.990" end="x">The came to me and they were telling me - the knew that I was a Jew of course - and then they came me, to tell me how good they had treated the Jews. In person each German came to me, tell . . . told me how good he had been to [word not clear] Jews. . . . one . . . one German <term ref="#vothG_gendarme">gendarme</term>, a Land [part of word not clear] [obviously meaning village constable] came to tell me that when there was the order to . . . bring all those Jews to the assembly center . . . <note n="34">These cowardly, self-serving responses infuriated Feuer. The German population around Buchenwald implausibly denied knowledge of its existence. But German civilians by the hundreds were brought by the American army to help clean the camp and dig mass graves.</note></u>
+                    <u who="#boderD" start="4545.470" end="x">Yes.</u>
+                    <u who="#feuerO" start="4546.190" end="x">He did not bring them on foot but he brought them with a cart.</u>
+                    <u who="#boderD" start="4551.260" end="x">Hum.</u>
+                    <u who="#feuerO" start="4551.590" end="x">And this was an example of humanity [humane-ity] towards the Jews.</u>
+                    <u who="#boderD" start="4556.660" end="x">Yes.</u>
+                    <u who="#feuerO" start="4557.470" end="x">Well, it . . . it . . . it's . . . I don't seem to . . . anybody will . . . will understand . . . it . . . our general feeling, why those Jews . . . why I every . . . most of the other Jews won't stay in Germany . . . Won't stay in Poland, that's we can no more see these people, it's too much for our memory, for our [word not clear] it's too much.</u>
+                    <u who="#boderD" start="4584.665" end="x">Hum.</u>
+                    <u who="#feuerO" start="4585.955" end="x">So I had an opportunity to go to France . . .</u>
+                    <u who="#boderD" start="4589.225" end="x">What was that opportunity, how did that come?</u>
+                    <u who="#feuerO" start="4591.955" end="x">Well there were . . . some remote relations of mine are living in <placeName ref="Paris">Paris</placeName>, and got . . . a so called . . . [two words in French not clear, obviously meaning permit for temporary, or transitory visa]</u>
+                    <u who="#boderD" start="4599.065" end="x">Hum.</u>
+                    <u who="#feuerO" start="4599.365" end="x">And of course my intention to go to the States.</u>
+                    <u who="#boderD" start="4602.305" end="x">Hum.</u>
+                    <u who="#feuerO" start="4603.175" end="x">. . . to America. I thought that this time it would go much quicker, being in France. So I left Germany on three days' notice [??]</u>
+                    <u who="#boderD" start="4615.235" end="x">Who did you meet [??] with?</u>
+                    <u who="#feuerO" start="4616.975" end="x">This . . . my . . . my . . . where I was working and so on. And I gave back the car and so on, and I took a truck from UNNRA and came to France, came to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="4629.935" end="x">Did they give you a truck or . . . ?</u>
+                    <u who="#feuerO" start="4631.825" end="x">No, there was a [train? Word not clear] there was a convoy of people, of . . . a repatriation convoy.</u>
+                    <u who="#boderD" start="4635.935" end="x">Yes.</u>
+                    <u who="#feuerO" start="4636.475" end="x">And I took part in it.</u>
+                    <u who="#boderD" start="4638.665" end="x">Aha. And tell me this. When do you think you will be in America?</u>
+                    <u who="#feuerO" start="4642.955" end="x">In just learned . . . five minutes ago I learned, wouldn't be there before . . . either the end of this year or the beginning of next year.</u>
+                    <u who="#boderD" start="4651.625" end="x">Why? What quota have you? Polish?</u>
+                    <u who="#feuerO" start="4652.675" end="x">Austrian quota. And I have already registered 10 years [ago?] and I would already been in the States, nearly . . . nearly I'd been in the States . . .</u>
+                    <u who="#boderD" start="4663.595" end="x">In '39?</u>
+                    <u who="#feuerO" start="4664.495" end="x">In '39 or '40. But in '40 I couldn't get visa. When I already was in concentration camp, I had still the photo-copy of the letter which the American consulate of <placeName ref="Hamburg">Hamburg</placeName> wrote me at that time, that he couldn't yet grant me the visa; my . . . my uncle who had sent me the affidavit had to send them out . . . <note n="35">This is an example of the "paper walls" constructed by the U.S. State Department designed to curtail Jewish immigration. These "walls" doomed countless Jews seeking refuge.</note></u>
+                    <u who="#boderD" start="4686.816" end="x">A paper . . . [?]</u>
+                    <u who="#feuerO" start="4687.656" end="x">Another paper of the bank otherwise . . .</u>
+                    <u who="#boderD" start="4691.496" end="x">A statement of the bank.</u>
+                    <u who="#feuerO" start="4693.116" end="x">. . . a statement of the bank, otherwise it would not be sufficiently sure how much my livelihood would be secure in the - States.</u>
+                    <u who="#boderD" start="4701.906" end="x">Where is your uncle?</u>
+                    <u who="#feuerO" start="x" end="x">He is in the States [??] But now . . . now I have two brothers in the States. I am going to my brothers.</u>
+                    <u who="#boderD" start="4707.966" end="x">Where are your two brothers?</u>
+                    <u who="#feuerO" start="4709.586" end="x">One of my brothers is in <placeName ref="Erie">Erie</placeName>, in Pennsylvania.</u>
+                    <u who="#boderD" start="4713.426" end="x">Yes.</u>
+                    <u who="#feuerO" start="4713.996" end="x">Five hundred, no 23-30 East Avenue.</u>
+                    <u who="#boderD" start="4719.036" end="x"><placeName ref="Erie">Erie</placeName>, Pennsylvania?</u>
+                    <u who="#feuerO" start="4719.996" end="x">Yes.</u>
+                    <u who="#boderD" start="4721.016" end="x">And the other?</u>
+                    <u who="#feuerO" start="4721.316" end="x">The other one is in <placeName ref="Gary">Gary</placeName>, 320 . . .</u>
+                    <u who="#boderD" start="4724.586" end="x"><placeName ref="Gary">Gary</placeName>, Indiana?</u>
+                    <u who="#feuerO" start="4725.606" end="x">Yes.</u>
+                    <u who="#boderD" start="4725.876" end="x">Well that's near to me. You want me to call him up?</u>
+                    <u who="#feuerO" start="4729.296" end="x">Of course I want you to call him up.</u>
+                    <u who="#boderD" start="4730.646" end="x">Sure.</u>
+                    <u who="#feuerO" start="4731.846" end="x">Three hundred twenty two . . . Oh really? He might listen to this.</u>
+                    <u who="#boderD" start="4737.426" end="x">Yes.</u>
+                    <u who="#feuerO" start="4737.636" end="x">He might hear this?</u>
+                    <u who="#boderD" start="4738.656" end="x">Yes.</u>
+                    <u who="#feuerO" start="4738.926" end="x">[In ecstasy] Tell him, he is a little bit ill [??] . . . tell him I love him very much, and tell him he shall . . . he shall . . . here, here [he apparently points to a part of the body] sick, you know, I want him to be, I want him to be healthy . . .</u>
+                    <u who="#boderD" start="4750.056" end="x">[Both are talking] Is he married?</u>
+                    <u who="#feuerO" start="4753.176" end="x">He is married, he has two children. I did not yet see the children.</u>
+                    <u who="#boderD" start="4756.296" end="x">You know what I promise you to do?</u>
+                    <u who="#feuerO" start="4758.306" end="x">Ja.</u>
+                    <u who="#boderD" start="4759.146" end="x">I take this machine into my car.</u>
+                    <u who="#feuerO" start="4762.476" end="x">Ja.</u>
+                    <u who="#boderD" start="4762.986" end="x">And I drive out to <placeName ref="Gary">Gary</placeName> and [word not clear] [interviewer is apparently deeply moved]</u>
+                    <u who="#feuerO" start="4766.016" end="x">Oh that would be wonderful. Tuen sie es for sure. verstanden, gut, and Lucy, Doris and Peter this is Onkel Otto. You do not yet know me, but once you will know me.</u>
+                    <u who="#boderD" start="4779.246" end="x">All right, what is the address in <placeName ref="Gary">Gary</placeName>?</u>
+                    <u who="#feuerO" start="4781.106" end="x">I give you the address: 322 Gary, Ind. Honduras [??] Street [repetition not clear]</u>
+                    <u who="#boderD" start="4787.856" end="x">Vanburen Street? [spool is apparently at an end] All right that concludes the interview with Mr. Feuer. It is the continuation of Spool . . . Spool 64, it was very informal, especially, to give the interviewer a general picture, and Mr. Feuer was very helpful in getting other interviewees. I hope he will be there soon but I think I will call up . . . [blank on the wire] in <placeName ref="Gary">Gary</placeName> and we will have a good time together. I let them listen to this . . .</u>
+                </div>
+                <!-- end spool 9-65 -->
+            </div>
+            <!-- end transcription -->
+        </body>
+    </text>
+</TEI>

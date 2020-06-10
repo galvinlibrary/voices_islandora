@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Vladus Lukosevicius; September 21, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Roy Cochrun</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Roy Cochrun</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT42M16.8S" id="lukoseviciusV_9-144C_9-145">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Russia">Russian</lang>
+                                <note type="spools" n="1">9-144</note>
+                                <note type="spools" n="2">9-145</note>
+                                <placeName ref="Lohengrinstrasse"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-21</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="lukoseviciusV_ru" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="lukoseviciusV_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="lukoseviciusV" role="interviewee">
+                        <persName>
+                            <forename>Vladus</forename>
+                            <surname>Lukosevicius</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>33</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Lithuania"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Poland">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Riesenburg ">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Schaulen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Herzogenburg concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Prienbach-am-Inn" when="1945-05-01" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#lukoseviciusV_ru">
+                <!-- begin Spool 9-144C -->
+                <div lang="en">
+                    <u who="#boderD" start="0.512" end="x">[In English] Lohengrinstrasse, the Baltic camp in Munich, September the 21st, 1946. We have on the spool 4 minutes left, but we are going to start with the interview of Mr. Vladus Lukosevicius, [stammers], a Lithuanian. Lithuanian?</u>
+                    <u who="#lukoseviciusV" start="15.030" end="x">Jа.</u>
+                    <u who="#boderD" start="15.331" end="x">[stammers] ah, who will talk to us in Russian.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="18.765" end="x">[In Russian] Аг, сколько вам лет, господин Лукошевичус?</u>
+                    <u who="#lukoseviciusV" start="22.500" end="x">Аг, 13, 13.го года. [1-2 words too weak].</u>
+                    <u who="#boderD" start="24.699" end="x">Но, сколько вам лет теперь?</u>
+                    <u who="#lukoseviciusV" start="26.488" end="x">Мне сейчас 33 года.</u>
+                    <u who="#boderD" start="27.874" end="x">33 года . . . Ну, вот господин Лукошевичус говорите [здесь?] в этом направлении и прямо сюда в обе стороны . . .</u>
+                    <u who="#lukoseviciusV" start="35.808" end="x">[1 weak].</u>
+                    <u who="#boderD" start="36.844" end="x">[В эту и в эту?]</u>
+                    <u who="#lukoseviciusV" start="37.989" end="x">Да.</u>
+                    <u who="#boderD" start="38.302" end="x">Скажите нам где вы были когда русские пришли в Литванию?</u>
+                    <u who="#lukoseviciusV" start="45.350" end="x">В 39.ом году?</u>
+                    <u who="#boderD" start="46.796" end="x">Да. [Жизнь?].</u>
+                    <u who="#lukoseviciusV" start="49.417" end="x">Как я [too weak].</u>
+                    <u who="#boderD" start="51.628" end="x">Нет, где ВЫ были когда русские пришли в Литванию.</u>
+                    <u who="#lukoseviciusV" start="55.285" end="x">Когда русские пришли в Литванию, так я был тогда . . . я был в польской армии [я, в нашей?], наша страна была [1 weak] область под . . . Польшей.</u>
+                    <u who="#boderD" start="63.942" end="x"> О, вы были в Польше.</u>
+                    <u who="#lukoseviciusV" start="65.731" end="x">Да. Я тогда в польской армии был [и тут?] в Германию в плену . . .</u>
+                    <u who="#boderD" start="67.448" end="x">Ага.</u>
+                    <u who="#lukoseviciusV" start="67.659" end="x"> . . . когда [2-3 too weak].</u>
+                    <u who="#boderD" start="68.876" end="x">[А тогда?], значит тогда мне скажите, где вы были когда война началась? И расскажите мне все.</u>
+                    <u who="#lukoseviciusV" start="77.472" end="x">Когда началась война в 39.ом году?</u>
+                    <u who="#boderD" start="79.611" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="81.491" end="x">Когда, в 39.ом году, когда началась война, то я был 24.го августа я до польской армии мобилизован.</u>
+                    <u who="#boderD" start="91.142" end="x">Так . . . Ну, [подождите?] делайте так. Ег, что вы считаете началась война когда немцы пришли в Польшу или когда?</u>
+                    <u who="#lukoseviciusV" start="99.889" end="x">Я считаю началась война в 39.ом году.</u>
+                    <u who="#boderD" start="103.034" end="x">Это когда что было?</u>
+                    <u who="#lukoseviciusV" start="104.432" end="x">Когда немцы напали на Польшу.</u>
+                    <u who="#boderD" start="106.522" end="x">Когда немцы о . . . напали на Польшу?</u>
+                    <u who="#lukoseviciusV" start="109.293" end="x">Да.</u>
+                    <u who="#boderD" start="110.227" end="x">Они . . . Хорошо, [значит ни что?]. Так, ладно. И вы были где?</u>
+                    <u who="#lukoseviciusV" start="115.769" end="x">Я тогда был в польской армию [взятый?]</u>
+                    <u who="#boderD" start="118.992" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="121.552" end="x">Но и так [1-2 weak] [сентября?] началась война и я был в [1-2 weak/garbled] 13.го сентября попался в Германию в плен и был выезжен в Западнюю Пруссиию.</u>
+                    <u who="#boderD" start="137.736" end="x">Вы попали в плен . . .</u>
+                    <u who="#lukoseviciusV" start="x" end="x">Да.</u>
+                    <!--missing-->
+                    <u who="#boderD" start="138.893" end="x"> . . . и вы были [так?] русского . . .</u>
+                    <u who="#lukoseviciusV" start="140.321" end="x">[Garbled and blocked by Boder]</u>
+                    <u who="#boderD" start="141.116" end="x">Нет, польского в плен [2-3 garbled and blocked, both speaking at once while Boder tries to correct what he himself is saying.]</u>
+                    <u who="#lukoseviciusV" start="144.369" end="x"> . . . в Западней Пруссии в Росенберг. Крайс [kreis] это было . . .</u>
+                    <u who="#boderD" start="147.020" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="147.393" end="x"> . . . и Рисенбург [Riesenburg] лагерь.</u>
+                    <u who="#boderD" start="149.080" end="x">Так. Теперь вы мне все расскажите подробно. Как это вы попали в плен, как вас окружили? Все это расскажите. У нас есть [время?] . . . Ну?</u>
+                    <u who="#lukoseviciusV" start="159.924" end="x">Ну, я . . . значит, ну все города уже [немцы заняли от нас?], около Седлец [Siedlce] города 3 километра от города [Седлец?] взяли в плен.</u>
+                    <u who="#boderD" start="172.406" end="x">Где были ваши офицеры?</u>
+                    <u who="#lukoseviciusV" start="175.008" end="x">Офицеров [у нас не пытал?] убрали и уже с нами не были.</u>
+                    <u who="#boderD" start="179.165" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="180.020" end="x">[Попадание?] [1-2 garbled] не было. Так, нас первый раз разбили немецкие танки под Варшавой, [недалеко от?] Варшавы, местечка там . . . [город?] [3-4 garbled].</u>
+                    <u who="#boderD" start="192.370" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="193.647" end="x">Ну, так держали так тогда уже . . .</u>
+                    <u who="#boderD" start="196.599" end="x">[1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="197.244" end="x">Там [blocked by Boder]</u>
+                    <u who="#boderD" start="197.497" end="x">Не [хватил?] все?</u>
+                    <u who="#lukoseviciusV" start="198.431" end="x">Не, не . . . [не держали?] только [unknown number of words garbled] [и может?] было держаться против Немцов [и тогда уже?] . . .</u>
+                    <u who="#boderD" start="206.335" end="x">[2-3 garbled].</u>
+                    <u who="#lukoseviciusV" start="206.919" end="x"> . . . [держали?]</u>
+                    <u who="#boderD" start="207.853" end="x">А вы как остались . . . [солдат?]?</u>
+                    <u who="#lukoseviciusV" start="209.660" end="x">У нас вдруг потом в лесу [1-2 garbled].</u>
+                    <u who="#boderD" start="211.859" end="x">Сколько . . . человек?</u>
+                    <u who="#lukoseviciusV" start="212.943" end="x">Нас 17 там [в одном месте?] [fades, weak and garbled].</u>
+                    <u who="#boderD" start="215.233" end="x">Так. Вот, значит вы [1-2 garbled] полк разбился, [расстрелялся?].</u>
+                    <u who="#lukoseviciusV" start="218.829" end="x">Так.</u>
+                    <u who="#boderD" start="219.251" end="x">И вас в лесу было 17 человек.</u>
+                    <u who="#lukoseviciusV" start="221.119" end="x">17 в одной группке и мы хотели перейти по [1-2 garbled] большую дорогу [в шашку?] . . .</u>
+                    <u who="#boderD" start="227.155" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="227.456" end="x">и [на дорогу?] мимо ехали немцы на [1-2 garbled] другой [sic] помыкали к нам, чтобы мы подошли к ним. Как подошли, так взяли и погнали в местечко Седлец на [2-3 garbled/weak].</u>
+                    <u who="#boderD" start="238.601" end="x">А у вас было оружие [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="240.872" end="x">Было . . . [оружие?] [1-2 weak]</u>
+                    <u who="#boderD" start="243.071" end="x">Так. Они что [говорили?] вам? Руки поднять вверх?</u>
+                    <u who="#lukoseviciusV" start="245.432" end="x">Ну, когда [chuckles] [1 garbled] сказали "руки вверх," да . . .</u>
+                    <u who="#boderD" start="247.932" end="x">Да,</u>
+                    <u who="#lukoseviciusV" start="248.204" end="x"> . . . и подняли руки.</u>
+                    <u who="#boderD" start="249.270" end="x">Ну, расскажите подробно. Ну, хорошо. Вас повели в небольшой городок и что?</u>
+                    <u who="#lukoseviciusV" start="254.692" end="x">Ну, тогда нас вечер был [в это совсем?] [fades/garbled].</u>
+                    <u who="#boderD" start="261.331" end="x">[1-2 garbled]</u>
+                    <u who="#lukoseviciusV" start="262.488" end="x">В сарай догнали, но все нам сказали [1 garbled] там кругом полно было немцев и [fades].</u>
+                    <u who="#boderD" start="268.645" end="x">Так.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="269.410" end="x">[In English] This concludes Spool 144. We are going to change over to Spool 145 with a report of Mr. Vladus Lukosevicius, ah, in München, September the 21st, 1946, in a Baltic camp, in a camp for displaced Baltic people of Estonia, Lithuania and . . . hmm, Latvia. Illinois Institute of Technology wire recording.</u>
+                    <!-- end Spool 9-144C -->
+                    <!-- begin Spool 9-145 -->
+                    <u who="#boderD" start="296.002" end="x"> September the 21st, 1946, Munich, Germany, at Lohengrinstrasse, the camp for Baltic displaced persons. Lukosevicius, Mr. Vladus Lukosevicius in Russian is continuing his story.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="314.195" end="x">[In Russian] Значит вас 17 человек взяли в плен . . .</u>
+                    <u who="#lukoseviciusV" start="318.111" end="x">Взяли.</u>
+                    <u who="#boderD" start="318.545" end="x"> . . . и куда вас поместили и что с вами сделали?</u>
+                    <u who="#lukoseviciusV" start="321.178" end="x">Они нас поместили сразу в сарай [одно?] где и немцев полно было [Sounds as if he is in a tin can. 1 garbled] [там ночи на дворе?] полно было [2-3 weak/garbled]. [За утром?] нас догнали в тюрьму. Большая тюрьма была в Седлце, [в городе?]. Так, в тюрьме там нас уже собрали еще 2-3 дня там держали нас, собрались около 4,000 [уже в плен?] [2-3 garbled].</u>
+                    <u who="#boderD" start="341.612" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="342.829" end="x">Ну, там [в барах дали?] кушать [на день?] хлеба там на 5 человек одну [булочку?]. После, нас гнали пешком 4,000 людей, так гнали, гнали аж [ну таких?] 170 километров. По, по 40 километров [за день?] [1-2 garbled]. Кушать ничего не давали [здоровы?].</u>
+                    <u who="#boderD" start="364.558" end="x">Ну, дальше.</u>
+                    <u who="#lukoseviciusV" start="370.142" end="x">[Long pause, then both speak at once, all garbled] Да. Погнали . . .</u>
+                    <u who="#boderD" start="374.450" end="x">[Blocked by above] Да.</u>
+                    <u who="#lukoseviciusV" start="376.119" end="x">на прусскую границу в город [Гракбова?], станция [Грабова?]. Тогда согнали по 70 человек в один крытый вагон, товарный вагон по 70 людей.</u>
+                    <u who="#boderD" start="383.360" end="x">Tak. А как вы знали, что 70?</u>
+                    <u who="#lukoseviciusV" start="385.149" end="x">Так, тогда полно было так, могли сосчитать.</u>
+                    <u who="#boderD" start="388.161" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="388.402" end="x">Стоять, посидеть не было . . . места.</u>
+                    <u who="#boderD" start="390.673" end="x">Так . . . Ну?</u>
+                    <u who="#lukoseviciusV" start="392.721" end="x">Тогда повезли нас [через одну часть?] Пруссию, [1-2 garbled] окна закрыты, где мы не знали самые, целый день [везли?] после остановил нас в Рисенбургу городе.</u>
+                    <u who="#boderD" start="404.408" end="x">Только пленные были?</u>
+                    <u who="#lukoseviciusV" start="405.522" end="x">Пленные, только пленные были.</u>
+                    <u who="#boderD" start="406.757" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="407.239" end="x">Тогда нас там уже в Рисенбурге было 18,000.</u>
+                    <u who="#boderD" start="411.426" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="412.059" end="x">Так, стали на дворе и не под крышей, это всем холодно было, то было [под?] конец Сентября совсем.</u>
+                    <u who="#boderD" start="419.812" end="x"> Да. Так.</u>
+                    <u who="#lukoseviciusV" start="423.276" end="x">Ну, после Немцы приезжали в Больших [1-2 garbled - probable name] [из?] фабрики и забирали по несколько человек на фабрики Большие [1 garbled, probable name], так нас 30 человек отсчитали, по . . . погнали в баню, дезинфекцию дали и уколы дали и тогда нас . . .</u>
+                    <u who="#boderD" start="440.607" end="x">Уколы значит про . . . против болезней?</u>
+                    <u who="#lukoseviciusV" start="442.625" end="x">Против болезней какой-то.</u>
+                    <u who="#boderD" start="444.162" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="445.078" end="x">Ну, после повезли от Большой [1 garbled, possibly name. Sounds like Одноименья], которой звался тиргард.</u>
+                    <u who="#boderD" start="450.331" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="450.813" end="x">И там мы работали [полные работы?].</u>
+                    <u who="#boderD" start="453.717" end="x">Полевые работы?</u>
+                    <u who="#lukoseviciusV" start="454.874" end="x">Да, полевые работы.</u>
+                    <u who="#boderD" start="455.669" end="x">Какой месяц этот был?</u>
+                    <u who="#lukoseviciusV" start="457.145" end="x">Это было от Рисенбурга 13 километров.</u>
+                    <u who="#boderD" start="460.127" end="x">Я говорю, что [который?] месяц этот был? [Когда это было?]</u>
+                    <u who="#lukoseviciusV" start="462.838" end="x">Ну, [под?] конец сентября было.</u>
+                    <u who="#boderD" start="464.627" end="x">Так . . . И что вы делали?</u>
+                    <u who="#lukoseviciusV" start="467.338" end="x">Собирали бураки, [??сукровые??] копали и картошку.</u>
+                    <u who="#boderD" start="471.073" end="x">Так. А кушать давали?</u>
+                    <u who="#lukoseviciusV" start="472.471" end="x">Кушать тогда уже давали тоже на 5 человек, одну булку хлеба и там супу давали в обед. [Blocked by Boder].</u>
+                    <u who="#boderD" start="479.712" end="x"> А эти бураки можно было кушать?</u>
+                    <u who="#lukoseviciusV" start="481.863" end="x">Бураки тоже [пробовали?] кушать. [Unknown number garbled.]</u>
+                    <u who="#boderD" start="486.393" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="486.905" end="x">[1-2 garbled]</u>
+                    <u who="#boderD" start="487.899" end="x">Ну?</u>
+                    <u who="#lukoseviciusV" start="488.441" end="x">Ну, тогда мы, я там жил 3 месяца. И на там литовском, литовской национальности было [польской армии?], в этом месте нас было 11 человек.</u>
+                    <u who="#boderD" start="499.224" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="499.827" end="x">Так, мы как пожили там уже 3 месяца . . .</u>
+                    <u who="#boderD" start="502.941" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="503.574" end="x"> . . . Так, задумали убежать.</u>
+                    <u who="#boderD" start="505.845" end="x">Сколько вас задумали?</u>
+                    <u who="#lukoseviciusV" start="508.044" end="x">5 человек.</u>
+                    <u who="#boderD" start="509.110" end="x">Гмм-мм. И куда [уйти уже?]?</u>
+                    <u who="#lukoseviciusV" start="511.309" end="x">Домой. Домой.</u>
+                    <u who="#boderD" start="512.845" end="x">Куда? В Литванию?</u>
+                    <u who="#lukoseviciusV" start="513.869" end="x">В Литванию, да.</u>
+                    <u who="#boderD" start="514.472" end="x">А там-же немцы были.</u>
+                    <u who="#lukoseviciusV" start="516.050" end="x">Не у нас там были тогда, не было немцев.</u>
+                    <u who="#boderD" start="518.791" end="x">А кто был?</u>
+                    <u who="#lukoseviciusV" start="519.424" end="x">Были большевики.</u>
+                    <u who="#boderD" start="521.032" end="x">О! Так.</u>
+                    <u who="#lukoseviciusV" start="522.569" end="x">Ну, задумали убежать и тогда мы 11.го аг, ноября ночью отвинтили [граты?] . . . хорошо [1-2 garbled] окна.</u>
+                    <u who="#boderD" start="533.726" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="534.250" end="x">Там сваривали ключ французский в кузнице . . .</u>
+                    <u who="#boderD" start="538.316" end="x"> Так.</u>
+                    <u who="#lukoseviciusV" start="538.859" end="x"> . . . и [украли?] через окно. Тогда 3 дня и 3 ночи [считали, что?] в Западную [Blocked by Boder].</u>
+                    <u who="#boderD" start="544.925" end="x">А другие не ожидали, [что?] [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="547.335" end="x">Другие спали ночью. Не слышали, которые слышали, так нам были [уже?] . . .</u>
+                    <u who="#boderD" start="552.016" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="552.299" end="x"> . . . хорошие товарищи [laughs] так и они ничего не [сказали?].</u>
+                    <u who="#boderD" start="554.408" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="555.233" end="x">[Но?] немцы в другой комнате, которые нас посматривали, были.</u>
+                    <u who="#boderD" start="559.962" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="560.203" end="x">Но, окна были решетками и [двери?] на штабом, [это могло заключенном?] . . .</u>
+                    <u who="#boderD" start="562.251" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="562.462" end="x"> . . . [так конечно?].</u>
+                    <u who="#boderD" start="565.535" end="x">Так . . . Ну?</u>
+                    <u who="#lukoseviciusV" start="566.872" end="x">Мы [удрали?] так 3 дня и 3 ночи через Пруссию, пока на польскую территорию вышли так ничего не имели кушать. [До?] военной одежи [нигде?] нельзя было показываться немцы.</u>
+                    <u who="#boderD" start="579.704" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="579.867" end="x">И на дороге просить щи, только по ветру [ночам?].</u>
+                    <u who="#boderD" start="583.373" end="x">У вас не было никаких знаков на одеже, что вы пленные?</u>
+                    <u who="#lukoseviciusV" start="586.475" end="x">Так [как?] наша одежа была вся польская.</u>
+                    <u who="#boderD" start="589.036" end="x">Ага.</u>
+                    <u who="#lukoseviciusV" start="589.440" end="x">Военная одежа.</u>
+                    <u who="#boderD" start="590.326" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="590.459" end="x">Так, мы не показывалися в день. Мы шли только ночам не до дороги, а через поля, а через леса прямо.</u>
+                    <u who="#boderD" start="596.465" end="x">Так. 5 человек.</u>
+                    <u who="#lukoseviciusV" start="597.459" end="x">5 человек.</u>
+                    <u who="#boderD" start="598.573" end="x">Так. И что кушали?</u>
+                    <u who="#lukoseviciusV" start="600.019" end="x">Так, 3 дня ничего не кушали.</u>
+                    <u who="#boderD" start="602.098" end="x"> Ну [blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="602.622" end="x">[Но больше не было?]</u>
+                    <u who="#boderD" start="604.038" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="604.502" end="x">С собой, что [взяли?] картошки там, [сырье?] немножко, как мы думали убежать, так еще в этом мнении взяли себе там пшенного хлеба немножко, а мы по дороге 3 дня ничего [нигде не достали, полный день?] не могли никого спрашивать. [По-германски?] на что говорить не умели, и другое, что одежа военная.</u>
+                    <u who="#boderD" start="622.104" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="622.496" end="x">Так, мы шли на [blocked by Boder]</u>
+                    <u who="#boderD" start="623.321" end="x">[Blocked]. Пище конечно было?</u>
+                    <u who="#lukoseviciusV" start="625.400" end="x">[Пище и воды?] так можно было [Blocked by Boder]</u>
+                    <u who="#boderD" start="627.069" end="x">Ну, что-же нибудь, что-нибудь да кушали?</u>
+                    <u who="#lukoseviciusV" start="630.394" end="x">Ну, один день кушали что с собой имели.</u>
+                    <u who="#boderD" start="633.015" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="633.750" end="x">Взяли [то в карманы?], ничего не было так и взять.</u>
+                    <u who="#boderD" start="635.931" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="636.274" end="x">А после 2 дня ничего не кушали.</u>
+                    <u who="#boderD" start="638.865" end="x">Ага.</u>
+                    <u who="#lukoseviciusV" start="638.998" end="x">И так я [и что же?] не рады [были?], что удрали. [Хотели бы, что?] [unknown number of words garbled] тоже.</u>
+                    <u who="#boderD" start="643.317" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="643.739" end="x">Так, вышли на польскую территорию уже на помо-, [поможет?] там.</u>
+                    <u who="#boderD" start="647.486" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="647.950" end="x">Тогда уже нам люди помогали, [тогда уже?] хорошо мы [жили?].</u>
+                    <u who="#boderD" start="651.095" end="x">Так. [Blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="651.288" end="x">[Blocked by Boder]</u>
+                    <u who="#boderD" start="652.143" end="x">На, [по?] польской территории, [это была?] [1 garbled] уже немцами?</u>
+                    <u who="#lukoseviciusV" start="655.216" end="x">Немцы были в деревнях, [blocked by Boder].</u>
+                    <u who="#boderD" start="656.463" end="x">Так. Но [в?] Польше поляки помогали?</u>
+                    <u who="#lukoseviciusV" start="658.343" end="x">Поляки [1-2 garbled] очень хорошие [sic] помогали. Ночам по [штукой?] ночью, да, [спросишь нет немцев в этой деревни?] и они откажут, что нет немцев в [этой деревню?], тогда зайдем в комнату ночью и дают нам кушать, и на дорогу тогда уже было хорошо.</u>
+                    <u who="#boderD" start="674.379" end="x">Так. Ну . . . И куда вы [попали?]?</u>
+                    <u who="#lukoseviciusV" start="677.615" end="x">Ну, ну так. Добирались [stammers] до советской границы, где была уже это, аг, советская - немецкая граница. [Польша?] была разделена.</u>
+                    <u who="#boderD" start="688.079" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="689.266" end="x">Ну, мы . . . дошли аж до, река идет Нарва такая.</u>
+                    <u who="#boderD" start="694.790" end="x">Да. Нарва?</u>
+                    <u who="#lukoseviciusV" start="696.386" end="x">Нарвы . . . Нарев.</u>
+                    <u who="#boderD" start="697.923" end="x">Нарев. Так.</u>
+                    <u who="#lukoseviciusV" start="699.351" end="x">Нарева.</u>
+                    <u who="#boderD" start="700.026" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="700.249" end="x">Нарева. </u>
+                    <u who="#boderD" start="700.562" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="701.737" end="x">Ну, [interrupted by Boder]</u>
+                    <u who="#boderD" start="703.044" end="x">[Подождите?], приток [Нева?]?</u>
+                    <u who="#lukoseviciusV" start="705.032" end="x">Не Невы, Вислы.</u>
+                    <u who="#boderD" start="706.418" end="x">Приток Вислы на Неву.</u>
+                    <u who="#lukoseviciusV" start="707.514" end="x">[Blocked by Boder] Нарва.</u>
+                    <u who="#boderD" start="709.051" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="709.876" end="x">Ну, тогда мы в этой, в этой, там на [мостах?] была стража.</u>
+                    <u who="#boderD" start="716.804" end="x">Русская!</u>
+                    <u who="#lukoseviciusV" start="717.557" end="x">Нет, нет, еще немецкая.</u>
+                    <u who="#boderD" start="719.063" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="719.334" end="x">Так, мы через мост боялись идти, надо нам было переплыть реку Нарву [he continues to call it the Narva. It is the Narev.] Эта река Нарва [есть?] широкая довольно.</u>
+                    <u who="#boderD" start="726.503" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="728.232" end="x"> Ну, в эт- [stops] аг, в деревине при Нарве полно было немцев.</u>
+                    <u who="#boderD" start="732.099" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="732.340" end="x">Так, мы [отдельно?] решали там в [1-2 garbled], смотрели все [1-2 garbled] [немцы нас?] в ночи как уже [стремило?] так в этой деревне рыбаки жили, там были лодки.</u>
+                    <u who="#boderD" start="743.124" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="743.618" end="x">Лодки. Так, мы в ночи [как стремило?] пошли в деревню, воровали лодку одну, [чтобы начали? [3-4 garbled] реки. Но, малая речка, которая проходила деревню к Нарве была замерз льдом уже, а большая река не была замерз. Тогда мы [принесли эту?] лодку и [съели троек?] [stammers] в лодку переплыть через реку и на- набрали [полнo льды?]. Потом опять вытащена [дырок?] в воду эту [1-2 garbled] и съели троек, переплыли через реку в другую сторону.</u>
+                    <u who="#boderD" start="775.991" end="x">А двое остались?</u>
+                    <u who="#lukoseviciusV" start="776.473" end="x">Двое остались. Один тогда вернулся, опять эти взял . . .</u>
+                    <u who="#boderD" start="780.841" end="x">Ну, так.</u>
+                    <u who="#lukoseviciusV" start="781.636" end="x"> . . . и перебрались через реку.</u>
+                    <u who="#boderD" start="783.022" end="x"> И немцы никто [sic] не заметили.</u>
+                    <u who="#lukoseviciusV" start="784.239" end="x">Немцы не заметили.</u>
+                    <u who="#boderD" start="785.125" end="x">И русские не заметили?</u>
+                    <u who="#lukoseviciusV" start="786.161" end="x">А русские еще дальше, еще до русской границы было таких, ну . . .</u>
+                    <u who="#boderD" start="790.318" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="791.445" end="x"> . . . километров может 20 еще.</u>
+                    <u who="#boderD" start="793.957" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="794.740" end="x">До этой рекой [sic]. Ну тогда, как перешли счастливо, перебрались эту реку и так незаметно перешли в совсем советскую границу совсем незаметно, не знали в этом направлении [1-2 garbled] кто нас на границе не задержал.</u>
+                    <u who="#boderD" start="809.529" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="809.921" end="x">Настолько задержали, уже 15 километров за границы [2-3 garbled] городе . . .</u>
+                    <u who="#boderD" start="814.120" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="814.403" end="x"> . . . там советский патруль.</u>
+                    <u who="#boderD" start="816.090" end="x">Так. Ну . . .</u>
+                    <u who="#lukoseviciusV" start="817.668" end="x">Ну, очень хорошо с нами обходились и мы не думали, что там есть [кто зашли, поступали?] в окно, Думали, что хозяинa, что проспать через день и через ночь. [Желали?], что в день будем спать. Ну вот, [отказались?], что солдаты русские там [около 40 их спал?]. Ну, это не нас [1 garbled] [салями?] дали [2-3 garbled], хлеба дали, все, ну [stammers/2-3 garbled] делали, [не имели?] оружия такого и хорошо как с товарищами проспали мы с ними.</u>
+                    <u who="#boderD" start="846.440" end="x"> Так.</u>
+                    <u who="#lukoseviciusV" start="847.675" end="x">Ну тогда, на другой день, утром, уже [они?] нас [повели?] там [sic] в свою, с свою комендатуру. Расспрашивали как что [с путами?] какие, мы по-русски почти все могли говорить неплохо. Ну, так, они нас пустили домой ехать на свою родину где, где я жил.</u>
+                    <u who="#boderD" start="868.446" end="x">И [в [безверне?]?]?</u>
+                    <u who="#lukoseviciusV" start="869.663" end="x">Да.</u>
+                    <u who="#boderD" start="870.187" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="870.820" end="x">Виленская область [где я?] жил там. Ну, пустили так мы тогда . . .</u>
+                    <u who="#boderD" start="875.561" end="x">Громче.</u>
+                    <u who="#lukoseviciusV" start="876.447" end="x"> . . . тогда уже поездом приехали.</u>
+                    <u who="#boderD" start="879.260" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="880.194" end="x">[1-2 weak/garbled] станцию [в Лынтупы?] и там [sic] пошел пешком уже домой. Ну, и все время ничего [было живо?].</u>
+                    <u who="#boderD" start="890.086" end="x">Немножко громче. [Boder must believe Lukosevicius is not speaking loudly enough, but he is almost too loud.]</u>
+                    <u who="#lukoseviciusV" start="891.393" end="x">Да. Все время жил при советской власти, но работал хозяйственным, а как . . . началась [blocked by Boder].</u>
+                    <u who="#boderD" start="901.634" end="x"> [Вы что, крестьянин были?]?</u>
+                    <u who="#lukoseviciusV" start="902.658" end="x">Да, [крестьянин?] . . .</u>
+                    <u who="#boderD" start="903.652" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="903.923" end="x"> . . . как хозяин. Ну, жил все время как в 41.ом году началась война</u>
+                    <u who="#boderD" start="910.128" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="910.670" end="x">Тогда пришли немцы.</u>
+                    <u who="#boderD" start="912.628" end="x">А вас не взяли солдаты в плен?</u>
+                    <u who="#lukoseviciusV" start="914.315" end="x">Русские?</u>
+                    <u who="#boderD" start="915.020" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="915.393" end="x">Не взяли, не, не успели. Не было время, когда [это очень скорой?] [2-3 garbled].</u>
+                    <u who="#boderD" start="919.550" end="x">Так. Вот, немцы пришли.</u>
+                    <u who="#lukoseviciusV" start="921.267" end="x">Да. Тогда пришли немцы. Как немцы пришли, ну тогда тоже я как [хозяйственный, ну так и хозяйственный?] [ничего же такого?]. Но только в случае могу такое рассказать уже в 42.ом году.</u>
+                    <u who="#boderD" start="937.785" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="939.171" end="x">Так, в 42.ом году и . . . как у, у нас уже были [1-2 garbled] в [?кипиц??] [комисары?] и были это [крестьян?] [3-4 garbled], ну так, в городе Лынтупах, в Лынтупах горо(д), местечка небольшая очень. [2-3 garbled] местечка. Так, там было заказано, что немцы приедут лошадей забирать с телегами в Лынтупах местечку. Ну так, утром рано это было 42.го года, 20.го мая . . .</u>
+                    <u who="#boderD" start="975.525" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="976.399" end="x"> . . . Свенчанский kreislandwirtschaftsfuehrer Иосиф Бек и его заместитель [?Вальтер Груль??] ехали автомобилем в Лынтупы [1 garbled] лошадей [1 garbled] [отбирать?], и 4 километра не доезжая Лынтуп город местечка, ну, какие-то партизаны убили этих немцев.</u>
+                    <u who="#boderD" start="996.441" end="x">Бека?</u>
+                    <u who="#lukoseviciusV" start="997.315" end="x">Бека и [?Груля??] [а то?] еще одного [какого?] лейтенанта и там . . .</u>
+                    <u who="#boderD" start="1000.610" end="x">[?Груль??] [это?] литовец был?</u>
+                    <u who="#lukoseviciusV" start="1001.393" end="x">Нет. [?Груль??] был тоже это, [Вальтер?] [?Груль??] был заместитель [sic] kreislandwirtschaftsfuehrer . . .</u>
+                    <u who="#boderD" start="1006.935" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1007.237" end="x">И один капитан какой германский и шофер и переводчица Ракаускайте [Rakauskaite].</u>
+                    <u who="#boderD" start="1014.147" end="x">Ну.</u>
+                    <u who="#lukoseviciusV" start="1015.063" end="x">Ну, так, этих всех убили.</u>
+                    <u who="#boderD" start="1017.244" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1017.919" end="x">Только эта переводчица жива осталась, а шофер не знаю [как он?].</u>
+                    <u who="#boderD" start="1023.383" end="x"> Ну.</u>
+                    <u who="#lukoseviciusV" start="1024.449" end="x">Ну, тогда за 2 часа эт-, от, по этому случаю, после этого случая во время 2.ух часов [с нем с этого?] с Вильна . . .</u>
+                    <u who="#boderD" start="1034.148" end="x">Ну.</u>
+                    <u who="#lukoseviciusV" start="1034.811" end="x"> . . . приехали эсс-эсс [?сихерхайтельный??] отряд . . . [Both Bek's job function and this word appear to be German pronounced as Russian words. In this case, from the German "sicherheit," "security."]</u>
+                    <u who="#boderD" start="1037.022" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1037.426" end="x"> . . . и окружил всю деревню 4 километра, в радиусе 4.ех километров. И всех мужчин от таких 18 лет, если 16 лет был [1 garbled] не мало [взрослом?] мужчина [все?] забирали. До 60 лет, до 55 так, женщины не забирали. Ну так, люди не знали ничего. Думали, что это будут, ну, помогать искать этих партизан, [что?] это сделал.</u>
+                    <u who="#boderD" start="1064.272" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1065.116" end="x">Но, они [1-2 garbled]. Всех, гмм, людей собрали и я [пытался?] ех-, ехал с Лынтуп города . . .</u>
+                    <u who="#boderD" start="1073.712" end="x">Гм-ммм.</u>
+                    <u who="#lukoseviciusV" start="1074.224" end="x"> . . . и [в моем?] [?карманчике??] и меня [я к на трупе где эти?] люди стоят, один в рубашке, другой без фуражки, (1 garbled], которые стоят и что-то немцы кругом с винтовками, [на?] [2-3 garbled] винтовка кругом ходят не(мцы). Один немец [вот получился?] от этой [компании?] и зовет меня, чтобы я подходил к ним. Я еще сразу [и мне хотелся?]. Он подставил [фривольно?] и "ходи сюда." Ну, я подошел и показал мне где [1-2 garbled] стоять. Я по-германски [sic] [blocked by Boder].</u>
+                    <u who="#boderD" start="1106.691" end="x"> [Blocked/garbled] стоять?</u>
+                    <u who="#lukoseviciusV" start="1108.330" end="x">Где стоят люди. Уже около 60 мужчин уже стоят . . .</u>
+                    <u who="#boderD" start="1111.505" end="x">Отдельно?</u>
+                    <u who="#lukoseviciusV" start="1111.939" end="x">Отдельно, и а кругом их ход-, ходят немцы с винтовками . . .</u>
+                    <u who="#boderD" start="1116.078" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1116.361" end="x"> . . . на подготовке. Ну, я тогда если не хотелось [эти?] немцы [захватил меня?] [5-6 garbled] сказал где там стоить. Я стою, ну из, я хотел спрашивать этих людей, чего [2-3 garbled] "кто вас [перегнал?]," а не [2-3 garbled], чтобы я ничего не говорил.</u>
+                    <u who="#boderD" start="1138.421" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1139.626" end="x"> Ну тогда, за каких . . . еще полчаса перегнали больше людей, больше мужчин перегнали еще собранны с других деревней. Уже может было около 200, а так не могло хорошо по ним [было указать сам рассматриваться?] все от страху. Ну, и тогда уже нас с этого [?руманщки??] [моем?] [1 garbled] через [1 garbled] деревню в Лынтупы. Так, мы думали что допрос какой будет. [Будет кого-нибудь?] спрашивать, что-ли как погнали и тогда повернули на [Баранное?] поле, при лесе там есть могильник такой, и там была [калюши?] провода кругом [?городина??]. Догнали и остановили и сказали по тре-, [трех вот?] идти уже вперед. Трех вперед. [По трех так?] поставили, а там уже лежали с пулеметами и с винтовками немецкие эсс-эсс солдаты и стали стрелять. От [первой?] [1-2 garbled] [вскричать?] [1garbled] 3.ья и 4.ья, все уже стали креститься и молиться. Там один другого [1 garbled] отец с сыном и брат с братом там стал видеть, что же [нет был уже?] раньше так [прошли?] деревню. Так, каждую деревню по одном [повезли немцы?]. [1 garbled] [вошли в?] деревню [одну?] [2-3 garbled] компании [blocked by Boder].</u>
+                    <u who="#boderD" start="1217.508" end="x">И вас?</u>
+                    <u who="#lukoseviciusV" start="1218.321" end="x">[2 garbled]. "Ходите вот сюда. Ходите." [Ну тот еще приносит тренировку?]. Тот человек не знает [на что и как?] [Unknown number of garbled words] [повезли одного уже. Каждую деревню по одном повесили?].</u>
+                    <u who="#boderD" start="1231.376" end="x">И сказали за что они [1-2 garbled]</u>
+                    <u who="#lukoseviciusV" start="1232.472" end="x">Ничего, ничего, не сказали ничего. Тогда, ну, стали стрелять так [1-2 garbled] [по трех они?] держались [все по трех?]. [После?] [1-2 garbled] [таких?] может уже пя . . . [stops, corrects] около 50 мужчин было убитых,</u>
+                    <u who="#boderD" start="1245.906" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1246.237" end="x">Так все, один нашелся такой [1-2 garbled] деревни [?Жиромска??] [такой?]. Так, тот хватил [1 garbled], подскочил на пулеметчиков немцев, [и успел?] пулемет отбирать. Так, в это время счастья была некоторые удрать. [Как он боролся?] с этими [pauses/interrupted by Boder]</u>
+                    <u who="#boderD" start="1261.883" end="x">[1-2 garbled] один пулемет был?</u>
+                    <u who="#lukoseviciusV" start="1263.932" end="x"> С одной стороны пулемет был, с другой там я не мог посчитать [3-4 garbled] [200?]. [2-3 garbled] не в полной памяти, все [не был?] . . .</u>
+                    <u who="#boderD" start="1271.293" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1271.474" end="x"> . . . в полной памяти были.</u>
+                    <u who="#boderD" start="1272.980" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1273.131" end="x">[1-2 garbled] [крестились?] и никто не знал, что делать.</u>
+                    <u who="#boderD" start="1275.794" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1276.167" end="x">Ну, кругом стоять с автоматами и штыки на винтовках кругом, а тут, [?войнец??] [1-2 garbled] стреляют.</u>
+                    <u who="#boderD" start="1283.667" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1284.571" end="x">Ну, как он боролся этот такой [1-2 garbled] был мужчина, боролся с пулеметчиком [unsure of grammatical ending here] этом, так больше немцев подскочили и [с штыками его атаковали?], а я все-таки прошел каких может быть полминуты и в это время удалось нам таких может около 20 человек удрать.</u>
+                    <u who="#boderD" start="1300.483" end="x">Куда [бежали?]?</u>
+                    <u who="#lukoseviciusV" start="1300.947" end="x">В лес.</u>
+                    <u who="#boderD" start="1301.772" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1302.134" end="x">[Бежали?], ничего не помню [где и что, на?] [2-3 garbled] на, на этих, которые [1-2 blocked by Boder] . . . </u>
+                    <u who="#boderD" start="1306.351" end="x">[Blocked by Lukosevicius, above].</u>
+                    <u who="#lukoseviciusV" start="1306.875" end="x"> . . . и [они держали?] убитые и так прямо в лесы и [1-2 garbled] [и так нужен?], ничего даже не помню как, как, как осталось. А там стрельба была долга и там около 400 мужчин стал убитых [на тот-же день?] и доконченных. Ну, тогда на другой день . . .</u>
+                    <u who="#boderD" start="1325.339" end="x"> Все литовцы были?</u>
+                    <u who="#lukoseviciusV" start="1327.038" end="x">Были [словаки, и тоже были?] белорусы там.</u>
+                    <u who="#boderD" start="1329.640" end="x">Так. Евреи были?</u>
+                    <u who="#lukoseviciusV" start="1330.875" end="x">Евреев не было.</u>
+                    <u who="#boderD" start="1331.628" end="x">Нет. [Blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="1331.930" end="x">[1-2 garbled] евреев [они?] уже так отдельно [2-3 garbled] [по?] деревнях [вот где-то равна поле?], вот на поле [1 garbled] человек, пришли немцы [ходи сюда?]. Тот ничего не знает, [отставил лошадь?] [1-2 garbled]. Тут подошел в [1 garbled] не пускать, "сходи с нами." И пошел и пошел, так вот человек аг, сидел в комнате, [2-3 garbled] "ходи сюда." Друго . . . Другой [еще не знали?], увидел, что все люди [ходят днем?] пошел там, как ушел [blocked by Boder].</u>
+                    <u who="#boderD" start="1354.291" end="x">Да. [Кто у вас?]? [Both speaking at once. All garbled.]</u>
+                    <u who="#lukoseviciusV" start="1356.761" end="x"> . . . [garbled] пошел посмотреть. И все. И так убили . . . Ну, тогда на другой день и [с вечером?] [blocked by Boder].</u>
+                    <u who="#boderD" start="1365.538" end="x">Ну, как вы убежали?</u>
+                    <u who="#lukoseviciusV" start="1366.743" end="x">Я в лес убежал. Это, я так в [3-4 garbled] деревни каких 4 километра [1-2 garbled].</u>
+                    <u who="#boderD" start="1371.394" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1372.370" end="x">Так, я убежал и [stammers] и сам ничего не помню как, что . . .</u>
+                    <u who="#boderD" start="1375.605" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1375.888" end="x"> . . . пока по памяти пришел. Ну, тогда [считался?] дому уже был.</u>
+                    <u who="#boderD" start="1379.472" end="x">Домой пришел?</u>
+                    <u who="#lukoseviciusV" start="1380.105" end="x">Домой пришел.</u>
+                    <u who="#boderD" start="1380.677" end="x">Так. А вы [2-3 garbled] записали [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="1382.244" end="x">Они не записали ничего никак. Вот, [взяли?] [blocked by Boder]</u>
+                    <u who="#boderD" start="1384.425" end="x"> Это значит, что вы были [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1384.919" end="x">Нет, не могли [знать?] ничего.</u>
+                    <u who="#boderD" start="1388.094" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1388.196" end="x">И ничего [не?] искали и ничего [1-2 garbled/too weak]. Вот, взяли такой [избыли, надо устроиться?] все. Ну, тогда они доканчивали людей так, которые оставившие живые, так вот другой [полулесы?] и живые и здоровые, а неживые [была?], ну, от [2-3 garbled]. [Tак о́н/Tаком?], так, лежал, как немцы ушли. Доканчивали этих, которые еще живые. В голову стреляли со взрывными пульками.</u>
+                    <u who="#boderD" start="1414.377" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1414.709" end="x">Ну, так . . . одному другому там [дальше?] 300 [1-2 garbled] может 3 человека так [отставить а по трупами?] [2-3 garbled]. [Unknown number garbled and lost as his voice fades].</u>
+                    <u who="#boderD" start="1424.902" end="x">А кто [1-2 garbled] похоронил [этих?] [1 garbled]?</u>
+                    <u who="#lukoseviciusV" start="1427.143" end="x">Ну, [после, после?] на другой день загнали людей в деревню [2-3 garbled] местечку Лынтуп и тогда копали больших [этих?] 80 метров в [в доложинье?] каналы и там ложились сколько там рядов и закопали их. А на другой день тоже была большая стрельба, так дальше по других деревней, как в Шудовцы деревне [Shudovtsy - about 2.1 km NNE of Lyntupy], так привезли там [1-2 garbled] [утром?] [2-3 garbled] автомашины по одному [1 garbled] [забинтовали?] и стреляли по одному. Так, тогда не один не удрал.</u>
+                    <u who="#boderD" start="1456.776" end="x"> А кто стреляли?</u>
+                    <u who="#lukoseviciusV" start="1457.740" end="x">Немцы.</u>
+                    <u who="#boderD" start="1458.764" end="x">А не, ни польские [1 blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="1460.421" end="x">Нет.</u>
+                    <u who="#boderD" start="1460.764" end="x">эссэссы или украинские эссэссы?</u>
+                    <u who="#lukoseviciusV" start="1462.933" end="x">Нет. Тогда нет. Тогда [были?] . . .</u>
+                    <u who="#boderD" start="1463.746" end="x">[Немецкие эссэссы?]?</u>
+                    <u who="#lukoseviciusV" start="1464.710" end="x"> . . . только немецкие [потому, что они?] говорили по-немецки и мы не могли ничего с ними [делать?]. [1-2 garbled] тоже фуражка [2-3 garbled].</u>
+                    <u who="#boderD" start="1473.566" end="x">[Unknown number of words garbled.]</u>
+                    <u who="#lukoseviciusV" start="1475.385" end="x">Да, да . . . Да.</u>
+                    <u who="#boderD" start="1476.650" end="x">Ну.</u>
+                    <u who="#lukoseviciusV" start="1477.433" end="x">Ну, тогда это уже на другой день [указано как?] стреляли они.</u>
+                    <u who="#boderD" start="1481.861" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1482.656" end="x">На другой день [так уже?] стреляли в дальше уже, в дальше деревни, которые были уже больше как 4.ех километров в радиусе . . . Да . . .</u>
+                    <u who="#boderD" start="1491.241" end="x">Это было около Свенчан.</u>
+                    <u who="#lukoseviciusV" start="1492.669" end="x">Около Свенчан и Лынтуп.</u>
+                    <u who="#boderD" start="1494.639" end="x">Лынтуп.</u>
+                    <u who="#lukoseviciusV" start="1495.043" end="x">При Лынтуп. Это совсем Лынтуп.</u>
+                    <u who="#boderD" start="1496.772" end="x">И что, Под . . . Подбродзе близко там?</u>
+                    <u who="#lukoseviciusV" start="1498.742" end="x">В Подбродзе тоже 30 километров, вот.</u>
+                    <u who="#boderD" start="1501.073" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1501.947" end="x">Это совсем, расстрелянные, это было в Лынтупах, местечку, [при могиле?].</u>
+                    <u who="#boderD" start="1507.381" end="x"> Так.</u>
+                    <u who="#lukoseviciusV" start="1508.839" end="x">[При кладбище?].</u>
+                    <u who="#boderD" start="x" end="x">Так.</u>
+                    <!--missing-->
+                    <u who="#lukoseviciusV" start="1510.417" end="x">Ну, тогда как похоронили этот большой [опять один?] на, на [пакетной?] земле, так тогда сказали [stammers] уже сравнять [немножко?], чтоб не было никакого, никакой заметки [засеет?]. А все-таки люди после ночи [стали?] засеять цветы, крестики вставили. [Ну, вот?] опять [1-2 garbled] людей, чтоб сравнять за какое время. Пять крестик [он уставит?] [1-2 garbled] насадит цветов, а что при . . . при дороге совсем расстреляли этих [ужасно?]. После [проведения?] на другой день, там в [?Жарки??] деревне [2-3 garbled] там [с этих?] . . . так . . . тоже там крестики вставили люди часто. И как в воскресенье идут [1-2 garbled] там полно женщин. Полно, полно [1 garbled] кричат и кричат, плачут. Но было так, что отец и [двух сынов?] убита бы [stammers] мужи [убитых этих?] жен [1-2 garbled] долго остались . . .</u>
+                    <u who="#boderD" start="1568.875" end="x"> Ну.</u>
+                    <u who="#lukoseviciusV" start="1569.297" end="x"> . . . так в этот случай там . . . Ну, после [еще?] была [?почестка??] такая в Свенчане в городе, Новые Свенчаны, в Адутишках, в Поставах, так около Новый Свенчан [43?] километра. Новый Свенчан там много расстреляли людей. [Два,?] двух священников [принесли?] католических убитых [1 garbled]. [Все тогда?] они считали немцы, что 400 людей убили, [?але??] так-как там видно [1-2 garbled] наверно около 1,000 было. [всего?] это.</u>
+                    <u who="#boderD" start="1598.582" end="x">Ну, и еще [1-2 garbled] продолжалась, что за [1 garbled] были? А вы вернулись [себе?] в деревню [blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="1602.980" end="x">Я в деревню сразу так еще [вернулся?]. После получил работу.</u>
+                    <u who="#boderD" start="1606.908" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1607.432" end="x">Ну, после была [акция?], еще позвали нашу, нашего года рождения в амию. Это [1-2 garbled] на комиссию, на комиссию [не?] ушел.</u>
+                    <u who="#boderD" start="1616.498" end="x">В немецкую армию?</u>
+                    <u who="#lukoseviciusV" start="1617.312" end="x">Да, в немецкую [не ушел?] тоже. После акции была [1-2 garbled] там окружали [уже?] все так [целого места?] [1-2 garbled] трясут лю(ди), мужчины и женщины искали.</u>
+                    <u who="#boderD" start="1629.975" end="x"> А [что же?] называется акция? [Что же?]?</u>
+                    <u who="#lukoseviciusV" start="1631.855" end="x">Акция считали, ловить людей и вывозить их в Германию, а [1-2 garbled] в армию убрать.</u>
+                    <u who="#boderD" start="1636.837" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1637.180" end="x">Так они считали акцию в 43.ем году [rest blocked by Boder].</u>
+                    <u who="#boderD" start="1638.897" end="x">Ну, [blocked by Lukosevicius above] это было?</u>
+                    <u who="#lukoseviciusV" start="1640.403" end="x">Ну, тогда уже ничего такого, только спрятался, не показывался нигде.</u>
+                    <u who="#boderD" start="1645.674" end="x">Так. Ну, и как вот это продолжалось, и что было потом?</u>
+                    <u who="#lukoseviciusV" start="1650.945" end="x">Ну, потом уже . . .</u>
+                    <u who="#boderD" start="1653.656" end="x">И так это было у вас до тех пока русские пришли . . . [1-2 garbled] Немцов.</u>
+                    <u who="#lukoseviciusV" start="1658.204" end="x">Да. Ну, тогда уже и нас они усмирились и ничего так. А, уже в 44.ом году когда . . .</u>
+                    <u who="#boderD" start="1664.942" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1665.587" end="x"> . . . приближался, пред . . . подвигался советский фронт близко, тогда я уже один раз ушел в город Свенчан с интересом о [2-3 garbled] германская поймала . . .</u>
+                    <u who="#boderD" start="1676.653" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1676.985" end="x"> . . . И тогда уже не пустили меня. Повезли, [я шел?] в город Шяуля́й, Шяуля́й.</u>
+                    <u who="#boderD" start="1683.443" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1683.907" end="x"> И там посадили в лагерь. И пленные русские были, много там мужчин собрали.</u>
+                    <u who="#boderD" start="1688.076" end="x">И [1-2 garbled] почему как русские пленные?</u>
+                    <u who="#lukoseviciusV" start="1690.739" end="x">Нет, там был в одном бараке русские пленные военные были . . .</u>
+                    <u who="#boderD" start="1694.456" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1694.589" end="x"> . . . советские. И там нас (2-3 garbled) так вот цивильных людей в другом бараке. [1-2 garbled] уже сам в районе где были [летчики?].</u>
+                    <u who="#boderD" start="1701.137" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1701.408" end="x">[Подержал?] там каких 4 дня и вывезли в Германию.</u>
+                    <u who="#boderD" start="1706.288" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1706.752" end="x">В городе . . .</u>
+                    <u who="#boderD" start="1708.481" end="x">У вас что было? Жена и дети?</u>
+                    <u who="#lukoseviciusV" start="1710.391" end="x">Были тоже жена и дети.</u>
+                    <u who="#boderD" start="1711.307" end="x">[Отдельно?]?</u>
+                    <u who="#lukoseviciusV" start="1711.891" end="x">Дома [отстали?].</u>
+                    <u who="#boderD" start="1712.976" end="x">Дома отстали?</u>
+                    <u who="#lukoseviciusV" start="1713.879" end="x">Дома отстали.</u>
+                    <u who="#boderD" start="1714.584" end="x">Так, что [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1714.988" end="x">Я ничего не знал где [они?]. На улице взяли [both talking at once]</u>
+                    <u who="#boderD" start="1716.988" end="x">Так, на улице взяли?</u>
+                    <u who="#lukoseviciusV" start="1718.374" end="x">Да.</u>
+                    <u who="#boderD" start="1718.627" end="x">И ничего.</u>
+                    <u who="#lukoseviciusV" start="1718.898" end="x">Ничего никто не знает.</u>
+                    <u who="#boderD" start="1719.633" end="x">У вас есть родственников [sic], чтобы через Америку написать им ничего?</u>
+                    <u who="#lukoseviciusV" start="1723.772" end="x">В Америке родственников таких не имею. Но, в Бразилии имею.</u>
+                    <u who="#boderD" start="1728.121" end="x">Так. А вы не пробовали [2-3 garbled].</u>
+                    <u who="#lukoseviciusV" start="1730.923" end="x">Я не пробовал.</u>
+                    <u who="#boderD" start="1732.110" end="x">Так. Ну, значит дальше. И еще же вас увезли куда?</u>
+                    <u who="#lukoseviciusV" start="1737.062" end="x">Увезли в город Герцогенбург [Herzogenburg]. Там около Герцогенбурга копали такие большие, глубокие ямы, по 3 метра с половиной и 4 метр, метра ширины. [Вставал?] такие столбы железные, как маяки [2-3 garbled] [на электрик?] и по 53 метра [вершины?]</u>
+                    <u who="#boderD" start="1755.478" end="x"> Зачем [1-2 garbeld]?</u>
+                    <u who="#lukoseviciusV" start="1756.635" end="x">Ну, не знаю [1-2 garbled].</u>
+                    <u who="#boderD" start="1757.400" end="x">И вот вы ямы копали.</u>
+                    <u who="#lukoseviciusV" start="1759.388" end="x">Копал 3 месяца.</u>
+                    <u who="#boderD" start="1760.653" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1761.135" end="x">И после этого [stop when Boder interrupts.]</u>
+                    <u who="#boderD" start="1762.280" end="x">Как вас держали, как вас кормили, как с вами обращали?</u>
+                    <u who="#lukoseviciusV" start="1766.147" end="x">Обращались так, как с [скатанной?]. Кормили так, ну . . . не могу сказать, но уже ну как в наш, в нашей стране так свинье лучше щи кушают как они нам давали людам кушать.</u>
+                    <u who="#boderD" start="1780.123" end="x">Ну [4-5 garbled], [ну, ладно?].</u>
+                    <u who="#lukoseviciusV" start="1781.539" end="x">Утром . . . 5 часов утром надо было [идти в ?бакаль??]. Ну, [?каль??] была как-то беленные [?нибы??] и не был соложен [3-4 garbled] [делать?] немножко так.</u>
+                    <u who="#boderD" start="1795.657" end="x">А хлеба давали [тогда?]?</u>
+                    <u who="#lukoseviciusV" start="1797.687" end="x">Хлеба давали утром.</u>
+                    <u who="#boderD" start="1799.344" end="x">Какой этот хлеб был? . . . Пекли каждый день или каждую неделю?</u>
+                    <u who="#lukoseviciusV" start="1803.904" end="x"> Так, мы не [знали?] привозили откуда хлеб.</u>
+                    <u who="#boderD" start="1805.892" end="x">"Привозили откуда хлеб"?</u>
+                    <u who="#lukoseviciusV" start="1806.672" end="x">[Blocked by Boder, above]. Да.</u>
+                    <u who="#boderD" start="1807.730" end="x">И было на нем мелкие опилки [stammers].</u>
+                    <u who="#lukoseviciusV" start="1810.182" end="x">Было, было, опилки было.</u>
+                    <u who="#boderD" start="1811.098" end="x">Аг, [в армии?], вы не знаете, что это был немецкий консервированный хлеб. Говорят, что [blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="1817.485" end="x">А мы не знаем.</u>
+                    <u who="#boderD" start="1818.359" end="x"> . . . квадратные . . .</u>
+                    <u who="#lukoseviciusV" start="1819.335" end="x">Да, да.</u>
+                    <u who="#boderD" start="1819.769" end="x">Так, как [1-2 garbled].</u>
+                    <u who="#lukoseviciusV" start="1820.564" end="x">[Garbled]</u>
+                    <u who="#boderD" start="1821.709" end="x">Ага. А не были и потом [1-2 garbled] паковали, паковали [1-2 blocked by Lukosevicius] . . . </u>
+                    <u who="#lukoseviciusV" start="1824.793" end="x">Да, да, да.</u>
+                    <u who="#boderD" start="1825.305" end="x"> . . . деревом.</u>
+                    <u who="#lukoseviciusV" start="1825.757" end="x">Было это опилками кругом было [blocked by Boder].</u>
+                    <u who="#boderD" start="1828.649" end="x">Да, а я . . .</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1829.926" end="x">[In English] I want to make a remark. I couldn't track this down, but in certain lagers they were giving a bread that is equivalent to some kind of a canned or preserved bread that was baked a long time ago and then in a compressed form so to speak kept in boxes between sawdust and then it was distributed in the ah, in the ah camps. In the lagers. Alright . . . </u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1855.386" end="x">[In Russian] Ну?</u>
+                    <u who="#lukoseviciusV" start="1856.362" end="x">Ну, тогда утром дают хлеба на 5, [была квота?] на 5 человек.</u>
+                    <u who="#boderD" start="1862.519" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1863.676" end="x"> И дают немножко маргарины.</u>
+                    <u who="#boderD" start="1865.947" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1867.001" end="x">И тогда уже в 6 часов выезжаем на работу.</u>
+                    <u who="#boderD" start="1871.459" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1872.062" end="x">В автомобиль и поехали. [Пока хочешь так и с этом?] хлебом [делить?].</u>
+                    <u who="#boderD" start="1875.869" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1876.411" end="x">Тогда аж . . . целый день надо работать. Копать и копать землю. Выбрасывать 3 метра с половиной [верху?]. И ну как начинающую яму так и не так глубока, а так уже кончающую очень глубоко на [blocked by Boder]</u>
+                    <u who="#boderD" start="1891.291" end="x">Глубоко и [2-3 garbled] квадрат.</u>
+                    <u who="#lukoseviciusV" start="1892.749" end="x">[1-2 garbled] вверх выбрасывать и присматривает и кричать и толкают даже. Там греки работали, французы работали, аг, поляки . . .</u>
+                    <u who="#boderD" start="1902.550" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1903.815" end="x">Ну.</u>
+                    <u who="#boderD" start="1904.388" end="x">[Garbled and blocked by Lukosevicius] были?</u>
+                    <u who="#lukoseviciusV" start="1906.207" end="x">После . . . [?Илинь??]? Мне так и еще не пришлось [3-4 garbled]. Греков так много раз поляков били.</u>
+                    <u who="#boderD" start="1912.334" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1912.816" end="x">Мне так очень я еще старался работу как только мог, уже боялся [как?] [1-2 garbled].</u>
+                    <u who="#boderD" start="1917.274" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1918.702" end="x">Ну, тогда уже 16.го, 16.го . . . гммм . . . ну . . . ноября. Ноября 16.го [?вызначил?] нас 10 человек на окопы копать, как это в 45.ом . . . нет, в 4- . . . </u>
+                    <u who="#boderD" start="1940.130" end="x"> 4.ом.</u>
+                    <u who="#lukoseviciusV" start="1940.413" end="x"> . . . в 44.ом году.</u>
+                    <u who="#boderD" start="1941.467" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1941.769" end="x">Да, окопы копать. Ну, и нас 6 литовцев и 4.ех болгаров [sic] . . . </u>
+                    <u who="#boderD" start="1949.944" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1950.408" end="x"> . . . взяли из этого лагеря . . .</u>
+                    <u who="#boderD" start="1952.167" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1952.468" end="x">Признали как уже, что еще можем работать и высланы на окопы.</u>
+                    <u who="#boderD" start="1957.769" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1958.251" end="x">В Deutschkreuz город около Вен-, Венгрии.</u>
+                    <u who="#boderD" start="1962.227" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1962.800" end="x">[1-2 garbled] [при?] венгерской границы. Там тоже мы жили 3 месяца, работали. Копали окопы. Там уже несколько лучше было. Немножко лучше. И немножко хлеба больше давали. Ну, и работы не так, не так тяжелая была. И меньше, меньше часов надо было работать.</u>
+                    <u who="#boderD" start="1988.651" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="1989.073" end="x">Там, в э-, в этом городе Deutschkreuz 8,000 работу этих людей, которые окопы копали при [fades to nil].</u>
+                    <u who="#boderD" start="1995.489" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="1995.802" end="x">[Вся?] [1 garbled] национальность. Французы были, итальянцы, поляки, русские. Литовцев было немного очень.</u>
+                    <u who="#boderD" start="2003.724" end="x">Так . . . . Ну?</u>
+                    <u who="#lukoseviciusV" start="2008.555" end="x"> Ну, тогда 3 месяца окопы копали эти. И после [этого уже?] подвигался в Венгрию фронт очень близко, уже слышно было, что очень близко . . .</u>
+                    <u who="#boderD" start="2017.351" end="x">Кто?</u>
+                    <u who="#lukoseviciusV" start="2017.664" end="x">сов-, совет уже под, [подлежал?].</u>
+                    <u who="#boderD" start="2021.158" end="x">Да.</u>
+                    <u who="#lukoseviciusV" start="2021.490" end="x"> [А мы боялись?], чтобы в, в фронт в вагоне попасть [удрали?] с этих окопов.</u>
+                    <u who="#boderD" start="2026.050" end="x">Кто [да?]?</u>
+                    <u who="#lukoseviciusV" start="2026.532" end="x">А, мы . . .</u>
+                    <u who="#boderD" start="2027.466" end="x">Кто [да?]?</u>
+                    <u who="#lukoseviciusV" start="2027.870" end="x">5 человек.</u>
+                    <u who="#boderD" start="2028.936" end="x">Литовцев?</u>
+                    <u who="#lukoseviciusV" start="2029.750" end="x">Да.</u>
+                    <u who="#boderD" start="2030.425" end="x">Это были люди [физиков?], которые с вами туда удрали?</u>
+                    <u who="#lukoseviciusV" start="2034.142" end="x">А, нет, не тех . . .</u>
+                    <u who="#boderD" start="2035.028" end="x"> [Кто?]?</u>
+                    <u who="#lukoseviciusV" start="2035.552" end="x"> . . . [это?], который [1 garbled] поднялся тут здесь уже в этом.</u>
+                    <u who="#boderD" start="2038.022" end="x">Так. Ну, и как вы удрали и куда вы удрали?</u>
+                    <u who="#lukoseviciusV" start="2041.859" end="x">Удрали в Вену, в Вену город приехали и там . . .</u>
+                    <u who="#boderD" start="2046.498" end="x"> Как? Приехали или пришли?</u>
+                    <u who="#lukoseviciusV" start="2048.498" end="x">Приехали [по этом?] [possibly mispronouncing "поездом"]. По, отправлялись уже некоторые эшелоны от [?своняли??] некоторых рабочих . . .</u>
+                    <u who="#boderD" start="2053.859" end="x">Так</u>
+                    <u who="#lukoseviciusV" start="2054.371" end="x"> . . . вот уже [2-3 garbled/blocked by Boder] . . . </u>
+                    <u who="#boderD" start="2055.486" end="x">[Blocked]</u>
+                    <u who="#lukoseviciusV" start="2055.920" end="x"> . . . а мы с этим транспортом приехали в Вену. В Вене . . .</u>
+                    <u who="#boderD" start="2058.583" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2058.896" end="x"> . . . в Вене с транспорта выскочили и нашли там Литовская была [?саюнга??] так звался.</u>
+                    <u who="#boderD" start="2066.216" end="x">Союз?</u>
+                    <u who="#lukoseviciusV" start="2067.102" end="x">Литовская такая, ну, управление было.</u>
+                    <u who="#boderD" start="2070.006" end="x">Так, в Вене?</u>
+                    <u who="#lukoseviciusV" start="2070.771" end="x">В Вене.</u>
+                    <u who="#boderD" start="2071.554" end="x">Так, а разве он не былa нацистской? [sic]</u>
+                    <u who="#lukoseviciusV" start="2074.235" end="x">Нет [hesitatingly], ну . . . я не знаю так [там?] сказать . . .</u>
+                    <u who="#boderD" start="2080.151" end="x">Так. И что-же вы делали?</u>
+                    <u who="#lukoseviciusV" start="2082.181" end="x">Ну, мы там рассказали, что мы хотим уже, не хотим вернуть в этую [sic] фирму, где там работали и хотим, чтобы у [хозяина делали те?], чтобы [он уже не?] надоело нам в этих лагерях, чтобы отдох, отдохнуть немножко. Так они нам выдали такой, такую карточку, что мы только недавно шли [1 garbled] там так, так из [больницы?] [2-3 garbled] больницы пошли, и выдали документ нам ехать аж до Берлина. Ну, а мы тогда приехали . . . аг . . . [до Берлина ехали?] около Пассау и нашли . . .</u>
+                    <u who="#boderD" start="2118.472" end="x"> [Нашли?]?</u>
+                    <u who="#lukoseviciusV" start="2118.997" end="x">Аг, нашли [хозяина?].</u>
+                    <u who="#boderD" start="2120.021" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2120.364" end="x">[?Хозяинов??] и там жили уже 7 месяцев.</u>
+                    <u who="#boderD" start="2124.069" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2124.762" end="x">В Принбахе.</u>
+                    <u who="#boderD" start="2125.979" end="x">Гм-ммм.</u>
+                    <u who="#lukoseviciusV" start="2126.955" end="x">Принбах-ам-Инн, при Инн.</u>
+                    <u who="#boderD" start="2131.003" end="x">Так . . . Ну и потом что случилось?</u>
+                    <u who="#lukoseviciusV" start="2133.262" end="x">Потом 8.го . . . [1-2 too weak] сентября.</u>
+                    <u who="#boderD" start="2139.166" end="x">Ну, не важно. А потом.</u>
+                    <u who="#lukoseviciusV" start="2140.533" end="x">Приехали здесь в лагерь, в Логенгрин [Lohengrin].</u>
+                    <u who="#boderD" start="2143.817" end="x">Ну, как?</u>
+                    <u who="#lukoseviciusV" start="2144.311" end="x">[2-3 garbled] приехали.</u>
+                    <u who="#boderD" start="2144.956" end="x">Ну, [позвольте?]. Вас когда освободили?</u>
+                    <u who="#lukoseviciusV" start="2147.016" end="x">Освободил 1.го мая.</u>
+                    <u who="#boderD" start="2148.703" end="x">Кто освободил?</u>
+                    <u who="#lukoseviciusV" start="2149.263" end="x">[1-2 blocked by Boder above] американская армия [зашла?].</u>
+                    <u who="#boderD" start="2150.673" end="x">Куда?</u>
+                    <u who="#lukoseviciusV" start="2151.673" end="x">Ну, там где мы жили в Принбахе.</u>
+                    <u who="#boderD" start="2154.095" end="x">А вы работали у [1-2 garbled/blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="2154.950" end="x">У хозяина, у хозяина.</u>
+                    <u who="#boderD" start="2156.276" end="x">Ну, скажите мне как это было, когда вы работали а потом американская армия зашла. Вы узнали, что свобода будет?</u>
+                    <u who="#lukoseviciusV" start="2162.131" end="x">Мы знали уже, что придет [он?], все наблюдают, так слушали [совсем не будет или?] или скоро придет американская армия.</u>
+                    <u who="#boderD" start="2168.848" end="x"> А хозяин что говорил?</u>
+                    <u who="#lukoseviciusV" start="2170.445" end="x">Хозяин был эсса [SA]. Этот там [both speaking at once/several missed] такой нас.</u>
+                    <u who="#boderD" start="2175.246" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2175.578" end="x">Так, он ничего нам не рассказал. Ничего, ничего. Политику, что [мы у него не?] спрашивали [о нем?], и нам не рассказывал ничего.</u>
+                    <u who="#boderD" start="2183.241" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2183.765" end="x">[Одно?], что по-германски [sic] говорить не умел хорошо. Ну, так, вот там я работал и один поляк работал у этого хозяина.</u>
+                    <u who="#boderD" start="2191.988" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2192.331" end="x">Вот, 1.го мая поехали в лес. Ехали назад с леса с деревом и встретили американские танки уже на дороге. Так, мы еще удрали от дороги и думали, что будут стрелять. Вот, там было Солдатов несколько.</u>
+                    <u who="#boderD" start="2204.801" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2205.193" end="x">[1-2 blocked by Boder, above] германских, они все разбежались.</u>
+                    <u who="#boderD" start="2208.187" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2208.771" end="x">Но, мы [стали?] и [laughing] смеялись. Один американский солдат с танк выбросил [лычки?]. Это [2-3 garbled] я взял.</u>
+                    <u who="#boderD" start="2217.326" end="x">Это чудно [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="2218.724" end="x">А, не знаю. Он [на меня?] [2-3 garbled] [пока не?] стоял, он бросил [blocked by Boder].</u>
+                    <u who="#boderD" start="2222.290" end="x">А, [кушать?] [1-2 garbled] они дали?</u>
+                    <u who="#lukoseviciusV" start="2223.585" end="x">Ну, кушать мы не [получили?].</u>
+                    <u who="#boderD" start="2225.212" end="x"> [3-4 garbled] приехали. Они просто проезжали [2-3 garbled]?</u>
+                    <u who="#lukoseviciusV" start="2229.652" end="x">Они остановились и обходили [все-to нас разжали?] и обходили и искали все, на, а там было волксштурмами [не скоты?]. Эссэсс солдат был [1-2 garbled] также неорганизованна.</u>
+                    <u who="#boderD" start="2242.315" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2242.598" end="x">Так, разбежали [3-4 garbled] дальше на [городе?] . . .</u>
+                    <u who="#boderD" start="2245.460" end="x">Так.</u>
+                    <u who="#lukoseviciusV" start="2245.713" end="x"> . . . которые подали все в плен. Это было около города Браунау. Браунау-Зимбах.</u>
+                    <u who="#boderD" start="2250.382" end="x">[1 garbled].</u>
+                    <u who="#lukoseviciusV" start="2251.448" end="x">Это Зимбах [куда ходили?] эти американские танки. Все [опознавались скоро?], много офицеров германских солдат шло в плен, поддавались [данные?].</u>
+                    <u who="#boderD" start="2261.780" end="x">Так . . . Ну, и потом значит, вы, вас когда же прав-, аг, отослали сюда?</u>
+                    <u who="#lukoseviciusV" start="2269.473" end="x">8.го [это был?] августа.</u>
+                    <u who="#boderD" start="2273.461" end="x">45.го года?</u>
+                    <u who="#lukoseviciusV" start="2274.738" end="x">45.го года.</u>
+                    <u who="#boderD" start="2275.551" end="x">И вы [both talking and blocking each other at once.]</u>
+                    <u who="#lukoseviciusV" start="2276.575" end="x">[Blocked] [живу?] здесь в лагере.</u>
+                    <u who="#boderD" start="2278.021" end="x">А что же вы делаете? В чем вы работаете?</u>
+                    <u who="#lukoseviciusV" start="2278.925" end="x">Ну, сразу не работаю, ничего [2-3 blocked by Boder]</u>
+                    <u who="#boderD" start="2281.497" end="x">[Blocked by Lukosevicius, above]</u>
+                    <u who="#lukoseviciusV" start="2283.666" end="x">[1-2 garbled] время, а после [в лес?] я иду. Ну, разделял эту [кушано?] полгода.</u>
+                    <u who="#boderD" start="2290.786" end="x"> Так.</u>
+                    <u who="#lukoseviciusV" start="2291.088" end="x">А сейчас работаю тоже при выгрузки дерева.</u>
+                    <u who="#boderD" start="2293.961" end="x">Так. По . . . Для кого вы грузите дерево?</u>
+                    <u who="#lukoseviciusV" start="2296.431" end="x">Это для лагеря, в лагерь здесь привозить с леса, и выгружаем и складываем.</u>
+                    <u who="#boderD" start="2300.106" end="x">Так. И что вы собираете делать?</u>
+                    <u who="#lukoseviciusV" start="2303.600" end="x">[Я сейчас?] шоферский курс окончил, и сейчас [прошел экзамен?] и дал уже тут в лагере все.</u>
+                    <u who="#boderD" start="2308.389" end="x">Так. А что вы собираете делать?</u>
+                    <u who="#lukoseviciusV" start="2311.281" end="x">Я, и, как это?</u>
+                    <u who="#boderD" start="2312.980" end="x">Куда вы собираете ехать? [2-3 garbled], что с вами будет?</u>
+                    <u who="#lukoseviciusV" start="2316.366" end="x">Ну, ну [где?] [2-3 garbled] [по результате?] там [я поеду?], но если, хотел бы поехать или в Аргентину или [1 short word garbled].</u>
+                    <u who="#boderD" start="2323.125" end="x">А у вас родственники в Южной Америке есть?</u>
+                    <u who="#lukoseviciusV" start="2325.354" end="x">В Южной Америке нет, только в Бразилии есть [blocked by Boder].</u>
+                    <u who="#boderD" start="2327.655" end="x">Ну, Бразилия, это южная. А вы ему писали?</u>
+                    <u who="#lukoseviciusV" start="2330.577" end="x">Нет, не писал ничего.</u>
+                    <u who="#boderD" start="2331.884" end="x">Не знает он про вас?</u>
+                    <u who="#lukoseviciusV" start="2332.848" end="x">Не знает он про меня и я ничего не знаю. И адреса не помню я.</u>
+                    <u who="#boderD" start="2336.944" end="x">И про семью ничего не знаете, да?</u>
+                    <u who="#lukoseviciusV" start="2338.330" end="x">Не знаю ничего про семью.</u>
+                    <u who="#boderD" start="2339.896" end="x">А у вас сколько там детей было?</u>
+                    <u who="#lukoseviciusV" start="2341.734" end="x">Двое.</u>
+                    <u who="#boderD" start="2342.589" end="x">Сколько лет?</u>
+                    <u who="#lukoseviciusV" start="2343.614" end="x">Одному сей, сейчас 7.ой год, девочка, а мальчик будет 3 года.</u>
+                    <u who="#boderD" start="2348.475" end="x"> Так, что вы с своей семьи разделили.</u>
+                    <u who="#lukoseviciusV" start="2350.584" end="x">Разделили.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2352.132" end="x">[In English] Аг . . . Well, that's the point on which we conclude the interview with Alfonsas Paulis [sic] at Lohengrinstrasse, the Baltic camp of displaced people, displaced Latvians, Estonians, Lithuanians who are here pending their fate of which most of them don't know. They know only one thing.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="2382.385" end="x">[In Russian] Вы хотите вернуться обратно в Литву?</u>
+                    <u who="#lukoseviciusV" start="2385.277" end="x">Нет, не хочу. Я знаю хорошо советов, так как я жил 2 года под ним и [2-3 weak and garbled], [и так?] я сейчас не могу вернуться. Не, не один сейчас из нас не может вернуться [2-3 garbled].</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2396.253" end="x">He feels he cannot go back, he doesn't want to go back. And so, a man at the age of 41 . . . </u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="2405.030" end="x">[In Russian] Вам 41 год?</u>
+                    <u who="#lukoseviciusV" start="2406.566" end="x"> 33 года.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2407.651" end="x">[In English] Ah, a man of 33, of the age of 33 is looking for a new country, a new land and a new anchor. This . . . Ja?</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#lukoseviciusV" start="2416.488" end="x">Я хотел бы же очень сильно не хочу вернуться, [чтобы?] я знаю, что ес-, если я вернусь, так я дома не увидел [все равно?]. Но если сразу как только Американцы зашли, чтобы сразу поехал, так может быть есть, а сейчас уже год [время не ехал?], так знаю хорошо, что я дома не увидел если я хотел бы [blocked by Boder].</u>
+                    <u who="#boderD" start="2433.996" end="x">Почему дом не увидете?</u>
+                    <u who="#lukoseviciusV" start="2434.900" end="x">[Garbled, only word audible is расстреляют].</u>
+                    <u who="#boderD" start="2438.665" end="x">А за что? [В Литве?] вы ничего [и никуда не?] [1 garbled].</u>
+                    <u who="#lukoseviciusV" start="2441.557" end="x">[Нет, не все?], но я знаю как [советы?]. Я лучше знаю как другие. [История?] не знают.</u>
+                    <u who="#boderD" start="2447.262" end="x">Так.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2448.148" end="x">[In English] It is a fear of getting killed, of being displaced, and the fear of others that transmits itself in a group and grows. They don't want to go back, they don't want to go back for their families. This concludes Spool 144, 14- this concludes spool 145 . . . at Lohengrinstrasse in the displaced people's camp, Lithuanians, Latvians, Estonians. Illinois Institute of Technology wire recording. September the 21st, 1946, in a camp maintained by the UNRRA in some special arrangement of the military government with the Germans. Quite some intricate conditions under which these camps are maintained and of which one has to get rather printed material and dated and to get a interview when someone doesn't know how to ask a question in order to get the proper answer. We are going now over to the Greek Orthodox church to take a part of the services. And tonight we will take the choruses of the Latvians and Lithuanians.</u>
+                </div>
+                <!-- end Spool 9-145 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#lukoseviciusV_en">
+                <!-- begin Spool 9-144C -->
+                <div lang="en">
+                    <u who="#boderD" start="0.512" end="x">[In English] Lohengrinstrasse, the Baltic camp in <placeName ref="München">Munich</placeName>, September the 21st, 1946. We have on the spool 4 minutes left, but we are going to start with the interview of Mr. Vladus Lukosevicius, [stammers], a Lithuanian. Lithuanian?</u>
+                    <u who="#lukoseviciusV" start="15.030" end="x">Jа.</u>
+                    <u who="#boderD" start="15.331" end="x">[stammers] ah, who will talk to us in Russian.</u>
+                    <u who="#boderD" start="18.765" end="x">[In Russian] Ah, how old are you, Mr. Lukosevicius?</u>
+                    <u who="#lukoseviciusV" start="22.500" end="x">Ah, 13, 1913. [1-2 words too weak].</u>
+                    <u who="#boderD" start="24.699" end="x">But how old are you now?</u>
+                    <u who="#lukoseviciusV" start="26.488" end="x">I'm 33 now.</u>
+                    <u who="#boderD" start="27.874" end="x">33 years old . . . Well, Mr. Lukosevicius, speak [here?] in this direction, and right here to both sides . . .</u>
+                    <u who="#lukoseviciusV" start="35.808" end="x">[1 weak].</u>
+                    <u who="#boderD" start="36.844" end="x">[In this one and this?]</u>
+                    <u who="#lukoseviciusV" start="37.989" end="x">Yes.</u>
+                    <u who="#boderD" start="38.302" end="x">Tell us where you were when the Russian arrived in Lithuania?</u>
+                    <u who="#lukoseviciusV" start="45.350" end="x">In 1939?</u>
+                    <u who="#boderD" start="46.796" end="x">Yes. [Life?].</u>
+                    <u who="#lukoseviciusV" start="49.417" end="x">As I [too weak].</u>
+                    <u who="#boderD" start="51.628" end="x">No, where YOU were when the Russians arrived in Lithuania.</u>
+                    <u who="#lukoseviciusV" start="55.285" end="x">When the Russians arrived in Lithuania, I was then . . . I was in the Polish army [I, in our?], our country was [1 weak] area under . . . Poland.</u>
+                    <u who="#boderD" start="63.942" end="x">Oh, you were in Poland.</u>
+                    <u who="#lukoseviciusV" start="65.731" end="x">Yes. I was in the Polish army then (and here) to Germany in captivity . . .</u>
+                    <u who="#boderD" start="67.448" end="x">Aha.</u>
+                    <u who="#lukoseviciusV" start="67.659" end="x"> . . . when [2-3 words too weak].</u>
+                    <u who="#boderD" start="68.876" end="x">[And then?], that is, then tell me where you were when the war began? And tell me everything.</u>
+                    <u who="#lukoseviciusV" start="77.472" end="x">When the war began in 1939?</u>
+                    <u who="#boderD" start="79.611" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="81.491" end="x">When, in 1939, when the war began, I was on the 24th of August, I had been mobilized into the Polish army.</u>
+                    <u who="#boderD" start="91.142" end="x">So . . . Well, [wait?] do it like so. Eh, what do you think started the war, when the Germans arrived in Poland or when?</u>
+                    <u who="#lukoseviciusV" start="99.889" end="x">I think the war began in 1939.</u>
+                    <u who="#boderD" start="103.034" end="x">This was when and what was it?</u>
+                    <u who="#lukoseviciusV" start="104.432" end="x">When the Germans attacked Poland.</u>
+                    <u who="#boderD" start="106.522" end="x">When the Germans.. attacked Poland?</u>
+                    <u who="#lukoseviciusV" start="109.293" end="x">Yes.</u>
+                    <u who="#boderD" start="110.227" end="x">They . . . Okay, [then nothing?]. So, fine. And where were you?</u>
+                    <u who="#lukoseviciusV" start="115.769" end="x">I then [had been called?] into the Polish army.</u>
+                    <u who="#boderD" start="118.992" end="x"> So.</u>
+                    <u who="#lukoseviciusV" start="121.552" end="x">But and so [1-2 weak) of September the war started and I was in [1-2 weak/garbled] on the 13th of September I ended up in Germany as a captive and was taken to West Prussia.</u>
+                    <u who="#boderD" start="137.736" end="x">You were captured?..</u>
+                    <u who="#lukoseviciusV" start="x" end="x">Yes.</u>
+                    <!--missing-->
+                    <u who="#boderD" start="138.893" end="x"> . . . and you were [so?] of Russian . . .</u>
+                    <u who="#lukoseviciusV" start="140.321" end="x">[Garbled and blocked by Boder]</u>
+                    <u who="#boderD" start="141.116" end="x">No, as much as captured [2-3 garbled and blocked, both speaking at once while Boder tries to correct what he himself is saying.])</u>
+                    <u who="#lukoseviciusV" start="144.369" end="x"> . . . in West Prussia in Rosenberg. It was a Kreis . . .</u>
+                    <u who="#boderD" start="147.020" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="147.393" end="x"> . . . and <placeName ref="Riesenburg " type="camp">Riesenburg</placeName> the camp.</u>
+                    <u who="#boderD" start="149.080" end="x">So. Now you tell me everything in detail. How was it you were captured, how did they surround you? Tell me all of it. We have [time?] . . . Well?</u>
+                    <u who="#lukoseviciusV" start="159.924" end="x">Well, I . . . that is, well [the Germans had taken from us?] all the towns already and we were captured near the town of <placeName ref="Siedlce">Siedlce</placeName>, 3 kilometers from the town of [<placeName ref="Siedlce">Siedlce</placeName>?].</u>
+                    <u who="#boderD" start="172.406" end="x">Where were your officers?</u>
+                    <u who="#lukoseviciusV" start="175.008" end="x">They had taken away the officers [with us did not torment?] and already weren't with us.</u>
+                    <u who="#boderD" start="179.165" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="180.020" end="x">[There was no [1-2 garbled] [a hit?]. So, the German tanks smashed us the first time outside of <placeName ref="Warsaw">Warsaw</placeName>, [not far from?] <placeName ref="Warsaw">Warsaw</placeName>, a town there . . . [the city?] [3-4 garbled].</u>
+                    <u who="#boderD" start="192.370" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="193.647" end="x">Well, so they held like that then . . .</u>
+                    <u who="#boderD" start="196.599" end="x">[1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="197.244" end="x">There [blocked by Boder]</u>
+                    <u who="#boderD" start="197.497" end="x">[Did he?] not [seize?] everyone?</u>
+                    <u who="#lukoseviciusV" start="198.431" end="x">No, no . . . [they did not seize?] [unknown number of words garbled] [and may?] have held out against the Germans [even then already?] . . .</u>
+                    <u who="#boderD" start="206.335" end="x">[2-3 garbled].</u>
+                    <u who="#lukoseviciusV" start="206.919" end="x"> . . . [they held?]</u>
+                    <u who="#boderD" start="207.853" end="x">And how did you persist . . . [a soldier?]?</u>
+                    <u who="#lukoseviciusV" start="209.660" end="x">With us suddenly then in the woods [1-2 garbled]</u>
+                    <u who="#boderD" start="211.859" end="x">How many.. men?</u>
+                    <u who="#lukoseviciusV" start="212.943" end="x">There were 17 of us there [in the same place?] [fades, weak and garbled].</u>
+                    <u who="#boderD" start="215.233" end="x">So. So, this means you [1-2 garbled] the regiment was beaten, [it has been shot up?].</u>
+                    <u who="#lukoseviciusV" start="218.829" end="x">So.</u>
+                    <u who="#boderD" start="219.251" end="x">And there were 17 of you men in the woods.</u>
+                    <u who="#lukoseviciusV" start="221.119" end="x">17 in one group and we wanted to go along [1-2 garbled] the large road [to a marker?]) . . .</u>
+                    <u who="#boderD" start="227.155" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="227.456" end="x">and the Germans were riding [to the road) besides to [1-2 garbled] a second ordered us to approach him. As soon as we approached, the captured [us] and drove us to the town of <placeName ref="Siedlce">Siedlce</placeName> to [2-3 garbled/weak].</u>
+                    <u who="#boderD" start="238.601" end="x">Did you have weapons [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="240.872" end="x">There were . . . [weapons?] [1-2 weak]</u>
+                    <u who="#boderD" start="243.071" end="x">So. What did they [say?] to you? Put your hands up?</u>
+                    <u who="#lukoseviciusV" start="245.432" end="x">Well, when [chuckles] [1 garbled] they said "hands up," yes . . .</u>
+                    <u who="#boderD" start="247.932" end="x">Yes,</u>
+                    <u who="#lukoseviciusV" start="248.204" end="x"> . . . and we lifted our hands.</u>
+                    <u who="#boderD" start="249.270" end="x">Well, tell me in detail Well, okay. They took you to a small town and what?</u>
+                    <u who="#lukoseviciusV" start="254.692" end="x">Well, then the night was ([to it complexly?] [fades/garbled] us.</u>
+                    <u who="#boderD" start="261.331" end="x">[1-2 garbled]</u>
+                    <u who="#lukoseviciusV" start="262.488" end="x">They forced us into a barn, but they told use [1 garbled] there completely all around were Germans and [fades].</u>
+                    <u who="#boderD" start="268.645" end="x">So.</u>
+                    <u who="#boderD" start="269.410" end="x">[In English] This concludes Spool 144. We are going to change over to Spool 145 with a report of Mr. Vladus Lukosevicius, ah, in <placeName ref="München">München</placeName>, September the 21st, 1946, in a Baltic camp, in a camp for displaced Baltic people of Estonia, Lithuania and . . . hmm, Latvia. Illinois Institute of Technology wire recording.</u>
+                    <!-- end Spool 9-144C -->
+                    <!-- begin Spool 9-145 -->
+                    <u who="#boderD" start="296.002" end="x">September the 21st, 1946, <placeName ref="München">Munich</placeName>, Germany, at Lohengrinstrasse, the camp for Baltic displaced persons. Lukosevicius, Mr. Vladus Lukosevicius in Russian is continuing his story.</u>
+                    <u who="#boderD" start="314.195" end="x">[In Russian] So, there were 17 of you taken captive . . .</u>
+                    <u who="#lukoseviciusV" start="318.111" end="x">They captured us.</u>
+                    <u who="#boderD" start="318.545" end="x"> . . . and where were you located and what did they do with you?</u>
+                    <u who="#lukoseviciusV" start="321.178" end="x">They put us immediately into a barn [one?] where it was also full of Germans [sounds as if he is in a tin can. 1 garbled] [there of the night outdoors?] was full [2-3 weak/garbled]. [After the morning?] they drove us to a prison. There was a large prison in <placeName ref="Siedlce">Siedlce</placeName>, [in the city)?]. So, they gathered us in the prison there and held us there for 2-3 more day, nearly 4,000 had been gathered [already into captivity?] [2-3 garbled].</u>
+                    <u who="#boderD" start="341.612" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="342.829" end="x">Well, [they gave?] there bread for 5 men to eat [for a day?] one [small loaf?]. After, they forces 4,000 people on foot, they forces us, force us up to [well, some?] 170 kilometers. For, for 40 kilometers [a day?] [1-2 garbled]. They didn't give us anything to eat [healthful?].</u>
+                    <u who="#boderD" start="364.558" end="x"> Well, go on.</u>
+                    <u who="#lukoseviciusV" start="370.142" end="x">[Long pause, then both speak at once, all garbled] Yes. They drove us . . .</u>
+                    <u who="#boderD" start="374.450" end="x">[Blocked by above] Yes.</u>
+                    <u who="#lukoseviciusV" start="376.119" end="x">to the Prussian border to the town of [?Grakbova??], [?Grakbova??] station. Then they forced 70 men each into one boxcar, 70 people per car.</u>
+                    <u who="#boderD" start="383.360" end="x">So. And how did you know it was 70?</u>
+                    <u who="#lukoseviciusV" start="385.149" end="x">So, it was then so full, we were able to count.</u>
+                    <u who="#boderD" start="388.161" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="388.402" end="x">To stand, there was no place . . . to sit.</u>
+                    <u who="#boderD" start="390.673" end="x">So . . . Well?</u>
+                    <u who="#lukoseviciusV" start="392.721" end="x">Then they took us [across one part?] of Prussia, [1-2 garbled] the windows were closed, where we didn't ourselves know, [they too us?] the whole day after they left us in <placeName ref="Riesenburg " type="camp">Riesenburg</placeName>.</u>
+                    <u who="#boderD" start="404.408" end="x">Were there only prisoners?</u>
+                    <u who="#lukoseviciusV" start="405.522" end="x">Prisoners, there were only prisoners.</u>
+                    <u who="#boderD" start="406.757" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="407.239" end="x">Then there were 18,000 of us already in <placeName ref="Riesenburg " type="camp">Riesenburg</placeName>.</u>
+                    <u who="#boderD" start="411.426" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="412.059" end="x">So, we stayed outdoors and not under roof, it was really cold, that was [at?] the end of September really.</u>
+                    <u who="#boderD" start="419.812" end="x"> Yes. So.</u>
+                    <u who="#lukoseviciusV" start="423.276" end="x">Well, after the Germans arrived at Great [1-2 garbled-probable name] [from?] a factory and took several men each to the factories Great [1 garbled, probable name], so they counted out 30 of us men and for-, forced us to a bathhouse, disinfected us and inoculated us and then . . . ..</u>
+                    <u who="#boderD" start="440.607" end="x">So, shots a- . . . against diseases?</u>
+                    <u who="#lukoseviciusV" start="442.625" end="x">Against some kind of desease.</u>
+                    <u who="#boderD" start="444.162" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="445.078" end="x">Well, after they took us from Great [1 garbled, possibly name. Sounds like "Odnoimenia?]), which the tiergarten was called.</u>
+                    <u who="#boderD" start="450.331" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="450.813" end="x">And we worked there [full work?].</u>
+                    <u who="#boderD" start="453.717" end="x">Field work?</u>
+                    <u who="#lukoseviciusV" start="454.874" end="x">Yes, field work.</u>
+                    <u who="#boderD" start="455.669" end="x">What month was this?</u>
+                    <u who="#lukoseviciusV" start="457.145" end="x">This was 13 kilometers from <placeName ref="Riesenburg " type="camp">Riesenburg</placeName>.</u>
+                    <u who="#boderD" start="460.127" end="x">I said, [which?] month was this? [When was it?]</u>
+                    <u who="#lukoseviciusV" start="462.838" end="x">Well, it was [at?] the end of September.</u>
+                    <u who="#boderD" start="464.627" end="x">So . . . And what did you do?</u>
+                    <u who="#lukoseviciusV" start="467.338" end="x">We gathered beets and dug [?sukrovye??] and potatoes.</u>
+                    <u who="#boderD" start="471.073" end="x">So. And did they feed you?</u>
+                    <u who="#lukoseviciusV" start="472.471" end="x">They also fed us for 5 people, one load of bread and they gave us sup there for dinner. [Blocked by Boder]</u>
+                    <u who="#boderD" start="479.712" end="x">And was it possible to eat the beets?</u>
+                    <u who="#lukoseviciusV" start="481.863" end="x">We also [tried?] to eat the beets. [Unknown number garbled.]</u>
+                    <u who="#boderD" start="486.393" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="486.905" end="x">[1-2 garbled]</u>
+                    <u who="#boderD" start="487.899" end="x">Well?</u>
+                    <u who="#lukoseviciusV" start="488.441" end="x">Well then we, I lived there 3 months. And there of the Lithuanian, Lithuanian nationality was [of the Polish army?], there were 11 of us men in this place.</u>
+                    <u who="#boderD" start="499.224" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="499.827" end="x">So, we lived there already for 3 months . . .</u>
+                    <u who="#boderD" start="502.941" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="503.574" end="x"> . . . So, we thought about running away.</u>
+                    <u who="#boderD" start="505.845" end="x">How many of you thought about it?</u>
+                    <u who="#lukoseviciusV" start="508.044" end="x">Five men.</u>
+                    <u who="#boderD" start="509.110" end="x">Hmm-mm. And where [to go already?]?</u>
+                    <u who="#lukoseviciusV" start="511.309" end="x">Home. Home.</u>
+                    <u who="#boderD" start="512.845" end="x">Where To Lithuania?</u>
+                    <u who="#lukoseviciusV" start="513.869" end="x">To Lithuania, yes.</u>
+                    <u who="#boderD" start="514.472" end="x">But there were Germans there.</u>
+                    <u who="#lukoseviciusV" start="516.050" end="x">We didn't have them then, there were no Germans.</u>
+                    <u who="#boderD" start="518.791" end="x">And was?</u>
+                    <u who="#lukoseviciusV" start="519.424" end="x">There were the Bolsheviks.</u>
+                    <u who="#boderD" start="521.032" end="x">Oh! So.</u>
+                    <u who="#lukoseviciusV" start="522.569" end="x">Well, we thought about running away and then we unscrewed [the flashing?] on 11 November at night . . . good [1-2 garbled] the windows.</u>
+                    <u who="#boderD" start="533.726" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="534.250" end="x">There we fabricated a monkey wrench in the blacksmith's shop . . .</u>
+                    <u who="#boderD" start="538.316" end="x"> So.</u>
+                    <u who="#lukoseviciusV" start="538.859" end="x"> . . . And [we escaped?] through the window. Then for 3 days and 3 nights [we counted that?] to Western [Blocked by Boder].</u>
+                    <u who="#boderD" start="544.925" end="x">And the other didn't expect [that?] [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="547.335" end="x">The others were sleeping at night. They didn't hear, who heard, so were [already?] for us . . .</u>
+                    <u who="#boderD" start="552.016" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="552.299" end="x"> . . . good comrades [laughs] so even they didn't [say?] anything.</u>
+                    <u who="#boderD" start="554.408" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="555.233" end="x">[But?] there were Germans in the other room, who had been watching us.</u>
+                    <u who="#boderD" start="559.962" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="560.203" end="x">But, the windows were with gratings and [the doors?] at the headquarters, [maybe it was enclosed?]) . . .</u>
+                    <u who="#boderD" start="562.251" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="562.462" end="x"> . . . [so of cours?].</u>
+                    <u who="#boderD" start="565.535" end="x">So . . . Well?</u>
+                    <u who="#lukoseviciusV" start="566.872" end="x">We [escaped?] so 3 days and 3 night across Prussia and while we were going to the Polish territory we didn't have anything to eat. [To?] the military clothing it was impossible to show ourselves to the Germans [anywhere?]</u>
+                    <u who="#boderD" start="579.704" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="579.867" end="x">And on the road to ask for cabbage soup, only downwind [at nights? ).</u>
+                    <u who="#boderD" start="583.373" end="x">Didn't you have any symbols on your clothing that you were prisoners?</u>
+                    <u who="#lukoseviciusV" start="586.475" end="x">[Since?] our clothing was all Polish.</u>
+                    <u who="#boderD" start="589.036" end="x">Aha.</u>
+                    <u who="#lukoseviciusV" start="589.440" end="x">Military clothing.</u>
+                    <u who="#boderD" start="590.326" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="590.459" end="x">So, we didn't should ourselves at day. We walked only at night and not along the roads, but through the fields and right through the woods.</u>
+                    <u who="#boderD" start="596.465" end="x">So. Five men.</u>
+                    <u who="#lukoseviciusV" start="597.459" end="x">Five men.</u>
+                    <u who="#boderD" start="598.573" end="x">So. And what did you eat?</u>
+                    <u who="#lukoseviciusV" start="600.019" end="x">So, for 3 days we didn't eat anything.</u>
+                    <u who="#boderD" start="602.098" end="x"> Well [blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="602.622" end="x">[But there wasn’t any more?]</u>
+                    <u who="#boderD" start="604.038" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="604.502" end="x">What [we had taken?] with ourselves potatoes there, a little [cheese?], as we had been thinking to run away, so again at this estimate we took for ourselves there a little millet bread, and we were not able to ask anyone along the way for 3 days anything [we did not get anywhere, all day?] We didn't know how to say that [in German?] and the other thing was, that the clothing was military.</u>
+                    <u who="#boderD" start="622.104" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="622.496" end="x">So, we walked to [blocked by Boder]</u>
+                    <u who="#boderD" start="623.321" end="x">[Blocked]. Of course there was food?</u>
+                    <u who="#lukoseviciusV" start="625.400" end="x">It was possible there [food and some water?] [blocked by Boder]</u>
+                    <u who="#boderD" start="627.069" end="x">Well, just something, you did eat something, right?</u>
+                    <u who="#lukoseviciusV" start="630.394" end="x">Well, one day we ate what we had with us.</u>
+                    <u who="#boderD" start="633.015" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="633.750" end="x">We had taken [that in the pockets?], there wasn't even anything to take.</u>
+                    <u who="#boderD" start="635.931" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="636.274" end="x">A after 2 days we didn't eat anything.</u>
+                    <u who="#boderD" start="638.865" end="x">Aha.</u>
+                    <u who="#lukoseviciusV" start="638.998" end="x">And so I [and just what?] [were?] not glad that we had escpated. [We would have wanted that?] [unknown number of words garbled] too.</u>
+                    <u who="#boderD" start="643.317" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="643.739" end="x">So, we went to Polish territory already for, [he will help?] there.</u>
+                    <u who="#boderD" start="647.486" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="647.950" end="x">Then, people already helped us, [then already?] we [were living?] okay.</u>
+                    <u who="#boderD" start="651.095" end="x">So. [Blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="651.288" end="x">[Blocked by Boder]</u>
+                    <u who="#boderD" start="652.143" end="x">To, [along?] Polish territory, [it was?] [1 garbled] by Germans already?</u>
+                    <u who="#lukoseviciusV" start="655.216" end="x">The Germans were in the villages, [blocked by Boder].</u>
+                    <u who="#boderD" start="656.463" end="x">So. But, [in?] Poland did the Poles help?</u>
+                    <u who="#lukoseviciusV" start="658.343" end="x">The Poles [1-2 garbled] helped very well. At night along a [piece?] at night, yes, [you ask aren't there any Germans in this village?] and they would indicate that there are no Germans in [this village?], then we would enter a room at night and they would feed us, and on the road then it was already good.</u>
+                    <u who="#boderD" start="674.379" end="x">So. Well.. And where did you [end up?]?</u>
+                    <u who="#lukoseviciusV" start="677.615" end="x">Well, well like this. We got [stammers] to the Soviet border, where there already it was, ah, the Soviet-German border. [Poland?] had been divided.</u>
+                    <u who="#boderD" start="688.079" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="689.266" end="x">Well, we . . . got right up to, there is such a river the <placeName ref="Narva">Narva</placeName>.</u>
+                    <u who="#boderD" start="694.790" end="x">Yes. The <placeName ref="Narva">Narva</placeName>?</u>
+                    <u who="#lukoseviciusV" start="696.386" end="x">Narvy . . . The Narev.</u>
+                    <u who="#boderD" start="697.923" end="x">The Narev. So.</u>
+                    <u who="#lukoseviciusV" start="699.351" end="x">Nareva.</u>
+                    <u who="#boderD" start="700.026" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="700.249" end="x">Nareva. </u>
+                    <u who="#boderD" start="700.562" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="701.737" end="x">Well, [interrupted by Boder].</u>
+                    <u who="#boderD" start="703.044" end="x">[Wait?] a tributary [of the Neva)?</u>
+                    <u who="#lukoseviciusV" start="705.032" end="x">Not the Neva, the Visla.</u>
+                    <u who="#boderD" start="706.418" end="x">A tributary of the Visla to the Neva.</u>
+                    <u who="#lukoseviciusV" start="707.514" end="x">[Blocked by Boder] the <placeName ref="Narva">Narva</placeName>.</u>
+                    <u who="#boderD" start="709.051" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="709.876" end="x">Well, then we in this, in this, there were guards there on [the bridges?].</u>
+                    <u who="#boderD" start="716.804" end="x">Russian!</u>
+                    <u who="#lukoseviciusV" start="717.557" end="x">No, no, still German.</u>
+                    <u who="#boderD" start="719.063" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="719.334" end="x">So, we were afraid to go across the river, we had to swim across the <placeName ref="Narva">Narva</placeName> river [he continues to call it the <placeName ref="Narva">Narva</placeName>. It is the Narev.] This <placeName ref="Narva">Narva</placeName> river [is?] rather wide.</u>
+                    <u who="#boderD" start="726.503" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="728.232" end="x">Well, in [stops] ah, in a village near the <placeName ref="Narva">Narva</placeName> it was full of Germans.</u>
+                    <u who="#boderD" start="732.099" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="732.340" end="x">So, we [individually?] decided there in [1-2 garbled], everyone looked [1-2 garbled] [the German us?] at nights as already [it had been tried?] so in this village lived fisherman and there were boats there.</u>
+                    <u who="#boderD" start="743.124" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="743.618" end="x">Boats. So, at night we [as attempted?] we went into the village, stole a boat [so that we started?]) [3-4 garbled] the river. But, the small brook that passed the village toward the <placeName ref="Narva">Narva</placeName> was already ice covered, but the larger rive was not frozen. Then we [carried this?] boat and [three sat down?] [stammers] in the boat to cross this river and ga- gathered [full of ice?]. Then again [of the holes?] were pulled out into this water [1-2 garbled] and a trio sat down and crossed the river to the other side.</u>
+                    <u who="#boderD" start="775.991" end="x">And two were left?</u>
+                    <u who="#lukoseviciusV" start="776.473" end="x">Two were left. One then returned and again took them . . .</u>
+                    <u who="#boderD" start="780.841" end="x">Well, so.</u>
+                    <u who="#lukoseviciusV" start="781.636" end="x"> . . . and brought them across the river.</u>
+                    <u who="#boderD" start="783.022" end="x"> And the Germans didn't notice anyone.</u>
+                    <u who="#lukoseviciusV" start="784.239" end="x">The Germans didn't notice.</u>
+                    <u who="#boderD" start="785.125" end="x">And the Russians didn't notice?</u>
+                    <u who="#lukoseviciusV" start="786.161" end="x">The Russians were further, it was still further to the Russian border, well . . .</u>
+                    <u who="#boderD" start="790.318" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="791.445" end="x"> . . . maybe about another 20 kilomters.</u>
+                    <u who="#boderD" start="793.957" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="794.740" end="x">To this river. Well then, as we had walked with luck, we crossed this river and reached the very Soviet border unnoticed, completely unnoticed and we didn't know in this direction [1-2 garbled] who wouldn't detain us at the border.</u>
+                    <u who="#boderD" start="809.529" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="809.921" end="x">As much as they detained us, it was already 15 kilometers beyond the border [2-3 garbled] city . . .</u>
+                    <u who="#boderD" start="814.120" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="814.403" end="x"> . . . a Soviet patrol there.</u>
+                    <u who="#boderD" start="816.090" end="x">So. Well..</u>
+                    <u who="#lukoseviciusV" start="817.668" end="x">Well, it had been going very well for us and we didn't think that there was [those who had come, reached?] a window. We thought that the farmer, to sleep through the day and through the night. [We desired?] that we sleep at day. Well. [we refused?] that the Russian soldiers there [nearly 40 of them slept?]. [Questionable passages as well as possibly bad grammar make this sentence extremely difficult to translate. The sentence probably should read: "Well, it turned out that there were nearly 40 Russian soldiers sleeping there."] Well, it was not us [1 garbled], they gave us [salami?] [2-3 garbled], they gave us some bread, everything, well (stammers/2-3 garbled] we were doing, [we didn't have?] any such weapons and we slept with them as with good friends.</u>
+                    <u who="#boderD" start="846.440" end="x"> So.</u>
+                    <u who="#lukoseviciusV" start="847.675" end="x">Well then, the second day, in the morning, [they took?] us already there to their, to their <term ref="#vothG_commandant">commandant's</term> office. The questioned how that what [garbled], we all were able to speed Russian well. Well, so, the let us go home to our own homeland, where, where I lived.</u>
+                    <u who="#boderD" start="868.446" end="x">And [in unbelief?]?</u>
+                    <u who="#lukoseviciusV" start="869.663" end="x">Yes.</u>
+                    <u who="#boderD" start="870.187" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="870.820" end="x">The <placeName ref="Vilnius">Vilnius</placeName> area [where I?] lived there. Well, so we then started . . .</u>
+                    <u who="#boderD" start="875.561" end="x">Louder.</u>
+                    <u who="#lukoseviciusV" start="876.447" end="x"> . . . then we already had arrived by train.</u>
+                    <u who="#boderD" start="879.260" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="880.194" end="x">[1-2 weak/garbled] the station [to <placeName ref="Lyntupy">Lyntupy</placeName>?] and went home on foot there already. Well, all the time nothing [was strking?].</u>
+                    <u who="#boderD" start="890.086" end="x">A bit louder. [Boder must believe Lukosevicius is not speaking loudly enough, but he is almost too loud.]</u>
+                    <u who="#lukoseviciusV" start="891.393" end="x">Yes. We lived the whole time under Soviet authority, but I worked as a business and how . . . it had begun [blocked by Boder].</u>
+                    <u who="#boderD" start="901.634" end="x"> [You what, were you a farm worker?])?</u>
+                    <u who="#lukoseviciusV" start="902.658" end="x">Well, [a farm worker?.) . . .</u>
+                    <u who="#boderD" start="903.652" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="903.923" end="x"> . . . as a farmer. Well, we lived all the time as in 1941 the war started.</u>
+                    <u who="#boderD" start="910.128" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="910.670" end="x">Then the Germans arrived.</u>
+                    <u who="#boderD" start="912.628" end="x">And the soldier didn't take you prisoner?</u>
+                    <u who="#lukoseviciusV" start="914.315" end="x">The Russians?</u>
+                    <u who="#boderD" start="915.020" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="915.393" end="x">They didn’t take us, the did not, not have time. There wasn't time when [this very rapid?] [2-3 garbled].</u>
+                    <u who="#boderD" start="919.550" end="x">So. So the Germans arrived.</u>
+                    <u who="#lukoseviciusV" start="921.267" end="x">Yes. Then the Germans arrived. As the Germans arrived, well then I too as [a businessman, well so and a businessman, just nothing like it?]. But I can say such only in the event as early as in 1942.</u>
+                    <u who="#boderD" start="937.785" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="939.171" end="x">So, in 1942 and . . . as we . . . we already had [1-2 garbled] to [?kipits??] [the commissars?] and they were [farm workers?] [3-4 garbled], well so, in the town of <placeName ref="Lyntupy">Lyntupy</placeName>?, in <placeName ref="Lyntupy">Lyntupy</placeName>?, a very small town. (2-3 garbled] town. So, it was ordered there that the Germans were coming to collect the horses and carts in the town of <placeName ref="Lyntupy">Lyntupy</placeName>?. Well so, early in the morning, it was 1942, the 20th of May . . .</u>
+                    <u who="#boderD" start="975.525" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="976.399" end="x"> . . . The Svenchan kreislandwirtschaftsfuehrer Josef Beck and his deputy [Walter Gruel?] [or possibly Walter Gruen] were going by auto to <placeName ref="Lyntupy">Lyntupy</placeName>? [1 garbled] [to take?] the horses [1 garbled], and 4 kilometers before the reached <placeName ref="Lyntupy">Lyntupy</placeName>?, the city, the town, well, some kind of <term ref="#vothG_partisans">partisans</term> killed these Germans.</u>
+                    <u who="#boderD" start="996.441" end="x">Beck?</u>
+                    <u who="#lukoseviciusV" start="997.315" end="x">Beck and [Gruel/Gruen?] some kind of lieutenant also and there . . . </u>
+                    <u who="#boderD" start="1000.610" end="x">[?[Gruel/Gruen?], was [this?] a Lithuanian?</u>
+                    <u who="#lukoseviciusV" start="1001.393" end="x">No. [?[Gruel/Gruen?], was also this, [Walter [Gruel/Gruen?] was deputy kreislandwirtschaftsfuehrer . . . </u>
+                    <u who="#boderD" start="1006.935" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1007.237" end="x">And one captain a German and a driver and the translator, Rakauskaite.</u>
+                    <u who="#boderD" start="1014.147" end="x">Well</u>
+                    <u who="#lukoseviciusV" start="1015.063" end="x">Well, so, they killed all of these.</u>
+                    <u who="#boderD" start="1017.244" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1017.919" end="x">Only this translator remained alive, but the driver, I don't know [how he was?].</u>
+                    <u who="#boderD" start="1023.383" end="x"> Well.</u>
+                    <u who="#lukoseviciusV" start="1024.449" end="x">Well, then after 2 hours this, from according to this case, after this case at 2:00 o'clock [with him from this?] from <placeName ref="Vilnius">Vilno</placeName> . . .</u>
+                    <u who="#boderD" start="1034.148" end="x">Well</u>
+                    <u who="#lukoseviciusV" start="1034.811" end="x"> . . . The <term ref="#vothG_ss">SS</term>, the Sicherheit unit, arrived . . . [Lukosevicius pronounces German words with Russian endings.]</u>
+                    <u who="#boderD" start="1037.022" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1037.426" end="x"> . . . and surrounded all the village 4 kilometers, at a radius of 4 kilometers. And all the men from 18 years old, if he were 16 years old [1 garbled] not small [age?] of the man, the gathered [everyone?]. Up to 60 years, up to 55 so, they did not take the women. Well, so, the people didn't know anything. They thought that they would be helping find these <term ref="#vothG_partisans">partisans</term> [that?] had done this.</u>
+                    <u who="#boderD" start="1064.272" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1065.116" end="x">But, they [1-2 garbled]. They collected everyone, hmm, the people, and I [had been trying?] to, I was leaving <placeName ref="Lyntupy">Lyntupy</placeName> . . .</u>
+                    <u who="#boderD" start="1073.712" end="x">Hm-mmm.</u>
+                    <u who="#lukoseviciusV" start="1074.224" end="x"> . . . and [in my pocket?] and me [on a body where these?] people stood, one in a shirt, another without a peaked cap, [1 garbled], who stood and something the Germans around with rifles [at?] [2-3 garbled] rifle Germ(ans) were walking around. One German [appeared?] out of this [company?] and called me to approach him. I again immediately [and I didn't want to?]. He moved up [frivolously?] and [said] "come here." Well, I approached and he showed me where [1-2 garbled] to stand. I in German [blocked by Boder].</u>
+                    <u who="#boderD" start="1106.691" end="x"> [Blocked/garbled] to stand?</u>
+                    <u who="#lukoseviciusV" start="1108.330" end="x">Where the people were standing. Nearly 60 men were already standing . . .</u>
+                    <u who="#boderD" start="1111.505" end="x">Apart?</u>
+                    <u who="#lukoseviciusV" start="1111.939" end="x">Apart, and around them wal, walked Germans with rifles . . .</u>
+                    <u who="#boderD" start="1116.078" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1116.361" end="x"> . . . at the ready. Well, then if I didn't want [these?] Germans [captured me?] [5-6 garbled] said where to stand there. I stood, but from, I wanted to ask these people, what [2-3 garbled] "Who [drove?] you," but (it/I) did not [2-3 garbled] that I didn't say anything.</u>
+                    <u who="#boderD" start="1138.421" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1139.626" end="x">Well, then for some . . . another half hour they drove in more people, the drove in more men gather from other villages. ["Drove" is used in the sense of "driving cattle."] There already perhaps were nearly 200, and so one [could?] not well according to them [to indicate myself to be regarded?] everything from fear. Well, and then [garbled] throught [1 garbled] village to <placeName ref="Lyntupy">Lyntupy</placeName>. So, we thought there would be some kind of interrogation. [He would?] ask [someone?], something they drove and then turned to [Barannoe?] Field, near the woods there is a such a burial ground and there was [1 garbled] wires around ([gorodina??]. They drove us and left us and said to come ahead already in three, [threes, well?]. In threes ahead. [Three each so?] they supplied, and German <term ref="#vothG_ss">SS</term> soldiers were laying there with rifles and with machine guns and they began to shoot. From [the first?] [1-2 garbled] [to cry out?] [1 garbled] the 3rd and the 4th, and everyone began to cross themselves and to pray. There one of the second [1 garbled] a father with a son and a brother with a brother began to see just that [wasn't already?] earlier [had passed?] the village. So, [the Germans carried?] every village one at a time. [1 garbled] [entered?] [one?] village [2-3 garbled] of a company [blocked by Boder].</u>
+                    <u who="#boderD" start="1217.508" end="x"> And you?</u>
+                    <u who="#lukoseviciusV" start="1218.321" end="x">[2 garbled]. "Well, come here. Come on." [Well that again will bring training again?]. That man doesn't know [for what and how?] [Unknown number of garbled words] [they brought one already. They brought each village one at a time?].</u>
+                    <u who="#boderD" start="1231.376" end="x">And did the say why they [1-2 garbled]</u>
+                    <u who="#lukoseviciusV" start="1232.472" end="x">Nothing, nothing, they didn't say anything. The, well, they began to shoot so [1-2 garbled] [three at a time they?] held on [everyone three each?]. [After?] [1-2 garbled] [such?] can already fif- [stops, corrects) nearly 50 men were killed.</u>
+                    <u who="#boderD" start="1245.906" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1246.237" end="x">So everyone, one was located of such [1-2 garbled] village [?Zhiromsk??] [such?]. So, that one grabbed [1 garbled], jumped at the German machine gunners, [and succeeded?] to take away a machine gun. So, at this time there was luck for some to escape. [How he fought?] with these [pauses/interrupted by Boder]</u>
+                    <u who="#boderD" start="1261.883" end="x">[1-2 garbled] there was one machine gun?</u>
+                    <u who="#lukoseviciusV" start="1263.932" end="x">There was a machine gun from one side, from the other there I was unable to count [3-4 garbled] [200?]. [2-3 garbled] not completely remembered, everything [wasn't?] . . .</u>
+                    <u who="#boderD" start="1271.293" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1271.474" end="x"> . . . remembered fully.</u>
+                    <u who="#boderD" start="1272.980" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1273.131" end="x">[1-2 garbled] [crossed themselves?] and no one knew what to do.</u>
+                    <u who="#boderD" start="1275.794" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1276.167" end="x">Well, to stand all around with automatic weapons and bayonets on the rifles all around, and here [a soldier?] [1-2 garbled] they shoot.</u>
+                    <u who="#boderD" start="1283.667" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1284.571" end="x">Well, how he fought that one such [1-2 garbled] was a man, he fought with this machine gunner, so more Germans jumped in and [attacked him with bayonets?], and I, perhaps some half minutes passed and at this time maybe nearly 20 of us men succeeded in escaping.</u>
+                    <u who="#boderD" start="1300.483" end="x">Where [did you run?]?</u>
+                    <u who="#lukoseviciusV" start="1300.947" end="x">Into the woods.</u>
+                    <u who="#boderD" start="1301.772" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1302.134" end="x">[We ran?], I don't remember anything [where and what, to [2-3 garbled] on, on these which [1-2 blocked by Boder] . . . </u>
+                    <u who="#boderD" start="1306.351" end="x">[Blocked by Lukosevicius, above].</u>
+                    <u who="#lukoseviciusV" start="1306.875" end="x"> . . . And [they held onto?] the killed and so straight into the woods and [1-2 garbled] [and so needed?], I don't even remember anything, how, how, how it remained. And the firing there was long and there nearly 400 men were killed [on that very day?] and finished off. Well, then on the next day . . .</u>
+                    <u who="#boderD" start="1325.339" end="x"> Were they all Lithuanians?</u>
+                    <u who="#lukoseviciusV" start="1327.038" end="x">There were [Slovaks, and also there were?] Byelorussians there. [The dubious word "Slovaks" is most definitely not "Poles." According to Piotrowski there were 200 Poles killed that day on the streets and in their homes.]</u>
+                    <u who="#boderD" start="1329.640" end="x">So. Were there any Jews?</u>
+                    <u who="#lukoseviciusV" start="1330.875" end="x">There were no Jews.</u>
+                    <u who="#boderD" start="1331.628" end="x">No. [Blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="1331.930" end="x">[They?] already [1-2 garbled] the Jews apart [2-3 garbled] [among?] the villages [well, somewhere equal to a field?], and well in the field [1 garbled] a man, the Germans arrived [come here?]. That hone didn't know anything, [he left a horse?] [1-2 garbled]. He approached here to [1 garbled) not to pass, "come with us." And he went and he went, so well, a man, ah, was sitting in a room, [2-3 garbled] "come here." Ano . . . Another [still didn't know?] he saw that all the people [were walking by day?] and he went there as left [blocked by Boder]. [Lukosevicius may be speaking about the Germans rounding up people from their fields and homes. During this part of the interview he was very agitated and speaking very rapidly.]</u>
+                    <u who="#boderD" start="1354.291" end="x">Yes. [Who is with you?]? [Both speaking at once. All garbled.]</u>
+                    <u who="#lukoseviciusV" start="1356.761" end="x"> . . . [garbled] went to look. And everything. And so they killed them . . . Well, then on the next day and [with the evening?] [Blocked by Boder]</u>
+                    <u who="#boderD" start="1365.538" end="x">Well, how did you run away?</u>
+                    <u who="#lukoseviciusV" start="1366.743" end="x">I ran into the woods. It, I [3-5 garbled] village some 4 kilometers [1-2 garbled].</u>
+                    <u who="#boderD" start="1371.394" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1372.370" end="x">So, I ran away and [stammers] and I myself don't remember anything how, what . . .</u>
+                    <u who="#boderD" start="1375.605" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1375.888" end="x"> . . . For the time being it has come from memory. Well, then [I thought?] I already was home.</u>
+                    <u who="#boderD" start="1379.472" end="x">You went home?</u>
+                    <u who="#lukoseviciusV" start="1380.105" end="x">I went home.</u>
+                    <u who="#boderD" start="1380.677" end="x">So. And you [2-3 garbled] wrote [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="1382.244" end="x">They didn't write anything in any way. Well. [they took?] [blocked by Boder]</u>
+                    <u who="#boderD" start="1384.425" end="x"> This means that you were [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1384.919" end="x">No, they/we were not able [to know?] anything.</u>
+                    <u who="#boderD" start="1388.094" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1388.196" end="x">And they did [not?] look for anything and [1-2 garbled/too weak] anything. Well, they took such [they got rid of, it was necessary to settle?] everything. Well, then they finished off the people so who had remained alive, so well the other [half of the woods?] both alive and healthy, and those not alive [she was?], well, from [2-3 garbled]. [So he/This way?], so, I/he lay there as the Germans left. They finished off those who were still alive. They shot them in the head with explosive bullets.</u>
+                    <u who="#boderD" start="1414.377" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1414.709" end="x">Well, so . . . one another there [further?] 300 [1-2 garbled) perhaps 3 people [to leave and along the bodies?] [2-3 garbled]. [Unknown number garbled and lost as his voice fades].</u>
+                    <u who="#boderD" start="1424.902" end="x">And who [1-2 garbled] buried [these?] [1 garbled]?</u>
+                    <u who="#lukoseviciusV" start="1427.143" end="x">Well, [after, after?] on the next day the drove the people into the village [2-3 garbled] town of <placeName ref="Lyntupy">Lyntupy</placeName> and then they dug [these?] large 80 meters in the [in length?] channels and there laid as many rows there and buried them. And on the next day there also was a lot of shooting, so further among the other villages, both in the village of <placeName ref="Shudovtsy">Shudovtsy</placeName> [about 2.1 kilometers NNE of <placeName ref="Lyntupy">Lyntupy</placeName>] and they brought them [1-2 garbled] [in the morning?] [2-3 garbled] of a vehicle one at a time [1 garbled] [taped?] [them] and shot [them] one at a time. So, then not one escaped.</u>
+                    <u who="#boderD" start="1456.776" end="x"> And who did the shooting?</u>
+                    <u who="#lukoseviciusV" start="1457.740" end="x">Germans.</u>
+                    <u who="#boderD" start="1458.764" end="x">And not, not Poles [1 blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1460.421" end="x">No.</u>
+                    <u who="#boderD" start="1460.764" end="x"><term ref="#vothG_ss">SS</term> or Ukrainian><term ref="#vothG_ss">SS</term>
+                    </u>
+                    <u who="#lukoseviciusV" start="1462.933" end="x">No. Then not. Then [they were?] . . .</u>
+                    <u who="#boderD" start="1463.746" end="x">[German <term ref="#vothG_ss">SS</term>?]?</u>
+                    <u who="#lukoseviciusV" start="1464.710" end="x"> . . . only German [because they?] spoke German and we were not able to [do?] anything with them. [1-2 garbled] a peaked cap too [2-3 garbled].</u>
+                    <u who="#boderD" start="1473.566" end="x">[Unknown number of words garbled].</u>
+                    <u who="#lukoseviciusV" start="1475.385" end="x">Yes, yes . . . Yes.</u>
+                    <u who="#boderD" start="1476.650" end="x">Well</u>
+                    <u who="#lukoseviciusV" start="1477.433" end="x">Well, then it was already on the next day [it was indicated how?] they shot.</u>
+                    <u who="#boderD" start="1481.861" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1482.656" end="x">On the next day [so already?] they were shooting in further already, in further villages which were already more than 4 kilometers in radius . . . Yes . . .</u>
+                    <u who="#boderD" start="1491.241" end="x">It was near <placeName ref="Švenčionys">Svenchan</placeName>.</u>
+                    <u who="#lukoseviciusV" start="1492.669" end="x">Near <placeName ref="Švenčionys">Svenchan</placeName> and <placeName ref="Lyntupy">Lyntupy</placeName>.</u>
+                    <u who="#boderD" start="1494.639" end="x"><placeName ref="Lyntupy">Lyntupy</placeName>.</u>
+                    <u who="#lukoseviciusV" start="1495.043" end="x">Near <placeName ref="Lyntupy">Lyntupy</placeName>. It was completely of <placeName ref="Lyntupy">Lyntupy</placeName>.</u>
+                    <u who="#boderD" start="1496.772" end="x">And what, Pod . . . <placeName ref="Pabradė">Podbrodzie</placeName> was near there?</u>
+                    <u who="#lukoseviciusV" start="1498.742" end="x">It was also 30 kilometers to <placeName ref="Pabradė">Podbrodzie</placeName>, well.</u>
+                    <u who="#boderD" start="1501.073" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1501.947" end="x">It was entirely, the shot were in <placeName ref="Lyntupy">Lyntupy</placeName>, the town, [near a grave?].</u>
+                    <u who="#boderD" start="1507.381" end="x">(25:04) So.</u>
+                    <u who="#lukoseviciusV" start="1508.839" end="x">[Near a cemetery?].</u>
+                    <u who="#boderD" start="x" end="x">So.</u>
+                    <!--missing-->
+                    <u who="#lukoseviciusV" start="1510.417" end="x">Well, then as they buried this large [again one?] in, in [packet?] ground, so then they said [stammer) already to compare [a little?], so there was no kind, [sow?] no kind of memorial. But anyhow, people [began?] to plant flowers and erect crosses after dark. [Well?] again [1-2 garbled] the people in order to compare for what time. [He would place?] five crosses [1-2 garbled] plant flower, and that near . . . near the road they totally shot these [terribly?]. After [the event?] on the next day, there in [?<placeName ref="Zharki">Zharki</placeName>??] a village [2-3 garbled] there [from these?] . . . So . . . the people often place crosses there, too. And how on Sunday they went [1-2 garbled) it was full of women there. Full, full [1 garbled] screaming and screaming and crying. But it was so that a father and [two sons?] were killed [stammers] the husbands [of these killed?] women [1-2 garbled) stayed for a long time . . .</u>
+                    <u who="#boderD" start="1568.875" end="x"> Well . . . </u>
+                    <u who="#lukoseviciusV" start="1569.297" end="x"> . . . so in this case there . . . Well, after [again?] there was such an [ceremony?] in the city of <placeName ref="Švenčionys">Svenchan</placeName>, <placeName ref="Švenčionys">Novye Svenchany</placeName>, in Adutiskis, Postavy, so near <placeName ref="Švenčionys">Novye Svenchany</placeName> [43?] kilometers. Many people were shot there at <placeName ref="Švenčionys">Novye Svenchany</placeName>. [Two?] of two priests they [brought?] the Catholics killed [1 garbled]. [Everything then?] they thought the Germans, that they killed 400 people, [but?] most likely it was nearly 1,000 [in all?] of it.</u>
+                    <u who="#boderD" start="1598.582" end="x">Well, and again [1-2 garbled] continued, what were [1 garbled]. And you returned [yourself?] to the village [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1602.980" end="x">So I [returned?] again right away to the village. After I got work.</u>
+                    <u who="#boderD" start="1606.908" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1607.432" end="x">Well, after there was an [<term ref="#vothG_action">action</term>?], and they called our, our birth year again into the army. It [1-2 garbled], I did [not?] go to the commission, to the commission.</u>
+                    <u who="#boderD" start="1616.498" end="x">Into the German army?</u>
+                    <u who="#lukoseviciusV" start="1617.312" end="x">Yes, [I?] also [did not go?] into the German. After the <term ref="#vothG_action">action</term> there was [1-2 garbled] there they [already?] surrounded everyone so [of the whole place?] [1-2 garbled], the peo(ple) were jolted, the men and women were searching.</u>
+                    <u who="#boderD" start="1629.975" end="x"> and [what?] is an <term ref="#vothG_action">action</term> called? [What?]?</u>
+                    <u who="#lukoseviciusV" start="1631.855" end="x">They considered an <term ref="#vothG_action">action</term>, to catch people and take them to Germany, and [1-2 garbled] take into the army.</u>
+                    <u who="#boderD" start="1636.837" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1637.180" end="x">So they considered an <term ref="#vothG_action">action</term> in 1943 [rest blocked by Boder].</u>
+                    <u who="#boderD" start="1638.897" end="x">Well, [blocked by Lukosevicius, above] was it?</u>
+                    <u who="#lukoseviciusV" start="1640.403" end="x">Well, then there was already nothing like it, only I hid, I didn't show myself anywhere.</u>
+                    <u who="#boderD" start="1645.674" end="x">So. Well, and well how did it continue, and what happened later?</u>
+                    <u who="#lukoseviciusV" start="1650.945" end="x">Well, afterwards already . . .</u>
+                    <u who="#boderD" start="1653.656" end="x">And so it was like this for you until the Russians arrived . . . [1-2 garbled] the Germans.</u>
+                    <u who="#lukoseviciusV" start="1658.204" end="x">Yes. Well, then they already had put us down and nothing like it. And, as early as 1944 when . . .</u>
+                    <u who="#boderD" start="1664.942" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1665.587" end="x"> . . . arrived, reach . . . the Soviet front approached close, then I went into the city of <placeName ref="Švenčionys">Svenchan</placeName> once interested in [2-3 garbled] a German caught me . . .</u>
+                    <u who="#boderD" start="1676.653" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1676.985" end="x"> . . . And they thy were not going to release me. They took me, [I went?] to the city of <placeName ref="Schaulen concentration camp" type="camp">Shyaulyai</placeName>, <placeName ref="Schaulen concentration camp" type="camp">Shyaulyai</placeName>.</u>
+                    <u who="#boderD" start="1683.443" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1683.907" end="x"> and there I landed in a camp. And there were Russian prisoners, they had collected many men there.</u>
+                    <u who="#boderD" start="1688.076" end="x">And [1-2 garbled] why as Russian prisoners?</u>
+                    <u who="#lukoseviciusV" start="1690.739" end="x"> No, there was, in one barracks were the Russian military prisoners . . .</u>
+                    <u who="#boderD" start="1694.456" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1694.589" end="x"> . . . Soviet. And there (2-3 garbled) us so civilians were in another barracks. [1-2 garbled] already myself in a region where there were [pilots?].</u>
+                    <u who="#boderD" start="1701.137" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1701.408" end="x">[He held me?] there like 4 days and they took me to Germany.</u>
+                    <u who="#boderD" start="1706.288" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1706.752" end="x">In the city . . .</u>
+                    <u who="#boderD" start="1708.481" end="x">You had what? A wife and children?</u>
+                    <u who="#lukoseviciusV" start="1710.391" end="x">There were also a wife and children.</u>
+                    <u who="#boderD" start="1711.307" end="x">[Apart?]?</u>
+                    <u who="#lukoseviciusV" start="1711.891" end="x">[They had stayed?] at home.</u>
+                    <u who="#boderD" start="1712.976" end="x">They had stayed at home?</u>
+                    <u who="#lukoseviciusV" start="1713.879" end="x">They had stayed at home.</u>
+                    <u who="#boderD" start="1714.584" end="x">So, what [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1714.988" end="x">I don't know anything where [they are?]. They captured [me] on the street [both talking at once].</u>
+                    <u who="#boderD" start="1716.988" end="x">So, they captured [you] on the street?</u>
+                    <u who="#lukoseviciusV" start="1718.374" end="x">Yes.</u>
+                    <u who="#boderD" start="1718.627" end="x">And nothing.</u>
+                    <u who="#lukoseviciusV" start="1718.898" end="x">No one knows anything.</u>
+                    <u who="#boderD" start="1719.633" end="x">Do you have relatives so you can write them anything through America?</u>
+                    <u who="#lukoseviciusV" start="1723.772" end="x">I don't have such relatives in America. But I have some in Brazil.</u>
+                    <u who="#boderD" start="1728.121" end="x">So. And you didn't try [2-3 garbled].</u>
+                    <u who="#lukoseviciusV" start="1730.923" end="x">I haven't tried.</u>
+                    <u who="#boderD" start="1732.110" end="x">So. We, then further. And again where did they take you?</u>
+                    <u who="#lukoseviciusV" start="1737.062" end="x">They took me to <placeName ref="Herzogenburg concentration camp" type="camp">Herzogenburg</placeName>. There near <placeName ref="Herzogenburg concentration camp" type="camp">Herzogenburg</placeName> we dug large, deep holes, 3 1/2 meters each and 4 meter, meters wide. [He installed?] some kind of iron columns, like lights [2-3 garbled] [for electric?]. and 53 meters each [high?]</u>
+                    <u who="#boderD" start="1755.478" end="x">(29:11) Why [1-2 garbled]?</u>
+                    <u who="#lukoseviciusV" start="1756.635" end="x">Well, I don't know [1-2 garbled].</u>
+                    <u who="#boderD" start="1757.400" end="x">And well, you dug holes.</u>
+                    <u who="#lukoseviciusV" start="1759.388" end="x">I dug for 3 months.</u>
+                    <u who="#boderD" start="1760.653" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1761.135" end="x">And after this [stops when Boder interrupts].</u>
+                    <u who="#boderD" start="1762.280" end="x">How did they hold you, how did they feed you, how did the behave toward you?</u>
+                    <u who="#lukoseviciusV" start="1766.147" end="x">They behaved so as with [rolled up?]. They fed us so, well . . . I can't say, but well, already like in our, in our country the swine eat better cabbage soup than they gave us people to eat.</u>
+                    <u who="#boderD" start="1780.123" end="x">Well, [4-5 garbled], [well, okay.).</u>
+                    <u who="#lukoseviciusV" start="1781.539" end="x">In the morning . . . at 5 a.m. we had to [go to the ??bakal??]. Well, [?kal??] was somehow blanched [?niby??] and was not sweetened [3-4 garbled] [to do?] a little.</u>
+                    <u who="#boderD" start="1795.657" end="x">And did they give you some bread [then?]?</u>
+                    <u who="#lukoseviciusV" start="1797.687" end="x">They gave us some bread in the morning.</u>
+                    <u who="#boderD" start="1799.344" end="x">What kind of bread was it? . . . Did they bake every day or every week?</u>
+                    <u who="#lukoseviciusV" start="1803.904" end="x"> So, we did not [know?] from where they brought the bread.</u>
+                    <u who="#boderD" start="1805.892" end="x">"From where they brought the bread"?</u>
+                    <u who="#lukoseviciusV" start="1806.672" end="x">[Blocked by Boder, above]. Yes.</u>
+                    <u who="#boderD" start="1807.730" end="x">And there was a fine sawdust on it [stammers].</u>
+                    <u who="#lukoseviciusV" start="1810.182" end="x">It was, it was, it was sawdust.</u>
+                    <u who="#boderD" start="1811.098" end="x">Ah, [in the arm?], you didn't know that it was a German preserved bread. The say that [blocked by Lukosevicius].</u>
+                    <u who="#lukoseviciusV" start="1817.485" end="x">And we didn't know.</u>
+                    <u who="#boderD" start="1818.359" end="x"> . . . squares . . .</u>
+                    <u who="#lukoseviciusV" start="1819.335" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="1819.769" end="x">So, like [1-2 garbled], [</u>
+                    <u who="#lukoseviciusV" start="1820.564" end="x">[Garbled]</u>
+                    <u who="#boderD" start="1821.709" end="x">Aha. And they were not and then [1-2 garbled] packed, they packed [1-2 blocked by Lukosevicius] . . . </u>
+                    <u who="#lukoseviciusV" start="1824.793" end="x">Yes, yes, yes.</u>
+                    <u who="#boderD" start="1825.305" end="x"> . . . with wood.</u>
+                    <u who="#lukoseviciusV" start="1825.757" end="x">It was, it was with all around with sawdust [blocked by Boder].</u>
+                    <u who="#boderD" start="1828.649" end="x">Yes, and I . . .</u>
+                    <u who="#boderD" start="1829.926" end="x">[In English] I want to make a remark. I couldn't track this down, but in certain <term ref="#vothG_lager">lagers</term> they were giving a bread that is equivalent to some kind of a canned or preserved bread that was baked a long time ago and then in a compressed form so to speak kept in boxes between sawdust and then it was distributed in the ah, in the ah camps. In the <term ref="#vothG_lager">lagers</term> Alright . . . </u>
+                    <u who="#boderD" start="1855.386" end="x">[In Russian] Well?</u>
+                    <u who="#lukoseviciusV" start="1856.362" end="x">Well, then in the morning they gave us some bread for 5 [it was a quota?] for five people.</u>
+                    <u who="#boderD" start="1862.519" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1863.676" end="x"> And they gave us a little margarine.</u>
+                    <u who="#boderD" start="1865.947" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1867.001" end="x">And then as early as 6 a.m. we went to work.</u>
+                    <u who="#boderD" start="1871.459" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1872.062" end="x">Into the car, and we went. [Do you want for a while with this?] bread [to share?].</u>
+                    <u who="#boderD" start="1875.869" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1876.411" end="x">Then even . . . we had to work for the whole day. To dig and dig the ground. To throw it 3 1/2 meters [up?]. And well as a starting hole so and not so deep and so the last was already very deep at [blocked by Boder].</u>
+                    <u who="#boderD" start="1891.291" end="x">Deep and [2-3 garbled] a square.</u>
+                    <u who="#lukoseviciusV" start="1892.749" end="x">[1-2 garbled] though it up and watch and scream and even shove. Greeks worked there, French worked and ah, Poles . . .</u>
+                    <u who="#boderD" start="1902.550" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1903.815" end="x">Well.</u>
+                    <u who="#boderD" start="1904.388" end="x">[Garbled and blocked by Lukosevicius] were?</u>
+                    <u who="#lukoseviciusV" start="1906.207" end="x">After . . . [?Ilin??]? I still didn’t have to [3-4 garbled]. The Greeks beat the Poles many times.</u>
+                    <u who="#boderD" start="1912.334" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1912.816" end="x">I tried to work as much as I could, but I was already afraid [1-2 garbled].</u>
+                    <u who="#boderD" start="1917.274" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1918.702" end="x">Well, then as early as the 16th, the 16th.. hmm . . . Well . . . of November November 16th [1 garbled] 10 of us men to dig trenches, as it was in 1947 . . . no, in 194- . . . </u>
+                    <u who="#boderD" start="1940.130" end="x"> 4.</u>
+                    <u who="#lukoseviciusV" start="1940.413" end="x"> . . . in 1944.</u>
+                    <u who="#boderD" start="1941.467" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1941.769" end="x">Yes, to dig trenches. Well, but 6 of us Lithuanians and 4 Bulgarians . . . </u>
+                    <u who="#boderD" start="1949.944" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1950.408" end="x"> . . . they took [us] from this camp . . .</u>
+                    <u who="#boderD" start="1952.167" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1952.468" end="x">The recognized how already that we can work again and we were sent to the trenches.</u>
+                    <u who="#boderD" start="1957.769" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1958.251" end="x">In the city of <placeName ref="Deutschkreuz">Deutschkreuz</placeName> near Hun-, Hungary.</u>
+                    <u who="#boderD" start="1962.227" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="1962.800" end="x">[1-2 garbled], [near?] the Hungarian border. There we also lived 3 months and we worked. We dug trenches. There is was somewhat better. Somewhat better. And they gave us a little more bread. Well, and the work was not so, it was not so severe. And fewer, we had to work fewer hours.</u>
+                    <u who="#boderD" start="1988.651" end="x"> So.</u>
+                    <u who="#lukoseviciusV" start="1989.073" end="x">there in, in this city <placeName ref="Deutschkreuz">Deutschkreuz</placeName> the work of these people, who dug the trenches near [fades to nil].</u>
+                    <u who="#boderD" start="1995.489" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="1995.802" end="x">[All?] [1 garbled] nationality. There were French, Italians, Poles and Russians. There were very few Lithuanians.</u>
+                    <u who="#boderD" start="2003.724" end="x">So . . . . Well?</u>
+                    <u who="#lukoseviciusV" start="2008.555" end="x"> Well, then we dug these trenches for 3 months. And after [this?] the front had moved very close to Hungary, and it was already heard that it was very close . . .</u>
+                    <u who="#boderD" start="2017.351" end="x">Who?</u>
+                    <u who="#lukoseviciusV" start="2017.664" end="x">The Sov, the Soviet was already out, [liable?].</u>
+                    <u who="#boderD" start="2021.158" end="x">Yes.</u>
+                    <u who="#lukoseviciusV" start="2021.490" end="x"> [And we were afraid?] that to, to the front to get into a rail car [we escaped?] from these trenches.</u>
+                    <u who="#boderD" start="2026.050" end="x">Who [right?]?</u>
+                    <u who="#lukoseviciusV" start="2026.532" end="x">Ah, we . . .</u>
+                    <u who="#boderD" start="2027.466" end="x">Who [right?]?</u>
+                    <u who="#lukoseviciusV" start="2027.870" end="x">Five men.</u>
+                    <u who="#boderD" start="2028.936" end="x">Lithuanians?</u>
+                    <u who="#lukoseviciusV" start="2029.750" end="x">Yes.</u>
+                    <u who="#boderD" start="2030.425" end="x">These were people (1 garbled) who had escaped there with you?</u>
+                    <u who="#lukoseviciusV" start="2034.142" end="x">Ah, no, not those . . .</u>
+                    <u who="#boderD" start="2035.028" end="x"> [Who?]?</u>
+                    <u who="#lukoseviciusV" start="2035.552" end="x"> . . . [It was?] who [1 garbled] had been lifted here as early as in this.</u>
+                    <u who="#boderD" start="2038.022" end="x">So. Well, and how did you escape and to where did you escape?</u>
+                    <u who="#lukoseviciusV" start="2041.859" end="x">We escaped to <placeName ref="Wien">Vienna</placeName>, we arrived in the city of <placeName ref="Wien">Vienna</placeName> and there . . .</u>
+                    <u who="#boderD" start="2046.498" end="x"> How? Did you ride or walk?</u>
+                    <u who="#lukoseviciusV" start="2048.498" end="x">We rode [on this?] [possibly misprounced "by train" in Russian]. According to, we were sent already some troop trains from [?Svonyali??] some workers . . . </u>
+                    <u who="#boderD" start="2053.859" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2054.371" end="x"> . . . well already [2-3 garbled/blocked by Boder] . . . </u>
+                    <u who="#boderD" start="2055.486" end="x">[Blocked]</u>
+                    <u who="#lukoseviciusV" start="2055.920" end="x"> . . . and we arrived in <placeName ref="Wien">Vienna</placeName> with the transportation. in <placeName ref="Wien">Vienna</placeName>:..</u>
+                    <u who="#boderD" start="2058.583" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2058.896" end="x"> . . . in <placeName ref="Wien">Vienna</placeName> we jumped off the transport and found there was a so-called Lithuanian [?sayunga?? - Possibly a Lithuanian work for "representative" or "legation") there.</u>
+                    <u who="#boderD" start="2066.216" end="x">A union?</u>
+                    <u who="#lukoseviciusV" start="2067.102" end="x">Lithuanian, well, it was a directorate.</u>
+                    <u who="#boderD" start="2070.006" end="x">So, in <placeName ref="Wien">Vienna</placeName>?</u>
+                    <u who="#lukoseviciusV" start="2070.771" end="x">in <placeName ref="Wien">Vienna</placeName>:</u>
+                    <u who="#boderD" start="2071.554" end="x">So, really wasn't it Nazi? [sic]</u>
+                    <u who="#lukoseviciusV" start="2074.235" end="x">No [hesitatingly), well . . . I don't know to say so [there?] . . .</u>
+                    <u who="#boderD" start="2080.151" end="x">So. And just what did you do?</u>
+                    <u who="#lukoseviciusV" start="2082.181" end="x">Well, there we told them that we wanted, we did not want to return to this firm, where we worked there, and we wanted that with [a farmer we did those?], so that [he already did not?] bother us in these camps, in order to re-, relax a bit. So, they issued such, such a card that we only recently had gone [1 garbled] there such, such from [a hospital?] [2-3 garbled] hospital had gone and the issued us a document to go all the way to <placeName ref="Berlin">Berlin</placeName>. Well, and we then arrived . . . ah . . . [we went to <placeName ref="Berlin">Berlin</placeName>?] nearly <placeName ref="Passau">Passau</placeName> and found . . . [Definitely not <placeName ref="Berlin">Berlin</placeName>, but sounds like it.]</u>
+                    <u who="#boderD" start="2118.472" end="x"> [You found?]?</u>
+                    <u who="#lukoseviciusV" start="2118.997" end="x">Ah, we found [a farmer?].</u>
+                    <u who="#boderD" start="2120.021" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2120.364" end="x">[?Some farmers??] and we lived there 7 months already.</u>
+                    <u who="#boderD" start="2124.069" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2124.762" end="x">In <placeName ref="Prienbach-am-Inn">Prienbach</placeName>.</u>
+                    <u who="#boderD" start="2125.979" end="x">Hm-mmm.</u>
+                    <u who="#lukoseviciusV" start="2126.955" end="x"><placeName ref="Prienbach-am-Inn">Prienbach-am-Inn</placeName>, near the Inn.</u>
+                    <u who="#boderD" start="2131.003" end="x">So . . . Well and then what happened?</u>
+                    <u who="#lukoseviciusV" start="2133.262" end="x">Then on the 8th . . . [1-2 too weak] of September.</u>
+                    <u who="#boderD" start="2139.166" end="x">Well, and that's not important. And afterwards?</u>
+                    <u who="#lukoseviciusV" start="2140.533" end="x">We arrived here in the camp in <placeName ref="Lohengrinstrasse">Lohengrin</placeName>.</u>
+                    <u who="#boderD" start="2143.817" end="x">Well, how! . . .</u>
+                    <u who="#lukoseviciusV" start="2144.311" end="x">We arrived [2-3 garbled]</u>
+                    <u who="#boderD" start="2144.956" end="x">Well, [permit [me]?]. When did they liberate you?</u>
+                    <u who="#lukoseviciusV" start="2147.016" end="x">I was liberated on 1 May.</u>
+                    <u who="#boderD" start="2148.703" end="x">Who liberated you?</u>
+                    <u who="#lukoseviciusV" start="2149.263" end="x">[1-2 blocked by Boder above] the American army had [come?].</u>
+                    <u who="#boderD" start="2150.673" end="x">Where?</u>
+                    <u who="#lukoseviciusV" start="2151.673" end="x">Well, there where we live in <placeName ref="Prienbach-am-Inn">Prienbach</placeName>.</u>
+                    <u who="#boderD" start="2154.095" end="x">And you were working at [1-2 garbled/blocked by Lukosevicius]</u>
+                    <u who="#lukoseviciusV" start="2154.950" end="x">With a farmer, with a farmer.</u>
+                    <u who="#boderD" start="2156.276" end="x">Well, tell me how it was when you were working and then the American army arrived. Did you know there would be freedom?</u>
+                    <u who="#lukoseviciusV" start="2162.131" end="x">We knew that [it?] would come, everyone was watching, so they listened [completely would not be or?] or soon the American army will arrive.</u>
+                    <u who="#boderD" start="2168.848" end="x"> And what did the farmer say?</u>
+                    <u who="#lukoseviciusV" start="2170.445" end="x">The farmer was SA. This there [both speaking at once/several missed] such as us.</u>
+                    <u who="#boderD" start="2175.246" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2175.578" end="x">So, he didn't tell us anything. Nothing, nothing. The policy that [we didn't?] ask [about it from him?], and he didn't tell us anything.</u>
+                    <u who="#boderD" start="2183.241" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2183.765" end="x">[One thing?] that I didn't know how to speed well in German. Well, so, well I was working there and one Pole was working with this farmer.</u>
+                    <u who="#boderD" start="2191.988" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2192.331" end="x">Well, on the first of May we had gone into the woods. We were going back from the woods with a tree and we encountered American tanks on the road itself. So, we ran away from the road and thought they would shoot. Well, there were several soldiers there.</u>
+                    <u who="#boderD" start="2204.801" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2205.193" end="x">[1-2 blocked by Boder, above] of the Germans, they all were scampering about.</u>
+                    <u who="#boderD" start="2208.187" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2208.771" end="x">But we [stayed?] and [laughing] were laughing. One American soldier threw [some badges of rank?] from the tank. It was [2-3 garbled] I took.</u>
+                    <u who="#boderD" start="2217.326" end="x">Was it wonderful [1-2 garbled].</u>
+                    <u who="#lukoseviciusV" start="2218.724" end="x">Ah, I don't know. He [at me?] [2-3 garbled] [for the time being did not?] stand, he threw [blocked by Boder].</u>
+                    <u who="#boderD" start="2222.290" end="x">And did they give you [1-2 garbled] [to eat?]?</u>
+                    <u who="#lukoseviciusV" start="2223.585" end="x">Well, we didn't [get anything?] to eat.</u>
+                    <u who="#boderD" start="2225.212" end="x"> [3-4 garbled] arrived. The just went past [2-3 garbled]?</u>
+                    <u who="#lukoseviciusV" start="2229.652" end="x">They stopped and went around [but they unbound us?] and went around and looked for everything, on, but there were [no cattle?] with the volksturms. The <term ref="#vothG_ss">SS</term> soldier was [1-2 garbled] also unorganized.</u>
+                    <u who="#boderD" start="2242.315" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2242.598" end="x">So, they scattered [3-4 garbled] further to [the city?] . . .</u>
+                    <u who="#boderD" start="2245.460" end="x">So.</u>
+                    <u who="#lukoseviciusV" start="2245.713" end="x"> . . . who ended up all in captivity. It was near the city of <placeName ref="Braunau am Inn">Braunau</placeName>. <placeName ref="Braunau am Inn">Braunau</placeName>-<placeName ref="Simbach am Inn">Simbach</placeName>.</u>
+                    <u who="#boderD" start="2250.382" end="x">[1 garbled].</u>
+                    <u who="#lukoseviciusV" start="2251.448" end="x">It was <placeName ref="Simbach am Inn">Simbach</placeName> [where?] these American tanks [were going?]. Everyone [was identified soon?], many German officer solders went into captivity, they yielded [data?].</u>
+                    <u who="#boderD" start="2261.780" end="x">So . . . Well, and then, you, you when right, ah, they sent you here?</u>
+                    <u who="#lukoseviciusV" start="2269.473" end="x">[It was?] on the 8th of August.</u>
+                    <u who="#boderD" start="2273.461" end="x">1945?</u>
+                    <u who="#lukoseviciusV" start="2274.738" end="x">1945.</u>
+                    <u who="#boderD" start="2275.551" end="x">And you [both talking and blocking each other at once.]</u>
+                    <u who="#lukoseviciusV" start="2276.575" end="x">[Blocked] [I live?] here in the camp.</u>
+                    <u who="#boderD" start="2278.021" end="x">And just what do you do? What are you working at?</u>
+                    <u who="#lukoseviciusV" start="2278.925" end="x">Well, I wasn't working right away, nothing [2-3 blocked by Boder].</u>
+                    <u who="#boderD" start="2281.497" end="x">[Blocked by Lukosevicius, above].</u>
+                    <u who="#lukoseviciusV" start="2283.666" end="x">[1-2 garbled] time, and after I go [into the woods?]. Well, I have been sharing this [food?] for half a year.</u>
+                    <u who="#boderD" start="2290.786" end="x"> So.</u>
+                    <u who="#lukoseviciusV" start="2291.088" end="x">And right now I am working too with unloading wood.</u>
+                    <u who="#boderD" start="2293.961" end="x">So. For . . . For whom do you load the wood?</u>
+                    <u who="#lukoseviciusV" start="2296.431" end="x">It is for the camp, to bring it here to the camp from the woods, and we unload and stack it.</u>
+                    <u who="#boderD" start="2300.106" end="x">So. And what do you intend to do?</u>
+                    <u who="#lukoseviciusV" start="2303.600" end="x">[Now I?] have finished a driving course, and right now [I have passed the examination?] and I have already turned in everything in the camp.</u>
+                    <u who="#boderD" start="2308.389" end="x">So. And what do you intend to do?</u>
+                    <u who="#lukoseviciusV" start="2311.281" end="x">I, and, how is it?</u>
+                    <u who="#boderD" start="2312.980" end="x">Where do you intend to go? [2-3 garbled] what will be with you?</u>
+                    <u who="#lukoseviciusV" start="2316.366" end="x">Well, well [where?] [2-3 garbled] [as a result I will go?] there, but if I would like to go either to Argentina or [1 short word garbled].</u>
+                    <u who="#boderD" start="2323.125" end="x">Do you have any relatives in South America?</u>
+                    <u who="#lukoseviciusV" start="2325.354" end="x">Not in South America, only in Brazil [blocked by Boder].</u>
+                    <u who="#boderD" start="2327.655" end="x">Well, Brazil, that's south. And did you write him?</u>
+                    <u who="#lukoseviciusV" start="2330.577" end="x">No, haven't written anything.</u>
+                    <u who="#boderD" start="2331.884" end="x">Doesn't he know about you?</u>
+                    <u who="#lukoseviciusV" start="2332.848" end="x">He doesn't know about me and I don't know anything. And I don't remember the address.</u>
+                    <u who="#boderD" start="2336.944" end="x">And you don't know anything about [your] family, right?</u>
+                    <u who="#lukoseviciusV" start="2338.330" end="x">I don't know anything about [my] family.</u>
+                    <u who="#boderD" start="2339.896" end="x">And how many children did you have there?</u>
+                    <u who="#lukoseviciusV" start="2341.734" end="x">Two.</u>
+                    <u who="#boderD" start="2342.589" end="x">How old?</u>
+                    <u who="#lukoseviciusV" start="2343.614" end="x">One is now, now 7, a girl, and the boy will be 3 years old.</u>
+                    <u who="#boderD" start="2348.475" end="x"> So, you have been separated from your family.</u>
+                    <u who="#lukoseviciusV" start="2350.584" end="x">We have been separated.</u>
+                    <u who="#boderD" start="2352.132" end="x">[In English] Ah . . . Well, that's the point on which we conclude the interview with Alfonsas Paulis [sic] at Lohengrinstrasse, the Baltic camp of displaced people, displaced Latvians, Estonians, Lithuanians who are here pending their fate of which most of them don't know. They know only one thing.</u>
+                    <u who="#boderD" start="2382.385" end="x">[In Russian] Do you want to return back to Lithuania?</u>
+                    <u who="#lukoseviciusV" start="2385.277" end="x">No, I don't. I know the Soviets well, since I lived under them 2 years and [2-3 weak and garbled], [and so?] right now I can't return. No, not one of us can return right now [2-3 garbled].</u>
+                    <u who="#boderD" start="2396.253" end="x">[In English] He feels he cannot go back, he doesn't want to go back. And so, a man at the age of 41 . . . </u>
+                    <u who="#boderD" start="2405.030" end="x">[In Russian] Are you 41 years old?</u>
+                    <u who="#lukoseviciusV" start="2406.566" end="x"> 33.</u>
+                    <u who="#boderD" start="2407.651" end="x">[In English] Ah, a man of 33, of the age of 33 is looking for a new country, a new land and a new anchor. This . . . Ja?</u>
+                    <u who="#lukoseviciusV" start="2416.488" end="x">[In Russian] I would like to [say] very strongly I do not want to return, [so that?] I know, that if, if I return, then I will not see my home [all the same?]. But if as soon as the Americans had arrived that I had gone right away, then perhaps yes, but now it's already a year [time I did not go?], so I well know that I would not see home if I would want [blocked by Boder].</u>
+                    <u who="#boderD" start="2433.996" end="x">Why wouldn't you see home?</u>
+                    <u who="#lukoseviciusV" start="2434.900" end="x">[Garbled, only word audible is "they shoot"].</u>
+                    <u who="#boderD" start="2438.665" end="x">And for what? [In Lithuania you [by no means?] nothing [1 garbled].</u>
+                    <u who="#lukoseviciusV" start="2441.557" end="x">[No, not everything?], but I know how [the Soviets?] are I know better as the others [sic]. They don't know [the history?].</u>
+                    <u who="#boderD" start="2447.262" end="x">So.</u>
+                    <u who="#boderD" start="2448.148" end="x">[In English] It is a fear of getting killed, of being displaced, and the fear of others that transmits itself in a group and grows. They don't want to go back, they don't want to go back for their families. This concludes Spool 144, 14- this concludes spool 145 . . . at Lohengrinstrasse in the displaced people's camp, Lithuanians, Latvians, Estonians. Illinois Institute of Technology wire recording. September the 21st, 1946, in a camp maintained by the <term ref="#vothG_unrra">UNRRA</term> in some special arrangement of the military government with the Germans. Quite some intricate conditions under which these camps are maintained and of which one has to get rather printed material and dated and to get a interview when someone doesn't know how to ask a question in order to get the proper answer. We are going now over to the Greek Orthodox church to take a part of the services. And tonight we will take the choruses of the Latvians and Lithuanians.</u>
+                </div>
+                <!-- end Spool 9-145 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Manis Mizrachi; August 12, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Raynor Ren</name>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>David Palmer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT23M15.591S" id="mizrachiM_9-43B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="en">English</lang>
+                                <note type="spools" n="1">9-43B</note>
+                                <placeName ref="AJDC office"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-12</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="mizrachiM_en" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="mizrachiM" role="interviewee">
+                        <persName>
+                            <forename>Manis</forename>
+                            <surname>Mizrachi</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>24</age>
+                        <birth when="1922-01-17" ref="Thessaloníki"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Spain"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Athens">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#mizrachiM_en">
+                <!-- begin spool 9-43B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.782" end="x">[In English] This is Spool 9-43B. The interviewee is Mr. Mizrachi and he speaks English. November the 21st 1950. Boder.</u>
+                    <u who="#boderD" start="43.085" end="x">This is Spool 43 continued. The interviewee is Señor Manis Mizrachi or Mr. Manis Mizrachi. Born in Greece, how old are you Mr. Mizrachi?</u>
+                    <u who="#mizrachiM" start="59.025" end="x">I am twenty-four years old.</u>
+                    <u who="#boderD" start="60.508" end="x">He's twenty-four years old. He speaks good English and we will have his report in English. Also Mr. Mizrachi would you tell us again what is your full name where were you born?</u>
+                    <u who="#mizrachiM" start="73.516" end="x">My name is Mizrachi Mimi I have been born in <placeName ref="Thessaloníki">Salonika</placeName>.</u>
+                    <u who="#boderD" start="79.573" end="x">Yes. Your last name is really Mizrachi so we . . .</u>
+                    <u who="#mizrachiM" start="82.350" end="x">. . . Mizrachi, yes</u>
+                    <u who="#boderD" start="82.840" end="x">. . . call you in America "Minis Mizrachi."</u>
+                    <u who="#mizrachiM" start="85.286" end="x">. . . Mizrachi, yes</u>
+                    <u who="#boderD" start="85.867" end="x">You were born where?</u>
+                    <u who="#mizrachiM" start="87.982" end="x">In <placeName ref="Thessaloníki">Salonika</placeName>, 1922.</u>
+                    <u who="#boderD" start="92.474" end="x">In 1922, yes.</u>
+                    <u who="#mizrachiM" start="94.168" end="x">The 17th of January.</u>
+                    <u who="#boderD" start="95.802" end="x">Yeah, and tell me, who were your parents and what was their business.</u>
+                    <u who="#mizrachiM" start="101.528" end="x">My parents - my father was Oscar Mizrachi and he was . . . he saled articles which he brought from every country and he was a representative of several firms.</u>
+                    <u who="#boderD" start="117.233" end="x">Ah! He was an importer?</u>
+                    <u who="#mizrachiM" start="119.198" end="x">importer yes.</u>
+                    <u who="#boderD" start="119.989" end="x">Yes, for instance what kind of articles was he selling?</u>
+                    <u who="#mizrachiM" start="123.398" end="x">He was selling clothing and paper, he brought paper and several other things what he could make.</u>
+                    <u who="#boderD" start="131.858" end="x">Now tell me how many people were in your family?</u>
+                    <u who="#mizrachiM" start="134.665" end="x">We're three people.</u>
+                    <u who="#boderD" start="136.118" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="136.849" end="x">My father, mother and me.</u>
+                    <u who="#boderD" start="138.332" end="x">You were the only son?</u>
+                    <u who="#mizrachiM" start="139.545" end="x">The only son.</u>
+                    <u who="#boderD" start="140.517" end="x">Yes, and now tell me where were you and what happened to your family when the Germans came to Greece?</u>
+                    <u who="#mizrachiM" start="149.162" end="x">Before the Germans came to Greece since my father was a freemason, we . . . were afraid for the Germans, them not to take him away from us. That for we made it up to go to <placeName ref="Athens">Athens</placeName>, the capital of Greece, since it is a very big country so we could . . .</u>
+                    <u who="#boderD" start="171.008" end="x">[speaking over each other] Big city you mean . . .</u>
+                    <u who="#mizrachiM" start="173.003" end="x">Big city, yes,</u>
+                    <u who="#boderD" start="173.554" end="x">So you could be better protected . . .</u>
+                    <u who="#mizrachiM" start="175.459" end="x">Better protected.</u>
+                    <u who="#boderD" start="176.220" end="x">Tell me what citizenship did your father have? Greece or Spanish?</u>
+                    <u who="#mizrachiM" start="180.351" end="x">My father was Spanish</u>
+                    <u who="#boderD" start="182.045" end="x">And your mother?</u>
+                    <u who="#mizrachiM" start="182.866" end="x">My mother was Turkish.</u>
+                    <u who="#boderD" start="185.282" end="x">Turkish? And you were considered what?</u>
+                    <u who="#mizrachiM" start="187.518" end="x">I have been considered Spanish.</u>
+                    <u who="#boderD" start="190.476" end="x">Because your father was Spanish. Have you lived in Spain?</u>
+                    <u who="#mizrachiM" start="194.577" end="x">Never, I have never in Spain.</u>
+                    <u who="#boderD" start="196.632" end="x">Yes, all right, and so you went to <placeName ref="Athens">Athens</placeName></u>
+                    <u who="#mizrachiM" start="199.780" end="x">And so we went to <placeName ref="Athens">Athens</placeName> but anyhow the Germans took us because although the Consul of Spain has certifies us that we have no reason to be afraid that the Germans will take us and but for this obliged us not to leave and not to hide ourselves and so the Germans came one night at two o'clock and got us [the whole family, they beat us firstly] and afterwards they put us into the Greek jail.</u>
+                    <u who="#boderD" start="231.002" end="x">All right, now . . . Tell me this . . . [mutters] All right, tell me this: Were other Jews then arrested already and deported?</u>
+                    <u who="#mizrachiM" start="244.271" end="x">A lot of Jews, Spanish Jews, were arrested and [spread?] with our family together.</u>
+                    <u who="#boderD" start="251.592" end="x">Yes, and what was it a kind of a raid at that time or what?</u>
+                    <u who="#mizrachiM" start="256.175" end="x">It was a raid, it was a raid for whole Spanish in order not to leave them the time to hide themselves because one day before they arrested all Greek citizens, Jews of course.</u>
+                    <u who="#boderD" start="269.122" end="x">They arrested the Greeks citizens that were Jews. And now they began to arrest the Spanish citizens . . . well didn't you show your papers from the Consul?</u>
+                    <u who="#mizrachiM" start="279.264" end="x">We showed our papers from the Consul but it [laughing a little] helped nothing.</u>
+                    <u who="#boderD" start="283.817" end="x">All right, so then what did they do with the family, go slowly step-by-step.</u>
+                    <u who="#mizrachiM" start="287.978" end="x">Then they put us in cars and brought us in the Greek jail where we were obliged to sleep down without any help . . . they give us no things to eat, nothing. We're made whole day without any thing . . .</u>
+                    <u who="#boderD" start="304.889" end="x">[interrupting] Was the family together?</u>
+                    <u who="#mizrachiM" start="306.914" end="x">The family was together firstly; afterwards, they ordered us the men to go separately and the women from the other side. So we remained there in the jail about fifteen days and the first of April we were obliged to leave the jail and they put us into trains . . . of beasts.</u>
+                    <u who="#boderD" start="334.165" end="x">Why do you call it "trains of beasts?" They were . . .</u>
+                    <u who="#mizrachiM" start="337.364" end="x">Because they were closed trains were they are putting the [laughing a little] . . . horses and . . . the pigs</u>
+                    <u who="#boderD" start="344.595" end="x">. . . the trains with the openings? Because animals they transport . . .</u>
+                    <u who="#mizrachiM" start="349.328" end="x">No, they were closed but they were with wires.</u>
+                    <u who="#boderD" start="353.911" end="x">[Talking over each other] Where were the wires?</u>
+                    <u who="#mizrachiM" start="355.665" end="x">The wires were at the windows. Little window was there, very high, although they were afraid us not to look from what happened around and so they put us there and they locked us, the door so we couldn't get out for any necessary . . .</u>
+                    <u who="#boderD" start="375.754" end="x">For any necessary? Were you men and women together . . .</u>
+                    <u who="#mizrachiM" start="377.960" end="x">We were men and women together. Sixty-four people in a wagon, it was very difficult to take air and to eat, we had nothing to eat.</u>
+                    <u who="#boderD" start="388.796" end="x">Didn't they tell you to take your things?</u>
+                    <u who="#mizrachiM" start="391.182" end="x">No, they didn't give - they gave us only some carrots and bottle of water and place . . .</u>
+                    <u who="#boderD" start="400.850" end="x">What do you mean a bottle of water for all or what?</u>
+                    <u who="#mizrachiM" start="403.296" end="x">It was . . . two big bottles</u>
+                    <u who="#boderD" start="406.916" end="x">Two big bottles of water.</u>
+                    <u who="#mizrachiM" start="407.828" end="x">. . . bottles of water.</u>
+                    <u who="#boderD" start="408.318" end="x">What do you think? How many liters was there in each one?</u>
+                    <u who="#mizrachiM" start="412.179" end="x">Twenty-five liters about.</u>
+                    <u who="#boderD" start="414.505" end="x">You mean twenty-five liters to the bottle?</u>
+                    <u who="#mizrachiM" start="417.072" end="x">Yes, and it was very hard we couldn't have water enough because we had children with us and we couldn't wash ourselves we were very dirty . . .</u>
+                    <u who="#boderD" start="427.974" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="428.344" end="x">. . . and after the tenth day of traveling</u>
+                    <u who="#boderD" start="430.369" end="x">[astonished] . . . wait you mean you were ten days, ten days in the car?</u>
+                    <u who="#mizrachiM" start="433.447" end="x">In all we were fourteen days but after the tenth day they opened - they got out the wires so we could look outwards but we were without shaving ourselves and were like beasts.</u>
+                    <u who="#boderD" start="449.717" end="x">Now tell me what kind of toilet facilities did you have?</u>
+                    <u who="#mizrachiM" start="453.668" end="x">No one. Every two days they opened us the doors in order to get out things that . . . we couldn't keep anymore in our leavings[?]</u>
+                    <u who="#boderD" start="464.630" end="x">Did you have a pocket for it?</u>
+                    <u who="#mizrachiM" start="466.234" end="x">No, it was in a piece of papers what they gave us specially for that.</u>
+                    <u who="#boderD" start="470.817" end="x">And women and men together in this . . .</u>
+                    <u who="#mizrachiM" start="473.624" end="x">Women and men together . . .</u>
+                    <u who="#boderD" start="475.198" end="x">. . . and children</u>
+                    <u who="#mizrachiM" start="475.448" end="x">. . . it was awful</u>
+                    <u who="#boderD" start="477.383" end="x">And so?</u>
+                    <u who="#mizrachiM" start="478.295" end="x">And so, until we arrived at six in the morning—six o'clock in the morning and the town of <placeName ref="Celle">Celle</placeName> which is some kilometers far from the camp, real camp of <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>. And so we went there, we were obliged to go—to step seven or eight kilometers.</u>
+                    <u who="#boderD" start="500.658" end="x">To walk?</u>
+                    <u who="#mizrachiM" start="501.600" end="x">To walk there with our grandfathers, with our fathers, sisters, sick women, with our children and however it was very difficult for us and this one who couldn't walk he was beaten by the Germans, soldiers, by the <term ref="#vothG_capo">capos</term> . . . were the leaders.</u>
+                    <u who="#boderD" start="523.883" end="x">What is <term ref="#vothG_capo">capos</term>?</u>
+                    <u who="#mizrachiM" start="525.487" end="x"><term ref="#vothG_capo">Capos</term> were the leaders.</u>
+                    <u who="#boderD" start="526.579" end="x">Were they prisoners?</u>
+                    <u who="#mizrachiM" start="528.484" end="x">They were prisoners but who . . . somewhere . . . collaborated with the Germans together. And they beat us awfully we were not accustomed to this kind of manner and they were laughing at us when we made strange figures.</u>
+                    <u who="#boderD" start="545.187" end="x">Strange faces you mean?</u>
+                    <u who="#mizrachiM" start="546.339" end="x">Strange faces, yes.</u>
+                    <u who="#boderD" start="547.853" end="x">And well, and so how long did it last to walk these eight kilometers?</u>
+                    <u who="#mizrachiM" start="552.315" end="x">This eight kilometers took us about . . . one hour and a half.</u>
+                    <u who="#boderD" start="557.379" end="x">[after a pause] That's very fast walking.</u>
+                    <u who="#mizrachiM" start="560.066" end="x">Yes! We were obliged to run.</u>
+                    <u who="#boderD" start="563.626" end="x">Well you had no things to carry</u>
+                    <u who="#mizrachiM" start="566.163" end="x">No things to carry, nothing.</u>
+                    <u who="#boderD" start="567.195" end="x">Well then . . .</u>
+                    <u who="#mizrachiM" start="568.137" end="x">Because we had some things we could keep with us but we were obliged to leave it in the way in order to go very fast because it was a Polish <term ref="#vothG_capo">capo</term> behind and he was beating you.</u>
+                    <u who="#boderD" start="579.550" end="x">A Polish <term ref="#vothG_capo">capo</term>?</u>
+                    <u who="#mizrachiM" start="580.492" end="x">A Polish, yes.</u>
+                    <u who="#boderD" start="581.344" end="x">All right, but you were together with your father and mother?</u>
+                    <u who="#mizrachiM" start="584.783" end="x">No I wasn't even with my father, and my mother had been put in another range [?].</u>
+                    <u who="#boderD" start="588.764" end="x">Oh, your mother was put in another what?</u>
+                    <u who="#mizrachiM" start="591.511" end="x">In other file.</u>
+                    <u who="#boderD" start="592.724" end="x">In another file, all right. But she was marching the same way with you?</u>
+                    <u who="#mizrachiM" start="598.450" end="x">Yes, much in the same way.</u>
+                    <u who="#boderD" start="599.663" end="x">All right.</u>
+                    <u who="#mizrachiM" start="601.929" end="x">Afterwards we went to the camp they . . . were obliged to stay there for l'appel.</u>
+                    <u who="#boderD" start="606.482" end="x">What is the name of the camp?</u>
+                    <u who="#mizrachiM" start="608.056" end="x">The camp <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="609.359" end="x">Yes</u>
+                    <u who="#mizrachiM" start="609.789" end="x">We were obliged to stay there about two hours waiting until the German come and ask our names . . .</u>
+                    <u who="#boderD" start="616.448" end="x">Yes . . .</u>
+                    <u who="#mizrachiM" start="617.360" end="x">. . . conforming to the list that he could have in <placeName ref="Athens">Athens</placeName> when he put us into the train</u>
+                    <u who="#boderD" start="624.350" end="x">Do you have a tattoo number?</u>
+                    <u who="#mizrachiM" start="625.412" end="x">No, in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> there was no tattoo number.</u>
+                    <u who="#boderD" start="628.581" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="629.944" end="x">My account number was one thousand four hundred sixty two.</u>
+                    <u who="#boderD" start="633.835" end="x">Uh-huh, all right</u>
+                    <u who="#mizrachiM" start="637.124" end="x">. . . It was my account number</u>
+                    <u who="#boderD" start="638.638" end="x">One thousand . . .</u>
+                    <u who="#mizrachiM" start="640.121" end="x">One thousand four hundred sixty two.</u>
+                    <u who="#boderD" start="642.146" end="x">..sixty two. And so . . .</u>
+                    <u who="#mizrachiM" start="645.044" end="x">And so we have been put in big barrack . . .</u>
+                    <u who="#boderD" start="649.506" end="x">You with your father?</u>
+                    <u who="#mizrachiM" start="650.749" end="x">With my father and with my mother in separate barrack. And around us was the wires—electric . . .</u>
+                    <u who="#boderD" start="659.936" end="x">Oh, electric wires. Yes.</u>
+                    <u who="#mizrachiM" start="661.961" end="x">. . . have been charged. And we couldn't go out firstly until the doctor came in order to see whether we're ill or not.</u>
+                    <u who="#boderD" start="672.141" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="673.564" end="x">And afterwards we could be with our mother and with every friend and so on because of our citizenship.</u>
+                    <u who="#boderD" start="683.082" end="x">Oh, because you were Spanish.</u>
+                    <u who="#mizrachiM" start="683.843" end="x">Spanish, yes. The only thing which we had. As Spanish people.</u>
+                    <u who="#boderD" start="690.382" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="691.685" end="x">Of course, firstly we couldn't eat what they gave us. It were carrots in boiled water. This was our eating. And we gave it to other brothers of us—other Jews—of Greece. And Polish people too who were with us in the camp. And we were obliged after one week to eat because we starved. And so we carried everything—everything green that we saw on the earth we took it out from there and we started to eat it without caring if it was dirty or clean.</u>
+                    <u who="#boderD" start="733.995" end="x">Uh-huh, without cooking?</u>
+                    <u who="#mizrachiM" start="735.960" end="x">Without cooking . . .</u>
+                    <u who="#boderD" start="736.902" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="737.693" end="x">. . . like beasts.</u>
+                    <u who="#boderD" start="738.876" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="739.607" end="x">And so they started to put us in this category of prisoners that starved to eat and wore closed and we had no rights to go out - to work - we were obliged to stay.</u>
+                    <u who="#boderD" start="755.492" end="x">Well, because the Spanish . . .</u>
+                    <u who="#mizrachiM" start="757.487" end="x">Because Spanish citizenship.</u>
+                    <u who="#boderD" start="759.121" end="x">. . . we were not supposed to work</u>
+                    <u who="#mizrachiM" start="760.665" end="x">We were not supposed to work but this was bad because the others who were out they were working at the transport of food, of legumes . . .</u>
+                    <u who="#boderD" start="772.199" end="x">Of vegetables.</u>
+                    <u who="#mizrachiM" start="772.810" end="x">Of vegetables. And they could have some profit in taking some of them. But for us it was impossible. And so we were obliged to live on only those things that we received from Germans.</u>
+                    <u who="#boderD" start="785.931" end="x">Did the Red Cross help in any way.</u>
+                    <u who="#mizrachiM" start="788.407" end="x">We had no help of the Red Cross. Never we got help from the Red Cross. Only our <term ref="#vothG_capo">capos</term> they had . . . many profits who unfortunately they put only for themselves and they never helped the others</u>
+                    <u who="#boderD" start="807.602" end="x">Were the <term ref="#vothG_capo">capos</term> Jews?</u>
+                    <u who="#mizrachiM" start="809.266" end="x">They were the Jews with us from Greece they came with us. And they started making friendship with the Polish <term ref="#vothG_capo">capos</term>, the old ones who were there and so they had a lot of . . .</u>
+                    <u who="#boderD" start="823.015" end="x">Polish Jewish?</u>
+                    <u who="#mizrachiM" start="823.716" end="x">Polish Jewish. I speak always from Jewish</u>
+                    <u who="#boderD" start="826.854" end="x">And so?</u>
+                    <u who="#mizrachiM" start="828.037" end="x">And so they made friendship with them and so they had everything for their own families. They had special room to live and they ate separately. We were not to see what they were eating, we smelled only the meat and everything else that they got . . . from the Germans.</u>
+                    <u who="#boderD" start="850.743" end="x">From the Germans?</u>
+                    <u who="#mizrachiM" start="851.203" end="x">From the Germans. And, unfortunately, our people—the people who didn't want to beat and to collaborate with the Germans—starved and had only his home in back.</u>
+                    <u who="#boderD" start="864.331" end="x">Yes</u>
+                    <u who="#mizrachiM" start="865.032" end="x">This is all [slightly laughing].</u>
+                    <u who="#boderD" start="866.064" end="x">Well, and that was in . . . <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#mizrachiM" start="870.225" end="x">That was in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="871.287" end="x">In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> . . .</u>
+                    <u who="#mizrachiM" start="871.988" end="x"><placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="872.818" end="x">Well . . . did you hear about . . . All right, so how long were you in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>?</u>
+                    <u who="#mizrachiM" start="878.063" end="x">I have been there about eighteen months—one year and six months.</u>
+                    <u who="#boderD" start="881.713" end="x">And then, where were you taken from?</u>
+                    <u who="#mizrachiM" start="884.551" end="x">Then I have been taken—we have been put into a big train in order to be transported to <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>. In the last days—two days before the English came, the British troops came in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="899.816" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="900.276" end="x">Um, this train was a big train of sixty-four wagons.</u>
+                    <u who="#boderD" start="904.979" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="905.650" end="x">And have been put in, again in . . . beasts-cars . . .</u>
+                    <u who="#boderD" start="911.045" end="x">Cattle-wagons?</u>
+                    <u who="#mizrachiM" start="911.535" end="x">Cattle-wagons. Sixty-four to seventy people in a car and started of course many 'spense [?] . . . many sick . . .</u>
+                    <u who="#boderD" start="923.731" end="x">Many sick people.</u>
+                    <u who="#mizrachiM" start="924.522" end="x">. . . many sick people. We started then with the Typhus.</u>
+                    <u who="#boderD" start="927.360" end="x">Oh yes.</u>
+                    <u who="#mizrachiM" start="929.445" end="x">It was then when I lost my two parents. Unfortunately, at the last days. I lost them—my father . . .</u>
+                    <u who="#boderD" start="934.630" end="x">What do you mean—in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>?</u>
+                    <u who="#mizrachiM" start="936.926" end="x">In the train—the big train—they caught there Typhus</u>
+                    <u who="#boderD" start="940.215" end="x">Oh, in the train. About how many days before liberation?</u>
+                    <u who="#mizrachiM" start="946.724" end="x">The first died . . . at just at the same . . . at the moment of the liberation and my mother which was looking for [after] my father died ten days afterwards . . .</u>
+                    <u who="#boderD" start="958.829" end="x">After the liberation</u>
+                    <u who="#mizrachiM" start="960.282" end="x">And I got it too . . .</u>
+                    <u who="#boderD" start="961.465" end="x">You got it?</u>
+                    <u who="#mizrachiM" start="961.925" end="x">. . . because I was obliged to see . . . to look for [after] for my mother.</u>
+                    <u who="#boderD" start="965.094" end="x">You had to look for your mother, yes? And?</u>
+                    <u who="#mizrachiM" start="967.029" end="x">And so I got it also—"I meant thirty in one days"[?]</u>
+                    <u who="#boderD" start="971.431" end="x">What typhus was it? Ricket . . . Ricket . . . Spotted typhus?</u>
+                    <u who="#mizrachiM" start="977.338" end="x">Spotted typhus, yes.</u>
+                    <u who="#boderD" start="979.574" end="x">So then you lost your parents.</u>
+                    <u who="#boderD" start="981.870" end="x">[speaking over each other] .. of liberation. And you remained alone.</u>
+                    <u who="#mizrachiM" start="985.490" end="x">I remained quite alone without any help. Quite alone.</u>
+                    <u who="#boderD" start="988.448" end="x">All right, so where did you go then?</u>
+                    <u who="#mizrachiM" start="990.955" end="x">I was student and then the American troops were very kind with us—they helped us.</u>
+                    <u who="#boderD" start="996.471" end="x">Well, which camp were you freed or were you freed from the train?</u>
+                    <u who="#mizrachiM" start="1001.264" end="x">From the train directly because it was an air attack.</u>
+                    <u who="#boderD" start="1005.546" end="x">Oh, yes.</u>
+                    <u who="#mizrachiM" start="1006.187" end="x">Attack of the air force.</u>
+                    <u who="#boderD" start="1007.610" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1008.221" end="x">British Air force.</u>
+                    <u who="#boderD" start="1008.501" end="x">And so?</u>
+                    <u who="#mizrachiM" start="1009.744" end="x">And so the machine . . . had been in damage.</u>
+                    <u who="#boderD" start="1014.477" end="x">The, yes, the machine was damaged.</u>
+                    <u who="#mizrachiM" start="1016.291" end="x">. . . was damaged.</u>
+                    <u who="#boderD" start="1017.233" end="x">Yes, and the train couldn't continue.</u>
+                    <u who="#mizrachiM" start="1019.860" end="x">. . . couldn't continue. And . . . we made some activity there we got prisoners, the Germans, the <term ref="#vothG_ss">SS</term> . . .</u>
+                    <u who="#boderD" start="1026.489" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1027.461" end="x">. . . and we waited until the American tanks.</u>
+                    <u who="#boderD" start="1029.937" end="x">. . . came.</u>
+                    <u who="#mizrachiM" start="1030.247" end="x">Came. Yes, it was ninth army. The ninth American army.</u>
+                    <u who="#boderD" start="1033.837" end="x">Uh-huh.</u>
+                    <u who="#mizrachiM" start="1034.267" end="x">. . . Which liberated us.</u>
+                    <u who="#boderD" start="1035.570" end="x">Yes, so then you took the <term ref="#vothG_ss">SS</term> prisoners? Why didn't you kill them?</u>
+                    <u who="#mizrachiM" start="1040.811" end="x">[slightly laughing] We had no right to kill them . . .</u>
+                    <u who="#boderD" start="1043.474" end="x">Why?</u>
+                    <u who="#mizrachiM" start="1044.450" end="x">Because the <term ref="#vothG_capo">capos</term>—the chiefs . . .</u>
+                    <u who="#boderD" start="1046.299" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1046.751" end="x">. . . who directed this movement told us not to do anything until the American troops arrived.</u>
+                    <u who="#boderD" start="1052.143" end="x">Yes</u>
+                    <u who="#boderD" start="1052.998" end="x">And then what did the Americans do with them?</u>
+                    <u who="#mizrachiM" start="1054.896" end="x">The Americans took their arms and they took them away, we don't know what happened.</u>
+                    <u who="#boderD" start="1060.167" end="x">They took them prisoners?</u>
+                    <u who="#mizrachiM" start="1061.553" end="x">Prisoners, yes.</u>
+                    <u who="#boderD" start="1062.920" end="x">All right, and then you were in the train,</u>
+                    <u who="#mizrachiM" start="1065.210" end="x">And then . . .</u>
+                    <u who="#boderD" start="1066.035" end="x">. . . where were you taken from there?</u>
+                    <u who="#mizrachiM" start="1067.451" end="x">And at once, the officers, the American officers went to the village—the German village of <placeName ref="Farsleben">Farsleben</placeName>.</u>
+                    <u who="#boderD" start="1074.752" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1075.776" end="x">There. And he gave the order to every person to take us in, to take several families into his house.</u>
+                    <u who="#boderD" start="1084.692" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1085.457" end="x">And so, we got the place for some days.</u>
+                    <u who="#boderD" start="1088.680" end="x">Uh-huh, and who was feeding you?</u>
+                    <u who="#mizrachiM" start="1090.680" end="x">The Germans were obliged to feed us.</u>
+                    <u who="#boderD" start="1092.999" end="x">Uh-huh.</u>
+                    <u who="#mizrachiM" start="1093.963" end="x">They had a lot to feed us.</u>
+                    <u who="#boderD" start="1096.132" end="x">And what did the Germans then say?</u>
+                    <u who="#mizrachiM" start="1099.186" end="x">The Germans said that they never knew every- . . . something that happened to Jews and out of Germany and that they behaved something so ill with the Jews in the concentration camps that they let them starve and that they killed them. They didn't know anything about those things. And whenever they knew, of course, they wouldn't leave it . . . let the Germans . . .</u>
+                    <u who="#boderD" start="1124.476" end="x">[finishing the thought] . . . they wouldn't have let them do such things.</u>
+                    <u who="#mizrachiM" start="1126.054" end="x">Yes.</u>
+                    <u who="#boderD" start="1126.837" end="x">Uh-huh and then, where did you go and how did you go?</u>
+                    <u who="#mizrachiM" start="1131.024" end="x">Then I was where, I got ill and I went at <placeName ref="Hillersleben">Hillersleben</placeName>.</u>
+                    <u who="#boderD" start="1136.476" end="x">Yes</u>
+                    <u who="#mizrachiM" start="1137.078" end="x"><placeName ref="Hillersleben">Hillersleben</placeName> is not far from them, some ten kilometers.</u>
+                    <u who="#boderD" start="1142.018" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1142.741" end="x">And then I meant the hospital, hospital El Melwani [?] there were three hospitals.</u>
+                    <u who="#boderD" start="1149.380" end="x">Did you get typhus too?</u>
+                    <u who="#mizrachiM" start="1150.627" end="x">I got Typhus too.</u>
+                    <u who="#boderD" start="1151.482" end="x">So when they took you from the train did you have typhus already?</u>
+                    <u who="#mizrachiM" start="1156.121" end="x">No I didn't have.</u>
+                    <u who="#boderD" start="1157.428" end="x">Oh, you didn't have . . .</u>
+                    <u who="#mizrachiM" start="1157.820" end="x">I was looking for [after] my mother.</u>
+                    <u who="#boderD" start="1159.248" end="x">You were taking care of your mother?</u>
+                    <u who="#mizrachiM" start="1160.465" end="x">Yes, taking care of her until she died.</u>
+                    <u who="#boderD" start="1163.549x" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1165.085" end="x">Afterwards . . .</u>
+                    <u who="#boderD" start="1165.718" end="x">Did you see your father dying?</u>
+                    <u who="#mizrachiM" start="1167.706" end="x">I . . . . My father died on my hands.</u>
+                    <u who="#boderD" start="1170.248" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1170.911" end="x">I buried him with two other Jewish comrades.</u>
+                    <u who="#boderD" start="1173.664" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1174.809" end="x">. . . in <placeName ref="Farsleben">Farsleben</placeName>. And my mother died in <placeName ref="Hillersleben">Hillersleben</placeName>.</u>
+                    <u who="#boderD" start="1178.676" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1179.369" end="x">They are seven kilometers away. I didn't see my mother died - dead - because I was very ill at this moment. I was with 41.4 Centigrade . . .</u>
+                    <u who="#boderD" start="1191.267" end="x">Temperature. Already with typhus?</u>
+                    <u who="#mizrachiM" start="1193.327" end="x">With Typhus yes.</u>
+                    <u who="#boderD" start="1194.291" end="x">And so when the freedom came . . . ?</u>
+                    <u who="#mizrachiM" start="1197.875" end="x">When the freedom came, I was quite alone I remained quite alone . . .</u>
+                    <u who="#boderD" start="1202.243" end="x">Did they take you to a hospital?</u>
+                    <u who="#mizrachiM" start="1204.153" end="x">Yes.</u>
+                    <u who="#boderD" start="1205.039" end="x">You were taken to a hospital?</u>
+                    <u who="#mizrachiM" start="1206.166" end="x">I have been taken to a hospital.</u>
+                    <u who="#boderD" start="1207.865" end="x">. . . and nurse to help?</u>
+                    <u who="#mizrachiM" start="1209.534" end="x">Nurse help, German nurse. And they were not bad but they always tried to make sabotage.</u>
+                    <u who="#boderD" start="1217.920" end="x">The Germans?</u>
+                    <u who="#mizrachiM" start="1218.745" end="x">The Germans.</u>
+                    <u who="#boderD" start="1219.528" end="x">In what way?</u>
+                    <u who="#mizrachiM" start="1220.432" end="x">In what way . . . because they were throwing away the medicaments and whenever we were calling them but they didn't come—only when the Brit- [corrects] an American soldier was present.</u>
+                    <u who="#boderD" start="1231.998" end="x">. . . and then he would take . . .</u>
+                    <u who="#mizrachiM" start="1232.781" end="x">. . . but not, they never took care of us.</u>
+                    <u who="#boderD" start="1234.800" end="x">All right, and when you got well what happened then?</u>
+                    <u who="#mizrachiM" start="1237.914" end="x">Then I took some days in order to get . . . stronger then because I couldn't walk. I had forty-two kilograms.</u>
+                    <u who="#boderD" start="1249.481" end="x">And where did you spend those days—in the hospital?</u>
+                    <u who="#mizrachiM" start="1251.692" end="x">In the hospital.</u>
+                    <u who="#boderD" start="1252.758" end="x">Yes.</u>
+                    <u who="#mizrachiM" start="1253.331" end="x">And afterwards I have been taken by the American army and I said that I had parents in France. And that for they brought . . .</u>
+                    <u who="#boderD" start="1262.951" end="x">You said that you had parents in France?</u>
+                    <u who="#mizrachiM" start="1264.006" end="x">Yes, I had. I had.</u>
+                    <u who="#boderD" start="1265.946" end="x">Relatives you mean?</u>
+                    <u who="#mizrachiM" start="1267.103" end="x">I have relatives, yes. Relatives.</u>
+                    <u who="#boderD" start="1268.711" end="x">Apart from your father and mother.</u>
+                    <u who="#mizrachiM" start="1269.946" end="x">Relatives, yes. Relatives in France.</u>
+                    <u who="#boderD" start="1272.838" end="x">And so they took you?</u>
+                    <u who="#mizrachiM" start="1273.784" end="x">So they took me here and . . . unfortunately they had been displaced too. Deported and they didn't come back.</u>
+                    <u who="#boderD" start="1281.145" end="x">They did come back?</u>
+                    <u who="#mizrachiM" start="1282.170" end="x">They did not come back.</u>
+                    <u who="#boderD" start="1283.357" end="x">So you didn't find relatives?</u>
+                    <u who="#mizrachiM" start="1285.056" end="x">I did find. And I remained here.</u>
+                    <u who="#boderD" start="1288.442" end="x">Yes. And for what are you working now?</u>
+                    <u who="#mizrachiM" start="1290.894" end="x">Now I am working for the <term ref="#vothG_ajdc">AJDC</term>.</u>
+                    <u who="#boderD" start="1293.014" end="x">For the American join . . .</u>
+                    <u who="#mizrachiM" start="1295.033" end="x">[finishing] . . . distribution committee.</u>
+                    <u who="#boderD" start="1296.190" end="x">What are you doing?</u>
+                    <u who="#mizrachiM" start="1297.045" end="x">I am in the accounting department.</u>
+                    <u who="#boderD" start="1299.877" end="x">Where did you learn English?</u>
+                    <u who="#mizrachiM" start="1301.335" end="x">I learned English alone because I finished the German school . . .</u>
+                    <u who="#boderD" start="1305.443" end="x">Where? Greece?</u>
+                    <u who="#mizrachiM" start="1306.437" end="x">In <placeName ref="Thessaloníki">Salonika</placeName>, yes.</u>
+                    <u who="#boderD" start="1308.064" end="x">You finished the German school where you learned Greek [corrects] where you learned English?</u>
+                    <u who="#mizrachiM" start="1312.022" end="x">German. German and French and since I liked very much to learn English I learned it quite alone.</u>
+                    <u who="#boderD" start="1321.793" end="x">with . . . [speaking over each other]</u>
+                    <u who="#mizrachiM" start="1323.191" end="x">Just alone, myself.</u>
+                    <u who="#boderD" start="1324.709" end="x">By which method? Shocked that haven't got a better [ununintelligible] that you had to go to school?</u>
+                    <u who="#mizrachiM" start="1328.143" end="x">No, I learned it quite alone. There was a friend of mine who went to the school . . . and I learned . . .</u>
+                    <u who="#boderD" start="1332.854" end="x">And learned it alone. Now what do you plan to do in the future?</u>
+                    <u who="#mizrachiM" start="1336.420" end="x">I am studying now; I am studying radio.</u>
+                    <u who="#boderD" start="1339.432" end="x">Where, at the <term ref="#vothG_ort">ORT</term>?</u>
+                    <u who="#mizrachiM" start="1340.727" end="x">No, quite alone, I am training myself.</u>
+                    <u who="#boderD" start="1344.011" end="x">All right.</u>
+                    <u who="#boderD" start="1344.475" end="x">You are studying radio and then you want to do what?</u>
+                    <u who="#mizrachiM" start="1348.403" end="x">Then I hope to work in radio..</u>
+                    <u who="#boderD" start="1351.246" end="x">Where?</u>
+                    <u who="#mizrachiM" start="1352.933" end="x">I don't know yet, perhaps I can go to the country I would be very satisfied.</u>
+                    <u who="#boderD" start="1359.560" end="x">Which country?</u>
+                    <u who="#mizrachiM" start="1361.018" end="x">I don't know where to . . . the States? [Break in tape]</u>
+                    <u who="#boderD" start="1364.072" end="x">. . . relatives in America?</u>
+                    <u who="#mizrachiM" start="1364.946" end="x">. . . unfortunately, I have no one.</u>
+                    <u who="#boderD" start="1367.006" end="x">You have no one.</u>
+                    <u who="#mizrachiM" start="1368.030" end="x">No one.</u>
+                    <u who="#boderD" start="1370.319" end="x">. . . Well this concludes Mr. .Mizrachi's report. Taken on the- . . . on August the 12th at the offices of the <term ref="#vothG_ajdc">American Joint Distribution Committee</term> . . . recording of the Illinois Institute of Technology.</u>
+                </div>
+                <!-- end spool 9-43B -->
+            </div>
+            <!-- end transcription -->
+        </body>
+    </text>
+</TEI>

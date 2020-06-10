@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Pinkhus Rosenfeld; September 13, 1946; Hénonville, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Raynor Ren</name>
+                </respStmt>
+                <!--
+                    <respStmt>
+                    <resp>Transcription</resp>
+                    <name>[name]</name>
+                    </respStmt>
+                -->
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT53M04.065S" id="rosenfeldP_9-130B_9-131">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <lang value="secondary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-130B</note>
+                                <note type="spools" n="2">9-131</note>
+                                <placeName ref="Hénonville"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-13</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="rosenfeldP_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="rosenfeldP" role="interviewee">
+                        <persName>
+                            <forename>Pinkhus</forename>
+                            <surname>Rosenfeld</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>43</age>
+                        <birth when="1903-01-02" ref="Lódź"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>widower</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Lódź">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Łódź Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Chemnitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" where="Mariánské Lázně" when="1945-05-07" resp="Germany">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <!-- <div> -->
+            <!-- paste transcription here -->
+            <!-- </div> -->
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#rosenfeldP_en">
+                <!-- begin Spool 9-130B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.121" end="x">[In English] This is Spool 9-130B, Mr. Pinkhus Rosenfeld, interviewed at Hénonville, France—Hénonville near Paris. November 7th, 1950, Boder.</u>
+                    <u who="#boderD" start="60.348" end="x"><placeName ref="Paris">Paris</placeName>, September 13, 1946. Hénonville, a suburb of <placeName ref="Paris">Paris</placeName>, in a home of Jewish displaced people. The interviewee is Mr. Pinkhus Rosenfeld who lives himself in <placeName ref="Paris">Paris</placeName> but has children here in the . . . in the <term ref="#vothG_kibbutz">Kibbutz</term>.</u>
+                    <u who="#boderD" start="83.916" end="x">[In German] And so, Mr. Rosenfeld, tell me your full name and where you were born.</u>
+                    <u who="#rosenfeldP" start="92.144" end="x">Pinkhus Rosenfeld, born in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="95.132" end="x">How old are you, Mr. Rosenfeld?</u>
+                    <u who="#rosenfeldP" start="96.630" end="x">On the second [day] of the first [month, January], 1903.</u>
+                    <u who="#boderD" start="99.040" end="x">Then you are now forty-three years old, isn't that so?</u>
+                    <u who="#rosenfeldP" start="101.785" end="x">Yes.</u>
+                    <u who="#boderD" start="102.463" end="x">And so tell me, you are living in <placeName ref="Paris">Paris</placeName> now?</u>
+                    <u who="#rosenfeldP" start="106.910" end="x">I have been living in <placeName ref="Paris">Paris</placeName> now for three weeks.</u>
+                    <u who="#boderD" start="109.229" end="x">Aha, and what are you doing there?</u>
+                    <u who="#rosenfeldP" start="112.217" end="x">What . . . I am looking for possibilities of going to Palestine where I have my own home . . .</u>
+                    <u who="#boderD" start="118.275" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="118.618" end="x">. . . and also a house that my father has there.</u>
+                    <u who="#boderD" start="120.876" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="121.888" end="x">And, alas, I cannot go there. I am [words not clear]. I am navanat . . .</u>
+                    <u who="#boderD" start="127.915" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="128.836" end="x">. . . all the time.</u>
+                    <u who="#boderD" start="129.939" end="x">And . . . and what beziehung [connection] do you have here with this <term ref="#vothG_kibbutz">kibbutz</term> in Hénonville?</u>
+                    <u who="#rosenfeldP" start="135.358" end="x">What does beziehung mean?</u>
+                    <u who="#boderD" start="136.613" end="x">I mean, I see you here, you are here.</u>
+                    <u who="#rosenfeldP" start="139.175" end="x">I have here two children who were also with me all the time.</u>
+                    <u who="#boderD" start="142.862" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="143.713" end="x">I am not able to maintain them in <placeName ref="Paris">Paris</placeName>. I cannot afford to live in <placeName ref="Paris">Paris</placeName>, so that . . .</u>
+                    <u who="#boderD" start="149.853" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="150.440" end="x">. . . I have placed them in the <term ref="#vothG_kibbutz">kibbutz</term>, and they have a very happy life.</u>
+                    <u who="#boderD" start="151.787" end="x">And your wife is where?</u>
+                    <u who="#rosenfeldP" start="154.380" end="x">My wife, alas, perished in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="157.368" end="x">Hm. So who looks after the children here?</u>
+                    <u who="#rosenfeldP" start="160.633" end="x">They themselves.</u>
+                    <u who="#boderD" start="162.061" end="x">What?</u>
+                    <u who="#rosenfeldP" start="162.374" end="x">Themselves. They are . . .</u>
+                    <u who="#boderD" start="163.019" end="x">How old are they?</u>
+                    <u who="#rosenfeldP" start="163.272" end="x">. . . grown up children.</u>
+                    <u who="#boderD" start="164.338" end="x">Oh.</u>
+                    <u who="#rosenfeldP" start="164.772" end="x">Nineteen and twenty-one years.</u>
+                    <u who="#boderD" start="165.748" end="x">What are they, boys, girls?</u>
+                    <u who="#rosenfeldP" start="167.477" end="x">Two boys. Two . . .</u>
+                    <u who="#boderD" start="168.814" end="x">Two . . .</u>
+                    <u who="#rosenfeldP" start="169.007" end="x">I had girls. They perished in the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>.</u>
+                    <u who="#boderD" start="172.634" end="x">In the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>.</u>
+                    <u who="#rosenfeldP" start="173.851" end="x">Yes. [Words not clear.]</u>
+                    <u who="#boderD" start="175.008" end="x">And so, Mr. Rosenfeld, will you please tell me where you were when the war started and the main events that happened to you? Take your time. You can talk as much as you want. Go on.</u>
+                    <u who="#rosenfeldP" start="190.575" end="x">[When] the war started, I was in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="194.051" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="197.075" end="x">And then it happened. On the night of the 5th and 6th of September . . .</u>
+                    <u who="#boderD" start="203.864" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="204.840" end="x">. . . we were running.</u>
+                    <u who="#boderD" start="207.412" end="x">Why were people running?</u>
+                    <u who="#rosenfeldP" start="208.779" end="x">Because we had heard that the German is arriving, and the fear immediately brought great panic [?] so that at once we were running. We did not know where, what, or when. We did not take under consideration that the German army with its mechanization, with all its technique, that it will run faster than we, but the fear moved us to run. Thus, we are running until today. It is already seven years. Today is exactly seven years since the war started, and we are still running.</u>
+                    <u who="#boderD" start="236.077" end="x">And so, Mr. Rosenfeld, give it to me one thing at a time, in details. Where did you go from <placeName ref="Lódź">Lodz</placeName>? What was your occupation in <placeName ref="Lódź">Lodz</placeName>?</u>
+                    <u who="#rosenfeldP" start="243.860" end="x">In <placeName ref="Lódź">Lodz</placeName> I was a textile manufacturer. We had our own factory in Zdunska Wola.</u>
+                    <u who="#boderD" start="248.661" end="x">Aha. Tell me . . . [you had] a textile business. Did you know the Sigmunds [mispronounced Sigman] in <placeName ref="Lódź">Lodz</placeName>, from <placeName ref="Chicago">Chicago</placeName>? They had a big textile factory. [Pause.] Sigmund [Sigman].</u>
+                    <u who="#rosenfeldP" start="259.516" end="x">Sigmund in the texti- . . . no.</u>
+                    <u who="#boderD" start="261.787" end="x">No, and so, nu, you had what sort of business, a factory?</u>
+                    <u who="#rosenfeldP" start="266.498" end="x">We had a factory.</u>
+                    <u who="#boderD" start="267.534" end="x">Who is the we?</u>
+                    <u who="#rosenfeldP" start="268.600" end="x">Rosenfeld and Patovski was [the name of] the firm.</u>
+                    <u who="#boderD" start="271.504" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="272.932" end="x">And we had the factory . . .</u>
+                    <u who="#boderD" start="274.691" end="x">Is it not the Patovski of whom one is in <placeName ref="New York">New York</placeName>?</u>
+                    <u who="#rosenfeldP" start="279.281" end="x">I would not know.</u>
+                    <u who="#boderD" start="281.673" end="x">You would not know. And so, go on. [Pause.] Now, where did you run? What did you take along?</u>
+                    <u who="#rosenfeldP" start="288.884" end="x">We took along a little money in the pocket. The rest we left, everything unguarded, and we ran. Finally we saw on the road that the Germans have come ahead of us.</u>
+                    <u who="#boderD" start="301.878" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="303.667" end="x">And we began to reflect that our running was totally useless, so we turned around and we came back to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="313.016" end="x">Back to <placeName ref="Lódź">Lodz</placeName>?</u>
+                    <u who="#rosenfeldP" start="313.962" end="x">Back to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="315.631" end="x">Yes, nu?</u>
+                    <u who="#rosenfeldP" start="317.932" end="x">Nu, naturally in <placeName ref="Lódź">Lodz</placeName> we were already met at certain points by the Germans, and the local <term ref="#vothG_folk">folk-Germans</term> [Poles who claimed German ancestry] . . .</u>
+                    <u who="#boderD" start="326.438" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="326.932" end="x">. . . the so-called Poles, and we were at once cleaned up. They took away everything we had, the little money. Now we were already completely without anything.</u>
+                    <u who="#boderD" start="337.245" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="340.058" end="x">Afterwards happened the story that <placeName ref="Lódź">Lodz</placeName> was incorporated by the German into the Reich.</u>
+                    <u who="#boderD" start="346.546" end="x">Oh.</u>
+                    <u who="#rosenfeldP" start="348.998" end="x">And there began to happen all the calamaties, with dragging for labor and with going to work, and the summons to the <term ref="#vothG_gestapo">Gestapo</term>, so that my father, as an elderly man, decided that he will leave <placeName ref="Lódź">Lodz</placeName>. Where should he go? There is no where or what or when, but still, seeing that <placeName ref="Warsaw">Warsaw</placeName> was [made a] protectorate at that time, there began an exodus [to <placeName ref="Warsaw">Warsaw</placeName>]. It was assumed that being a protectorate, it will have some sort of independence, there he will have, so to speak, some kind of a chance.</u>
+                    <u who="#boderD" start="x" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="x" end="x">There it will be possible to save ourselves. So that by father and my mother and a brother . . . and I also sent along my two children there, and we journeyed to <placeName ref="Warsaw">Warsaw</placeName>. I myself had also gone a couple of weeks before to <placeName ref="Warsaw">Warsaw</placeName>. Upon so, seeing that in <placeName ref="Warsaw">Warsaw</placeName> there is no chance of living, the money is coming to an end, and in <placeName ref="Lódź">Lodz</placeName> we still had buried a little Polish money, we went back to <placeName ref="Lódź">Lodz</placeName> to save . . .</u>
+                    <u who="#boderD" start="430.041" end="x">The whole family?</u>
+                    <u who="#rosenfeldP" start="430.776" end="x">No, I and the mother.</u>
+                    <u who="#boderD" start="432.927" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="433.632" end="x">In order to take out the money and get back to <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="437.168" end="x">What sort of money was it, gold, silver, paper money, Polish money?</u>
+                    <u who="#rosenfeldP" start="442.873" end="x">We had all sorts of currency . . .</u>
+                    <u who="#boderD" start="444.361" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="445.367" end="x">. . . buried for the time in the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="450.108" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="451.867" end="x">And so, returning, we came back before <term ref="#vothG_pesach">Pesach</term>, the first <term ref="#vothG_pesach">Pesach</term> that the German was in <placeName ref="Lódź">Lodz</placeName>, and we have . . .</u>
+                    <u who="#boderD" start="462.240" end="x">Was there already a ghetto?</u>
+                    <u who="#rosenfeldP" start="464.240" end="x">Yes, there was already established a <term ref="#vothG_ghetto">ghetto</term>, already with all the trappings.</u>
+                    <u who="#boderD" start="469.222" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="469.897" end="x">And on the thirtieth [day] of the fourth [month] the <term ref="#vothG_ghetto">ghetto</term> was to be closed, and we tried about five days before <term ref="#vothG_pesach">Pesach</term> to get out.</u>
+                    <u who="#boderD" start="478.704" end="x">From the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#rosenfeldP" start="480.343" end="x">From the <term ref="#vothG_ghetto">ghetto</term>. People were then still smuggling across the Beth Hechaim at night.</u>
+                    <u who="#boderD" start="485.837" end="x">Beth Hechaim is the cemetery?</u>
+                    <u who="#rosenfeldP" start="487.717" end="x">Yes.</u>
+                    <u who="#boderD" start="488.211" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="490.663" end="x">And we did not succeed. We were shot after a few times. We did not succeed. I had sent before yet to <placeName ref="Warsaw">Warsaw</placeName> my two girls. The two boys had remained in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="490.663" end="x">And your wife?</u>
+                    <u who="#rosenfeldP" start="507.223" end="x">My wife had also remained.</u>
+                    <u who="#boderD" start="509.193" end="x">In <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#rosenfeldP" start="510.350" end="x">In Lo- . . . in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="511.296" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="511.760" end="x">She did not go along then. And my mother had also returned with me to <placeName ref="Warsaw">Warsaw</placeName>. During this time the situation in <placeName ref="Warsaw">Warsaw</placeName> became very bad. I am telling it very briefly, as the saying goes, if not . . .</u>
+                    <u who="#boderD" start="524.573" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="x" end="x">. . . it would not suffice to write up a whole room of papers. If one would sit for years it would not suffice, but I am making [it] very brief.</u>
+                    <u who="#boderD" start="532.446" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="532.970" end="x">During that time my father had passed away in <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="539.247" end="x">Just by himself [from natural causes]?</u>
+                    <u who="#rosenfeldP" start="541.940" end="x">Just by himself. He got sick. His blood was sick.</u>
+                    <u who="#boderD" start="547.464" end="x">Hm. Was he an old man?</u>
+                    <u who="#rosenfeldP" start="548.560" end="x">He was sixty-two years old.</u>
+                    <u who="#boderD" start="x" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="x" end="x">In general, since he had possessions in <term ref="#vothG_eretzY">Eretz Yisroeil</term> [Land of Israel] and having decided that any day . . . if the war had broken out four weeks later . . .</u>
+                    <u who="#boderD" start="550.560" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="551.626" end="x">. . . he would have already been in <term ref="#vothG_eretzY">Eretz Yisroeil</term>, and now having seen that he had no chance for it, he cannot get over, this brought him his sickness. His blood became bad, and he died.</u>
+                    <u who="#boderD" start="576.575" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="577.099" end="x">The rest of my family later took pains, through various tricks, having given away the last . . . they brought the mother out to <placeName ref="Warsaw">Warsaw</placeName>. And during the liquidation of the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName> I lost all my family, my mother, my two children.</u>
+                    <u who="#boderD" start="601.694" end="x">Which <term ref="#vothG_ghetto">ghetto</term>, the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>?</u>
+                    <u who="#rosenfeldP" start="602.971" end="x">The <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>, yes.</u>
+                    <u who="#boderD" start="604.067" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="605.103" end="x">Whether they perished in the <term ref="#vothG_ghetto">ghetto</term> or they were sent to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> I do not know. I know only one thing, that they are no more.</u>
+                    <u who="#boderD" start="614.211" end="x">Who, your mother?</u>
+                    <u who="#rosenfeldP" start="615.338" end="x">My mother, my two chil- . . . children, my two brothers, a sister-in-law of mine with two children, and my sister with two children.</u>
+                    <u who="#boderD" start="x" end="x">Where were the other two children . . . of yours? You had four children.</u>
+                    <u who="#rosenfeldP" start="635.637" end="x">Two were in <placeName ref="Warsaw">Warsaw</placeName>. Two I had send. They had come along right with me.</u>
+                    <u who="#boderD" start="639.685" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="640.089" end="x">And after, when I was supposed to have come to save ourselves from the last catastrophe in <placeName ref="Warsaw">Warsaw</placeName> . . .</u>
+                    <u who="#boderD" start="644.107" end="x">Yes, so you have . . . yes?</u>
+                    <u who="#rosenfeldP" start="644.782" end="x">. . . I left the two girls there.</u>
+                    <u who="#boderD" start="648.409" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="648.752" end="x">And with the two boys whom I had not taken there yet, we remained until [words not clear].</u>
+                    <u who="#boderD" start="651.927" end="x">Oh, the two boys were in <placeName ref="Lódź">Lodz</placeName> and have remained . . .</u>
+                    <u who="#rosenfeldP" start="654.228" end="x">Have remained in <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="654.933" end="x">Aha. Nu, and so?</u>
+                    <u who="#rosenfeldP" start="656.331" end="x">And so in <placeName ref="Lódź">Lodz</placeName> we got then into the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="662.819" end="x">Where did you live in <placeName ref="Lódź">Lodz</placeName> before? Was your house where the <term ref="#vothG_ghetto">ghetto</term> was later made, or not?</u>
+                    <u who="#rosenfeldP" start="669.066" end="x">No, it was not inside the <term ref="#vothG_ghetto">ghetto</term>. Where I had lived was Polodniowa 25, and the father had lived on Ceglana number 14.</u>
+                    <u who="#boderD" start="676.909" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="677.614" end="x">Then we were quartered in the <term ref="#vothG_ghetto">ghetto</term>, not quartered, but we heard . . . the German thought that the Jews were moving somehow too slowly. He wanted that it should go with more tempo, and they simply attacked the streets and the houses and shot out everybody in the neighboring [non-ghetto] streets. Then we did not wait any more for the plan . . . we did not wait for the plan any more which was supposed to be that we go according to a plan, everyday should go a certain street. But afterwards we just ran by ourselves into the ghetto.</u>
+                    <u who="#boderD" start="703.708" end="x">And where did you live there?</u>
+                    <u who="#rosenfeldP" start="705.106" end="x">In the <term ref="#vothG_ghetto">ghetto</term> we were pushed into . . . we were twenty-odd people in a room which was about, let us say, four meters by four meters.</u>
+                    <u who="#boderD" start="713.913" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="716.666" end="x">Nu, in the <term ref="#vothG_ghetto">ghetto</term> later, as it is already known from the descriptions of the ghetto, was created some sort of self-government with [its] own currency with some sort of self-sufficiency, that we were working for the Germans in all the shops and in every trade. And for that the Germans sent in for us the most meager [?], that means the minium, food supplies and certain rations. On that we lived in the ghetto.</u>
+                    <u who="#boderD" start="745.440" end="x">Who was the Elder of the <term ref="#vothG_ghetto">ghetto</term> there?</u>
+                    <u who="#rosenfeldP" start="748.163" end="x">The Elder of the Jews was Mordechai Chaim Rumkowski.</u>
+                    <u who="#boderD" start="751.699" end="x">Rumkowski.</u>
+                    <u who="#rosenfeldP" start="752.554" end="x">Yes.</u>
+                    <u who="#boderD" start="752.988" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="754.115" end="x">He was the Elder of the Jews.</u>
+                    <u who="#boderD" start="757.531" end="x">What had he been before? What sort of a man was he? What was his status before in <placeName ref="Lódź">Lodz</placeName>? Did people know him there?</u>
+                    <u who="#rosenfeldP" start="765.013" end="x">In <placeName ref="Lódź">Lodz</placeName> he was known. The man was a Jewish community worker.</u>
+                    <u who="#boderD" start="770.176" end="x">A what?</u>
+                    <u who="#rosenfeldP" start="770.640" end="x">A community worker.</u>
+                    <u who="#boderD" start="772.459" end="x">Worker, yes.</u>
+                    <u who="#rosenfeldP" start="773.865" end="x">Yes. One of the . . . I can say, alas with regret, also a <term ref="#vothG_zionist">Zionist</term> worker. He took part in the <term ref="#vothG_zionist">Zionist</term> Congresses. A man who was childless. A man who had done much for orphans. He had founded an orphanage together with the greatest citizens. He got together money and erected . . .</u>
+                    <u who="#boderD" start="792.600" end="x">Before [the advent of the Germans]?</u>
+                    <u who="#rosenfeldP" start="793.674" end="x">Before, naturally.</u>
+                    <u who="#boderD" start="794.990" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="796.185" end="x">And because he . . . and because he was . . . at the time when the German marched in to <placeName ref="Lódź">Lodz</placeName>, he was one of the Jewish civic leaders, that means, of the Community Council officials.</u>
+                    <u who="#boderD" start="808.319" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="808.679" end="x">And he . . . because of his patriarchal appearance he [the Germans] made him remain. The rest, all the civic leaders, he sent away to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> where they perished. And in this way he took over the complete leadership.</u>
+                    <u who="#boderD" start="820.513" end="x">Who sent away the people to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                    <u who="#rosenfeldP" start="822.433" end="x">The Germans.</u>
+                    <u who="#boderD" start="823.357" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="823.918" end="x">And he alone remained out of the fifty . . . eh . . .</u>
+                    <u who="#boderD" start="828.765" end="x">From the Community Council.</u>
+                    <u who="#rosenfeldP" start="829.779" end="x">From the Community Council . . .</u>
+                    <u who="#boderD" start="830.612" end="x">He alone [?]?</u>
+                    <u who="#rosenfeldP" start="831.354" end="x">. . . he remained.</u>
+                    <u who="#boderD" start="832.821" end="x">[In English] This concludes Spool 130 with Mr. Pinkhus Rosenfeld reporting, and we are going over to Spool 131. Hénonville, fifty kilometers from <placeName ref="Paris">Paris</placeName>, in a home of displaced Jews which is occupied by a <term ref="#vothG_kibbutz">Kibbutz</term> and a migrating, so to speak, <term ref="#vothG_yeshiva">Yeshiva</term> from Lithuania. September 13, 1946. <placeName ref="Hénonville">Hénonville</placeName>. Illinois Institute of Technology recording.</u>
+                    <!-- end Spool 9-130B -->
+                    <!-- begin Spool 9-131 -->
+                    <u who="#boderD" start="871.112" end="x">France, September the 13th, 1946. At <placeName ref="Hénonville">Hénonville</placeName>, fifty kilometers from <placeName ref="Paris">Paris</placeName>. In a chateau, Hénonville, which is occupied by displaced people. An organization of Orthodox Jews, Hassidim [a sect], a <term ref="#vothG_kibbutz">Kibbutz</term>, and a <term ref="#vothG_yeshiva">Yeshiva</term>. The interviewee is Mr. Pinkhus Rosenfeld, from <placeName ref="Lódź">Lodz</placeName>. We have started the [recording] . . . on Spool 130 at twenty minutes and we are continuing now.</u>
+                    <u who="#boderD" start="904.382" end="x">[In Yiddish] And so, Mr. Rosenfeld, where were we? You were relating about <placeName ref="Lódź">Lodz</placeName>. And so you had returned and . . .</u>
+                    <u who="#rosenfeldP" start="916.913" end="x">And I remained in the <placeName ref="Lódź">Lodz</placeName>
+                        <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="919.436" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="922.502" end="x">Now, is not the place to relate all the experiences that we have lived through.</u>
+                    <u who="#boderD" start="928.496" end="x">But do take some typical incidents which had happened to you and your family, not in general. [Pause.] Did you build a bunker? [Here reference is made not to air-raid shelters, but to hide-outs against raids for deportation.]</u>
+                    <u who="#rosenfeldP" start="939.379" end="x">No.</u>
+                    <u who="#boderD" start="940.303" end="x">Why not?</u>
+                    <u who="#rosenfeldP" start="947.595" end="x">Because as a rule it did not happen that people in the <term ref="#vothG_ghetto">ghetto</term> built bunkers. Perhaps in the last moments when the time was already very short. Our street they started to take among the first, so that we were not able to do it.</u>
+                    <u who="#boderD" start="960.893" end="x">Hm. Nu, and so what happened then? You say that people began working for the Germans. What did you do?</u>
+                    <u who="#rosenfeldP" start="972.135" end="x">I was accidently, the head of a point for provision supply which served a certain area . . .</u>
+                    <u who="#boderD" start="984.286" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="985.904" end="x">. . . with . . . with provisions which were rationed, which were issued every two weeks.</u>
+                    <u who="#boderD" start="991.747" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="992.761" end="x">It is altogether [?] unbelievable that when the rations were issued for two weeks it included a ration which consisted of three dekas of turnips for two weeks.</u>
+                    <u who="#boderD" start="1005.214" end="x">Three what?</u>
+                    <u who="#rosenfeldP" start="1006.439" end="x">Three dekas . . . thirty grams of turnips.</u>
+                    <u who="#boderD" start="1011.497" end="x">Turnips.</u>
+                    <u who="#rosenfeldP" start="1012.722" end="x">Turnips.</u>
+                    <u who="#boderD" start="1013.344" end="x">Thirty grams of turnips for two weeks.</u>
+                    <u who="#rosenfeldP" start="1015.535" end="x">For two weeks. I won't . . .</u>
+                    <u who="#boderD" start="1016.187" end="x">And what else? How much bread?</u>
+                    <u who="#rosenfeldP" start="1019.676" end="x">Bread was given, two kilos for eight days.</u>
+                    <u who="#boderD" start="1023.829" end="x">Two kilos. Nu.</u>
+                    <u who="#rosenfeldP" start="1027.348" end="x">That was it. There was another little, what else . . .</u>
+                    <u who="#boderD" start="1032.769" end="x">Butter?</u>
+                    <u who="#rosenfeldP" start="1034.115" end="x">Nothing whatsoever. No fats were given.</u>
+                    <u who="#boderD" start="1036.699" end="x">Hm. Go on. And you were working where the rations were issued.</u>
+                    <u who="#rosenfeldP" start="1045.077" end="x">I was working where the rations were issued.</u>
+                    <u who="#boderD" start="1047.208" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1049.128" end="x">So that I must say [admit] that this [stroke of] luck brought me [the chance] that I had somehow a little . . . that I could eat something watching at night in the store somehow . . . that it was possible to eat something.</u>
+                    <u who="#boderD" start="1065.836" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1066.096" end="x">That gave me the possibilities to live through.</u>
+                    <u who="#boderD" start="1069.132" end="x">Yes? [Pause.] Nu?</u>
+                    <u who="#rosenfeldP" start="1076.243" end="x">And so thus we went on suffering. Four years we were in the <term ref="#vothG_ghetto">ghetto</term>, no clothing, no heating, and wearing wooden shoes. We were [there] until the end of August. The children were working very hard.</u>
+                    <u who="#boderD" start="1101.163" end="x">How old were the children?</u>
+                    <u who="#rosenfeldP" start="1102.569" end="x">The children were then about . . . when they got in the <term ref="#vothG_ghetto">ghetto</term> one was thirteen and one was in the fifteenth year.</u>
+                    <u who="#boderD" start="1108.140" end="x">Aha. And such [children] the Germans already considered as workers?</u>
+                    <u who="#rosenfeldP" start="1112.021" end="x">Such . . . and how . . . such the Germans considered workers already. To the contrary this was fortunate. In the beginning there was the slogan [the belief]. Seeing that whoever will work will not be deported, and we already knew the odor of the deportation, so that even eight year old children were sent [by the parents?] to work.</u>
+                    <u who="#boderD" start="1128.307" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1128.597" end="x">I can say that my children who weighed as much as about sixty kilos when they came in the <term ref="#vothG_ghetto">ghetto</term> . . .</u>
+                    <u who="#boderD" start="1134.350" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1137.096" end="x">Later when they were four years older—these are the best years in which a child must have the most nourishment and to gain most strength --they still lost fifteen kilos each.</u>
+                    <u who="#boderD" start="1149.500" end="x">When, in the ghetto?</u>
+                    <u who="#rosenfeldP" start="1150.574" end="x">In the <term ref="#vothG_ghetto">ghetto</term>.</u>
+                    <u who="#boderD" start="1151.377" end="x">Aha, nu?</u>
+                    <u who="#rosenfeldP" start="1152.421" end="x">Still as youngsters. Before the war I weighed 96 kilos, and then, in the last days of the <term ref="#vothG_ghetto">ghetto</term>, I weighed 62 kilos. We had virtually become skeletons.</u>
+                    <u who="#boderD" start="1167.349" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1169.993" end="x">[Pause.] Nu, is there anything else you would like to ask me about <term ref="#vothG_ghetto">ghetto</term> life?</u>
+                    <u who="#boderD" start="1172.727" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1173.560" end="x">For instance?</u>
+                    <u who="#boderD" start="1173.789" end="x">And so, I would like to know . . . And what did you do during the entire four years? Did you work in the administration during the entire four years?</u>
+                    <u who="#rosenfeldP" start="1181.383" end="x">In the administration of the . . . of the supply point.</u>
+                    <u who="#boderD" start="1185.747" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="1186.339" end="x">I worked there.</u>
+                    <u who="#boderD" start="1186.931" end="x">Did that help you so that you were not sent away from <placeName ref="Lódź">Lodz</placeName>?</u>
+                    <u who="#rosenfeldP" start="1189.816" end="x">That helped me so that I was not sent away.</u>
+                    <u who="#boderD" start="1192.943" end="x">And you were left to remain with your children.</u>
+                    <u who="#rosenfeldP" start="1194.229" end="x">Yes.</u>
+                    <u who="#boderD" start="1195.183" end="x">Nu, and then how was the <term ref="#vothG_ghetto">ghetto</term> gradually reduced? How did it come to the end? Describe to me, let us say, the last six months of the ghetto.</u>
+                    <u who="#rosenfeldP" start="1207.577" end="x">When the Germans saw that the Russians were approaching and they were not far from <placeName ref="Warsaw">Warsaw</placeName>, <placeName ref="Warsaw">Warsaw</placeName> from <placeName ref="Lódź">Lodz</placeName> being, so to speak, only about one hundred twenty kilometers, they began step by step to liquidate the <term ref="#vothG_ghetto">ghetto</term>. And so, first of all . . . [pause] . . .</u>
+                    <u who="#boderD" start="1233.932" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1236.184" end="x">. . . were sent out those who had at one time sinned [against the Germans]. What does it mean had sinned? There being no fuel, I am only pointing at an . . .</u>
+                    <u who="#boderD" start="1244.924" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1245.395" end="x">. . . example.</u>
+                    <u who="#boderD" start="1245.896" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1246.246" end="x">If one had stolen once a piece of wood from an old fence, or if a cart with potatoes passed on the street and a child of five years ran after it and grabbed a raw potato . . .</u>
+                    <u who="#boderD" start="1260.147" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1261.010" end="x">. . . this constituted already one of the worst crimes, for which they were in the first line, and these were sent away.</u>
+                    <u who="#boderD" start="1269.630" end="x">What does it mean? The parents of the child, or what?</u>
+                    <u who="#rosenfeldP" start="1272.515" end="x">The parents together with the whole family were sent away.</u>
+                    <u who="#boderD" start="1274.585" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1275.177" end="x">Then for the German there were . . .</u>
+                    <u who="#boderD" start="1277.127" end="x">Nu, who, for instance, reported it, that a child grabbed a potato?</u>
+                    <u who="#rosenfeldP" start="1281.370" end="x">For that there were, alas, Jewish police who also had to cling to life . . .</u>
+                    <u who="#boderD" start="1287.666" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1288.288" end="x">. . . who [the police] had also been appointed by the Germans, who [the police] watched over that.</u>
+                    <u who="#boderD" start="1291.988" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="1293.696" end="x">If,, by chance, he [the Jewish policeman] would let pass such a thing . . .</u>
+                    <u who="#boderD" start="1296.461" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1296.932" end="x">. . . if he would have kept silent about it, he would be—there were at once over them such watchmen --</u>
+                    <u who="#boderD" start="1300.964" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1301.857" end="x">. . . if not, they would all be deported.</u>
+                    <u who="#boderD" start="1303.686" end="x">Aha. So who made the list for the deportation?</u>
+                    <u who="#rosenfeldP" start="1304.730" end="x">At first the police made it.</u>
+                    <u who="#boderD" start="1308.159" end="x">The Jewish police.</u>
+                    <u who="#rosenfeldP" start="1311.195" end="x">The Jewish police.</u>
+                    <u who="#boderD" start="1312.933" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1313.525" end="x">Nu, and so, the so-called criminals having been already sent away, they took and sent away single people. That means . . .</u>
+                    <u who="#boderD" start="1320.364" end="x">What does it mean, single people?</u>
+                    <u who="#rosenfeldP" start="1321.257" end="x">Such people who had come from the provinces and had already been previously deported. They had already taken away their wives and their children.</u>
+                    <u who="#boderD" start="1327.311" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1327.752" end="x">So these single people were sent away.</u>
+                    <u who="#boderD" start="1329.853" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1330.263" end="x">Because we [?] saw, as far as possible, that whole families should remain.</u>
+                    <u who="#boderD" start="1333.963" end="x">Oh.</u>
+                    <u who="#rosenfeldP" start="1334.766" end="x">Then, when this was already finished, they took people . . . there came out a decree to hand over all the children.</u>
+                    <u who="#boderD" start="1343.341" end="x">Yes, tell me about this case, about the children. How did it happen, and what role did Rumkowski play in it?</u>
+                    <u who="#rosenfeldP" start="1351.538" end="x">The Germans said to hand over all the children up to the age of twelve.</u>
+                    <u who="#boderD" start="1357.049" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1357.731" end="x">To deliver them to a certain point, and they will be brought to Germany.</u>
+                    <u who="#boderD" start="1364.208" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1365.826" end="x">There they will be raised and fed.</u>
+                    <u who="#boderD" start="1369.979" end="x">Aha. Children. How small? From six months?</u>
+                    <u who="#rosenfeldP" start="1372.925" end="x">No difference how old it was. From a day to twelve years. All these children had to be reported, and all of them had to be handed over for sending to Germany.</u>
+                    <u who="#boderD" start="1381.877" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="1385.004" end="x">Exceptions were made at that time for the Jewish police and for such so-called elite, those who were then in the service of Rumkowski's kingdom.</u>
+                    <u who="#boderD" start="1396.793" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1397.596" end="x">So that one can say that there were sent away . . . eighteen thousand children [this number varies in different interviews] were sent away. This took place in the space of time from the 5th of September to the 12th of September, 1942 [?], and two thousand children . . .</u>
+                    <u who="#boderD" start="1415.693" end="x">From September the what? The 1st?</u>
+                    <u who="#rosenfeldP" start="1417.824" end="x">From the 5th of September until . . .</u>
+                    <u who="#boderD" start="1419.170" end="x">From the 5th until the 12th.</u>
+                    <u who="#rosenfeldP" start="1420.275" end="x">. . . the 12th.</u>
+                    <u who="#boderD" start="1421.017" end="x">One week.</u>
+                    <u who="#rosenfeldP" start="1421.759" end="x">One week.</u>
+                    <u who="#boderD" start="1422.230" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1424.089" end="x">The police went around grabbing, and the entire <term ref="#vothG_ghetto">ghetto</term> was locked up, and a blockade was installed.</u>
+                    <u who="#boderD" start="1429.117" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1429.739" end="x">And nobody could go out, but they went around simply from house to house and all the children were taken out.</u>
+                    <u who="#boderD" start="1438.057" end="x">And where were they assembled?</u>
+                    <u who="#rosenfeldP" start="1439.977" end="x">They were assembled on certain assembly points.</u>
+                    <u who="#boderD" start="1442.198" end="x">Did you see it?</u>
+                    <u who="#rosenfeldP" start="1443.091" end="x">Yes, indeed.</u>
+                    <u who="#boderD" start="1444.286" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1444.878" end="x">Not only I, but thousands of people saw it, and then they were sent away.</u>
+                    <u who="#boderD" start="1449.816" end="x">How, in railroad cars?</u>
+                    <u who="#rosenfeldP" start="1451.404" end="x">On trucks they were sent away.</u>
+                    <u who="#boderD" start="1452.267" end="x">In automobiles.</u>
+                    <u who="#rosenfeldP" start="1453.341" end="x">We saw no trains, but saw them being sent away on trucks.</u>
+                    <u who="#boderD" start="1456.588" end="x">Now, where were they sent to?</u>
+                    <u who="#rosenfeldP" start="1461.978" end="x">Nu, there where all the Jews were sent.</u>
+                    <u who="#boderD" start="1463.294" end="x">No, no, no. [Words not clear.] This we have to have very clearly. Where were they sent to? Did people know . . . did anyone find out? Were they sent to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>? Were they sent to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>? Where were they sent to?</u>
+                    <u who="#rosenfeldP" start="1477.252" end="x">All the time we did not know where they were sent.</u>
+                    <u who="#boderD" start="1480.499" end="x">And so let us try to give the German, so to speak, every consideration.</u>
+                    <u who="#rosenfeldP" start="1490.085" end="x">Yes.</u>
+                    <u who="#boderD" start="1491.039" end="x">Let us say this. When children were taken, it was said they will be sent to [better] nourished?</u>
+                    <u who="#rosenfeldP" start="1496.067" end="x">Yes.</u>
+                    <u who="#boderD" start="1496.809" end="x">Did they make out a list? Did they write down their names?</u>
+                    <u who="#rosenfeldP" start="1499.845" end="x">Nothing at all. If there were still such optimists, especially among us who were still in the <term ref="#vothG_ghetto">ghetto</term>, who then did not know so much about <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> and <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> . . .</u>
+                    <u who="#boderD" start="1510.789" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1511.713" end="x">. . . we did think somehow that the children would perhaps be taken to Germany. It went under the pretext that the parents should be able to work. In order that they not be burdened with raising of children . . .</u>
+                    <u who="#boderD" start="1525.162" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1525.693" end="x">. . . the children were taken away. Although it could have been arranged in the <term ref="#vothG_ghetto">ghetto</term> as well but we . . . we wanted to fool ourselves.</u>
+                    <u who="#boderD" start="1532.441" end="x">Aha. Tell me, were there . . .</u>
+                    <u who="#rosenfeldP" start="1532.912" end="x">In closing, we had no choice.</u>
+                    <u who="#boderD" start="1534.409" end="x">. . . any placards, any announcements to bring the children? What . . .</u>
+                    <u who="#rosenfeldP" start="1538.351" end="x">No. Rumkowski put out placards to come and assemble . . .</u>
+                    <u who="#boderD" start="1542.926" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1544.121" end="x">. . . on the so-called square. It was once called . . . on the Goscinny Dwor [a market square usually surrounded by buildings containing stores].</u>
+                    <u who="#boderD" start="1552.650" end="x">Oh. Goscinny Dwor, yes. Nu?</u>
+                    <u who="#rosenfeldP" start="1554.992" end="x">Outside.</u>
+                    <u who="#boderD" start="1556.217" end="x">Were the stores around?</u>
+                    <u who="#rosenfeldP" start="1557.895" end="x">Yes.</u>
+                    <u who="#boderD" start="1558.728" end="x">Yes. Nu?</u>
+                    <u who="#rosenfeldP" start="1558.957" end="x">And we already could fe- . . . feel that the air is somehow not clean, another edict against the Jews is coming.</u>
+                    <u who="#boderD" start="1564.196" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1564.878" end="x">And so there Rumkowski came out seemingly with such a broken spirit. How much truth there lay in it we did not know, because we already knew that he has sold out to the Germans . . .</u>
+                    <u who="#boderD" start="1575.520" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1576.413" end="x">. . . because of the career [position] he was seeking. But it is not believable that he did want [covet] so much, that he did not foresee that he will have to serve the Germans with so much. But now he already had to.</u>
+                    <u who="#boderD" start="1586.481" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1586.861" end="x">And so he issued the order for it to be known that all the children must be handed over.</u>
+                    <u who="#boderD" start="1594.286" end="x">Did you hear his speech?</u>
+                    <u who="#rosenfeldP" start="1596.930" end="x">Yes.</u>
+                    <u who="#boderD" start="1597.884" end="x">Do you remember anything of it? [This speech was mentioned in other interviews, hence the question.]</u>
+                    <u who="#rosenfeldP" start="1601.373" end="x">I remember that he gave us to understand that we must save ourselves, and that it is a decree . . .</u>
+                    <u who="#boderD" start="1607.639" end="x">Save yourselves.</u>
+                    <u who="#rosenfeldP" start="1608.774" end="x">Save ourselves, and with that, that we will hand over the small children, . . .</u>
+                    <u who="#boderD" start="1612.384" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1613.308" end="x">. . . with that we will be saved.</u>
+                    <u who="#boderD" start="1615.318" end="x">Did he use the expression 'Mothers, bring your burned offering'?</u>
+                    <u who="#rosenfeldP" start="1622.278" end="x">[After a pause, animated by the recollection] Yes.</u>
+                    <u who="#boderD" start="1624.318" end="x">You heard that?</u>
+                    <u who="#rosenfeldP" start="1625.211" end="x">Yes.</u>
+                    <u who="#boderD" start="1625.712" end="x">'Mothers, bring your burned offerings,' yes?</u>
+                    <u who="#rosenfeldP" start="1629.171" end="x">'It is to be hoped that this is the last burned offering [sacrifice].'</u>
+                    <u who="#boderD" start="1631.905" end="x">Aha. Yes, because I want to tell you, I have . . . the same that you have told me, was told to me by a boy from <placeName ref="Buchenwald concentration camp" type="camp">Buchenwald</placeName>.</u>
+                    <u who="#rosenfeldP" start="1643.181" end="x">Yes.</u>
+                    <u who="#boderD" start="1643.622" end="x">You understand?</u>
+                    <u who="#rosenfeldP" start="1644.032" end="x">Yes.</u>
+                    <u who="#boderD" start="1644.533" end="x">And it is important that we get it from various corners of the world, we get the same story.</u>
+                    <u who="#rosenfeldP" start="1651.915" end="x">Yes, yes, yes, it is correct.</u>
+                    <u who="#boderD" start="1654.619" end="x">Nu, go on.</u>
+                    <u who="#rosenfeldP" start="1657.746" end="x">And we were so desperate. It is not understood even by us how the Jewish mother could give away her child. There were cases where the children were taken and they were hidden in ovens, plastered over. And there were such cases about which I know. A friend of mine took a child and gave it narcotics, and he put it in, one might say, in a far corner of the courtyard, because he figured that the police would go through the house in two hours, and he put it in such a hole and on top he strewed a little sand, just so it should not be known. And thus he saved his child. The largest majority could not find counsel to help themselves. There were cases that mothers went with the children. They were taken along.</u>
+                    <u who="#boderD" start="1708.688" end="x">The mothers were taken along.</u>
+                    <u who="#rosenfeldP" start="1709.672" end="x">Yes, such favors the German would do.</u>
+                    <u who="#boderD" start="1711.622" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1712.334" end="x">Yes.</u>
+                    <u who="#boderD" start="1714.284" end="x">And that was approximately when?</u>
+                    <u who="#rosenfeldP" start="1717.290" end="x">Everything happened from the 5th to the 12th of September.</u>
+                    <u who="#boderD" start="1719.632" end="x">In what year, '42?</u>
+                    <u who="#rosenfeldP" start="1720.646" end="x">'42.</u>
+                    <u who="#boderD" start="1721.871" end="x">'42. Nu, what happened after that? [Pause.] Nu, there were saved children. Were they later seen on the street, or what?</u>
+                    <u who="#rosenfeldP" start="1732.302" end="x">Who? The saved children?</u>
+                    <u who="#boderD" start="1733.695" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1734.306" end="x">It looked as if, that generally [in fact], the German had not [given?] such [?] an order, but we were gripped by such horror that we thought that we must comply at once. Otherwise he threatened us with immediate death and he would deport the entire <term ref="#vothG_ghetto">ghetto</term>. [Note: Does he imply that the order about the surrender of the children was conceived by the local German authorities without orders from above?]</u>
+                    <u who="#boderD" start="1745.840" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1746.270" end="x">But eventually, when the calamity had passed, we saw that whoever had saved himself had saved himself. But it did not really matter much, because eventually everybody had to pass through <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> and <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, so that he who had saved himself saved himself only for a certain time. However, with the children it resulted at that time that these two thousand [were saved] until we were deported.</u>
+                    <u who="#boderD" start="1768.571" end="x">How many were taken, two thousand?</u>
+                    <u who="#rosenfeldP" start="1769.994" end="x">Eighteen thousand were taken.</u>
+                    <u who="#boderD" start="1771.688" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1772.570" end="x">And [the] two thousand who had remained, these ultimately perished in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1776.491" end="x">Oh, nu? And so, that . . . now, how long were you in the <placeName ref="Lódź">Lodz</placeName>
+                        <term ref="#vothG_ghetto">Ghetto</term>,- until the liberation?</u>
+                    <u who="#rosenfeldP" start="1783.812" end="x">No.</u>
+                    <u who="#boderD" start="1784.694" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="1785.606" end="x">I was until the 25th [day] of the 8th [month] in the <placeName ref="Lódź">Lodz</placeName>
+                        <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="1789.677" end="x">Yes. Nu? Until when?</u>
+                    <u who="#rosenfeldP" start="1792.876" end="x">'44.</u>
+                    <u who="#boderD" start="1794.570" end="x">Yes, and where did you go from the <placeName ref="Lódź">Lodz</placeName> Ghetto?</u>
+                    <u who="#rosenfeldP" start="1794.570" end="x">From the <placeName ref="Lódź">Lodz</placeName>
+                        <term ref="#vothG_ghetto">Ghetto</term> we were sent away to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1798.862" end="x">You, and so, let us now . . .</u>
+                    <u who="#rosenfeldP" start="1801.114" end="x">Myself, with my wife, with two children, with my two cousins . . .</u>
+                    <u who="#boderD" start="1805.629" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1806.251" end="x">. . . who had come as deportees from Zdunska Wola, and I had taken them in with me.</u>
+                    <u who="#boderD" start="1809.498" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1810.391" end="x">Charash was their name.</u>
+                    <u who="#boderD" start="1812.160" end="x">Charash or Karash?</u>
+                    <u who="#rosenfeldP" start="1813.687" end="x">Charash.</u>
+                    <u who="#boderD" start="1814.399" end="x">How is it spelled?</u>
+                    <u who="#rosenfeldP" start="1815.534" end="x">With a Ch . . . C . . . H. There was another Karash, a little baker in <placeName ref="Lódź">Lodz</placeName> by the name of Karash. It was not the . . .</u>
+                    <u who="#boderD" start="1821.377" end="x">With a K . . . that was another one.</u>
+                    <u who="#rosenfeldP" start="1823.478" end="x">That was another one.</u>
+                    <u who="#boderD" start="1823.888" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1825.264" end="x">So then we were together. I, my wife, and my two [sons] makes four, and my two cousins who were living with [us] make six. They were girls, so that the wife and the girls went separately, and I with my two children whom I had succeeded in . . .</u>
+                    <u who="#boderD" start="1839.045" end="x">Boys.</u>
+                    <u who="#rosenfeldP" start="1840.421" end="x">Boys, yes, with whom I am living now here in <placeName ref="Hénonville">Hénonville</placeName>.</u>
+                    <u who="#boderD" start="1843.699" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1844.532" end="x">And we were there twelve days.</u>
+                    <u who="#boderD" start="1847.689" end="x">Where, in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#rosenfeldP" start="1848.582" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. What we had gone through in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> is indescribable</u>
+                    <u who="#boderD" start="1852.735" end="x">And so, let us have this. When the train arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> you were still in the same railroad car with your wife and the . . . the . . .</u>
+                    <u who="#rosenfeldP" start="1861.946" end="x">With the wife and with the . . . the . . . with the . . .</u>
+                    <u who="#boderD" start="1863.521" end="x">. . . with the relatives and the children.</u>
+                    <u who="#rosenfeldP" start="1864.173" end="x">. . . with the children.</u>
+                    <u who="#boderD" start="1864.704" end="x">Nu, what happened in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> at the station?</u>
+                    <u who="#rosenfeldP" start="1867.951" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, the moment we . . . We did not know anything. That whole secret had been so well kept that when we arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> . . .</u>
+                    <u who="#boderD" start="1874.609" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1875.201" end="x">. . . until we saw already through the window of the cars the barracks from afar and we had conceded to ourselves that we are lost, we were still thinking that we are being sent to work.</u>
+                    <u who="#boderD" start="1882.976" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="1883.568" end="x">The German had persuaded us that now . . . we have to work . . .</u>
+                    <u who="#boderD" start="1887.178" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1887.739" end="x">. . . and seeing that the Russians are approaching . . . and furthermore, he carried out propaganda among us to know that fierce battles will rage and all of us might fall at <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="1897.234" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1897.946" end="x">We should know that . . . and with bombs and with the great aerial danger which is to come, so that it will be very desirable for us to go to Germany to work.</u>
+                    <u who="#boderD" start="1907.260" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1907.670" end="x">We took along with us everything, the best that can only be, the last that we still possessed of clothing with the couple of shirts, because more we did not possess.</u>
+                    <u who="#boderD" start="1916.169" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1917.455" end="x">And the moment we came near <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> we saw at once our ruin. We saw already the huge barracks, and we saw already men and women. We saw already the Polish guards [?], and we saw that we were already lost.</u>
+                    <u who="#boderD" start="1928.882" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1929.594" end="x">The moment we got off in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> there stood on the spot an <term ref="#vothG_ss">SS</term> man, and he at once carried out the selection.</u>
+                    <u who="#boderD" start="1937.731" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1939.168" end="x">First of all men separately and women separately, old ones separately and young ones separately, those who appeared sickly separately and those appeared healthier went separately.</u>
+                    <u who="#boderD" start="1948.754" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1950.311" end="x">My wife and the . . . and the two girls . . .</u>
+                    <u who="#boderD" start="1953.136" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="1953.788" end="x">. . . the cousins, were immediately taken away from me so that I did not see them any more.</u>
+                    <u who="#boderD" start="1958.243" end="x">They were not afterwards in the women's quarter? Could one find out in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> . . . could a husband discover whether his wife is in a <term ref="#vothG_block">block</term> there or not?</u>
+                    <u who="#rosenfeldP" start="1967.466" end="x">No.</u>
+                    <u who="#boderD" start="1969.627" end="x">One could not.</u>
+                    <u who="#rosenfeldP" start="1970.762" end="x">One could not find out.</u>
+                    <u who="#boderD" start="1973.074" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="1973.967" end="x">Possibly in a few counted cases, but [in general] one could not find out.</u>
+                    <u who="#boderD" start="1977.335" end="x">So then perhaps they were taken to the women's <term ref="#vothG_block">block</term>?</u>
+                    <u who="#rosenfeldP" start="1981.760" end="x">Perhaps they were taken. I do not know whether they had perished in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> or were taken to the women's <term ref="#vothG_block">block</term> and later on they went to <placeName ref="Stutthof concentration camp" type="camp">Stutthof</placeName>f where people were being taken. I had some sort of regards from [through] one young girl who had been in the same railroad car with us.</u>
+                    <u who="#boderD" start="1995.692" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="1996.314" end="x">So I figure that she had probably been deported together with my wife and the two cousins. She did come back. Then she told me that there in <placeName ref="Stutthof concentration camp" type="camp">Stutthof</placeName>f—that is near <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName> on the Baltic Sea—that the people had been taken there and drowned. From there . . . [?]</u>
+                    <u who="#boderD" start="2009.914" end="x">Drowned?</u>
+                    <u who="#rosenfeldP" start="2010.626" end="x">Yes. Admitting that my wife was perhaps weak and sick . . .</u>
+                    <u who="#boderD" start="2015.865" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="x" end="x">. . . it is possible that she had perhaps perished in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, but the two cousins that I had sent along, they were two strong, healthy girls.</u>
+                    <u who="#boderD" start="2016.275" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2016.504" end="x">Seeing that they did not come back, it is highly probable, as much as I looked for information . . .</u>
+                    <u who="#boderD" start="2023.916" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2024.417" end="x">. . . and as much as it was vital for me to find some news, that they perished there in <placeName ref="Stutthof concentration camp" type="camp">Stutthoff</placeName>.</u>
+                    <u who="#boderD" start="2029.536" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2029.856" end="x">Quite simple—they had drowned them there in the sea.</u>
+                    <u who="#boderD" start="2038.446" end="x">Hm. What happened to you in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#rosenfeldP" start="2042.086" end="x">I was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> twelve days.</u>
+                    <u who="#boderD" start="2045.303" end="x">Together with the two boys?</u>
+                    <u who="#rosenfeldP" start="2046.257" end="x">Always together with the two boys. I also took pains, with God's, praised be His Name, help, that although we were in separate <term ref="#vothG_block">blocks</term>, we still took pains just to keep together. And we were together. The life in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> is indescribable. I think that you are sufficiently informed and know already . . .</u>
+                    <u who="#boderD" start="2068.398" end="x">Were you tattooed?</u>
+                    <u who="#rosenfeldP" start="2070.559" end="x">No.</u>
+                    <u who="#boderD" start="2071.060" end="x">How do you explain that?</u>
+                    <u who="#rosenfeldP" start="2071.802" end="x">We . . . [?]</u>
+                    <u who="#boderD" start="2072.514" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> people were tattooed.</u>
+                    <u who="#rosenfeldP" start="2074.675" end="x">But not all were tattooed.</u>
+                    <u who="#boderD" start="2076.836" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2077.307" end="x">Those who worked in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> were tattooed and even such who were sent away. Precisely the group with which we went to the vicinity of Chemitz, to a plant of Auto-Union, well, this group was not tattooed.</u>
+                    <u who="#boderD" start="2087.496" end="x">Hm. You went together with your two sons.</u>
+                    <u who="#rosenfeldP" start="2090.140" end="x">I went together with my two sons.</u>
+                    <u who="#boderD" start="2091.426" end="x">Did it cost you there some efforts to remain together, or did it happen by itself?</u>
+                    <u who="#rosenfeldP" start="2102.024" end="x">[Pause.] Not especially. It was more luck than trouble, I must tell you.</u>
+                    <u who="#boderD" start="2107.384" end="x">Yes. What does luck mean?</u>
+                    <u who="#rosenfeldP" start="2109.424" end="x">That means luck played for me. I was together with the children, and they were already somewhat like grown-ups. We always saw to it . . . In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> there was such a work-detail.</u>
+                    <u who="#boderD" start="2121.303" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2121.804" end="x">And there people registered who wanted to go to work.</u>
+                    <u who="#boderD" start="2124.086" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2124.466" end="x">So that we had made up that if something will happen, so that if we should have to go away, then we all should register together in order to be together again.</u>
+                    <u who="#boderD" start="2132.301" end="x">Nu?</u>
+                    <u who="#rosenfeldP" start="2132.591" end="x">And we succeeded in it, and we arrived . . .</u>
+                    <u who="#boderD" start="2135.386" end="x">Oh, they asked who wanted to go to work and you registered yourself.</u>
+                    <u who="#rosenfeldP" start="2140.807" end="x">I had registered myself, and naturally there was a doctor, too. We were all checked, and thus we were all sent to the vicinity of <placeName ref="Chemnitz concentration camp" type="camp">Chemnitz</placeName>, near [name not clear].</u>
+                    <u who="#boderD" start="2148.853" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2149.777" end="x">And after that we were in . . . in . . . [pause].</u>
+                    <u who="#boderD" start="2158.641" end="x">Nu? It does not matter. In some other place.</u>
+                    <u who="#rosenfeldP" start="2161.375" end="x">In another place. This factory was burned down by the bombing.</u>
+                    <u who="#boderD" start="2167.490" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2168.564" end="x">And there we worked until the 13th [day] of the 4th [month].</u>
+                    <u who="#boderD" start="2173.773" end="x">The 13th of April.</u>
+                    <u who="#rosenfeldP" start="2175.361" end="x">1945, yes.</u>
+                    <u who="#boderD" start="2176.315" end="x">1945, nu?</u>
+                    <u who="#rosenfeldP" start="2178.204" end="x">I have to say that until the 15th [day] of the 2nd [month] the conditions were not so bad yet . . .</u>
+                    <u who="#boderD" start="2186.552" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2187.083" end="x">. . . in comparison with <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> and the <term ref="#vothG_ghetto">ghetto</term> life.</u>
+                    <u who="#boderD" start="2188.308" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2188.598" end="x">We had comparatively [tolerable] conditions. We got a bread of a kilo and a half for eight persons, and a soup . . .</u>
+                    <u who="#boderD" start="2197.731" end="x">Every day?</u>
+                    <u who="#rosenfeldP" start="2198.504" end="x">Every day we got a soup.</u>
+                    <u who="#boderD" start="2199.971" end="x">Aha.</u>
+                    <u who="#rosenfeldP" start="2200.774" end="x">Thus, we received no underwear, except for the only shirt which we had received in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. That we wore until liberation.</u>
+                    <u who="#boderD" start="2212.740" end="x">And that was how long, six months?</u>
+                    <u who="#rosenfeldP" start="2214.810" end="x">That was from the 5th [day] of the 9th [month] . . .</u>
+                    <u who="#boderD" start="2218.118" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2218.649" end="x">until the 13th [day] of the 4th [month]. No . . . the 13th [day] of the 4th [month] we left <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, but then until the 7th of May we still wore that shirt.</u>
+                    <u who="#boderD" start="2226.122" end="x">The same shirt.</u>
+                    <u who="#rosenfeldP" start="2226.955" end="x">Yes.</u>
+                    <u who="#boderD" start="2227.547" end="x">Aha. Who come? Who liberated you? In . . .</u>
+                    <u who="#rosenfeldP" start="2232.108" end="x">Then it happened that the . . . the Americans began approaching and the factory was in danger . . .</u>
+                    <u who="#boderD" start="2239.279" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2239.810" end="x">that means, so as not to be surrounded then it came that we started to march out. We were not able to march very far. This is a separate chapter by itself. Of all the periods that we went through . . .</u>
+                    <u who="#boderD" start="2253.591" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2253.941" end="x">then this chapter of the march from the 13th [day] of the 4th [month] until the liberation on the 7th of May presents something special [unique].</u>
+                    <u who="#boderD" start="2259.885" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2260.416" end="x">This is a separate . . . one must have special journalistic talents . . .</u>
+                    <u who="#boderD" start="2265.971" end="x">I do not want journalistic talents . . .</u>
+                    <u who="#rosenfeldP" start="2266.502" end="x">to be able to describe it.</u>
+                    <u who="#boderD" start="2266.912" end="x">. . . journalistic talents. We want . . . let others be the journalists. I am not a journalist, and you are not a journalist.</u>
+                    <u who="#rosenfeldP" start="2272.242" end="x">Journalist, yes.</u>
+                    <u who="#boderD" start="2273.407" end="x">And so, in plain language, tell me what happened there. [Chuckle.] One does not need for that journalistic talents.</u>
+                    <u who="#rosenfeldP" start="2281.483" end="x">Yes.</u>
+                    <u who="#boderD" start="2281.863" end="x">Just the facts. I want to tell you, we just want to 'accuse' expose the deeds of the Germans. [It seems that within the context of this interview, as one of many, and considering the time it was taken, no apology should be required even from a scientist, for the last sentence. D.P.B.]</u>
+                    <u who="#rosenfeldP" start="2288.098" end="x">Yes.</u>
+                    <u who="#boderD" start="2288.659" end="x">And we want the facts. Nu?</u>
+                    <u who="#rosenfeldP" start="2291.514" end="x">And so, the facts were that we marched daily, the least, fifteen kilometers, and thirty kilometers we marched, too. We made a march from <placeName ref="Chemnitz concentration camp" type="camp">Chemnitz</placeName> to the vicinity of Marienbad, Karlsbad.</u>
+                    <u who="#boderD" start="2310.305" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2310.655" end="x">We had marched . . .</u>
+                    <u who="#boderD" start="2311.126" end="x">That is Czechoslavakia.</u>
+                    <u who="#rosenfeldP" start="2312.140" end="x">Yes.</u>
+                    <u who="#boderD" start="2312.822" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2314.168" end="x">We got six potatoes a day.</u>
+                    <u who="#boderD" start="2318.381" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2319.123" end="x">No [word not clear] potatoes, not always cooked. But if we would stop for a day, they would be boiled there . . . if we would stop for a day. If it would happen that we would march on, or stayed only for twelve hours . . .</u>
+                    <u who="#boderD" start="2330.731" end="x">How many people . . .</u>
+                    <u who="#rosenfeldP" start="2331.172" end="x">. . . they would not be cooked.</u>
+                    <u who="#boderD" start="2331.552" end="x">. . . were marching?</u>
+                    <u who="#rosenfeldP" start="2332.626" end="x">We marched . . . This I want to explain to you. We were in the factory four hundred and fifty people.</u>
+                    <u who="#boderD" start="2337.956" end="x">Oh.</u>
+                    <u who="#rosenfeldP" start="2338.729" end="x">We lived there from the beginning of 9th month ['44] to the 13th [day] of the 4th [month]. The mortality was, I must tell you . . . only eight persons [of our factory group] had died in the entire eight months.</u>
+                    <u who="#boderD" start="2350.276" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2350.777" end="x">But when we began . . .</u>
+                    <u who="#boderD" start="2351.912" end="x">That is not too many.</u>
+                    <u who="#rosenfeldP" start="2352.775" end="x">No, rather not too many.</u>
+                    <u who="#boderD" start="2354.574" end="x">Nu.</u>
+                    <u who="#rosenfeldP" start="2355.558" end="x">But afterwards when we marched from the 13th [day] of the 4th [month] until the 7th of May hundred and fifty persons had died.</u>
+                    <u who="#boderD" start="2364.027" end="x">Yes. How does one know these [exact] numbers? Whether a hundred and fifty, whether a hundred and thirty . . .</u>
+                    <u who="#rosenfeldP" start="2370.806" end="x">I will explain it to you.</u>
+                    <u who="#boderD" start="2371.911" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2372.291" end="x">Because there was . . .</u>
+                    <u who="#boderD" start="2372.852" end="x">You understand why I am asking?</u>
+                    <u who="#rosenfeldP" start="2374.168" end="x">Yes, yes, yes. Because there was a scribe there in the office as long as we were there in the factory.</u>
+                    <u who="#boderD" start="2381.792" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2382.172" end="x">We would enter the day shift and the night shift, and issuing the rations, naturally for everything there had to be entries [in the books]. His name is . . . a certain . . . his name was Szaja Spiegel.</u>
+                    <u who="#boderD" start="2392.723" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2393.586" end="x">And he is now in <placeName ref="Lódź">Lodz</placeName>. He kept [preserved?] all the files [card indexes]. We still figured if we should be soon liberated and the families will be, too, then everybody must be informed, 'you should know your mother had died. Your brother had died.' He kept [took care of] the files [card indexes] each day as to how large the mortality was, so that he knows about the mortality up to the last moment.</u>
+                    <u who="#boderD" start="2417.719" end="x">Aha. Nu. Good, that is a good answer. Nu, go on. What happened on the road?</u>
+                    <u who="#rosenfeldP" start="2426.294" end="x">On the road happened just . . . we were just marching, and at night to sleep we were given a barn where we could go in . . . where normally could go in sixty, seventy people. So they would put us in there, all the four hundred and fifty persons.</u>
+                    <u who="#boderD" start="2439.260" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2439.942" end="x">And during the day we marched again, and through that marching people would drop like flies. Without food, just marching.</u>
+                    <u who="#boderD" start="2457.737" end="x">And what would be done with the people who fell?</u>
+                    <u who="#rosenfeldP" start="2460.502" end="x">The fallen people . . . they took a ditch which had been dug and they were . . . and they were buried.</u>
+                    <u who="#boderD" start="2465.802" end="x">That means when they were dead. And when people remained behind from weakness?</u>
+                    <u who="#rosenfeldP" start="2471.766" end="x">People who remained behind from weakness . . . there were cases that they were shot, too.</u>
+                    <u who="#boderD" start="2476.100" end="x">Nu, and [words not clear]?</u>
+                    <u who="#rosenfeldP" start="2477.386" end="x">. . . who had lagged behind.</u>
+                    <u who="#boderD" start="2479.275" end="x">And in other cases?</u>
+                    <u who="#rosenfeldP" start="2480.229" end="x">In other cases [it] would happen that they would tell us to lead [transport?] the people.</u>
+                    <u who="#boderD" start="2485.106" end="x">Lead [transport and lead, both translations could be correct].</u>
+                    <u who="#rosenfeldP" start="2486.180" end="x">And besides, I must . . . there were carts, too. The <term ref="#vothG_ss">SS</term> man of our group was not yet the greatest enemy of Israel. So far the weak who had to be taken in carts [?] he somehow . . . he rented us carts. That means he requisitioned carts there and they were transported.</u>
+                    <u who="#boderD" start="2502.285" end="x">With horses?</u>
+                    <u who="#rosenfeldP" start="2503.209" end="x">With horses.</u>
+                    <u who="#boderD" start="2503.921" end="x">Hm. So then he was a kind enough <term ref="#vothG_ss">SS</term> man.</u>
+                    <u who="#rosenfeldP" start="2507.078" end="x">Naturally one must admit [that] according to what we hear about others, that means to us already . . .</u>
+                    <u who="#boderD" start="2511.472" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2512.486" end="x">. . . a kind one.</u>
+                    <u who="#boderD" start="2514.556" end="x">What was he, an officer, or a . . .</u>
+                    <u who="#rosenfeldP" start="2517.079" end="x">A corporal.</u>
+                    <u who="#boderD" start="2518.093" end="x">A corporal with assistants.</u>
+                    <u who="#rosenfeldP" start="2520.858" end="x">With assistants, yes.</u>
+                    <u who="#boderD" start="2521.721" end="x">Nu, and on the road, while walking or running, did one not talk with the <term ref="#vothG_ss">SS</term> men occasionally?</u>
+                    <u who="#rosenfeldP" start="2530.461" end="x">There were such with whom we did talk, and they would say already 'You should know that you will not suffer too much longer.'</u>
+                    <u who="#boderD" start="2540.801" end="x">Why?</u>
+                    <u who="#rosenfeldP" start="2542.177" end="x">That means the war is coming to an end already.</u>
+                    <u who="#boderD" start="2544.247" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2545.472" end="x">Those were the same who were also guarding us in the factory.</u>
+                    <u who="#boderD" start="2548.780" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2550.488" end="x">And they would explain to us, too . . . [in low voice] there were among them . . . [repeats aloud] there were among them such who were communists, such who were communists, but they were a very small percentage.</u>
+                    <u who="#boderD" start="2557.478" end="x">Yes. Nu? Then where did you arrive?</u>
+                    <u who="#rosenfeldP" start="2563.563" end="x">We arrived in the vicinity of <placeName ref="Mariánské Lázně">Marienbad</placeName>.</u>
+                    <u who="#boderD" start="2568.621" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2569.243" end="x">About fifteen kilometers.</u>
+                    <u who="#boderD" start="2570.770" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2572.327" end="x">And there we already saw that there is no more . . . we are already surrounded from all sides, so while walking . . . somehow we . . . we could feel that the skin is already burning on the <term ref="#vothG_ss">SS</term> men, so we sat down and we said we are not going any further. And he said too, 'Well, I am setting you free . . . '</u>
+                    <u who="#boderD" start="2590.574" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2591.558" end="x">' . . . and go home.'</u>
+                    <u who="#boderD" start="2592.693" end="x">What did he say? He said you are free?</u>
+                    <u who="#rosenfeldP" start="2595.790" end="x">'You are free.' And they scattered and left us.</u>
+                    <u who="#boderD" start="2599.158" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2600.051" end="x">And thus we were . . .</u>
+                    <u who="#boderD" start="2601.910" end="x">Hm. They did not try to kill the people or . . .</u>
+                    <u who="#rosenfeldP" start="2605.369" end="x">No. Because they themselves saw already that their blessings [?] are over.</u>
+                    <u who="#boderD" start="2611.061" end="x">And they took along their rifles and they scattered.</u>
+                    <u who="#rosenfeldP" start="2613.645" end="x">They took along their rifles and they scattered.</u>
+                    <u who="#rosenfeldP" start="2614.810" end="x">We remained hefker [abandoned] on the road.</u>
+                    <u who="#boderD" start="2615.033" end="x">What does it mean, 'hefker'? [It also means on our own.]</u>
+                    <u who="#rosenfeldP" start="2616.035" end="x">We went around the villages there and begged. We got there something to eat. There was no . . . we were in Czechoslavakia and the Czechs treated us very decently.</u>
+                    <u who="#boderD" start="2629.103" end="x">Oh, it was in Czechoslavakia.</u>
+                    <u who="#rosenfeldP" start="2630.558" end="x">It was, yes.</u>
+                    <u who="#boderD" start="2631.385" end="x">Aha. And so, that was the end.</u>
+                    <u who="#rosenfeldP" start="2634.331" end="x">Yes.</u>
+                    <u who="#boderD" start="2634.832" end="x">And then where did you go when you were liberated? Did you go back to <placeName ref="Lódź">Lodz</placeName>?</u>
+                    <u who="#rosenfeldP" start="2640.917" end="x">All, the majority of us went back to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2643.501" end="x">I mean you yourself.</u>
+                    <u who="#rosenfeldP" start="2644.787" end="x">I myself did not go back. Why not?</u>
+                    <u who="#boderD" start="2647.220" end="x">And your two sons were with you . . .</u>
+                    <u who="#rosenfeldP" start="2648.385" end="x">Yes.</u>
+                    <u who="#boderD" start="2648.946" end="x">. . . all the time?</u>
+                    <u who="#rosenfeldP" start="2649.224" end="x">My sons were together with me all the time.</u>
+                    <u who="#boderD" start="2650.715" end="x">So you did not go back.</u>
+                    <u who="#rosenfeldP" start="2651.639" end="x">No. Why not? Seeing that we knew that we have property in <term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                    <u who="#boderD" start="2656.909" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2657.863" end="x">And we did not believe any more . . . we knew that the family is no more. We considered it purposeless. And to go and build in Poland we did not . . .</u>
+                    <u who="#boderD" start="2665.336" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2666.109" end="x">. . . want any more. And we thought that we will be able to enter <term ref="#vothG_eretzY">Eretz Yisroeil</term>. And so, arriving in <placeName ref="Praha">Prague</placeName>, both of my children fell sick. They began to have fever.</u>
+                    <u who="#boderD" start="2675.332" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2677.433" end="x">And they lay in the hospital three months.</u>
+                    <u who="#boderD" start="2680.318" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="2681.121" end="x">With high fever. And so, with difficulties, I got [rescued] them out. At that time I saw to get in touch with an unofficial Aliyah [a society], that means that I should be able to black myself across [cross the border illegally] and go again on foot to Italy, and from there to get to Israel. I saw it was impossible.</u>
+                    <u who="#boderD" start="2697.287" end="x">Oh, with an unofficial Aliyah. Those who go secretly through Italy, yes.</u>
+                    <u who="#rosenfeldP" start="2702.315" end="x">Through Italy. So we realized that this is not for our strength. For the children neither because they were very run down. They were skin and bones.</u>
+                    <u who="#boderD" start="2702.315" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2712.401" end="x">And I counted on that, too, seeing that I have a home of my own in . . . in <placeName ref="Tel Aviv">Tel Aviv</placeName>, and also a house from my father, so that we have had invested in <placeName ref="Tel Aviv">Tel Aviv</placeName> . . .</u>
+                    <u who="#boderD" start="2719.451" end="x">Why did you buy the houses? Was your father in Palestine?</u>
+                    <u who="#rosenfeldP" start="2723.604" end="x">Yes, and I too. I was there too, yes.</u>
+                    <u who="#boderD" start="2725.976" end="x">And you had brought there the houses . . .</u>
+                    <u who="#rosenfeldP" start="2727.443" end="x">Yes.</u>
+                    <u who="#boderD" start="2727.853" end="x">. . . in <placeName ref="Tel Aviv">Tel Aviv</placeName>.</u>
+                    <u who="#rosenfeldP" start="2728.445" end="x">Yes.</u>
+                    <u who="#boderD" start="2728.886" end="x">And what, rented out?</u>
+                    <u who="#rosenfeldP" start="2730.051" end="x">Rented out naturally, for rent. In 1936 we invested there ten thousand pounds. So that my children and I figured . . .</u>
+                    <u who="#boderD" start="2737.584" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2738.296" end="x">. . . that we, because we have there our property and will not be a burden to anyone . . .</u>
+                    <u who="#boderD" start="2743.475" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2743.855" end="x">. . . we will sure have the right and will not need to go with the Aliyah B . . .</u>
+                    <u who="#boderD" start="2747.314" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="2747.604" end="x">. . . and we will be able to enter <term ref="#vothG_eretzY">Eretz Yisroeil</term>, but at the end we see that . . . we were not able to enter <term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                    <u who="#boderD" start="2754.844" end="x">Who is responsible for the certificates, that you are not getting them? Every month fifteen hundred certificates are available.</u>
+                    <u who="#rosenfeldP" start="2762.649" end="x">What does it mean who is responsible? With fifteen hundred certificates, the capitalists . . . when the Aliyah stopped . . . only the so-called children were let in. I do not know at all who did go on the fifteen hundred certificates. I only know it is one great cry to heaven that I who have an estate which before the war was worth ten thousand pounds—today in <term ref="#vothG_eretzY">Eretz Yisroeil</term> it is valued at thirty thousand pounds—and [excitedly with tears in his voice] I am sitting here with my children, undernourished, and do not eat meat all week, and not wearing adequate clothing, and not having adequate shoes, and cannot enter <term ref="#vothG_eretzY">Eretz Yisroeil</term>. This is a crime which should awaken the conscience of the world!</u>
+                    <u who="#boderD" start="2799.686" end="x">And that which you had hidden in <placeName ref="Lódź">Lodz</placeName>, did you find it?</u>
+                    <u who="#rosenfeldP" start="2803.356" end="x">I have hidden it, but I am afraid to go to <placeName ref="Lódź">Lodz</placeName>.</u>
+                    <u who="#boderD" start="2807.207" end="x">It is still hidden.</u>
+                    <u who="#rosenfeldP" start="2808.734" end="x">It is still hidden. We have left a factory, too, in Zdunska Wola, which has been nationalized. I do not even have an interest to go and take it back. Because I am only . . . my only desire is to be able to go to <term ref="#vothG_eretzY">Eretz Yisroeil</term>, and there I will already live through my years.</u>
+                    <u who="#boderD" start="2823.143" end="x">Why don't you eat meat all week?</u>
+                    <u who="#rosenfeldP" start="2825.153" end="x">That is very simple, because there is none.</u>
+                    <u who="#boderD" start="2829.759" end="x">One has no means?</u>
+                    <u who="#rosenfeldP" start="2831.407" end="x">One has no financial means. There are none. In the German <term ref="#vothG_lager">lager</term> there is still an <term ref="#vothG_unrra">UNRRA</term>. There still is . . .</u>
+                    <u who="#boderD" start="2835.681" end="x">You say that you are getting rent in Palestine. Can't they send the money from there? Pardon me for asking that.</u>
+                    <u who="#rosenfeldP" start="2842.128" end="x">You have a perfect right and you are completely in order. I must explain to you this, that the English made a law . . .</u>
+                    <u who="#boderD" start="2848.635" end="x">Oh.</u>
+                    <u who="#rosenfeldP" start="2849.257" end="x">. . . that all those who are there . . . that means, the property of enemy aliens, of people who are not there, all that reverted under the [control of] English government.</u>
+                    <u who="#boderD" start="2858.360" end="x">But it is deposited. It is being kept for you.</u>
+                    <u who="#rosenfeldP" start="2859.827" end="x">Everything is being kept there and deposited.</u>
+                    <u who="#boderD" start="2863.225" end="x">What sort of enemy alien are you?</u>
+                    <u who="#rosenfeldP" start="2865.658" end="x">I do not know. That is how it was. It seems that Jews are enemies, because all that was . . . in the end it is not just for enemy aliens. Later it was done because all the heirs were not there, because there are huge estates to which there are no claimants, so the government took it all away [over].</u>
+                    <u who="#boderD" start="2881.370" end="x">In Palestine?</u>
+                    <u who="#rosenfeldP" start="2882.203" end="x">In Palestine, yes. Up to now I was in Germany in a <term ref="#vothG_lager">lager</term> [<term ref="#vothG_dp">DP</term>] camp and had no chance whatsoever to communicate. It was very hard. They did not . . . all languages were . . .</u>
+                    <u who="#boderD" start="2889.223" end="x">Were you there in the [<term ref="#vothG_dp">DP</term>] camp with the children?</u>
+                    <u who="#rosenfeldP" start="2890.871" end="x">I was, yes.</u>
+                    <u who="#boderD" start="2891.855" end="x">In which one?</u>
+                    <u who="#rosenfeldP" start="2892.899" end="x">In <placeName ref="Landsberg am Lech">Landsberg</placeName>. A whole year.</u>
+                    <u who="#boderD" start="2894.819" end="x">Yes. After the liberation.</u>
+                    <u who="#rosenfeldP" start="2896.346" end="x">After the liberation. Where we were maintained by the <term ref="#vothG_unrra">UNRRA</term>.</u>
+                    <u who="#boderD" start="2899.201" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2899.853" end="x">I could not send mail to <term ref="#vothG_eretzY">Eretz Yisroeil</term>. I must mention that this is also an unheard of wrong.</u>
+                    <u who="#boderD" start="2905.907" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2906.589" end="x">Letters can be sent in English, in French, in Russian, and in Polish, but Yiddish letters cannot be written [sent]. And so I had . . .</u>
+                    <u who="#boderD" start="2913.730" end="x">[Words not clear.]</u>
+                    <u who="#rosenfeldP" start="2914.322" end="x">To Palestine.</u>
+                    <u who="#boderD" start="2915.457" end="x">From the American zone?</u>
+                    <u who="#rosenfeldP" start="2917.437" end="x">From the American zone. [This seems incorrect. Refers possibly to telegrams.]</u>
+                    <u who="#boderD" start="2918.693" end="x">The Americans have no Jewish censors?</u>
+                    <u who="#rosenfeldP" start="2920.431" end="x">That's how it is. And so I am affirming it as a fact.</u>
+                    <u who="#boderD" start="2924.222" end="x">Yes? Nu?</u>
+                    <u who="#rosenfeldP" start="2925.810" end="x">That one cannot write in Yiddish.</u>
+                    <u who="#boderD" start="2927.880" end="x">And this is still until today?</u>
+                    <u who="#rosenfeldP" start="2928.260" end="x">This is still until today. I left . . . until three weks ago one could not write in Yiddish [??].</u>
+                    <u who="#boderD" start="2933.017" end="x">From <placeName ref="Landsberg am Lech">Landsberg</placeName>.</u>
+                    <u who="#rosenfeldP" start="2933.941" end="x">From <placeName ref="Landsberg am Lech">Landsberg</placeName>. Just these four languages. English, French and German and Polish.</u>
+                    <u who="#boderD" start="2941.263" end="x">Polish. Nu?</u>
+                    <u who="#rosenfeldP" start="2944.178" end="x">Nu, I began to correspond.</u>
+                    <u who="#boderD" start="2947.425" end="x">With Palestine.</u>
+                    <u who="#rosenfeldP" start="2948.137" end="x">With Palestine. So that I am . . . so that . . .</u>
+                    <u who="#boderD" start="2950.932" end="x">Did you enter France legally?</u>
+                    <u who="#rosenfeldP" start="2952.882" end="x">I entered France legally. [Words not clear.]</u>
+                    <u who="#boderD" start="2956.492" end="x">Yes. Nu?</u>
+                    <u who="#rosenfeldP" start="2958.351" end="x">But, unfortunately, I am sorry that I came too late. If I had come earlier I would have been able to enter with the Aliyah B. Today I hear people are going to Cyprus, but I must say that my . . .</u>
+                    <u who="#boderD" start="2969.838" end="x">The Aliyah B is the underground Aliyah.</u>
+                    <u who="#rosenfeldP" start="2971.788" end="x">Yes. The under . . . the so-called illegal Aliyah.</u>
+                    <u who="#boderD" start="2974.734" end="x">Yes. Nu?</u>
+                    <u who="#rosenfeldP" start="2977.559" end="x">So that I myself, I cannot decide whether to go to Cyprus. The children do not want to stay here. They say even to Cyprus they want to go. And so, in any case, I want to return to your question.</u>
+                    <u who="#boderD" start="2988.352" end="x">Cyprus or no Cyprus, they want to go.</u>
+                    <u who="#rosenfeldP" start="2990.694" end="x">Yes.</u>
+                    <u who="#boderD" start="2991.225" end="x">Yes?</u>
+                    <u who="#rosenfeldP" start="2991.696" end="x">In any case . . . because to suffer hunger here—it makes no difference to them. Let it be Cyprus as long as it is near <term ref="#vothG_eretzY">Eretz Yisroeil</term>. They think there they will be closer. In any case I want to return to your question. You asked that if having there such an estate which before the war brought in around seven hundred pounds per year, why I should suffer hunger here.</u>
+                    <u who="#boderD" start="3007.474" end="x">Yes.</u>
+                    <u who="#rosenfeldP" start="3007.867" end="x">I am explaining to you that it is for the reason that it was frozen, my estate, and that is why I have no means. And I am not let in either, so that I am now in a completely desperate situation.</u>
+                    <u who="#boderD" start="3020.778" end="x">And so, you see then that everyone has a different story.</u>
+                    <u who="#rosenfeldP" start="3024.991" end="x">Naturally. Everyone has different troubles, and everyone has a different story.</u>
+                    <u who="#boderD" start="3033.943" end="x">And what do you now in <placeName ref="Paris">Paris</placeName>? Do you talk with the English? Do you try to do something?</u>
+                    <u who="#rosenfeldP" start="3039.364" end="x">There are many people arriving from <term ref="#vothG_eretzY">Eretz Yisroeil</term>. I think that if someone will be able . . . I plead that perhaps my account may be opened. I want to do it through a notary, that I am here with two children, that something should be given to me to live on from my estate.</u>
+                    <u who="#boderD" start="3039.364" end="x">[Words not clear.]</u>
+                    <u who="#rosenfeldP" start="3054.551" end="x">And I do not have an answer yet. And then, it is only three weeks since I have come to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="3060.062" end="x">Hm. And you are staying in <placeName ref="Paris">Paris</placeName> and the children are staying here?</u>
+                    <u who="#rosenfeldP" start="3062.646" end="x">And the children are here.</u>
+                    <u who="#boderD" start="3062.646" end="x">What is the name of the <term ref="#vothG_kibbutz">Kibbutz</term> here?</u>
+                    <u who="#rosenfeldP" start="3066.123" end="x"><placeName ref="Hénonville">Hénonville</placeName>.</u>
+                    <u who="#boderD" start="3067.409" end="x">No, no, no, I mean the <term ref="#vothG_kibbutz">Kibbutz</term>.</u>
+                    <u who="#rosenfeldP" start="3071.139" end="x">What the name is?</u>
+                    <u who="#boderD" start="3072.183" end="x">The <term ref="#vothG_kibbutz">Kibbutz</term> has a name.</u>
+                    <u who="#rosenfeldP" start="3073.921" end="x">Neizach Yisroeil.</u>
+                    <u who="#boderD" start="3075.116" end="x">Hm, the Neizach Yisroeil. And have you always been a Hassid?</u>
+                    <u who="#rosenfeldP" start="3079.963" end="x">I always have been a Hassid. I come from Hassidic parents, and I remain a Hassidic Jew, and will go on bringing up my children as Hassidic Jewish children.</u>
+                    <u who="#boderD" start="3088.945" end="x">And so, Mr. Rosenfeld, I thank you very much. You have given me a very good report, and I am convinced it will do something for us all.</u>
+                    <u who="#rosenfeldP" start="3102.333" end="x">But I want to ask you again . . .</u>
+                    <u who="#boderD" start="3104.373" end="x">Hm.</u>
+                    <u who="#rosenfeldP" start="3104.663" end="x">I want to ask you to talk to the Jewish commonwealth [Klal Yisroeil], that they should all see . . . we are tormented here greatly. And we are suffering. We have no housing and we have no food. We have nothing. The situation has not improved much over the German times, but this, especially, I must . . .</u>
+                    <u who="#boderD" start="3121.121" end="x">Come, come . . .</u>
+                    <u who="#rosenfeldP" start="3123.161" end="x">Nu, naturally we are not under <term ref="#vothG_ss">SS</term> men.</u>
+                    <u who="#boderD" start="3125.533" end="x">You do not tremble for your life.</u>
+                    <u who="#rosenfeldP" start="3127.453" end="x">We do not tremble for our lives, but we do not have the proper nourishment. We are undernourished. You have to know that five, six, seven years we were undernourished. Today we should be fed a little better, and we do not have it. Moreover, I am a man who has such a fortune in <term ref="#vothG_eretzY">Eretz Yisroeil</term>. I am sure I do not have to be a burden to anyone. Why must I have to suffer here?</u>
+                    <u who="#boderD" start="3149.895" end="x">Nu, you will pay it back someday [that is, what you receive from charity]. You will give it back. You don't have to worry over it.</u>
+                    <u who="#rosenfeldP" start="3157.157" end="x">Nu, but in the meantime . . .</u>
+                    <u who="#boderD" start="3161.150" end="x">Hm. And so, one has to view things from all sides. Maybe this little story will contribute a bit of truth to the whole situation. And so . . .</u>
+                    <u who="#boderD" start="3175.375" end="x">[In English] <placeName ref="Hénonville">Hénonville</placeName>, September the 13th, 1946, near <placeName ref="Paris">Paris</placeName>.</u>
+                </div>
+                <!-- end Spool 9-131 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

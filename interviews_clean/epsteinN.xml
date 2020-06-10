@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Nechama Epstein-Kozlowski; August 31, 1946; Tradate, Italy</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <!--  
+                    <respStmt>
+                    <resp>Transcription</resp>
+                    <name>[name]</name>
+                    </respStmt>
+                -->
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT1H30M16.516S" id="epsteinN_9-95_9-96_9-104A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <note type="spools" n="1">9-95</note>
+                                <note type="spools" n="2">9-96</note>
+                                <note type="spools" n="3">9-104A</note>
+                                <placeName ref="Tradate"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-31</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="epsteinN_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="epsteinN" role="interviewee">
+                        <persName>
+                            <forename>Nechama</forename>
+                            <surname>Epstein-Kozlowski</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>23</age>
+                        <birth ref="Warsaw"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <trait type="tattoo">
+                            <desc>46886Δ</desc>
+                        </trait>
+                        <event type="invasion" ref="Warsaw">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Międzyrzec Podlaski Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Majdanek concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Birkenau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Płaszów concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Aschersleben concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Theresienstadt concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Terezín" resp="Russia">
+                            <ab/>
+                        </event>
+                    </person>
+                    <person id="barnettH" role="technician">
+                        <persName>
+                            <forename>Herman</forename>
+                            <surname>Barnett</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin English translation -->
+            <div corresp="#epsteinN_en">
+                <!-- begin Spool 9-95 -->
+                <div lang="en">
+                    <u who="#boderD" start="2.771" end="x">[In English] Spool 95. 21, between <placeName ref="Como">Como</placeName> and <placeName ref="Milano">Milano</placeName>, on August 31st, 1946. This is Mrs. Nechamah Epstein, 23 [years old], a nice looking..a neat looking woman already in the sixth or so month of pregnancy--very cheerful, very proud of it. And she lives here with her husband in a co-operative camp, a co-operative group, in a castle near <placeName ref="Como">Como</placeName> which is being maintained by the <term ref="#vothG_hachshara">Hachshara</term> under the auspices of the <term ref="#vothG_ajdc">American Joint Distribution Committee</term> and, apparently, <term ref="#vothG_unrra">UNRRA</term>. </u>
+                    <u who="#boderD" start="52.898" end="x">[In German] And so, Mrs. Epstein.</u>
+                    <u who="#epsteinN" start="54.835" end="x">[words not clear]</u>
+                    <u who="#boderD" start="55.540" end="x">[Talk] here, in this direction. You understand?</u>
+                    <u who="#epsteinN" start="61.605" end="x">Yes.</u>
+                    <u who="#boderD" start="61.920" end="x">Yes. Approximately, get it? Talk in a manner that you notice at times that the [indicator] light goes on. That means that you are talking loud enough. You understand?</u>
+                    <u who="#epsteinN" start="73.125" end="x">Aha. When the light goes on...</u>
+                    <u who="#boderD" start="76.070" end="x">Like now. You see. And so, Mrs. Epstein, would you tell me please where you were when the war began and what happened to you then?</u>
+                    <u who="#epsteinN" start="90.690" end="x">I can begin?</u>
+                    <u who="#boderD" start="92.491" end="x">Yes.</u>
+                    <u who="#epsteinN" start="92.728" end="x">It has started for me with the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>.</u>
+                    <u who="#boderD" start="95.750" end="x">Yes. And so where were you when the war began?</u>
+                    <u who="#epsteinN" start="99.191" end="x">In <placeName ref="Warsaw">Warsaw</placeName>, in the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="101.538" end="x">When the war began?</u>
+                    <u who="#epsteinN" start="102.576" end="x">When it started? No, no, there was no <term ref="#vothG_ghetto">Ghetto</term> yet in <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="106.265" end="x">You were in <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#epsteinN" start="108.085" end="x">In <placeName ref="Warsaw">Warsaw</placeName>.</u>
+                    <u who="#boderD" start="108.581" end="x">With whom did you live? Who were your family?</u>
+                    <u who="#epsteinN" start="110.630" end="x">Family? With a father, with a mother, with four brothers, with three sisters.</u>
+                    <u who="#boderD" start="115.159" end="x">Four brothers and three sisters.</u>
+                    <u who="#epsteinN" start="116.578" end="x">Three sisters and father and mother, two brothers-in-law, two sisters-in-law, the brothers' children, the sisters' children...</u>
+                    <u who="#boderD" start="122.785" end="x">But, yes...</u>
+                    <u who="#epsteinN" start="123.606" end="x">I have remained all alone.</u>
+                    <u who="#boderD" start="126.399" end="x">What? And where are all the others?</u>
+                    <u who="#epsteinN" start="128.276" end="x">I will tell you where they went to.</u>
+                    <u who="#boderD" start="129.714" end="x">Yes, but you know about them?</u>
+                    <u who="#epsteinN" start="131.584" end="x">Yes. I know exactly.</u>
+                    <u who="#boderD" start="132.946" end="x">They are...</u>
+                    <u who="#epsteinN" start="133.671" end="x">Two brothers I saw being shot before my eyes.</u>
+                    <u who="#boderD" start="136.349" end="x">Hm. And?</u>
+                    <u who="#epsteinN" start="138.715" end="x">And the brother's child with my mommie and another small brother went with me to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#boderD" start="144.647" end="x">Aha. You were in <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#epsteinN" start="146.143" end="x">And I jumped out of the train.</u>
+                    <u who="#boderD" start="148.650" end="x">Aha.</u>
+                    <u who="#epsteinN" start="148.734" end="x">Not having been to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>...if I had been to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName> I would not have lived.</u>
+                    <u who="#boderD" start="152.805" end="x">All right.</u>
+                    <u who="#epsteinN" start="153.156" end="x">My small brother...</u>
+                    <u who="#boderD" start="153.602" end="x">And so let us begin at the beginning. You were in <placeName ref="Warsaw">Warsaw</placeName>. Tell me about [it] when the Germans entered. That is seven years ago [?].</u>
+                    <u who="#epsteinN" start="160.496" end="x">The Germans entered...</u>
+                    <u who="#boderD" start="162.297" end="x">Yes?</u>
+                    <u who="#epsteinN" start="163.030" end="x">There were in <placeName ref="Warsaw">Warsaw</placeName>..yet before the Germans entered there had arrived very many Jews. There had been bombings.</u>
+                    <u who="#boderD" start="169.390" end="x">Yes.</u>
+                    <u who="#epsteinN" start="169.569" end="x">People were killed under the ruins. Very many were lost.</u>
+                    <u who="#boderD" start="173.964" end="x">Hm.</u>
+                    <u who="#epsteinN" start="174.214" end="x">And there was a severe hunger.</u>
+                    <u who="#boderD" start="176.091" end="x">Where...?</u>
+                    <u who="#epsteinN" start="176.396" end="x">Still before the arrival of the Germans.</u>
+                    <u who="#boderD" start="177.529" end="x">Aha. Nu?</u>
+                    <u who="#epsteinN" start="178.578" end="x">People had....We were not sure of the minute. There were severe air-raids [for] four weeks' time. There had fallen very many people, children, everything. It was not possible to walk in the streets. Then, when there was the armistice...</u>
+                    <u who="#boderD" start="192.252" end="x">Hm.</u>
+                    <u who="#epsteinN" start="193.015" end="x">...the Germans entered. It was Saturday morning. The moment they entered they said they will distribute bread for the people.</u>
+                    <u who="#boderD" start="200.138" end="x">Yes?</u>
+                    <u who="#epsteinN" start="200.623" end="x">And I myself had gone out. There reigned a great hunger among us. My brother's child was two years old then. It was without a mother. The mother had died.</u>
+                    <u who="#boderD" start="208.955" end="x">Hm.</u>
+                    <u who="#epsteinN" start="210.245" end="x">And I myself went out to the square. I saw the Germans are arriving. I also wanted to get a piece of bread for the children. So at that instant there a Christian was standing, and he said that I am a Jew. So I was immediately chased away.</u>
+                    <u who="#boderD" start="221.477" end="x">A Pole?</u>
+                    <u who="#epsteinN" start="222.190" end="x">A Pole. [Repeats in Polish] A Pole. So I was immediately chased away. So I went farther. There arrived peasants with potatoes.</u>
+                    <u who="#boderD" start="228.359" end="x">Nu?</u>
+                    <u who="#epsteinN" start="228.824" end="x">So I went...For five Zlotys one could buy there potatoes. I went over to buy potatoes. I already had the potatoes in the sack. I was very happy.</u>
+                    <u who="#boderD" start="237.542" end="x">Hm.</u>
+                    <u who="#epsteinN" start="237.924" end="x">So again someone arrived and said this is a Jew. So the Germans came over and grabbed me, and he grabbed me. He spilled the potatoes, gave [me] a few kicks and a few slaps, and threw [me] aside. </u>
+                    <u who="#boderD" start="250.731" end="x">How old were you then?</u>
+                    <u who="#epsteinN" start="252.341" end="x">I was then about [?] seventeen years old.</u>
+                    <u who="#boderD" start="254.371" end="x">Aha. What did your father do for a living?</u>
+                    <u who="#epsteinN" start="260.063" end="x">The father was a tailor.</u>
+                    <u who="#boderD" start="261.291" end="x">All right. He was a tailor. All right. Did he earn enough for such a large family?</u>
+                    <u who="#epsteinN" start="264.534" end="x">No, he did not earn [enough]. The children also helped. There were four grown-up children.</u>
+                    <u who="#boderD" start="268.261" end="x">The children also worked?</u>
+                    <u who="#epsteinN" start="269.520" end="x">We had [enough] to eat, but no great luxuries.</u>
+                    <u who="#boderD" start="272.305" end="x">Aha. Nu? Where did you live in <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#epsteinN" start="275.383" end="x">I lived on Nowolipka 18.</u>
+                    <u who="#boderD" start="276.977" end="x">On Nowolipka.</u>
+                    <u who="#epsteinN" start="277.815" end="x">Yes.</u>
+                    <u who="#boderD" start="277.985" end="x">Yes. Nu, and so...well, you came home. Did you bring anything to eat? [Words not clear.]</u>
+                    <u who="#epsteinN" start="285.377" end="x">I brought home nothing, because I was not given anything. Afterwards in <placeName ref="Warsaw">Warsaw</placeName> was it very bad. For a time we lived peacefully. Later the <term ref="#vothG_ghetto">Ghettos</term> began. Then began the hunger death.</u>
+                    <u who="#boderD" start="302.144" end="x">Nu, and so would you tell me what happened until the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#epsteinN" start="307.040" end="x">Until the <term ref="#vothG_ghetto">Ghetto</term>?</u>
+                    <u who="#boderD" start="307.871" end="x">Yes.</u>
+                    <u who="#epsteinN" start="308.019" end="x">I can tell you everything. Into here [the mocrophone]?</u>
+                    <u who="#boderD" start="309.958" end="x">Yes.</u>
+                    <u who="#epsteinN" start="312.589" end="x">When the <term ref="#vothG_ghetto">Ghettoes</term> began, among us began a great fight of hunger.</u>
+                    <u who="#boderD" start="318.158" end="x">Of what?</u>
+                    <u who="#epsteinN" start="318.860" end="x">Of hunger.</u>
+                    <u who="#boderD" start="319.681" end="x">Yes?</u>
+                    <u who="#epsteinN" start="320.542" end="x">We began selling everything, the jewelry.</u>
+                    <u who="#boderD" start="324.469" end="x">Hm.</u>
+                    <u who="#epsteinN" start="324.894" end="x">We finished at the...at the last, at the featherbed [eiderdown].</u>
+                    <u who="#boderD" start="328.840" end="x">Yes.</u>
+                    <u who="#epsteinN" start="329.315" end="x">And with that...</u>
+                    <u who="#boderD" start="330.047" end="x">Who bought it?</u>
+                    <u who="#epsteinN" start="331.956" end="x">People who were smuggling. They had. They were earning. Christians bought it.</u>
+                    <u who="#boderD" start="337.584" end="x">Yes?</u>
+                    <u who="#epsteinN" start="338.702" end="x">And then we could already see that it was very bad. We had nothing to sell any more. Eight people were living on a kilo of beets [enunciation not clear] a day.</u>
+                    <u who="#boderD" start="349.117" end="x">A kilo of what?</u>
+                    <u who="#epsteinN" start="349.908" end="x">Beets.</u>
+                    <u who="#boderD" start="350.720" end="x">What is that?</u>
+                    <u who="#epsteinN" start="350.987" end="x">Red beets.</u>
+                    <u who="#boderD" start="351.699" end="x">Yes.</u>
+                    <u who="#epsteinN" start="351.996" end="x">Eight people lived [on it] a day.</u>
+                    <u who="#boderD" start="354.459" end="x">Yes.</u>
+                    <u who="#epsteinN" start="354.746" end="x">With water. And every day, day by day, there remained less strength. We did not have anymore strength to walk. My brother's four year old child did not have anything to eat. He was begging for a small baked potato. There was none to give him.</u>
+                    <u who="#boderD" start="367.456" end="x">Hm.</u>
+                    <u who="#epsteinN" start="367.901" end="x">And this child was crying terribly. Why is that? Other children have [something] to eat and this child does not.</u>
+                    <u who="#boderD" start="373.731" end="x">Hm.</u>
+                    <u who="#epsteinN" start="375.823" end="x">And thus it lasted a year's time. Until....The first burned offering in my home was my father who, talking and walking, said he is fading from hunger, and died. My father was sixty years old.</u>
+                    <u who="#boderD" start="393.010" end="x">Hm.</u>
+                    <u who="#epsteinN" start="394.677" end="x">When my father died, there began among us a still greater hunger. A kilo of bread cost twenty Zlotys.</u>
+                    <u who="#boderD" start="400.736" end="x">That was not in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> yet.</u>
+                    <u who="#epsteinN" start="402.286" end="x">It was already in the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="403.425" end="x">Oh, wait a moment. You did not tell me when you went over into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#epsteinN" start="407.979" end="x">Into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>. The <term ref="#vothG_ghetto">Ghetto</term> began...I don't remember the date exactly. </u>
+                    <u who="#boderD" start="412.793" end="x">[Words not clear. A gap, apparently some difficulty with the equipment.]</u>
+                    <u who="#epsteinN" start="424.741" end="x">I do not remember the exact date.</u>
+                    <u who="#boderD" start="426.525" end="x">Yes.</u>
+                    <u who="#epsteinN" start="426.721" end="x">The date I do not remember exactly. The <term ref="#vothG_ghetto">Ghetto</term> began, I believe, in the year '41.</u>
+                    <u who="#boderD" start="431.730" end="x">Yes, nu?</u>
+                    <u who="#epsteinN" start="433.001" end="x">And...</u>
+                    <u who="#boderD" start="433.359" end="x">When did you go over into the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>? Or did you live there where...</u>
+                    <u who="#epsteinN" start="437.000" end="x">No.</u>
+                    <u who="#boderD" start="437.377" end="x">...the <term ref="#vothG_ghetto">Ghetto</term> was made?</u>
+                    <u who="#epsteinN" start="437.871" end="x">Then I went over to the Tapierzynska 10, moved over there.</u>
+                    <u who="#boderD" start="442.758" end="x">Yes?</u>
+                    <u who="#epsteinN" start="443.272" end="x">There was already...there was too much rent. We could not afford it. We moved to smaller quarters.</u>
+                    <u who="#boderD" start="449.077" end="x">Yes?</u>
+                    <u who="#epsteinN" start="449.773" end="x">We lived on Tapierzynska 10. There in that house died hundreds of people and children from hunger.</u>
+                    <u who="#boderD" start="456.795" end="x">Did Tapierzynsk 10 belong to the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>?</u>
+                    <u who="#epsteinN" start="458.501" end="x">Yes, yes. The <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> consisted of many streets.</u>
+                    <u who="#boderD" start="461.360" end="x">Yes.</u>
+                    <u who="#epsteinN" start="461.478" end="x">Tapierzynska 10 was inside the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName>.</u>
+                    <u who="#boderD" start="463.459" end="x">Yes.</u>
+                    <u who="#epsteinN" start="463.854" end="x">So I was on Tapierzynska 10. There I lived without....Every day there were other dead, small children, bigger children, older people. All died of a hunger death.</u>
+                    <u who="#boderD" start="476.401" end="x">What was done with the dead?</u>
+                    <u who="#epsteinN" start="479.045" end="x">The dead were taken...if one fell on the street.</u>
+                    <u who="#boderD" start="482.181" end="x">Hm.</u>
+                    <u who="#epsteinN" start="482.832" end="x">... a paper was taken. He was covered. A stone was put on top, and thus he lay until....There was not enough time to collect the dead.</u>
+                    <u who="#boderD" start="490.647" end="x">Why the stone?</u>
+                    <u who="#epsteinN" start="491.034" end="x">There were many dead. For the paper not to fly away.</u>
+                    <u who="#boderD" start="493.854" end="x">Oh, a small stone.</u>
+                    <u who="#epsteinN" start="495.601" end="x">Yes.</u>
+                    <u who="#boderD" start="496.046" end="x">Nu?</u>
+                    <u who="#epsteinN" start="496.574" end="x">And than people drove around with small carts. There were no [funeral] coaches any more, nothing. People drove around with small carts, collected the dead, loaded them up, took them to the cemetery, and buried them -- women, men, children, everybody in one grave.</u>
+                    <u who="#boderD" start="509.234" end="x">Hm.</u>
+                    <u who="#epsteinN" start="511.288" end="x">Later....I will tell you short and sharp [to the point]. Later...I suffered very great hunger already after my father's death. I had remained with my mother, with a brother...two brothers I had still, a big one and a small one. A sister of mine was living on Nowolipka 78 with a husband of whom I know nothing, what has become of them, because I left and she remained. I was deported together with the mommie and with the child, with a small brother.</u>
+                    <u who="#boderD" start="539.845" end="x">Hm.</u>
+                    <u who="#epsteinN" start="540.378" end="x">And we...at first we were....It had broken out, the first [in Polish: wysiedlenie] deportation [used a Polish word] that was in the year '42...</u>
+                    <u who="#boderD" start="546.135" end="x">The first what?</u>
+                    <u who="#epsteinN" start="547.512" end="x">The first deportation.</u>
+                    <u who="#boderD" start="548.691" end="x">Aha.</u>
+                    <u who="#epsteinN" start="549.048" end="x">That was in the year '42.</u>
+                    <u who="#boderD" start="550.355" end="x">Wysielenie [deportation in Polish], you said?</u>
+                    <u who="#epsteinN" start="551.539" end="x">Yes, wysiedlenie.</u>
+                    <u who="#boderD" start="552.846" end="x">Yes?</u>
+                    <u who="#epsteinN" start="553.309" end="x">It was the first deportation. It happened in the year '42. In the morning...I do not remember...It was winter.</u>
+                    <u who="#boderD" start="560.456" end="x">Hm.</u>
+                    <u who="#epsteinN" start="560.989" end="x">I do not remember the exact month. In the beginning of winter. There came down a whole...a few thousand Germans had come down, with weapons, with machine guns, with cannons and they began to....They made a blockade. They surrounded from one end of the street to the other end of the street.</u>
+                    <u who="#boderD" start="576.336" end="x">Yes.</u>
+                    <u who="#epsteinN" start="576.746" end="x">They began to chase the people out of the houses.</u>
+                    <u who="#boderD" start="580.480" end="x">Hm.</u>
+                    <u who="#epsteinN" start="580.885" end="x">And they began....It was terrible. Many ran into the gates. They saw small children. They grabbed them by the legs and knocked them against the walls [enunciation not clear].</u>
+                    <u who="#boderD" start="587.726" end="x">The Germans?</u>
+                    <u who="#epsteinN" start="588.372" end="x">The Germans. The <term ref="#vothG_ss">SS</term> men. Grabed...</u>
+                    <u who="#boderD" start="590.365" end="x">Knocked against what?</u>
+                    <u who="#epsteinN" start="591.109" end="x">Against the walls.</u>
+                    <u who="#boderD" start="592.381" end="x">Oh, the walls. Yes?</u>
+                    <u who="#epsteinN" start="593.442" end="x">Against the walls. Then they took...They saw...The mothers saw what is being done to their children. They threw themselves out of windows.</u>
+                    <u who="#boderD" start="600.466" end="x">Hm.</u>
+                    <u who="#epsteinN" start="600.805" end="x">Then we were....They went into a hospital, a Jewish hospital. There was a hospital on the corner of Niska. And they began taking out all the sick that were there. So the sick...</u>
+                    <u who="#boderD" start="608.884" end="x">Did you see it yourself?</u>
+                    <u who="#epsteinN" start="610.437" end="x">Yes. I was going there from the Tapierzynska. I was being led to the Unschlag [distribution depot].</u>
+                    <u who="#boderD" start="614.764" end="x">Aha.</u>
+                    <u who="#epsteinN" start="615.719" end="x">So they....The sick began jumping out the windows. So they ran on the roofs with machine guns and shot down at the sick. And all were shot. And we were led away to the distribution depot. It was on the corner of Niska and Dzika. There I was the whole night. That night was a terrible one.</u>
+                    <u who="#boderD" start="631.875" end="x">On the square?</u>
+                    <u who="#epsteinN" start="633.024" end="x">No, inside. It was called the Umschlagplatz.</u>
+                    <u who="#boderD" start="635.369" end="x">Aha.</u>
+                    <u who="#epsteinN" start="635.990" end="x">There...</u>
+                    <u who="#boderD" start="635.990" end="x">What sort of a building was it?</u>
+                    <u who="#epsteinN" start="638.581" end="x">It was a former school.</u>
+                    <u who="#boderD" start="640.305" end="x">Aha.</u>
+                    <u who="#epsteinN" start="641.102" end="x">A school was there at one time.</u>
+                    <u who="#boderD" start="642.004" end="x">Yes.</u>
+                    <u who="#epsteinN" start="642.661" end="x">And when the hospital....There was a Czysta [Street] Hospital in <placeName ref="Warsaw">Warsaw</placeName> [?] It was transferred. Here was the hospital...</u>
+                    <u who="#boderD" start="649.227" end="x">Hm.</u>
+                    <u who="#epsteinN" start="649.315" end="x">...across the street.</u>
+                    <u who="#boderD" start="650.024" end="x">Yes.</u>
+                    <u who="#epsteinN" start="650.293" end="x">And afterwards there was a school [synagogue?]. Then a place [depot]. Was made there, and the Jews of the <placeName ref="Warsaw Ghetto" type="camp">Ghetto</placeName> were all concentrated there. They were led in there, and there they were a night, two nights. They led a railroad siding to the street, and in trains [they were] transported to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#boderD" start="666.589" end="x">Hm.</u>
+                    <u who="#epsteinN" start="666.981" end="x">The night was very terrible one.</u>
+                    <u who="#boderD" start="668.851" end="x">Yes?</u>
+                    <u who="#epsteinN" start="669.683" end="x">At night Germans came in, threw han grenades [a short defect in the wire; possibly a few words missing]. At the people...</u>
+                    <u who="#boderD" start="674.649" end="x">Where did they throw the grenades?</u>
+                    <u who="#epsteinN" start="675.639" end="x">Into...into the school [synagogue?].</u>
+                    <u who="#boderD" start="677.949" end="x">Why?</u>
+                    <u who="#epsteinN" start="678.640" end="x">Because Jews were there. There came in bandits, Germans, and threw in hand grenades. There were loud screams. We had no place to go out. One lay on top of the other. We had to...eh...relieve ourselves there on the spot.</u>
+                    <u who="#boderD" start="691.574" end="x">Yes?</u>
+                    <u who="#epsteinN" start="692.107" end="x">It was a frightful moment [experience] to live through that night.</u>
+                    <u who="#boderD" start="695.085" end="x">Nu?</u>
+                    <u who="#epsteinN" start="695.296" end="x">And there came in...all of a sudden a German comes in. He goes over to a fifteen year old boy and says to him if he wants to live he must eat a candle.</u>
+                    <u who="#boderD" start="704.167" end="x">What?</u>
+                    <u who="#epsteinN" start="704.331" end="x">A candle. A candle.</u>
+                    <u who="#boderD" start="705.427" end="x">Oh. Nu?</u>
+                    <u who="#epsteinN" start="706.329" end="x">And the boy began to cry how can he do it. So he takes out his revolver and says, 'If you do not eat it up I will shoot you.'</u>
+                    <u who="#boderD" start="712.104" end="x">Yes?</u>
+                    <u who="#epsteinN" start="712.936" end="x">And the boy began eating, and he vomited, but he did eat it up.</u>
+                    <u who="#boderD" start="716.024" end="x">Hm.</u>
+                    <u who="#epsteinN" start="716.952" end="x">And he left.</u>
+                    <u who="#boderD" start="717.863" end="x">Who brought it in?</u>
+                    <u who="#epsteinN" start="719.149" end="x">It was brought in by the German.</u>
+                    <u who="#boderD" start="720.453" end="x">By the German?</u>
+                    <u who="#epsteinN" start="719.149" end="x">Yes.</u>
+                    <u who="#boderD" start="721.671" end="x">Yes.</u>
+                    <u who="#epsteinN" start="721.944" end="x">And he told him to eat the candle. And he could not, but he had to. He was afraid. He wanted to live.</u>
+                    <u who="#boderD" start="725.868" end="x">Hm.</u>
+                    <u who="#epsteinN" start="726.488" end="x">He ate up the candle. The night had passed, very frightful, with much deadly fear. In the morning they began to chase us out. 'Alle aus.' We should go out.</u>
+                    <u who="#boderD" start="735.410" end="x">Yes?</u>
+                    <u who="#epsteinN" start="735.774" end="x">We went out. Already RR-cars had been prepared. All were chased into RR-cars.</u>
+                    <u who="#boderD" start="739.801" end="x">that synagogue was near the station.</u>
+                    <u who="#epsteinN" start="742.110" end="x">Yes..not to the station. Railroad tracks had been laid on the street.</u>
+                    <u who="#boderD" start="745.930" end="x">On the street railroad tracks?</u>
+                    <u who="#epsteinN" start="746.525" end="x">On the street railroad tracks had been laid.</u>
+                    <u who="#boderD" start="748.396" end="x">To the station?</u>
+                    <u who="#epsteinN" start="749.271" end="x">No it was not the station. It was about two kilometers away from the station.</u>
+                    <u who="#boderD" start="752.566" end="x">Aha.</u>
+                    <u who="#epsteinN" start="753.538" end="x">And they began to arrange in rows of five mothers with children, men, everybody together. And whoever could not...there were about thirty feet to walk out of there...</u>
+                    <u who="#boderD" start="764.713" end="x">Yes?</u>
+                    <u who="#epsteinN" start="764.838" end="x">Whoever could not walk straight, he was immediately shot on the spot.</u>
+                    <u who="#boderD" start="768.119" end="x">Hm.</u>
+                    <u who="#epsteinN" start="768.469" end="x">He said to walk in rows of five. We got into the RR-cars. Two hundred persons were packed into one RR-car. Riding in these wagons everyone saw death before the eyes at any instance. We lay one on top of the other. One pinched pieces from another. We were tearing pieces.</u>
+                    <u who="#boderD" start="786.483" end="x">Why?</u>
+                    <u who="#epsteinN" start="786.624" end="x">Because everybody wanted to catch...to save oneself. Everybody wanted to catch air. One lay suffocating on top of another.</u>
+                    <u who="#boderD" start="791.630" end="x">Hm.</u>
+                    <u who="#epsteinN" start="792.691" end="x">We could do nothing to help ourselves. And then real death began.</u>
+                    <u who="#boderD" start="798.941" end="x">In the RR-cars?</u>
+                    <u who="#epsteinN" start="799.654" end="x">In the RR-cars. After we had traveled for four hours, it became terribly hot. But so fast did the train travel that there was nothing [to do]...faster then an express.</u>
+                    <u who="#boderD" start="809.767" end="x">Hm.</u>
+                    <u who="#epsteinN" start="810.628" end="x">We began thinking, the youths, what should we do. The mothers were telling their children they should save themselves, they should jump. Maybe in spite of all they will remain alive.</u>
+                    <u who="#boderD" start="818.640" end="x">Were the doors open?</u>
+                    <u who="#epsteinN" start="820.176" end="x">[With emphasis] Closed, everything. There was a small window with bars.</u>
+                    <u who="#boderD" start="822.797" end="x">Nu, how could one jump?</u>
+                    <u who="#epsteinN" start="824.299" end="x">Well, I will tell you how it was.</u>
+                    <u who="#boderD" start="826.142" end="x">Hm.</u>
+                    <u who="#epsteinN" start="826.590" end="x">Many had along with them files, knives, hammers. Many had along with them [such things].</u>
+                    <u who="#boderD" start="832.453" end="x">Nu?</u>
+                    <u who="#epsteinN" start="832.866" end="x">And we were in that RR-car a whole night. There had begun a great thirst. It became terribly hot. Everybody undressed nude.</u>
+                    <u who="#boderD" start="840.464" end="x">Men and women?</u>
+                    <u who="#epsteinN" start="842.669" end="x">Men..no. What does completely naked mean? We undressed..in the shirts we went around.</u>
+                    <u who="#boderD" start="846.998" end="x">Nu?</u>
+                    <u who="#epsteinN" start="847.240" end="x">Men, women, children.</u>
+                    <u who="#boderD" start="848.945" end="x">Hm.</u>
+                    <u who="#epsteinN" start="849.236" end="x">There were small children who began to cry terribly, 'Water!'</u>
+                    <u who="#boderD" start="852.184" end="x">Hm.</u>
+                    <u who="#epsteinN" start="853.208" end="x">So we started banging on the doors. The Germans should give water.</u>
+                    <u who="#boderD" start="856.807" end="x">Hm.</u>
+                    <u who="#epsteinN" start="857.238" end="x">We were screaming. So they began to shoot inside, from all four sides.</u>
+                    <u who="#boderD" start="860.567" end="x">On the stations?</u>
+                    <u who="#epsteinN" start="861.651" end="x">Not on the sta--...while traveling. They were sitting on the roofs.</u>
+                    <u who="#boderD" start="863.455" end="x">While traveling?</u>
+                    <u who="#epsteinN" start="864.166" end="x">Germans were sitting on the roofs.</u>
+                    <u who="#boderD" start="865.621" end="x">Oh.</u>
+                    <u who="#epsteinN" start="866.505" end="x">On the roofs by the...where one steps down, on the steps, German were sitting.</u>
+                    <u who="#boderD" start="871.166" end="x">Hm.</u>
+                    <u who="#epsteinN" start="871.758" end="x">And they began to shoot inside. When they began to shoot inside, very many pople fell [were killed]. I was sitting and looking how one gets [hit by] a bullet, another one gets [hit by] a bullet. I, too, expected to get hit in a moment.</u>
+                    <u who="#boderD" start="885.279" end="x">Yes?</u>
+                    <u who="#epsteinN" start="885.550" end="x">And I saved myself by hiding under the dead. I lay down underneath the dead. The dead lay on top of me. The blood of the killed was flowing over me.</u>
+                    <u who="#boderD" start="895.465" end="x">The what?</u>
+                    <u who="#epsteinN" start="896.118" end="x">Blood.</u>
+                    <u who="#boderD" start="896.651" end="x">Yes.</u>
+                    <u who="#epsteinN" start="896.853" end="x">I was completely bespattered with blood.</u>
+                    <u who="#boderD" start="898.659" end="x">Hm.</u>
+                    <u who="#epsteinN" start="899.002" end="x">There lay a little girl of four years. She was calling to me, 'Give me a little bit of water. Save me.' And I could do nothing. Mothers were giving the children urine to drink. You know what urine is?</u>
+                    <u who="#boderD" start="909.627" end="x">Is it really true?</u>
+                    <u who="#epsteinN" start="910.930" end="x">[Screaming] I saw it. I did it myself, but I could not drink it. I could not stand it any more. The lips were burned from thirst.</u>
+                    <u who="#boderD" start="918.527" end="x">Hm.</u>
+                    <u who="#epsteinN" start="919.068" end="x">I thought this is it, I am going to die.</u>
+                    <u who="#boderD" start="920.523" end="x">Hm.</u>
+                    <u who="#epsteinN" start="920.896" end="x">So I saw that the mother is doing it, and the child said, 'Mama, but it is bitter. I cannot drink it.'</u>
+                    <u who="#boderD" start="925.738" end="x">Yes?</u>
+                    <u who="#epsteinN" start="926.572" end="x">So she said, 'Drink, drink.' And the child did not want to drink it, because it was bitter. And I myself imitated it, but I was not able to drink it, and I did not drink it. But what then? There were girders inside the RR-cars.</u>
+                    <u who="#boderD" start="936.993" end="x">What?</u>
+                    <u who="#epsteinN" start="937.516" end="x">Girder, iron girders.</u>
+                    <u who="#boderD" start="939.071" end="x">Yes?</u>
+                    <u who="#epsteinN" start="939.702" end="x">From the heat, perspiration [precipitation] was pouring from the girders. This we..one lifted the other one up. It was high up, and we licked [the moisture] off the grinders.</u>
+                    <u who="#boderD" start="949.097" end="x">Hm.</u>
+                    <u who="#epsteinN" start="950.781" end="x">We traveled this way the whole night, and we were approaching ever closer to the real death. And so my mommie began to cry very much.</u>
+                    <u who="#boderD" start="959.598" end="x">[As if a delayed comprehension] You were licking the perspiration from the cold...</u>
+                    <u who="#epsteinN" start="963.127" end="x">Yes, from the cold girders.</u>
+                    <u who="#boderD" start="964.662" end="x">Yes, from the...</u>
+                    <u who="#epsteinN" start="965.263" end="x">There was nothing to drink.</u>
+                    <u who="#boderD" start="965.956" end="x">From the rods, from the iron rods of the bars? </u>
+                    <u who="#epsteinN" start="969.084" end="x">It was very stifling. There was that little window, a tiny one, so we wanted to open it. Every time we opened it, they would shoot in, not minding that...</u>
+                    <u who="#boderD" start="977.020" end="x">What month was it in?</u>
+                    <u who="#epsteinN" start="978.184" end="x">It was...I do not remember exactly. I remember it was winter.</u>
+                    <u who="#boderD" start="980.911" end="x">Winter.</u>
+                    <u who="#epsteinN" start="981.453" end="x">Winter, yes.</u>
+                    <u who="#boderD" start="982.287" end="x">Hm.</u>
+                    <u who="#epsteinN" start="982.920" end="x">And when we wanted to open it...Not minding that they were shooting, we did open it. There were small children, and they were all suffocating.</u>
+                    <u who="#boderD" start="990.076" end="x">Hm.</u>
+                    <u who="#epsteinN" start="990.217" end="x">We could not stand it any more.</u>
+                    <u who="#boderD" start="991.552" end="x">Nu?</u>
+                    <u who="#epsteinN" start="992.215" end="x">And thus I rode all night. Early in the morning -- it was about two in the morning, maybe three, just before dawn -- my mommie began crying very much. I was with my small brother eithteen years old.</u>
+                    <u who="#boderD" start="1004.544" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1005.137" end="x">So the mommie began to cry very much. She begged us to save ourselves. The boys took a saw and cut out...it was locked with a chain from the other side, a whole....</u>
+                    <u who="#boderD" start="1013.844" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1014.145" end="x">And we took the bars off the windows.</u>
+                    <u who="#boderD" start="1017.634" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1018.207" end="x">And we started to jump. No. What does to jump mean? One pushed out the other one.</u>
+                    <u who="#boderD" start="1022.538" end="x">Aha.</u>
+                    <u who="#epsteinN" start="1023.111" end="x">And while jumping.</u>
+                    <u who="#boderD" start="1023.464" end="x">Aha. Did the Germans let them?</u>
+                    <u who="#epsteinN" start="1024.869" end="x">They did not let them. They immediately started shooting on the spot. Many were shot. Out of a hundred people there could remain ten.</u>
+                    <u who="#boderD" start="1030.262" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1030.665" end="x">My little brother jumped out five minutes before me, and he was shot. When I jumped out I fell into a ditch.</u>
+                    <u who="#boderD" start="1037.150" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1038.294" end="x">And I remained lying completely unconscious. And the RR-car...the train passed.</u>
+                    <u who="#boderD" start="1042.254" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1042.887" end="x">I came to. It was at night, around three in the morning, so I...</u>
+                    <u who="#boderD" start="1048.530" end="x">And your mother herself did not jump.</u>
+                    <u who="#epsteinN" start="1050.296" end="x">No. The mother could not. With the small child she could not jump. And a woman of sixty, she could not jump.</u>
+                    <u who="#boderD" start="1055.689" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1056.463" end="x">And I...</u>
+                    <u who="#boderD" start="1056.695" end="x">How big was the hole through which you had jumped?</u>
+                    <u who="#epsteinN" start="1059.833" end="x">It was perhaps...</u>
+                    <u who="#boderD" start="1061.067" end="x">No, no [words not clear].</u>
+                    <u who="#epsteinN" start="1061.418" end="x">High up...</u>
+                    <u who="#boderD" start="1062.252" end="x">Oh, the hole that was there was enlarged?</u>
+                    <u who="#epsteinN" start="1065.160" end="x">Right next to the roof. Yes, it was right next to the roof.</u>
+                    <u who="#boderD" start="1067.437" end="x">Nu?</u>
+                    <!-- tough part the next 10 lines... -->
+                    <u who="#epsteinN" start="1068.010" end="x">We jumped out, and I remained completely unconscious. I came to. I got back my thoughts, so I went to look for my brother. I knew that he had jumped at the same time I did.</u>
+                    <u who="#boderD" start="1080.294" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1081.055" end="x">In the meantime there arrived some sort of a Polish militia man...</u>
+                    <u who="#boderD" start="1083.545" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1084.068" end="x">...who walks at the stations at night...</u>
+                    <u who="#boderD" start="1085.819" end="x">Yes?</u>
+                    <u who="#epsteinN" start="1086.182" end="x">...and told me that I should quickly run away from here, because the <term ref="#vothG_gestapo">Gestapo</term> is all around here. I will be shot here. I should run away. He told me that I had jumped near Radzin and <placeName ref="Lukow">Lukow</placeName>. There was the road leading to Radzin, a road to <placeName ref="Lukow">Lukow</placeName>.</u>
+                    <u who="#boderD" start="1098.408" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1099.460" end="x">So he told me to go to the <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Miedzyrzec Ghetto</placeName>. There is a <term ref="#vothG_ghetto">ghetto</term> with Jews.</u>
+                    <u who="#boderD" start="1103.097" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1103.580" end="x">In <placeName ref="Warsaw">Warsaw</placeName> they had already begun....He said, 'There it is not good. The Jews are being deported.' I should go to <placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName>. I began to walk on foot toward <placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName>.</u>
+                    <u who="#boderD" start="1111.107" end="x">Yes?</u>
+                    <u who="#epsteinN" start="1111.468" end="x">To <placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName>. When I jumped out I met a little girl. She had also jumped. She had her entire leg completely torn open. While jumping she had caught on a piece of iron, and she tore open her leg.</u>
+                    <u who="#boderD" start="1124.297" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1125.151" end="x">And the two of us started to walk. Yes, after getting up I went to look for my brother. I had gone about ten feet. He lay shot. He had a bullet here in the heart [?].</u>
+                    <u who="#boderD" start="1135.820" end="x">In the heart [?]?</u>
+                    <u who="#epsteinN" start="1136.452" end="x">Yes, here in the heart [?] I could not move away from him, but that Christian said that I should go away quickly. [Pause.] The struggle for life was stronger than anything. I left my brother on the road. I do not know what happened to his bones. And I went on. I had walked with that little girl for about three hours. Dark it was. Through woods, through fields we crawled, crawled, crawled. [The word crawled is repeated by an echo of the large room of the castle where the interview took place, and is clearly heard on the wire.] Suddenly Polish police arrived. He asked us where we are going. He wanted to arrest us. He wanted to had us over to the German authorities. We started to cry bitterly. That child cried bitterly. She begged [that] they should let us go on. It was at night. I do not know what happened -- they said...</u>
+                    <u who="#boderD" start="1180.180" end="x">That little girl was a stranger?</u>
+                    <u who="#epsteinN" start="1182.186" end="x">A strange little girl. I don't know at all that little girl.</u>
+                    <u who="#boderD" start="1184.082" end="x">Yes. How old was she?</u>
+                    <u who="#epsteinN" start="1185.497" end="x">She was about fourteen years old.</u>
+                    <u who="#boderD" start="1186.902" end="x">Aha.</u>
+                    <u who="#epsteinN" start="1187.946" end="x">And the little girl with the bleeding leg...for terror she did not feel the pain.</u>
+                    <u who="#boderD" start="1192.407" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1193.191" end="x">After having walked thus for perhaps ten kilometers, the two of us remained sitting where the road leads [?] into a forest. And we could not walk any more. The child said that she cannot walk any more. The leg hurts her. We don't know what will be. In the meantime I had heard gentiles talking, that Germans prowl on this road looking for Jews. And I saw it is bad. With the child I cannot walk. So I took the child. I did not know what to do. I carried her perhaps...perhaps, who knows, a kilometer or two. I myself did not have any strength. I was barefoot. My shoes had remained in the RR-car, because I had undressed. I did not have the time to put anything on. I was completely naked and barefoot. And that child remained in the field. And I went away. I could not help any more at all. The child had fallen, and I could not do anything to help any more. I went away. [A pause.]</u>
+                    <u who="#boderD" start="1247.641" end="x">Go on.</u>
+                    <u who="#epsteinN" start="1250.739" end="x">After I had walked thus for about twenty kilometers, I came to...</u>
+                    <u who="#boderD" start="1256.837" end="x">[Adjusting the equipment.] Go on.</u>
+                    <u who="#epsteinN" start="1258.903" end="x">I had walked thus for about twenty kilometers. I do not know myself how many kilometers I had covered. I came to the <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Miedzyrzec Ghetto</placeName> [Meseritz is German for Miedzyrzec].</u>
+                    <u who="#boderD" start="1266.378" end="x"><placeName ref="Międzyrzec Podlaski">Miedyrzec</placeName>. [Both pronounce it Medrich. Not to be confused with Meseritz in <placeName ref="Poznań">Poznan</placeName>.]</u>
+                    <u who="#epsteinN" start="1267.140" end="x"><placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName>.</u>
+                    <u who="#boderD" start="1268.004" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1268.838" end="x">Arriving in <placeName ref="Międzyrzec Podlaski">Miedyrzec</placeName>, I went in [to the <term ref="#vothG_ghetto">Ghetto</term>]. It was a day after a large deportation. So I went in.</u>
+                    <u who="#boderD" start="1276.608" end="x">It was [in German] a deportation?</u>
+                    <u who="#epsteinN" start="1277.702" end="x">[In German] A deportation.</u>
+                    <u who="#boderD" start="1278.706" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1279.219" end="x">Entering the <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Ghetto</placeName>, it became faint before my eyes. It was at night. I did not have anywhere to go. When arriving there, I regretted very much that I had jumped off the train, because at every step, wherever I went, shot people were lying. Broken windows, all stores looted. Terrible things happened there.</u>
+                    <u who="#boderD" start="1299.965" end="x">What was the name of that town?</u>
+                    <u who="#epsteinN" start="1301.368" end="x"><placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName> [pronounced Mezrich].</u>
+                    <u who="#boderD" start="1302.111" end="x"><placeName ref="Międzyrzec Podlaski">Miedzyrzec</placeName>.</u>
+                    <u who="#epsteinN" start="1302.803" end="x">The <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Miedzyrzec Ghetto</placeName>.</u>
+                    <u who="#boderD" start="1303.817" end="x">Yes. Nu?</u>
+                    <u who="#epsteinN" start="1304.691" end="x">In that <term ref="#vothG_ghetto">Ghetto</term> I lived eight months...</u>
+                    <u who="#boderD" start="1308.871" end="x">Did you...</u>
+                    <u who="#epsteinN" start="1309.342" end="x">...in deathly fear.</u>
+                    <u who="#boderD" start="1310.094" end="x">...register with the..</u>
+                    <u who="#epsteinN" start="1311.629" end="x">There was a Jewish community council. I registered with the Jewish Community Council, and I sat. It was not worth it. Every four weeks there were new deportations. From the small towns all around and around Jews were brought in there. And there was a sort of an assembly depot for Jews. And from there all the Jews were being sent to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>. There I lived through three terrible deportations. During the first deportation I hid in an open attic and lay there for four weeks. I lived just on raw beets.</u>
+                    <u who="#boderD" start="1342.369" end="x">What?</u>
+                    <u who="#epsteinN" start="1342.750" end="x">I did not have anything to drink. The first snow fell then, so I made a hole in the roof and pulled in with the hand a little snow. And this I licked. And this I lived on.</u>
+                    <u who="#boderD" start="1353.970" end="x">Were you there alone?</u>
+                    <u who="#epsteinN" start="1355.124" end="x">No. We were about...about...there were about twenty people there. There was a father with a mother with child. There were some other...</u>
+                    <u who="#boderD" start="1362.689" end="x">In the attic.</u>
+                    <u who="#epsteinN" start="1363.533" end="x">Yes, in the attic.</u>
+                    <u who="#boderD" start="1368.425" end="x">[A few words not clear; some trouble with the equipment for a few seconds.] Nu, and so you were there on the roof [attic] in the <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Ghetto</placeName>. With how many people?</u>
+                    <u who="#epsteinN" start="1375.130" end="x">There were about twenty people.</u>
+                    <u who="#boderD" start="1376.815" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1377.437" end="x">We had nothing to eat. Thus we lived four weeks. We found raw peas [which] we ate. I had pared the beets, and afterwards I gathered the rinds of the beets, because I had nothing more to eat. And thus I nourished myself for four weeks, till there had passes a [in Polish] deportation...[in German;] a deportation. It lasted four weeks, that deportation. After the deportation we came down from the attic. At that time a lot of Jews had also been shot. Coming down from the attic, it was a terrible thing to see. We had to...we were taken to work removing the dead.</u>
+                    <u who="#boderD" start="1409.563" end="x">Who were the <term ref="#vothG_ss">SS</term>. Germans and who else? [This is a reference to the Polish and Ukranian element in the <term ref="#vothG_ss">SS</term>.]</u>
+                    <u who="#epsteinN" start="1413.092" end="x">Germans.</u>
+                    <u who="#boderD" start="1413.894" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1414.066" end="x">Only Germans. Just Germans.</u>
+                    <u who="#boderD" start="1415.681" end="x">Nu, go on.</u>
+                    <u who="#epsteinN" start="1417.515" end="x">There were a few Ukranians, too, but not many.</u>
+                    <u who="#boderD" start="1420.182" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1420.794" end="x">Ukranians.</u>
+                    <u who="#boderD" start="1421.457" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1421.658" end="x">From the Ukraine. They were serving in the German army.</u>
+                    <u who="#boderD" start="1424.065" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1425.610" end="x">And I went down. We all went down. It was worse yet than in the attic. We saw numerous dead. All the streets were splashed with blood. In every ditch Jewish blood had been poured. We went down. We had nothing to eat. We started looking for something to eat so we...</u>
+                    <u who="#boderD" start="1444.820" end="x">Was there no Council, no Community Council...</u>
+                    <u who="#epsteinN" start="1448.249" end="x">At that time tha chairman had been taken away. The chairman had been shot. He was taken out first. He was the first.</u>
+                    <u who="#boderD" start="1454.193" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1454.405" end="x">A very fine man. He was taken out the first with the wife, with the child. They were told to turn around, and they were shot. There were Jewish police, too.</u>
+                    <u who="#boderD" start="1463.227" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1463.880" end="x">Jewish policeman. So they were shot little by little. During each deportation ten, twenty were taken and also transported into the RR-cars. And they were shot, sent away. Those who escaped were shot.</u>
+                    <u who="#boderD" start="1476.022" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1477.175" end="x">In any case, they were all killed. So there was nobody to turn do. Everybody was hidden in the cellar. Everybody was afraid to go out. Many were lying [in hiding] there still a few weeks after the deportation. They did not know that it is already 'free' that one can be [is let alone] already. When we came down it was sort of peaceful for about two months. For two months time we lived on that which the Jewish Council gave to those who were strangers [Jews who were again assembled from other towns waiting for deportation].</u>
+                    <u who="#boderD" start="1503.453" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1504.315" end="x">They gave them every day a kilo of potatoes and a piece of bread. The food was not important [?], because it was...every day we lived in great fear. People walking in the streets were shot at.</u>
+                    <u who="#boderD" start="1515.465" end="x">Did you have relatives there? Did you know anyone?</u>
+                    <u who="#epsteinN" start="1517.571" end="x">Nobody. I was all alone. [Excited] Without relatives, without anybody.</u>
+                    <u who="#boderD" start="1521.411" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1522.275" end="x">Mine had all gone away. I had remained all alone. I had to support myself. By what did I support myself? I carried water.</u>
+                    <u who="#boderD" start="1531.357" end="x">For whom?</u>
+                    <u who="#epsteinN" start="1532.059" end="x">For the Jews who lived there I carried water. And for that I received a few groschen. And that is how I supported myself.</u>
+                    <u who="#boderD" start="1540.233" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1540.584" end="x">I lived in such a...a large hall. There was once a circus.</u>
+                    <u who="#boderD" start="1546.366" end="x">A circus.</u>
+                    <u who="#epsteinN" start="1547.544" end="x">Yes. There lived all the deportees.</u>
+                    <u who="#boderD" start="1550.621" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1551.894" end="x">Short and sharp [to the point], it dragged on till winter, till [in Polish] the Birth of Christ.</u>
+                    <u who="#boderD" start="1557.397" end="x">That is when? [In Russian] Christmas?</u>
+                    <u who="#epsteinN" start="1559.545" end="x">Yes.</u>
+                    <u who="#boderD" start="1559.736" end="x">The 24th of December. Nu?</u>
+                    <u who="#epsteinN" start="1561.027" end="x">Yes. Then there was a frightful night to live through. There came down drunken <term ref="#vothG_gestapo">Gestapo</term> [men] from <placeName ref="Radzyń Podlaski">Radzyn</placeName>.</u>
+                    <u who="#boderD" start="1567.840" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1569.476" end="x">And...in the middle of the night we were asleep in a room. There were perhaps, who knows, thirty people altogether in that house where we were, in one room. And they entered. I was sleeping there with two little girls. These children had also escaped from the Radzin <term ref="#vothG_ghetto">Ghetto</term>. Two girls, little ones. One was about eight years old, and one about six years. I was sleeping with them in the room. There were other girls. In our room there were about fifteen persons. In the middle of the night we hear...there lived a woodcutter [?], so we thought that someone is chopping wood. We jump up. We hear shooting. They began shooting. We lay in great deathly fear. And they were knocking on our door. And I did not know why they could not enter through the door. I the morning I got up. I opened the door. A shot person fell into...into my room, itno the house where we were lying. When we came in [into the other rooms] there lay shot all who were living in those rooms. Two children with a father who were sleeping in bed, everything was shot. A man lay with his stomach completely torn open, his guts outside on the ground. And later Jewish police came in. The Germans had left, and we had to clean up the blood and all that. There was lying the bedding and the shot. All that we had to clean up. There were also two men who had been in a <term ref="#vothG_lager">lager</term>. At that time there were <term ref="#vothG_lager">lager</term>.. It was in Oswoboj.</u>
+                    <u who="#boderD" start="1653.650" end="x">Yes?</u>
+                    <u who="#epsteinN" start="1654.373" end="x">And those two boys...</u>
+                    <u who="#boderD" start="1655.078" end="x">It was where?</u>
+                    <u who="#epsteinN" start="1655.846" end="x">Oswoboj near <placeName ref="Chelm">Chelm</placeName>. They had escaped from there, from that <term ref="#vothG_lager">lager</term>. They had been thirty people. So they were taken out one nice clear day, and they were led to...graves had been dug beforehand, and they were all led...</u>
+                    <u who="#boderD" start="1667.838" end="x">Who had dug those graves?</u>
+                    <u who="#epsteinN" start="1669.021" end="x">These people themselves had dug these graves.</u>
+                    <u who="#boderD" start="1671.367" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1672.855" end="x">And they were led down there to the graves, and they were all going to be shot. A cannon [machine gun?] was erected, and they were going to shoot them all. So these two young men had escaped. They succeeded [there follows about 40 seconds of silence on the wire]....They made a commotion and escaped.</u>
+                    <u who="#boderD" start="1686.127" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1686.713" end="x">They arrived in the <placeName ref="Międzyrzec Podlaski Ghetto" type="camp">Miedzyrzec Ghetto</placeName>. Then that night when the Germans came it was on New Year's Eve...when the Germans came. So one received four bullets in the neck. And one received six bullets. And the one who received six bullets was in agony for about four hours. He tried to choke his other friend. He had gone completely out of his mind.</u>
+                    <u who="#boderD" start="1706.459" end="x">Hm</u>
+                    <u who="#epsteinN" start="1707.372" end="x">And he died. The underwear that they wore became completely red from the blood. In another bed lay a third friend who remained alive by hiding under the bed. The second one who had remained alive, who had received the four bullets, was in agony for two weeks. He had pus, and there was no doctor. Pus, [repeats in Polish] pus.</u>
+                    <u who="#boderD" start="1728.123" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1728.377" end="x">...in the neck.</u>
+                    <u who="#boderD" start="1729.100" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1729.497" end="x">And I myself bandaged him.</u>
+                    <u who="#boderD" start="1732.592" end="x">Yes?</u>
+                    <u who="#epsteinN" start="1732.936" end="x">The bullets were inside.</u>
+                    <u who="#boderD" start="1735.111" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1736.329" end="x">He had pus in the neck, and he lay so long till there appeared white snakes [worms] on the neck. Snakes had appeared.</u>
+                    <u who="#boderD" start="1741.814" end="x">Worms.</u>
+                    <u who="#epsteinN" start="1742.474" end="x">Worms which smelled bad. And he was pleading for death, to be shot. And so I and some other girl were there, a friend of mine. We covered the mouth and the nose so as not to smell. We took off the bandage and took off the snakes. Then it became a little easier for him. The same day, in the afternoon, he died. He died. I was there for a time in the <term ref="#vothG_ghetto">Ghetto</term>, and I lived through another deportation. There was a large synagogue. There all the Jews were assembled. In the synagogue it was terrible. They simply came in...if they heard a cry, they shot in. The threw grenades. They beat. They truck. They did not give anything to drink. We had to relieve ourselves on the same place where we slept. I was there a whole night. I saw it was bad. I did not want to go to death. I went on fighting against it. I went over to a window. It was on the first floor. We took two towels, I and another girl. We lowered the towels from the windows, and we crawled down and escaped down into a cellar, and there we again lived through the second [other] deportation.</u>
+                    <u who="#boderD" start="1816.047" end="x">From the second floor?</u>
+                    <u who="#epsteinN" start="1817.447" end="x">From the first floor.</u>
+                    <u who="#boderD" start="1818.441" end="x">Aha, from the first...</u>
+                    <u who="#epsteinN" start="1819.191" end="x">Lowered ourselves down...</u>
+                    <u who="#boderD" start="1819.886" end="x">That is really the second [floor], one flight upstairs [the story above the ground floor is considered in Europe as the first floor].</u>
+                    <u who="#epsteinN" start="1821.773" end="x">Yes.</u>
+                    <u who="#boderD" start="1822.397" end="x">Yes.</u>
+                    <u who="#epsteinN" start="1822.568" end="x">The second [floor].</u>
+                    <u who="#boderD" start="1823.165" end="x">Aha.</u>
+                    <u who="#epsteinN" start="1823.600" end="x">And we lowered ourselves down and hid in a cellar. It did not last four weeks any more. It only lasted three days, and then we went out again. Again we lived [there] a few months. During the last deportation I was not able to hide any more. I was led away into a transport. It was a beautiful summer day. It was very beautiful. It was May Day, May.</u>
+                    <u who="#boderD" start="1846.294" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1847.053" end="x">We were led away in the year '43 in May. We were loaded on RR-cars. We were led through the streets exactly like we had been driven to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>. They shot at those who did not walk in line. Many people fell, children. [We were] running fast. I myself received from a German Whose name was Bock...</u>
+                    <u who="#boderD" start="1864.639" end="x">Hm.</u>
+                    <u who="#epsteinN" start="1866.201" end="x">That German's...I got it with a [rubber] hose over the head. I got a large bump. I did not pay attention to the pain, but I ran fast. Arriving at the [on the way to the] station, they had led us through the quarter where the gentiles were living.</u>
+                    <u who="#boderD" start="1878.465" end="x">Nu?</u>
+                    <u who="#epsteinN" start="1879.529" end="x">We arrived at the...</u>
+                    <u who="#boderD" start="1881.082" end="x">One moment. [Some whispers. Again some equipment failure for about 20 seconds.] Nu?</u>
+                    <u who="#epsteinN" start="1902.525" end="x">We arrived at the RR-cars. We were put into the RR-cars. It was the same as [the road] to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>, shooting. We had nothing to drink. We drove a day and a night. We were taken down to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. Many were saying that we were being taken to <placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>, but the direction was toward <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. We were taken off at the <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>
+                        <term ref="#vothG_lager">lager</term>. We were all lined up. There were many who were shot. They were taken down, those who were still alive. They were taken down on the square, and they were immediately shot to death. The mothers were put separ tely, the children separately, the men separately, the women separately, young [people] separately, old [people] separately. Everything was separated. The women, the young women, were taken to the <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>
+                        <term ref="#vothG_lager">lager</term>. The men were taken to another <term ref="#vothG_lager">lager</term>. The children and the mothers were led to the crematory. All were burned.</u>
+                    <u who="#boderD" start="1949.016" end="x">Where [?]?</u>
+                    <u who="#epsteinN" start="1949.649" end="x">In <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. We never laid eyes on them again. [Oh] yes, they kept the children another two weeks. They gave them [something] to eat. They received beatings, too, those children, small children, big ones. There were many children from the <placeName ref="Warsaw Ghetto" type="camp">Warsaw Ghetto</placeName>.</u>
+                    <u who="#boderD" start="1959.521" end="x">The mothers were kept with the children?</u>
+                    <u who="#epsteinN" start="1961.307" end="x">Yes. And then one bright and clear day they came with autos and took away all the mothers and all the children. Many mothers still tried to save themselves, but they could not. All were taken away, and to this day we do not know what happened to them. We knew for certain that they were led to the crematory.</u>
+                    <u who="#boderD" start="1977.979" end="x">Where was the crematory?</u>
+                    <u who="#epsteinN" start="1979.225" end="x">The crematory was...the <term ref="#vothG_lager">lager</term> was on the first field, and the crematory was between the fifth...fourth and fifth field.</u>
+                    <u who="#boderD" start="1985.163" end="x"><placeName ref="Treblinka concentration camp" type="camp">Treblinka</placeName>.</u>
+                    <u who="#epsteinN" start="1986.119" end="x">No, <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. </u>
+                    <u who="#boderD" start="1987.140" end="x"><placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, yes. And where....Nu?</u>
+                    <u who="#epsteinN" start="1989.432" end="x">I was in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> two months. I lived through many terrible things. [Words not clear.] We had nothing to eat. We were so starved. At first. We did not know yet what such a thing as a <term ref="#vothG_lager">lager</term> means. In the morning, at six in the morning, came in a German [woman], an <term ref="#vothG_ss">SS</term> women, and started to chase [us] with a large strap, beat everybody. We were lying on the beds, grieved, with great worries, thinking where the mothers were, where the fathers and the children were. We were crying. Then came in a German [woman] at six in the morning with a large strap and beat us over the head to go out to the <term ref="#vothG_appell">appell</term>. On the <term ref="#vothG_appell">appell</term>.it could happen that we would stand four, five hours. </u>
+                    <u who="#boderD" start="2028.446" end="x">Why so long?</u>
+                    <u who="#epsteinN" start="2029.835" end="x">People were being kept so long because everybody did not know yet what...what this was about. Many children of about sixteen years hid in an attic. They were afraid to come out. They thought they were going to be shot.</u>
+                    <u who="#boderD" start="2041.159" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2041.493" end="x">And for that, that they had hidden, we stood five hours as a punishment. Later nobody hid any more. They said whoever will hide himself will be shot. And so I was in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> two months.</u>
+                    <u who="#boderD" start="2053.054" end="x">Did you work there?</u>
+                    <u who="#epsteinN" start="2054.526" end="x">Yes. We were sent to do garden work. We were sent to carry the shit which....There were no toilets there, so we carried it in buckets [barrows]. We were not given [anything] to eat. They were hitting [us] over the legs. They were beating [us] over the heads. The food consisted of two hundred grams of bread a day, and a little soup [made] of water with [leaves of] nettles. This was the food. And I was there two month's time. The hunger there was so great that when a caldron of food was brought, we could not wait for it to be distributed, but we threw ourselves on the food, and that food would spill on the ground, and with the mud we ate it. After having been there two months, there began...they began to select the healthy, healthy children who are able to work. At that time they began to select. They tested the heart. Whoever had the smallest blemish on the body did not come out [any more] from there. Only six hundred women were picked out, and I was among them. This was in...this was in [in Polish] January. In Lipiec I went... </u>
+                    <u who="#boderD" start="2121.148" end="x">What is Lipiec?</u>
+                    <u who="#epsteinN" start="2121.935" end="x">[In Polish] May, June, Lipiec.</u>
+                    <u who="#boderD" start="2124.408" end="x">[In English] May, June, July.</u>
+                    <u who="#epsteinN" start="2125.744" end="x">Yes. I left for <placeName ref="Oświęcim">Oswiecim</placeName> [<placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>]. I was taken away to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. The condictions were then already a little better. Fewer were being packed into wagon [RR-car]. They were putting in already sixty to a wagon. We were taken to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. Arriving in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>, we were led into a large hall before taking us to be bathed. All the women had their hair cut off. Many did not allow [it] to be cut till...completely hairless.</u>
+                    <u who="#boderD" start="2150.694" end="x">That was the first time you had that done?</u>
+                    <u who="#epsteinN" start="2152.481" end="x">For the first time in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. In <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> I was not shorn, just in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>.</u>
+                    <u who="#boderD" start="2157.235" end="x">Yes. </u>
+                    <u who="#epsteinN" start="2158.182" end="x">So I had my hair shorn off, and they tattooed numbers on us.</u>
+                    <u who="#boderD" start="2162.485" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>.</u>
+                    <u who="#epsteinN" start="2163.362" end="x">Yes.</u>
+                    <u who="#boderD" start="2163.490" end="x">Which..what number do you have?</u>
+                    <u who="#epsteinN" start="2164.376" end="x">My number is 46,886</u>
+                    <u who="#boderD" start="2167.561" end="x">46,8...</u>
+                    <u who="#epsteinN" start="2169.006" end="x">886.</u>
+                    <u who="#boderD" start="2170.811" end="x">..86. And a little triangle.</u>
+                    <u who="#epsteinN" start="2174.168" end="x">Yes, such a one.</u>
+                    <u who="#boderD" start="2175.339" end="x">Yes. What is that?</u>
+                    <u who="#epsteinN" start="2176.727" end="x">Because this was a code. They had three kinds of numbers. Every hundred thousand they had a different kind.</u>
+                    <u who="#boderD" start="2182.763" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2183.055" end="x">A-B-D...</u>
+                    <u who="#boderD" start="2184.611" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2185.617" end="x">And I was led away to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. We had very great anguish, because we had our hair cut off. How can a women live without hair? They took us and dressed us in long pants.</u>
+                    <u who="#boderD" start="2196.609" end="x">Who cut off your hair?</u>
+                    <u who="#epsteinN" start="2198.362" end="x">Our hair was cut off by women...</u>
+                    <u who="#boderD" start="2201.000" end="x">Women.</u>
+                    <u who="#epsteinN" start="2201.310" end="x">..who were working there.</u>
+                    <u who="#boderD" start="2202.161" end="x">Yes. Nu? They cut it from the whole body?</u>
+                    <u who="#epsteinN" start="2204.916" end="x">Completely. On the body, here [she points], everywhere, everywhere, everything.</u>
+                    <u who="#boderD" start="2207.586" end="x">Under the arms.</u>
+                    <u who="#epsteinN" start="2208.602" end="x">Everywhere. Everywhere.</u>
+                    <u who="#boderD" start="2209.678" end="x">Hm. Nu?</u>
+                    <u who="#epsteinN" start="2210.962" end="x">And we were dressed in trousers and in blouses. We were terribly hungry. They put on such kerchiefs on our heads, up to here. Nothing at all could show, up to here.</u>
+                    <u who="#boderD" start="2222.629" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2223.053" end="x">Here it was tied, and thus, and we went out into the <term ref="#vothG_lager">lager</term> [?].</u>
+                    <u who="#boderD" start="2225.667" end="x">That was in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>.</u>
+                    <u who="#epsteinN" start="2227.237" end="x"><placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. There...</u>
+                    <u who="#boderD" start="2228.976" end="x">Where is <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>? Near what city is it?</u>
+                    <u who="#epsteinN" start="2233.434" end="x"><placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. It is near <placeName ref="Kraków">Cracow</placeName>, not far from <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#boderD" start="2236.062" end="x"><placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName> is <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>? That is the same thing?</u>
+                    <u who="#epsteinN" start="2237.576" end="x">Yes, <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. Yes, yes.</u>
+                    <u who="#boderD" start="2238.680" end="x">Aha. Nu?</u>
+                    <u who="#epsteinN" start="2240.659" end="x">In German it is called <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, but in Polish it is <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. There I was in that <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName> for a tale [stretch] of about nine months.</u>
+                    <u who="#boderD" start="2249.578" end="x">What did you do there?</u>
+                    <u who="#epsteinN" start="2250.612" end="x">I will tell everything.</u>
+                    <u who="#boderD" start="2251.942" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2252.563" end="x">During the first times when I arrive, there was a frightful hunger. We went to work in a detail which was called the Death Detail. Why? This I will tell too.</u>
+                    <u who="#boderD" start="2261.510" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2263.132" end="x">We went to work, the six hundred women from <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>. It took a month, and there remained no more than four hundred and fifty. We died out of hunger.</u>
+                    <u who="#boderD" start="2271.811" end="x">What did you do?</u>
+                    <u who="#epsteinN" start="2273.141" end="x">We worked carrying stones on barrows, large stones. To eat they did not give us. We were beaten terribly. There were German women who were also prisoners. They were imprisoned for prostitution. Women. [Words not clear.]</u>
+                    <u who="#boderD" start="2288.117" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2288.446" end="x">They were imprisoned there. They used to beat terribly. They said that every day they must kill three, four Jews. And food she did not give.</u>
+                    <u who="#boderD" start="2296.970" end="x">When must they kill three, four Jews? Every day?</u>
+                    <u who="#epsteinN" start="2298.822" end="x">Every day they must kill three, four Jews. And it was really so. They did what they meant, what they wanted.</u>
+                    <u who="#boderD" start="2305.935" end="x">[In English] This concludes Spool 95 or Mrs. Nechamah Epstein, and we are going over to Spool 96. Recording in <placeName ref="Tradate">Tradate</placeName>, between <placeName ref="Milano">Milano</placeName> and <placeName ref="Como">Como</placeName>. A camp for adults who expect to be transferred to Palestine. [A peculiar phenomenon appears at least on this duplicate: the echo appears before the actual spoken word. It is for accustic reasons or for reasons of cross magentization of the turns of wire? February 26, 1956. Boder, at editorial relistening.]</u>
+                    <!-- end Spool 9-95 -->
+                    <!-- begin Spool 9-96 -->
+                    <u who="#barnettH" start="2334.781" end="x">[In English] Spool 96. Spool 96. Recording starts in one minute. Spool 96, recording starts in one minute. This is Herman Barnett</u>
+                    <u who="#boderD" start="2367.702" end="x">Spool 96, direct continuation of 95, taken at <placeName ref="Tradate">Tradate</placeName>, between <placeName ref="Como">Como</placeName> and <placeName ref="Milano">Milano</placeName>, on August 31st, 1946. The reporting person is Mrs. Nechamah Epstein, 23 years old, with a tattoo number 46,886 and a triangle. She is 23 years old and is expecting a baby within four months, or five, and is here with her husband. </u>
+                    <u who="#boderD" start="2400.386" end="x">[In German] And so that was in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. Nu? What happened there.</u>
+                    <u who="#epsteinN" start="2404.526" end="x">Where was I? Wait.</u>
+                    <u who="#boderD" start="2406.007" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2406.350" end="x">I will remind myself where I stopped.</u>
+                    <u who="#boderD" start="2408.879" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2410.008" end="x">The work began. We carried stones on...stones in barrows. We carried sand, stones. We were building a highway -- women. The work was very hard. We got heavily beaten with rubber hoses over the legs from those German women overseers, those who also were imprisoned, prisoners.</u>
+                    <u who="#boderD" start="2431.191" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2431.487" end="x">But they were very bad. They had the say over us.</u>
+                    <u who="#boderD" start="2434.016" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2434.285" end="x">Thus I labored for three months, until I became sick. I had gotten malaria.</u>
+                    <u who="#boderD" start="2440.153" end="x">Malaria?</u>
+                    <u who="#epsteinN" start="2440.792" end="x">Yes.</u>
+                    <u who="#boderD" start="2441.431" end="x">Nu?</u>
+                    <u who="#epsteinN" start="2442.028" end="x">I went around for two weeks with a 41 degree fever centigrade; about 106 degree Fahrenheit. I was afraid to go to the sick-ward. There was such a sick-ward.</u>
+                    <u who="#boderD" start="2448.605" end="x">Two weeks or two months?</u>
+                    <u who="#epsteinN" start="2450.171" end="x">For two weeks I went around with fever.</u>
+                    <u who="#boderD" start="2452.305" end="x">Nu?</u>
+                    <u who="#epsteinN" start="2452.799" end="x">I was afraid to go, because it was said that if one goes there one does not come back any more, one is burned there, one is taken away to the crematory.</u>
+                    <u who="#boderD" start="2458.874" end="x">Nu?</u>
+                    <u who="#epsteinN" start="2459.322" end="x">I saw that I cannot stand it any more. The legs were buckling under me. Each day I got more and more beaten, because I did not work. I could not eat any more. Before, [when] I was very hungry, I did not have something to eat, and later I would accumulate bread from one day to the next. I could not eat it any more. I gave it away to other girls.</u>
+                    <u who="#boderD" start="2478.793" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2479.707" end="x">And I already...I decided to go away to the sick-ward.</u>
+                    <u who="#boderD" start="2484.336" end="x">Nu?</u>
+                    <u who="#epsteinN" start="2485.783" end="x">I was received in the sick-ward. I had about a 41 degree fever when I entered there. There were no medicines. I lay around for about four weeks without medecine.</u>
+                    <u who="#boderD" start="2501.568" end="x">Say that again. You lay there four weeks, and ?</u>
+                    <u who="#epsteinN" start="2504.885" end="x">I lay there four weeks, and nobody came over to me. There was a [woman] doctor, also a prisoner, a Jewess.</u>
+                    <u who="#boderD" start="2511.592" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2512.132" end="x">She was not able to help at all. She had no medicaments. None were given to her. And in this way I pulled through the crisis.</u>
+                    <u who="#boderD" start="2518.549" end="x">One moment. [In English] I want to re-identify the spool. It is spool 95 [incorrect; this is spool 96], Miss Nechamah Epstein reporting, in <placeName ref="Tradate">Tradate</placeName> near <placeName ref="Como">Como</placeName> and <placeName ref="Milano">Milan</placeName>. [In German] Nu?</u>
+                    <u who="#epsteinN" start="2530.927" end="x">I lay around in such a way for four weeks. I did not have anything to drink.</u>
+                    <u who="#boderD" start="2537.651" end="x">[An interruption: the interviewer apparently pleads with people who, in spite of his many requests, continue to eavesdrop under windows and behind the door.] Are you not ashamed of yourselves. Don't you really understand... [a few words not clear. Then to Mrs. Epstein] Nu?</u>
+                    <u who="#epsteinN" start="2550.115" end="x">I pleaded for a drink of water. They did not want to give it to me, because the water there was poisoned [contaminated]. It was rusty from the pipes. If one drank that water one became still more sick. I passed the crisis, and during that time there were three such...selections. They came to take sick [people] to the crematory. During each time I lived through much deathly fear. My whole method of saving myself was that I hid myself. Christian [women] were lying there, so I climbed over to the Christians, into their beds, and there I always had the good fortune to hide.</u>
+                    <u who="#boderD" start="2584.370" end="x">Did the Christian [women] let you?</u>
+                    <u who="#epsteinN" start="2585.810" end="x">Yes. There was a Christian [woman], a very fine one. She would...she was also in the K.Z. She was also very sick. She was already near death, that Christian [women].</u>
+                    <u who="#boderD" start="2592.835" end="x">Why was she in the K.Z. [concentration camp]?</u>
+                    <u who="#epsteinN" start="2594.540" end="x">She was there for political causes.</u>
+                    <u who="#boderD" start="2596.772" end="x">Aha. Nu?</u>
+                    <u who="#epsteinN" start="2598.410" end="x">And...she was not taken. Christians were not taken to the crematory, just Jews.</u>
+                    <u who="#boderD" start="2603.517" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2603.756" end="x">They had it much better. They received aid from the Red Cross. They received packages from home, and we nothing. We had to look on how they ate. If there was one, a kind one, she would occasionally give us, the sick, something. And that is how I was going on saving myself in the sick-ward. My sickness was very terrible to describe. Complications set in afterwards. I had many boils on the body. I had in Polish: neglected scabies.</u>
+                    <u who="#boderD" start="2629.953" end="x">What is that?</u>
+                    <u who="#epsteinN" start="2630.561" end="x">[In Polish] Swierzba, [in German] scabies.</u>
+                    <u who="#boderD" start="2632.054" end="x">Ja. Nu?</u>
+                    <u who="#epsteinN" start="2632.886" end="x">And I had nothing with which to cure myself. At one time I lay already completely dead, that the Christian [woman] cried...they made an outcry that I am already going to die. So there came up to me a [woman] doctor, and she brought some sort of an injection, and she gave it to me.</u>
+                    <u who="#boderD" start="2647.147" end="x">A Jewish [woman] doctor?</u>
+                    <u who="#epsteinN" start="2648.225" end="x">Yes, a Jewish [woman] doctor. And she gave me that injection, and I became a little better.</u>
+                    <u who="#boderD" start="2652.615" end="x">One moment. [Adjusting the microphone.] Nu? You were given an injection.</u>
+                    <u who="#epsteinN" start="2657.523" end="x">Yes.</u>
+                    <u who="#boderD" start="2657.702" end="x">Nu, go on.</u>
+                    <u who="#epsteinN" start="2658.993" end="x">After that injection I became a little stronger, and I got out of bed. I nursed the other sick. Much strength I did not have, but I was already able to walk around a little. Three weeks had passed. There came an order to deliver the names of all the sick, everyone who had scabies, that means, [repeats in Polish] swierzba.</u>
+                    <u who="#boderD" start="2682.037" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2682.533" end="x">Then one knew that he is for sure going to his death. And I had it, too. I was very worried, and I knew that now has come the moment that I have to go.</u>
+                    <u who="#boderD" start="2691.855" end="x">Do not speak so fast. Go on. Nu?</u>
+                    <u who="#epsteinN" start="2695.923" end="x">I had much anguish. I did not sleep at night. I could not eat, because I knew that all my misery, all my suffering was for nothing, because now had come my end. Everything has come to an end. But it was not so. The same day when they had ordered to make the list of us, they came to that sick-ward where there were only typhus patients, and all were taken out, the entire sick-ward. Not one remained. It was on the night of Yom Kippur [Day of Atonement]. </u>
+                    <u who="#boderD" start="2728.918" end="x">What was done with them?</u>
+                    <u who="#epsteinN" start="2730.456" end="x">All were taken, undressed, nude, wrapped in Kotzen [Polish for blankets], thrown on the...</u>
+                    <u who="#boderD" start="2735.857" end="x">What are Kotzen?</u>
+                    <u who="#epsteinN" start="2736.924" end="x">In [in German] blankets.</u>
+                    <u who="#boderD" start="2737.708" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2738.313" end="x">Thrown on the trucks like sheep, shut the trucks, and driven away in the direction of the crematory. We all went and looked, so we saw how the women [on the trucks] were singing Kol Nidrei [pringipal prayer for the pay of Atonement].</u>
+                    <u who="#boderD" start="2752.361" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2752.999" end="x">They were singing various folk songs. They were singing the Hatikvah [now Israel's national anthem]. When they said good-bye, they said, 'We are going to death, and you take revenge for us.' But we knew also that...</u>
+                    <u who="#boderD" start="2763.609" end="x">Did they say good-bye to you, too?</u>
+                    <u who="#epsteinN" start="2766.188" end="x">When they were leaving, they said good-bye. They knew they were going to death. They were still pleading to be left. They are young. There was a girl eighteen years old, and she was crying terribly. She said that she is so young, she wants to live, they should leave her, they should give her some medicine to heal her scabies. And nothing helped. They were all taken away.</u>
+                    <u who="#boderD" start="2784.686" end="x">How come you were not included? You also had scabies?</u>
+                    <u who="#epsteinN" start="2788.799" end="x">I was not yet in the line.</u>
+                    <u who="#boderD" start="2791.275" end="x">Aha.</u>
+                    <u who="#epsteinN" start="2791.611" end="x">Everything went according to the line.</u>
+                    <u who="#boderD" start="2793.732" end="x">Hm. Yes?</u>
+                    <u who="#epsteinN" start="2795.099" end="x">And next morning, it was said, will be taken...</u>
+                    <u who="#boderD" start="2796.377" end="x">How many sick were taken?</u>
+                    <u who="#epsteinN" start="2798.298" end="x">Four hundred persons. An entire <term ref="#vothG_block">block</term>.</u>
+                    <u who="#boderD" start="2800.552" end="x">[Astounded] four hundred people.</u>
+                    <u who="#epsteinN" start="2801.786" end="x">Yes.</u>
+                    <u who="#boderD" start="2801.967" end="x">...were taken in one evening and driven away to...</u>
+                    <u who="#epsteinN" start="2803.201" end="x">In one evening, and driven away to the crematories. Yes.</u>
+                    <u who="#boderD" start="2806.541" end="x">Could the crematory be seen burning?</u>
+                    <u who="#epsteinN" start="2808.448" end="x">[Heatedly] Of course. When we went out at night we saw the entire sky red [from] the glow of the fire. Blood was pouring on the sky. We saw everything. We knew. When we went to the shower hall we saw the clothing, of the people who were not any more, lying there. The clothing was still there. We recognized the clothing of the people who had left and returned no more.</u>
+                    <u who="#boderD" start="2829.594" end="x">Where was it seen?</u>
+                    <u who="#epsteinN" start="2831.050" end="x">In the...the shower hall where we bathed.</u>
+                    <u who="#boderD" start="2833.537" end="x">Aha.</u>
+                    <u who="#epsteinN" start="2834.206" end="x">In the warehouses where we were issued clothing...</u>
+                    <u who="#boderD" start="2835.373" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2835.487" end="x">..we recognized the clothing of the people who had been taken away.</u>
+                    <u who="#boderD" start="2838.140" end="x">Yes. Nu?</u>
+                    <u who="#epsteinN" start="2839.318" end="x">So that we knew. It was a hundred per cent [sure]. We saw every night the burning crematory. And the fire was so red it was gushing forth blood towards the sky. And we could not help at all. Sometimes, when we would go out at night to relieve ourselves, we saw how illuminated...how transports were brought with mothers and children. The children were calling to the mothers.</u>
+                    <u who="#boderD" start="2859.818" end="x">That was in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#epsteinN" start="2861.240" end="x">In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>, yes.</u>
+                    <u who="#boderD" start="2862.249" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2863.103" end="x">It was to <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> that they brought huge transports from Hungary, from Holland, from Greece, from around, from Belgium, from all over Europe.</u>
+                    <u who="#boderD" start="2871.632" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2872.600" end="x">And all that was burned in <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. The children they burned immediately, and from a certain number of people, from thousands, a hundred might be taken out, and they were brought to the <term ref="#vothG_lager">lager</term>. Women, they had their hair shorn off. The same was done to them as to us, and little by little they died out. And the rest were burned.</u>
+                    <u who="#boderD" start="2889.752" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2891.457" end="x">The next morning a German doctor appeared. I became very scared. All who were in the <term ref="#vothG_block">block</term> became scared -- we were all sick from malaria -- because it was said that the others were taken yesterday and us they will take today.</u>
+                    <u who="#boderD" start="2902.653" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2903.485" end="x">In the meantime he came with a list, and called out my name and another twelve Jewish names, and to that another fifty Christian women.</u>
+                    <u who="#boderD" start="2911.337" end="x">Oh.</u>
+                    <u who="#epsteinN" start="2912.923" end="x">And he said that we who are sick with malaria, who show a positive sickness -- because there were positive and non-positive...</u>
+                    <u who="#boderD" start="2920.299" end="x">Yes.</u>
+                    <u who="#epsteinN" start="2920.690" end="x">Because on me was made a...a...a...</u>
+                    <u who="#boderD" start="2922.678" end="x">A Blood test?</u>
+                    <u who="#epsteinN" start="2923.557" end="x">...a blood test, and it showed that I had a positive malaria. So they told us that we were going to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, back to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="2931.432" end="x">Aha.</u>
+                    <u who="#epsteinN" start="2931.646" end="x">I came from there, and back again.</u>
+                    <u who="#boderD" start="2933.490" end="x">Nu?</u>
+                    <u who="#epsteinN" start="2931.646" end="x">I did not believe it. In the evening all of us were taken, seventy-odd people. We were put on a truck and driven to the train. Riding on the truck all of us believed that we were going to the crematory. We had thought that it will be an open truck, and we will be able to see where we are being taken to, but ultimately it turned out to be quite different. We were taken in a closed one. But we have only heard this. Driving past the guard we heard, 'Sixty-six prisoners for...seventy-odd prisoners for <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.'</u>
+                    <u who="#boderD" start="2968.410" end="x">Aha.</u>
+                    <u who="#epsteinN" start="2969.042" end="x">For <placeName ref="Lublin">Lublin</placeName>. So we already knew that we were being taken to <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>.</u>
+                    <u who="#boderD" start="2971.883" end="x">Hm.</u>
+                    <u who="#epsteinN" start="2973.036" end="x">We were put into...on the station we were led into a freight car, which is used for transporting cattle. We were all put in. Among [us] were many <term ref="#vothG_folk">Folk-German</term> women [Polish or Czech citizens claiming German descent] who had been imprisoned there in the <term ref="#vothG_lager">lager</term>...</u>
+                    <u who="#boderD" start="2987.078" end="x">Because of what?</u>
+                    <u who="#epsteinN" start="2988.268" end="x">They were for prostitution.</u>
+                    <u who="#boderD" start="2990.234" end="x">Yes. What color triangle did they wear?</u>
+                    <u who="#epsteinN" start="2992.687" end="x">Black. Black triangles.</u>
+                    <u who="#boderD" start="2994.195" end="x">Aha.</u>
+                    <u who="#epsteinN" start="2995.182" end="x">And they...</u>
+                    <u who="#boderD" start="2995.429" end="x">How did they behave, those women?</u>
+                    <u who="#epsteinN" start="2997.092" end="x">Very mean. Very mean. [One hears the barking of a dog on the recording.] They beat so. They hit so. One can't at all imagine.</u>
+                    <u who="#boderD" start="3003.023" end="x">[Fighting] among themselves?</u>
+                    <u who="#epsteinN" start="3003.791" end="x">No. They beat us, us.</u>
+                    <u who="#boderD" start="3006.799" end="x">Yes. For what reason [?]?</u>
+                    <u who="#epsteinN" start="3007.057" end="x">Us they beat. And so I will tell you an instance that happened in the RR-car when we were traveling together with them.</u>
+                    <u who="#boderD" start="3011.062" end="x">Nu?</u>
+                    <u who="#epsteinN" start="3011.672" end="x">They took....Inside the RR-car were posted two sentries with rifles to guard [?] us.</u>
+                    <u who="#boderD" start="3016.853" end="x">Yes. </u>
+                    <u who="#epsteinN" start="3017.333" end="x">Germans.</u>
+                    <u who="#boderD" start="3018.168" end="x">Yes?</u>
+                    <u who="#epsteinN" start="3018.511" end="x">And they were German [women].</u>
+                    <u who="#boderD" start="3020.122" end="x">Hm</u>
+                    <u who="#epsteinN" start="3020.547" end="x">So they talked to those sentries.</u>
+                    <u who="#boderD" start="3022.834" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3023.133" end="x">And they had with them some sort...some sort of intimate relation.</u>
+                    <u who="#boderD" start="3027.105" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3028.059" end="x">They received food from them.</u>
+                    <u who="#boderD" start="3029.770" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3029.917" end="x">They would patronize them.</u>
+                    <u who="#boderD" start="3031.284" end="x">Their own people.</u>
+                    <u who="#epsteinN" start="3032.285" end="x">Yes. They were their own. And upon coming into the RR-car they made such a little piece of a <term ref="#vothG_ghetto">ghetto</term>. They put us into a small part to the RR-car.</u>
+                    <u who="#boderD" start="3041.357" end="x">Yes?</u>
+                    <u who="#epsteinN" start="3041.771" end="x">And for themselves they took the bigger part. And in our part we were squeezed one on top of another. We nearly crushed ourselves to death. En route two girls died. They were very weak. We had no food. And they were full of those scabies.</u>
+                    <u who="#boderD" start="3055.691" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3056.138" end="x">They could not stand it any more. En route..they were taken down in the middle of the night in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, and they were dead.</u>
+                    <u who="#boderD" start="3061.640" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3062.727" end="x">We arrived there, eleven Jewish children. We were taken to the first field [sector]. There were no Jews any more. Because when I was there the first time there were still thirty thousand Jew. Returning I found out that there were only three hundred women and fifty-five men.</u>
+                    <u who="#boderD" start="3080.409" end="x">Jews.</u>
+                    <u who="#epsteinN" start="3081.432" end="x">Jews. And so we were taken to a Polish sick-ward. We were taken in there. We were undressed, bathed, and put into beds.</u>
+                    <u who="#boderD" start="3092.880" end="x">Who did that, men or women?</u>
+                    <u who="#epsteinN" start="3095.123" end="x">Women.</u>
+                    <u who="#boderD" start="3095.803" end="x">Yes. Prisoners?</u>
+                    <u who="#epsteinN" start="3097.488" end="x">Prisoners. Christians.</u>
+                    <u who="#boderD" start="3099.110" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3099.634" end="x">There were no Jews any more. The Jews were somewhere else. A few days later we found out that there were Jews here. So one Jewish child [designation of a Jew in general] sneaked away from the fifth field sector and came to us. She wanted to see the Jews who had arrived. From them we learned about a most sad misfortune.</u>
+                    <u who="#boderD" start="3117.922" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3118.796" end="x">It had happened on the third...[whispers] How does one say [in Polish] Listopad..Listopad?</u>
+                    <u who="#boderD" start="3122.458" end="x">What?</u>
+                    <u who="#epsteinN" start="3123.024" end="x">The...</u>
+                    <u who="#boderD" start="3123.371" end="x">The...</u>
+                    <u who="#epsteinN" start="3124.217" end="x">[Recollecting] November.</u>
+                    <u who="#boderD" start="3124.886" end="x">November. Yes?</u>
+                    <u who="#epsteinN" start="3125.477" end="x">On the 3rd of November it was. At four in the morning there came down the entire <term ref="#vothG_gestapo">Gestapo</term> with many Shupos [an abbreviation for Shutzpolizei], with many <term ref="#vothG_ss">SS</term> men. They surrounded the entire <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>
+                        <term ref="#vothG_lager">lager</term> and called out all the people. There were twenty-three thousand people.</u>
+                    <u who="#boderD" start="3143.821" end="x">Not only Jews, everybody.</u>
+                    <u who="#epsteinN" start="3145.144" end="x">All Jews. Just the Jews.</u>
+                    <u who="#boderD" start="3146.677" end="x">Aha. Nu?</u>
+                    <u who="#epsteinN" start="3147.575" end="x">Just the Jews. All the Christians remained in the <term ref="#vothG_block">blocks</term>.</u>
+                    <u who="#boderD" start="3150.458" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3150.849" end="x">The Jews were taken out and told to form rows of five. The music played very violently and...</u>
+                    <u who="#boderD" start="3158.358" end="x">Was it Jewish music?</u>
+                    <u who="#epsteinN" start="3160.058" end="x">No. Polish music. German music.</u>
+                    <u who="#boderD" start="3162.789" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3163.602" end="x">It played very violently. And the people were told to go up, from the first field to the fifth. Up.</u>
+                    <u who="#boderD" start="3170.346" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3170.685" end="x">There the crematory had been installed. Two days before, eighty men had been taken out. And they were told to dig very large pits. And nobody knew what these pits were for. One said they are trenches. Another said that they are going to hide there something. One said, 'Maybe [they are] for us.' No one knew for sure. Ultimately it turned out that those pits were for the people who had dug them themselves.</u>
+                    <u who="#boderD" start="3193.321" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3195.530" end="x">They went up in rows of fives, children, mothers, old, young, all went up to the fifth field. Coming to the graves, there stood sentries with Tommy guns and with machine guns. And they told them all to undress. Young women flung themselves at the sentries and began to plead that he should shoot them with good aim so that they should not suffer. And they would...not everyone was hit by a bullet.</u>
+                    <u who="#boderD" start="3221.935" end="x">They should not be shot how?</u>
+                    <u who="#epsteinN" start="3223.524" end="x">To shoot them celno [Polish for efficiently]. In the head...</u>
+                    <u who="#boderD" start="3225.523" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3225.626" end="x">...not in the stomach or the leg so that they should have to suffer.</u>
+                    <u who="#boderD" start="3228.013" end="x">Hm. </u>
+                    <u who="#epsteinN" start="3228.312" end="x">They were pleading to be shot straight in the brain.</u>
+                    <u who="#boderD" start="3230.396" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3231.627" end="x">And the sentries laughed at that and said, 'Yes, yes. For you such a death is [much] too good. You have to suffer a little.' And not everyone was hit by the bullet. And from them were separated three hundred women, those who had remained whom we had met. And these women had to clean up next morning all those who remained [lying], the shot. they were doused with gasoline and were burned.</u>
+                    <u who="#boderD" start="3259.156" end="x">In the pits?</u>
+                    <u who="#epsteinN" start="3260.368" end="x">In the pits. And afterwards they had to take the clothes which everybody recognized from her mother, from her sister, from her children. They cried with bloody tears. They had to take those clothes and sort them. And everybody was thinking, 'Why did I not go together with them? Why did we remain alive?'</u>
+                    <u who="#boderD" start="3280.897" end="x">How many did you say were separated?</u>
+                    <u who="#epsteinN" start="3282.574" end="x">Three hundred women.</u>
+                    <u who="#boderD" start="3283.905" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3284.751" end="x">There had remained [alive] the most beautiful, the smartest, and the youngest women. The Germans themselves said when they came to count the <term ref="#vothG_appell">appell</term>. 'We have seen already so many beautiful women, but such we have never see.' Very talented. They could do everything.</u>
+                    <u who="#boderD" start="3299.230" end="x">How had they been selected?</u>
+                    <u who="#epsteinN" start="3301.118" end="x"> They came to the square where they were standing, and [they] picked out the most beautiful women. The most beautiful, the youngest, the healthiest women were separated.</u>
+                    <u who="#boderD" start="3307.873" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3309.051" end="x">And fifty-five men. Those men were...</u>
+                    <u who="#boderD" start="3313.167" end="x">One moment. [Adjusting the microphone.] Nu?</u>
+                    <u who="#epsteinN" start="3321.640" end="x"> Those men were prisoners of war who had gone for the Poles...when the Germans were fighting with the Poles they were drafted, and the Germans had captured them and put them into the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="3333.147" end="x">Were they Christians or Jews?</u>
+                    <u who="#epsteinN" start="3334.880" end="x">Jews. All Jews.</u>
+                    <u who="#boderD" start="3336.003" end="x">Yes. Nu?</u>
+                    <u who="#epsteinN" start="3336.735" end="x">They were Jews from Galizia.</u>
+                    <u who="#boderD" start="3338.767" end="x">Nu?</u>
+                    <u who="#epsteinN" start="3339.776" end="x">And these Jews had remained there, these fifty-five Jews who helped us very much, [us] the women who had returned from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="3346.243" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3346.449" end="x">We were completely non-human. We looked like skeletons. And they [these Jews] put us on our feet. They helped us very much.</u>
+                    <u who="#boderD" start="3354.080" end="x">What could they do?</u>
+                    <u who="#epsteinN" start="3355.780" end="x">They had...in the things [clothing] that they sorted from the dead was very much gold, very many diamonds, whole bars of gold. This they gave away [bartered]. There were Christians there.</u>
+                    <u who="#boderD" start="3367.177" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3367.510" end="x">And the Christians received food packages from home, from the Red Cross. So they gave all that [the valuables] away, and they received pieces of bread, whatever one could [get]. And with that they nourished us.</u>
+                    <u who="#boderD" start="3378.370" end="x">Tell me, you were all searched. They looked and they searched, and one had to undress. How was it possible to find gold on the dead?</u>
+                    <u who="#epsteinN" start="3387.165" end="x">When we went to work...</u>
+                    <u who="#boderD" start="3388.876" end="x">Yes?</u>
+                    <u who="#epsteinN" start="3389.722" end="x">...people carried with them...Jews would...On a Jew one could never find.</u>
+                    <u who="#boderD" start="3394.714" end="x">Oh.</u>
+                    <u who="#epsteinN" start="3395.213" end="x">A Jew had [it] sewn it their drawers. A Jew had [it] in the sole of the shoes. A Jew had [it] concealed in the hair. On a Jew they could never...they searched and they searched, and they did not find. [The situation appears akin to the narcotic situation in prisons.]</u>
+                    <u who="#boderD" start="3404.935" end="x">Nu?</u>
+                    <u who="#epsteinN" start="3406.158" end="x">With that Jews would save themselves. They always had something on themselves.</u>
+                    <u who="#boderD" start="3410.441" end="x">And on the dead they found it, too?</u>
+                    <u who="#epsteinN" start="3413.427" end="x">And after the dead, when they went...after the dead, when they went to look through the clothes, then all that was found.</u>
+                    <u who="#boderD" start="3420.415" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3421.350" end="x">And everybody...sometimes it was seven in the sleeves.</u>
+                    <u who="#boderD" start="3424.136" end="x">And they did not hand it over to the <term ref="#vothG_gestapo">Gestapo</term>?</u>
+                    <u who="#epsteinN" start="3426.545" end="x">No. It made no difference any more. Who wanted to go to the <term ref="#vothG_gestapo">Gestapo</term>? We knew today we lived and tomorrow we die.</u>
+                    <u who="#boderD" start="3432.213" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3432.493" end="x">It was already all the same. At that time we were not afraid of anything any more, because we knew that our turn was coming now and now we have to perish.</u>
+                    <u who="#boderD" start="3440.398" end="x"> Nu? And then?</u>
+                    <u who="#epsteinN" start="3443.350" end="x">[Whispers] Yes.</u>
+                    <u who="#boderD" start="3448.073" end="x">Go on.</u>
+                    <u who="#epsteinN" start="3449.459" end="x">And it lasted thus...I was there with these women. Later, when I had...when we became healthier, we were transferred to the fifth field [sector], and we lived together in one <term ref="#vothG_block">block</term> with these three hundred women.</u>
+                    <u who="#boderD" start="3461.588" end="x">With the three hundred women.</u>
+                    <u who="#epsteinN" start="3462.312" end="x">Yes, together with the three hundred women. With the men we did not have too close a contact.</u>
+                    <u who="#boderD" start="3466.473" end="x">You had recovered from the scabies?</u>
+                    <u who="#epsteinN" start="3468.660" end="x">Yes, I became cured, because these men took from the Christians salves which they received from the Red Cross, stole it from them and brought to us...</u>
+                    <u who="#boderD" start="3477.155" end="x">Why did they bring you over there?</u>
+                    <u who="#epsteinN" start="3479.575" end="x">Where to?</u>
+                    <u who="#boderD" start="3480.240" end="x">To <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, these who had positive malaria.</u>
+                    <u who="#epsteinN" start="3484.010" end="x">Because they said...it was such a 'craze' [whim] on their part. Thirty thousand they burned and thirteen they led to life.</u>
+                    <u who="#boderD" start="3489.604" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3489.983" end="x">That is how it was being done by them.</u>
+                    <u who="#boderD" start="3491.433" end="x">Hm .</u>
+                    <u who="#epsteinN" start="3491.995" end="x">And I had the luck that I was among these thirteen, and that I had been taken out. [Often such survivors were called upon after the war to testify as to the humnitarian behavior of particular war criminals. --DPB.]</u>
+                    <u who="#boderD" start="3495.231" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3496.318" end="x">And we could not believe it ourselves.</u>
+                    <u who="#boderD" start="3498.354" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3499.634" end="x">And we were in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> also thinking any day we will be burned. There are no Jews. To the crematory we saw them bringing every day other...children, women. They were at once led in the burned, those [who] were found on <term ref="#vothG_aryan">Aryan</term> papers [forged identifications as Christians].</u>
+                    <u who="#boderD" start="3514.819" end="x">[Words not clear.]</u>
+                    <u who="#epsteinN" start="3515.071" end="x">They were brought and immediately burned, from <placeName ref="Lublin">Lublin</placeName>, from all over, from the entire <placeName ref="Lublin">Lublin</placeName> region. Christians...</u>
+                    <u who="#boderD" start="3520.479" end="x">They were not gassed?</u>
+                    <u who="#epsteinN" start="3522.009" end="x">Gassed first and then burned. If there was no gas, they-would shoot [them] and then burn. We even heard shots, too, because it was very near.</u>
+                    <u who="#boderD" start="3529.934" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3531.510" end="x">And we were there together with them, and we lived together with them. The women told us about those tragedies. It was so frightful. They cried so terribly that it was....They would just repeat, 'Are there still Jews in the world?' We thought there were no more Jews, only we few have remained. We thought that they have already exterminated all the Jews from Europe, from all Poland. And we told them there is still a <term ref="#vothG_lager">lager</term> in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, they are still burning Jews every day. A few Jews are still [alive] in the <term ref="#vothG_lager">lager</term>, he who still has some strength to hold out somehow. He who is weak falls each day. And they asked us if we did not meet there any of their relatives. We had met none there. [Pause.]</u>
+                    <u who="#boderD" start="3578.133" end="x">Nu? [Pause.]</u>
+                    <u who="#epsteinN" start="3580.521" end="x"> After having been eight months in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, the second time, an order came: These women, the three hundred, the women survivors of the <term ref="#vothG_action">action</term>, must go to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>. And we, the thirteen of whom had remained eleven, go someplace else, because we have been tattooed, and they [are] not. They began crying very much...</u>
+                    <u who="#boderD" start="3602.200" end="x">You were what?</u>
+                    <u who="#epsteinN" start="3603.420" end="x">Tattooed...had these numbers.</u>
+                    <u who="#boderD" start="3605.436" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3605.589" end="x">Numbered. And these women...</u>
+                    <u who="#boderD" start="3606.919" end="x">The tattooed women should remain, and the non-tatooed...</u>
+                    <u who="#epsteinN" start="3608.369" end="x">The non-tattooed ones should go...the non-...non-tattooed ones should go to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>.</u>
+                    <u who="#boderD" start="3612.672" end="x">Yes. Nu?</u>
+                    <u who="#epsteinN" start="3614.079" end="x">And we....They were very smart women, so they began to cry very much. They said, 'We see [that] now has come already our death.' So they ran down to their [woman] superior. She came to the <term ref="#vothG_appell">appell</term> square and said, 'Why are we [they] not being taken together with them? We are the same Jews.'</u>
+                    <u who="#boderD" start="3630.028" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3630.450" end="x">So she answered, 'You have seen too much and know too much to be able to go together with these women.' So they saw [that] now is already death. And so these women were taken away. It was on a Monday morning. The month I do not remember so well. In the year '44...</u>
+                    <u who="#boderD" start="3652.309" end="x">Yes?</u>
+                    <u who="#epsteinN" start="3653.000" end="x">...they were taken to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName> and...while yet in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName> we did not know what happened to them. Two days later we were led out to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <u who="#boderD" start="3663.830" end="x">To where?</u>
+                    <u who="#epsteinN" start="3664.541" end="x">To <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. Near <placeName ref="Kraków">Cracow</placeName>, [to] a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="3666.836" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3667.435" end="x">There were eleven women. They led them away to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. They had added yet three hundred women from <placeName ref="Radom Ghetto" type="camp">Radom</placeName>.</u>
+                    <u who="#boderD" start="3672.666" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3673.644" end="x">And they led all of the away to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. There [among them] were little children, too. Pregnant women were there, and they led [us] away to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. Arriving in <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>, they took away the small children. They took away the small children. They took away the pregnant women. There was a famous hill. They were taken to the top and undressed nude. There were no cermatories. They were shot, and afterwards we carried boards and made a fire, and they were all burned.</u>
+                    <u who="#boderD" start="3697.684" end="x">You yourself carried the.</u>
+                    <u who="#epsteinN" start="3698.763" end="x">[Vehemently] Yes, I carried the boards. We carried the boards, and we saw how they shot them. If anyone had gold teeth, they pulled the teeth out.</u>
+                    <u who="#boderD" start="3708.058" end="x">You saw that yourself?</u>
+                    <u who="#epsteinN" start="3709.088" end="x"> Saw myself. I had afterwards still worse [experiences]. Before leaving <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName> I had the following [experience].</u>
+                    <u who="#boderD" start="3715.379" end="x">Where was that?</u>
+                    <u who="#epsteinN" start="3716.702" end="x">In <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <u who="#boderD" start="3717.839" end="x"><placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <u who="#epsteinN" start="3718.399" end="x"><term ref="#vothG_lager">Lager</term>
+                        <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>.</u>
+                    <!-- same time -->
+                    <u who="#boderD" start="3718.399" end="x">Where in <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>?</u>
+                    <u who="#epsteinN" start="3719.693" end="x"><placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName> is near <placeName ref="Kraków">Cracow</placeName>, three kilometers from <placeName ref="Kraków">Cracow</placeName>.</u>
+                    <u who="#boderD" start="3724.439" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3724.833" end="x">Three, four kilometers. That is such a <term ref="#vothG_lager">lager</term>. It was on the Jewish Cemetery. Where the cemetery was once...</u>
+                    <u who="#boderD" start="3730.342" end="x">Yes?</u>
+                    <u who="#epsteinN" start="3730.501" end="x">...they made a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="3731.717" end="x">Oh.</u>
+                    <u who="#epsteinN" start="3731.837" end="x">On the cemtery.</u>
+                    <u who="#boderD" start="3732.867" end="x">Aha.</u>
+                    <u who="#epsteinN" start="3733.193" end="x">We walked on the tombstones. Out of the [with the] tombstones they made [paved] streets. And there was installed a <term ref="#vothG_lager">lager</term>. There was a leader Getz, and Gruen, and there was one Shupke, a German. They handled the Jews. They were very big bandits. They shot [people] every day at first. A Jew was pushing a barrow with stones. He struggled. So he did not like the way he pushed it. He was inttantly shot, and he remained sitting on the Trage [barrows] just how he was shot. In the beginning...</u>
+                    <u who="#boderD" start="3760.155" end="x">A trage is what, a little cart?</u>
+                    <u who="#epsteinN" start="3762.153" end="x">Trage are [hand] barrows.</u>
+                    <u who="#boderD" start="3763.799" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3764.193" end="x">...with stones.</u>
+                    <u who="#boderD" start="3764.616" end="x">Hm.</u>
+                    <u who="#epsteinN" start="3764.685" end="x">Such boxes with stones.</u>
+                    <u who="#boderD" start="3765.663" end="x">Yes. Nu?</u>
+                    <u who="#epsteinN" start="3770.526" end="x">After having been there, it became a little better. All at once there arrived twenty men from <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. I was very interested in finding out what had been done with those women who had been together with us in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, these three hundred women. [When] I asked about the women from <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, he told me at once. 'Those beautiful women, yes, those smart ones. Alas, they are no more.' They had all been brought to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. They were tattooed, kept all night in a <term ref="#vothG_block">block</term>. In the middle of the night they were all called together and led into the cermatory. They were very heroic. They broke the windows. They would not let themselves be burned. But, alas, it was of no avail. The <term ref="#vothG_ss">SS</term> were stronger than they. Some threw themselves on [attacked] the <term ref="#vothG_ss">SS</term> men. For that they were taken and thrown alive in the oven [pits]. </u>
+                    <u who="#boderD" start="3827.796" end="x">Where, in the oven?</u>
+                    <u who="#epsteinN" start="3828.720" end="x">Into the oven where the cermatory was burning. And the rest were gassed. and thus the three hundred women perished. We suffered very much from it. We could not stand it. We cried very much, because they wanted very much to live. They were always saying, 'We lived through such terrible moments in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>, we will surely remain alive already. We stood over the open graves [and] they let us live and they let us live. Perhaps we will yet remain alive.' But alas, their drive, their hope went to naught. [Pause.]</u>
+                    <u who="#boderD" start="3863.330" end="x">Nu?</u>
+                    <u who="#epsteinN" start="3866.325" end="x">After <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>...after...While in <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>, a transport was brought with small children from <placeName ref="Krasnik concentration camp" type="camp">Krasnik</placeName>. I was all alone. I had it very hard, but I remedied it a little. I went to scrub floors in the <term ref="#vothG_block">blocks</term>. People who had [something] gave me a little piece of bread to eat. [Once] when they brought the children I took a great liking to a little girl. That little girl was from <placeName ref="Krasnik concentration camp" type="camp">Krasnik</placeName>. Her name was Chaykele Wasserman.</u>
+                    <u who="#boderD" start="3899.846" end="x">How come children were brought without mothers?</u>
+                    <u who="#epsteinN" start="3902.101" end="x">The mothers had been....It was like this. They had liquidated the <term ref="#vothG_lager">lager</term>. The Russians were approaching <placeName ref="Krasnik concentration camp" type="camp">Krasnik</placeName>, so they liquidated the <term ref="#vothG_lager">lager</term>. And that child's mother had escaped, and she was shot. And that child had come alone, without a mother, to the <term ref="#vothG_lager">lager</term>. And many children...they were all without mothers, because the mothers were immediately taken away. And the children separately. And the children were...they did not have enough time to take along the mothers. They grabbed the children and ran with them. And the children were brought to <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>. I took that little girl. I was with that little girl for four months. That child was very dear to me. I loved it very much. That child could not go anyplace without me. I was thinking I shall live through this war. I will be very happy with such a pretty and smart little girl, because it had hurt me very much that I had lost my brother's children. And I cheered myself up a little with that child.</u>
+                    <u who="#boderD" start="3956.721" end="x">You were not yet married?</u>
+                    <u who="#epsteinN" start="3958.581" end="x">No.</u>
+                    <u who="#boderD" start="3959.129" end="x">No. Nu?</u>
+                    <u who="#epsteinN" start="3961.005" end="x">And after having been there a time...</u>
+                    <u who="#boderD" start="3963.392" end="x">What did the child do there all day in the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#epsteinN" start="3966.243" end="x">The child did nothing. The child went around...on the street. It was not even called to <term ref="#vothG_appell">appell</term>. Sometimes it went to <term ref="#vothG_appell">appell</term>. and sometimes not. But they were doing it with an objective in [mind]. After a time they came and took away from us all the children, without exception. And that child was very clever. She had a very clear head on her.</u>
+                    <u who="#boderD" start="3987.474" end="x">How old was she?</u>
+                    <u who="#epsteinN" start="3988.342" end="x">She was eight years old.</u>
+                    <u who="#boderD" start="3989.562" end="x">Nu?</u>
+                    <u who="#epsteinN" start="3990.330" end="x">She hid in a latrine, that is, in a privy.</u>
+                    <u who="#boderD" start="3994.807" end="x">Yes.</u>
+                    <u who="#epsteinN" start="3995.340" end="x">Lowered herself down such an open privy, and that child hid there. All the children were taken away. People came and told me to go there, Chaykale is calling me, she cannot crawl out from the hole. And I went and pulled out the child. The child stunk very badly. I took it out, washed it up, dressed [her] in other clothes, and brought it to the <term ref="#vothG_block">block</term>. And that child...</u>
+                    <u who="#boderD" start="4016.947" end="x">You have to excuse me. When a child hides in a latrine...did other people know when they went to the latrine...</u>
+                    <u who="#epsteinN" start="4023.620" end="x">No. When the <term ref="#vothG_appell">appell</term> was over [and] the children were taken away, women went to the latrine. This was a women's latrine. So the child began yelling they should call me and I should take her out.</u>
+                    <u who="#boderD" start="4033.619" end="x">Aha.</u>
+                    <u who="#epsteinN" start="4034.483" end="x">And I was instantly called, and I pulled the child out. When I pulled her out she was overjoyed with me, and she said she was a very clever little girl. 'Now I shall already remain alive.' You see? 'Now I shall already remain alive.' But, alas, it was not so. After a time we were....The Russians were approaching <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName>, <placeName ref="Kraków">Cracow</placeName>, and we were again dragged away. I was the second time taken to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>, led away to <placeName ref="Auschwitz concentration camp" type="camp">Oswiecim</placeName>. We arrived in the middle of the night.</u>
+                    <u who="#boderD" start="4060.708" end="x">And the child with you?</u>
+                    <u who="#epsteinN" start="4062.056" end="x">The child I took along. What will be, will be. I kept the child with me. We came there at night. All night long the child did not sleep. She did not want to eat anything. She just kept asking me, 'Does gas Hurt?'</u>
+                    <u who="#boderD" start="4075.319" end="x">What?</u>
+                    <u who="#epsteinN" start="4075.963" end="x">If gas...when one is gassed, does it hurt?</u>
+                    <u who="#boderD" start="4078.750" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4078.942" end="x">If not, [then] she is not afraid. But I cried very much. I said, 'Go, you little silly one. There is a children's home. There you will be.' She says, 'Yes, a children's home! You see, there is the crematory. It burns. There they will burn me.' It was very painful for me. I could not stand it. I could not sleep. But suddenly the child fell asleep in my arms. I left the child lying on the ground and went over to some man who worked there in the shower-bath, and I pleaded with him. I lied to him. I said it was my sister's child, and he should see to help me save the child. So he said, 'You know what? Tomorrow morning you will all be undressed nude, and you will all be led before the doctor. He will make such a selection. And the child, 'he says,' you will tell to hide in the your [rags] when you will undress.' And that child was very clever. She did not even take off the shoes. She hid. And she hid in the rags. And I was waiting thus--it was in the morning--till the evening, till the child will come out. And in the evening I saw the child all dressed up. </u>
+                    <u who="#boderD" start="4140.318" end="x">What?</u>
+                    <u who="#epsteinN" start="4140.882" end="x">Dressed up. She had been dressed, washed. And that child came to me. When they took away all the children...</u>
+                    <u who="#boderD" start="4146.580" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4146.805" end="x">...the child got out from under the rags and came to me. the German doctor had left, and the child came to me.</u>
+                    <u who="#boderD" start="4152.393" end="x">And who...how did she wash herself and everything?</u>
+                    <u who="#epsteinN" start="4154.772" end="x">In...in the shower-bath there were Jewish women, there where the bath was. She was washed. Clothes there were very plentiful, from the many children [who] had been burned there, thousands, hundreds of thousands of children. She had been dressed very nicely. And the child came to me with great joy. 'See,'she says,' again I have remained alive. I shall again remain alive.'</u>
+                    <u who="#boderD" start="4171.677" end="x">And how...you too were left [alive]?</u>
+                    <u who="#epsteinN" start="4175.394" end="x">I bathed and was sent out. The hair was cut again. One [woman] who was big received a small dress. One who was small received a large dress, and wooden shoes. They beat badly. We were chased out. I waited. It was a huge transport of a few thousand people, so I waited till the last. Everybody had gone to the <term ref="#vothG_lager">lager</term>, to the <term ref="#vothG_block">block</term>, and I waited for the child to come out. And I saw the child. And together with the child I left for the <term ref="#vothG_block">block</term>.</u>
+                    <u who="#boderD" start="4204.167" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4205.000" end="x">While being in the <term ref="#vothG_block">block</term>, not long, a short time, three days, it was very bad. It was cold. They chased us out bare to the <term ref="#vothG_appell">appell</term>. There was nothing to eat.</u>
+                    <u who="#boderD" start="4214.654" end="x">That was in <placeName ref="Majdanek concentration camp" type="camp">Majdanek</placeName>...</u>
+                    <u who="#epsteinN" start="4216.147" end="x">In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="4217.096" end="x">In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName></u>
+                    <u who="#epsteinN" start="4217.268" end="x">In <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> it was. The second time in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="4220.394" end="x">Nu?</u>
+                    <u who="#epsteinN" start="4220.864" end="x">There was nothing to eat. The cold was so cutting, one could get sick. And the child, too, had to go to <term ref="#vothG_appell">appell</term>.</u>
+                    <u who="#boderD" start="4226.774" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4228.044" end="x">The child was counted as a grown-up person, but that child had much grief. She was not numbered [tattooed, which was apparently done only to those who were expected to remain alive for some time].</u>
+                    <u who="#boderD" start="4234.628" end="x">Aha.</u>
+                    <u who="#epsteinN" start="4235.163" end="x">she had not been numbered [tattooed]. I was with the child three days. After the three days there came a doctor by the name of Hessler.</u>
+                    <u who="#boderD" start="4246.148" end="x">Hessler?</u>
+                    <u who="#epsteinN" start="4246.657" end="x">Hessler.</u>
+                    <u who="#boderD" start="4247.606" end="x">Yes?</u>
+                    <u who="#epsteinN" start="4247.943" end="x">By the name of Hessler. And he again selected women to be sent to Germany. I was taken away. And that child cried very much. When she saw that I was being taken, she cried very much and screamed, 'You are leaving me. Who will be my mother now?' But, alas, I could not help any. I could do [arrange] nothing with the German. I went away and left the child.</u>
+                    <u who="#boderD" start="4271.953" end="x">Did you ask them...they should...</u>
+                    <u who="#epsteinN" start="4273.718" end="x">I asked, so he said, 'If you want to go to the crematory, you can go with the child. And if not, then go away from the child.'</u>
+                    <u who="#boderD" start="4278.874" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4280.018" end="x">I could accomplish nothing. I felt very bad. I cried very much. And the child was crying. And I parted from the child and left. </u>
+                    <u who="#boderD" start="4289.477" end="x">Did you leave the child with someone?</u>
+                    <u who="#epsteinN" start="4291.592" end="x">The child remained with the women, with the older women.</u>
+                    <u who="#boderD" start="4294.981" end="x">Nu?</u>
+                    <u who="#epsteinN" start="4296.340" end="x">And it was said that the deliverance is coming, the Russians are approaching, and they will not burn in the crematories any more.</u>
+                    <u who="#boderD" start="4303.397" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4304.170" end="x">It was said that now it is not allowed any more. An order [to that effect] had come. I do not know. I believe it is a lie.</u>
+                    <u who="#boderD" start="4309.611" end="x">And so you don't know what happened to the child.</u>
+                    <u who="#epsteinN" start="4311.243" end="x">I don't know anything [about] what happened to the child. I know only one thing: I left. The child said good-bye to me, and I was led away to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="4320.544" end="x">Nu?</u>
+                    <u who="#epsteinN" start="4321.381" end="x">Arriving in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>, there reigned a terrible hunger. People were dying...</u>
+                    <u who="#boderD" start="4327.053" end="x">Do you remember in which month, in what year?</u>
+                    <u who="#epsteinN" start="4329.993" end="x">It was in the year '44.</u>
+                    <u who="#boderD" start="4332.767" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4333.156" end="x">Winter.</u>
+                    <u who="#boderD" start="4333.942" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4334.673" end="x">The exact month I do not remember.</u>
+                    <u who="#boderD" start="4335.805" end="x"> Yes. That is not important.</u>
+                    <u who="#epsteinN" start="4337.219" end="x">The last month. In the year '44, in winter.</u>
+                    <u who="#boderD" start="4339.592" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4340.677" end="x">I was in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> three months. The hunger was so great -- a terror. We went to the garbage heap and picked the peels from the turnips that were cooked in the kitchen. And if one chance to grab a turnip....I was very daring [?]. I did everything. I fought strongly to stay alive. So I got out through the gate, where they were shooting, and grabbed a turnip. And a minute later they shot a girl who grabbed a turnip. I ran into the <term ref="#vothG_block">block</term>.</u>
+                    <u who="#boderD" start="4367.013" end="x">Did the turnip lay outside the gate?</u>
+                    <u who="#epsteinN" start="4369.287" end="x">No. Outside the gate there was located the kitchen...</u>
+                    <u who="#boderD" start="4372.257" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4372.457" end="x">...with...with wires so one would not be able to get near.</u>
+                    <u who="#boderD" start="4374.307" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4374.599" end="x">So I opened the gate and go in. I risked it. I knew that the moment I grab it the bullet may hit me, but the hunger was stronger than [the fear of] death.</u>
+                    <u who="#boderD" start="4383.171" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4384.565" end="x">And I went and brought such a turnip. I returned to the <term ref="#vothG_block">block</term>. People, corpses, dead ones, assaulted me, that I should give them [some] too. I shared it with them. We rejoiced. We finished the meal and went to sleep. After having been [there] three months, a German came again, and again selected Jews. I did not know where to [turn]. But I only wanted [to go] on, on. It always seemed to me here it is no good, there it will be better. And again I traveled. They collected two hundred Hungarian women, three hundred Polish women, and we were led away to <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>.</u>
+                    <u who="#boderD" start="4424.842" end="x"><placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>?</u>
+                    <u who="#epsteinN" start="4425.440" end="x"><placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>. That is near <placeName ref="Magdeburg Brabag concentration camp" type="camp">Magdeburg</placeName>.</u>
+                    <u who="#boderD" start="4427.615" end="x">Yes. From <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#epsteinN" start="4429.462" end="x">From <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> to <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>.</u>
+                    <u who="#boderD" start="4431.215" end="x">What was there?</u>
+                    <u who="#epsteinN" start="4432.078" end="x">There was an airplane factory.</u>
+                    <u who="#boderD" start="4435.913" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4437.053" end="x">There everything had been bombed. Nothing was there. There was a <term ref="#vothG_lager">lager</term> commander, a very mean one. There were foreigners. Eh...how does one say it in [word not clear]? Captured...</u>
+                    <u who="#boderD" start="4450.638" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4450.989" end="x">Prisoners of war...</u>
+                    <u who="#boderD" start="4451.852" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4452.022" end="x">...were there. Foreigners. Dutch, French, Yugoslavian. And they worked there. They were free. And they helped us a lot. They would give a little piece of bread, whatever [they] could. But then, if one was caught, nothing was done to him, but the woman was taken, she had her hair cut off, and she received a good beating. And she was not supposed to do it again. We became very much afraid.</u>
+                    <u who="#boderD" start="4474.405" end="x">[Word not clear.]</u>
+                    <u who="#epsteinN" start="4475.475" end="x">But in spite of that they would help us a lot. And they said, 'Do not worry. Now freedom is approaching. And you will be liberated. The Americans are already approaching. It will not be long, and you will be liberated.' Well, we did not believe anything. We were without hope and indifferent [?], never any [word not clear]. We could not imagine that we are to remain alive after such experiences, being in such murderous hands. But they would bring us newspapers. We read the newspapers. We saw that it is really so, that the deliverance is coming, that the Germans are in a bad way, that the Americans are approaching. We began believing [to have faith] a little. There was an...an over-...overseer, a forman, a German, a..eh...German civilian.</u>
+                    <u who="#boderD" start="4527.103" end="x">Yes?</u>
+                    <u who="#epsteinN" start="4528.090" end="x">He would come, and when he saw that we take such an interest in...in politics, and that we know what is going on in the world, so he said, [ironically] 'Yes, yes, you have nothing to think about. Comes the moment when all of you will have to go with uncovered breasts to be shot.' And we, alas, would go home with emittered hearts. We cried terribly. Why should we not live to see freedom? Why do we deserve it? But it was not so. For him it was death. And we, for us, indeed, came the time that we were liberated, but it still took a long time yet. It took another month. After being there for perhaps two months there came another order. There had begun strong air-raids. We ran...every night we were led into a forest to a bunker. They said we have to run away. They were afraid for themselves. They did not take us so that we should be saved, but they wanted to save themselves, and they did not want to leave us alone, because they were afraid we will escape. And they dragged us. We were working night shift. Snow was falling. Three, four times a night they called alarm, and we had to get out and run to the forest, to the trench [?] They had made such a pit, and there to hide. We suffered like that for a few weeks. The Americans began approaching. In the middle of the night they suddenly woke all of us up and called out 'Everybody out,' to get out this instant. When we went outside all around everything was in flames. Everything was burning around that little town. There passed...</u>
+                    <u who="#boderD" start="4629.720" end="x">What was burning...from...</u>
+                    <u who="#epsteinN" start="4631.235" end="x">From the bombs. From the airplanes which were bombing.</u>
+                    <u who="#boderD" start="4633.878" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4634.284" end="x">The American reconnaissance...</u>
+                    <u who="#boderD" start="4636.404" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4636.631" end="x">...were already penetrating into the town.</u>
+                    <u who="#boderD" start="4638.448" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4639.042" end="x">There ran by such a...a...[war] prisoner, so he told us quietly, 'Children, three kilometers from here are the Americans.' But for us still there was no joy. We had to retreat from there. They dragged us on. Our women wrote on the walls...</u>
+                    <u who="#boderD" start="4656.889" end="x">How many women were there?</u>
+                    <u who="#epsteinN" start="4658.411" end="x">There were five hundred women.</u>
+                    <u who="#boderD" start="4660.188" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4661.153" end="x">Our women wrote upon the walls in English, Jewish, 'U.S.A save us. We are here on the road.'</u>
+                    <u who="#boderD" start="4668.396" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4669.486" end="x">'They have led us away.' We cried terribly. The help is so close, and we are again going somewhere to death.</u>
+                    <u who="#boderD" start="4675.831" end="x">[In English] Hm. This concludes Spool 96. We had a intermission -- Mrs. Epstein has been working in the morning in the community kitchen and returned from the [inaudible]. We go over from Spool 96 directly to Spool 104. This is <placeName ref="Tradate">Tradate</placeName>, between <placeName ref="Milano">Milan</placeName> and <placeName ref="Como">Como</placeName>. A displaced people's camp, a <term ref="#vothG_kibbutz">kibbutzim</term>. They are... which are planning to go to Palestine. Mrs. Epstein is expecting a baby, she is 23 years old... [End of Spool 96.]</u>
+                    <!-- end Spool 9-96 -->
+                    <!-- beging Spool 9-104A -->
+                    <u who="#boderD" start="4744.316" end="x">[In English] Castello <placeName ref="Tradate">Tradate</placeName>, September the 1st, 1946. A camp located between <placeName ref="Milano">Milano</placeName> and <placeName ref="Como">Como</placeName> in Italy. We are going over to [Spool] 104 which is a continuation of 96. Mrs. Nechamah Bernstein...</u>
+                    <u who="#epsteinN" start="4768.958" end="x">[Correcting] Epstein.</u>
+                    <u who="#boderD" start="4769.448" end="x">Nechamah Epstein. Mrs. Nechamah Epstein is reporting. We are starting the third spool for her, but there were a number of other spools in between. So we go directly from [Spool] 96 to 104. </u>
+                    <u who="#boderD" start="4783.607" end="x">[In German] And so, Mrs. Epstein, you were talking about how you...in what <term ref="#vothG_lager">lager</term> was that?</u>
+                    <u who="#epsteinN" start="4789.469" end="x"><placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>.</u>
+                    <u who="#boderD" start="4790.809" end="x">From <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName> they took you out when they found out that the liberation...the English or Americans? Who was it?</u>
+                    <u who="#epsteinN" start="4797.557" end="x"> The Americans.</u>
+                    <u who="#boderD" start="4798.288" end="x">The Americans were three miles away. Tell me, what did people...what did the woman write on the wall? Begin.</u>
+                    <u who="#epsteinN" start="4805.340" end="x">They wrote...wrote with the...'U.S.A.,' they should save [us]. 'We are going away.' And more...more we couldn't write. Everyone signed. Perhaps come an acquaintance, so he should know who had been there.</u>
+                    <u who="#boderD" start="4821.294" end="x">Yes.</u>
+                    <u who="#epsteinN" start="4822.005" end="x">We were walking like this for two weeks.</u>
+                    <u who="#boderD" start="4825.350" end="x">How, on foot?</u>
+                    <u who="#epsteinN" start="4826.161" end="x">On foot for two weeks time.</u>
+                    <u who="#boderD" start="4827.538" end="x">And where did you go?</u>
+                    <u who="#epsteinN" start="4828.968" end="x">Very terrible was the road. On the way many were shot, those who couldn't walk. We didn't get [anything] to eat. They dragged us from one village to another, from one town to another. We covered sixty, seventy kilometers a day.</u>
+                    <u who="#boderD" start="4842.182" end="x">How many people were you?</u>
+                    <u who="#epsteinN" start="4843.801" end="x">Five hundred people. There had arrived on the place three hundred, two hundred...</u>
+                    <u who="#boderD" start="4846.987" end="x">Only women?</u>
+                    <u who="#epsteinN" start="4848.207" end="x">Only women. Two hundred fell en route.</u>
+                    <u who="#boderD" start="4851.410" end="x">What was done to them en route?</u>
+                    <u who="#epsteinN" start="4853.428" end="x">They were shot. Those who could not walk were shot.</u>
+                    <u who="#boderD" start="4857.310" end="x">Did you see it yourself?</u>
+                    <u who="#epsteinN" start="4858.666" end="x">Yes. I stood and looked how the <term ref="#vothG_lager">lager</term> commander took out his revolver, and [to] the one who couldn't walk he said, 'Come with me,' took aside and shot him. And we were thinking...one evening they took us down near a forest. There was nowhere to go in [for shelter]. The Germans didn't allow us to enter, not even a stable, so they led us down to a forest. We were thinking, here is already our end. Here we will all be shot. For the moment, however, it was not yet so. We were suffering terribly.</u>
+                    <u who="#boderD" start="4892.152" end="x">Nu?</u>
+                    <u who="#epsteinN" start="4894.071" end="x">We endured all that till they dragged [us] as far as <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>. We arrived in <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>...</u>
+                    <u who="#boderD" start="4900.814" end="x">All that way, from <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> to <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName> in Czechia.</u>
+                    <u who="#epsteinN" start="4905.005" end="x">No. From <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName>.</u>
+                    <u who="#boderD" start="4906.954" end="x">From <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName> to...</u>
+                    <u who="#epsteinN" start="4908.320" end="x">From <placeName ref="Aschersleben concentration camp" type="camp">Aschersleben</placeName> to <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>.</u>
+                    <u who="#boderD" start="4910.325" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4910.790" end="x">On foot.</u>
+                    <u who="#boderD" start="4911.435" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4911.801" end="x">How many kilometers it was I have absolutely no idea. Everything on foot.</u>
+                    <u who="#boderD" start="4914.530" end="x">How long did you march?</u>
+                    <u who="#epsteinN" start="4916.209" end="x">Two weeks.</u>
+                    <u who="#boderD" start="4917.052" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4917.954" end="x">Fourteen days we went on foot and over the...</u>
+                    <u who="#boderD" start="4920.268" end="x">And what did you eat?</u>
+                    <u who="#epsteinN" start="4921.760" end="x">We ate.. while walking we picked up from the field raw potatoes, also when the German didn't see. We would be beaten. Many ate the potatoes, and many ate the peeling of the potatoes.</u>
+                    <u who="#boderD" start="4932.947" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4934.125" end="x">And on that we subsisted. We would pull out a beet. It was already not possible to endure. Two hundred people fell from hunger, and he shot them. Arriving in <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName> we were led in. There was a Jewish <term ref="#vothG_ghetto">Ghetto</term>, <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>. That is in Czechia.</u>
+                    <u who="#boderD" start="4954.996" end="x">Hm.</u>
+                    <u who="#epsteinN" start="4955.611" end="x">Arriving in <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName> we were completely in tatters. From the blankets we had to cover ourselves with, we made socks, we dressed ourselves. We were very dirty. We were badly treated. We were beaten. They screamed at us, 'Accursed swines! You are filthy. What sort of a people are you?'</u>
+                    <u who="#boderD" start="4975.702" end="x">Hm, hm.</u>
+                    <u who="#epsteinN" start="4976.663" end="x">But we were not allowed to say anything, because we were in their hands. We arrived in <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>. There were only Jews, many Jews from Germany. There were very many old women who were...mixed [intermarried], Germans and Jews. They had Jewish sons, <term ref="#vothG_ss">SS</term> men...not Jewish sons' <term ref="#vothG_ss">SS</term> men, but their sons were <term ref="#vothG_ss">SS</term> men. They were serving Hitler, and she...she was Jewish; the husband was a German. And that is the reason they remained alive. All old, grey women. And all the children with mothers had been transported to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> before, yet. And they were permitted to survive the war. Finally we arrived there. Short and sharp [to the point], we were there two months, eight weeks. We didn't received [anything] to eat. It was very little food. And the Germans prepared a large crematory. They had heard that the front is again approaching. They prepared a large crematory, but they did not have enough time to do it. One nice day they called together all the Jews, and they wanted to make an air-raid alarm so that we go down into that bunker. There came a German and betrayed [divulged] all that. He said that if he will be escorted to Switzerland, [then] this will not be carried out. He was promised [that]. The Swiss Red Cross took us over, and all of us were saved.</u>
+                    <u who="#boderD" start="5074.208" end="x">Aha. What was it again? Tell me again about that German. What did he say?</u>
+                    <u who="#epsteinN" start="5078.231" end="x">He said that if he were saved then he would betray it all. He will not allow that everybody should be finished.</u>
+                    <u who="#boderD" start="5084.375" end="x">Yes.</u>
+                    <u who="#epsteinN" start="5084.931" end="x">And that was done. All of us were saved.</u>
+                    <u who="#boderD" start="5088.016" end="x">Where...</u>
+                    <u who="#epsteinN" start="5088.809" end="x">In <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>. In the <term ref="#vothG_ghetto">Ghetto</term>.</u>
+                    <u who="#boderD" start="5090.992" end="x">Yes?</u>
+                    <u who="#epsteinN" start="5091.684" end="x">Two hours before the entry of the Russians...</u>
+                    <u who="#boderD" start="5095.263" end="x">Hm.</u>
+                    <u who="#epsteinN" start="5095.631" end="x">It was the Russians...</u>
+                    <u who="#boderD" start="5096.691" end="x">Yes?</u>
+                    <u who="#epsteinN" start="5097.583" end="x">The Germans still drive through, the <term ref="#vothG_ss">SS</term> men with tanks, with weapons, and began to fire on...</u>
+                    <u who="#boderD" start="5102.920" end="x">Yes.</u>
+                    <u who="#epsteinN" start="5103.061" end="x">...the whole <term ref="#vothG_lager">lager</term>. They were shooting inside. All of us were hiding. We thought here already is the end. But two hours had passed. We heard the Russian tanks were here. And we didn't believe [it] ourselves. We went out, whoever was able. There were a lot of sick who couldn't go. We went out with great joy, with much crying. We had lived to see the moment of liberation. And that is how our grief had ended.</u>
+                    <u who="#boderD" start="5129.597" end="x">How...tell me again what happened with that German. Was he taken to Switzerland?</u>
+                    <u who="#epsteinN" start="5134.144" end="x">That I know nothing about. It was said...people told that he was sent away. But what happened to him, I know absolutely nothing. I only know this one thing, that all of us were saved, and we have remained alive.</u>
+                    <u who="#boderD" start="5144.586" end="x">Nu? And...</u>
+                    <u who="#epsteinN" start="5146.236" end="x">But now there began a real death [great mortality]. People who had been starved for so many years....The Russians had opened all the German storehouses, all the German stores, and they said, 'Take whatever you want.' People who had been badly starved, they shouldn't have eaten.</u>
+                    <u who="#boderD" start="5161.775" end="x">The opened [?] the stores of the Germans?</u>
+                    <u who="#epsteinN" start="5163.684" end="x">Yes, all the stores, military storerooms. Everything was opened. And the people began to eat, to eat too much, greedily. And that was harmful for them. There was a great epidemic. Hundreds of people fell a day. After the liberation, two, three, days after the liberation, there had fallen very many people. In about a month half of the <term ref="#vothG_lager">lager</term> had fallen. And nothing could be done about it until it...there were full stables, full with dead. People crawled over the dead. It stank terribly. There was raging a severe typhus. And I, too, got sick. I lay four weeks in the hospital. [See the story of Mr. Schlaefrig, vol. VII. chap. 26.]</u>
+                    <u who="#boderD" start="5202.153" end="x">What did you have?</u>
+                    <u who="#epsteinN" start="5203.875" end="x">I had spotted typhus.</u>
+                    <u who="#boderD" start="5205.715" end="x">Oh.</u>
+                    <u who="#epsteinN" start="5206.607" end="x">And I suffered through the typhus...</u>
+                    <u who="#boderD" start="5207.402" end="x">Did people have lice in <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName>?</u>
+                    <u who="#epsteinN" start="5209.566" end="x">In <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName> we had lice too, yes. Many had lice.</u>
+                    <u who="#boderD" start="5213.351" end="x">Nu?</u>
+                    <u who="#epsteinN" start="5213.598" end="x">Later on it was cleaned up. But I had also gone through the typhus. I didn't have anybody, all alone. All night I lay and cried, 'What will I do now? I have remained alone, without a home, without a father and without a mother. And now freedom. What did I survive for?' I was alive crying, but my fate [in Hebrew] had not been completely lost. I have...</u>
+                    <u who="#boderD" start="5237.680" end="x">What was not lost?</u>
+                    <u who="#epsteinN" start="5238.944" end="x">My fate was not completely lost. I...</u>
+                    <u who="#boderD" start="5241.206" end="x">Hm. What does it mean, not lost?</u>
+                    <u who="#epsteinN" start="5243.487" end="x">Lost, [that means] I still had hope.</u>
+                    <u who="#boderD" start="5245.502" end="x">Yes?</u>
+                    <u who="#epsteinN" start="5246.395" end="x">I left <placeName ref="Theresienstadt concentration camp" type="camp">Theresienstadt</placeName> with a transport for Poland. I was...I arrived in <placeName ref="Warsaw">Warsaw</placeName>. In <placeName ref="Warsaw">Warsaw</placeName> immediately I joined, the first day, a <term ref="#vothG_kibbutz">Kibbutz</term>-Ichud. And there I began a new life.</u>
+                    <u who="#boderD" start="5260.350" end="x">Did you know about that <term ref="#vothG_kibbutz">Kibbutz</term> before?</u>
+                    <u who="#epsteinN" start="5263.609" end="x">I belonged once to an organization but not to <term ref="#vothG_kibbutz">Kibbutz</term>. I didn't have...for me there was no other way out. For me there had remained only one aim, I want to come to <term ref="#vothG_eretzY">Eretz</term> and build a Jewish Home together with all brothers and sisters. There in the <term ref="#vothG_kibbutz">Kibbutz</term>.I married my husband.</u>
+                    <u who="#boderD" start="5285.072" end="x">In <placeName ref="Warsaw">Warsaw</placeName>?</u>
+                    <u who="#epsteinN" start="5285.779" end="x">In <placeName ref="Warsaw">Warsaw</placeName>. I married my husband, and my married name is Kozlowska.</u>
+                    <u who="#boderD" start="5292.823" end="x">And from where is your husband?</u>
+                    <u who="#epsteinN" start="5294.811" end="x">My husband was [whisper; not clear]. I can't...he was...</u>
+                    <u who="#boderD" start="5299.391" end="x">What?</u>
+                    <u who="#epsteinN" start="5299.932" end="x">From <placeName ref="Vilnius">Vilno</placeName> [?]</u>
+                    <u who="#boderD" start="5301.363" end="x">Well, go on [?]</u>
+                    <u who="#epsteinN" start="5303.067" end="x">My husband had also suffered a lot. In the year '41 he got out from the German hand into Russia. And there he had endured much, much. [Whispers] I understand they had made of him a kind of spy. Maybe it is not to be talked about altogether.</u>
+                    <u who="#boderD" start="5314.493" end="x">Why not [?]?</u>
+                    <u who="#epsteinN" start="5316.669" end="x">What is the use of it?</u>
+                    <u who="#boderD" start="5317.862" end="x">[Words not clear.]</u>
+                    <u who="#epsteinN" start="5320.533" end="x">He had also gone through a lot. About him there is also much to tell, but he is not, but he is not here, and I can't tell it.</u>
+                    <u who="#boderD" start="5327.228" end="x">All right. [Words not clear.] Nu, how did you get to Italy?</u>
+                    <u who="#epsteinN" start="5333.032" end="x">I should tell how I came to Italy?</u>
+                    <u who="#boderD" start="5334.444" end="x">[Words not clear.]</u>
+                    <u who="#epsteinN" start="5334.806" end="x">We smuggled...smuggled ourselves...</u>
+                    <u who="#boderD" start="5335.928" end="x">Well, tell about it.</u>
+                    <u who="#epsteinN" start="5336.826" end="x">It won't harm?</u>
+                    <u who="#boderD" start="5337.364" end="x">No. It is for us [words not clear].</u>
+                    <u who="#epsteinN" start="5340.948" end="x">And I got married, and my aim was to get closer, ever closer, to <term ref="#vothG_eretzY">Eretz Israel</term>. From Poland I departed for Czechia. From Czechia I went to Germany. From Germany I came to Italy. And now I find myself here, and I say again, my struggle is for one thing only, and this one thing has remained for me: To come, together with my husband, to <term ref="#vothG_eretzY">Eretz Israel</term> and to build a Jewish Home together with all brothers and sisters. The end. </u>
+                    <u who="#boderD" start="5374.313" end="x">And so, I thank you very much. </u>
+                    <u who="#boderD" start="5375.693" end="x">[In English] This concludes the interview with Miss [Mrs.] Nechamah Epstein-Kozlowski. She prefers not to talk about her husband and not to talk about the ways and means by which they came to Italy. She is now here in the home, as I said before, of the...they are living in <term ref="#vothG_kibbutz">Kibbutzim</term> groups at <placeName ref="Tradate">Tradate</placeName>. <placeName ref="Tradate">Tradate</placeName> between <placeName ref="Milano">Milano</placeName> and <placeName ref="Como">Como</placeName>. This is an Illinois Institute of Technology wire recording. September the 1st, 1946.</u>
+                </div>
+                <!-- end Spool 9-104A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Maximillian Lipschitz; August 4, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Stefan Meuser</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Stefan Meuser</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT14M10.68S" id="lipschitzM_9-21A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-21</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-04</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="lipschitzM_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="lipschitzM_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="lipschitzM" role="interviewee">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>Maximillian</forename>
+                            <surname>Lipschitz</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>35</age>
+                        <birth ref="Neuschonstau"/>
+                        <faith>Jewish</faith>
+                        <nationality>unknown</nationality>
+                        <state type="marital_status">
+                            <desc>widower</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Kraków">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Kraków Ghetto">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#lipschitzM_de">
+                <!-- begin Spool 9-21A -->
+                <div lang="en">
+                    <u who="#boderD" start="0.753" end="x">[In English] Chicago, June the 26th, 1950, project MH156. This is reproduction Spool 9-21A, Dr. Maximilian Lipschitz. It is the first half of Spool 21.</u>
+                    <p>[pause]</p>
+                    <u who="#boderD" start="63.972" end="x">August the 4th, Rue de Patin [checks recorder] . . . August the 4th, Rue, 9 Rue de Patin, in a home for adult deportees. Paris, August 4th, 1946, at Rue Patin, number 9, in a home for adult Jews. We are going to interview Dr. Maximilian Lipschitz, eh, age thirty-five. This is Spool 21.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="104.402" end="x">[In German] Eh, also, sagen Sie mir, wieder, sagen Sie uns, was ist Ihr voller Name?</u>
+                    <u who="#lipschitzM" start="111.372" end="x">Dr. Maximilian Lipschitz.</u>
+                    <u who="#boderD" start="114.155" end="x">Und, eh, wo sind Sie geboren, Dr. Lipschitz?</u>
+                    <u who="#lipschitzM" start="116.806" end="x">In Neuschonstau.</u>
+                    <u who="#boderD" start="118.173" end="x">Wo ist das?</u>
+                    <u who="#lipschitzM" start="119.017" end="x">Das ist in der Tschechoslowakei.</u>
+                    <u who="#boderD" start="120.897" end="x">Ja. Eh, und, eh, wo, hm, und wo haben Sie studiert?</u>
+                    <u who="#lipschitzM" start="126.602" end="x">Ich habe in Prag studiert.</u>
+                    <u who="#boderD" start="128.331" end="x">Und, eh, Ihren Doktor haben Sie in welchem Fach?</u>
+                    <u who="#lipschitzM" start="131.506" end="x">In Naturwissenschaften, und hauptsächlich Chemie.</u>
+                    <u who="#boderD" start="134.470" end="x">In Naturwissenschaften, hauptsächlich Chemie. [inaudible, pause]</u>
+                    <u who="#boderD" start="142.012" end="x">Also, sprechen Sie ein bissel lauter, und wollen Sie uns sagen, wo waren Sie, wenn der Krieg angefangen hat und was hat dann passiert?</u>
+                    <u who="#lipschitzM" start="151.078" end="x">Als der Krieg anfing, war ich in Krakau, weil ich da meine Familie hatte, mein Kind, das sechs Wochen alt war, und meine Schwester.</u>
+                    <u who="#boderD" start="161.332" end="x">Und Ihre Frau?</u>
+                    <u who="#lipschitzM" start="162.428" end="x">Meine Frau war schon vor dem Krieg gestorben. Ich hatte dort meine Familie und lebte eine Zeit, eh, verhältnismäßig, eh, ungestört, bis die größeren, eh, Verfolgungen anfingen. Im Dezember 1939 fing es an mit verschiedenen Registrierungen, und eh, auch eh, und dann, im Dezember, mit den, eh, mit den, mit der Vorschrift, eh, einen, ein Band mit dem Judenstern am rechten Arm zu tragen. Dann kamen die verschiedenen Verbote, mit der Bahn zu fahren, die Verbote—diese . . .</u>
+                    <u who="#boderD" start="208.151" end="x">Mit welcher Bahn, außer der Stadt oder in der Stadt?</u>
+                    <u who="#lipschitzM" start="210.603" end="x">Mit der, mit der, eh, Staatsbahn zu fahren, mit der Eisenbahn.</u>
+                    <u who="#boderD" start="214.561" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="216.230" end="x">Dann kamen, eh, die Verbote, selbständig Geschäfte zu führen, auf, eh, Beamtenstellen zu sein, so dass die Juden immer gedrückter und gedrückter in ihren, eh, Wohnverhältnissen und in ihren Lebensverhältnissen wurden. Eine Zeit durften Juden noch in den größeren Städten wohnen, dann wurde es immer gedrückter, und bis 1941 waren die Juden hauptsächlich in meister Städten Polens in Ghettos zusammengepfercht.</u>
+                    <u who="#boderD" start="249.642" end="x">Ja, also, erzählen Sie bloß von Ihrer Stadt, und wo Sie waren und was dort passiert hat.—Sie waren also in Krakau?</u>
+                    <u who="#lipschitzM" start="256.943" end="x">Ich war in Krakau, im Jahre 1942 waren wir schon, alle Juden, die in, eh, Krakau, in Krakau Umgebung wohnten, hauptsächlich im Krakauer Ghetto, eh, zusammen ge-, zusammen gedrückt.</u>
+                    <u who="#boderD" start="271.973" end="x">Ja, eh, nun beschreiben Sie etwas das Ghetto und wie hat man das Ghetto gemacht und weiter?</u>
+                    <u who="#lipschitzM" start="278.332" end="x">Das Ghetto wurde in ein, in Podgórze errichtet, das eh, eine Vorstadt von Krakau, dort wurden auf einem ganz kleinen, eh, auf einer, auf einem ganz kleiner Raum die cirka 15.000 Juden, die in der Stadt gelassen wurden, in sehr engen Wohnverhältnissen zusammen gedrückt.</u>
+                    <u who="#boderD" start="302.109" end="x">Haben dort Juden bevor gewohnt?</u>
+                    <u who="#lipschitzM" start="304.903" end="x">Es haben auch Juden vorher dort gewohnt, aber die Wohnungen wurden von den Gästen die dort vorher wohnten eh, ausgeräumt,</u>
+                    <u who="#boderD" start="313.638" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="314.331" end="x">. . . und die Juden wurden in ganz engen Wohnverhältnissen zusammen gerückt—so dass in einem Zimmer cirka drei, vier Menschen wohnten.</u>
+                    <u who="#boderD" start="322.705" end="x">Nun?</u>
+                    <u who="#lipschitzM" start="323.621" end="x">Und auch mehr. Ich wohnte zum Beispiel in einem ziemlich großen Zimmer, da wohnten wir 12 Personen.</u>
+                    <u who="#boderD" start="332.850" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="333.495" end="x">Da wohnte allerdings, da wohnte drei Kinder . . .</u>
+                    <u who="#boderD" start="333.929" end="x">Alle Männer?</u>
+                    <u who="#lipschitzM" start="335.296" end="x">Nein, Familien, Fremde und so weiter.</u>
+                    <u who="#boderD" start="337.586" end="x">Männer und Frauen darunter?</u>
+                    <u who="#lipschitzM" start="338.803" end="x">Männer und Frauen und Kinder in einem . . .</u>
+                    <u who="#boderD" start="340.110" end="x">In einem Zimmer . . .</u>
+                    <u who="#lipschitzM" start="340.923" end="x">. . . in einem Zimmer.</u>
+                    <u who="#boderD" start="341.707" end="x">Ja. Nun, wovon hat man gelebt?</u>
+                    <u who="#lipschitzM" start="344.641" end="x">Leben durfte man nur von der Arbeit, die einem die Deutschen anbieteten, das war hauptsächlich, eh, in Fabriken als Arbeiter, hauptsächlich in Rüstungsfabriken, in Militärwerkstätten, und . . .</u>
+                    <u who="#boderD" start="357.304" end="x">Und haben die für die Arbeit bezahlt?</u>
+                    <u who="#lipschitzM" start="359.997" end="x">Die haben für die Arbeit so bezahlt, aber so, dass man nur da förmlich davon leben konnte, und hauptsächlich leben konnte man nur davon, dass man Sachen, die man noch hatte, irgendwie, Bettzeug oder Töpfe, verkaufen ging und von dem Erlös der Waren lebte.</u>
+                    <u who="#boderD" start="374.346" end="x">Zu wem hat man das verkauft?</u>
+                    <u who="#lipschitzM" start="376.214" end="x">Das hat man an Polen verkauft.</u>
+                    <u who="#boderD" start="377.581" end="x">Das hat man an die Polen verkauft.</u>
+                    <u who="#lipschitzM" start="379.148" end="x">Ja.</u>
+                    <u who="#boderD" start="379.371" end="x">Eh, war es für die Juden spezielles Geld, war es Ghettogeld dort?</u>
+                    <u who="#lipschitzM" start="383.419" end="x">In Krakau war kein spezielles Geld.</u>
+                    <u who="#boderD" start="385.648" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="386.160" end="x">Das war in Lodz, ne, das waren . . .</u>
+                    <u who="#boderD" start="387.907" end="x">In Lodz war es Ghettogeld . . .</u>
+                    <u who="#lipschitzM" start="388.931" end="x">Ja, das war Lodz, ja.</u>
+                    <u who="#boderD" start="389.534" end="x">Nun, also, so haben Sie mit zwölf Leuten in einem Zimmer gewohnt. Wer war mit Ihnen von Ihren Verwandten?</u>
+                    <u who="#lipschitzM" start="396.203" end="x">Ich war noch mit meiner Schwester, und Schwager, ein Kind von mir, zwei Kinder von meiner Schwester . . .</u>
+                    <u who="#boderD" start="403.323" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="403.986" end="x">Dann war noch, eh, eine, ein Cousin von mir mit Frau und Kind . . .</u>
+                    <u who="#boderD" start="412.058" end="x">Ja, und?</u>
+                    <u who="#lipschitzM" start="412.480" end="x">Ein Onkel und eine Tante . . .</u>
+                    <u who="#boderD" start="414.528" end="x">Ja. Und warn auch noch mit Fremde mit . . . ?</u>
+                    <u who="#lipschitzM" start="416.576" end="x">Und warn auch Fremde mit Familie, fremde, fremde Menschen noch dabei.</u>
+                    <u who="#boderD" start="419.980" end="x">Also, wie hat man geschlafen?</u>
+                    <u who="#lipschitzM" start="423.031" end="x">Man, eh, es warn entweder Betten da, und wenn kein Platz war, warn wir auch, eh, haben wir auf der Erde schlafen müssen.</u>
+                    <u who="#boderD" start="429.688" end="x">Nun, also weiter.</u>
+                    <u who="#lipschitzM" start="430.784" end="x">Ich habe in einer Fabrik gearbeitet, in einer Gießerei, musste schon, falls ich weg war, das, eh, sehr weit von der Stadt draußen war, ich habe Gieß-, an einer Zinkgieß-, an einer Zink, einer ---gießerei [unverständlich] gearbeitet, und habe cirka 80 / 90 Zloty die Woche verdient, das reichte kaum, um, um das Brot für die zwei, die zwei, drei Tage zu kaufen.</u>
+                    <u who="#boderD" start="455.090" end="x">Also, gehen Sie weiter. Ja?</u>
+                    <u who="#lipschitzM" start="460.313" end="x">In diesen schlechten Zeiten hielten wir aus bis Mai 1942. Im Mai 1942 kamen die ersten Vorgänge, die wir überhaupt nicht erwartet haben. Das warn die Aussiedlungen.</u>
+                    <u who="#boderD" start="481.289" end="x">Nun, beschreiben Sie in Einzelheiten die Prozedur der Aussiedlungen dort. Hm?</u>
+                    <u who="#lipschitzM" start="486.783" end="x">Es wurden, es wurde das Ghetto gesperrt, ringsherum waren, eh, SS Waffen, die keinen Menschen ins Ghetto herein und auch keinen heraus ließen. Es wurden alle Menschen registriert, wer eine Bestätigung hatte, ein— in einem Rüstungsbetrieb arbeitete, wurde, bekam einen, eine Bestätigung, dass er bleiben darf, die andern wurden auf einem Platz versammelt, wurden weg geführt.</u>
+                    <u who="#boderD" start="522.921" end="x">Haben Sie die Bescheinigung bekommen?</u>
+                    <u who="#lipschitzM" start="524.518" end="x">Ich hatte damals die Bescheinigung bekommen, weil ich in der Gießerei arbeitete.</u>
+                    <u who="#boderD" start="528.054" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="528.928" end="x">Es waren aber viele Leute, die auch bei Deutschen arbeiteten, in Werkstätten, und die durch diese verschiedenen, eh, Wirrwarr in der Stadt so auch, eh, auch auf den Sammelplatz kamen und auch weg geführt wurden. Bis . . .</u>
+                    <u who="#boderD" start="543.609" end="x">Also, jetzt kommt Ihre Familie, eh, ist ihre Familie mit Ihnen zusammen geblieben?</u>
+                    <u who="#lipschitzM" start="550.458" end="x">Es ist mir damals gelungen, für, eh, meine Schwester und für, für mein Kind und für die Schwester der Kinder die Bestätigung zu bekommen, das war das erste Mal, sonst wurden noch die Familienmitglieder der Arbeiter berücksichtigt, und, eh, wurden noch da gelassen.</u>
+                    <u who="#boderD" start="564.914" end="x">Ja.</u>
+                    <u who="#lipschitzM" start="566.342" end="x">Damals wurden cirka—</u>
+                    <u who="#boderD" start="568.222" end="x">Wohin wurden die Leute weg geführt?</u>
+                    <u who="#lipschitzM" start="569.349" end="x">. . . fünf- bis zehntausend Menschen weg geführt . . .</u>
+                    <u who="#boderD" start="570.837" end="x">Ja. Wohin?</u>
+                    <u who="#lipschitzM" start="571.964" end="x">Nach unseren späteren Erkundigungen wurde uns gesagt, dass sie nach Belzec geführt wurden, wo eine Vernichtungsfabrik war. Wir selbst im Ghetto wussten cirka drei bis vier Monate überhaupt nichts von dem Los dieser Menschen. Und, eh, noch eins und zwei Jahre nachher kamen verschiedene Gerüchte zu uns, die wahrscheinlich von den Deutschen aufgebracht waren, dass die Menschen nach dem Trainer [unverständlich] geführt wurden und dort arbeiteten im Lager, das war aber nicht wahr. Denn wir haben später [geräusch], zwei, drei, vier Jahre später erfahren, dass die Menschen, alle wie sie waren, in die Vernichtungsfabriken geführt wurden, und, eh, dort verbrannt oder vergast wurden.</u>
+                    <u who="#boderD" start="618.327" end="x">Ja, was hat das, Sie sagen, verbrannt, hat man nicht, eh, bloß die Toten verbrannt?</u>
+                    <u who="#lipschitzM" start="624.940" end="x">Ja, das, eh—ich habe auch später im Lager und nach der Befreiung Menschen getroffen, die in diesen Lagern selbst gearbeitet haben. Die Szenen, die mir geschildert wurden, waren gar nicht, sind gar nicht wieder zu geben, kaum glaublich, dass ein Mensch, ein Menschengehirn sich solche Plan erdacht- erdenken konnte.</u>
+                    <u who="#boderD" start="649.639" end="x">Also?</u>
+                    <u who="#lipschitzM" start="650.540" end="x">Es wurden Menschen zum Teil in den, ne, in einen Raum, in einen dichten Raum gepackt, die Menschen waren vom Transport schon halbtot, sie wurden zusammen gepresst, und die Gas-, eh, Gas-, eh -gefäße wurden geöffnet. Wenn nicht genug Gasgefäße waren, waren die Menschen kaum, eh, vom Gas, eh, erstickt, sondern nur halbtot, und wie sie waren, wurden sie in den Feuerraum gebracht und dort verbrannt.</u>
+                    <u who="#boderD" start="683.424" end="x">Was nennen Sie einen Feuerraum?</u>
+                    <u who="#lipschitzM" start="685.966" end="x">Nun—Krematorium.</u>
+                    <u who="#boderD" start="687.322" end="x">Ja. Nun, also, wollen wir zurück kommen, Sie sind damals dann in Krakau geblieben?</u>
+                    <u who="#lipschitzM" start="692.515" end="x">Ich bin damals in Krakau geblieben. Nach dieser, nach der ersten Aussiedlung im Mai wurde das Ghetto verkleinert, weil dort weniger Juden waren. Die Verhältnisse wurden noch schlechter. Dann kam im—Oktober 1942, kam die zweite Aussiedlung. Da wurden schon Familienmitglieder nicht mehr berücksichtigt. Damals verlor ich den größten Teil meiner Familie. Es gelang mir nur zufällig, meine Schwester und die Kinder zu retten . . .</u>
+                    <u who="#boderD" start="727.884" end="x">Wer kamen von Ihrer Familie verloren?</u>
+                    <u who="#lipschitzM" start="730.083" end="x">Damals, also bei der ersten Aussiedlung verlor ich Onkel, eine Tante, ein Cousin, einen jungen Menschen mit seiner Frau und einem 14-jährigen Mädchen. Alles blühende Menschen, die noch lange hätten leben können.</u>
+                    <u who="#boderD" start="747.858" end="x">Ja, nun.</u>
+                    <u who="#lipschitzM" start="748.431" end="x">Ich war natürlich nicht die Einzigen, es warn, wenn man nach der Aussiedlung durch die Stadt, die Straßen des Ghettos ging, da hörte man nur das Weinen und . . . [pause]</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="763.292" end="x">[In English] This interview was discontinued because Dr. Lipschitz had to go on an important appointment of which he either had forgotten or didn't know before. We are now introducing another interview, at, eh, about the, eh, fourteenth minute of the spool.</u>
+                    <p>[pause]</p>
+                    <u who="#boderD" start="794.210" end="x">Chicago, June 26th, 1950. This concludes the section of Dr. Lipschitz. We have separated this from Spool 21, that has now the interview with Mr. Lea, and this will be Spool 9-21A, while the interview with Mr. Lea will be Spool 9-21B. Illinois Institute of Technology wire recording, project MH156. That's all.</u>
+                </div>
+                <!-- end Spool 9-21A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#lipschitzM_en">
+                <!-- begin Spool 9-21A -->
+                <div lang="en">
+                    <u who="#boderD" start="0.753" end="x">[In English] <placeName ref="Chicago">Chicago</placeName>, June the 26th, 1950, project MH156. This is reproduction Spool 9-21A, Dr. Maximilian Lipschitz. It is the first half of Spool 21.</u>
+                    <p>[pause]</p>
+                    <u who="#boderD" start="63.972" end="x">August the 4th, Rue de Patin [<emph rend="italics">checks recorder</emph>] . . . August the 4th, Rue, 9 Rue de Patin, in a home for adult deportees. <placeName ref="Paris">Paris</placeName>, August 4th, 1946, at Rue Patin, number 9, in a home for adult Jews. We are going to interview Dr. Maximilian Lipschitz, eh, age thirty-five. This is Spool 21.</u>
+                    <u who="#boderD" start="104.402" end="x">[In German] Eh, so tell me again, tell us, what is your full name?</u>
+                    <u who="#lipschitzM" start="111.372" end="x">Dr. Maximilian Lipschitz.</u>
+                    <u who="#boderD" start="114.155" end="x">And, eh, where were you born, Dr. Lipschitz?</u>
+                    <u who="#lipschitzM" start="116.806" end="x">In <placeName ref="Neuschonstau">Neuschonstau</placeName>.</u>
+                    <u who="#boderD" start="118.173" end="x">Where is that?</u>
+                    <u who="#lipschitzM" start="119.017" end="x">That is in Czechoslovakia.</u>
+                    <u who="#boderD" start="120.897" end="x">Yes. Eh, and, eh, where, and where did you study?</u>
+                    <u who="#lipschitzM" start="126.602" end="x">I studied in <placeName ref="Praha">Prague</placeName>.</u>
+                    <u who="#boderD" start="128.331" end="x">And, eh, you received your doctorate in what subject?</u>
+                    <u who="#lipschitzM" start="131.506" end="x">In science, and mainly chemistry.</u>
+                    <u who="#boderD" start="134.470" end="x">In science, and mainly chemistry. [pause]</u>
+                    <u who="#boderD" start="142.012" end="x">So, please speak a little louder, do you want to tell us, where were you when the war began, and what happened then?</u>
+                    <u who="#lipschitzM" start="151.078" end="x">When the war began I was in <placeName ref="Kraków">Cracow</placeName> because I had my family there, my child that was six weeks old, and my sister.</u>
+                    <u who="#boderD" start="161.332" end="x">And your wife?</u>
+                    <u who="#lipschitzM" start="162.428" end="x">My wife had died before the war. I had my family there, and for a while lived relatively, eh, undisturbed, until the larger repressions began. It began in December of 1939 with several registrations, and, eh, and then, in December, with the, eh, with the, with the rule to wear a band with the star on the right arm. Then came the various Verbote, to ride the train, the Verbote—the . . .</u>
+                    <u who="#boderD" start="208.151" end="x">With what train, outside of the city or within the city?</u>
+                    <u who="#lipschitzM" start="210.603" end="x">Ride with the, with the, eh, national railroad, with the railroad.</u>
+                    <u who="#boderD" start="214.561" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="216.230" end="x">Then came, eh, the bans, to have independent businesses, to be in official, eh, civil servant positions, so that the Jews became more and more oppressed in their, eh, housing and in their living. For a while, Jews were still allowed to live in larger cities, then it became more oppressed, and by 1941 most Jews were mostly crowded into <term ref="#vothG_ghetto">ghettos</term> in most Polish cities.</u>
+                    <u who="#boderD" start="249.642" end="x">Yes, so, tell us only about your city, and where you were, and what happened there. So you were in <placeName ref="Kraków">Cracow</placeName>?</u>
+                    <u who="#lipschitzM" start="256.943" end="x">I was in <placeName ref="Kraków">Cracow</placeName>, in 1942 we were, all Jews who had lived in <placeName ref="Kraków">Cracow</placeName> and the vicinity of <placeName ref="Kraków">Cracow</placeName>, were mostly crowded, eh, crowded together in the <placeName ref="Kraków Ghetto" type="camp">Cracow ghetto</placeName>.</u>
+                    <u who="#boderD" start="271.973" end="x">Yes, eh, now describe the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> a little, and how was the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> made and so on?</u>
+                    <u who="#lipschitzM" start="278.332" end="x">The <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> was established in <placeName ref="Podgórze">Podgórze</placeName>, eh, a suburb of <placeName ref="Kraków">Cracow</placeName>, there on a very small, in a very small area approximately 15,000 Jews who had been left in the city were pressed together in very tight living conditions.</u>
+                    <u who="#boderD" start="302.109" end="x">Had Jews lived there before?</u>
+                    <u who="#lipschitzM" start="304.903" end="x">There were Jews who had lived there before, but the apartments were vacated by [the people who had lived there] before and emptied for the guests . . .</u>
+                    <u who="#boderD" start="313.638" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="314.331" end="x">. . . and the Jews were squeezed together in very tight living quarters, so that three to four people lived in one room.</u>
+                    <u who="#boderD" start="322.705" end="x">Well?</u>
+                    <u who="#lipschitzM" start="323.621" end="x">And more. I, for instance, lived in a pretty large room, and there we were 12 people.</u>
+                    <u who="#boderD" start="332.850" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="333.495" end="x">However, there lived, there lived three children . . .</u>
+                    <u who="#boderD" start="333.929" end="x">All men?</u>
+                    <u who="#lipschitzM" start="335.296" end="x">No, families, strangers, and so on.</u>
+                    <u who="#boderD" start="337.586" end="x">Men and women among them?</u>
+                    <u who="#lipschitzM" start="338.803" end="x">Men and women and children in one . . .</u>
+                    <u who="#boderD" start="340.110" end="x">In one room . . .</u>
+                    <u who="#lipschitzM" start="340.923" end="x">. . . in one room.</u>
+                    <u who="#boderD" start="341.707" end="x">Yes. Now, what did one live on?</u>
+                    <u who="#lipschitzM" start="344.641" end="x">You could only live from the work that the Germans offered, that was mainly, eh, in factories, as workers, mainly in military factories, ammunition factories, in military workshops, and . . .</u>
+                    <u who="#boderD" start="357.304" end="x">And did they pay for the work?</u>
+                    <u who="#lipschitzM" start="359.997" end="x">They paid for the work, but so little that one could hardly make ends meet, and mainly people could only live by selling items they still had, bed linens or pots, living off the sale of those goods.</u>
+                    <u who="#boderD" start="374.346" end="x">Who did one sell that to?</u>
+                    <u who="#lipschitzM" start="376.214" end="x">That was sold to Poles.</u>
+                    <u who="#boderD" start="377.581" end="x">That was sold to Poles.</u>
+                    <u who="#lipschitzM" start="379.148" end="x">Yes.</u>
+                    <u who="#boderD" start="379.371" end="x">Eh, was there a special currency, was there <term ref="#vothG_ghetto">ghetto</term> money there?</u>
+                    <u who="#lipschitzM" start="383.419" end="x">In <placeName ref="Kraków">Cracow</placeName> there was no special money.</u>
+                    <u who="#boderD" start="385.648" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="386.160" end="x">That was in <placeName ref="Lódź">Lodz</placeName>, that was . . .</u>
+                    <u who="#boderD" start="387.907" end="x">In <placeName ref="Lódź">Lodz</placeName> there was <term ref="#vothG_ghetto">ghetto</term> money . . .</u>
+                    <u who="#lipschitzM" start="388.931" end="x">Yes, that was <placeName ref="Łódź Ghetto" type="camp">Lodz</placeName>, yes.</u>
+                    <u who="#boderD" start="389.534" end="x">Now, so you lived with twelve people in one room. Who was with you of your relatives?</u>
+                    <u who="#lipschitzM" start="396.203" end="x">I was with my sister and brother-in-law, my child, two of my sister's children . . .</u>
+                    <u who="#boderD" start="403.323" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="403.986" end="x">Then there was also, eh, a cousin of mine with wife and child . . .</u>
+                    <u who="#boderD" start="412.058" end="x">Yes, and?</u>
+                    <u who="#lipschitzM" start="412.480" end="x">An uncle and an aunt . . .</u>
+                    <u who="#boderD" start="414.528" end="x">Yes. And were there also strangers . . . ?</u>
+                    <u who="#lipschitzM" start="416.576" end="x">And there were strangers with their families, unknown, unknown people also there.</u>
+                    <u who="#boderD" start="419.980" end="x">So, how did you sleep?</u>
+                    <u who="#lipschitzM" start="423.031" end="x">One, eh, there were either beds there, and if there was not enough space we were, eh, we had to sleep on the floor.</u>
+                    <u who="#boderD" start="429.688" end="x">Now, go on.</u>
+                    <u who="#lipschitzM" start="430.784" end="x">I worked in a factory, in a foundry, had to, because I was away, that, eh, was far outside of the city, I worked in a Zinc foundry [unintelligible], and earned about eighty to ninety zloty per week, that was hardly enough to buy bread for two, for two to three days.</u>
+                    <u who="#boderD" start="455.090" end="x">So, go on. Yes?</u>
+                    <u who="#lipschitzM" start="460.313" end="x">In these bad times we held out until May of 1942. In May of 1942 the first incidents happened that we had not expected at all. Those were the evacuations.</u>
+                    <u who="#boderD" start="481.289" end="x">Now, describe in detail the procedure of the evacuations there. Hm?</u>
+                    <u who="#lipschitzM" start="486.783" end="x">There were, the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> was cordoned off, all around was <term ref="#vothG_ss">SS</term> Waffen who let no one in or out of the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName>. All people were registered, and those who had a certificate that they worked in a military factory, got a certificate that they could stay, all others were rounded up in a square, and were deported.</u>
+                    <u who="#boderD" start="522.921" end="x">Did you get the certification?</u>
+                    <u who="#lipschitzM" start="524.518" end="x">I obtained the certification back then because I was working in the foundry.</u>
+                    <u who="#boderD" start="528.054" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="528.928" end="x">But there were many people who also worked for Germans, in workshops, and who came through the different, eh, commotions to the collection square, and were taken away, too. Until . . .</u>
+                    <u who="#boderD" start="543.609" end="x">So, now comes your family, eh, did your family stay together with you?</u>
+                    <u who="#lipschitzM" start="550.458" end="x">I managed back then to get the certification for my sister and for, for my child, for the sister of the children [he means "for the children of the sister"]—that was the first time, otherwise the family members of the workers were considered, and, eh, they were left there.</u>
+                    <u who="#boderD" start="564.914" end="x">Yes.</u>
+                    <u who="#lipschitzM" start="566.342" end="x">Back then approximately . . .</u>
+                    <u who="#boderD" start="568.222" end="x">Where were the people led to?</u>
+                    <u who="#lipschitzM" start="569.349" end="x">. . . 5,000 to 10,000 thousand people were taken away . . .</u>
+                    <u who="#boderD" start="570.837" end="x">Yes. To where?</u>
+                    <u who="#lipschitzM" start="571.964" end="x">According to our later investigations we were told that they were brought to <placeName ref="Belzec concentration camp" type="camp">Belzec</placeName> where there was an annihilation facility. We in the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> did not know about the fate of these people for approximately three or four months. And, eh, still one and two years later some rumours circulated that were probably started by the Germans, that those people were brought to the [unintelligible] and worked in a camp there, but that was not true. Because we learned later, two, three, four years later, that the people, all as they were, were led to the annihilation facilities, and were burnt or gassed there.</u>
+                    <u who="#boderD" start="618.327" end="x">Yes, what did the—you say, burnt, did one not only, eh, burn the dead?</u>
+                    <u who="#lipschitzM" start="624.940" end="x">Yes, that, eh—I have, later in the camp and also after the liberation, I met people who had worked in these camps themselves. The scenes that were told to me were not even—are not to be rendered, [it is] hardly imaginable that a human brain could think—think up such plans.</u>
+                    <u who="#boderD" start="649.639" end="x">So?</u>
+                    <u who="#lipschitzM" start="650.540" end="x">In parts, people were packed into a tight room, the people were already half dead from the [endurance of the] transport, they were crowded together, and the gas, the gas containers were opened. When there were not enough gas containers, the people were barely suffocated but only half dead, and, as they were, they were brought to the fire room, and burnt there.</u>
+                    <u who="#boderD" start="683.424" end="x">What do you call a fire room?</u>
+                    <u who="#lipschitzM" start="685.966" end="x">Well—crematorium.</u>
+                    <u who="#boderD" start="687.322" end="x">Yes. Now, let us come back, you stayed in <placeName ref="Kraków Ghetto" type="camp">Cracow</placeName> back then?</u>
+                    <u who="#lipschitzM" start="692.515" end="x">I stayed back in <placeName ref="Kraków Ghetto" type="camp">Cracow</placeName>. After this, after the first evacuation in May the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> was downsized, because there were fewer Jews. The conditions worsened. Then, in October of 1942, came the second evacuation. There, family members were not considered anymore. At that time, I lost most of my family. Just by happenstance I was able to save my sister and the children . . .</u>
+                    <u who="#boderD" start="727.884" end="x">Whom from your family did you lose?</u>
+                    <u who="#lipschitzM" start="730.083" end="x">Back then, that is, with the first evacuation, I lost [an] uncle, an aunt, a cousin, a young person with his wife and a fourteen-year-old girl. All blossoming human beings who could have lived a long life.</u>
+                    <u who="#boderD" start="747.858" end="x">Yes, well?</u>
+                    <u who="#lipschitzM" start="748.431" end="x">Of course, I was not the only one, there were, when you walked through the town, through the streets of the <placeName ref="Kraków Ghetto" type="camp">ghetto</placeName> after the evacuation, you would only hear the weeping and . . . [pause]</u>
+                    <u who="#boderD" start="763.292" end="x">[In English] This interview was discontinued because Dr. Lipschitz had to go on an important appointment of which he either had forgotten or didn't know before. We are now introducing another interview, at, eh, about the, eh, fourteenth minute of the spool.</u>
+                    <p>[pause]</p>
+                    <u who="#boderD" start="794.210" end="x"><placeName ref="Chicago">Chicago</placeName>, June 26th, 1950. This concludes the section of Dr. Lipschitz. We have separated this from Spool 21, that has now the interview with Mr. Lea, and this will be Spool 9-21A, while the interview with Mr. Lea will be Spool 9-21B. Illinois Institute of Technology wire recording, project MH156. That's all.</u>
+                </div>
+                <!-- end Spool 9-21A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

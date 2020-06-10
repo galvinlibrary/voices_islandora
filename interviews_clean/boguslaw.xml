@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Boguslaw [last name unknown]; September 24, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (German)</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription (Polish)</resp>
+                    <name>Alicia Netecki</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation (German)</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation (Polish)</resp>
+                    <name>Alicia Netecki</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT14M6.419S" id="boguslaw_9-156A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Poland">Polish</lang>
+                                <lang value="secondary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-156A</note>
+                                <placeName ref="UNRRA University of Munich"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-24</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="boguslaw_pl_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="boguslaw_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="boguslaw" role="interviewee">
+                        <persName>
+                            <forename>Boguslaw</forename>
+                            <surname>[last name unknown]</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>unknown</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Poland">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Warsaw Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Gross-Rosen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" resp="allies">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#boguslaw_pl_de">
+                <!-- begin Spool 9-156A -->
+                <div lang="en">
+                    <u who="#boderD" start="4.521" end="x">[In English] München, September the 24th, 1946 at the UNRRA University in Deutsches Museum. The interviewee is now a young student, who simply calls himself Boguslaw. And like so many others he refuses . . . he refuses to, eh, give his full name, because he does not think it's exactly very safe yet to talk.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="28.973" end="x">[In German] Also, Boguslaw, erzählen Sie mir etwas von dem polnischen Widerstand in, hm, in Polen.</u>
+                    <u who="#boguslaw" start="39.457" end="x">Die polnische Wiederstandsbewegung hat seinen Anfang seit 1933. Ich hab zu der . . . also 1939 bin ich in die deutsche Widerstandsbewegung eingetreten.</u>
+                    <u who="#boderD" start="55.676" end="x">In die deutsche Widerstandsbewegung?</u>
+                    <u who="#boguslaw" start="56.957" end="x">Nein, in die polnische Widerstandsbewegung eingetreten.</u>
+                    <u who="#boderD" start="58.957" end="x">Und zu wem sollte der Widerstand geleistet werden?</u>
+                    <u who="#boguslaw" start="62.691" end="x">Der Widerstand . . . Widerstandsbewegung hatte seinen Zielkampf gegen die Deutschen.</u>
+                    <u who="#boderD" start="68.035" end="x">Hm.</u>
+                    <u who="#boguslaw" start="68.645" end="x">[hustet] Wir haben . . . die, die deutsche Besatzung war besonders schwer in Polen und in manchen Gebieten musste sich die polnische Bevölkerung . . . musste eine . . . musste einen Ausweg finden, um sich zu verteidigen. Kann ich polnisch sprechen?</u>
+                    <u who="#boderD" start="100.757" end="x">Ja, reden Sie das Ganze in polnisch. Aber nicht zu schnell, aber . . .</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#boguslaw" start="106.191" end="x">[In Polish] Ja. Niemcy strasznie zapisalisie, w naszej . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="111.810" end="x">[In German] Aber in der Hauptsache reden Sie von sich selbst. Alles was Sie in der der Widerstandsbewegung getan haben.</u>
+                    <u who="#boguslaw" start="116.393" end="x">Ja.</u>
+                    <u who="#boderD" start="117.090" end="x">Weiter.</u>
+                </div>
+                <div lang="Poland">
+                    <u who="#boguslaw" start="117.939" end="x">[In Polish] Od roku tysiąc dzięcset trzydziestego-dziewiątego należałem do Polskiego Ruchu Opory. Niemcy po zajęciu terenów Polskich wszędzie wściskali się do nas . . . Wszędzie chcieli . . . zniszczyć wszystko co Polskie. Wywoźili do obozów koncentracyjnych. Ja sam w roku 1939 przeznaczony byłem do transportu do Dachau, Szczęsliwie udał mi sie biec i zaczełem pracować w Polskiej organizacji wojskowej. Cel organizacji była. Celem organizacji była walka z Niemcami, chodziło o zachowanie . . . Polskości. Chodziło oto ażeby nie wątpić wiarę zwycięstwa.</u>
+                    <u who="#boguslaw" start="183.828" end="x">Od 1939 do 40 tego roku zaczeło się silne wszkolenie Polaków. Powstały szkoły wojskowe . . . szkoły podoficerskie . . . szkoły podchorążych które miały przygotować oficerów. Równocześnie z tym powstała prasa Polska podziemnia która od 1939 zaczeła funkcjonować. Powstało mase organizacji które potem łączą się i tworzą związek powstańcy.</u>
+                    <u who="#boguslaw" start="230.514" end="x">Związek Powstańcy miał celu . . . przygotowanie społeczeństwa . . . do walki z Niemcami oraz . . . nie pozwolenie zwątpienie. Najpierw praca podręcała się do Zbierania bronie, do . . . wyszkoleniu wojskowym. Przechodzilo skolejno do sabotażu, Najpierw był tak zwany mały sabotaż chodziło. Potem mały sabotaż nawołujacy do sabotożanie Niemieckich zarządzeń, do . . . ackji przeciwko wywozowi Polaków do Niemiec, akcja która miała na celu uświadomienie Polaków co dzieje się w obozach Koncentracyjnych.</u>
+                    <u who="#boguslaw" start="297.746" end="x">Następnie przyszła kolej na duży sabotaż. Sam pracowałem w likwidacji Gestapowców w [niezrozumiała część taśmy] likwidacji, przed Wielkim Piątkiem. Przed świętami Wielkanocy w 1943 wybuchło powstanie w getcie Żydowskim. Na trzy tygodnie przedtym dowóctwo nasze dowiedziało się Że getcie Żydowskim grozi, tak samie grozi likwidacja [niezrozumiałe] po zakończeniu walki w getcie organizacja Polska wydała pomocy do [niezrozumiałe] siedziałem w roku 1941 na Pawiaku. Widziałem straszne sceny, mordowania. Walenie żywcem na [niezrozumiałe] w piec. Następnie oficerowie Gestapo, a między innymi znany kat Warszawy Berger . . . [glos zanika zupełnie]</u>
+                    <u who="#boguslaw" start="545.450" end="x">Następnie w więzieniu zrobiono mi kuracje głodową i solną. Dawano mi do każdej [słowo ginie] masę soli. Przytym nie dostawałem zupełnie wody, tak że cierpiałem okropnie z powodu pragnienia, Następnie po trzeciu mieśiącznym pobyciu w więzieniu zostałem ewakuowany obozu koncentralnego do Gross Rosen, To co się działo w więzieniu było tak straszne, tak makabryczne, rostrzelewano przytym setkami ludzi których co drugi co trzeci dzień wyciągano z więzienia . . . I rozstrzeliwano w grozach zburzonego getta, Na pięć dni przed Powstaniem wybuchu Warszawskim, wybuchło powstanie na Pawiaku [glos zanika] . . . gdy warunki były zbyt cięszkie i zostało ztłumione. Potem wszyscz. cały oddział trzeci na ktorym to powstanie wybuchło został rozstrzelany.</u>
+                    <u who="#boguslaw" start="641.703" end="x">Przeżyłem w więzieniu . . . strasznie . . . ważyłem zdaje się czterdzieśći kilo, Kilogram, Traktownie bzło okropne. Bito, Wszędzie . . . na całym ciele masę znaków zostało po tym. Gdyby Niemcom dzisiaj powiedzić że oni cóś takiego robili nigdy nikt do tego się przyzna. Jednak na to są dowody i to widać, prawda, W obozie koncentracynym za naszym wstępie za powiedziano nam żebyśmy zapomnieli że jesteśmy ludzmi i jesteśmy tylko numerami. Bicie I katowanie było na każdym kroku. Ludzie mordowali jedni drugich. Więzien, więznia. Kapo to nie bzł człowiek, to był tak samo Ubermensch jak każdy gestapowiec, Jedno był kapo. Kapo przeważnie rekrutowali się . . . kapowie rekrutowali sie przeważnie z więżniów kriminalnych. Byli to przedstępco, notoryczni. Recedzwiści.</u>
+                    <u who="#boderD" start="748.768" end="x">Czy Niemcy. Polaki?</u>
+                    <u who="#boguslaw" start="752.795" end="x">Większość była Niemców, zależy tylko w jakim obozie. Przeważnie byli Niemcy, byli pozatym sporo Rosjan. Byli starzy więżniowie, Polacy, Żydzi.</u>
+                    <u who="#boderD" start="769.951" end="x">Byli Żydzi kapo no Polskim Bloku?</u>
+                    <u who="#boguslaw" start="779.638" end="x">Tak byli. Może Pan Profesor ma jakieś pytania?</u>
+                    <u who="#boderD" start="788.755" end="x">[Niezrozumiałe]</u>
+                    <p>[Cisza na taśmie]</p>
+                    <u who="#boguslaw" start="803.325" end="x">. . . po uwolniemiu przez Armje Anglo-Amerykańską przebywałem najpierw w obozie wojskowym, potem dowiedziałem się że są możliwości studiów. Przyjechałem do Monachium na studia. Studjuje obecnie muzikę [slowo ginie] Kończę drugi semstr.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="835.716" end="x">[In English] This concludes the report—very brief but very interesting report—of Mr. Boguslaw, a . . . [ends abruptly]</u>
+                </div>
+                <!-- end Spool 9-156A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#boguslaw_en">
+                <!-- begin Spool 9-156A -->
+                <div lang="en">
+                    <u who="#boderD" start="4.521" end="x">[In English] <placeName ref="München">München</placeName>, September the 24th, 1946 at the <term ref="#vothG_unrra">UNRRA</term> University in Deutsches Museum. The interviewee is now a young student, who simply calls himself Boguslaw. And like so many others he refuses . . . he refuses to, eh, give his full name, because he does not think it's exactly very safe yet to talk.</u>
+                    <u who="#boderD" start="28.973" end="x">[In German] Well, Boguslaw, tell me something about the Polish resistance movement in, eh, in Poland.</u>
+                    <u who="#boguslaw" start="39.457" end="x">The Polish resistance movement originally started in 1933. I belonged to . . . this is I joined the German resistance movement 1939.</u>
+                    <u who="#boderD" start="55.676" end="x">The German resistance movement?</u>
+                    <u who="#boguslaw" start="56.957" end="x">No, I joined the Polish resistance movement.</u>
+                    <u who="#boderD" start="58.957" end="x">And who was the resistance against?</u>
+                    <u who="#boguslaw" start="62.691" end="x">The resistance . . . resistance movement was targeted against the Germans.</u>
+                    <u who="#boderD" start="68.035" end="x">Hm.</u>
+                    <u who="#boguslaw" start="68.645" end="x">[<emph rend="italics">coughs</emph>] We have . . . the, the German occupation was especially difficult in Poland and in some areas the Polish population . . . had to . . . had to find another way to defend itself. Can I speak Polish?</u>
+                    <u who="#boderD" start="100.757" end="x">Yes, say the entire thing in Polish. But not too fast, but . . .</u>
+                    <u who="#boguslaw" start="106.191" end="x">[In Polish] Yes. The Germans behaved dreadfully in our . . .</u>
+                    <u who="#boderD" start="111.810" end="x">[In German] But mainly talk about yourself. Everything you have done in the resistance movement.</u>
+                    <u who="#boguslaw" start="116.393" end="x">Yes.</u>
+                    <u who="#boderD" start="117.090" end="x">Continue.</u>
+                    <u who="#boguslaw" start="117.939" end="x">[In Polish] From 1939 I belonged to the Polish Resistance Movement. After capturing Polish lands, the Germans raged against us everywhere. Everywhere they wanted . . . to destroy everything which was Polish. Transported to concentration camps. In 1939, I, myself, was destined to be transported to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. Mercifully, I managed to avoid it, and started to work in the Polish military organization. The organization's aim was . . . the aim of the organization was to fight with the Germans. It was a matter of preserving . . . Polishness, a matter of not losing faith in victory.</u>
+                    <u who="#boguslaw" start="183.828" end="x">From 1939 until 1940, a fierce training of Poles began. Military schools were established, schools for noncommissioned officers . . . officer cadet schools which were to train officers. Along with this, the Polish underground press came into being from 1939. A load of organizations came into being which then joined together and formed the resistance movement.</u>
+                    <u who="#boguslaw" start="230.514" end="x">The Resistance Movement aimed . . . to prepare society . . . to fight against the Germans and . . . not to allow despair. At first, the work was devoted to collecting arms, to army training. It then turned to sabotage. At first, there was the so-called small sabotage . . . then small sabotage exhorting sabotaging German orders, to . . . <term ref="#vothG_action">actions</term> against deporting Poles to Germany, an <term ref="#vothG_action">actions</term> which had as its aim the inform Poles what was happening in concentration camps.</u>
+                    <u who="#boguslaw" start="297.746" end="x">Then, it was time for large sabotage. I, myself, worked [unintelligible] of Poles in the Ghetto Uprising before Good Friday . . . at Easter of '43 the came the uprising in the <placeName type="camp" ref="Warsaw Ghetto">Jewish Ghetto</placeName>.<note n="1">Boguslaw is referring to the unsuccessful Warsaw Ghetto Uprising which took place in April 1943. About 13,000 Jews were killed, and the ghetto was almost completely razed by the Germans after the fighting.</note> Three weeks before this, our leaders learned that the <placeName type="camp" ref="Warsaw Ghetto">Jewish Ghetto</placeName> was threatened . . . was threatened with liquidation. . . [unintelligible] . . . weapons were provided, and apart from that the insurgents were informed about German positions . . . after the battle in the <placeName type="camp" ref="Warsaw Ghetto">Ghetto</placeName> the Polish organization gave help . . . [unintelligible]. There, in 1941, I sat in Pawiak, saw terrible scenes, murder, [unintelligible], shootings, people thrown alive into ovens.<note n="2">Pawiak was the main prison in Warsaw at the time. After the German invasion of Poland in 1939 it became a Gestapo prison, and eventually part of the Warsaw concentration camp.</note> Then the <term ref="#vothG_gestapo">Gestapo</term> officers, among them, the known executioner of <placeName ref="Warsaw">Warsaw</placeName>, A. Berger and [unintelligible] shot, . . . hunted the population, literally. [unintelligible] . . . beaten for hours.</u>
+                    <u who="#boguslaw" start="545.450" end="x">Then in prison I was subjected to a hunger and salt regime. I was given . . . a mass of salt, and got no water whatsoever, so I suffered horribly from thirst. Then after three months in prison, the day before the Uprising, I was evacuated to <placeName type="camp" ref="Gross-Rosen concentration camp">Gross-Rosen</placeName> concentration camp. The things that happened in prison were so dreadful, so macabre. They shot people by the hundreds, whom they dragged out of prison every two or three days . . . and shot them in the ruins of the destroyed <term ref="#vothG_ghetto">ghetto</term>. Five days before the <placeName ref="Warsaw">Warsaw</placeName> Uprising, an uprising occurred in Pawiak . . . [unintelligible] . . . when conditions were too hard, and there was overcrowding. Then everybody, the whole of Ward 3 where that prison uprising broke out, was shot.</u>
+                    <u who="#boguslaw" start="641.703" end="x">I survived the prison . . . dreadfully [unintelligible] I weighed around 40 kilos, kilograms, I think. The treatment was terrible. One was beaten. Masses of scars remained imprinted on my flesh. If, today, one were to tell the Germans that they had done such things, nobody would ever admit to it . . . However, there is evidence of it, and it can be seen. When we arrived at the concentration camp we were told to forget that we were humans, and that we were just numbers. Beatings and torture at every step. People murdered one another, prisoner murdered prisoner. The <term ref="#vothG_capo">capo</term> was not a human being, he was the same Ubermensch [superior] as every <term ref="#vothG_gestapo">Gestapo</term>, he was just called a <term ref="#vothG_capo">capo</term>. The <term ref="#vothG_capo">capo</term> were normally recruited . . . the <term ref="#vothG_capo">capo</term> were normally recruited from amid the criminal prisoners. They were criminals, notorious recidivists.</u>
+                    <u who="#boderD" start="748.768" end="x">Were they Germans? Poles?</u>
+                    <u who="#boguslaw" start="752.795" end="x">Most were Germans, but it depends on which camp. Usually they were Germans. A number were also Russian. Old-timers, Poles, Jews. I was in the camp [unintelligible].</u>
+                    <u who="#boderD" start="773.976" end="x">Were there Jewish <term ref="#vothG_capo">capos</term> in the Polish <term ref="#vothG_block">block</term>?</u>
+                    <u who="#boguslaw" start="779.638" end="x">Yes, there were. Perhaps you have some questions, Professor?</u>
+                    <u who="#boderD" start="788.755" end="x">[unintelligible]</u>
+                    <p>[Pause]</p>
+                    <u who="#boguslaw" start="803.325" end="x">. . . after being liberated by the Anglo-American army, I first stayed in an army camp, then I discovered that it was possible to study. So I came to study in <placeName ref="München">Munich</placeName>. I'm currently studying music [unintelligible] I'm finishing the second semester.</u>
+                    <u who="#boderD" start="835.716" end="x">[In English] This concludes the report—very brief but very interesting report—of Mr. Boguslaw, a . . . [ends abruptly]</u>
+                </div>
+                <!-- end Spool 9-156A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

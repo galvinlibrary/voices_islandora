@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Mira Milgram; August 9, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Veronika Schmideder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Veronika Schmideder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Christian Schmidt</name>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT20M06.413S" id="milgramM_9-40A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-40A</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees" />
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-09</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="milgramM_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="milgramM_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="milgramM" role="interviewee">
+                        <persName>
+                            <forename>Mira</forename>
+                            <surname>Milgram</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>unknown</age>
+                        <birth ref="Poznań" />
+                        <faith>Jewish</faith>
+                        <nationality key="Poland" />
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>virctim</desc>
+                        </trait>
+                        <event type="internment" ref="Kielce Ghetto ">
+                            <ab></ab>
+                        </event>
+                        <event type="liberation" ref="Kielce" when="1945-01-16" resp="Russia">
+                            <ab></ab>
+                        </event>
+                    </person>
+                    <person id="freilichE" role="bystander">
+                        <persName>
+                            <forename>Esther</forename>
+                            <surname>Freilich</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#milgramM_de">
+                <!-- begin Spool 9-40A -->
+                <div lang="en">
+                    <u who="#boderD" start="0.241" end="x">[In English] This is Spool 9-40A: Mrs. Milgram. Spool 9-40B will be reproduced on a separate spool. 9-40B is the little daughter of Mrs. Fania Freilich, Esther Freilich. It is a short spool, but we are putting it separate.</u>
+                    <u who="#boderD" start="49.694" end="x">This is Spool 40. August 9th, 1946, Paris, 9 Rue de Patin, and Frau, eh, Mrs. Mira Milgram continues the interview.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="64.754" end="x">[In German] Also, Frau Milgram, Sie sind, äh, Sie haben mit dem Gestapo-Mann gesprochen, ob man die Kinder [unverständliches Wort; könnte durchnehmen heißen] wird.</u>
+                    <u who="#milgramM" start="72.654" end="x">Da hat er mir erklärt . . .</u>
+                    <u who="#boderD" start="74.086" end="x">[unterbricht] Dass er auch Kinder hat?</u>
+                    <u who="#milgramM" start="75.202" end="x">. . . dass er auch Kinder hat, und sie sind alles Opfer. Ich war mir direkt lächerlich, dass er mich sehr arg berügt, habe ihm erklärt, dass ich einen Bruder mithabe, Verwandte, und so weiter . . .</u>
+                    <u who="#boderD" start="87.730" end="x">Wo haben sie Ihren Bruder mitgehabt?</u>
+                    <u who="#milgramM" start="89.916" end="x">Ich hab meinen Bruder im, äh, Lager mitgehabt, meine Cousine und noch drei Personen. Wir waren acht Personen zusammen. Mein Bruder ist während des Aufstandes zu mir gekommen.</u>
+                    <u who="#boderD" start="102.413" end="x">Aha, ja, und die anderen. Und hat ihr Bruder als Jude gelebt?</u>
+                    <u who="#milgramM" start="106.454" end="x">Nein, arisch!</u>
+                    <u who="#boderD" start="107.645" end="x">Arier.</u>
+                    <u who="#milgramM" start="108.203" end="x">Arisch. [Unverständliches Wort].</u>
+                    <u who="#boderD" start="109.304" end="x">Ja. Nun?</u>
+                    <u who="#milgramM" start="109.982" end="x">Hat auch sehr viel durchgemacht, wurde einige Male [unverständliches Wort; könnte vielleicht „schikaniert“ heißen].</u>
+                    <u who="#boderD" start="115.168" end="x">Ja. Also, Sie haben, Sie waren dann die acht Personen zusammen. Wer waren sie, ihr Bruder, ihre . . . ?</u>
+                    <u who="#milgramM" start="121.440" end="x">Mein Bruder, die zwei Kinder, eine Freundin . . .</u>
+                    <u who="#boderD" start="125.073" end="x">Ja. Und Sie selbst, das sind fünf . . .</u>
+                    <u who="#milgramM" start="129.234" end="x">Fünf. Äh, dann war eine Bekannte mit ihrem Sohn . . .</u>
+                    <u who="#boderD" start="135.098" end="x">Ja.</u>
+                    <u who="#milgramM" start="135.460" end="x">. . . eine Arierin, und noch eine Freundin von mir.</u>
+                    <u who="#boderD" start="138.113" end="x">Ja. Nun?</u>
+                    <u who="#milgramM" start="139.289" end="x">[Unverständlicher Satz]. Äh, Gestapo-Mann, also, ich heiße Bernhard nach dem Vornamen. Beten Sie für mich und es wird alles gut sein.</u>
+                    <u who="#boderD" start="149.842" end="x">Ja.</u>
+                    <u who="#milgramM" start="150.174" end="x">Ich hab ihn direkt ausgelacht. Geh von ihm weg, nach einer Stunde in [unverständliches Wort]</u>
+                    <u who="#boderD" start="155.405" end="x">Hat der Gestapo-Mann Polnisch gesprochen?</u>
+                    <u who="#milgramM" start="157.395" end="x">Nein, Deutsch. Aber damals war ich schon so aufgeregt, dass es mir schon alles eins war, und auf seine Frage, wieso ich Deutsch spreche, habe ich ihm erklärt, ich bin aus Posen . . .</u>
+                    <u who="#boderD" start="167.646" end="x">Ja.</u>
+                    <u who="#milgramM" start="168.913" end="x">. . . und darum spreche ich Deutsch.</u>
+                    <u who="#boderD" start="170.647" end="x">Ja.</u>
+                    <u who="#milgramM" start="171.265" end="x">Und wie er zur Segregation kommt, sagte sie, dass er die Segregation durchführt. Er zeigt auf rechts oder links, die Rechten fahren nach Deutschland zu den Konzentrationslagern, links war zum Verbleib.</u>
+                    <u who="#boderD" start="184.351" end="x">Zu was?</u>
+                    <u who="#milgramM" start="185.090" end="x">Zum Verbleib im Gouvernement.</u>
+                    <u who="#boderD" start="187.095" end="x">Ja.</u>
+                    <u who="#milgramM" start="187.909" end="x">Und wie ich auf ihn zukomme, sagt er mir wie glauben Sie wird es in [unverständliches Wort] und auf diese Weise hab ich durchgeführt alle acht Personen.</u>
+                    <u who="#boderD" start="196.050" end="x">Wohin, nach Deutschland?</u>
+                    <u who="#milgramM" start="196.909" end="x">Nein, eben . . .</u>
+                    <u who="#boderD" start="197.844" end="x">[unterbricht] Nach Hause.</u>
+                    <u who="#milgramM" start="198.251" end="x">. . . zum Verbleib . . .</u>
+                    <u who="#boderD" start="199.065" end="x">im Gouvernement.</u>
+                    <u who="#milgramM" start="200.030" end="x">. . . im Gouvernement. Man hat uns dort gebracht in ein anderes Lager, und dort den nächsten Tag mit der Bahn nach Kielce gebracht.</u>
+                    <u who="#boderD" start="208.186" end="x">Ja.</u>
+                    <u who="#milgramM" start="209.347" end="x">In Kielce waren wir bis zum 16. Januar, bis zum Tage, wo sie deutsch, äh, die russische Armee mitsamt der polnischen . . .</u>
+                    <u who="#boderD" start="221.362" end="x">befreit hat.</u>
+                    <u who="#milgramM" start="222.146" end="x">befreit hat.</u>
+                    <u who="#boderD" start="222.855" end="x">Also, in Kielce waren Sie frei in der Stadt, oder . . .</u>
+                    <u who="#milgramM" start="225.644" end="x">[unterbricht] Ja, wir haben gewohnt, ich hatte schon eine Wohnung dort . . .</u>
+                    <u who="#boderD" start="229.337" end="x">Wovon haben Sie denn gelebt?</u>
+                    <u who="#milgramM" start="230.996" end="x">Ähm, ich habe wieder verdient.</u>
+                    <u who="#boderD" start="232.850" end="x">Als was?</u>
+                    <u who="#milgramM" start="233.453" end="x">Ich habe gehandelt.</u>
+                    <u who="#boderD" start="234.870" end="x">Gehandelt.</u>
+                    <u who="#milgramM" start="235.413" end="x">Ja.</u>
+                    <u who="#boderD" start="235.956" end="x">Schnaps?</u>
+                    <u who="#milgramM" start="236.514" end="x">Nein, so nicht, dort konnte ich schon nicht mit Schnaps. Dort habe ich mit Sachen gehandelt.</u>
+                    <u who="#boderD" start="240.841" end="x">Ja.</u>
+                    <u who="#milgramM" start="241.942" end="x">Und die jüngsten zwei Tage vor der Befreiung waren die Ärgsten für mich . . .</u>
+                    <u who="#boderD" start="248.892" end="x">Warum?</u>
+                    <u who="#milgramM" start="249.299" end="x">Nämlich, die ersten Kugeln trafen das Haus, wo ich gewohnt habe. Die Wohnung ist abgebrannt . . .</u>
+                    <u who="#boderD" start="256.776" end="x">[unterbricht] Brannt.</u>
+                    <u who="#milgramM" start="257.349" end="x">und ich . . .</u>
+                    <u who="#boderD" start="258.043" end="x">[unterbricht] Das war [unverständliches Wort] nicht wahr?</u>
+                    <u who="#milgramM" start="260.048" end="x">Nein, das waren . . .</u>
+                    <u who="#boderD" start="261.013" end="x">[unterbricht] Kanonen.</u>
+                    <u who="#milgramM" start="261.450" end="x">. . . von Kanonen.</u>
+                    <u who="#boderD" start="262.204" end="x">Ja.</u>
+                    <u who="#milgramM" start="262.732" end="x">Und ich befand mich wieder mit der ganzen Familie mit zwei kleinen Kindern auf der Straße.</u>
+                    <u who="#boderD" start="269.742" end="x">Ja.</u>
+                    <u who="#milgramM" start="270.405" end="x">Wir waren in eine nahe Wohnung, in der Deutsche gewohnt haben, hereingegangen. Aber die erste Zeit war schrecklich, man konnte kein Brot bekommen, nicht. Da konnte . . . Ich bin Tag für Tag drei Tage nach Befreiung von Katowice in Katowice, wo ich mir ein bisschen Lebensmittel für die Kinder gewechselt habe.</u>
+                    <u who="#boderD" start="292.732" end="x">Katowice, das ist grad über Sosnowiec, nicht wahr?</u>
+                    <u who="#milgramM" start="294.964" end="x">Ja, ja, ja.</u>
+                    <u who="#boderD" start="295.944" end="x">Ja. Nun?</u>
+                    <u who="#milgramM" start="297.859" end="x">Nun, so ging, dass mir die polnische Armee, es waren dort jüdische Soldaten, die erfahren hatten, dass Kinder, jüdische, in der Stadt sind. Die haben mir sehr geholfen. Das waren die einzigen Kinder in der Stadt jüdische.</u>
+                    <u who="#boderD" start="312.286" end="x">In Kielce.</u>
+                    <u who="#milgramM" start="313.010" end="x">Ja, in Kielce.</u>
+                    <u who="#boderD" start="314.985" end="x">Nun?</u>
+                    <u who="#milgramM" start="315.573" end="x">Mein Bruder wurde zum Präsident von . . .</u>
+                    <u who="#boderD" start="320.684" end="x">Kielce?</u>
+                    <u who="#milgramM" start="321.362" end="x">Kielce und . . .</u>
+                    <u who="#boderD" start="322.297" end="x">Was war Ihr Bruder von Beruf?</u>
+                    <u who="#milgramM" start="323.202" end="x">Mein Bruder war Rechtsanwalt.</u>
+                    <u who="#boderD" start="324.785" end="x">Er war ein Advokat, nicht wahr?</u>
+                    <u who="#milgramM" start="325.102" end="x">In Lemberg, Advokat in Lemberg.</u>
+                    <u who="#boderD" start="327.650" end="x">Ja.</u>
+                    <u who="#milgramM" start="329.263" end="x">Und wurde zum Vorsteher von Kielce und Umgebung ernannt.</u>
+                    <u who="#boderD" start="334.419" end="x">Ja. Ja. Nun sagen Sie mal, äh, und dann sind Sie befreit geworden.</u>
+                    <u who="#milgramM" start="343.841" end="x">Ja.</u>
+                    <u who="#boderD" start="344.293" end="x">Und dann sind Sie. Wohin sind Sie gegangen, und was war die letzte Geschichte, wieweit Sie wissen, von Kielce? Was hat dort in Kielce richtig passiert? Und woher wissen Sie's?</u>
+                    <u who="#milgramM" start="354.665" end="x">Mein Bruder, wie ich schon gesagt habe, war Präsident dort. Ich bin vor einem halben Jahr nach Warschau übergesiedelt.</u>
+                    <u who="#boderD" start="364.657" end="x">Ja.</u>
+                    <u who="#milgramM" start="365.110" end="x">Wo ich gearbeitet habe.</u>
+                    <u who="#boderD" start="366.753" end="x">Als was?</u>
+                    <u who="#milgramM" start="368.020" end="x">Ich habe in einer, äh, Firma, in einer privaten Firma gearbeitet.</u>
+                    <u who="#boderD" start="373.673" end="x">Ja. Nun?</u>
+                    <u who="#milgramM" start="375.754" end="x">Habe dabei, habe auch in der zionistischen Organisation gearbeitet, in Jugend. Und die Organisation hat mir ermöglicht, einen Pass und das Visum zu bekommen.</u>
+                    <u who="#boderD" start="388.613" end="x">Wohin?</u>
+                    <u who="#milgramM" start="389.277" end="x">Nach [unverständliches Wort; vielleicht „Paris“] mit, damit dass ich von hier nach Palästina weiterfahren werde.</u>
+                    <u who="#boderD" start="394.960" end="x">Ja.</u>
+                    <u who="#milgramM" start="395.202" end="x">Mein Mann war auch Zionist, hat sehr viel gearbeitet als Zionist. Mein Bruder auch.</u>
+                    <u who="#boderD" start="403.297" end="x">Und?</u>
+                    <u who="#milgramM" start="403.629" end="x">Vor paar Tagen, vor, äh, äh, einen Tag nach dem jüdischen Pogrom fahre ich mit der Elektrischen und sehe auf einmal in der Zeitung . . .</u>
+                    <u who="#boderD" start="413.398" end="x">Welches Pogrom [unverständliches Wort]. In Kielce?</u>
+                    <u who="#milgramM" start="415.071" end="x">In Kielce.</u>
+                    <u who="#boderD" start="415.705" end="x">Ja.</u>
+                    <u who="#milgramM" start="416.112" end="x">Dass da Pogrom . . . dass dort ein Pogrom war. Ich war sofort sicher, dass meinen Bruder nicht lebt, denn ich habe ihn gekannt als einen Mann, der vor nicht geschreckt, abgeschreckt hat. Außerdem wusste ich, dass er mir sofort Kunde gegeben hätte, wenn er wusste wie viel wir aneinander gehangen hatten. Wir hatten ja niemanden anderen.</u>
+                    <u who="#boderD" start="439.935" end="x">Ja.</u>
+                    <u who="#milgramM" start="440.297" end="x">Nur ihn.</u>
+                    <u who="#boderD" start="441.624" end="x">Nun.</u>
+                    <u who="#milgramM" start="442.212" end="x">Hat mir auch sehr finanziell geholfen. Und . . . [unverständliches Wort] . . .</u>
+                    <u who="#boderD" start="447.684" end="x">[unterbricht] Und was haben Sie in der Zeitung erfahren?</u>
+                    <u who="#milgramM" start="449.554" end="x">Dass dort ein Pogrom war.</u>
+                    <u who="#boderD" start="451.167" end="x">Ja.</u>
+                    <u who="#milgramM" start="451.770" end="x">Ich bin sofort zur Post. Habe antelefoniert die Miliz. Dort hat man mir erzählt, die wissen noch nichts Bestimmtes, aber ich soll auf alles vorbereitet sein. Und da wusste ich schon, dass was geschieht.</u>
+                    <u who="#boderD" start="465.790" end="x">Sie haben angerufen die Kielce-Miliz?</u>
+                    <u who="#milgramM" start="467.328" end="x">Ja.</u>
+                    <u who="#boderD" start="467.976" end="x">Ja. Nun?</u>
+                    <u who="#milgramM" start="469.333" end="x">Nun bin den nächsten Tag nach Kielce gefahren. Mit dem Auto.</u>
+                    <u who="#boderD" start="475.393" end="x">Ja.</u>
+                    <u who="#milgramM" start="475.876" end="x">Das war was Schreckliches. Nämlich unterwegs fast nur Intelligenz gefahren, haben derart über den Pogrom gesprochen, und wie ich herausgestiegen bin, ich denen zugerufen habe, ihr seid Vieher.</u>
+                    <u who="#boderD" start="490.997" end="x">Ihr seid was?</u>
+                    <u who="#milgramM" start="492.007" end="x">Vieher.</u>
+                    <u who="#boderD" start="492.881" end="x">Vieh!</u>
+                    <u who="#milgramM" start="493.545" end="x">Ihr seid Vieh.</u>
+                    <u who="#boderD" start="494.857" end="x">Verstehe.</u>
+                    <u who="#milgramM" start="495.264" end="x">Ja. Nämlich man sprach davon so, als wenn man zugeschaut hätte, wie man einen Hund umbringt.</u>
+                    <u who="#boderD" start="502.259" end="x">Ja.</u>
+                    <u who="#milgramM" start="502.862" end="x">Mit Gelächter.</u>
+                    <u who="#boderD" start="505.696" end="x">Und das waren Polen?</u>
+                    <u who="#milgramM" start="506.993" end="x">Das waren Polen, unter anderem ein Geistlicher aus Kielce.</u>
+                    <u who="#boderD" start="512.375" end="x">Wieso, Sie sind doch nach Kielce gefahren?</u>
+                    <u who="#milgramM" start="514.470" end="x">Ich bin nach Kielce gefahren . . .</u>
+                    <u who="#boderD" start="515.586" end="x">. . . und Sie haben Leute getroffen, die schon von Kielce waren?</u>
+                    <u who="#milgramM" start="517.516" end="x">Nein, nein, die überhaupt darüber gesprochen haben.</u>
+                    <u who="#boderD" start="519.973" end="x">Ja. Ja. Nun?</u>
+                    <u who="#milgramM" start="520.848" end="x">Das war das Schreckliche. Ja, die Zivil, Zivilbevölkerung.</u>
+                    <u who="#boderD" start="525.506" end="x">Ja. Nicht Besoffene?</u>
+                    <u who="#milgramM" start="527.466" end="x">Derart . . .</u>
+                    <u who="#boderD" start="528.702" end="x">Ja. Nun? Und was haben Sie in Kielce . . .</u>
+                    <u who="#milgramM" start="531.717" end="x">[spricht über Interviewer] . . . geärgert.</u>
+                    <u who="#boderD" start="532.984" end="x">. . . gefunden?</u>
+                    <u who="#milgramM" start="534.145" end="x">In Kielce habe ich erfahren, dass mein Bruder von neun Uhr früh herumgerannt ist und in der Stadt war, bei der Miliz, und so weiter, und gebeten hat um Hilfe. Nämlich die haben schon gewusst, dass sich etwas dort tun wird.</u>
+                    <u who="#boderD" start="552.582" end="x">Oh, die Miliz hat gewusst?</u>
+                    <u who="#milgramM" start="553.577" end="x">Ja.</u>
+                    <u who="#boderD" start="554.271" end="x">War die Miliz alles polnisch, waren da keine jüdischen Leute in der Miliz?</u>
+                    <u who="#milgramM" start="557.753" end="x">Nein. Das waren vielleicht ein oder zwei, nur sie hatten nicht dort [unverständliches Wort].</u>
+                    <u who="#boderD" start="562.155" end="x">Ja.</u>
+                    <u who="#milgramM" start="566.768" end="x">Und, mein Bruder, der in der Stadt war, ist zu seinen Juden zurückgegangen. Er wollte sie nicht zurücklassen. Ob zwar weiß hat er in Kielce auf arischen Papieren gewohnt hat.</u>
+                    <u who="#boderD" start="577.651" end="x">Oh, er hat, war in Kielce statthaft als Arier?</u>
+                    <u who="#milgramM" start="580.244" end="x">Ja, nein, er war nur in seinem Komitee, war er Jude. Doktor [unverständlicher Name], und in seiner Wohnung hat er gewohnt als [unverständlicher Name], das war sein Name der Konspiration. Er hat nämlich die ganze Zeit in Konspiration gearbeitet.</u>
+                    <u who="#boderD" start="597.641" end="x">Aber sie sagen, er war Bürgermeister in Kielce?</u>
+                    <u who="#milgramM" start="599.511" end="x">Nicht Bürgermeister.</u>
+                    <u who="#boderD" start="600.672" end="x">Was denn?</u>
+                    <u who="#milgramM" start="601.531" end="x">Er war Präsident der Gem-, der jüdischen Gemeinde.</u>
+                    <u who="#boderD" start="604.185" end="x">Oh, er war Präsident der jüdischen Gemeinde, ach so. Er wurde für den Präsident der jüdischen Gemeinde, ja.</u>
+                    <u who="#milgramM" start="609.838" end="x">Ja. Ja.</u>
+                    <u who="#boderD" start="610.562" end="x">Ja. Nun, sagen Sie mal, was war denn eigentlich dort während dem Pogrom, man hat etwas gelesen. Wie, was waren die Einzelheiten?</u>
+                    <u who="#milgramM" start="617.602" end="x">Also, es gesch . . . in der Stadt wurde die Nachricht kolportiert, es fehlen elf Kinder. Und dass Juden sie getötet haben, um Blut von ihnen für die . . . Juden, die aus Russland kommen, und die sehr schlecht ausschauen . . .</u>
+                    <u who="#boderD" start="634.987" end="x">Aha.</u>
+                    <u who="#milgramM" start="635.379" end="x">. . . und sehr aus . . . äh . . .</u>
+                    <u who="#boderD" start="638.967" end="x">Ausgehungert sind.</u>
+                    <u who="#milgramM" start="639.630" end="x">. . . ausgehungert sind. Und für die das Blut der arischen Kinder zu nehmen.</u>
+                    <u who="#boderD" start="643.761" end="x">Oh, man hat nicht mal gesagt [schwer zu verstehen; könnte „Mazzot“ heißen].</u>
+                    <u who="#milgramM" start="645.359" end="x">Nein, nein, nein. Es ist ja jetzt nicht die Zeit.</u>
+                    <u who="#boderD" start="647.500" end="x">Welchen Monat . . .</u>
+                    <u who="#milgramM" start="647.967" end="x">Ostern nicht?</u>
+                    <u who="#boderD" start="648.902" end="x">Ja. Welchen Monat war es ungefähr?</u>
+                    <u who="#milgramM" start="650.651" end="x">Das war am 4. Juli.</u>
+                    <u who="#boderD" start="653.349" end="x">Juli. Ja. Also man hat gesagt, dass sie das Blut für die kranken Juden brauchen.</u>
+                    <u who="#milgramM" start="658.701" end="x">Für die kranken Juden brauchen, die aus Russland kommen.</u>
+                    <u who="#boderD" start="661.309" end="x">Kommen, nun.</u>
+                    <u who="#milgramM" start="662.153" end="x">Und es wurde ein Bub untergestellt, der erklärt hat, dass ihn die Juden paar Tage im Keller des jüdischen Komitee gehalten haben.</u>
+                    <u who="#boderD" start="671.862" end="x">Ja.</u>
+                    <u who="#milgramM" start="672.390" end="x">Dabei hat sich gezeigt, dass dort überhaupt kein Keller da war.</u>
+                    <u who="#boderD" start="676.506" end="x">Ja.</u>
+                    <u who="#milgramM" start="677.154" end="x">Der Bub hat das ge-, erklärt schon den Tag vorher auf das Miliz.</u>
+                    <u who="#boderD" start="683.516" end="x">Ja.</u>
+                    <u who="#milgramM" start="684.481" end="x">Und die haben das laufen lassen.</u>
+                    <u who="#boderD" start="687.210" end="x">Ja.</u>
+                    <u who="#milgramM" start="687.979" end="x">Und den nächsten Tag von neun Uhr früh haben sich Leute zusammengeschart vor dem Haus wo die jüdische Gemeinde war, wo die Alten gewohnt haben.</u>
+                    <u who="#boderD" start="698.758" end="x">Ja.</u>
+                    <u who="#milgramM" start="699.647" end="x">Und dann ist die Miliz gekommen, hat abgesperrt das Haus.</u>
+                    <u who="#boderD" start="703.145" end="x">Ja.</u>
+                    <u who="#milgramM" start="704.125" end="x">Hat verlangt, dass alle ihre, äh . . .</u>
+                    <u who="#boderD" start="709.447" end="x">Waffen.</u>
+                    <u who="#milgramM" start="710.125" end="x">Waffen abgeben.</u>
+                    <u who="#boderD" start="711.512" end="x">Von der jüdischen Gemeinde?</u>
+                    <u who="#milgramM" start="712.266" end="x">Von der jüdischen Gemeinde.</u>
+                    <u who="#boderD" start="713.502" end="x">Ja.</u>
+                    <u who="#milgramM" start="713.774" end="x">Weil man in der Stadt sagte, dass Juden schießen, und man daran nicht Schuld, äh, nicht das zulassen will . . .</u>
+                    <u who="#boderD" start="722.593" end="x">Ja.</u>
+                    <u who="#milgramM" start="723.166" end="x">Dass man, dass, äh, man das sagt, nicht wahr . . .</u>
+                    <u who="#boderD" start="727.975" end="x">Ja.</u>
+                    <u who="#milgramM" start="728.156" end="x">Weil es nicht wahr ist.</u>
+                    <u who="#boderD" start="729.015" end="x">Ja.</u>
+                    <u who="#milgramM" start="729.633" end="x">Und wie der letzte Jude die Waffe abgegeben hat, haben die angefangen, mit diesen Waffen zu die Juden zu schießen, sie zu schlagen und so weiter. Man hat dort geraubt. Mein Bruder, der zu ihnen gesprochen hat, und sie gebeten hat, sie sollen Ruhe geben. [Klopfen/ Unterbrechung]</u>
+                    <u who="#boderD" start="747.271" end="x">. . . der zu den Leuten gesprochen hat, ja?</u>
+                    <u who="#milgramM" start="750.045" end="x">Der ihnen [unverständliches Satzende]. Das wird ja nicht so trocken abgehen.</u>
+                    <u who="#boderD" start="754.643" end="x">Ja. Die Miliz.</u>
+                    <u who="#milgramM" start="755.638" end="x">Zur Miliz.</u>
+                    <u who="#boderD" start="756.512" end="x">Ja.</u>
+                    <u who="#milgramM" start="756.904" end="x">Dann ist auch Militär zugekommen.</u>
+                    <u who="#boderD" start="759.105" end="x">Polnisches Militär.</u>
+                    <u who="#milgramM" start="759.708" end="x">Ja.</u>
+                    <u who="#boderD" start="761.668" end="x">Nun?</u>
+                    <u who="#milgramM" start="762.000" end="x">Hat zu denen gesagt: Ihr müsst mit euch, äh . . .</u>
+                    <u who="#boderD" start="769.734" end="x">Muss sich verteidigen?</u>
+                    <u who="#milgramM" start="771.558" end="x">Müsst, müsst für euch, äh . . . [spricht Polnisch]</u>
+                    <u who="#boderD" start="775.267" end="x">Was sagen Sie Polnisch?</u>
+                    <u who="#milgramM" start="775.855" end="x">[spricht Polnisch] Ihr müsst aufpassen, was ihr macht.</u>
+                    <u who="#boderD" start="780.785" end="x">Ja.</u>
+                    <u who="#milgramM" start="781.192" end="x">Das wird ja nicht trocken abgehen.</u>
+                    <u who="#boderD" start="782.669" end="x">Die Militär hat gesagt zu wem, zu den Juden?</u>
+                    <u who="#milgramM" start="784.117" end="x">Mein Bruder hat es zu ihnen gesagt.</u>
+                    <u who="#boderD" start="785.941" end="x">Ja.</u>
+                    <u who="#milgramM" start="786.876" end="x">Wir, die ganze Welt wird herschreien: Was macht ihr hier? Hat man ihn auch dann erschossen, und er war der einzige, der erschossen wurde, denn den Rest hat man gemordet auf schreckliche Weise. Eine Frau, die im achten Monat war, hat man vom zweiten Stock heruntergeworfen, und auf Bajonette. Und das gibt . . .</u>
+                    <u who="#boderD" start="811.901" end="x">Wer hatte Bajonette, die Soldaten?</u>
+                    <u who="#milgramM" start="813.333" end="x">Die Soldaten sind unten.</u>
+                    <u who="#boderD" start="815.112" end="x">Nun, [unverständliches Wort] sagen Sie doch, [unverständliches Wort].</u>
+                    <u who="#milgramM" start="818.549" end="x">Also, die Soldaten sind unten gestanden. Die Soldaten haben dann später erklärt, dass sie gewusst haben, wozu sie geschickt wurden. Sie haben erfahren von dort, wie sie die, als zum Haus gekommen sind, dass Juden arische Kinder . . .</u>
+                    <u who="#boderD" start="837.988" end="x">Vernichten.</u>
+                    <u who="#milgramM" start="839.330" end="x">Ermordet haben.</u>
+                    <u who="#boderD" start="839.948" end="x">Ermordet haben. Waren da keine Offiziere?</u>
+                    <u who="#milgramM" start="841.908" end="x">Waren Offiziere. Meinen Mann, äh, meinen Bruder hat ein Major.</u>
+                    <u who="#boderD" start="846.717" end="x">Ein Major hat ihn. Wurde er bestraft?</u>
+                    <u who="#milgramM" start="849.883" end="x">Das. Ich bin dabei gleich von Polen weggefahren.</u>
+                    <u who="#boderD" start="855.717" end="x">Sie sind gleich von Polen weggefahren.</u>
+                    <u who="#milgramM" start="858.069" end="x">Nach drei Tagen habe ich Polen verlassen. Ich konnte direkt nicht mehr dort bleiben. [Unverständlicher Satzanfang] ich es nicht.. Man hat . . . .</u>
+                    <u who="#boderD" start="871.953" end="x">Ja.</u>
+                    <u who="#milgramM" start="873.883" end="x">Man hat dort fünf Personen derart massakriert, dass man nicht gewusst hat, ob es eine Frau oder ein Mann ist. Man hat sie nicht erkannt, man weiß nicht, wer das ist. Es wurden 40 Leute erschlagen, und zwei kleine Kinder.</u>
+                    <u who="#boderD" start="892.669" end="x">Nun sagen Sie mal, was hat nachher die, hat nachher die polnische Regierung getan.</u>
+                    <u who="#milgramM" start="897.689" end="x">Die polnische Regierung hat alles getan, was sie konnte.</u>
+                    <u who="#boderD" start="901.096" end="x">Ja.</u>
+                    <u who="#milgramM" start="901.820" end="x">Das Pogrom hat gedauert von neun Uhr früh bis fünf Uhr nachmittags.</u>
+                    <u who="#boderD" start="906.494" end="x">Ja.</u>
+                    <u who="#milgramM" start="906.780" end="x">Man hat Leute aus dem Zug herausgezogen, aus Wohnungen, und so weiter. Die Regierung hat Leute aus Warschau geschickt. Man hat ein . . . äh, man hat ein Standgericht eingerichtet.</u>
+                    <u who="#boderD" start="923.197" end="x">Ja. Ja.</u>
+                    <u who="#milgramM" start="924.463" end="x">Polizeistunde und so weiter. Aber das Ärgste ist, dass die Leute wirklich dran geglaubt haben, dass die Juden die Kinder getötet haben, und dass nicht nur . . .</u>
+                    <u who="#boderD" start="936.988" end="x">Ja.</u>
+                    <u who="#milgramM" start="937.471" end="x">. . . die, das hat da, daran hat sogar die Intelligenz.</u>
+                    <u who="#boderD" start="942.069" end="x">Die Intelligenz . . .</u>
+                    <u who="#milgramM" start="943.019" end="x">Ja. Denn ich habe selber mit Intelligenten gesprochen, die mir gesagt haben etwas musste daran sein.</u>
+                    <u who="#boderD" start="950.723" end="x">Ja.</u>
+                    <u who="#milgramM" start="951.220" end="x">Und wie ich ihnen erklärt habe, nur wo sind die Kinder. Man hat ja jetzt das Haus zugenagelt, nicht wahr. Zeigt mir eine Mutter, der das Kind fehlt. Darauf habe ich keine Antwort.</u>
+                    <u who="#boderD" start="966.959" end="x">Also die allgemeine Stimmung in Polen, was Juden anbetrifft, ist was?</u>
+                    <u who="#milgramM" start="972.839" end="x">Hitler hat zu lange dort gearbeitet. Es ist ein wortloser Antisemitismus. Die Juden haben Angst, dort zu sein. Und meiner Meinung nach haben die Juden so viel verrichtet, dass sie wirklich verdienen, in Ruhe gelassen zu werden. Ich weiß selber. [Unverständlicher Satz] Ich habe dort die Schule besucht, ich habe Universität studiert, ich habe Freunde zwischen den Polen. Aber ich hab mich nicht gut gefühlt, ich hatte Angst. Ich bin der Meinung, nach Jahren wird sich das vielleicht bessern. Aber jetzt ist der Platz der Juden nicht hier. Die Regierung macht so was wieder, die Regierung geht nicht an [unverständliches Wort].</u>
+                    <u who="#boderD" start="1033.899" end="x">Ja.</u>
+                    <u who="#milgramM" start="1034.683" end="x">Aber die Bevölkerung, das [unverständliches Wort].</u>
+                    <u who="#boderD" start="1041.618" end="x">Frau Milgram, und Sie wollen denn jetzt nach Palästina gehen. Und Sie wollen . . .</u>
+                    <u who="#milgramM" start="1046.698" end="x">[unterbricht] Das ist mein einziger Wunsch jetzt. Ich will mein Kind in Palästina erziehen. Denn . . .</u>
+                    <u who="#boderD" start="1052.970" end="x">Aber dann, ja?</u>
+                    <u who="#milgramM" start="1054.643" end="x">Sein Vater war Zionist, der Kleine ist Zionist, er hat nur das eine [unverständliches Wort] in Palästina [unverständliches Satzende].</u>
+                    <u who="#boderD" start="1064.684" end="x">Sagen Sie mal, dass das, dass das Kind katholische Religion unterrichtet war, hat das nicht in irgendeiner Weise . . .</u>
+                    <u who="#milgramM" start="1070.247" end="x">Aber es hat alles vergessen, es ist ein heißer Jude, und . . .</u>
+                    <u who="#boderD" start="1076.744" end="x">Aber für eine kurze Zeit hat er nicht wirklich polnisch gebetet, katholisch . . .</u>
+                    <u who="#milgramM" start="1080.604" end="x">Nein, nie.</u>
+                    <u who="#boderD" start="1082.519" end="x">Und er hat die ganze Rolle gespielt . . .</u>
+                    <u who="#milgramM" start="1084.253" end="x">Er hat die ganze Rolle als fünfjähriges Kind gespielt, dass man darin kann wirklich glauben.</u>
+                    <u who="#boderD" start="1089.454" end="x">Und hat gewusst, dass er nicht die Wahrheit . . .</u>
+                    <u who="#milgramM" start="1092.409" end="x">Er hat alles gewusst. Alles überhaupt, er spricht wenig, jetzt aber. Er sieht viel . . .</u>
+                    <u who="#boderD" start="1099.298" end="x">Spricht wenig.</u>
+                    <u who="#milgramM" start="1099.841" end="x">. . . und spricht wenig.</u>
+                    <u who="#boderD" start="1101.047" end="x">Nun ja, sagen Sie aber, Frau Milgram, es ist ja auch jetzt in Palästina nicht ganz ruhig. Was denken Sie davon?</u>
+                    <u who="#milgramM" start="1107.922" end="x">Ich will schon eher dort unbeliebt sein wie in einem andern, an einem andern Ort beliebt. Dort weiß ich wenigstens, wofür ich kämpfen werde, wenn ich mitgehe. In Polen wusste ich das nicht.</u>
+                    <u who="#boderD" start="1126.389" end="x">Na ja. Danke sehr, Frau Milgram. Will vielleicht der Junge etwas sagen? No? Alright.</u>
+                    <u who="#milgramM" start="1133.535" end="x">Er wird vielleicht [unverständliches Satzende].</u>
+                    <u who="#boderD" start="1136.339" end="x">Hat er eine Familie in Amerika, haben Sie Familie in Amerika?</u>
+                    <u who="#milgramM" start="1138.691" end="x">In Amerika auch.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1142.143" end="x">[In English] This concl—</u>
+                    <u who="#boderD" start="1147.691" end="x">I am taking now for a short statement eh, Esther, eh, Esther Frieden . . .</u>
+                    <u who="#freilichE" start="1156.555" end="x">Freilich.</u>
+                    <u who="#boderD" start="1157.249" end="x">Esther Freilich, whose mother has covered Spool 36, 37 and 38. Esther is 13 years old.</u>
+                    <u who="#boderD" start="1180.782" end="x">This concludes Spool 9-40A. The interview with Mrs. Milgram. 9-40B is a separate spool, and has the interview with Esther Freilich, the daughter of Mrs. Frieda Freilich. Boder. Now . . .</u>
+                </div>
+                <!-- end Spool 9-40A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#milgramM_en">
+                <!-- begin Spool 9-40A -->
+                <div lang="en">
+                    <u who="#boderD" start="0.241" end="x">[In English] This is Spool 9-40A: Mrs. Milgram. Spool 9-40B will be reproduced on a separate spool. 9-40B is the little daughter of Mrs. Fania Freilich, Esther Freilich. It is a short spool, but we are putting it separate.</u>
+                    <u who="#boderD" start="49.694" end="x">This is Spool 40. August 9th, 1946, <placeName ref="Paris">Paris</placeName>, 9 Rue de Patin, and Frau, eh, Mrs. Mira Milgram continues the interview.</u>
+                    <u who="#boderD" start="64.754" end="x">[In German] Well, Mrs. Milgram, you were, eh, you spoke with the <term ref="#vothG_gestapo">Gestapo</term> guy, whether the children would be [unintelligible word, maybe it means taken through].</u>
+                    <u who="#milgramM" start="72.654" end="x">So he explained to me . . .</u>
+                    <u who="#boderD" start="74.086" end="x">[interrupts] That he had children, too?</u>
+                    <u who="#milgramM" start="75.202" end="x">. . . that he had children, too, and they were all victims. I felt veritably ridiculous that he reprimanded me very much; I explained to him that I had a brother with me, relatives and so on . . .</u>
+                    <u who="#boderD" start="87.730" end="x">Where did you have your brother with you?</u>
+                    <u who="#milgramM" start="89.916" end="x">I had my brother with me in, eh the camp, my cousin, and three other persons as well. All together we were eight persons. My brother came to me during the insurgence.</u>
+                    <u who="#boderD" start="102.413" end="x">I see, yes, and the others. And did your brother live as a Jew?</u>
+                    <u who="#milgramM" start="106.454" end="x">No, <term ref="#vothG_aryan">Aryan</term>!</u>
+                    <u who="#boderD" start="107.645" end="x"><term ref="#vothG_aryan">Aryan</term>.</u>
+                    <u who="#milgramM" start="108.203" end="x"><term ref="#vothG_aryan">Aryan</term>. [unintelligible word].</u>
+                    <u who="#boderD" start="109.304" end="x">Yes. Well?</u>
+                    <u who="#milgramM" start="109.982" end="x">He too went through a lot, a few times he was [unintelligible word; could perhaps mean harassed].</u>
+                    <u who="#boderD" start="115.168" end="x">Yes. So you had, you were together with eight people. Who were they, your brother, your . . . ?</u>
+                    <u who="#milgramM" start="121.440" end="x">My brother, the two children, a female friend . . .</u>
+                    <u who="#boderD" start="125.073" end="x">Yes. And yourself, that is five . . .</u>
+                    <u who="#milgramM" start="129.234" end="x">Five. Eh, then there was an acquaintance with her son . . .</u>
+                    <u who="#boderD" start="135.098" end="x">Yes.</u>
+                    <u who="#milgramM" start="135.460" end="x">. . . an <term ref="#vothG_aryan">Aryan</term>, and yet another female friend of mine.</u>
+                    <u who="#boderD" start="138.113" end="x">Yes. Well?</u>
+                    <u who="#milgramM" start="139.289" end="x">[Unintelligible sentence]. Eh, <term ref="#vothG_gestapo">Gestapo</term> guy, well, my first name is Bernhard. Pray for me and everything will be well.</u>
+                    <u who="#boderD" start="149.842" end="x">Yes.</u>
+                    <u who="#milgramM" start="150.174" end="x">I veritably laughed at him. I go away from him, after an hour in [unintelligible word].</u>
+                    <u who="#boderD" start="155.405" end="x">Did the <term ref="#vothG_gestapo">Gestapo</term> guy speak Polish?</u>
+                    <u who="#milgramM" start="157.395" end="x">No, German. But back then I was already so agitated, I didn't care anymore, and in answer to his question why I spoke German, I explained to him I was from <placeName ref="Poznań">Posen</placeName> . . .</u>
+                    <u who="#boderD" start="167.646" end="x">Yes.</u>
+                    <u who="#milgramM" start="168.913" end="x">. . . and that is why I speak German.</u>
+                    <u who="#boderD" start="170.647" end="x">Yes.</u>
+                    <u who="#milgramM" start="171.265" end="x">And when he comes to segregation, she says, he is organizing the segregation. He points towards the right or the left, those on the right go to Germany into the concentration camps, left was for staying.</u>
+                    <u who="#boderD" start="184.351" end="x">For what?</u>
+                    <u who="#milgramM" start="185.090" end="x">For staying in the "gouvernement."</u>
+                    <u who="#boderD" start="187.095" end="x">Yes.</u>
+                    <u who="#milgramM" start="187.909" end="x">And as I approach him he says to me, how do you think it will [unintelligible word], and in this way I dealt with all eight persons.</u>
+                    <u who="#boderD" start="196.050" end="x">Where to, to Germany?</u>
+                    <u who="#milgramM" start="196.909" end="x">No, just . . .</u>
+                    <u who="#boderD" start="197.844" end="x">[interrupts] Home.</u>
+                    <u who="#milgramM" start="198.251" end="x">. . . for staying . . .</u>
+                    <u who="#boderD" start="199.065" end="x">in the "gouvernement."</u>
+                    <u who="#milgramM" start="200.030" end="x">. . . in the "gouvernement." There we were taken to another camp, and from there we were taken to <placeName ref="Kielce">Kielce</placeName> by train the next day.</u>
+                    <u who="#boderD" start="208.186" end="x">Yes.</u>
+                    <u who="#milgramM" start="209.347" end="x">In <placeName ref="Kielce Ghetto " type="camp">Kielce</placeName> we were until January 16th, until the day, on which the German, eh, the Russian army including the Polish . . .</u>
+                    <u who="#boderD" start="221.362" end="x">liberated.</u>
+                    <u who="#milgramM" start="222.146" end="x">liberated.</u>
+                    <u who="#boderD" start="222.855" end="x">So, in <placeName ref="Kielce Ghetto " type="camp">Kielce</placeName> you were free in the city, weren't you . . .</u>
+                    <u who="#milgramM" start="225.644" end="x">[interrupts] Yes, we lived, I already had a flat there . . .</u>
+                    <u who="#boderD" start="229.337" end="x">What did you live on?</u>
+                    <u who="#milgramM" start="230.996" end="x">Eh, I earned money again.</u>
+                    <u who="#boderD" start="232.850" end="x">Doing what?</u>
+                    <u who="#milgramM" start="233.453" end="x">I traded.</u>
+                    <u who="#boderD" start="234.870" end="x">Traded.</u>
+                    <u who="#milgramM" start="235.413" end="x">Yes.</u>
+                    <u who="#boderD" start="235.956" end="x">In hard liquor?</u>
+                    <u who="#milgramM" start="236.514" end="x">No, not that, there I already couldn't trade in hard liquor. I traded in goods.</u>
+                    <u who="#boderD" start="240.841" end="x">Yes.</u>
+                    <u who="#milgramM" start="241.942" end="x">And the youngest two days before the liberation where the worst for me . . .</u>
+                    <u who="#boderD" start="248.892" end="x">Why?</u>
+                    <u who="#milgramM" start="249.299" end="x">Because the first bullets hit the house where I lived. The flat burned down . . .</u>
+                    <u who="#boderD" start="256.776" end="x">[interrupts] Burned.</u>
+                    <u who="#milgramM" start="257.349" end="x">and I . . .</u>
+                    <u who="#boderD" start="258.043" end="x">[interrupts] That was [unintelligible word], right?</u>
+                    <u who="#milgramM" start="260.048" end="x">No, they were . . .</u>
+                    <u who="#boderD" start="261.013" end="x">[interrupts] canons.</u>
+                    <u who="#milgramM" start="261.450" end="x">. . . from canons.</u>
+                    <u who="#boderD" start="262.204" end="x">Ja.</u>
+                    <u who="#milgramM" start="262.732" end="x">And again I found myself on the street with the whole family and two small children.</u>
+                    <u who="#boderD" start="269.742" end="x">Yes.</u>
+                    <u who="#milgramM" start="270.405" end="x">We had gone into a nearby flat, in which Germans lived. But the first time was terrible, you couldn't get bread, you know. You could . . . . three days after the liberation of <placeName ref="Katowice">Katowice</placeName> I went to <placeName ref="Katowice">Katowice</placeName> day after day, where I traded for a little something to eat for the children.</u>
+                    <u who="#boderD" start="292.732" end="x"><placeName ref="Katowice">Katowice</placeName>, that was right north of <placeName ref="Sosnowiec">Sosnowiec</placeName>, right?</u>
+                    <u who="#milgramM" start="294.964" end="x">Yes, yes, yes.</u>
+                    <u who="#boderD" start="295.944" end="x">Yes. Well?</u>
+                    <u who="#milgramM" start="297.859" end="x">Well, it so happened that the Polish army, there were Jewish soldiers there, who got to know that children, Jewish children, were in town. They helped me a lot. They were the only Jewish children in town</u>
+                    <u who="#boderD" start="312.286" end="x">In <placeName ref="Kielce">Kielce</placeName>.</u>
+                    <u who="#milgramM" start="313.010" end="x">Yes, in <placeName ref="Kielce">Kielce</placeName>.</u>
+                    <u who="#boderD" start="314.985" end="x">Well?</u>
+                    <u who="#milgramM" start="315.573" end="x">My brother became president of . . .</u>
+                    <u who="#boderD" start="320.684" end="x"><placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#milgramM" start="321.362" end="x"><placeName ref="Kielce">Kielce</placeName> and . . .</u>
+                    <u who="#boderD" start="322.297" end="x">What was your brother's profession?</u>
+                    <u who="#milgramM" start="323.202" end="x">My brother was an attorney.</u>
+                    <u who="#boderD" start="324.785" end="x">He was an advocate, wasn't he?</u>
+                    <u who="#milgramM" start="325.102" end="x">In <placeName ref="Lviv">Lemberg</placeName> [Lviv], advocate in <placeName ref="Lviv">Lemberg</placeName>.</u>
+                    <u who="#boderD" start="327.650" end="x">Yes.</u>
+                    <u who="#milgramM" start="329.263" end="x">And was appointed director of <placeName ref="Kielce">Kielce</placeName> and vicinity.</u>
+                    <u who="#boderD" start="334.419" end="x">Yes. Yes. Now tell me, eh, and then you were liberated.</u>
+                    <u who="#milgramM" start="343.841" end="x">Yes.</u>
+                    <u who="#boderD" start="344.293" end="x">And then you. Where did you go, and what was the last story you know of <placeName ref="Kielce">Kielce</placeName>? What really happened in <placeName ref="Kielce">Kielce</placeName>? And how do you know it?</u>
+                    <u who="#milgramM" start="354.665" end="x">My brother, as I have already said, was president there. I had moved to <placeName ref="Warsaw">Warsaw</placeName> half a year ago.</u>
+                    <u who="#boderD" start="364.657" end="x">Yes.</u>
+                    <u who="#milgramM" start="365.110" end="x">Where I worked.</u>
+                    <u who="#boderD" start="366.753" end="x">As what?</u>
+                    <u who="#milgramM" start="368.020" end="x">I worked in a, eh, factory, in a private factory.</u>
+                    <u who="#boderD" start="373.673" end="x">Yes. Well?</u>
+                    <u who="#milgramM" start="375.754" end="x">At the same time I also worked in the <term ref="#vothG_zionist">Zionist</term> organization, in youth. And the organisation made it possible for me to obtain a passport and a visa.</u>
+                    <u who="#boderD" start="388.613" end="x">Where to?</u>
+                    <u who="#milgramM" start="389.277" end="x">To [unintelligible word, maybe <placeName ref="Paris">Paris</placeName>] with, so that I will go on to Palestine from here.</u>
+                    <u who="#boderD" start="394.960" end="x">Yes.</u>
+                    <u who="#milgramM" start="395.202" end="x">My husband was a <term ref="#vothG_zionist">Zionist</term>, too, he worked a lot as a <term ref="#vothG_zionist">Zionist</term>, My brother, too.</u>
+                    <u who="#boderD" start="403.297" end="x">And?</u>
+                    <u who="#milgramM" start="403.629" end="x">A couple of days ago, eh, eh, a day after the Jewish <term ref="#vothG_pogrom">pogrom</term>, I'm in the electrical [public transport] and all of a sudden in the newspaper I see . . .</u>
+                    <u who="#boderD" start="413.398" end="x">Which <term ref="#vothG_pogrom">pogrom</term> [unintelligible word]? In <placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#milgramM" start="415.071" end="x">In <placeName ref="Kielce">Kielce</placeName>.</u>
+                    <u who="#boderD" start="415.705" end="x">Yes.</u>
+                    <u who="#milgramM" start="416.112" end="x">That there <term ref="#vothG_pogrom">pogrom</term> . . . that there had been a <term ref="#vothG_pogrom">pogrom</term>  Immediately I was certain that my brother was not alive, because I knew him as a man who did not shrink from anything, who wasn't scared. Besides I knew, he would have informed me immediately, because he knew how close we were. We had nobody else.</u>
+                    <u who="#boderD" start="439.935" end="x">Yes</u>
+                    <u who="#milgramM" start="440.297" end="x">Only him.</u>
+                    <u who="#boderD" start="441.624" end="x">Well.</u>
+                    <u who="#milgramM" start="442.212" end="x">He also helped me a lot financially. And . . . [unintelligible word] . . .</u>
+                    <u who="#boderD" start="447.684" end="x">[interrupts] And what did you find out from the newspaper?</u>
+                    <u who="#milgramM" start="449.554" end="x">That there had been a <term ref="#vothG_pogrom">pogrom</term>.</u>
+                    <u who="#boderD" start="451.167" end="x">Yes.</u>
+                    <u who="#milgramM" start="451.770" end="x">I went to the post office straight away. I phoned the militia. There they told me that they didn't know anything specific yet, but I should be prepared for everything. And then I already know something was happening.</u>
+                    <u who="#boderD" start="465.790" end="x">You phoned the <placeName ref="Kielce">Kielce</placeName> militia?</u>
+                    <u who="#milgramM" start="467.328" end="x">Yes.</u>
+                    <u who="#boderD" start="467.976" end="x">Yes. Well?</u>
+                    <u who="#milgramM" start="469.333" end="x">Then I went to <placeName ref="Kielce">Kielce</placeName> the next day. By car.</u>
+                    <u who="#boderD" start="475.393" end="x">Yes.</u>
+                    <u who="#milgramM" start="475.876" end="x">It was something terrible. Because it was almost only intelligentsia on the way, they spoke about the <term ref="#vothG_pogrom">pogrom</term> in such way I got out and called to them, you are animals.</u>
+                    <u who="#boderD" start="490.997" end="x">You are what?</u>
+                    <u who="#milgramM" start="492.007" end="x">Animals.</u>
+                    <u who="#boderD" start="492.881" end="x">Brutes!</u>
+                    <u who="#milgramM" start="493.545" end="x">You are brutes.</u>
+                    <u who="#boderD" start="494.857" end="x">I understand.</u>
+                    <u who="#milgramM" start="495.264" end="x">Yes. Because they talked about it like when you watch a dog being killed.</u>
+                    <u who="#boderD" start="502.259" end="x">Yes.</u>
+                    <u who="#milgramM" start="502.862" end="x">With laughter.</u>
+                    <u who="#boderD" start="505.696" end="x">And they were Polish people?</u>
+                    <u who="#milgramM" start="506.993" end="x">They were Polish, amongst them a clergyman from <placeName ref="Kielce">Kielce</placeName>.</u>
+                    <u who="#boderD" start="512.375" end="x">Why? You went to <placeName ref="Kielce">Kielce</placeName> after all.</u>
+                    <u who="#milgramM" start="514.470" end="x">I went to <placeName ref="Kielce">Kielce</placeName> . . .</u>
+                    <u who="#boderD" start="515.586" end="x">. . . and you already met people who came from <placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#milgramM" start="517.516" end="x">No, no. They merely talked about it.</u>
+                    <u who="#boderD" start="519.973" end="x">Yes. Yes. Well?</u>
+                    <u who="#milgramM" start="520.848" end="x">It was something terrible. Yes, the civil, civilian population.</u>
+                    <u who="#boderD" start="525.506" end="x">Yes. Not drunkards?</u>
+                    <u who="#milgramM" start="527.466" end="x">So . . .</u>
+                    <u who="#boderD" start="528.702" end="x">Yes. Well? And, in <placeName ref="Kielce">Kielce</placeName>, what did you . . .</u>
+                    <u who="#milgramM" start="531.717" end="x">[speaks over the interviewer] . . . angry.</u>
+                    <u who="#boderD" start="532.984" end="x">. . . find?</u>
+                    <u who="#milgramM" start="534.145" end="x">In <placeName ref="Kielce">Kielce</placeName> I learned that my brother ran about from nine in the morning and went everywhere in the city, to the militia and so on, and asked for help. Because they already knew something would be happening there.</u>
+                    <u who="#boderD" start="552.582" end="x">Oh, the militia knew?</u>
+                    <u who="#milgramM" start="553.577" end="x">Yes.</u>
+                    <u who="#boderD" start="554.271" end="x">And the militia was all Polish. Weren't there any Jewish people in the militia?</u>
+                    <u who="#milgramM" start="557.753" end="x">No. There were maybe one or two, but they didn't [unintelligible word].</u>
+                    <u who="#boderD" start="562.155" end="x">Yes.</u>
+                    <u who="#milgramM" start="566.768" end="x">And my brother, who was in the city, went back to his Jews. I didn't want to leave them alone. Although you know, he lived in <placeName ref="Kielce">Kielce</placeName> with <term ref="#vothG_aryan">Aryan</term> papers.</u>
+                    <u who="#boderD" start="577.651" end="x">Oh, he, he lived in <placeName ref="Kielce">Kielce</placeName> as an <term ref="#vothG_aryan">Aryan</term>?</u>
+                    <u who="#milgramM" start="580.244" end="x">Yes, no, only in his committee he was Jewish. Doctor [unintelligible Name], and in his flat he lived as [unintelligible name], that was his conspiracy name. Because he worked in the conspiracy all the time.</u>
+                    <u who="#boderD" start="597.641" end="x">But you say he was mayor in <placeName ref="Kielce">Kielce</placeName>?</u>
+                    <u who="#milgramM" start="599.511" end="x">Not mayor.</u>
+                    <u who="#boderD" start="600.672" end="x">What then?</u>
+                    <u who="#milgramM" start="601.531" end="x">He was the president of the community, the Jewish community.</u>
+                    <u who="#boderD" start="604.185" end="x">Oh, he was president of the Jewish community, I see. He became president of the Jewish community, yes.</u>
+                    <u who="#milgramM" start="609.838" end="x">Yes. Yes.</u>
+                    <u who="#boderD" start="610.562" end="x">Yes. Now tell me what actually happened there during the <term ref="#vothG_pogrom">pogrom</term>, you read something. What were the particulars?</u>
+                    <u who="#milgramM" start="617.602" end="x">Well, it happened . . . in the town a rumour was spread that eleven children were missing. And that Jews had killed them to get their blood for the . . . .Jews from Russia, who do not look well at all . . .</u>
+                    <u who="#boderD" start="634.987" end="x">I see.</u>
+                    <u who="#milgramM" start="635.379" end="x">. . . and are very . . . eh . . .</u>
+                    <u who="#boderD" start="638.967" end="x">Famished.</u>
+                    <u who="#milgramM" start="639.630" end="x">. . . famished. And for those they took the blood of the <term ref="#vothG_aryan">Aryan</term> children.</u>
+                    <u who="#boderD" start="643.761" end="x">Oh, they didn't even say [hard to understand; could mean "matzo"].</u>
+                    <u who="#milgramM" start="645.359" end="x">No, no, no. It isn't the time now after all.</u>
+                    <u who="#boderD" start="647.500" end="x">Which month . . .</u>
+                    <u who="#milgramM" start="647.967" end="x">Easter, right?</u>
+                    <u who="#boderD" start="648.902" end="x">Yes. Which month was it approximately?</u>
+                    <u who="#milgramM" start="650.651" end="x">That was July the 4th.</u>
+                    <u who="#boderD" start="653.349" end="x">July. Yes. Well, it was said they needed the blood for the sick Jews.</u>
+                    <u who="#milgramM" start="658.701" end="x">Needed it for the sick Jews from Russia.</u>
+                    <u who="#boderD" start="661.309" end="x">Well.</u>
+                    <u who="#milgramM" start="662.153" end="x">And there was one boy who claimed that the Jews had held him in the cellar of the Jewish committee for some days.</u>
+                    <u who="#boderD" start="671.862" end="x">Yes.</u>
+                    <u who="#milgramM" start="672.390" end="x">Although it turned out there wasn't even a cellar.</u>
+                    <u who="#boderD" start="676.506" end="x">Yes.</u>
+                    <u who="#milgramM" start="677.154" end="x">The boy had already said this to the militia one day before.</u>
+                    <u who="#boderD" start="683.516" end="x">Yes.</u>
+                    <u who="#milgramM" start="684.481" end="x">And they let it take its way.</u>
+                    <u who="#boderD" start="687.210" end="x">Yes.</u>
+                    <u who="#milgramM" start="687.979" end="x">And the next day, from nine in the morning, people started to gather in front of the house of the Jewish community, where the elders lived.</u>
+                    <u who="#boderD" start="698.758" end="x">Yes.</u>
+                    <u who="#milgramM" start="699.647" end="x">And then the militia came, cordoned off the house.</u>
+                    <u who="#boderD" start="703.145" end="x">Yes.</u>
+                    <u who="#milgramM" start="704.125" end="x">Demanded that everybody hand over their, eh, . . .</u>
+                    <u who="#boderD" start="709.447" end="x">Weapons.</u>
+                    <u who="#milgramM" start="710.125" end="x">Weapons.</u>
+                    <u who="#boderD" start="711.512" end="x">The Jewish community?</u>
+                    <u who="#milgramM" start="712.266" end="x">The Jewish community.</u>
+                    <u who="#boderD" start="713.502" end="x">Yes.</u>
+                    <u who="#milgramM" start="713.774" end="x">Because in town they said that Jews shoot and they didn't want to be guilty eh, let this happen . . .</u>
+                    <u who="#boderD" start="722.593" end="x">Yes.</u>
+                    <u who="#milgramM" start="723.166" end="x">That, that eh, this is said, you know . . .</u>
+                    <u who="#boderD" start="727.975" end="x">Yes.</u>
+                    <u who="#milgramM" start="728.156" end="x">Because it is not true.</u>
+                    <u who="#boderD" start="729.015" end="x">Yes.</u>
+                    <u who="#milgramM" start="729.633" end="x">And when the last Jew had handed over his weapon, they began to shoot the Jews with those weapons, to beat them and so on. The robbed them. My brother, who spoke to them, and asked them to stop.</u>
+                    <p>[knock on the door/ interruption]</p>
+                    <u who="#boderD" start="747.271" end="x">. . . who spoke to the people, yes?</u>
+                    <u who="#milgramM" start="750.045" end="x">Who [unintelligible sentence end]. It will not happen without danger.</u>
+                    <u who="#boderD" start="754.643" end="x">Yes. The militia.</u>
+                    <u who="#milgramM" start="755.638" end="x">To the militia.</u>
+                    <u who="#boderD" start="756.512" end="x">Yes.</u>
+                    <u who="#milgramM" start="756.904" end="x">Then the military joined them.</u>
+                    <u who="#boderD" start="759.105" end="x">Polish military.</u>
+                    <u who="#milgramM" start="759.708" end="x">Yes.</u>
+                    <u who="#boderD" start="761.668" end="x">Well?</u>
+                    <u who="#milgramM" start="762.000" end="x">He told them: You have to, eh . . .</u>
+                    <u who="#boderD" start="769.734" end="x">Have to defend yourselves?</u>
+                    <u who="#milgramM" start="771.558" end="x">Have to, have to, eh, . . . [Speaks Polish]</u>
+                    <u who="#boderD" start="775.267" end="x">What are you saying in Polish?</u>
+                    <u who="#milgramM" start="775.855" end="x">[speaks Polish] You have to watch, what you are doing.</u>
+                    <u who="#boderD" start="780.785" end="x">Yes.</u>
+                    <u who="#milgramM" start="781.192" end="x">It will not happen without danger.</u>
+                    <u who="#boderD" start="782.669" end="x">The military said it to whom, to the Jews?</u>
+                    <u who="#milgramM" start="784.117" end="x">My brother said it to them.</u>
+                    <u who="#boderD" start="785.941" end="x">Yes.</u>
+                    <u who="#milgramM" start="786.876" end="x">We, the whole world will shout at you: What are you doing here? They shot him then, and he was the only one who was shot, because the rest was murdered in terrible ways. One woman, who was eight months pregnant, they threw from the second floor onto bayonets. And that was . . .</u>
+                    <u who="#boderD" start="811.901" end="x">Who had bayonets, the soldiers?</u>
+                    <u who="#milgramM" start="813.333" end="x">The soldiers are downstairs.</u>
+                    <u who="#boderD" start="815.112" end="x">Well, [unintelligible word] do tell me, [unintelligible word].</u>
+                    <u who="#milgramM" start="818.549" end="x">Well, the soldiers stood downstairs. The soldiers afterwards claimed, they knew why they were sent there. They found out from there, when they were sent to the house that Jews had taken <term ref="#vothG_aryan">Aryan</term> children and had . . .</u>
+                    <u who="#boderD" start="837.988" end="x">Destroyed them.</u>
+                    <u who="#milgramM" start="839.330" end="x">Murdered them.</u>
+                    <u who="#boderD" start="839.948" end="x">Murdered them. Where there no officers?</u>
+                    <u who="#milgramM" start="841.908" end="x">There were officers. My husband, eh, my brother, a "Major" [probably: shot him; "Major" is a military rank].</u>
+                    <u who="#boderD" start="846.717" end="x">A "Major" [shot] him. Was he punished?</u>
+                    <u who="#milgramM" start="849.883" end="x">That. I left Poland straight away.</u>
+                    <u who="#boderD" start="855.717" end="x">You left Poland straight away.</u>
+                    <u who="#milgramM" start="858.069" end="x">After three days I left Poland. I couldn't stay there. [Unintelligible sentence beginning] . . . not. They . . .</u>
+                    <u who="#boderD" start="871.953" end="x">Yes.</u>
+                    <u who="#milgramM" start="873.883" end="x">Five people were massacred in such a way, that you didn't know anymore whether they were a woman or a man. They couldn't identify them, they don't know who they are. 40 people where beaten to death, and two little children.</u>
+                    <u who="#boderD" start="892.669" end="x">Now tell me what did the Polish government do afterwards.</u>
+                    <u who="#milgramM" start="897.689" end="x">The Polish government did everything it could.</u>
+                    <u who="#boderD" start="901.096" end="x">Yes.</u>
+                    <u who="#milgramM" start="901.820" end="x">The <term ref="#vothG_pogrom">pogrom</term> went on from nine in the morning until five in the afternoon.</u>
+                    <u who="#boderD" start="906.494" end="x">Yes.</u>
+                    <u who="#milgramM" start="906.780" end="x">They dragged people out of the train, out of flats, and so on. The government sent people from <placeName ref="Warsaw">Warsaw</placeName>. They set up a, eh, they set up a drumhead court-martial.</u>
+                    <u who="#boderD" start="923.197" end="x">Yes. Yes.</u>
+                    <u who="#milgramM" start="924.463" end="x">Closing time and so on. But the worst is that people really believed that the Jews had killed the children and not only . . .</u>
+                    <u who="#boderD" start="936.988" end="x">Yes.</u>
+                    <u who="#milgramM" start="937.471" end="x">. . . the, even the intelligentsia believed it.</u>
+                    <u who="#boderD" start="942.069" end="x">The intelligentsia . . .</u>
+                    <u who="#milgramM" start="943.019" end="x">Yes. Because I myself spoke with some, who told me there has to be truth in it.</u>
+                    <u who="#boderD" start="950.723" end="x">Yes.</u>
+                    <u who="#milgramM" start="951.220" end="x">And when I explained to them, but where are the children. They boarded up the house, you know. Show me one mother who is missing a child. To that I did not get an answer.</u>
+                    <u who="#boderD" start="966.959" end="x">So the general disposition in Poland concerning Jews is what?</u>
+                    <u who="#milgramM" start="972.839" end="x">Hitler has worked there too long. It is a wordless anti-Semitism. The Jews are afraid to be there. And in my opinion the Jews have achieved so much that they deserve to be left in peace. I myself know. [Unintelligible sentence]. I went to school there, I studied at university, I have friends amongst the Polish. But I didn't have a good feeling, I was afraid. I think this will maybe improve after years. But now this is not the place for Jews. The government will do such a thing again, the government does not [unintelligible sentence end].</u>
+                    <u who="#boderD" start="1033.899" end="x">Yes.</u>
+                    <u who="#milgramM" start="1034.683" end="x">But the population, that [unintelligible sentence end].</u>
+                    <u who="#boderD" start="1041.618" end="x">Mrs. Milgram, and now you want to go to Palestine. And you want . . .</u>
+                    <u who="#milgramM" start="1046.698" end="x">[interrupts] This is my only wish now. I want to bring up my child in Palestine. Because . . .</u>
+                    <u who="#boderD" start="1052.970" end="x">But then, yes?</u>
+                    <u who="#milgramM" start="1054.643" end="x">His father was a <term ref="#vothG_zionist">Zionist</term>, the little one is a <term ref="#vothG_zionist">Zionist</term>, he has only the one [unintelligible word] in Palestine [unintelligible sentence end].</u>
+                    <u who="#boderD" start="1064.684" end="x">Tell me, that the, that the child has been taught in Catholic religion, has that not in one way or another . . .</u>
+                    <u who="#milgramM" start="1070.247" end="x">But he has forgotten everything, he is a hot Jew, and . . .</u>
+                    <u who="#boderD" start="1076.744" end="x">But for a short period of time did he not really pray in Polish, Catholic . . .</u>
+                    <u who="#milgramM" start="1080.604" end="x">No, never.</u>
+                    <u who="#boderD" start="1082.519" end="x">And he acted the part all the time . . .</u>
+                    <u who="#milgramM" start="1084.253" end="x">He acted the part all the time as a five-year-old child, in a way you can really believe in it.</u>
+                    <u who="#boderD" start="1089.454" end="x">And he knew it wasn't the truth . . .</u>
+                    <u who="#milgramM" start="1092.409" end="x">He knew everything. Everything, but now he speaks little. He sees a lot . . .</u>
+                    <u who="#boderD" start="1099.298" end="x">Speaks little.</u>
+                    <u who="#milgramM" start="1099.841" end="x">. . . and speaks little.</u>
+                    <u who="#boderD" start="1101.047" end="x">Well, but tell me, Mrs. Milgram, it isn't all quiet in Palestine either. What do you think of that?</u>
+                    <u who="#milgramM" start="1107.922" end="x">I would rather want to be unpopular there, than in another, popular in another place. There I at least know what I will fight for when I go there. In Poland I didn't know it.</u>
+                    <u who="#boderD" start="1126.389" end="x">Oh well. Thank you very much, Mrs. Milgram. Does the boy maybe want to say something? No? Alright.</u>
+                    <u who="#milgramM" start="1133.535" end="x">He maybe [unintelligible sentence end].</u>
+                    <u who="#boderD" start="1136.339" end="x">Does he have family in America; do you have family in America?</u>
+                    <u who="#milgramM" start="1138.691" end="x">In America as well.</u>
+                    <u who="#boderD" start="1142.143" end="x">[In English] This concl—</u>
+                    <u who="#boderD" start="1147.691" end="x">I am taking now for a short statement eh, Esther, eh, Esther Frieden . . .</u>
+                    <u who="#freilichE" start="1156.555" end="x">Freilich.</u>
+                    <u who="#boderD" start="1157.249" end="x">Esther Freilich, whose mother has covered Spool 36, 37 and 38. Esther is 13 years old.</u>
+                    <u who="#boderD" start="1180.782" end="x">This concludes Spool 9-40A. The interview with Mrs. Milgram. 9-40B is a separate spool, and has the interview with Esther Freilich, the daughter of Mrs. Frieda Freilich. Boder. Now . . .</u>
+                </div>
+                <!-- end Spool 9-40A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

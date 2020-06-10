@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Sigmund Reich; August 26, 1946; Genève, Switzerland</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <!--
+                    <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Rivka Schiller</name>
+                    </respStmt>
+                -->
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT33M53.658S" id="reichS_9-73B_9-74A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <lang value="secondary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-73B</note>
+                                <note type="spools" n="1">9-74A</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-26</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <!--
+                <textDesc id="reichS_yi_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+                </textDesc>
+            -->
+            <textDesc id="reichS_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="reichS" role="interviewee">
+                        <persName>
+                            <forename>Sigmund</forename>
+                            <surname>Reich</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>20</age>
+                        <birth>unknown</birth>
+                        <faith>Jewish</faith>
+                        <nationality>unknown</nationality>
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Kraków">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Kraków Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Flossenbürg concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Kamenz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Dachau concentration camp">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <!-- <div> -->
+            <!-- Begin spool 9-73B -->
+            <div lang="en">
+                <u who="boderD" start="3.106" end="x">[In English] <placeName ref="Genève">Geneva</placeName>, August the 26th. <placeName ref="Genève">Geneva</placeName>, August the 26th, 1946, at the <term ref="#vothG_ort">ORT</term> School. The interviewee is a young man, Sigmund Reich.</u>
+                <u who="boderD" start="16.730" end="x">[In German] How old are you?</u>
+                <u who="reichS" start="17.925" end="x">I am twenty years old.</u>
+                <u who="boderD" start="19.347" end="x">[In English] Twenty years old. He made his way through various concentration camps, then to Switzerland and the <term ref="#vothG_ort">ORT</term> Schools.</u>
+                <u who="boderD" start="28.547" end="x">[In German] And so, Mr. Reich, tell me again your full name and how old you are. Speak Yiddish.</u>
+                <u who="reichS" start="34.253" end="x">Yes. I speak Yiddish better.</u>
+                <u who="boderD" start="36.503" end="x">Yes.</u>
+                <u who="reichS" start="37.003" end="x">I was . . . I was . . . I was born in Austria.</u>
+                <u who="boderD" start="42.534" end="x">In Austria, yes.</u>
+                <u who="reichS" start="43.643" end="x">In Austria. But I did not live in Austria long. Only a year and a half.</u>
+                <u who="boderD" start="47.439" end="x">Yes?</u>
+                <u who="reichS" start="48.048" end="x">Later we went to Belgium. There we were six years, and we went to Poland.</u>
+                <u who="boderD" start="51.380" end="x">Yes.</u>
+                <u who="reichS" start="52.348" end="x">In Poland I lived until the war . . . I was seven years . . .</u>
+                <u who="boderD" start="55.834" end="x">Hm.</u>
+                <u who="reichS" start="56.443" end="x">Till the beginning of the war.</u>
+                <u who="boderD" start="58.130" end="x">Yes?</u>
+                <u who="reichS" start="58.615" end="x">And at the beginning of the war I became sick.</u>
+                <u who="boderD" start="61.990" end="x">What town in Poland did you live in?</u>
+                <u who="reichS" start="64.819" end="x">In <placeName ref="Kraków">Kraków</placeName>.</u>
+                <u who="boderD" start="65.663" end="x">Where?</u>
+                <u who="reichS" start="66.100" end="x">In <placeName ref="Kraków">Kraków</placeName>.</u>
+                <u who="boderD" start="66.647" end="x"><placeName ref="Kraków">Kraków</placeName>?</u>
+                <u who="reichS" start="67.428" end="x">Yes. <placeName ref="Kraków">Kraków</placeName> in Poland.</u>
+                <u who="boderD" start="68.740" end="x">In <placeName ref="Kraków">Kraków</placeName>. And so, you lived in <placeName ref="Kraków">Kraków</placeName>. Yes? Nu?</u>
+                <u who="reichS" start="72.068" end="x">And I remained there only with the mother. My father already had gone. Rumors . . . rumors were out that all . . . all men, Jewish men from eighteen to forty five, will be taken for slave-labor.</u>
+                <u who="boderD" start="89.271" end="x">Nu?</u>
+                <u who="reichS" start="89.662" end="x">Nu, my father was afraid so he left . . . he left. He left for <placeName ref="Lviv">Lemberg</placeName>.</u>
+                <u who="boderD" start="93.537" end="x">Nu?</u>
+                <u who="reichS" start="94.537" end="x">So I remained with the mother.</u>
+                <u who="boderD" start="95.849" end="x">Yes?</u>
+                <u who="reichS" start="96.677" end="x">I remained alone with the mother. And I started to earn . . . for food . . .</u>
+                <u who="boderD" start="103.411" end="x">yes?</u>
+                <u who="reichS" start="104.318" end="x">. . . in many ways. I worked with the snow. I worked . . . eh . . . eh . . . I carried packages. I worked once in a store there. Finally I worked with a tailor. So I earned now and then a few groschen [pennies].</u>
+                <u who="boderD" start="115.505" end="x">Nu? Go on!</u>
+                <u who="reichS" start="118.521" end="x">And so in thousand nine hundred and forty was made . . . made the <term ref="#vothG_ghetto">ghetto</term> in <placeName ref="Kraków">Kraków</placeName>.</u>
+                <u who="boderD" start="127.676" end="x">In <placeName ref="Kraków">Kraków</placeName>?</u>
+                <u who="reichS" start="128.770" end="x">In <placeName ref="Kraków">Kraków</placeName>.</u>
+                <u who="boderD" start="129.302" end="x">Yes?</u>
+                <u who="reichS" start="129.709" end="x">They deported . . . all . . . the whole . . . all the Jews of <placeName ref="Kraków">Kraków</placeName> were deported to . . . to <placeName ref="Podgórze">Podgorz</placeName>, the second [a certain] part. That means, the . . . ah . . . were . . . many were deported.</u>
+                <u who="boderD" start="141.586" end="x">Yes?</u>
+                <u who="reichS" start="142.008" end="x">But . . . but there were left something like thirty . . . thirty thousand people. The rest were deported. I too was deported with the . . . with the . . . with my mother. There were . . . I also had there a grandmother with a grandfather. And so, we were deported. My grandfather and grandmother [?] went to <placeName ref="Tarnow">Tarnow</placeName>, and I went thirty-two kilometers from . . . from <placeName ref="Tarnow">Tarnow</placeName> to <placeName ref="Radomyśl Wielki">Radomyszl Wielki</placeName>.</u>
+                <u who="boderD" start="166.988" end="x">By yourself?</u>
+                <u who="reichS" start="168.051" end="x">Just with the mother.</u>
+                <u who="boderD" start="168.801" end="x">With the mother. Nu?</u>
+                <u who="reichS" start="169.988" end="x">We went there . . . we stayed there with . . . with my mother's sister.</u>
+                <u who="boderD" start="174.035" end="x">Yes?</u>
+                <u who="reichS" start="174.723" end="x">There . . . there I already had to work.</u>
+                <u who="boderD" start="177.613" end="x">Where was your father?</u>
+                <u who="reichS" start="178.488" end="x">My father was in <placeName ref="Lviv">Lemberg</placeName> . . . when . . . until . . . until the 'Russian' war.</u>
+                <u who="boderD" start="183.191" end="x">Nu?</u>
+                <u who="reichS" start="183.753" end="x">Later . . . I have now received a letter from my uncle in Belgium that he received news from <placeName ref="Doubrava">Dombrau</placeName>.</u>
+                <u who="boderD" start="190.612" end="x">Hm.</u>
+                <u who="reichS" start="191.315" end="x">I know no more.</u>
+                <u who="boderD" start="192.987" end="x">But <placeName ref="Doubrava">Dombrau</placeName> is Russia?</u>
+                <u who="reichS" start="194.299" end="x">Russia.</u>
+                <u who="boderD" start="194.955" end="x">You don't know anything more?</u>
+                <u who="reichS" start="196.736" end="x">I know no more.</u>
+                <u who="boderD" start="197.267" end="x">Nu? And so?</u>
+                <u who="reichS" start="197.688" end="x">We esc- . . . esc- . . . escaped to <placeName ref="Radomyśl nad Sanem">Radomysl</placeName>. There we still received a few letters . . . a few letters.</u>
+                <u who="boderD" start="206.839" end="x">From whom?</u>
+                <u who="reichS" start="207.402" end="x">From the father. And that . . . on this . . . later the 'Russian' war broke out, and the Germans gave an order that from every family one man must present himself so that the family can remain [in the place].</u>
+                <u who="boderD" start="223.392" end="x">Yes?</u>
+                <u who="reichS" start="224.111" end="x">Nu, so I . . . so I did thus I . . .</u>
+                <u who="boderD" start="227.486" end="x">How old were you then?</u>
+                <u who="reichS" start="229.126" end="x">About thirteen, over thirteen years.</u>
+                <u who="boderD" start="231.157" end="x">Yes?</u>
+                <u who="reichS" start="231.563" end="x">I was . . . I did thus. I wanted for my mother to remain there in the town.</u>
+                <u who="boderD" start="235.500" end="x">Yes?</u>
+                <u who="reichS" start="236.578" end="x">I went and reported.</u>
+                <u who="boderD" start="239.531" end="x">Hm.</u>
+                <u who="reichS" start="240.093" end="x">I reported and came to the square . . . I cannot remember what day it was.</u>
+                <u who="boderD" start="246.097" end="x">That is not important.</u>
+                <u who="reichS" start="247.488" end="x">So I went to the concentration . . . to the <term ref="#vothG_lager">lager</term>. It was promised [that] every three weeks we will be able to go home.</u>
+                <u who="boderD" start="253.628" end="x">Yes?</u>
+                <u who="reichS" start="254.065" end="x">In the meantime only two weeks passed and the whole town was depopulated [of Jews]. Since then I have no more word. Not from the mother, not from anybody.</u>
+                <u who="boderD" start="261.135" end="x">How come? You went to work?</u>
+                <u who="reichS" start="265.401" end="x">Yes. It was said to a <term ref="#vothG_lager">lager</term> in a nearby town.</u>
+                <u who="boderD" start="268.760" end="x">Yes.</u>
+                <u who="reichS" start="269.213" end="x">It was said every three weeks we will have leave.</u>
+                <u who="boderD" start="272.510" end="x">Nu?</u>
+                <u who="reichS" start="273.291" end="x">And so, well, only two weeks passed, the whole town was . . . was depopulated. They were . . .</u>
+                <u who="boderD" start="279.822" end="x">They were . . .</u>
+                <u who="reichS" start="280.775" end="x">They were sent . . . deported. And since then there is no word [from them] at all.</u>
+                <u who="boderD" start="283.365" end="x">Yes?</u>
+                <u who="reichS" start="283.864" end="x">Not at all. From the whole transport there is no word.</u>
+                <u who="boderD" start="286.244" end="x">Yes?</u>
+                <u who="reichS" start="286.744" end="x">And later I came. There was <placeName ref="Mielec concentration camp" type="camp">Mielec</placeName> [?]. We worked mostly at flying . . . I personally worked there at flying machines.</u>
+                <u who="boderD" start="296.165" end="x">Yes?</u>
+                <u who="reichS" start="296.836" end="x">There we worked . . .</u>
+                <u who="boderD" start="298.102" end="x">And you didn't hear from the mother?</u>
+                <u who="reichS" start="299.664" end="x">Nothing.</u>
+                <u who="boderD" start="300.007" end="x">Did you hear anything afterwards?</u>
+                <u who="reichS" start="301.538" end="x">No, nothing.</u>
+                <u who="boderD" start="302.538" end="x">Nothing. Nu.</u>
+                <u who="reichS" start="303.398" end="x">And somehow we managed. We . . . we . . . stole some potatoes . . . and other things only to maintain a hold of that little piece of soul.</u>
+                <u who="boderD" start="315.866" end="x">Hm.</u>
+                <u who="reichS" start="316.584" end="x">Thus we spent there two years. After the two years, when the Russians began to approach, they were near <placeName ref="Rzeszów">Rzeszow</placeName>, we were evacuated. We were evacuated to Germany. Then we travelled through <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, then through <placeName ref="Płaszów concentration camp" type="camp">Plaszow</placeName> [?]. We thought we will remain somewhere in a <term ref="#vothG_lager">lager</term> there, but we were farther . . .</u>
+                <u who="boderD" start="336.257" end="x">How long have you been in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                <u who="reichS" start="337.851" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> . . . we were there only a few hours in the RR-cars.</u>
+                <u who="boderD" start="340.570" end="x">Yes. Nu?</u>
+                <u who="reichS" start="341.852" end="x">Afterwards we travelled on.</u>
+                <u who="boderD" start="343.008" end="x">Yes?</u>
+                <u who="reichS" start="343.758" end="x">We . . .</u>
+                <u who="boderD" start="344.242" end="x">Now who were you? Men . . . men or [and] women?</u>
+                <u who="reichS" start="347.288" end="x">Men only. There were about a hundred women, but they were . . . I think they were taken off in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                <u who="boderD" start="351.319" end="x">Yes. And otherwise you were men only?</u>
+                <u who="reichS" start="354.428" end="x">Men only.</u>
+                <u who="boderD" start="355.272" end="x">How many men to a RR-car?</u>
+                <u who="reichS" start="356.443" end="x">In a RR-car could have been eighty, ninety men.</u>
+                <u who="boderD" start="360.021" end="x">Were you let out if one had to go?</u>
+                <u who="reichS" start="362.365" end="x">Yes, not . . . not always, not always. Once a day, twice a day they let us out.</u>
+                <u who="boderD" start="367.802" end="x">Nu, you all were a labor force.</u>
+                <u who="reichS" start="370.505" end="x">Labor force. We were . . . they said we were demanded by the Heinkel Airplane Works.</u>
+                <u who="boderD" start="378.661" end="x">Oh. The Heinkel Airplane Works?</u>
+                <u who="reichS" start="379.661" end="x">Yes.</u>
+                <u who="boderD" start="380.005" end="x">Nu?</u>
+                <u who="reichS" start="380.411" end="x">We were demanded for Germany, because we were good workers. Nu, we were . . . we went to Germany. We came to <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>, maybe six kilometers from the Sudet- . . . Czecho-<placeName ref="Sudeten">Sudeten</placeName> border. There . . . there was one of the worst <term ref="#vothG_lager">lagers</term>. A <term ref="#vothG_lager">lager</term> of the third . . . third class. Only professional criminals [so-called <term ref="#vothG_bver">BV's</term>]. German criminals. Lately also Russians came and different nationalities. They were all sent to that <term ref="#vothG_lager">lager</term>. In the camp there, I spent also . . . I spent also . . . maybe . . . maybe a . . . a year. Not a full year. Later, when the Russians approached, we were again transferred. There were also airplane works, Messerschmitt . . .</u>
+                <u who="boderD" start="424.660" end="x">Yes?</u>
+                <u who="reichS" start="425.129" end="x">Later, we were . . . from there we were taken to <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>. Maybe . . . seven hundred men. In <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName> it was very . . . it was very . . . was already very bad. It was a 'Commando' from <placeName ref="Gross-Rosen concentration camp" type="camp">Grossrosen</placeName>.</u>
+                <u who="boderD" start="435.757" end="x">From where?</u>
+                <u who="reichS" start="436.445" end="x"><placeName ref="Gross-Rosen concentration camp" type="camp">Grossrosen</placeName>.</u>
+                <u who="boderD" start="437.461" end="x">Yes?</u>
+                <u who="reichS" start="438.117" end="x">The 'Commando' leader was a very, very bad . . . [no sound from the wire].</u>
+                <u who="boderD" start="445.609" end="x">You said he was a bad man?</u>
+                <u who="reichS" start="448.202" end="x">Very bad.</u>
+                <u who="boderD" start="448.827" end="x">How long did you live there?</u>
+                <u who="reichS" start="449.905" end="x">It is like this. In the beginning we were . . . it was . . . we worked there. There was a mechanical section, by machines. We worked with lathes. Later, when we already . . . we already heard that the Russians are approaching, the work stopped. We didn't work there any more. We were sent . . . It was already winter then. Then we were sent to dismantle barracks. That means the wooden houses that were built there. A <term ref="#vothG_lager">lager</term> was once there, or something. So . . . so they ordered us to dismantle them.</u>
+                <u who="boderD" start="480.644" end="x">To dismantle them.</u>
+                <u who="reichS" start="482.503" end="x">Yes.</u>
+                <u who="boderD" start="482.909" end="x">What was done with the wood?</u>
+                <u who="reichS" start="484.409" end="x">With the wood? It was piled up. We had to carry it for a . . . maybe a half kilometer to . . . to the unloading place. And an auto came there and we had to . . . and later we had to load it on an auto.</u>
+                <u who="boderD" start="497.695" end="x">Yes? Nu?</u>
+                <u who="reichS" start="498.851" end="x">The food there was very, very, very bad. It was plain water.</u>
+                <u who="boderD" start="502.899" end="x">Yes?</u>
+                <u who="reichS" start="503.618" end="x">It was bad generally in all the <term ref="#vothG_lager">lagers</term>, but there it was worse than anywhere else. There it was plain water. We received an eighth of a bread. And on this . . . on this we lived the whole day. We lay on straw. The straw was altogether neglected. There was a lot . . . a lot of dirt in it. Nobody cared any more. Towards the end, when they ordered [us] to evacuate the <term ref="#vothG_lager">lager</term>, a lot . . . a lot of people were annihilated there. Also a lot became sick, so that from all . . . there were still about a thousand five . . . eh . . . thousand five . . . five hundred men or about that. We were . . . we were left only six or . . . or . . . or six fifty . . . six hundred and fifty people.</u>
+                <u who="boderD" start="544.825" end="x">What does it mean, they were annihilated?</u>
+                <u who="reichS" start="546.715" end="x">They were . . . it was . . . we were inoculated there. There they were inoculated.</u>
+                <u who="boderD" start="551.418" end="x">What does it mean, they were inoculated?</u>
+                <u who="reichS" start="552.512" end="x">They were given hypodermics. Injections.</u>
+                <u who="boderD" start="554.980" end="x">Yes. And what happened then?</u>
+                <u who="reichS" start="556.105" end="x">They were put to sleep. After the injections, a few hours after the injections, six hours, he was . . . the man was dead.</u>
+                <u who="boderD" start="561.016" end="x">In which camp was that?</u>
+                <u who="reichS" start="562.657" end="x">
+                    <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>
+                </u>
+                <u who="boderD" start="563.251" end="x"><placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>?</u>
+                <u who="reichS" start="564.079" end="x">It is near <placeName ref="Dresden">Dresden</placeName>.</u>
+                <u who="boderD" start="565.173" end="x">Near <placeName ref="Dresden">Dresden</placeName>. What is the name of it? <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>?</u>
+                <u who="reichS" start="567.689" end="x"><placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>. K-A-M-E-N-Z.</u>
+                <u who="boderD" start="574.032" end="x">E-N . . . ?</u>
+                <u who="reichS" start="575.578" end="x">Z?</u>
+                <u who="boderD" start="576.109" end="x"><placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>?</u>
+                <u who="reichS" start="577.421" end="x">Yes, yes.</u>
+                <u who="boderD" start="578.296" end="x">Now were you [too] given an injection?</u>
+                <u who="reichS" start="581.952" end="x">Not us. To those that they saw . . . the men can't . . . can't . . . that they can't hold out [any more].</u>
+                <u who="boderD" start="588.405" end="x">What were the people called who were very weak.</u>
+                <u who="reichS" start="595.066" end="x">They are sick.</u>
+                <u who="boderD" start="596.097" end="x">Wasn't there a special name for them?</u>
+                <u who="reichS" start="599.565" end="x">No.</u>
+                <u who="boderD" start="600.986" end="x">What was a Musselman? Have you heard?</u>
+                <u who="reichS" start="603.282" end="x">Musselman, that . . . they were people who were completely sick.</u>
+                <u who="boderD" start="606.766" end="x">Nu?</u>
+                <u who="reichS" start="607.422" end="x">People who simply could not walk any more.</u>
+                <u who="boderD" start="609.969" end="x">So, what was done? They made . . .</u>
+                <u who="reichS" start="612.125" end="x">They were . . . in one <term ref="#vothG_lager">lager</term> they were inoculated. In another, other methods were used.</u>
+                <u who="boderD" start="617.765" end="x">For instance?</u>
+                <u who="reichS" start="618.577" end="x">There where I was . . . in <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName> they were given inoculations. Everybody . . . these that they saw that . . .</u>
+                <u who="boderD" start="623.711" end="x">Were they taken into a sick ward? Or . . .</u>
+                <u who="reichS" start="625.539" end="x">Into the sick ward. There was . . . on the . . . they were taken up on the second floor. There was the sick ward. One was called in and the people were inoculated and after five, six hours they were dead.</u>
+                <u who="boderD" start="636.101" end="x">Did he know what was going on?</u>
+                <u who="reichS" start="637.445" end="x">We . . . those people didn't know.</u>
+                <u who="boderD" start="639.461" end="x">Yes.</u>
+                <u who="reichS" start="640.118" end="x">However, later on these . . . later we saw that they do not come down any more, and once we noticed one was being carried down, who we knew went upstairs. We knew that if they are called it was done to them.</u>
+                <u who="boderD" start="649.758" end="x">And what was done there with the dead?</u>
+                <u who="reichS" start="653.601" end="x">With the dead? They were . . . there was a boiler that was heated for central heating.</u>
+                <u who="boderD" start="659.272" end="x">What kind of a boiler did you say?</u>
+                <u who="reichS" start="660.959" end="x">That . . . that was [used for] central heating. Water was there . . .</u>
+                <u who="boderD" start="664.073" end="x">Yes?</u>
+                <u who="reichS" start="664.761" end="x">It heated the whole house.</u>
+                <u who="boderD" start="665.792" end="x">Yes.</u>
+                <u who="reichS" start="666.354" end="x">Such a boiler we fired underneath, and the people were thrown in there. They were burned. Once it was a textile plant. I don't know for sure of what. And the factory was . . . the factory was . . . was liquidated. And into this factory we were sent and we were there some four or five months.</u>
+                <u who="boderD" start="688.023" end="x">Yes.</u>
+                <u who="reichS" start="688.554" end="x">Afterwards the Russians approached. We were evacuated. We travelled for fourteen days. They didn't . . . we weren't given even a drop of water.</u>
+                <u who="boderD" start="696.556" end="x">Nu? And where did you go then?</u>
+                <u who="reichS" start="699.025" end="x">Then we already travelled to . . . to <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>.</u>
+                <u who="boderD" start="702.056" end="x">Nu. What happened in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                <u who="reichS" start="703.978" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> I was already . . . in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> I was already altogether weak. There we didn't work any more. We were already like Musselmen one can say. Everybody was. Only a few exceptions were . . . were still well.</u>
+                <u who="boderD" start="718.102" end="x">Nu?</u>
+                <u who="reichS" start="718.727" end="x">And . . . and only these who were well, these were taken and sent away with a 'transport.' Because . . . because lately the Americans bombed the place terribly—<placeName ref="München">Munich</placeName>, the whole region.</u>
+                <u who="boderD" start="732.492" end="x">Nu?</u>
+                <u who="reichS" start="733.336" end="x">So every . . . we knew every time that at one o'clock at night, at twelve midnight, the Americans came and . . . and bombed the region.</u>
+                <u who="boderD" start="741.976" end="x">Nu.</u>
+                <u who="reichS" start="742.648" end="x">They always threw . . . when they flew over . . . over our <term ref="#vothG_lager">lager</term>, they always threw the flairs, such rockets that illuminated.</u>
+                <u who="boderD" start="751.335" end="x">Yes?</u>
+                <u who="reichS" start="751.897" end="x">And so they knew . . . they saw what was going on the . . . on the ground. They knew where the <term ref="#vothG_lager">lager</term> was.</u>
+                <u who="boderD" start="757.769" end="x">Aha.</u>
+                <u who="reichS" start="758.206" end="x">The camp was never bombed.</u>
+                <u who="boderD" start="759.987" end="x">The <term ref="#vothG_lager">lager</term> was never bombarded?</u>
+                <u who="reichS" start="761.627" end="x">No. Never.</u>
+                <u who="boderD" start="762.659" end="x">Nu?</u>
+                <u who="reichS" start="763.503" end="x">And so it became worse and worse. The Americans came nearer. We were two thousand Jews there, but a thousand could not walk. There was a total of one thousand six hundred men.</u>
+                <u who="boderD" start="781.346" end="x">Yes?</u>
+                <u who="reichS" start="781.815" end="x">These were still able to walk, but not all.</u>
+                <u who="boderD" start="784.690" end="x">Yes.</u>
+                <u who="reichS" start="785.049" end="x">The rest were already so sick. They had swollen legs, or else they were swollen all over. They were so weakened they really couldn't make a [single] step.</u>
+                <u who="boderD" start="793.736" end="x">Nu?</u>
+                <u who="reichS" start="794.423" end="x">And we . . . we were called to <term ref="#vothG_appell">appell</term>. All the Jews in <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> were . . . all Jews were called together. They were called out by name. On the twenty-fourth was the first <term ref="#vothG_appell">appell</term>. On the twenty-fifth we were also again . . . again called together. And on the twenty-seventh, in the morning, we were awakened very early, five o'clock. We were . . . were made to stand in rows and we . . . were later taken to the . . . to the RR-cars.</u>
+                <u who="boderD" start="825.238" end="x">Yes?</u>
+                <u who="reichS" start="826.113" end="x">We were taken to the RR-cars. To every RR-car was a hundred people.</u>
+                <u who="boderD" start="829.858" end="x">Nu?</u>
+                <u who="reichS" start="830.327" end="x">They did not . . . they did not have any more freight . . . freight . . . cars, so they gave such half-passenger RR-cars [4th class] for the trip. However, they piled in so many, we were hardly able to stand. And so we travelled as far as a certain station of Austria. There the tracks were blown up, and we had to . . . we had to get off.</u>
+                <u who="boderD" start="852.019" end="x">Yes?</u>
+                <u who="reichS" start="853.112" end="x">So we got off and they told us that we still had to walk twenty kilometers to the next station, so that we could continue to travel. So when they . . . they have this . . . we stopped. We were ordered to march. We marched six kilometers. It started to snow. It already was dark. It was winter. They started to billet us with the peasants, billeted there where they keep straw and all such things. We were billeted there. Our RR-car was exactly the last to be billeted. We were . . . everyone was told . . . there were soldiers . . . a few . . . that every soldier should take a few men and should go to the village and look for quarters. Nu, we have . . . with us, too, went a soldier. We were something like nine . . . nine men. We went with him. While he went upstairs to look for quarters, we . . . we walked away. So we wandered . . . wandered till we came to Switzerland. We walked about four, five kilometers, and we met a . . .</u>
+                <u who="boderD" start="925.023" end="x">Wait a moment. When did you go . . . separate yourself? When did you run away from there?</u>
+                <u who="reichS" start="930.668" end="x">We ran away perhaps on the twenty-eighth, twenty-ninth.</u>
+                <u who="boderD" start="934.559" end="x">How many ran away?</u>
+                <u who="reichS" start="936.481" end="x">Nine men.</u>
+                <u who="boderD" start="937.074" end="x">Nine men?</u>
+                <u who="reichS" start="937.730" end="x">Yes.</u>
+                <u who="boderD" start="938.418" end="x">And you were able to walk through Germany?</u>
+                <u who="reichS" start="940.637" end="x">We had . . . we had prepared an excuse that the Red Cross had demanded us. We had an excuse that the Red Cross had demanded us. We had such packages. Before we left we were given packages fro Belgium, from the Belgium Red Cross. There were canned foods. There were cigarettes, some biscuits, and that was the whole package.</u>
+                <u who="boderD" start="960.418" end="x">Now wait. I do not understand. When were you the last time with the German? In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>?</u>
+                <u who="reichS" start="965.230" end="x">In <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName>. We left on the twenty-seventh.</u>
+                <u who="boderD" start="968.480" end="x">Nu? And then?</u>
+                <u who="reichS" start="970.308" end="x">We travelled maybe for a day or two. I can't tell for sure.</u>
+                <u who="boderD" start="973.495" end="x">Nu?</u>
+                <u who="reichS" start="973.995" end="x">And then later, we couldn't continue to travel, because the tracks were blown up.</u>
+                <u who="boderD" start="978.284" end="x">Yes?</u>
+                <u who="reichS" start="978.941" end="x">And it was blown up so we had to get off the train.</u>
+                <u who="boderD" start="983.644" end="x">Yes?</u>
+                <u who="reichS" start="984.253" end="x">And we had to . . . we had to march on . . .</u>
+                <u who="boderD" start="986.534" end="x">Yes?</u>
+                <u who="reichS" start="987.331  " end="x">. . . for another twenty kilometers so that we could reach another station where the connection could be made to go on.</u>
+                <u who="boderD" start="992.539" end="x">Yes?</u>
+                <u who="reichS" start="992.851" end="x">We . . . we only walked six kilometers before night fell and it began to snow.</u>
+                <u who="boderD" start="999.241" end="x">Yes.</u>
+                <u who="reichS" start="999.772" end="x">It was winter, and we . . . we began to be billeted there with the peasants.</u>
+                <u who="boderD" start="1004.524" end="x">Yes.</u>
+                <u who="reichS" start="1004.915" end="x">Yes.</u>
+                <u who="boderD" start="1005.993" end="x">Nu?</u>
+                <u who="reichS" start="1006.430" end="x">We were put in a barn where one keeps straw.</u>
+                <u who="boderD" start="1009.180" end="x">Yes. You were Polish prisoners?</u>
+                <u who="reichS" start="1011.805" end="x">What? We were . . .</u>
+                <u who="boderD" start="1013.258" end="x">Yes.</u>
+                <u who="reichS" start="1013.570" end="x">. . . political prisoners. All the Jews had red badges as political [prisoners]. [See Note 1 at end of chapter, page 31 - (2185)./</u>
+                <u who="boderD" start="1017.210" end="x">Nu?</u>
+                <u who="reichS" start="1017.632" end="x">And our . . . our RR-car fell short on lodgings.</u>
+                <u who="boderD" start="1023.429" end="x">Yes?</u>
+                <u who="reichS" start="1023.960" end="x">So the Kommando-<term ref="#vothG_fuehrer">fuehrer</term> ordered that each soldier should take six or seven men up to ten men, and go to look for something like . . .</u>
+                <u who="boderD" start="1033.335" end="x">Where to stop [?].</u>
+                <u who="reichS" start="1034.132" end="x">Yes. To look for a place to sleep at night.</u>
+                <u who="boderD" start="1036.054" end="x">Nu?</u>
+                <u who="reichS" start="1037.022" end="x">So with us went . . . we had a soldier who went with us. He went upstairs to look for . . . to look for a night's lodging, so . . . so we walked away.</u>
+                <u who="boderD" start="1047.064" end="x">You ran away.</u>
+                <u who="reichS" start="1048.220" end="x">We walked away.</u>
+                <u who="boderD" start="1049.126" end="x">Nu?</u>
+                <u who="reichS" start="1049.657" end="x">Simply walked away. Later . . . we wandered the whole night till we came to a village . . . into a German village, and we said that we were . . . someone came up to us on the road . . . something like from the Security Police.</u>
+                <u who="boderD" start="1061.808" end="x">Yes?</u>
+                <u who="reichS" start="1062.277" end="x">From the Red . . . possibly from the Red Cross, I don't remember exactly . . .</u>
+                <u who="boderD" start="1066.167" end="x">Hm.</u>
+                <u who="reichS" start="1066.604" end="x">. . . who he was. And he took us to the mayor. There we were, so we said we are . . . we are . . . we are lost from a transport, and our transport is supposed to go to Switzerland.</u>
+                <u who="boderD" start="1077.744" end="x">Oh! Nu? And how far were you from Switzerland?</u>
+                <u who="reichS" start="1081.775" end="x">We were a hundred and fifty kilometers [?].</u>
+                <u who="boderD" start="1083.931" end="x">Nu? So how could you go on? Were there no <term ref="#vothG_ss">SS</term>?</u>
+                <u who="reichS" start="1087.493" end="x">There . . . there were no <term ref="#vothG_ss">SS</term> in the town.</u>
+                <u who="boderD" start="1091.508" end="x">Nu?</u>
+                <u who="reichS" start="1092.102" end="x">Perhaps such . . . perhaps those who were . . . because all of them were at the front, except maybe such . . . except such who couldn't [were in no condition] to be at the front.</u>
+                <u who="boderD" start="1101.211" end="x">So where did you meet the man from the Red Cross?</u>
+                <u who="reichS" start="1102.617" end="x">He met us . . . we walked along the road. So he met us.</u>
+                <u who="boderD" start="1105.804" end="x">Yes?</u>
+                <u who="reichS" start="1106.226" end="x">And he . . . he . . . he took us to the mayor. He said he came upon us on the road, and we told the mayor that we were demanded by the Red Cross to go to Switzerland.</u>
+                <u who="boderD" start="1115.335" end="x">Hm.</u>
+                <u who="reichS" start="1116.179" end="x">Nu. We were . . . were . . . like . . . He became confused so that he believed us, our story.</u>
+                <u who="boderD" start="1121.928" end="x">Yes. Nu? So he let you go [?]?</u>
+                <u who="reichS" start="1124.865" end="x">He did. He even gave us a little soup there . . . and . . . eh . . . and he led us to . . . to the road that . . .</u>
+                <u who="boderD" start="1131.740" end="x">Yes.</u>
+                <u who="reichS" start="1133.506" end="x">. . . leads to Switzerland.</u>
+                <u who="boderD" start="1134.022" end="x">Yes.</u>
+                <u who="reichS" start="1134.835" end="x">He told the soldier to let us go on this road because we are demanded by the Red Cross to go to Switzerland.</u>
+                <u who="boderD" start="1140.570" end="x">Nu?</u>
+                <u who="reichS" start="1141.070" end="x">Nu, we went along the road and we came to another village. We wanted to stay there overnight, but the mayor didn't want to. He was very mean, that mayor. [A commotion in the room.]</u>
+                <u who="boderD" start="1152.069" end="x">All right, why didn't he want to? Why?</u>
+                <u who="reichS" start="1159.069" end="x">He said he had many soldiers . . . now . . . and everytime come . . . [the spool ends abrutply]</u>
+                <!-- End spool 9-73B -->
+                <!-- Begin spool 9-74A -->
+                <u who="boderD" start="1173.312" end="x">[In English] Also . . . this is spool 74, continuation of 73, Sigmund Reich, the interviewee.</u>
+                <u who="boderD" start="1180.931" end="x">[In Yiddish] And so, you came to another city.</u>
+                <u who="reichS" start="1184.084" end="x">Yes.</u>
+                <u who="boderD" start="1184.553" end="x">And you came to the mayor and told him you were demanded by the Red Cross?</u>
+                <u who="reichS" start="1189.552" end="x">Yes.</u>
+                <u who="boderD" start="1189.896" end="x">Didn't he ask [you] for papers, or anything?</u>
+                <u who="reichS" start="1191.974" end="x">He didn't ask anything.</u>
+                <u who="boderD" start="1193.099" end="x">When was it, in '45 already?</u>
+                <u who="reichS" start="1195.224" end="x">In '45.</u>
+                <u who="boderD" start="1195.864" end="x">Yes. Nu?</u>
+                <u who="reichS" start="1196.207" end="x">And we came later to a little town . . .</u>
+                <u who="boderD" start="1200.160" end="x">Yes?</u>
+                <u who="reichS" start="1201.956" end="x">. . . into a little town, and there we presented [?] ourselves, but the mayor didn't . . . didn't permit it. He said there were many soldiers, and he didn't have room for us.</u>
+                <u who="boderD" start="1213.675" end="x">Yes?</u>
+                <u who="reichS" start="1213.988" end="x">And so, we walked on. We had no choice, and we came upon a peasant who was working. He was one of . . . one of the railroad employees.</u>
+                <u who="boderD" start="1224.534" end="x">Yes?</u>
+                <u who="reichS" start="1225.081" end="x">We went over and begged him about . . . he should . . . he should let us stay in the barn overnight. He said he had a small . . . a small barn, where he keeps a few leaves that he needs for the cows and also the hourses.</u>
+                <u who="boderD" start="1240.605" end="x">Leaves?</u>
+                <u who="reichS" start="1241.386" end="x">Leaves, leaves.</u>
+                <u who="boderD" start="1242.573" end="x">Leaves. Yes?</u>
+                <u who="reichS" start="1243.370" end="x">And it is very small and all of us would not have enough room. We said, 'No, there surely will be enough room.' He should let us in.</u>
+                <u who="boderD" start="1252.417" end="x">Did he ask you who you were?</u>
+                <u who="reichS" start="1253.151" end="x">He asked us. We told him that the Red Army . . . [corrects himself] we told him that the Red Cross demanded [invited] us to Switzerland.</u>
+                <u who="boderD" start="1260.091" end="x">Nu?</u>
+                <u who="reichS" start="1260.747" end="x">And so he . . . he let us in. He later even brought us a little milk, and in . . . in the morning we found out that he is a railroad . . . railroad employee. Se we asked him whether he could not arrange it so that we could travel to the Swiss border. He said, 'Yes, I will be able to arrange everything.' He said we should . . . that at seven o'clock . . . I cannot remember at what time . . . we should come to the station and we will be able to board the train.</u>
+                <u who="boderD" start="1284.332" end="x">Nu?</u>
+                <u who="reichS" start="1284.895" end="x">So we . . . in the morning we got up, we washed up, and we ate there something.</u>
+                <u who="boderD" start="1290.660" end="x">What kind of clothers . . . what kind of clothes did you wear?</u>
+                <u who="reichS" start="1293.675" end="x">We have . . . I had civilian [clothes] but the others had those . . .</u>
+                <u who="boderD" start="1297.003" end="x">Striped suits. Nu?</u>
+                <u who="reichS" start="1298.925" end="x">Striped suits.</u>
+                <u who="boderD" start="1299.784" end="x">Nu?</u>
+                <u who="reichS" start="1300.315" end="x">And . . . and later we came to the railroad station. There we sat at the station and we waited for the train. The train came and we got on. We . . .</u>
+                <u who="boderD" start="1310.116" end="x">Without tickets?</u>
+                <u who="reichS" start="1310.881" end="x">Well, without tickets. He ordered it, so that we could ride without tickets. Later we travelled till . . .</u>
+                <u who="boderD" start="1317.725" end="x">Who was he, the station master?</u>
+                <u who="reichS" start="1319.397" end="x">No. He was a . . . this was a small station and he was the railroad employee [in charge].</u>
+                <u who="boderD" start="1324.240" end="x">Hm. Nu?</u>
+                <u who="reichS" start="1324.959" end="x">And . . . we . . . we boarded the train and we rode . . .</u>
+                <u who="boderD" start="1329.052" end="x">Was he a German?</u>
+                <u who="reichS" start="1329.708" end="x">Yes.</u>
+                <u who="boderD" start="1330.240" end="x">Hm.</u>
+                <u who="reichS" start="1330.818" end="x">. . . and we rode till <placeName ref="Bludenz">Bludenz</placeName>. There we got off and . . . and we went . . . we went straight to the German police, and we told them to give us some paper so that we could travel on, till the Swiss border. He said like this: He can't give us any paper. He can give us a permit to travel on.</u>
+                <u who="boderD" start="1351.817" end="x">Yes?</u>
+                <u who="reichS" start="1352.989" end="x">So.</u>
+                <u who="boderD" start="1353.521" end="x">He can . . . he can give you a ticket.</u>
+                <u who="reichS" start="1356.115" end="x">A ticket. But a paper that . . . that we were liberated . . .</u>
+                <u who="boderD" start="1359.778" end="x">Hm.</u>
+                <u who="reichS" start="1360.341" end="x">. . . that we are allowed to travel, he couldn't give us. And so . . .</u>
+                <u who="boderD" start="1363.075" end="x">Did you tell him you were prisoners?</u>
+                <u who="reichS" start="1365.121" end="x">Yes. We told him . . .</u>
+                <u who="boderD" start="1366.262" end="x">He was the mayor, yes?</u>
+                <u who="reichS" start="1368.590" end="x">It was in <placeName ref="Bludenz">Bludenz</placeName>. He was not the mayor . . .</u>
+                <u who="boderD" start="1371.246" end="x">A policeman?</u>
+                <u who="reichS" start="1371.903" end="x">Policeman.</u>
+                <u who="boderD" start="1372.669" end="x">Hm.</u>
+                <u who="reichS" start="1373.137" end="x">A German policeman. Later he told us to go somewhere where we . . . where we were supposed to get the money. We went to get the money, and later we went . . .</u>
+                <u who="boderD" start="1381.914" end="x">Where were you to get the money?</u>
+                <u who="reichS" start="1382.601" end="x">There was some office. He sent us there.</u>
+                <u who="boderD" start="1385.866" end="x">Nu?</u>
+                <u who="reichS" start="1386.366" end="x">There we received the money, and we went to buy the tickets. We went to buy the tickets. The train wasn't leaving till nine o'clock. At nine o'clock we came to the train station, and we . . .</u>
+                <u who="boderD" start="1397.614" end="x">[Amused] And you were not afraid? You had run away?</u>
+                <u who="reichS" start="1400.724" end="x">[Laughing.] What was there to fear? We took a chance to the finish. If we succeed, we succeed! If we don't succeed, we don't succeed!</u>
+                <u who="boderD" start="1406.442" end="x">Nu?</u>
+                <u who="reichS" start="1406.817" end="x">And so at nine [o'clock] we went into the sleeping cars, and later, about ten o'clock, the train left so we . . . about eleven o'clock we were in . . . in Feldkirch.</u>
+                <u who="boderD" start="1420.035" end="x">Feld- . . .</u>
+                <u who="reichS" start="1420.566" end="x">Feldkirch. That is near the Swiss border. There we already knew . . . we knew we had to wait till the morning. In the morning we waited. We started. We went over to the border. There was . . .</u>
+                <u who="boderD" start="1431.269" end="x">Were there no <term ref="#vothG_ss">SS</term> men?</u>
+                <u who="reichS" start="1432.191" end="x">No. At the border stood the <term ref="#vothG_wehrmacht">Wehrmacht</term>.</u>
+                <u who="boderD" start="1434.753" end="x">Nu?</u>
+                <u who="reichS" start="1435.207" end="x">And so, we saw that we couldn't go over. We saw there some sort of a . . . a . . . higher official. We asked him to arrange for us so we could pass, because we are completely exhausted and we . . . and we want only to get to a hospital of the Red Cross.</u>
+                <u who="boderD" start="1449.715" end="x">Nu?</u>
+                <u who="reichS" start="1450.528" end="x">We were invited [by the Red Cross]. And so he said that he will take care of everything. We had . . . we had a few potatoes with us, so we even cooked them there.</u>
+                <u who="boderD" start="1459.456" end="x">Yes?</u>
+                <u who="reichS" start="1460.441" end="x">And this was our breakfast and our dinner. Later, we . . . we started to shove to the border. We saw . . . people started to shove to the border. In general not many people were permitted to pass. Every day a few. And so . . .</u>
+                <u who="boderD" start="1474.589" end="x">Germans too? Or . . .</u>
+                <u who="reichS" start="1477.073" end="x">No, no. They were mostly foreigners.</u>
+                <u who="boderD" start="1479.104" end="x">Nu.</u>
+                <u who="reichS" start="1479.698" end="x">And . . . and when we saw they are shoving, and they saw that we wouldn't get through, then we . . . so we also started to push ourselves and we pushed ourselves near the wires, I was already very weak, and we . . . we started to cry for help. And so a German sentry came over.</u>
+                <u who="boderD" start="1497.429" end="x">A German or a Swiss?</u>
+                <u who="reichS" start="1500.038" end="x">A German, a German, a German. We told him we want only . . . only to get to a hospital because we are completely exhausted. Well, he said he couldn't do anything. He called over the Swiss sentry.</u>
+                <u who="boderD" start="1511.412" end="x">Hm.</u>
+                <u who="reichS" start="1511.912" end="x">The Swiss sentry called over the . . . the . . .</u>
+                <u who="boderD" start="1514.428" end="x">Officer?</u>
+                <u who="reichS" start="1514.959" end="x">The officer. We told him we only want to get to a hospital, because we are completely exhausted. So he immediately ordered to let us pass. There . . . it was . . . it was somewhere near Lichtenstein.</u>
+                <u who="boderD" start="1526.598" end="x">Yes?</u>
+                <u who="reichS" start="1527.504" end="x">And there we were . . . we were . . . were soon given biscuits to eat, coffee to drink, light things that we . . . we could eat. And we were told . . . right away there came a . . . a certain doctor. I forgot his name, and . . .</u>
+                <u who="boderD" start="1546.143" end="x">A Jew?</u>
+                <u who="reichS" start="1546.893" end="x">A Jew, a Jew, and he talked with us. There were even journalists from America. I think there was even a Jewish woman-journalist.</u>
+                <u who="boderD" start="1554.788" end="x">Yes?</u>
+                <u who="reichS" start="1555.444" end="x">I can't say for certain. And later we were taken into an auto, and we were driven to a hospital in Birx [?].</u>
+                <u who="boderD" start="1561.694" end="x">Hm.</u>
+                <u who="reichS" start="1562.330" end="x">We were there something like two weeks. We were treated very well there. We didn't eat any bread because it was forbidden by the doctor, but we ate only biscuits and light things. Later we were already bett- . . . recovered, and we received some clothing, and we already received bread.</u>
+                <u who="boderD" start="1582.101" end="x">[Verifying the word] You mean clothes, yes?</u>
+                <u who="reichS" start="1584.023" end="x">Yes. Civilian clothes.</u>
+                <u who="boderD" start="1585.273" end="x">Nu?</u>
+                <u who="reichS" start="1585.898" end="x">And after the two weeks we came, here in Switzerland, to a quarantine camp, Gaticon [?].</u>
+                <u who="boderD" start="1590.752" end="x">What?</u>
+                <u who="reichS" start="1591.283" end="x">Gaticon [?].</u>
+                <u who="boderD" start="1591.783" end="x">Yes?</u>
+                <u who="reichS" start="1592.252" end="x">A quarantine camp.</u>
+                <u who="boderD" start="1593.283" end="x">What kind of a camp?</u>
+                <u who="reichS" start="1594.549" end="x">Quarantine.</u>
+                <u who="boderD" start="1595.408" end="x">A quarantine camp.</u>
+                <u who="reichS" start="1596.346" end="x">Three weeks . . .</u>
+                <u who="boderD" start="1596.878" end="x">Yes. Nu?</u>
+                <u who="reichS" start="1597.628" end="x">Yes. We had to stay there three weeks. But, in this <term ref="#vothG_lager">lager</term> it was very bad.</u>
+                <u who="boderD" start="1601.022" end="x">Bad?</u>
+                <u who="reichS" start="1601.538" end="x">Very bad.</u>
+                <u who="boderD" start="1602.194" end="x">Why?</u>
+                <u who="reichS" start="1602.787" end="x">First, the food was no good.</u>
+                <u who="boderD" start="1604.877" end="x">Yes.</u>
+                <u who="reichS" start="1605.471" end="x">There was very little food.</u>
+                <u who="boderD" start="1607.533" end="x">What?</u>
+                <u who="reichS" start="1608.267" end="x">There was very little food.</u>
+                <u who="boderD" start="1609.798" end="x">Yes.</u>
+                <u who="reichS" start="1610.329" end="x">They cooked only potatoes.</u>
+                <u who="boderD" start="1613.719" end="x">Yes?</u>
+                <u who="reichS" start="1614.032" end="x">Nothing else. Meat we did not receive altogether, so we only ate . . . we only ate potatoes and the fifth of bread that we received.</u>
+                <u who="boderD" start="1623.922" end="x">That was in the Swiss quarantine?</u>
+                <u who="reichS" start="1625.812" end="x">Yes.</u>
+                <u who="boderD" start="1626.124" end="x">Nu?</u>
+                <u who="reichS" start="1626.452" end="x">And there . . .</u>
+                <u who="boderD" start="1627.937" end="x">How many people were there?</u>
+                <u who="reichS" start="1629.656" end="x">There were about a hundred people.</u>
+                <u who="boderD" start="1630.718" end="x">Yes.</u>
+                <u who="reichS" start="1632.436" end="x">there were also . . . but all were from concentration camps. They were from other ones.</u>
+                <u who="boderD" start="1637.654" end="x">Hm.</u>
+                <u who="reichS" start="1638.091" end="x">And we were . . . we were there three weeks. After the three weeks we came to <placeName ref="Wädenswil">Waedenswil</placeName>, and . . .</u>
+                <u who="boderD" start="1644.293" end="x">Where?</u>
+                <u who="reichS" start="1645.652" end="x">To <placeName ref="Wädenswil">Waedenswil</placeName>.</u>
+                <u who="boderD" start="1646.356" end="x"><placeName ref="Wädenswil">Waedenswil</placeName>?</u>
+                <u who="reichS" start="1647.356" end="x"><placeName ref="Wädenswil">Waedenswil</placeName>.</u>
+                <u who="boderD" start="1647.918" end="x">Yes?</u>
+                <u who="reichS" start="1648.324" end="x">There we were also some . . . something like two weeks. There came a woman doctor, Emma [?] from Switzerland and took us out, because we wanted to go to a religious <term ref="#vothG_lager">lager</term>, there where one eats kosher.</u>
+                <u who="boderD" start="1662.914" end="x">Yes.</u>
+                <u who="reichS" start="1663.351" end="x">And so, we were taken out and we were sent to <placeName ref="Appenzell">Appenzell</placeName> [Atterberg?]. In <placeName ref="Appenzell">Appenzell</placeName> [?] it was . . . it was very good.</u>
+                <u who="boderD" start="1670.685" end="x">It was not very good?</u>
+                <u who="reichS" start="1671.497" end="x">Yes. It was very good there.</u>
+                <u who="boderD" start="1673.638" end="x">Was this in a Jewish, a kosher <term ref="#vothG_lager">lager</term>?</u>
+                <u who="reichS" start="1675.623" end="x">Yes.</u>
+                <u who="boderD" start="1676.217" end="x">Nu?</u>
+                <u who="reichS" start="1676.686" end="x">And we studied there a little, and we worked a little. Something like every six weeks we went on . . . on leave, three, four days.</u>
+                <u who="boderD" start="1686.936" end="x">Where did you go on leave?</u>
+                <u who="reichS" start="1688.342" end="x">And . . . I . . . When we went to <placeName ref="Wädenswil">Waedenswil</placeName>, we were sent to <placeName ref="Zurich">Zurich</placeName> on the first Saturday, so we went there.</u>
+                <u who="boderD" start="1695.701" end="x">Yes?</u>
+                <u who="reichS" start="1696.732" end="x">I was assigned there to a woman, and I went there often.</u>
+                <u who="boderD" start="1698.779" end="x">To a family?</u>
+                <u who="reichS" start="1699.717" end="x">Yes. To a family.</u>
+                <u who="boderD" start="1700.702" end="x">Nu?</u>
+                <u who="reichS" start="1701.187" end="x">And I went there to the family every six weeks.</u>
+                <u who="boderD" start="1703.847" end="x">Yes?</u>
+                <u who="reichS" start="1704.597" end="x">And later was established in Mokota [?] a . . . also a home for those . . . those boys who are from concentration camps. And we went there. We were there three months. We were in Valeerine [?] near Lausanne. A very nice . . .</u>
+                <u who="boderD" start="1721.476" end="x">Hm.</u>
+                <u who="reichS" start="1722.320" end="x">It is a very nice region. It is very hot there in a very warm climate. And we did not work there very much. I . . . I worked at house service. I only cleaned the house.</u>
+                <u who="boderD" start="1735.960" end="x">The what?</u>
+                <u who="reichS" start="1736.632" end="x">House. The house.</u>
+                <u who="boderD" start="1737.913" end="x">In the house?</u>
+                <u who="reichS" start="1740.116" end="x">In the house. The house . . .</u>
+                <u who="boderD" start="1741.272" end="x">Yes. Yes.</u>
+                <u who="reichS" start="1741.756" end="x">Cleaned. And we studied there. Half a day we studied a little.</u>
+                <u who="boderD" start="1747.224" end="x">What did one study, Hebrew?</u>
+                <u who="reichS" start="1748.349" end="x">Heb- . . . not Hebrew, but the Pentateuch, Rashe, the Talmud.</u>
+                <u who="boderD" start="1753.474" end="x">Oh, I mean a Jewish [education].</u>
+                <u who="reichS" start="1754.721" end="x">Yes.</u>
+                <u who="boderD" start="1755.252" end="x">Nu. Was there a rebbe? [This word has two distinct meanings: (1) a teacher; (2) a rabbi. The interviewer meant teacher. The boy apparently did not understand him and used the word in the second connotation.]</u>
+                <u who="reichS" start="1759.674" end="x">No. There was no rabbi. Only in . . . in Attenberg [?]was there a Rabbi.</u>
+                <u who="boderD" start="1762.252" end="x">Nu.</u>
+                <u who="reichS" start="1763.736" end="x">Reb Yoine [?].</u>
+                <u who="boderD" start="1765.032" end="x">Yes.</u>
+                <u who="reichS" start="1766.267" end="x">He is now in <placeName ref="Zurich">Zurich</placeName>.</u>
+                <u who="boderD" start="1767.626" end="x">Yes.</u>
+                <u who="reichS" start="1767.969" end="x">In Makota [?]we were there something like three, four months, and later we arrived in Genf [<placeName ref="Genève">Geneva</placeName>]. To . . . to the <term ref="#vothG_ort">ORT</term> school.</u>
+                <!-- above locations need review -->
+                <u who="boderD" start="1775.095" end="x">To the <term ref="#vothG_ort">ORT</term> school?</u>
+                <u who="reichS" start="1775.876" end="x">Yes.</u>
+                <u who="boderD" start="1776.376" end="x">And where do you live now?</u>
+                <u who="reichS" start="1777.048" end="x">Now we live on the Avenue de Champelle [?].</u>
+                <u who="boderD" start="1779.173" end="x">This is a home for the youth? And . . .</u>
+                <u who="reichS" start="1782.032" end="x">It is private. It is not a home. It is private. We . . .</u>
+                <u who="boderD" start="1784.142" end="x">How many are you there?</u>
+                <u who="reichS" start="1784.955" end="x">We are there something like twenty persons.</u>
+                <u who="boderD" start="1787.799" end="x">And where do you eat.</u>
+                <u who="reichS" start="1788.986" end="x">We eat there.</u>
+                <u who="boderD" start="1789.674" end="x">Hm. Tell me, what are you studying?</u>
+                <u who="reichS" start="1792.768" end="x">We are studying there . . . two, three times a week we are studying the Pentateuch, Rashe.</u>
+                <u who="boderD" start="1797.367" end="x">Yes?</u>
+                <u who="reichS" start="1797.774" end="x">We study . . . we study there Hebrew. We study . . . we study . . .</u>
+                <u who="boderD" start="1801.164" end="x">Tell me, what are you studying here?</u>
+                <u who="reichS" start="1802.992" end="x">Here . . . here I study for a . . . a mechanical . . . a mechanical trade.</u>
+                <u who="boderD" start="1806.445" end="x">And how long will it take to learn it?</u>
+                <u who="reichS" start="1809.789" end="x">However long it will take, it will take.</u>
+                <u who="boderD" start="1812.835" end="x">Yes. And then what do you want to do?</u>
+                <u who="reichS" start="1814.288" end="x">And then? Then I hope I'll be able to go to <term ref="#vothG_eretzY">Eretz</term>.</u>
+                <u who="boderD" start="1817.428" end="x">Where?</u>
+                <u who="reichS" start="1818.131" end="x">To <term ref="#vothG_eretzY">Eretz</term>.</u>
+                <u who="boderD" start="1818.865" end="x">Where is that?</u>
+                <u who="reichS" start="1819.584" end="x"><term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                <u who="boderD" start="1820.021" end="x">You want to go to Palestine.</u>
+                <u who="reichS" start="1821.974" end="x">Yes.</u>
+                <u who="boderD" start="1822.443" end="x">And where do you have any relatives in <term ref="#vothG_eretzY">Eretz Yisroeil</term>.</u>
+                <u who="reichS" start="1825.256" end="x">In <term ref="#vothG_eretzY">Eretz Yisroeil</term> I have no relatives.</u>
+                <u who="boderD" start="1828.380" end="x">Do you have any relatives in America?</u>
+                <u who="reichS" start="1829.473" end="x">I know my uncle has some cousins there, but quite distant. She is quite distant from me. I . . . I don't write to her and she does not write . . .</u>
+                <u who="boderD" start="1838.754" end="x">So then you have nobody?</u>
+                <u who="reichS" start="1839.410" end="x">No.</u>
+                <u who="boderD" start="1839.910" end="x">Hm.</u>
+                <u who="reichS" start="1840.754" end="x">Only the uncle who . . . whom I have in Belgium.</u>
+                <u who="boderD" start="1844.175" end="x">In Belgium. Do you correspond with him.</u>
+                <u who="reichS" start="1846.535" end="x">Yes. He is now here . . . here in Switzerland because he was also three years, together with me, in a concentration camp.</u>
+                <u who="boderD" start="1852.331" end="x">He was in [a] concentration camp. So what is he doing now in Switzerland?</u>
+                <u who="reichS" start="1854.691" end="x">So now he came to Switzerland to recuperate. He is sick with his lungs.</u>
+                <u who="boderD" start="1857.152" end="x">Oh.</u>
+                <u who="reichS" start="1857.746" end="x">And now he is getting much better than before.</u>
+                <u who="boderD" start="1860.339" end="x">[Pause.]Hm. Now, please tell us which times were the worst that you had in the concentration camp.</u>
+                <u who="reichS" start="1870.089" end="x">In <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName> I had it the worst.</u>
+                <u who="boderD" start="1872.308" end="x">Yes?</u>
+                <u who="reichS" start="1873.433" end="x">There we were . . . also quite a few months. There the food was very bad. The treatment also was very bad. The . . . generally, even . . . even also the people who were in concentration camps, the prisoners themselves, the goyim, [gentiles], were very mean. They could not look at a Jew. And besides that, the guards were all Hungarians. The Hungarian guards were very . . . were very mean.</u>
+                <u who="boderD" start="1903.501" end="x">Were they Hungarian <term ref="#vothG_ss">SS</term>?</u>
+                <u who="reichS" start="1904.360" end="x"><term ref="#vothG_ss">SS</term>.</u>
+                <u who="boderD" start="1905.001" end="x">Yes?</u>
+                <u who="reichS" start="1905.626" end="x">They reported voluntarily as . . . eh . . . [as] 'Germans' . . . to the German army. And they guarded us. Every time in the morning we left at the break of dawn. We were . . . we got up, and we were marched to work, and when it got a little dark we were marched back. [Interruption in the room.] Shall I repeat [?]?</u>
+                <u who="boderD" start="1933.464" end="x">In <placeName ref="Kamenz concentration camp" type="camp">Kamenz</placeName>.</u>
+                <u who="reichS" start="1935.620" end="x">There the guards were Hungarians, and they treated us very badly. And . . . and they beat us with the rifles. They beat everybody. And every Sunday . . . came every Sunday, we performed gymnastics in the morning.</u>
+                <u who="boderD" start="1955.807" end="x">What is that?</u>
+                <u who="reichS" start="1956.713" end="x">This . . . that means we were ordered to kneel. [This was known as punitive sports.] The people who had no strength, we, thanked God that Sunday comes so we can rest. We were chased out every morning [Sunday?] to perform gymnastics. And if one did not do it well, he was . . . he was . . . he was . . . he was beaten for it. And so at the beginning we received there a bread for four people. The bread . . . the bread weighed something like a kilo, a kilo twenty. Something like that. And towards the end, when it became very bad, we were given such a bread for eight men. Later even for . . . for ten men.</u>
+                <u who="boderD" start="1996.461" end="x">How was it divided?</u>
+                <u who="reichS" start="1998.914" end="x">We were given a whole loaf.</u>
+                <u who="boderD" start="2001.289" end="x">Hm.</u>
+                <u who="reichS" start="2001.992" end="x">And we were told to divide it.</u>
+                <u who="boderD" start="2003.867" end="x">What kind of tattoo do you have here?</u>
+                <u who="reichS" start="2005.741" end="x">This . . . the . . . this was made in Poland. In . . .</u>
+                <u who="reichS" start="2008.960" end="x">In <placeName ref="Mielec concentration camp" type="camp">Mielec</placeName>. The German <term ref="#vothG_ss">SS</term> made it. Everybody . . . Before . . . before, <placeName ref="Mielec concentration camp" type="camp">Mielec</placeName> . . . before, <placeName ref="Mielec concentration camp" type="camp">Mielec</placeName> was a 'civil <term ref="#vothG_lager">lager</term>,' but later it was changed into a <term ref="#vothG_kz">KZ</term>. Then everybody was given a KL tattooed on the head.</u>
+                <u who="boderD" start="2022.271" end="x">What is . . . what dies it mean, KL?</u>
+                <u who="reichS" start="2024.318" end="x">KL means '<term ref="#vothG_kz">Konzentrations Lager</term>.'</u>
+                <u who="boderD" start="2026.396" end="x">Oh! KL. And . . . and the Germans did it to you?</u>
+                <u who="reichS" start="2029.584" end="x">Yes. The Germans.</u>
+                <u who="boderD" start="2030.334" end="x">They did not . . . [abrupt end of the spool].</u>
+                <p>[Note 1 for page 16 - (2170): Ordinarily Jews were not considered political prisoners. If this 'reclassification' has occurred at all, it must have been due to the chaos at <placeName ref="Dachau concentration camp" type="camp">Dachau</placeName> during the last days before liberation. —D.P.B.]</p>
+            </div>
+            <!-- End Spool 9-74A -->
+            <!-- </div> -->
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#reichS_en">
+                <!-- paste English translation here -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

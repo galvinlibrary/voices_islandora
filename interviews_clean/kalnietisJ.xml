@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Janis Kalnietis; September 21, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Zoe Dubois Dit Laroy</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <orgName>Argos Multilingual</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <orgName>Argos Multilingual</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT20M50.768S" id="kalnietisJ_9-142B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Russia">Russian</lang>
+                                <lang value="secondary" norm="Latvia">Latvian</lang>
+                                <note type="spools" n="1">9-142B</note>
+                                <placeName ref="Lohengrinstrasse"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-21</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="kalnietis_ru_lv" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="kalnietis_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="kalnietisJ" role="interviewee">
+                        <persName>
+                            <forename>Janis</forename>
+                            <surname>Kalnietis</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>46</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Latvia"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                        <event type="invasion" ref="Rūjiena">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Brunnau" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#kalnietis_ru_lv">
+                <!-- begin spool 9-142B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.770" end="x">[In English] Munich, September 21, 1946 at a displaced peoples camps in for Latvian, Lithuanians and Estonians. The interview is Mr. Janis Kalnietis, 46 years old.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="17.459" end="x">[In German] Sind sie lehrer?</u>
+                    <u who="#kalnietisJ" start="18.421" end="x">Ja.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="18.908" end="x">[In English] He is a teacher here at the school in gymnasium?</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#kalnietisJ" start="23.494" end="x">[In German] Nein.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="23.868" end="x">[In English] in the elementary school. He just showed me a book which is printed here in Nürnberg with a number of pictures of Latvia, and the final pages are devoted to the so called . . . of the horrors of the Soviets in Latvia. The question whether they have recorded any of the horrors caused by the Nazis; he says that so far they don’t have the proper material. The name of the book is "Zeme, kas palika ugunis", "The Land Which Has Remained in Fire". I asked whether I can buy such a book; he was rather non-committal, but I may see whether I can get a copy. He wants talk in the Latvian, but we will make a trial to get up kind of a report.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="88.897" end="x">[In Russian] Ну пожалуйста господин Калнитис вы уберите руку с лица и подходите поближе.</u>
+                    <u who="#boderD" start="96.776" end="x">Э вы мне скажите где вы были когда в первые русские пришли опять пришли в Латвию и что с вами произошло потом, говорите по латышски.</u>
+                </div>
+                <div lang="Latvia">
+                    <u who="#kalnietisJ" start="110.973" end="x">[In Latvian] Es biju boļševikiem ienākot, uz laukiem vidzemē, biju vidzemē. Tā kā skolotājam man vasaru bija atvaļinājums un es biju savās tēva mājās.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="134.589" end="x">[In Russian/German] Ну да, erzählen sie.</u>
+                    <u who="#boderD" start="135.041" end="x">[In Russian] Скажите все дальше что произашло, но главным образом не то что произашло вообще, а что произошло с вами, все то что с вами случилось лично. Вы понимаете?</u>
+                    <u who="#kalnietisJ" start="147.585" end="x">Да, да</u>
+                    <u who="#boderD" start="144.444" end="x">Ну ходите говорите, вы не ждите чтобы я вас спрашивал.</u>
+                    <u who="#kalnietisJ" start="150.310" end="x">На латышском или русском?</u>
+                    <u who="#boderD" start="151.006" end="x">Давай на латышском языке.</u>
+                </div>
+                <div lang="Latvia">
+                    <u who="#kalnietisJ" start="154.818" end="x">[In Latvian] Tas notika vasarā, rudenī man bija jāsāk darbs skolā, tad vispirms boļševiki mani atstādināja no amata, es biju skolas pārziņa palīgs, bet mani degradēja par skolotāju pēc tam mani izsvieda pavisam no skolas, bet tā kā viņiem vajadzēja kori ar diriģenta un tāda viņiem nebija tad pieņēma mani atpakaļ par skolotāju ar noteikumu, ka es vadu viņu kori. Tā es arī paliku kādu laiku par skolotāju, bet pāris mēnešus strādādams es jutu, ka man visur tiek sekots un skolas pārzinis bija iecelts komunists, kurš rakstīja speciālu burtnīcu par tiem skolotājiem, kurus viņš turēja aizdomās par boļševismu, boļševiku režīmam nepiemērotiem un nejauši vienam skolotājam bija laimējies šo burtnīcu ieraudzīt uz galda un dažas lapas izlasīt un tur bija teikts, kad Kalnietis tanī dienā tikos un tikos izgājis no mājas, redzēts runājamies ar to un to uz ielas, tad domājams ka pie viņa valsts svētku dienā novembrī ir bijuši tādi un tādi viesi un tikos un tikos aizgājuši vārdu sakot bija, es redzēju, ka es tieku izspiegots.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="260.084" end="x">[In Russian] Продолжайте.</u>
+                </div>
+                <div lang="Latvia">
+                    <u who="#kalnietisJ" start="270.850" end="x">[In Latvian] Negaidījis, nenogaidījis vairs tālāk, nenogaidījis vairs tālāko notikumu es nolēmu pazust doties mežos un to arī izdarījām vairāki kopā. Visu pārējo boļševiku laiku es pavadīju mežā un vāciem ienākot tikai iedrošinājos no meža nākt laukā un laikam biju darījis pareizi, jo pretējā gadījumā man ceļš būtu arī vedis uz Sibīriju.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="310.603" end="x">[In Russian] Ну и скажите теперь, что случилось когда большеви . . . когда советы ушли из Латвии, каким образом они ушли.</u>
+                </div>
+                <div lang="Latvia">
+                    <u who="#kalnietisJ" start="321.098" end="x">[In Latvian] Kad boļševiki no Latvijas gāja projām, tad pēc manam domām mēs gaidījām atsvabināšanu no boļševiku terora un ar lielu prieku noraudzījāmies kā mūsu zemē ienāk mūsu atsvabinātāji vācieši, bet šīs cerības mūs dažu dienu laikā izkūpēja, jo pirmais solis ko vācieši darīja bija Rīgas ielu pārdēvēšana piemēram Brīvības bulvāri pārdēvēja par Hitlera ielu un Fon der Goltsa iela radās jo Golts bija mūsu niknākais ienaidnieks tūkstotš deviņi simti deviņpadsmitajā gadā pret kuru mēs tikām asinis ziedojuši. Un viņa vārdā tika nosaukta viena no lielākajām Rīgas ielām. Tas bija mums spļāviens seja vismaz personīgi es to tā izjutu un visa latviešu doma pēkšņi svērās atkal par ļaunu atbrīvotājiem pēdiņas, vāciešiem.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="395.321" end="x">[In Russian] Ну тогда с начала.</u>
+                    <u who="#boderD" start="397.269" end="x">Да передите теперь на руский язык если можите.</u>
+                    <u who="#kalnietisJ" start="401.434" end="x">Да но немножко.</u>
+                    <u who="#boderD" start="402.702" end="x">Так, но и скажите же, что ещё тогда произашло с вами лично, вы что в школе преподавали?</u>
+                    <u who="#kalnietisJ" start="409.677" end="x">Я преподавал пение в школе</u>
+                    <u who="#boderD" start="412.277" end="x">A ха</u>
+                    <u who="#kalnietisJ" start="412.748" end="x">пение и в последнее время тоже историю.</u>
+                    <u who="#boderD" start="416.102" end="x">а ха, ну хорошо значит. Что немци вообще сделали там?</u>
+                    <u who="#kalnietisJ" start="424.381" end="x">Немци позволяли работать дальше, но в школу, школу взяли для войск, войсков и мы должны были и работать в одной гаражия, шесть сот</u>
+                    <u who="#boderD" start="441.750" end="x">школа</u>
+                    <u who="#kalnietisJ" start="442.264" end="x">да школа была в одной гаражия, шесть сот учеников и двадцать три учителя работали м . . . в четырёх сменах каждый день, значит трудно было так но работать можно</u>
+                    <u who="#boderD" start="455.534" end="x">Какие часы была каждая смена?</u>
+                    <u who="#kalnietisJ" start="458.076" end="x">Как?</u>
+                    <u who="#boderD" start="458.706" end="x">Какие часы была каждая смена? Ну в котором часу первая смена началась?</u>
+                    <u who="#kalnietisJ" start="462.538" end="x">У в семь, в семь часов утра началось и поздно вечером кончилось, целый день работали.</u>
+                    <u who="#boderD" start="469.962" end="x">Сколько часов каждая смена?</u>
+                    <u who="#kalnietisJ" start="472.620" end="x">Три четыре часа каждая смена.</u>
+                    <u who="#boderD" start="475.162" end="x">Так, ну дальше.</u>
+                    <u who="#kalnietisJ" start="479.776" end="x">Особенно трудно было в истории работать,</u>
+                    <u who="#boderD" start="482.796" end="x">Почему?</u>
+                    <u who="#kalnietisJ" start="483.643" end="x">не как не могли мы детям не смели объяснять девятнадцатого года, когда немци на нас напали в Латвию, они не позволяли детям сказать то что было правдой.</u>
+                    <u who="#boderD" start="497.507" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="498.268" end="x">Наш.</u>
+                    <u who="#boderD" start="504.838" end="x">Можете по латышски. Вас что?</u>
+                    <u who="#kalnietisJ" start="507.728" end="x">Один из наших учителей который преподавал историю</u>
+                    <u who="#boderD" start="511.748" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="512.030" end="x">объяснил детям правду</u>
+                    <u who="#boderD" start="514.051" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="514.362" end="x">и сейчас был отпущен</u>
+                    <u who="#boderD" start="516.687" end="x">и был рассчитан, так его</u>
+                    <u who="#kalnietisJ" start="518.099" end="x">и был отпущен,</u>
+                    <u who="#boderD" start="519.671" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="519.852" end="x">и тогда некто уже не хотел эту историю преподавать.</u>
+                    <u who="#boderD" start="524.756" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="527.096" end="x">Очень многих моих знакомих и друзей из латышской интеллигенции немци посадили в тюрмах, увезли в концентрационных лагерях и мы все время боялись что в нас может быть и нас такая судьба ожидает.</u>
+                    <u who="#boderD" start="549.159" end="x">Так. Скажите господин ем . . . Кал э . . . Калнитис</u>
+                    <u who="#kalnietisJ" start="553.208" end="x">Да.</u>
+                    <u who="#boderD" start="553.404" end="x">Калнитис, тут в этой колонии есть какие не будь латыши которые были в концентрационных лагерях западных немцов</u>
+                    <u who="#boderD" start="564.536" end="x">Да, да</u>
+                    <u who="#kalnietisJ" start="567.078" end="x">Одного из латышей я знаю.</u>
+                    <u who="#boderD" start="569.345" end="x">Так, которого немци взяли в концентрационный лагерь.</u>
+                    <u who="#kalnietisJ" start="572.119" end="x">Да.</u>
+                    <u who="#boderD" start="573.720" end="x">Э . . . как, нет За что они его взяли</u>
+                    <u who="#kalnietisJ" start="581.737" end="x">Значит во время немцов латыши выдали газеты,</u>
+                    <u who="#boderD" start="587.798" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="588.059" end="x">такие против, против немцев, на шапирографах и так.</u>
+                    <u who="#boderD" start="593.528" end="x">Секретные газеты</u>
+                    <u who="#kalnietisJ" start="594.216" end="x">Секретные газеты и очень многие латыши из интеллигенции работали там и распространяли эти газеты</u>
+                    <u who="#boderD" start="601.647" end="x">О.</u>
+                    <u who="#kalnietisJ" start="602.277" end="x">И тех всех немци хотели в Шверин</u>
+                    <u who="#boderD" start="607.557" end="x">Э . . . уничтожить</u>
+                    <u who="#kalnietisJ" start="608.716" end="x">уничтожить. Один из наших, в нашем лагере я знаю</u>
+                    <u who="#boderD" start="613.504" end="x">Так. Ну скажите мне когда не писали эти подпольные газеты против немцев</u>
+                    <u who="#kalnietisJ" start="619.820" end="x">Да.</u>
+                    <u who="#boderD" start="619.980" end="x">Они что были про русских или нет. Как это было?</u>
+                    <u who="#kalnietisJ" start="625.865" end="x">Просто латышские националисты.</u>
+                    <u who="#boderD" start="628.337" end="x">Они были нацистские националисты?</u>
+                    <u who="#kalnietisJ" start="629.632" end="x">Латышские националисты.</u>
+                    <u who="#boderD" start="631.272" end="x">Так, они были против немцев, но они небыли и за русских?</u>
+                    <u who="#kalnietisJ" start="634.748" end="x">Против немцев и против русских.</u>
+                    <u who="#boderD" start="637.361" end="x">Ах так это было.</u>
+                    <u who="#kalnietisJ" start="638.138" end="x">Да.</u>
+                    <u who="#boderD" start="639.072" end="x">А скажите у вас были какие не будь партизаны?</u>
+                    <u who="#kalnietisJ" start="643.302" end="x">В Латвии?</u>
+                    <u who="#boderD" start="643.953" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="645.107" end="x">Да во время партизаны в Латвии работали и во время сорокового года значит под большевиками</u>
+                    <u who="#boderD" start="653.998" end="x">Но с большевиками или против большевиков?</u>
+                    <u who="#kalnietisJ" start="655.622" end="x">Против большевиков</u>
+                    <u who="#boderD" start="656.854" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="657.207" end="x">Во время большевиков.</u>
+                    <u who="#boderD" start="658.643" end="x">Так они, они воевали против большевиков.</u>
+                    <u who="#kalnietisJ" start="661.115" end="x">Да.</u>
+                    <u who="#boderD" start="661.484" end="x">Так, и потом?</u>
+                    <u who="#kalnietisJ" start="663.061" end="x">И в немецкое время, против немцев.</u>
+                    <u who="#boderD" start="666.788" end="x">Они просто были прямо латышские националисты.</u>
+                    <u who="#kalnietisJ" start="670.798" end="x">Латышские националисты и все которые не хо . . . м . . . силой которых принудили в немецкую армию но не хотели в армию пойти так их было очень многою</u>
+                    <u who="#boderD" start="683.000" end="x">Да, ну скажите мне вот что, это вы жили в коком городе?</u>
+                    <u who="#kalnietisJ" start="691.420" end="x">В Руене.</u>
+                    <u who="#boderD" start="692.574" end="x">Руена, это как по русски назывался?</u>
+                    <u who="#kalnietisJ" start="694.763" end="x">Руена, также.</u>
+                    <u who="#boderD" start="696.246" end="x">Руен. Где это в?</u>
+                    <u who="#kalnietisJ" start="697.478" end="x">В Эстонской границе.</u>
+                    <u who="#boderD" start="700.154" end="x">У Эстонской границы, но вы из Латвии, нет?</u>
+                    <u who="#kalnietisJ" start="703.348" end="x">Да.</u>
+                    <u who="#boderD" start="703.795" end="x">Вы Латвия, и знали вы что не будь что немци делали с евреями?</u>
+                    <u who="#kalnietisJ" start="710.802" end="x">В моем городе было очень мало евреев, как я думаю только четырнадцать человек, но тех всех я очень хорошо это знаю, только датуми я не знаю сказать,</u>
+                    <u who="#boderD" start="728.050" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="728.560" end="x">но я знаю что этих всех четырнадцать евреев немци собрали увезли недалеко девять километров от города и там ночю застреляли и похоронили в лесу. Это все, это все уж видели и знали что,</u>
+                    <u who="#boderD" start="748.883" end="x">Что случилось.</u>
+                    <u who="#kalnietisJ" start="749.613" end="x">Что там случилось Хотели принудить и Латышских полицистов, чтобы те повезли расстрелять но те все убежали некого немци не нашли который хотел бы помочь им, и сами повезли в тяжелой машине и расстреляли это очень хорошо все знают</u>
+                    <u who="#boderD" start="772.755" end="x">А скажите ка во времена Ульмана</u>
+                    <u who="#kalnietisJ" start="775.415" end="x">Да.</u>
+                    <u who="#boderD" start="776.004" end="x">евреи были свободны в Латвии?</u>
+                    <u who="#kalnietisJ" start="778.790" end="x">Да во время Ульмана все были свободны.</u>
+                    <u who="#boderD" start="781.497" end="x">Но а почему говорят что им заставляли продавать свои дома латышам?</u>
+                    <u who="#kalnietisJ" start="787.359" end="x">Но этого я не знаю.</u>
+                    <u who="#boderD" start="788.795" end="x">Вы не знаете.</u>
+                    <u who="#kalnietisJ" start="789.258" end="x">Этого я не знаю. Я так . . .</u>
+                    <u who="#boderD" start="791.228" end="x">Я же говорил то что в Америке говорили.</u>
+                    <u who="#kalnietisJ" start="793.747" end="x">Да.</u>
+                    <u who="#boderD" start="794.194" end="x">Что во времена Ульмана когда он распустил парламент они приходили к евреям и сказали чтобы они продали свои дома латышским гражданам что они не хотят чтобы евреи владели домами и так далее, вы знаете что не будь об этом?</u>
+                    <u who="#kalnietisJ" start="811.293" end="x">Но я видел что во время Ульмана только некоторые большие фабрики перешли в руках, в руках латышского правительства, но о приватных я не знаю тоже все лавки в Риге в других городах все постояли так же как и прежде всего</u>
+                    <u who="#boderD" start="835.517" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="835.697" end="x">Но Ульман хотел такую политику я думаю вывести, чтобы все большие заводы пошла в руки правительства независимости от этот, этот владелец есть еврей или немец или русский или латыш, независимости от того, я думаю что такая была политика Ульмана.</u>
+                    <u who="#boderD" start="860.125" end="x">Скажите мне вот что, во времена Ульмана и во времена латышского правительства и свободы, что сделали с немецкими имениями? Разделили эти имения или немецкие бароны их всё держали?</u>
+                    <u who="#kalnietisJ" start="877.004" end="x">Эти разделили уж в первые два года латышской свободы</u>
+                    <u who="#boderD" start="882.301" end="x">А ха.</u>
+                    <u who="#kalnietisJ" start="882.748" end="x">каждый из новых латышских крестьян, которые в войну в войне был получил, десять, пятнадцать, двадцать, тридцать гектаров как каждый все немецкие имущества были разделены.</u>
+                    <u who="#boderD" start="900.693" end="x">Но у вас же остались какие немецкие бароны, нет?</u>
+                    <u who="#kalnietisJ" start="904.624" end="x">Немецких барон осталось очень немного, но те же самые тоже получили также двадцать, тридцать гектаров и сами должны были работать так как и латыши работали.</u>
+                    <u who="#boderD" start="918.599" end="x">Ну а скажите когда немци пришли. Старались они опять забрать латышские земли или оставили они это всё в покое?</u>
+                    <u who="#kalnietisJ" start="929.263" end="x">Немцы кажется не поспели во время войны но что они это думали вывести это было совсем ясно. Например в школах эта политика вышла на то чтоб латышам остались только нижние школы и такие практичные школы и что мы долж . . . мы э . . . больше могли бы быть служанками</u>
+                    <u who="#boderD" start="955.152" end="x">Слугами</u>
+                    <u who="#kalnietisJ" start="956.007" end="x">Слугами немцев</u>
+                    <u who="#boderD" start="956.901" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="957.458" end="x">Это политика ясно было видно но они не имели довольно времени всё это вывести</u>
+                    <u who="#boderD" start="963.335" end="x">Ну а что сделали они с Рижским университетом?</u>
+                    <u who="#kalnietisJ" start="967.502" end="x">Немци.</u>
+                    <u who="#boderD" start="968.153" end="x">М хм . . .</u>
+                    <u who="#kalnietisJ" start="968.898" end="x">Я не был в Риге я был в провинции и хорошо не знаю</u>
+                    <u who="#boderD" start="972.453" end="x">А ха . . .</u>
+                    <u who="#kalnietisJ" start="973.151" end="x">Не могу говорить</u>
+                    <u who="#boderD" start="973.802" end="x">Не можете сказать об этом. Ну а потом скажите что с вами случилось когда немци стали уходить? С вами лично?</u>
+                    <u who="#kalnietisJ" start="981.296" end="x">Уходить?</u>
+                    <u who="#boderD" start="982.214" end="x">Даю</u>
+                    <u who="#kalnietisJ" start="982.630" end="x">Я был это осеню, я был опять в работе в школе</u>
+                    <u who="#boderD" start="987.142" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="987.872" end="x">И в Руене пришел приказ от немецкого коменданта что все должны наш город оставить.</u>
+                    <u who="#boderD" start="1002.239" end="x">Все жители.</u>
+                    <u who="#kalnietisJ" start="1003.236" end="x">Все жители.</u>
+                    <u who="#boderD" start="1003.981" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="1004.350" end="x">И так и я сделал один воз и поехал но далеко не попал воз один танк разбил и пошли дальше пешком.</u>
+                    <u who="#boderD" start="1015.576" end="x">Как танк разбил?</u>
+                    <u who="#kalnietisJ" start="1017.138" end="x">Не счастье было ночью, ночью.</u>
+                    <u who="#boderD" start="1021.312" end="x">Вас что лошадь была?</u>
+                    <u who="#kalnietisJ" start="1022.701" end="x">Лошадь убили и все немци разграбили мои одежду и всё и я пошел так</u>
+                    <u who="#boderD" start="1030.155" end="x">Сколько вас человек было в семье?</u>
+                    <u who="#kalnietisJ" start="1032.376" end="x">В семье?</u>
+                    <u who="#boderD" start="1033.137" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="1033.569" end="x">Э у меня жена отец и мать.</u>
+                    <u who="#boderD" start="1036.857" end="x">А ха, детей не было с вами.</u>
+                    <u who="#kalnietisJ" start="1037.987" end="x">Детей не было.</u>
+                    <u who="#boderD" start="1039.046" end="x">Ну, а теперь скажем немножко короче в эти четыре минуты мы эмем можим?</u>
+                    <u who="#kalnietisJ" start="1044.249" end="x">Да.</u>
+                    <u who="#boderD" start="1045.308" end="x">И хотя я не люблю вас торопить, мы можем идти дальше. Скажите ка вот что вы значит тогда попали из Латвии, куда?</u>
+                    <u who="#kalnietisJ" start="1052.845" end="x">Из Латвии мене посылали в Готнхафен</u>
+                    <u who="#boderD" start="1055.788" end="x">А ха</u>
+                    <u who="#kalnietisJ" start="1056.031" end="x">и от тудого в Брумбэрг. Это большой город в Вестпрейсене</u>
+                    <u who="#boderD" start="1060.323" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="1060.660" end="x">В прежней Польской границе.</u>
+                    <u who="#boderD" start="1063.147" end="x">Так, и что вы там делали?</u>
+                    <u who="#kalnietisJ" start="1064.818" end="x">Там мене положили в одной фабрике, столярной фабрике как топителя ночью.</u>
+                    <u who="#boderD" start="1071.982" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="1072.193" end="x">Должен был кочегаром печи топить.</u>
+                    <u who="#boderD" start="1075.057" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="1075.897" end="x">И там я работал два месяца потом опять удрали от туда немци взяли меня с собой и я попал здесь в Бурнавия, мне здесь меньше нено . . . Бурнаве. Это не далеко от Минхенов.</u>
+                    <u who="#boderD" start="1090.061" end="x">Так.</u>
+                    <u who="#kalnietisJ" start="1090.414" end="x">Там поставили меня в больниция работу каменные угли должен был.</u>
+                    <u who="#boderD" start="1097.060" end="x">А где ваша жена?</u>
+                    <u who="#kalnietisJ" start="1098.622" end="x">Жена в Латвии осталась, мы небыли вместе.</u>
+                    <u who="#boderD" start="1102.004" end="x">У вас жена осталась в Латвии?</u>
+                    <u who="#kalnietisJ" start="1103.220" end="x">Осталась в Латвии, и теперь.</u>
+                    <u who="#boderD" start="1106.084" end="x">А ваши родители?</u>
+                    <u who="#kalnietisJ" start="1107.410" end="x">Тоже в Латвии.</u>
+                    <u who="#boderD" start="1108.626" end="x">Так что вы один.</u>
+                    <u who="#kalnietisJ" start="1109.324" end="x">Только один.</u>
+                    <u who="#boderD" start="1110.933" end="x">Вы пишите, получаете письма от жены?</u>
+                    <u who="#kalnietisJ" start="1113.625" end="x">Не хочу писать.</u>
+                    <u who="#boderD" start="1115.155" end="x">А через «Красный крест»?</u>
+                    <u who="#kalnietisJ" start="1117.030" end="x">Боюсь.</u>
+                    <u who="#boderD" start="1118.089" end="x">Боитесь. Так что она знает что вы живы или не знает?</u>
+                    <u who="#kalnietisJ" start="1121.251" end="x">Не знает.</u>
+                    <u who="#boderD" start="1125.135" end="x">Вы не пробовали писать через Америку, не чего?</u>
+                    <u who="#kalnietisJ" start="1127.921" end="x">Не пробовал, боюсь. Я знаю что с сорокового года, который получил письмо где не будь из аусланд, тот значит пропал, потому я боюсь писать. Не относительно себя но относительно других.</u>
+                    <u who="#boderD" start="1147.609" end="x">Ну а скажите ка, вот чтоб а потом где вас освободили?</u>
+                    <u who="#kalnietisJ" start="1152.105" end="x">Здесь в Германии?</u>
+                    <u who="#boderD" start="1153.219" end="x">Да.</u>
+                    <u who="#kalnietisJ" start="1154.121" end="x">Бурнавие, там в больнице где я работал.</u>
+                    <u who="#boderD" start="1156.734" end="x">И кто пришли туда?</u>
+                    <u who="#kalnietisJ" start="1157.950" end="x">Американцы пришли.</u>
+                    <u who="#boderD" start="1160.186" end="x">Ну а скажите ка что вы собераетесь теперь делать?</u>
+                    <u who="#kalnietisJ" start="1166.832" end="x">Это трудно ответить, но я думаю я должен ожидать пока все объяснится.</u>
+                    <u who="#boderD" start="1174.765" end="x">То есть как вы это думаете?</u>
+                    <u who="#kalnietisJ" start="1176.876" end="x">Моими родителями, женой с Латвией в общем.</u>
+                    <u who="#boderD" start="1181.514" end="x">Но а вы думаете что скоро будет какая перемена в Латвии?</u>
+                    <u who="#kalnietisJ" start="1187.187" end="x">Ну что я могу думать?</u>
+                    <u who="#boderD" start="1192.625" end="x">Не знаю.</u>
+                    <u who="#kalnietisJ" start="1193.245" end="x">Все та ожидаем, может быть будет какая не будь перемена.</u>
+                    <u who="#boderD" start="1198.385" end="x">Но ведь нельзя же так долго продолжать жить в лагерях, в бараках и так далее. Вед надо же чтобы кокой не будь ваш вопрос разрешился.</u>
+                    <u who="#kalnietisJ" start="1208.751" end="x">У меня все равно, я только один, я могу работать и всякую физическую работу, я готов на все, готов на все, что только американцы будут</u>
+                    <u who="#boderD" start="1224.895" end="x">Предложат</u>
+                    <u who="#kalnietisJ" start="1226.347" end="x">предложат, я верю Англии и Америке, я знаю очень хорошо знаю, что все мы латыши только от этих двух народов все хорошее ожидать можем, не от других, это мое мнение.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1248.258" end="x" lang="en">[In English] This concludes spool four hundred fourty two.</u>
+                </div>
+                <!-- end spool 9-142B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#kalnietis_en">
+                <!-- begin spool 9-142B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.770" end="x">[In English] <placeName ref="München">Munich</placeName>, September 21, 1946 at a displaced peoples camp in for Latvian, Lithuanians and Estonians. The interview is Mr. Janis Kalnietis, 46 years old.</u>
+                    <u who="#boderD" start="17.459" end="x">[In German] Are you a teacher?</u>
+                    <u who="#kalnietisJ" start="18.421" end="x">[In German] Yes.</u>
+                    <u who="#boderD" start="18.908" end="x">[In English] He is a teacher here at the school. In gymnasium?</u>
+                    <u who="#kalnietisJ" start="23.494" end="x">[In German] No.</u>
+                    <u who="#boderD" start="23.868" end="x">[In English] . . . in the elementary school. He just showed me a book which is printed here in <placeName ref="Nürnberg">Nürnberg</placeName> with a number of pictures of Latvia, and the final pages are devoted to the so called . . . of the . . . em . . . horrors of the Soviets in Latvia. The question whether they have recorded any of the horrors caused by the Nazis. He says that so far, they don't have the proper material. The name of the book is "Zeme, kas palika ugunis", "The Land Which Has Remained in Fire". I asked whether I can buy such a book. He was rather non-committal, but I may see whether I can get a copy. He wants talk in the Latvian, but we will make a trial to get up kind of a report.</u>
+                    <u who="#boderD" start="88.897" end="x">[In Russian] Now, please, Mr Kalnietis take your hand off of your face and come closer.</u>
+                    <u who="#boderD" start="96.776" end="x">[In Russian] Well, tell me where you were when the Russians first came, came again, to Latvia and what happened to you then? Speak in Latvian.</u>
+                    <u who="#kalnietisJ" start="110.973" end="x">[In Latvian] When the Bolsheviks came, I was in the countryside in Vidzeme; I was in Vidzeme. As a teacher, I had a vacation in the summer, and I was at my father's.</u>
+                    <u who="#boderD" start="134.589" end="x">[In Russian/German] Well, yes. Go on.</u>
+                    <u who="#boderD" start="135.041" end="x">[In Russian] Tell me everything that happened to you further; however, not what happened in general, but mainly what happened to you - everything that happened to you personally. Do you remember?</u>
+                    <u who="#kalnietisJ" start="147.585" end="x">[In Russian] Yes, yes.</u>
+                    <u who="#boderD" start="144.444" end="x">[In Russian] Now, do you want to speak? Do not wait for me to question you.</u>
+                    <u who="#kalnietisJ" start="150.310" end="x">[In Russian] In Latvian or in Russian?</u>
+                    <u who="#boderD" start="151.006" end="x">[In Russian] Go on in the Latvian language.</u>
+                    <u who="#kalnietisJ" start="154.818" end="x">[In Latvian] It happened in summer, in the fall I had to start my work at school; then the Bolsheviks suspended me from duty—I was an assistant to the school superintendent—but I was degraded to a teacher, and then I was completely expelled from school. However, since they wanted to have a choir with a conductor, and they did not have one, they took me back on the condition that I would conduct their choir. This way, I stayed as a teacher for some time, but after having worked for a few months, I became aware that I was followed everywhere and the school superintendent was a communist who kept a special logbook on those teachers that were suspected of Bolshevism, improper for the Bolshevik regime, and incidentally, one of the teachers was lucky enough to come across this logbook on the table and read a few pages, and it was written there that Kalnietis on a certain day at a certain time, left home, was seen talking to this and that person in the street, then supposedly, on the national holiday in November, he had these and those visitors who left at this and that time—in short, I saw that I had someone spying on me.</u>
+                    <u who="#boderD" start="260.084" end="x">[In Russian] Continue.</u>
+                    <u who="#kalnietisJ" start="270.850" end="x">[In Latvian] Without waiting, not waiting any longer, not waiting for the next event, I decided to disappear, to go to the woods, and several of us did so, all together. I spent the rest of the Bolshevik period in the woods, and I dared coming out of the woods only when the Germans came, and probably, I had acted in the right way or alternatively, I would have been sent to Siberia.</u>
+                    <u who="#boderD" start="310.603" end="x">[In Russian] Now tell me what happened when the Bolshevi . . . when the Soviets left Latvia—in what way did they leave?</u>
+                    <u who="#kalnietisJ" start="321.098" end="x">[In Latvian] When the Bolsheviks were leaving Latvia, I think that we expected liberation from the Bolshevik terror, and with great pleasure, we watched the Germans coming to our country as our liberators, but our hopes vanished in a few days because, the first thing that the Germans did was rename streets in <placeName ref="Rīga">Riga</placeName>. For example, Freedom Boulevard was renamed as Hitler Street, and there was Von der Goltss Street. Because Goltss was our most severe enemy in nineteen-nineteen against whom we shed our blood, and one of the main streets in <placeName ref="Rīga">Riga</placeName> was named after him, For us, it was like spit in the face, at any rate, I personally felt it like that, and all Latvian thinking suddenly shifted again against the so called liberators—the Germans.</u>
+                    <u who="#boderD" start="395.321" end="x">[In Russian] Now from the beginning.</u>
+                    <u who="#boderD" start="397.269" end="x">Yes, now translate into the Russian language if you can.</u>
+                    <u who="#kalnietisJ" start="401.434" end="x">Yes, I can slightly.</u>
+                    <u who="#boderD" start="402.702" end="x">Well, now tell me what else happened to you personally. What did you teach at school?</u>
+                    <u who="#kalnietisJ" start="409.677" end="x">I taught music at school.</u>
+                    <u who="#boderD" start="412.277" end="x">A-ha.</u>
+                    <u who="#kalnietisJ" start="412.748" end="x">Music and also history lately.</u>
+                    <u who="#boderD" start="416.102" end="x">A-ha, all right then. What had the Germans done there generally?</u>
+                    <u who="#kalnietisJ" start="424.381" end="x">The Germans allowed us to continue working, but in the school . . . the school was taken over for military, military troops, and we had to stay and work in a garage - six hundred.</u>
+                    <u who="#boderD" start="441.750" end="x">The school?</u>
+                    <u who="#kalnietisJ" start="442.264" end="x">Yes, the school was located in one of the garages; six hundred pupils and twenty three teachers were working hmm . . . in four shifts every day; in fact, it was difficult to do it this way, but it was still possible to work.</u>
+                    <u who="#boderD" start="455.534" end="x">At what time was each shift?</u>
+                    <u who="#kalnietisJ" start="458.076" end="x">What?</u>
+                    <u who="#boderD" start="458.706" end="x">At what time was each shift? Well, what time did the first shift start?</u>
+                    <u who="#kalnietisJ" start="462.538" end="x">Oh, at seven, at seven o' clock in the morning it started and finished late in the evening. We were working all day long.</u>
+                    <u who="#boderD" start="469.962" end="x">How long was each shift?</u>
+                    <u who="#kalnietisJ" start="472.620" end="x">Three to four hours for each shift.</u>
+                    <u who="#boderD" start="475.162" end="x">Well, go on.</u>
+                    <u who="#kalnietisJ" start="479.776" end="x">Particularly, it was difficult to teach history.</u>
+                    <u who="#boderD" start="482.796" end="x">Why?</u>
+                    <u who="#kalnietisJ" start="483.643" end="x">We could not, in any way, - we did not dare to explain to the children the year of nineteen-nineteen when the Germans attacked Latvia. They did not allow us to tell children what was true.</u>
+                    <u who="#boderD" start="497.507" end="x">So.</u>
+                    <u who="#kalnietisJ" start="498.268" end="x">Our . . .</u>
+                    <u who="#boderD" start="504.838" end="x">You can go on in Latvian. Your what?</u>
+                    <u who="#kalnietisJ" start="507.728" end="x">One of our teachers who taught history . . .</u>
+                    <u who="#boderD" start="511.748" end="x">So.</u>
+                    <u who="#kalnietisJ" start="512.030" end="x">. . . explained to the children the true story.</u>
+                    <u who="#boderD" start="514.051" end="x">So?</u>
+                    <u who="#kalnietisJ" start="514.362" end="x">. . . and right away was dismissed . . .</u>
+                    <u who="#boderD" start="516.687" end="x">. . . and was identified; it means that he</u>
+                    <u who="#kalnietisJ" start="518.099" end="x">. . . and he was dismissed.</u>
+                    <u who="#boderD" start="519.671" end="x">So?</u>
+                    <u who="#kalnietisJ" start="519.852" end="x">And then nobody wanted to teach history.</u>
+                    <u who="#boderD" start="524.756" end="x">So?</u>
+                    <u who="#kalnietisJ" start="527.096" end="x">Many of my acquaintances and friends among the Latvian intellectuals were put in jail by the Germans, were taken to concentration camps, and we were concerned, all the time, that we would have a similar destiny.</u>
+                    <u who="#boderD" start="549.159" end="x">So. Mr. hmm . . . Kal e . . . nietis, tell me</u>
+                    <u who="#kalnietisJ" start="553.208" end="x">Yes.</u>
+                    <u who="#boderD" start="553.404" end="x">Kalnietis. Here in this camp there are some Latvians who have been in West German concentration camps.</u>
+                    <u who="#boderD" start="564.536" end="x">Yes, yes.</u>
+                    <u who="#kalnietisJ" start="567.078" end="x">I know one of the Latvians.</u>
+                    <u who="#boderD" start="569.345" end="x">So, the one who was taken to the concentration camp by the Germans?</u>
+                    <u who="#kalnietisJ" start="572.119" end="x">Yes.</u>
+                    <u who="#boderD" start="573.720" end="x">Well . . . how, no.—What was he taken for?</u>
+                    <u who="#kalnietisJ" start="581.737" end="x">Actually, during the German rule, Latvians published newspapers . . .</u>
+                    <u who="#boderD" start="587.798" end="x">So?</u>
+                    <u who="#kalnietisJ" start="588.059" end="x">. . . that were against, against the Germans, duplicated by shapirographs and so . . .</u>
+                    <u who="#boderD" start="593.528" end="x">Secret newspapers?</u>
+                    <u who="#kalnietisJ" start="594.216" end="x">Secret newspapers, and very many Latvian intellectuals worked there and distributed these newspapers.</u>
+                    <u who="#boderD" start="601.647" end="x">Оh.</u>
+                    <u who="#kalnietisJ" start="602.277" end="x">And the Germans wanted all of them to go to <placeName ref="Schwerin">Schwerin</placeName>.</u>
+                    <u who="#boderD" start="607.557" end="x">Eh . . . to exterminate.</u>
+                    <u who="#kalnietisJ" start="608.716" end="x">To exterminate. One of us in our camp, that I know of.</u>
+                    <u who="#boderD" start="613.504" end="x">So. Now tell me, when the work for covert newspapers against the Germans was not being done . . .</u>
+                    <u who="#kalnietisJ" start="619.820" end="x">Yes.</u>
+                    <u who="#boderD" start="619.980" end="x">. . . were they pro-Russian or not? How was it?</u>
+                    <u who="#kalnietisJ" start="625.865" end="x">Simply Latvian nationalists.</u>
+                    <u who="#boderD" start="628.337" end="x">Were they Nazi nationalists?</u>
+                    <u who="#kalnietisJ" start="629.632" end="x">Latvian nationalists.</u>
+                    <u who="#boderD" start="631.272" end="x">So, they were against the Germans, but they were not for the Russians?</u>
+                    <u who="#kalnietisJ" start="634.748" end="x">Against the Germans and against the Russians.</u>
+                    <u who="#boderD" start="637.361" end="x">?h, so it was.</u>
+                    <u who="#kalnietisJ" start="638.138" end="x">Yes.</u>
+                    <u who="#boderD" start="639.072" end="x">Well, tell me, were any kind of <term ref="#vothG_partisans">partisans</term> there?</u>
+                    <u who="#kalnietisJ" start="643.302" end="x">In Latvia?</u>
+                    <u who="#boderD" start="643.953" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="645.107" end="x">Yes, during that time <term ref="#vothG_partisans">partisans</term> operated in Latvia and during the nineteen forties, in fact, under the Bolsheviks.</u>
+                    <u who="#boderD" start="653.998" end="x">But together with the Bolsheviks or against the Bolsheviks?</u>
+                    <u who="#kalnietisJ" start="655.622" end="x">Against the Bolsheviks.</u>
+                    <u who="#boderD" start="656.854" end="x">So.</u>
+                    <u who="#kalnietisJ" start="657.207" end="x">During the Bolshevik times.</u>
+                    <u who="#boderD" start="658.643" end="x">So they, they struggled against the Bolsheviks?</u>
+                    <u who="#kalnietisJ" start="661.115" end="x">Yes.</u>
+                    <u who="#boderD" start="661.484" end="x">So and then?</u>
+                    <u who="#kalnietisJ" start="663.061" end="x">And during the German rule - against Germans.</u>
+                    <u who="#boderD" start="666.788" end="x">Simply they were just Latvian nationalists.</u>
+                    <u who="#kalnietisJ" start="670.798" end="x">Latvian nationalists, and all who did not wa . . . hmm . . . who were forced to join the German army, but did not want to join the army, and there were many of those.</u>
+                    <u who="#boderD" start="683.000" end="x">Yes, now tell me something, in which town did you live?</u>
+                    <u who="#kalnietisJ" start="691.420" end="x">In <placeName ref="Rūjiena">Rujiena</placeName>.</u>
+                    <u who="#boderD" start="692.574" end="x"><placeName ref="Rūjiena">Rujiena</placeName>a—what is it called in Russian?</u>
+                    <u who="#kalnietisJ" start="694.763" end="x">It is the same - <placeName ref="Rūjiena">Rujiena</placeName>.</u>
+                    <u who="#boderD" start="696.246" end="x"><placeName ref="Rūjiena">Rujiena</placeName>. Where is it?</u>
+                    <u who="#kalnietisJ" start="697.478" end="x">Near the Estonian border.</u>
+                    <u who="#boderD" start="700.154" end="x">Near the Estonian border, but you are from Latvia, aren't you?</u>
+                    <u who="#kalnietisJ" start="703.348" end="x">Yes, I am.</u>
+                    <u who="#boderD" start="703.795" end="703.795">You in Latvia—did you know what the Germans did to the Jews?</u>
+                    <u who="#kalnietisJ" start="710.802" end="x">In my town there were very few Jews. I think that there were only fourteen people, and I knew all of them very well; however, I do not know their data.</u>
+                    <u who="#boderD" start="728.050" end="x">So.</u>
+                    <u who="#kalnietisJ" start="728.560" end="x">But I know that all of those fourteen Jews were gathered by the Germans, and taken some nineteen kilometers away from the town, and during the night they were shot dead and buried in the forest. Everybody saw that and knew about that.</u>
+                    <u who="#boderD" start="748.883" end="x">What happened?</u>
+                    <u who="#kalnietisJ" start="749.613" end="x">What happened there? They wanted to force the Latvian policemen to shoot people, but they all ran away. The Germans could not find anybody who would be willing to assist them, and they took them away themselves by a truck and shot them dead; everybody knows about it very well.</u>
+                    <u who="#boderD" start="772.755" end="x">But tell me how it was under the Ulmanis rule.</u>
+                    <u who="#kalnietisJ" start="775.415" end="x">Yes.</u>
+                    <u who="#boderD" start="776.004" end="x">Were the Jews free in Latvia?</u>
+                    <u who="#kalnietisJ" start="778.790" end="x">Yes, under the Ulmanis rule, all were free.</u>
+                    <u who="#boderD" start="781.497" end="x">But why is it said that they were forced to sell their real estate to the Latvians?</u>
+                    <u who="#kalnietisJ" start="787.359" end="x">But I do not know about that.</u>
+                    <u who="#boderD" start="788.795" end="x">You do not know.</u>
+                    <u who="#kalnietisJ" start="789.258" end="x">I do not know about it. But I . . .</u>
+                    <u who="#boderD" start="791.228" end="x">I have told you what people say in America?</u>
+                    <u who="#kalnietisJ" start="793.747" end="x">Yes.</u>
+                    <u who="#boderD" start="794.194" end="x">That under the Ulmanis rule, when he dismissed the parliament, they went to the Jews and told them to sell their real estate to the Latvian citizens and that they did not want the Jews to have real estate and so on. Do you know anything about that?</u>
+                    <u who="#kalnietisJ" start="811.293" end="x">But I saw that under the Ulmanis rule only a few large factories were taken, taken by the Latvian government, however, I do not know about the private real estate. Also, all stores in <placeName ref="Rīga">Riga</placeName> and other cities—all of them stayed as they were before.</u>
+                    <u who="#boderD" start="835.517" end="x">So.</u>
+                    <u who="#kalnietisJ" start="835.697" end="x">But I think that Ulmanis wanted to apply a policy in which all large plants should be taken over by the government irrespective of the owner—be it a Jew, or a German or a Russian, or a Latvian, - irrespective of that. I think that this is what Ulmanis' policy was about.</u>
+                    <u who="#boderD" start="860.125" end="x">Now tell me this. Under the rule of Ulmanis and the Latvian government and independence, what was done to the German estates? Were these estates divided or were they still owned by German barons?</u>
+                    <u who="#kalnietisJ" start="877.004" end="x">They were divided during the first years of Latvian independence.</u>
+                    <u who="#boderD" start="882.301" end="x">?-ha.</u>
+                    <u who="#kalnietisJ" start="882.748" end="x">Each and every person of the new Latvian peasantry, who was in the war, came from the war and received ten, fifteen, twenty, thirty hectares, when all German estates had been divided.</u>
+                    <u who="#boderD" start="900.693" end="x">But some of the German barons stayed there, didn't they?</u>
+                    <u who="#kalnietisJ" start="904.624" end="x">There were very few German barons left, but those who stayed also got twenty, thirty hectares, and they had to work themselves the same way the Latvians worked.</u>
+                    <u who="#boderD" start="918.599" end="x">But tell me about the time when the Germans came. Did they try to deprive the Latvians of land? Or did they leave all of that as it was?</u>
+                    <u who="#kalnietisJ" start="929.263" end="x">The Germans seemed not to have managed to do it during the war, but everybody understood that they had it in mind. For example, their policy regarding schools was aimed at leaving only primary and vocational schools for the Latvians and so that we had to . . . we, well . . . we could be more like servants.</u>
+                    <u who="#boderD" start="955.152" end="x">Servants.</u>
+                    <u who="#kalnietisJ" start="956.007" end="x">Servants to the Germans.</u>
+                    <u who="#boderD" start="956.901" end="x">So.</u>
+                    <u who="#kalnietisJ" start="957.458" end="x">This policy was obvious, however, they did not have enough time to implement it all.</u>
+                    <u who="#boderD" start="963.335" end="x">Now, what did they do with <placeName ref="Rīga">Riga</placeName> university?</u>
+                    <u who="#kalnietisJ" start="967.502" end="x">The Germans.</u>
+                    <u who="#boderD" start="968.153" end="x">Hм . . .</u>
+                    <u who="#kalnietisJ" start="968.898" end="x">I was not in <placeName ref="Rīga">Riga</placeName>; I was in the province, and I do not know well enough.</u>
+                    <u who="#boderD" start="972.453" end="x">?-ha . . .</u>
+                    <u who="#kalnietisJ" start="973.151" end="x">I cannot say anything.</u>
+                    <u who="#boderD" start="973.802" end="x">You cannot say anything about it. Now, tell me what happened to you when the Germans started leaving? With you personally.</u>
+                    <u who="#kalnietisJ" start="981.296" end="x">Leaving?</u>
+                    <u who="#boderD" start="982.214" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="982.630" end="x">It was during that fall, I had been again working at school.</u>
+                    <u who="#boderD" start="987.142" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="987.872" end="x">In <placeName ref="Rūjiena">Rujiena</placeName>, there was an order received from the German commander that all of us should leave the town.</u>
+                    <u who="#boderD" start="1002.239" end="x">All inhabitants.</u>
+                    <u who="#kalnietisJ" start="1003.236" end="x">All inhabitants.</u>
+                    <u who="#boderD" start="1003.981" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="1004.350" end="x">So I did, and I fixed a cart and set out, but I did not make it far with the cart, because a tank damaged the cart, and we continued to go on foot.</u>
+                    <u who="#boderD" start="1015.576" end="x">How did the tank make the damage?</u>
+                    <u who="#kalnietisJ" start="1017.138" end="x">It was an accident at night, at night.</u>
+                    <u who="#boderD" start="1021.312" end="x">So, did you have a horse?</u>
+                    <u who="#kalnietisJ" start="1022.701" end="x">The horse was killed, and all Germans looted my clothes and everything, and I just walked away as I was.</u>
+                    <u who="#boderD" start="1030.155" end="x">How many of you were in the household?</u>
+                    <u who="#kalnietisJ" start="1032.376" end="x">In the household?</u>
+                    <u who="#boderD" start="1033.137" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="1033.569" end="x">Eh, I had my wife, my father and mother.</u>
+                    <u who="#boderD" start="1036.857" end="x">A-ha. You did not have children.</u>
+                    <u who="#kalnietisJ" start="1037.987" end="x">No, we did not have children.</u>
+                    <u who="#boderD" start="1039.046" end="x">Well, now let us express ourselves a bit shorter to fit into those four minutes left. Can we?</u>
+                    <u who="#kalnietisJ" start="1044.249" end="x">Yes.</u>
+                    <u who="#boderD" start="1045.308" end="x">Even though I would not like to rush you, we can proceed. Tell me, in fact, then you got out of Latvia. Where to?</u>
+                    <u who="#kalnietisJ" start="1052.845" end="x">I was sent from Latvia to Gottenhafen.</u>
+                    <u who="#boderD" start="1055.788" end="x">?-hа.</u>
+                    <u who="#kalnietisJ" start="1056.031" end="x">. . . and from there to <placeName ref="Bydgoszcz">Bromberg</placeName>. It is a big city in Westpreussen.</u>
+                    <u who="#boderD" start="1060.323" end="x">So.</u>
+                    <u who="#kalnietisJ" start="1060.660" end="x">On the previous Polish border.</u>
+                    <u who="#boderD" start="1063.147" end="x">So, and what did you do there?</u>
+                    <u who="#kalnietisJ" start="1064.818" end="x">There I was placed in one of the factories, a carpentry factory, as a night stoker.</u>
+                    <u who="#boderD" start="1071.982" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="1072.193" end="x">I had to be a stoker, tending the fires of furnaces.</u>
+                    <u who="#boderD" start="1075.057" end="x">So.</u>
+                    <u who="#kalnietisJ" start="1075.897" end="x">And there I had been working for two months, and then again we fled from there. The Germans took me along, and I got here in <placeName ref="Brunnau">Brunnau</placeName>, there I had less . . . in <placeName ref="Brunnau">Brunnau</placeName>. It is not far from <placeName ref="München">Munich</placeName>.</u>
+                    <u who="#boderD" start="1090.061" end="x">So.</u>
+                    <u who="#kalnietisJ" start="1090.414" end="x">There I was placed in a hospital to work; I had to work with coal.</u>
+                    <u who="#boderD" start="1097.060" end="x">And where is your wife?</u>
+                    <u who="#kalnietisJ" start="1098.622" end="x">My wife stayed in Latvia. We were not together.</u>
+                    <u who="#boderD" start="1102.004" end="x">Your wife stayed in Latvia, didn't she?</u>
+                    <u who="#kalnietisJ" start="1103.220" end="x">She stayed in Latvia, and so she is now.</u>
+                    <u who="#boderD" start="1106.084" end="x">And your parents?</u>
+                    <u who="#kalnietisJ" start="1107.410" end="x">They are also in Latvia.</u>
+                    <u who="#boderD" start="1108.626" end="x">So, you are alone?</u>
+                    <u who="#kalnietisJ" start="1109.324" end="x">Just alone.</u>
+                    <u who="#boderD" start="1110.933" end="x">Do you write, receive letters from your wife?</u>
+                    <u who="#kalnietisJ" start="1113.625" end="x">I do not want to write.</u>
+                    <u who="#boderD" start="1115.155" end="x">And by "The Red Cross"?</u>
+                    <u who="#kalnietisJ" start="1117.030" end="x">I am afraid.</u>
+                    <u who="#boderD" start="1118.089" end="x">You are afraid. So, does she know that you are alive or does she not know?</u>
+                    <u who="#kalnietisJ" start="1121.251" end="x">She does not know.</u>
+                    <u who="#boderD" start="1125.135" end="x">Have you tried to write or send something through America?</u>
+                    <u who="#kalnietisJ" start="1127.921" end="x">I have not tried. I am afraid. I know from the nineteen forties that those who received letters from somewhere abroad, those got lost; therefore, I am afraid to write. It is not because of me, it is because of others.</u>
+                    <u who="#boderD" start="1147.609" end="x">Now, tell me about where were you released then?</u>
+                    <u who="#kalnietisJ" start="1152.105" end="x">Here in Germany?</u>
+                    <u who="#boderD" start="1153.219" end="x">Yes.</u>
+                    <u who="#kalnietisJ" start="1154.121" end="x">In <placeName ref="Brunnau">Brunnau</placeName>, in the hospital where I worked.</u>
+                    <u who="#boderD" start="1156.734" end="x">And who came there?</u>
+                    <u who="#kalnietisJ" start="1157.950" end="x">Americans came.</u>
+                    <u who="#boderD" start="1160.186" end="x">Now, tell me what are you going to do now?</u>
+                    <u who="#kalnietisJ" start="1166.832" end="x">It is difficult to answer, but I think that I have to wait until everything gets clarified.</u>
+                    <u who="#boderD" start="1174.765" end="x">What do you mean?</u>
+                    <u who="#kalnietisJ" start="1176.876" end="x">With my parents, my wife, and in general in Latvia.</u>
+                    <u who="#boderD" start="1181.514" end="x">Well, do you think that there will be a change in Latvia soon?</u>
+                    <u who="#kalnietisJ" start="1187.187" end="x">Well, what else can I think of?</u>
+                    <u who="#boderD" start="1192.625" end="x">I do not know.</u>
+                    <u who="#kalnietisJ" start="1193.245" end="x">We all expect that, perhaps, there will be a change.</u>
+                    <u who="#boderD" start="1198.385" end="x">But one should not go on living in camps, barracks and similar places for so long. It is necessary that some of your queries get resolved.</u>
+                    <u who="#kalnietisJ" start="1208.751" end="x">It does not matter for me. I am just alone. I can work and take on any physical work. I am ready for everything, ready for everything that the Americans would . . .</u>
+                    <u who="#boderD" start="1224.895" end="x">Offer.</u>
+                    <u who="#kalnietisJ" start="1226.347" end="x">. . . would offer. I trust England and America. I know very well, I know that all of us Latvians can expect everything good only from those two nations, but not from others—it is in my opinion.</u>
+                    <u who="#boderD" start="1248.258" end="x">[In English] This concludes spool four hundred forty-two.</u>
+                </div>
+                <!-- end spool 9-142B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

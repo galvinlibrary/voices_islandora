@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Nino Barzilai; August 04, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Roberta Hopson</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>Patricia Sanner</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Reviewer</resp>
+                    <name>Adriana Barrós Tomé</name>
+                    <name>Andrea Castro</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>35 W. 33rd St</addrLine>
+                        <addrLine>Chicago, IL 60616</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT17M32.160S" id="barzilaiN_9-21B">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Spain">Spanish</lang>
+                                <note type="spools" n="1">9-21B</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-04</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="barzilaiN_es" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="barzilaiN_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="barzilaiN" role="interviewee">
+                        <persName>
+                            <forename>Nino</forename>
+                            <surname>Barzilai</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>54</age>
+                        <birth ref="Thessaloníki"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Portugal"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Athens">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Haidari concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Börgermoor concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Börgermoor" resp="us">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#barzilaiN_es">
+                <!-- begin Spool 9-21B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.603" end="x">[In English] Chicago, June the 26th, 1950. This is Spool 9-21B, the second half of Spool 9-21. The first half is Dr. Lipschitz which we called 9-21A, the second is Mr. Nino Barzilai which we call 9-21B.</u>
+                </div>
+                <div lang="Spain">
+                    <u who="#boderD" start="53.917" end="x">[In Spanish] [Ininteligible] Ud. habla aquí en esta dirección . . .</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="63.636" end="x">[In English] Paris, August 4th, Sunday, in the home for adult Jews. We are now going to interview a gentleman from Greece, Señor Nino Barzilai . . . who speaks Spanish.</u>
+                </div>
+                <div lang="Spain">
+                    <u who="#boderD" start="82.442" end="x">[In Spanish] Sr. Barzilai, dígame, ¿está Ud. nacido en Grecia?</u>
+                    <u who="#barzilaiN" start="89.200" end="x">Sí señor, yo he nacido en Thessaloniki, en Grecia..</u>
+                    <u who="#boderD" start="92.954" end="x">Sí, ¿y cuántos años tiene Ud. ahora?</u>
+                    <u who="#barzilaiN" start="97.056" end="x">54 años.</u>
+                    <u who="#boderD" start="98.716" end="x">Tiene Ud. 54 años, ¡no parece Ud. tan . . . de tan edad! . . . dígame, entonces . . . ¿y vivía Ud. es Grecia todo el tiempo?</u>
+                    <u who="#barzilaiN" start="110.180" end="x">No señor, yo vivía en España, durante 20 años y al declararse la guerra civil de España, he vuelto a Grecia dónde tenía familia.</u>
+                    <u who="#boderD" start="120.296" end="x">¿Es Ud. casado?</u>
+                    <u who="#barzilaiN" start="123.025" end="x">Sí señor, tengo un hijo de 15 años.</u>
+                    <u who="#boderD" start="127.020" end="x">¿Y su esposa?</u>
+                    <u who="#barzilaiN" start="128.874" end="x">Y mi esposa también está aquí conmigo.</u>
+                    <u who="#boderD" start="130.834" end="x">Están aquí con Ud.; pues entonces señor, comience Ud. a decirnos . . . ¿como pasó . . . la situación de ocupación de Grecia por los alemanes?</u>
+                    <u who="#barzilaiN" start="145.894" end="x">Pues . . . mire Ud . . . hemos vuelto a Grecia como le he dicho, como teníamos familia, a que acabara la guerra civil de España y volver a nuestro sitio. Al llegar a Grecia, nos sorprendió la guerra ítalo-griega y, naturalmente, no hubo ocasión para volver a España sea porque las comunicaciones estaban interrumpidas, sea porque la guerra civil duraba todavía en España.</u>
+                    <u who="#boderD" start="183.598" end="x">¿Y qué es su ocupación Sr. Barzilai?</u>
+                    <u who="#barzilaiN" start="186.869" end="x">En Grecia, yo me ocupé de la venta de tejidos para trajes de señora. Estaba muy bien establecido, tenía mi despacho . . .</u>
+                    <u who="#boderD" start="197.442" end="x">En Grecia.</u>
+                    <u who="#barzilaiN" start="198.241" end="x">En Grecia, en Atenas, cerca la [ininteligible].</u>
+                    <u who="#boderD" start="201.543" end="x">¿Y qué hacía Ud. en España?</u>
+                    <u who="#barzilaiN" start="203.850" end="x">En España yo me ocupaba de la bijouterie.</u>
+                    <u who="#boderD" start="207.785" end="x">Entonces se regresó Ud. a Grecia, ¿y ya estaban los alemanes ahí?</u>
+                    <u who="#barzilaiN" start="212.443" end="x">Cuando regresé a Grecia los alemanes todavía no habían llegado.</u>
+                    <u who="#boderD" start="217.418" end="x">Y Bueno . . .</u>
+                    <u who="#barzilaiN" start="218.654" end="x">Después cuando empezó la guerra italiana . . . Italia con Grecia, entonces, cuando pasó un poco de tiempo que volvieron los alemanes y entraron en Grecia; nosotros marchamos de Salónica para Atenas y nos establecimos en Atenas. Allá tenía un buen negocio como le he dicho, y cuando llegaron los alemanes, si hubo un anuncio en los periódicos, que todos los judíos debían de presentarse . . . como súbdito extranjero portugués, me he presentado también a . . .</u>
+                    <u who="#boderD" start="255.595" end="x">¿Es Ud. portugués?</u>
+                    <u who="#barzilaiN" start="257.404" end="x">Sí señor.</u>
+                    <u who="#boderD" start="258.068" end="x">¿Nació Ud. en Portugal?</u>
+                    <u who="#barzilaiN" start="259.802" end="x">No señor, soy de [ininteligible] mi familia era de [ininteligible] . . . entonces como . . . me presenté como portugués a las autoridades alemanas, con documentación portuguesa; como el gran rabino de Atenas era un pariente mío y por casualidad llevaba el mismo nombre que mi padre, los alemanes me lo tuvieron como hijo del gran rabino: me han puesto en un campo de concentración en Haïdari, Atenas, dónde pasé 5 meses y medio a trabajos forzados.</u>
+                    <u who="#boderD" start="303.818" end="x">¿Qué clase de trabajo hacían allá en el campo de concentración?</u>
+                    <u who="#barzilaiN" start="307.029" end="x">Nos daban a transportar piedras todo el día, y arena, de un sitio a otro, un trabajo bastante duro donde nos castigaban mucho y nos pegaban.</u>
+                    <u who="#boderD" start="319.368" end="x">¿Y qué hacían con la arena?</u>
+                    <u who="#barzilaiN" start="323.031" end="x">Era un trabajo que ellos habían hecho inventar para poder trabajar, para poder cansarnos, porque transportábamos las piedras de un sitio a otro y al otro día nos hacían volver las mismas piedras al mismo sitio. No había ni trabajos de fortificación ni trabajos de nada, solamente este transporte que nos hacían trabajar todos los días [ininteligible].</u>
+                    <u who="#boderD" start="358.447" end="x">Continúe Ud. señor, la recepción es buena</u>
+                    <u who="#barzilaiN" start="361.598" end="x">Después de estar 5 meses y medio en el campo de concentración de Haïdari, llegó el día dónde recogieron a todos los judíos de Atenas y los trajeron a todos en el mismo campo de concentración. Allá estuvimos . . . unos ocho días juntos, todos los judíos, que han llegado de Atenas.</u>
+                    <u who="#boderD" start="388.150" end="x">Todavía en Grecia.</u>
+                    <u who="#barzilaiN" start="389.733" end="x">En Grecia, sí. Y llegó el día de la deportación. Ese día de la deportación, a las cuatro de la mañana, nos han despertado y nos han dado diez minutos para estar prontos para marchar..</u>
+                    <u who="#boderD" start="405.083" end="x">¿Cuánta gente cree que estuvo ahí?</u>
+                    <u who="#barzilaiN" start="408.415" end="x">Allá creo que había cerca de dos mil.</u>
+                    <u who="#boderD" start="411.612" end="x">Dos mil, judíos. Miré Ud. Sr. Barzilai no tenemos la costumbre de hablar en esta investigación de mem . . . de papel, pero cómo Ud. tiene aquí el memorándum sobre los judíos en Grecia y no sabemos mucho de esto, vamos a hacer una excepción que lea Ud. el memorándum que Ud. tiene aquí.</u>
+                    <u who="#barzilaiN" start="434.609" end="x">Y déjeme decirle en todo caso, que nosotros con el convoi que se formó para marchar en Polonia, sacaron a los súbditos extranjeros y nos han puesto en un convoi separado. Quiere decir los súbditos argentinos quedaron en el mismo campo de Haïdari, los súbditos españoles y portugueses nos han puesto en un tren separado, diciendo que íbamos a marchar para España y Portugal en un intervalo de 12 días. Después de viajar 8 días con el treno hasta llegar en Alemania, vinimos al campo de Bergen-Belsen y allá nos detuvieron hasta 14 meses.</u>
+                    <u who="#boderD" start="487.232" end="x">En Bergen-Belsen.</u>
+                    <u who="#barzilaiN" start="488.770" end="x">En Bergen-Belsen, Alemania. Y de allá . . . cuando los ingleses, que estaban cerca de Berlín, vea Ud., nos han puesto en un treno y nos han dirigido a Börgermoor. Allá quedamos con el treno una noche.</u>
+                    <u who="#boderD" start="514.642" end="x">¿Y dónde estaba su esposa y su hijo?</u>
+                    <u who="#barzilaiN" start="517.205" end="x">Mi esposa y mi hijo, los encontré en el treno cuando íbamos para Alemania, para Bergen-Belsen.</u>
+                    <u who="#boderD" start="526.220" end="x">Sí.</u>
+                    <u who="#barzilaiN" start="526.763" end="x">Los alemanes nos trajeron a la estación del treno y allá partimos juntos con el convoi de los españoles y portugueses.</u>
+                    <u who="#boderD" start="538.416" end="x">Sí.</u>
+                    <u who="#barzilaiN" start="540.195" end="x">Y estuvimos juntos en Bergen-Belsen con mi señora y mi hijo.</u>
+                    <u who="#boderD" start="545.502" end="x">¿En el mismo block, en el mismo . . . ?</u>
+                    <u who="#barzilaiN" start="547.296" end="x">En el mismo campo, en diferentes barracas.</u>
+                    <u who="#boderD" start="550.085" end="x">Sí.</u>
+                    <u who="#barzilaiN" start="550.974" end="x">Las mujeres separadas, y los hombres separados.</u>
+                    <u who="#boderD" start="554.231" end="x">Sí.</u>
+                    <u who="#barzilaiN" start="555.543" end="x">Allá estuvimos como le he dicho 14 meses. Cuando nos han puesto en el treno para marchar, que nos han dicho que íbamos a España, vinimos hasta Börgermoor. Allá hubo un par de bombardeos de la parte de los americanos, duró bastante fuerte toda la noche, por la mañana despertamos, vimos que los alemanes habían abandonado el treno; y quedamos solos allá en un campo . . . abandonados completamente. Marchamos unos cuantos para salir cerca . . . de unas casas alemanas para ver lo que se pasaba. Entonces fuimos a buscar un poco de comida porque nosotros no cocinábamos nada, lo poco que nos dieron para el viaje se había acabado. Y encontramos unas cuantas patatas que nos han dado desde allá, hemos vuelto al treno e hicimos bouillir esas patatas para poder comer alguna cosa. Mientras tanto, voces corrieron que los americanos habían llegado. Y poco tiempo después, fue con tanto júbilo y tanta alegría que recibimos a los americanos que vinieron a [ininteligible]. Su primera preocupación fue darnos algo caliente de comer, nos han traído una sopa que nos han servido en el treno mismo y, después de un día, nos han dicho que nos iban a trasladar. Nos avisaron que nos debíamos de reunir todos en la plaza del pueblo para poder marchar todos juntos en unas casas que nos habían preparado para estar, hasta que marcháramos todos . . . [Ininteligible]</u>
+                    <u who="#boderD" start="671.480" end="x">¿Qué hacían los 14 meses en Bergen-Belsen?</u>
+                    <u who="#barzilaiN" start="674.375" end="x">Nosotros como súbditos extranjeros no trabajábamos, estábamos encerrados en las barracas, encerrados allá.</u>
+                    <u who="#boderD" start="682.983" end="x">¿Y no vinieron . . . los españoles o alguien de . . . cerca de España . . . o de [ininteligible]?</u>
+                    <u who="#barzilaiN" start="692.486" end="x">Nadie, nadie hizo nada por nosotros. Se escribieron muchas cartas y ninguna contestación ha llegado.</u>
+                    <u who="#boderD" start="700.687" end="x">¿Fueron Uds. solamente judíos?</u>
+                    <u who="#barzilaiN" start="703.522" end="x">Todos judíos.</u>
+                    <u who="#boderD" start="704.924" end="x">Todos judíos.</u>
+                    <u who="#barzilaiN" start="705.768" end="x">En el mismo campo de Bergen-Belsen juntábamos nosotros, súbditos argentinos y súbditos turcos. Los súbditos turcos antes de marchar nosotros, habían marchado ya, ocho días antes que nosotros fueron liberados. Eso lo aprendimos después, al salir nosotros.</u>
+                    <u who="#boderD" start="722.897" end="x">¿Liberados por quién?</u>
+                    <u who="#barzilaiN" start="726.259" end="x">Se dice que los acompañaron hasta la frontera suiza y que allá el consulado se encargó de ellos.</u>
+                    <u who="#boderD" start="734.535" end="x">Bueno, entonces diga Ud. ahora, vamos a ver que . . . dígame . . .</u>
+                    <u who="#barzilaiN" start="740.176" end="x">Como le he dicho, que después que fuimos liberados por los americanos, los americanos nos han enviado a Francia . . . hemos, la primera estación de Francia que hemos hecho fue . . . [Interrupción, no audio]</u>
+                    <u who="#boderD" start="761.255" end="x" lang="en">No, no . . . it will be good, wherever . . . ¿Y después? [Ininteligible] No, está bien.</u>
+                    <u who="#barzilaiN" start="776.607" end="x">No recuerdo bien. Nos han dirigido verso París y todos los déportées que hemos llegado a París somos altamente reconocientes al gobierno francés y al pueblo francés en general por el apoyo favorable que nos dan ellos. Nos han dado todas las facilidades, nos han vestido a todos, que estábamos todos descalzados y desnudos, y nos han dado la buena comida que no olvidaremos nunca lo que la Francia ha hecho por todos los deportados.</u>
+                    <u who="#boderD" start="815.582" end="x">Aja. ¿Y ahora qué está Ud. haciendo señor?</u>
+                    <u who="#barzilaiN" start="818.959" end="x">Nosotros estamos todavía en el centre de accueil de la calle [ininteligible], todavía no hemos encontrado ninguna casa para podernos establecer. Mi hijo lo he puesto en una escuela francesa dónde está aprendiendo un oficio.</u>
+                    <u who="#boderD" start="836.345" end="x">¿Qué oficio está aprendiendo?</u>
+                    <u who="#barzilaiN" start="838.199x" end="x">Ebanistería.</u>
+                    <u who="#boderD" start="839.888" end="x">Aja. Ebanistería.</u>
+                    <u who="#barzilaiN" start="841.049" end="x">Yo como tengo también el oficio de electricista, me han conseguido la casa del trabajo.</u>
+                    <u who="#boderD" start="849.401" end="x">Le han conseguido.</u>
+                    <u who="#barzilaiN" start="850.699" end="x">Sí, si . . . y poco a poco estoy empezando a trabajar. Y creemos que podemos quedar aquí en Francia, por la zona.</u>
+                    <u who="#boderD" start="862.048" end="x">Y establecerse.</u>
+                    <u who="#barzilaiN" start="863.405" end="x">Y establecernos. Aquí llevo una lista que será muy interesante para todos los judíos de Grecia que se encuentran en el extranjero. Una lista de los pocos judíos que volvieron a Grecia, de cada provincia en provincia de Grecia, con sus habitantes antes de la guerra, y los que quedaron y volvieron.</u>
+                    <u who="#boderD" start="889.319" end="x">Bueno.</u>
+                    <u who="#barzilaiN" start="891.708" end="x">En la provincia de Didimoticho eran 900 judíos, hoy han vuelto 33, se han perdido 96 por ciento; en la aldea Orestiada [Interrupción, no audio] . . . han vuelto 3, 98 por ciento; Alexandroupolis, 140 judíos, 97 por ciento; Komotini, 819, han vuelto 28, 96%; Xanthi, 550, han vuelto 6, 99%, Macedonia, en Kavala, 2.100 judíos, han vuelto 42, 98% de perdida; en Drama, 1.200, han vuelto 79, 97%; [ininteligible] 600, no han vuelto más que 3, 98%; Tessaloniki, la gran comunidad judía, 56.000, han vuelto 1.950, 96%.</u>
+                    <u who="#boderD" start="977.759" end="x">96% ¿perdidos?</u>
+                    <u who="#barzilaiN" start="979.900" end="x">Perdidos, sí señor. Veroia, 460 judíos, han vuelto 131 . . .</u>
+                    <u who="#boderD" start="988.990" end="x">Bueno señor . . .</u>
+                    <u who="#barzilaiN" start="989.744" end="x">32%.</u>
+                    <u who="#boderD" start="990.980" end="x">¿Ud. puede darme una copia de ese papel o a dónde se lo pedimos?</u>
+                    <u who="#barzilaiN" start="995.141" end="x">Con mucho placer, sí señor.</u>
+                    <u who="#boderD" start="996.711" end="x">Bueno.</u>
+                    <u who="#barzilaiN" start="997.412" end="x">Yo le daré la copia. Continuaremos . . . [Ininteligible].</u>
+                    <u who="#boderD" start="1000.068" end="x">[Ininteligible]</u>
+                    <u who="#barzilaiN" start="1006.394" end="x">Kastoria, 900 judíos, 35 han vuelto, 96% de pérdida; Florina, 400 judíos, 74 han vuelto, 84%; Thessalia, 520, 360, 31% . . .</u>
+                    <u who="#boderD" start="1029.004" end="x">Bueno señor, [ininteligible] si Ud. me da la copia. Entonces señor . . . le agradezco mucho por su información y especialmente [ininteligible] porque yo intento de irme a México y un reporte . . . [extremos precipitadamente]</u>
+                </div>
+                <!-- end Spool 9-21B -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#barzilaiN_en">
+                <!-- begin Spool 9-21B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.603" end="x">[In English] Chicago, June the 26th, 1950. This is Spool 9-21B, the second half of Spool 9-21. The first half is Dr. Lipschitz which we called 9-21A, the second is Mr. Nino Barzilai which we call 9-21B.</u>
+                    <u who="#boderD" start="53.917" end="x">[In Spanish] You have to speak in this direction . . . </u>
+                    <u who="#boderD" start="63.636" end="x">[In English] <placeName ref="Paris">Paris</placeName>, August the 4th, Sunday, in the home for adult Jews. We are now going to interview a gentleman from Greece, Señor Nino Barzilai . . . who speaks Spanish.</u>
+                    <u who="#boderD" start="82.442" end="x">[In Spanish] Mr. Barzilai, can you tell me if you were born in Greece?</u>
+                    <u who="#barzilaiN" start="89.200" end="x">Yes, Sir. I was born in <placeName ref="Thessaloníki">Thessaloniki</placeName>, Greece.</u>
+                    <u who="#boderD" start="92.954" end="x">How old are you now?</u>
+                    <u who="#barzilaiN" start="97.056" end="x">Fifty-four years old.</u>
+                    <u who="#boderD" start="98.716" end="x">Oh, you are fifty-four! You don't look . . . you don't seem that age! So, tell me . . . have you always lived in Greece?</u>
+                    <u who="#barzilaiN" start="110.180" end="x">No, Sir. I lived in Spain for twenty years. When the war was declared, the Spanish Civil War, I came back to Greece where I had my family.</u>
+                    <u who="#boderD" start="120.296" end="x">Are you married?</u>
+                    <u who="#barzilaiN" start="123.025" end="x">Yes, sir. I have a fifteen-year-old son.</u>
+                    <u who="#boderD" start="127.020" end="x">What about your wife?</u>
+                    <u who="#barzilaiN" start="128.874" end="x">My wife is also here with me.</u>
+                    <u who="#boderD" start="130.834" end="x">They are here with you. So, please tell us . . . how were you affected by the occupation of Greece by Germans?</u>
+                    <u who="#barzilaiN" start="145.894" end="x">Well . . . you see . . . as I have told you, we came back to Greece because we had some relatives, and we were going to wait till the end of the Spanish Civil War to come back to our place. When we arrived in Greece, the Italian-Greek War started and, naturally, we had no chance of coming back to Spain, either because communications had been interrupted or because the Civil War had not come to an end in Spain.</u>
+                    <u who="#boderD" start="183.598" end="x">And what did you do for a living, Mr. Barzilai?</u>
+                    <u who="#barzilaiN" start="186.869" end="x">In Greece, I sold fabrics for women's garments. I was well established . . . I had my own office . . .</u>
+                    <u who="#boderD" start="197.442" end="x">In Greece.</u>
+                    <u who="#barzilaiN" start="198.241" end="x">In Greece, <placeName ref="Athens">Athens</placeName>, near [unintelligible].</u>
+                    <u who="#boderD" start="201.543" end="x">And what did you do in Spain?</u>
+                    <u who="#barzilaiN" start="203.850" end="x">In Spain I was in the business of bijouterie.</u>
+                    <u who="#boderD" start="207.785" end="x">So, you came back to Greece. Were the Germans already there?</u>
+                    <u who="#barzilaiN" start="212.443" end="x">When I came back to Greece, the Germans had not invaded yet.</u>
+                    <u who="#boderD" start="217.418" end="x">OK, then . . .</u>
+                    <u who="#barzilaiN" start="218.654" end="x">Later, the Italian War started . . . Italy and Greece, and then, after some time, the Germans came and occupied Greece. We left <placeName ref="Thessaloníki">Salonica</placeName>, and moved to <placeName ref="Athens">Athens</placeName>, were we settled. As I told you, I had a nice business there, but when the Germans came, they published an announcement in the newspapers: all Jews were summoned and they had to present themselves as Portuguese foreign subjects, so I had to do it . . .</u>
+                    <u who="#boderD" start="255.595" end="x">Are you Portuguese?</u>
+                    <u who="#barzilaiN" start="257.404" end="x">Yes, I am.</u>
+                    <u who="#boderD" start="258.068" end="x">Were you born in Portugal?</u>
+                    <u who="#barzilaiN" start="259.802" end="x">No, Sir. I am [unintelligible] my family was from [unintelligible] . . . so . . . I presented myself to the German authorities as Portuguese, with Portuguese documents. And since the Chief Rabbi was a relative of mine and happened to have the same name as my father, the Germans took me for the Rabbi's son. They sent me to a concentration camp in <placeName ref="Haidari concentration camp" type="camp">Haidari</placeName>, <placeName ref="Athens">Athens</placeName>, where I spent five and a half months doing forced labor.</u>
+                    <u who="#boderD" start="303.818" end="x">What kind of labor did you do at the concentration camp?</u>
+                    <u who="#barzilaiN" start="307.029" end="x">We had to move stones and sand during the whole day, from one place to another. It was hard and we were hit and punished a lot.</u>
+                    <u who="#boderD" start="319.368" end="x">What did you do with the sand?</u>
+                    <u who="#barzilaiN" start="323.031" end="x">They "invented" this labor for us to work, to make us feel tired, because we transported stones from one place to another, and the following day, we would move the same stones back to their original place. We were not working on the fortification nor doing any other tasks, we just carried stones and they made us work every day [unintelligible].</u>
+                    <u who="#boderD" start="358.447" end="x">You can continue, we have good reception.</u>
+                    <u who="#barzilaiN" start="361.598" end="x">After more than five and a half months in the <placeName ref="Haidari concentration camp" type="camp">Haidari</placeName> concentration camp, all Jews from <placeName ref="Athens">Athens</placeName> were brought to the same camp. We were together . . . for about eight days . . . all Jews coming from <placeName ref="Athens">Athens</placeName>.</u>
+                    <u who="#boderD" start="388.150" end="x">Still in Greece?</u>
+                    <u who="#barzilaiN" start="389.733" end="x">Yes. In Greece. And the day of our deportation came . . . we were woken up at four in the morning and we were given ten minutes to get ready to depart.</u>
+                    <u who="#boderD" start="405.083" end="x">How many people do you think there were in that camp?</u>
+                    <u who="#barzilaiN" start="408.415" end="x">I think there were around two thousand people.</u>
+                    <u who="#boderD" start="411.612" end="x">Two thousand Jews. Look Mr. Barzilai, in this research, we usually do not speak about the mem— . . . about papers, but since you have the memorandum about Jews in Greece and we do not know much about this, we are going to make an exception and I will ask you to read the memorandum you have here.</u>
+                    <u who="#barzilaiN" start="434.609" end="x">Allow me to tell you that in the convoy that was sent to Poland all foreign subjects were included and we were sent in a separate convoy. This means the Argentine subjects stayed in the <placeName ref="Haidari concentration camp" type="camp">Haidari</placeName> camp while the Spanish and Portuguese subjects were placed on a separate train, telling us we would be sent to Spain and Portugal in a period of 12 days. After having traveled for 8 days by train, we arrived in Germany, we were taken to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> camp where we were held for 14 months.</u>
+                    <u who="#boderD" start="487.232" end="x">In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#barzilaiN" start="488.770" end="x">In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>, Germany. And from there . . . when the English were near <placeName ref="Berlin">Berlin</placeName>, we were taken on another train to <placeName ref="Börgermoor concentration camp" type="camp">Börgermoor</placeName>. We stayed there, on a train, for one night.</u>
+                    <u who="#boderD" start="514.642" end="x">Where were your wife and your son?</u>
+                    <u who="#barzilaiN" start="517.205" end="x">I found my wife and my son on the train that was taking us to Germany, to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="526.220" end="x">All right.</u>
+                    <u who="#barzilaiN" start="526.763" end="x">The Germans took us to the train station, and from there we departed on a joint convoy both Spaniards and Portuguese.</u>
+                    <u who="#boderD" start="538.416" end="x">OK.</u>
+                    <u who="#barzilaiN" start="540.195" end="x">And, I was together with my wife and my son in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="545.502" end="x">Were you in the same <term ref="#vothG_block">block</term>?</u>
+                    <u who="#barzilaiN" start="547.296" end="x">We were in the same camp, but in different barracks.</u>
+                    <u who="#boderD" start="550.085" end="x">I see.</u>
+                    <u who="#barzilaiN" start="550.974" end="x">Women and men were separate.</u>
+                    <u who="#boderD" start="554.231" end="x">I see.</u>
+                    <u who="#barzilaiN" start="555.543" end="x">As I told you, we were there for 14 months and we were placed on a train and we were told we were to be taken to Spain, but we came to <placeName ref="Börgermoor concentration camp" type="camp">Börgermoor</placeName>. There, there were a number of bombings by Americans, that lasted for a whole night. In the morning, when we woke up, we noticed the Germans had left the train and we had been left on our own in the camp . . . completely abandoned. A number of us marched to some nearby German houses to see what was going on. We were looking for some food, because we did not cook, and we had eaten all the food we had been given for the journey. We found some potatoes and we came back to the train where we boiled them to eat something. Meanwhile, there was a rumor that the Americans had arrived. And some time later, we happily received the Americans who had come to [unintelligible]. Their first concern was to give us something hot to eat, and we were served a soup right there on the train. After a day, we were told we were going to be transported to another place. We were told to gather in the park of the town to march together to some houses they had prepared for us to stay in. So we all marched . . . [unintelligible]</u>
+                    <u who="#boderD" start="671.480" end="x">What did you do during those 14 months in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>?</u>
+                    <u who="#barzilaiN" start="674.375" end="x">We, as foreign subjects, did not work. We were locked in the barracks.</u>
+                    <u who="#boderD" start="682.983" end="x">Didn't the Spaniards . . . or somebody from the neighboring areas come . . . or from . . . [unintelligible]?</u>
+                    <u who="#barzilaiN" start="692.486" end="x">Nobody. Nobody did anything for us. Many letters were written but there were no replies.</u>
+                    <u who="#boderD" start="700.687" end="x">Were there only Jews?</u>
+                    <u who="#barzilaiN" start="703.522" end="x">All of us were Jews.</u>
+                    <u who="#boderD" start="704.924" end="x">All Jews . . .</u>
+                    <u who="#barzilaiN" start="705.768" end="x">In <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> we were together with Argentine subjects, Turkish subjects. Before we left, the Turkish subjects had been freed. They were freed eight days before us. We learnt about it some days later, when we left.</u>
+                    <u who="#boderD" start="722.897" end="x">Who freed them?</u>
+                    <u who="#barzilaiN" start="726.259" end="x">It was said they had been escorted to the Swiss border, and there, the Consulate took care of them.</u>
+                    <u who="#boderD" start="734.535" end="x">OK. Then, tell me . . . well . . . tell me . . .</u>
+                    <u who="#barzilaiN" start="740.176" end="x">As I have told you, after being freed by Americans, we were sent to France . . . the first French station we reached was . . . [<emph rend="italics">audio interruption</emph>]</u>
+                    <u who="#boderD" start="761.255" end="x">No, no . . . it will be good, wherever . . . What happened then? [unintelligible] Don't worry, it is just fine.</u>
+                    <u who="#barzilaiN" start="776.607" end="x">I really can't remember. We were taken directly to <placeName ref="Paris">Paris</placeName> and all those who had been deported reached <placeName ref="Paris">Paris</placeName> very thankful to the French government and to the French people in general because of the support they offered us. We were given everything we needed, they dressed us, because we were almost naked and barefoot, we were given great food and none of us will ever forget what France did for us.</u>
+                    <u who="#boderD" start="815.582" end="x">Good. And what are you doing now, Sir?</u>
+                    <u who="#barzilaiN" start="818.959" end="x">We are still in the center located on [unintelligible] Street. We still have not found a house to settle. My son is learning a trade in the French school.</u>
+                    <u who="#boderD" start="836.345" end="x">What trade is he learning?</u>
+                    <u who="#barzilaiN" start="838.199x" end="x">Woodworking.</u>
+                    <u who="#boderD" start="839.888" end="x">Oh, woodworking.</u>
+                    <u who="#barzilaiN" start="841.049" end="x">As I am an electrician, I have been given a job.</u>
+                    <u who="#boderD" start="849.401" end="x">So you are working.</u>
+                    <u who="#barzilaiN" start="850.699" end="x">Well, I will soon start to work. We believe we can stay here in France, in this area.</u>
+                    <u who="#boderD" start="862.048" end="x">To settle here.</u>
+                    <u who="#barzilaiN" start="863.405" end="x">Yes. To settle here. I have a list that will be of great interest to all Jews from Greece who are still abroad. It is a list of the few Jews that returned to Greece in each Greek province. It includes the inhabitants before the war, and the ones left or those who returned.</u>
+                    <u who="#boderD" start="889.319" end="x">Good.</u>
+                    <u who="#barzilaiN" start="891.708" end="x">In the Province of <placeName ref="#voth250">Didymoteicho</placeName>, there were 900 Jews, and 33 have returned to this date, so 96% are missing. In <placeName ref="#voth251">Orestiada</placeName> town [<emph rend="italics">audio interruption</emph>] . . . 3 have returned, 98% are still missing. In <placeName ref="#voth251"> Alexandroupoli</placeName>, 140 Jews, 97% are missing; in <placeName ref="Komotiní">Komotini</placeName>, there were 819, 28 have returned, 96% missing; in <placeName ref="Xánthi">Xanthi</placeName>, 550, 6 have returned, 99% are missing; in Macedonia, in <placeName ref="Kavála">Kavala</placeName>, there were 2,100 Jews, 42 have returned, 98% are missing; in <placeName ref="Dráma">Drama</placeName>, 1,200, 79 have returned, 97% missing; [unintelligible] 600, only 3 have returned, 98% missing; in <placeName ref="Thessaloníki">Thessaloniki</placeName>, the great Jewish community, there were 56,000, 1,950 have returned, 96% are missing.</u>
+                    <u who="#boderD" start="977.759" end="x">96% missing?</u>
+                    <u who="#barzilaiN" start="979.900" end="x">Missing, Sir. <placeName ref="Véroia">Veroia</placeName>, 460 Jews, 131 have returned . . .</u>
+                    <u who="#boderD" start="988.990" end="x">Well, Sir . . .</u>
+                    <u who="#barzilaiN" start="989.744" end="x">32%.</u>
+                    <u who="#boderD" start="990.980" end="x">Can you give me a copy of this document or can we get it somewhere?</u>
+                    <u who="#barzilaiN" start="995.141" end="x">I will be pleased to give it to you, Sir.</u>
+                    <u who="#boderD" start="996.711" end="x">All right.</u>
+                    <u who="#barzilaiN" start="997.412" end="x">I will give you the copy. Let's continue . . . [unintelligible].</u>
+                    <u who="#boderD" start="1000.068" end="x">[unintelligible]</u>
+                    <u who="#barzilaiN" start="1006.394" end="x"><placeName ref="Kastoría">Kastoria</placeName>, 900 Jews, 35 have returned, 96% missing; <placeName ref="Flórina">Florina</placeName>, 400 Jews, 74 have returned, 84%; <placeName ref="Thessalía">Thessalia</placeName>, 520, 360, 31% . . .</u>
+                    <u who="#boderD" start="1029.004" end="x">Well, Sir, [unintelligible] if you give me the copy. Then, Sir . . . I thank you for this information and particularly [unintelligible], because I am trying to go to Mexico, and a report . . . [<emph rend="italics">ends abruptly</emph>]</u>
+                </div>
+                <!-- end Spool 9-21B -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

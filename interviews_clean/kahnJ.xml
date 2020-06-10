@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Jean Kahn; August 21, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Deborah Joyce</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>Deborah Joyce</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT21M53.237S" id="kahnJ_9-56A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="France">French</lang>
+                                <lang value="secondary" norm="en">English</lang>
+                                <note type="spools" n="1">9-56A</note>
+                                <placeName ref="Paris"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-21</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="kahnJ_fr_en" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="kahnJ_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="kahnJ" role="interviewee">
+                        <persName>
+                            <forename>Jean</forename>
+                            <surname>Kahn</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>15</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="France"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                        <event type="invasion" ref="France">
+                            <ab/>
+                        </event>
+                    </person>
+                    <person id="kahnM" role="interpreter">
+                        <persName>
+                            <forename>Marcelle</forename>
+                            <surname>Kahn</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#kahnJ_fr_en">
+                <!-- begin Spool 9-56A -->
+                <div lang="en">
+                    <u who="#boderD" start="4.006" end="x">[In English] Now, will you speak in English? And if you can't, you speak in French. All right. I will ask you the questions in English and you can answer them. [aside] All right. I am here at the home of Admiral Kahn, in the presence of three generations. There's the grandfather, the father of Mrs. Kahn, who spoke to us before, and the Admiral, his wife and here now with me on the sofa is his young son. Now tell me, what's your name?</u>
+                    <u who="#kahnJ" start="54.340" end="x">Jean.</u>
+                    <u who="#boderD" start="55.533" end="x">Your name is John. John what?</u>
+                    <u who="#kahnJ" start="57.612" end="x">Jean Kahn.</u>
+                    <u who="#boderD" start="58.498" end="x">John Kahn. And how old are you, John?</u>
+                    <u who="#kahnJ" start="62.064" end="x">I am fifteen now.</u>
+                    <u who="#boderD" start="63.510" end="x">You are fifteen.</u>
+                    <u who="#kahnJ" start="64.474" end="x">Yes.</u>
+                    <u who="#boderD" start="64.938" end="x">Now, that's nice English. And any time you are look for words, just speak French. You are now fifteen. And how old were you when the war started?</u>
+                    <u who="#kahnJ" start="75.914" end="x">It was in 1940.</u>
+                    <u who="#boderD" start="78.697" end="x">So how old were you?</u>
+                    <u who="#kahnJ" start="80.625" end="x">I was ten.</u>
+                    <u who="#boderD" start="82.173" end="x">You were ten, yes. Now, start talking French. And tell me what do you remember about the start of the war. Go ahead in French.</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="97.836" end="x">[In French] Eh bien, tout d'abord j'ai vu beaucoup de monde courir dans les rues, allant à l'encontre des nouvelles, car à la radio beaucoup de speakers, ne sachant pas eux-mêmes les nouvelles, avaient livré la radio à des spectacles de musique et de chansons. Et la première chose que je vis le matin en m'éveillant, ce sont des cars de troupes qui montaient au front par le Nord à l'approchée de Sedan . . . et tout le monde était affolé, entourant la radio.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="174.273" end="x">[In English] Now tell me. What month was it? Were you in school then? What month was it when the war started?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnM" start="183.351" end="x">[In French] [Interpreter intervenes] Quel mois c'était?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="188.833" end="x">[In English] Do you remember?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="190.309" end="x">[In French] C'était en juin. En juin.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="191.936" end="x">[In English] Were you in school then?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="193.996" end="x">[In French] Oui, j'étais en classe, au lycée de Lorient.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="198.544" end="x">[In English] And what did you think about the war? What did you think it would be? Did you like it?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="203.605" end="x">[In French] Je ne pensais pas que cela durerait très longtemps.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="206.659" end="x">[In English] Uh huh. Now, tell me what then happened?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="212.051" end="x">[In French] Eh bien, nous avons été obligés de nous enfuir devant les Allemands qui avaient réussi à faire une percée dans l'Est et à ce temps-là, nous ne pensions pas qu'ils allaient avancer rapidement. Et alors, dès le 18 juin 1940, nous avons été forcés de parcourir la France du Nord au Sud et de l'orient d'arriver à Marseille.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="246.488" end="x">[In English] Bon. Who was with you in Marseille?</u>
+                    <u who="#kahnJ" start="252.163" end="x">My grandfather, my mother and my brother.</u>
+                    <u who="#boderD" start="258.229" end="x">And where was your father?</u>
+                    <u who="#kahnJ" start="262.175" end="x">He was at the war.</u>
+                    <u who="#boderD" start="263.440" end="x">Your father was in the war. All right. Now, what happened then in Marseille? Speak French.</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="271.271" end="x">[In French] [conversation with interpreter] C'est à Marseille que j'ai appris que l'armistice avait été signé.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="281.585" end="x">[In English] All right. And where did you go from Marseille? Tell me. [aside to someone else: "It was a great pleasure and thank you very much."]</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="295.917" end="x">[In French] [conversation with interpreter] A Marseille, c'était en décembre 1942, nous avons entendu un message à la radio de Londres, message qui avait été convenu avec mon père à son départ: le canari est bien arrivé et il attend ses petits. C'était le signal que nous attendions pour partir pour aller le rejoindre. En octobre 1943, nous avons pris le train pour Perpignan, et c'est de là que nous passions faire toutes nos recherches et prévoir tous les embarras que nous aurions en traversant la frontière. Et de la fin d'octobre 1943 nous avons pris le train, sans les papiers qu'il fallait pour traverser la zone interdite, longeant la frontière espagnole. Et . . . mon frère et moi avons cherché le passage dans différents petits villages qui se trouvaient sur des sommets.</u>
+                    <u who="#boderD" start="385.816" end="x">Et votre mère?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="387.485" end="x">[In English] And where was your mother?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="389.395" end="x">[In French] Et ma mère attendait à Perpignan les résultats de notre enquête . . . Pour les enfants, il ne fallait pas de papiers spéciaux pour entrer dans la zone interdite. Et nous avions tous les deux moins de dix-sept ans à ce moment-là et nous pouvions passer assez facilement à travers les haies de police allemande qui contrôlaient les papiers des autres personnes. Voyant que tout était impossible devant le refus de tout le monde de nous aider, mêmes des guides qui avaient été questionnés, sans idées totalement de voir seulement ce que nous pourrions faire, nous sommes retournés à Perpignan décidés à partir seuls, sans guide, avec l'aide de personne. Mon frère acheta une boussole et une carte d'état-major de la région, et vers midi, nous sommes partis de Perpignan, pour une petite ville qui s'appelle Osséja, située à combien d'altitude? située à 1200 mètres d'altitude. Nous n'avions évidemment réussi à avoir aucun papier permettant le passage de la zone interdite, et cependant, dans le village d'Osséja, nous étions déjà dans la zone interdite. Par conséquent, à tout contrôle, les Allemands auraient pu découvrir que nous n'avions pas de papiers et nous empêcher d'aller plus loin. Ceci ne s'est pas passé heureusement, mais à la sortie de la gare d'Osséja, nous avons remarqué qu'il y avait deux agents allemands qui demandaient les papiers permettant l'entrée en zone interdite. Nous sommes restés quelques instants sur la voie, et lorsque nous avons vu les deux agents partir, nous avons franchi la gare, et nous sommes sortis. Nous avions laissé deux sacs de montagne assez lourds et une valise à la consigne en vue de pouvoir plus librement faire nos recherches, nos dernières recherches et explorations du pays.</u>
+                    <u who="#boderD" start="574.139" end="x">Et puis?</u>
+                    <u who="#kahnJ" start="575.085" end="x">Et puis nous sommes partis d'après . . . en suivant un trajet qui nous avait été vaguement indiqué par quelques personnes dans le petit village même. L'ascension commença vers la fin de l'après-midi, et la pluie tombait en faisant des mottes de gadoue. Nous étions enfoncés dans la boue, traînants, glissants, nous n'en pouvions plus et n'avancions pas. [Question off mic from interpreter] On n'osait pas sortir la carte d'état-major de peur de la tremper et de la perdre. De temps en temps nous regardions la boussole pour voir si nous étions dans la bonne direction, et nous entendions les chiens des policiers allemands. Nous ne savions pas s'ils étaient à nos trousses ou aux trousses de quelqu'un d'autre, mais on se taisait pour nous faire rater. Mon frère cependant nous exhortait et nous poussait comme il pouvait, car nous étions les deux plus fatigués, ma mère et moi. Et enfin, c'est lui qui remontait le moral du trio, et qui nous a toujours tenus dans la bonne voie avec sa boussole. A la sortie du village, nous avons vu une caserne allemande, qui . . . dans laquelle logeaient des douaniers, et nous avions vu un de leurs gros chiens policiers qui servent à dépister les gens qui essayent de passer la frontière. Enfin, après avoir marché pendant environ 5 heures, nous sommes tombés à pic sur une voie de chemin de fer au fond d'une vallée et nous avons aperçu une petite gare très semblable à nos gares françaises, et nous nous demandions si nous étions déjà en Espagne et non pas toujours en France. Il commençait à faire nuit, et nous n'osions pas nous découvrir et aller demander des renseignements, même approcher de la gare. En descendant, nous sommes tombés . . . comment s'appelle? un remblai . . . sur un remblai et nous avons été obligés de passer au dessous d'un tunnel, de contourner la voie et nous sommes descendus enfin sur une route qui semblait une route d'assez grande importance, malgré qu'il n'y ait pas beaucoup de circulation dessus. Enfin nous nous sommes approchés de la gare, et nous avons vu une inscription qui semblait bien ne pas être française. C'était [Filbas?], équivalent de [biffure?] en espagnol. Et puis peu à peu nous nous approchions sans nous en douter de la gare et nous avons entendu des jeunes filles chanter. Elles ne chantaient pas en français, mais en espagnol. Aussitôt, nous nous sommes approchés. Elles sont montées peut-être un peu effrayées chercher leur père. Leur père a tout de suite compris. Beaucoup de gens nous ont aidé, nous ont essuyé les pieds, nous ont donné à manger dans cette petite gare. Et le lendemain matin - ils nous avaient évidemment donné leurs lits pour passer la nuit—le lendemain matin, nous sommes partis de très bonne heure pour gagner la province de Barcelone, qui nous avait-on dit était moins dangereuse, et de là, on ne pouvait pas nous renvoyer en France. De l'aube même, nous avons marché certainement toute la matinée, et une bonne partie de l'après-midi, et nous allions prendre un car dans un petit village situé encore dans la montagne, lorsque nous avons vu deux carabineros habillés d'uniformes kaki et entourés de ceintures jaunes, avec de bas chapeaux [? de cire]. Ils sont venus vers nous, nous demander les papiers d'identité, documentation, et nous n'avons évidemment rien pu fournir. Ils nous ont fait monter dans un hôtel qui avait été réquisitionné entièrement par eux, et là a commencé l'interrogatoire, ainsi que la fouille. L'interrogatoire s'est prolongé toute l'après-midi. Ils posaient de temps en temps une question, nous ont présenté quelques fiches, nous ont confisqués tout ce que nous avions. On ramassait une part ou tout des choses qui étaient restées dans nos poches, et que nous avions essayé en vain de cacher. Et enfin, le soir, on nous a apporté un dîner très copieux, avec . . . pour la somme modique de 25.000 francs qui avaient été confisqués pendant l'interrogatoire. La nuit, ils nous ont fait passer dans une chambre dont les fenêtres avaient été grillagées, et avant de se coucher, ils nous ont enlevé nos chaussures.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1023.643" end="x">[In English] Were you all together?</u>
+                    <u who="#kahnJ" start="1025.974" end="x">Yes, we were all together in the room.</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="1031.577" end="x">[In French] Et alors, ils ont enlevé nos chaussures, et le lendemain matin, ils ont frappé, ils nous ont réveillés, et ont de nouveau procédé à un interrogatoire plus détaillé.</u>
+                    <u who="#boderD" start="1046.107" end="x">[aside, unintelligible]</u>
+                    <u who="#kahnJ" start="1056.434" end="x">Le surlendemain, nous avons été sortis de cette chambre et emmenés à Barcelone au quartier général de la police espagnole. Nous sommes restés là pas même cinq minutes. Nous avons été ramenés au poste de police, puis de nouveau à l'hôtel où nous avions passé les deux nuits précédentes, et enfin, deux carabineros nous ont emmenés en prison à Barcelone. Là, bref interrogatoire, et puis nous avons été jetés en prison, un peu comme des bêtes, dans de grandes cages dans les sous-sols de la préfecture de Barcelone. Le surlendemain, nous sommes sortis miraculeusement et avons réussi à faire partie d'un convoi qui devait gagner l'Afrique du nord, et nous mener enfin en terre libre. Nous avons atteint Casablanca au bout de deux jours et enfin nous avons su sur le bateau qui nous menait à Casablanca que mon père était à Alger. Et alors, au bout d'une semaine, passé des difficultés de transport entre Casablanca et Alger, nous avons rejoint mon père.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1174.660" end="x">[In English] Well, were you afraid during this whole trip?</u>
+                    <u who="#kahnJ" start="1179.600" end="x">A little bit, yes, but I really didn't know the danger we could . . .</u>
+                    <u who="#boderD" start="1185.594" end="x">that you were in.</u>
+                    <u who="#kahnJ" start="1186.889" end="x">Yes.</u>
+                    <u who="#boderD" start="1187.462" end="x">You didn't know the danger.</u>
+                    <u who="#kahnJ" start="1189.040" end="x">Yes.</u>
+                    <u who="#boderD" start="1189.643" end="x">What were you afraid of?</u>
+                    <u who="#kahnJ" start="1192.547" end="x">Of being arrested by the Germans, in the mountains.</u>
+                    <u who="#boderD" start="1197.830" end="x">Yes. What month were you in the mountains? What month was it?</u>
+                    <u who="#kahnJ" start="1203.463" end="x">October.</u>
+                    <u who="#boderD" start="1204.590" end="x">Was it cold in the mountains?</u>
+                    <u who="#kahnJ" start="1207.704" end="x">Not really cold, but the rain . . .</u>
+                    <u who="#boderD" start="1210.988" end="x">It was raining.</u>
+                    <u who="#kahnJ" start="1212.687" end="x">Yes.</u>
+                    <u who="#boderD" start="1213.934" end="x">Did you have good clothes?</u>
+                    <u who="#kahnJ" start="1216.205" end="x">No, we didn't have good clothes. Only very bad shoes.</u>
+                    <u who="#boderD" start="1224.518" end="x">Yes.</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="1225.362" end="x">[In French] Et des vêtements décousus, des chaussettes déchirées par les ronces et trempées dans la boue. Et pour toute nourriture, nous n'avions qu'un kilo de sucre, qui fondait dans nos poches, et une gourde de rhum.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1257.887" end="x">[In English] Oh, did you drink rum?</u>
+                    <u who="#kahnJ" start="1259.977" end="x">No, I didn't drink rum. Only with a piece of sugar.</u>
+                    <u who="#boderD" start="1268.863" end="x">[laughing] Now, where did you get from Spain then? From Spain you came where?</u>
+                    <u who="#kahnJ" start="1276.375" end="x">In North Africa.</u>
+                    <u who="#boderD" start="1277.490" end="x">To North Africa. All right. And when did you see your father again?</u>
+                    <u who="#kahnJ" start="1285.363" end="x">Just a month after our departure.</u>
+                    <u who="#boderD" start="1288.104" end="x">From Marseille.</u>
+                    <u who="#kahnJ" start="1289.400" end="x">From Perpignan, from France.</u>
+                    <u who="#boderD" start="1292.424" end="x">Just a month after your departure from Perpignan, you saw your father.</u>
+                    <u who="#kahnJ" start="1296.189" end="x">Yes.</u>
+                    <u who="#boderD" start="1296.822" end="x">Well, did he look well?</u>
+                    <u who="#kahnJ" start="1298.159" end="x">Yes, just a little bit tired.</u>
+                    <u who="#boderD" start="1302.527" end="x">Well, and then what were you doing in Africa?</u>
+                    <u who="#kahnJ" start="1308.413" end="x">I went to school there with all the little Arabs.</u>
+                    <u who="#boderD" start="1313.395" end="x">Little Arabs.</u>
+                    <u who="#kahnJ" start="1314.461" end="x">Yes.</u>
+                    <u who="#boderD" start="1315.425" end="x">And did you learn French or Arabian? What did you learn?</u>
+                    <u who="#kahnJ" start="1319.762" end="x">I learned French, yes.</u>
+                    <u who="#boderD" start="1321.600" end="x">You studied in French.</u>
+                    <u who="#kahnJ" start="1323.329" end="x">Yes.</u>
+                    <u who="#boderD" start="1323.974" end="x">All right. And are you now in school?</u>
+                    <u who="#kahnJ" start="1326.426" end="x">Yes.</u>
+                    <u who="#boderD" start="1327.191" end="x">In what grade are you?</u>
+                    <u who="#kahnJ" start="1330.173" end="x">I'm in the second degree.</u>
+                    <u who="#boderD" start="1331.902" end="x">Is that the lycée?</u>
+                    <u who="#kahnJ" start="1334.233" end="x">Lycée, yes.</u>
+                    <u who="#boderD" start="1336.161" end="x">So how many years do you need to be through?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="1340.016" end="x">[In French] Quatre ans?</u>
+                </div>
+                <div lang="en">
+                    <u who="#kahnJ" start="1344.384" end="x">[In English] Three years.</u>
+                    <u who="#boderD" start="1344.968" end="x">Three years more, and then you will be . . .</u>
+                    <u who="#kahnJ" start="1347.498" end="x">Three years of lycée.</u>
+                    <u who="#boderD" start="1348.643" end="x">Yes. And what will you do after that? What do you want to study?</u>
+                    <u who="#kahnJ" start="1354.968" end="x">I don't know.</u>
+                    <u who="#boderD" start="1356.113" end="x">You don't know. Well, that is good. You are young. Do you want to be an Admiral?</u>
+                    <u who="#kahnJ" start="1362.450" end="x">No.</u>
+                    <u who="#boderD" start="1363.113" end="x">No? [laughing] You don't want to go to sea? Well, and now, do you feel good at school? Do you have a lot of friends?</u>
+                    <u who="#kahnJ" start="1371.637" end="x">Yes. A lot of friends. I had a lot of friends in England.</u>
+                    <u who="#boderD" start="1376.486" end="x">Oh? Where were you in England?</u>
+                    <u who="#kahnJ" start="1385.263" end="x">At the French Lycée of London.</u>
+                    <u who="#boderD" start="1387.745" end="x">At the French Lycée of London. Well, uh huh. Did you speak there more French or did you speak English there?</u>
+                    <u who="#kahnJ" start="1395.829" end="x">I spoke much French.</u>
+                    <u who="#boderD" start="1398.751" end="x">Yes.</u>
+                    <u who="#kahnJ" start="1399.444" end="x">And some English in the evening.</u>
+                    <u who="#boderD" start="1403.703" end="x">What subjects are you taking in school? Are you taking Latin?</u>
+                    <u who="#kahnJ" start="1408.251" end="x">Latin.</u>
+                    <u who="#boderD" start="1408.974" end="x">Yes.</u>
+                    <u who="#kahnJ" start="1410.058" end="x">And math.</u>
+                    <u who="#boderD" start="1411.896" end="x">Mathematics.</u>
+                    <u who="#kahnJ" start="1412.872" end="x">Mathematics.</u>
+                    <u who="#boderD" start="1413.486" end="x">What do you have in mathematics now? [aside to interpreter] Algebra, geometry?</u>
+                </div>
+                <div lang="France">
+                    <u who="#kahnJ" start="1426.258" end="x">[In French] Géométrie et algèbre.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1428.830" end="x">[In English] Uh huh. And you take French literature?</u>
+                    <u who="#kahnJ" start="1433.559" end="x">French literature, history, geography, physics.</u>
+                    <u who="#boderD" start="1437.927" end="x">Physics.</u>
+                    <u who="#kahnJ" start="1438.873" end="x">Chemistry.</u>
+                    <u who="#boderD" start="1442.078" end="x">Do you have much to study when you go to school?</u>
+                    <u who="#kahnJ" start="1444.951" end="x">Yes, I have much. Too much!</u>
+                    <u who="#boderD" start="1448.295" end="x">Too much. Well, John, you are an awfully good boy, and it was really a pleasure to have met you. And I think you told us a good story. And I think the children there, if we translate it, will have a lot of fun in listening to your story. We will translate it into English and have another little boy read it for us, make a record. Will you write to me sometimes?</u>
+                    <u who="#kahnJ" start="1475.436" end="x">Yes. Certainly.</u>
+                    <u who="#boderD" start="1477.093" end="x">All right. I'll write you a letter, then you will know my address. And then if I can, we make another wire and we send you one and then when you have a machine, then you can listen to it.</u>
+                    <u who="#kahnJ" start="1490.075" end="x">Thank you.</u>
+                    <u who="#boderD" start="1490.948" end="x">Well, it was awfully good . . . [ends abruptly]</u>
+                </div>
+                <!-- end Spool 9-56A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#kahnJ_en">
+                <!-- begin Spool 9-56A -->
+                <div lang="en">
+                    <u who="#boderD" start="4.006" end="x">[In English] Now, will you speak in English? And if you can't, you speak in French. All right. I will ask you the questions in English and you can answer them. [aside] All right. I am here at the home of Admiral Kahn, in the presence of three generations. There's the grandfather, the father of Mrs. Kahn, who spoke to us before, and the Admiral, his wife and here now with me on the sofa is his young son. Now tell me, what's your name?</u>
+                    <u who="#kahnJ" start="54.340" end="x">Jean.</u>
+                    <u who="#boderD" start="55.533" end="x">Your name is John. John what?</u>
+                    <u who="#kahnJ" start="57.612" end="x">Jean Kahn.</u>
+                    <u who="#boderD" start="58.498" end="x">John Kahn. And how old are you, John?</u>
+                    <u who="#kahnJ" start="62.064" end="x">I am fifteen now.</u>
+                    <u who="#boderD" start="63.510" end="x">You are fifteen.</u>
+                    <u who="#kahnJ" start="64.474" end="x">Yes.</u>
+                    <u who="#boderD" start="64.938" end="x">Now, that's nice English. And any time you are look for words, just speak French. You are now fifteen. And how old were you when the war started?</u>
+                    <u who="#kahnJ" start="75.914" end="x">It was in 1940.</u>
+                    <u who="#boderD" start="78.697" end="x">So how old were you?</u>
+                    <u who="#kahnJ" start="80.625" end="x">I was ten.</u>
+                    <u who="#boderD" start="82.173" end="x">You were ten, yes. Now, start talking French. And tell me what do you remember about the start of the war. Go ahead in French.</u>
+                    <u who="#kahnJ" start="97.836" end="x">[In French] Well, first of all, I saw a lot of people running in the streets, looking for news, because on the radio, a lot of the announcers, not knowing themselves what was happening, had turned the radio broadcasts over to music programming and songs. The first thing I saw in the morning when I woke up was busloads of troops who were going to the front through the north near <placeName ref="Sedan">Sedan</placeName> and everyone was panicked, huddling around the radio.</u>
+                    <u who="#boderD" start="174.273" end="x">[In English] Now tell me. What month was it? Were you in school then? What month was it when the war started?</u>
+                    <u who="#kahnM" start="183.351" end="x">[In French] [Interpreter intervenes] What month was it?</u>
+                    <u who="#boderD" start="188.833" end="x">[In English] Do you remember?</u>
+                    <u who="#kahnJ" start="190.309" end="x">[In French] It was June. In June.</u>
+                    <u who="#boderD" start="191.936" end="x">[In English] Were you in school then?</u>
+                    <u who="#kahnJ" start="193.996" end="x">[In French] Yes, I was in school, in the <placeName ref="Lorient">Lorient</placeName> Secondary School [high school].</u>
+                    <u who="#boderD" start="198.544" end="x">[In English] And what did you think about the war? What did you think it would be? Did you like it?</u>
+                    <u who="#kahnJ" start="203.605" end="x">[In French] I didn't think that it would last very long.</u>
+                    <u who="#boderD" start="206.659" end="x">[In English] Uh huh. Now, tell me what then happened?</u>
+                    <u who="#kahnJ" start="212.051" end="x">[In French] Well, we had to escape from the Germans who had succeeded in making a breakthrough in the East, and at the time, we didn't think that they were going to advance quickly. And so, starting on June 18, 1940, we were forced to travel throughout France, from the North to the South and the East, to arrive in <placeName ref="Marseille">Marseille</placeName>.</u>
+                    <u who="#boderD" start="246.488" end="x">[In French] Good. Who was with you in <placeName ref="Marseille">Marseille</placeName>?</u>
+                    <u who="#kahnJ" start="252.163" end="x">[In English] My grandfather, my mother and my brother.</u>
+                    <u who="#boderD" start="258.229" end="x">And where was your father?</u>
+                    <u who="#kahnJ" start="262.175" end="x">He was at the war.</u>
+                    <u who="#boderD" start="263.440" end="x">Your father was in the war. All right. Now, what happened then in <placeName ref="Marseille">Marseille</placeName>? Speak French.</u>
+                    <u who="#kahnJ" start="271.271" end="x">[In French] [conversation with interpreter] I was in <placeName ref="Marseille">Marseille</placeName> when I heard that the Armistice had been signed.</u>
+                    <u who="#boderD" start="281.585" end="x">[In English] All right. And where did you go from <placeName ref="Marseille">Marseille</placeName>? Tell me. [aside to someone else: "It was a great pleasure and thank you very much."]</u>
+                    <u who="#kahnJ" start="295.917" end="x">[In French] [conversation with interpreter] In <placeName ref="Marseille">Marseille</placeName>, in was December, 1942, when we heard a radio message from <placeName ref="London">London</placeName>, a message that we had arranged with my father at the time of his departure: The canary has arrived safe and sound and he's waiting for his little ones. This was the signal that we were waiting for, in order to go and be reunited with him. In October 1943, we took the train to <placeName ref="Perpignan">Perpignan</placeName>, and from there we did all our research and preparations for all the difficulties we would have in crossing the border. And at the end of October, 1943, we took the train, without the papers required to cross into the "forbidden zone" along the Spanish border. And . . . my brother and I looked for a way through various little villages up in the mountains.</u>
+                    <u who="#boderD" start="385.816" end="x">[In French] Et votre mère?</u>
+                    <u who="#boderD" start="387.485" end="x">[In English] And where was your mother?</u>
+                    <u who="#kahnJ" start="389.395" end="x">[In French] And my mother was waiting in <placeName ref="Perpignan">Perpignan</placeName> for the results of our investigation. Children didn't need special papers to enter the forbidden zone. And we were both under the age of 17 at the time and we could cross the German police barriers fairly easily where they were checking other person's papers. When we saw how impossible it was, since everyone refused to help us, even the guides who had been questioned were totally without any ideas as to what we could do, we returned to <placeName ref="Perpignan">Perpignan</placeName>, having decided to go it alone, without a guide, with no one's help. My brother bought a compass and an administrative road map of the area, and around noon, we left <placeName ref="Perpignan">Perpignan</placeName> for a small town called <placeName ref="Osseja">Osseja</placeName>, located at.. what was the altitude? Located at 1200 meters above sea level. We had of course not succeeded in obtaining any papers giving us permission to be in the forbidden zone, and nevertheless, in the village of <placeName ref="Osseja">Osseja</placeName>, we were already in the forbidden zone. Consequently, at any checkpoint, the Germans could have discovered that we were without papers and stop us from going any further. This didn't happen, fortunately, but coming out of the train station at <placeName ref="Osseja">Osseja</placeName>, we saw two German agents who were checking papers for entrance into the forbidden zone. We stayed a few moments near the train tracks, and when we saw the two agents leave, we crossed through the train station and came out. We left behind two rather heavy backpacks and a suitcase, at the luggage checkroom, so that we would be less encumbered to look around, take a last look and explore the area.</u>
+                    <u who="#boderD" start="574.139" end="x">And then?</u>
+                    <u who="#kahnJ" start="575.085" end="x">And then we left . . . following a route that was vaguely indicated to us by some people in that same little village. We started our climb towards the end of the afternoon, and the rain was falling, turning the ground into clumps of slush. We were sinking into the mud, dragging our feet, sliding. We were exhausted and not making any progress. [Question off mic from interpreter] We didn't dare take out the map, for fear it would become soaked and useless. From time to time, we looked at the compass to see if we were going in the right direction, and we would hear the German police dogs. We didn't know if they were tracking us or someone else, but we kept quiet so as to be missed by them. My brother, nevertheless, drove us on and pushed us as best as he could, because both my mother and I were more tired than he. Ultimately, he was the one who boosted the morale of the three of us, and who kept us on the right path with his compass. Coming out of the village, we saw a German barracks . . . where customs agents were housed, and we saw their big police dogs that were used to track people who tried to cross the border. Finally, after having walked for about 5 hours, we suddenly came upon train tracks at the bottom of a valley and we saw a little train station that looked very similar to our French train stations, and we wondered if we were already in Spain and not in France anymore. It was beginning to get dark and we didn't dare show ourselves and ask directions, or even approach the train station. Coming down from the mountain, we came up to a . . . what is that called? An embankment. An embankment, and we had to cross under a tunnel, to go around the tracks and we finally made our way down to a highway that seemed like a major road, despite the fact that there wasn't much traffic. Finally, we approached the train station and we saw some writing [an inscription] that didn't seem to be French. It was [Filbas?], the equivalent of [biffure?] in Spanish. And then, little by little, we cautiously approached the train station and we heard some girls singing. They were not singing in French, but in Spanish. They ran off, a bit frightened, to find their father. Their father understood right away. Many people helped us, wiped our feet, gave us something to eat in this little train station. And the next morning—they obviously had given us their beds for the night—the next morning, we left very early to go to the province of <placeName ref="Barcelona">Barcelona</placeName>, which we were told was less dangerous, and from there, we couldn't be sent back to France. Starting at dawn, we had most likely walked all morning and a good part of the afternoon, and we were going to take a bus in a little village which was still up in the mountains, when we saw two Carabineros [in Spanish: customs officers], dressed in khaki uniforms with yellow belts and [rain?] hats. They came towards us, to ask for identification, documentation [in Spanish?] and we obviously had none to give them. They made us go to a hotel, the whole hotel having been requisitioned by them, and that's where the interrogation began, and where we were frisked. The interrogation lasted all afternoon. They would ask a question from time to time, show us some papers, confiscated everything we had. They collected everything we had in our pockets that we had tried unsuccessfully to hide from them. And finally, in the evening, they brought us a very copious dinner . . . for the modest price of 25,000 Francs, which was what they confiscated from us during the interrogation. At night, they put us in a room with bars on the windows, and before going to bed, they took our shoes.</u>
+                    <u who="#boderD" start="1023.643" end="x">[In English] Were you all together?</u>
+                    <u who="#kahnJ" start="1025.974" end="x">Yes, we were all together in the room.</u>
+                    <u who="#kahnJ" start="1031.577" end="x">[In French] And so, they took our shoes, and the next morning, they knocked and woke us up and proceeded with a more detailed interrogation.</u>
+                    <u who="#boderD" start="1046.107" end="x">[aside, unintelligible]</u>
+                    <u who="#kahnJ" start="1056.434" end="x">[In French] The next day, we were taken out of this room and sent to <placeName ref="Barcelona">Barcelona</placeName> to the headquarters of the Spanish police. We didn't even stay five minutes. We were taken to the police station, then again to the hotel where we had spent the previous two nights and finally, two carabineros took us to prison in <placeName ref="Barcelona">Barcelona</placeName>. There, we had another brief interrogation, and then we were thrown into jail, a little like animals, in big cages in the basement of the <placeName ref="Barcelona">Barcelona</placeName> Prefecture. The next day, miraculously, we got out and managed to join a convoy going to North Africa and to finally take us into the free zone. We reached <placeName ref="Casablanca">Casablanca</placeName> after two days, and we finally learned on the boat to <placeName ref="Casablanca">Casablanca</placeName> that my father was in <placeName ref="Algiers">Algiers</placeName>. And so, by the end of the week, once we got past the difficulties of the journey from <placeName ref="Casablanca">Casablanca</placeName> to <placeName ref="Algiers">Algiers</placeName>, we were reunited with my father.</u>
+                    <u who="#boderD" start="1174.660" end="x">[In English] Well, were you afraid during this whole trip?</u>
+                    <u who="#kahnJ" start="1179.600" end="x">A little bit, yes, but I really didn't know the danger we could . . .</u>
+                    <u who="#boderD" start="1185.594" end="x">that you were in.</u>
+                    <u who="#kahnJ" start="1186.889" end="x">Yes.</u>
+                    <u who="#boderD" start="1187.462" end="x">You didn't know the danger.</u>
+                    <u who="#kahnJ" start="1189.040" end="x">Yes.</u>
+                    <u who="#boderD" start="1189.643" end="x">What were you afraid of?</u>
+                    <u who="#kahnJ" start="1192.547" end="x">Of being arrested by the Germans, in the mountains.</u>
+                    <u who="#boderD" start="1197.830" end="x">Yes. What month were you in the mountains? What month was it?</u>
+                    <u who="#kahnJ" start="1203.463" end="x">October.</u>
+                    <u who="#boderD" start="1204.590" end="x">Was it cold in the mountains?</u>
+                    <u who="#kahnJ" start="1207.704" end="x">Not really cold, but the rain . . .</u>
+                    <u who="#boderD" start="1210.988" end="x">It was raining.</u>
+                    <u who="#kahnJ" start="1212.687" end="x">Yes.</u>
+                    <u who="#boderD" start="1213.934" end="x">Did you have good clothes?</u>
+                    <u who="#kahnJ" start="1216.205" end="x">No, we didn't have good clothes. Only very bad shoes.</u>
+                    <u who="#boderD" start="1224.518" end="x">Yes.</u>
+                    <u who="#kahnJ" start="1225.362" end="x">[In French] And our clothes were falling apart, our socks torn by brambles and soaked in mud. And all we had to eat was a kilo of sugar [cubes] which melted in our pockets, and a flask of rum.</u>
+                    <u who="#boderD" start="1257.887" end="x">[In English] Oh, did you drink rum?</u>
+                    <u who="#kahnJ" start="1259.977" end="x">No, I didn't drink rum. Only with a piece of sugar.</u>
+                    <u who="#boderD" start="1268.863" end="x">[laughing] Now, where did you get from Spain then? From Spain you came where?</u>
+                    <u who="#kahnJ" start="1276.375" end="x">In North Africa.</u>
+                    <u who="#boderD" start="1277.490" end="x">To North Africa. All right. And when did you see your father again?</u>
+                    <u who="#kahnJ" start="1285.363" end="x">Just a month after our departure.</u>
+                    <u who="#boderD" start="1288.104" end="x">From <placeName ref="Marseille">Marseille</placeName>.</u>
+                    <u who="#kahnJ" start="1289.400" end="x">From <placeName ref="Perpignan">Perpignan</placeName>, from France.</u>
+                    <u who="#boderD" start="1292.424" end="x">Just a month after your departure from <placeName ref="Perpignan">Perpignan</placeName>, you saw your father.</u>
+                    <u who="#kahnJ" start="1296.189" end="x">Yes.</u>
+                    <u who="#boderD" start="1296.822" end="x">Well, did he look well?</u>
+                    <u who="#kahnJ" start="1298.159" end="x">Yes, just a little bit tired.</u>
+                    <u who="#boderD" start="1302.527" end="x">Well, and then what were you doing in Africa?</u>
+                    <u who="#kahnJ" start="1308.413" end="x">I went to school there with all the little Arabs.</u>
+                    <u who="#boderD" start="1313.395" end="x">Little Arabs.</u>
+                    <u who="#kahnJ" start="1314.461" end="x">Yes.</u>
+                    <u who="#boderD" start="1315.425" end="x">And did you learn French or Arabian? What did you learn?</u>
+                    <u who="#kahnJ" start="1319.762" end="x">I learned French, yes.</u>
+                    <u who="#boderD" start="1321.600" end="x">You studied in French.</u>
+                    <u who="#kahnJ" start="1323.329" end="x">Yes.</u>
+                    <u who="#boderD" start="1323.974" end="x">All right. And are you now in school?</u>
+                    <u who="#kahnJ" start="1326.426" end="x">Yes.</u>
+                    <u who="#boderD" start="1327.191" end="x">In what grade are you?</u>
+                    <u who="#kahnJ" start="1330.173" end="x">I'm in the second degree.</u>
+                    <u who="#boderD" start="1331.902" end="x">Is that the lycée?</u>
+                    <u who="#kahnJ" start="1334.233" end="x">Lycée, yes.</u>
+                    <u who="#boderD" start="1336.161" end="x">So how many years do you need to be through?</u>
+                    <u who="#kahnJ" start="1340.016" end="x">[In French] Four years?</u>
+                    <u who="#kahnJ" start="1344.384" end="x">[In English] Three years.</u>
+                    <u who="#boderD" start="1344.968" end="x">Three years more, and then you will be . . .</u>
+                    <u who="#kahnJ" start="1347.498" end="x">Three years of lycée.</u>
+                    <u who="#boderD" start="1348.643" end="x">Yes. And what will you do after that? What do you want to study?</u>
+                    <u who="#kahnJ" start="1354.968" end="x">I don't know.</u>
+                    <u who="#boderD" start="1356.113" end="x">You don't know. Well, that is good. You are young. Do you want to be an Admiral?</u>
+                    <u who="#kahnJ" start="1362.450" end="x">No.</u>
+                    <u who="#boderD" start="1363.113" end="x">No? [laughing] You don't want to go to sea? Well, and now, do you feel good at school? Do you have a lot of friends?</u>
+                    <u who="#kahnJ" start="1371.637" end="x">Yes. A lot of friends. I had a lot of friends in England.</u>
+                    <u who="#boderD" start="1376.486" end="x">Oh? Where were you in England?</u>
+                    <u who="#kahnJ" start="1385.263" end="x">At the French Lycée of <placeName ref="London">London</placeName>.</u>
+                    <u who="#boderD" start="1387.745" end="x">At the French Lycée of <placeName ref="London">London</placeName>. Well, uh huh. Did you speak there more French or did you speak English there?</u>
+                    <u who="#kahnJ" start="1395.829" end="x">I spoke much French.</u>
+                    <u who="#boderD" start="1398.751" end="x">Yes.</u>
+                    <u who="#kahnJ" start="1399.444" end="x">And some English in the evening.</u>
+                    <u who="#boderD" start="1403.703" end="x">What subjects are you taking in school? Are you taking Latin?</u>
+                    <u who="#kahnJ" start="1408.251" end="x">Latin.</u>
+                    <u who="#boderD" start="1408.974" end="x">Yes.</u>
+                    <u who="#kahnJ" start="1410.058" end="x">And math.</u>
+                    <u who="#boderD" start="1411.896" end="x">Mathematics.</u>
+                    <u who="#kahnJ" start="1412.872" end="x">Mathematics.</u>
+                    <u who="#boderD" start="1413.486" end="x">What do you have in mathematics now? [aside to interpreter] Algebra, geometry?</u>
+                    <u who="#kahnJ" start="1426.258" end="x">[In French] Geometry and algebra.</u>
+                    <u who="#boderD" start="1428.830" end="x">[In English] Uh huh. And you take French literature?</u>
+                    <u who="#kahnJ" start="1433.559" end="x">French literature, history, geography, physics.</u>
+                    <u who="#boderD" start="1437.927" end="x">Physics.</u>
+                    <u who="#kahnJ" start="1438.873" end="x">Chemistry.</u>
+                    <u who="#boderD" start="1442.078" end="x">Do you have much to study when you go to school?</u>
+                    <u who="#kahnJ" start="1444.951" end="x">Yes, I have much. Too much!</u>
+                    <u who="#boderD" start="1448.295" end="x">Too much. Well, John, you are an awfully good boy, and it was really a pleasure to have met you. And I think you told us a good story. And I think the children there, if we translate it, will have a lot of fun in listening to your story. We will translate it into English and have another little boy read it for us, make a record. Will you write to me sometimes?</u>
+                    <u who="#kahnJ" start="1475.436" end="x">Yes. Certainly.</u>
+                    <u who="#boderD" start="1477.093" end="x">All right. I'll write you a letter, then you will know my address. And then if I can, we make another wire and we send you one and then when you have a machine, then you can listen to it.</u>
+                    <u who="#kahnJ" start="1490.075" end="x">Thank you.</u>
+                    <u who="#boderD" start="1490.948" end="x">Well, it was awfully good . . . [ends abruptly]</u>
+                </div>
+                <!-- end Spool 9-56A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

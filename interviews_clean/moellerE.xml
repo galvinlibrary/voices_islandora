@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Ernesto Moeller-Arnold; September 20, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Roberta Hopson</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Reviewer (transcription)</resp>
+                    <name>Andrea Castro</name>
+                    <orgName>Affinity Spanish Language Solutions</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT38M44.193S" id="moellerE_9-135">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Spain">Spanish</lang>
+                                <note type="spools" n="1">9-135</note>
+                                <placeName ref="Funkkaserne displaced-person's camp"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-20</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="mollerE_es" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="mollerE_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="moellerE" role="interviewee">
+                        <persName>
+                            <forename>Ernesto</forename>
+                            <surname>Moeller-Arnold</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>51</age>
+                        <birth ref="Santiago"/>
+                        <faith>unknown</faith>
+                        <nationality key="Chile"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>unknown</desc>
+                        </trait>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#mollerE_es">
+                <!-- begin spool 9-135 -->
+                <div lang="en">
+                    <u who="#boderD" start="4.173" end="x">[In English] München, September the 20th, 1946, in a UNRRA transient camp in Funkenkasernen. The interviewee is Mr. Ernesto Moelller-Arnold, fifty-one years old, nacido de . . . born in Chile. I am beginning to mix the language.</u>
+                </div>
+                <div lang="Spain">
+                    <u who="#boderD" start="31.250" end="x">[In Spanish] Señor Moeller-Arnold, venga Ud. más próximo para que . . . [Ininteligible].</u>
+                    <u who="#moellerE" start="42.907" end="x">Sí, estoy . . . estoy sentado bastante cómodo.</u>
+                    <u who="#boderD" start="46.125" end="x">Yo prefiero que hable Ud. en voz normal . . .</u>
+                    <u who="#moellerE" start="48.625" end="x">Sí.</u>
+                    <u who="#boderD" start="49.547" end="x">. . . Entonces se recorda mejor. Haría Ud. el favor de decirnos otra vez cómo se nombra Ud., cómo es su nombre, cuántos años tiene, dónde nació.</u>
+                    <u who="#moellerE" start="60.594" end="x">Yo . . . mi nombre es Ernesto Moeller-Arnold y soy nacido en Santiago de Chile, en el año mil novecientos . . . 1894.</u>
+                    <u who="#boderD" start="75.390" end="x">Sí. Y dígame . . . entonces ¿dónde estuvo Ud. Señor Arnold cuando comenzó la guerra?</u>
+                    <u who="#moellerE" start="85.530" end="x">Al comenzar la guerra, yo tenía un puesto como gerente de haciendas en . . . Alta Silesia, estaba administrando haciendas que pertenecían a gente que tenía a la vez sus haciendas en territorio polaco, en territorio checoslovaco y territorio alemán. Y, por consecuencia de eso, era muy difícil encontrar personas para administrarlas que tenían la confianza de todo, de todas partes.</u>
+                    <u who="#boderD" start="127.917" end="x">Ajá.</u>
+                    <u who="#moellerE" start="128.636" end="x">Una persona tal fui yo como chileno, como persona neutral, de un país muy lejano.</u>
+                    <u who="#boderD" start="135.701" end="x">Pues señor Arnold, dígame ¿cómo Ud. llegó a Europa en primer lugar? ¿Cuándo?</u>
+                    <u who="#moellerE" start="143.184" end="x">Yo la primera vez que llegué a Europa, yo llegué a Viena a estudiar . . . en la famosa . . . Hochschule der Bodenkultur. Ya, como me había decidido de aprender la agronomía.</u>
+                    <u who="#boderD" start="159.433" end="x">Sí. Y entonces, ¿se quedó Ud. en Europa desde entonces?</u>
+                    <u who="#moellerE" start="164.438" end="x">No, yo volví a Chile y estuve un buen tiempo en Chile pero . . . durante la crisis mundial del '28 que estalló en esos años, yo . . . no podía, no tenía los . . . el dinero bastante para comprarme una buena hacienda. Y como se me ofreció este . . . un puesto bueno en la Alta Silesia, dónde había conocido yo a gente de allá durante mi estudio en Viena, yo lo acepté.</u>
+                    <u who="#boderD" start="202.778" end="x">Bueno. Bueno, entonces, ¿quiénes eran dueños de esta hacienda en Alta Silesia?</u>
+                    <u who="#moellerE" start="211.965" end="x">Eran varios. Eran entre otros, la . . . la compañía minera (ininteligible) en Gleiwitz, la compañía minera Godula en Katowice, la compañía minera Henkel Limited en Londres, y . . .</u>
+                    <u who="#boderD" start="233.589" end="x">Entonces ¿cómo . . . fueron . . . fueron haciendas agrícolas?</u>
+                    <u who="#moellerE" start="238.667" end="x">Eran haciendas que pertenecían a esas compañías y que esas compañías tenían para alimentar a sus trabajadores, que tenían . . .</u>
+                    <u who="#boderD" start="249.166" end="x">¿Qué tenían en sus minas?</u>
+                    <u who="#moellerE" start="250.447" end="x">Sí.</u>
+                    <u who="#boderD" start="250.932" end="x">¡Oh! Bueno, entonces, ¿Ud. administraba esas haciendas de qué año?</u>
+                    <u who="#moellerE" start="258.150" end="x">Desde el año '29 . . . '29, '30, '31, '32.</u>
+                    <u who="#boderD" start="268.884" end="x">Bueno. ¿Y hasta qué tiempo?</u>
+                    <u who="#moellerE" start="271.415" end="x">Hasta el último momento, hasta el . . . enero '45 cuando esas haciendas fueron ocupadas por el ejército ruso.</u>
+                    <u who="#boderD" start="282.821" end="x">Ajá. Bueno, entonces dígame señor, ¿dónde estuvo Ud. cuando comenzó la guerra?</u>
+                    <u who="#moellerE" start="288.727" end="x">Yo estuve en Alta Silesia, justamente ahí dónde trabajaba.</u>
+                    <u who="#boderD" start="293.461" end="x">Sí, bueno. ¿Y . . . qué le pasó durante la guerra?</u>
+                    <u who="#moellerE" start="298.789" end="x">Durante la guerra no me pasó mucho, yo tuve muchas dificultades con las autoridades alemanas sobre todo con las autoridades militares.</u>
+                    <u who="#boderD" start="312.370" end="x">Sí. </u>
+                    <u who="#moellerE" start="313.307" end="x">Esas dificultades al estallar la guerra no fueron muy grandes porque al fin y al cabo se necesitaba algo de comer para la gente y por eso me dejaron al principio en paz.</u>
+                    <u who="#boderD" start="326.915" end="x">Sí.</u>
+                    <u who="#moellerE" start="327.743" end="x">Pero como yo me empeñaba también a proteger gente perseguida y . . . como yo me empeñaba sobre todo de alimentar tanto mejor posible a los trabajadores que traían como prisioneros extranjeros y a . . . garantizarles mejores raciones, tuve bastantes dificultades con lo tipos que gobernaban en ese tiempo.</u>
+                    <u who="#boderD" start="359.569" end="x">Ajá. Bueno, dígame, de modo que para trabajar en su hacienda, las haciendas a su cargo, le trajeron . . . es . . . obreros extranjeros.</u>
+                    <u who="#moellerE" start="370.709" end="x">No, no. Los obreros extranjeros trabajaban en las minas.</u>
+                    <u who="#boderD" start="374.876" end="x">Ajá.</u>
+                    <u who="#moellerE" start="375.345" end="x">Y yo tenía que . . .</u>
+                    <u who="#boderD" start="376.407" end="x">¡Oh! [Ininteligible]</u>
+                    <u who="#moellerE" start="377.688" end="x">Que . . . encargarme de . . .</u>
+                    <u who="#boderD" start="379.657" end="x">Sí.</u>
+                    <u who="#moellerE" start="380.532" end="x">. . . de darles de comer, no directamente sino de . . . de entregar los víveres necesarios a las cocinas y a las cantinas que los alimentaban.</u>
+                    <u who="#boderD" start="395.203" end="x">¿Qué . . . ellos vivían qué . . . en lagers, en barraks? ¿Cómo vivían?</u>
+                    <u who="#moellerE" start="399.234" end="x">Era diferente, parte de ellos vivía en barracas y en lagers, y parte de ellos vivía . . . vivía en . . . privadamente.</u>
+                    <u who="#boderD" start="413.624" end="x">Ubicados en casas privadas. Pues, dígame señor, entonces . . . ¿qué clase de gente tuvo Ud . . . . tuvieron ellos para trabajar en las minas? ¿De qué nacionalidad? ¿De qué religión?</u>
+                    <u who="#moellerE" start="429.888" end="x">Tenían gente de casi toda nacionalidad. Tenían prisioneros ingleses, tenían gente de todos los países, pero la mayor parte eran ucranianos que trajeron de la Rusia.</u>
+                    <u who="#boderD" start="446.512" end="x">Gente ucraniana, ¿mujeres también?</u>
+                    <u who="#moellerE" start="451.246" end="x">Mujeres, no. En las minas no he visto mujeres en ese tiempo . . .</u>
+                    <u who="#boderD" start="456.198" end="x">Ajá.</u>
+                    <u who="#moellerE" start="456.917" end="x">. . . allá.</u>
+                    <u who="#boderD" start="458.074" end="x">Bueno, y . . . indirectamente Ud. tuvo la responsabilidad de la alimentación. Bueno, ¿y quién trabajó en los campos en sus haciendas?</u>
+                    <u who="#moellerE" start="467.401" end="x">En los campos trabajaron . . . quedaron la mayor parte de los trabajadores que habían trabajado antes. Trabajaron también en los tiempos de guerra porque . . . la mayor parte en la Alta Silesia de trabajadores son las mujeres . . .</u>
+                    <u who="#boderD" start="483.588" end="x">Ajá.</u>
+                    <u who="#moellerE" start="484.556" end="x">Los hombres se van a las minas y las mujeres quedan en las haciendas, así ya era mucho tiempo antes de la guerra.</u>
+                    <u who="#boderD" start="492.727" end="x">Y esa es la tradición. Bueno, y entonces cuando . . . llegó el ejército ruso, entonces ¿qué pasó?</u>
+                    <u who="#moellerE" start="502.914" end="x">Sí. Cuando llegó el ejército ruso fuimos primeramente evacuados de allá todos los que habitábamos ahí por los alemanes. Nos mandaron a Turingia.</u>
+                    <u who="#boderD" start="514.960" end="x">Sí. ¿Y dónde los pusieron en Turingia?</u>
+                    <u who="#moellerE" start="520.350" end="x">Yo me . . . dejé mi familia en Turingia que fue metida en una aldea allá, en muy mal alojamiento, pero como yo quería tratar de continuar mi trabajo también con los rusos, yo volví a Silesia.</u>
+                    <u who="#boderD" start="537.771" end="x">Sí. ¿Y entonces qué pasó?</u>
+                    <u who="#moellerE" start="541.380" end="x">Yo encontré las haciendas más o menos todas devastadas y destruidas con . . . sobre todo habían arrastrado a todas las máquinas, a todos los caballos.</u>
+                    <u who="#boderD" start="554.301" end="x">Ajá.</u>
+                    <u who="#moellerE" start="555.098" end="x">Y las . . . haciendas mismas estaban confiscadas por las autoridades polacas.</u>
+                    <u who="#boderD" start="561.129" end="x">Ajá. ¿Las confiscaron para distribuirlas entre la gente como ejidos?</u>
+                    <u who="#moellerE" start="568.113" end="x">Sí, dijeron que querían distribuirlas pero . . . yo quedé más o menos, tratando de . . . seguir mi trabajo, más con una ayuda muy amable por parte de los polacos. No puedo quejarme de ellos, pero como no había ningún medio para trabajar, era imposible hacer algo y solamente sentarse como jefe ahí sin . . . sin verdadero trabajo. Yo no quería seguir, era una farsa lo que hacía.</u>
+                    <u who="#boderD" start="604.314" end="x">¿Dónde está su familia ahora Don Ernesto?</u>
+                    <u who="#moellerE" start="606.689" end="x">Mi familia está también en el campamento aquí conmigo.</u>
+                    <u who="#boderD" start="610.548" end="x">¿En el campamento de UNRRA, aquí? Bueno. Ahora dígame, ¿entonces cómo . . . cuando se separó Ud. de esas haciendas y de los rusos?</u>
+                    <u who="#moellerE" start="618.923" end="x">Sí, los rusos me dijeron francamente y netamente que yo como extranjero, de nacionalidad americana, para los rusos no tenía que ver nada más allá, sino que tenía que volver a mi país natal.</u>
+                    <u who="#boderD" start="637.062" end="x">Bueno.</u>
+                    <u who="#moellerE" start="637.812" end="x">Y . . .</u>
+                    <u who="#boderD" start="638.796" end="x">[Ininteligible].</u>
+                    <u who="#moellerE" start="639.921" end="x">Trataron de despacharme primero vía Odessa, como a muchos otros extranjeros franceses y belgas, con qué estaba junto.</u>
+                    <u who="#boderD" start="649.888" end="x">Sí. ¿Cómo dice que estaba junto? ¿Qué le pusieron en un lager?</u>
+                    <u who="#moellerE" start="654.854" end="x">No, no, habitaba. Y a los belgas y franceses estaban . . . los habían encerrado en campamentos, allá.</u>
+                    <u who="#boderD" start="664.150" end="x">Y a Ud . . . .</u>
+                    <u who="#moellerE" start="664.759" end="x">Pero yo al principio no estuve en . . . en campamento. Me trataron de persuadir de irme a un campamento allá, pero como me dijeron que iban a repatriarme vía Odessa . . .</u>
+                    <u who="#boderD" start="678.461" end="x">Sí.</u>
+                    <u who="#moellerE" start="679.508" end="x">Eso me parecía un poco extraño.</u>
+                    <u who="#boderD" start="681.758" end="x">Sí.</u>
+                    <u who="#moellerE" start="682.320" end="x">Y yo me puse en camino primero por mi propia cuenta . . .</u>
+                    <u who="#boderD" start="685.617" end="x">Sí.</u>
+                    <u who="#moellerE" start="686.148" end="x">Con algunos belgas también que no creían a esa repatriación vía Odessa.</u>
+                    <u who="#boderD" start="691.897" end="x">Ajá. Bueno, su familia estuvo en Turingia, de modo que estuvo Ud. solo y no tuvo mucha dificultad de marchar.</u>
+                    <u who="#moellerE" start="697.634" end="x">No.</u>
+                    <u who="#boderD" start="698.118" end="x">¿Entonces cómo se salió Ud. de allá?</u>
+                    <u who="#moellerE" start="701.274" end="x">Yo salí con nuevos prisioneros belgas que marchamos juntos . . .</u>
+                    <u who="#boderD" start="709.090" end="x">¿Ilegalmente?</u>
+                    <u who="#moellerE" start="710.214" end="x">Ilegalmente. No tuvimos muchas dificultades por parte de los rusos hasta me ayudaron . . .</u>
+                    <u who="#boderD" start="716.276" end="x">Um.</u>
+                    <u who="#moellerE" start="716.589" end="x">. . . de vez en cuando, y me marché con ellos hasta la Turingia.</u>
+                    <u who="#boderD" start="722.433" end="x">Ajá. De modo, ¿cuánto tiempo marcharon Ud. por territorio polaco o ruso?</u>
+                    <u who="#moellerE" start="732.339" end="x">Sí, eso no me recuerdo bien, pero a lo menos unos, desde Alta Silesia hasta . . . hasta . . . hasta donde lo dejé . . . hasta Wurzen en Sajonia . . .</u>
+                    <u who="#boderD" start="746.276" end="x">Sí.</u>
+                    <u who="#moellerE" start="747.026" end="x">. . . empleé unas tres semanas más o menos.</u>
+                    <u who="#boderD" start="749.698" end="x">Ajá. Y . . .</u>
+                    <u who="#moellerE" start="750.932" end="x">Y a veces en camión, a veces de a pie, a veces en . . .</u>
+                    <u who="#boderD" start="755.447" end="x">En . . . en . . .</u>
+                    <u who="#moellerE" start="757.494" end="x">. . . por ferrocarril, en carros de papa.</u>
+                    <u who="#boderD" start="760.619" end="x">¿Tuvo Ud. algo de dinero?</u>
+                    <u who="#moellerE" start="763.400" end="x">No, el dinero me lo quitaron soldados en el camino que estaban pillando.</u>
+                    <u who="#boderD" start="771.415" end="x">¿Cómo . . . le . . . le buscaron . . . ?</u>
+                    <u who="#moellerE" start="776.133" end="x">Sí, había siempre soldados que hacían sus propios negocios por allá.</u>
+                    <u who="#boderD" start="781.914" end="x">Ajá.</u>
+                    <u who="#moellerE" start="782.508" end="x">De todas las naciones que había.</u>
+                    <u who="#boderD" start="784.383" end="x">Soldados de todas las naciones.</u>
+                    <u who="#moellerE" start="785.711" end="x">Sí, pero esos ¡lástima! eran rusos.</u>
+                    <u who="#boderD" start="788.804" end="x">Ajá. Bueno . . .</u>
+                    <u who="#moellerE" start="791.397" end="x">Buenos amigos rusos.</u>
+                    <u who="#boderD" start="793.662" end="x">Sí, entonces llegó Ud. a Turingia. ¿Y cómo de Turingia llegó Ud. para acá, para este campo?</u>
+                    <u who="#moellerE" start="801.898" end="x">En Turingia, las autoridades rusas, por su parte, declararon otra vez que teníamos que dejar su zona.</u>
+                    <u who="#boderD" start="811.146" end="x">Ajá.</u>
+                    <u who="#moellerE" start="811.849" end="x">Y yo reuní a mi familia y entré en un campamento ruso, y fui transportado por los rusos a la zona americana y entregado a la UNRRA americana por los rusos mismos.</u>
+                    <u who="#boderD" start="826.348" end="x">¡Oh! Del campamento ruso, bueno. ¿Y la UNRRA lo trajo para acá?</u>
+                    <u who="#moellerE" start="832.223" end="x">La UNRRA me mandó para acá.</u>
+                    <u who="#boderD" start="833.785" end="x">¿Y Turingia es en la región rusa?</u>
+                    <u who="#moellerE" start="836.707" end="x">Turingia es región rusa.</u>
+                    <u who="#boderD" start="839.300" end="x">Ajá.</u>
+                    <u who="#moellerE" start="839.987" end="x">Al principio era región americana pero desde principios de julio de 1945 es región rusa.</u>
+                    <u who="#boderD" start="847.565" end="x">Entonces lo mandaron para acá. Bueno, ahora ¿cuánto tiempo ya está Ud. aquí?</u>
+                    <u who="#moellerE" start="852.393" end="x">Oh, casi un año.</u>
+                    <u who="#boderD" start="853.956" end="x">¿Y por qué le toma tanto tiempo?</u>
+                    <u who="#moellerE" start="856.221" end="x">Porque hasta ahora no dejaron salir a ningún sudamericano de acá oficialmente. Se pudieron marchar solamente la gente que se marchó negra, y un . . . padre de familia no puede marcharse negro.</u>
+                    <u who="#boderD" start="874.395" end="x">¡Oh! Negro . . . Ud. llama a . . . el camino ilegal.</u>
+                    <u who="#moellerE" start="879.628" end="x">Sí.</u>
+                    <u who="#boderD" start="880.128" end="x">Ajá. Bueno, ¿cuántas personas son en su familia?</u>
+                    <u who="#moellerE" start="884.503" end="x">Yo tengo cinco niños, menores de edad.</u>
+                    <u who="#boderD" start="887.738" end="x">Y su esposa.</u>
+                    <u who="#moellerE" start="888.956" end="x">Y mi esposa, sí.</u>
+                    <u who="#boderD" start="890.924" end="x">¿Es chilena su esposa?</u>
+                    <u who="#moellerE" start="892.330" end="x">No, es de descendencia danesa.</u>
+                    <u who="#boderD" start="895.127" end="x">¿Qué?</u>
+                    <u who="#moellerE" start="896.096" end="x">Danesa.</u>
+                    <u who="#boderD" start="896.815" end="x">¿Danesa? ¿Se casó Ud. aquí en Europa?</u>
+                    <u who="#moellerE" start="899.440" end="x">Sí, me casé en Europa.</u>
+                    <u who="#boderD" start="900.815" end="x">¡Oh! Bueno, dígame, y . . . si se va Ud. ahora para Chile ¿quién paga su . . . su transporte?</u>
+                    <u who="#moellerE" start="915.439" end="x">Yo podría . . . habría podido pagarlo, a lo menos . . . veinte veces con los dineros que tenía a mi disposición, pero como parte de ello se ha perdido y la otra parte no vale nada . . .</u>
+                    <u who="#boderD" start="931.282" end="x">¿Qué dinero es?</u>
+                    <u who="#moellerE" start="932.579" end="x">Es dinero alemán porque todo el otro dinero fue confiscado por los alemanes . . . por los alemanes, que tenía todavía en Sudamérica . . .</u>
+                    <u who="#boderD" start="941.501" end="x">Sí.</u>
+                    <u who="#moellerE" start="942.063" end="x">Me quedó solamente . . .</u>
+                    <u who="#boderD" start="944.297" end="x">¿Su dinero que Ud. tuvo en Sudamérica . . . ?</u>
+                    <u who="#moellerE" start="947.078" end="x">En Sudamérica.</u>
+                    <u who="#boderD" start="947.609" end="x">. . . ¿fue confiscado?</u>
+                    <u who="#moellerE" start="948.453" end="x">Sí, fue confiscado por las [ininteligible] alemanas.</u>
+                    <u who="#boderD" start="951.781" end="x">Espérese, Ud. tuvo Americ . . . dinero en Chile.</u>
+                    <u who="#moellerE" start="956.780" end="x">Tenía dinero en Chile, sí.</u>
+                    <u who="#boderD" start="958.764" end="x">Bueno, entonces ¿qué pueden los alemanes decir sobre su dinero en Chile?</u>
+                    <u who="#moellerE" start="962.951" end="x">Sí, podían, exigían una declaración de los bienes que uno tenía en el extranjero, bajo juramento.</u>
+                    <u who="#boderD" start="969.747" end="x">Sí.</u>
+                    <u who="#moellerE" start="970.184" end="x">Y ese dinero fue . . . para esos dineros . . . ofrecieron en cambio . . .</u>
+                    <u who="#boderD" start="976.231" end="x">Marks.</u>
+                    <u who="#moellerE" start="976.856" end="x">Marks, y . . . se lo llevaron.</u>
+                    <u who="#boderD" start="979.340" end="x">Bueno, pero Ud. estuvo ciudadano chileno.</u>
+                    <u who="#moellerE" start="982.293" end="x">Sí, no importaba.</u>
+                    <u who="#boderD" start="983.699" end="x">¿El cónsul no podía defenderlo de ningún modo?</u>
+                    <u who="#moellerE" start="987.059" end="x">No, no podía defenderlo porque . . . todo lo que pertenec . . . lo que estaba aquí en el . . . en el territorio alemán estaba sujeto a las leyes alemanas como me declaraban y no podía evitarlo.</u>
+                    <u who="#boderD" start="1004.948" end="x">Pero miré, parece que Chile estuvo en la guerra de parte de los Aliados, ¿no?</u>
+                    <u who="#moellerE" start="1010.385" end="x">Sí, pero declaró la guerra . . .</u>
+                    <u who="#boderD" start="1013.322" end="x">Más tarde.</u>
+                    <u who="#moellerE" start="1015.807" end="x">. . . el 12 de abril '45.</u>
+                    <u who="#boderD" start="1019.525" end="x">¡Oh! Tan tarde. De modo . . . (risas) . . . de modo que . . . antes ellos podían tener . . . tomar su dinero.</u>
+                    <u who="#moellerE" start="1030.337" end="x">No, desde '43, había las relaciones diplomáticas . . .</u>
+                    <u who="#boderD" start="1036.524" end="x">Interrumpidas.</u>
+                    <u who="#moellerE" start="1037.789" end="x">Estaban interrumpidas.</u>
+                    <u who="#boderD" start="1039.461" end="x">Entonces, ¿cómo se llegaron a su dinero?</u>
+                    <u who="#moellerE" start="1041.601" end="x">No . . . mm . . . ¿a mi dinero?</u>
+                    <u who="#boderD" start="1045.429" end="x">[Ininteligible]</u>
+                    <u who="#moellerE" start="1046.898" end="x">No, eso lo habían confiscado ya antes.</u>
+                    <u who="#boderD" start="1048.710" end="x">¿Antes?</u>
+                    <u who="#moellerE" start="1049.429" end="x">Sí.</u>
+                    <u who="#boderD" start="1049.850" end="x">Entonces, bueno ¿qué? ¿la UNRRA le paga el pasaje a la gente?</u>
+                    <u who="#moellerE" start="1057.693" end="x">No, no creemos que la UNRRA vaya a pagar pasaje para nosotros, contamos . . . que nuestro gobierno nos va a ayudar.</u>
+                    <u who="#boderD" start="1065.130" end="x">Bueno, ¿sabe Ud. algo todavía de su gobierno?</u>
+                    <u who="#moellerE" start="1068.645" end="x">No, sé muy poco porque hasta ahora era muy difícil ponerse en comunicación con nuestro gobierno.</u>
+                    <u who="#boderD" start="1074.004" end="x">¿No tiene consulado chileno en Alemania?</u>
+                    <u who="#moellerE" start="1077.332" end="x">No hay todavía consulado chileno en Alemania.</u>
+                    <u who="#boderD" start="1079.832" end="x">Entonces, ¿el consulado más próximo es dónde?</u>
+                    <u who="#moellerE" start="1081.942" end="x">El . . . los consulados más próximos están en Zurich y en París.</u>
+                    <u who="#boderD" start="1088.454" end="x">En París. ¿Y qué, tienen algún representante que los vino a ver aquí o . . . ?</u>
+                    <u who="#moellerE" start="1093.360" end="x">No, hasta ahora nadie.</u>
+                    <u who="#boderD" start="1094.876" end="x">¿Cuántos chilenos hay aquí en este campo?</u>
+                    <u who="#moellerE" start="1097.501" end="x">En este campo hay setenta y seis chilenos.</u>
+                    <u who="#boderD" start="1101.188" end="x">¡¿Setenta y seis chilenos?!</u>
+                    <u who="#moellerE" start="1103.282" end="x">Sí.</u>
+                    <u who="#boderD" start="1103.907" end="x">¡Es un número bastante grande!</u>
+                    <u who="#moellerE" start="1108.422" end="x">Sí, porque están reunidos casi todos de la zona americana aquí.</u>
+                    <u who="#boderD" start="1112.687" end="x">Bueno, dígame otra cosa. De modo que Ud. estuvo una persona relativamente libre en Alemania durante la guerra. ¿Cómo Ud. aprecia toda la situación? Ud. conocía alemanes y tuvo amigos alemanes o . . .</u>
+                    <u who="#moellerE" start="1130.764" end="x">Sí.</u>
+                    <u who="#boderD" start="1131.295" end="x">Bueno. ¿Qué . . . cuál fue la . . . opinión . . . la actitud, por decir así, de ellos sobre todo lo que pasaba aquí en Alemania durante la guerra?</u>
+                    <u who="#moellerE" start="1145.592" end="x">Sí, en . . . yo conozco sobre todo la situación como se . . . se puede entender en Alta Silesia porque estuve en Alta Silesia.</u>
+                    <u who="#boderD" start="1156.966" end="x">Sí, bueno.</u>
+                    <u who="#moellerE" start="1157.966" end="x">En Alta Silesia.</u>
+                    <u who="#boderD" start="1158.591" end="x">Alta Silesia es un poco polaco.</u>
+                    <u who="#moellerE" start="1160.450" end="x">Sí, Alta Silesia es una cosa que . . . una cosa por sí.</u>
+                    <u who="#boderD" start="1165.403" end="x">Sí, bueno dígame.</u>
+                    <u who="#moellerE" start="1166.778" end="x">No se puede considerar como representante, digamos de toda la mentalidad alemana porque . . . digamos . . . hablan entre sí, hablan el polaco . . .</u>
+                    <u who="#boderD" start="1179.700" end="x">Um.</u>
+                    <u who="#moellerE" start="1180.638" end="x">Y entre ellos es claro que la . . . una buena parte de ellos no tenía muchas ganas de participar en la guerra y . . . eran hostiles a . . . a todo lo que se pasaba . . .</u>
+                    <u who="#boderD" start="1200.043" end="x">Bueno.</u>
+                    <u who="#moellerE" start="1203.231" end="x">A toda la política, justamente porque se consideraban . . . medio polacos.</u>
+                    <u who="#boderD" start="1210.950" end="x">Ajá. Bueno, estuvo allá . . . un grupo que se consideraba Reichsdeutsch.</u>
+                    <u who="#moellerE" start="1216.965" end="x">¡Sí! Pero no había muchos. La gente que venía allá sobre todo como digamos . . . como ingenieros de minas, venía de Westphalia.</u>
+                    <u who="#boderD" start="1231.745" end="x">Sí.</u>
+                    <u who="#moellerE" start="1233.042" end="x">Y era gente católica que estaba también en una cierta oposición, como Alta Silesia es un país muy buen católico . . .</u>
+                    <u who="#boderD" start="1244.854" end="x">Um. Entonces.</u>
+                    <u who="#moellerE" start="1247.229" end="x">Ellos nunca querían eh . . . trabajar con los prusianos que no eran católicos.</u>
+                    <u who="#boderD" start="1255.385" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1256.213" end="x">Y preferían a sacarse la gente de Westphalia y como la gente de Westphalia es también gente minera . . .</u>
+                    <u who="#boderD" start="1262.592" end="x">Sí.</u>
+                    <u who="#moellerE" start="1263.186" end="x">. . . eso estaba muy en orden.</u>
+                    <u who="#boderD" start="1266.170" end="x">Ajá. Pues, dígame señor, ¿Ud. sabe la situación en que se encontró el pueblo judío? Pues usted como una persona de lado, como de observador. ¿Qué sabe Ud. de está situación y cómo la aprecia Ud.?</u>
+                    <u who="#moellerE" start="1285.105" end="x">Sí. La . . .</u>
+                    <u who="#boderD" start="1286.120" end="x">Francamente.</u>
+                    <u who="#moellerE" start="1287.011" end="x">La situación del pueblo judío fue terrible. No teníamos lejos de allá el campamento de . . . el campamento de Auschwitz.</u>
+                    <u who="#boderD" start="1296.135" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1296.947" end="x">Nunca se sabía algo de lo que se pasaba allá, verdaderamente estaba muy bien isolado.</u>
+                    <u who="#boderD" start="1303.509" end="x">Sí.</u>
+                    <u who="#moellerE" start="1304.322" end="x">Pero se sabía eso, que . . . la gente fue tratada muy mal y sufrieron bastante los pobrecitos que . . . que fueron transportados por allá y que nosotros vimos que fueron transportados. No vimos mucho porque esos transportes siempre se pasaban o por la noche o por caminos que uno no podía observar.</u>
+                    <u who="#boderD" start="1331.269" end="x">Um.</u>
+                    <u who="#moellerE" start="1332.238" end="x">Corrían solamente bolas sobre ellos y uno no sabía lo que era verdad y lo que era exagerado, pero sabíamos bastante que sufrían.</u>
+                    <u who="#boderD" start="1342.800" end="x">Bueno, allá próximo de Auschwitz estuvo Birkenau, ¿no?</u>
+                    <u who="#moellerE" start="1348.550" end="x">Sí, Birkenau no está lejos.</u>
+                    <u who="#boderD" start="1350.597" end="x">Bueno, dicen que en Birkenau se encontraban los crematorios y que . . . se pusieron allá a la gente . . . en las cámaras de gas y todo. ¿Se sabían en . . . la gente allá cercana, se sabía que se hacen esas cosas en Birkenau?</u>
+                    <u who="#moellerE" start="1370.471" end="x">No, en nuestra región, dónde yo trabajaba, estaba más o menos a . . . digamos . . . 50 Km. de Auschwitz.</u>
+                    <u who="#boderD" start="1385.720" end="x">Sí.</u>
+                    <u who="#moellerE" start="1386.423" end="x">Y ahí verdaderamente no se sabía nada de las cámaras de gas y de esos crematorios. Se sabía solamente que llevaban mucha gente por allá y dónde quedaba no se sabía exactamente nada.</u>
+                    <u who="#boderD" start="1399.953" end="x">Bueno, no había gente que . . .</u>
+                    <u who="#moellerE" start="1403.015" end="x">Sabíamos solamente que la gente por ejemplo que . . . trabajaba . . . había también judíos por ejemplo, que trabajaban en los caminos allá.</u>
+                    <u who="#boderD" start="1413.699" end="x">Sí.</u>
+                    <u who="#moellerE" start="1414.761" end="x">Y que esos fueron tratados muy mal, eso lo sabíamos, porque eso lo veíamos. Eso se podía observar, mientras tanto que todo lo otro, solamente se oía de vez en cuando un rumor pero más no.</u>
+                    <u who="#boderD" start="1430.744" end="x">Ajá. Bueno, ¿no hubo alemanes, polacos que trabajaban en Auschwitz que tenían . . . que estuvieron allá de soldados y eso . . . que se regresaban y decían algo de esto?</u>
+                    <u who="#moellerE" start="1444.712" end="x">No . . . por nuestra parte yo no hemos encontrado tales soldados, puede ser que . . . yo no sé si los impidieron a ponerse en contacto con el . . .</u>
+                    <u who="#boderD" start="1457.770" end="x">[Ininteligible]</u>
+                    <u who="#moellerE" start="1459.504" end="x">. . . Con el resto del mundo, o cómo lo hicieron pero . . .</u>
+                    <u who="#boderD" start="1461.988" end="x">Sí.</u>
+                    <u who="#moellerE" start="1463.770" end="x">. . . No me recuerdo de tal cosa. Sé solamente que se hablaba de que se llevaba a la gente allá y lo que yo mismo he visto son gente que sufría mucho bajo condiciones de trabajo . . . monstruosas, en los caminos.</u>
+                    <u who="#boderD" start="1479.754" end="x">Y la . . .</u>
+                    <u who="#moellerE" start="1481.020" end="x">En una . . . exactamente en una vía ferroviaria donde lo pudo . . . lo pude observar.</u>
+                    <u who="#boderD" start="1487.942" end="x">¿Puede Ud. describir un poco lo que yo . . . lo que Ud. ha visto?</u>
+                    <u who="#moellerE" start="1492.582" end="x">Sí, yo he visto que la gente trabajaba en . . . con . . . muy mala alimentada y eso . . . es lo que sobre todo se podía ver y que era . . . tenían . . . cabos que los trataban bastante mal.</u>
+                    <u who="#boderD" start="1515.378" end="x">¿Cabos?</u>
+                    <u who="#moellerE" start="1515.925" end="x">Sí.</u>
+                    <u who="#boderD" start="1516.331" end="x">¿Los maltrataban físicamente?</u>
+                    <u who="#moellerE" start="1520.519" end="x">Sí, eso también se veía de vez en cuando, no mucho, pero se veía de vez en cuando que los maltrataban.</u>
+                    <u who="#boderD" start="1530.628" end="x">Bueno. Ud . . .</u>
+                    <u who="#moellerE" start="1532.722" end="x">Bastaba para una persona que tiene un sentimiento humano, bastaba.</u>
+                    <u who="#boderD" start="1539.456" end="x">Bastaba. ¿Ud. estuvo próximo de Katowice, Sosnowiec?</u>
+                    <u who="#moellerE" start="1543.471" end="x">Digamos, entre Katowice y Gleiwitz.</u>
+                    <u who="#boderD" start="1547.909" end="x">Katowice y Gleiwitz.</u>
+                    <u who="#moellerE" start="1549.550" end="x">Sí.</u>
+                    <u who="#boderD" start="1549.831" end="x">Sería próximo de dónde Ud. estuvo. Bueno, ¿Ud. supo que las ciudades como Katowice o Sosnowiec que se construyeron los guetos?</u>
+                    <u who="#moellerE" start="1560.924" end="x">En Katowice no sé que había gueto. No había gueto en Katowice, creo que llevaron a los judíos a . . .</u>
+                    <u who="#boderD" start="1570.393" end="x">[Ininteligible] A otro lugar.</u>
+                    <u who="#moellerE" start="1571.487" end="x">A otro lugar.</u>
+                    <u who="#boderD" start="1572.768" end="x">Sí. A Katowice lo declar . . . lo hicieron . . . cómo se llama . . . Judenrein.</u>
+                    <u who="#moellerE" start="1577.252" end="x">Sí.</u>
+                    <u who="#boderD" start="1577.674" end="x">Sí. Y . . .</u>
+                    <u who="#moellerE" start="1579.424" end="x">Allá no había judíos.</u>
+                    <u who="#boderD" start="1581.549" end="x">Sí, no había judíos desde el advenimiento de Hitler. Bueno, ahora, los otros chilenos que tiene Ud. aquí ¿qué clase de gente son, cómo ellos llegaron para acá?</u>
+                    <u who="#moellerE" start="1594.799" end="x">Sí, es muy diferente. Entre ellos hay gente que vino para curarse, por ejemplo uno, que tenía una enfermedad terrible de sus ojos.</u>
+                    <u who="#boderD" start="1608.580" end="x">Sí.</u>
+                    <u who="#moellerE" start="1609.002" end="x">Muchos estaban aquí para estudiar porque . . . era usual de mandar sus hijos y sus niños a Europa.</u>
+                    <u who="#boderD" start="1618.970" end="x">¿De Chile?</u>
+                    <u who="#moellerE" start="1619.907" end="x">De Chile, algún tiempo a lo menos. No todo el tiempo, sino unos dos, tres años a Europa.</u>
+                    <u who="#boderD" start="1625.985" end="x">Sí.</u>
+                    <u who="#moellerE" start="1626.703" end="x">Y otros que vinieron por acá para visitar a sus parientes.</u>
+                    <u who="#boderD" start="1630.656" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1631.187" end="x">Tenían padres . . . o . . .</u>
+                    <u who="#boderD" start="1632.797" end="x">Um.</u>
+                    <u who="#moellerE" start="1635.610" end="x">. . . abuelos aquí que querían visitar, aquí o en Austria y en Europa Central.</u>
+                    <u who="#boderD" start="1642.594" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1644.016" end="x">Y también gente que estaba justamente aquí por sus negocios, por ejemplo trabajando, perfeccionándose como ingeniero y cosa tal, para emplear lo que habían aprendido en su patria.</u>
+                    <u who="#boderD" start="1660.999" end="x">¿Cómo? ¿Los forzaron de entrar al ejército? ¿Estuvo en el ejército?</u>
+                    <u who="#moellerE" start="1664.755" end="x">A una . . . a algunos de ellos, a algunos jóvenes de ellos . . . seguramente los forzaron a entrar al ejército, aunque algunos podían evitarlo.</u>
+                    <u who="#boderD" start="1677.598" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1678.129" end="x">Pero pocos supieron evitarlo. Los que tenemos aquí son sobre todo . . . hay pocos jóvenes, entre ellos muchachos, son sobre todo niñas que tenemos aquí, algunos pocos jóvenes.</u>
+                    <u who="#boderD" start="1691.578" end="x">Sí.</u>
+                    <u who="#moellerE" start="1692.172" end="x">Tenemos también algunos que . . . primero estuvieron en el ejército pero lograron salir otra vez de él y encontraron un empleo en el país mismo.</u>
+                    <u who="#boderD" start="1708.312" end="x">Um. Bueno, y . . . ellos se . . . hay algunos que son medio alemanes, medio chilenos.</u>
+                    <u who="#moellerE" start="1719.797" end="x">Hay gente, sobre todo de seguro, es gente de descendencia alemana a lo menos.</u>
+                    <u who="#boderD" start="1726.250" end="x">Sí. ¿Los hubo mucho en Chile?</u>
+                    <u who="#moellerE" start="1727.938" end="x">No, hay bastante gente de descendencia alemana sobre todo en el sur de Chile que fue colonizado por gente de . . .</u>
+                    <u who="#boderD" start="1741.266" end="x">¡Oh!</u>
+                    <u who="#moellerE" start="1741.890" end="x">. . . de descendencia alemana. En Valdivia, Osorno, Temuco, son ciudades donde uno encuentra muchos nombres alemanes.</u>
+                    <u who="#boderD" start="1750.707" end="x">Pues allá parece que estuvieron en América del Sur ciudadanos muy buenos, muy útiles.</u>
+                    <u who="#moellerE" start="1757.472" end="x">Sí, claro, hasta el estallido de la guerra esa gente tenía muy buen renombre en Chile y nunca se metió en la política chilena y . . . disturbó la política. Tampoco durante la guerra yo no he oído nada de eso y, por eso, tampoco hubo grandes canjes como las hubo por ejemplo en las Americas Centrales.</u>
+                    <u who="#boderD" start="1785.533" end="x">Sí. Pues dígame, Ud. dice que salió de Chile ¿en qué año?</u>
+                    <u who="#moellerE" start="1790.939" end="x">'28.</u>
+                    <u who="#boderD" start="1792.064" end="x">'28. Bueno, entonces . . . aquel tiempo ¿y vino Ud. para Alemania . . . para Silesia en este tiempo?</u>
+                    <u who="#moellerE" start="1803.672" end="x">Yo vine primero a Austria en ese tiempo.</u>
+                    <u who="#boderD" start="1807.687" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1808.374" end="x">Y después tuve mi domicilio en el país que . . . podía juzgarse que era un país por el cual se peleaba todo el mundo.</u>
+                    <u who="#boderD" start="1823.670" end="x">¿Qué era?</u>
+                    <u who="#moellerE" start="1824.842" end="x">Alta Silesia.</u>
+                    <u who="#boderD" start="1826.045" end="x">Alta Silesia, ¿pero en aquel tiempo esto estuvo en las manos de quién? ¿De los checos?</u>
+                    <u who="#moellerE" start="1831.529" end="x">Parte pertenecía a los checos, parte pertenecía a los polacos y parte a los alemanes, y tenían una jurisdicción especial.</u>
+                    <u who="#boderD" start="1841.107" end="x">Sí.</u>
+                    <u who="#moellerE" start="1841.732" end="x">Estaban . . . pertenecían a esos estados pero estaba restricta esa . . .</u>
+                    <u who="#boderD" start="1841.732" end="x">Sí.</u>
+                    <u who="#moellerE" start="1850.967" end="x">. . . soberanía por leyes administrativas sobre todo y leyes económicas sobre todo. Por ejemplo, no necesitaba pagar impuesto para algunos productos que canjeaban . . .</u>
+                    <u who="#boderD" start="1868.216" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1868.903" end="x">. . . de un lado al otro.</u>
+                    <u who="#boderD" start="1870.325" end="x">Dígame esto, Ud. es agricultor ¿cómo le parece a Ud. la agricultura alemana ha sufrido mucho durante la guerra?</u>
+                    <u who="#moellerE" start="1879.949" end="x">Yo conozco solamente, porque no se podía hacer viajes durante la guerra, la agricultura en Alta Silesia.</u>
+                    <u who="#boderD" start="1894.292" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1894.839" end="x">Y esa, se puede decir está destruida.</u>
+                    <u who="#boderD" start="1899.729" end="x">¿Eso por qué? ¿Se llevaron las máquinas o los animales, o qué?</u>
+                    <u who="#moellerE" start="1903.565" end="x">Se llevó todo lo que había que se podía llevar, los animales y las máquinas y las siembras, todo lo que había, se desapareció.</u>
+                    <u who="#boderD" start="1914.331" end="x">Ajá.</u>
+                    <u who="#moellerE" start="1914.924" end="x">Y las batallas no hicieron gran daño y tampoco los raids aéreos hicieron allá gran daño porque no hubo muchos raids. Los rusos no hicieron . . .</u>
+                    <u who="#boderD" start="1931.861" end="x">Raids.</u>
+                    <u who="#moellerE" start="1932.642" end="x">Ataques aéreos.</u>
+                    <u who="#boderD" start="1933.751" end="x">Sí.</u>
+                    <u who="#moellerE" start="1934.407" end="x">Pero . . . el fin de la guerra hizo el mayor daño.</u>
+                    <u who="#boderD" start="1939.860" end="x">Bueno, y por lo que Ud. tuvo la oportunidad, Ud. habla alemán, tuvo Ud. la oportunidad de hablar con los alemanes ahora, ¿cuál es el sentimiento? ¿Qué creen ellos que pasará con Alemania?</u>
+                    <u who="#moellerE" start="1957.147" end="x">Sí, yo conozco entre los alemanes, conozco sobre todo la gente Silesiaca que fue echada afuera de Silesia. Ellos no tienen otro sentimiento que el deseo de volver a su patria nativa dónde estuvieron . . .</u>
+                    <u who="#boderD" start="1973.692" end="x">¿A Silesia?</u>
+                    <u who="#moellerE" start="1974.598" end="x">A Silesia, sí.</u>
+                    <u who="#boderD" start="1976.254" end="x">¿Y quieren volverse a Silesia?</u>
+                    <u who="#moellerE" start="1978.378" end="x">Quisieran volver a Silesia dónde . . .</u>
+                    <u who="#boderD" start="1981.799" end="x">¿Y por qué no vuelven?</u>
+                    <u who="#moellerE" start="1984.377" end="x">Porque . . . porque según los tratados ahora fueron desplazados por los polacos, los echaron afuera.</u>
+                    <u who="#boderD" start="1995.377" end="x">Ud. dice de la gente que se consideraba alemana.</u>
+                    <u who="#moellerE" start="1998.909" end="x">Los polacos consideran a todos los que habitaban antes allá, como alemanes.</u>
+                    <u who="#boderD" start="2004.862" end="x">Alemanes.</u>
+                    <u who="#moellerE" start="2005.206" end="x">Bueno, no tomaron parte en el . . .</u>
+                    <u who="#boderD" start="2007.581" end="x">¿No pasó esto que Hitler importó a muchos alemanes a Silesia durante la guerra?</u>
+                    <u who="#moellerE" start="2014.487" end="x">No, porque Silesia estaba bastante poblada también durante . . .</u>
+                    <u who="#boderD" start="2019.081" end="x">Ajá.</u>
+                    <u who="#moellerE" start="2020.784" end="x">Y ya antes no había lugar para importar alemanes. Los alemanes que fueron importados, fueron importados en . . . en Wartagau . . . y cómo se llamaba . . . en la provincia Posen y allá, allá, metieron alemanes . . .</u>
+                    <u who="#boderD" start="2034.905" end="x">Sí.</u>
+                    <u who="#moellerE" start="2035.811" end="x">Pero en Silesia no llevaron ni una persona, no había ni un metro cuadrado para esta gente.</u>
+                    <u who="#boderD" start="2039.508" end="x">¿Y dónde está ahora esa gente?</u>
+                    <u who="#moellerE" start="2041.539" end="x">Esos están sobre todo en la zona rusa, en la parte alemana de la zona rusa y en la zona británica y algunos también, quizás unos cien mil, estarán en la zona americana.</u>
+                    <u who="#boderD" start="2057.054" end="x">¡¿Unos cien mil?! ¿Pues cuántos ellos expulsaron?</u>
+                    <u who="#moellerE" start="2061.069" end="x">Expulsaron a ver . . . a más o menos la Silesia estaba habitada por más o menos siete millones de personas, todos fueron expulsados. Ahora queda solamente, más o menos un millón pero que . . .</u>
+                    <u who="#boderD" start="2076.178" end="x">Que se consideraban verdaderamente polacos.</u>
+                    <u who="#moellerE" start="2078.256" end="x">No, es que quieren expulsar todavía. Toda la gente fue expulsada . . .</u>
+                    <u who="#boderD" start="2084.849" end="x">[Ininteligible]</u>
+                    <u who="#moellerE" start="2085.974" end="x">Hasta el último de Silesia, sí.</u>
+                    <u who="#boderD" start="2088.068" end="x">¿Y qué . . . cuando los expulsan les dan algo de su propiedad, les dan algo de . . . ?</u>
+                    <u who="#moellerE" start="2094.182" end="x">Los que fueron expulsados hasta ahora, fueron expulsados como pobrecitos, sin nada.</u>
+                    <u who="#boderD" start="2101.088" end="x">Pues se dice que Sudeten, por ejemplo, los expulsan a los alemanes que hay una comisión que vea que les dan a cada uno cincuenta kilos tanto de . . . de su propie . . . de efectos personales y todo. ¿Pero no se hizo lo mismo en Silesia?</u>
+                    <u who="#moellerE" start="2120.993" end="x">En Silesia, hasta el año pasado o hasta este año, lo que he oído, lo que me contó la gente silesiaca que he hablado, no pudo llevar nada.</u>
+                    <u who="#boderD" start="2134.539" end="x">Bueno, entonces, ¿a quién ellos culpan? ¿A Hitler o a los . . . polacos?</u>
+                    <u who="#moellerE" start="2142.399" end="x">Los sentimientos en . . . por . . .</u>
+                    <u who="#boderD" start="2147.101" end="x">¿Por los rusos?</u>
+                    <u who="#moellerE" start="2148.289" end="x">. . . por los rusos y los polacos no son muy amables porque fueron tratados bastante mal por ellos.</u>
+                    <u who="#boderD" start="2154.804" end="x">Sí.</u>
+                    <u who="#moellerE" start="2155.523" end="x">Y es claro que el que trata mal . . .</u>
+                    <u who="#boderD" start="2157.038" end="x">Sí.</u>
+                    <u who="#moellerE" start="2157.882" end="x">. . . tiene que pagarlo con malos sentimientos.</u>
+                    <u who="#boderD" start="2161.101" end="x">Sí, claro, pero por otro modo ellos pueden . . . podrían pensar o entender, si Hitler no hubiera comenzado todo . . .</u>
+                    <u who="#moellerE" start="2171.101" end="x">Eso es claro, eso se dice la gente la gente que piensa, pero la mayoría de la gente no piensa sino sufre solamente en el momento y ve al que le hace sufrir y eso es una cosa que hace bastante daño. Uno puede pegar a un otro y decirle "Hitler tiene la culpa porque me pegó a mí," pero él al que pega siempre ve solamente al que está delante de sí, no ve a las causas que están más lejanas.</u>
+                    <u who="#boderD" start="2207.146" end="x">Pues esa es una observación muy interesante Don Ernesto, porque a veces nosotros pensamos si la humanidad hubiera aprendido alguna lección de toda esta catástrofe, ¿qué piensa Ud.?</u>
+                    <u who="#moellerE" start="2224.568" end="x">Sí, la lección que debiera aprender es simplemente acabar un día con las hostilidades y uno tiene que empezar por acabar, porque s iempre cuando se . . . se va pagando la cuenta, eso continúa hasta el último juicio.</u>
+                    <u who="#boderD" start="2250.660" end="x">Pues Don Ernesto, muchísimas gracias. Yo quisiera tener algún reporte, información, de persona que estuvo en Alemania durante todo el tiempo y que podía observar las cosas un poco como un extranjero. Yo creo que a todos nos interesará mucho estudiar lo que Ud. a dicho.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2276.049" end="x">[In English] This concludes Spool 135. The interviewee was Don Ernesto Moeller-Arnold, a Chilean by birth who spent during the time of the war in Germany as a manager of various etstates, agricultural properties, and had some opportunity to observer . . . had some opportunity to observe—I am mixing my Spanish with my English—what has happened. Muenchen, September the 20th, 1946. Spool 135, Illinois Institute of Technology wire recording. Thank you very much, Mr. Moeller.</u>
+                </div>
+                <div lang="Spain">
+                    <u who="#moellerE" start="2276.049" end="x">[In Spanish] No hay de qué, señor.</u>
+                </div>
+                <!-- end spool 9-135 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#mollerE_en">
+                <!-- begin spool 9-135 -->
+                <div lang="en">
+                    <u who="#boderD" start="4.173" end="x">[In English] <placeName ref="Funkkaserne displaced-person's camp">München</placeName>, September the 20th, 1946, in an <term ref="#vothG_unrra">UNRRA</term> transient camp in the Funkenkasernen [former armories of the German signal corps]. The interviewee is Mr. Ernesto Moeller-Arnold, fifty-one years old, nacido en . . . [chuckle, correction] born in Chile. I am beginning to mix the languages. Also . . . ah . . .</u>
+                    <u who="#boderD" start="31.250" end="x">[in Spanish] Senor Moeller-Arnold, come, please, nearer so that . . . no [words not clear].</u>
+                    <u who="#moellerE" start="42.907" end="x">I am sitting quite comfortably . . .</u>
+                    <u who="#boderD" start="46.125" end="x">I wish that you speak in a normal voice . . .</u>
+                    <u who="#moellerE" start="48.625" end="x">Yes.</u>
+                    <u who="#boderD" start="49.547" end="x">. . . since then the recording will come out better.</u>
+                    <u who="#moellerE" start="52.344" end="x">Yes.</u>
+                    <u who="#boderD" start="52.906" end="x">Will you do us the favor of telling us again your name . . . what your name is, how old you are, and where you were born?</u>
+                    <u who="#moellerE" start="60.594" end="x">My name is Ernesto Moeller-Arnold, and I was born in <placeName ref="Santiago">Santiago</placeName>, Chile, in the year nineteen hundred . . . [correction] 1894.</u>
+                    <u who="#boderD" start="75.390" end="x">Now tell me then, where were you, Sr. Moeller-Arnold, when the war started?</u>
+                    <u who="#moellerE" start="85.530" end="x">At the start of the war I had a post as manager of [farm-] estates in Upper Silesia. I was administering the estates which belonged to people who simultaneously owned estates in Polish territory, Czechoslovak territory, and in German territory. And in consequence it was very difficult to find a person to administer them who would have the confidence of all, in all these countries.</u>
+                    <u who="#boderD" start="127.917" end="x">Aha.</u>
+                    <u who="#moellerE" start="128.636" end="x">And I was such a person, as a Chilean, as a neutral person from a faraway country.</u>
+                    <u who="#boderD" start="135.701" end="x">Now, Sr. Moeller-Arnold, tell me, how did you get to Europe in the first place? When?</u>
+                    <u who="#moellerE" start="143.184" end="x">When I came the first time to Europe, I came to <placeName ref="Wien">Vienna</placeName> to study in the famous Hochschule der Bodenkultur [Institute of Agriculture], because I had decided to study agronomy.</u>
+                    <u who="#boderD" start="159.433" end="x">Yes? So then you remained in Europe from that . . .</u>
+                    <u who="#moellerE" start="164.438" end="x">No. I returned to Chile. I spent a considerable time in Chile, but during the world crisis in '28 [onset of the depression] which happened in those years, I did not have enough money to buy a good [farm-] estate, and since I was offered a good position in Upper Silesia, where I know some local people [whom I met] during my studies in <placeName ref="Wien">Vienna</placeName>, I accepted it.</u>
+                    <u who="#boderD" start="202.778" end="x">Well . . . well now, who were the proprietors of that estate in Upper Silesia?</u>
+                    <u who="#moellerE" start="211.965" end="x">There were various [ones]. There was among others the mining company Shakoch [?] in <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>, the mining company Godula in <placeName ref="Katowice">Katowice</placeName>, the mining company Henkel [?] Limited in <placeName ref="London">London</placeName>.</u>
+                    <u who="#boderD" start="233.589" end="x">Now then . . . yes? How . . . Now were these farm-estates?</u>
+                    <u who="#moellerE" start="238.667" end="x">Those were estates which belonged to the companies, and which the companies maintained to feed their workers, whom they had . . .</u>
+                    <u who="#boderD" start="249.166" end="x">Oh, whom they had in their mines.</u>
+                    <u who="#moellerE" start="250.447" end="x">Yes.</u>
+                    <u who="#boderD" start="250.932" end="x">Oh well. And so? You administered these estates. From what year?</u>
+                    <u who="#moellerE" start="258.150" end="x">From the year '29 . . . '29, '30, '31, '32.</u>
+                    <u who="#boderD" start="268.884" end="x">Good. And until what time?</u>
+                    <u who="#moellerE" start="271.415" end="x">To the last moment. Until January '45 when these estates were occupied by . . . by the Russian army.</u>
+                    <u who="#boderD" start="282.821" end="x">Aha. Well, now tell me, sir, where were you when the war started?</u>
+                    <u who="#moellerE" start="288.727" end="x">I was in Upper Silesia, exactly there where I worked.</u>
+                    <u who="#boderD" start="293.461" end="x">Yes. And what happened to you during the war?</u>
+                    <u who="#moellerE" start="298.789" end="x">During the war not much happened to me. I had plenty of difficulties with the German authorities, above all with the military authorities.</u>
+                    <u who="#boderD" start="312.370" end="x">Yes.</u>
+                    <u who="#moellerE" start="313.307" end="x">The difficulties on account of the war were very great, because it came to a great need for food for the people. And for that reason, at the beginning, I was left in peace [unmolested].</u>
+                    <u who="#boderD" start="326.915" end="x">Yes.</u>
+                    <u who="#moellerE" start="327.743" end="x">But because I also endeavored to protect persecuted individuals, and because, above all, I endeavored to feed as well as possible the workers who were brought over as foreign prisoners, and to guarantee them better rations, I had sufficient difficulties with the types [kinds of people] who ruled in those times.</u>
+                    <u who="#boderD" start="359.569" end="x">Aha. Well tell me, in order to work at your estates, at the estates in your charge, foreign workers were brought in?</u>
+                    <u who="#moellerE" start="370.709" end="x">No, no. The foreign workers worked in the mines.</u>
+                    <u who="#boderD" start="374.876" end="x">Aha.</u>
+                    <u who="#moellerE" start="375.345" end="x">And I had . . .</u>
+                    <u who="#boderD" start="376.407" end="x">Oh, you . . .</u>
+                    <u who="#moellerE" start="377.688" end="x">. . . to take charge . . .</u>
+                    <u who="#boderD" start="379.657" end="x">Yes.</u>
+                    <u who="#moellerE" start="380.532" end="x">. . . of feeding them. Not directly, but to supply them with the provisions needed for the kitchens of for the canteens which fed them.</u>
+                    <u who="#boderD" start="395.203" end="x">Now how did they live? In <term ref="#vothG_lager">lagers</term>, in barracks? How did they live?</u>
+                    <u who="#moellerE" start="399.234" end="x">It was different. Part of them lived in barracks and in <term ref="#vothG_lager">lagers</term> [? sounds like lavas], and part of them lived . . . lived privately.</u>
+                    <u who="#boderD" start="413.624" end="x">. . . were billeted in private homes? Now tell me, sir, what kind of people did you have . . . did they have to work in the mines? Of what nationality, of what religion?</u>
+                    <u who="#moellerE" start="429.888" end="x">Oh, they had people of nearly all nationalities. They had English prisoners. They had people of all countries, but mostly there were Ukranians which they had brought from Russia.</u>
+                    <u who="#boderD" start="446.512" end="x">Ukranian people. Women, too?</u>
+                    <u who="#moellerE" start="451.246" end="x">Women, no. I have not seen women at that time in the mines . . .</u>
+                    <u who="#boderD" start="456.198" end="x">Aha.</u>
+                    <u who="#moellerE" start="456.917" end="x">. . . there.</u>
+                    <u who="#boderD" start="458.074" end="x">Well, and indirectly you had the responsibility for their feeding. And who worked in the fields of your estate?</u>
+                    <u who="#moellerE" start="467.401" end="x">In the fields worked . . . the remainder, mostly the workers who worked before. They also worked in the time of war, because the major part of [field] workers in Upper Silesia are the women. The men are [working] in the mines, and the women work on the estates. So it was for a long time before the war.</u>
+                    <u who="#boderD" start="492.727" end="x">And that was a tradition. Good. And then when the Russian army arrived, then what happened?</u>
+                    <u who="#moellerE" start="502.914" end="x">Yes. When the Russian army arrived, all of us who lived there were evacuated by the Germans. We were ordered to Thruingia.</u>
+                    <u who="#boderD" start="514.960" end="x">Yes. And where did you live in Thuringia? In . . .</u>
+                    <u who="#moellerE" start="520.350" end="x">I was located with my family in Thuringia. I was thrown there in a village into very bad quarters, but since I intended to negotiate with the Russians about continuing my work also with them, I returned to Silensia.</u>
+                    <u who="#boderD" start="537.771" end="x">Yes. And what happened then?</u>
+                    <u who="#moellerE" start="541.380" end="x">I found all the estates more or less devastated and destroyed. Moreover, all the machinery was taken away, all the horses.</u>
+                    <u who="#boderD" start="554.301" end="x">Hm.</u>
+                    <u who="#moellerE" start="555.098" end="x">And the estates proper were confiscated by the Polish authorities.</u>
+                    <u who="#boderD" start="561.129" end="x">Aha. They were confiscated in order to distribute them among the people as homesteads?</u>
+                    <u who="#moellerE" start="568.113" end="x">Yes. They said that they wanted to distribute them, but I wanted somehow to negotiate the continuation of my work and met with very pleasant cooperation of the part of the Poles. I cannot complain about them. But since there were no means [facilities] whatsoever to work with, it was not possible to do anything. And to sit there only as a chief without doing any real work, I did not want to continue. To do that was just a farce.</u>
+                    <u who="#boderD" start="604.314" end="x">Where is your family now, don Ernesto?</u>
+                    <u who="#moellerE" start="606.689" end="x">My family, too, is here in the camp with me.</u>
+                    <u who="#boderD" start="610.548" end="x">An <term ref="#vothG_unrra">UNRRA</term> camp here. Well. Now tell me, how . . . when did you leave those estates, [and] the Russians?</u>
+                    <u who="#moellerE" start="618.923" end="x">The Russians told me frankly and clearly that I as a foreigner of an American [Chilean] nationality have nothing to do there but to return to my native country.</u>
+                    <u who="#boderD" start="637.062" end="x">Good.</u>
+                    <u who="#moellerE" start="637.812" end="x">And . . .</u>
+                    <u who="#boderD" start="638.796" end="x">[Words not clear.]</u>
+                    <u who="#moellerE" start="639.921" end="x">They attempted at first to ship me home via Odessa, like so many other foreigners, French and Belgians, with whom I was together.</u>
+                    <u who="#boderD" start="649.888" end="x">Yes. How come you say you were together? Were you placed in a <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#moellerE" start="654.854" end="x">No. I just lived ther. The Belgians and the French were . . . they had been locked up there in camps, but I for the short time was not in a camp. They endeavored to persuade me to go there to a camp. But since they told me that they intended to repatriate me via Odessa, that appeared to me a bit strange, and I took to the road at first on my own . . .</u>
+                    <u who="#boderD" start="685.617" end="x">Hm.</u>
+                    <u who="#moellerE" start="686.148" end="x">. . . with some Belgians who too had no faith in the repatriation through Odessa.</u>
+                    <u who="#boderD" start="691.897" end="x">Well. Your family was already in Thuringia, so that you were alone and had not much difficulty in marching through?</u>
+                    <u who="#moellerE" start="697.634" end="x">No.</u>
+                    <u who="#boderD" start="698.118" end="x">Now then, how did you get out of there?</u>
+                    <u who="#moellerE" start="701.274" end="x">I left with some Belgian prisoners.</u>
+                    <u who="#boderD" start="706.032" end="x">Yes.</u>
+                    <u who="#moellerE" start="706.751" end="x">We marched together.</u>
+                    <u who="#boderD" start="709.090" end="x">Illegally.</u>
+                    <u who="#moellerE" start="710.214" end="x">Illegally, but we had no great difficulty. Even the Russians helped me . . .</u>
+                    <u who="#boderD" start="716.276" end="x">Hm.</u>
+                    <u who="#moellerE" start="716.589" end="x">. . . from time to time, and I marched with them [the Belgians] as far as Thuringia.</u>
+                    <u who="#boderD" start="722.433" end="x">Aha. Now how long did you march in this manner through Polish or Russian territory?</u>
+                    <u who="#moellerE" start="732.339" end="x">I do not remember well. It took at least, from Upper Silesia as far . . . as far . . . as far . . . where should I say? . . . as far as <placeName ref="Wurzen">Wurzen</placeName> in Saxony . . .</u>
+                    <u who="#boderD" start="746.276" end="x">Yes.</u>
+                    <u who="#moellerE" start="747.026" end="x">. . . it took me about three weeks, more or less.</u>
+                    <u who="#boderD" start="749.698" end="x">Aha. Oh . . .</u>
+                    <u who="#moellerE" start="750.932" end="x">And at times by bus, at times on foot, at times . . .</u>
+                    <u who="#boderD" start="755.447" end="x">By . . . by . . .</u>
+                    <u who="#moellerE" start="757.494" end="x">. . . by train, in freight cars.</u>
+                    <u who="#boderD" start="760.619" end="x">Did you have any money?</u>
+                    <u who="#moellerE" start="763.400" end="x">No. The money was taken away from me en route by soldiers who were pillaging.</u>
+                    <u who="#boderD" start="771.415" end="x">How? Did they search you?</u>
+                    <u who="#moellerE" start="776.133" end="x">Yes. There were always soldiers who were doing there business on their own.</u>
+                    <u who="#boderD" start="781.914" end="x">Hm.</u>
+                    <u who="#moellerE" start="782.508" end="x">Of all nations, that there were.</u>
+                    <u who="#boderD" start="784.383" end="x">Soldiers of all nations.</u>
+                    <u who="#moellerE" start="785.711" end="x">But these, regretfully, were Russians. [Both laugh.]</u>
+                    <u who="#boderD" start="788.804" end="x">Aha. Well.</u>
+                    <u who="#moellerE" start="791.397" end="x">They were Russian friends [chuckle].</u>
+                    <u who="#boderD" start="793.662" end="x">And so you reached Thuringia? And how did you get here, from Thuringia to this place?</u>
+                    <u who="#moellerE" start="801.898" end="x">In Thuringia the Russian authorities declared again on their part that we had to leave their zone.</u>
+                    <u who="#boderD" start="811.146" end="x">Hm.</u>
+                    <u who="#moellerE" start="811.849" end="x">And I assembled my family and entered a Russian [<term ref="#vothG_dp">DP</term>] camp, and I was transported by the Russians to the Amer- . . . American Zone and handed over by the Russians themselves to the American <term ref="#vothG_unrra">UNRRA</term>.</u>
+                    <u who="#boderD" start="826.348" end="x">Oh. From the Russian camp. Well. And the <term ref="#vothG_unrra">UNRRA</term> brought you here.</u>
+                    <u who="#moellerE" start="832.223" end="x">And the <term ref="#vothG_unrra">UNRRA</term> sent me here.</u>
+                    <u who="#boderD" start="833.785" end="x">And Thuringia? Is that in the Russian Zone?</u>
+                    <u who="#moellerE" start="836.707" end="x">Thuringia is in the Russian Zone.</u>
+                    <u who="#boderD" start="839.300" end="x">Aha.</u>
+                    <u who="#moellerE" start="839.987" end="x">At the start it was an American region, but from the beginning of July, 1945 it has been a Russian region.</u>
+                    <u who="#boderD" start="847.565" end="x">Russian. And so you were sent over here. Well, now how much time have you already been here?</u>
+                    <u who="#moellerE" start="852.393" end="x">I? Nearly a year.</u>
+                    <u who="#boderD" start="853.956" end="x">And why does it take you so much time?</u>
+                    <u who="#moellerE" start="856.221" end="x">Because up to now they did not permit a single South American to leave officially. Only those people could leave who left on the black [illegally]. And a father of a family cannot travel on the black.</u>
+                    <u who="#boderD" start="874.395" end="x">Oh. By black is meant the illegal route.</u>
+                    <u who="#moellerE" start="879.628" end="x">Yes.</u>
+                    <u who="#boderD" start="880.128" end="x">Well. How many people are in your family?</u>
+                    <u who="#moellerE" start="884.503" end="x">I have five children, all minors.</u>
+                    <u who="#boderD" start="887.738" end="x">And your wife?</u>
+                    <u who="#moellerE" start="888.956" end="x">And my wife. Yes.</u>
+                    <u who="#boderD" start="890.924" end="x">And your wife is a Chilean?</u>
+                    <u who="#moellerE" start="892.330" end="x">Of Danish descent.</u>
+                    <u who="#boderD" start="895.127" end="x">What?</u>
+                    <u who="#moellerE" start="896.096" end="x">Danish.</u>
+                    <u who="#boderD" start="896.815" end="x">Danish. Did you get married here in Europe?</u>
+                    <u who="#moellerE" start="899.440" end="x">Yes. I married in Europe.</u>
+                    <u who="#boderD" start="900.815" end="x">Oh. Well. Tell me, you are going not to Chile? Who pays your . . . your transportation?</u>
+                    <u who="#moellerE" start="915.439" end="x">I could . . . could have paid for it at least twenty-fold with the money that I had at my disposal. But since part of it was lost, and the other part is worth nothing . . .</u>
+                    <u who="#boderD" start="931.282" end="x">What kind of money is it?</u>
+                    <u who="#moellerE" start="932.579" end="x">It is German money, because all other money was confiscated by the Germans . . . by the Germans, [the funds] that I still had in South America, and only . . .</u>
+                    <u who="#boderD" start="941.501" end="x">[With suprise] Money that you had in South America . . .</u>
+                    <u who="#moellerE" start="947.078" end="x">South America.</u>
+                    <u who="#boderD" start="947.609" end="x">. . . was confiscated?</u>
+                    <u who="#moellerE" start="948.453" end="x">Yes.</u>
+                    <u who="#boderD" start="948.797" end="x">How did they do that?</u>
+                    <u who="#moellerE" start="949.610" end="x">It was confiscated by the German currency control [surrender of foreign deposits].</u>
+                    <u who="#boderD" start="951.781" end="x">Now wait. You had Amer- . . . money in Chile.</u>
+                    <u who="#moellerE" start="956.780" end="x">I had money in Chile.</u>
+                    <u who="#boderD" start="958.764" end="x">What could the Germans have to say over your money in Chile?</u>
+                    <u who="#moellerE" start="962.951" end="x">Yes. They demanded a declaration about money kept abroad—under oath.</u>
+                    <u who="#boderD" start="969.747" end="x">And this money . . .</u>
+                    <u who="#moellerE" start="970.184" end="x">For this they offered in exchang . . .</u>
+                    <u who="#boderD" start="976.231" end="x">Marks?</u>
+                    <u who="#moellerE" start="976.856" end="x">. . . marks, and they took it away.</u>
+                    <u who="#boderD" start="979.340" end="x">Well. But you were a Chilean citizen.</u>
+                    <u who="#moellerE" start="982.293" end="x">Yes, but that meant nothing.</u>
+                    <u who="#boderD" start="983.699" end="x">The consul could not protect you in any way?</u>
+                    <u who="#moellerE" start="987.059" end="x">No. He could not protect me, because everybody who belonged . . . found himself here in Ger- . . . German territory was subject to the German laws, as I was notified, and I could not avoid it.</u>
+                    <u who="#boderD" start="1004.948" end="x">But look here. It seems that Chile was in the war on the side of the Allies, no?</u>
+                    <u who="#moellerE" start="1010.385" end="x">Yes, but it declared war the twelfth of April, '45 [this appears at least approximately correct].</u>
+                    <u who="#boderD" start="1019.525" end="x">Oh. That late? [Both laugh heartily.] Consequently before that they could get your power of attorney and take your money.</u>
+                    <u who="#moellerE" start="1030.337" end="x">No. From 1943 the diplomatic relations were . . .</u>
+                    <u who="#boderD" start="1036.524" end="x">Interrupted.</u>
+                    <u who="#moellerE" start="1037.789" end="x">. . . were interrupted.</u>
+                    <u who="#boderD" start="1039.461" end="x">Now how can you say that they got hold of your money?</u>
+                    <u who="#moellerE" start="1041.601" end="x">But . . . Of my money? That they got hold of still before.</u>
+                    <u who="#boderD" start="1048.710" end="x">Before.</u>
+                    <u who="#moellerE" start="1049.429" end="x">Yes.</u>
+                    <u who="#boderD" start="1049.850" end="x">Well, does the <term ref="#vothG_unrra">UNRRA</term> supply passage for people?</u>
+                    <u who="#moellerE" start="1057.693" end="x">No. I don't think that the <term ref="#vothG_unrra">UNRRA</term> will supply the passage for us. We figure that our government will help us.</u>
+                    <u who="#boderD" start="1065.130" end="x">Well, have you heard already anything from your government?</u>
+                    <u who="#moellerE" start="1068.645" end="x">No. I know very little, because up to now it was very difficult to establish communication with the government.</u>
+                    <u who="#boderD" start="1074.004" end="x">Don't you have a Chilean consulate in Germany?</u>
+                    <u who="#moellerE" start="1077.332" end="x">There is no Chilean consulate in Germany yet.</u>
+                    <u who="#boderD" start="1079.832" end="x">Now then, the nearest consulate is where?</u>
+                    <u who="#moellerE" start="1081.942" end="x">The nearest consulate . . . consulates are in <placeName ref="Zurich">Zurich</placeName> and in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1088.454" end="x">In <placeName ref="Paris">Paris</placeName>. And what? Do they have a kind of representative who came to see you here?</u>
+                    <u who="#moellerE" start="1093.360" end="x">No, up to this time—nobody.</u>
+                    <u who="#boderD" start="1094.876" end="x">And how many Chileans are there in this camp?</u>
+                    <u who="#moellerE" start="1097.501" end="x">In this camp there are seventy-six Chileans.</u>
+                    <u who="#boderD" start="1101.188" end="x">[Suprised] Seventy-six Chileans?</u>
+                    <u who="#moellerE" start="1103.282" end="x">Yes.</u>
+                    <u who="#boderD" start="1103.907" end="x">That is rather a large number.</u>
+                    <u who="#moellerE" start="1108.422" end="x">Yes, because there are assembled here almost all [Chileans] from the American Zone.</u>
+                    <u who="#boderD" start="1112.687" end="x">Now tell me something else. Since you were a person relatively free in Germany during the war, how do you appraise the whole situation? You knew Germans. You had German friends or [the like].</u>
+                    <u who="#moellerE" start="1130.764" end="x">Yes.</u>
+                    <u who="#boderD" start="1131.295" end="x">What was their opinion, their attitude so to speak, to all that which took place in Germany during the war?</u>
+                    <u who="#moellerE" start="1145.592" end="x">Yes. I know the situation as it was understood in Upper Silesia, because I was in Upper Silesia.</u>
+                    <u who="#boderD" start="1156.966" end="x">Well.</u>
+                    <u who="#moellerE" start="1157.966" end="x">In Upper Silesia . . .</u>
+                    <u who="#boderD" start="1158.591" end="x">Upper Silesia is somewhat Polish.</u>
+                    <u who="#moellerE" start="1160.450" end="x">Yes, Upper Silesia is something per se.</u>
+                    <u who="#boderD" start="1165.403" end="x">Yes, well. Tell me.</u>
+                    <u who="#moellerE" start="1166.778" end="x">It cannot be considered as representative, let us say, of the total German mentality, because, let us say, they talk among themselves . . . they talk Polish.</u>
+                    <u who="#boderD" start="1179.700" end="x">Hm.</u>
+                    <u who="#moellerE" start="1180.638" end="x">And among them, of course, a great part of them were not very eager to participate in the war, and were hostile towards everything that was going on, towards all politics, and justifiably so, because they considered themselves in fact [?] Poles.</u>
+                    <u who="#boderD" start="1210.950" end="x">Aha. Well, there was a group which considered themselves Reichsdeutsch [possible wanted to say Volksdeutsch], or something of the kind.</u>
+                    <u who="#moellerE" start="1216.965" end="x">Yes. Those were not many. The people who came there, first of all the engineers of the mines, had come from Westphalia. These were Catholic people who, too, were in a certain . . . certain opposition, since Upper Silesia is indeed a very Catholic country.</u>
+                    <u who="#boderD" start="1244.854" end="x">Hm. And then . . .</u>
+                    <u who="#moellerE" start="1247.229" end="x">They never wanted . . . did not want to work with the Prussians who were not Catholics.</u>
+                    <u who="#boderD" start="1255.385" end="x">Aha.</u>
+                    <u who="#moellerE" start="1247.229" end="x">And they preferred to associate [?] with people from Westphalia. And since the people from Westphalia are mining people as well, that appeared very appropriate.</u>
+                    <u who="#boderD" start="1266.170" end="x">Now tell me, sir, you know the situation in which the Jewish people found themselves. Now you as a person from the side, as an observer . . .</u>
+                    <u who="#moellerE" start="1281.018" end="x">Well.</u>
+                    <u who="#boderD" start="1281.487" end="x">. . . what do you know about the situation, and how do you appraise it?</u>
+                    <u who="#moellerE" start="1285.105" end="x">Yes. The . . .</u>
+                    <u who="#boderD" start="1286.120" end="x">Frankly.</u>
+                    <u who="#moellerE" start="1287.011" end="x">The situation of the Jewish people was terrible. We had not far from there the <term ref="#vothG_lager">lager</term>
+                        <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1296.135" end="x">Aha.</u>
+                    <u who="#moellerE" start="1296.947" end="x">Never did anything come out from there, anything about what happened there. It was indeed well isolated.</u>
+                    <u who="#boderD" start="1303.509" end="x">Yes.</u>
+                    <u who="#moellerE" start="1304.322" end="x">But still it came out from there that the people are being treated very badly, and they suffered a great deal, those poor people who were transported there, and whom we saw being transported. We did not see much, because these transports passed either by night or by roads that one could not observe.</u>
+                    <u who="#boderD" start="1331.269" end="x">Hm.</u>
+                    <u who="#moellerE" start="1332.238" end="x">There were only rumors [?] about them, and one did not know whether they were true or were exaggerated, but we knew enough that they suffered.</u>
+                    <u who="#boderD" start="1342.800" end="x">Well. Near to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. Well. Go on.</u>
+                    <u who="#moellerE" start="1342.800" end="x">Yes, <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> was not far from there.</u>
+                    <u who="#boderD" start="1349.987" end="x">Well.</u>
+                    <u who="#moellerE" start="1350.597" end="x">Yes.</u>
+                    <u who="#boderD" start="1351.128" end="x">It is said that in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> were located the crematories, and that there people were led through gas chambers and all that. Was it known by the people around there? Was it known that such things were done in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>?</u>
+                    <u who="#moellerE" start="1370.471" end="x">No. In our region where I worked . . . It was more or less, let us say fifty kilometers from . . . from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="1385.720" end="x">Yes.</u>
+                    <u who="#moellerE" start="1386.423" end="x">And there [in our region], frankly, nothing was known about those gas chambers and those crematories. It only was known that a lot of people went there, and where they remained—nothing was exactly known.</u>
+                    <u who="#boderD" start="1399.953" end="x">Well, were there no people . . .</u>
+                    <u who="#moellerE" start="1403.015" end="x">We only knew that the people who worked . . . There were also Jews among the people who worked there on the roads.</u>
+                    <u who="#boderD" start="1413.699" end="x">Yes.</u>
+                    <u who="#moellerE" start="1414.761" end="x">And that these were treated very badly. This we know, because this we saw. This was possible to observe, while about all the other [things] one only heard now and then a rumor, and nothing else.</u>
+                    <u who="#boderD" start="1430.744" end="x">Hm. Well, were there no Germans, Poles who worked in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> who had . . . who were there as soldiers, and when they returned did they not report anything about that?</u>
+                    <u who="#moellerE" start="1444.712" end="x">No. In our parts we did not meet such soldiers. Well, I don't kow whether they were impeded in establishing contact with the rest . . .</u>
+                    <u who="#boderD" start="1457.770" end="x">[Words not clear.]</u>
+                    <u who="#moellerE" start="1459.504" end="x">. . . of the world. How that was done—I do not remember these things. I know only that it was said that people have been taken there, and what I personally have seen is that they were people who have suffered much under conditions of monstrous work, on the roads . . .</u>
+                    <u who="#boderD" start="1479.754" end="x">[Words not clear.]</u>
+                    <u who="#moellerE" start="1481.020" end="x">. . . on a road, precisely on a railroad, where I could observe it.</u>
+                    <u who="#boderD" start="1487.942" end="x">Could you describe a bit what I . . . [correction] you have seen?</u>
+                    <u who="#moellerE" start="1492.582" end="x">Yes. I saw that the people worked in . . . with . . . [were] nourished very badly, and . . . that . . . what . . . most of all it could be observed . . . and they were [ditch] diggers, that they were treated rather badly.</u>
+                    <u who="#boderD" start="1516.331" end="x">Diggers? Were they physically mistreated?</u>
+                    <u who="#moellerE" start="1520.519" end="x">Yes. This too could be observed. One saw it happen from time to time, not often, but from time to time one observed that they were mistreated.</u>
+                    <u who="#boderD" start="1530.628" end="x">Well. You . . .</u>
+                    <u who="#moellerE" start="1532.722" end="x">It was enough, for a person with human sentiment, for him, it was enough.</u>
+                    <u who="#boderD" start="1539.456" end="x">Hm. Was enough. You were near <placeName ref="Katowice">Katowice</placeName>, <placeName ref="Sosnowiec">Sosnowiec</placeName>?</u>
+                    <u who="#moellerE" start="1543.471" end="x">Let us say between <placeName ref="Katowice">Katowice</placeName> and <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>.</u>
+                    <u who="#boderD" start="1547.909" end="x">Near [?] <placeName ref="Katowice">Katowice</placeName> and <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>. There is where you were approximately. Well. Did you know that in the cities like <placeName ref="Katowice">Katowice</placeName> or <placeName ref="Sosnowiec">Sosnowiec</placeName>
+                        <term ref="#vothG_ghetto">ghettos</term> were built?</u>
+                    <u who="#moellerE" start="1560.924" end="x">In <placeName ref="Katowice">Katowice</placeName> I don't know whether there was a <term ref="#vothG_ghetto">ghetto</term>. There was no <term ref="#vothG_ghetto">ghetto</term>.in <placeName ref="Katowice">Katowice</placeName>. I believe they were taken . . .</u>
+                    <u who="#boderD" start="1570.393" end="x">Were taken to another . . . another place?</u>
+                    <u who="#moellerE" start="1571.643" end="x">Another place. Yes.</u>
+                    <u who="#boderD" start="1572.768" end="x">Yes. And <placeName ref="Katowice">Katowice</placeName> was made—what was it called?—Judenrein [literally, "clean of Jews"].</u>
+                    <u who="#moellerE" start="1577.252" end="x">Yes.</u>
+                    <u who="#boderD" start="1577.674" end="x">Yes. And there were no Jews.</u>
+                    <u who="#moellerE" start="1581.549" end="x">There were no Jews since the advent of Hitler.</u>
+                    <u who="#boderD" start="1584.955" end="x">Well, [about] the other Chileans that you have here. What kind of people are they? How did they get here?</u>
+                    <u who="#moellerE" start="1594.799" end="x">They vary a great deal. There are among them people who had come for medical treatment. For example, one . . .</u>
+                    <u who="#boderD" start="1601.985" end="x">Yes.</u>
+                    <u who="#moellerE" start="1602.516" end="x">. . . who had a terrible disease of his eyes . . .</u>
+                    <u who="#boderD" start="1608.580" end="x">Yes.</u>
+                    <u who="#moellerE" start="1609.002" end="x">Many were here to study [go to school], because it was customary to send their sons, their children to Europe . . .</u>
+                    <u who="#boderD" start="1618.970" end="x">From Chile?</u>
+                    <u who="#moellerE" start="1619.907" end="x">. . . from Chile. For a time, at least for some time. Not for all the time, but for some two, three years, to Europe. And others have come here to visit their parents.</u>
+                    <u who="#boderD" start="1630.656" end="x">Aha. They were . . .</u>
+                    <u who="#moellerE" start="1632.797" end="x">They had here parents . . . parents..</u>
+                    <u who="#boderD" start="1634.953" end="x">Yes.</u>
+                    <u who="#moellerE" start="1635.610" end="x">. . . or grandparents whom they desired to visit, here or in Austria.</u>
+                    <u who="#boderD" start="1640.153" end="x">Yes.</u>
+                    <u who="#moellerE" start="1640.934" end="x">And in central Europe.</u>
+                    <u who="#boderD" start="1642.688" end="x">Hm.</u>
+                    <u who="#moellerE" start="1644.016" end="x">There were still some who were here on their own business . . .</u>
+                    <u who="#boderD" start="1649.575" end="x">Yes.</u>
+                    <u who="#moellerE" start="1650.169" end="x">. . . for instance, working, perfecting themselves as engineers and similar things, in order to employ what they have learned in their own country.</u>
+                    <u who="#boderD" start="1660.999" end="x">And how? Were they forced to enter the army? Were they dragged into service?</u>
+                    <u who="#moellerE" start="1664.755" end="x">Some of them. Some . . . some of them, some young people among them, were certainly forced to join the army, although some of them could avoid it.</u>
+                    <u who="#boderD" start="1677.598" end="x">Aha.</u>
+                    <u who="#moellerE" start="1678.129" end="x">But only a few knew how to avoid it. Of those that we have here, most of them . . . there are but a few young ones among them, boys and mostly girls that we have here, only a few young ones.</u>
+                    <u who="#boderD" start="1691.578" end="x">Yes.</u>
+                    <u who="#moellerE" start="1692.172" end="x">We have also here a few who first were in the army, but managed to get out of it, and had found employment in the country in general.</u>
+                    <u who="#boderD" start="1708.312" end="x">Hm. Well, they . . . there are some among them who are half German, half Chilean?</u>
+                    <u who="#moellerE" start="1719.797" end="x">Oh, yes, surely. They [some of them] are first of all, at least of German descent.</u>
+                    <u who="#boderD" start="1726.250" end="x">Yes. Were there many [such] in Chile?</u>
+                    <u who="#moellerE" start="1727.938" end="x">No. Oh, there are . . . are quite a few. Still there were people of German descent first of all in the south of Chile, which was colonized . . .</u>
+                    <u who="#boderD" start="1741.266" end="x">Oh . . .</u>
+                    <u who="#moellerE" start="1741.890" end="x">. . . by people of German descent. In the provinces, <placeName ref="Osorno">Osorno</placeName>, Temu- . . . <placeName ref="Temuco">Temuco</placeName> are cities where one finds many German names.</u>
+                    <u who="#boderD" start="1750.707" end="x">But it appears that they [the Germans] were, in South America, very good and useful citizens, and . . .</u>
+                    <u who="#moellerE" start="1757.472" end="x">Yes, certainly. Even . . . up to now, up to the war these people had in Chile a very good name, and they never interfered in Chilean politics, or disturbed the politics. Neither during the war did I hear something of that sort, and for that reason there were no great discords [?] among the people like, for example, existed in the Central Americas.</u>
+                    <u who="#boderD" start="1785.533" end="x">Yes. Now tell me, you say you left Chile in what year?</u>
+                    <u who="#moellerE" start="1790.939" end="x">'28.</u>
+                    <u who="#boderD" start="1792.064" end="x">'28. Well then, at that time . . . and you came to Germany, to Silesia, at that time?</u>
+                    <u who="#moellerE" start="1803.672" end="x">I came at that time first to Austria.</u>
+                    <u who="#boderD" start="1807.687" end="x">Aha.</u>
+                    <u who="#moellerE" start="1808.374" end="x">And afterwards I established my home in the country which played a part . . . which was the country over which the whole world was fighting. [Laughter.]</u>
+                    <u who="#boderD" start="1823.670" end="x">Which was that?</u>
+                    <u who="#moellerE" start="1824.842" end="x">Upper Sile- . . . Upper Silesia.</u>
+                    <u who="#boderD" start="1826.045" end="x">Upper Silesia. But at that time you were in whose hands? Of the Czechs?</u>
+                    <u who="#moellerE" start="1831.529" end="x">Part belonged to the Czechs, part belonged to the Poles, and part to the Germans. And they [these regions] were of special [separate] jurisdiction.</u>
+                    <u who="#boderD" start="1841.107" end="x">Yes.</u>
+                    <u who="#moellerE" start="1841.732" end="x">They were . . . they belonged to those countries, but . . .</u>
+                    <u who="#boderD" start="1850.373" end="x">Yes.</u>
+                    <u who="#moellerE" start="1850.967" end="x">. . . the sovereignty [of these countries] was restricted, especially by administrative laws, and especially by economic laws. For instance, they did not have to pay taxes on certain products which they transported . . .</u>
+                    <u who="#boderD" start="1868.216" end="x">Aha.</u>
+                    <u who="#moellerE" start="1868.903" end="x">. . . from one side to the other.</u>
+                    <u who="#boderD" start="1870.325" end="x">Tell me this. You are an agronomist. How does it appear to you? Has German agriculture suffered much during the war?</u>
+                    <u who="#moellerE" start="1879.949" end="x">[Pause.] I know only—because it was not possible to travel during the war—the agriculture in Upper Silesia.</u>
+                    <u who="#boderD" start="1894.292" end="x">Hm.</u>
+                    <u who="#moellerE" start="1894.839" end="x">And this one [agriculture] one may say is ruined.</u>
+                    <u who="#boderD" start="1899.729" end="x">And that is why? Because the machinery was taken away [by the Allies, Russians], or . . . [words not clear].</u>
+                    <u who="#moellerE" start="1903.565" end="x">Because everything was taken away that was possible to take. The animals, the machinery, the seed, everything that there was has disappeared.</u>
+                    <u who="#boderD" start="1914.331" end="x">Hm.</u>
+                    <u who="#moellerE" start="1914.924" end="x">The battles did not cause great damage, and the aerial raids did not cause great damage, because there were not many raids. The Russians did not launch . . . launch raids . . .</u>
+                    <u who="#boderD" start="1931.861" end="x">Air attacks.</u>
+                    <u who="#moellerE" start="1933.751" end="x">. . . by air. Yes. But the termination of the war created the greatest damage.</u>
+                    <u who="#boderD" start="1939.860" end="x">Good. Well. Since you had the opportunity, you speak German, you had the opportunity to talk to the Germans now, what is the sentiment, what do they thing is going to happ- . . . happen to Germany?</u>
+                    <u who="#moellerE" start="1957.147" end="x">Yes. I know . . . among the Germans I know predominantly the unfortunate people who were thrown out of Silesia, They have no other sentiment than the desire to return to their native homeland where they were . . .</u>
+                    <u who="#boderD" start="1973.692" end="x">To Silesia.</u>
+                    <u who="#moellerE" start="1974.598" end="x">[Chuckle.] To Silesia, yes.</u>
+                    <u who="#boderD" start="1976.254" end="x">They desire to return to Silesia?</u>
+                    <u who="#moellerE" start="1978.378" end="x">They desi- . . . they would like to return to silesia where . . .</u>
+                    <u who="#boderD" start="1981.799" end="x">So why don't they return?</u>
+                    <u who="#moellerE" start="1984.377" end="x">Because . . . according to present treaties they have been de-classed [deprived of status] by the Poles. They were thrown out.</u>
+                    <u who="#boderD" start="1995.377" end="x">You are talking about people who [during the war] considered themselves Germans [in Polish territory].</u>
+                    <u who="#moellerE" start="1998.909" end="x">The Poles considered everybody who lived there before as Germans. [Words not clear.]</u>
+                    <u who="#boderD" start="2007.581" end="x">Did it not happen that Hitler imported many Germans to Silesia during the war?</u>
+                    <u who="#moellerE" start="2014.487" end="x">No. Because Silesia was sufficiently populated already before . . .</u>
+                    <u who="#boderD" start="2019.081" end="x">Aha.</u>
+                    <u who="#moellerE" start="2020.784" end="x">There was no room for the importation of Germans. The Germans who were imported were imported to Wartagau [region of the Warta River] or what was called the Posen [<placeName ref="Poznań">Poznan</placeName>] province. There . . . there Germans were pressed in, but to Silesia they did not bring a single person.</u>
+                    <u who="#boderD" start="2038.690" end="x">And . . .</u>
+                    <u who="#moellerE" start="2039.508" end="x">There was not a single one of those people.</u>
+                    <u who="#boderD" start="2039.508" end="x">Where [words not on wire; apparently: these Germans at present]?</u>
+                    <u who="#moellerE" start="2040.758" end="x">They are mostly in the Russian Zone, in the German part of the Russian Zone, and in the British Zone, and some of them, possibly a hundred thousand, are in the American Zone.</u>
+                    <u who="#boderD" start="2057.054" end="x">[Suprised] A hundred thousand? Well, how many did they expel?</u>
+                    <u who="#moellerE" start="2061.069" end="x">They expelled more or less . . . Silesia was inhabited more or less by seven million people. All were expelled. Now there are left only, more or less, one million [the numbers are apparently incorrect].</u>
+                    <u who="#boderD" start="2076.178" end="x">Who were considered, in fact Polish?</u>
+                    <u who="#moellerE" start="2078.256" end="x">No, whom they still want to expel from there. All the people [Germans?] were expelled up to [word not clear].</u>
+                    <u who="#boderD" start="2084.849" end="x">From Silesia?</u>
+                    <u who="#moellerE" start="2085.974" end="x">From Silesia, yes.</u>
+                    <u who="#boderD" start="2088.068" end="x">And then, when they are being expelled, are they given something of their property, are they given something of . . .</u>
+                    <u who="#moellerE" start="2094.182" end="x">What they are able [to carry?] . . . Those who were expelled until now were expelled like paupers, without anything.</u>
+                    <u who="#boderD" start="2101.088" end="x">Well, it is being said about the <placeName ref="Sudeten">Sudeten</placeName>, for instance, that in connection with the expulsion of the Germans there is a commissar . . . commission which sees to it that everybody has fifty kilos or so of his proper- . . . of his personal belongings.</u>
+                    <u who="#moellerE" start="2117.485" end="x">Yes.</u>
+                    <u who="#boderD" start="2118.079" end="x">But the same thing was not done in Silesia?</u>
+                    <u who="#moellerE" start="2120.993" end="x">In Silesia up to last year, or up to this year—what I have heard, what I was told by Silesian people with whom I talked—they were unable to take anything.</u>
+                    <u who="#boderD" start="2134.539" end="x">Well. Now who do they blame, Hitler or the . . . or the Poles?</u>
+                    <u who="#moellerE" start="2142.399" end="x">Their sentiments in their hearts [?] are . . .</u>
+                    <u who="#boderD" start="2147.101" end="x">. . . for the Russians . . . ?</u>
+                    <u who="#moellerE" start="2148.289" end="x">. . . for the Russians and for the Poles are not very friendly, because they were treated quite badly by them. It is clear the one who treats [people] badly much pay for it with bad sentiments [against him].</u>
+                    <u who="#boderD" start="2161.101" end="x">Yes, surely. But on the other hand they could think, could understand, that if Hitler had not started all that . . .</u>
+                    <u who="#moellerE" start="2171.101" end="x">That is clear. That is said by people who think, but the majority of the people do not think, but they suffer only at the moment [of misfortune] and see only the one who makes them suffer. And that is the thing that causes great harm. One may beat the other and say you are guilty because you have beaten me. But the one who is beaten sees only the one who is right in front of him [who does the beating]. He does not see the causes which are more distant.</u>
+                    <u who="#boderD" start="2207.146" end="x">Now this is a very interesting observation, don Ernesto, because at times we think whether humanity would have learned a lesson from this catastrophe. What do you think?</u>
+                    <u who="#moellerE" start="2224.568" end="x">Yes. The lesson that must be learned is simply that one day the hostilities [animosities] must be ended. and one has to start with ending them, because if we are to continue with the payment of accounts [retaliations] that would last until the Last Judgment [Judgment Day].</u>
+                    <u who="#boderD" start="2250.660" end="x">Well, don Ernesto. Thank you so much. I wanted an informative report from a person who lived in Germany during all the time and could observe the events somewhat like a foreigner [outsider]. I believe that all of us would be very interested in studying what you have told us.</u>
+                    <u who="#boderD" start="2276.049" end="x">[In English] This concludes Spool 135. The interviewee was don Ernesto Moeller-Arnold, a Chilean by birth who spent during the time . . . time of the war as manager of various estates, agricultural properties, and had some opportunity to observar . . . [chuckle and correction] to observe—I am mixing my Spanish with my English—what has happened. Muenchen, September the 20th, 1946. Spool 135, An Illinois Institute of Technology wire recording. Thank you very much Mr. Moeller.</u>
+                    <u who="#moellerE" start="2322.829" end="x">[In Spanish] Don't mention it. [He apparently understood the last sentence spoken in English.]</u>
+                </div>
+                <!-- end spool 9-135 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

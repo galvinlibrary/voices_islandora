@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Janis B.; September 24, 1946; München, Germany</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Roy Cochrun</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>Roy Cochrun</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT26M12.728S" id="bJanis_9-152B_9-153A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Russia">Russian</lang>
+                                <note type="spools" n="1">9-152B</note>
+                                <note type="spools" n="2">9-153A</note>
+                                <placeName ref="UNRRA University of Munich"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-09-24</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="bJanis_ru" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="bJanis_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="bJanis" role="interviewee">
+                        <persName>
+                            <forename>Janis</forename>
+                            <surname>B.</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>43</age>
+                        <birth>unknown</birth>
+                        <faith>unknown</faith>
+                        <nationality key="Latvia"/>
+                        <state type="marital_status">
+                            <desc>unmarried</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Rīga">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Burggraben concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Hamburg" when="1945-05-01" resp="uk">
+                            <ab/>
+                        </event>
+                    </person>
+                    <person id="barnettH" role="technician">
+                        <persName>
+                            <forename>Herman</forename>
+                            <surname>Barnett</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#bJanis_ru">
+                <!-- begin spool 9-152B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.766" end="x" lang="en">[In English] This is Spool 9-152-B, the second half of the original Spool 152. It is Mr. Janis A. [sic]; he does not give his full name, he refuses to give his full name. Chicago, November the 11th, 1949, a reproduction for the U.S. Public Health Service. Boder.</u>
+                    <u who="#boderD" start="65.089" end="x" lang="en">Munich, September the 24th, 1946 . . . as a part of the German tour. I am now here at the Deutsches Museum which houses a UNNRA center and [serves also as?] the UNNRA University. The interviewee is Mr. Janis B . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="78.936" end="x">[In Russian] Вы латыш?</u>
+                    <u who="#bJanis" start="80.561" end="x">Да. Так.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="81.983" end="x" lang="en">[In English] . . . who is here as a Latvian. He will talk to us in Russian.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="88.157" end="x">[In Russian] Мистер Джанис, Джанис, сколько вам лет?</u>
+                    <u who="#bJanis" start="93.594" end="x">43.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="94.703" end="x">[In English] Eh, he is forty-three years old . . .</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="98.172" end="x">[In Russian] И что вы изучаете [в университете?]?</u>
+                    <u who="#bJanis" start="101.313" end="x">Естественной науке.</u>
+                    <u who="#boderD" start="103.750" end="x">Естественной науке. Вы [неразборчиво] какую область [неразборчиво]?</u>
+                    <u who="#bJanis" start="107.125" end="x">Аг, ботанику.</u>
+                    <u who="#boderD" start="109.703" end="x">Ботанику. Вы что, раньше были в естественной науке?</u>
+                    <u who="#bJanis" start="112.469" end="x">Да. Я раньше уже в латышском университете начал, аг . . . аг . . .</u>
+                    <u who="#boderD" start="117.547" end="x">Изучать ботанику?</u>
+                    <u who="#bJanis" start="120.359" end="x">. . . изучать ботанику, но при приходе большевиков [следовался?] из занятий и сейчас здесь продолжаю.</u>
+                    <u who="#boderD" start="128.030" end="x">Это сколько лет тому назад было?</u>
+                    <u who="#bJanis" start="130.326" end="x">Это было в 1940.ом году [неразборчиво].</u>
+                    <u who="#boderD" start="133.357" end="x">Ну, аг, вам значит тогда было 38 лет.</u>
+                    <u who="#bJanis" start="136.154" end="x">Да.</u>
+                    <u who="#boderD" start="136.685" end="x">А что вы делали до университета? Вы [не из?] гимназии или гимназии [неразборчиво].</u>
+                    <u who="#bJanis" start="143.888" end="x">Я работал как [копальщик?].</u>
+                    <u who="#boderD" start="145.341" end="x">Так. И, и в городе Риге?</u>
+                    <u who="#bJanis" start="148.044" end="x">В городе Риге.</u>
+                    <u who="#boderD" start="148.982" end="x">Значит, вы, как вы мне сказали раньше, вы до того как [шли?] в университет, вы работали [неразборчиво]. Ну, хорошо, теперь начните и скажите мне подробно, потому что и важно, чтобы закончить всю историю. Понимаете? Но то, что вы мне говорите, я хочу, чтоб вы мне рассказывали [по всеми?] подробно. Я интересуюсь вашей личной историей, [не?] история [Риги?]. Понимаете? Не истории [большевиков?]. А я интересуюсь вашей личной историей. Аг, советы пришли в Ригу когда?</u>
+                    <u who="#bJanis" start="184.232" end="x">Советы пришли в Ригу в июле 1939-ого года.</u>
+                    <u who="#boderD" start="189.701" end="x">И вы были тогда там в университете?</u>
+                    <u who="#bJanis" start="191.857" end="x">Как студент.</u>
+                    <u who="#boderD" start="193.607" end="x">Вы были в университете?</u>
+                    <u who="#bJanis" start="194.825" end="x">Да.</u>
+                    <u who="#boderD" start="195.434" end="x">Ну, расскажите, что случилось с вами, что случилось [в университете?].</u>
+                    <u who="#bJanis" start="199.293" end="x">Дело было так, что при приходе большевиков, а, часть студентов должна была [следить пред вахте?] аг . . .</u>
+                    <u who="#boderD" start="211.387" end="x">Занятий.</u>
+                    <u who="#bJanis" start="212.309" end="x">. . . занятий, потому что все, которые считались националистами начали [все размыть?] исследования от [большевиков?]</u>
+                    <u who="#boderD" start="226.981" end="x">Так. И что с вами [случилось?]?</u>
+                    <u who="#bJanis" start="230.513" end="x">Так как отец мой имел имущество [с домом?] в Риге, то, значит, я считался капиталист, ино-капиталистом, и потому уже на меня смотрели как на человека, который [неразборчиво] противника [после фашистского?] режи . . . режима.</u>
+                    <u who="#boderD" start="256.325" end="x">Ну . . . Тогда что с вами случилось?</u>
+                    <u who="#bJanis" start="260.106" end="x">Дом наш был национализирован и . . . и [проход сам?] [заикающийся], в то же время как я был у [неразборчиво], я тоже в то же время работал, аг, в частном, аг . . .</u>
+                    <u who="#boderD" start="277.793" end="x">В частном [деле?], аг, в частной, аг, конторе.</u>
+                    <u who="#bJanis" start="284.371" end="x">В конторе. Там мы [many неразборчиво] [взял?], опять [свои?] [неразборчиво] и так как я [это сделал начальник?] организация, что [здесь?] считался подозрительный и так после этой [ясности?] я был тоже [убежден?] быть [неразборчиво] предполагаемыйся выслать в Сибирь.</u>
+                    <u who="#boderD" start="313.673" end="x">Ну, что вы тогда сделали?</u>
+                    <u who="#bJanis" start="315.985" end="x">Я, так как [уже?] настроение было . . . ну, начались, аг, [среди?] знакомых уже, некоторая часть была, аг, некоторые части знакомых была [sic] уже . . .</u>
+                    <u who="#boderD" start="340.781" end="x">Арестована.</u>
+                    <u who="#bJanis" start="342.749" end="x">. . . арестована, то уже не могла в университете заниматься, потому что уже [тихий].</u>
+                    <u who="#boderD" start="354.222" end="x">[Ну, да?] [неразборчиво]. Потому что, что?</u>
+                    <u who="#bJanis" start="357.206" end="x">Потому что уже</u>
+                    <u who="#boderD" start="360.690" end="x">[прерывающий] [неразборчиво] [полицейский?] если выпадает [все?] [тихий и неразборчиво]</u>
+                    <u who="#boderD" start="362.896" end="x">Да.</u>
+                    <u who="#bJanis" start="363.615" end="x">Опять это [неразборчиво] [пытался бы грузить туда из?] [турщина?].</u>
+                    <u who="#boderD" start="370.909" end="x">Ну, дальше. [неразборчиво]. Потом [сейчас лучше?]</u>
+                    <u who="#bJanis" start="373.206" end="x">[неразборчиво]</u>
+                    <u who="#boderD" start="375.206" end="x">[Стоп?]. Вот, что вы считаете важным, что у вас лично. Что потом лично с вами случилось?</u>
+                    <u who="#bJanis" start="389.190" end="x">Так. Дом отца был национализирован [неразборчиво] жители оставить [неразборчиво] в свою [неразборчиво] квартиру и вся семья переместится в другой, меньшей квартире.</u>
+                    <u who="#boderD" start="406.533" end="x">[А скажите?]. Дом выл национализирован. Кто его взял? И кто туда [переехал?]?</u>
+                    <u who="#bJanis" start="410.939" end="x">Аг, никто не приехал, но он был [открыто?] и мы не могли [квартирную?] . . . ог . . .</u>
+                    <u who="#boderD" start="425.095" end="x">[неразборчиво] вы взяли?</u>
+                    <u who="#bJanis" start="429.204" end="x">Одну часть [неразборчиво] был отставлен.</u>
+                    <u who="#boderD" start="433.360" end="x">Так, и квартирные платы вы тоже не могли взять.</u>
+                    <u who="#bJanis" start="435.415" end="x">Нет.</u>
+                    <u who="#boderD" start="436.259" end="x">А там другие люди остались жить?</u>
+                    <u who="#bJanis" start="438.009" end="x">Другие остались [уже?].</u>
+                    <u who="#boderD" start="439.384" end="x">[неразборчиво] жили?</u>
+                    <u who="#bJanis" start="442.008" end="x">[неразборчиво].</u>
+                    <u who="#boderD" start="442.695" end="x">Так. И вы [заставили сам?] и они платили за квартиру, но как [неразборчиво] взял деньги?</u>
+                    <u who="#bJanis" start="447.711" end="x">Ну, за квартиру сам, аг . . .</u>
+                    <u who="#boderD" start="449.492" end="x">[прерывающий] [неразборчиво].</u>
+                    <u who="#bJanis" start="450.133" end="x">[неразборчиво].</u>
+                    <u who="#boderD" start="451.539" end="x">Так . . . А где же вы тогда сами, что с вами делал? Вы человек женатый?</u>
+                    <u who="#bJanis" start="458.117" end="x">Нет, я не женатый.</u>
+                    <u who="#boderD" start="460.492" end="x">Так. Ну, так. Что тогда с вами случилось?</u>
+                    <u who="#bJanis" start="464.023" end="x">Я продолжал . . .</u>
+                    <u who="#boderD" start="473.726" end="x">Предполагались что делать? Работать?</u>
+                    <u who="#bJanis" start="477.242" end="x">Аг, я продолжал работать.</u>
+                    <u who="#boderD" start="478.929" end="x">Печатное . . .</u>
+                    <u who="#bJanis" start="479.507" end="x">[прерывающий] . . . печатное дело, потому что я работал там бухгалтером и директор был [и?] поставлен из коммунистов, но он [неразборчиво] только 22, аг, 22 года, аг . . .</u>
+                    <u who="#boderD" start="496.713" end="x">Ему было только 22 . . .</u>
+                    <u who="#bJanis" start="497.900" end="x">[прерывающий] Только 22 года. Он совсем ничего не знал о деле бухалтерии, ни о печатном дело [исправление] деле, а так что он должен был на некоторое время все [уставиться?] в, аг, старых [неразборчиво]. Но постепенно [тех?], которых аг, мог, мог он [всем?]-нибудь другими-то [месяцы?] все были отпущены.</u>
+                    <u who="#boderD" start="521.180" end="x">А было много латышей коммунистов? [Никто говорили?], что они коммунисты?</u>
+                    <u who="#bJanis" start="526.008" end="x">Это трудно сказать, потому что во всех собраниях когда если кто-нибудь о них забыл [отклонять?], тогда председатель собрании [спрятал?] всегда, есть кто-нибудь против [вещего?], потому что [будет?] понятность, а никто не смел сказать, что он против этого. Так, что [все эти?] люди принимаются [целесообразно по части может быть там [78, почти?] 90% были бы против этого.</u>
+                    <u who="#boderD" start="557.429" end="x">Ну, и что вы, там работали до сих пор пока немцы пришли?</u>
+                    <u who="#bJanis" start="563.397" end="x">Да, до тех пор. Аг, потому что аг, большие аг, массовое высланное на Сибирь началось только 14.го июля, но . . .</u>
+                    <u who="#boderD" start="576.114" end="x">Какого года?</u>
+                    <u who="#bJanis" start="577.051" end="x">1940.го года.</u>
+                    <u who="#boderD" start="579.348" end="x">А немцы пришли когда?</u>
+                    <u who="#bJanis" start="580.723" end="x">1940.го года 1.го июля.</u>
+                    <u who="#boderD" start="584.942" end="x">Так, что они имели время [неразборчиво] только две недели?</u>
+                    <u who="#bJanis" start="589.676" end="x">Две недели. И 22.го июня началась война так, что аг, эта вы . . . высылка была прервана.</u>
+                    <u who="#boderD" start="601.113" end="x">Война. Аг, они начали [выслать?] 14.го июля.</u>
+                    <u who="#bJanis" start="605.691" end="x">Гмм.</u>
+                    <u who="#boderD" start="606.425" end="x">22.го началась война.</u>
+                    <u who="#bJanis" start="607.909" end="x">Война.</u>
+                    <u who="#boderD" start="608.315" end="x">Значит, [всего?] они высылали [неразборчиво] 8 дней.</u>
+                    <u who="#bJanis" start="611.096" end="x">Да. [неразборчиво]</u>
+                    <u who="#boderD" start="612.158" end="x">[Сколько вы считаете?] ли они [выслали?] [неразборчиво].</u>
+                    <u who="#bJanis" start="614.048" end="x">Предположительно . . . аг, предположительно 60,000.</u>
+                    <u who="#boderD" start="619.376" end="x">Так . . . [Выше?] 60,000 людей были [неразборчиво].</u>
+                    <u who="#bJanis" start="623.610" end="x">[неразборчиво]</u>
+                    <u who="#boderD" start="624.844" end="x">Знаете вы, что с ними там случилось?</u>
+                    <u who="#bJanis" start="627.063" end="x">Не знаю, потому что почти никто не вернулся обратно, потому что потом после этого пришли немцы и фронт был теперь . . .</u>
+                    <u who="#boderD" start="643.953" end="x">[неразборчиво]</u>
+                    <u who="#bJanis" start="645.265" end="x">[неразборчиво]</u>
+                    <u who="#boderD" start="645.638" end="x">Ну, хорошо. Где же вы самы были? Каким [был?] [образом?] вас не выслать?</u>
+                    <u who="#bJanis" start="648.237" end="x">Все [неразборчиво] время . . . там [такой?] [неразборчиво] аг, выяснилось [скажем?] учреждения был так называемый кадровый [отдел?] и там были, там были [неразборчиво] списки из, аг . . . из, аг, из тех [неразборчиво], которые считали подозрительными. Но, [неразборчиво] не было, [только за годы?] самых аг . . .</u>
+                    <u who="#boderD" start="670.357" end="x">Подозрительных.</u>
+                    <u who="#bJanis" start="674.363" end="x">. . . подозрительных. Так что [мой?] [неразборчиво] [был таможник?] произвел шляпы после этой [неразборчиво] [месяца два?] в кухне. Ну, так как началась война, то благодаря этому они не успели все, всех [добиться?].</u>
+                    <u who="#boderD" start="702.678" end="x">Ну, хорошо. Вот значит [немцам?]. Что случилось со всеми этими, которые были вашими начальниками [неразборчиво]?</u>
+                    <u who="#bJanis" start="713.936" end="x">[Большая?]. Аг, все начальники, которые были подавлены в большевистское время все вместе большевиками, аг, ушли.</u>
+                    <u who="#boderD" start="725.210" end="x">Они были тоже эстонцы? . . . [неразборчиво] они были тоже эс [stops]. Были, аг, извиняюсь, они были тоже латыши?</u>
+                    <u who="#bJanis" start="732.482" end="x">Нет. Аг, аг, ах, директор не был латыш, директор был русский, и главный бухгалтер тоже [неразборчиво] русским . . . которые уехали вместе с коммунистами от Рос . . . [исправление] из России.</u>
+                    <u who="#boderD" start="746.449" end="x">А на каком языке книги были?</u>
+                    <u who="#bJanis" start="748.365" end="x">Книги [неразборчиво] еще на латышском языке.</u>
+                    <u who="#boderD" start="751.323" end="x">Ну, да. Значит, пришли немцы и что случилось с вашим [печательством?]? Это что было, государственное [печательство?]</u>
+                    <u who="#bJanis" start="759.467" end="x">Государственное</u>
+                    <u who="#boderD" start="760.464" end="x">[прерывающий] Что там печатали?</u>
+                    <u who="#bJanis" start="761.149" end="x">Там печатали [все?] деньги, облигации, и тоже книги.</u>
+                    <u who="#boderD" start="769.387" end="x">Ну, да.</u>
+                    <u who="#bJanis" start="771.271" end="x">[неразборчиво] [студенты?] наше печатное не, не [подтверждало?] от того.</u>
+                    <u who="#boderD" start="779.717" end="x">[От того не подтверждалось?]?</u>
+                    <u who="#bJanis" start="782.027" end="x">От прихода немцев. [Отстал?] до вот [остановками]</u>
+                    <u who="#boderD" start="783.525" end="x">Ну, да.</u>
+                    <u who="#bJanis" start="784.789" end="x">Сейчас не была [целая?], не была разрушена.</u>
+                    <u who="#boderD" start="788.957" end="x">Дальше.</u>
+                    <u who="#bJanis" start="790.986" end="x">Так, что работа могла продолжаться. Аг, деньги больше не, не велик, не печатали больше, потому что тогда опять была [введена?] новая валюта, немецкая, все, аг, немецкие деньги высылали из Германии, но [печатное?] продолжала [неразборчиво] печатать книги и разные необходимые бумаги.</u>
+                    <u who="#boderD" start="824.073" end="x">Ну, а скажите мне вот, что . . . это . . . и при советов печатали деньги там?</u>
+                    <u who="#bJanis" start="832.859" end="x">При советов [тоже?] печатали деньги.</u>
+                    <u who="#boderD" start="836.261" end="x">Латыш? [неразборчиво].</u>
+                    <u who="#bJanis" start="837.760" end="x">Нет, не латышские, [значит все было?] везде введены рубли.</u>
+                    <u who="#boderD" start="842.883" end="x">Ну. Значит немцы пришли. Что тогда случилось с вами и вашей семей? Отдали вам дом обратно?</u>
+                    <u who="#bJanis" start="851.099" end="x">Нет, сразу не отдало. Только сказали, что [после этого?] будем получить обратно.</u>
+                    <u who="#boderD" start="858.924" end="x">Вы получили тогда? [тишина].</u>
+                    <u who="#bJanis" start="863.594" end="x">Там нужно было взять разные доказательства, что этот дом нам раньше принадлежал, но так как, аг но официальную бумагу не получили, что этот дом опять нам принадлежит.</u>
+                    <u who="#boderD" start="880.149" end="x">А, квартирные деньги, а квартирные деньги стали получать?</u>
+                    <u who="#bJanis" start="883.336" end="x">Квартирные деньги стали получать, но они должны были [штатный фонд?] и только одну часть могли [за месяц?].</u>
+                    <u who="#boderD" start="891.051" end="x">А остальное [неразборчиво]. Ну, дальше. Что вы делали тогда? Продолжали вы быть бухгалтером?</u>
+                    <u who="#bJanis" start="900.219" end="x">Я продолжал быть бухгалтером.</u>
+                    <u who="#boderD" start="902.343" end="x">И . . . дальше как немцы тогда с вами обращались? [Забыл о?] [неразборчиво], так?</u>
+                    <u who="#bJanis" start="909.809" end="x">Да.</u>
+                    <u who="#boderD" start="910.309" end="x">Ну, как они с вами обращались, аг, с населением?</u>
+                    <u who="#bJanis" start="913.949" end="x">Ну, когда сперва немцы пришли, все очень радовались, потому что думали, что будет много лучше. Но, [после?] оказалось, что не у немцев не особенно хорошо, потому что как мы знаем немцы [ликвидировали никаких других?] народов [неразборчиво] [себя?].</u>
+                    <u who="#boderD" start="940.097" end="x">Ну, а . . .</u>
+                    <u who="#bJanis" start="941.640" end="x">Но, но . . .</u>
+                    <u who="#boderD" start="943.639" end="x">Начали они кого-нибудь арестовывать?</u>
+                    <u who="#bJanis" start="946.498" end="x">Они арестовывали в некоторых частях тех, которые избежали, аг, аг . . . о которых думали, что те работали вместе с большевиками.</u>
+                    <u who="#boderD" start="961.647" end="x">[начали они?] много людей арестовать?</u>
+                    <u who="#bJanis" start="963.334" end="x">Из нашего учреждения нет . . .</u>
+                    <u who="#boderD" start="966.990" end="x">[прерывающий] Нет, я думаю [по еврей?]</u>
+                    <u who="#bJanis" start="969.161" end="x">Вовсе [неразборчиво]</u>
+                    <u who="#boderD" start="970.708" end="x">А вот именно? Латышей?</u>
+                    <u who="#bJanis" start="973.036" end="x">Латышей тоже [неразборчиво] русских, евреев.</u>
+                    <u who="#boderD" start="982.364" end="x">Так. На, и что они с евреями делали?</u>
+                    <u who="#bJanis" start="986.442" end="x">С евреями они . . . они [посылали?] жить в отдельный квартал . . .</u>
+                    <u who="#boderD" start="1000.239" end="x">[прерывающий] на гетто [неразборчиво], да?</u>
+                    <u who="#bJanis" start="1001.942" end="x">Да, [в гетто?].</u>
+                    <u who="#boderD" start="1002.270" end="x">Ну, дальше. А потом что они . . . а потом что они с ними делали?</u>
+                    <u who="#bJanis" start="1007.583" end="x">Потом было [разговорен?], что одна часть гетто отправляется, отправляется, но что с ними делается могли только предполагать, что что-нибудь [все хорошее уже нет?]</u>
+                    <u who="#boderD" start="1026.361" end="x" lang="en">[In English] This concludes Spool 152 in the middle of an interview with Mr. Janis from Latvia. We will continue on the Spool 15— ah, 153.</u>
+                    <!-- end spool 9-152B -->
+                    <!-- begin spool 9-153 -->
+                    <u who="#barnettH" start="1038.936" end="x">Spool 153, Spool 153. Spool 153, this is Herman Barnett.</u>
+                    <u who="#boderD" start="1079.495" end="x">Spool 153. Munich, September the 24th, 1946, at the Deutsches Museum which houses the UNNRA University for displaced persons. The interviewee is Mr. Janis B. . . . forty-three years old. Continuing from Spool 152.</u>
+                </div>
+                <div lang="Russia">
+                    <u who="#boderD" start="1096.329" end="x">[In Russian] Ну, значит, что тогда случилось? . . . Вы [неразборчиво] оставались работать там до каких пор? Что случилось с вашими родителями?</u>
+                    <u who="#bJanis" start="1111.269" end="x">Во, во, во время прихода Немцов в Ригу моя матья аг, от, была убита от разрыва гранат. От гранаты.</u>
+                    <u who="#boderD" start="1124.617" end="x">Что? С большим боем Ригу взяли?</u>
+                    <u who="#bJanis" start="1127.579" end="x">Да. В предместьях в Риге произошли [неразборчиво] бои. Там . . . Там после прихода немцев [еще несколько дней?] на улицах [боя из струкции руко- . . . рукопаши?] русским, русские там так, потому что немцы [то их у Польши?] сразу [похоронили?], но русские еще несколько дней [сдали хуже?].</u>
+                    <u who="#boderD" start="1160.679" end="x">Так . . . . Ну, значит, мать ваша убила [неразборчиво] гранат. Аг, отец?</u>
+                    <u who="#bJanis" start="1167.303" end="x">Отец остался жив, потому что аг, мы [жили?] до, аг, за, за рекой, которая протекает аг через Ругу, за Двиной. И я во время прихода аг, немцев не был в своей квартире, потому что [описался?] что большевики [неразборчиво] [уходе?] войск [за плятина сухой?], потому я спрятался у знакомых в другой квартире.</u>
+                    <u who="#boderD" start="1202.507" end="x">Так. А разве [были?] вас там не могли нашли? Они что, брали под [списком?] или искали [людей там?]?</u>
+                    <u who="#bJanis" start="1211.226" end="x">Нет. Они брали под [списком?], потому что [у жителей списки?] [неразборчиво] дому [приех . . . ?] аг, подвешивали на автомашинах и под списком забрали [всех?].</u>
+                    <u who="#boderD" start="1228.414" end="x">Так. Ну, хорошо. Потом как же вы, когда же вы ушли из Латвии?</u>
+                    <u who="#bJanis" start="1233.665" end="x">Я ушел из Латвии в 1944.го года, 4.го октября.</u>
+                    <u who="#boderD" start="1242.134" end="x">Это когда немцы ушли из Латвии?</u>
+                    <u who="#bJanis" start="1244.197" end="x">Да. Тогда уже фронт был около 30 километров [только?] от Риги и было [введено?] распоряжение, что все мужчины должны э . . .</u>
+                    <u who="#boderD" start="1261.145" end="x">Эвакуировать.</u>
+                    <u who="#bJanis" start="1262.613" end="x">. . . эвакуировать, да. И в дом пришли немецкие жандармы и сказали, что если еще [должен встретить?] [неразборчиво] мужчины будут [неразборчиво].</u>
+                    <u who="#boderD" start="1279.911" end="x">И тогда, вы, значит, что?</u>
+                    <u who="#bJanis" start="1282.583" end="x">И сказали, что . . . что можно идти [в гавань?] и там сесть на пароход и, и уехать в Германию.</u>
+                    <u who="#boderD" start="1293.786" end="x">Так. И, и тогда вас куда увезли?</u>
+                    <u who="#bJanis" start="1297.489" end="x">Меня привезли в Данциг.</u>
+                    <u who="#boderD" start="1300.645" end="x">А отца вашего?</u>
+                    <u who="#bJanis" start="1302.426" end="x">Отец мой был [sic] 73 года, а, 73 года. [Остан?] и, и . . .</u>
+                    <u who="#boderD" start="1310.035" end="x">И он оставил в Ригу.</u>
+                    <u who="#bJanis" start="1311.145" end="x">. . . и [болелся?], так что отстав, остался [дом?]</u>
+                    <u who="#boderD" start="1314.973" end="x">Немцы позволили ему остаться или он просто так остался?</u>
+                    <u who="#bJanis" start="1318.426" end="x">Он просто так остался, потому что сказано было, что [неразборчиво/тихий].</u>
+                    <u who="#boderD" start="1322.676" end="x">Ну, так привезли в Данзиг. Что вы тогда сделали?</u>
+                    <u who="#bJanis" start="1326.192" end="x">Меня привезли в Данзиг и сперва сказали, что там оставить две недели. Но потом нас [находились?] в поезд и увезли в [неразборчиво], [тюрьме?] так называемый [Штутов?] лагерь.</u>
+                    <u who="#boderD" start="1344.285" end="x">Да.</u>
+                    <u who="#bJanis" start="1344.879" end="x">И оттуда две недели нас, нас не выпускали [нигде?].</u>
+                    <u who="#boderD" start="1349.097" end="x">А потом работали вы у немцев?</u>
+                    <u who="#bJanis" start="1352.019" end="x">Потом нас опять посадили в поезд и . . . и [еще?] меня и около 30 человек повезли в Гамбург.</u>
+                    <u who="#boderD" start="1364.669" end="x">Так.</u>
+                    <u who="#bJanis" start="1365.331" end="x">И там мы должны были работать аг, в фабрике.</u>
+                    <u who="#boderD" start="1372.237" end="x">А здесь когда вас, аг, где вас освободили?</u>
+                    <u who="#bJanis" start="1374.799" end="x">Меня? Меня освободили англичане 1.го мая . . .</u>
+                    <u who="#boderD" start="1382.331" end="x">Мая. Где? В Гамбурге?</u>
+                    <u who="#bJanis" start="1385.706" end="x">Да. [В предместье?] Гамбурга</u>
+                    <u who="#boderD" start="1388.081" end="x">[прерывающий] Вы работали там на фабрике?</u>
+                    <u who="#bJanis" start="1389.940" end="x">Да, на фабрике.</u>
+                    <u who="#boderD" start="1392.315" end="x">Ну, а что немец . . . вы работали вместе с немецкими рабочими?</u>
+                    <u who="#bJanis" start="1396.206" end="x">Нет. Нам давали работу самую тяжелую.</u>
+                    <u who="#boderD" start="1403.612" end="x">Тяжелая. И кто работал? Только латыши?</u>
+                    <u who="#bJanis" start="1405.628" end="x">Нет. Там работали еще [вывезенные?] украинцы, [вывезенные?] французы и [неразборчиво].</u>
+                    <u who="#boderD" start="1413.472" end="x">Так.</u>
+                    <u who="#bJanis" start="1417.426" end="x">И я работал там как [неразборчиво] [транспортные?] работы [неразборчиво] пароход поезда.</u>
+                    <u who="#boderD" start="1424.613" end="x">Так. Ну а как же вы из английской армии попали в Мюних?</u>
+                    <u who="#bJanis" start="1427.784" end="x">Я из, аг, после аг, [приход?] англичан, я остался жить аг, там в лагере, потому что во, во время пока я работал в фабрике, я жил в лагере. Нам немецкие [неразборчиво] [не выдавали?], но нам питание давали в лагере. И после приход[а] англичан, я [лично?] узнал, что немцами здесь УННРА открывает университет. Там я хотел продолжать свои [предвоенные?] работы. [неразборчиво].</u>
+                    <u who="#boderD" start="1464.472" end="x">А скажите, у вас родственники в Америке есть?</u>
+                    <u who="#bJanis" start="1468.237" end="x">Нет. У меня [опять?] [неразборчиво].</u>
+                    <u who="#boderD" start="1470.628" end="x">И что вы собираетесь делать [когда окончен?]? . . . Или если УННРА уедет, что вы собираетесь делать?</u>
+                    <u who="#bJanis" start="1480.300" end="x">Пока я [неразборчиво] все время [всем?] [неразборчиво] [может быть?] должен попасть обратно на [родину?].</u>
+                    <u who="#boderD" start="1490.003" end="x">Что? Если вы можете попасть [неразборчиво]?</u>
+                    <u who="#bJanis" start="1492.175" end="x">[прерывающий] [Да, да?]. [Известно?] там опять большевики. Так как я уже в своей жизни два раза вышел из большевиков, 1939.ого года и 1940.го года и знаю, что . . . у них . . . я . . . я [неразборчиво] [будет?] в своем родном городе, будет опять [что-нибудь в другом?] [неразборчиво] пока не могу вот [неразборчиво] [торопиться?].</u>
+                    <u who="#boderD" start="1527.639" end="x">Так. А вы что [тихий и неразборчиво] отец?</u>
+                    <u who="#bJanis" start="1534.045" end="x">Это есть у нас надежда . . . [неразборчиво].</u>
+                    <u who="#boderD" start="1539.405" end="x">Так . . . Я [был?] очень благодарен. [Я?] хотел с вами говорить [неразборчиво] говорить с многими студентами и поэтому мы заключили этот интервью . . .</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1554.135" end="x">[In English] This concludes the interview with Mr. Janis, a Latvian, forty-three years old, a student at UNNRA University at Deutsches Museum in Munich. September the 24th, 1946, Illinois Institute of Technology wire recording.</u>
+                </div>
+                <!-- end spool 9-153A -->
+            </div>
+            <!-- end trancription -->
+            <!-- begin English translation -->
+            <div corresp="#bJanis_en">
+                <!-- begin spool 9-152B -->
+                <div lang="en">
+                    <u who="#boderD" start="0.766" end="x">[In English] This is Spool 9-152-B, the second half of the original Spool 152. It is Mr. Janis A. [sic]; he does not give his full name, he refuses to give his full name. Chicago, November the 11th, 1949, a reproduction for the U.S. Public Health Service. Boder.</u>
+                    <u who="#boderD" start="65.089" end="x"><placeName ref="München">Munich</placeName>, September the 24th, 1946 . . . as a part of the German tour. I am now here at the Deutsches Museum which houses a <term ref="#vothG_unrra">UNRRA</term> center and [serves also as?] the <term ref="#vothG_unrra">UNRRA</term> University. The interviewee is Mr. Janis B . . .</u>
+                    <u who="#boderD" start="78.936" end="x">[In Russian] Are you a Latvian?</u>
+                    <u who="#bJanis" start="80.561" end="x">Yes. So.</u>
+                    <u who="#boderD" start="81.983" end="x">[In English] . . . who is here as a Latvian. He will talk to us in Russian.</u>
+                    <u who="#boderD" start="88.157" end="x">[In Russian] Mr. Janis, Janis, how old are you?</u>
+                    <u who="#bJanis" start="93.594" end="x">Forty-three.</u>
+                    <u who="#boderD" start="94.703" end="x">[In English] Eh, he is forty-three years old . . . .</u>
+                    <u who="#boderD" start="98.172" end="x">[In Russian] And what are you studying [at the university?]?</u>
+                    <u who="#bJanis" start="101.313" end="x">Natural science.</u>
+                    <u who="#boderD" start="103.750" end="x">Natural science. What area are you [unintelligible]?</u>
+                    <u who="#bJanis" start="107.125" end="x">Ah, botany.</u>
+                    <u who="#boderD" start="109.703" end="x">Botany. What, were you in natural science before?</u>
+                    <u who="#bJanis" start="112.469" end="x">Yes. I had already begun earlier at a Latvian university, ah . . . ah . . .</u>
+                    <u who="#boderD" start="117.547" end="x">To study botany?</u>
+                    <u who="#bJanis" start="120.359" end="x">. . . to study botany, but on arrival of the Bolsheviks, [I left?] my studies and now I am continuing here.</u>
+                    <u who="#boderD" start="128.030" end="x">How many years ago was this?</u>
+                    <u who="#bJanis" start="130.326" end="x">It was in 1940 [unintelligible].</u>
+                    <u who="#boderD" start="133.357" end="x">Well, ah, that mean you were thirty-eight years old then.</u>
+                    <u who="#bJanis" start="136.154" end="x">Yes.</u>
+                    <u who="#boderD" start="136.685" end="x">And what were you doing before the university? Were you [not from?] a gymnasium or [unintelligible and weak] gymnasium?</u>
+                    <u who="#bJanis" start="143.888" end="x">I was working as a [digger?].</u>
+                    <u who="#boderD" start="145.341" end="x">So. And, and in the city of <placeName ref="Rīga">Riga</placeName>?</u>
+                    <u who="#bJanis" start="148.044" end="x">In the city of <placeName ref="Rīga">Riga</placeName>.</u>
+                    <u who="#boderD" start="148.982" end="x">So, you, as you told me earlier, worked [unintelligible] before you [went?] to the university. Well, okay, now start and tell me in details, because it is also important in order to finish all the history. Do you understand? But that what you have told me, I would like you to tell me [regarding everything?] in detail. I am interested in your personal history, [not?] the history of [<placeName ref="Rīga">Riga</placeName>?]. Do you understand? Not the history of the [Bolsheviks?]. But I am interested in your personal history. [Translator's note: "history" also translates as "story."] Ag, when did the Soviets arrive in <placeName ref="Rīga">Riga</placeName>?</u>
+                    <u who="#bJanis" start="184.232" end="x">The Soviets arrived in <placeName ref="Rīga">Riga</placeName> in July 1939.</u>
+                    <u who="#boderD" start="189.701" end="x">And you were there at the university then?</u>
+                    <u who="#bJanis" start="191.857" end="x">As a student.</u>
+                    <u who="#boderD" start="193.607" end="x">You were at the university?</u>
+                    <u who="#bJanis" start="194.825" end="x">Yes.</u>
+                    <u who="#boderD" start="195.434" end="x">Well, tell me what happened to you and what happened [at the university?].</u>
+                    <u who="#bJanis" start="199.293" end="x">It was like this, upon the arrival of the Bolsheviks, and part of the students were supposed to [keep watch?].</u>
+                    <u who="#boderD" start="211.387" end="x">Of the lessons.</u>
+                    <u who="#bJanis" start="212.309" end="x">. . . of the lessons, because everyone who was considered to be nationalists began [to wash out?] the investigations from the [Bolsheviks?].</u>
+                    <u who="#boderD" start="226.981" end="x">So. And what [happened?] to you?</u>
+                    <u who="#bJanis" start="230.513" end="x">Since my father had property [with a house?] in <placeName ref="Rīga">Riga</placeName>, ah, I was considered a capitalist, another kind of capitalist, and therefore, they already looked at me as a person who [unintelligible] the enemy [after the Fascist?] regi— . . . regime.</u>
+                    <u who="#boderD" start="256.325" end="x">Well . . . Then what happened to you?</u>
+                    <u who="#bJanis" start="260.106" end="x">Our house was nationalized and . . . and [passage itself?] [<emph rend="italics">stumbles</emph>], at the same time I was at [unintelligible], I also was working at the same time, ah, at a private, ah . . .</u>
+                    <u who="#boderD" start="277.793" end="x">At a private [business?], ah, in a private, ah, office.</u>
+                    <u who="#bJanis" start="284.371" end="x">In an office. We [unintelligible] there, again [our own?]. [Unintelligible] and since I [it made the chief?] organization, that [here?] I was considered suspicious and after this [definition?] I also was [convinced?] to be [unintelligible] being contemplated to be exiled to Siberia.</u>
+                    <u who="#boderD" start="313.673" end="x">Well, what did you do then?</u>
+                    <u who="#bJanis" start="315.985" end="x">I, since there [already?] was the frame of mind . . . well, we began, ah, [among?] acquaintances already, some part was, ah, some parts of the acquaintances were [incorrect grammar] already . . .</u>
+                    <u who="#boderD" start="340.781" end="x">Arrested.</u>
+                    <u who="#bJanis" start="342.749" end="x">. . . arrested, who were not able to be involved at the university, because already . . . [<emph rend="italics">audio becomes very weak</emph>]</u>
+                    <u who="#boderD" start="354.222" end="x">[Well, yes?]. [Unintelligible]. Because what?</u>
+                    <u who="#bJanis" start="357.206" end="x">Because [<emph rend="italics">interrupted by Boder</emph>] already—</u>
+                    <u who="#boderD" start="360.690" end="x">[Unintelligible] [police?] if [everything?] falls out [<emph rend="italics">weak and unintelligible, speaking over each other</emph>]</u>
+                    <u who="#boderD" start="362.896" end="x">Yes.</u>
+                    <u who="#bJanis" start="363.615" end="x">Again it [unintelligible] [would try to load there from?] [Turshchina?].</u>
+                    <u who="#boderD" start="370.909" end="x">Well, go on. [Unintelligible]. Afterwards [better now?]</u>
+                    <u who="#bJanis" start="373.206" end="x">[Unintelligible].</u>
+                    <u who="#boderD" start="375.206" end="x">[Stop?]. Well, what you consider important, what you have personally. What happened then personally to you?</u>
+                    <u who="#bJanis" start="389.190" end="x">So. My father's house had been nationalized [unintelligible] residents to stay [unintelligible] in their [unintelligible] apartment and the whole family move to another smaller apartment.</u>
+                    <u who="#boderD" start="406.533" end="x">[And tell me?]. The house was nationalized. Who took it? And who [moved?] there?</u>
+                    <u who="#bJanis" start="410.939" end="x">Ag, no one arrived, but it was [open?] and we were not able to [an apartment?] . . . oh . . .</u>
+                    <u who="#boderD" start="425.095" end="x">[unintelligible] did you take?</u>
+                    <u who="#bJanis" start="429.204" end="x">One part [unintelligible] was left.</u>
+                    <u who="#boderD" start="433.360" end="x">So, and the apartment payments you also were not able to take.</u>
+                    <u who="#bJanis" start="435.415" end="x">No.</u>
+                    <u who="#boderD" start="436.259" end="x">And were other people left there to live?</u>
+                    <u who="#bJanis" start="438.009" end="x">Others [already?] had remained.</u>
+                    <u who="#boderD" start="439.384" end="x">[Unintelligible] they live?</u>
+                    <u who="#bJanis" start="442.008" end="x">[Unintelligible].</u>
+                    <u who="#boderD" start="442.695" end="x">So. And you [forced yourself?] and they paid for the apartment, but how [unintelligible] taken the money?</u>
+                    <u who="#bJanis" start="447.711" end="x">Well, for the apartment myself, ag— [<emph rend="italics">interrupted by Boder</emph>]</u>
+                    <u who="#boderD" start="449.492" end="x">[Unintelligible].</u>
+                    <u who="#bJanis" start="450.133" end="x">[Unintelligible].</u>
+                    <u who="#boderD" start="451.539" end="x">So . . . And where did you yourself then, what did he do with you? Are you a married man?</u>
+                    <u who="#bJanis" start="458.117" end="x">No, I am not married.</u>
+                    <u who="#boderD" start="460.492" end="x">So. Well, so. Then what happened to you?</u>
+                    <u who="#bJanis" start="464.023" end="x">I continued . . .</u>
+                    <u who="#boderD" start="473.726" end="x">What did you propose to do? To work?</u>
+                    <u who="#bJanis" start="477.242" end="x">Ag, I continued working.</u>
+                    <u who="#boderD" start="478.929" end="x">Printing—</u>
+                    <u who="#bJanis" start="479.507" end="x">[<emph rend="italics">interrupts</emph>] . . . the printing business, because I worked there as a bookkeeper and the director [also?] was sent from the Communists, but he [unintelligible] only twenty-two, ah twenty-two years, ah . . .</u>
+                    <u who="#boderD" start="496.713" end="x">He was only twenty-two—</u>
+                    <u who="#bJanis" start="497.900" end="x">[<emph rend="italics">interrupts</emph>] Only twenty-two years old. He didn't know a thing about bookkeeping or about the printing business, but since he was supposed [to find room?] for some time in, ah, the old [unintelligible]. But gradually [those?] who he was unable for [any?] of the others [months?] everyone was released.</u>
+                    <u who="#boderD" start="521.180" end="x">And were many Latvians Communists? [Didn't anyone say?] that they were Communists?</u>
+                    <u who="#bJanis" start="526.008" end="x">It is difficult to say, because at all the meetings where and if someone forgot [to deviate?] from them, then the meeting chairman always [hid?], there is someone against the [wise one?] because [there will be?] the understanding and no one was able to say that he was against it. So, that [all these?] people were being accepted [it was acceptable in part perhaps seventy-eight there, almost?] ninety percent would be against it.</u>
+                    <u who="#boderD" start="557.429" end="x">Well, and what about you, did you work there until the Germans arrived?</u>
+                    <u who="#bJanis" start="563.397" end="x">Yes, until then. Ag, because, ag, the large, ag, massive exodus to Siberia began only on 14 June, but . . .</u>
+                    <u who="#boderD" start="576.114" end="x">Of what year?</u>
+                    <u who="#bJanis" start="577.051" end="x">1940.</u>
+                    <u who="#boderD" start="579.348" end="x">And the Germans arrived when?</u>
+                    <u who="#bJanis" start="580.723" end="x">July 1, 1940.</u>
+                    <u who="#boderD" start="584.942" end="x">So that they had time [unintelligible] only two weeks?</u>
+                    <u who="#bJanis" start="589.676" end="x">Two weeks. And on the 22nd of June the war started, so that ag, this ex . . . exodus was stopped.</u>
+                    <u who="#boderD" start="601.113" end="x">The war. Ag, they began [to send?] on July 14.</u>
+                    <u who="#bJanis" start="605.691" end="x">Hmm.</u>
+                    <u who="#boderD" start="606.425" end="x">The war started on the 22nd.</u>
+                    <u who="#bJanis" start="607.909" end="x">The war.</u>
+                    <u who="#boderD" start="608.315" end="x">This means, [all?] they sent [unintelligible] eight days.</u>
+                    <u who="#bJanis" start="611.096" end="x">Yes. [Unintelligible]</u>
+                    <u who="#boderD" start="612.158" end="x">[How many do you think?] they [sent?]?</u>
+                    <u who="#bJanis" start="614.048" end="x">Presumably . . . ah, presumably sixty thousand.</u>
+                    <u who="#boderD" start="619.376" end="x">So . . . [Over?] sixty thousand people were [unintelligible].</u>
+                    <u who="#bJanis" start="623.610" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="624.844" end="x">Do you know what happened with them?</u>
+                    <u who="#bJanis" start="627.063" end="x">I don't know because almost no one came back, because afterwards after this the Germans arrived and the front was now . . .</u>
+                    <u who="#boderD" start="643.953" end="x">[Unintelligible]</u>
+                    <u who="#bJanis" start="645.265" end="x">[Same words, also unintelligible]</u>
+                    <u who="#boderD" start="645.638" end="x">Well, okay. Just where were you yourself? What [was the example?] not to send you?</u>
+                    <u who="#bJanis" start="648.237" end="x">Everyone [unintelligible] time . . . there [such?] [unintelligible] ah, it was explained [let's say?] of the foundation was a so-called personnel [department?] and there were, there were [unintelligible] lists from, ah . . . from, ag, from those [unintelligible] who considered [them] suspicious. But, [unintelligible] were not, [only for years?] themselves ah . . .</u>
+                    <u who="#boderD" start="670.357" end="x">Suspicious.</u>
+                    <u who="#bJanis" start="670.357" end="x">. . . suspicious. So [my?] [unintelligible] [was a customs man?] made hats after this [unintelligible] [about two months?] in a kitchen. Well, since the war had started, then thanks to it they did not succeed [to achieve?] everything.</u>
+                    <u who="#boderD" start="702.678" end="x">Well, okay. Well then [for the Germans?]. What happened with all those who were your chiefs [weak]?</u>
+                    <u who="#bJanis" start="713.936" end="x">[Large?]. Ag, all the chiefs who had been repressed in Bolshevist times ah, they all left with the Bolsheviks.</u>
+                    <u who="#boderD" start="725.210" end="x">Were they Estonians, too? . . . [unintelligible] were they also Es— [<emph rend="italics">stops</emph>]. Where, ag, I'm sorry, were they also Latvians?</u>
+                    <u who="#bJanis" start="732.482" end="x">No. Ah, ah, ah, the director was not a Latvian, the director was a Russian, and the chief bookkeeper, too [unintelligible] Russian . . . who left together with the Communists out of Rus— . . . [<emph rend="italics">corrects himself</emph>] from Russia.</u>
+                    <u who="#boderD" start="746.449" end="x">And what language were the books in?</u>
+                    <u who="#bJanis" start="748.365" end="x">The books [unintelligible] again in Latvian.</u>
+                    <u who="#boderD" start="751.323" end="x">Well, yes. This means, the Germans arrived and what happened to your printing house? What was it, a state printing house?</u>
+                    <u who="#bJanis" start="759.467" end="x">A state—</u>
+                    <u who="#boderD" start="760.464" end="x">[<emph rend="italics">interrupts</emph>] What did they print there?</u>
+                    <u who="#bJanis" start="761.149" end="x">They printed [all?] the money, stocks and also books there.</u>
+                    <u who="#boderD" start="769.387" end="x">Well, yes.</u>
+                    <u who="#bJanis" start="771.271" end="x">I am not, not [confirming?] our print from that [unintelligible] [students?].</u>
+                    <u who="#boderD" start="779.717" end="x">[It was not confirmed from that?]?</u>
+                    <u who="#bJanis" start="782.027" end="x">From the arrival of the Germans. [I/It remained?] until— [<emph rend="italics">stops</emph>]</u>
+                    <u who="#boderD" start="783.525" end="x">Well, yes.</u>
+                    <u who="#bJanis" start="784.789" end="x">Right now it was not [whole?], it was not destroyed.</u>
+                    <u who="#boderD" start="788.957" end="x">Go on.</u>
+                    <u who="#bJanis" start="790.986" end="x">So, that work had been able to continue. Ag, the money was no longer great, they didn't print more because then a new currency was [introduced?] again, German, they sent all, ah, the German money from Germany, but [printing?] continued [unintelligible] to print books and various necessary papers.</u>
+                    <u who="#boderD" start="824.073" end="x">Well, and tell me what . . . it . . . and did they print money there during the Soviets [occupation]?</u>
+                    <u who="#bJanis" start="832.859" end="x">They [also?] printed money during the Soviets.</u>
+                    <u who="#boderD" start="836.261" end="x">Latvian? [unintelligible].</u>
+                    <u who="#bJanis" start="837.760" end="x">No, not Latvian, [it means everything was?] rubles were introduced everywhere.</u>
+                    <u who="#boderD" start="842.883" end="x">Well . . . So the Germans arrived. What happened to you and your family then? Did they give the house back to you?</u>
+                    <u who="#bJanis" start="851.099" end="x">No, not right away. They only said that [after this?] we would get it back.</u>
+                    <u who="#boderD" start="858.924" end="x">Did you get it then? [<emph rend="italics">sound totally disappears for a few seconds</emph>]</u>
+                    <u who="#bJanis" start="863.594" end="x">It was necessary to take different evidence there that this house had belonged to us earlier, but since, ag, but we did not receive an official paper that this house belongs to us again.</u>
+                    <u who="#boderD" start="880.149" end="x">And the apartment money, did you begin to receive apartment money?</u>
+                    <u who="#bJanis" start="883.336" end="x">We began to receive apartment money, but they were supposed to have been [a regular fund?] and were able only one part [a month?].</u>
+                    <u who="#boderD" start="891.051" end="x">And the remaining [unintelligible]. Well, go on. What did you do then? Did you continue to be a bookkeeper?</u>
+                    <u who="#bJanis" start="900.219" end="x">I continued to be a bookkeeper.</u>
+                    <u who="#boderD" start="902.343" end="x">And . . . how did the Germans relate to your then later? [He forgot about?] [unintelligible] so?</u>
+                    <u who="#bJanis" start="902.343" end="x">Yes.</u>
+                    <u who="#boderD" start="909.809" end="x">Well, how did they relate to you, ah, to the population?</u>
+                    <u who="#bJanis" start="910.309" end="x">Well, when the Germans arrived at first, everyone was very happy, because they thought it would be a lot better. But, [after?] it turned out that it was especially good with the Germans, because as we know, the Germans [liquidated some other?] peoples [unintelligible] [self?].</u>
+                    <u who="#boderD" start="913.949" end="x">Well, and . . .</u>
+                    <u who="#bJanis" start="940.097" end="x">But, but . . .</u>
+                    <u who="#boderD" start="941.640" end="x">Did they start to arrest someone?</u>
+                    <u who="#bJanis" start="946.498" end="x">They arrested in several places those who had been avoiding, ah, ah . . . about whom they thought that they were working with the Bolsheviks.</u>
+                    <u who="#boderD" start="961.647" end="x">[Did they start?] to arrest many people?</u>
+                    <u who="#bJanis" start="963.334" end="x">Not from our establishment—</u>
+                    <u who="#boderD" start="966.990" end="x">[<emph rend="italics">interrupts</emph>] No, I am thinking [about Jews?].</u>
+                    <u who="#bJanis" start="969.161" end="x">Quite [unintelligible].</u>
+                    <u who="#boderD" start="970.708" end="x">And well, in particular? Latvians?</u>
+                    <u who="#bJanis" start="973.036" end="x">Latvians too [unintelligible] Russians and Jews.</u>
+                    <u who="#boderD" start="982.364" end="x">So. Well, and what did they do with the Jews?</u>
+                    <u who="#bJanis" start="986.442" end="x">With the Jews they . . . they [sent?] to live in a separate quarter—</u>
+                    <u who="#boderD" start="1000.239" end="x">[<emph rend="italics">interrupting each other</emph>] to a <term ref="#vothG_ghetto">ghetto</term> [weak], right?</u>
+                    <u who="#bJanis" start="1001.942" end="x">Yes, [to a <term ref="#vothG_ghetto">ghetto</term>?].</u>
+                    <u who="#boderD" start="1002.270" end="x">Well, go on. And then what did they . . . and what did they do with them afterwards?</u>
+                    <u who="#bJanis" start="1007.583" end="x">Then it was [discussed?] that one part of the <term ref="#vothG_ghetto">ghetto</term> leave, leave, but one can only guess what happened to them, than something [no longer was all good?].</u>
+                    <u who="#boderD" start="1026.361" end="x">[In English] This concludes Spool 152 in the middle of an interview with Mr. Janis from Latvia. We will continue on the Spool 15— ah, 153.</u>
+                    <!-- end spool 9-152B -->
+                    <!-- begin spool 9-153A -->
+                    <u who="#barnettH" start="1038.936" end="x">Spool 153, Spool 153. Spool 153, this is Herman Barnett.</u>
+                    <u who="#boderD" start="1079.495" end="x">Spool 153. <placeName ref="München">Munich</placeName>, September the 24th, 1946, at the Deutsches Museum which houses the <term ref="#vothG_unrra">UNRRA</term> University for displaced persons. The interviewee is Mr. Janis B. . . . forty-three years old. Continuing from Spool 152.</u>
+                    <u who="#boderD" start="1096.329" end="x">[In Russian] Well, what then happened? . . . You [unintelligible] were left to work there until when? What happened to your parents?</u>
+                    <u who="#bJanis" start="1111.269" end="x">When, when, when the Germans arrived in <placeName ref="Rīga">Riga</placeName>, my mom ag, from, was killed by exploding grenades. From a grenade.</u>
+                    <u who="#boderD" start="1124.617" end="x">What? Did they capture <placeName ref="Rīga">Riga</placeName> with a huge battle?</u>
+                    <u who="#bJanis" start="1127.579" end="x">Yes. [Unintelligible] battles took place in the outskirts of <placeName ref="Rīga">Riga</placeName>. There . . . There after the Germans arrived [there were hand . . . hand-to-hand battles?] on the streets [for several more days?] with the Russian, the Russians there because the Germans [buried them from Poland?] at once, but the Russians [surrendered worse?] for several more days.</u>
+                    <u who="#boderD" start="1160.679" end="x">So . . . Well, your mother was killed [unintelligible] grenades. Ah, your father?</u>
+                    <u who="#bJanis" start="1167.303" end="x">My father survived, because ah, we [lived?] before, ah, across, across the river, which flows ah, through <placeName ref="Rīga">Riga</placeName>, across the Dvina. And during the arrival ag, of the Germans, I was not in my apartment because [it had been described?] that the Bolsheviks [unintelligible?] [departure?] of the troops [beyond the "plyatina" of the dry?], therefore, I hid with my acquaintances in another apartment.</u>
+                    <u who="#boderD" start="1202.507" end="x">So. And really [were?] they weren't able to find you? What did they do, capture [them] using a list or did they search [for people there?]?</u>
+                    <u who="#bJanis" start="1211.226" end="x">No. They used a [list?] because [the residents had lists?] [unintelligible] [arrived?] for a home ah, they hung on vehicles and collected [everyone?] using a list.</u>
+                    <u who="#boderD" start="1228.414" end="x">So. Well, okay. Then just how and when did you leave Latvia?</u>
+                    <u who="#bJanis" start="1233.665" end="x">I left Latvia in 1944, on 4 October.</u>
+                    <u who="#boderD" start="1242.134" end="x">Is this when the Germans left Latvia?</u>
+                    <u who="#bJanis" start="1244.197" end="x">Yes. The front then already was nearly [only?] thirty kilometers from <placeName ref="Rīga">Riga</placeName> and a decree was [introduced?] that all men were supposed to e—</u>
+                    <u who="#boderD" start="1261.145" end="x">Evacuate.</u>
+                    <u who="#bJanis" start="1262.613" end="x">. . . evacuate, right. And German <term ref="#vothG_gendarme">gendarmes</term> came to the house and said that if [supposed to meet?] [unintelligible] the men will [many unintelligible].</u>
+                    <u who="#boderD" start="1279.911" end="x">And then you what?</u>
+                    <u who="#bJanis" start="1282.583" end="x">And they said that . . . that it was possible to go [to the harbor?] and get on a steamship there and, and go to Germany.</u>
+                    <u who="#boderD" start="1293.786" end="x">So. And, and they where did they take you?</u>
+                    <u who="#bJanis" start="1297.489" end="x">They took me to <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName>.</u>
+                    <u who="#boderD" start="1300.645" end="x">And your father?</u>
+                    <u who="#bJanis" start="1302.426" end="x">My father was seventy-three, ah, seventy-three years old. [He was left?] and, and . . .</u>
+                    <u who="#boderD" start="1310.035" end="x">And he stayed in <placeName ref="Rīga">Riga</placeName>.</u>
+                    <u who="#bJanis" start="1311.145" end="x">. . . and [he got ill?] so he was left, he stayed [home?].</u>
+                    <u who="#boderD" start="1314.973" end="x">Did the Germans allow him to stay or did he simply stay there?</u>
+                    <u who="#bJanis" start="1318.426" end="x">He simply stayed there because it had been said that [unintelligible/weak].</u>
+                    <u who="#boderD" start="1322.676" end="x">Well, so they took you to <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName>. What did you do then?</u>
+                    <u who="#bJanis" start="1326.192" end="x">They brought me to <placeName ref="Burggraben concentration camp" type="camp">Danzig</placeName> and at first said that [we would] stay two weeks. But then [we were put?] onto a train and taken to [unintelligible], [prison?] so-called [unintelligible] camp.</u>
+                    <u who="#boderD" start="1344.285" end="x">Yes.</u>
+                    <u who="#bJanis" start="1344.879" end="x">And from there they didn't let us out [anywhere?] for two weeks.</u>
+                    <u who="#boderD" start="1349.097" end="x">And then you worked with the Germans?</u>
+                    <u who="#bJanis" start="1352.019" end="x">Then they put us on a train again and . . . and [again?] they took me and nearly 30 people to <placeName ref="Hamburg">Hamburg</placeName>.</u>
+                    <u who="#boderD" start="1364.669" end="x">So.</u>
+                    <u who="#bJanis" start="1365.331" end="x">And there we were supposed to work ah, in a factory.</u>
+                    <u who="#boderD" start="1372.237" end="x">And where did they ah, where did they liberate you?</u>
+                    <u who="#bJanis" start="1374.799" end="x">Me? The British liberated me on 1 May . . .</u>
+                    <u who="#boderD" start="1382.331" end="x">May. Where? In <placeName ref="Hamburg">Hamburg</placeName>?</u>
+                    <u who="#bJanis" start="1385.706" end="x">Yes. [In the outskirts?] of <placeName ref="Hamburg">Hamburg</placeName>—</u>
+                    <u who="#boderD" start="1388.081" end="x">[<emph rend="italics">interrupting each other</emph>] Did you work there in a factory?</u>
+                    <u who="#bJanis" start="1389.940" end="x">Yes, in a factory.</u>
+                    <u who="#boderD" start="1392.315" end="x">Well, and what German . . . did you work together with German workers?</u>
+                    <u who="#bJanis" start="1396.206" end="x">No. They gave us the most difficult work.</u>
+                    <u who="#boderD" start="1403.612" end="x">Difficult. And who worked? Only Latvians?</u>
+                    <u who="#bJanis" start="1405.628" end="x">No. Also [removed?] Ukrainians, [removed?] French and [unintelligible] worked there.</u>
+                    <u who="#boderD" start="1413.472" end="x">So.</u>
+                    <u who="#bJanis" start="1417.426" end="x">And I worked there as [unintelligible] [transport?] work [unintelligible] steamship of a train.</u>
+                    <u who="#boderD" start="1424.613" end="x">So. Well, and just how did you reach <placeName ref="München">Munich</placeName> from the British military?</u>
+                    <u who="#bJanis" start="1427.784" end="x">I from, ah, after, ah, [the arrival?] of the British, I continued to live ah, there in the camp because in, in the time I was still working at the factory I lived in the camp. German [unintelligible?] [did not give?] us, but they gave us food in the camp. And after the arrival of the British, I [personally?] found out that the <term ref="#vothG_unrra">UNRRA</term> University was opening here by the Germans. I wanted to continue my [pre-war?] work there. [Unintelligible].</u>
+                    <u who="#boderD" start="1464.472" end="x">And tell me, do you have relatives in America?</u>
+                    <u who="#bJanis" start="1468.237" end="x">No. I have [again?]. [Unintelligible].</u>
+                    <u who="#boderD" start="1470.628" end="x">And what do you intend to do [when graduated?]? . . . Or if <term ref="#vothG_unrra">UNRRA</term> leaves, what do you intend to do?</u>
+                    <u who="#bJanis" start="1480.300" end="x">For the time being I [unintelligible] all the time [for everything?] [unintelligible] [perhaps?] I should go back to [the motherland?].</u>
+                    <u who="#boderD" start="1490.003" end="x">What? If you can go [<emph rend="italics">interrupted by Janis</emph>]?</u>
+                    <u who="#bJanis" start="1492.175" end="x">[Yes, yes?]. [It is known?] the Bolsheviks are there again. Since I already have left the Bolsheviks twice in my life, 1939 and 1940, and I know what . . . they have . . . I . . . I [unintelligible] [it will be?] in my home town, it again will be [something in another?] [unintelligible] for the time being I am unable [unintelligible] [to be in a hurry?]</u>
+                    <u who="#boderD" start="1527.639" end="x">So. And what are you [weak and unintelligible] father?</u>
+                    <u who="#bJanis" start="1534.045" end="x">We have hope . . . [unintelligible].</u>
+                    <u who="#boderD" start="1539.405" end="x">So . . . I [was?] very thankful. [I?] have wanted to speak with you [unintelligible] to speak with many students and therefore, we have concluded this interview.</u>
+                    <u who="#boderD" start="1554.135" end="x">[In English] This concludes the interview with Mr. Janis, a Latvian, forty-three years old, a student at <term ref="#vothG_unrra">UNRRA</term> University at Deutsches Museum in <placeName ref="München">Munich</placeName>. September the 24th, 1946, Illinois Institute of Technology wire recording.</u>
+                </div>
+                <!-- end spool 9-153A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

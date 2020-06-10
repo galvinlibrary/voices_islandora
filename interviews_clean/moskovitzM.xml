@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Marko Moskovitz; July 30, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Damien Wetterwald</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Dagmar Platt</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT25M05.250S" id="moskovitzM_9-6A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-6A</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-07-30</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="moskovitzM_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="moskovitzM_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="moskovitzM" role="interviewee">
+                        <persName>
+                            <forename>Marko</forename>
+                            <surname>Moskovitz</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>19</age>
+                        <birth ref="Carpathian Mountains Region"/>
+                        <faith>unknown</faith>
+                        <nationality>unknown</nationality>
+                        <state type="marital_status">
+                            <desc>unknown</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Solotvyno">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Máramarossziget Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Auschwitz concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Birkenau concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Flossenbürg concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Offenburg" resp="France">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#moskovitzM_de">
+                <!-- begin spool 9-6A -->
+                <div lang="en">
+                    <u who="#boderD" start="43.417" end="x">[In English] This is Spool number 6. A young man, Marko Moskovitz, a pupil of the ORT. The record is being taken on July 30, 1946.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="60.934" end="x">[In German] Hm, was sagen Sie ist Ihr Name?</u>
+                    <u who="#moskovitzM" start="65.398" end="x">Moskovitz, Marko.</u>
+                    <u who="#boderD" start="67.041" end="x">Moskovitz, Marko. Und wie lange sind Sie in Paris?</u>
+                    <u who="#moskovitzM" start="72.091" end="x">Zwei Wochen.</u>
+                    <u who="#boderD" start="73.372" end="x">Und wo sind Sie gekommen von Paris?</u>
+                    <u who="#moskovitzM" start="75.437" end="x">Von Deutschland dann nach Italien und von Italien nach Paris.</u>
+                    <u who="#boderD" start="82.130" end="x">Von Deutschland nach Italien und von Italien nach Paris.</u>
+                    <u who="#moskovitzM" start="85.055" end="x">Ja.</u>
+                    <u who="#boderD" start="85.392" end="x">Und wo sind Sie geboren, Marko?</u>
+                    <u who="#moskovitzM" start="87.477" end="x">In den Karpaten.</u>
+                    <u who="#boderD" start="89.060" end="x">In den Karpaten.</u>
+                    <u who="#moskovitzM" start="89.557" end="x">Karpaten, hm, ja.</u>
+                    <u who="#boderD" start="90.844" end="x">Und wann sind Sie gekommen nach Deutschland?</u>
+                    <u who="#moskovitzM" start="93.764" end="x">Nach Deutschland deportiert.</u>
+                    <u who="#boderD" start="96.643" end="x">Deportiert?</u>
+                    <u who="#moskovitzM" start="97.237" end="x">Ja.</u>
+                    <u who="#boderD" start="97.710" end="x">In welchem Jahr?</u>
+                    <u who="#moskovitzM" start="99.233" end="x">In 1942 deportiert.</u>
+                    <u who="#boderD" start="102.494" end="x">Deportiert. Wie alt sind Sie jetzt?</u>
+                    <u who="#moskovitzM" start="104.823" end="x">Neunzehn Jahre.</u>
+                    <u who="#boderD" start="105.828" end="x">Neunzehn Jahre. So wie alt waren Sie wenn man Sie deportiert?</u>
+                    <u who="#moskovitzM" start="109.823" end="x">Ich war da siebzehn Jahre.</u>
+                    <u who="#boderD" start="113.875" end="x">Sie waren siebzehn Jahre alt. Also erzählen Sie mir, wer, hm, wer waren Ihre Eltern, wer ist Ihre Familie und alles Weitere?</u>
+                    <u who="#moskovitzM" start="122.965" end="x">Meine . . . , hm, also . . .</u>
+                    <u who="#boderD" start="126.589" end="x">Hm?</u>
+                    <u who="#moskovitzM" start="127.729" end="x">Hersh war mein Vater und meine Mutter Debora und ich habe 5 Geschwister und . . .</u>
+                    <u who="#boderD" start="135.678" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="136.115" end="x">Und dass wir dann deportiert sind und jetzt ich bin alleine.</u>
+                    <u who="#boderD" start="139.014" end="x">Und was war Ihres Vaters Beschäftigung?</u>
+                    <u who="#moskovitzM" start="143.754" end="x">Hm, ein Feldarbeiter.</u>
+                    <u who="#boderD" start="146.081" end="x">Ein Feldarbeiter. In welcher Stadt?</u>
+                    <u who="#moskovitzM" start="148.861" end="x">Solotvyna.</u>
+                    <u who="#boderD" start="150.042" end="x">Solotvyna. Was war das Polen?</u>
+                    <u who="#moskovitzM" start="152.057" end="x">Nein, das war Tschechoslowakei. Im 39’er Jahr.</u>
+                    <u who="#boderD" start="156.877" end="x">Und dann wer hat es bekommen?</u>
+                    <u who="#moskovitzM" start="158.611" end="x">Es war dann bei Ungarn.</u>
+                    <u who="#boderD" start="160.284" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="160.757" end="x">Und jetzt sind dort die Russen.</u>
+                    <u who="#boderD" start="162.463" end="x">Und jetzt sind dort die Russen, aber die Ungarn haben es genommen?</u>
+                    <u who="#moskovitzM" start="165.232" end="x">Ja.</u>
+                    <u who="#boderD" start="165.448" end="x">Erzählen Sie mir, wie hat das passiert, wenn die Ungarn haben genommen die Tschechos . . . , hm, die, . . . ihre Stadt?</u>
+                    <u who="#moskovitzM" start="172.009" end="x">Hm, die waren gekommen, hm, [unverständlich] die sind herein gekommen im 39’er Jahr und . . .</u>
+                    <u who="#boderD" start="179.035" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="179.553" end="x">dann hat es schon angefangen die Juden zu deportieren und—nicht zu deportieren, sondern gemacht auf Arbeit zu gehen.</u>
+                    <u who="#boderD" start="187.101" end="x">Was heißt man hat sie gemacht auf Arbeit zu gehen? Erzählen Sie mir</u>
+                    <u who="#moskovitzM" start="194.975" end="x">Also die gelben Bänder, wir haben angefangen zu tragen die gelben Bänder da, und mein Vater hat auch einen . . .</u>
+                    <u who="#boderD" start="199.300" end="x">Hat auch?</u>
+                    <u who="#moskovitzM" start="199.793" end="x">Mein Vater hat auch einen gelben Stern getragen.</u>
+                    <u who="#boderD" start="201.913" end="x">Und Sie?</u>
+                    <u who="#moskovitzM" start="202.792" end="x">Ich nicht.</u>
+                    <u who="#boderD" start="203.767" end="x">Warum nicht?</u>
+                    <u who="#moskovitzM" start="204.853" end="x">Ich war noch . . . ich war noch jung.</u>
+                    <u who="#boderD" start="207.708" end="x">Sie waren noch jung.</u>
+                    <u who="#moskovitzM" start="208.356" end="x">Ja.</u>
+                    <u who="#boderD" start="208.793" end="x">Und die Frauen?</u>
+                    <u who="#moskovitzM" start="210.125" end="x">Die Frauen auch.</u>
+                    <u who="#boderD" start="211.296" end="x">Die Frauen auch.</u>
+                    <u who="#moskovitzM" start="211.602" end="x">Die Frauen sind geblieben.</u>
+                    <u who="#boderD" start="215.049" end="x">Was heißt, die Frauen sind geblieben?</u>
+                    <u who="#moskovitzM" start="216.170" end="x">Die Frauen haben, sind dort geblieben. Die Frauen waren im Ghetto und haben Sterne getragen.</u>
+                    <u who="#boderD" start="227.494" end="x">Aha. Wie haben sie gemacht ein Ghetto?</u>
+                    <u who="#moskovitzM" start="231.027" end="x">Zu Hause.</u>
+                    <u who="#boderD" start="232.530" end="x">Aber, wo . . . wie hat man das gemacht, Mark?</u>
+                    <u who="#moskovitzM" start="235.440" end="x">Man hat ausgerufen auf den Märkten, dass jeder Mensch . . . und dann hat man gesagt, dass alle Juden sollen in eine Gasse rein gehen.</u>
+                    <u who="#boderD" start="244.902" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="245.445" end="x">Und da sind die rein gegangen und die Gendarmerie, die Ungarische, war dann rund um das Ghetto. Wir waren dann 4 Wochen in dem Ghetto zusammen und dann deportiert nach Auschwitz.</u>
+                    <u who="#boderD" start="257.365" end="x">Nach Auschwitz?</u>
+                    <u who="#moskovitzM" start="258.194" end="x">Ja.</u>
+                    <u who="#boderD" start="258.566" end="x">Warum nach Auschwitz.</u>
+                    <u who="#moskovitzM" start="260.179" end="x">Na so—alle Juden nach Auschwitz.</u>
+                    <u who="#boderD" start="262.666" end="x">Sind Sie auch gewesen in Auschwitz?</u>
+                    <u who="#moskovitzM" start="263.968" end="x">Ja.</u>
+                    <u who="#boderD" start="264.616" end="x">Alright, also erzählen Sie mir, Mark, wie hat man dort gelebt in Auschwitz? Was ist dort passiert?</u>
+                    <u who="#moskovitzM" start="270.272" end="x">Also man ist dort rein gekommen, mir war nicht bewusst - ich war noch jung, ich war nicht .[unverständlich]</u>
+                    <u who="#boderD" start="275.732" end="x">Warum nicht?</u>
+                    <u who="#moskovitzM" start="275.898" end="x">Ich war nicht ganz richtig im Kopf.</u>
+                    <u who="#boderD" start="279.009" end="x">Was heißt das?</u>
+                    <u who="#moskovitzM" start="279.431" end="x">Drei Tage hab ich gar nichts gewusst, nicht ob Nacht, nicht ob Tag war, ich habe nichts gewusst.</u>
+                    <u who="#boderD" start="285.175" end="x">Warum haben Sie nichts gewusst?</u>
+                    <u who="#moskovitzM" start="286.240" end="x">Ah so, es war also ein Rauch von dem Krematorium, ich konnte gar nichts anderes wissen.</u>
+                    <u who="#boderD" start="293.411" end="x">Wie Sie angekommen sind in Auschwitz?</u>
+                    <u who="#moskovitzM" start="294.964" end="x">Ja, da haben sie gesagt: „Heraustreten die Fachleute“. Da bin ich rausgetreten, denn ich war ein Tischler. Da bin ich vorgetreten und mein Vater hat gesagt: „Warum bist Du herausgetreten? Jetzt ist klar, dass mir allein und Du wirst wechseln.“ Aber es . . . zurücktreten hab ich auch nicht mehr können.</u>
+                    <u who="#boderD" start="311.863" end="x">Aha, und wo war Ihre Mutter?</u>
+                    <u who="#moskovitzM" start="313.948" end="x">Die Mutter war schon . . . kaputt.</u>
+                    <u who="#boderD" start="317.139" end="x">Wann?</u>
+                    <u who="#moskovitzM" start="317.827" end="x">An diesem Tag.</u>
+                    <u who="#boderD" start="319.631" end="x">Na, warten Sie mal. Man hat Sie genommen nach Auschwitz?</u>
+                    <u who="#moskovitzM" start="322.802" end="x">Ja.</u>
+                    <u who="#boderD" start="323.134" end="x">Erzählen Sie mir die ganze Geschichte.</u>
+                    <u who="#moskovitzM" start="324.395" end="x">Man hat die herausgenommen aus unserem Waggon. Dann hat man gesagt Frauen separat und Kinder von—bis 12, 13 und 14 Jahre sollen bleiben mit der Mutter und, hm,</u>
+                    <u who="#boderD" start="336.284" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="336.697" end="x">. . . und die Älteren, die arbeiten können, sollen bleiben, ja, sollen bleiben auf der anderen Seite.</u>
+                    <u who="#boderD" start="346.080" end="x">Und die Mutter?</u>
+                    <u who="#moskovitzM" start="347.170" end="x">Und die Mutter war schon separat, denn sie hatte meine Geschwister, meinen Bruder von 10 Jahren und meine Schwester von 11 Jahren.</u>
+                    <u who="#boderD" start="356.049" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="356.351" end="x">Und die gingen mit der Mutter. Und ich mit meinem Vater und noch einem Bruder gingen auf die andere Seite.</u>
+                    <u who="#boderD" start="362.084" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="362.517" end="x">Und haben gesagt arbeiten nun und dann sind wir rein gekommen in einen Block und haben gesagt „Fachleute heraus treten“. Mein Vater hat geglaubt, dass ich bleiben werde in diesem Lager Auschwitz.</u>
+                    <u who="#boderD" start="375.188" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="375.399" end="x">Da bin ich heraus getreten und kam gleich in einen anderen Block und dann hat man mich nach Oberschlesien transportiert, nach Breslau.</u>
+                    <u who="#boderD" start="385.133" end="x">Ja. Und wann haben Sie zuletzt gesehen Ihre Mutter?</u>
+                    <u who="#moskovitzM" start="388.889" end="x">Hm, wenn man uns herausgenommen hat von dem Waggon, da habe ich zum letzten Mal gesehen meine Mutter.</u>
+                    <u who="#boderD" start="397.162" end="x">Und Sie sind überzeugt, dass man . . .</u>
+                    <u who="#moskovitzM" start="399.127" end="x">Ja, was ich gesehen habe.</u>
+                    <u who="#boderD" start="402.127" end="x">Was haben Sie gesehen?</u>
+                    <u who="#moskovitzM" start="403.097" end="x">Man hat sie rein geschmissen.</u>
+                    <u who="#boderD" start="405.052" end="x">Wo?</u>
+                    <u who="#moskovitzM" start="405.821" end="x">Ins Krematorium.</u>
+                    <u who="#boderD" start="407.102" end="x">Man hat sie dort reingeschmissen—lebendig?</u>
+                    <u who="#moskovitzM" start="409.278" end="x">Also, man . . . sie haben gesagt . . . und man hört Schreien und dann haben sie gehört das Schreien und dann haben sie gehört das Schreien wird lauter. Und dann auf einmal werden die Türen von sie Gaskammern auf und das Schreien in der Gaskammer.</u>
+                    <u who="#boderD" start="427.017" end="x">Aha. In die Gaskammer gingen sie rein. Und dann?</u>
+                    <u who="#moskovitzM" start="427.962" end="x">Ja. Und die Kranken, was von [unverständlich] nicht laufen konnte, dann mit der Maschine.</u>
+                    <u who="#boderD" start="434.277" end="x">Welche Maschine?</u>
+                    <u who="#moskovitzM" start="435.156" end="x">Von der SS Maschinen—reingeschmissen - in die Gaskammer—ins Krematorium.</u>
+                    <u who="#boderD" start="439.759" end="x">Lebendig?</u>
+                    <u who="#moskovitzM" start="440.498" end="x">Ja.</u>
+                    <u who="#boderD" start="441.136" end="x">Die Kranken?</u>
+                    <u who="#moskovitzM" start="442.146" end="x">Ja.</u>
+                    <u who="#boderD" start="443.513" end="x">Wie kann man das, war das Krematorium so gross, dass man Leute lebendig rein geben konnte?</u>
+                    <u who="#moskovitzM" start="446.629" end="x">Es war sechzig Kilometer, es war 40 Kilometer, Quadratkilometer.</u>
+                    <u who="#boderD" start="451.001" end="x">Was?</u>
+                    <u who="#moskovitzM" start="451.715" end="x">. . . war gross das Krematorium, wo man reingeschmissen hat.</u>
+                    <u who="#boderD" start="455.901" end="x">Was?</u>
+                    <u who="#moskovitzM" start="456.052" end="x">Es war in einem Wald.</u>
+                    <u who="#boderD" start="457.733" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="457.849" end="x">In einem großen Wald.</u>
+                    <u who="#boderD" start="458.326" end="x">Aber . . . ?</u>
+                    <u who="#moskovitzM" start="458.668" end="x">Was war in dem Wald und da war eine große Gruft.</u>
+                    <u who="#boderD" start="463.195" end="x">Ja</u>
+                    <u who="#moskovitzM" start="463.456" end="x">. . . und in die Gruft hat man herein geschmissen den schwarzen Schmarren.</u>
+                    <u who="#boderD" start="467.019" end="x">Was?</u>
+                    <u who="#moskovitzM" start="467.858" end="x">Einen schwarzen Schmarren geschüttet , das ist was man auf die Strassen gibt, das hat man herein geschüttet.</u>
+                    <u who="#boderD" start="474.396" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="474.658" end="x">Und das hat man angezündet und das hat gebrannt Tag und Nacht. Und die Menschen hat man rein geschmissen immer.</u>
+                    <u who="#boderD" start="481.161" end="x">Oh. Dort hat man verbrannt . . . verbrannt die Toten?</u>
+                    <u who="#moskovitzM" start="483.910" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="484.547" end="x">Verbrannt?</u>
+                    <u who="#moskovitzM" start="485.145" end="x">Ja, ja. Die Toten und [unverständlich] oft manche die noch leben.</u>
+                    <u who="#boderD" start="490.678" end="x">Oh, nicht in die Ofen?</u>
+                    <u who="#moskovitzM" start="492.613" end="x">Ach, von dem Transport diese würden in the Ofen geschmissen, diese waren, die bei der Arbeit waren, die schon Muselmann waren vom Arbeiten, diese hat man gebracht nach Auschwitz, diese - dass man die da rein schmeißt in die Gaskammern und in diese Ofen.</u>
+                    <u who="#boderD" start="507.925" end="x">Ah?</u>
+                    <u who="#moskovitzM" start="508.051" end="x">Also bitte, der erste Transport, der muss [unverständlich] gehen. Also da kommt ein Transport von sechzig tausend Gefangene und so ein kleiner Ofen dort und so viele Gefangene.</u>
+                    <u who="#boderD" start="518.290" end="x">Sie konnten nicht . . . ?</u>
+                    <u who="#moskovitzM" start="519.285" end="x">Und da hat man sie in die Gruft rein geschmissen.</u>
+                    <u who="#boderD" start="521.675" end="x">In die Gruft?</u>
+                    <u who="#moskovitzM" start="522.694" end="x">Ja.</u>
+                    <u who="#boderD" start="522.785" end="x">Und was wurde in der Gruft verbrannt?</u>
+                    <u who="#moskovitzM" start="523.869" end="x">Menschen wurden . . .</u>
+                    <u who="#boderD" start="524.774" end="x">Ja, aber . . .</u>
+                    <u who="#moskovitzM" start="525.045" end="x">Holz, Holz hat man da reingelegt und auch Teer.</u>
+                    <u who="#boderD" start="528.001" end="x">Holz und Teer?</u>
+                    <u who="#moskovitzM" start="528.886" end="x">Ja.</u>
+                    <u who="#boderD" start="530.057" end="x">Was haben Sie vorher gesagt—ein Muselmann?</u>
+                    <u who="#moskovitzM" start="532.230" end="x">Ja, das ist Muselmann, der arbeitet, der arbeitet im Lager.</u>
+                    <u who="#boderD" start="536.813" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="537.090" end="x">Und sie waren mager, nur Haut und Bein.</u>
+                    <u who="#boderD" start="540.920" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="541.251" end="x">Und die Deutschen haben gesagt, die sind Muselmann.</u>
+                    <u who="#boderD" start="543.151" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="543.452" end="x">Und sie werden gebracht nach Auschwitz und sie werden in die Ofen.</u>
+                    <u who="#boderD" start="549.302" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="549.814" end="x">Aber die Transport Massen werden in die Gruft rein geschoben.</u>
+                    <u who="#boderD" start="554.593" end="x">So, das war in Auschwitz.</u>
+                    <u who="#moskovitzM" start="555.844" end="x">Ja.</u>
+                    <u who="#boderD" start="556.100" end="x">Und so haben Sie . . . wie Sie weg sind, haben sie gesagt „die Arbeitsleute voraus“ und Sie . . .</u>
+                    <u who="#moskovitzM" start="562.040" end="x">Ja, ich bin ausgetreten.</u>
+                    <u who="#boderD" start="562.618" end="x">Was hat Ihr Vater gesagt?</u>
+                    <u who="#moskovitzM" start="564.814" end="x">Mein Vater hat geglaubt, ich soll bleiben in diesem Lager—in Auschwitz.</u>
+                    <u who="#moskovitzM" start="568.335" end="x">Aha.</u>
+                    <u who="#boderD" start="568.762" end="x">Das war Birkenau. Hier in Birkenau bin ich gekommen.</u>
+                    <u who="#moskovitzM" start="575.421" end="x">Nun so haben Sie Ihren Vater allein gelassen?</u>
+                    <u who="#boderD" start="578.708" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="579.286" end="x">Und?</u>
+                    <u who="#moskovitzM" start="579.693" end="x">Mit dem Bruder, ein Bruder auch mit dem Vater.</u>
+                    <u who="#boderD" start="582.572" end="x">Wie alt war Ihr Bruder?</u>
+                    <u who="#moskovitzM" start="584.034" end="x">Dreizehn Jahre.</u>
+                    <u who="#boderD" start="585.492" end="x">Oh, so er konnte nicht arbeiten?</u>
+                    <u who="#moskovitzM" start="587.206" end="x">Er war gewohnt von, von zu Hause, er . . . er war bei der Arbeit von Mai bis August, bis, hm, Jänner.</u>
+                    <u who="#boderD" start="597.554" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="597.790" end="x">. . . bis ins nächste Jahr. Dann wurde er transportiert von Buna nach Monowitz. Das ist in Polen, eine große Fabrik, er . . .</u>
+                    <u who="#boderD" start="607.961" end="x">Hat man den Bruder weggenommen von dem Vater?</u>
+                    <u who="#moskovitzM" start="609.966" end="x">Ja. Nein, der Bruder war mit dem Vater zusammen.</u>
+                    <u who="#boderD" start="613.805" end="x">Und der Vater war in der Fabrik?</u>
+                    <u who="#moskovitzM" start="615.242" end="x">Ja, mit dem Bruder, hat man sie transportiert und evakuiert. Die Russen sind da gekommen.</u>
+                    <u who="#boderD" start="621.109" end="x">Hm?</u>
+                    <u who="#moskovitzM" start="621.335" end="x">Und man hat sie geschickt nach Gleiwitz.</u>
+                    <u who="#boderD" start="623.340" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="623.832" end="x">In Gleiwitz und . . . in Gleiwitz waren sie.</u>
+                    <u who="#boderD" start="625.626" end="x">Aha. Im ersten Lager wohin Sie gekommen sind, wo sie haben Ihre Mutter verloren, welches Lager war das?</u>
+                    <u who="#moskovitzM" start="633.103" end="x">Das ist Birkenau.</u>
+                    <u who="#boderD" start="634.591" end="x">Birkenau?</u>
+                    <u who="#moskovitzM" start="635.275" end="x">Ja, Birkenau.</u>
+                    <u who="#boderD" start="636.174" end="x">Und dort ist ihre Mutter geblieben—mit wem, mit ihrer Schwester?</u>
+                    <u who="#moskovitzM" start="638.697" end="x">Mit einer Schwester und einem Bruder von 8 Jahren.</u>
+                    <u who="#boderD" start="642.014" end="x">Aha. So diese sind verschwunden da?</u>
+                    <u who="#moskovitzM" start="644.567" end="x">Ja.</u>
+                    <u who="#boderD" start="645.195" end="x">Und dann erst Ihr Vater mit Ihrem Bruder . . .</u>
+                    <u who="#moskovitzM" start="646.868" end="x">Ja, der Vater mit dem Bruder, hm, sind weg - in einer Fabrik arbeiten.</u>
+                    <u who="#boderD" start="651.193" end="x">In einer Fabrik?</u>
+                    <u who="#moskovitzM" start="651.786" end="x">Ja.</u>
+                    <u who="#boderD" start="652.067" end="x">In welcher Fabrik haben sie gearbeitet?</u>
+                    <u who="#moskovitzM" start="653.399" end="x">In Buna.</u>
+                    <u who="#boderD" start="654.349" end="x">In Buna.</u>
+                    <u who="#moskovitzM" start="654.786" end="x">In Buna.</u>
+                    <u who="#boderD" start="655.218" end="x">Und wie lange waren sie dort?</u>
+                    <u who="#moskovitzM" start="657.374" end="x">Sie waren von Mai . . .</u>
+                    <u who="#boderD" start="661.326" end="x">Ja. Bis?</u>
+                    <u who="#moskovitzM" start="662.427" end="x">. . . bis Jänner. Im Jänner hat man begonnen mit Evakuieren.</u>
+                    <u who="#boderD" start="666.067" end="x">Aha?</u>
+                    <u who="#moskovitzM" start="666.318" end="x">Sie sind gegangen bis Gleiwitz Eins. In Gleiwitz Eins—in Gleiwitz Eins und mehr—dann weiß ich nicht.</u>
+                    <u who="#boderD" start="672.857" end="x">Aha. Woher wissen Sie, wo sie waren? Haben sie geschrieben?</u>
+                    <u who="#moskovitzM" start="676.983" end="x">Ich habe einen Cousin.</u>
+                    <u who="#boderD" start="679.550" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="679.786" end="x">Der war mit ihnen zusammen.</u>
+                    <u who="#boderD" start="681.490" end="x">Oh, einen Cousin haben Sie, der war mit Ihnen zusammen?</u>
+                    <u who="#moskovitzM" start="683.917" end="x">Nein, er war mit meinem Vater zusammen.</u>
+                    <u who="#boderD" start="686.236" end="x">Mit ihrem Vater?</u>
+                    <u who="#moskovitzM" start="686.945" end="x">Ja.</u>
+                    <u who="#boderD" start="687.071" end="x">Und er hat Ihnen das gesagt?</u>
+                    <u who="#moskovitzM" start="688.936" end="x">Ja.</u>
+                    <u who="#boderD" start="689.876" end="x">Ja. Und wo haben Sie gearbeitet?</u>
+                    <u who="#moskovitzM" start="693.636" end="x">Ich hab gearbeitet in Oberschlesien.</u>
+                    <u who="#boderD" start="695.752" end="x">In Oberschlesien. Ja. In was für einer Fabrik haben Sie gearbeitet?</u>
+                    <u who="#moskovitzM" start="698.038" end="x">Das war eine Station.</u>
+                    <u who="#boderD" start="700.887" end="x">Was?</u>
+                    <u who="#moskovitzM" start="702.186" end="x">Das war eine Station. Das hat eine, hm, ja, wir haben gemacht eine Station.</u>
+                    <u who="#boderD" start="707.159" end="x">Eine, eine Eisenbahn - . . .</u>
+                    <u who="#moskovitzM" start="708.154" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="708.335" end="x">Station.</u>
+                    <u who="#moskovitzM" start="708.646" end="x">Ja.</u>
+                    <u who="#boderD" start="708.716" end="x">Sie haben gebaut?</u>
+                    <u who="#moskovitzM" start="710.134" end="x">Ja.</u>
+                    <u who="#boderD" start="710.304" end="x">Sie sind ein Tischler?</u>
+                    <u who="#moskovitzM" start="711.224" end="x">Nein. Da ist das egal. Ein Tischler, hm, die Goldarbeiter ist egal, sie alle tragen Zement—und, hm, [unverständlich].</u>
+                    <u who="#boderD" start="721.106" end="x">Nun und, hm, wie hat man Sie behandelt dort im Lager?</u>
+                    <u who="#moskovitzM" start="726.332" end="x">Sie geben für acht Mann ein Brot.</u>
+                    <u who="#boderD" start="728.463" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="728.850" end="x">Das Brot war ein Kilo vierzig.</u>
+                    <u who="#boderD" start="730.925" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="731.337" end="x">Und wir kriegen einen schwarzen Kaffee. Und für mittags dann eine klare Suppe und abends dann eine klare Suppe und dann [unverständlich].</u>
+                    <u who="#boderD" start="741.131" end="x">Aha. Und nun wenn jemand war krank?</u>
+                    <u who="#moskovitzM" start="743.789" end="x">Na, dann hilft nicht. Wenn jemand ist krank, dann muss es von selbst gut werden. Wenn nicht, dann geht er nach Auschwitz.</u>
+                    <u who="#boderD" start="754.055" end="x">Und hat das passiert?</u>
+                    <u who="#moskovitzM" start="755.447" end="x">Hm, das passiert von unserem Lager in drei Viertel, es bleibt ein Viertel.</u>
+                    <u who="#boderD" start="762.201" end="x">Und man hat die Anderen genommen—nach was? Nach Auschwitz?</u>
+                    <u who="#moskovitzM" start="764.116" end="x">Ja, hat man—nach Auschwitz - hat jeder verbrennt.</u>
+                    <u who="#boderD" start="771.847" end="x">Und wo haben Sie gearbeitet dort?</u>
+                    <u who="#moskovitzM" start="774.455" end="x">Ich arbeit Dies, Jenes.</u>
+                    <u who="#boderD" start="777.897" end="x">Im Januar.</u>
+                    <u who="#moskovitzM" start="778.380" end="x">Im Januar, ja.</u>
+                    <u who="#boderD" start="779.129" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="779.616" end="x">Im Januar hatten sie uns evakuiert bis Prag.</u>
+                    <u who="#boderD" start="784.209" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="784.465" end="x">Und von Prag nach Groß-Rosen - alles per Fuß. Und dann hat man uns reinwagoniert in die Wagon, 120 Mann nach Flossenbürg. In Flossenbürg war, waren wir 2 Monate, dann hat man uns nach Offenburg. Von Offenburg hat man uns eingeladen in die Wagon, weil die Amerikaner sind gekommen. Hat man unterwegs, hat man den, hat man geschossen und nur einige wenige Leute sind geblieben am Leben. Und dann sind wir aus dem großen Wagon gerannt in den großen Wald, in den Schwarzwald und dort waren auch freie andere Franzosen.</u>
+                    <u who="#boderD" start="823.742" end="x">Franzosen?</u>
+                    <u who="#moskovitzM" start="824.702" end="x">Ja.</u>
+                    <u who="#boderD" start="825.250" end="x">Nun und dann wohin sind sie gegangen von dort??</u>
+                    <u who="#moskovitzM" start="828.119" end="x">Von dort konnte ich, hm, gehen, aber ich war sehr schwach. zweiunddreißig (32) Kilo hab ich nur gehabt. Aber ich konnte gehen, aber nicht sehr weit gehen.</u>
+                    <u who="#boderD" start="838.987" end="x">Sie haben sich selbst gewogen.</u>
+                    <u who="#moskovitzM" start="840.228" end="x">Ja.</u>
+                    <u who="#boderD" start="840.500" end="x">Mit zweiunddreißig (32) Kilo?</u>
+                    <u who="#moskovitzM" start="841.258" end="x">Ja.</u>
+                    <u who="#boderD" start="841.816" end="x">Wie hoch sind Sie?</u>
+                    <u who="#moskovitzM" start="843.188" end="x">Ich bin einen Meter siebzig.</u>
+                    <u who="#boderD" start="844.902" end="x">Sie sind einen Meter siebzig?</u>
+                    <u who="#moskovitzM" start="846.284" end="x">Ja.</u>
+                    <u who="#boderD" start="846.842" end="x">Und Sie haben gewogen zweiunddreißig (32) Kilo</u>
+                    <u who="#moskovitzM" start="848.184" end="x">Ja.</u>
+                    <u who="#boderD" start="849.968" end="x">Nun?</u>
+                    <u who="#moskovitzM" start="851.259" end="x">Und ich war drei Monate . . .</u>
+                    <u who="#boderD" start="853.636" end="x">Wo?</u>
+                    <u who="#moskovitzM" start="854.294" end="x">Dort in dem . . . Immendingen hat es geheißen, das Dorf da in Bayern, ja.</u>
+                    <u who="#boderD" start="859.730" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="860.212" end="x">Und dann . . .</u>
+                    <u who="#boderD" start="861.111" end="x">Wer hat sie ernährt dort?</u>
+                    <u who="#moskovitzM" start="863.538" end="x">Wir waren es. Und dann . . .</u>
+                    <u who="#boderD" start="865.262" end="x">Was heißt das? Wer war mit Ihnen da?</u>
+                    <u who="#moskovitzM" start="867.890" end="x">Andere, Russen waren, Soldaten von verschiedene Firmen.</u>
+                    <u who="#boderD" start="872.386" end="x">Und wie haben Sie sich ernährt?</u>
+                    <u who="#moskovitzM" start="874.065" end="x">Also, wir sind rein, die Deutschen waren alle weg. Wein haben wir in der Stube gefunden und Essen.</u>
+                    <u who="#boderD" start="880.216" end="x">Ah, die Deutschen waren weg?</u>
+                    <u who="#moskovitzM" start="881.869" end="x">Ja.</u>
+                    <u who="#boderD" start="883.583" end="x">Ja und nun?</u>
+                    <u who="#moskovitzM" start="885.317" end="x">Dann sind wir gefahren nach Regensburg, nach Regensburg. Von Regensburg nach München war ich schon bis zur letzten Zeit. Dann bin ich nach Italien.</u>
+                    <u who="#boderD" start="896.457" end="x">Wie sind Sie gegangen von München nach Italien? Hat man Ihnen erlaubt zu gehen?</u>
+                    <u who="#moskovitzM" start="900.362" end="x">Ja. Wir sind mit dem Transport nach Italien.</u>
+                    <u who="#boderD" start="902.488" end="x">Wer hat es erlaubt?</u>
+                    <u who="#moskovitzM" start="903.488" end="x">Die Amerikaner haben es erlaubt.</u>
+                    <u who="#boderD" start="906.016" end="x">Und sie gingen wohin? Nach Italien?</u>
+                    <u who="#moskovitzM" start="907.076" end="x">Nach Italien, ja.</u>
+                    <u who="#boderD" start="908.930" end="x">Was, Sie haben Ihnen erlaubt zu gehen nach Italien?</u>
+                    <u who="#moskovitzM" start="910.342" end="x">Ja.</u>
+                    <u who="#boderD" start="911.262" end="x">Was haben Sie gedacht, warum nach Italien?</u>
+                    <u who="#moskovitzM" start="913.900" end="x">Weil man hat mir erzählt, dass niemand mehr zu Hause sei und warum dann nach Hause. So bin ich nach Italien.</u>
+                    <u who="#boderD" start="921.206" end="x">Oh, ansonsten wären Sie gegangen nach Hause?</u>
+                    <u who="#moskovitzM" start="923.553" end="x">Ja.</u>
+                    <u who="#boderD" start="924.442" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="924.654" end="x">Weil niemand zu Haus.</u>
+                    <u who="#boderD" start="926.247" end="x">Wie sind Sie gekommen nach Italien? Haben Sie genommen einen Zug?</u>
+                    <u who="#moskovitzM" start="929.426" end="x">Wir bekommen einen Transport, ganze Transport.</u>
+                    <u who="#boderD" start="933.296" end="x">Waren da viele, . . . viele Juden, ja?</u>
+                    <u who="#moskovitzM" start="935.603" end="x">Ja, wir waren zweihundert (200).</u>
+                    <u who="#boderD" start="938.402" end="x">Und wo sind die Anderen hin gegangen?</u>
+                    <u who="#moskovitzM" start="940.136" end="x">Die Anderen sind gegangen, sie haben gefunden Arbeit und blieben in Italien, manche kommen nach Frankreich. Viele haben . . . , in Amerika haben sie Freund . . .</u>
+                    <u who="#boderD" start="951.322" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="951.749" end="x">. . . und sie bekommen Affidavit und sind nach dort gekommen, ja.</u>
+                    <u who="#boderD" start="955.684" end="x">Sagen Sie mal, wo waren Sie in Italien?</u>
+                    <u who="#moskovitzM" start="958.232" end="x">In Torino.</u>
+                    <u who="#boderD" start="959.624" end="x">In Torino und, hm, wen . . . , wer . . . , wo haben Sie gegessen</u>
+                    <u who="#moskovitzM" start="963.580" end="x">Im UNRRA Camp.</u>
+                    <u who="#boderD" start="965.123" end="x">Die UNRRA.</u>
+                    <u who="#moskovitzM" start="965.741" end="x">Ja.</u>
+                    <u who="#boderD" start="966.012" end="x">[unverständlich] zu leben?</u>
+                    <u who="#moskovitzM" start="968.223" end="x">Ja, zu essen und zu schlafen.</u>
+                    <u who="#boderD" start="971.133" end="x">Ah, hm. Und denn? Warum sind sie gekommen nach Frankreich?</u>
+                    <u who="#moskovitzM" start="975.228" end="x">Weil ich war noch jung, ich wollte lernen ein Fach.</u>
+                    <u who="#boderD" start="978.354" end="x">Aha. Und in Italien geht das nicht?</u>
+                    <u who="#moskovitzM" start="980.841" end="x">Nein, in Italien gibt’s keine Fach [unverständlich].</u>
+                    <u who="#boderD" start="983.921" end="x">Aha. Und wer hat Ihnen gesagt, dass Sie gehen sollen nach Frankreich?</u>
+                    <u who="#moskovitzM" start="988.504" end="x">Andere Leute sind gegangen, so bin ich auch gegangen . . .</u>
+                    <u who="#boderD" start="991.454" end="x">Wie sind Sie gegangen nach Frankreich—per Eisenbahn?</u>
+                    <u who="#moskovitzM" start="994.886" end="x">Nein</u>
+                    <u who="#boderD" start="995.655" end="x">Wie denn?</u>
+                    <u who="#moskovitzM" start="996.112" end="x">Über Alpen.</u>
+                    <u who="#boderD" start="998.851" end="x">Sie sind über die Alpen gegangen?</u>
+                    <u who="#moskovitzM" start="1000.072" end="x">Ja.</u>
+                    <u who="#boderD" start="1001.645" end="x">Warum?</u>
+                    <u who="#moskovitzM" start="1003.037" end="x">Warum? Ich muss so kommen, weil ich habe kein Geld für gehen mit dem Zug, war zu viel Geld . . . [unverständlich]</u>
+                    <u who="#boderD" start="1009.787" end="x">Sind zu Fuß über die Alpen gegangen?</u>
+                    <u who="#moskovitzM" start="1012.787" end="x">Ja.</u>
+                    <u who="#boderD" start="1013.315" end="x">Wie lange hat das gedauert?</u>
+                    <u who="#moskovitzM" start="1014.938" end="x">Zwei Tage und eine Nacht.</u>
+                    <u who="#boderD" start="1017.054" end="x">So—zu gehen über die Alpen?</u>
+                    <u who="#moskovitzM" start="1018.014" end="x">Ja.</u>
+                    <u who="#boderD" start="1018.582" end="x">Haben die Franzosen Sie reingelassen?</u>
+                    <u who="#moskovitzM" start="1020.989" end="x">Wir waren da rein gekommen im französischen Dorf haben wir gegessen und geschlafen. Dann haben wir gebeten bei einem Komitee um Geld und sind dann gekommen nach Paris.</u>
+                    <u who="#boderD" start="1031.851" end="x">Haben Sie ein Einreise-Visum bekommen?</u>
+                    <u who="#moskovitzM" start="1034.381" end="x">Ja.</u>
+                    <u who="#boderD" start="1035.285" end="x">Und wer hat Ihnen das gegeben?</u>
+                    <u who="#moskovitzM" start="1037.454" end="x">Wir sind so rein gekommen.</u>
+                    <u who="#boderD" start="1039.081" end="x">Was?</u>
+                    <u who="#moskovitzM" start="1039.714" end="x">Kein Einreise-Visum.</u>
+                    <u who="#boderD" start="1040.859" end="x">[lacht etwas] Sie haben kein Visum gehabt! Wie haben die Franzosen Sie herein gelassen?</u>
+                    <u who="#moskovitzM" start="1044.654" end="x">Gut. Wir haben gesagt, wir sind Deportierte und wir haben kein . . . niemand zu Hause, wo sollen wir da hin? Wir wollen zum Arbeiten nach Paris, zum Fach lernen.</u>
+                    <u who="#boderD" start="1055.177" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="1055.780" end="x">Fach lernen.</u>
+                    <u who="#boderD" start="1057.256" end="x">Alright, so sind sie gekommen nach Paris.</u>
+                    <u who="#moskovitzM" start="1059.123" end="x">Ja.</u>
+                    <u who="#boderD" start="1059.485" end="x">Und wie haben Sie gefunden die Menschen?</u>
+                    <u who="#moskovitzM" start="1061.081" end="x">Also gefunden habe ich einen Mensch, ein Jud, er war im Zug von mir und ist auch gekommen. Ich hab ihn gefragt, wo ich kann bleiben in Paris und er hat gesagt: „Ich nehm Dich heim für zwei, drei Tag’.</u>
+                    <u who="#boderD" start="1075.281" end="x">Hier?</u>
+                    <u who="#moskovitzM" start="1076.004" end="x">Ja, Paris.</u>
+                    <u who="#boderD" start="1077.179" end="x">Und?</u>
+                    <u who="#moskovitzM" start="1078.625" end="x">Und ich war dort zwei oder drei Tage. Dann bin ich weg nach (Venesse a gis?) und von dort hat man geschickt nach Pert (?).</u>
+                    <u who="#boderD" start="1086.848" end="x">Nach wo?</u>
+                    <u who="#moskovitzM" start="1087.511" end="x">Pert.</u>
+                    <u who="#boderD" start="1088.415" end="x">Wo ist das?</u>
+                    <u who="#moskovitzM" start="1089.198" end="x">Nahe bei Paris.</u>
+                    <u who="#boderD" start="1090.704" end="x">Aha! Nun und denn?</u>
+                    <u who="#moskovitzM" start="1092.692" end="x">Und da hat man mir gegeben zu essen und zu schlafen. Und ich habe gesagt, dass ich ein Fach lernen will.</u>
+                    <u who="#boderD" start="1101.728" end="x">Aha. Und wo haben Sie gefunden Ihren Cousin?</u>
+                    <u who="#moskovitzM" start="1105.493" end="x">Mit meinem Cousin komme ich zusammen von Italien.</u>
+                    <u who="#boderD" start="1108.987" end="x">Aber wo haben Sie ihn gefunden?</u>
+                    <u who="#moskovitzM" start="1110.674" end="x">Wir waren noch in Deutschland zusammen, nach der Befreiung habe ich ihn gefunden.</u>
+                    <u who="#boderD" start="1114.831" end="x">Oh, nach der Befreiung?</u>
+                    <u who="#moskovitzM" start="1115.825" end="x">Ja.</u>
+                    <u who="#boderD" start="1116.367" end="x">Und erzählen Sie mir, wie haben Sie sich gefunden? Bitte.</u>
+                    <u who="#moskovitzM" start="1120.032" end="x">Ich bin gekommen nach Regensburg.</u>
+                    <u who="#boderD" start="1123.064" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="1123.446" end="x">Man hat mir gesagt, er ist in München. Und ich komme nach München und habe ihn gefunden in der Kaserne.</u>
+                    <u who="#boderD" start="1131.520" end="x">In der Kaserne.</u>
+                    <u who="#moskovitzM" start="1132.052" end="x">Ja.</u>
+                    <u who="#boderD" start="1132.946" end="x">Und war er von Ihrer Stadt?</u>
+                    <u who="#moskovitzM" start="1135.044" end="x">Ja.</u>
+                    <u who="#boderD" start="1135.908" end="x">War er zusammen mit Ihnen?</u>
+                    <u who="#moskovitzM" start="1137.063" end="x">Nein, mit meinem Vater.</u>
+                    <u who="#boderD" start="1138.599" end="x">Wieso, hm, war . . . war er mit Ihrem Vater? Wieso?</u>
+                    <u who="#moskovitzM" start="1141.932" end="x">Wieso?</u>
+                    <u who="#boderD" start="1142.879" end="x">Ist er der junge Mann, der war mit Ihnen?</u>
+                    <u who="#moskovitzM" start="1144.706" end="x">Ja, ja.</u>
+                    <u who="#boderD" start="1145.309" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="1146.915" end="x">Er war mit dem Vater zusammen. Und sein Vater war mit mir zusammen in Flossenbürg.</u>
+                    <u who="#boderD" start="1152.592" end="x">Ihr Vater war mit ihm zusammen?</u>
+                    <u who="#moskovitzM" start="1155.486" end="x">Ja, und mein . . .</u>
+                    <u who="#boderD" start="1156.320" end="x">Und sein Vater war mit Ihnen in Flossenbürg.</u>
+                    <u who="#moskovitzM" start="1157.967" end="x">Ja, In Flossenbürg.</u>
+                    <u who="#boderD" start="1159.694" end="x">Aha. Nun, haben sie Verwandte hier in Paris?</u>
+                    <u who="#moskovitzM" start="1164.065" end="x">Nein.</u>
+                    <u who="#boderD" start="1164.637" end="x">Sie haben keine.</u>
+                    <u who="#moskovitzM" start="1165.521" end="x">In Amerika habe ich, aber ich weiß keine Adresse.</u>
+                    <u who="#boderD" start="1168.382" end="x">In welcher Stadt?</u>
+                    <u who="#moskovitzM" start="1169.951" end="x">Das weiß ich nicht. Ich weiß den Namen von, hm, den Namen.</u>
+                    <u who="#boderD" start="1175.975" end="x">Haben Sie gesprochen mit HIAS?</u>
+                    <u who="#moskovitzM" start="1178.338" end="x">Was ist das? Mit wem?</u>
+                    <u who="#boderD" start="1180.256" end="x">Das ist die amerikanische Vermittlung in Paris. Haben Sie damit gesprochen?</u>
+                    <u who="#moskovitzM" start="1183.358" end="x">Nein, nein, noch nicht.</u>
+                    <u who="#boderD" start="1184.766" end="x">Warum suchen Sie die nicht auf und reden mit denen?</u>
+                    <u who="#moskovitzM" start="1187.146" end="x">Weil ich weiß vor dem Krieg haben wir gekriegt jede zwei Wochen—haben wir gekriegt Post. Aber wie wir nach Auschwitz deportiert sind alle, haben sie verbrennt alle Dokumente und ich weiß die Adresse nicht.</u>
+                    <u who="#boderD" start="1200.245" end="x">Ja, aber . . .</u>
+                    <u who="#moskovitzM" start="1200.807" end="x">Ich war da noch zu jung und habe mir nichts gemerkt. Ich weiß nicht.</u>
+                    <u who="#boderD" start="1203.156" end="x">Ja, aber wissen Sie nicht in welcher Stadt er lebt?</u>
+                    <u who="#moskovitzM" start="1205.174" end="x">Nein.</u>
+                    <u who="#boderD" start="1205.766" end="x">Wissen Sie, dass es dieses Komitee, ein amerikanisches Komitee, gibt hier das sucht Verwandte?</u>
+                    <u who="#moskovitzM" start="1211.503" end="x">Wo? Hier in Paris?</u>
+                    <u who="#boderD" start="1212.306" end="x">Hier in Paris, yes, ein sehr feines Komitee.</u>
+                    <u who="#moskovitzM" start="1215.560" end="x">Ich weiß die Adresse nicht.</u>
+                    <u who="#boderD" start="1216.209" end="x">Man nennt es die HIAS.</u>
+                    <u who="#moskovitzM" start="1218.890" end="x">Die HIAS?</u>
+                    <u who="#boderD" start="1219.964" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="1220.607" end="x">Und wie lange kann das dauern? Wie lange . . .</u>
+                    <u who="#boderD" start="1222.153" end="x">Dauern . . . drei Monate, es kann dauern sechs Monate, aber den finden sie gewöhnlich. Hm, hm, dieses Komitee ist hier in Paris. Sie fragen Herrn Bramson. Er wird sich mit denen in Verbindung setzen; und sie geben ihm den Namen und sie . . .</u>
+                    <u who="#moskovitzM" start="1244.604" end="x">Den Namen des Onkels?</u>
+                    <u who="#boderD" start="1245.237" end="x">. . . geben das in die News—in die Zeitungen und dann wird schon.</u>
+                    <u who="#moskovitzM" start="1247.289" end="x">Ja.</u>
+                    <u who="#boderD" start="1248.002" end="x">. . . dann wird schon jemand gefunden. Verstehen Sie?</u>
+                    <u who="#moskovitzM" start="1251.368" end="x">Ja.</u>
+                    <u who="#boderD" start="1252.643" end="x">Und sonst—wo denken Sie zu bleiben? Wohin wollen Sie gehen, wenn Sie haben gelernt ein Fach?</u>
+                    <u who="#moskovitzM" start="1257.767" end="x">Vielleicht wenn man findet meinen Onkel in Amerika, vielleicht werd ich dort gehen.</u>
+                    <u who="#boderD" start="1262.912" end="x">Und sonst?</u>
+                    <u who="#moskovitzM" start="1263.846" end="x">Und sonst—hab nirgendwo hin zu gehen. Muss bleiben in Paris.</u>
+                    <u who="#boderD" start="1272.581" end="x">Alright. Ich habe hier ein paar Bilder und ich will, dass Sie mir sagen, was ihre Meinung von die Bilder ist. Zum Beispiel: was ist das?</u>
+                    <u who="#moskovitzM" start="1284.199" end="x">Das ist ein Bild.</u>
+                    <u who="#boderD" start="1286.187" end="x">Ja, aber beschreiben Sie. Was ist es? Was denken Sie ist es?</u>
+                    <u who="#moskovitzM" start="1306.941" end="x">Das ist eine Frau.</u>
+                    <u who="#boderD" start="1308.317" end="x">Ja, hm?</u>
+                    <u who="#moskovitzM" start="1309.428" end="x">Eine Arbeitsfrau.</u>
+                    <u who="#boderD" start="1311.175" end="x">Ja.</u>
+                    <u who="#moskovitzM" start="1312.761" end="x">Und ist sehr verklärt.</u>
+                    <u who="#boderD" start="1315.132" end="x">Ist verklärt?</u>
+                    <u who="#moskovitzM" start="1315.935" end="x">Ja.</u>
+                    <u who="#boderD" start="1316.497" end="x">Was denken Sie, denkt sie?</u>
+                    <u who="#moskovitzM" start="1318.907" end="x">Sie denkt an ihren Mann und an ihre Kinder.</u>
+                    <u who="#boderD" start="1322.599" end="x">Hm, alright, was ist das?</u>
+                    <u who="#moskovitzM" start="1334.497" end="x">Das war im Lager.</u>
+                    <u who="#boderD" start="1336.274" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="1337.961" end="x">Ein Bruder zum Anderen hat gesagt: ‚Ah, ich bin jetzt krank, aber vielleicht wirst du nach Hause gehen, um zu sagen dem Vater, ich muss sterben.’ Also passiert in einem Lager.</u>
+                    <u who="#boderD" start="1352.899" end="x">Was ist das? Moment, bitte—was ist dies?</u>
+                    <u who="#moskovitzM" start="1360.158" end="x">Das ist zwei Mal Damen.</u>
+                    <u who="#boderD" start="1361.995" end="x">Ja. Erzählen Sie mir, was kommt da vor?</u>
+                    <u who="#moskovitzM" start="1367.809" end="x">Die sehen aus wie zwei Schwestern.</u>
+                    <u who="#boderD" start="1370.309" end="x">Ja. Was hat passiert?</u>
+                    <u who="#moskovitzM" start="1375.670" end="x">Sie haben vielleicht nach dem Krieg . . . Einem mit dem Anderen (zu leise—murmelt—unverständlich)</u>
+                    <u who="#boderD" start="1382.630" end="x">Sprechen Sie lauter! Ja. Und was ist das?</u>
+                    <u who="#moskovitzM" start="1395.577" end="x">Das ist ein Mensch.</u>
+                    <u who="#boderD" start="1396.963" end="x">Ja. Und was?</u>
+                    <u who="#moskovitzM" start="1400.246" end="x">Er sieht aus wie ein Muselmann.</u>
+                    <u who="#boderD" start="1402.957" end="x">Ja? Sprechen Sie lauter. Wie sieht er aus?</u>
+                    <u who="#moskovitzM" start="1406.602" end="x">Wie ein Muselmann.</u>
+                    <u who="#boderD" start="1407.945" end="x">Ja? Was ist ein Muselmann?</u>
+                    <u who="#moskovitzM" start="1410.638" end="x">Ein Muselmann ist ein Mensch Haut und Bein.</u>
+                    <u who="#boderD" start="1414.011" end="x">Wer hat ihn genannt den Muselmann?</u>
+                    <u who="#moskovitzM" start="1415.939" end="x">Was?</u>
+                    <u who="#boderD" start="1416.632" end="x">Wer hat sie genannt Muselmann?</u>
+                    <u who="#moskovitzM" start="1418.650" end="x">Die Deutschen.</u>
+                    <u who="#boderD" start="1420.066" end="x">Und was haben sie getan mit dem Muselmann?</u>
+                    <u who="#moskovitzM" start="1421.873" end="x">Sie haben gesagt: ‚Du bist ein Muselmann, du hast kein Recht zum Leben.’</u>
+                    <u who="#boderD" start="1425.819" end="x">Und dann?</u>
+                    <u who="#moskovitzM" start="1426.783" end="x">Und danach reden: „Steh auf, Mensch, Du darfst nicht leben. Geh nach Krematorium.’</u>
+                    <u who="#boderD" start="1434.193" end="x">Ah hm. Und was ist das?</u>
+                    <u who="#moskovitzM" start="1440.609" end="x">Und das ist zwei Frauen und ein Mann—arbeiten—im Feld arbeiten.</u>
+                    <u who="#boderD" start="1446.874" end="x">Ja?</u>
+                    <u who="#moskovitzM" start="1453.654" end="x">Und das - vielleicht sind sie in Amerika.</u>
+                    <u who="#boderD" start="1458.895" end="x">Hm. Alright. Und was ist das?</u>
+                    <u who="#moskovitzM" start="1470.552" end="x">Das ist ein Kind. Was der Doktor dem gelernt hat ist eine Fiedel. Und er kann es spielen, weil er gut war.</u>
+                    <u who="#boderD" start="1480.462" end="x">Was war er?</u>
+                    <u who="#moskovitzM" start="1481.214" end="x">Weil er gut war, kann er es spielen.</u>
+                    <u who="#boderD" start="1484.256" end="x">Aha, nun?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="1489.801" end="x">[In English] This concludes the interview with Mark Moskovski on July 30, 1946, a boy of, hm, Czechoslovakia, age 19.</u>
+                </div>
+                <!-- end spool 9-6A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#moskovitzM_en">
+                <!-- begin spool 9-6A -->
+                <div lang="en">
+                    <u who="#boderD" start="43.417" end="x">[In English] This is Spool number 6, a young man, Marko Moskovitz, a pupil at the <term ref="#vothG_ort">ORT</term>. The record is being taken on July 30th, 1946.</u>
+                    <u who="#boderD" start="60.934" end="x">[In German] What do you say is your name?</u>
+                    <u who="#moskovitzM" start="65.398" end="x">Moskovitz, Marko.</u>
+                    <u who="#boderD" start="67.041" end="x">Moskovitz, Marko. And . . . and how long have you been in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#moskovitzM" start="72.091" end="x">Two weeks.</u>
+                    <u who="#boderD" start="73.372" end="x">From where did you come to <placeName ref="Paris">Paris</placeName>? [Words not clear.]</u>
+                    <u who="#moskovitzM" start="75.437" end="x">From Germany. From Germany I went to Italy. From Italy to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="82.130" end="x">From Germany to Italy.</u>
+                    <u who="#moskovitzM" start="83.602" end="x">Yes.</u>
+                    <u who="#boderD" start="83.683" end="x">And from Italy to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#moskovitzM" start="85.055" end="x">Yes.</u>
+                    <u who="#boderD" start="85.392" end="x">And where were you born, Marko?</u>
+                    <u who="#moskovitzM" start="87.477" end="x">In the <placeName ref="Carpathian Mountains Region">Carpathians</placeName>.</u>
+                    <u who="#boderD" start="89.060" end="x">In the <placeName ref="Carpathian Mountains Region">Carpathians</placeName>.</u>
+                    <u who="#moskovitzM" start="89.557" end="x">In Carpatho-Rus- . . . [Ruthenia?]</u>
+                    <u who="#boderD" start="90.844" end="x">And when did you come to Germany?</u>
+                    <u who="#moskovitzM" start="93.764" end="x">In Germany . . . since the deportation.</u>
+                    <u who="#boderD" start="96.643" end="x">Deported?</u>
+                    <u who="#moskovitzM" start="97.237" end="x">Yes.</u>
+                    <u who="#boderD" start="97.710" end="x">In what year?</u>
+                    <u who="#moskovitzM" start="99.233" end="x">In thousand nine hundred and forty-two [1942] I was deported.</u>
+                    <u who="#boderD" start="102.494" end="x">You were deported. How old are you now?</u>
+                    <u who="#moskovitzM" start="104.823" end="x">Nineteen years.</u>
+                    <u who="#boderD" start="105.828" end="x">You are nineteen years old. So how old were you when you were deported?</u>
+                    <u who="#moskovitzM" start="109.823" end="x">I was seventeen years [old].</u>
+                    <u who="#boderD" start="111.602" end="x">You were with your family [?]?</u>
+                    <u who="#moskovitzM" start="113.070" end="x">Yes.</u>
+                    <u who="#boderD" start="113.875" end="x">You were seventeen years old.</u>
+                    <u who="#moskovitzM" start="115.699" end="x">Yes.</u>
+                    <u who="#boderD" start="116.101" end="x">All right. Now tell me, who were your parents? Who were your family, and all that?</u>
+                    <u who="#moskovitzM" start="122.965" end="x">My . . .</u>
+                    <u who="#boderD" start="124.954" end="x">Nu?</u>
+                    <u who="#moskovitzM" start="125.502" end="x">Yes. Hirsh was my father, and my mother Dwoira. I had five siblings.</u>
+                    <u who="#boderD" start="135.678" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="136.115" end="x">And all were deported. And I have remained alone.</u>
+                    <u who="#boderD" start="139.014" end="x">Aha. And now, what was your father's occupation?</u>
+                    <u who="#moskovitzM" start="143.754" end="x">An agricultural worker.</u>
+                    <u who="#boderD" start="146.081" end="x">He was an agricultural worker.</u>
+                    <u who="#moskovitzM" start="147.232" end="x">Yes.</u>
+                    <u who="#boderD" start="147.358" end="x">In which town?</u>
+                    <u who="#moskovitzM" start="148.861" end="x"><placeName ref="Solotvyno">Solotvyna</placeName>.</u>
+                    <u who="#boderD" start="150.042" end="x"><placeName ref="Solotvyno">Solotvyna</placeName>.</u>
+                    <u who="#moskovitzM" start="150.871" end="x">Yes.</u>
+                    <u who="#boderD" start="150.982" end="x">Was that Poland?</u>
+                    <u who="#moskovitzM" start="152.057" end="x">No. That was Czechoslovakia . . . in the '39th year.</u>
+                    <u who="#boderD" start="156.877" end="x">And then what did it become?</u>
+                    <u who="#moskovitzM" start="158.611" end="x">Then the Hungarians . . .</u>
+                    <u who="#boderD" start="160.284" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="160.757" end="x">And now the Russians.</u>
+                    <u who="#boderD" start="162.463" end="x">Now the Russians are there.</u>
+                    <u who="#moskovitzM" start="163.518" end="x">Yes.</u>
+                    <u who="#boderD" start="163.699" end="x">But the Hungarians had taken it.</u>
+                    <u who="#moskovitzM" start="165.232" end="x">Yes.</u>
+                    <u who="#boderD" start="165.448" end="x">Tell me, what happened when the Hungarians took your place?</u>
+                    <u who="#moskovitzM" start="172.009" end="x">[They] entered . . . Two weeks before <term ref="#vothG_pesach">Pesach</term> they entered.</u>
+                    <u who="#boderD" start="176.964" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="177.110" end="x">In the '39th year.</u>
+                    <u who="#boderD" start="179.035" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="179.553" end="x">Then they began to deport the Jews. Not to deport, but to [make them] go to work.</u>
+                    <u who="#boderD" start="187.101" end="x">Aha. What does it mean, they were made to go to work? Tell me . . .</u>
+                    <u who="#moskovitzM" start="190.101" end="x">And so, to wear . . .</u>
+                    <u who="#boderD" start="190.583" end="x">. . . everything the way it . . .</u>
+                    <u who="#moskovitzM" start="192.679" end="x">. . . yellow bands.</u>
+                    <u who="#boderD" start="194.533" end="x">You have . . .</u>
+                    <u who="#moskovitzM" start="194.975" end="x">They began to wear yellow bands. And my father had also . . .</u>
+                    <u who="#boderD" start="199.300" end="x">Had also . . .</u>
+                    <u who="#moskovitzM" start="199.793" end="x">Yes, also wore a yellow star.</u>
+                    <u who="#boderD" start="201.913" end="x">And you?</u>
+                    <u who="#moskovitzM" start="202.792" end="x">Not I [?].</u>
+                    <u who="#boderD" start="203.767" end="x">Why?</u>
+                    <u who="#moskovitzM" start="204.853" end="x">I was still . . . I was still young.</u>
+                    <u who="#boderD" start="207.708" end="x">You were still young.</u>
+                    <u who="#moskovitzM" start="208.356" end="x">Yes.</u>
+                    <u who="#boderD" start="208.793" end="x">And the women?</u>
+                    <u who="#moskovitzM" start="210.125" end="x">The women, too.</u>
+                    <u who="#boderD" start="211.296" end="x">The women, too.</u>
+                    <u who="#moskovitzM" start="211.602" end="x">The women had remained.</u>
+                    <u who="#boderD" start="213.295" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="213.677" end="x">And then they [word not clear].</u>
+                    <u who="#boderD" start="215.049" end="x">What does it mean, they had remained?</u>
+                    <u who="#moskovitzM" start="216.170" end="x">The women were not yet taken.</u>
+                    <u who="#boderD" start="218.587" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="219.371" end="x">And then a <term ref="#vothG_ghetto">ghetto</term> was made.</u>
+                    <u who="#boderD" start="223.421" end="x">Yes. Tell please . . .</u>
+                    <u who="#moskovitzM" start="225.386" end="x">They started to wear the stars.</u>
+                    <u who="#boderD" start="227.494" end="x">Aha. How did they make the <placeName ref="Máramarossziget Ghetto" type="camp">ghetto</placeName>?</u>
+                    <u who="#moskovitzM" start="231.027" end="x">In <placeName ref="Solotvyno">Solotvyna</placeName> [<placeName ref="Máramarossziget Ghetto" type="camp">Sighet Ghetto</placeName>].</u>
+                    <u who="#boderD" start="232.530" end="x">Yes, but how was it done? Was it . . .</u>
+                    <u who="#moskovitzM" start="235.440" end="x">It was announced that every person must report.</u>
+                    <u who="#boderD" start="239.073" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="239.626" end="x">And then it was ordered that all Jews must go into one street.</u>
+                    <u who="#boderD" start="244.902" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="245.445" end="x">They went in. Then they were surrounded by Hungarian <term ref="#vothG_gendarme">gendarmerie</term>. The <placeName ref="Máramarossziget Ghetto" type="camp">ghetto</placeName> was surrrounded. We were four weeks in the <placeName ref="Máramarossziget Ghetto" type="camp">ghetto</placeName>. Then we were transported to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="257.365" end="x">To <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#moskovitzM" start="258.194" end="x">Yes.</u>
+                    <u who="#boderD" start="258.566" end="x">What for to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#moskovitzM" start="260.179" end="x">Just so. All Jews to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="262.666" end="x">Have you, too, been in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#moskovitzM" start="263.968" end="x">Yes.</u>
+                    <u who="#boderD" start="264.616" end="x">All right. Now tell me, how did people live in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>? What happened there?</u>
+                    <u who="#moskovitzM" start="270.272" end="x">The first day when we arrived I did not know . . . I was still young [word not clear] . . .</u>
+                    <u who="#boderD" start="275.732" end="x">Why [not]?</u>
+                    <u who="#moskovitzM" start="275.898" end="x">I was so mixed up in my head [confused].</u>
+                    <u who="#boderD" start="279.009" end="x">What is that?</u>
+                    <u who="#moskovitzM" start="279.431" end="x">For three days I did not know anything, whether night or day . . .</u>
+                    <u who="#boderD" start="285.175" end="x">Why did you not know?</u>
+                    <u who="#moskovitzM" start="286.240" end="x">Just so. There was such a smoke from the crematory that one could not know anything.</u>
+                    <u who="#boderD" start="293.411" end="x">When you arrived in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#moskovitzM" start="294.964" end="x">Yes. Then it was said, 'Craftsmen, step forward.' So I reported as a carpenter. I stepped forward. Then my father said, 'Why did you step forward? Now you will leave and I will remain here alone.' I wanted to go back, but I could not go back any more.</u>
+                    <u who="#boderD" start="311.863" end="x">Aha. And where was the mother?</u>
+                    <u who="#moskovitzM" start="313.948" end="x">The mother was already . . . kaput.</u>
+                    <u who="#boderD" start="317.139" end="x">When?</u>
+                    <u who="#moskovitzM" start="317.827" end="x">Then, the same day.</u>
+                    <u who="#boderD" start="319.631" end="x">Wait a moment. You were taken to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#moskovitzM" start="322.802" end="x">Yes.</u>
+                    <u who="#boderD" start="323.134" end="x">Tell me the whole story.</u>
+                    <u who="#moskovitzM" start="324.395" end="x">We were taken out of the RR-cars. We were told women separately and children from . . . up to twelve, thirteen years, fifteen years should go with their mothers.</u>
+                    <u who="#boderD" start="336.284" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="336.697" end="x">And the . . . the older ones who are able to work should go . . .</u>
+                    <u who="#boderD" start="341.454" end="x">[Word not clear.]</u>
+                    <u who="#moskovitzM" start="341.926" end="x">Yes. Should go to the other side.</u>
+                    <u who="#boderD" start="346.080" end="x">And the mother?</u>
+                    <u who="#moskovitzM" start="347.170" end="x">And the mother was already separated, because she had my siblings, my brother of eight and my sister of eleven years.</u>
+                    <u who="#boderD" start="356.049" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="356.351" end="x">They went with the mother.</u>
+                    <u who="#boderD" start="357.713" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="358.391" end="x">And I with my father and another brother went to the other side.</u>
+                    <u who="#boderD" start="362.084" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="362.517" end="x">We were all taken to labor. Then we came into a <term ref="#vothG_block">block</term>. We were told, 'Craftsmen, step forward.' My father believed that I will remain in the <term ref="#vothG_lager">lager</term>
+                        <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="375.188" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="375.399" end="x">So I stepped forward, [reported] that I am a carpenter.</u>
+                    <u who="#boderD" start="378.268" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="378.550" end="x">[When] I stepped forward, I was taken to another <term ref="#vothG_block">block</term>. And then I was transported to Upper Silesia, to <placeName ref="Wrocław">Breslau</placeName>.</u>
+                    <u who="#boderD" start="385.133" end="x">Yes. Nu, when have you last seen your mother?</u>
+                    <u who="#moskovitzM" start="388.889" end="x">Since we were taken out of the RR-cars, since then, I have not seen my mother.</u>
+                    <u who="#boderD" start="397.162" end="x">And you are certain that she was . . .</u>
+                    <u who="#moskovitzM" start="399.127" end="x">Yes. We saw all that, everything.</u>
+                    <u who="#boderD" start="402.127" end="x">What did you see?</u>
+                    <u who="#moskovitzM" start="403.097" end="x">How they were thrown in.</u>
+                    <u who="#boderD" start="405.052" end="x">Where?</u>
+                    <u who="#moskovitzM" start="405.821" end="x">In the crematory.</u>
+                    <u who="#boderD" start="407.102" end="x">But they were not thrown in alive.</u>
+                    <u who="#moskovitzM" start="409.278" end="x">Just so. They were . . . they were told . . . When they began to scream . . . and then we heard that they scream louder. Suddenly the gates of the gas chamber were opened.</u>
+                    <u who="#boderD" start="422.796" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="425.506" end="x">[They] entered. We heard not one word more.</u>
+                    <u who="#boderD" start="427.017" end="x">They entered the gas chambers.</u>
+                    <u who="#moskovitzM" start="427.962" end="x">Yes. And then the sick who could not walk were instantly with the machines . . .</u>
+                    <u who="#boderD" start="434.277" end="x">What machines?</u>
+                    <u who="#moskovitzM" start="435.156" end="x">From the <term ref="#vothG_ss">SS</term> machines [autos? mobile gas chambers?] thrown in, tossed straight in the crematory.</u>
+                    <u who="#boderD" start="439.759" end="x">Alive?</u>
+                    <u who="#moskovitzM" start="440.498" end="x">Yes.</u>
+                    <u who="#boderD" start="441.136" end="x">The sick.</u>
+                    <u who="#moskovitzM" start="442.146" end="x">Yes.</u>
+                    <u who="#boderD" start="443.513" end="x">How can one . . . was the crematory so big that one could throw in live people?</u>
+                    <u who="#moskovitzM" start="446.629" end="x">It was . . . it was forty square kilometers.</u>
+                    <u who="#boderD" start="451.001" end="x">What?</u>
+                    <u who="#moskovitzM" start="451.715" end="x">Forty-kilometers square was the [word not clear].</u>
+                    <u who="#boderD" start="455.901" end="x">What . . .</u>
+                    <u who="#moskovitzM" start="456.052" end="x">There was a forest.</u>
+                    <u who="#boderD" start="457.733" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="457.849" end="x">A large forest.</u>
+                    <u who="#boderD" start="458.326" end="x">But . . .</u>
+                    <u who="#moskovitzM" start="458.668" end="x">There was a . . . a forest, and in that forest there was a huge pit.</u>
+                    <u who="#boderD" start="463.195" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="463.456" end="x">And in that pit black pitch was always poured.</u>
+                    <u who="#boderD" start="467.019" end="x">What?</u>
+                    <u who="#moskovitzM" start="467.858" end="x">Such a black tar which . . . which is poured on streets.</u>
+                    <u who="#boderD" start="472.597" end="x">Yes, which . . .</u>
+                    <u who="#moskovitzM" start="473.135" end="x">This was poured in.</u>
+                    <u who="#boderD" start="474.396" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="474.658" end="x">This was ignited, and this was burning day and night. And the people were being continuously thrown in.</u>
+                    <u who="#boderD" start="481.161" end="x">Oh. Thus the dead were . . .</u>
+                    <u who="#moskovitzM" start="483.051" end="x">Yes.</u>
+                    <u who="#boderD" start="483.332" end="x">. . . burned.</u>
+                    <u who="#moskovitzM" start="483.910" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="484.547" end="x">But not alive.</u>
+                    <u who="#moskovitzM" start="485.145" end="x">Dead. Often alive, who still had years, [who] could still live.</u>
+                    <u who="#boderD" start="490.678" end="x">Oh. Not in an oven?</u>
+                    <u who="#moskovitzM" start="492.613" end="x">Ach . . . the transports which . . . these were thrown in the oven who were at work. [Those who] were already <term ref="#vothG_mussulman">Mussulmen</term> [people emaciated to the bone], could not work any more, these were brought to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, and these were thrown in the gas chamber and into the oven.</u>
+                    <u who="#boderD" start="507.925" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="508.051" end="x">But the first transports could not go . . . so many . . . so many . . . There would arrive a transport of sixty thousand people. It was impossible in the oven, a small oven. It was . . .</u>
+                    <u who="#boderD" start="518.290" end="x">So they could not . . .</u>
+                    <u who="#moskovitzM" start="519.285" end="x">They were always thrown into the pit.</u>
+                    <u who="#boderD" start="521.675" end="x">A pit?</u>
+                    <u who="#moskovitzM" start="522.694" end="x">Yes.</u>
+                    <u who="#boderD" start="522.785" end="x">And what was being burned in the pit? [Footnote: The interviewer has apparently become confused if not perplexed by the story which was recorded the second day after his arrival. It is one of the early reports, his first face to face contact with eyewitnesses from <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.]</u>
+                    <u who="#moskovitzM" start="523.869" end="x">People were . . .</u>
+                    <u who="#boderD" start="524.774" end="x">Yes, but . . .</u>
+                    <u who="#moskovitzM" start="525.045" end="x">Wood . . . wood was put in and tar.</u>
+                    <u who="#boderD" start="528.001" end="x">Wood and tar.</u>
+                    <u who="#moskovitzM" start="528.886" end="x">Yes.</u>
+                    <u who="#boderD" start="530.057" end="x">What did you say before, a <term ref="#vothG_mussulman">Mussulman</term>?</u>
+                    <u who="#moskovitzM" start="532.230" end="x">Yes. These <term ref="#vothG_mussulman">Mussulmen</term>, who worked . . . were working in the <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="536.813" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="537.090" end="x">And they became thin people, just skin and bones.</u>
+                    <u who="#boderD" start="540.920" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="541.251" end="x">The Germans called them <term ref="#vothG_mussulman">Mussulmen</term>.</u>
+                    <u who="#boderD" start="543.151" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="543.452" end="x">And they were taken to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, and they were thrown in the oven.</u>
+                    <u who="#boderD" start="549.302" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="549.814" end="x">But the transports were tossed into pits.</u>
+                    <u who="#boderD" start="554.593" end="x">So that was in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#moskovitzM" start="555.844" end="x">Yes.</u>
+                    <u who="#boderD" start="556.100" end="x">And so did you . . . And then when you departed . . . they ordered, 'Workers, step forward,' and you left . . .</u>
+                    <u who="#moskovitzM" start="562.040" end="x">Yes, I left.</u>
+                    <u who="#boderD" start="562.618" end="x">What did your father say?</u>
+                    <u who="#moskovitzM" start="564.814" end="x">The father believed that I will remain in this <term ref="#vothG_lager">lager</term>, in <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="568.335" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="568.762" end="x">It was <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>. There in <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName> [words not clear].</u>
+                    <u who="#boderD" start="575.421" end="x">Nu, then you left your father alone.</u>
+                    <u who="#moskovitzM" start="578.708" end="x">Yes.</u>
+                    <u who="#boderD" start="579.286" end="x">And . . .</u>
+                    <u who="#moskovitzM" start="579.693" end="x">With the brother. A brother, too, with the father.</u>
+                    <u who="#boderD" start="582.572" end="x">How old was the brother?</u>
+                    <u who="#moskovitzM" start="584.034" end="x">Thirteen years [old].</u>
+                    <u who="#boderD" start="585.492" end="x">Oh. So he could not be a worker.</u>
+                    <u who="#boderD" start="587.206" end="x">Since home he was used to . . . he . . . he was at work since May until August . . . [correction] until January . . .</u>
+                    <u who="#boderD" start="597.554" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="597.790" end="x">. . . in the year '45[?]. He was transported from . . . He was in <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>, in <placeName ref="Monowitz concentration camp" type="camp">Monowitz</placeName>. It is in Poland, a large factory, so he [?] . . .</u>
+                    <u who="#boderD" start="607.961" end="x">Had he been taken away from the father?</u>
+                    <u who="#boderD" start="609.966" end="x">Yes . . . no, the brother was together with the father.</u>
+                    <u who="#boderD" start="613.805" end="x">And the father was in a factory?</u>
+                    <u who="#moskovitzM" start="615.242" end="x">Yes, with the brother. He was transported . . . evacuated. The Russians had arrived.</u>
+                    <u who="#boderD" start="621.109" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="621.335" end="x">They were sent to <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>.</u>
+                    <u who="#boderD" start="623.340" end="x">Hm.</u>
+                    <u who="#moskovitzM" start="623.832" end="x">In <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName>. And in <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName> there they were . . .</u>
+                    <u who="#boderD" start="625.626" end="x">Aha. The first <term ref="#vothG_lager">lager</term> you arrived at, where you lost your mother, which <term ref="#vothG_lager">lager</term> was that?</u>
+                    <u who="#moskovitzM" start="633.103" end="x">That is <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="634.591" end="x"><placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#moskovitzM" start="635.275" end="x">Yes, <placeName ref="Birkenau concentration camp" type="camp">Birkenau</placeName>.</u>
+                    <u who="#boderD" start="636.174" end="x">And there your mother remained. With whom, with your sister?</u>
+                    <u who="#moskovitzM" start="638.697" end="x">With the sister and a little brother eight years old.</u>
+                    <u who="#boderD" start="642.014" end="x">Aha. They disappeared there.</u>
+                    <u who="#moskovitzM" start="644.567" end="x">Yes.</u>
+                    <u who="#boderD" start="645.195" end="x">And then your father with your brother . . .</u>
+                    <u who="#moskovitzM" start="646.868" end="x">The father with the brother left to work in a factory.</u>
+                    <u who="#boderD" start="651.193" end="x">To work in a factory.</u>
+                    <u who="#moskovitzM" start="651.786" end="x">Yes.</u>
+                    <u who="#boderD" start="652.067" end="x">In what factory did they work?</u>
+                    <u who="#moskovitzM" start="653.399" end="x">In <placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>.</u>
+                    <u who="#boderD" start="654.349" end="x"><placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>.</u>
+                    <u who="#moskovitzM" start="654.786" end="x"><placeName ref="Monowitz concentration camp" type="camp">Buna</placeName>.</u>
+                    <u who="#boderD" start="655.218" end="x">And how long were they there?</u>
+                    <u who="#moskovitzM" start="657.374" end="x">They were . . . May . . .</u>
+                    <u who="#boderD" start="661.326" end="x">Yes. Until?</u>
+                    <u who="#moskovitzM" start="662.427" end="x">Until January. In January the evacuation began.</u>
+                    <u who="#boderD" start="666.067" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="666.318" end="x">They walked as far as <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName> I (One). In <placeName ref="Gleiwitz" type="camp">Gleiwitz</placeName> I (One) . . . any more I don't know.</u>
+                    <u who="#boderD" start="672.857" end="x">Aha. How do you know where . . . where they had been? Did you write . . .</u>
+                    <u who="#moskovitzM" start="676.983" end="x">There is here a cousin.</u>
+                    <u who="#boderD" start="679.550" end="x">Oh.</u>
+                    <u who="#moskovitzM" start="679.786" end="x">He was together with them.</u>
+                    <u who="#boderD" start="681.490" end="x">Oh. A cousin was together with you . . .</u>
+                    <u who="#moskovitzM" start="683.917" end="x">No, he was together with my father.</u>
+                    <u who="#boderD" start="686.236" end="x">He was together . . .</u>
+                    <u who="#moskovitzM" start="686.945" end="x">Yes.</u>
+                    <u who="#boderD" start="687.071" end="x">. . . with your father.</u>
+                    <u who="#moskovitzM" start="687.840" end="x">Yes.</u>
+                    <u who="#boderD" start="687.946" end="x">And he told you that.</u>
+                    <u who="#moskovitzM" start="688.936" end="x">Yes.</u>
+                    <u who="#boderD" start="689.876" end="x">Yes. Nu, and where did you work?</u>
+                    <u who="#moskovitzM" start="693.636" end="x">I was working in Upper Silesia.</u>
+                    <u who="#boderD" start="695.752" end="x">In Upper Silesia, yes. In what kind of factory did you work?</u>
+                    <u who="#moskovitzM" start="698.038" end="x">There was a station.</u>
+                    <u who="#boderD" start="700.887" end="x">What . . .</u>
+                    <u who="#moskovitzM" start="702.186" end="x">Well, a station. We were making a station.</u>
+                    <u who="#boderD" start="707.159" end="x">A railway . . .</u>
+                    <u who="#moskovitzM" start="708.154" end="x">Yes.</u>
+                    <u who="#boderD" start="708.335" end="x">. . . station?</u>
+                    <u who="#moskovitzM" start="708.646" end="x">Yes.</u>
+                    <u who="#boderD" start="708.716" end="x">You were building.</u>
+                    <u who="#moskovitzM" start="710.134" end="x">Yes.</u>
+                    <u who="#boderD" start="710.304" end="x">You are a carpenter.</u>
+                    <u who="#moskovitzM" start="711.224" end="x">No. Who cared [?]? The carpenters and the jewelers [?], they were all taken to carry cement and . . .</u>
+                    <u who="#boderD" start="719.830" end="x">That were . . .</u>
+                    <u who="#moskovitzM" start="720.162" end="x">. . . other work.</u>
+                    <u who="#boderD" start="721.106" end="x">Yes. Nu, and how were you treated there in the <term ref="#vothG_lager">lager</term>?</u>
+                    <u who="#moskovitzM" start="726.332" end="x">[We] were given a bread for eight people.</u>
+                    <u who="#boderD" start="728.463" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="728.850" end="x">The bread weighed a kilo [and] forty [deka].</u>
+                    <u who="#boderD" start="730.925" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="731.337" end="x">And in the morning black coffee, and for dinner clear water [soup?], and in the evening [words not clear].</u>
+                    <u who="#boderD" start="741.131" end="x">Aha. Nu, and when someone was sick?</u>
+                    <u who="#moskovitzM" start="743.789" end="x">Nu, that is of no use. When someone is sick if it healed by itself, good, if not, then one goes to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="754.055" end="x">And did that happen?</u>
+                    <u who="#moskovitzM" start="755.447" end="x">Ach . . . it happened to three quarters of our <term ref="#vothG_lager">lager</term>. One quarter remained.</u>
+                    <u who="#boderD" start="762.201" end="x">And the others were taken -- where to? To <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>?</u>
+                    <u who="#boderD" start="764.116" end="x">Yes. Everything to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <u who="#boderD" start="765.357" end="x">And <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> was what?</u>
+                    <u who="#moskovitzM" start="766.608" end="x">In <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>, there they were burned.</u>
+                    <u who="#boderD" start="771.847" end="x">[Pause.] And the . . . Thus you worked for how long [?]?</u>
+                    <u who="#moskovitzM" start="774.455" end="x">Yes. Worked until January.</u>
+                    <u who="#boderD" start="777.897" end="x">January.</u>
+                    <u who="#moskovitzM" start="778.380" end="x">January, yes.</u>
+                    <u who="#boderD" start="779.129" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="779.616" end="x">In January we were evacuated as far as <placeName ref="Praha">Prague</placeName>.</u>
+                    <u who="#boderD" start="784.209" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="784.465" end="x">From <placeName ref="Praha">Prague</placeName> to <placeName ref="Gross-Rosen concentration camp" type="camp">Grossrosen</placeName>. Everything on foot. Then we were packed in RR-cars, a hundred and twenty people in each, for <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>. In <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName> I was two months. Then we were [sent] to <placeName ref="Offenburg">Offenburg</placeName> [?]. From <placeName ref="Offenburg">Offenburg</placeName> . . . from <placeName ref="Offenburg">Offenburg</placeName> I was . . . we were . . . we were loaded in RR-cars, because the Americans were already arriving. We were . . . en route we were shot at. Very few people remained alive. And we got out of the RR-cars. We ran into a forest, the Black Forest, and there we were liberated by the French.</u>
+                    <u who="#boderD" start="823.742" end="x">By the French?</u>
+                    <u who="#moskovitzM" start="824.702" end="x">Yes.</u>
+                    <u who="#boderD" start="825.250" end="x">Nu, and then where did you go from there?</u>
+                    <u who="#moskovitzM" start="828.119" end="x">From there . . . I was . . . I could walk. I was very weak. I had thirty-two kilos. I could not walk.</u>
+                    <u who="#boderD" start="836.374" end="x">What do you mean you had thirty-two kilos?</u>
+                    <u who="#moskovitzM" start="838.108" end="x">Just so. I was so . . .</u>
+                    <u who="#boderD" start="838.987" end="x">You weighed . . .</u>
+                    <u who="#boderD" start="840.228" end="x">. . . thirty-two kilos.</u>
+                    <u who="#moskovitzM" start="841.258" end="x">Yes.</u>
+                    <u who="#boderD" start="841.816" end="x">How tall are you?</u>
+                    <u who="#moskovitzM" start="843.188" end="x">One meter, seventy [centimeters].</u>
+                    <u who="#boderD" start="844.902" end="x">You are one meter, seventy.</u>
+                    <u who="#moskovitzM" start="846.284" end="x">Yes.</u>
+                    <u who="#boderD" start="846.842" end="x">And you weighed thirty-two kilos.</u>
+                    <u who="#moskovitzM" start="848.184" end="x">Thirty-two kilos, yes.</u>
+                    <u who="#boderD" start="849.968" end="x">Nu?</u>
+                    <u who="#moskovitzM" start="851.259" end="x">And I was three months . . .</u>
+                    <u who="#boderD" start="853.636" end="x">Where?</u>
+                    <u who="#moskovitzM" start="854.294" end="x">. . . there in that . . . the name of it is <placeName ref="Immendingen">Immendingen</placeName>, a village , a German village in Bavaria.</u>
+                    <u who="#boderD" start="859.730" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="860.212" end="x">And then . . .</u>
+                    <u who="#boderD" start="861.111" end="x">Who fed you there?</u>
+                    <u who="#moskovitzM" start="863.538" end="x">We ourselves. And then . . .</u>
+                    <u who="#boderD" start="865.262" end="x">What does it mean, 'we ourselves'? Who else was with you?</u>
+                    <u who="#moskovitzM" start="867.890" end="x">Others. There were Russians. There were Poles, various nationalities.</u>
+                    <u who="#boderD" start="872.386" end="x">And how did you get food?</u>
+                    <u who="#moskovitzM" start="874.065" end="x">So. We got into . . . the Germans had all fled. Then we got in the houses. We found food.</u>
+                    <u who="#boderD" start="880.216" end="x">Aha. The Germans had run away?</u>
+                    <u who="#moskovitzM" start="881.869" end="x">Yes.</u>
+                    <u who="#boderD" start="883.583" end="x">Yes. Nu?</u>
+                    <u who="#moskovitzM" start="885.317" end="x">And when we went to <placeName ref="Regensburg">Regensburg</placeName>. From <placeName ref="Regensburg">Regensburg</placeName> I went back to <placeName ref="München">Munich</placeName>. In <placeName ref="München">Munich</placeName> I remained till the end. Then I went to Italy.</u>
+                    <u who="#boderD" start="896.457" end="x">How did you go from <placeName ref="München">Munich</placeName> to Italy? Were you allowed to go?</u>
+                    <u who="#moskovitzM" start="900.362" end="x">Yes. There were provided transports.</u>
+                    <u who="#boderD" start="902.488" end="x">Who provided you?</u>
+                    <u who="#moskovitzM" start="903.488" end="x">The Americans permitted us.</u>
+                    <u who="#boderD" start="905.649" end="x">To go where, to Italy?</u>
+                    <u who="#moskovitzM" start="907.076" end="x">To Italy, yes.</u>
+                    <u who="#boderD" start="908.930" end="x">What? They let you go to Italy.</u>
+                    <u who="#moskovitzM" start="910.342" end="x">Yes.</u>
+                    <u who="#boderD" start="911.262" end="x">What did you say, you wanted to do in Italy?</u>
+                    <u who="#moskovitzM" start="913.900" end="x">Because I was told that I have no one at home. Then . . . what shall I go home for? So I came to Italy.</u>
+                    <u who="#boderD" start="921.206" end="x">Oh. Otherwise you would have gone home?</u>
+                    <u who="#moskovitzM" start="923.553" end="x">Yes.</u>
+                    <u who="#boderD" start="924.442" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="924.654" end="x">I have no one at home.</u>
+                    <u who="#boderD" start="926.247" end="x">How did you get to Italy? Did you take the train?</u>
+                    <u who="#moskovitzM" start="929.426" end="x">We got a transport, a whole transport.</u>
+                    <u who="#boderD" start="933.296" end="x">Were there many . . . many Jews?</u>
+                    <u who="#moskovitzM" start="935.603" end="x">Yes. We were two hundred people.</u>
+                    <u who="#boderD" start="938.402" end="x">And where did the others go?</u>
+                    <u who="#moskovitzM" start="940.136" end="x">The others . . . some went . . . many found work and remained in Italy. Some went to France. Many have friends in America.</u>
+                    <u who="#boderD" start="951.322" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="951.749" end="x">They received affidavits . . .</u>
+                    <u who="#boderD" start="953.523" end="x">[Words not clear.]</u>
+                    <u who="#moskovitzM" start="954.443" end="x">Yes.</u>
+                    <u who="#boderD" start="955.684" end="x">Tell me, where were you in Italy?</u>
+                    <u who="#moskovitzM" start="958.232" end="x">In <placeName ref="Turin">Turin</placeName>.</u>
+                    <u who="#boderD" start="959.624" end="x">In <placeName ref="Turin">Turin</placeName>. And where did you eat . . .</u>
+                    <u who="#moskovitzM" start="963.580" end="x">In an <term ref="#vothG_unrra">UNRRA</term> camp.</u>
+                    <u who="#boderD" start="965.123" end="x">The <term ref="#vothG_unrra">UNRRA</term> . . .</u>
+                    <u who="#moskovitzM" start="965.741" end="x">Yes.</u>
+                    <u who="#boderD" start="966.012" end="x">They supported you?</u>
+                    <u who="#moskovitzM" start="968.223" end="x">Yes, [they gave us] to eat,, to sleep.</u>
+                    <u who="#boderD" start="971.133" end="x">Hm. And then . . . Why did you come to France?</u>
+                    <u who="#moskovitzM" start="975.228" end="x">Why? I am still young. I want to learn a trade.</u>
+                    <u who="#boderD" start="978.354" end="x">Aha. Could you not learn that in Italy?</u>
+                    <u who="#moskovitzM" start="980.841" end="x">No. In Italy there are no trade schools [for <term ref="#vothG_dp">DPs</term>].</u>
+                    <u who="#boderD" start="983.921" end="x">Aha. And who told you to go to France?</u>
+                    <u who="#moskovitzM" start="988.504" end="x">Others came, so I came too.</u>
+                    <u who="#boderD" start="991.454" end="x">Oh. How did you come to France, by train?</u>
+                    <u who="#moskovitzM" start="994.886" end="x">No.</u>
+                    <u who="#boderD" start="995.655" end="x">How then?</u>
+                    <u who="#moskovitzM" start="996.112" end="x">[Crossed] the Alps.</u>
+                    <u who="#boderD" start="998.851" end="x">You crossed the Alps?</u>
+                    <u who="#moskovitzM" start="1000.072" end="x">Yes.</u>
+                    <u who="#boderD" start="1001.645" end="x">Why?</u>
+                    <u who="#moskovitzM" start="1003.037" end="x">Why? It had to be so. I had no money for the train, so I had to go that way [?].</u>
+                    <u who="#boderD" start="1009.787" end="x">You crossed the Alps on foot?</u>
+                    <u who="#moskovitzM" start="1012.787" end="x">Yes.</u>
+                    <u who="#boderD" start="1013.315" end="x">How long did it take?</u>
+                    <u who="#moskovitzM" start="1014.938" end="x">Two days and a night.</u>
+                    <u who="#boderD" start="1017.054" end="x">To cross the Alps.</u>
+                    <u who="#moskovitzM" start="1018.014" end="x">Yes.</u>
+                    <u who="#boderD" start="1018.582" end="x">Did the French let you in?</u>
+                    <u who="#moskovitzM" start="1020.989" end="x">Then, when we came into a French village, we ate, slept. We went to a Committee and asked for money. So we embarked and came to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1031.851" end="x">Did you have an entry visa?</u>
+                    <u who="#moskovitzM" start="1034.381" end="x">Yes.</u>
+                    <u who="#boderD" start="1035.285" end="x">Oh. Who issued it to you?</u>
+                    <u who="#moskovitzM" start="1037.454" end="x">We came so . . .</u>
+                    <u who="#boderD" start="1039.081" end="x">What?</u>
+                    <u who="#moskovitzM" start="1039.714" end="x">No visa.</u>
+                    <u who="#boderD" start="1040.859" end="x">[Chuckle.] You had no visa. How did the French let you in?</u>
+                    <u who="#moskovitzM" start="1044.654" end="x">Good. We said . . . we told them we are deportees and we have no . . . no one at home. Where should we go? We want to go to <placeName ref="Paris">Paris</placeName> to work.</u>
+                    <u who="#boderD" start="1055.177" end="x">Aha.</u>
+                    <u who="#moskovitzM" start="1055.780" end="x">To learn a trade.</u>
+                    <u who="#boderD" start="1057.256" end="x">All right. So then you came to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#moskovitzM" start="1059.123" end="x">Yes.</u>
+                    <u who="#boderD" start="1059.485" end="x">Where did you find the people?</u>
+                    <u who="#moskovitzM" start="1061.081" end="x">I found one man, a Jew. He was in the train. He came with me. So I asked him where I can stay for a few days until I get to know <placeName ref="Paris">Paris</placeName>. So he said, 'I will take you home for two, three days.'</u>
+                    <u who="#boderD" start="1075.281" end="x">Here?</u>
+                    <u who="#moskovitzM" start="1076.004" end="x">Yes, in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1077.179" end="x">And?</u>
+                    <u who="#moskovitzM" start="1078.625" end="x">And after staying there two, three days I left for [words not clear]. From [word not clear] I was sent to [word not clear].</u>
+                    <u who="#boderD" start="1086.848" end="x">Where?</u>
+                    <u who="#moskovitzM" start="1087.511" end="x">[Words not clear.]</u>
+                    <u who="#boderD" start="1088.415" end="x">Where is that?</u>
+                    <u who="#moskovitzM" start="1089.198" end="x">Near <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1090.704" end="x">Aha. Nu? And then?</u>
+                    <u who="#moskovitzM" start="1092.692" end="x">Then . . .</u>
+                    <u who="#boderD" start="1093.927" end="x">Louder.</u>
+                    <u who="#moskovitzM" start="1094.740" end="x">There I was given to eat, to sleep. I told them I want to go and learn a trade, so I came here.</u>
+                    <u who="#boderD" start="1101.728" end="x">Aha. and where did you find your cousin?</u>
+                    <u who="#moskovitzM" start="1105.493" end="x">The cousin? I came together with him from Italy.</u>
+                    <u who="#boderD" start="1108.987" end="x">But where did you find him?</u>
+                    <u who="#moskovitzM" start="1110.674" end="x">We were yet together in Germany. After the liberation we found each other.</u>
+                    <u who="#boderD" start="1114.831" end="x">Oh. After the liberation . . .</u>
+                    <u who="#moskovitzM" start="1115.825" end="x">Yes.</u>
+                    <u who="#boderD" start="1116.367" end="x">. . . you found each other.</u>
+                    <u who="#moskovitzM" start="1116.879" end="x">Yes.</u>
+                    <u who="#boderD" start="1117.090" end="x">. . . Tell me, how did you find your cousin?</u>
+                    <u who="#moskovitzM" start="1120.032" end="x">I came to <placeName ref="Regensburg">Regensburg</placeName>.</u>
+                    <u who="#boderD" start="1123.064" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="1123.446" end="x">I was told that he is in <placeName ref="München">Munich</placeName>. I went to <placeName ref="München">Munich</placeName> and found him in the armory.</u>
+                    <u who="#boderD" start="1131.520" end="x">In the armory.</u>
+                    <u who="#moskovitzM" start="1132.052" end="x">Yes.</u>
+                    <u who="#boderD" start="1132.946" end="x">And is he from your town?</u>
+                    <u who="#moskovitzM" start="1135.044" end="x">Yes.</u>
+                    <u who="#boderD" start="1135.908" end="x">Had he been together with you . . .</u>
+                    <u who="#moskovitzM" start="1137.063" end="x">No. With my father.</u>
+                    <u who="#boderD" start="1138.599" end="x">How did he . . . He was with your father? How . . . how . . .</u>
+                    <u who="#moskovitzM" start="1141.932" end="x">He . . . so . . .</u>
+                    <u who="#boderD" start="1142.879" end="x">Is he the young man who was here with you?</u>
+                    <u who="#moskovitzM" start="1144.706" end="x">Yes, yes.</u>
+                    <u who="#boderD" start="1145.309" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="1146.915" end="x">He was together with the father. And his father was together with me in <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>.</u>
+                    <u who="#boderD" start="1152.592" end="x">Aha. Your father was with him together . . .</u>
+                    <u who="#moskovitzM" start="1155.486" end="x">Yes. And my . . .</u>
+                    <u who="#boderD" start="1156.320" end="x">And his father was with you in <placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>.</u>
+                    <u who="#moskovitzM" start="1157.967" end="x"><placeName ref="Flossenbürg concentration camp" type="camp">Flossenburg</placeName>.</u>
+                    <u who="#boderD" start="1159.694" end="x">Aha. Nu, do you have relatives here in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#moskovitzM" start="1164.065" end="x">No.</u>
+                    <u who="#boderD" start="1164.637" end="x">You have none.</u>
+                    <u who="#moskovitzM" start="1165.521" end="x">In America I have, but I don't know the address.</u>
+                    <u who="#boderD" start="1168.382" end="x">In what city?</u>
+                    <u who="#moskovitzM" start="1169.951" end="x">I don't know. I know his name and . . . and . . . and . . . his name.</u>
+                    <u who="#boderD" start="1175.975" end="x">Did you inquire in the HIAS [Hebrew immigrant Aid Society]?</u>
+                    <u who="#moskovitzM" start="1178.338" end="x">How . . . To whom?</u>
+                    <u who="#boderD" start="1180.256" end="x">There is an American committee here in <placeName ref="Paris">Paris</placeName>. Did you inquire there?</u>
+                    <u who="#moskovitzM" start="1183.358" end="x">No, no. Not yet.</u>
+                    <u who="#boderD" start="1184.766" end="x">Well, look them up and talk to them.</u>
+                    <u who="#moskovitzM" start="1187.146" end="x">Because I know before the war we received . . . every two weeks we received mail. But when we were deported to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName> all the documents were burned, and now I don't know the address.</u>
+                    <u who="#boderD" start="1200.245" end="x">Yes, but . . .</u>
+                    <u who="#moskovitzM" start="1200.807" end="x">I was then too young. I didn't know . . .</u>
+                    <u who="#boderD" start="1203.156" end="x">Yes, but don't you know in which city he lives?</u>
+                    <u who="#moskovitzM" start="1205.174" end="x">No.</u>
+                    <u who="#boderD" start="1205.766" end="x">Well, do you know that there is a committee, an American committee, here which searches for relatives?</u>
+                    <u who="#moskovitzM" start="1211.503" end="x">Where, here in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#boderD" start="1212.306" end="x">Here in <placeName ref="Paris">Paris</placeName>. Yes. A very fine committee.</u>
+                    <u who="#moskovitzM" start="1215.560" end="x">I don't know the address.</u>
+                    <u who="#boderD" start="1216.209" end="x">It is called HIAS.</u>
+                    <u who="#moskovitzM" start="1218.890" end="x">The HIAS.</u>
+                    <u who="#boderD" start="1219.964" end="x">Yes.</u>
+                    <u who="#moskovitzM" start="1220.607" end="x">And how long will it take? How long will it take?</u>
+                    <u who="#boderD" start="1222.153" end="x">Oh, it may take three months, and it may take six months, but they find them usually. This committee is here in <placeName ref="Paris">Paris</placeName>. You ask Mr. Bramson. He will get in touch with them. You give them the name and they . . .</u>
+                    <u who="#moskovitzM" start="1244.604" end="x">My uncle's name.</u>
+                    <u who="#boderD" start="1245.237" end="x">. . . put it in the papers . . .</u>
+                    <u who="#moskovitzM" start="1247.289" end="x">Yes.</u>
+                    <u who="#boderD" start="1248.002" end="x">and one is usually found. Do you understand?</u>
+                    <u who="#moskovitzM" start="1251.368" end="x">Yes.</u>
+                    <u who="#boderD" start="1252.643" end="x">And otherwise where do you intend to remain? Where do you want to go when you have learned a trade?</u>
+                    <u who="#moskovitzM" start="1257.767" end="x">Perhaps if I find my . . . my uncle in America, perhaps I will go there.</u>
+                    <u who="#boderD" start="1262.912" end="x">And if not?</u>
+                    <u who="#moskovitzM" start="1263.846" end="x">And if not, I don't have anywhere to go. I must remain in <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="#boderD" start="1272.581" end="x">[An attempt to give a modified TAT test follows.] All right. I have here a few pictures. I would like you to tell me what is the meaning of these pictures. For instance, what is this?</u>
+                    <u who="#moskovitzM" start="1284.199" end="x">This is a picture.</u>
+                    <u who="#boderD" start="1286.187" end="x">Yes, but . . . Describe it. [Pause.] What is it? What do you think it is?</u>
+                    <u who="#moskovitzM" start="1306.941" end="x">This is a woman.</u>
+                    <u who="#boderD" start="1308.317" end="x">Well, yes, but . . .</u>
+                    <u who="#moskovitzM" start="1309.428" end="x">A working woman.</u>
+                    <u who="#boderD" start="1311.175" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="1312.761" end="x">And she is wrapped in thoughts.</u>
+                    <u who="#boderD" start="1315.132" end="x">She is wrapped in thoughts.</u>
+                    <u who="#moskovitzM" start="1315.935" end="x">Yes.</u>
+                    <u who="#boderD" start="1316.497" end="x">What do you think she is thinking about?</u>
+                    <u who="#moskovitzM" start="1318.907" end="x">She thinks of her husband or of her children.</u>
+                    <u who="#boderD" start="1322.599" end="x">Hm. All right. What is this?</u>
+                    <u who="#moskovitzM" start="1334.497" end="x">This happened in a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="1336.274" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="1337.961" end="x">One brother [?] would say to the other, 'Oh, I am sick now, but perhaps you will survive. Tell my father then that I died.' This would happen in a <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="#boderD" start="1352.899" end="x">What is this? [Aside] 9GF. What is this? [Given by mistake.]</u>
+                    <u who="#moskovitzM" start="1360.158" end="x">This is two ladies.</u>
+                    <u who="#boderD" start="1361.995" end="x">Yes? Tell me what is happening here.</u>
+                    <u who="#moskovitzM" start="1367.809" end="x">They look like two sisters.</u>
+                    <u who="#boderD" start="1370.309" end="x">Yes? What had happened?</u>
+                    <u who="#moskovitzM" start="1375.670" end="x">They have, perhaps, after the war [words not clear] . . . so one to the other . . .</u>
+                    <u who="#boderD" start="1382.630" end="x">Speak louder. Yes. What is this? [Aside] 15.</u>
+                    <u who="#moskovitzM" start="1395.577" end="x">This is a man.</u>
+                    <u who="#boderD" start="1396.963" end="x">Yes? And what . . .</u>
+                    <u who="#moskovitzM" start="1400.246" end="x">He looks like a <term ref="#vothG_mussulman">Mussulman</term>.</u>
+                    <u who="#boderD" start="1402.957" end="x">Yes? Speak louder. What does he look like?</u>
+                    <u who="#moskovitzM" start="1406.602" end="x">Like a <term ref="#vothG_mussulman">Mussulman</term>.</u>
+                    <u who="#boderD" start="1407.945" end="x">Ja? What is a Muselmann?</u>
+                    <u who="#moskovitzM" start="1410.638" end="x">A <term ref="#vothG_mussulman">Mussulman</term> is a man [just] skin and bones.</u>
+                    <u who="#boderD" start="1414.011" end="x">Who called him a <term ref="#vothG_mussulman">Mussulman</term>?</u>
+                    <u who="#moskovitzM" start="1415.939" end="x">What?</u>
+                    <u who="#boderD" start="1416.632" end="x">Who named him '<term ref="#vothG_mussulman">Mussulman</term>'?</u>
+                    <u who="#moskovitzM" start="1418.650" end="x">The Germans.</u>
+                    <u who="#boderD" start="1420.066" end="x">And what did they do with the <term ref="#vothG_mussulman">Mussulmen</term>?</u>
+                    <u who="#moskovitzM" start="1421.873" end="x">They said, 'You are a <term ref="#vothG_mussulman">Mussulman</term>. You are not to [have no right to] live any more.'</u>
+                    <u who="#boderD" start="1425.819" end="x">And then?</u>
+                    <u who="#moskovitzM" start="1426.783" end="x">And then he was told, 'Get up [?], man. You are not to live any more. You go to the crematory.'</u>
+                    <u who="#boderD" start="1434.193" end="x">Hm. And what is this?</u>
+                    <u who="#moskovitzM" start="1440.609" end="x">This is two women and a man. They are doing farm work.</u>
+                    <u who="#boderD" start="1446.874" end="x">Yes?</u>
+                    <u who="#moskovitzM" start="1453.654" end="x">This perhaps is happening in America.</u>
+                    <u who="#boderD" start="1458.895" end="x">Hm. [A long pause.] All right. And what is this?</u>
+                    <u who="#moskovitzM" start="1470.552" end="x">This is a child. Looks at the violin and thinks he can go on playing, because he had been good.</u>
+                    <u who="#boderD" start="1480.462" end="x">What had he been?</u>
+                    <u who="#moskovitzM" start="1481.214" end="x">He had been good and he can go on playing.</u>
+                    <u who="#boderD" start="1484.256" end="x">Aha. Nu?</u>
+                    <u who="#boderD" start="1489.801" end="x">[In English] This concludes the interview with Mark Moskovski on July 30, 1946, a boy of, hm, Czechoslovakia, age 19.</u>
+                </div>
+                <!-- end spool 9-6A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Raisel Roset; July 30, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Shiva Srivastava</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Rivka Schiller</name>
+                </respStmt>
+                <respStmt>
+                    <resp>English Translation</resp>
+                    <name>David P. Boder</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+            <addrLine>Illinois Institute of Technology</addrLine>
+            <addrLine>Chicago, IL</addrLine>
+          </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT17M11.232S" id="rosetR_9-4A">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="yi">Yiddish</lang>
+                                <lang value="secondary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-4A</note>
+                                <placeName ref="ORT School"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-07-30</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="rosetR_yi_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="rosetR_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="rosetR" role="interviewee">
+                        <persName>
+                            <forename>Raisel</forename>
+                            <surname>Roset</surname>
+                        </persName>
+                        <sex value="2">female</sex>
+                        <age>50</age>
+                        <birth>unknown</birth>
+                        <faith>Jewish</faith>
+                        <nationality key="Poland"/>
+                        <state type="marital_status">
+                            <desc>widow</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Janów Lubelski">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Częstochowa concentration camp">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#rosetR_yi_de">
+                <!-- begin spool 9-4A -->
+                <div lang="Germany">
+                    <u who="#boderD" start="0.212" end="x">[In German] Sagen Sie mir, was ist Ihr Namen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="2.813" end="x">[In Yiddish] רייזל ראסעט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="9.192" end="x">[In German] Was ist die Namen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="10.549" end="x">[In Yiddish] רייזל ראסעט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="12.219" end="x">[In German] Raisel?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="13.469" end="x">[In Yiddish] ראסעט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="14.438" end="x">[In German] Roset?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="16.172" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="17.016" end="x">[In German] War das Ihr Namen in Poland auch? Gesprechen . . . [unklar; Boder lacht nervös].</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="21.368" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="21.915" end="x">[In German] Das war Ihr Namen. Un wie alt sind Sie, Frau Rose?</u>
+                    <u who="#rosetR" start="25.446" end="x">Schon fünfzig Jahre alt.</u>
+                    <u who="#boderD" start="26.837" end="x">Sind Sie fünfzig Jahre alt.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="28.868" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="29.165" end="x">[In German] Sind Sie verheiratet?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="31.305" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="31.680" end="x">[In German] Eh, wo ist Ihr Mann?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="34.039" end="x">[In Yiddish] ער איז געוועזן אין אקופירטן [ראם?] פון פוילן, און ווען ס'איז אויסגעשאסן די דייטש-רוסישע קריג, פון. דאן אום, האב איך שוין פון אים קיין [אכט?] נישט. פון קיעוו, ליידער, [אומקלאר?] אז ער איז געפאלן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="52.959" end="x">[In German/Yiddish] Gefallen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="53.881" end="x">[In Yiddish] ער איז אומגעקומען. מ'אט אים אומגעבראכט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="56.224" end="x">[In German/Yiddish] Wer?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="56.771" end="x">[In Yiddish] שטילערהייט] איך ווייס נישט].</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="58.974" end="x">[In German] So, wie haben Sie das . . . [unklar]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="60.692" end="x">[In Yiddish] דאס האב איך געהערט. דאס האט מיר איין קוזינע געשריבן פון פוילן, אז ער איז אין קרעמענעץ אומגעבראכט געווארן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="65.958" end="x">[In German] Uh huh. Sie haben eine Kusine in Poland?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="72.114" end="x">[In Yiddish] מיין מאנס א קוזינע.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="74.801" end="x">[In German] In Russisch-Poland oder in Freien-Poland?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="77.019" end="x">[In Yiddish] אין פרייען פוילן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="79.534" end="x">[In German/Yiddish] Freien Poland. Now, sagen Sie mir, wen sind Sie . . . sind die דייטשן gekomm . . . Wie haben Sie gelebt?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="88.065" end="x">[In Yiddish] אין זאמאשטש.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="90.190" end="x">[In German] Wie?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="91.315" end="x">[In Yiddish] לובלינער קרייז-זאמאשטש, לובלינער קרייז.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="94.409" end="x">[In German/Yiddish] Lubliner Kreis? Und das was Poland?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="96.268" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="97.315" end="x">[In German/Yiddish] Un wer sind dortn אריינגעקאמען—die Russians—die Russen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="100.112" end="x">[In Yiddish] די דייטשן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="100.705" end="x">[In German/Yiddish] די דייטשן? Nu, erzähl mir.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="102.470" end="x">[In Yiddish]זיי זענען געווען . . . [אומקלאר?] טאגע, די דייטשן זענען אריינגעקומען דעם 6טן ווזשעשין. און . . . . [אומקלאר?] טאגע, האבן זיי פארלאסט זאמאשטש, און ס'זענען געקומען די רוסן.</u>
+                    <u who="#boderD" start="109.662" end="x">Ah ha.</u>
+                    <u who="#rosetR" start="110.631" end="x">דאן איז מיין מאן אוועק מיט זיי אויך . . . [אומקלאר?] פון א ציוניסטישער ארגאניזאציע, און די זענען געווען דער ערשטע געשיקט געווארן די קאנצענטראציע לאגערן. איז ער אוועק קיין דובנאוו.</u>
+                    <u who="#boderD" start="133.144" end="x">Ah ha.</u>
+                    <u who="#rosetR" start="133.988" end="x">און אכער, קיין קרעמענעץ.</u>
+                    <u who="#boderD" start="136.488" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="137.113" end="x">די גאנצע צייט האב איך באקאמען [באקומען] פון אים בריף, אבער אכער, ווען ס'איז אויסגעבראכן די רוסיש-דייטש קריג, האט זיך די קארעספאנדענץ איבערגעריסן. איך האב א ספעציעלן שליח צו אים געשיקט, און דער, האט מיך [אומקלאר?] פון דעם ידיעה פון מיין איידעם, האט ער מיך אפגענארט אז מיין מאן איז קיין רוסלאנד געפארן, אויף טיף רוסלאנד.</u>
+                    <u who="#boderD" start="149.022" end="x">Yeah.</u>
+                    <u who="#rosetR" start="149.694" end="x">איך בין געווען בארויקט, און דאן האט זיך אנגעהויבן אונדזערע טענהן אין פוילן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="168.164" end="x">[In German/Yiddish] So, wer גלויבן Sie, hat dem Mann umgebracht?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="172.898" end="x">[In Yiddish] איך ווייס דאס נאך נישט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="175.351" end="x">[In German/Yiddish] Die דייטשן oder die [Russen]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="176.288" end="x">[In Yiddish] איך ווייס דאס נאך נישט. איך האב דאס נאך נישט דערפארן.</u>
+                    <u who="#boderD" start="179.225" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="179.819" end="x">פאר מע' זאגט מיר נאך נישט דעם גאנצן אמת.</u>
+                    <u who="#boderD" start="183.131" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="184.256" end="x">און דאן האט זיך אנגעהויבן דעם טערמין [אומקלאר?] פון אויסזידלען יידן.</u>
+                    <u who="#boderD" start="190.178" end="x">די דייטשן . . .</u>
+                    <u who="#rosetR" start="191.537" end="x">יא, די [משיעור?] אויס יודען. האט מען געמאכט אין דער שטאט זאמאשטש אין גענצן [גאנצן] יודענריין.</u>
+                    <u who="#boderD" start="197.880" end="x">Yeah.</u>
+                    <u who="#rosetR" start="198.489" end="x">און אלע זאמאשטשער איינוווינער האט מען געשיקט אין א קליינעם שטעטל, 02 קילאמעטער פון זאמאשטש קיין איזביצא [?]. דארט, האט זיך ווידער אנגעפאנגען דאס זעלבע. איין [אומקלאר?] יידן האט געפארט נאך דער צווייטער. אין איינעם טאג האבן מיר געזען אז אונדזער פרעזעז פון יודענראט איז אנטלאפן. דאן, האבן מיר געווייסט [געוווסט] אז עס קומט פון דעם, צו דעם נישט גוטע זאך.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="212.457" end="x">[In English] Yes.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="214.222" end="x">[In Yiddish] און דאן, דער וואס האט געהאט מעגלעכקייטן, האט זיך געראטעוועט. איז פארשטענדלעך. און איך, אין דער האפענונג אז מיין מאן איז אין רוסלאנד, האב איך באשאפט ארישע פאפירן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="235.802" end="x">[In German] Was für Papiern?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="237.114" end="x">[In Yiddish] ארישע.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="237.848" end="x">[In German/Yiddish] Arische Papieren?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="238.973" end="x">[In Yiddish] און כ'בין אנטלאפן.</u>
+                    <u who="#boderD" start="240.333" end="x">Aha.</u>
+                    <u who="#rosetR" start="240.974" end="x">איך בין אנטלאפן צו א באקאנטע, כלומרישע פאמיליע, און דארט בין איך געוועזן 6 וואכן. און אכער, האבן זיי מיר שוין נישט געוואלט האלטן, ווייל ס'אט זיי אויך געדראט דויטשן [דייטשן] ווען מע' טרעפט מיך ביי זיי. האב איך געמוזט נעמען מיין פעקל און ווייטער וואנדערן. בין איך געפארן קיין טשענסטאכאוו. אין טשענסטאכאוו בין איך געוועזן א פאר וואכן, זיך ארומגעדרייט יעדן טאג, נישט גענעכטיקט, אויף קעלט, געמוזט ארומגיין גאנצע טעג אויף די גאס, געווען שווער פאר מיר צו געפינען א וווינונג, און דאן האב איך געזען אז ס'איז קיין פלאן נישט פאר מיר אויכעט, און קריק אריין אין דעם יודענלאגער.</u>
+                    <u who="#boderD" start="281.179" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="282.101" end="x">אין געטא - צוריק אין געטא - אין יידישן געטא.</u>
+                    <u who="#boderD" start="284.444" end="x">Yeah.</u>
+                    <u who="#rosetR" start="285.053" end="x">אין יידישן געטא, האט זיך אנגעהויבן ווידער די אייגענע פיין. ווייטער דעפארטאציעס, און כ'אב ז . . . - מיך האב זיך פארשריבן צו ארבעטן אין אן אמוניציע פאבריק. און דארט האב איך געארבעט 5 מאנאט.</u>
+                    <u who="#boderD" start="298.647" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="299.413" end="x">און אכער, בין איך געווער [געוואר] געווארן אז ס'וועט זיין א סעלעקציע - די עלטערעס [?] 'וועט מען זעלבספארשטענדלעך אוועקשיקן אין די גאז-קאמערן, און די יינגערע וועט מען לאזן. און איך, אלס עלטערע פרוי, האב פארשטאנען אז ס'קומט דער סוף. האב איך ווייטער אנגעהויבן זוכן עצות [?] ווי זיך צו ראטעווען. איך האב זיך ווידער פארשרייבט - נאך א מאל ארישע פאפירן - און כ'בין אנטלאפן פון טשענסטאכאוו. פון דען בין איך אויף דער פוילישער זייט אלס אריאן דעפארטירט געווארן ק'[יין] דייטשלאנד אויף ארבעט. דא . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="333.001" end="x">[In German] Why haben Sie deportiert die Aryen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="335.876" end="x">[In Yiddish] די דייטשן?</u>
+                    <u who="#boderD" start="336.892" end="x">Ja.</u>
+                    <u who="#rosetR" start="337.783" end="x">אלס אריאן האבן זיי מיך דעפארטירט ק'[יין] דייטשלאנד אויף ארבעט.</u>
+                    <u who="#boderD" start="341.470" end="x">א, זיי האבן געדאכט אז זי זינט א דייטשין?</u>
+                    <u who="#rosetR" start="343.345" end="x">א נישט באגערן[?]!</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="345.033" end="x">[In German] Aha, als Polin.</u>
+                    <u who="#rosetR" start="346.564" end="x">Yeah.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#boderD" start="347.212" end="x">[In Yiddish] נו?</u>
+                    <u who="#rosetR" start="347.564" end="x">געקומען קיין דויטשלאנד [דייטשלאנד], האט מען שוין דארט געשיקט קיין לאטערינגען.</u>
+                    <u who="#boderD" start="352.079" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="353.000" end="x">דארט, האבן זיי מיך באשטימט איך וויל גיין ארבעטן אויף א פירם.</u>
+                    <u who="#boderD" start="358.515" end="x">אויף א פעלד?</u>
+                    <u who="#rosetR" start="359.494" end="x">אויף א פירמע.</u>
+                    <u who="#boderD" start="360.494" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="361.150" end="x">און דארט האב איך אפגעארבעט 02 מאנאט, א שווערע קאטאר[גע].</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="365.915" end="x">[In German] Was keine Arbet was?</u>
+                    <u who="#rosetR" start="368.337" end="x">Erdarbeit.</u>
+                    <u who="#boderD" start="369.946" end="x">Erdarbeit?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#boderD" start="370.252" end="x">[In Yiddish] לאנקע ארבייט?</u>
+                    <u who="#rosetR" start="371.743" end="x">לאנקע ארבייט, גארטן ארבייט . . .</u>
+                    <u who="#boderD" start="377.319" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="377.919" end="x">אין שטוב, איבער א . . . [אומקלאר?]</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="378.212" end="x">[In German/Yiddish] Vollzeit haben Sie gearbet als a Frau in a Haus?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="380.209" end="x">[In Yiddish] א הויפטפרוי אין גארטן, אין פעלד, איבעראל האב איך געארבעט.</u>
+                    <u who="#boderD" start="385.380" end="x">יא, איר האט געארבעט מיט דער פאמיליע?</u>
+                    <u who="#rosetR" start="386.771" end="x">מיט נאך מענטשן. ס'איז געוועזן נאך דארט; ס'איז געווען א רוסן מיידל, א דעפארטירטע; ס'איז געוועזן צוויי קריגס-געפאנגענע, און מיט די צוזאמען, האב איך געארבעט 02 מאנאט - זייער, זייער שווער.</u>
+                    <u who="#boderD" start="399.895" end="x">אנטשולדיק מיר, פאר וועמען האבן זי געארבעט?</u>
+                    <u who="#rosetR" start="402.082" end="x">פאר דעם פירמער.</u>
+                    <u who="#boderD" start="403.519" end="x">פאר דעם פירמער?</u>
+                    <u who="#rosetR" start="406.222" end="x">א דויטשע פירמער.</u>
+                    <u who="#boderD" start="406.856" end="x">Uh huh. Yeah.</u>
+                    <u who="#rosetR" start="407.245" end="x">און אכער, זענען . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="407.800" end="x">[In German/Yiddish] Haben Sie gut genumen zu Ihnen . . . [unklar]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="412.144" end="x">[In Yiddish] איינער יא, זי, זייער שלעכט.</u>
+                    <u who="#boderD" start="413.925" end="x">. . . [?אומקלאר]</u>
+                    <u who="#rosetR" start="414.972" end="x">ס'אט מיר . . . [אומקלאר?] געפעלט אויך. איך האב א סך מאל געהונגערט. זי איז זייער א שלעכטע פרוי געווען.</u>
+                    <u who="#boderD" start="421.566" end="x">און ער איז?</u>
+                    <u who="#rosetR" start="422.722" end="x">ער, ניט.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="424.019" end="x">[In English] Alright.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="424.706" end="x">[In Yiddish] און דאן, נאך 02 מאנאט שווערע ארבעט, אין די געגנט [וואס איז] אקופירט געווארן פון די אמעריקאנער, און די האבן מיך באפרייט.</u>
+                    <u who="#boderD" start="437.596" end="x">נאך 02 מאנאט?</u>
+                    <u who="#rosetR" start="439.268" end="x">נאך 02 מאנאט ארבעט.</u>
+                    <u who="#boderD" start="441.034" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="441.425" end="x">און די האבן מיך באפרייט און האבן מיך געשיקט ק'[יין] פאריז.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="445.409" end="x">[In German] Wie?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="446.237" end="x">[In Yiddish] קיין פראנקרייך. זיי האבן מיך געשיקט נאך פראנקרייך.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="448.299" end="x">[In German] Sie haben . . . [unklar?] geschriben?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="449.033" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="449.454" end="x">[In German] Warum?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="450.423" end="x">[In Yiddish] איך האב זיי געבעטן.</u>
+                    <u who="#boderD" start="456.673" end="x">Oh.</u>
+                    <u who="#rosetR" start="459.048" end="x">איך וויל נאך פראנקרייך פארן; איך האב מורא ווידער זיין ביי די דייטשן ארבעטן ביי זיי, און בין איך אוועקגעשיקט נאך פראנקרייך.</u>
+                    <u who="#boderD" start="463.126" end="x">Oh.</u>
+                    <u who="#rosetR" start="463.798" end="x">און דא, בין איך ערשט אריין אין מיין גרויסן אומגליק.</u>
+                    <u who="#boderD" start="464.127" end="x">. . . [?אומקלאר]</u>
+                    <u who="#rosetR" start="465.227" end="x">כ'בין . . . [אומקלאר?] פון מיין גאנצע פאמיליע. פון א צו-הויכע פאמיליע, בין איך איינע געבליבן. און די שוועסטער און ברידער און אלץ. און לעצטנס בין איך געוואר אז אויך מיין מאן איז אומגעבראכט געווארן, ווי איך האב געזאגט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="478.127" end="x">[In German] Uh huh. Now, sagen Sie mir Mrs. Roset, was war Ihr Manns Beschäftigung before . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="483.174" end="x">[In Yiddish] ער האט געהאט א מאנופאקטור געשעפט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="485.205" end="x">[In German] Wo?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="486.251" end="x">[In Yiddish] אין זאמאשטש.</u>
+                    <u who="#boderD" start="487.017" end="x">אין זאמאשטש?</u>
+                    <u who="#rosetR" start="487.783" end="x">יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="488.408" end="x">[In German] Und, Sie sagen mir warum diese zionistische . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="493.345" end="x">[In Yiddish] פרעזידענט פון דער ציוניסטישער ארגאניזאציע אין זאמאשטש.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="495.923" end="x">[In German] Alright. Haben Sie gehabt Kinder?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="498.798" end="x">[In Yiddish] ניין.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="499.157" end="x">[In German] Sie haben die kinderlos?</u>
+                    <u who="#rosetR" start="500.251" end="x">Kinderlos—ja.</u>
+                    <u who="#boderD" start="501.439" end="x">Haben Sie Brüder oder Schwestern?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="502.595" end="x">[In Yiddish] צוויי ברידער, דריי שוועסטער מיט מענער, פרויען, קינדער, אלעס איז אומגעבראכט געווארן פון די דייטשן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="509.126" end="x">[In German] Eh, waren Sie im Konzentrationslager?</u>
+                    <u who="#rosetR" start="513.329" end="x">Ich sag Dir . . .</u>
+                    <u who="#boderD" start="514.892" end="x">Nein.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="515.110" end="x">[In Yiddish/German] איך וואר אין אן ארבעטס-לאגער אין טשענסטאכאוו.</u>
+                    <u who="#boderD" start="517.617" end="x">. . . [?אומקלאר]</u>
+                    <u who="#rosetR" start="518.000" end="x">און פון דארט בין איך אנטלאפן, יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="519.910" end="x">[In German/Yiddish] Uh huh. Was war der Arbetslager im Czestochow[a]? Erzähl mir wegen . . . [unklar?] dem.</u>
+                    <u who="#rosetR" start="524.188" end="x">Das war ein Lager das . . . [unklar?]</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="526.472" end="x">[In Yiddish] ווען מ'אט געמאכט די אקציע אין טשענסטאכאוו, האט מען איבערגעלאזט פון 000,05 יידן, א משיעור 000,1.</u>
+                    <u who="#boderD" start="533.984" end="x">און וואס מיט די איבעריקע איז געווען?</u>
+                    <u who="#rosetR" start="535.422" end="x">די איבעריקע האט מען געשיקט אין די קרעמאטאריעס און די גאז-קאמערן. און פון די 000,4, האט מען אפגענומען א קליין שטח פון די שטאט, א פאר הינטערגאסן; דארט האט מען אונדז ארומגעצויגן מיט שטעכעדיקע דראט, און דארט האבן מיר געוווינט. פון דאן . . . [אומקלאר?] די איינוווינער זענען געווען צעטיילט צו ארבעטן אין די פאבריקן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="564.499" end="x">[In German/Yiddish] Oh. Nu. In was für a Fabriken haben Sie gearbeitet?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="566.452" end="x">[In Yiddish] ס'אבן געארבייט [געארבעט] אין - ביי ראביטשס [?] פאבריק . . . [אומקלאר?] פאבריק, אין דער פאבריק האסאג.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="574.671" end="x">[In German] Wo?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="576.202" end="x">[In Yiddish] האסאג, אן אמוניציע פאבריק.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="577.577" end="x">[In German] Oh. Sag mir [?], far Robyczs [?] Fabrik . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="579.843" end="x">[In Yiddish] פאר ראביטשס פאבריק.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="580.546" end="x">[In German] Warum . . . [unklar] . . . Robycz . . . [unklar]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="581.828" end="x">[In Yiddish] פאר אלע פאבריקן זענען אונטערגעארדערט [?] געווארן אויף אמוניציע פאבריקן, זעלבפארשטענדלעך . . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="586.546" end="x">[In German] Yeah. Und dort . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="589.357" end="x">[In Yiddish] און דארט האבן די יידן געארבעט. און אכער, ס'איז פארגעקומען סעלעקציעס און ס'איז פארגעקומען דעפארטאציעס. די עלטערע האט מען באשיסט; יינגערע, האט מען - פון - ס'אט זיך געראטעוועט די וואס האבן געוואלט - זעלבפארשטענדלעך.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="602.163" end="x">[In German/Yiddish] Ja. Sagen Sie, in diesen . . . [unklar/unclear?]. Sie haben gearbet in die Fabriken; wo haben Sie געשלאפן bei Nacht?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="610.594" end="x">[In Yiddish] אין דער פרי האט מען געדארפן זיין אין דער פאבריק. אונדז 'אב . . . 6 - 7</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="614.591" end="x">[In English] Yeah.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="615.091" end="x">[In Yiddish] און דאס איז געווען א פאר קילאמעטער, האט מען - 6 אין דער פרי האבן זיך געעפנט די טויערן פונעם געטא - פון ארבייטס [ארבעטס]-לאגער. מ'אט ארויסגעלאזט די אלע ארבעטערס. זענען געגאנגען צו . . . [אומקלאר?] ארבעטן. זיבן פאר נאכט, איז מען צוריקגעקומען אהיים קיין - אין דעם לאגער, און דארט האט יעדער זיך געהאט רוים, מקום . . . [אומקלאר?].</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="635.403" end="x">[In German] Das was?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="636.215" end="x">[In Yiddish] דאס מקום . . . [אומקלאר?] דארט האט מען געוווינט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="639.464" end="x">[In German] Uh huh. Nu, sagt mir dis [this?]: Wo hat me gegessen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="642.885" end="x">[In Yiddish] געגעסן האט מען אין דער פאבריק.</u>
+                    <u who="#boderD" start="644.526" end="x">אין - אם מארגן און אין . . . ?</u>
+                    <u who="#rosetR" start="647.276" end="x">אם מארגן, אין מיטאג, אין . . .</u>
+                    <u who="#boderD" start="649.995" end="x">דארטן האט מען נישט געצאלט עפעס געלט פאר דער ארבעט . . . ?</u>
+                    <u who="#rosetR" start="652.869" end="x">איך זאג - דארטן נישט - איך זאג דיר - דאן מ'אט נאר געגעבן עסן.</u>
+                    <u who="#boderD" start="657.165" end="x">נו, ווען מען האט ניט געהאט עפעס - זייף, ציגארעטן, אזעלכע זאכן?</u>
+                    <u who="#rosetR" start="662.255" end="x">ניין.</u>
+                    <u who="#boderD" start="663.442" end="x">ניין.</u>
+                    <u who="#rosetR" start="664.024" end="x">. . . ?]]'אט מען . . . [אומקלאר?] גארנישט געהאט</u>
+                    <u who="#boderD" start="667.602" end="x">האבן די יידן געהאט מנינים - זייער שול - אין געטא?</u>
+                    <u who="#rosetR" start="674.805" end="x">וואו, אין געטא? נא.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="678.461" end="x">[In English] No?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="678.979" end="x">[In Yiddish] ניין.</u>
+                    <u who="#boderD" start="679.212" end="x">ניין - מ'אט זיי נישט דערלייבט?</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#rosetR" start="680.164" end="x">[In German/Yiddish] Nein, nein. Dort nisht. Dos war ein Arbeitslager.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#boderD" start="683.398" end="x">[In Yiddish/German] און אויך געארבעט שבת און זאנטיג?</u>
+                    <u who="#rosetR" start="686.820" end="x">זעלבספארשטענדלעך, זעלבספארשטענדלעך.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="689.664" end="x">[In German] Uh huh. Nu, haben Sie Verwanden [Verwandte] hier in Paris?</u>
+                    <u who="#rosetR" start="x" end="x">Hier hab ich niemand.</u>
+                    <u who="#boderD" start="695.055" end="x">Hier haben Sie niemand. So, Sie haben gross . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#boderD" start="697.367" end="x">[In Yiddish] . . . געפרעג - געבעטן די אמעריקאנערס, זיי זאלן צופירן</u>
+                    <u who="#rosetR" start="702.445" end="x">איך האב געהערט אז אין פאריז איז שוין דא יידן.</u>
+                    <u who="#boderD" start="704.960" end="x">Aha.</u>
+                    <u who="#rosetR" start="705.398" end="x">דעריבער, האב איך געבעטן אז מע' זאל מיך שיקן ק'[יין] פאריז. און ק'[יין] פאריז בין איך געקומען אלס אריאן. און דא האב איך זיך ערשט געווענדט צו דער - א יידישע געזעלשאפט, און כ'אב אויסגעגעבן אז איך בין א יידיש קינד.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="718.303" end="x">[In German/Yiddish] Sagen Sie mir, wie haben Sie . . . [unklar?] Sie sind gewesen als an Aryan? Un die ganze Zeit in Lagers sind Sie gewesen als an Aryan?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="723.974" end="x">[In Yiddish/German] אין ארבייטס-לאגער בין איך געוועזן א יידינען. ווען . . . [אומקלאר?]</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="726.349" end="x">[In German] . . . [unklar?] Bei die Farmeren?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="728.193" end="x">[In Yiddish] ביי די פארמערס, אן אריאן - זעלבספארשטענדלעך.</u>
+                    <u who="#boderD" start="730.880" end="x">?האבן זי געצווונגען, אדער גע . . . [אומקלאר?] זאלן גיין אין קירך און זא ווייטער </u>
+                    <u who="#rosetR" start="737.489" end="x">יא, איך בין געגאנגען אייניגע מאל . . .</u>
+                    <u who="#boderD" start="739.192" end="x">?צו א קאטאלישן</u>
+                    <u who="#rosetR" start="740.004" end="x">יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="740.598" end="x">[In German/Yiddish] Und wen Sie haben . . . sagen Sie mir, hat Mann die Polische ähnlich gehandelt wie die יידן?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="757.878" end="x">[In Yiddish] א, ניין. די פאלען האט מען פארשיקט דא אויף ארבעט, און יידן האט מען אומגעבראכט - גאנץ אנדערש. יידן האט מען דעפארטירט אין די גאז-קאמערן, אדער אין די קרעמאטאריען. און די פאלען - ווען מ'אט דעפארטירט, האט מען דעפארטירט ק'[יין] דייטשלאנד אויף ארבעט. דער עיקר וואס פירט זיך, האב איך געזען די ארישע פאפירן, אז מע' זאל מיך נישט אוועקשיקן צו . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="771.893" end="x">[In German] Wer hat Ihnen gegeben die arische Papieren?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="772.987" end="x">[In Yiddish] פאר געלט.</u>
+                    <u who="#boderD" start="774.237" end="x">פאר געלט? Uh huh.</u>
+                    <u who="#rosetR" start="776.361" end="x">ס'איז געמאכט געווארן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="777.829" end="x">[In German/Yiddish] Uh huh. Un den sind Sie gekommen nach Paris un jetzt hobn Sie gekommen zu wemen?</u>
+                    <u who="#rosetR" start="783.422" end="x">[In Yiddish/German] Hier [?].</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="783.919" end="x">[In Yiddish/French] איך זאג דיר [?], איך בין געקומען אין מיין פראנצויזישן אדינ . . . [אומקלאר?], און פון דארט, האב איך מיך אפגעגעבן אין פוילישן קאנסולאט, און דארט האב איך דערציילט אז איך בין א יידין, און געבעטן זיי זאלן מיר געבן אן אדרעס פון א יידישע געזעלשאפט, ווייל איך קום זיך אין . . . [אומקלאר?] זי איז געקומען מיר געגעבן, און דאן בין איך געווען אויף . . . [אומקלאר?] Boulevard d’Italien . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="806.920" end="x">[In German] Das war der Gesellschaft?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="807.936" end="x">[In Yiddish] יא. און די יידישע געזעלשאפט, און די האבן מיך אריינגעגעבן אויף א פאבניצע [?] סעקרעטארן. דארט איז געוועזן א הויז פון דעפארטירטע, און דארטן איז געוועזן מיין לענגערע צייט.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="830.028" end="x">[In German/Yiddish] Moment. Un den, wu wohnen Sie jetzt?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="839.044" end="x">[In Yiddish/English] יעצט . . . און אכער אין beginning [?] איז געווארן . . . [אומקלאר?] הויז, בין איך געגאנגען וווינען אויף מעץ . . . [אומקלאר?]</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="847.803" end="x">[In German] Das Ort . . . [unklar?]</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="848.928" end="x">[In Yiddish] און דארט איז ווו איך וווין ביזן היינטיגן טאג.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="850.707" end="x">[In German] Und was ist das? A private . . . ?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="852.815" end="x">[In Yiddish] יעצט איז דאס - ניין. דאס איז אויך געוועזן א דעפארטירטן הויז, און אכער האט עס איבערגענומען דער קאנסיסטואר, ווייל דארט איז א סעמינאר - א ראבינער סעמינאר.</u>
+                    <u who="#boderD" start="862.047" end="x">Uh huh.</u>
+                    <u who="#rosetR" start="862.984" end="x">און קעגן מיך, האט מיך געבעטן אז מ'זאל מיך געבן ארבייט [ארבעט], און איך בין געבליבן דארטן וווינען.</u>
+                    <u who="#boderD" start="869.921" end="x">אין וואס ארבעטן זי דארט?</u>
+                    <u who="#rosetR" start="871.046" end="x">אלס קיך.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="871.843" end="x">[In German/Yiddish] Sie arbetn als Kich un Sie kochen dort—und Sie kommen jeden Abend?</u>
+                    <u who="#rosetR" start="877.171" end="x">In hier, am Abend.לערן איך זיך א פאך .</u>
+                    <u who="#boderD" start="879.312" end="x">Das mit die ORT.</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="879.968" end="x">[In Yiddish] .יא</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="880.389" end="x">[In German/Yiddish] Und וואס lernen Sie hier?</u>
+                    <u who="#rosetR" start="x" end="x">Hier? גארסעטן.</u>
+                    <u who="#boderD" start="881.607" end="x">[In German/Yiddish] גארסעטן. Wann Sie haben es gelernt, was wollen Sie tun?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="882.841" end="x">[In Yiddish] איך האב זיך דאך פארשריבן, שוין מיט א יאר צוריק - פארן נאך פאלעסטינע.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="887.356" end="x">[In German/Yiddish] Sie haben Sich verschriben צ' פארן נאך פאלע . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="891.949" end="x">[In Yiddish] יא, שוין העכער ווי א יאר, איך האב זיך פארשריבן.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="893.433" end="x">[In German/Yiddish] Wemen haben Sie in Palestina?</u>
+                    <u who="#rosetR" start="896.464" end="x">Hab ich eine Kusin.</u>
+                    <u who="#boderD" start="897.230" end="x">Haben Sie geschriben zu Ihr?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="898.652" end="x">[In Yiddish] יא.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="900.948" end="x">[In German/Yiddish] זאגט Sie das Sie sollen kommen?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="902.713" end="x">[In Yiddish] א, זיכער.</u>
+                    <u who="#boderD" start="903.634" end="x">זאל דאס דאך זיין גוט. - נו, מיט אירע ערפארונגען - לאנדס-ארבייט</u>
+                    <u who="#rosetR" start="908.290" end="x">יא, איך וואלט דאס גערן געמאכט, אבער איך ווארט נאך אלץ און איך האב קיינע Erlaubnis פארן.</u>
+                    <u who="#boderD" start="914.868" end="x">א, יעצט [איצט] וועט עס באלד קאמען [קומען] .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="916.962" end="x">[In German] Eh, ob Sie konnen mir ein Gefallen tun . . . Ich bin Professor un ich studier diese Sachen. Sehen Sie das Bild? Was denken Sie ist dis [this]? Bild, die . . . [unklar?]</u>
+                    <u who="#rosetR" start="934.977" end="x">Was es gibt?</u>
+                    <u who="#boderD" start="937.414" end="x">Ja, was es meint. Wer denken Sie is es oder kann es sein?</u>
+                    <u who="#rosetR" start="944.991" end="x">Eine Mutter vielleicht was hat ihre Kinder verloren.</u>
+                    <u who="#boderD" start="949.319" end="x">A Mutter was hat gehat viele Kinder . . . Un was ist dis [this]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="954.959" end="x">[In Yiddish/German] דאס איז איין יונגער קינד.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="957.521" end="x">Ja, un was denken Sie is hier?</u>
+                    <u who="#rosetR" start="960.412" end="x">Er denkt פון einer Melodie.</u>
+                    <u who="#boderD" start="968.599" end="x">Hmm . . . Un dis [this]?</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="971.614" end="x">[In Yiddish] .דאס איז איין שטערבענדער [שטארבנדיקער]</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="977.817" end="x">[In German] Ja . . .</u>
+                </div>
+                <div lang="yi">
+                    <u who="#rosetR" start="978.364" end="x">[In Yiddish] דער . . . מאן בענטשט אים.</u>
+                    <u who="#boderD" start="984.535" end="x">Uh huh . . . און דאס?</u>
+                    <u who="#rosetR" start="988.613" end="x">דא אנטלויפט מען פון וואו, אנטלויפט מען פון וואו . . .</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="999.550" end="x">[In German/Yiddish] Uh huh. Un dis [this]?</u>
+                    <u who="#rosetR" start="1002.332" end="x">Uh, דאס איז das ausgeträumte Land פון עכט . . .</u>
+                </div>
+                <!-- end Spool 9-4A -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#rosetR_en">
+                <!-- Begin spool 9-4A -->
+                <div lang="en">
+                    <u who="boderD" start="0.212" end="x">[In German/Yiddish] Tell me please what is your name?</u>
+                    <u who="rosetR" start="2.813" end="x">Raisel Roset.</u>
+                <u who="#boderD" start="9.192" end="x">What is your name?</u>
+                <u who="rosetR" start="10.549" end="x">Raisel Roset.</u>               
+                <u who="boderD" start="12.219" end="x">Raisel?</u>
+                    <u who="rosetR" start="13.469" end="x">Roset.</u>
+                    <u who="boderD" start="14.438" end="x">Roset?</u>
+                    <u who="rosetR" start="16.172" end="x">Yes.</u>
+                    <u who="boderD" start="17.016" end="x">Was that your name in Poland too? [She apparently nods] Please talk, [laughter] otherwise one cannot . . .</u>
+                    <u who="rosetR" start="21.368" end="x">Yes.</u>
+                    <u who="boderD" start="21.915" end="x">And how old are you Mrs. Roset?</u>
+                    <u who="rosetR" start="25.446" end="x">Fifty years old.</u>
+                    <u who="boderD" start="26.837" end="x">You are fifty years old.</u>
+                    <u who="rosetR" start="28.868" end="x">Yes.</u>
+                    <u who="boderD" start="29.165" end="x">Are you married?</u>
+                    <u who="rosetR" start="31.305" end="x">Yes.</u>
+                    <u who="boderD" start="31.680" end="x">Where is your husband?</u>
+                    <u who="rosetR" start="34.039" end="x">He was in the occup— . . . he was in the occupied parts of Poland, and when the German-Russian war broke out . . . since then there was no word from him; and now, unfortunately, I have learned that he had fallen.</u>
+                    <u who="boderD" start="52.959" end="x">. . . had fallen.</u>
+                    <u who="rosetR" start="53.881" end="x">He has perished, he was put to death.</u>
+                    <u who="boderD" start="56.224" end="x">Where?</u>
+                    <u who="rosetR" start="56.771" end="x">That I don't know yet.</u>
+                    <u who="boderD" start="58.974" end="x">So how were you informed?</u>
+                    <u who="rosetR" start="60.692" end="x">I learned about it. A cousin from Poland has notified me about it.</u>
+                    <u who="boderD" start="64.224" end="x">Yes.</u>
+                    <u who="rosetR" start="64.724" end="x">He was put to death in <placeName ref="Kremenets">Kremenets</placeName>.</u>
+                    <u who="boderD" start="65.958" end="x">Ah . . . you have a cousin in Poland? [a female cousin]</u>
+                    <u who="rosetR" start="72.114" end="x">A cousin of my husband.</u>
+                    <u who="boderD" start="74.801" end="x">In Russian Poland or in free Poland? [Certain sections of Poland were to go over to Russia permanently—east of the Curzon line]</u>
+                    <u who="rosetR" start="77.019" end="x">In free Poland.</u>
+                    <u who="boderD" start="79.534" end="x">In free Poland. Now tell me, when did the Germans come . . . Where did you live?</u>
+                    <u who="rosetR" start="88.065" end="x">I—in <placeName ref="Janów Lubelski">Janow</placeName> [?]</u>
+                    <u who="boderD" start="90.190" end="x">In . . . ?</u>
+                    <u who="rosetR" start="91.315" end="x">. . . district of <placeName ref="Lublin">Lublin</placeName>, <placeName ref="Weimar">Weimar</placeName> [?], district of <placeName ref="Lublin">Lublin</placeName>.</u>
+                    <u who="boderD" start="94.409" end="x">. . . district of <placeName ref="Lublin">Lublin</placeName>. And that was Poland.</u>
+                    <u who="rosetR" start="96.268" end="x">Yes.</u>
+                    <u who="boderD" start="97.315" end="x">Yes. And who marched in there, the Russians?</u>
+                    <u who="rosetR" start="100.112" end="x">The Germans.</u>
+                    <u who="boderD" start="100.705" end="x">The Germans. Now tell me.</u>
+                    <u who="rosetR" start="102.470" end="x">There were a few days, the Germans came in the 6th of ________. After a few days they left <placeName ref="Janów Lubelski">Janow</placeName> and the Russians came in.</u>
+                    <u who="boderD" start="109.662" end="x">Ah.</u>
+                    <u who="rosetR" start="110.631" end="x">And then my husband went away with them[?] As president of the <term ref="#vothG_zionist">Zionist</term> organization—and they were the first to be sent to concentration camps, so he left together with the Russians, for <placeName ref="Dubno">Dubno</placeName> [?].</u>
+                    <u who="boderD" start="133.144" end="x">Ah.</u>
+                    <u who="rosetR" start="133.988" end="x">And afterwards for <placeName ref="Kremenets">Kremenets</placeName>.</u>
+                    <u who="boderD" start="136.488" end="x">Yes.</u>
+                    <u who="rosetR" start="137.113" end="x">All the time I received letters from him, but afterwards when the German-Russian war broke out, the correspondence was cut short.</u>
+                    <u who="boderD" start="149.022" end="x">Nu . . .</u>
+                    <u who="rosetR" start="149.694" end="x">I sent a special messenger to him; and he, in spite of being my relative [?] has deceived me, and told me that my husband has gone into Russia, deep into Russia.</u>
+                    <u who="boderD" start="162.087" end="x">Yes.</u>
+                    <u who="rosetR" start="162.633" end="x">I felt reassured. And then started our troubles in Poland.</u>
+                    <u who="boderD" start="168.164" end="x">So who do you think killed your husband?</u>
+                    <u who="rosetR" start="172.898" end="x">I don't know yet.</u>
+                    <u who="boderD" start="175.351" end="x">The Germans or the Russians?</u>
+                    <u who="rosetR" start="176.288" end="x">I don't know it yet. I have not yet found out.</u>
+                    <u who="boderD" start="179.225" end="x">Yes.</u>
+                    <u who="rosetR" start="179.819" end="x">Because they still are searching for me [??]</u>
+                    <u who="boderD" start="183.131" end="x">Ah.</u>
+                    <u who="rosetR" start="184.256" end="x">And then started by us the compulsory translocation.</u>
+                    <u who="boderD" start="190.178" end="x">That was ordered by the Germans?</u>
+                    <u who="rosetR" start="191.537" end="x">Yes. By the order of translocation the city of <placeName ref="Janów Lubelski">Janow</placeName> was made completely Jew clean.</u>
+                    <u who="boderD" start="197.880" end="x">Yes.</u>
+                    <u who="rosetR" start="198.489" end="x">And all [Jewish] inhabitants of <placeName ref="Janów Lubelski">Janow</placeName> were sent to a little town, twenty kilometers from <placeName ref="Janów Lubelski">Janow</placeName>, to Yldiza [?] There the same thing started. One translocation followed after the other.</u>
+                    <u who="boderD" start="212.457" end="x">Nu.</u>
+                    <u who="rosetR" start="214.222" end="x">One day we noticed that our president of the Jewish council had run away. Then we understood that the liquidation has come [??]</u>
+                    <u who="boderD" start="223.268" end="x">Yes.</u>
+                    <u who="rosetR" start="224.096" end="x">And whoever . . . who had a chance saved himself, of course.</u>
+                    <u who="boderD" start="228.096" end="x">Yes.</u>
+                    <u who="rosetR" start="224.096" end="x">I, in hopes that my man was in Russia . . . so I obtained <term ref="#vothG_aryan">Aryan</term> papers.</u>
+                    <u who="boderD" start="235.802" end="x">What kind of papers? [The term was not familiar to the interviewer—hence the question.]</u>
+                    <u who="rosetR" start="237.114" end="x"><term ref="#vothG_aryan">Aryan</term></u>
+                    <u who="boderD" start="237.848" end="x"><term ref="#vothG_aryan">Aryan</term> papers . . .</u>
+                    <u who="rosetR" start="238.973" end="x">And ran away.</u>
+                    <u who="boderD" start="240.333" end="x">Aha.</u>
+                    <u who="rosetR" start="240.974" end="x">I ran to a Polish family I knew, and there I was six weeks. Afterwards, they did not want to keep me any more, because they were also in danger from the Germans if I should be found with them. So I picked up my kit and kaboodle and wandered on. So I went to <placeName ref="Częstochowa">Czestochowa</placeName>. In <placeName ref="Częstochowa">Czestochowa</placeName> I was a few weeks, rambled around, a day here, a night there [nit getogt, nit gen chtigt] in the cold, wandering day long in the streets, it was hard to find a room. And I saw that this neither was a solution for me, and I went back to the Jew-<term ref="#vothG_lager">lager</term>.</u>
+                    <u who="boderD" start="281.179" end="x">Ah . . .</u>
+                    <u who="rosetR" start="282.101" end="x">Into the <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName>, back into the Jewish <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName>.</u>
+                    <u who="boderD" start="284.444" end="x">Yes.</u>
+                    <u who="rosetR" start="285.053" end="x">In the Jewish <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName> again the suffering began. Again deportations. I . . . they registered me for work in an ammunition factory. There I worked five months.</u>
+                    <u who="boderD" start="298.647" end="x">Yes.</u>
+                    <u who="rosetR" start="299.413" end="x">Afterwards I heard [a rumor] that there will be a selection. The older ones. They of course would be sent to gas chambers, and the younger ones were to remain. And I as an older women understood that the end was coming.</u>
+                    <u who="boderD" start="317.079" end="x">Yes.</u>
+                    <u who="rosetR" start="318.173" end="x">So I again started to look for means of salvation . . . I got myself again <term ref="#vothG_aryan">Aryan</term> papers and escaped from <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>. And then I was deported from the Polish side to Germany as an <term ref="#vothG_aryan">Aryan</term> [woman], for work. There . . .</u>
+                    <u who="boderD" start="333.001" end="x">Why did they deport the <term ref="#vothG_aryan">Aryans</term>?</u>
+                    <u who="rosetR" start="335.876" end="x">The Germans?</u>
+                    <u who="boderD" start="336.892" end="x">Yes.</u>
+                    <u who="rosetR" start="337.783" end="x">They deported me as an <term ref="#vothG_aryan">Aryan</term> woman to Germany for work.</u>
+                    <u who="boderD" start="341.470" end="x">They . . . took you for a German?</u>
+                    <u who="rosetR" start="343.345" end="x">. . . for a Polish woman.</u>
+                    <u who="boderD" start="345.033" end="x">Aha, as a Polish woman. Nu.</u>
+                    <u who="rosetR" start="347.564" end="x">I arrived in Germany and from there to Lorain.</u>
+                    <u who="boderD" start="352.079" end="x">Ah.</u>
+                    <u who="rosetR" start="359.057" end="x">Where?</u>
+                    <u who="rosetR" start="359.494" end="x">In a field.</u>
+                    <u who="boderD" start="360.494" end="x">Aha . . .</u>
+                    <u who="rosetR" start="361.150" end="x">And there I worked for twenty months, a hard job [?].</u>
+                    <u who="boderD" start="365.915" end="x">What kind of work was that?</u>
+                    <u who="rosetR" start="368.337" end="x">Work on the earth.</u>
+                    <u who="boderD" start="369.946" end="x">Work on the earth, work in the field?</u>
+                    <u who="rosetR" start="371.743" end="x">Work on the earth, work in the gardens, around the home [?] everywhere . . .</u>
+                    <u who="boderD" start="377.319" end="x">Oh, you worked as a house servant.</u>
+                    <u who="rosetR" start="380.209" end="x">Housework, in the garden in the field, everywhere I worked.</u>
+                    <u who="boderD" start="385.380" end="x">Yes. With whom, with the family?</u>
+                    <u who="rosetR" start="386.771" end="x">With other people. There were others. There was a Russian girl, a deportee. There were two war prisoners. And together with them I worked for twenty months. Very, very hard work.</u>
+                    <u who="boderD" start="399.895" end="x">Excuse me, for wom did you work.</u>
+                    <u who="rosetR" start="402.082" end="x">[excited] For the farmer.</u>
+                    <u who="boderD" start="403.519" end="x">For the German . . . for a German farmer?</u>
+                    <u who="rosetR" start="406.222" end="x">Yes. Afterwards . . .</u>
+                    <u who="boderD" start="407.800" end="x">Did he treat you correctly. Did he . . . ?</u>
+                    <u who="rosetR" start="412.144" end="x">He—yes. She [treated me] very bad.</u>
+                    <u who="boderD" start="413.925" end="x">And . . .</u>
+                    <u who="rosetR" start="414.972" end="x">I even had not enough to eat. I hungered many times. She was a very bad woman.</u>
+                    <u who="boderD" start="421.566" end="x">And he?</u>
+                    <u who="rosetR" start="422.722" end="x">He not, he not [he was not bad].</u>
+                    <u who="boderD" start="424.019" end="x">All right. [The first few days in France the interviewer automatically used many English words in his questions]</u>
+                    <u who="rosetR" start="424.706" end="x">And then, after twenty months of hard work, this region was [subsequently] occupied by the Americans—and they have liberated me.</u>
+                    <u who="boderD" start="437.596" end="x">After twenty months.</u>
+                    <u who="rosetR" start="439.268" end="x">After twenty months of work.</u>
+                    <u who="boderD" start="441.034" end="x">Aha.</u>
+                    <u who="rosetR" start="441.425" end="x">They have liberated me, and sent me to <placeName ref="Paris">Paris</placeName>.</u>
+                    <u who="boderD" start="445.409" end="x">Where?</u>
+                    <u who="rosetR" start="446.237" end="x">To France, they sent me to France.</u>
+                    <u who="boderD" start="448.299" end="x">The Americans? [She could have been left in a <term ref="#vothG_dp">DP</term> camp in Germany].</u>
+                    <u who="rosetR" start="449.033" end="x">Yes.</u>
+                    <u who="boderD" start="449.454" end="x">Why?</u>
+                    <u who="rosetR" start="450.423" end="x">I pleaded with them, I want to go to France. I don't want to be anymore with the Germans, and work for them further . . .</u>
+                    <u who="boderD" start="456.673" end="x">Yes.</u>
+                    <u who="rosetR" start="459.048" end="x">Here I learned of my great misfortune.</u>
+                    <u who="boderD" start="463.126" end="x">Yes.</u>
+                    <u who="rosetR" start="463.798" end="x">I learned about my whole family. From a large [?] family I remained the only one. And my sisters and bothers, and children and everybody. And the worst I learned was that my man was killed as I have told you.</u>
+                    <u who="boderD" start="478.127" end="x">Ah. Now tell me Mrs. Roset, what was you husband's occupation before?</u>
+                    <u who="rosetR" start="483.174" end="x">He had a dry goods business.</u>
+                    <u who="boderD" start="485.205" end="x">Where?</u>
+                    <u who="rosetR" start="486.251" end="x">In <placeName ref="Janów Lubelski">Janow</placeName> [She pronounces it like Zamoz].</u>
+                    <u who="boderD" start="487.017" end="x">In Zamoz?</u>
+                    <u who="rosetR" start="487.783" end="x">Yes.</u>
+                    <u who="boderD" start="488.408" end="x">And you say that was with the <term ref="#vothG_zionist">Zionist</term> organization?</u>
+                    <u who="rosetR" start="493.345" end="x">President of the <term ref="#vothG_zionist">Zionist</term> organization in <placeName ref="Janów Lubelski">Janow</placeName>.</u>
+                    <u who="boderD" start="495.923" end="x">All right. Did you have any children? Did you . . .</u>
+                    <u who="rosetR" start="498.798" end="x">No.</u>
+                    <u who="boderD" start="499.157" end="x">You were a childless family?</u>
+                    <u who="rosetR" start="500.251" end="x">Childless . . . yes.</u>
+                    <u who="boderD" start="501.439" end="x">Have you any brothers or sisters?</u>
+                    <u who="rosetR" start="502.595" end="x">Two brothers, three sisters with husbands, wives, children, all killed by the Germans.</u>
+                    <u who="boderD" start="509.126" end="x">Were you in a concentration camp?</u>
+                    <u who="rosetR" start="513.329" end="x">I was not.</u>
+                    <u who="boderD" start="515.110" end="x">Nu.</u>
+                    <u who="rosetR" start="515.595" end="x">I was in a labor <term ref="#vothG_lager">lager</term> in <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>, and from there I ran away. Yes.</u>
+                    <u who="boderD" start="520.157" end="x">What was that labor <term ref="#vothG_lager">lager</term> in <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>. Tell me about it.</u>
+                    <u who="rosetR" start="524.188" end="x">That was a <term ref="#vothG_lager">lager</term> . . . when the <term ref="#vothG_action">action</term> was made in <placeName ref="Częstochowa concentration camp" type="camp">Czestochowa</placeName>, they left from fifty thousand Jews—[a mere] four thousand.</u>
+                    <u who="boderD" start="533.984" end="x">And what happened to the others.</u>
+                    <u who="rosetR" start="535.422" end="x">The others were sent away to the crematories and the gas chambers. And they assigned for these four thousand a small part of the city, a few small streets; these were fenced in with barbed wire, and there they lived. The workers from <placeName ref="Janów Lubelski">Janow</placeName> [??] had to work all the time in the factories.</u>
+                    <u who="boderD" start="564.499" end="x">In what kind of factories did they work?</u>
+                    <u who="rosetR" start="566.452" end="x">They worked in the Norovitz [??] factory, and worked in the factory Hossak [??] . . .</u>
+                    <u who="boderD" start="574.671" end="x">What?</u>
+                    <u who="rosetR" start="576.202" end="x">Hossak, a munition factory.</u>
+                    <u who="boderD" start="577.577" end="x">You say Norovitz's factory . . . ?</u>
+                    <u who="rosetR" start="579.843" end="x">Norovitz's.</u>
+                    <u who="boderD" start="580.546" end="x">Who was Norovitz?</u>
+                    <u who="rosetR" start="581.828" end="x">All factories were converted in munition factories, of course.</u>
+                    <u who="boderD" start="586.546" end="x">Ah, yes. And there, . . .</u>
+                    <u who="rosetR" start="589.357" end="x">And there the Jews worked. And afterwards selections were taking place, deportations took place. Some were deported, others . . . they acted, of course, they way they pleased.</u>
+                    <u who="boderD" start="602.163" end="x">Yes. Now tell me, in these . . . you worked in a factory, and where did you sleep at night?</u>
+                    <u who="rosetR" start="610.594" end="x">At seven in the morning one had to be in the factory.</u>
+                    <u who="boderD" start="614.591" end="x">Yes.</u>
+                    <u who="rosetR" start="615.091" end="x">That was a few kilometers away. At six in the morning the gates of the <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName> were opened, for the labor <term ref="#vothG_lager">lager</term>. All workers were let out, and they would go to work. Seven o'clock in the evening, they would return home into the <term ref="#vothG_lager">lager</term> [<term ref="#vothG_ghetto">ghetto</term> and <term ref="#vothG_lager">lager</term> are apparently used interchangeably]. And there everybody had his corner [then follows the Hebrew word for place—mokum].</u>
+                    <u who="boderD" start="635.403" end="x">What?</u>
+                    <u who="rosetR" start="636.215" end="x">The mokum, which everybody was given, there one lived.</u>
+                    <u who="boderD" start="639.464" end="x">Aha. Now tell where did they eat.</u>
+                    <u who="rosetR" start="642.885" end="x">They ate at the factory.</u>
+                    <u who="boderD" start="644.526" end="x">In the morning, and . . . ?</u>
+                    <u who="rosetR" start="647.276" end="x">In the morning, and at midday . . .</u>
+                    <u who="boderD" start="649.995" end="x">Did they pay any money for the work?</u>
+                    <u who="rosetR" start="652.869" end="x">They did not pay. I am telling you. They only gave food.</u>
+                    <u who="boderD" start="657.165" end="x">Well if one needed something, some soap, cigarets, or such things . . .</u>
+                    <u who="rosetR" start="662.255" end="x">[she mumbles something like] We got nothing.</u>
+                    <u who="boderD" start="663.442" end="x">Nothing [??].</u>
+                    <u who="rosetR" start="664.024" end="x">[an emotional sentence—not clear]</u>
+                    <u who="boderD" start="667.602" end="x">Yes. Did the Jews have there their prayer meetings, their synagogues? Did they have that in the <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName>?</u>
+                    <u who="rosetR" start="674.805" end="x">In the <placeName ref="Częstochowa concentration camp" type="camp">ghetto</placeName>, no?</u>
+                    <u who="boderD" start="678.461" end="x">No? That was not permitted?</u>
+                    <u who="rosetR" start="680.164" end="x">No. That was a labor <term ref="#vothG_lager">lager</term>.</u>
+                    <u who="boderD" start="683.398" end="x">Aha. And they worked on Saturday and Sunday?</u>
+                    <u who="rosetR" start="686.820" end="x">Of course. Of course.</u>
+                    <u who="boderD" start="689.664" end="x">Aha. Now, do you have relatives here in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="rosetR" start="695.055" end="x">Here? I have nobody.</u>
+                    <u who="boderD" start="697.367" end="x">You have nobody here. You simply have asked the Americans to send you.</u>
+                    <u who="rosetR" start="702.445" end="x">I heard that here there are already Jews.</u>
+                    <u who="boderD" start="704.960" end="x">Aha.</u>
+                    <u who="rosetR" start="705.398" end="x">. . . and that is why I asked, that they send me to <placeName ref="Paris">Paris</placeName>. And to <placeName ref="Paris">Paris</placeName> I came as an <term ref="#vothG_aryan">Aryan</term> [woman]. Only here I appealed to a Jewish society, and I revealed that I am Jewish born.</u>
+                    <u who="boderD" start="718.303" end="x">Now tell me, you lived as an <term ref="#vothG_aryan">Aryan</term> [woman]. Did you live all the time in the <term ref="#vothG_lager">lager</term> as an <term ref="#vothG_aryan">Aryan</term> woman?</u>
+                    <u who="rosetR" start="723.974" end="x">In the labor camp I was a Jewess.</u>
+                    <u who="boderD" start="726.349" end="x">As a Jewess. But with the farmer . . .</u>
+                    <u who="rosetR" start="728.193" end="x">With the farmer I was an <term ref="#vothG_aryan">Aryan</term>, of course.</u>
+                    <u who="boderD" start="730.880" end="x">Were they compelling you . . . did they want you to go to church, did they?</u>
+                    <u who="rosetR" start="737.489" end="x">Yes, I went a few times . . .</u>
+                    <u who="boderD" start="739.192" end="x">To the Catholic [church]?</u>
+                    <u who="rosetR" start="740.004" end="x">Yes.</u>
+                    <u who="boderD" start="740.598" end="x">Nu. Tell me, did they treat the Poles the same way as the Jews?</u>
+                    <u who="rosetR" start="746.676" end="x">Oh . . . no. The Poles were deported just for work, but the Jews were killed; very simply.</u>
+                    <u who="boderD" start="757.519" end="x">But . . .</u>
+                    <u who="rosetR" start="757.878" end="x">The Jews, when they were deported, were deported to the gas chambers, to the crematories. When the Poles were deported, they were deported to Germany, for work. That is why I had the <term ref="#vothG_aryan">Aryan</term> papers, so that I should not be sent away . . .</u>
+                    <u who="boderD" start="771.893" end="x">Who gave you the <term ref="#vothG_aryan">Aryan</term> papers?</u>
+                    <u who="rosetR" start="772.987" end="x">For money.</u>
+                    <u who="boderD" start="774.237" end="x">For money, aha . . .</u>
+                    <u who="rosetR" start="776.361" end="x">They were made [forged?].</u>
+                    <u who="boderD" start="777.829" end="x">Aha . . . and then you came to <placeName ref="Paris">Paris</placeName>, and here you came to whom?</u>
+                    <u who="rosetR" start="783.422" end="x">Here . . . I told you, I came to a French shelter; from there I was reported to the Polish consulate; and there I told them that I was a Jewess, and I asked them for an address of a Jewish society because I wanted . . . and so they gave it to me, and I went to . . . Boulevard d'Italien.</u>
+                    <u who="boderD" start="806.920" end="x">What was there?</u>
+                    <u who="rosetR" start="807.936" end="x">Yes. The Jewish society, and they later placed me in Famille [two words not clear] that was a home for the deported, and there I stayed for a considerable time.</u>
+                    <u who="boderD" start="830.028" end="x">Yes. And the, where do you live now?</u>
+                    <u who="rosetR" start="839.044" end="x">Now . . . afterwards, I was assigned to various bureaus [the last few words are not clear] and I went over to live on _______________ [she gives an address in French].</u>
+                    <u who="boderD" start="847.803" end="x">And what is that?</u>
+                    <u who="rosetR" start="848.928" end="x">. . . where I live up to this day.</u>
+                    <u who="boderD" start="850.707" end="x">And what is that? A private [place/?</u>
+                    <u who="rosetR" start="852.815" end="x">Now there is . . . no, that too was a home for the deported, but afterwards the consistoire has taken it over; because there is a seminary, a Rabbi's seminary.</u>
+                    <u who="boderD" start="862.047" end="x">Aha . . .</u>
+                    <u who="rosetR" start="862.984" end="x">. . . and I . . . I requested that they give me work, and I remained living there.</u>
+                    <u who="boderD" start="869.921" end="x">And what kind of work are you doing?</u>
+                    <u who="rosetR" start="871.046" end="x">As a cook.</u>
+                    <u who="boderD" start="871.843" end="x">You work there as a cook . . . you are cooking there . . . and you are coming here in the evening?</u>
+                    <u who="rosetR" start="877.171" end="x">And here, I learn a trade in the evening.</u>
+                    <u who="boderD" start="879.312" end="x">That is with the <term ref="#vothG_ort">ORT</term>.</u>
+                    <u who="rosetR" start="879.968" end="x">Yes.</u>
+                    <u who="boderD" start="880.389" end="x">And what are you learning here?</u>
+                    <u who="rosetR" start="881.607" end="x">. . . here? Corsets.</u>
+                    <u who="boderD" start="882.841" end="x">Corsets . . . and after you have learned it, what do you want to do?</u>
+                    <u who="rosetR" start="887.356" end="x">I have registered already a year ago to go to Palestine . . .</u>
+                    <u who="boderD" start="891.949" end="x">You have registered to go to Pales— . . .</u>
+                    <u who="rosetR" start="893.433" end="x">Yes . . . long ago [??] have I registered . . .</u>
+                    <u who="boderD" start="896.464" end="x">Whom do you have in Palestine?</u>
+                    <u who="rosetR" start="897.230" end="x">There I have a cousin [feminine].</u>
+                    <u who="boderD" start="898.652" end="x">Have you written to her?</u>
+                    <u who="rosetR" start="900.339" end="x">Yes.</u>
+                    <u who="boderD" start="900.948" end="x">Does she want you to come?</u>
+                    <u who="rosetR" start="902.713" end="x">But of course.</u>
+                    <u who="boderD" start="903.634" end="x">With your experience in farm work it should be all right.</u>
+                    <u who="rosetR" start="908.290" end="x">Oh yes, I should do it gladly, but what can I do, if I still have no permit to go . . .</u>
+                    <u who="boderD" start="914.868" end="x">Oh, now it will come soon . . . [Note: During the first few interviews an exploratory attempt was made to give the TAT. This was given up because it was time consuming, and did not directly fit into the plans of the project. —D.P.B.]</u>
+                    <u who="boderD" start="916.962" end="x">Will you do me a favor . . . I am a professor, and I am making a study of these things . . . you see this picture? What do you think it is, what is it about?</u>
+                    <u who="rosetR" start="934.977" end="x">What it is? [not clear]</u>
+                    <u who="boderD" start="937.414" end="x">Yes, what does it mean? What do you think it is, or could it be?</u>
+                    <u who="rosetR" start="944.991" end="x">Possibly a mother who has lost her children.</u>
+                    <u who="boderD" start="949.319" end="x">A mother who has lost her children. And what is this?</u>
+                    <u who="rosetR" start="954.959" end="x">That is a boy, a child.</u>
+                    <u who="boderD" start="957.521" end="x">Yes . . . and what is it about?</u>
+                    <u who="rosetR" start="960.412" end="x">He thinks of a melody.</u>
+                    <u who="boderD" start="968.599" end="x">Hm. And this?</u>
+                    <u who="rosetR" start="971.614" end="x">That is a dying [person]</u>
+                    <u who="boderD" start="977.817" end="x">Yes . . .</u>
+                    <u who="rosetR" start="978.364" end="x">And he . . . they bless him.</u>
+                    <u who="boderD" start="984.535" end="x">Hm . . . and this?</u>
+                    <u who="rosetR" start="988.613" end="x">[In a solemn tone] People are running away from somewhere.</u>
+                    <u who="boderD" start="996.768" end="x">Hm . . .</u>
+                    <u who="rosetR" start="997.065" end="x">People are running away from somewhere. [Unfortunately the number of the card has not been recorded].</u>
+                    <u who="boderD" start="999.550" end="x">So . . . and this?</u>
+                    <u who="rosetR" start="1002.332" end="x">That is possibly the land of dreams.</u>
+                    <p>[Note: There is some noise and the interview is abruptly concluded. Such things happened unfortunately often—the room was needed, the interviewee had to return to work, etc. —D.P.B.]</p>
+                </div>
+                <!-- end Spool 9-4A -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

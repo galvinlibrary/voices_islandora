@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI>
+    <!-- begin TEI header -->
+    <teiHeader>
+        <fileDesc>
+            <!-- title statement -->
+            <titleStmt>
+                <title>David P. Boder Interviews Jacob Button; August 5, 1946; Paris, France</title>
+                <author>David P. Boder</author>
+                <respStmt>
+                    <resp>Text encoding</resp>
+                    <name>Yamini Girey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Stefan Meuser</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation</resp>
+                    <name>Stefan Meuser</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Footnotes</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Eben E. English</name>
+                </respStmt>
+            </titleStmt>
+            <!-- publication statement -->
+            <publicationStmt>
+                <publisher>Paul V. Galvin Library</publisher>
+                <pubPlace>
+                    <address>
+                        <addrLine>Illinois Institute of Technology</addrLine>
+                        <addrLine>Chicago, IL</addrLine>
+                    </address>
+                </pubPlace>
+                <date>2009</date>
+                <availability>
+                    <p>Copyright (c) 2009 Paul V. Galvin Library, Illinois Institute of Technology</p>
+                </availability>
+            </publicationStmt>
+            <!-- source description -->
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT35M13.384S" id="buttonJ_9-25">
+                        <broadcast>
+                            <bibl>
+                                <lang value="primary" norm="Germany">German</lang>
+                                <note type="spools" n="1">9-25</note>
+                                <placeName ref="Jewish Committee home for adult Jewish refugees"/>
+                            </bibl>
+                        </broadcast>
+                        <date>1946-08-05</date>
+                        <respStmt>
+                            <resp>Recorded by</resp>
+                            <name>David P. Boder</name>
+                        </respStmt>
+                        <equipment>
+                            <p>Armour wire recorder</p>
+                        </equipment>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <!-- profile desription -->
+        <profileDesc>
+            <textDesc id="buttonJ_de" n="transcription">
+                <channel mode="s">interview</channel>
+                <constitution type="single">transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="transcription">transcribed in the languages used by the participants</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <textDesc id="buttonJ_en" n="english_translation">
+                <channel mode="s">interview</channel>
+                <constitution type="single">English translation of a transcript of a continuously recorded interaction among the specified participants</constitution>
+                <derivation type="translation">English translation of the interview transcript</derivation>
+                <domain type="documentary"/>
+                <factuality type="fact"/>
+                <interaction type="complete"/>
+                <preparedness type="none"/>
+                <purpose type="documentary"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person id="boderD" role="interviewer">
+                        <persName>
+                            <addName type="honorific" full="abb">Dr.</addName>
+                            <forename>David</forename>
+                            <forename type="middle">Pablo</forename>
+                            <surname>Boder</surname>
+                        </persName>
+                    </person>
+                    <person id="buttonJ" role="interviewee">
+                        <persName>
+                            <forename>Jacob</forename>
+                            <surname>Button</surname>
+                        </persName>
+                        <sex value="1">male</sex>
+                        <age>41</age>
+                        <birth ref="Thessaloníki"/>
+                        <faith>Jewish</faith>
+                        <nationality key="Spain"/>
+                        <state type="marital_status">
+                            <desc>married</desc>
+                        </state>
+                        <trait type="role_during_holocaust">
+                            <desc>victim</desc>
+                        </trait>
+                        <event type="invasion" ref="Thessaloníki">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Salonika Ghetto">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Haidari concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="internment" ref="Bergen-Belsen concentration camp">
+                            <ab/>
+                        </event>
+                        <event type="liberation" ref="Bergen">
+                            <ab/>
+                        </event>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <!-- encoding description -->
+        <encodingDesc>
+            <editorialDecl>
+                <p>Marked items include: speaker turns, times of speaker turns, languages, geographic entities, camps/ghettos, and glossary terms.</p>
+                <p>The English translation was edited using the guidelines of the Chicago Manual of Style, 15th edition.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!-- end TEI header -->
+    <text>
+        <body>
+            <!-- include the locations file -->
+            <include href="voth_locations_tei.xml" parse="xml" xpointer="vothL"/>
+            <!-- include the camps file -->
+            <include href="voth_camps_tei.xml" parse="xml" xpointer="vothC"/>
+            <!-- include the glossary file -->
+            <include href="voth_glossary_tei.xml" parse="xml" xpointer="vothG"/>
+            <!-- begin transcription -->
+            <div corresp="#buttonJ_de">
+                <!-- begin Spool 9-25 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.573" end="x">[In English] This is Spool 99-25, that is a reproduction not from the original, but from the Spool 9-25 which was reproduced from the original before the latter was damaged in its first section.</u>
+                    <p>[Long pause, followed by some indistinct conversation in German away from the microphone]</p>
+                    <u who="#boderD" start="123.458" end="x">This is Spool 25, taken from Mister Jacob Button, a Spanish Jew, who lived in Greece, in Salonika. Mr. Button is very worried that the data will not be in proper chronological order, but we have convinced him that we want especially his personal experiences. This spool is from the collection of the Illinois Institute of Technology.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="151.377" end="x">[In German] Also Herr Button, sagen Sie mir noch einmal, was ist Ihr voller Name, wie alt sind Sie und wo sind Sie geboren?</u>
+                    <u who="#buttonJ" start="162.307" end="x">Ich nenne mich Jacob Button, bin in Saloni—, Salonika geboren, und bin heute 41 Jahre alt. Es tut mir leid, dass ich auf deutscher Sprache spreche—und möchte mich besser französisch oder griechisch oder hebräisch ausdrücken . . . aus Notwendigkeit macht es auf Deutsch.</u>
+                    <u who="#boderD" start="194.778" end="x">. . . der, Herr Button, wenn Sie sich in Hebräisch ausdrücken wollen, und wollen etwas repariert haben, vielleicht haben Sie es fertig dann bis morgen—eine andere Unterredung, und ich werde Sie bitten dann, für mich eine halbe Stunde hebräisch zu lesen. Ist das gut?</u>
+                    <u who="#boderD" start="215.314" end="x">Ja, ich glaube, dass mich bemühen zu machen.</u>
+                    <u who="#boderD" start="219.203" end="x">Gut.</u>
+                    <u who="#buttonJ" start="219.595" end="x">Von . . .</u>
+                    <u who="#boderD" start="220.108" end="x">Also wollen wir jetzt dann mit der Sache vorwärts gehen. Herr Button, wo waren sie wenn der Krieg anfängt?</u>
+                    <u who="#buttonJ" start="228.806" end="x">Zum Anfang des Krieges war ich in Saloniki, und hatte ein Geschäft. Und von [pharmazeutische?] Produkte—und wollte niemals—ob ich Deutsch sprachen, Deutsch kenne, niemals mit Deutschen zu tun haben. Und dass ich mich von den Deutschen fern [gestepp?]. Ich wurde als Spanier zu den letzten Juden in Saloniki festgehalt.</u>
+                    <u who="#boderD" start="270.712" end="x">[unverständlich] Also, Sie sind in Saloniki geboren, aber Sie waren spanischer Untertan?</u>
+                    <u who="#buttonJ" start="278.204" end="x">Ja, ich bin separat . . .</u>
+                    <u who="#boderD" start="283.029" end="x">Ja?</u>
+                    <u who="#buttonJ" start="285.848" end="x">. . . und auch Spanier als Staatsangehöriger.</u>
+                    <u who="#boderD" start="290.944" end="x">Ja?</u>
+                    <u who="#buttonJ" start="292.135" end="x">Und aus diesem Grunde wurden wir zu den letzten Juden von Saloniki weg—, äh, weggejagt wurden—worden.</u>
+                    <u who="#boderD" start="304.904" end="x">Nun, äh, sagen Sie mal, äh, hat man die anderen Juden zuerst genommen?</u>
+                    <u who="#buttonJ" start="310.708" end="x">Ja, man hat erstens die griechischen Juden versammelt und nach einer kurzer Aufenthalt in einem Ghetto bei Baron Hirsch—äh . . .</u>
+                    <u who="#boderD" start="331.851" end="x">. . . äh . . . und sie weg geschickt?</u>
+                    <u who="#buttonJ" start="333.404" end="x">In einem, äh . . .</u>
+                    <u who="#boderD" start="334.414" end="x">In einem Lager, or in einem Ghetto?</u>
+                    <u who="#buttonJ" start="337.218" end="x">Hat man sie erst in einem Ghetto versammelt, neben der, von dem Bahnhof von Saloniki, äh, und, äh, in wöchentlichen oder täglichen Transporten von 3.000 bis, äh, 3.500 Mann nach—Schlesien, nach Oberschlesien gesandt hat. Ich konnte persönlich von einem, von einem, äh, Deutschen, privat, nachher er—</u>
+                    <p>[Tape break]</p>
+                    <u who="#boderD" start="372.345" end="x">Erfahren . . .</u>
+                    <u who="#buttonJ" start="373.928" end="x">. . . erfahren, dass Juden nach Auschwitz versandt wurden.</u>
+                    <p>[Tape break]</p>
+                    <u who="#boderD" start="385.476" end="x">[unverständlich]</u>
+                    <u who="#buttonJ" start="388.054" end="x">Und man machte mich aufmerksam, dass es sich von einer Vertilgung bei der Arbeit, bei der auf Wanderung weisen gehandelt—handeln sollte. Als die spanisch—, spanischen Juden eingeladen wurden, um ihnen etwas zu mitzuteilen von der deutschen Polizisten, bin ich schließlich angestellt bei dieser Versammlung und konnte mich verstecken, und die Möglichkeit später zu finden, nach Athen zu fahren.</u>
+                    <p>[Pause; band lärm]</p>
+                    <u who="#boderD" start="454.520" end="x">Ja, nun?</u>
+                    <u who="#buttonJ" start="457.279" end="x">Als ersten Unglück hatte ich, dass mir ein griechischer Matrose, ein, ein, äh—ein Schiff—, ein Kapitän von einem, äh, von einem Segelschiff mich, äh, betrogen hat, und hat mir, meine Frau und meine zwei Kinder, meiner, äh . . .</u>
+                    <u who="#boderD" start="491.559" end="x">Nun?</u>
+                    <u who="#buttonJ" start="492.072" end="x">[unverständlich]</u>
+                    <u who="#boderD" start="494.137" end="x">Nun, geht’s weiter?</u>
+                    <u who="#buttonJ" start="495.132" end="x">Nein.</u>
+                    <u who="#boderD" start="498.509" end="x">Ja, am Ufer, jetzt was hat er Ihnen getan?</u>
+                    <u who="#buttonJ" start="502.399" end="x">Hat mir verlassen und meine Sachen genommen und mein Geld hat er mir am Ufer auch schon . . .</u>
+                    <u who="#boderD" start="513.178" end="x">Weg genommen . . .</u>
+                    <u who="#buttonJ" start="514.037" end="x">Weg genommen. Solche . . .</u>
+                    <u who="#boderD" start="515.213" end="x">Also, sind Sie dann mit Ihrer Frau und Ihre Kinder am Ufer geblieben?</u>
+                    <u who="#buttonJ" start="518.560" end="x">Ich bin, ich bin am Ufer geblieben mit meine Frau und zwei Kindern, zwei kleine Kinder von sechs und acht Jahren, und sollte nach—, nachher in der judenreinen, wie die Deutschen sagt—, das sagten, Saloniki wiederkommen.</u>
+                    <u who="#boderD" start="539.982" end="x">Ja. Wohin haben Sie denn gehen wollen mit dem Kapitän?</u>
+                    <u who="#buttonJ" start="543.434" end="x">Ich möchte, ich möchte nach, eh, Piräus fahren, wo in einem Teil von Griechenland, wo die italienischen, unter italienischen Herrschaft war . . .</u>
+                    <u who="#boderD" start="556.806" end="x">Ja.</u>
+                    <u who="#buttonJ" start="556.881" end="x">Und dort kei—, noch keine Maßnahmen ge—, Maßnahmen gegen die Juden getroffen wurden.</u>
+                    <u who="#boderD" start="562.037" end="x">Ja. Und so haben Sie Ihre Sachen gepackt?</u>
+                    <u who="#buttonJ" start="565.082" end="x">Und ich hatte das, war es so, so vorbereitet, so wegzufahren und wurde im letzten Moment noch—betrogen und bin weg gelassen worden.</u>
+                    <u who="#boderD" start="577.384" end="x">Ja.</u>
+                    <u who="#buttonJ" start="578.002" end="x">Also, ich hatte glücklicherweise einige griechische Freunde, die mich geholfen haben, und wenn ich wieder in der Stadt gekommen bin, konnte ich mich verstecken und nach ein, drei Tagen wieder noch etwas zu versuchen, nach Athen zu fahren. Auch in diesem Falle wurde ich im, äh, Eisenbahn, in der Eisenbahn—festgenommen wurde, weil, äh, ein Mann mich erkannt hat als Jude, und machte drei Monaten Verhaftung in einem [noise]—in einem Gefängnis von, äh, einem deutschen Gefängnis in Saloniki.</u>
+                    <u who="#boderD" start="625.513" end="x">Ja, und wo sind Sie . . .</u>
+                    <u who="#buttonJ" start="626.101" end="x">Und Frau mir . . .</u>
+                    <u who="#boderD" start="626.629" end="x">Man hat Sie im Zug verhaftet?</u>
+                    <u who="#buttonJ" start="628.664" end="x">Ja.</u>
+                    <u who="#boderD" start="629.267" end="x">Und wo sind Ihre Frau und die Kinder gegangen?</u>
+                    <u who="#buttonJ" start="632.252" end="x">Glücklicherweise meine Frau und meine Kinder wurden nicht dann erkannt, die waren nicht neben . . .</u>
+                    <u who="#boderD" start="638.403" end="x">. . . mir . . .</u>
+                    <u who="#buttonJ" start="638.810" end="x">. . . mir, und dann sind sie weiter fahren.</u>
+                    <u who="#boderD" start="642.187" end="x">Ja.</u>
+                    <u who="#buttonJ" start="643.227" end="x">Ich wurde verhaftet und man hat mich von diesem, und äh, Ge—, mi—, mit, äh, mit großer Strenge behandelt, wir waren acht Tagen in einem Gefängnis einem Pro—, an einem Stadt von der Provinz Mazedonien, der, und nachher, nachher wurden wir von der deutschen Geheimpolizei in Saloniki gegangen, und dort wurden wir in einem Gefängnis ge—, weiter geleitet, wo wir vier Monaten geblieben sind.</u>
+                    <u who="#boderD" start="690.059" end="x">Nach dem, und wo ist Ihre Frau und die Kinder gewest?</u>
+                    <u who="#buttonJ" start="692.683" end="x">Meine Frau und meine Kinder konnten nach Athen weiter, weiter fahren.</u>
+                    <u who="#boderD" start="697.914" end="x">Ja.</u>
+                    <u who="#buttonJ" start="698.608" end="x">Ich wurde, nach vielen Bemühungen und, der spanischer Gesandtschaft wurde ich befreit.</u>
+                    <u who="#boderD" start="709.236" end="x">Ja.</u>
+                    <u who="#buttonJ" start="710.050" end="x">Und, no, war ich auch frei . . .</u>
+                    <u who="#boderD" start="710.653" end="x">War das schon mit die Franco-Regierung, war die spanische Gesandtschaft nicht mit von der Franco-Regierung?</u>
+                    <u who="#buttonJ" start="718.372" end="x">Ja, doch . . . .</u>
+                    <u who="#boderD" start="719.141" end="x">Aber sie haben sich für die Juden eingesetzt?</u>
+                    <u who="#buttonJ" start="722.382" end="x">Als spanischer Staatsangehöriger habe ich von seiner, äh, . . .</u>
+                    <u who="#boderD" start="728.081" end="x">Haben Sie denn Ihre . . .</u>
+                    <u who="#buttonJ" start="728.669" end="x">. . . von seiner Hilfe, von seiner Hilfe, äh, . . .</u>
+                    <u who="#boderD" start="732.423" end="x">Äh, haben Sie gehabt, tatsächlich . . .</u>
+                    <u who="#buttonJ" start="733.946" end="x">Ja, diese Hilfe der Gesandtschaft gehabt.</u>
+                    <u who="#boderD" start="737.459" end="x">Ja.</u>
+                    <u who="#buttonJ" start="740.067" end="x">Ich—wurde . . .</u>
+                    <u who="#boderD" start="740.761" end="x">Und Sie wurden befreit?</u>
+                    <u who="#buttonJ" start="741.620" end="x">Ich wurde befreit, aber inzwischen hatte ich, äh, wurde ich schwer behandelt von den deutschen, äh . . . Poliz—</u>
+                    <u who="#boderD" start="754.932" end="x">Polizisten . . .</u>
+                    <u who="#buttonJ" start="755.309" end="x">Polizisten, von der Gestapo behandelt, und man hat mich, äh . . . versucht zu . . . [unverständlich] [ man hat mich . . . ?]</u>
+                    <u who="#boderD" start="770.641" end="x">Ermorden?</u>
+                    <u who="#buttonJ" start="772.646" end="x">[unverständlich] [nein, nicht ermorden ich weiß nicht . . . was da war und was . . . ?]</u>
+                    <u who="#boderD" start="777.229" end="x">Aha. Man hat Sie gefoltert, man hat Sie tortiert, tortourt—nicht wahr?</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="783.817" end="x">[In English] They tortured.</u>
+                </div>
+                <div lang="Germany">
+                    <u who="#boderD" start="785.551" end="x">[In German] Sie wollten wissen, wo Ihre Sachen und wo Ihr Familie war.</u>
+                    <u who="#buttonJ" start="789.636" end="x">Oh, oh, und wo meine, meine, meine Kinder und meine Frau, und was ich von anderen Sachen betreffend der Juden, der Juden wusst.</u>
+                    <u who="#boderD" start="799.104" end="x">Und haben Sie was gesagt?</u>
+                    <u who="#buttonJ" start="800.958" end="x">Und—ich habe nicht das gesagt, man hat mich äh [menacie, mena?]</u>
+                    <u who="#boderD" start="808.828" end="x">Man hat mir gedroht, man hat Ihnen gedroht . . .</u>
+                    <u who="#buttonJ" start="810.652" end="x">Man hat man hat mir gedroht, mich zu befragen und zu töten und zu . . . aber ich . . .</u>
+                    <u who="#boderD" start="819.577" end="x">Hat man Sie geschlagen?</u>
+                    <u who="#buttonJ" start="821.733" end="x">Ja.</u>
+                    <u who="#boderD" start="822.502" end="x">Ja.</u>
+                    <u who="#buttonJ" start="822.939" end="x">Man hat, man hat, man hat mich geschlagt, und ich habe das nicht gesagt, was ich wusste, wegen der Meinigen.</u>
+                    <u who="#boderD" start="834.879" end="x">Aha. Wieso, sie wollten wissen, wo Ihre Familie ist?</u>
+                    <u who="#buttonJ" start="838.331" end="x">Ja.</u>
+                    <u who="#boderD" start="838.572" end="x">Wollten Ihre Familie mit Sie schieden, hat Ihre Ihnen, Ihre Familie Ihnen nichts geschickt? Haben Sie nicht sowieso gewusst?</u>
+                    <u who="#buttonJ" start="848.552" end="x">Ich, ich wusste, ich, äh, ich war absolut getrennt von meiner Familie, ich hatte keine . . .</u>
+                    <u who="#boderD" start="853.346" end="x">Ja, Sie hatten keinen Kontakt, das . . .</u>
+                    <u who="#buttonJ" start="855.216" end="x">Ich persönlich hatte kein Kontakt, aber die Deutschen wollten . . .</u>
+                    <u who="#boderD" start="860.628" end="x">Wissen . . .</u>
+                    <u who="#buttonJ" start="861.080" end="x">Wissen, wer hat uns, äh, die Papiere gegeben zu . . .</u>
+                    <u who="#boderD" start="866.387" end="x">Ah so, von der Gesandtschaft.</u>
+                    <u who="#buttonJ" start="868.663" end="x">Nein, nicht von der Gesandtschaft, wer hat uns die Papiere gegeben, um in den deutschen Zug einzusteigen und, äh, nach Athen zu, zu fahren, ohne, ohne Erlaubnis.</u>
+                    <u who="#boderD" start="881.055" end="x">Hm. Nun?</u>
+                    <u who="#buttonJ" start="883.166" end="x">Also, in Athen bin ich wieder nach vier Monaten wieder gegeht, und haben mei—, die Meinigen gefunden, inzwischen hatten die Deutschen dort die Griechen, Juden wieder in Athen auf—, äh, gezählt und, äh, sollten sich, äh, wöchentlich bei der, äh . . .</u>
+                    <u who="#boderD" start="909.819" end="x">Polizei melden . . .</u>
+                    <u who="#buttonJ" start="910.482" end="x">. . . Synagoge, bei der, bei dem im Bethaus, jeden, jede Woche kommen und sich anzumelden, und im März dreiund—, äh, dreiundvierzig, im—im Monat März vierundvierzig, nicht dreiundvierzig, wurden sie gefangen und nach zwei Tagen wurden sie . . .</u>
+                    <u who="#boderD" start="939.311" end="x">Wer wurde gefangen?</u>
+                    <u who="#buttonJ" start="940.381" end="x">Die griechischen Juden, die sich bei der . . .</u>
+                    <u who="#boderD" start="943.939" end="x">Synagoge meldeten . . .</u>
+                    <u who="#buttonJ" start="944.844" end="x">. . . Synagoge meldeten, um sich, äh, wurden gefangen und nachher—hatte man die Adressen von den anderen Juden, die in Athen wohnten und überhaupt von den Spaniern, hat man sie zuhause nächtlich verhaftet.</u>
+                    <u who="#boderD" start="967.774" end="x">Hm.</u>
+                    <p>[Pause]</p>
+                    <u who="#buttonJ" start="972.689" end="x">Man, man hat uns erstens in einer, ein Gefängnis ge— . . .</u>
+                    <u who="#boderD" start="980.001" end="x">Hat man Sie auch verhaftet?</u>
+                    <u who="#buttonJ" start="981.162" end="x">Ja.</u>
+                    <u who="#boderD" start="981.659" end="x">Ja.</u>
+                    <u who="#buttonJ" start="982.051" end="x">Ja.</u>
+                    <u who="#boderD" start="982.353" end="x">Man hat Sie wieder verhaftet?</u>
+                    <u who="#buttonJ" start="983.514" end="x">Man hat . . .</u>
+                    <u who="#boderD" start="984.253" end="x">Und Ihre Frau und die Kinder?</u>
+                    <u who="#buttonJ" start="985.565" end="x">Mein—, meine Frau und meine zwei jungen Kinder hat man auch mit mir verhaftet, wir waren auch da in der Gefängnis, in der Nähe von Athen, in [Caetari?] versammelt, dort, dort hatten wir die . . . den Besuch von den Gesandten, von den spanischen Gesandten in Athen gehabt, und man hat mich, äh, hat man uns gesagt, dass die Deutschen ihnen versprochen haben, uns nach Spanien zu senden—werden.</u>
+                    <u who="#boderD" start="1025.394" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1026.525" end="x">Aber, am 2. April . . .</u>
+                    <u who="#boderD" start="1033.264" end="x">Vierundvierzig . . .</u>
+                    <u who="#buttonJ" start="1033.822" end="x">Vierundvierzig hat man uns von dem Gefängnis von Caetari [?] aus auf den Bahnhof von Athen gesandt, äh, dort warn, waren wir mit andere—Wagon mit, die plombiert waren und andere Juden dort vorhanden, hat man uns . . . hat man uns be—, gefordert, wie aufgefordert, hinaufzusteigen, und wurden mit selbem Transport nach Deutschland geschickt, geschickt.</u>
+                    <u who="#boderD" start="1073.364" end="x">Was für ein Transport waren Sie?</u>
+                    <u who="#buttonJ" start="1074.133" end="x">Ein Teil von den Wagen, plombierte, das waren, äh, Loren [?]—Waren-Waggons, von, äh . . .</u>
+                    <u who="#boderD" start="1082.440" end="x">Es, ja—Gü— Güterzüge . . .</u>
+                    <u who="#buttonJ" start="1085.229" end="x">Gü—, Güter—, Güterzüge . . .</u>
+                    <u who="#boderD" start="1086.541" end="x">Transportzüge . . .</u>
+                    <u who="#buttonJ" start="1087.219" end="x">Güterwaggons war . . . war wir . . .</u>
+                    <u who="#boderD" start="1088.576" end="x">Die Waggons waren ganz zugeschlossen?</u>
+                    <u who="#buttonJ" start="1090.988" end="x">War, waren geschlossen und, äh . . .</u>
+                    <u who="#boderD" start="1093.551" end="x">Plomben vom außen . . .</u>
+                    <u who="#buttonJ" start="1095.059" end="x">Vom außen war, warn auch Plomben. Wir hatten von der [Mission?] vom Roten Kreuz etwas Brot und einige Pakete im Waggon, wo wir zweiunddreißig Personen in meinem Waggon waren,—da warn ander’ Waggon wo vierzig Personen schon noch dort waren, und wir machten eine lange Reise von sieben Tagen von, äh, Athen nach, nach Bergen-Belsen.</u>
+                    <u who="#boderD" start="1128.902" end="x">Waren Ihre Frau und Ihre Kinder mit Ihnen?</u>
+                    <u who="#buttonJ" start="1129.445" end="x">Mit, mit, mit meiner Frau und meinen zwei jungen Kindern und meinem Bruder auch.</u>
+                    <u who="#boderD" start="1134.797" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1135.656" end="x">Wir . . .</u>
+                    <u who="#boderD" start="1135.958" end="x">Und das war im selben Waggon?</u>
+                    <u who="#buttonJ" start="1137.511" end="x">Im selben, im selben Waggon waren wir. Und . . .</u>
+                    <u who="#boderD" start="1139.908" end="x">Ja, und warten Sie, hat man den Waggon losgemacht, dass die Leute rausgehen können, oder was . . .</u>
+                    <u who="#buttonJ" start="1145.802" end="x">Nach, äh, zwei Tagen von der Reise konnten wir einmal von dem Waggon hinaussteigen, und könnten die . . . die . . .</u>
+                    <u who="#boderD" start="1161.421" end="x">. . . den Schmutz?</u>
+                    <u who="#buttonJ" start="1162.341" end="x">Den Schmutz—weg—, äh . . .</u>
+                    <u who="#boderD" start="1164.738" end="x">Wegräumen . . .</u>
+                    <u who="#buttonJ" start="1165.296" end="x">Wegwerfen, wegwerfen, und, äh, etwas, äh, Wasser holen . . .</u>
+                    <u who="#boderD" start="1170.316" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1171.130" end="x">Mit uns waren auch, mit uns, im griechischen Teil sind wir noch ein anderen Transport, die zu den unsern, äh, mit, äh . . . verbunden . . .</u>
+                    <u who="#boderD" start="1191.923" end="x">. . . mit Ihnen verbunden war, ja?</u>
+                    <u who="#buttonJ" start="1193.943" end="x">Verbunden wurde . . .</u>
+                    <u who="#boderD" start="1195.572" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1196.009" end="x">Und wir fahrten nach . . . durch, äh, Serbien, Österreich nach Deutschland.</u>
+                    <u who="#boderD" start="1210.391" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1210.753" end="x">. . . und Ungarn, und Ungarn, fuhr—, fahrten wir nach Deutschland. In Ungarn habe ich, äh, hatten wir gesehen, bei, im April 44, die ersten Ungarn, die den Stern . . . .</u>
+                    <u who="#boderD" start="1230.306" end="x">. . . schon da trugen. [?]</u>
+                    <u who="#buttonJ" start="1230.864" end="x">. . . trugen.</u>
+                    <u who="#boderD" start="1231.573" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1232.070" end="x">Und haben die Möglichkeit gehabt, mit ein zu sprechen und man hat uns gesagt, dass uns in den letzten Tagen—wie wie, was für Gesetze und die Maßnahmen gegen den Juden in, äh . . .</u>
+                    <u who="#boderD" start="1251.608" end="x">Ungarn . . .</u>
+                    <u who="#buttonJ" start="1252.543" end="x">In, in äh . . . [unverständlich]</u>
+                    <u who="#boderD" start="1259.402" end="x">Angewandt wurden?</u>
+                    <u who="#buttonJ" start="1260.759" end="x">Angewandt, angewandt wurden.</u>
+                    <u who="#boderD" start="1262.960" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1266.669" end="x">Von unserm Transport wurde ein Teil, ein, der größte Teil von dem, äh, Transport abgesondert, in, äh, einer ungarischen Grenzstadt, und wurde nach anderen Richtung weiter . . .</u>
+                    <u who="#boderD" start="1287.518" end="x">Geschickt.</u>
+                    <u who="#buttonJ" start="1288.121" end="x">Geschickt.</u>
+                    <u who="#boderD" start="1289.388" end="x">Wissen Sie nicht wo Sie geschickt wurden?</u>
+                    <u who="#buttonJ" start="1293.534" end="x">Wussten nicht.</u>
+                    <u who="#boderD" start="1294.635" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1295.313" end="x">Aber die, die Leute hatten keine große Hoffnung, und sie wussten, und sie wussten, dass selbst nach Oberschlesien und in Auschwitz die gesamte</u>
+                    <u who="#boderD" start="1314.942" end="x">Wer [?]</u>
+                    <u who="#buttonJ" start="1315.560" end="x">Gesandt werden.</u>
+                    <u who="#boderD" start="1316.947" end="x">Nun?</u>
+                    <u who="#buttonJ" start="1317.731" end="x">Unser Zug mit einigen Waggonen fuhr weiter nach Deutschland und wir . . . trafen ein in, äh, Belsen—dort stiegen wir ab von den Waggon und die Deutschen zwangten uns . . .</u>
+                    <u who="#boderD" start="1345.634" end="x">Waren Sie noch immer mit Ihrer Frau und Ihren Kindern?</u>
+                    <u who="#buttonJ" start="1347.866" end="x">Mit mit meiner Frau und meinen zwei Kindern war ich noch. Und die Deutschen zwangten, zwang—, zwangten uns, auszusteigen und in, äh, die Strecke von der, von dem Bahnhof bis zum Lager zu Fuß, der Alte und Kinder, und, äh, Männer wie Frauen, zu Fuß zu machen.</u>
+                    <u who="#boderD" start="1371.497" end="x">Wie weit war das ungefähr?</u>
+                    <u who="#buttonJ" start="1373.608" end="x">Es war etwa sieben Kilometer weit von dem Bahnhof.</u>
+                    <u who="#boderD" start="1377.543" end="x">Hm.</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="1388.639" end="x">Nun?</u>
+                    <u who="#buttonJ" start="1388.895" end="x">Es dann wieder, wir sind in dem Lager eingetroffen und wir fanden dort auch einige griechische Juden aus Saloniki. Man sagte uns, dass es in einem sehr strengen Lager angekommen sind, und, äh, sagte uns auch, dass es früher auch andere Juden aus Saloniki von spanischer Staatsangehörigkeit dort gewesen sind, aber diese Leute, sie waren vor drei Monaten von dem Lager weg ge—, weg gegangen. Wussten nicht genau, nach welcher Richtung und wo.</u>
+                    <p>[Pause]</p>
+                    <u who="#buttonJ" start="1446.747" end="x">Ich bin im Lager mit meiner Familie, meiner Frau und meinen zwei Kinder, genau ein Jahr lang geblieben.</u>
+                    <u who="#boderD" start="1459.848" end="x">Hat man Sie erlaubt, zusammen zu sein?</u>
+                    <u who="#buttonJ" start="1463.300" end="x">Wir lebten in großen Baracken, Holzbaracken . . .</u>
+                    <u who="#boderD" start="1469.994" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1471.456" end="x">Und fanden dort auch polische—einige dreihundert bis vierhundert polische Juden . . .</u>
+                    <u who="#boderD" start="1482.190" end="x">Männer und Frauen?</u>
+                    <u who="#buttonJ" start="1483.260" end="x">Männer und Frauen, einige Kinder . . .</u>
+                    <u who="#boderD" start="1486.366" end="x">Im selben, äh, Raum?</u>
+                    <u who="#buttonJ" start="1488.974" end="x">Im, äh, einem benachbarten Block, im benachbarten Block, es waren polische Juden, die zu der südamerikanischen, äh, Staatsangehörigkeit hatten und als Neutrale nicht zu der Arbeit verpflichtet . . .</u>
+                    <u who="#boderD" start="1511.662" end="x">Werden konnten?</u>
+                    <u who="#buttonJ" start="1512.989" end="x">Wurden.</u>
+                    <u who="#boderD" start="1514.014" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1517.301" end="x">Man be—, wenn—, wir hatten eine Bewachung von deutschen Soldaten, und jeden Morgen sollten wir auf dem Appell herauskommen, und, äh, man machte uns often zwei, drei, Stunden und eine Stunde, Winter, Kleinen und Großen, Frauen und Männer, warten, wenn etwas nicht in Ordnung war. Wann die [Zahlen?] nicht fand und wenn verhafteten. Wir—man hat uns versprochen, dass wir die Möglichkeit haben werden, mit dem Auslande zu, in, äh . . .</u>
+                    <u who="#boderD" start="1579.743" end="x">. . . kommunizieren?</u>
+                    <u who="#buttonJ" start="1580.723" end="x">In Verbindung zu kommen, aber es waren nur Vers—, äh, nur . . .</u>
+                    <u who="#boderD" start="1587.703" end="x">Versprechen . . . .</u>
+                    <u who="#buttonJ" start="1588.050" end="x">. . . nur leere Versprechen, und wir hatten niemals die Möglichkeit, mit, äh, mit der Auswelt zu—, in Verbindung zu kommen. Man, als Nahrung hatten wir die denen, die Nahrung, die jede, die, der, die jede Internierte hatte. Unsere Küche war nicht besser, oder nicht schlechter wie den andern, weil das Ganze nicht schlechter sein wie sie war. Wir hatten früh ein warmes Wasser, die man, äh, Infusion von Kaffee nannte und gar nichts mit Kaffee zu tun hatte. Man, am Mittag konnte sehr hungrige Person von was letzten Monat, konnte eine, eine Speise von eine, eine Suppe, die von etwas—eine Gemüse . . .</u>
+                    <u who="#boderD" start="1663.366" end="x">Ja?</u>
+                    <u who="#buttonJ" start="1664.211" end="x">Die man . . .</u>
+                    <u who="#boderD" start="1665.734" end="x">Nun ja, so, mit etwas Gemüse gemischt, nun?</u>
+                    <u who="#buttonJ" start="1671.206" end="x">Und, und, Gräser [?] und so weiter das war unsere Nahrung—man hatte 300 Gramm Brot pro Person und später hatten wir nur 250 und den letzten Tage noch gar nichts, und da sind wieder dasselbe warme Wasser und nichts weiter, das war die Nahrung, die unsere Kräfte herabsetzte, und in den letzten Tagen wurden wir gezwungen, hungrig um ohne Essen zu, zu leben ohne Bewegungen [?] zu machen und an, äh, an Hunger zu, zu sterben, weil unsere Kräfte waren durchaus . . .</u>
+                    <u who="#boderD" start="1723.535" end="x">Geschwächt?</u>
+                    <u who="#buttonJ" start="1724.349" end="x">Geschwächt.</u>
+                    <u who="#boderD" start="1725.525" end="x">Nun, was haben die Kinder in solch einem Lager getan?</u>
+                    <u who="#buttonJ" start="1730.545" end="x">Die Kinder konnten, wenn wir, ich und meine Frau zusammen waren, konnten von unseren Anteil etwas mehr haben.</u>
+                    <u who="#boderD" start="1741.460" end="x">Aber was haben die sonst getan, gelesen, gespielt?</u>
+                    <u who="#buttonJ" start="1745.515" end="x">Die Kinder wie die Großen hatten keine Zwangsarbeit zu leisten.</u>
+                    <u who="#boderD" start="1752.073" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1752.631" end="x">Ich konnt, ich kann persönlich sagen, was ich um mir gesehen habe.</u>
+                    <u who="#boderD" start="1765.912" end="x">Aber was haben Ihre eigenen Kinder getan, was haben die den ganzen Tag getan?</u>
+                    <u who="#buttonJ" start="1770.465" end="x">Die Kinder, die . . .</u>
+                    <u who="#boderD" start="1773.450" end="x">Waren die erlaubt, draußen zu gehen?</u>
+                    <u who="#buttonJ" start="1775.832" end="x">Draußen, wo draußen, wir waren drauß, neben, äh, wir warn zwischen, äh, Baracken draußen . . .</u>
+                    <u who="#boderD" start="1782.614" end="x">Baracken. Ja.</u>
+                    <u who="#buttonJ" start="1784.046" end="x">Und die Kinder konnten sich von dem, äh . . .</u>
+                    <u who="#boderD" start="1788.689" end="x">Baracken . . .</u>
+                    <u who="#buttonJ" start="1789.654" end="x">Von den Baracken, weit davon, 20, 25 Meter weit, weiter, weiter gehen, um weiter kommen und, äh . . .</u>
+                    <u who="#boderD" start="1801.473" end="x">Sagen Sie, Herr Button, wo sind Sie, äh, wo sind jetzt weiter Ihre Frau und Kinder jetzt?</u>
+                    <u who="#buttonJ" start="1807.744" end="x">Meine Frau und meine Kinder sind jetzt in Paris, wo ich auch noch bin, und lebe noch in einem Centre de [unverständlich] von der Fédération des Sociétés Juives de France.</u>
+                    <u who="#boderD" start="1822.171" end="x">Sie wohnen nicht in diesem Hause?</u>
+                    <u who="#buttonJ" start="1823.890" end="x">Ich wohne in diesem Haus.</u>
+                    <u who="#boderD" start="1825.111" end="x">Und die Frau und die Kinder?</u>
+                    <u who="#buttonJ" start="1826.619" end="x">Und meine Kinder auch, ja.</u>
+                    <u who="#boderD" start="1828.232" end="x">Die, Sie wohnen hier, Sie haben hier ein Zimmer?</u>
+                    <u who="#buttonJ" start="1830.946" end="x">Ja ich habe hier ein Zimmer—ich möchte etwas . . .</u>
+                    <u who="#boderD" start="1836.147" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1836.690" end="x">. . . sagen über die schlechten Behandlung von den Juden und den andern Internierten in Bergen-Belsen . . .</u>
+                    <u who="#boderD" start="1845.027" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1845.344" end="x">. . . und—wo ich Frauen und Männer gesehen habe, die im Winter und im Schnee und, äh, großer Kälte—große Bretter und einem Wagen, äh . . .</u>
+                    <u who="#boderD" start="1868.364" end="x">. . . geschleppt haben . . .</u>
+                    <u who="#buttonJ" start="1869.419" end="x">. . . in Wagen gestreckt haben, die früher,—an die man nur, äh, nur Pferde und, äh . . .</u>
+                    <u who="#boderD" start="1881.447" end="x">Maulesel . . .</u>
+                    <u who="#buttonJ" start="1882.578" end="x">Mau—, Maulesel, äh . . .</u>
+                    <u who="#boderD" start="1884.402" end="x">Gespannt hat . . .</u>
+                    <u who="#buttonJ" start="1885.457" end="x">Ge—, gespannt hat. Wurden unter sehr schlechten . . .</u>
+                    <u who="#boderD" start="1895.498" end="x">Bedingungen . . .</u>
+                    <u who="#buttonJ" start="1896.176" end="x">Bedingungen, wurden sehr schlechten Bedingungen, äh, ge— von Männern und, äh, und Frauen geschlä—, geschlägt . . . ich habe gesehen, wie deutschen Frauen die Internierte zu Arbeit härteten und, äh, schlugen, fertig mit großen . . .</u>
+                    <u who="#boderD" start="1925.261" end="x">Peitschen . . .</u>
+                    <u who="#buttonJ" start="1927.251" end="x">Mit Peitschen und, äh, Holz—, äh, und . . .</u>
+                    <u who="#boderD" start="1931.382" end="x">. . . —stöcken . . .</u>
+                    <u who="#buttonJ" start="1931.819" end="x">. . . und Holzstöcke—und ich habe auch gesehen, dass eine einige Internierte auch wie vielleicht Deutsch oder—weiß nicht wovon andere Nationalitäten warn, sind die dazu gebraucht wurden, um die anderen Ju—, Juden zu, zu schlagen. Ich, äh . . .</u>
+                    <u who="#boderD" start="1959.482" end="x">Waren diese Juden, die Sie geschlagen haben?</u>
+                    <u who="#buttonJ" start="1962.572" end="x">Nein, es . . .</u>
+                    <u who="#boderD" start="1963.326" end="x">Nein, andere Häftlinge?</u>
+                    <u who="#buttonJ" start="1963.809" end="x">Es, es waren andere Häftlinge, Deutsche oder Ro—, Russen oder weiß ich nicht so genau, wie . . .</u>
+                    <u who="#boderD" start="1972.809" end="x">Ja.</u>
+                    <u who="#buttonJ" start="1973.201" end="x">Was sie waren . . . die die Juden, die die Juden schlugen. Ich habe auch vor— gesehen, dass sie eine Frau, die ein, ein, ein werig, ein wenig, äh, etwas Brot geben wollte und und Salz, wurde von einer deutschen, äh, Gestapo-Frau gesehen worden und sie hat auf sie, auf den Kopf so heftig geschlagen, dass ich sie nach zwei Tagen nicht wieder draußen kommen sah, und später erfahren habe, dass sie tot—tot gefallen ist.</u>
+                    <u who="#boderD" start="2023.553" end="x">Nun sagen Sie, Herr Button, was planen Sie jetzt zu tun? Was werden Sie jetzt tun, wo wollen Sie gehen oder bleiben Sie in Paris?</u>
+                    <u who="#buttonJ" start="2033.322" end="x">Ich habe erstens mich zum Palästina an—, angemeldet und möchte wo ich nach Palästina—</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="2042.940" end="x">Sie haben sich, noch mal, Sie haben sich für Pal . . .</u>
+                    <u who="#buttonJ" start="2046.468" end="x">Ich habe mich zum Palästina angemeldet und wollte erstens nach Palästina fahren, wo ich auch andern Verwandten hatte.</u>
+                    <u who="#boderD" start="2055.981" end="x">Ja.</u>
+                    <u who="#buttonJ" start="2056.720" end="x">Ich warte leider ein ganzen Jahr hier und hab ich nicht meine Bewilligung, um nach Palästina zu fahren, gehabt. Ich musste mich bemühen, etwas hier in Frankreich als Arbeit zu finden, und meine Möglich—, Lebensmöglichkeit zu—</u>
+                    <u who="#boderD" start="2088.077" end="x">Zu—, fördern oder . . .</u>
+                    <u who="#buttonJ" start="2089.294" end="x">Zu versichern.</u>
+                </div>
+                <div lang="en">
+                    <u who="#boderD" start="2091.344" end="x">[In English] This concludes Spool number 25, spoken by Mr. Jacob Button, a Spanish Jew born in Greece, he is now doing some work, he expects to go to Palestine. Illinois Institute of Technology recording.</u>
+                </div>
+                <!-- end Spool 9-25 -->
+            </div>
+            <!-- end transcription -->
+            <!-- begin English translation -->
+            <div corresp="#buttonJ_en">
+                <!-- begin Spool 9-25 -->
+                <div lang="en">
+                    <u who="#boderD" start="0.573" end="x">[In English] This is Spool 99-25, that is a reproduction not from the original, but from the Spool 9-25 which was reproduced from the original before the latter was damaged in its first section.</u>
+                    <p>[Long pause, followed by some indistinct conversation in German away from the microphone]</p>
+                    <u who="#boderD" start="123.458" end="x">This is Spool 25, taken from Mister Jacob Button, a Spanish Jew, who lived in Greece, in <placeName ref="Thessaloníki">Salonika</placeName>. Mr. Button is very worried that the data will not be in proper chronological order, but we have convinced him that we want especially his personal experiences. This spool is from the collection of the Illinois Institute of Technology.</u>
+                    <u who="#boderD" start="151.377" end="x">[In German] So, Mr. Button, tell me again, what is your full name, how old are you, and where were you born?</u>
+                    <u who="#buttonJ" start="162.307" end="x">I call myself Jacob Button, was born in Saloni—, <placeName ref="Thessaloníki">Salonika</placeName>, and I am 41 years old today. I am sorry to speak in German—I would rather express myself in French or Greek or Hebrew—but out of necessity I will do it in German.</u>
+                    <u who="#boderD" start="194.778" end="x">. . . the, Mr. Button, if you want to express yourself in Hebrew, and want to have something corrected, maybe you can have it ready by tomorrow—[for] another conversation, and I will then ask you to read for me for half an hour in Hebrew. Is that good?</u>
+                    <u who="#boderD" start="215.314" end="x">Yes, I think I can give it a try.</u>
+                    <u who="#boderD" start="219.203" end="x">Good.</u>
+                    <u who="#buttonJ" start="219.595" end="x">. . . from . . .</u>
+                    <u who="#boderD" start="220.108" end="x">So let us proceed with the matter. Mr. Button, where were you when the war started?</u>
+                    <u who="#buttonJ" start="228.806" end="x">At the beginning of the war I was in <placeName ref="Thessaloníki">Saloniki</placeName>, and had a business of pharmaceutical [?] products. And [I] never wanted to speak German, know Germans, never wanted to have to do [anything] with Germans. And wanted to stay away from the Germans. As a Spaniard, I was held as [one of] the last Jews of <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#boderD" start="270.712" end="x">[unintelligible] So, you were born in <placeName ref="Thessaloníki">Saloniki</placeName>, but you were a Spanish subject?</u>
+                    <u who="#buttonJ" start="278.204" end="x">Yes, I was separately . . .</u>
+                    <u who="#boderD" start="283.029" end="x">Yes?</u>
+                    <u who="#buttonJ" start="285.848" end="x">. . . and also of Spanish citizenship.</u>
+                    <u who="#boderD" start="290.944" end="x">Yes?</u>
+                    <u who="#buttonJ" start="292.135" end="x">And because of this we were the last Jews of <placeName ref="Thessaloníki">Saloniki</placeName> to be, ah, to be driven away.</u>
+                    <u who="#boderD" start="304.904" end="x">Now, ah, say, ah, were the other Jews taken first?</u>
+                    <u who="#buttonJ" start="310.708" end="x">Yes, first the Greek Jews were rounded up, and after a short stay in a <term ref="#vothG_ghetto">ghetto</term> at Baron Hirsch—ah . . .<note n="1">Jews were deported out of Thessaloníki after being assembled in a ghetto in the Baron de Hirsch quarter of the city, which was close to a major railway station.</note></u>
+                    <u who="#boderD" start="331.851" end="x">. . . ah . . . and you [were] sent away?</u>
+                    <u who="#buttonJ" start="333.404" end="x">In a, ah . . .</u>
+                    <u who="#boderD" start="334.414" end="x">In a camp, or in a <term ref="#vothG_ghetto">ghetto</term>?</u>
+                    <u who="#buttonJ" start="337.218" end="x">They were assembled in a <term ref="#vothG_ghetto">ghetto</term> first, next to, of the train station of <placeName ref="Thessaloníki">Saloniki</placeName>, ah, and, ah, were sent to Silesia, to Upper Silesia in weekly or daily transports of 3,000 to, ah, 3,500 people. From a, ah, German, I could later privately and personally l—</u>
+                    <p>[Tape break]</p>
+                    <u who="#boderD" start="372.345" end="x">Learn . . .</u>
+                    <u who="#buttonJ" start="373.928" end="x">. . . learn that Jews were sent to <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>.</u>
+                    <p>[Tape break]</p>
+                    <u who="#boderD" start="385.476" end="x">[unintelligible]</u>
+                    <u who="#buttonJ" start="388.054" end="x">And I was made aware that it was supposed to be an extinction at work, at the trip. When the Spanish, Spanish Jews were summoned by the German police to make an announcement, I finally attended the assembly and was able to hide, and to later find a way to go to <placeName ref="Athens">Athens</placeName>.</u>
+                    <p>[Pause, tape noise]</p>
+                    <u who="#boderD" start="454.520" end="x">Yes, now?</u>
+                    <u who="#buttonJ" start="457.279" end="x">I had the first bad luck that a Greek sailor, a, a, ah, a ship, a captain of a sail boat cheated me, and took me, my wife and my two children, [took] my, ah, ah . . .</u>
+                    <u who="#boderD" start="491.559" end="x">Now?</u>
+                    <u who="#buttonJ" start="492.072" end="x">[unintelligible]</u>
+                    <u who="#boderD" start="494.137" end="x">Now, is it proceeding?</u>
+                    <u who="#buttonJ" start="495.132" end="x">No.</u>
+                    <u who="#boderD" start="498.509" end="x">Yes, on shore, what did he do to you?</u>
+                    <u who="#buttonJ" start="502.399" end="x">Left me and took my things and my money, he had, on the shore, taken my money already . . .</u>
+                    <u who="#boderD" start="513.178" end="x">Took it away . . .</u>
+                    <u who="#buttonJ" start="514.037" end="x">. . . took it away. Such . . .</u>
+                    <u who="#boderD" start="515.213" end="x">So, you stayed ashore with your wife and your kids?</u>
+                    <u who="#buttonJ" start="518.560" end="x">I was, I stayed ashore with my wife and two children, two little children of six and eight years, and was to, afterwards, go back to <placeName ref="Thessaloníki">Saloniki</placeName> that was "judenrein" [free of Jews] as the Germans said.</u>
+                    <u who="#boderD" start="539.982" end="x">Yes. Where did you want to go with the captain?</u>
+                    <u who="#buttonJ" start="543.434" end="x">I want[ed], I want[ed] to go to <placeName ref="Piraeus">Piraeus</placeName>, where in a part of Greece, where the Italian, that was under Italian rule . . .</u>
+                    <u who="#boderD" start="556.806" end="x">Yes.</u>
+                    <u who="#buttonJ" start="556.881" end="x">. . . and there were no measures, no measures taken against the Jews.</u>
+                    <u who="#boderD" start="562.037" end="x">Yes. And so you packed your things?</u>
+                    <u who="#buttonJ" start="565.082" end="x">And I had that, it was prepared like that, to go away, and was cheated at the last moment, and left behind.</u>
+                    <u who="#boderD" start="577.384" end="x">Yes.</u>
+                    <u who="#buttonJ" start="578.002" end="x">So, luckily I had some Greek friends who helped me, and when I came back to the city, I could hide, and after one, three days try again to go to <placeName ref="Athens">Athens</placeName>. This time I was also, in the, on the train, I was arrested because a man had recognized me as a Jew, and that [resulted in] three months of arrest in a [noise]—in a prison of, ah, in a German prison in <placeName ref="Thessaloníki">Saloniki</placeName>.</u>
+                    <u who="#boderD" start="625.513" end="x">Yes, and where did you . . .</u>
+                    <u who="#buttonJ" start="626.101" end="x">. . . and [my] wife . . .</u>
+                    <u who="#boderD" start="626.629" end="x">. . . you were arrested on the train?</u>
+                    <u who="#buttonJ" start="628.664" end="x">Yes.</u>
+                    <u who="#boderD" start="629.267" end="x">And where did your wife and children go?</u>
+                    <u who="#buttonJ" start="632.252" end="x">Fortunately, my wife and children were not recognized then, they were not with . . .</u>
+                    <u who="#boderD" start="638.403" end="x">. . . me . . .</u>
+                    <u who="#buttonJ" start="638.810" end="x">. . . me, and then they went on.</u>
+                    <u who="#boderD" start="642.187" end="x">Yes.</u>
+                    <u who="#buttonJ" start="643.227" end="x">I was arrested, and was going, ah, was treated very harshly, for eight days we in a prison in, ah, pro—, in a city in the province of Macedonia, and from there afterwards we were taken by the German secret police to <placeName ref="Thessaloníki">Saloniki</placeName>—and there we were, were routed to a prison where we stayed for four months.</u>
+                    <u who="#boderD" start="690.059" end="x">After that, and where were your wife and the children?</u>
+                    <u who="#buttonJ" start="692.683" end="x">My wife and my children could continue to go, continue to <placeName ref="Athens">Athens</placeName>.</u>
+                    <u who="#boderD" start="697.914" end="x">Yes.</u>
+                    <u who="#buttonJ" start="698.608" end="x">I was, after many efforts, and—, of the Spanish Embassy, I was freed.</u>
+                    <u who="#boderD" start="709.236" end="x">Yes.</u>
+                    <u who="#buttonJ" start="710.050" end="x">And now I was free, too . . .</u>
+                    <u who="#boderD" start="710.653" end="x">Was that already the Franco government, was the Spanish Embassy not of the Franco government?</u>
+                    <u who="#buttonJ" start="718.372" end="x">Yes, but . . . .</u>
+                    <u who="#boderD" start="719.141" end="x">But they acted on behalf of the Jews?</u>
+                    <u who="#buttonJ" start="722.382" end="x">As Spanish citizen, I was to get their, ah . . .</u>
+                    <u who="#boderD" start="728.081" end="x">Have you then . . .</u>
+                    <u who="#buttonJ" start="728.669" end="x">. . . help, get their help, ah . . .</u>
+                    <u who="#boderD" start="732.423" end="x">Ah, you did receive [help], indeed . . .</u>
+                    <u who="#buttonJ" start="733.946" end="x">Yes, [I was] helped by the Embassy.</u>
+                    <u who="#boderD" start="737.459" end="x">Yes.</u>
+                    <u who="#buttonJ" start="740.067" end="x">I—was . . .</u>
+                    <u who="#boderD" start="740.761" end="x">And you were freed?</u>
+                    <u who="#buttonJ" start="741.620" end="x">I was freed, but in the meantime I had, ah, I was treated very harshly by the German, ah, pol—</u>
+                    <u who="#boderD" start="754.932" end="x">Police . . .</u>
+                    <u who="#buttonJ" start="755.309" end="x">Police, of the <term ref="#vothG_gestapo">Gestapo</term>, and I was, ah . . . one tried to . . . [unintelligible] [I was . . . ?]</u>
+                    <u who="#boderD" start="770.641" end="x">Murder?</u>
+                    <u who="#buttonJ" start="772.646" end="x">[unintelligible] [ . . . no, not murder, I don't know . . . what that was and what . . . ?]</u>
+                    <u who="#boderD" start="777.229" end="x">Aha. You were tortured, one did the torture, tortured [tries to express the term]—right?</u>
+                    <u who="#boderD" start="783.817" end="x">[In English] They tortured.</u>
+                    <u who="#boderD" start="785.551" end="x">[In German] They wanted to know where your things and your family were.</u>
+                    <u who="#buttonJ" start="789.636" end="x">Oh, oh, and where my, my, my children and my wife [were] and what I knew of other affairs regarding the Jews, the Jews . . .</u>
+                    <u who="#boderD" start="799.104" end="x">And what did you say?</u>
+                    <u who="#buttonJ" start="800.958" end="x">And—I did not say it, and I was, ah— [menacie, mena?]</u>
+                    <u who="#boderD" start="808.828" end="x">I was threatened, you were threatened . . .</u>
+                    <u who="#buttonJ" start="810.652" end="x">I was threatened to inquire, and to kill me, and to . . . but I . . .</u>
+                    <u who="#boderD" start="819.577" end="x">Were you beaten?</u>
+                    <u who="#buttonJ" start="821.733" end="x">Yes.</u>
+                    <u who="#boderD" start="822.502" end="x">Yes.</u>
+                    <u who="#buttonJ" start="822.939" end="x">One did, one did, one did beat me, and I did not say it, what I knew, because of my family.</u>
+                    <u who="#boderD" start="834.879" end="x">Aha. Why, they wanted to know where your family was?</u>
+                    <u who="#buttonJ" start="838.331" end="x">Yes.</u>
+                    <u who="#boderD" start="838.572" end="x">Did your family want to part with you, did they, didn't they send you anything? Didn't they [the police] know, anyway?</u>
+                    <u who="#buttonJ" start="848.552" end="x">I, I knew, I, ah, I was absolutely separated from my family, I had no . . .</u>
+                    <u who="#boderD" start="853.346" end="x">Yes, you had no contact, that . . .</u>
+                    <u who="#buttonJ" start="855.216" end="x">I personally had no contact, but the Germans wanted to . . .</u>
+                    <u who="#boderD" start="860.628" end="x">Know . . .</u>
+                    <u who="#buttonJ" start="861.080" end="x">Know who had, ah, given us the papers to . . .</u>
+                    <u who="#boderD" start="866.387" end="x">Ah so, from the Embassy.</u>
+                    <u who="#buttonJ" start="868.663" end="x">No, not from the Embassy, who gave us the papers, to get on a German train and to, ah, go to, to <placeName ref="Athens">Athens</placeName>, without, without permission.</u>
+                    <u who="#boderD" start="881.055" end="x">Hm. Now?</u>
+                    <u who="#buttonJ" start="883.166" end="x">So, after four months I went again to <placeName ref="Athens">Athens</placeName>, and found my family, meanwhile the Germans had counted [accounted for] the Greek Jews, and, ah, they were supposed to report, ah, weekly with the, ah . . .</u>
+                    <u who="#boderD" start="909.819" end="x">register with the police . . .</u>
+                    <u who="#buttonJ" start="910.482" end="x">. . . synagogue, at the, at the, in the temple, every, every week, to come and report, and in March of '43, in—in March of '44, not '43, they were caught and after two days . . .</u>
+                    <u who="#boderD" start="939.311" end="x">Who was caught?</u>
+                    <u who="#buttonJ" start="940.381" end="x">The Greek Jews who . . .</u>
+                    <u who="#boderD" start="943.939" end="x">Reported to the synagogue . . .</u>
+                    <u who="#buttonJ" start="944.844" end="x">. . . reported to the synagogue, to, ah, were arrested and afterwards—one had the addresses of the other Jews who lived in <placeName ref="Athens">Athens</placeName>, and of the Spaniards in general, and they were arrested at their homes at night.</u>
+                    <u who="#boderD" start="967.774" end="x">Hm.</u>
+                    <p>[Pause]</p>
+                    <u who="#buttonJ" start="972.689" end="x">First, we were [put] in a prison . . .</u>
+                    <u who="#boderD" start="980.001" end="x">Were you arrested, too?</u>
+                    <u who="#buttonJ" start="981.162" end="x">Yes.</u>
+                    <u who="#boderD" start="981.659" end="x">Yes.</u>
+                    <u who="#buttonJ" start="982.051" end="x">Yes.</u>
+                    <u who="#boderD" start="982.353" end="x">One did arrest you again?</u>
+                    <u who="#buttonJ" start="983.514" end="x">One did . . .</u>
+                    <u who="#boderD" start="984.253" end="x">And your wife and the children?</u>
+                    <u who="#buttonJ" start="985.565" end="x">My, my wife and my two young children were arrested with me, we were also assembled there in the prison, near <placeName ref="Athens">Athens</placeName>, in <placeName type="camp" ref="Haidari concentration camp">Haidari</placeName>, there, there we received a visit from the Spanish ambassadors in <placeName ref="Athens">Athens</placeName>, and I was, ah, we were told that the Germans had promised them to send us to Spain.</u>
+                    <u who="#boderD" start="1025.394" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1026.525" end="x">But, on April 2 . . .</u>
+                    <u who="#boderD" start="1033.264" end="x">'44 . . .</u>
+                    <u who="#buttonJ" start="1033.822" end="x">. . . '44 we were sent from the prison of <placeName type="camp" ref="Haidari concentration camp">Haidari</placeName> to the train station of <placeName ref="Athens">Athens</placeName>, ah, there were, we were with other—cars with, that were sealed, and [there were] other Jews present, and we were, one was told to get on, and with the same transport we were sent, sent to Germany.</u>
+                    <u who="#boderD" start="1073.364" end="x">What kind of transport were you [on]?</u>
+                    <u who="#buttonJ" start="1074.133" end="x">Some of the railcars, sealed, those were, ah, lorries [?]—freight cars, of, ah . . .</u>
+                    <u who="#boderD" start="1082.440" end="x">It, yes—freight, freight trains . . .</u>
+                    <u who="#buttonJ" start="1085.229" end="x">fr—, freight, freight trains . . .</u>
+                    <u who="#boderD" start="1086.541" end="x">Transport trains . . .</u>
+                    <u who="#buttonJ" start="1087.219" end="x">Freight cars were . . . we were . . .</u>
+                    <u who="#boderD" start="1088.576" end="x">The cars were all locked up?</u>
+                    <u who="#buttonJ" start="1090.988" end="x">Were, were locked, and, ah, . . .</u>
+                    <u who="#boderD" start="1093.551" end="x">Seals from the outside . . .</u>
+                    <u who="#buttonJ" start="1095.059" end="x">From the outside were, were also seals. We had, from the [mission?] of the Red Cross, some bread and some packages, where we were thirty-two people my car—there were other cars with some forty people on it, and we took a long journey of seven days, ah, from <placeName ref="Athens">Athens</placeName> to, to <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName>.</u>
+                    <u who="#boderD" start="1128.902" end="x">Were your wife and your children with you?</u>
+                    <u who="#buttonJ" start="1129.445" end="x">With, with, with my wife and my two young children, and my brother also.</u>
+                    <u who="#boderD" start="1134.797" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1135.656" end="x">We . . .</u>
+                    <u who="#boderD" start="1135.958" end="x">And that was in the same car?</u>
+                    <u who="#buttonJ" start="1137.511" end="x">In the same, we were in the same car. And . . .</u>
+                    <u who="#boderD" start="1139.908" end="x">Yes, and wait, did one open the car, that people could go outside, or what . . .</u>
+                    <u who="#buttonJ" start="1145.802" end="x">After, ah, two days of the journey we were able to descend from the car once, and we could . . . the . . .</u>
+                    <u who="#boderD" start="1161.421" end="x">. . . the dirt?</u>
+                    <u who="#buttonJ" start="1162.341" end="x">the dirt—ah . . .</u>
+                    <u who="#boderD" start="1164.738" end="x">dispose . . .</u>
+                    <u who="#buttonJ" start="1165.296" end="x">Dump, dump it, and, ah get some water . . .</u>
+                    <u who="#boderD" start="1170.316" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1171.130" end="x">With us were—with us—in the Greek part, we were [united] with another transport that was, ah, with us . . . combined . . .</u>
+                    <u who="#boderD" start="1191.923" end="x">. . . was combined with you, yes?</u>
+                    <u who="#buttonJ" start="1193.943" end="x">Was combined . . .</u>
+                    <u who="#boderD" start="1195.572" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1196.009" end="x">And we went to . . . through, ah, Serbia, Austria, and Germany.</u>
+                    <u who="#boderD" start="1210.391" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1210.753" end="x">. . . and Hungary, and Hungary, we drove, drove to Germany. In Hungary I have—we saw the, in April of '44 the first Hungarians with the star . . . .</u>
+                    <u who="#boderD" start="1230.306" end="x">. . . who wore it [?]</u>
+                    <u who="#buttonJ" start="1230.864" end="x">. . . wore it.</u>
+                    <u who="#boderD" start="1231.573" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1232.070" end="x">And [we] had the opportunity to talk to one, and we were told that in the last days—how, how—what [kind of] laws and measures against the Jews in, ah . . .</u>
+                    <u who="#boderD" start="1251.608" end="x">Hungary . . .</u>
+                    <u who="#buttonJ" start="1252.543" end="x">In, in ah . . . [unintelligible]</u>
+                    <u who="#boderD" start="1259.402" end="x">. . . were applied?</u>
+                    <u who="#buttonJ" start="1260.759" end="x">. . . were, were applied.</u>
+                    <u who="#boderD" start="1262.960" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1266.669" end="x">One part of our transport, ah, the largest part of the transport was ah, separated in, ah, a Hungarian border town, and was sent on in another . . .</u>
+                    <u who="#boderD" start="1287.518" end="x">Direction.</u>
+                    <u who="#buttonJ" start="1288.121" end="x">. . . direction.</u>
+                    <u who="#boderD" start="1289.388" end="x">Did you not know where you were sent?</u>
+                    <u who="#buttonJ" start="1293.534" end="x">[We] did not know.</u>
+                    <u who="#boderD" start="1294.635" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1295.313" end="x">But he, the people did not have much hope, and they knew, and they knew that the whole [?] was sent to Upper Silesia and <placeName ref="Auschwitz concentration camp" type="camp">Auschwitz</placeName>,</u>
+                    <u who="#boderD" start="1314.942" end="x">Who [?] . . .</u>
+                    <u who="#buttonJ" start="1315.560" end="x">Would be sent there.</u>
+                    <u who="#boderD" start="1316.947" end="x">And?</u>
+                    <u who="#buttonJ" start="1317.731" end="x">Our train with some cars continued to go to Germany, and we . . . arrived in, ah, <placeName ref="Bergen-Belsen concentration camp" type="camp">Belsen</placeName>—there we descended from the car, and the Germans forced us . . .</u>
+                    <u who="#boderD" start="1345.634" end="x">Were you still with your wife and your children?</u>
+                    <u who="#buttonJ" start="1347.866" end="x">[I was still] with, with my wife and my two children. And the Germans force, force—, forced us to get off and [to walk], from the train station to the camp, walk on foot, old and young, men and women.</u>
+                    <u who="#boderD" start="1371.497" end="x">How far was that approximately?</u>
+                    <u who="#buttonJ" start="1373.608" end="x">It was about seven kilometers away from the train station.</u>
+                    <u who="#boderD" start="1377.543" end="x">Hm.</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="1388.639" end="x">And?</u>
+                    <u who="#buttonJ" start="1388.895" end="x">Again, we arrived at the camp, and we also found some Greek Jews from <placeName ref="Thessaloníki">Saloniki</placeName> there. We were told that we arrived in a very harsh camp, and, ah, were also told that other Jews from <placeName ref="Thessaloníki">Saloniki</placeName> of Spanish citizenship had been there, but that these people were . . . were gone from the camp three months earlier, and [nobody] knew exactly in what direction and where.</u>
+                    <p>[Pause; noise]</p>
+                    <u who="#buttonJ" start="1446.747" end="x">I stayed in the camp with my family, my wife and my two children, exactly for one year.</u>
+                    <u who="#boderD" start="1459.848" end="x">Were you allowed to be together?</u>
+                    <u who="#buttonJ" start="1463.300" end="x">We lived in large barracks, wooden barracks . . .</u>
+                    <u who="#boderD" start="1469.994" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1471.456" end="x">And found there also Polish—some three hundred to four hundred Polish Jews . . .</u>
+                    <u who="#boderD" start="1482.190" end="x">Men and women?</u>
+                    <u who="#buttonJ" start="1483.260" end="x">Men and women, some children . . .</u>
+                    <u who="#boderD" start="1486.366" end="x">In the same, ah, room?</u>
+                    <u who="#buttonJ" start="1488.974" end="x">In, ah, a neighbor <term ref="#vothG_block">block</term>, in the neighboring <term ref="#vothG_block">block</term>, there were Polish Jews who had a South American citizenship, and as neutrals could not be forced to work . . .</u>
+                    <u who="#boderD" start="1511.662" end="x">Could not?</u>
+                    <u who="#buttonJ" start="1512.989" end="x">Were not.</u>
+                    <u who="#boderD" start="1514.014" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1517.301" end="x">One was, when—, we were guarded by German soldiers, and every morning we were supposed to come out for a roll call, and, ah, were often made to wait two, three hours, one hour, if something was not right. When the numbers [?] were not in order, and when arrest [were made.] We—one promised us that we would have the opportunity with outside countries to , ah . . .</u>
+                    <u who="#boderD" start="1579.743" end="x">. . . communicate?</u>
+                    <u who="#buttonJ" start="1580.723" end="x">to connect get in touch, but those were only pro—, ah . . .</u>
+                    <u who="#boderD" start="1587.703" end="x">Promises . . . .</u>
+                    <u who="#buttonJ" start="1588.050" end="x">. . . only empty promises, we never had the possibility to get in touch with the outside world. One—for food, we had the food that everybody, that, that all internees had. Our food was not better or not worse than that of the others because the whole could not be worse. Early we had some warm water that one called infusion of coffee, and that had nothing to do with coffee. One, for lunch [following section is not coherent] very hungry person from last month could a fare of, a , a soup that with some vegetable . . .</u>
+                    <u who="#boderD" start="1663.366" end="x">Yes?</u>
+                    <u who="#buttonJ" start="1664.211" end="x">That one . . .</u>
+                    <p>[Pause]</p>
+                    <u who="#boderD" start="1665.734" end="x">Yes, well, so, mixed with some vegetables, and?</u>
+                    <u who="#buttonJ" start="1671.206" end="x">And, and, grasses [?] and so on, that was our food—one had 300 grams of bread per person, and later we only had 250 grams, and even later nothing, and there was the same warm water and nothing else, that was the nutrition that diminished our strengths, and in the last days we were forced to stay hungry without [any] food, and to live without making any movement [?] , and to die of, ah, of hunger because our strength was so . . .</u>
+                    <u who="#boderD" start="1723.535" end="x">Weakened?</u>
+                    <u who="#buttonJ" start="1724.349" end="x">Weakened.</u>
+                    <u who="#boderD" start="1725.525" end="x">Now, what did the children do in such a camp?</u>
+                    <u who="#buttonJ" start="1730.545" end="x">The children were able to—when we, me and my wife were together, have some more of our rations.</u>
+                    <u who="#boderD" start="1741.460" end="x">But did they do otherwise, read, play?</u>
+                    <u who="#buttonJ" start="1745.515" end="x">The children did not have to do forced labor as the adults.</u>
+                    <u who="#boderD" start="1752.073" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1752.631" end="x">I could, I can personally say what I saw around me.</u>
+                    <u who="#boderD" start="1765.912" end="x">But what did your own children do, what did they do all day long?</u>
+                    <u who="#buttonJ" start="1770.465" end="x">The children, the . . .</u>
+                    <u who="#boderD" start="1773.450" end="x">Were they allowed to go outside?</u>
+                    <u who="#buttonJ" start="1775.832" end="x">Outside, where outside, we were outside, next, ah, between the barracks outside . . .</u>
+                    <u who="#boderD" start="1782.614" end="x">Barracks. Yes.</u>
+                    <u who="#buttonJ" start="1784.046" end="x">And the children were allowed to, from those, ah . . .</u>
+                    <u who="#boderD" start="1788.689" end="x">Barracks . . .</u>
+                    <u who="#buttonJ" start="1789.654" end="x">From the barracks, [to go] away, 20, 25 meters away, go away, to get away further, and, ah . . .</u>
+                    <u who="#boderD" start="1801.473" end="x">Tell me, Mr. Button, where are you, ah, where are your wife and children now?</u>
+                    <u who="#buttonJ" start="1807.744" end="x">My wife and my children are now in <placeName ref="Paris">Paris</placeName>, where I also am still, living in a Centre de [unintelligible] of the Fédération des Sociétés Juives de France.</u>
+                    <u who="#boderD" start="1822.171" end="x">You don't live in this house?</u>
+                    <u who="#buttonJ" start="1823.890" end="x">I live in this house.</u>
+                    <u who="#boderD" start="1825.111" end="x">And the wife and the children?</u>
+                    <u who="#buttonJ" start="1826.619" end="x">And my children, too, yes.</u>
+                    <u who="#boderD" start="1828.232" end="x">They, you live here, you have a room here?</u>
+                    <u who="#buttonJ" start="1830.946" end="x">Yes, I have a room here. I would like to . . .</u>
+                    <u who="#boderD" start="1836.147" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1836.690" end="x">. . . say something about the bad treatment of the Jews and other internees in <placeName ref="Bergen-Belsen concentration camp" type="camp">Bergen-Belsen</placeName> . . .</u>
+                    <u who="#boderD" start="1845.027" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1845.344" end="x">. . . and—where I saw men and women who, in winter and in the snow and in, ah great cold, had large boards and carts to, ah . . .</u>
+                    <u who="#boderD" start="1868.364" end="x">Haul.</u>
+                    <u who="#buttonJ" start="1869.419" end="x">. . . were stretched on carts on which one would normally only have, ah, horses, and, ah . . .</u>
+                    <u who="#boderD" start="1881.447" end="x">Mules . . .</u>
+                    <u who="#buttonJ" start="1882.578" end="x">Mu—, Mules, ah . . .</u>
+                    <u who="#boderD" start="1884.402" end="x">Yoked . . .</u>
+                    <u who="#buttonJ" start="1885.457" end="x">Yo—, yoked. Under very bad . . .</u>
+                    <u who="#boderD" start="1895.498" end="x">Conditions . . .</u>
+                    <u who="#buttonJ" start="1896.176" end="x">Conditions, were under very bad conditions, were, ah, beaten, beaten by men and women. I saw how German women forced internees to work, and, ah, beat them, ready with large . . .</u>
+                    <u who="#boderD" start="1925.261" end="x">Whips . . .</u>
+                    <u who="#buttonJ" start="1927.251" end="x">With whips and, ah wooden, ah, and . . .</u>
+                    <u who="#boderD" start="1931.382" end="x">Canes . . .</u>
+                    <u who="#buttonJ" start="1931.819" end="x">. . . and wooden canes—and I also saw that some internees—maybe Germans or I don't know which nationality they were—were used to beat the other, other Jews. I, ah . . .</u>
+                    <u who="#boderD" start="1959.482" end="x">Were those Jews who beat you?</u>
+                    <u who="#buttonJ" start="1962.572" end="x">No, it . . .</u>
+                    <u who="#boderD" start="1963.326" end="x">No, other prisoners?</u>
+                    <u who="#buttonJ" start="1963.809" end="x">. . . it, those were other prisoners, Germans or Ro—, Russians or I don't know exactly how . . .</u>
+                    <u who="#boderD" start="1972.809" end="x">Yes.</u>
+                    <u who="#buttonJ" start="1973.201" end="x">What they were . . . who were beating the Jews, the Jews. I have also seen that a woman who wanted to give a little—a, a little bread and salt, was seen by a German, ah, <term ref="#vothG_gestapo">Gestapo</term> woman, she beat her on the head so hard that I did not see her come out again after two days, and I learned later that she dropped dead—dead.</u>
+                    <u who="#boderD" start="2023.553" end="x">Now tell me, Mr. Button, what are you planning to do now? What will you do, where do you want to go, or are you going to stay in <placeName ref="Paris">Paris</placeName>?</u>
+                    <u who="#buttonJ" start="2033.322" end="x">First, I have applied to Palestine, and want to [go to] Palestine . . .</u>
+                    <p>[Tape break]</p>
+                    <u who="#boderD" start="2042.940" end="x">You have applied, once again, you have for Pal— . . .</u>
+                    <u who="#buttonJ" start="2046.468" end="x">I have applied for Palestine, and wanted to go first to Palestine where I also have other relatives.</u>
+                    <u who="#boderD" start="2055.981" end="x">Yes.</u>
+                    <u who="#buttonJ" start="2056.720" end="x">Unfortunately, I am waiting for a whole year here, and I have not received the permission to go to Palestine. I had to try to find something to work here in France to make a possibility—to ensure a . . .</u>
+                    <u who="#boderD" start="2088.077" end="x">To support, or . . .</u>
+                    <u who="#buttonJ" start="2089.294" end="x">To make a living.</u>
+                    <u who="#boderD" start="2091.344" end="x">[In English] This concludes Spool number 25, spoken by Mr. Jacob Button, a Spanish Jew born in Greece, he is now doing some work, he expects to go to Palestine. Illinois Institute of Technology recording.</u>
+                </div>
+                <!-- end Spool 9-25 -->
+            </div>
+            <!-- end English translation -->
+        </body>
+    </text>
+</TEI>

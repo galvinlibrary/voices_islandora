@@ -1,0 +1,21 @@
+nat_dict = {
+  "\"at\"": "\"Austria\"",
+  "\"ch\"": "\"Switzerland\"",
+  "\"cl\"": "\"Chile\"",
+  "\"cz\"": "\"Czechoslovakia\"",
+  "\"de\"": "\"Germany\"",
+  "\"ee\"": "\"Estonia\"",
+  "\"es\"": "\"Spain\"",
+  "\"fr\"": "\"France\"",
+  "\"gr\"": "\"Greece\"",
+  "\"hu\"": "\"Hungary\"",
+  "\"lt\"": "\"Lithuania\"",
+  "\"lv\"": "\"Latvia\"",
+  "\"pl\"": "\"Poland\"",
+  "\"ps\"": "\"Palestine\"",
+  "\"pt\"": "\"Portugal\"",
+  "\"ro\"": "\"Romania\"",
+  "\"ru\"": "\"Russia\"",
+  "\"sk\"": "\"Slovakia\"",
+  "\"ua\"": "\"Ukraine\""
+}

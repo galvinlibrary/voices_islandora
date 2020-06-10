@@ -13,4 +13,14 @@ Migration Routine:
     * Add 'liberated by' manually
   * Import sub-camps:
     * `drush migrate-import subcamp`
-   
+  * Clean persons XML:
+    * Remove xml namespaces from interview xml
+      *`some command`
+    * Swap voth codes for geographic taxonomy term names
+      * `some command`
+    * Swap nationality codes for geographic taxonomy term names
+      * `some command`
+  * Import Persons:
+    * `drush migrate-import persons`
+    
+      

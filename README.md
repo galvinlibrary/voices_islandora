@@ -15,11 +15,11 @@ Migration Routine:
     * `drush migrate-import subcamp`
   * Clean persons XML:
     * Remove xml namespaces from interview xml
-      * `some command`
+      * `clean.py`
     * Swap voth codes for geographic taxonomy term names
-      * `some command`
+      * `find_and_replace_voth.py`
     * Swap nationality codes for geographic taxonomy term names
-      * `some command`
+      * `find_nats.py`
   * Import Persons:
     * `drush migrate-import persons`
     

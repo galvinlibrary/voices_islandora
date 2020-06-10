@@ -1,0 +1,564 @@
+uid,name,url-alias,source,URL,alternate-text-link,Latitude,Longitude,description,relationship-parent-term,relationship-parent-term-weight,alternate-name,broader
+vothL336,Algiers,/location/Algiers,GeoNames,https://www.geonames.org/2507480,https://www.geonames.org/2507480,36.73225,3.08746,,Algeria,0,,Algeria
+vothL517,Ghardaïa,/location/Ghardaia,GeoNames,https://www.geonames.org/2496049,https://www.geonames.org/2496049,32.49094,3.67347,,Algeria,0,,Algeria
+vothL319,Buenos Aires,/location/Buenos-Aires,GeoNames,https://www.geonames.org/3435910,https://www.geonames.org/3435910,-34.61315,-58.37723,,Argentina,0,,Argentina
+vothL1,Wien,/location/Wien,GeoNames,https://www.geonames.org/2761367,https://www.geonames.org/2761367,48.2082,16.37169,,Austria,0,Vienna,Austria
+vothL2,Mistelbach,/location/Mistelbach,GeoNames,https://www.geonames.org/2771553,https://www.geonames.org/2771553,48.44885,14.3714,,Austria,0,,Austria
+vothL3,Trofaiach,/location/Trofaiach,GeoNames,https://www.geonames.org/2763332,https://www.geonames.org/2763332,47.42524,15.00681,,Austria,0,,Austria
+vothL4,Judenburg,/location/Judenburg,GeoNames,https://www.geonames.org/2775020,https://www.geonames.org/2775020,47.16667,14.66667,,Austria,0,,Austria
+vothL5,Linz,/location/Linz,GeoNames,https://www.geonames.org/2772400,https://www.geonames.org/2772400,48.30639,14.28611,,Austria,0,,Austria
+vothL9,Gabersdorf,/location/Gabersdorf,GeoNames,https://www.geonames.org/2779064,https://www.geonames.org/2779064,46.77722,15.58417,,Austria,0,,Austria
+vothL171,Mauthausen,/location/Mauthausen,GeoNames,https://www.geonames.org/2771760,https://www.geonames.org/2771760,48.24114,14.51963,,Austria,0,,Austria
+vothL355,Herzogenburg,/location/Herzogenburg,GeoNames,https://www.geonames.org/2776470,https://www.geonames.org/2776470,48.28137,15.69431,,Austria,0,,Austria
+vothL419,Bludenz,/location/Bludenz,GeoNames,https://www.geonames.org/2781680,https://www.geonames.org/2781680,47.15476,9.82255,,Austria,0,,Austria
+vothL426,Salzburg,/location/Salzburg,GeoNames,https://www.geonames.org/2766823,https://www.geonames.org/2766823,47.41667,13.25,,Austria,0,,Austria
+vothL427,Innsbruck,/location/Innsbruck,GeoNames,https://www.geonames.org/2775220,https://www.geonames.org/2775220,47.26266,11.39454,,Austria,0,,Austria
+vothL430,Bregenz,/location/Bregenz,GeoNames,https://www.geonames.org/2781503,https://www.geonames.org/2781503,47.50311,9.7471,,Austria,0,,Austria
+vothL455,Enns,/location/Enns,GeoNames,https://www.geonames.org/2780047,https://www.geonames.org/2780047,48.23333,14.5,,Austria,0,,Austria
+vothL479,Deutschkreuz,/location/Deutschkreutz,GeoNames,https://www.geonames.org/2781024,https://www.geonames.org/2781024,47.6,16.63333,,Austria,0,,Austria
+vothL482,Braunau am Inn,/location/Braunau-am-Inn,GeoNames,https://www.geonames.org/2781520,https://www.geonames.org/2781520,48.25628,13.04343,,Austria,0,,Austria
+vothL585,Glasenbach,/location/Glasenbach,GeoNames,https://www.geonames.org/2778514,https://www.geonames.org/2778514,47.76667,13.08333,,Austria,0,,Austria
+vothL592,Villach,/location/Villach,GeoNames,https://www.geonames.org/2762372,https://www.geonames.org/2762372,46.61028,13.85583,,Austria,0,,Austria
+vothL614,Feldkirch,/location/Feldkirch,GeoNames,https://www.geonames.org/2779674,https://www.geonames.org/2779674,47.23306,9.6,,Austria,0,,Austria
+vothL390,Baku,/location/Baku,GeoNames,https://www.geonames.org/587084,https://www.geonames.org/587084,40.37767,49.89201,,Azerbaijan,0,,Azerbaijan
+vothL6,Pinsk,/location/Pinsk,GeoNames,https://www.geonames.org/623549,https://www.geonames.org/623549,52.1229,26.0951,,Belarus,0,,Belarus
+vothL7,Slonim,/location/Slonim,GeoNames,https://www.geonames.org/621754,https://www.geonames.org/621754,53.0869,25.3163,,Belarus,0,,Belarus
+vothL398,Baranovichi,/location/Baranovichi,GeoNames,https://www.geonames.org/630425,https://www.geonames.org/630425,55.0919,26.9223,,Belarus,0,,Belarus
+vothL433,Minsk,/location/Minsk,GeoNames,https://www.geonames.org/625144,https://www.geonames.org/625144,53.9,27.56667,,Belarus,0,,Belarus
+vothL434,Chervyen’ ,/location/Chervyen',GeoNames,https://www.geonames.org/629273,https://www.geonames.org/629273,53.7059,28.4313,,Belarus,0,,Belarus
+vothL471,Lyntupy,/location/Lyntupy,GeoNames,https://www.geonames.org/625737,https://www.geonames.org/625737,55.0516,26.3103,,Belarus,0,,Belarus
+vothL472,Shudovtsy,/location/Shudovtsy,GeoNames,https://www.geonames.org/621997,https://www.geonames.org/621997,55.0667,26.3281,,Belarus,0,,Belarus
+vothL478,Zharki,/location/Zharki,GeoNames,https://www.geonames.org/618898,https://www.geonames.org/618898,55.0835,29.9233,,Belarus,0,,Belarus
+vothL508,Brest,/location/Brest,GeoNames,https://www.geonames.org/629634,https://www.geonames.org/629634,52.09755,23.68775,,Belarus,0,,Belarus
+vothL528,Vawkavysk,/location/Volkovysk,GeoNames,https://www.geonames.org/620391,https://www.geonames.org/620391,53.1561,24.4513,,Belarus,0,,Belarus
+vothL146,Antwerp,/location/Antwerpen,GeoNames,https://www.geonames.org/2803138,https://www.geonames.org/2803138,51.22047,4.40026,,Belgium,0,,Belgium
+vothL264,Namur,/location/Namur,GeoNames,https://www.geonames.org/2790471,https://www.geonames.org/2790471,50.4669,4.86746,,Belgium,0,,Belgium
+vothL266,Philippeville,/location/Philippeville,GeoNames,https://www.geonames.org/2789016,https://www.geonames.org/2789016,50.19612,4.54374,,Belgium,0,,Belgium
+vothL327,Brussels,/location/Brussels,GeoNames,https://www.geonames.org/2800866,https://www.geonames.org/2800866,50.85045,4.34878,,Belgium,0,,Belgium
+vothL414,Rio de Janeiro,/location/Rio-de-Janeiro,GeoNames,https://www.geonames.org/3451190,https://www.geonames.org/3451190,-22.90642,-43.18223,,Brazil,0,,Brazil
+vothL8,Santiago,/location/Santiago,GeoNames,https://www.geonames.org/3871336,https://www.geonames.org/3871336,-33.45694,-70.64827,,Chile,0,,Chile
+vothL384,Temuco,/location/Temuco,GeoNames,https://www.geonames.org/3870011,https://www.geonames.org/3870011,-38.73965,-72.59842,,Chile,0,,Chile
+vothL546,Osorno,/location/Osorno,GeoNames,https://www.geonames.org/3877949,https://www.geonames.org/3877949,-40.57395,-73.13348,,Chile,0,,Chile
+vothL386,Shanghai,/location/Shanghai,GeoNames,https://www.geonames.org/1796236,https://www.geonames.org/1796236,31.22222,121.45806,,China,0,,China
+vothL418,Doubrava,/location/Doubrava,GeoNames,https://www.geonames.org/3076550,https://www.geonames.org/3076550,50.02342,15.33422,,Czech Republic,0,,Czech Republic
+vothL421,Mariánské Lázně,/location/Marianske-Lazne,GeoNames,https://www.geonames.org/3071024,https://www.geonames.org/3071024,49.96459,12.70118,,Czech Republic,0,,Czech Republic
+vothL473,Karviná,/location/Karvina,GeoNames,https://www.geonames.org/3073789,https://www.geonames.org/3073789,49.854,18.54169,,Czech Republic,0,,Czech Republic
+vothL10,Chynadiyovo,/location/Chynadiyovo,GeoNames,https://www.geonames.org/710463,https://www.geonames.org/710463,48.48179,22.8217,,Ukraine,0,,Ukraine
+vothL50,Terezín,/location/Terezin,GeoNames,https://www.geonames.org/3064267,https://www.geonames.org/3064267,50.57326,15.71732,,Czech Republic,0,,Czech Republic
+vothL71,Mukacheve,/location/Mukacheve,GeoNames,https://www.geonames.org/700646,https://www.geonames.org/700646,48.43919,22.71779,,Ukraine,0,,Ukraine
+vothL157,Niznii Verezky,/location/,GeoNames,,,,,,Czech Republic,0,,Czech Republic
+vothL161,Solotvyno,/location/Solotvyno,GeoNames,https://www.geonames.org/693176,https://www.geonames.org/693176,47.94604,23.87035,,Ukraine,0,,Ukraine
+vothL227,Vyhne,/location/Vyhne,GeoNames,https://www.geonames.org/3056668,https://www.geonames.org/3056668,48.50571,18.80137,,Slovakia,0,,Slovakia
+vothL228,Sudeten,/location/Sudeten,GeoNames,https://www.geonames.org/3064720,https://www.geonames.org/3064720,50.5,16,,Czech Republic,0,,Czech Republic
+vothL230,Carpathian Mountains Region,/location/,GeoNames,,,,,,Czech Republic,0,,Czech Republic
+vothL298,Praha,/location/Praha,GeoNames,https://www.geonames.org/3067697,https://www.geonames.org/3067697,49.65829,13.8178,,Czech Republic,0,,Czech Republic
+vothL352,Neuschonstau,/location/,GeoNames,,,,,,Czech Republic,0,,Czech Republic
+vothL400,Vyškov,/location/Vyskov,GeoNames,https://www.geonames.org/3062283,https://www.geonames.org/3062283,49.27747,16.99897,,Czech Republic,0,,Czech Republic
+vothL435,Ústí nad Labem,/location/Usti-nad-Labem,GeoNames,https://www.geonames.org/3063548,https://www.geonames.org/3063548,50.6607,14.03227,,Czech Republic,0,,Czech Republic
+vothL436,Litomyšl,/location/Litomysl,GeoNames,https://www.geonames.org/3071675,https://www.geonames.org/3071675,49.86809,16.31298,,Czech Republic,0,,Czech Republic
+vothL439,Ostrava,/location/Ostrava,GeoNames,https://www.geonames.org/3068799,https://www.geonames.org/3068799,49.83465,18.28204,,Czech Republic,0,,Czech Republic
+vothL501,Nováky,/location/Novaky,GeoNames,https://www.geonames.org/3058493,https://www.geonames.org/3058493,48.71106,18.53389,,Slovakia,0,,Slovakia
+vothL502,Zvolen,/location/Zvolen,GeoNames,https://www.geonames.org/3056459,https://www.geonames.org/3056459,48.57442,19.15324,,Slovakia,0,,Slovakia
+vothL503,Prešov,/location/Presov,GeoNames,https://www.geonames.org/723819,https://www.geonames.org/723819,48.99839,21.23393,,Slovakia,0,,Slovakia
+vothL504,Brezno,/location/Brezno,GeoNames,https://www.geonames.org/3060950,https://www.geonames.org/3060950,48.80431,19.63631,,Slovakia,0,,Slovakia
+vothL561,Litoměřice,/location/Litomerice,GeoNames,https://www.geonames.org/3071677,https://www.geonames.org/3071677,50.53348,14.1318,,Czech Republic,0,,Czech Republic
+vothL556,Cairo,/location/Cairo,GeoNames,https://www.geonames.org/360630,https://www.geonames.org/360630,30.06263,31.24967,,Egypt,0,,Egypt
+vothL11,Tartu,/location/Tartu,GeoNames,https://www.geonames.org/588335,https://www.geonames.org/588335,58.38062,26.72509,,Estonia,0,,Estonia
+vothL128,Narva,/location/Narva,GeoNames,https://www.geonames.org/453744,https://www.geonames.org/453744,59.46069,28.07487,,Estonia,0,,Estonia
+vothL148,Tallinn,/location/Tallinn,GeoNames,https://www.geonames.org/588409,https://www.geonames.org/588409,59.43696,24.75353,,Estonia,0,,Estonia
+vothL259,Toila,/location/Toila,GeoNames,https://www.geonames.org/588264,https://www.geonames.org/588264,59.42127,27.50807,,Estonia,0,,Estonia
+vothL597,Pärnu,/location/Paernu,GeoNames,https://www.geonames.org/589580,https://www.geonames.org/589580,58.38588,24.49711,,Estonia,0,,Estonia
+vothL13,Paris,/location/Paris,GeoNames,https://www.geonames.org/2988507,https://www.geonames.org/2988507,48.85341,2.3488,,France,0,,France
+vothL18,Hénouville,/location/Henouville,GeoNames,https://www.geonames.org/3013512,https://www.geonames.org/3013512,49.4789,0.96367,,France,0,,France
+vothL19,Hénonville,/location/Henonville,GeoNames,https://www.geonames.org/3013513,https://www.geonames.org/3013513,49.20731,2.05264,,France,0,,France
+vothL20,Périgueux,/location/Perigueux,GeoNames,https://www.geonames.org/2987967,https://www.geonames.org/2987967,45.18691,0.71439,,France,0,,France
+vothL21,Limoges,/location/Limoges,GeoNames,https://www.geonames.org/2998286,https://www.geonames.org/2998286,45.83362,1.24759,,France,0,,France
+vothL22,Compiègne,/location/Compiegne,GeoNames,https://www.geonames.org/3024066,https://www.geonames.org/3024066,49.41794,2.82606,,France,0,,France
+vothL23,Drancy,/location/Drancy,GeoNames,https://www.geonames.org/3020839,https://www.geonames.org/3020839,48.92578,2.44533,,France,0,,France
+vothL24,Pithiviers,/location/Pithiviers,GeoNames,https://www.geonames.org/2987003,https://www.geonames.org/2987003,48.17185,2.25185,,France,0,,France
+vothL25,Colmar,/location/Colmar,GeoNames,https://www.geonames.org/3024297,https://www.geonames.org/3024297,48.08078,7.35584,,France,0,,France
+vothL26,Nice,/location/Nice,GeoNames,https://www.geonames.org/2990437,https://www.geonames.org/2990437,43.75,7.25,,France,0,,France
+vothL27,Cannes,/location/Cannes,GeoNames,https://www.geonames.org/3028808,https://www.geonames.org/3028808,43.55135,7.01275,,France,0,,France
+vothL141,Le Brugeron,/location/Le-Brugeron,GeoNames,https://www.geonames.org/3004948,https://www.geonames.org/3004948,45.71186,3.71906,,France,0,,France
+vothL152,Corbie,/location/Corbie,GeoNames,https://www.geonames.org/3023741,https://www.geonames.org/3023741,49.36667,0.48333,,France,0,,France
+vothL159,Cantal department,/location/Cantal,GeoNames,https://www.geonames.org/3028791,https://www.geonames.org/3028791,45.13985,2.64947,,France,0,,France
+vothL166,Lorraine region,/location/Lorraine,GeoNames,https://www.geonames.org/2997550,https://www.geonames.org/2997550,49,6,,France,0,,France
+vothL185,Rivesaltes,/location/Rivesaltes,GeoNames,https://www.geonames.org/2983393,https://www.geonames.org/2983393,42.76945,2.87239,,France,0,,France
+vothL190,Gurs,/location/Gurs,GeoNames,https://www.geonames.org/3014151,https://www.geonames.org/3014151,43.28731,-0.75416,,France,0,,France
+vothL201,Les Milles,/location/Les-Milles,GeoNames,https://www.geonames.org/3000284,https://www.geonames.org/3000284,43.50243,5.38576,,France,0,,France
+vothL203,Le Vernet,/location/Le-Vernet,GeoNames,https://www.geonames.org/2998873,https://www.geonames.org/2998873,46.60748,2.5979,,France,0,,France
+vothL209,Noé,/location/Noe,GeoNames,https://www.geonames.org/2990293,https://www.geonames.org/2990293,48.16339,3.40318,,France,0,,France
+vothL236,Marseille,/location/Marseille,GeoNames,https://www.geonames.org/2995469,https://www.geonames.org/2995469,43.29695,5.38107,,France,0,,France
+vothL242,Natzwiller,/location/Natzwiller,GeoNames,https://www.geonames.org/2990893,https://www.geonames.org/2990893,48.43767,7.25729,,France,0,,France
+vothL261,Toulouse,/location/Toulouse,GeoNames,https://www.geonames.org/2972315,https://www.geonames.org/2972315,43.60426,1.44367,,France,0,,France
+vothL262,Versailles,/location/Versailles,GeoNames,https://www.geonames.org/2969679,https://www.geonames.org/2969679,48.80359,2.13424,,France,0,,France
+vothL265,Orléans,/location/Orleans,GeoNames,https://www.geonames.org/2989317,https://www.geonames.org/2989317,47.90289,1.90389,,France,0,,France
+vothL267,Lyon,/location/Lyon,GeoNames,https://www.geonames.org/2996944,https://www.geonames.org/2996944,45.74846,4.84671,,France,0,,France
+vothL268,Vichy,/location/Vichy,GeoNames,https://www.geonames.org/2969392,https://www.geonames.org/2969392,46.12709,3.42577,,France,0,,France
+vothL272,Bordeaux,/location/Bordeaux,GeoNames,https://www.geonames.org/3031582,https://www.geonames.org/3031582,44.84044,-0.5805,,France,0,,France
+vothL276,La Rochelle,/location/La-Rochelle,GeoNames,https://www.geonames.org/3006784,https://www.geonames.org/3006784,48.02208,2.30491,,France,0,,France
+vothL299,Barbizon,/location/Barbizon,GeoNames,https://www.geonames.org/3035009,https://www.geonames.org/3035009,48.44346,2.60313,,France,0,,France
+vothL300,Courbevoie,/location/Courbevoie,GeoNames,https://www.geonames.org/3023141,https://www.geonames.org/3023141,48.89672,2.25666,,France,0,,France
+vothL320,Annecy,/location/Annecy,GeoNames,https://www.geonames.org/3037543,https://www.geonames.org/3037543,45.90878,6.12565,,France,0,,France
+vothL321,Chambéry,/location/Chambery,GeoNames,https://www.geonames.org/3027422,https://www.geonames.org/3027422,45.56628,5.92079,,France,0,,France
+vothL323,Dunkerque,/location/Dunkerque,GeoNames,https://www.geonames.org/3020686,https://www.geonames.org/3020686,51.03297,2.377,,France,0,,France
+vothL324,Cravant,/location/Cravant,GeoNames,https://www.geonames.org/3022662,https://www.geonames.org/3022662,47.82856,1.57109,,France,0,,France
+vothL325,Olliergues,/location/Olliergues,GeoNames,https://www.geonames.org/2989591,https://www.geonames.org/2989591,45.6748,3.63678,,France,0,,France
+vothL326,Clermont-Ferrand,/location/Clermont-Ferrand,GeoNames,https://www.geonames.org/3024635,https://www.geonames.org/3024635,45.77969,3.08682,,France,0,,France
+vothL328,Albi,/location/Albi,GeoNames,https://www.geonames.org/3038261,https://www.geonames.org/3038261,43.9298,2.148,,France,0,,France
+vothL329,Brens,/location/Brens,GeoNames,https://www.geonames.org/3030336,https://www.geonames.org/3030336,46.26617,6.34409,,France,0,,France
+vothL331,Saint-Julien-en-Genevois,/location/Saint-Julien-en-Genevois,GeoNames,https://www.geonames.org/2979072,https://www.geonames.org/2979072,46.14434,6.08256,,France,0,,France
+vothL333,Nimes,/location/Nimes,GeoNames,https://www.geonames.org/2990363,https://www.geonames.org/2990363,43.83378,4.35962,,France,0,,France
+vothL334,Perpignan,/location/Perpignan,GeoNames,https://www.geonames.org/2987914,https://www.geonames.org/2987914,42.69764,2.89541,,France,0,,France
+vothL335,Osseja,/location/Osseja,GeoNames,https://www.geonames.org/2989119,https://www.geonames.org/2989119,42.41383,1.98192,,France,0,,France
+vothL339,Grenoble,/location/Grenoble,GeoNames,https://www.geonames.org/3014728,https://www.geonames.org/3014728,45.17869,5.71479,,France,0,,France
+vothL341,Pyrenees,/location/Pyrenees,GeoNames,https://www.geonames.org/3112616,https://www.geonames.org/3112616,42.66667,1,,France,0,,France
+vothL374,Nièvre department,/location/Nievre,GeoNames,https://www.geonames.org/2990371,https://www.geonames.org/2990371,47.11695,3.49192,,France,0,,France
+vothL375,Strasbourg,/location/Strasbourg,GeoNames,https://www.geonames.org/2973783,https://www.geonames.org/2973783,48.58392,7.74553,,France,0,,France
+vothL376,Besançon,/location/Besancon,GeoNames,https://www.geonames.org/3033123,https://www.geonames.org/3033123,47.24878,6.01815,,France,0,,France
+vothL413,Le Creusot,/location/Le-Creusot,GeoNames,https://www.geonames.org/3004427,https://www.geonames.org/3004427,46.80714,4.41632,,France,0,,France
+vothL416,Vendôme district,/location/Arrondissement-de-Vendome,GeoNames,https://www.geonames.org/2970109,https://www.geonames.org/2970109,47.85927,0.98981,,France,0,,France
+vothL424,Amiens,/location/Amiens,GeoNames,https://www.geonames.org/3037854,https://www.geonames.org/3037854,49.9,2.3,,France,0,,France
+vothL456,Moulins,/location/Moulins,GeoNames,https://www.geonames.org/2991478,https://www.geonames.org/2991478,49.42083,3.68583,,France,0,,France
+vothL457,Brive-la-Gaillarde,/location/Brive-la-Gaillarde,GeoNames,https://www.geonames.org/3029974,https://www.geonames.org/3029974,45.1589,1.53326,,France,0,,France
+vothL458,Voiron,/location/Voiron,GeoNames,https://www.geonames.org/2967758,https://www.geonames.org/2967758,45.36471,5.5856,,France,0,,France
+vothL495,Ecouis,/location/Ecouis,GeoNames,https://www.geonames.org/3020438,https://www.geonames.org/3020438,49.31068,1.43189,,France,0,,France
+vothL500,Romainville,/location/Romainville,GeoNames,https://www.geonames.org/2983026,https://www.geonames.org/2983026,48.8854,2.43482,,France,0,,France
+vothL514,Thiers,/location/Thiers,GeoNames,https://www.geonames.org/2972856,https://www.geonames.org/2972856,50.4075,3.55322,,France,0,,France
+vothL516,Sedan,/location/Sedan,GeoNames,https://www.geonames.org/2975348,https://www.geonames.org/2975348,46.71667,5.45,,France,0,,France
+vothL518,Aix-en-Provence,/location/Aix-en-Provence,GeoNames,https://www.geonames.org/3038354,https://www.geonames.org/3038354,43.5283,5.44973,,France,0,,France
+vothL520,Elne,/location/Elne,GeoNames,https://www.geonames.org/3020281,https://www.geonames.org/3020281,42.60031,2.97146,,France,0,,France
+vothL521,Septfonds,/location/Septfonds,GeoNames,https://www.geonames.org/2975017,https://www.geonames.org/2975017,47.70256,3.09683,,France,0,,France
+vothL522,Lorient,/location/Lorient,GeoNames,https://www.geonames.org/2997577,https://www.geonames.org/2997577,47.74589,-3.36643,,France,0,,France
+vothL523,Metz,/location/Metz,GeoNames,https://www.geonames.org/2994160,https://www.geonames.org/2994160,49.11911,6.17269,,France,0,,France
+vothL524,Saint-Étienne,/location/Saint-Etienne,GeoNames,https://www.geonames.org/2980289,https://www.geonames.org/2980289,48.74135,4.63608,,France,0,,France
+vothL550,Bart,/location/Bart,GeoNames,https://www.geonames.org/3034798,https://www.geonames.org/3034798,47.48861,6.7709,,France,0,,France
+vothL563,Pantin,/location/Pantin,GeoNames,https://www.geonames.org/2988621,https://www.geonames.org/2988621,48.89437,2.40935,,France,0,,France
+vothL566,Rouen,/location/Rouen,GeoNames,https://www.geonames.org/2982652,https://www.geonames.org/2982652,49.44313,1.09932,,France,0,,France
+vothL567,Maintenon,/location/Maintenon,GeoNames,https://www.geonames.org/2996653,https://www.geonames.org/2996653,48.58704,1.57847,,France,0,,France
+vothL571,Cagny,/location/Cagny,GeoNames,https://www.geonames.org/3029222,https://www.geonames.org/3029222,49.86217,2.34266,,France,0,,France
+vothL572,Péronne,/location/Peronne,GeoNames,https://www.geonames.org/2987928,https://www.geonames.org/2987928,49.93218,2.9363,,France,0,,France
+vothL573,Bougainville,/location/Bougainville,GeoNames,https://www.geonames.org/3031289,https://www.geonames.org/3031289,49.8707,2.04305,,France,0,,France
+vothL574,Pellevoisin,/location/Pellevoisin,GeoNames,https://www.geonames.org/2988170,https://www.geonames.org/2988170,46.98333,1.41667,,France,0,,France
+vothL575,Quintal,/location/Quintal,GeoNames,https://www.geonames.org/2984654,https://www.geonames.org/2984654,45.84254,6.0838,,France,0,,France
+vothL583,Gaillac,/location/Gaillac,GeoNames,https://www.geonames.org/3016824,https://www.geonames.org/3016824,43.9016,1.89686,,France,0,,France
+vothL588,Chelles,/location/Chelles,GeoNames,https://www.geonames.org/3025621,https://www.geonames.org/3025621,49.35471,3.03343,,France,0,,France
+vothL594,Saint-Cyprien,/location/Saint-Cyprien,GeoNames,https://www.geonames.org/2980979,https://www.geonames.org/2980979,46.17742,3.22904,,France,0,,France
+vothL601,Annemasse,/location/Annemasse,GeoNames,https://www.geonames.org/3037538,https://www.geonames.org/3037538,46.19439,6.23775,,France,0,,France
+vothL149,Kutaisi,/location/Kutaisi,GeoNames,https://www.geonames.org/613607,https://www.geonames.org/613607,42.26791,42.69459,,Georgia,0,,Georgia
+vothL554,Tbilisi,/location/Tbilisi,GeoNames,https://www.geonames.org/611717,https://www.geonames.org/611717,41.69411,44.83368,,Georgia,0,,Georgia
+vothL29,München,/location/Muenchen,GeoNames,https://www.geonames.org/2867711,https://www.geonames.org/2867711,51.60698,13.31243,,Germany,0,Munich,Germany
+vothL33,Bernkastel-Kues,/location/Bernkastel-Kues,GeoNames,https://www.geonames.org/2949998,https://www.geonames.org/2949998,49.91602,7.07664,,Germany,0,,Germany
+vothL34,Nürnberg,/location/Nuernberg,GeoNames,https://www.geonames.org/2861650,https://www.geonames.org/2861650,49.45421,11.07752,,Germany,0,,Germany
+vothL35,Wiesbaden,/location/Wiesbaden,GeoNames,https://www.geonames.org/2809346,https://www.geonames.org/2809346,50.08258,8.24932,,Germany,0,,Germany
+vothL36,Dresden,/location/Dresden,GeoNames,https://www.geonames.org/2935022,https://www.geonames.org/2935022,51.05089,13.73832,,Germany,0,,Germany
+vothL38,Dachau,/location/Dachau,GeoNames,https://www.geonames.org/2939623,https://www.geonames.org/2939623,48.26,11.43402,,Germany,0,,Germany
+vothL39,Mühldorf am Inn,/location/Muehldorf,GeoNames,https://www.geonames.org/2868506,https://www.geonames.org/2868506,48.2467,12.52155,,Germany,0,,Germany
+vothL40,Bergen,/location/Bergen,GeoNames,https://www.geonames.org/2950617,https://www.geonames.org/2950617,51.51412,7.25283,,Germany,0,,Germany
+vothL41,Burgau,/location/Burgau,GeoNames,https://www.geonames.org/2941484,https://www.geonames.org/2941484,50.55358,6.23543,,Germany,0,,Germany
+vothL42,Weimar,/location/Weimar,GeoNames,https://www.geonames.org/2812481,https://www.geonames.org/2812481,51.36562,9.3934,,Germany,0,,Germany
+vothL43,Fürstenberg,/location/Fuerstenberg,GeoNames,https://www.geonames.org/2923636,https://www.geonames.org/2923636,52.1455,14.67224,,Germany,0,,Germany
+vothL44,Meissen,/location/Meissen,GeoNames,https://www.geonames.org/2872155,https://www.geonames.org/2872155,51.16158,13.4737,,Germany,0,,Germany
+vothL45,Taucha,/location/Taucha,GeoNames,https://www.geonames.org/2823836,https://www.geonames.org/2823836,51.38333,12.48333,,Germany,0,,Germany
+vothL46,Oschatz,/location/Oschatz,GeoNames,https://www.geonames.org/2856944,https://www.geonames.org/2856944,51.30001,13.10984,,Germany,0,,Germany
+vothL47,Flossenbürg,/location/Flossenburg,GeoNames,https://www.geonames.org/2926107,https://www.geonames.org/2926107,49.73333,12.35,,Germany,0,,Germany
+vothL48,Aschersleben,/location/Aschersleben,GeoNames,https://www.geonames.org/2955167,https://www.geonames.org/2955167,53.65688,13.92988,,Germany,0,,Germany
+vothL49,Oranienburg,/location/Oranienburg,GeoNames,https://www.geonames.org/2857129,https://www.geonames.org/2857129,52.75577,13.24197,,Germany,0,,Germany
+vothL51,Crawinkel,/location/Crawinkel,GeoNames,https://www.geonames.org/2939770,https://www.geonames.org/2939770,50.78333,10.78333,,Germany,0,,Germany
+vothL54,Braunschweig,/location/Braunschweig,GeoNames,https://www.geonames.org/2945024,https://www.geonames.org/2945024,52.26594,10.52673,,Germany,0,,Germany
+vothL55,Ludwigslust,/location/Ludwigslust,GeoNames,https://www.geonames.org/2832580,https://www.geonames.org/2832580,52.5204,14.41243,,Germany,0,,Germany
+vothL56,Neustadt-Glewe,/location/Neustadt-Glewe,GeoNames,https://www.geonames.org/2864036,https://www.geonames.org/2864036,53.37846,11.59264,,Germany,0,,Germany
+vothL57,Görlitz,/location/Goerlitz,GeoNames,https://www.geonames.org/2918986,https://www.geonames.org/2918986,51.2103,13.06911,,Germany,0,,Germany
+vothL58,Fürth,/location/Furth,GeoNames,https://www.geonames.org/2923543,https://www.geonames.org/2923543,49.65083,8.78472,,Germany,0,,Germany
+vothL59,Nordhausen,/location/Nordhausen,GeoNames,https://www.geonames.org/2861980,https://www.geonames.org/2861980,52.47908,8.73652,,Germany,0,,Germany
+vothL60,Kamenz,/location/Kamenz,GeoNames,https://www.geonames.org/2893437,https://www.geonames.org/2893437,51.26798,14.09374,,Germany,0,,Germany
+vothL61,Magdeburg,/location/Magdeburg,GeoNames,https://www.geonames.org/2874545,https://www.geonames.org/2874545,52.12773,11.62916,,Germany,0,,Germany
+vothL62,Ellrich,/location/Ellrich,GeoNames,https://www.geonames.org/2930900,https://www.geonames.org/2930900,51.58656,10.66326,,Germany,0,,Germany
+vothL63,Augsburg,/location/Augsburg,GeoNames,https://www.geonames.org/2954171,https://www.geonames.org/2954171,54.50382,9.10256,,Germany,0,,Germany
+vothL64,Ravensbrück,/location/Ravensbrueck,GeoNames,https://www.geonames.org/2849805,https://www.geonames.org/2849805,53.19605,13.16066,,Germany,0,,Germany
+vothL65,Stuttgart,/location/Stuttgart,GeoNames,https://www.geonames.org/2825297,https://www.geonames.org/2825297,48.78232,9.17702,,Germany,0,,Germany
+vothL66,Hillersleben,/location/Hillersleben,GeoNames,https://www.geonames.org/2904693,https://www.geonames.org/2904693,52.28247,11.47835,,Germany,0,,Germany
+vothL67,Verl,/location/Verl,GeoNames,https://www.geonames.org/2817576,https://www.geonames.org/2817576,51.88333,8.51667,,Germany,0,,Germany
+vothL130,Hamburg,/location/Hamburg,GeoNames,https://www.geonames.org/2911298,https://www.geonames.org/2911298,53.55073,9.99302,,Germany,0,,Germany
+vothL131,Heilenbach,/location/Heilenbach,GeoNames,https://www.geonames.org/2907665,https://www.geonames.org/2907665,50.06667,6.46667,,Germany,0,,Germany
+vothL134,Berlin,/location/Berlin,GeoNames,https://www.geonames.org/2950158,https://www.geonames.org/2950158,54.03573,10.44987,,Germany,0,,Germany
+vothL140,Mannheim,/location/Mannheim,GeoNames,https://www.geonames.org/2873891,https://www.geonames.org/2873891,49.4891,8.46694,,Germany,0,,Germany
+vothL142,Kaunitz,/location/Kaunitz,GeoNames,https://www.geonames.org/2892046,https://www.geonames.org/2892046,51.85616,8.56468,,Germany,0,,Germany
+vothL143,Brunnau,/location/Brunnau,GeoNames,https://www.geonames.org/2943197,https://www.geonames.org/2943197,49.25111,11.17138,,Germany,0,,Germany
+vothL150,Falkenberg,/location/Falkenberg,GeoNames,https://www.geonames.org/2928001,https://www.geonames.org/2928001,52.568,13.54597,,Germany,0,,Germany
+vothL160,Offenburg,/location/Offenburg,GeoNames,https://www.geonames.org/2857798,https://www.geonames.org/2857798,48.47377,7.94495,,Germany,0,,Germany
+vothL164,Schwabhausen Bei Landsberg,/location/Schwabhausen-bei-Landsberg,GeoNames,https://www.geonames.org/2835490,https://www.geonames.org/2835490,48.10794,10.98205,,Germany,0,,Germany
+vothL168,Lippstadt,/location/Lippstadt,GeoNames,https://www.geonames.org/2876865,https://www.geonames.org/2876865,51.67369,8.34482,,Germany,0,,Germany
+vothL169,Barth,/location/Barth,GeoNames,https://www.geonames.org/2952372,https://www.geonames.org/2952372,54.36346,12.72491,,Germany,0,,Germany
+vothL170,Malchow,/location/Malchow,GeoNames,https://www.geonames.org/2874120,https://www.geonames.org/2874120,52.58302,13.48334,,Germany,0,,Germany
+vothL173,Mecklenburg region,/location/Mecklenburg-region,GeoNames,,,,,,Germany,0,,Germany
+vothL175,Bremen,/location/Bremen,GeoNames,https://www.geonames.org/2944387,https://www.geonames.org/2944387,53.08333,8.83333,,Germany,0,,Germany
+vothL176,Auerbach,/location/Auerbach,GeoNames,https://www.geonames.org/2815165,https://www.geonames.org/2815165,49.5249,9.15796,,Germany,0,,Germany
+vothL179,Börgermoor,/location/Boergermoor,GeoNames,https://www.geonames.org/2946287,https://www.geonames.org/2946287,53.00487,7.49268,,Germany,0,,Germany
+vothL182,Chemnitz,/location/Chemnitz,GeoNames,https://www.geonames.org/2940130,https://www.geonames.org/2940130,50.98677,12.77555,,Germany,0,,Germany
+vothL188,Gersdorf,/location/Gersdorf,GeoNames,https://www.geonames.org/2920929,https://www.geonames.org/2920929,54.08208,11.72765,,Germany,0,,Germany
+vothL199,Leipzig,/location/Leipzig,GeoNames,https://www.geonames.org/2833197,https://www.geonames.org/2833197,51.34804,12.43133,,Germany,0,,Germany
+vothL207,Weidenberg,/location/Weidenberg,GeoNames,https://www.geonames.org/2813007,https://www.geonames.org/2813007,49.94161,11.72205,,Germany,0,,Germany
+vothL208,Wilhelmshaven,/location/Wilhelmshaven,GeoNames,https://www.geonames.org/2808720,https://www.geonames.org/2808720,53.52998,8.11253,,Germany,0,,Germany
+vothL212,Papenburg,/location/Papenburg,GeoNames,https://www.geonames.org/2855525,https://www.geonames.org/2855525,53.07738,7.40444,,Germany,0,,Germany
+vothL214,Freistaat Sachsen,/location/Saxony,GeoNames,https://www.geonames.org/2842566,https://www.geonames.org/2842566,51,13.25,,Germany,0,,Germany
+vothL215,Goldberg,/location/Goldberg,GeoNames,https://www.geonames.org/2919363,https://www.geonames.org/2919363,49.75132,8.32369,,Germany,0,,Germany
+vothL216,Tutzing,/location/Tutzing,GeoNames,https://www.geonames.org/2820692,https://www.geonames.org/2820692,47.90938,11.2803,,Germany,0,,Germany
+vothL218,Erfurt,/location/Erfurt,GeoNames,https://www.geonames.org/2929670,https://www.geonames.org/2929670,50.9787,11.03283,,Germany,0,,Germany
+vothL220,Retzow,/location/Retzow,GeoNames,https://www.geonames.org/2847942,https://www.geonames.org/2847942,53.77706,12.72019,,Germany,0,,Germany
+vothL221,Türkheim,/location/Turkheim,GeoNames,https://www.geonames.org/2820751,https://www.geonames.org/2820751,48.5849,9.80315,,Germany,0,,Germany
+vothL224,Freising,/location/Freising,GeoNames,https://www.geonames.org/2925034,https://www.geonames.org/2925034,48.40351,11.74876,,Germany,0,,Germany
+vothL237,Karlsruhe,/location/Karlsruhe,GeoNames,https://www.geonames.org/2892792,https://www.geonames.org/2892792,53.65323,12.80221,,Germany,0,,Germany
+vothL238,Oberlungwitz,/location/Oberlungwitz,GeoNames,https://www.geonames.org/2859843,https://www.geonames.org/2859843,50.7823,12.70789,,Germany,0,,Germany
+vothL243,Landsberg am Lech,/location/Landsberg-am-Lech,GeoNames,https://www.geonames.org/2881509,https://www.geonames.org/2881509,48.04819,10.88282,,Germany,0,,Germany
+vothL263,Saarland region,/location/Saarland,GeoNames,https://www.geonames.org/2842635,https://www.geonames.org/2842635,49.40472,6.96083,,Germany,0,,Germany
+vothL270,Grimma,/location/Grimma,GeoNames,https://www.geonames.org/2917325,https://www.geonames.org/2917325,51.23367,12.71959,,Germany,0,,Germany
+vothL273,Trier,/location/Trier,GeoNames,https://www.geonames.org/2821164,https://www.geonames.org/2821164,49.75565,6.63935,,Germany,0,,Germany
+vothL274,Schrobenhausen,/location/Schrobenhausen,GeoNames,https://www.geonames.org/2836084,https://www.geonames.org/2836084,48.56067,11.26071,,Germany,0,,Germany
+vothL275,Mainz,/location/Mainz,GeoNames,https://www.geonames.org/2874225,https://www.geonames.org/2874225,49.98419,8.2791,,Germany,0,,Germany
+vothL281,Frankfurt am Main,/location/Frankfurt-am-Main,GeoNames,https://www.geonames.org/2925533,https://www.geonames.org/2925533,50.11552,8.68417,,Germany,0,,Germany
+vothL284,Bochum,/location/Bochum,GeoNames,https://www.geonames.org/2947416,https://www.geonames.org/2947416,51.48165,7.21648,,Germany,0,,Germany
+vothL285,Essen,/location/Essen,GeoNames,https://www.geonames.org/2928808,https://www.geonames.org/2928808,52.77399,9.04854,,Germany,0,,Germany
+vothL286,Hannover,/location/Hannover,GeoNames,https://www.geonames.org/2910831,https://www.geonames.org/2910831,52.37052,9.73322,,Germany,0,,Germany
+vothL287,Celle,/location/Celle,GeoNames,https://www.geonames.org/2940213,https://www.geonames.org/2940213,52.62264,10.08047,,Germany,0,,Germany
+vothL288,Weil am Rhein,/location/Weil-am-Rhein,GeoNames,https://www.geonames.org/2812636,https://www.geonames.org/2812636,47.59331,7.62082,,Germany,0,,Germany
+vothL302,Geislingen an der Steige,/location/Geislingen-an-der-Steige,GeoNames,https://www.geonames.org/2921653,https://www.geonames.org/2921653,48.62423,9.82736,,Germany,0,,Germany
+vothL304,Heidelberg,/location/Heidelberg,GeoNames,https://www.geonames.org/2907909,https://www.geonames.org/2907909,48.31667,8.91667,,Germany,0,,Germany
+vothL342,Moers,/location/Moers,GeoNames,https://www.geonames.org/2870221,https://www.geonames.org/2870221,51.45342,6.6326,,Germany,0,,Germany
+vothL343,Geldern,/location/Geldern,GeoNames,https://www.geonames.org/2921528,https://www.geonames.org/2921528,51.51908,6.32363,,Germany,0,,Germany
+vothL356,Prienbach-am-Inn,/location/Prienbach-am-Inn,GeoNames,,,,,,Germany,0,,Germany
+vothL357,Stephanskirchen,/location/Stephanskirchen,GeoNames,https://www.geonames.org/2827403,https://www.geonames.org/2827403,48.279,12.35253,,Germany,0,,Germany
+vothL358,Iffeldorf,/location/Iffeldorf,GeoNames,https://www.geonames.org/2896731,https://www.geonames.org/2896731,47.76667,11.31667,,Germany,0,,Germany
+vothL373,Aschaffenburg,/location/Aschaffenburg,GeoNames,https://www.geonames.org/2955272,https://www.geonames.org/2955272,49.97704,9.15214,,Germany,0,,Germany
+vothL380,Oberlangen,/location/Oberlangen,GeoNames,https://www.geonames.org/2859983,https://www.geonames.org/2859983,52.85,7.26667,,Germany,0,,Germany
+vothL381,Kempten,/location/Kempten,GeoNames,https://www.geonames.org/2891620,https://www.geonames.org/2891620,49.96729,7.93702,,Germany,0,,Germany
+vothL382,Farsleben,/location/Farsleben,GeoNames,https://www.geonames.org/2927781,https://www.geonames.org/2927781,52.27761,11.65272,,Germany,0,,Germany
+vothL383,Wurzen,/location/Wurzen,GeoNames,https://www.geonames.org/2805597,https://www.geonames.org/2805597,51.3707,12.73939,,Germany,0,,Germany
+vothL387,Regensburg,/location/Regensburg,GeoNames,https://www.geonames.org/2849483,https://www.geonames.org/2849483,49.01513,12.10161,,Germany,0,,Germany
+vothL394,Luxembourg,/location/Luxembourg-,GeoNames,https://www.geonames.org/2960313,https://www.geonames.org/2960313,49.75,6.16667,,Germany,0,,Germany
+vothL396,Schimberg,/location/Schimberg,GeoNames,https://www.geonames.org/2839187,https://www.geonames.org/2839187,51.25673,10.18763,,Germany,0,,Germany
+vothL401,Eisenhüttenstadt,/location/Eisenhuettenstadt,GeoNames,https://www.geonames.org/2931481,https://www.geonames.org/2931481,52.15,14.65,,Germany,0,,Germany
+vothL402,Frankfurt an der Oder,/location/FrankfurtOder,GeoNames,https://www.geonames.org/2925535,https://www.geonames.org/2925535,52.34714,14.55062,,Germany,0,,Germany
+vothL404,Wismar,/location/Wismar,GeoNames,https://www.geonames.org/2807465,https://www.geonames.org/2807465,53.89314,11.45286,,Germany,0,,Germany
+vothL405,Bad Schwartau,/location/Bad-Schwartau,GeoNames,https://www.geonames.org/2953347,https://www.geonames.org/2953347,53.91887,10.69691,,Germany,0,,Germany
+vothL410,Kevelaer,/location/Kevelaer,GeoNames,https://www.geonames.org/2891258,https://www.geonames.org/2891258,51.58243,6.24603,,Germany,0,,Germany
+vothL432,Kassel,/location/Kassel,GeoNames,https://www.geonames.org/2892518,https://www.geonames.org/2892518,51.31667,9.5,,Germany,0,,Germany
+vothL442,Bayreuth,/location/Bayreuth,GeoNames,https://www.geonames.org/2951825,https://www.geonames.org/2951825,49.94782,11.57893,,Germany,0,,Germany
+vothL444,Nancy,/location/Nancy,GeoNames,https://www.geonames.org/2990999,https://www.geonames.org/2990999,48.68439,6.18496,,France,0,,France
+vothL449,Eisenberg,/location/Eisenberg,GeoNames,https://www.geonames.org/2930753,https://www.geonames.org/2930753,50.9685,9.49532,,Germany,0,,Germany
+vothL450,Schwandorf in Bayern,/location/Schwandorf-in-Bayern,GeoNames,https://www.geonames.org/2835297,https://www.geonames.org/2835297,49.32534,12.1098,,Germany,0,,Germany
+vothL451,Deggendorf,/location/Deggendorf,GeoNames,https://www.geonames.org/2938540,https://www.geonames.org/2938540,48.84085,12.96068,,Germany,0,,Germany
+vothL452,Paderborn,/location/Paderborn,GeoNames,https://www.geonames.org/2855745,https://www.geonames.org/2855745,51.71905,8.75439,,Germany,0,,Germany
+vothL460,Wanne,/location/Wanne,GeoNames,https://www.geonames.org/2814231,https://www.geonames.org/2814231,52.41667,11.35,,Germany,0,,Germany
+vothL461,Köln,/location/Koeln,GeoNames,https://www.geonames.org/2886242,https://www.geonames.org/2886242,50.93333,6.95,,Germany,0,,Germany
+vothL462,Coburg,/location/Coburg,GeoNames,https://www.geonames.org/2939951,https://www.geonames.org/2939951,50.25937,10.96384,,Germany,0,,Germany
+vothL463,Gotha,/location/Gotha,GeoNames,https://www.geonames.org/2918751,https://www.geonames.org/2918751,51.4158,12.61179,,Germany,0,,Germany
+vothL464,Eisenach,/location/Eisenach,GeoNames,https://www.geonames.org/2931574,https://www.geonames.org/2931574,50.9807,10.31522,,Germany,0,,Germany
+vothL468,Rosenheim,/location/Rosenheim,GeoNames,https://www.geonames.org/2844988,https://www.geonames.org/2844988,47.85637,12.12247,,Germany,0,,Germany
+vothL481,Passau,/location/Passau,GeoNames,https://www.geonames.org/2855327,https://www.geonames.org/2855327,54.26409,10.30913,,Germany,0,,Germany
+vothL483,Simbach am Inn,/location/Simbach-am-Inn,GeoNames,https://www.geonames.org/2832043,https://www.geonames.org/2832043,48.26548,13.02309,,Germany,0,,Germany
+vothL488,Wetzlar,/location/Wetzlar,GeoNames,https://www.geonames.org/2809889,https://www.geonames.org/2809889,50.56109,8.50495,,Germany,0,,Germany
+vothL489,Marburg,/location/Marburg-an-der-Lahn,GeoNames,https://www.geonames.org/2873759,https://www.geonames.org/2873759,50.80904,8.77069,,Germany,0,,Germany
+vothL532,Lichterfelde,/location/Lichterfelde,GeoNames,https://www.geonames.org/2878018,https://www.geonames.org/2878018,52.4333,13.30762,,Germany,0,,Germany
+vothL535,Ampfing,/location/Ampfing,GeoNames,https://www.geonames.org/2956378,https://www.geonames.org/2956378,48.254,12.41515,,Germany,0,,Germany
+vothL540,Pfalzheim,/location/Pfalzheim,GeoNames,https://www.geonames.org/2854250,https://www.geonames.org/2854250,53.03303,12.6683,,Germany,0,,Germany
+vothL543,Schwerin,/location/Schwerin,GeoNames,https://www.geonames.org/2834282,https://www.geonames.org/2834282,53.62937,11.41316,,Germany,0,,Germany
+vothL545,Immendingen,/location/Immendingen,GeoNames,https://www.geonames.org/2896288,https://www.geonames.org/2896288,47.93333,8.73333,,Germany,0,,Germany
+vothL552,Rosenberg,/location/Rosenberg,GeoNames,https://www.geonames.org/2845053,https://www.geonames.org/2845053,53.34144,8.11532,,Germany,0,,Germany
+vothL560,Halle,/location/Halle,GeoNames,https://www.geonames.org/2911518,https://www.geonames.org/2911518,51.45126,8.25219,,Germany,0,,Germany
+vothL582,Aachen,/location/Aachen,GeoNames,https://www.geonames.org/3247449,https://www.geonames.org/3247449,50.77664,6.08342,,Germany,0,,Germany
+vothL68,Thessaloníki,/location/Thessaloniki,GeoNames,https://www.geonames.org/734077,https://www.geonames.org/734077,40.64361,22.93086,,Greece,0,,Greece
+vothL126,Athínai,/location/Athens,GeoNames,https://www.geonames.org/264371,https://www.geonames.org/264371,37.98376,23.72784,,Greece,0,,Greece
+vothL244,Komotiní,/location/Komotini,GeoNames,https://www.geonames.org/735640,https://www.geonames.org/735640,41.11917,25.40535,,Greece,0,,Greece
+vothL245,Xánthi,/location/Xanthi,GeoNames,https://www.geonames.org/251594,https://www.geonames.org/251594,38.66667,21.6,,Greece,0,,Greece
+vothL246,Kavála,/location/Kavala,GeoNames,https://www.geonames.org/735861,https://www.geonames.org/735861,40.93959,24.40687,,Greece,0,,Greece
+vothL247,Dráma,/location/Drama,GeoNames,https://www.geonames.org/736364,https://www.geonames.org/736364,41.15283,24.1473,,Greece,0,,Greece
+vothL248,Véroia,/location/Veroia,GeoNames,https://www.geonames.org/733905,https://www.geonames.org/733905,40.52437,22.20242,,Greece,0,,Greece
+vothL249,Kastoría,/location/Kastoria,GeoNames,https://www.geonames.org/735927,https://www.geonames.org/735927,40.52165,21.26341,,Greece,0,,Greece
+vothL250,Didymoteicho,/location/Didymoteicho,GeoNames,https://www.geonames.org/736447,https://www.geonames.org/736447,41.34806,26.49611,,Greece,0,,Greece
+vothL251,Orestiada,/location/Orestiada,GeoNames,https://www.geonames.org/734880,https://www.geonames.org/734880,41.50306,26.52972,,Greece,0,,Greece
+vothL252,Alexandroupoli,/location/Alexandroupoli,GeoNames,https://www.geonames.org/736928,https://www.geonames.org/736928,40.84995,25.87644,,Greece,0,,Greece
+vothL253,Flórina,/location/Florina,GeoNames,https://www.geonames.org/736229,https://www.geonames.org/736229,40.78197,21.40981,,Greece,0,,Greece
+vothL254,Thessalía,/location/Thessalia,GeoNames,https://www.geonames.org/252938,https://www.geonames.org/252938,39.5,22,,Greece,0,,Greece
+vothL283,Piraeus,/location/Piraeus,GeoNames,https://www.geonames.org/255274,https://www.geonames.org/255274,37.94203,23.64619,,Greece,0,,Greece
+vothL69,Szombathely,/location/Szombathely,GeoNames,https://www.geonames.org/3044310,https://www.geonames.org/3044310,47.23088,16.62155,,Hungary,0,,Hungary
+vothL70,Kisvárda,/location/Kisvarda,GeoNames,https://www.geonames.org/718739,https://www.geonames.org/718739,48.21667,22.08333,,Hungary,0,,Hungary
+vothL72,Székesfehérvár,/location/Szekesfehervar,GeoNames,https://www.geonames.org/3044774,https://www.geonames.org/3044774,47.18995,18.41034,,Hungary,0,,Hungary
+vothL132,Budapest,/location/Budapest,GeoNames,https://www.geonames.org/3054638,https://www.geonames.org/3054638,47.5,19.08333,,Hungary,0,,Hungary
+vothL301,Mátészalka,/location/Mateszalka,GeoNames,https://www.geonames.org/717771,https://www.geonames.org/717771,47.95528,22.32348,,Hungary,0,,Hungary
+vothL525,Hatvan,/location/Hatvan,GeoNames,https://www.geonames.org/3051621,https://www.geonames.org/3051621,47.66667,19.68333,,Hungary,0,,Hungary
+vothL526,Jászberény,/location/Jaszbereny,GeoNames,https://www.geonames.org/3050907,https://www.geonames.org/3050907,47.5,19.91667,,Hungary,0,,Hungary
+vothL527,Novi Sad,/location/Novi-Sad,GeoNames,https://www.geonames.org/3194360,https://www.geonames.org/3194360,45.25167,19.83694,,Serbia,0,,Serbia
+vothL344,Miskolc,/location/Miskolc,GeoNames,https://www.geonames.org/717582,https://www.geonames.org/717582,48.10306,20.77806,,Hungray,0,,Hungray
+vothL73,Tradate,/location/Tradate,GeoNames,https://www.geonames.org/3165340,https://www.geonames.org/3165340,45.70843,8.90763,,Italy,0,,Italy
+vothL291,Como,/location/Como,GeoNames,https://www.geonames.org/3178229,https://www.geonames.org/3178229,45.80819,9.0832,,Italy,0,,Italy
+vothL292,Milano,/location/Milano,GeoNames,https://www.geonames.org/6542283,https://www.geonames.org/6542283,45.46416,9.19199,,Italy,0,,Italy
+vothL322,Turin,/location/Turin,GeoNames,https://www.geonames.org/3165524,https://www.geonames.org/3165524,45.07049,7.68682,,Italy,0,,Italy
+vothL348,Merano,/location/Merano,GeoNames,https://www.geonames.org/3173577,https://www.geonames.org/3173577,46.66817,11.15953,,Italy,0,,Italy
+vothL349,Rome,/location/Rome,GeoNames,https://www.geonames.org/3169070,https://www.geonames.org/3169070,41.89193,12.51133,,Italy,0,,Italy
+vothL350,Bari,/location/Bari,GeoNames,https://www.geonames.org/3182350,https://www.geonames.org/3182350,40.93333,16.66667,,Italy,0,,Italy
+vothL415,Cremona,/location/Cremona,GeoNames,https://www.geonames.org/3177838,https://www.geonames.org/3177838,45.13325,10.02129,,Italy,0,,Italy
+vothL425,Venice,/location/Venice,GeoNames,https://www.geonames.org/3164603,https://www.geonames.org/3164603,45.43713,12.33265,,Italy,0,,Italy
+vothL559,Almaty,/location/Almaty,GeoNames,https://www.geonames.org/1526384,https://www.geonames.org/1526384,43.25667,76.92861,,Kazakhstan,0,,Kazakhstan
+vothL129,Rīga,/location/Riga,GeoNames,https://www.geonames.org/456173,https://www.geonames.org/456173,56.97778,24.12167,,Latvia,0,,Latvia
+vothL144,Rūjiena,/location/Rujiena,GeoNames,https://www.geonames.org/456008,https://www.geonames.org/456008,57.89752,25.33155,,Latvia,0,,Latvia
+vothL406,Jelgava,/location/Jelgava,GeoNames,https://www.geonames.org/459279,https://www.geonames.org/459279,56.65,23.71278,,Latvia,0,,Latvia
+vothL596,Liepāja,/location/Liepaja,GeoNames,https://www.geonames.org/457954,https://www.geonames.org/457954,56.50474,21.01085,,Latvia,0,,Latvia
+vothL74,Vilnius,/location/Vilnius,GeoNames,https://www.geonames.org/593116,https://www.geonames.org/593116,54.68916,25.2798,,Lithuania,0,,Lithuania
+vothL75,Labūnava,/location/Labunava,GeoNames,https://www.geonames.org/597706,https://www.geonames.org/597706,55.19174,23.90589,,Lithuania,0,,Lithuania
+vothL76,Kaunas,/location/Kaunas,GeoNames,https://www.geonames.org/598316,https://www.geonames.org/598316,54.90272,23.90961,,Lithuania,0,,Lithuania
+vothL153,Vilkaviškis,/location/Vilkaviskis,GeoNames,https://www.geonames.org/593153,https://www.geonames.org/593153,54.65167,23.03222,,Lithuania,0,,Lithuania
+vothL154,Zemaičių Kalvarija,/location/Zemaiciu-Kalvarija,GeoNames,https://www.geonames.org/592829,https://www.geonames.org/592829,56.10966,22.00894,,Lithuania,0,,Lithuania
+vothL163,Sakiai,/location/Sakiai,GeoNames,https://www.geonames.org/864497,https://www.geonames.org/864497,54.95,23.05,,Lithuania,0,,Lithuania
+vothL165,Telšiai,/location/Telsiai,GeoNames,https://www.geonames.org/864511,https://www.geonames.org/864511,55.98333,22.25,,Lithuania,0,,Lithuania
+vothL181,Pravieniškės,/location/Pravieniskes,GeoNames,https://www.geonames.org/595615,https://www.geonames.org/595615,54.909,24.2174,,Lithuania,0,,Lithuania
+vothL353,Šiauliai,/location/Siauliai,GeoNames,https://www.geonames.org/594739,https://www.geonames.org/594739,55.93333,23.31667,,Lithuania,0,,Lithuania
+vothL362,Kretinga,/location/Kretinga,GeoNames,https://www.geonames.org/597989,https://www.geonames.org/597989,55.8888,21.24448,,Lithuania,0,,Lithuania
+vothL363,Klaipėda,/location/Klaipeda,GeoNames,https://www.geonames.org/598098,https://www.geonames.org/598098,55.7068,21.13912,,Lithuania,0,,Lithuania
+vothL440,Kelm,/location/Kelme,GeoNames,https://www.geonames.org/598257,https://www.geonames.org/598257,55.63009,22.9349,,Lithuania,0,,Lithuania
+vothL474,Švenčionys,/location/Svencionys,GeoNames,https://www.geonames.org/594064,https://www.geonames.org/594064,55.135,26.159,,Lithuania,0,,Lithuania
+vothL476,Pabradė,/location/Pabrade,GeoNames,https://www.geonames.org/596473,https://www.geonames.org/596473,54.981,25.761,,Lithuania,0,,Lithuania
+vothL505,Ukmergė,/location/Ukmerge,GeoNames,https://www.geonames.org/864524,https://www.geonames.org/864524,55.25,24.75,,Lithuania,0,,Lithuania
+vothL557,Kybartai,/location/Kybartai,GeoNames,https://www.geonames.org/597728,https://www.geonames.org/597728,55.12998,23.08134,,Lithuania,0,,Lithuania
+vothL578,Rainiai,/location/Rainiai,GeoNames,https://www.geonames.org/595332,https://www.geonames.org/595332,55.50422,26.19861,,Lithuania,0,,Lithuania
+vothL534,Mexico City,/location/Mexico-City,GeoNames,https://www.geonames.org/3530597,https://www.geonames.org/3530597,19.42847,-99.12766,,Mexico,0,,Mexico
+vothL271,Casablanca,/location/Casablanca,GeoNames,https://www.geonames.org/2553604,https://www.geonames.org/2553604,33.58831,-7.61138,,Morocco,0,,Morocco
+vothL139,Yerushalayim,/location/Jerusalem,GeoNames,https://www.geonames.org/281184,https://www.geonames.org/281184,31.76904,35.21633,,Israel,0,,Israel
+vothL260,Hadera,/location/Hadera,GeoNames,https://www.geonames.org/294946,https://www.geonames.org/294946,32.44192,34.9039,,Israel,0,,Israel
+vothL280,Tel Aviv,/location/Tel-Aviv,GeoNames,https://www.geonames.org/293397,https://www.geonames.org/293397,32.08088,34.78057,,Israel,0,,Israel
+vothL52,Kędzierzyn-Koźle,/location/Kedzierzyn-Kozle,GeoNames,https://www.geonames.org/3096372,https://www.geonames.org/3096372,50.34984,18.22606,,Poland,0,,Poland
+vothL53,Brzeszcze,/location/Brzeszcze,GeoNames,https://www.geonames.org/3102444,https://www.geonames.org/3102444,49.98203,19.15157,,Poland,0,,Poland
+vothL77,Staszów,/location/Staszow,GeoNames,https://www.geonames.org/758252,https://www.geonames.org/758252,50.56307,21.16593,,Poland,0,,Poland
+vothL78,Starachowice,/location/Starachowice,GeoNames,https://www.geonames.org/758390,https://www.geonames.org/758390,51.0374,21.07126,,Poland,0,,Poland
+vothL79,Warsaw,/location/Warsaw,GeoNames,https://www.geonames.org/756135,https://www.geonames.org/756135,52.22977,21.01178,,Poland,0,,Poland
+vothL80,Augustów,/location/Augustow,GeoNames,https://www.geonames.org/776597,https://www.geonames.org/776597,53.84321,22.97979,,Poland,0,,Poland
+vothL81,Katowice,/location/Katowice,GeoNames,https://www.geonames.org/3096472,https://www.geonames.org/3096472,50.25841,19.02754,,Poland,0,,Poland
+vothL82,Lódź,/location/Lodz,GeoNames,https://www.geonames.org/3093133,https://www.geonames.org/3093133,51.77058,19.47395,,Poland,0,,Poland
+vothL83,Dąbrowa Górnicza,/location/Dabrowa-Gornicza,GeoNames,https://www.geonames.org/3100796,https://www.geonames.org/3100796,50.33394,19.20479,,Poland,0,,Poland
+vothL84,Kielce,/location/Kielce,GeoNames,https://www.geonames.org/769250,https://www.geonames.org/769250,50.87033,20.62752,,Poland,0,,Poland
+vothL85,Wieliczka,/location/Wieliczka,GeoNames,https://www.geonames.org/755889,https://www.geonames.org/755889,49.98738,20.06473,,Poland,0,,Poland
+vothL86,Wadowice,/location/Wadowice,GeoNames,https://www.geonames.org/3082722,https://www.geonames.org/3082722,49.88335,19.49292,,Poland,0,,Poland
+vothL87,Olkusz,/location/Olkusz,GeoNames,https://www.geonames.org/3090146,https://www.geonames.org/3090146,50.2813,19.56503,,Poland,0,,Poland
+vothL89,Kalisz,/location/Kalisz,GeoNames,https://www.geonames.org/769754,https://www.geonames.org/769754,52.94315,20.64574,,Poland,0,,Poland
+vothL90,Oświęcim,/location/Oswiecim,GeoNames,https://www.geonames.org/3089658,https://www.geonames.org/3089658,50.03437,19.21037,,Poland,0,,Poland
+vothL91,Częstochowa,/location/Czestochowa,GeoNames,https://www.geonames.org/3100946,https://www.geonames.org/3100946,50.79646,19.12409,,Poland,0,,Poland
+vothL92,Lublin,/location/Lublin,GeoNames,https://www.geonames.org/765876,https://www.geonames.org/765876,51.25,22.56667,,Poland,0,,Poland
+vothL93,Plaszow,/location/Plaszow,GeoNames,https://www.geonames.org/7536127,https://www.geonames.org/7536127,50.04055,19.99314,,Poland,0,,Poland
+vothL94,Międzyrzec Podlaski,/location/Miedzyrzec-Podlaski,GeoNames,https://www.geonames.org/764862,https://www.geonames.org/764862,51.9864,22.78248,,Poland,0,,Poland
+vothL95,Rogoźnica,/location/Rogoznica,GeoNames,https://www.geonames.org/760417,https://www.geonames.org/760417,52.03053,22.84298,,Poland,0,,Poland
+vothL96,Libiaż,/location/Libiaz,GeoNames,https://www.geonames.org/3093457,https://www.geonames.org/3093457,50.10396,19.31568,,Poland,0,,Poland
+vothL97,Skarżysko-Kamienna,/location/Skarzysko-Kamienna,GeoNames,https://www.geonames.org/759141,https://www.geonames.org/759141,51.11311,20.87162,,Poland,0,,Poland
+vothL98,Sosnowiec,/location/Sosnowiec,GeoNames,https://www.geonames.org/758545,https://www.geonames.org/758545,53.12494,21.79739,,Poland,0,,Poland
+vothL99,Jelcz-Laskowice,/location/Jelcz-Laskowice,GeoNames,https://www.geonames.org/7532997,https://www.geonames.org/7532997,51.0327,17.33,,Poland,0,,Poland
+vothL100,Rzeszów,/location/Rzeszow,GeoNames,https://www.geonames.org/759734,https://www.geonames.org/759734,50.04132,21.99901,,Poland,0,,Poland
+vothL101,Będzin,/location/Bedzin,GeoNames,https://www.geonames.org/3103719,https://www.geonames.org/3103719,50.32607,19.12565,,Poland,0,,Poland
+vothL102,Roznów,/location/Roznow,GeoNames,https://www.geonames.org/760211,https://www.geonames.org/760211,49.77183,20.69756,,Poland,0,,Poland
+vothL103,Wejherowo,/location/Wejherowo,GeoNames,https://www.geonames.org/3082473,https://www.geonames.org/3082473,54.60568,18.23559,,Poland,0,,Poland
+vothL105,Gliwice,/location/Gliwice,GeoNames,https://www.geonames.org/3099230,https://www.geonames.org/3099230,50.29761,18.67658,,Poland,0,,Poland
+vothL106,Strzegom,/location/Strzegom,GeoNames,https://www.geonames.org/757995,https://www.geonames.org/757995,50.51272,21.32712,,Poland,0,,Poland
+vothL107,Sztutowo,/location/Sztutowo,GeoNames,https://www.geonames.org/7532620,https://www.geonames.org/7532620,54.32664,19.17784,,Poland,0,,Poland
+vothL108,Giebułtów,/location/Giebultow,GeoNames,https://www.geonames.org/772250,https://www.geonames.org/772250,50.40441,20.16929,,Poland,0,,Poland
+vothL109,Mielec,/location/Mielec,GeoNames,https://www.geonames.org/764849,https://www.geonames.org/764849,50.28709,21.4239,,Poland,0,,Poland
+vothL135,Kraków,/location/Krakow,GeoNames,https://www.geonames.org/3094802,https://www.geonames.org/3094802,50.06143,19.93658,,Poland,0,,Poland
+vothL138,Przemyśl,/location/Przemysl,GeoNames,https://www.geonames.org/761168,https://www.geonames.org/761168,49.78498,22.76728,,Poland,0,,Poland
+vothL151,Janów Lubelski,/location/Janow-Lubelski,GeoNames,https://www.geonames.org/770425,https://www.geonames.org/770425,50.70695,22.41039,,Poland,0,,Poland
+vothL155,Zakopane,/location/Zakopane,GeoNames,https://www.geonames.org/3080866,https://www.geonames.org/3080866,49.29899,19.94885,,Poland,0,,Poland
+vothL158,Wasów,/location/Wasow,GeoNames,#N/A,#N/A,,,,Poland,0,,Poland
+vothL162,Andrychów,/location/Andrychow,GeoNames,https://www.geonames.org/3104115,https://www.geonames.org/3104115,49.85497,19.33834,,Poland,0,,Poland
+vothL172,Bełżec,/location/Belzec,GeoNames,https://www.geonames.org/7532307,https://www.geonames.org/7532307,50.375,23.4313,,Poland,0,,Poland
+vothL178,Poznań,/location/Poznan,GeoNames,https://www.geonames.org/761327,https://www.geonames.org/761327,51.67709,22.30307,,Poland,0,,Poland
+vothL180,Buczacz,/location/Buchach,GeoNames,https://www.geonames.org/711348,https://www.geonames.org/711348,49.06254,25.38798,,Ukraine,0,,Ukraine
+vothL183,Pustkow,/location/Pustkow,GeoNames,https://www.geonames.org/760896,https://www.geonames.org/760896,50.14369,21.49029,,Poland,0,,Poland
+vothL186,Gdańsk,/location/Gdansk,GeoNames,https://www.geonames.org/3099434,https://www.geonames.org/3099434,54.35227,18.64912,,Poland,0,,Poland
+vothL187,Wesoła,/location/Wesola,GeoNames,https://www.geonames.org/756004,https://www.geonames.org/756004,52.25451,21.22407,,Poland,0,,Poland
+vothL189,Hrodna,/location/Hrodna,GeoNames,https://www.geonames.org/627904,https://www.geonames.org/627904,53.6884,23.8258,,Belarus,0,,Belarus
+vothL192,Jelenia Góra,/location/Jelenia-Gora,GeoNames,https://www.geonames.org/770131,https://www.geonames.org/770131,53.35367,23.44209,,Poland,0,,Poland
+vothL196,Kutno,/location/Kutno,GeoNames,https://www.geonames.org/3094170,https://www.geonames.org/3094170,52.23064,19.36409,,Poland,0,,Poland
+vothL198,Sobibór,/location/Sobibor,GeoNames,https://www.geonames.org/758722,https://www.geonames.org/758722,51.47727,23.6376,,Poland,0,,Poland
+vothL202,Szebnie,/location/Szebnie,GeoNames,https://www.geonames.org/757352,https://www.geonames.org/757352,49.76064,21.59672,,Poland,0,,Poland
+vothL204,Trawniki,/location/Trawniki,GeoNames,https://www.geonames.org/756819,https://www.geonames.org/756819,51.13633,22.99816,,Poland,0,,Poland
+vothL205,Treblinka,/location/Treblinka,GeoNames,https://www.geonames.org/756807,https://www.geonames.org/756807,52.6451,22.06891,,Poland,0,,Poland
+vothL206,Warta,/location/Warta,GeoNames,https://www.geonames.org/3082586,https://www.geonames.org/3082586,52.59596,14.61388,,Poland,0,,Poland
+vothL210,Prokocim,/location/Prokocim,GeoNames,https://www.geonames.org/761276,https://www.geonames.org/761276,50.01827,19.98679,,Poland,0,,Poland
+vothL211,Jawiszowice,/location/Jawiszowice,GeoNames,https://www.geonames.org/3097369,https://www.geonames.org/3097369,49.96072,19.13853,,Poland,0,,Poland
+vothL217,Tomaszów Mazowiecki,/location/Tomaszow-Mazowiecki,GeoNames,https://www.geonames.org/756867,https://www.geonames.org/756867,51.53131,20.00855,,Poland,0,,Poland
+vothL231,Miłoszyce,/location/Miloszyce,GeoNames,https://www.geonames.org/3091748,https://www.geonames.org/3091748,51.04981,17.31291,,Poland,0,,Poland
+vothL239,Gogolin,/location/Gogolin,GeoNames,https://www.geonames.org/3099046,https://www.geonames.org/3099046,53.40022,18.65144,,Poland,0,,Poland
+vothL241,Bolków,/location/Bolkow,GeoNames,https://www.geonames.org/3102967,https://www.geonames.org/3102967,53.54918,14.36239,,Poland,0,,Poland
+vothL258,Gdynia,/location/Gdynia,GeoNames,https://www.geonames.org/3099424,https://www.geonames.org/3099424,54.51889,18.53188,,Poland,0,,Poland
+vothL296,Radzyń Podlaski,/location/Radzyn-Podlaski,GeoNames,https://www.geonames.org/760680,https://www.geonames.org/760680,51.78333,22.61667,,Poland,0,,Poland
+vothL297,Nowy Targ,/location/Nowy-Targ,GeoNames,https://www.geonames.org/763523,https://www.geonames.org/763523,49.47783,20.03228,,Poland,0,,Poland
+vothL303,Szczecin,/location/Szczecin,GeoNames,https://www.geonames.org/3083829,https://www.geonames.org/3083829,53.42894,14.55302,,Poland,0,,Poland
+vothL308,Chorzów,/location/Chorzow,GeoNames,https://www.geonames.org/774383,https://www.geonames.org/774383,49.90304,22.56334,,Poland,0,,Poland
+vothL309,Debica,/location/Debica,GeoNames,https://www.geonames.org/3100610,https://www.geonames.org/3100610,53.93333,15.61667,,Poland,0,,Poland
+vothL313,Wrocław,/location/Wroclaw,GeoNames,https://www.geonames.org/3081368,https://www.geonames.org/3081368,51.1,17.03333,,Poland,0,,Poland
+vothL337,Bełżyce,/location/Belzyce,GeoNames,https://www.geonames.org/776252,https://www.geonames.org/776252,51.17415,22.28027,,Poland,0,,Poland
+vothL347,Tarnow,/location/Tarnow,GeoNames,https://www.geonames.org/757026,https://www.geonames.org/757026,50.01381,20.98698,,Poland,0,,Poland
+vothL351,Prabuty,/location/Prabuty,GeoNames,https://www.geonames.org/761324,https://www.geonames.org/761324,52.8092,21.56788,,Poland,0,,Poland
+vothL354,Dębice,/location/Debice,GeoNames,https://www.geonames.org/3100607,https://www.geonames.org/3100607,16.48399,P,"Two Polish towns named Dębice exist, it is uncertain which is referred to (see also https://www.geonames.org/3100606/debice).",Poland,0,,Poland
+vothL359,Radom,/location/Radom,GeoNames,https://www.geonames.org/760778,https://www.geonames.org/760778,51.40253,21.14714,,Poland,0,,Poland
+vothL360,Kraśnik,/location/Krasnik,GeoNames,https://www.geonames.org/767623,https://www.geonames.org/767623,50.9236,22.22706,,Poland,0,,Poland
+vothL366,Czechowice,/location/Czechowice,GeoNames,https://www.geonames.org/773827,https://www.geonames.org/773827,52.18333,20.86667,,Poland,0,,Poland
+vothL372,Bytom,/location/Bytom,GeoNames,https://www.geonames.org/3101950,https://www.geonames.org/3101950,50.34802,18.93282,,Poland,0,,Poland
+vothL379,Hutysche,/location/Hutysche,Other,https://www.wikidata.org/wiki/Q4153004,https://www.wikidata.org/wiki/Q4153004,49.92083333,24.95277778,"Prior to 1939, Hutysche, known as Hucisko Oleskie in Polish, was part of Poland.",Ukraine,0,,Ukraine
+vothL385,Łowicz,/location/Lowicz,GeoNames,https://www.geonames.org/3093066,https://www.geonames.org/3093066,52.10714,19.94525,,Poland,0,,Poland
+vothL391,Walim,/location/Walim,GeoNames,https://www.geonames.org/756202,https://www.geonames.org/756202,52.22223,22.95147,,Poland,0,,Poland
+vothL393,Gmina Wolin,/location/Wolin,GeoNames,https://www.geonames.org/7533540,https://www.geonames.org/7533540,53.8318,14.5979,,Poland,0,,Poland
+vothL395,Głuszyca,/location/Gluszyca,GeoNames,https://www.geonames.org/3099145,https://www.geonames.org/3099145,51.96606,15.89996,,Poland,0,,Poland
+vothL397,Sandomierz,/location/Sandomierz,GeoNames,https://www.geonames.org/759603,https://www.geonames.org/759603,50.68265,21.74898,,Poland,0,,Poland
+vothL403,Bielsko-Biała,/location/Bielsko-Biala,GeoNames,https://www.geonames.org/7530791,https://www.geonames.org/7530791,49.81204,19.03899,,Poland,0,,Poland
+vothL417,Radomyśl Wielki,/location/Radomysl-Wielki,GeoNames,https://www.geonames.org/760769,https://www.geonames.org/760769,50.19693,21.27693,,Poland,0,,Poland
+vothL437,Turnow,/location/Tarnawa-Krosnienska,GeoNames,https://www.geonames.org/3083471,https://www.geonames.org/3083471,51.90984,15.14781,,Poland,0,,Poland
+vothL438,Cieszyn,/location/Cieszyn,GeoNames,https://www.geonames.org/774119,https://www.geonames.org/774119,50.81817,23.465,,Poland,0,,Poland
+vothL443,Wodzisław,/location/Wodzislaw,GeoNames,https://www.geonames.org/755439,https://www.geonames.org/755439,50.52047,20.1915,,Poland,0,,Poland
+vothL445,Radomsko,/location/Radomsko,GeoNames,https://www.geonames.org/3087497,https://www.geonames.org/3087497,51.06713,19.44477,,Poland,0,,Poland
+vothL447,Skierniewice,/location/Skierniewice,GeoNames,https://www.geonames.org/759123,https://www.geonames.org/759123,51.95485,20.15837,,Poland,0,,Poland
+vothL459,Zba̜szyń,/location/Zbaszyn,GeoNames,https://www.geonames.org/3080495,https://www.geonames.org/3080495,52.2509,15.9252,,Poland,0,,Poland
+vothL467,Siedlce,/location/Siedlce,GeoNames,https://www.geonames.org/759412,https://www.geonames.org/759412,52.16772,22.29006,,Poland,0,,Poland
+vothL475,Klecin,/location/Klecin,GeoNames,https://www.geonames.org/3096171,https://www.geonames.org/3096171,50.90065,16.57253,,Poland,0,,Poland
+vothL477,Kamienna Góra,/location/Kamienna-Gora,GeoNames,https://www.geonames.org/769673,https://www.geonames.org/769673,50.65105,20.98363,,Poland,0,,Poland
+vothL480,Świdnica,/location/Swidnica,GeoNames,https://www.geonames.org/757696,https://www.geonames.org/757696,50.18921,23.15263,,Poland,0,,Poland
+vothL484,Podde̜bice,/location/Poddebice,GeoNames,https://www.geonames.org/3088710,https://www.geonames.org/3088710,51.89344,18.9573,,Poland,0,,Poland
+vothL485,Aleksandrów Łódzki,/location/Aleksandrow-Lodzki,GeoNames,https://www.geonames.org/3104132,https://www.geonames.org/3104132,51.81965,19.30384,,Poland,0,,Poland
+vothL486,Białystok,/location/Bialystok,GeoNames,https://www.geonames.org/776069,https://www.geonames.org/776069,53.13333,23.16433,,Poland,0,,Poland
+vothL487,Radoszyce,/location/Radoszyce,GeoNames,https://www.geonames.org/760745,https://www.geonames.org/760745,51.07392,20.25836,,Poland,0,,Poland
+vothL494,Rajsko,/location/Rajsko,GeoNames,https://www.geonames.org/760666,https://www.geonames.org/760666,50.10517,20.59876,,Poland,0,,Poland
+vothL496,Lukow,/location/Lukow,GeoNames,https://www.geonames.org/765749,https://www.geonames.org/765749,51.929,22.37956,,Poland,0,,Poland
+vothL497,Chelm,/location/Chelm,GeoNames,https://www.geonames.org/774558,https://www.geonames.org/774558,51.14312,23.4716,,Poland,0,,Poland
+vothL498,Jasło,/location/Jaslo,GeoNames,https://www.geonames.org/770293,https://www.geonames.org/770293,49.74506,21.47252,,Poland,0,,Poland
+vothL499,Bochnia,/location/Bochnia,GeoNames,https://www.geonames.org/775758,https://www.geonames.org/775758,49.96905,20.43028,,Poland,0,,Poland
+vothL509,Poniatowa,/location/Poniatowa,GeoNames,https://www.geonames.org/761546,https://www.geonames.org/761546,51.17983,22.13093,,Poland,0,,Poland
+vothL510,Brzeziny,/location/Brzeziny,GeoNames,https://www.geonames.org/775144,https://www.geonames.org/775144,53.23897,22.53716,,Poland,0,,Poland
+vothL511,Ternopol,/location/Ternopil,GeoNames,https://www.geonames.org/691650,https://www.geonames.org/691650,49.55342,25.58918,,Ukraine,0,,Ukraine
+vothL512,Zolotyy Potik,/location/Zolotyy-Potik,GeoNames,https://www.geonames.org/686863,https://www.geonames.org/686863,48.9095,25.33926,,Ukraine,0,,Ukraine
+vothL513,Wolin,/location/Wolin,GeoNames,https://www.geonames.org/3081471,https://www.geonames.org/3081471,53.84214,14.61465,,Poland,0,,Poland
+vothL515,Czortków,/location/Chortkiv,GeoNames,https://www.geonames.org/710400,https://www.geonames.org/710400,49.01709,25.79804,,Ukraine,0,,Ukraine
+vothL519,Gorodenka,/location/Horodenka,GeoNames,https://www.geonames.org/708380,https://www.geonames.org/708380,48.67274,25.50163,,Ukraine,0,,Ukraine
+vothL530,Krosno,/location/Krosno,GeoNames,https://www.geonames.org/767469,https://www.geonames.org/767469,54.1321,20.17114,,Poland,0,,Poland
+vothL531,Zabrze,/location/Zabrze,GeoNames,https://www.geonames.org/3080985,https://www.geonames.org/3080985,50.32492,18.78576,,Poland,0,,Poland
+vothL536,Nowy Sa̜cz,/location/Nowy-Sacz,GeoNames,https://www.geonames.org/763534,https://www.geonames.org/763534,49.62177,20.69705,,Poland,0,,Poland
+vothL538,Pszczyna,/location/Pszczyna,GeoNames,https://www.geonames.org/3087705,https://www.geonames.org/3087705,49.98037,18.95382,,Poland,0,,Poland
+vothL539,Podgórze,/location/Podgorze,GeoNames,https://www.geonames.org/761900,https://www.geonames.org/761900,53.28333,21.38333,,Poland,0,,Poland
+vothL541,Brzezinka,/location/Brzezinka,GeoNames,https://www.geonames.org/3102405,https://www.geonames.org/3102405,51.97941,15.04087,,Poland,0,,Poland
+vothL542,Stargard Szczeciński,/location/Stargard,GeoNames,https://www.geonames.org/3084840,https://www.geonames.org/3084840,53.33672,15.0499,,Poland,0,,Poland
+vothL544,Bydgoszcz,/location/Bydgoszcz,GeoNames,https://www.geonames.org/3102014,https://www.geonames.org/3102014,53.1235,18.00762,,Poland,0,,Poland
+vothL549,Zakrzów,/location/Zakrzow,GeoNames,https://www.geonames.org/754030,https://www.geonames.org/754030,51.28545,20.32465,,Poland,0,,Poland
+vothL553,Maślice Wielkie,/location/Maslice-Wielkie,GeoNames,https://www.geonames.org/12047643,https://www.geonames.org/12047643,51.16333,16.92837,,Poland,0,,Poland
+vothL564,Radomyśl nad Sanem,/location/Radomysl-nad-Sanem,GeoNames,https://www.geonames.org/7531577,https://www.geonames.org/7531577,50.71143,21.96153,,Poland,0,,Poland
+vothL576,Mysłowice,/location/Myslowice,GeoNames,https://www.geonames.org/3091231,https://www.geonames.org/3091231,53.89387,15.63397,,Poland,0,,Poland
+vothL577,Myszków,/location/Myszkow,GeoNames,https://www.geonames.org/3091217,https://www.geonames.org/3091217,50.5752,19.32461,,Poland,0,,Poland
+vothL579,Sławków,/location/Slawkow,GeoNames,https://www.geonames.org/3085616,https://www.geonames.org/3085616,50.29943,19.38967,,Poland,0,,Poland
+vothL580,Pionki,/location/Pionki,GeoNames,https://www.geonames.org/762199,https://www.geonames.org/762199,51.47604,21.44995,,Poland,0,,Poland
+vothL581,Wolbrom,/location/Wolbrom,GeoNames,https://www.geonames.org/3081495,https://www.geonames.org/3081495,50.37957,19.75831,,Poland,0,,Poland
+vothL599,Bobrek,/location/Bobrek,GeoNames,https://www.geonames.org/775792,https://www.geonames.org/775792,51.60867,21.04882,,Poland,0,,Poland
+vothL600,Mikolów,/location/Mikolow,GeoNames,https://www.geonames.org/3091831,https://www.geonames.org/3091831,50.17103,18.9041,,Poland,0,,Poland
+vothL602,Sieradz,/location/Sieradz,GeoNames,https://www.geonames.org/3085978,https://www.geonames.org/3085978,51.59584,18.73023,,Poland,0,,Poland
+vothL603,Krynica-Zdrój,/location/Krynica-Zdroj,GeoNames,https://www.geonames.org/767374,https://www.geonames.org/767374,49.42225,20.95942,,Poland,0,,Poland
+vothL605,Sanok,/location/Sanok,GeoNames,https://www.geonames.org/759591,https://www.geonames.org/759591,49.55573,22.2056,,Poland,0,,Poland
+vothL606,Grybów,/location/Grybow,GeoNames,https://www.geonames.org/771313,https://www.geonames.org/771313,49.62439,20.94797,,Poland,0,,Poland
+vothL613,Delyatyn,/location/Delyatyn,GeoNames,https://www.geonames.org/710202,https://www.geonames.org/710202,48.52354,24.62466,,Ukraine,0,,Ukraine
+vothL595,Lisbon,/location/Lisbon,GeoNames,https://www.geonames.org/2267057,https://www.geonames.org/2267057,38.71667,-9.13333,,Portugal,0,,Portugal
+vothL110,Sighetu Marmaţiei,/location/Sighetu-Marmatiei,GeoNames,https://www.geonames.org/667227,https://www.geonames.org/667227,47.93195,23.88603,,Romania,0,,Romania
+vothL111,Maramures Province,/location/Maramures,GeoNames,https://www.geonames.org/673887,https://www.geonames.org/673887,47.66667,24,,Romania,0,,Romania
+vothL112,Oradea,/location/Oradea,GeoNames,https://www.geonames.org/671768,https://www.geonames.org/671768,47.0458,21.91833,,Romania,0,,Romania
+vothL234,Edineţ,/location/Edinet,GeoNames,https://www.geonames.org/617076,https://www.geonames.org/617076,48.17215,27.30337,,Moldova,0,,Moldova
+vothL277,Bucharest,/location/Bucharest,GeoNames,https://www.geonames.org/683506,https://www.geonames.org/683506,44.43225,26.10626,,Romania,0,,Romania
+vothL279,Cluj-Napoca,/location/Cluj-Napoca,GeoNames,https://www.geonames.org/681290,https://www.geonames.org/681290,46.76667,23.6,,Romania,0,,Romania
+vothL399,Rădăuţi,/location/Radauti,GeoNames,https://www.geonames.org/669289,https://www.geonames.org/669289,47.85,25.91667,,Romania,0,,Romania
+vothL562,Constanţa,/location/Constanta,GeoNames,https://www.geonames.org/680963,https://www.geonames.org/680963,44.18073,28.63432,,Romania,0,,Romania
+vothL113,Saratov,/location/Saratov,GeoNames,https://www.geonames.org/498677,https://www.geonames.org/498677,51.54056,46.00861,,Russia,0,,Russia
+vothL156,Nivenskoye,/location/Nivenskoye,GeoNames,https://www.geonames.org/521261,https://www.geonames.org/521261,54.5851,20.56739,,Russia,0,,Russia
+vothL294,Volgograd,/location/Volgograd,GeoNames,https://www.geonames.org/472757,https://www.geonames.org/472757,48.71939,44.50183,,Russia,0,,Russia
+vothL361,Moskva,/location/Moscow,GeoNames,https://www.geonames.org/524901,https://www.geonames.org/524901,55.75222,37.61556,,Russia,0,,Russia
+vothL364,Koenigsberg,/location/Kaliningrad,GeoNames,https://www.geonames.org/554234,https://www.geonames.org/554234,54.70649,20.51095,,Russia,0,,Russia
+vothL367,Rostov,/location/Rostov,GeoNames,https://www.geonames.org/501183,https://www.geonames.org/501183,57.1914,39.41394,,Russia,0,,Russia
+vothL368,Makhachkala,/location/Makhachkala,GeoNames,https://www.geonames.org/532096,https://www.geonames.org/532096,42.97638,47.50236,,Russia,0,,Russia
+vothL407,Buguruslan,/location/Makhachkala,GeoNames,https://www.geonames.org/532096,https://www.geonames.org/532096,42.97638,47.50236,,Russia,0,,Russia
+vothL409,Novosibirsk,/location/Makhachkala,GeoNames,https://www.geonames.org/532096,https://www.geonames.org/532096,42.97638,47.50236,,Russia,0,,Russia
+vothL441,Smolensk,/location/Smolensk,GeoNames,https://www.geonames.org/491687,https://www.geonames.org/491687,54.7818,32.0401,,Russia,0,,Russia
+vothL453,Sankt-Peterburg,/location/Saint-Petersburg,GeoNames,https://www.geonames.org/498817,https://www.geonames.org/498817,59.93863,30.31413,,Russia,0,,Russia
+vothL547,Samara,/location/Samara,GeoNames,https://www.geonames.org/499099,https://www.geonames.org/499099,53.20007,50.15,,Russia,0,,Russia
+vothL558,Kirov,/location/Kirov,GeoNames,https://www.geonames.org/548408,https://www.geonames.org/548408,58.59665,49.66007,,Russia,0,,Russia
+vothL584,Kaliningrad,/location/Kaliningrad,GeoNames,https://www.geonames.org/554234,https://www.geonames.org/554234,54.70649,20.51095,,Russia,0,,Russia
+vothL607,Buzuluk,/location/Buzuluk,GeoNames,https://www.geonames.org/570427,https://www.geonames.org/570427,52.7807,52.2635,,Russia,0,,Russia
+vothL608,Totskoye,/location/Totskoye,GeoNames,https://www.geonames.org/481955,https://www.geonames.org/481955,52.52478,52.76228,,Russia,0,,Russia
+vothL611,Sukhobezvodnoye,/location/Sukhobezvodnoye,GeoNames,https://www.geonames.org/486645,https://www.geonames.org/486645,57.04913,44.88909,,Russia,0,,Russia
+vothL612,Nizhniy Novgorod,/location/Nizhniy-Novgorod,GeoNames,https://www.geonames.org/520555,https://www.geonames.org/520555,56.32867,44.00205,,Russia,0,,Russia
+vothL551,Belgrade ,/location/Belgrade,GeoNames,https://www.geonames.org/792680,https://www.geonames.org/792680,44.80401,20.46513,,Serbia,0,,Serbia
+vothL114,Kurima,/location/Kurima,GeoNames,https://www.geonames.org/724353,https://www.geonames.org/724353,49.22631,21.45361,,Slovakia,0,,Slovakia
+vothL115,Bratislava,/location/Bratislava,GeoNames,https://www.geonames.org/3060972,https://www.geonames.org/3060972,48.14816,17.10674,,Slovakia,0,,Slovakia
+vothL345,Kosice,/location/Kosice,GeoNames,https://www.geonames.org/865084,https://www.geonames.org/865084,48.66667,21.33333,,Slovakia,0,,Slovakia
+vothL448,Banská Bystrica,/location/Banska-Bystrica,GeoNames,https://www.geonames.org/3061186,https://www.geonames.org/3061186,48.73946,19.15349,,Slovakia,0,,Slovakia
+vothL428,Johannesburg,/location/Johannesburg,GeoNames,https://www.geonames.org/993800,https://www.geonames.org/993800,-26.20227,28.04363,,South Africa,0,,South Africa
+vothL167,Castelló d Empúries,/location/Castello-d'Empuries,GeoNames,https://www.geonames.org/3125884,https://www.geonames.org/3125884,42.25673,3.07446,,Spain,0,,Spain
+vothL282,Barcelona,/location/Barcelona,GeoNames,https://www.geonames.org/3128760,https://www.geonames.org/3128760,41.38879,2.15899,,Spain,0,,Spain
+vothL423,Madrid,/location/Madrid,GeoNames,https://www.geonames.org/3117735,https://www.geonames.org/3117735,40.4165,-3.70256,,Spain,0,,Spain
+vothL454,Bilbao,/location/Bilbao,GeoNames,https://www.geonames.org/3128026,https://www.geonames.org/3128026,43.26271,-2.92528,,Spain,0,,Spain
+vothL555,Córdoba,/location/Cordoba,GeoNames,https://www.geonames.org/2519240,https://www.geonames.org/2519240,37.89155,-4.77275,,Spain,0,,Spain
+vothL570,San Cugat del Vallés,/location/Sant-Cugat-del-Valles,GeoNames,https://www.geonames.org/3110718,https://www.geonames.org/3110718,41.47063,2.08611,,Spain,0,,Spain
+vothL116,Zurich,/location/Zurich,GeoNames,https://www.geonames.org/2657896,https://www.geonames.org/2657896,47.36667,8.55,,Switzerland,0,,Switzerland
+vothL117,Genève,/location/Geneve,GeoNames,https://www.geonames.org/2660645,https://www.geonames.org/2660645,46.19673,6.11044,,Switzerland,0,,Switzerland
+vothL200,Montreux,/location/Montreux,GeoNames,https://www.geonames.org/2659601,https://www.geonames.org/2659601,46.43301,6.91143,,Switzerland,0,,Switzerland
+vothL278,Basel,/location/Basel,GeoNames,https://www.geonames.org/2661604,https://www.geonames.org/2661604,47.55839,7.57327,,Switzerland,0,,Switzerland
+vothL289,Engelberg,/location/Engelberg,GeoNames,https://www.geonames.org/2660901,https://www.geonames.org/2660901,47.10387,7.17877,,Switzerland,0,,Switzerland
+vothL290,Luzern,/location/Luzern,GeoNames,https://www.geonames.org/2659811,https://www.geonames.org/2659811,47.05048,8.30635,,Switzerland,0,,Switzerland
+vothL420,Wädenswil,/location/Waedenswil,GeoNames,https://www.geonames.org/7287513,https://www.geonames.org/7287513,47.22493,8.65207,,Switzerland,0,,Switzerland
+vothL506,Speicher,/location/Speicher,GeoNames,https://www.geonames.org/2658537,https://www.geonames.org/2658537,47.4109,9.44335,,Switzerland,0,,Switzerland
+vothL507,Sankt Gallen,/location/Sankt-Gallen,GeoNames,https://www.geonames.org/2658822,https://www.geonames.org/2658822,47.42391,9.37477,,Switzerland,0,,Switzerland
+vothL565,Appenzell,/location/Appenzell,GeoNames,https://www.geonames.org/2661740,https://www.geonames.org/2661740,47.33103,9.40996,,Switzerland,0,,Switzerland
+vothL615,Buchs,/location/Buchs,GeoNames,https://www.geonames.org/2661348,https://www.geonames.org/2661348,47.39358,8.08233,,Switzerland,0,,Switzerland
+vothL616,Gattikon,/location/Gattikon,GeoNames,https://www.geonames.org/6293088,https://www.geonames.org/6293088,47.28439,8.5483,,Switzerland,0,,Switzerland
+vothL617,Lugano,/location/Lugano,GeoNames,https://www.geonames.org/2659836,https://www.geonames.org/2659836,46.01008,8.96004,,Switzerland,0,,Switzerland
+vothL618,Morcote,/location/Morcote,GeoNames,https://www.geonames.org/2659592,https://www.geonames.org/2659592,45.925,8.916,,Switzerland,0,,Switzerland
+vothL609,Ghŭsar,/location/Ghusar,GeoNames,https://www.geonames.org/1221665,https://www.geonames.org/1221665,39.46145,67.84813,,Tajikistan,0,,Tajikistan
+vothL371,İstanbul,/location/Istanbul,GeoNames,https://www.geonames.org/745042,https://www.geonames.org/745042,41.03508,28.98331,,Turkey,0,,Turkey
+vothL369,Türkmenbaşy,/location/Turkmenbasy,GeoNames,https://www.geonames.org/601594,https://www.geonames.org/601594,40.02216,52.95517,,Turkmenistan,0,,Turkmenistan
+vothL587,Mary,/location/Mary,GeoNames,https://www.geonames.org/1218666,https://www.geonames.org/1218666,37,62.5,,Turkmenistan,0,,Turkmenistan
+vothL120,Zaporizhia,/location/Zaporizhia,GeoNames,https://www.geonames.org/687700,https://www.geonames.org/687700,47.82289,35.19031,,Ukraine,0,,Ukraine
+vothL121,Brody,/location/Brody,GeoNames,https://www.geonames.org/711416,https://www.geonames.org/711416,50.08791,25.15027,,Ukraine,0,,Ukraine
+vothL122,Dnipro,/location/Dnipro,GeoNames,https://www.geonames.org/709930,https://www.geonames.org/709930,48.4593,35.03865,,Ukraine,0,,Ukraine
+vothL123,Lviv,/location/Lviv,GeoNames,https://www.geonames.org/702550,https://www.geonames.org/702550,49.83826,24.02324,,Ukraine,0,,Ukraine
+vothL136,Chernivtsi,/location/Chernivtsi,GeoNames,https://www.geonames.org/710719,https://www.geonames.org/710719,48.29045,25.93241,,Ukraine,0,,Ukraine
+vothL137,Rivne,/location/Rivne,GeoNames,https://www.geonames.org/688777,https://www.geonames.org/688777,51.31326,34.22461,,Ukraine,0,,Ukraine
+vothL147,Bus’k,/location/Bus'k,GeoNames,https://www.geonames.org/711103,https://www.geonames.org/711103,49.96548,24.61227,,Ukraine,0,,Ukraine
+vothL240,Kyiv,/location/Kyiv,GeoNames,https://www.geonames.org/703448,https://www.geonames.org/703448,50.45466,30.5238,,Ukraine,0,,Ukraine
+vothL311,Odessa,/location/Odessa,GeoNames,https://www.geonames.org/698740,https://www.geonames.org/698740,46.48572,30.74383,,Ukraine,0,,Ukraine
+vothL338,Kharkov,/location/Kharkov,GeoNames,https://www.geonames.org/9962987,https://www.geonames.org/9962987,50.00518,36.23188,,Ukraine,0,,Ukraine
+vothL370,Poltava,/location/Poltava,GeoNames,https://www.geonames.org/696642,https://www.geonames.org/696642,49.62375,38.12014,,Ukraine,0,,Ukraine
+vothL378,Zolochiv,/location/Zolochiv,GeoNames,https://www.geonames.org/686895,https://www.geonames.org/686895,50.27985,35.98179,,Ukraine,0,,Ukraine
+vothL431,Bohuslav,/location/Bohuslav,GeoNames,https://www.geonames.org/711867,https://www.geonames.org/711867,49.54939,30.8744,,Ukraine,0,,Ukraine
+vothL533,Dniprovs'ke,/location/Dniprovs'ke,GeoNames,https://www.geonames.org/709950,https://www.geonames.org/709950,48.21076,35.6077,,Ukraine,0,,Ukraine
+vothL548,Kamianets-Podilskyi,/location/Kamianets-Podilskyi,GeoNames,https://www.geonames.org/706950,https://www.geonames.org/706950,48.6845,26.58559,,Ukraine,0,,Ukraine
+vothL568,Kremenets,/location/Kremenets,GeoNames,https://www.geonames.org/704143,https://www.geonames.org/704143,50.09693,25.72459,,Ukraine,0,,Ukraine
+vothL569,Dubno,/location/Dubno,GeoNames,https://www.geonames.org/709539,https://www.geonames.org/709539,51.52392,27.51142,,Ukraine,0,,Ukraine
+vothL586,Volochysk,/location/Volochysk,GeoNames,https://www.geonames.org/689159,https://www.geonames.org/689159,49.53748,26.21568,,Ukraine,0,,Ukraine
+vothL589,Pidvolochysk,/location/Pidvolochysk,GeoNames,https://www.geonames.org/696823,https://www.geonames.org/696823,49.53472,26.14585,,Ukraine,0,,Ukraine
+vothL590,Rava-Rus’ka,/location/Rava-Rus'ka,GeoNames,https://www.geonames.org/695781,https://www.geonames.org/695781,50.23079,23.62825,,Ukraine,0,,Ukraine
+vothL591,Cherkasy,/location/Cherkasy,GeoNames,https://www.geonames.org/710790,https://www.geonames.org/710790,49.58333,23.89589,,Ukraine,0,,Ukraine
+vothL593,Barysh,/location/Barysh,GeoNames,https://www.geonames.org/712788,https://www.geonames.org/712788,49.0443,25.27177,,Ukraine,0,,Ukraine
+vothL604,Drohobych,/location/Drohobych,GeoNames,https://www.geonames.org/709610,https://www.geonames.org/709610,49.35529,23.54354,,Ukraine,0,,Ukraine
+vothL269,Gibraltar,/location/Gibraltar,GeoNames,https://www.geonames.org/2411585,https://www.geonames.org/2411585,36.14474,-5.35257,,Gibraltar,0,,Gibraltar
+vothL293,London,/location/London,GeoNames,https://www.geonames.org/2643743,https://www.geonames.org/2643743,51.50853,-0.12574,,United Kingdom,0,,United Kingdom
+vothL537,Newcastle upon Tyne,/location/Newcastle-upon-Tyne,GeoNames,https://www.geonames.org/2641673,https://www.geonames.org/2641673,54.97328,-1.61396,,United Kingdom,0,,United Kingdom
+vothL255,Hartford,/location/Hartford,GeoNames,https://www.geonames.org/4835797,https://www.geonames.org/4835797,41.76371,-72.68509,,United States,0,,United States
+vothL256,Chicago,/location/Chicago,GeoNames,https://www.geonames.org/4887398,https://www.geonames.org/4887398,41.85003,-87.65005,,United States,0,,United States
+vothL257,New York,/location/New-York-City,GeoNames,https://www.geonames.org/5128581,https://www.geonames.org/5128581,40.71427,-74.00597,,United States,0,,United States
+vothL306,Sacramento,/location/Sacramento,GeoNames,https://www.geonames.org/5389489,https://www.geonames.org/5389489,38.58157,-121.4944,,United States,0,,United States
+vothL307,Detroit,/location/Detroit,GeoNames,https://www.geonames.org/4990729,https://www.geonames.org/4990729,42.33143,-83.04575,,United States,0,,United States
+vothL314,Brooklyn,/location/Brooklyn,GeoNames,https://www.geonames.org/5110302,https://www.geonames.org/5110302,40.6501,-73.94958,,United States,0,,United States
+vothL330,Washington,/location/Washington,GeoNames,https://www.geonames.org/5815135,https://www.geonames.org/5815135,47.50012,-120.50147,,United States,0,,United States
+vothL332,Boston,/location/Boston,GeoNames,https://www.geonames.org/4930956,https://www.geonames.org/4930956,42.35843,-71.05977,,United States,0,,United States
+vothL377,San Francisco,/location/San-Francisco,GeoNames,https://www.geonames.org/5391959,https://www.geonames.org/5391959,37.77493,-122.41942,,United States,0,,United States
+vothL411,Miami,/location/Miami,GeoNames,https://www.geonames.org/4164138,https://www.geonames.org/4164138,25.77427,-80.19366,,United States,0,,United States
+vothL412,Cleveland,/location/Cleveland,GeoNames,https://www.geonames.org/5150529,https://www.geonames.org/5150529,41.4995,-81.69541,,United States,0,,United States
+vothL422,Los Angeles,/location/Los-Angeles,GeoNames,https://www.geonames.org/5368361,https://www.geonames.org/5368361,34.05223,-118.24368,,United States,0,,United States
+vothL429,Milwaukee,/location/Milwaukee,GeoNames,https://www.geonames.org/5263045,https://www.geonames.org/5263045,43.0389,-87.90647,,United States,0,,United States
+vothL470,Atlanta,/location/Atlanta,GeoNames,https://www.geonames.org/4180439,https://www.geonames.org/4180439,33.749,-84.38798,,United States,0,,United States
+vothL490,Erie,/location/Erie,GeoNames,https://www.geonames.org/5188843,https://www.geonames.org/5188843,42.12922,-80.08506,,United States,0,,United States
+vothL491,Gary,/location/Gary,GeoNames,https://www.geonames.org/4920607,https://www.geonames.org/4920607,41.59337,-87.34643,,United States,0,,United States
+vothL492,Durango,/location/Durango,GeoNames,https://www.geonames.org/5420241,https://www.geonames.org/5420241,37.27528,-107.88007,,United States,0,,United States
+vothL493,Newark,/location/Newark,GeoNames,https://www.geonames.org/5101798,https://www.geonames.org/5101798,40.73566,-74.17237,,United States,0,,United States
+vothL598,Philadelphia,/location/Philadelphia,GeoNames,https://www.geonames.org/4560349,https://www.geonames.org/4560349,39.95233,-75.16379,,United States,0,,United States
+vothL408,Bukhara,/location/Bukhara,GeoNames,https://www.geonames.org/1217662,https://www.geonames.org/1217662,39.77472,64.42861,,Uzbekistan,0,,Uzbekistan
+vothL610,Tashkent,/location/Tashkent,GeoNames,https://www.geonames.org/1512569,https://www.geonames.org/1512569,41.26465,69.21627,,Uzbekistan,0,,Uzbekistan
+vothL619,Sławięcice ,/location/Slawiecice ,GeoNames,https://www.geonames.org/3085622/,https://www.geonames.org/3085622/,50.37207,18.32176,,Poland,0,Ehrenforst ,Poland

@@ -168,6 +168,10 @@ source:
       label: 'Religious Faith'
       selector: 'person[@role="interviewee"][1]/faith[1]'
     -
+      name: nationality
+      label: 'nationality'
+      selector: 'person[@role="interviewee"][1]/nationality[1]/@key'
+    -
       name: marital_status
       label: 'Marital Status'
       selector: 'person[@role="interviewee"][1]/state[@type="marital_status"]/desc[1]'
@@ -268,7 +272,18 @@ process:
     bundle: geo_location
     value_key: name
     ignore_case: true
-    source: birthplace  
+    source: birthplace
+  'field_nationality/rel_type':
+    plugin: default_value
+    default_value: schema:nationality 
+  'field_nationality/target_id':
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: geo_location
+    value_key: name
+    ignore_case: true
+    source: nationality
     
 destination:
   plugin: entity:taxonomy_term

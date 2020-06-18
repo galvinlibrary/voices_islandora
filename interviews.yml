@@ -1,0 +1,357 @@
+# This migration shows importing from a single XML file.
+id: zint99
+label: Interview Content
+migration_group: zint
+source:
+  constants:
+    pathalias: '/interview/'
+    embed_back:  '/transcript?embed=true" style="width: 100%;" width="1200"></iframe>'
+    embed_front: '<iframe height="400" src="https://iit.aviaryplatform.com/c/'
+  plugin: url
+  # This is one or more fully-qualified URLs or file paths.
+  urls: 
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/odinetsD.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/tischauerH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/brinI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/rosetR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/ostlandI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/breslauerA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/franzH.xml"    
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/gutmanE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kimmelmannA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/moellerE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kalnietisJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kahnM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/frimL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/boguslaw.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/krakowskiA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/billiT.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/wilfJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/bondyN.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/freilichF.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kahnL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/jeanC.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schrameckA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/bisenhausP.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schwarzfitterJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kluverJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/weinbergJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/buttonE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/benmayorR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/josephyK.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/finkelN.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/minskiJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/sochamiH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/zeplitR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/matznerJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/gertnerA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schiverT.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kahnJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/piskorzB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/stopnitskyU.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/milgramM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/lukoseviciusV.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/nehrichW.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/johlesM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/warsagerB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/neufeldH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/golenJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/reichS.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/mizrachiM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schultzeC.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/joseph.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/deutschY.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/buttonJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/isakovitchS.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/braunA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/rosenfeldP.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/serrasE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/ziererE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/monkF.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/frydmanH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/zgnilekB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/hamburgerL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/feuerO.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/meltzakR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schachtN.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/borgman_freinhofferJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/leaD.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/unikowskiI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/bramsonJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kestenbergJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/marsonM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/wolfI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/gurmanovaR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/moskovitzM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/freilichE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/grossJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/silberbartG.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/oleiskiJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kharchenkoI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/tcharnabrodaR.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/zurilisS.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kruegerE.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/marcusH.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kuechlerL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/bassfreundJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/schlaefrigF.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/stumachinL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/aIlmar.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/rudo.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/skudaikieneB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/suvalkaitisA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/michelsonV.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/nichthauserF.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kaletskaA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/friedmanB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/feneger.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/linikD.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/kaldoreG.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/paulA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/heislerA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/shachnovskiL.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/herskovitzM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/paulisA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/ferberJ.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/hirschD.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/goldwasserB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/rosenwasserI.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/preckerM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/ferdinanskV.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/neimanC.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/horowitzS.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/czolopickiB.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/eisenbergK.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/sprecherM.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/bJanis.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/richardA.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/epsteinN.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/barzilaiN.xml"
+    - "http://digital.library.iit.edu/sites/default/files/voices_fix/lipschitzM.xml"
+    
+  data_fetcher_plugin: http
+  data_parser_plugin: xml
+  #namespaces:
+  #	xi: http://www.w3.org/2001/XInclude
+
+  # The item_selector value is the xpath to use to query the elements.
+  item_selector: /TEI
+  
+  # Under 'fields', we list the data items to be imported. The first level keys
+  # are the source field names we want to populate (the names to be used as
+  # sources in the process configuration below). For each field we're importing,
+  # we provide a label (optional - this is for display in migration tools) and
+  # an xpath for retrieving that value. It's important to note that this xpath
+  # is relative to the elements retrieved by item_xpath.
+  
+  fields:
+    -
+      name: name_uid
+      label: 'unique identifier'
+      selector:  'teiHeader/profileDesc/particDesc/listPerson/person[@role="interviewee"][1]/@id'
+    -
+      name: title
+      label: 'Page Title'
+      selector: 'teiHeader/fileDesc/titleStmt/title'
+    -
+      name: extent
+      label: 'Recording Duration'
+      selector:  'teiHeader/fileDesc/sourceDesc/recordingStmt/recording/@dur'
+    -
+      name: date
+      label: 'date'
+      selector: 'teiHeader/fileDesc/sourceDesc/recordingStmt/recording/date'
+    -
+      name: uid
+      label: 'unique identifier'
+      selector: 'teiHeader/fileDesc/sourceDesc/recordingStmt/recording/@id'
+    -
+      name: lang
+      label: 'interview language'
+      selector: 'teiHeader/fileDesc/sourceDesc/recordingStmt/recording/broadcast/bibl/lang'
+    -
+      name: recordist
+      label: 'interview recordist'
+      selector: "teiHeader/fileDesc/titleStmt/respStmt[resp/text()='Recorded by']/name"
+    
+      name: editor
+      label: 'interview editor'
+      selector: "teiHeader/fileDesc/titleStmt/respStmt[resp/text()='Editor']/name[1]"
+    -
+      name: editor2
+      label: 'interview editor2'
+      selector: "teiHeader/fileDesc/titleStmt/respStmt[resp/text()='Editor']/name[2]" 
+    -
+      name: surname
+      label: 'last name'
+      selector: 'teiHeader/profileDesc/particDesc/listPerson/person[@role="interviewee"][1]/persName[1]/surname[1]'
+    -
+      name: firstname
+      label: 'last name'
+      selector: 'teiHeader/profileDesc/particDesc/listPerson/person[@role="interviewee"][1]/persName[1]/forename[1]'
+    -  
+      name: transcript
+      label: 'interview transcript'
+      selector: 'text/body/div[1]/div/string-join(u)'
+    -  
+      name: translation
+      label: 'interview translation'
+      selector: 'text/body/div[2]/div/string-join(u)'
+      
+  ids:
+    name_uid:
+      type: string   
+
+process:
+  title: title
+  field_identifier: uid
+  
+  'body/format':
+    plugin: default_value
+    default_value: full_html
+    
+  body/value:
+    plugin: concat
+    source:
+      - constants/embed_front
+      - name_uid
+      - constants/embed_back  
+    
+  'path/alias':  
+    plugin: concat
+    source:
+      - constants/pathalias
+      - name_uid
+  
+  field_note:
+   plugin: str_replace
+   source: extent
+   search: ["PT", "H", "M", "S"]
+   replace: ["", ":", ":", ""]
+  
+  
+  field_extent:
+   plugin: str_replace
+   source: extent
+   search: ["PT", "H", "M", "S"]
+   replace: ["", ":", ":", ""]
+  
+  field_model:
+    -  
+       plugin: default_value
+       default_value: Audio
+    -
+       plugin: entity_lookup
+       entity_type: taxonomy_term
+       bundle_key: vid
+       bundle: islandora_models
+       value_key: name
+       ignore_case: true
+  field_resource_type:
+    -  
+       plugin: default_value
+       default_value: Sound
+    -
+       plugin: entity_lookup
+       entity_type: taxonomy_term
+       bundle_key: vid
+       bundle: resource_types
+       value_key: name
+       ignore_case: true
+       
+  field_physical_form:
+    -  
+       plugin: default_value
+       default_value: 'Wire recording'
+    -
+       plugin: entity_lookup
+       entity_type: taxonomy_term
+       bundle_key: vid
+       bundle: physical_form
+       value_key: name
+       ignore_case: true    
+       
+  field_language:
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: language
+    value_key: name
+    ignore_case: true
+    source: lang
+    
+  'field_linked_agent/0/rel_type':
+    plugin: default_value
+    default_value: relators:edt
+  'field_linked_agent/0/target_id':
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: person
+    value_key: name
+    ignore_case: true
+    source: editor
+    
+  'field_linked_agent/1/rel_type':
+    plugin: default_value
+    default_value: relators:edt
+  'field_linked_agent/1/target_id':
+    plugin: entity_lookup
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: person
+    value_key: name
+    ignore_case: true
+    source: editor2
+    
+  'field_linked_agent/2/rel_type':
+    plugin: default_value
+    default_value: relators:ivr
+  'field_linked_agent/2/target_id':
+    - 
+      plugin: default_value
+      default_value: "David P. Boder" 
+    -
+      plugin: entity_lookup
+      entity_type: taxonomy_term
+      bundle_key: vid
+      bundle: person
+      value_key: name
+      ignore_case: true
+   
+  'field_linked_agent/3/rel_type':
+    plugin: default_value
+    default_value: relators:ive
+  'field_linked_agent/3/target_id':
+    - 
+      plugin: concat
+      source:
+        - firstname
+        - surname
+      delimiter: ' '
+    -
+      plugin: entity_lookup
+      entity_type: taxonomy_term
+      bundle_key: vid
+      bundle: person
+      value_key: name
+      ignore_case: true
+      
+  'field_linked_agent/4/rel_type':
+    plugin: default_value
+    default_value: relators:rcd
+  'field_linked_agent/4/target_id':
+      plugin: entity_lookup
+      entity_type: taxonomy_term
+      bundle_key: vid
+      bundle: person
+      value_key: name
+      ignore_case: true
+      
+  field_transcript: transcript
+  
+  field_translation: translation
+  
+destination:
+  plugin: entity:node
+  default_bundle: islandora_object

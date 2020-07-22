@@ -21,7 +21,7 @@ Migration Routine:
     * Swap nationality codes for geographic taxonomy term names
       * `find_nats.py`
     * Combine transcript and translation text into single elements
-      * `transform.xls`
+      * `transcripts.xls`
   * Import Persons:
     * `drush migrate-import persons`
     

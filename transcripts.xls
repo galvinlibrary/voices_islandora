@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Use this transform to create a single transcript and translation element in the boder interview.xml files -->
+
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+    <xsl:strip-space elements="*"/>
+
+        
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="text/body/div[1]">
+        <transcript>
+            <xsl:value-of select="string-join((*/u), ' ')"/>
+        </transcript>
+    </xsl:template>
+    
+    <xsl:template match="text/body/div[2]">
+        <translation>
+            <xsl:value-of select="string-join((*/u), ' ')"/>
+        </translation>
+    </xsl:template>
+
+</xsl:stylesheet>

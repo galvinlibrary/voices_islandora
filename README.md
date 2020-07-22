@@ -20,6 +20,8 @@ Migration Routine:
       * `find_and_replace_voth.py`
     * Swap nationality codes for geographic taxonomy term names
       * `find_nats.py`
+    * Combine transcript and translation text into single elements
+      * `transform.xls`
   * Import Persons:
     * `drush migrate-import persons`
     

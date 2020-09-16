@@ -6,9 +6,9 @@ import mysql.connector
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="fnn8voub",
-  database="drupal8"
+  user="#######################",
+  password="######################",
+  database="###################"
 )
 
 

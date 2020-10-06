@@ -1,3 +1,5 @@
+## extract locations mentioned in TEI transcripts
+
 import xml.etree.ElementTree as ET
 import csv
 import os

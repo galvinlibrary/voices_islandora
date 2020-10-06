@@ -1,5 +1,3 @@
-## extract locations mentioned in TEI transcripts
-
 import xml.etree.ElementTree as ET
 import csv
 import os
@@ -18,21 +16,32 @@ def get_places(x):
     root = tree.getroot()
     
     places = []    
-    # get element attribute value. append to list
+
+    
+    # use xpath to target place names.  use get method to select attribute values
+    scratch = []
+    for place in root.findall("./text/body/div/div/u/placeName"):
+        voth = place.get('ref')
+        if voth not in scratch:
+            scratch.append(voth)    
+        #print(place.text, voth)
+        
+    long_string = ';'.join(scratch)
+    places.append(long_string)
+    
+    scratch = []
+        #print (long_string)
+        
+    #print(places)
+    int_places.append(places)
+    #int_places.append(long_string)
+
+# get element attribute value. append to list
     for uid in root.iter('recording'):
         #uid = (uid.attrib)
         id = uid.get('id')
         places.append(id)
     
-    # use xpath to target place names.  use get method to select attribute values
-    for place in root.findall("./text/body/div/div/u/placeName"):
-        voth = place.get('ref')
-        if voth not in places:
-            places.append(voth)
-        #print(place.text, voth)
-    
-    int_places.append(places)
-
 for dirs, subs, files in os.walk(my_dir):
     for f in files:
         fname = (my_dir + '\\' + f)
@@ -40,11 +49,11 @@ for dirs, subs, files in os.walk(my_dir):
 
 # write to csv
 
-file = open(r'C:\Users\tfluhr\Desktop\places.csv', 'a+', newline = '')
+file = open(r'C:\Users\tfluhr\Desktop\places2.csv', 'a+', newline = '')
 with file:
     write = csv.writer(file)
     write.writerows(int_places)
 
-#print(int_places)
+print(int_places)
 #for i in int_places:
 #    print(i)
